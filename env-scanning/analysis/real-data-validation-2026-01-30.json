@@ -1,0 +1,37 @@
+{
+  "validation_date": "2026-01-30",
+  "data_source": "arXiv",
+  "mode": "real_data",
+  "total_signals": 178,
+  "workflow_execution_time": 4.240674018859863,
+  "phase_timings": {
+    "phase_1": 0.0335540771484375,
+    "phase_2": 4.205471038818359,
+    "phase_3": 0.0015637874603271484
+  },
+  "step_timings": {
+    "1.1 Archive Loader": 0.01252603530883789,
+    "1.3 Deduplication Filter": 0.02102804183959961,
+    "2.1 Signal Classifier": 0.00011491775512695312,
+    "2.2 Impact Analyzer (OPTIMIZED)": 4.205120086669922,
+    "2.3 Priority Ranker": 0.00023603439331054688,
+    "3.1 Report Generator": 0.0015637874603271484
+  },
+  "optimization_metrics": {
+    "size": 178,
+    "optimization": "hierarchical_clustering",
+    "total_comparisons": 4184,
+    "naive_comparisons": 31506,
+    "reduction_percentage": 86.7,
+    "total_batches": 420,
+    "execution_time": 4.205120086669922
+  },
+  "category_distribution": {
+    "T": 50,
+    "E": 40,
+    "S": 23,
+    "P": 61,
+    "s": 4
+  },
+  "validation_status": "SUCCESS"
+}

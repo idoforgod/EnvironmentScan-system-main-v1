@@ -1,0 +1,158 @@
+{
+  "scan_date": "2026-02-03",
+  "workflow_id": "scan-2026-02-03-marathon",
+  "mode": "marathon",
+  "stage_a": {
+    "sources_scanned": 5,
+    "items_collected": 72,
+    "sources": {
+      "arXiv": {
+        "items": 20,
+        "status": "success",
+        "tier": "base",
+        "type": "academic"
+      },
+      "US Federal Register": {
+        "items": 20,
+        "status": "success",
+        "tier": "base",
+        "type": "policy"
+      },
+      "WHO Press Releases": {
+        "items": 2,
+        "status": "success",
+        "tier": "base",
+        "type": "policy"
+      },
+      "TechCrunch": {
+        "items": 20,
+        "status": "success",
+        "tier": "base",
+        "type": "blog"
+      },
+      "MIT Technology Review": {
+        "items": 10,
+        "status": "success",
+        "tier": "base",
+        "type": "blog"
+      }
+    }
+  },
+  "stage_b": {
+    "sources_scanned": 9,
+    "sources_failed": 9,
+    "items_collected": 93,
+    "sources": {
+      "Nature News": {
+        "items": 15,
+        "status": "success",
+        "tier": "expansion",
+        "type": "academic"
+      },
+      "IEEE Spectrum": {
+        "items": 10,
+        "status": "success",
+        "tier": "expansion",
+        "type": "academic"
+      },
+      "UN News": {
+        "items": 15,
+        "status": "success",
+        "tier": "expansion",
+        "type": "policy"
+      },
+      "Hacker News": {
+        "items": 15,
+        "status": "success",
+        "tier": "expansion",
+        "type": "blog"
+      },
+      "Pew Research Center": {
+        "items": 10,
+        "status": "success",
+        "tier": "expansion",
+        "type": "blog"
+      },
+      "Carbon Brief": {
+        "items": 4,
+        "status": "success",
+        "tier": "expansion",
+        "type": "blog"
+      },
+      "BIS Speeches": {
+        "items": 10,
+        "status": "success",
+        "tier": "expansion",
+        "type": "policy"
+      },
+      "Science Magazine": {
+        "items": 10,
+        "status": "success",
+        "tier": "expansion",
+        "type": "academic"
+      },
+      "NASA Climate Change": {
+        "items": 4,
+        "status": "success",
+        "tier": "expansion",
+        "type": "policy"
+      },
+      "Wired": {
+        "items": 0,
+        "status": "failed",
+        "error": "fetch_blocked",
+        "tier": "expansion"
+      },
+      "Ars Technica": {
+        "items": 0,
+        "status": "failed",
+        "error": "fetch_blocked",
+        "tier": "expansion"
+      },
+      "PubMed Central": {
+        "items": 0,
+        "status": "failed",
+        "error": "html_no_feed",
+        "tier": "expansion"
+      },
+      "World Bank Blogs": {
+        "items": 0,
+        "status": "failed",
+        "error": "404_redirect",
+        "tier": "expansion"
+      },
+      "EUR-Lex Recent Acts": {
+        "items": 0,
+        "status": "failed",
+        "error": "html_no_feed",
+        "tier": "expansion"
+      },
+      "OECD Newsroom": {
+        "items": 0,
+        "status": "failed",
+        "error": "html_no_feed",
+        "tier": "expansion"
+      },
+      "World Economic Forum": {
+        "items": 0,
+        "status": "failed",
+        "error": "html_no_feed",
+        "tier": "expansion"
+      },
+      "IMF Blog": {
+        "items": 0,
+        "status": "failed",
+        "error": "html_no_feed",
+        "tier": "expansion"
+      },
+      "Brookings Institution": {
+        "items": 0,
+        "status": "skipped",
+        "error": "redirect_loop",
+        "tier": "expansion"
+      }
+    }
+  },
+  "total_items_raw": 165,
+  "collection_timestamp": "2026-02-03T07:30:00Z"
+}

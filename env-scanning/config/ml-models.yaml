@@ -1,0 +1,99 @@
+# AI/ML Model Configurations
+# Version: 1.0.0
+# Last Updated: 2026-01-29
+
+# Semantic Similarity Models
+semantic_models:
+  primary:
+    name: "SBERT"
+    model_id: "all-MiniLM-L6-v2"
+    provider: "sentence-transformers"
+    embedding_dimension: 384
+    max_sequence_length: 256
+    use_gpu: false  # Set to true if GPU available
+
+  fallback:
+    name: "TF-IDF"
+    provider: "scikit-learn"
+    max_features: 5000
+    ngram_range: [1, 2]
+
+# Named Entity Recognition
+ner_models:
+  primary:
+    name: "spaCy"
+    model: "en_core_web_sm"
+    entity_types:
+      - "ORG"  # Organizations
+      - "GPE"  # Geopolitical entities
+      - "PERSON"  # Key individuals
+      - "PRODUCT"  # Technologies/products
+
+  custom_tech_dictionary:
+    enabled: true
+    path: "config/tech-keywords.txt"
+    description: "Custom technology term recognition"
+
+# Topic Modeling (WISDOM Framework)
+topic_modeling:
+  enabled: false  # Set to true when WISDOM model available
+  method: "WISDOM"
+  min_topics: 5
+  max_topics: 20
+  coherence_threshold: 0.4
+
+# Growth Pattern Learning (GCN)
+gcn_models:
+  enabled: false  # Set to true when GCN model available
+  method: "Graph Convolutional Network"
+  history_years: 10
+  node_features:
+    - "keyword_frequency"
+    - "source_diversity"
+    - "citation_count"
+    - "time_acceleration"
+
+# Large Language Model (LLM) Configuration
+llm:
+  provider: "claude"
+  model: "claude-sonnet-4-5-20250929"
+  temperature: 0.3  # Lower for factual analysis
+  max_tokens: 4000
+
+  prompts:
+    classification:
+      system: |
+        You are an expert in STEEPs framework environmental scanning.
+        Classify signals into exactly ONE category: S, T, E (economic), E (environmental), P, or s (spiritual).
+        Be precise and provide reasoning.
+
+    impact_analysis:
+      system: |
+        You are a futures research analyst.
+        Identify 1st and 2nd order impacts of signals.
+        Consider cross-domain effects and cascading consequences.
+
+    report_generation:
+      system: |
+        You are writing for senior executives.
+        Use clear, action-oriented Korean language.
+        Focus on strategic implications, not technical details.
+
+# Model Caching
+caching:
+  enabled: true
+  embedding_cache_size: 10000  # Max cached embeddings
+  ttl: 86400  # 24 hours
+
+# Performance Optimization
+optimization:
+  batch_processing: true
+  batch_size: 32
+  parallel_requests: 5
+  request_timeout: 30  # seconds
+
+# Model Updates
+updates:
+  check_frequency: "monthly"
+  auto_update: false  # Manual review recommended
+  fallback_on_update_failure: true

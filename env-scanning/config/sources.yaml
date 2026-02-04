@@ -1,0 +1,534 @@
+# Data Source Configurations
+# Version: 4.0.0 - Dual Workflow (arXiv transferred to WF2)
+# Last Updated: 2026-02-03
+#
+# Tier System:
+#   base      - Always scanned (Stage A, in all modes)
+#   expansion - Scanned by default in Stage B (skipped only with --base-only)
+#
+# Health Tracking Fields (per source, updated at runtime):
+#   health_status:        healthy | unhealthy | suspect (set by System 1)
+#   last_health_check:    ISO timestamp of last check
+#   resolved_url:         Actual working URL found by System 2 (redirect resolver)
+#   fetch_strategy:       Successful strategy cached by System 3 (adaptive fetcher)
+#   consecutive_failures: Count of consecutive scan failures
+#
+# Marathon mode (default) scans both base + expansion sources.
+# Use --base-only flag to skip expansion sources when faster scanning is needed.
+
+sources:
+  # ========================================
+  # BASE TIER — Academic Sources
+  # ========================================
+
+  - name: "arXiv"
+    tier: "base"
+    type: "academic"
+    enabled: false  # TRANSFERRED TO WF2 (arXiv dedicated workflow) — 2026-02-03
+    api_endpoint: "http://export.arxiv.org/api/query"
+    rate_limit: 300  # per minute (actual: 1 request per 3 seconds)
+    timeout: 30  # seconds
+    critical: false  # No longer critical in WF1 (handled by WF2)
+    date_filter: "last_7_days"
+    max_results: 20  # papers per STEEPs category
+    description: "Open academic paper repository - no authentication required"
+    reliability: "high"
+    cost: "free"
+    validation_status: "production_ready"  # Validated 2026-01-30
+    removal_reason: "Transferred to WF2 (arXiv dedicated workflow)"
+    removed_date: "2026-02-03"
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # Future base academic sources (disabled — not yet implemented)
+  - name: "Google Scholar"
+    tier: "base"
+    type: "academic"
+    enabled: false  # Not yet implemented
+    api_endpoint: "https://serpapi.com/search"
+    api_key_env: "SERPAPI_KEY"
+    rate_limit: 100  # per hour
+    timeout: 30
+    critical: false
+    max_results: 50
+
+  - name: "SSRN"
+    tier: "base"
+    type: "academic"
+    enabled: false  # No centralized RSS feed - individual feeds per author only
+    rss_feed: "https://papers.ssrn.com/sol3/rss_feed.cfm"  # URL no longer works
+    timeout: 15
+    critical: false
+    note: "SSRN removed centralized RSS - consider individual author feeds or alternative source"
+
+  # ========================================
+  # BASE TIER — Patent Sources
+  # ========================================
+
+  - name: "Google Patents"
+    tier: "base"
+    type: "patent"
+    enabled: true
+    api_endpoint: "https://patents.google.com/api"
+    rate_limit: 50  # per minute
+    timeout: 30
+    critical: false
+    date_filter: "last_30_days"  # Patents: monthly scan
+    max_results: 30
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "KIPRIS"
+    tier: "base"
+    type: "patent"
+    enabled: false  # Requires Korean government API key
+    api_endpoint: "http://plus.kipris.or.kr/openapi"
+    api_key_env: "KIPRIS_API_KEY"
+    rate_limit: 100
+    timeout: 20
+    critical: false
+
+  # ========================================
+  # BASE TIER — Policy & Regulatory
+  # ========================================
+
+  - name: "EU Press Releases"
+    tier: "base"
+    type: "policy"
+    enabled: false  # No public RSS feed - uses email notifications
+    rss_feed: "https://ec.europa.eu/commission/presscorner/api/documents.rss"  # URL returns 404
+    timeout: 15
+    critical: false
+    note: "EU Commission uses email notifications instead of RSS - consider EUR-Lex or alternative"
+
+  - name: "US Federal Register"
+    tier: "base"
+    type: "policy"
+    enabled: true
+    api_endpoint: "https://www.federalregister.gov/api/v1/documents"
+    rate_limit: 1000  # per hour
+    timeout: 20
+    critical: false
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "WHO Press Releases"
+    tier: "base"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://www.who.int/rss-feeds/news-english.xml"
+    timeout: 15
+    critical: false
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # BASE TIER — Tech Blogs & Reports
+  # ========================================
+
+  - name: "TechCrunch"
+    tier: "base"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://techcrunch.com/feed/"
+    timeout: 15
+    critical: false
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "MIT Technology Review"
+    tier: "base"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.technologyreview.com/feed/"
+    timeout: 15
+    critical: false
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "The Economist - Technology"
+    tier: "base"
+    type: "blog"
+    enabled: false  # Requires subscription
+    rss_feed: "https://www.economist.com/technology/rss.xml"
+    timeout: 15
+    critical: false
+
+  # ========================================
+  # EXPANSION TIER — Academic (Skipped with --base-only)
+  # ========================================
+
+  - name: "PubMed Central"
+    tier: "expansion"
+    type: "academic"
+    enabled: true
+    rss_feed: "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=emerging+technology+OR+public+health+trend&format=xml"
+    timeout: 20
+    critical: false
+    max_results: 30
+    description: "Biomedical and life sciences research - health/demographic signals"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["S_Social", "E_Environmental"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Nature News"
+    tier: "expansion"
+    type: "academic"
+    enabled: true
+    rss_feed: "https://www.nature.com/nature.rss"
+    timeout: 15
+    critical: false
+    max_results: 20
+    description: "Multidisciplinary science news - broad signal coverage"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["T_Technological", "E_Environmental", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Science Magazine"
+    tier: "expansion"
+    type: "academic"
+    enabled: true
+    rss_feed: "https://www.science.org/rss/news_current.xml"
+    timeout: 15
+    critical: false
+    max_results: 20
+    description: "AAAS flagship journal news - policy-relevant science"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["T_Technological", "P_Political", "E_Environmental"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "IEEE Spectrum"
+    tier: "expansion"
+    type: "academic"
+    enabled: true
+    rss_feed: "https://spectrum.ieee.org/feeds/feed.rss"
+    timeout: 15
+    critical: false
+    max_results: 20
+    description: "Engineering and applied technology trends"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["T_Technological"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # EXPANSION TIER — Policy & International (Skipped with --base-only)
+  # ========================================
+
+  - name: "OECD Newsroom"
+    tier: "expansion"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://www.oecd.org/newsroom/index.xml"
+    timeout: 20
+    critical: false
+    max_results: 20
+    description: "OECD policy analysis and economic outlook"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Economic", "P_Political", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "World Bank Blogs"
+    tier: "expansion"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://blogs.worldbank.org/feed"
+    timeout: 15
+    critical: false
+    max_results: 20
+    description: "Development economics and global poverty research"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Economic", "S_Social", "P_Political"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "UN News"
+    tier: "expansion"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+    timeout: 15
+    critical: false
+    max_results: 20
+    description: "United Nations official news - geopolitics and global issues"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["P_Political", "S_Social", "E_Environmental"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "EUR-Lex Recent Acts"
+    tier: "expansion"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://eur-lex.europa.eu/EN/display-feed.html?rssId=67"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "EU legislation and regulatory acts"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["P_Political", "E_Economic"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # EXPANSION TIER — Think Tanks & Research (Skipped with --base-only)
+  # ========================================
+
+  - name: "Brookings Institution"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.brookings.edu/feed/"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "US policy research - governance, economics, foreign policy"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["P_Political", "E_Economic", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "World Economic Forum"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.weforum.org/feed/"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Global economic and social issues agenda setting"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["E_Economic", "T_Technological", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Pew Research Center"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.pewresearch.org/feed/"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Public opinion, demographics, social trends research"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["S_Social", "P_Political"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # EXPANSION TIER — Tech & Innovation (Skipped with --base-only)
+  # ========================================
+
+  - name: "Hacker News"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://hnrss.org/frontpage"
+    timeout: 15
+    critical: false
+    max_results: 20
+    description: "Y Combinator tech community - startup and innovation signals"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["T_Technological", "E_Economic"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Wired"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.wired.com/feed/rss"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Technology, culture, and their intersection"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["T_Technological", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Ars Technica"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://feeds.arstechnica.com/arstechnica/index"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "In-depth technology analysis and policy coverage"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["T_Technological", "P_Political"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # EXPANSION TIER — Environmental & Climate (Skipped with --base-only)
+  # ========================================
+
+  - name: "NASA Climate Change"
+    tier: "expansion"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://climate.nasa.gov/news/rss.xml"
+    timeout: 15
+    critical: false
+    max_results: 10
+    description: "NASA climate science news and data"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Environmental"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Carbon Brief"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.carbonbrief.org/feed/"
+    timeout: 15
+    critical: false
+    max_results: 10
+    description: "Climate science and energy policy analysis"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Environmental", "P_Political", "E_Economic"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # EXPANSION TIER — Economic & Finance (Skipped with --base-only)
+  # ========================================
+
+  - name: "IMF Blog"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.imf.org/en/News/Rss?Language=ENG"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "International monetary policy and global economic outlook"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Economic", "P_Political"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "BIS Speeches"
+    tier: "expansion"
+    type: "policy"
+    enabled: true
+    rss_feed: "https://www.bis.org/doclist/cbspeeches.rss"
+    timeout: 15
+    critical: false
+    max_results: 10
+    description: "Central bank speeches - monetary policy and financial stability signals"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Economic", "P_Political"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+# Retry Configuration
+retry_policy:
+  max_attempts: 3
+  backoff_strategy: "exponential"  # 1s, 2s, 4s
+  timeout_increase: true  # Increase timeout on retry
+
+# Error Handling
+error_handling:
+  on_critical_failure: "halt_workflow"
+  on_non_critical_failure: "skip_and_continue"
+  log_errors: true
+  notify_on_failure: false  # Set to true for email/Slack alerts

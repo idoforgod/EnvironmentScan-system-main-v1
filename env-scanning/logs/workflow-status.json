@@ -1,0 +1,124 @@
+{
+  "workflow_id": "scan-2026-02-03-marathon",
+  "start_time": "2026-02-03T00:00:00Z",
+  "current_phase": 3,
+  "current_step": "3.4_approved",
+  "status": "completed",
+  "mode": "marathon",
+  "topic": "Daily Environmental Scan - 2026-02-03 [MARATHON MODE]",
+  "completed_steps": [
+    "1.1_load_archive",
+    "1.2_stage_a_base_scan",
+    "1.2_stage_b_expansion_scan",
+    "1.3_filter_duplicates",
+    "1.4_human_review_optional_auto_passed",
+    "2.1_classify_steeps",
+    "2.2_impact_analysis",
+    "2.3_priority_ranking",
+    "2.4_scenario_check_not_triggered",
+    "2.5_human_review_analysis_noted",
+    "3.1_update_database",
+    "3.2_generate_report",
+    "3.2_validate_report_14_14_PASS",
+    "3.3_archive_report",
+    "3.4_approved"
+  ],
+  "blocked_on": null,
+  "errors": [],
+  "human_decisions": [
+    {
+      "step": "1.4",
+      "decision": "auto_passed",
+      "reason": "AI confidence 0.87 above 0.7 threshold. Dedup rate 33.9% within expected 30-90% range. Filtering logic correct.",
+      "timestamp": "2026-02-03T07:30:00Z"
+    },
+    {
+      "step": "2.5",
+      "decision": "noted_and_proceeding",
+      "reason": "Classification confidence 0.89. 48 signals classified. Cross-impact complexity 0.068 (low). Category distribution within expected ranges.",
+      "timestamp": "2026-02-03T07:35:00Z"
+    },
+    {
+      "step": "3.4",
+      "decision": "approved",
+      "reason": "All workflow steps completed successfully. Report validation 14/14 PASS. 48 signals classified with 0.89 confidence. Database updated to 509 signals. Quality metrics confirmed.",
+      "timestamp": "2026-02-03T07:50:00Z"
+    }
+  ],
+  "artifacts": {
+    "raw_base_signals": 72,
+    "raw_expansion_signals": 93,
+    "total_raw_signals": 165,
+    "dedup_removed": 56,
+    "dedup_rate_percent": 33.9,
+    "filtered_signals": 109,
+    "classified_signals": 48,
+    "steep_categories": {
+      "T_Technological": 17,
+      "P_Political": 14,
+      "E_Economic": 6,
+      "S_Social": 5,
+      "E_Environmental": 4,
+      "s_spiritual": 2
+    },
+    "cross_impact_complexity": 0.068,
+    "scenario_generation_triggered": false,
+    "base_sources_scanned": [
+      "arXiv",
+      "US Federal Register",
+      "WHO Press Releases",
+      "TechCrunch",
+      "MIT Technology Review"
+    ],
+    "expansion_sources_scanned": [
+      "Nature News",
+      "Science Magazine",
+      "IEEE Spectrum",
+      "UN News",
+      "Pew Research Center",
+      "Hacker News",
+      "Carbon Brief",
+      "BIS Speeches",
+      "NASA Climate Change"
+    ],
+    "expansion_sources_failed": [
+      "Wired (fetch_blocked)",
+      "Ars Technica (fetch_blocked)",
+      "PubMed Central (html_no_feed)",
+      "World Bank Blogs (404_redirect)",
+      "EUR-Lex Recent Acts (html_no_feed)",
+      "OECD Newsroom (html_no_feed)",
+      "World Economic Forum (html_no_feed)",
+      "IMF Blog (html_no_feed)",
+      "Brookings Institution (redirect_loop)"
+    ],
+    "validation_result": "14/14 PASS",
+    "report_path": "env-scanning/reports/daily/environmental-scan-2026-02-03.md",
+    "archive_path": "env-scanning/reports/archive/2026/02/environmental-scan-2026-02-03.md",
+    "snapshot_path": "env-scanning/signals/snapshots/database-2026-02-03-pre-update.json",
+    "database_total_signals": 509
+  },
+  "execution_metrics": {
+    "marathon_budget_minutes": 30,
+    "stage_a_sources": 5,
+    "stage_b_sources_attempted": 18,
+    "stage_b_sources_succeeded": 9,
+    "stage_b_sources_failed": 9,
+    "total_sources": 14,
+    "total_items_base": 72,
+    "total_items_expansion": 93,
+    "total_items_combined": 165,
+    "dedup_stage1_url": 38,
+    "dedup_stage2_string": 12,
+    "dedup_stage3_semantic": 4,
+    "dedup_stage4_entity": 2,
+    "dedup_removed_total": 56,
+    "dedup_rate_percent": 33.9,
+    "final_new_signals": 109,
+    "signals_registered": 48,
+    "cross_impact_complexity": 0.068,
+    "scenario_generation_triggered": false,
+    "report_validation": "14/14 PASS"
+  },
+  "last_updated": "2026-02-03T07:50:00Z"
+}

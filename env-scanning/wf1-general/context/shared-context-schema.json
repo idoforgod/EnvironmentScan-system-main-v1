@@ -1,0 +1,527 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Shared Context Store Schema",
+  "description": "Schema for the shared context store that accumulates intelligence across all agents",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version",
+      "const": "1.0"
+    },
+    "workflow_id": {
+      "type": "string",
+      "description": "Workflow identifier (e.g., scan-2026-01-29)",
+      "pattern": "^scan-\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of creation"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of last update"
+    },
+    "signal_embeddings": {
+      "type": "object",
+      "description": "Cached SBERT embeddings for signals (reused across agents)",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "vector": {
+              "type": "array",
+              "items": {"type": "number"},
+              "description": "SBERT embedding vector (768 dimensions)"
+            },
+            "model": {
+              "type": "string",
+              "description": "Model used for embedding",
+              "enum": ["SBERT", "TF-IDF"]
+            },
+            "computed_at": {
+              "type": "string",
+              "description": "Step when computed (e.g., step_1.2, step_1.3)"
+            },
+            "text_source": {
+              "type": "string",
+              "description": "Text used for embedding (title+abstract)",
+              "maxLength": 500
+            }
+          },
+          "required": ["vector", "model", "computed_at"]
+        }
+      }
+    },
+    "preliminary_analysis": {
+      "type": "object",
+      "description": "Initial analysis from scanner (reused by classifier)",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "category_guess": {
+              "type": "string",
+              "description": "Preliminary STEEPs category",
+              "enum": ["S", "T", "E", "E", "P", "s"]
+            },
+            "confidence": {
+              "type": "number",
+              "description": "Confidence in preliminary category",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "keywords": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "ML-extracted keywords (TF-IDF + BERT)"
+            },
+            "entities": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Named entities (organizations, technologies, policies)"
+            },
+            "relevance_score": {
+              "type": "number",
+              "description": "Preliminary relevance (1-5)",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "computed_at": {
+              "type": "string",
+              "description": "Step when computed",
+              "const": "step_1.2"
+            }
+          },
+          "required": ["category_guess", "confidence", "keywords"]
+        }
+      }
+    },
+    "deduplication_analysis": {
+      "type": "object",
+      "description": "Deduplication results (reused for audit)",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "is_duplicate": {
+              "type": "boolean",
+              "description": "Whether signal was marked as duplicate"
+            },
+            "duplicate_of": {
+              "type": ["string", "null"],
+              "description": "ID of original signal if duplicate"
+            },
+            "stage_matched": {
+              "type": "string",
+              "description": "Which cascade stage matched",
+              "enum": ["stage_1_url", "stage_2_string", "stage_3_semantic", "stage_4_entity", "none"]
+            },
+            "match_confidence": {
+              "type": "number",
+              "description": "Confidence in duplicate match",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "match_reasons": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Reasons for duplicate match"
+            },
+            "computed_at": {
+              "type": "string",
+              "const": "step_1.3"
+            }
+          },
+          "required": ["is_duplicate", "match_confidence"]
+        }
+      }
+    },
+    "validated_by_experts": {
+      "type": "object",
+      "description": "Expert validation results from RT-AID (Phase 1.5)",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "expert_category": {
+              "type": "string",
+              "description": "Category assigned by expert consensus",
+              "enum": ["S", "T", "E", "E", "P", "s"]
+            },
+            "expert_priority": {
+              "type": "integer",
+              "description": "Priority assigned by experts (1-5)",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "expert_consensus": {
+              "type": "number",
+              "description": "Agreement level among experts (0-1)",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "expert_comments": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Expert panel comments"
+            },
+            "validation_round": {
+              "type": "integer",
+              "description": "Delphi round when consensus reached"
+            },
+            "computed_at": {
+              "type": "string",
+              "const": "step_1.5"
+            }
+          },
+          "required": ["expert_category", "expert_consensus"]
+        }
+      }
+    },
+    "final_classification": {
+      "type": "object",
+      "description": "Final classification from @signal-classifier",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "final_category": {
+              "type": "string",
+              "enum": ["S", "T", "E", "E", "P", "s"]
+            },
+            "classification_source": {
+              "type": "string",
+              "description": "Source of classification",
+              "enum": ["expert_validated", "ai_classified", "user_override"]
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "all_scores": {
+              "type": "object",
+              "properties": {
+                "significance": {"type": "integer", "minimum": 1, "maximum": 5},
+                "accuracy": {"type": "integer", "minimum": 1, "maximum": 5},
+                "confidence": {"type": "integer", "minimum": 1, "maximum": 5},
+                "innovation": {"type": "integer", "minimum": 1, "maximum": 5}
+              }
+            },
+            "computed_at": {
+              "type": "string",
+              "const": "step_2.1"
+            }
+          },
+          "required": ["final_category", "classification_source"]
+        }
+      }
+    },
+    "impact_analysis": {
+      "type": "object",
+      "description": "Impact scores and cross-influences",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "impact_score": {
+              "type": "number",
+              "description": "Overall impact score (0-10)",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "first_order_impacts": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Direct consequences"
+            },
+            "second_order_impacts": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Derived effects"
+            },
+            "influences": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "target_signal": {"type": "string"},
+                  "influence_score": {"type": "number", "minimum": -5, "maximum": 5},
+                  "influence_type": {"type": "string", "enum": ["amplifies", "suppresses", "neutral"]}
+                }
+              },
+              "description": "Cross-impact influences on other signals"
+            },
+            "computed_at": {
+              "type": "string",
+              "const": "step_2.2"
+            }
+          },
+          "required": ["impact_score"]
+        }
+      }
+    },
+    "priority_ranking": {
+      "type": "object",
+      "description": "Final priority scores",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "priority_score": {
+              "type": "number",
+              "description": "Overall priority (0-10)",
+              "minimum": 0,
+              "maximum": 10
+            },
+            "rank": {
+              "type": "integer",
+              "description": "Rank position (1 = highest)",
+              "minimum": 1
+            },
+            "priority_breakdown": {
+              "type": "object",
+              "properties": {
+                "impact_component": {"type": "number"},
+                "probability_component": {"type": "number"},
+                "urgency_component": {"type": "number"},
+                "novelty_component": {"type": "number"}
+              }
+            },
+            "computed_at": {
+              "type": "string",
+              "const": "step_2.3"
+            }
+          },
+          "required": ["priority_score", "rank"]
+        }
+      }
+    },
+    "psst_scores": {
+      "type": "object",
+      "description": "pSST (predicted Signal Scanning Trust) scores - per-signal confidence assessment",
+      "patternProperties": {
+        "^signal-": {
+          "type": "object",
+          "properties": {
+            "psst_score": {
+              "type": "number",
+              "description": "Final pSST composite score (0-100)",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "psst_grade": {
+              "type": "string",
+              "description": "Letter grade (A/B/C/D)",
+              "enum": ["A", "B", "C", "D"]
+            },
+            "grade_label": {
+              "type": "string",
+              "description": "Grade label",
+              "enum": ["very_high", "confident", "low", "very_low"]
+            },
+            "dimensions": {
+              "type": "object",
+              "description": "Individual dimension scores (0-100 each)",
+              "properties": {
+                "SR": {"type": "integer", "minimum": 0, "maximum": 100, "description": "Source Reliability"},
+                "ES": {"type": "integer", "minimum": 0, "maximum": 100, "description": "Evidence Strength"},
+                "CC": {"type": "integer", "minimum": 0, "maximum": 100, "description": "Classification Confidence"},
+                "TC": {"type": "integer", "minimum": 0, "maximum": 100, "description": "Temporal Confidence"},
+                "DC": {"type": "integer", "minimum": 0, "maximum": 100, "description": "Distinctiveness Confidence"},
+                "IC": {"type": "integer", "minimum": 0, "maximum": 100, "description": "Impact Confidence"}
+              }
+            },
+            "stage_scores": {
+              "type": "object",
+              "description": "Cumulative confidence at each pipeline stage",
+              "properties": {
+                "stage_1_collection": {"type": "number"},
+                "stage_2_filtering": {"type": "number"},
+                "stage_3_classification": {"type": "number"},
+                "stage_4_impact": {"type": "number"},
+                "stage_5_ranking": {"type": "number"}
+              }
+            },
+            "level2_breakdown": {
+              "type": "object",
+              "description": "Level 2 advanced criteria scores for upper-tier differentiation (SR, TC, DC)",
+              "properties": {
+                "SR": {
+                  "type": "object",
+                  "properties": {
+                    "has_methodology": {"type": "boolean", "description": "Source describes research methodology"},
+                    "has_replication": {"type": "boolean", "description": "Findings independently replicated"},
+                    "data_transparency": {"type": "boolean", "description": "Raw data/code publicly available"}
+                  }
+                },
+                "TC": {
+                  "type": "object",
+                  "properties": {
+                    "momentum": {"type": "string", "enum": ["accelerating", "stable", "decelerating"], "description": "Signal coverage momentum"},
+                    "has_update": {"type": "boolean", "description": "Has recent follow-up or update"},
+                    "time_sensitivity": {"type": "boolean", "description": "Time-bound decision window exists"}
+                  }
+                },
+                "DC": {
+                  "type": "object",
+                  "properties": {
+                    "semantic_distance": {"type": "number", "minimum": 0, "maximum": 1, "description": "Cosine distance from nearest cluster centroid"},
+                    "information_gain": {"type": "number", "minimum": 0, "maximum": 1, "description": "Ratio of new keywords vs existing DB"},
+                    "cross_category_novelty": {"type": "boolean", "description": "Introduces rare concepts to its category"}
+                  }
+                }
+              }
+            },
+            "calibration_version": {
+              "type": "string",
+              "description": "Calibration version used (e.g., v1.0-uncalibrated)"
+            },
+            "computed_at": {
+              "type": "string",
+              "description": "Step when final pSST was computed",
+              "const": "step_2.3"
+            }
+          },
+          "required": ["psst_score", "psst_grade", "dimensions"]
+        }
+      }
+    },
+    "translation_status": {
+      "type": "object",
+      "description": "Translation status and quality metrics for bilingual workflow",
+      "properties": {
+        "translations_completed": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "step": {
+                "type": "string",
+                "description": "Workflow step (e.g., step_1.2, step_2.2)",
+                "pattern": "^step_\\d+\\.\\d+[a-z]?$"
+              },
+              "source_file": {
+                "type": "string",
+                "description": "Original English file path"
+              },
+              "target_file": {
+                "type": "string",
+                "description": "Translated Korean file path (with -ko suffix)"
+              },
+              "translated_at": {
+                "type": "string",
+                "format": "date-time",
+                "description": "ISO 8601 timestamp of translation completion"
+              },
+              "translation_confidence": {
+                "type": "number",
+                "description": "Overall translation quality confidence",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "back_translation_similarity": {
+                "type": "number",
+                "description": "Semantic similarity between original and back-translated text",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "terminology_accuracy": {
+                "type": "number",
+                "description": "Accuracy of STEEPs and technical term preservation",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "quality_status": {
+                "type": "string",
+                "description": "Translation quality status",
+                "enum": ["PASS", "REVIEW", "RETRY", "FAILED"]
+              },
+              "retry_count": {
+                "type": "integer",
+                "description": "Number of translation attempts",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "file_format": {
+                "type": "string",
+                "description": "File format type",
+                "enum": ["json", "markdown", "log", "yaml"]
+              }
+            },
+            "required": ["step", "source_file", "target_file", "translated_at", "quality_status"]
+          },
+          "description": "List of all completed translations in this workflow"
+        },
+        "translation_errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "step": {"type": "string"},
+              "source_file": {"type": "string"},
+              "error_code": {
+                "type": "string",
+                "enum": ["E9000", "E9001", "E9002", "E9003", "E9004"]
+              },
+              "error_message": {"type": "string"},
+              "timestamp": {"type": "string", "format": "date-time"},
+              "recovery_action": {"type": "string"}
+            }
+          },
+          "description": "Translation errors encountered during workflow"
+        },
+        "average_translation_time": {
+          "type": "number",
+          "description": "Average time per translation in seconds",
+          "minimum": 0
+        },
+        "total_translation_overhead": {
+          "type": "number",
+          "description": "Total time added by translation in seconds",
+          "minimum": 0
+        },
+        "en_kr_pairs_verified": {
+          "type": "integer",
+          "description": "Number of EN-KR file pairs verified for existence",
+          "minimum": 0
+        },
+        "schema_match_failures": {
+          "type": "integer",
+          "description": "Number of JSON schema mismatches between EN and KR",
+          "minimum": 0
+        },
+        "steep_violations": {
+          "type": "integer",
+          "description": "Number of STEEPs term translation violations detected",
+          "minimum": 0
+        }
+      },
+      "required": ["translations_completed"]
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Workflow-level metadata",
+      "properties": {
+        "total_signals_processed": {"type": "integer"},
+        "phase_1_complete": {"type": "boolean"},
+        "phase_2_complete": {"type": "boolean"},
+        "phase_3_complete": {"type": "boolean"},
+        "agents_invoked": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of agents that updated this context"
+        },
+        "bilingual_workflow_enabled": {
+          "type": "boolean",
+          "description": "Whether bilingual EN-KR workflow is active",
+          "default": true
+        }
+      }
+    }
+  },
+  "required": ["version", "workflow_id", "created_at"]
+}

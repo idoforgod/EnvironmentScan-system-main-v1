@@ -1,0 +1,154 @@
+# STEEPs Domain Definitions and Keywords
+# Version: 1.0.0
+# Last Updated: 2026-01-29
+
+STEEPs:
+  S_Social:
+    description: "Social issues EXCLUDING spiritual/ethical matters"
+    keywords:
+      - "demographic shift"
+      - "aging population"
+      - "migration"
+      - "urbanization"
+      - "education reform"
+      - "labor market"
+      - "gig economy"
+      - "remote work"
+      - "social movement"
+      - "inequality"
+      - "generational gap"
+      - "cultural change"
+    search_terms:
+      - "population aging"
+      - "workforce transformation"
+      - "urban planning"
+      - "social mobility"
+
+  T_Technological:
+    description: "Technology innovation and digital transformation"
+    keywords:
+      - "artificial intelligence"
+      - "machine learning"
+      - "quantum computing"
+      - "biotechnology"
+      - "gene editing"
+      - "CRISPR"
+      - "nanotechnology"
+      - "blockchain"
+      - "Web3"
+      - "5G"
+      - "6G"
+      - "robotics"
+      - "automation"
+      - "digital twin"
+      - "metaverse"
+    search_terms:
+      - "AI breakthrough"
+      - "quantum advantage"
+      - "biotech innovation"
+      - "digital transformation"
+
+  E_Economic:
+    description: "Economic structures, markets, finance, trade"
+    keywords:
+      - "GDP growth"
+      - "recession"
+      - "inflation"
+      - "supply chain"
+      - "fintech"
+      - "cryptocurrency"
+      - "platform economy"
+      - "gig work"
+      - "trade war"
+      - "protectionism"
+      - "globalization"
+      - "deglobalization"
+      - "business model"
+    search_terms:
+      - "economic restructuring"
+      - "market disruption"
+      - "financial innovation"
+      - "trade policy"
+
+  E_Environmental:
+    description: "Climate, natural resources, sustainability"
+    keywords:
+      - "climate change"
+      - "global warming"
+      - "carbon neutral"
+      - "net zero"
+      - "renewable energy"
+      - "solar power"
+      - "wind energy"
+      - "biodiversity loss"
+      - "extinction"
+      - "water scarcity"
+      - "drought"
+      - "extreme weather"
+      - "circular economy"
+      - "sustainability"
+    search_terms:
+      - "climate crisis"
+      - "green transition"
+      - "sustainable development"
+      - "environmental protection"
+
+  P_Political:
+    description: "Politics, policy, regulation, law, institutions, geopolitics"
+    keywords:
+      - "regulation"
+      - "legislation"
+      - "policy reform"
+      - "law enforcement"
+      - "legal framework"
+      - "institutional change"
+      - "governance"
+      - "geopolitics"
+      - "international relations"
+      - "diplomacy"
+      - "trade agreement"
+      - "sanctions"
+      - "democracy"
+      - "authoritarianism"
+      - "election"
+    search_terms:
+      - "regulatory change"
+      - "policy shift"
+      - "geopolitical tension"
+      - "international conflict"
+
+  s_spiritual:
+    description: "Religion, worldview, ethics, psychology, values, meaning"
+    keywords:
+      - "AI ethics"
+      - "bioethics"
+      - "data ethics"
+      - "meaning crisis"
+      - "existential anxiety"
+      - "public psychology"
+      - "collective emotion"
+      - "social trust"
+      - "value shift"
+      - "worldview change"
+      - "spiritual awakening"
+      - "secularization"
+      - "religious trend"
+      - "post-humanism"
+      - "transhumanism"
+    search_terms:
+      - "ethical debate"
+      - "public sentiment"
+      - "social psychology"
+      - "values transformation"
+
+# Exclusion Keywords (filter out noise)
+exclusions:
+  - "celebrity gossip"
+  - "sports scores"
+  - "entertainment news"
+  - "local events"
+
+# Language Preferences
+languages:
+  primary: ["en", "ko"]
+  secondary: ["zh", "ja", "de", "fr", "es"]

@@ -1,0 +1,650 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "sources_configured": 1,
+    "sources_scanned": 1,
+    "sources_failed": 0,
+    "total_items": 120,
+    "execution_time": 15.13,
+    "mode": "multi_source",
+    "days_back": 7,
+    "timestamp": "2026-01-30T10:59:17.858978"
+  },
+  "batch_info": {
+    "batch_number": 4,
+    "total_batches": 6,
+    "start_index": 60,
+    "end_index": 80,
+    "batch_size": 20
+  },
+  "items": [
+    {
+      "id": "arxiv-2601.20848v1",
+      "title": "Post-Training Fairness Control: A Single-Train Framework for Dynamic Fairness in Recommendation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20848v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Despite growing efforts to mitigate unfairness in recommender systems, existing fairness-aware methods typically fix the fairness requirement at training time and provide limited post-training flexibility. However, in real-world scenarios, diverse stakeholders may demand differing fairness requirements over time, so retraining for different fairness requirements becomes prohibitive. To address this limitation, we propose Cofair, a single-train framework that enables post-training fairness control in recommendation. Specifically, Cofair introduces a shared representation layer with fairness-conditioned adapter modules to produce user embeddings specialized for varied fairness levels, along with a user-level regularization term that guarantees user-wise monotonic fairness improvements across these levels. We theoretically establish that the adversarial objective of Cofair upper bounds demographic parity and the regularization term enforces progressive fairness at user level. Comprehensive experiments on multiple datasets and backbone models demonstrate that our framework provides dynamic fairness at different levels, delivering comparable or better fairness-accuracy curves than state-of-the-art baselines, without the need to retrain for each new fairness requirement. Our code is publicly available at https://github.com/weixinchen98/Cofair.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20848v1",
+        "authors": [
+          "Weixin Chen",
+          "Li Chen",
+          "Yuhan Zhao"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787806"
+    },
+    {
+      "id": "arxiv-2601.20838v1",
+      "title": "Reward Models Inherit Value Biases from Pretraining",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20838v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Reward models (RMs) are central to aligning large language models (LLMs) with human values but have received less attention than pre-trained and post-trained LLMs themselves. Because RMs are initialized from LLMs, they inherit representations that shape their behavior, but the nature and extent of this influence remain understudied. In a comprehensive study of 10 leading open-weight RMs using validated psycholinguistic corpora, we show that RMs exhibit significant differences along multiple dimensions of human value as a function of their base model. Using the \"Big Two\" psychological axes, we show a robust preference of Llama RMs for \"agency\" and a corresponding robust preference of Gemma RMs for \"communion.\" This phenomenon holds even when the preference data and finetuning process are identical, and we trace it back to the logits of the respective instruction-tuned and pre-trained models. These log-probability differences themselves can be formulated as an implicit RM; we derive usable implicit reward scores and show that they exhibit the very same agency/communion difference. We run experiments training RMs with ablations for preference data source and quantity, which demonstrate that this effect is not only repeatable but surprisingly durable. Despite RMs being designed to represent human preferences, our evidence shows that their outputs are influenced by the pretrained LLMs on which they are based. This work underscores the importance of safety and alignment efforts at the pretraining stage, and makes clear that open-source developers' choice of base model is as much a consideration of values as of performance.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20838v1",
+        "authors": [
+          "Brian Christian",
+          "Jessica A. F. Thompson",
+          "Elle Michelle Yang"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787815"
+    },
+    {
+      "id": "arxiv-2601.20821v1",
+      "title": "A Survival Framework for Estimating Child Mortality Rates using Multiple Data Types",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20821v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Child mortality is an important population health indicator. However, many countries lack high-quality vital registration to measure child mortality rates precisely and reliably over time. Research endeavors such as those by the United Nations Inter-agency Group for Child Mortality Estimation (UN IGME) and the Global Burden of Disease (GBD) study leverage statistical models and available data to estimate child survival summaries including neonatal, infant, and under-five mortality rates. UN IGME fits separate models for each age group and the GBD uses a multi-step modeling process. We propose a Bayesian survival framework to estimate temporal trends in the probability of survival as a function of age, up to the fifth birthday, with a single model. Our framework integrates all data types that are used by UN IGME: household surveys, vital registration, and other pre-processed mortality rates. We demonstrate that our framework is applicable to any country using log-logistic and piecewise-exponential survival functions, and discuss findings for four example countries with diverse data profiles: Kenya, Brazil, Estonia, and Syrian Arab Republic. Our model produces estimates of the three survival summaries that are in broad agreement with both the data and the UN IGME estimates, but in addition gives the complete survival curve.",
+        "keywords": [
+          "stat.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20821v1",
+        "authors": [
+          "Katherine R Paulson",
+          "Taylor Okonek",
+          "Jon Wakefield"
+        ],
+        "arxiv_categories": [
+          "stat.AP"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787817"
+    },
+    {
+      "id": "arxiv-2601.20792v1",
+      "title": "Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20792v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Privacy policies are supposed to provide notice. But what if substantive information appears only where users skip it? We identify a structural pattern we call jurisdiction-siloed disclosure: information about data practices appearing in specific, actionable form only within regional compliance sections labeled \"California Residents\" or \"EU/UK Users,\" while general sections use vague or qualified language for the same practices. Our audit of 123 major companies identifies 282 potential instances across 77 companies (62.6% of this purposive sample). A conservative estimate restricted to practice categories validated against OPP-115 human annotations finds 138 instances across 54 companies (44%); post-2018 categories central to our findings await independent validation. If users skip jurisdiction-labeled sections as information foraging theory predicts, users outside regulated jurisdictions would receive less specific information about practices affecting them--a transparency failure operating through document architecture rather than omission. We propose universal substantive disclosure: practices affecting all users should appear in the main policy body, with regional sections containing only procedural rights information. This standard finds support in analogous disclosure regimes (securities, truth-in-lending, nutritional labeling) where material information must reach all affected parties. Regulators could operationalize this through the FTC's \"clear and conspicuous\" standard and GDPR transparency principles. This work is hypothesis-generating: we establish that the structural pattern exists and ground the transparency concern in behavioral theory, but direct measurement of jurisdiction-specific section skipping remains the critical validation priority. We release our methodology and annotated dataset to enable replication.",
+        "keywords": [
+          "cs.CL",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20792v1",
+        "authors": [
+          "Thomas Brackin"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.CY",
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787819"
+    },
+    {
+      "id": "arxiv-2601.20788v1",
+      "title": "A General Mixture Loss Function to Optimize a Personalized PredictiveModel",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20788v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Advances in precision medicine increasingly drive methodological innovation in health research. A key development is the use of personalized prediction models (PPMs), which are fit using a similar subpopulation tailored to a specific index patient, and have been shown to outperform one-size-fits-all models, particularly in terms of model discrimination performance. We propose a generalized loss function that enables tuning of the subpopulation size used to fit a PPM. This loss function allows joint optimization of discrimination and calibration, allowing both the performance measures and their relative weights to be specified by the user. To reduce computational burden, we conducted extensive simulation studies to identify practical bounds for the grid of subpopulation sizes. Based on these results, we recommend using a lower bound of 20\\% and an upper bound of 70\\% of the entire training dataset. We apply the proposed method to both simulated and real-world datasets and demonstrate that previously observed relationships between subpopulation size and model performance are robust. Furthermore, we show that the choice of performance measures in the loss function influences the optimal subpopulation size selected. These findings support the flexible and computationally efficient implementation of PPMs in precision health research.",
+        "keywords": [
+          "stat.ME",
+          "stat.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20788v1",
+        "authors": [
+          "Tatiana Krikella",
+          "Joel A. Dubin"
+        ],
+        "arxiv_categories": [
+          "stat.ME",
+          "stat.AP"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787821"
+    },
+    {
+      "id": "arxiv-2601.20760v1",
+      "title": "Exploring Re-inforcement Learning via Human Feedback under User Heterogeneity",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20760v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Re-inforcement learning from human feedback (RLHF) has been effective in the task of AI alignment. However, one of the key assumptions of RLHF is that the annotators (referred to as workers from here on out) have a homogeneous response space. This assumption is not true in most practical settings and there have been studies done in the past to challenge this notion. This work has been inspired by such studies and explores one of the ways to deal with heterogeneity in worker preferences - by clustering workers with similar preferences and personalising reward models for each cluster. This work provides an algorithm that encourages simultaneous learning of reward models and worker embeddings. This algorithm is then empirically tested against the Reddit TL;DR dataset with unique worker IDs. We have shown that clustering users into different groups based on their preferences and created personalised reward models improves win-rate of the said models. Along with results and visualisations, this work aims to act as a stepping stone to more complicated models and gives a list of possible future extensions.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20760v1",
+        "authors": [
+          "Sarvesh Shashidhar",
+          "Abhishek Mishra",
+          "Madhav Kotecha"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787822"
+    },
+    {
+      "id": "arxiv-2601.20758v1",
+      "title": "ScaleFree: Dynamic KDE for Multiscale Point Cloud Exploration in VR",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20758v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We present ScaleFree, a GPU-accelerated adaptive Kernel Density Estimation (KDE) algorithm for scalable, interactive multiscale point cloud exploration. With this technique, we cater to the massive datasets and complex multiscale structures in advanced scientific computing, such as cosmological simulations with billions of particles. Effective exploration of such data requires a full 3D understanding of spatial structures, a capability for which immersive environments such as VR are particularly well suited. However, simultaneously supporting global multiscale context and fine-grained local detail remains a significant challenge. A key difficulty lies in dynamically generating continuous density fields from point clouds to facilitate the seamless scale transitions: while KDE is widely used, precomputed fields restrict the accuracy of interaction and omit fine-scale structures, while dynamic computation is often too costly for real-time VR interaction. We address this challenge by leveraging GPU acceleration with k-d-tree-based spatial queries and parallel reduction within a thread group for on-the-fly density estimation. With this approach, we can recalculate scalar fields dynamically as users shift their focus across scales. We demonstrate the benefits of adaptive density estimation through two data exploration tasks: adaptive selection and progressive navigation. Through performance experiments, we demonstrate that ScaleFree with GPU-parallel implementation achieves orders-of-magnitude speedups over sequential and multi-core CPU baselines. In a controlled experiment, we further confirm that our adaptive selection technique improves accuracy and efficiency in multiscale selection tasks.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20758v1",
+        "authors": [
+          "Lixiang Zhao",
+          "Fuqi Xie",
+          "Tobias Isenberg"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787824"
+    },
+    {
+      "id": "arxiv-2601.20749v1",
+      "title": "Learning to Live with AI: How Students Develop AI Literacy Through Naturalistic ChatGPT Interaction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20749v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "How do students develop AI literacy through everyday practice rather than formal instruction? While normative AI literacy frameworks proliferate, empirical understanding of how students actually learn to work with generative AI remains limited. This study analyzes 10,536 ChatGPT messages from 36 undergraduates over one academic year, revealing five use genres -- academic workhorse, emotional companion, metacognitive partner, repair and negotiation, and trust calibration -- that constitute distinct configurations of student-AI learning. Drawing on domestication theory and emerging frameworks for AI literacy, we demonstrate that functional AI competence emerges through ongoing relational negotiation rather than one-time adoption. Students develop sophisticated genre portfolios, strategically matching interaction patterns to learning needs while exercising critical judgment about AI limitations. Notably, repair work during AI breakdowns produces substantial learning about AI capabilities, developing what we term \"repair literacy\" -- a crucial but underexplored dimension of AI competence. Our findings offer educators empirically grounded insights into how students actually learn to work with generative AI, with implications for AI literacy pedagogy, responsible AI integration, and the design of AI-enabled learning environments that support student agency.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20749v1",
+        "authors": [
+          "Tawfiq Ammari",
+          "Meilun Chen",
+          "S M Mehedi Zaman"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787825"
+    },
+    {
+      "id": "arxiv-2601.20747v1",
+      "title": "Like a Therapist, But Not: Reddit Narratives of AI in Mental Health Contexts",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20747v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) are increasingly used for emotional support and mental health-related interactions outside clinical settings, yet little is known about how people evaluate and relate to these systems in everyday use. We analyze 5,126 Reddit posts from 47 mental health communities describing experiential or exploratory use of AI for emotional support or therapy. Grounded in the Technology Acceptance Model and therapeutic alliance theory, we develop a theory-informed annotation framework and apply a hybrid LLM-human pipeline to analyze evaluative language, adoption-related attitudes, and relational alignment at scale. Our results show that engagement is shaped primarily by narrated outcomes, trust, and response quality, rather than emotional bond alone. Positive sentiment is most strongly associated with task and goal alignment, while companionship-oriented use more often involves misaligned alliances and reported risks such as dependence and symptom escalation. Overall, this work demonstrates how theory-grounded constructs can be operationalized in large-scale discourse analysis and highlights the importance of studying how users interpret language technologies in sensitive, real-world contexts.",
+        "keywords": [
+          "cs.CL",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20747v1",
+        "authors": [
+          "Elham Aghakhani",
+          "Rezvaneh Rezapour"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787827"
+    },
+    {
+      "id": "arxiv-2601.20737v1",
+      "title": "A Human-Centred AI System for Multi-Actor Planning and Collaboration in Family Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20737v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Family learning takes place in everyday routines where children and caregivers read, practice, and develop new skills together. Despite growing interest in AI tutors, most existing systems are designed for single learners or classroom settings and do not address the distributed planning, coordination, and execution demands of learning at home. This paper introduces ParPal, a human-centred, LLM-powered system that supports multi-actor family learning by decomposing learning goals into actionable subtasks, allocating them across caregivers under realistic availability and expertise constraints, and providing caregiver-in-the-loop tutoring support with visibility into individual and collective contributions. Through expert evaluation of generated weekly learning plans and a one-week field deployment with 11 families, we identify systematic failure modes in current LLM-based planning, including misalignment with role expertise, unnecessary or costly collaboration, missing pedagogical learning trajectories, and physically or temporally infeasible tasks. While ParPal improves coordination clarity and recognition of caregiving effort, these findings expose fundamental limitations in how current LLMs operationalize pedagogical knowledge, reason about collaboration, and account for real-world, embodied constraints. We discuss implications for human-centred AI design and AI methodology, positioning multi-actor family learning as a critical testbed for advancing planning, adaptation, and pedagogical structure in next-generation AI systems.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20737v1",
+        "authors": [
+          "Si Chen",
+          "Jingyi Xie",
+          "Yao Li"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787828"
+    },
+    {
+      "id": "arxiv-2601.20731v1",
+      "title": "QueerGen: How LLMs Reflect Societal Norms on Gender and Sexuality in Sentence Completion Tasks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20731v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This paper examines how Large Language Models (LLMs) reproduce societal norms, particularly heterocisnormativity, and how these norms translate into measurable biases in their text generations. We investigate whether explicit information about a subject's gender or sexuality influences LLM responses across three subject categories: queer-marked, non-queer-marked, and the normalized \"unmarked\" category. Representational imbalances are operationalized as measurable differences in English sentence completions across four dimensions: sentiment, regard, toxicity, and prediction diversity. Our findings show that Masked Language Models (MLMs) produce the least favorable sentiment, higher toxicity, and more negative regard for queer-marked subjects. Autoregressive Language Models (ARLMs) partially mitigate these patterns, while closed-access ARLMs tend to produce more harmful outputs for unmarked subjects. Results suggest that LLMs reproduce normative social assumptions, though the form and degree of bias depend strongly on specific model characteristics, which may redistribute, but not eliminate, representational harms.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20731v1",
+        "authors": [
+          "Mae Sosto",
+          "Delfina Sol Martinez Pandiani",
+          "Laura Hollink"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787830"
+    },
+    {
+      "id": "arxiv-2601.20727v1",
+      "title": "Audit Trails for Accountability in Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20727v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) are increasingly embedded in consequential decisions across healthcare, finance, employment, and public services. Yet accountability remains fragile because process transparency is rarely recorded in a durable and reviewable form. We propose LLM audit trails as a sociotechnical mechanism for continuous accountability. An audit trail is a chronological, tamper-evident, context-rich ledger of lifecycle events and decisions that links technical provenance (models, data, training and evaluation runs, deployments, monitoring) with governance records (approvals, waivers, and attestations), so organizations can reconstruct what changed, when, and who authorized it. This paper contributes: (1) a lifecycle framework that specifies event types, required metadata, and governance rationales; (2) a reference architecture with lightweight emitters, append only audit stores, and an auditor interface supporting cross organizational traceability; and (3) a reusable, open-source Python implementation that instantiates this audit layer in LLM workflows with minimal integration effort. We conclude by discussing limitations and directions for adoption.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20727v1",
+        "authors": [
+          "Victor Ojewale",
+          "Harini Suresh",
+          "Suresh Venkatasubramanian"
+        ],
+        "arxiv_categories": [
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787831"
+    },
+    {
+      "id": "arxiv-2601.20725v1",
+      "title": "Comparing causal estimands from sequential nested versus single point target trials: A simulation study",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20725v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Sequential nested trial (SNT) emulation is a powerful approach for maximizing precision and avoiding time-related biases. However, there exists little discussion about the implied causal estimands in comparison to a real-world single point trial. We used Monte Carlo simulation to compare treatment effect estimates from an SNT emulation that re-indexed patients annually and a SNT emulation with a treatment decision design to the estimates from a single point trial. We generated 5,000 cohorts of 5,000 people with 3 years of follow-up. For the single point trial, patients were randomized to initiate or not initiate treatment at Visit 1. For the SNT emulations, simulated patients could contribute up to two index dates. When disease severity did not modify the treatment effect, both SNT approaches returned treatment effect estimates identical to the single point trial. In the presence of treatment effect modification by disease severity, both SNT approaches returned treatment effect estimates that diverged from the single point trial even after confounding-adjustment. These findings underscore the difficulties of interpreting causal estimands from a SNT emulation: the target population does not correspond to a single time point trial. Such implications are important for communicating study results for evidence-based decision-making.",
+        "keywords": [
+          "stat.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20725v1",
+        "authors": [
+          "Catherine Wiener",
+          "Chase D. Latour",
+          "Kathleen Hurwitz"
+        ],
+        "arxiv_categories": [
+          "stat.AP"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787833"
+    },
+    {
+      "id": "arxiv-2601.20699v1",
+      "title": "Reflected wireless signals under random spatial sampling",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20699v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We present a propagation model showing that a transmitter randomly positioned in space generates unbounded peaks in the histogram of the resulting power, provided the signal strength is an oscillating or non-monotonic function of distance. Specifically, these peaks are singularities in the empirical probability density that occur at turning point values of the deterministic propagation model. We explain the underlying mechanism of this phenomenon through a concise mathematical argument. This observation has direct implications for estimating random propagation effects such as fading, particularly when reflections off walls are involved. Motivated by understanding intelligent surfaces, we apply this fundamental result to a physical model consisting of a single transmitter between two parallel passive walls. We analyze signal fading due to reflections and observe power oscillations resulting from wall reflections -- a phenomenon long studied in waveguides but relatively unexplored in wireless networks. For the special case where the transmitter is placed halfway between the walls, we present a compact closed-form expression for the received signal involving the Lerch transcendent function. The insights from this work can inform design decisions for intelligent surfaces deployed in cities.",
+        "keywords": [
+          "cs.IT",
+          "stat.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20699v1",
+        "authors": [
+          "H. Paul Keeler"
+        ],
+        "arxiv_categories": [
+          "cs.IT",
+          "stat.AP"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787834"
+    },
+    {
+      "id": "arxiv-2601.20683v1",
+      "title": "Polite But Boring? Trade-offs Between Engagement and Psychological Reactance to Chatbot Feedback Styles",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20683v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "As conversational agents become increasingly common in behaviour change interventions, understanding optimal feedback delivery mechanisms becomes increasingly important. However, choosing a style that both lessens psychological reactance (perceived threats to freedom) while simultaneously eliciting feelings of surprise and engagement represents a complex design problem. We explored how three different feedback styles: 'Direct', 'Politeness', and 'Verbal Leakage' (slips or disfluencies to reveal a desired behaviour) affect user perceptions and behavioural intentions. Matching expectations from literature, the 'Direct' chatbot led to lower behavioural intentions and higher reactance, while the 'Politeness' chatbot evoked higher behavioural intentions and lower reactance. However, 'Politeness' was also seen as unsurprising and unengaging by participants. In contrast, 'Verbal Leakage' evoked reactance, yet also elicited higher feelings of surprise, engagement, and humour. These findings highlight that effective feedback requires navigating trade-offs between user reactance and engagement, with novel approaches such as 'Verbal Leakage' offering promising alternative design opportunities.",
+        "keywords": [
+          "cs.HC",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20683v1",
+        "authors": [
+          "Samuel Rhys Cox",
+          "Joel Wester",
+          "Niels van Berkel"
+        ],
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787836"
+    },
+    {
+      "id": "arxiv-2601.20663v1",
+      "title": "A Multi-Camera Optical Tag Neuronavigation and AR Augmentation Framework for Non-Invasive Brain Stimulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20663v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Accurate neuronavigation is essential for generating the intended effect with transcranial magnetic stimulation (TMS). Precise coil placement also directly influences stimulation efficacy. Traditional neuronavigation systems often rely on costly and still hard to use and error-prone tracking systems. To solve these limitations, we present a computer-vision-based neuronavigation system for real-time tracking of patient and TMS instrumentation. The system can feed the necessary data for a digital twin to track TMS stimulation targets. We integrate a self-coordinating optical tracking system with multiple consumer-grade cameras and visible tags with a dynamic 3D brain model in Unity. This model updates in real time to represent the current stimulation coil position and the estimated stimulation point to intuitively visualize neural targets for clinicians. We incorporate an augmented reality (AR) module to bridge the gap between the visualization of the digital twin and the real world and project the brain model in real-time onto the head of a patient. AR headsets or mobile AR devices allow clinicians to interactively view and adjust the placement of the stimulation transducer intuitively instead of guidance through abstract numbers and 6D cross hairs on an external screen. The proposed technique provides improved spatial precision as well as accuracy. A case study with ten participants with a medical background also demonstrates that the system has high usability.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20663v1",
+        "authors": [
+          "Xuyi Hu",
+          "Ke Ma",
+          "Siwei Liu"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787838"
+    },
+    {
+      "id": "arxiv-2601.20643v1",
+      "title": "Shrinkage Estimators for Mean and Covariance: Evidence on Portfolio Efficiency Across Market Dimensions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20643v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "The mean-variance model remains the most prevalent investment framework, built on diversification principles. However, it consistently struggles with estimation errors in expected returns and the covariance matrix, its core parameters. To address this concern, this research evaluates the performance of mean variance (MV) and global minimum-variance (GMV) models across various shrinkage estimators designed to improve these parameters. Specifically, we examine five shrinkage estimators for expected returns and eleven for the covariance matrix. To compare multiple portfolios, we employ a super efficient data envelopment analysis model to rank the portfolios according to investors risk-return preferences. Our comprehensive empirical investigation utilizes six real world datasets with different dimensional characteristics, applying a rolling window methodology across three out of sample testing periods. Following the ranking process, we examine the chosen shrinkage based MV or GMV portfolios against five traditional portfolio optimization techniques classical MV and GMV for sample estimates, MiniMax, conditional value at risk, and semi mean absolute deviation risk measures. Our empirical findings reveal that, in most scenarios, the GMV model combined with the Ledoit Wolf two parameter shrinkage covariance estimator (COV2) represents the optimal selection for a broad spectrum of investors. Meanwhile, the MV model utilizing COV2 alongside the sample mean (SM) proves more suitable for return oriented investors. These two identified models demonstrate superior performance compared to traditional benchmark approaches. Overall, this study lays the groundwork for a more comprehensive understanding of how specific shrinkage models perform across diverse investor profiles and market setups.",
+        "keywords": [
+          "stat.AP",
+          "q-fin.PM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20643v1",
+        "authors": [
+          "Rupendra Yadav",
+          "Amita Sharma",
+          "Aparna Mehra"
+        ],
+        "arxiv_categories": [
+          "stat.AP",
+          "q-fin.PM"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787839"
+    },
+    {
+      "id": "arxiv-2601.20622v1",
+      "title": "SketchDynamics: Exploring Free-Form Sketches for Dynamic Intent Expression in Animation Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20622v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Sketching provides an intuitive way to convey dynamic intent in animation authoring (i.e., how elements change over time and space), making it a natural medium for automatic content creation. Yet existing approaches often constrain sketches to fixed command tokens or predefined visual forms, overlooking their freeform nature and the central role of humans in shaping intention. To address this, we introduce an interaction paradigm where users convey dynamic intent to a vision-language model via free-form sketching, instantiated here in a sketch storyboard to motion graphics workflow. We implement an interface and improve it through a three-stage study with 24 participants. The study shows how sketches convey motion with minimal input, how their inherent ambiguity requires users to be involved for clarification, and how sketches can visually guide video refinement. Our findings reveal the potential of sketch and AI interaction to bridge the gap between intention and outcome, and demonstrate its applicability to 3D animation and video generation.",
+        "keywords": [
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20622v1",
+        "authors": [
+          "Boyu Li",
+          "Lin-Ping Yuan",
+          "Zeyu Wang"
+        ],
+        "arxiv_categories": [
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787840"
+    },
+    {
+      "id": "arxiv-2601.20617v1",
+      "title": "Agent Benchmarks Fail Public Sector Requirements",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20617v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Deploying Large Language Model-based agents (LLM agents) in the public sector requires assuring that they meet the stringent legal, procedural, and structural requirements of public-sector institutions. Practitioners and researchers often turn to benchmarks for such assessments. However, it remains unclear what criteria benchmarks must meet to ensure they adequately reflect public-sector requirements, or how many existing benchmarks do so. In this paper, we first define such criteria based on a first-principles survey of public administration literature: benchmarks must be \\emph{process-based}, \\emph{realistic}, \\emph{public-sector-specific} and report \\emph{metrics} that reflect the unique requirements of the public sector. We analyse more than 1,300 benchmark papers for these criteria using an expert-validated LLM-assisted pipeline. Our results show that no single benchmark meets all of the criteria. Our findings provide a call to action for both researchers to develop public sector-relevant benchmarks and for public-sector officials to apply these criteria when evaluating their own agentic use cases.",
+        "keywords": [
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20617v1",
+        "authors": [
+          "Jonathan Rystrøm",
+          "Chris Schmitz",
+          "Karolina Korgul"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787842"
+    },
+    {
+      "id": "arxiv-2601.20591v1",
+      "title": "Data-driven sparse identification of vector-borne disease dynamics with memory effects",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20591v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Predicting the human burden of vector-borne diseases from limited surveillance data remains a major challenge, particularly in the presence of nonlinear transmission dynamics and delayed effects arising from vector ecology and human behavior. We develop a data-driven framework based on an extension of Sparse Identification of Nonlinear Dynamics (SINDy) to systems with distributed memory, enabling discovery of transmission mechanisms directly from time series data. Using severe fever with thrombocytopenia syndrome (SFTS) as a case study, we show that this approach can uncover key features of tick-borne disease dynamics using only human incidence and local temperature data, without imposing predefined assumptions on human case reporting. We further demonstrate that predictive performance is substantially enhanced when the data-driven model is coupled with mechanistic representations of tick-host transmission pathways informed by empirical studies. The framework supports systematic sensitivity analysis of memory kernels and behavioral parameters, identifying those most influential for prediction accuracy. Although the approach prioritizes predictive accuracy over mechanistic transparency, it yields sparse, interpretable integral representations suitable for epidemiological forecasting. This hybrid methodology provides a scalable strategy for forecasting vector-borne disease risk and informing public health decision-making under data limitations.",
+        "keywords": [
+          "stat.AP",
+          "math.DS"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20591v1",
+        "authors": [
+          "Dimitri Breda",
+          "Muhammad Tanveer",
+          "Jianhong Wu"
+        ],
+        "arxiv_categories": [
+          "stat.AP",
+          "math.DS"
+        ]
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T10:59:11.787843"
+    }
+  ]
+}

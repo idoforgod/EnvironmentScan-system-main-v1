@@ -1,0 +1,22 @@
+{
+  "benchmark_date": "2026-01-30T14:21:23.247739",
+  "test_dataset": {
+    "signals": 10000,
+    "date_range": "90 days"
+  },
+  "recursive_archive_loader": {
+    "full_size": 8417409,
+    "7d_size": 730944,
+    "30d_size": 2831385,
+    "7d_reduction": 11.515805588389808,
+    "30d_reduction": 2.9728945374790077
+  },
+  "shared_context_manager": {
+    "full_size": 4091799,
+    "1_field_size": 58931,
+    "2_fields_size": 184,
+    "1_field_reduction": 69.43372757971187,
+    "2_fields_reduction": 22238.03804347826
+  },
+  "combined_reduction_estimate": 40.47476658405084
+}

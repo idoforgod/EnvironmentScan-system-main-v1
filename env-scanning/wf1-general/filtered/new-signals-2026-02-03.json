@@ -1,0 +1,473 @@
+{
+  "scan_date": "2026-02-03",
+  "workflow_id": "scan-2026-02-03-marathon",
+  "deduplication_summary": {
+    "total_raw_items": 165,
+    "stage_1_url_exact_removed": 38,
+    "stage_2_string_similarity_removed": 12,
+    "stage_3_semantic_similarity_removed": 4,
+    "stage_4_entity_matching_removed": 2,
+    "total_duplicates_removed": 56,
+    "dedup_rate_percent": 33.9,
+    "remaining_new_signals": 109,
+    "ai_confidence": 0.87
+  },
+  "dedup_detail": {
+    "stage_1_notes": "38 URL exact matches against existing database (mostly arXiv papers from 01-30 scan, Federal Register docs from 02-02, and previously indexed expansion source items)",
+    "stage_2_notes": "12 title-similar items caught: 6 near-identical TechCrunch variants, 3 Federal Register re-postings, 3 UN News updates of previously covered stories",
+    "stage_3_notes": "4 semantically duplicate items: 2 arXiv papers covering overlapping topics with existing DB entries, 1 Nature/Science cross-coverage, 1 IEEE/TechCrunch cross-coverage on neurotech regulation",
+    "stage_4_notes": "2 entity-overlap items: SpaceX-xAI merger covered by both TechCrunch and Hacker News with same entity constellation"
+  },
+  "new_signals": [
+    {
+      "id": "tc-2026-02-03-001",
+      "title": "SpaceX Acquires xAI, Creating World's Most Valuable Private Company",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/elon-musk-spacex-acquires-xai-data-centers-space-merger/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "SpaceX acquires xAI, creating the world's most valuable private company and paving the way for space-based data centers.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-002",
+      "title": "OpenAI Launches New macOS App for Agentic Coding (Codex)",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/openai-launches-new-macos-app-for-agentic-coding/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "developing",
+      "abstract": "OpenAI releases standalone macOS app for Codex integrating agentic coding practices, escalating AI developer tools competition.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-003",
+      "title": "Notepad++ Supply Chain Compromise: Chinese Government Hackers Hijacked Updates",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/notepad-says-chinese-government-hackers-hijacked-its-software-updates-for-months/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "State-sponsored hackers compromised Notepad++ software update mechanism for months, delivering tainted software to users via supply chain attack.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-004",
+      "title": "Snowflake Multi-Year AI Deals Signal Enterprise AI Partnership Consolidation",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/what-snowflakes-deal-with-openai-tells-us-about-the-enterprise-ai-race/", "published_date": "2026-02-02"},
+      "preliminary_category": "E",
+      "signal_status": "developing",
+      "abstract": "Snowflake signs multi-year deals with OpenAI, Anthropic, and ServiceNow, indicating enterprise AI vendor consolidation trend.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-005",
+      "title": "Coalition Demands Federal Grok Ban Over Nonconsensual Sexual Content",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/coalition-demands-federal-grok-ban-over-nonconsensual-sexual-content/", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "Nonprofits urge US government to suspend Grok in federal agencies after xAI chatbot generated thousands of nonconsensual sexual images.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-006",
+      "title": "Firefox 148 Introduces Toggle to Block All Generative AI Features",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Mozilla adds AI controls in Firefox 148 allowing users to disable all generative AI features, reflecting growing user demand for AI opt-out mechanisms.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-007",
+      "title": "Carbon Robotics AI Model Detects and Identifies Plant Species Without Retraining",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/carbon-robotics-built-an-ai-model-that-detects-and-identifies-plants/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Agricultural robotics company develops generalizable AI for weed detection without per-crop retraining, advancing precision agriculture.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-008",
+      "title": "AI-Driven Layoffs: Genuine Restructuring or Corporate AI-Washing?",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/01/ai-layoffs-or-ai-washing/", "published_date": "2026-02-01"},
+      "preliminary_category": "E",
+      "signal_status": "developing",
+      "abstract": "Analysis questions whether workforce reductions attributed to AI represent genuine restructuring or corporate justification strategy.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-009",
+      "title": "Indonesia Conditionally Lifts Ban on xAI's Grok Following Malaysia and Philippines",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/01/indonesia-conditionally-lifts-ban-on-grok/", "published_date": "2026-02-01"},
+      "preliminary_category": "P",
+      "signal_status": "developing",
+      "abstract": "Indonesia follows Malaysia and Philippines in conditionally lifting Grok bans, signaling emerging Southeast Asian AI regulatory convergence.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "tc-2026-02-03-010",
+      "title": "China Regulates Hidden Car Door Handles for Safety (Effective 2027)",
+      "source": {"name": "TechCrunch", "type": "blog", "tier": "base", "url": "https://techcrunch.com/2026/02/02/china-is-leading-the-fight-against-hidden-car-door-handles/", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "China issues safety rule on vehicle door handle design standards effective January 2027, setting precedent for EV safety regulation.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "mtr-2026-02-03-001",
+      "title": "AI Truth Crisis: Verification Tools Failing to Counter AI-Generated Misinformation",
+      "source": {"name": "MIT Technology Review", "type": "blog", "tier": "base", "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/", "published_date": "2026-02-02"},
+      "preliminary_category": "s",
+      "signal_status": "developing",
+      "abstract": "Analysis reveals AI-generated content dupes public and shapes beliefs even when exposed as false; verification tools failing systematically.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "mtr-2026-02-03-002",
+      "title": "EV Battery Landscape 2026: Sodium-Ion, Solid-State, and Chinese CATL Dominance",
+      "source": {"name": "MIT Technology Review", "type": "blog", "tier": "base", "url": "https://www.technologyreview.com/2026/02/02/1132042/whats-next-for-ev-batteries-in-2026/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "developing",
+      "abstract": "Sodium-ion batteries, solid-state developments, and Chinese CATL dominance reshape global EV manufacturing landscape in 2026.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "mtr-2026-02-03-003",
+      "title": "Deepfake Marketplace Civitai Enables Bespoke Nonconsensual AI Images of Real Women",
+      "source": {"name": "MIT Technology Review", "type": "blog", "tier": "base", "url": "https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/", "published_date": "2026-01-30"},
+      "preliminary_category": "s",
+      "signal_status": "developing",
+      "abstract": "Stanford/Indiana University research: Civitai hosts deepfake models targeting women, 90% of requests depicting female subjects, raising urgent ethical concerns.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "mtr-2026-02-03-004",
+      "title": "DHS Uses Google Veo 3 and Adobe Firefly AI for Immigration Enforcement Videos",
+      "source": {"name": "MIT Technology Review", "type": "blog", "tier": "base", "url": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/", "published_date": "2026-01-29"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "DHS confirmed using Google Veo 3 and Adobe Firefly video generators for creating immigration enforcement content shared publicly.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "mtr-2026-02-03-005",
+      "title": "Vitalism Movement Gains Political Influence in Life Extension Advocacy",
+      "source": {"name": "MIT Technology Review", "type": "blog", "tier": "base", "url": "https://www.technologyreview.com/2026/01/30/1131933/weird-world-lifespan-extension-gaining-influence-oneill-arpa-h/", "published_date": "2026-01-30"},
+      "preliminary_category": "S",
+      "signal_status": "emerging",
+      "abstract": "Vitalism movement and longevity enthusiasts gaining political influence, with supporters positioned in Trump administration healthcare roles.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "fr-2026-02-03-001",
+      "title": "FAA Mandates 25-Hour Cockpit Voice Recorder for New Aircraft Production",
+      "source": {"name": "US Federal Register", "type": "policy", "tier": "base", "url": "https://www.federalregister.gov/documents/2026/02/02/2026-02110/25-hour-cockpit-voice-recorder-cvr-requirement-new-aircraft-production", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "FAA final rule increases cockpit voice recorder duration from 2 to 25 hours for all affected future manufactured aircraft.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "fr-2026-02-03-002",
+      "title": "Cook Inlet Offshore Oil and Gas Lease Sale Under 'One Big Beautiful Bill Act'",
+      "source": {"name": "US Federal Register", "type": "policy", "tier": "base", "url": "https://www.federalregister.gov/documents/2026/02/02/2026-02094/cook-inlet-outer-continental-shelf-oil-and-gas-one-big-beautiful-bill-act-lease-sale-1", "published_date": "2026-02-02"},
+      "preliminary_category": "E",
+      "signal_status": "emerging",
+      "abstract": "Interior Department announces bid opening for offshore oil and gas lease blocks in Cook Inlet following new statutory sale requirements.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "fr-2026-02-03-003",
+      "title": "NCI Genomic Data Commons Expanding Data Submission Framework",
+      "source": {"name": "US Federal Register", "type": "policy", "tier": "base", "url": "https://www.federalregister.gov/documents/2026/02/02/2026-02083/proposed-collection-60-day-comment-request-nci-genomic-data-commons-gdc-data-submission-request-form", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "developing",
+      "abstract": "NIH publishes proposed data collection for National Cancer Institute's Genomic Data Commons, expanding genomic data infrastructure.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "fr-2026-02-03-004",
+      "title": "CFTC Position Limits Rule Information Collection Review",
+      "source": {"name": "US Federal Register", "type": "policy", "tier": "base", "url": "https://www.federalregister.gov/documents/2026/02/02/2026-02085/agency-information-collection-activities-notice-of-intent-to-renew-collection-3038-0013-position", "published_date": "2026-02-02"},
+      "preliminary_category": "E",
+      "signal_status": "mature",
+      "abstract": "CFTC announces comment opportunity on position limits rule collection, maintaining oversight of speculative trading limits.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "fr-2026-02-03-005",
+      "title": "Antidumping/Countervailing Duty Sunset Reviews: Trade Protection Renewal",
+      "source": {"name": "US Federal Register", "type": "policy", "tier": "base", "url": "https://www.federalregister.gov/documents/2026/02/02/2026-02090/initiation-of-five-year-sunset-reviews", "published_date": "2026-02-02"},
+      "preliminary_category": "E",
+      "signal_status": "mature",
+      "abstract": "Commerce Department automatically initiates five-year sunset reviews of antidumping and countervailing duty orders.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "who-2026-02-03-001",
+      "title": "WHO Launches First Global Guide on Mental Health and Stigma for Neglected Tropical Diseases",
+      "source": {"name": "WHO Press Releases", "type": "policy", "tier": "base", "url": "https://www.who.int/news/item/30-01-2026-communities-unite-to-address-stigma-and-discrimination-affecting-people-with-neglected-tropical-diseases", "published_date": "2026-01-29"},
+      "preliminary_category": "S",
+      "signal_status": "emerging",
+      "abstract": "WHO launches first-ever global guide on mental health care and stigma reduction for people affected by neglected tropical diseases.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nat-2026-02-03-001",
+      "title": "Nature Debate: Does AI Already Have Human-Level Intelligence?",
+      "source": {"name": "Nature News", "type": "academic", "tier": "expansion", "url": "https://www.nature.com/articles/d41586-026-00285-6", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "developing",
+      "abstract": "Expert commentary in Nature assessing whether modern AI systems have achieved Turing's vision of human-level machine intelligence.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nat-2026-02-03-002",
+      "title": "OpenAI-Backed Merge Labs: Ultrasound Brain-Reading Technology Under Scientific Scrutiny",
+      "source": {"name": "Nature News", "type": "academic", "tier": "expansion", "url": "https://www.nature.com/articles/d41586-026-00329-x", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Critical examination of Merge Labs' brain-reading technology claims using ultrasound, backed by OpenAI. Scientific validation questioned.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nat-2026-02-03-003",
+      "title": "Long-Lived Ion-Ion Entanglement Achieved for Scalable Quantum Repeaters",
+      "source": {"name": "Nature News", "type": "academic", "tier": "expansion", "url": "https://www.nature.com/articles/s41586-026-10177-4", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Nature publishes breakthrough: sustained remote ion-ion entanglement enabling scalable quantum repeaters for long-distance quantum communication.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nat-2026-02-03-004",
+      "title": "China's Elite Scholars Shift Career Patterns: Increasing Domestic Scientific Focus",
+      "source": {"name": "Nature News", "type": "academic", "tier": "expansion", "url": "https://www.nature.com/articles/d41586-026-00196-6", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "developing",
+      "abstract": "Nature analysis reveals shifting career patterns among Chinese elite scholars, with increasing domestic focus reducing international collaboration.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nat-2026-02-03-005",
+      "title": "Largest Galaxy Survey Confirms Universe Less Clumpy Than Predicted by Standard Model",
+      "source": {"name": "Nature News", "type": "academic", "tier": "expansion", "url": "https://www.nature.com/articles/d41586-026-00276-7", "published_date": "2026-01-30"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Dark Energy Survey findings reveal tensions with standard cosmological models; universe less clumpy than theoretical predictions.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nat-2026-02-03-006",
+      "title": "Health Influencers on Social Media: Spreading Both Awareness and Misinformation",
+      "source": {"name": "Nature News", "type": "academic", "tier": "expansion", "url": "https://www.nature.com/articles/d41586-026-00313-5", "published_date": "2026-02-02"},
+      "preliminary_category": "S",
+      "signal_status": "developing",
+      "abstract": "Nature analysis: social media health influencers spread both beneficial health awareness and dubious medical information, creating public health dilemma.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "ieee-2026-02-03-001",
+      "title": "IEEE Developing P7700 Safety Standard for Consumer Neurotech Products",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "tier": "expansion", "url": "https://spectrum.ieee.org/ieee-safety-guidelines-neurotech", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "IEEE Brain community develops P7700 standard for responsible neurotech design, addressing safety and ethics for brain-reading consumer devices.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "ieee-2026-02-03-002",
+      "title": "AI Regulation Debate: Regulate Use, Not Models — Risk-Based Enforcement Framework",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "tier": "expansion", "url": "https://spectrum.ieee.org/ai-model-regulation", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "developing",
+      "abstract": "IEEE Spectrum argues for use-based AI regulation at real-world choke points (app stores, payment systems) rather than restricting model development.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "ieee-2026-02-03-003",
+      "title": "LuSEE-Night: Far Side Lunar Radio Telescope to Detect Cosmic Dark Ages Signals",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "tier": "expansion", "url": "https://spectrum.ieee.org/radio-telescope", "published_date": "2026-02-01"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Firefly Aerospace's Blue Ghost Mission 2 to deliver LuSEE-Night radio telescope to Moon's far side, detecting signals from cosmic Dark Ages.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "ieee-2026-02-03-004",
+      "title": "Wikipedia at 25: Resistance to AI Innovation Reveals Institutional Conservatism",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "tier": "expansion", "url": "https://spectrum.ieee.org/wikipedia-at-25", "published_date": "2026-01-30"},
+      "preliminary_category": "S",
+      "signal_status": "developing",
+      "abstract": "Wikipedia's community rejected AI-generated article summaries, revealing institutional conservatism and sustainability challenges for volunteer platforms.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "ieee-2026-02-03-005",
+      "title": "Clean Energy Firms Reframe Messaging Under Trump: Affordability Over Environment",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "tier": "expansion", "url": "https://spectrum.ieee.org/trump-renewable-energy", "published_date": "2026-01-30"},
+      "preliminary_category": "E_Environmental",
+      "signal_status": "developing",
+      "abstract": "Renewable energy companies reframe messaging around affordability and domestic manufacturing, responding to shifted federal energy policies.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "un-2026-02-03-001",
+      "title": "WHO Warns Global Health Systems 'At Risk' as International Funding Cuts Accelerate",
+      "source": {"name": "UN News", "type": "policy", "tier": "expansion", "url": "https://news.un.org/feed/view/en/story/2026/02/1166869", "published_date": "2026-02-02"},
+      "preliminary_category": "S",
+      "signal_status": "developing",
+      "abstract": "WHO cautions reduced international aid and funding shortfalls undermine worldwide health infrastructure and services.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "un-2026-02-03-002",
+      "title": "UN: Submarine Cable Infrastructure Powers Global Digital Connectivity",
+      "source": {"name": "UN News", "type": "policy", "tier": "expansion", "url": "https://news.un.org/feed/view/en/story/2026/02/1166867", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "mature",
+      "abstract": "UN highlights critical submarine cable infrastructure vulnerability powering global communications, banking, and digital services.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "un-2026-02-03-003",
+      "title": "UN Expert Analysis: Can Workers Compete with AI and Stay Relevant?",
+      "source": {"name": "UN News", "type": "policy", "tier": "expansion", "url": "https://news.un.org/feed/view/en/story/2026/01/1166847", "published_date": "2026-01-31"},
+      "preliminary_category": "E",
+      "signal_status": "developing",
+      "abstract": "UN experts examine strategies for managing employment transitions as AI threatens job displacement and economic inequality.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "un-2026-02-03-004",
+      "title": "IAEA: Ukraine War Remains World's Biggest Threat to Nuclear Safety",
+      "source": {"name": "UN News", "type": "policy", "tier": "expansion", "url": "https://news.un.org/feed/view/en/story/2026/01/1166863", "published_date": "2026-01-30"},
+      "preliminary_category": "P",
+      "signal_status": "developing",
+      "abstract": "IAEA warns sustained combat risks nuclear facility power supplies, escalating dangers as fifth year of Ukraine conflict approaches.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "un-2026-02-03-005",
+      "title": "Gaza Rafah Crossing Reopens After Over One Year Amid 'Massive Trepidation'",
+      "source": {"name": "UN News", "type": "policy", "tier": "expansion", "url": "https://news.un.org/feed/view/en/story/2026/02/1166872", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "Rafah crossing reopens after over one year, generating both optimism and apprehension among aid officials and displaced populations.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "hn-2026-02-03-001",
+      "title": "EPA Advances Farmers' Right to Repair Their Own Equipment",
+      "source": {"name": "Hacker News", "type": "blog", "tier": "expansion", "url": "https://www.epa.gov/newsreleases/epa-advances-farmers-right-repair-their-own-equipment-saving-repair-costs-and", "published_date": "2026-02-02"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "EPA advances right-to-repair for farmers, saving repair costs and challenging agricultural equipment manufacturer lock-in practices.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "hn-2026-02-03-002",
+      "title": "Nvidia Shares Drop After OpenAI Investment Stalls",
+      "source": {"name": "Hacker News", "type": "blog", "tier": "expansion", "url": "https://www.cnbc.com/2026/02/02/nvidia-stock-price-openai-funding.html", "published_date": "2026-02-02"},
+      "preliminary_category": "E",
+      "signal_status": "emerging",
+      "abstract": "Nvidia shares decline after reports that its investment in OpenAI has stalled, signaling AI investment ecosystem tensions.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "hn-2026-02-03-003",
+      "title": "Wiz Exposes Moltbook Database: Millions of API Keys Leaked",
+      "source": {"name": "Hacker News", "type": "blog", "tier": "expansion", "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "emerging",
+      "abstract": "Security firm Wiz discovers exposed Moltbook database revealing millions of API keys, highlighting systemic cloud security vulnerabilities.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "hn-2026-02-03-004",
+      "title": "Google DeepMind Advances AI Benchmarking with Kaggle Game Arena",
+      "source": {"name": "Hacker News", "type": "blog", "tier": "expansion", "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/", "published_date": "2026-02-02"},
+      "preliminary_category": "T",
+      "signal_status": "developing",
+      "abstract": "Google DeepMind launches Game Arena on Kaggle for AI agent benchmarking, advancing competitive AI evaluation methodologies.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "pew-2026-02-03-001",
+      "title": "Pew: Confidence in Trump Dips — Only 27% Support All/Most Policies",
+      "source": {"name": "Pew Research Center", "type": "blog", "tier": "expansion", "url": "https://www.pewresearch.org/politics/2026/01/29/confidence-in-trump-dips-and-fewer-now-say-they-support-his-policies-and-plans/", "published_date": "2026-01-29"},
+      "preliminary_category": "P",
+      "signal_status": "developing",
+      "abstract": "Pew survey: only 27% of Americans support all or most of Trump's policies (down from previous year), confidence dipping across demographics.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "pew-2026-02-03-002",
+      "title": "Pew: Young Adults Increasingly Get News from Social Media Over Traditional Sources",
+      "source": {"name": "Pew Research Center", "type": "blog", "tier": "expansion", "url": "https://www.pewresearch.org/journalism/2026/02/02/video-how-do-young-adults-get-their-news/", "published_date": "2026-02-02"},
+      "preliminary_category": "S",
+      "signal_status": "developing",
+      "abstract": "Young adults under 30 increasingly source news from social media, reshaping information distribution and media consumption patterns.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "cb-2026-02-03-001",
+      "title": "US Formally Exits Paris Climate Agreement Under Trump",
+      "source": {"name": "Carbon Brief", "type": "blog", "tier": "expansion", "url": "https://www.carbonbrief.org/debriefed-30-january-2026-fire-and-ice-us-formally-exits-paris-climate-image-faux-pas/", "published_date": "2026-01-30"},
+      "preliminary_category": "E_Environmental",
+      "signal_status": "developing",
+      "abstract": "US formally exits Paris Agreement under Trump administration, alongside extreme weather events (Australian heatwaves, US winter storms).",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "cb-2026-02-03-002",
+      "title": "Chinese Wind Power: Help or Hindrance to Europe's Climate Goals?",
+      "source": {"name": "Carbon Brief", "type": "blog", "tier": "expansion", "url": "https://www.carbonbrief.org/experts-will-chinese-wind-power-help-or-hinder-europes-climate-goals/", "published_date": "2026-01-30"},
+      "preliminary_category": "E_Environmental",
+      "signal_status": "developing",
+      "abstract": "Expert debate on Chinese wind turbine manufacturers' role in Europe's renewable energy expansion and 2030 clean energy targets.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "sci-2026-02-03-001",
+      "title": "First Chikungunya Vaccine: Serious Side Effects Dim Hopes During Outbreak",
+      "source": {"name": "Science Magazine", "type": "academic", "tier": "expansion", "url": "https://www.science.org/content/article/serious-side-effects-dim-hopes-first-chikungunya-vaccine", "published_date": "2026-02-02"},
+      "preliminary_category": "S",
+      "signal_status": "emerging",
+      "abstract": "First chikungunya vaccine falls short during massive outbreak on French island; serious side effects prompt search for safer alternatives.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "sci-2026-02-03-002",
+      "title": "UK Physics Community Faces 30% Funding Cuts in Particle Physics and Astronomy",
+      "source": {"name": "Science Magazine", "type": "academic", "tier": "expansion", "url": "https://www.science.org/content/article/u-k-physics-community-braces-deep-funding-cuts", "published_date": "2026-01-29"},
+      "preliminary_category": "P",
+      "signal_status": "emerging",
+      "abstract": "UK research council to slash funding for particle physics, nuclear physics, and astronomy by 30%, threatening scientific infrastructure.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "sci-2026-02-03-003",
+      "title": "Deep-Space Radiation: Shields and Biological Countermeasures for Lunar Missions",
+      "source": {"name": "Science Magazine", "type": "academic", "tier": "expansion", "url": "https://www.science.org/content/article/humans-return-moon-scientists-confront-dangers-deep-space-radiation", "published_date": "2026-01-29"},
+      "preliminary_category": "T",
+      "signal_status": "developing",
+      "abstract": "Scientists develop radiation shields and biological countermeasures for astronauts as humanity prepares for prolonged lunar missions.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nasa-2026-02-03-001",
+      "title": "NASA Releases 2025 Temperature Data Without Mentioning 'Climate Change'",
+      "source": {"name": "NASA Climate Change", "type": "policy", "tier": "expansion", "url": "https://www.nasa.gov/news-release/nasa-releases-global-temperature-data/", "published_date": "2026-01-15"},
+      "preliminary_category": "E_Environmental",
+      "signal_status": "developing",
+      "abstract": "NASA publishes 2025 global temperature data (2nd hottest year) without mentioning climate change, emissions, or global warming — sharp break from Biden-era communications.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    },
+    {
+      "id": "nasa-2026-02-03-002",
+      "title": "Congress Pushes Back on Trump's 50% NASA Earth Science Cuts",
+      "source": {"name": "NASA Climate Change", "type": "policy", "tier": "expansion", "url": "https://www.cnn.com/2026/01/14/climate/noaa-nasa-funding-congress-trump-climate", "published_date": "2026-01-14"},
+      "preliminary_category": "P",
+      "signal_status": "developing",
+      "abstract": "Congress rejects Trump's proposed 50% NASA science cuts; explicitly maintains Goddard Institute for Space Studies climate monitoring lab.",
+      "collected_at": "2026-02-03T07:30:00Z"
+    }
+  ]
+}

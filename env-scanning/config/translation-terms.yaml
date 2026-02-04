@@ -1,0 +1,415 @@
+# Translation Terminology Map
+#
+# Purpose: Ensure consistent, high-quality Korean translations
+# Usage: Loaded by translation-agent for every translation task
+#
+# Last Updated: 2026-01-30
+
+# ============================================================================
+# IMMUTABLE TERMS - NEVER TRANSLATE (Preserve exactly as written)
+# ============================================================================
+
+immutable_terms:
+  # STEEPs Framework (CRITICAL - Core system taxonomy)
+  - "STEEPs"
+  - "STEEP"
+  - "Social"
+  - "Technological"
+  - "Economic"
+  - "Environmental"
+  - "Political"
+  - "spiritual"
+  - "S"
+  - "T"
+  - "E"
+  - "P"
+  - "s"
+
+  # Category codes (exact match required)
+  - "category_S"
+  - "category_T"
+  - "category_E"
+  - "category_P"
+  - "category_s"
+
+# ============================================================================
+# PRESERVE ENGLISH - Keep in English (May add Korean explanation)
+# ============================================================================
+
+preserve:
+  # Academic Sources
+  - "arXiv"
+  - "Google Scholar"
+  - "SSRN"
+  - "PubMed"
+  - "IEEE Xplore"
+
+  # Government/Policy Sources
+  - "Federal Register"
+  - "EUR-Lex"
+  - "KIPRIS"
+
+  # Methodologies
+  - "WISDOM Framework"
+  - "Real-Time Delphi"
+  - "Real-Time AI Delphi"
+  - "RT-AID"
+  - "Futures Wheel"
+  - "Cross-Impact Analysis"
+  - "Cross-Impact Matrix"
+  - "Probabilistic Cross-Impact Matrix"
+  - "Bayesian Network"
+  - "QUEST"
+  - "QUEST methodology"
+  - "Delphi method"
+
+  # Technical Terms
+  - "AI"
+  - "ML"
+  - "GPT"
+  - "LLM"
+  - "API"
+  - "JSON"
+  - "YAML"
+  - "Markdown"
+  - "Python"
+  - "GitHub"
+
+  # Organizations
+  - "EU"
+  - "WHO"
+  - "UN"
+  - "OECD"
+  - "MIT"
+  - "Stanford"
+  - "Millennium Project"
+
+  # Products/Platforms
+  - "Claude"
+  - "Claude Code"
+  - "ChatGPT"
+  - "TensorFlow"
+  - "PyTorch"
+
+# ============================================================================
+# STANDARDIZED TRANSLATIONS - Use these exact Korean translations
+# ============================================================================
+
+mappings:
+  # Core Concepts
+  "weak signal": "약한 신호"
+  "weak signals": "약한 신호"
+  "environmental scanning": "환경 스캐닝"
+  "futures research": "미래 연구"
+  "foresight": "미래 예측"
+  "horizon scanning": "지평선 스캐닝"
+  "emerging trend": "떠오르는 트렌드"
+  "emerging trends": "떠오르는 트렌드"
+  "paradigm shift": "패러다임 전환"
+  "paradigm transformation": "패러다임 변혁"
+  "critical transition": "임계 전환"
+  "singularity": "특이점"
+  "tipping point": "전환점"
+
+  # Workflow Phases
+  "Research": "조사 단계"
+  "Planning": "계획 단계"
+  "Implementation": "실행 단계"
+  "Phase 1": "1단계"
+  "Phase 2": "2단계"
+  "Phase 3": "3단계"
+
+  # Workflow Steps
+  "Load archive": "아카이브 로딩"
+  "Multi-source scanning": "다중 소스 스캐닝"
+  "Duplicate filtering": "중복 필터링"
+  "Deduplication": "중복 제거"
+  "Signal classification": "신호 분류"
+  "Impact analysis": "영향도 분석"
+  "Priority ranking": "우선순위 결정"
+  "Scenario building": "시나리오 생성"
+  "Database update": "데이터베이스 업데이트"
+  "Report generation": "보고서 생성"
+  "Archive and notify": "아카이브 및 알림"
+
+  # Quality Metrics
+  "duplicate detection": "중복 탐지"
+  "classification accuracy": "분류 정확도"
+  "dedup accuracy": "중복 제거 정확도"
+  "processing time": "처리 시간"
+  "execution time": "실행 시간"
+  "confidence score": "신뢰도 점수"
+  "quality metric": "품질 지표"
+  "quality metrics": "품질 지표"
+  "performance target": "성능 목표"
+  "performance targets": "성능 목표"
+
+  # Signal Properties
+  "signal": "신호"
+  "signals": "신호"
+  "new signal": "신규 신호"
+  "new signals": "신규 신호"
+  "historical signal": "과거 신호"
+  "historical signals": "과거 신호"
+  "signal status": "신호 상태"
+  "emerging": "발현 중"
+  "developing": "발전 중"
+  "mature": "성숙"
+
+  # Analysis Terms
+  "impact": "영향도"
+  "impact score": "영향도 점수"
+  "first order impact": "1차 영향"
+  "second order impact": "2차 영향"
+  "cross-impact": "교차 영향"
+  "direct impact": "직접 영향"
+  "indirect impact": "간접 영향"
+  "derived impact": "파생 영향"
+  "probability": "발생 가능성"
+  "urgency": "긴급도"
+  "novelty": "신규성"
+  "significance": "중요도"
+  "accuracy": "정확성"
+  "confidence": "신뢰도"
+  "innovative capacity": "혁신성"
+
+  # Priority Levels
+  "high priority": "최우선"
+  "medium priority": "우선"
+  "low priority": "하위"
+  "top priority": "최우선 순위"
+  "critical": "중대"
+
+  # Scenario Terms
+  "scenario": "시나리오"
+  "scenarios": "시나리오"
+  "plausible scenario": "가능한 시나리오"
+  "plausible scenarios": "가능한 시나리오"
+  "baseline scenario": "기준 시나리오"
+  "optimistic scenario": "낙관 시나리오"
+  "pessimistic scenario": "비관 시나리오"
+  "wild card": "와일드카드"
+
+  # Sources
+  "academic paper": "학술 논문"
+  "academic papers": "학술 논문"
+  "patent": "특허"
+  "patents": "특허"
+  "policy document": "정책 문서"
+  "policy documents": "정책 문서"
+  "tech blog": "기술 블로그"
+  "tech blogs": "기술 블로그"
+  "news article": "뉴스 기사"
+  "news articles": "뉴스 기사"
+  "report": "보고서"
+  "reports": "보고서"
+  "RSS feed": "RSS 피드"
+  "RSS feeds": "RSS 피드"
+
+  # File Types
+  "database": "데이터베이스"
+  "archive": "아카이브"
+  "snapshot": "스냅샷"
+  "log file": "로그 파일"
+  "log files": "로그 파일"
+  "output file": "출력 파일"
+  "output files": "출력 파일"
+  "configuration": "설정"
+  "configuration file": "설정 파일"
+
+  # Actions
+  "scan": "스캔"
+  "scanning": "스캐닝"
+  "filter": "필터링"
+  "filtering": "필터링"
+  "classify": "분류"
+  "classification": "분류"
+  "analyze": "분석"
+  "analysis": "분석"
+  "rank": "순위 결정"
+  "ranking": "순위 결정"
+  "update": "업데이트"
+  "generate": "생성"
+  "generation": "생성"
+  "archive": "아카이브"
+  "notify": "알림"
+  "validation": "검증"
+  "validate": "검증"
+  "verification": "확인"
+  "verify": "확인"
+
+  # Status Messages
+  "in progress": "진행 중"
+  "completed": "완료"
+  "pending": "대기 중"
+  "blocked": "중단됨"
+  "failed": "실패"
+  "success": "성공"
+  "error": "오류"
+  "warning": "경고"
+  "info": "정보"
+
+  # User Interface
+  "review": "검토"
+  "approve": "승인"
+  "approval": "승인"
+  "revision": "수정"
+  "feedback": "피드백"
+  "checkpoint": "체크포인트"
+  "human review": "사람 검토"
+  "optional": "선택사항"
+  "required": "필수"
+  "recommended": "권장"
+
+  # Report Sections
+  "Executive Summary": "핵심 요약"
+  "Key Finding": "주요 발견"
+  "Key Findings": "주요 발견"
+  "New Signals": "신규 신호"
+  "Signal Updates": "신호 업데이트"
+  "Patterns and Connections": "패턴 및 연결고리"
+  "Strategic Implications": "전략적 시사점"
+  "Appendix": "부록"
+  "References": "참고자료"
+
+  # Time Periods
+  "daily": "일일"
+  "weekly": "주간"
+  "monthly": "월간"
+  "real-time": "실시간"
+  "historical": "과거"
+  "recent": "최근"
+  "emerging": "신규"
+
+  # Regions (when used as adjectives)
+  "global": "전세계"
+  "regional": "지역"
+  "local": "지역"
+  "international": "국제"
+  "domestic": "국내"
+
+  # Workflow Components
+  "orchestrator": "오케스트레이터"
+  "worker agent": "워커 에이전트"
+  "worker agents": "워커 에이전트"
+  "sub-agent": "서브 에이전트"
+  "sub-agents": "서브 에이전트"
+  "task": "작업"
+  "tasks": "작업"
+  "subtask": "하위 작업"
+  "subtasks": "하위 작업"
+
+  # Expert Validation
+  "expert": "전문가"
+  "experts": "전문가"
+  "expert panel": "전문가 패널"
+  "expert validation": "전문가 검증"
+  "expert feedback": "전문가 피드백"
+  "consensus": "합의"
+
+  # Error Handling
+  "retry": "재시도"
+  "rollback": "롤백"
+  "backup": "백업"
+  "restore": "복원"
+  "recovery": "복구"
+  "corruption": "손상"
+  "integrity": "무결성"
+
+  # Translation-Specific
+  "translation": "번역"
+  "original": "원본"
+  "source": "원본"
+  "target": "대상"
+  "bilingual": "이중 언어"
+  "terminology": "용어"
+  "consistency": "일관성"
+  "quality check": "품질 확인"
+  "back-translation": "역번역"
+
+# ============================================================================
+# CONTEXT-DEPENDENT TRANSLATIONS
+# ============================================================================
+# These terms may have different translations based on context.
+# The translation agent should use judgment based on surrounding text.
+
+context_dependent:
+  "signal":
+    technical_context: "신호"  # In STEEPs framework
+    general_context: "징후"   # In general text
+
+  "emerging":
+    trend_context: "떠오르는"  # Emerging trend
+    status_context: "발현 중"  # Signal status
+
+  "impact":
+    analysis_context: "영향도"  # Impact analysis
+    score_context: "영향력"     # Impact score
+
+  "source":
+    data_context: "출처"       # Data source
+    file_context: "원본"       # Source file
+
+# ============================================================================
+# SPECIAL HANDLING INSTRUCTIONS
+# ============================================================================
+
+special_cases:
+  # When translating lists, keep category codes in English
+  # Example: "T (Technological)" → "T (Technological)"
+  # NOT: "T (기술)"
+
+  # When translating scores, keep the scale
+  # Example: "Impact: High (8.5/10)" → "영향도: 높음 (8.5/10)"
+
+  # When translating dates, use YYYY-MM-DD format
+  # Example: "2026-01-30" → "2026-01-30" (unchanged)
+
+  # When translating file paths, keep English
+  # Example: "reports/daily/..." → "reports/daily/..." (unchanged)
+
+  # When translating URLs, keep entirely in English
+  # Example: "https://arxiv.org/..." → "https://arxiv.org/..." (unchanged)
+
+# ============================================================================
+# REGISTER AND TONE GUIDELINES
+# ============================================================================
+
+style_guide:
+  formality: "formal"        # Use 합쇼체 (formal polite) for reports
+  tone: "professional"       # Professional, not casual
+  technical_terms: "preserve_or_explain"  # Keep English or add Korean explanation
+  abbreviations: "expand_first_use"  # Expand on first use, then abbreviate
+
+  examples:
+    good_formal: "분석 결과, 79개의 신규 신호가 탐지되었습니다."
+    bad_casual: "79개 신호를 찾았어요."
+
+    good_technical: "Cross-Impact Matrix(교차 영향 행렬)를 생성합니다."
+    bad_technical: "교차 영향 행렬을 생성합니다." # Missing English term
+
+    good_explanation: "Real-Time Delphi 방법론을 활용한 전문가 검증"
+    bad_explanation: "실시간 델파이 방법론" # Over-translated
+
+# ============================================================================
+# VERSION INFORMATION
+# ============================================================================
+
+metadata:
+  version: "1.0.0"
+  last_updated: "2026-01-30"
+  compatible_with: "translation-agent v1.0+"
+  maintained_by: "Environmental Scanning System"
+
+# ============================================================================
+# NOTES FOR TRANSLATION AGENT
+# ============================================================================
+
+# 1. Always check immutable_terms first - these NEVER change
+# 2. Check preserve list second - keep in English
+# 3. Check mappings third - use standardized translation
+# 4. For other terms - translate naturally with proper context
+# 5. When in doubt - preserve English with Korean explanation in parentheses
+# 6. Consistency is critical - same English term = same Korean term always
+# 7. Technical precision > Natural phrasing (but aim for both)
+# 8. Never sacrifice meaning for brevity

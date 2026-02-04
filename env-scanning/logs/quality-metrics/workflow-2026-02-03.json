@@ -1,0 +1,72 @@
+{
+  "workflow_id": "scan-2026-02-03-marathon",
+  "date": "2026-02-03",
+  "mode": "marathon",
+  "collection": {
+    "total_sources_attempted": 23,
+    "total_sources_succeeded": 14,
+    "source_success_rate": 0.609,
+    "base_sources": 5,
+    "expansion_sources_succeeded": 9,
+    "expansion_sources_failed": 9,
+    "total_items_collected": 165,
+    "stage_a_items": 72,
+    "stage_b_items": 93
+  },
+  "deduplication": {
+    "total_removed": 56,
+    "dedup_rate": 0.339,
+    "stage1_url": 38,
+    "stage2_string": 12,
+    "stage3_semantic": 4,
+    "stage4_entity": 2,
+    "unique_signals": 109
+  },
+  "classification": {
+    "confidence": 0.89,
+    "signals_classified": 48,
+    "steeps_distribution": {
+      "T": 17,
+      "P": 14,
+      "E": 6,
+      "S": 5,
+      "E_Environmental": 4,
+      "s": 2
+    }
+  },
+  "analysis": {
+    "cross_impact_complexity": 0.068,
+    "scenario_triggered": false,
+    "impact_pairs_identified": 7,
+    "themes_identified": 4
+  },
+  "report": {
+    "validation_result": "14/14 PASS",
+    "sections_complete": 7,
+    "sections_total": 7,
+    "top_signals_fields_complete": true,
+    "language_quality": "natural_korean_with_english_terms"
+  },
+  "database": {
+    "signals_before": 461,
+    "signals_added": 48,
+    "signals_after": 509,
+    "snapshot_created": true
+  },
+  "trust": {
+    "average_psst": 73.5,
+    "max_psst": 85,
+    "min_psst": 65,
+    "grade_distribution": {
+      "A": 0,
+      "B": 37,
+      "C": 11,
+      "D": 0
+    }
+  },
+  "approval": {
+    "approved_by": "human",
+    "approval_time": "2026-02-03T07:50:00Z",
+    "completeness_check": "all_pass"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "https://www.who.int/rss-feeds/news-english.xml": {
+    "resolved_url": "https://www.who.int/rss-feeds/news-english.xml",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:18.162598+00:00"
+  },
+  "https://techcrunch.com/feed/": {
+    "resolved_url": "https://techcrunch.com/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:18.401597+00:00"
+  },
+  "https://www.technologyreview.com/feed/": {
+    "resolved_url": "https://www.technologyreview.com/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:18.893291+00:00"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=emerging+technology+OR+public+health+trend&format=xml": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:32.551243+00:00"
+  },
+  "https://www.nature.com/nature.rss": {
+    "resolved_url": "https://www.nature.com/nature.rss",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:40.734254+00:00"
+  },
+  "https://www.science.org/rss/news_current.xml": {
+    "resolved_url": "https://www.science.org/rss/news_current.xml",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/xml;charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:41.234904+00:00"
+  },
+  "https://spectrum.ieee.org/feeds/feed.rss": {
+    "resolved_url": "https://spectrum.ieee.org/feeds/feed.rss",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:41.734059+00:00"
+  },
+  "https://www.oecd.org/newsroom/index.xml": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:41.909510+00:00"
+  },
+  "https://blogs.worldbank.org/feed": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [
+      "https://blogs.worldbank.org/feed",
+      "https://blogs.worldbank.org/en/feed"
+    ],
+    "content_type": "text/html;charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:51.842316+00:00"
+  },
+  "https://news.un.org/feed/subscribe/en/news/all/rss.xml": {
+    "resolved_url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:52.236737+00:00"
+  },
+  "https://eur-lex.europa.eu/EN/display-feed.html?rssId=67": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:53.237704+00:00"
+  },
+  "https://www.brookings.edu/feed/": {
+    "resolved_url": "https://www.brookings.edu/feed/",
+    "status": "html_with_alternate",
+    "redirect_chain": [
+      "https://www.brookings.edu/feed/",
+      "https://www.brookings.edu/"
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "alternate_feeds": [
+      "https://www.brookings.edu/feed/",
+      "https://www.brookings.edu/comments/feed/"
+    ],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:54.583989+00:00"
+  },
+  "https://www.weforum.org/feed/": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:40:55.037042+00:00"
+  },
+  "https://www.pewresearch.org/feed/": {
+    "resolved_url": "https://www.pewresearch.org/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:03.932532+00:00"
+  },
+  "https://hnrss.org/frontpage": {
+    "resolved_url": "https://hnrss.org/frontpage",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:05.493754+00:00"
+  },
+  "https://www.wired.com/feed/rss": {
+    "resolved_url": "https://www.wired.com/feed/rss",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/xml",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:06.931099+00:00"
+  },
+  "https://feeds.arstechnica.com/arstechnica/index": {
+    "resolved_url": "https://feeds.arstechnica.com/arstechnica/index",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "text/xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:07.039616+00:00"
+  },
+  "https://climate.nasa.gov/news/rss.xml": {
+    "resolved_url": "https://science.nasa.gov/feed/",
+    "status": "html_with_alternate",
+    "redirect_chain": [
+      "https://climate.nasa.gov/news/rss.xml",
+      "https://science.nasa.gov/climate-change/"
+    ],
+    "content_type": "text/html; charset=UTF-8",
+    "alternate_feeds": [
+      "https://science.nasa.gov/feed/"
+    ],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:08.440965+00:00"
+  },
+  "https://www.carbonbrief.org/feed/": {
+    "resolved_url": "https://www.carbonbrief.org/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:10.247620+00:00"
+  },
+  "https://www.imf.org/en/News/Rss?Language=ENG": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:10.589177+00:00"
+  },
+  "https://www.bis.org/doclist/cbspeeches.rss": {
+    "resolved_url": "https://www.bis.org/doclist/cbspeeches.rss",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-02-02T01:41:12.436523+00:00"
+  }
+}

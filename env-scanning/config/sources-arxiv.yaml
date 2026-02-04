@@ -1,0 +1,104 @@
+# WF2 Exclusive: arXiv Academic Deep Scanning Source Configuration
+# Version: 1.0.0
+# Last Updated: 2026-02-03
+#
+# This file is used ONLY by WF2 (arXiv dedicated workflow).
+# It contains a single source: arXiv, with extended parameters for deep scanning.
+#
+# Differences from WF1's arXiv config:
+#   - days_back: 14 (vs WF1's 7)
+#   - max_results: 50 per category (vs WF1's 20)
+#   - timeout: 60s (vs WF1's 30s)
+#   - Extended arXiv category mappings for broader academic coverage
+#   - critical: true (arXiv is the sole source; failure halts WF2)
+
+sources:
+  - name: "arXiv"
+    tier: "base"
+    type: "academic"
+    enabled: true
+    api_endpoint: "http://export.arxiv.org/api/query"
+    rate_limit: 300  # per minute (actual: 1 request per 3 seconds)
+    timeout: 60  # seconds (extended for deep scanning)
+    critical: true  # Sole source — failure halts WF2
+    date_filter: "last_14_days"  # Extended lookback for depth
+    max_results: 50  # papers per STEEPs category (2.5x WF1)
+    description: "arXiv deep scan — dedicated WF2 source"
+    reliability: "high"
+    cost: "free"
+    validation_status: "production_ready"
+
+    # Extended arXiv category mappings
+    # WF2 scans more arXiv categories per STEEPs domain for comprehensive coverage
+    extended_categories:
+      S_Social:
+        - "cs.CY"        # Computers and Society
+        - "cs.HC"        # Human-Computer Interaction
+        - "econ.GN"      # General Economics
+        - "q-bio.PE"     # Populations and Evolution
+        - "cs.SI"        # Social and Information Networks
+        - "stat.OT"      # Statistics Other
+
+      T_Technological:
+        - "cs.AI"        # Artificial Intelligence
+        - "cs.RO"        # Robotics
+        - "cs.CL"        # Computation and Language (NLP)
+        - "cs.CV"        # Computer Vision
+        - "cs.LG"        # Machine Learning
+        - "cs.NE"        # Neural and Evolutionary Computing
+        - "cs.CR"        # Cryptography and Security
+        - "cs.DC"        # Distributed Computing
+        - "cs.SE"        # Software Engineering
+        - "quant-ph"     # Quantum Physics
+        - "cs.AR"        # Hardware Architecture
+        - "cs.ET"        # Emerging Technologies
+        - "eess.SP"      # Signal Processing
+
+      E_Economic:
+        - "econ.EM"      # Econometrics
+        - "econ.TH"      # Theoretical Economics
+        - "q-fin.EC"     # Economics (Quantitative Finance)
+        - "q-fin.GN"     # General Finance
+        - "q-fin.PM"     # Portfolio Management
+        - "q-fin.ST"     # Statistical Finance
+        - "q-fin.RM"     # Risk Management
+        - "q-fin.CP"     # Computational Finance
+        - "stat.AP"      # Statistics Applications
+
+      E_Environmental:
+        - "physics.ao-ph"  # Atmospheric and Oceanic Physics
+        - "physics.geo-ph" # Geophysics
+        - "q-bio.QM"      # Quantitative Methods (Biology)
+        - "astro-ph.EP"   # Earth and Planetary Astrophysics
+        - "physics.soc-ph" # Physics and Society
+        - "nlin.AO"       # Adaptation and Self-Organizing Systems
+
+      P_Political:
+        - "cs.CY"        # Computers and Society (policy implications)
+        - "econ.GN"      # General Economics (policy)
+        - "stat.ML"      # Machine Learning (governance applications)
+        - "cs.MA"        # Multiagent Systems (governance)
+
+      s_spiritual:
+        - "cs.AI"        # AI Ethics, value alignment
+        - "cs.CY"        # Societal implications, meaning
+        - "cs.HC"        # Human factors, wellbeing
+
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+# Retry Configuration (same as WF1 — shared philosophy)
+retry_policy:
+  max_attempts: 3
+  backoff_strategy: "exponential"
+  timeout_increase: true
+
+# Error Handling
+error_handling:
+  on_critical_failure: "halt_workflow"
+  on_non_critical_failure: "skip_and_continue"
+  log_errors: true
+  notify_on_failure: false

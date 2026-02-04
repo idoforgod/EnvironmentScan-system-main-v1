@@ -1,0 +1,41 @@
+{
+  "date": "2026-02-02",
+  "workflow_id": "scan-2026-02-02-marathon",
+  "signals": {
+    "total_collected": 342,
+    "total_unique_new": 138,
+    "dedup_rate": 59.6,
+    "base_signals": 30,
+    "expansion_signals": 108
+  },
+  "sources": {
+    "total_attempted": 23,
+    "total_succeeded": 20,
+    "total_with_data": 17,
+    "total_failed": 3,
+    "failure_rate": 13.0
+  },
+  "classification": {
+    "T_Technological": 83,
+    "P_Political": 44,
+    "S_Social": 7,
+    "E_Environmental": 4,
+    "low_confidence": 118
+  },
+  "priority": {
+    "high_count": 0,
+    "medium_count": 138,
+    "low_count": 0
+  },
+  "performance": {
+    "total_time_seconds": 60.01,
+    "stage_a_time": 17.65,
+    "stage_b_time": 42.36,
+    "within_budget": true
+  },
+  "database": {
+    "total_signals": 461,
+    "added": 138,
+    "integrity_check": "passed"
+  }
+}

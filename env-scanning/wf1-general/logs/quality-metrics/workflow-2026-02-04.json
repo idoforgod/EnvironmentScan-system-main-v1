@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-04",
+  "workflow_id": "scan-2026-02-04-marathon",
+  "mode": "marathon_autopilot",
+  "sources_active": 17,
+  "sources_disabled": 6,
+  "raw_signals": 233,
+  "dedup_removed": 53,
+  "dedup_rate": 22.7,
+  "new_unique_signals": 180,
+  "steeps_distribution": {
+    "T": 62.8,
+    "P": 18.9,
+    "E_Env": 9.4,
+    "S": 6.1,
+    "E_Econ": 2.2,
+    "s": 0.6
+  },
+  "avg_psst": 79.1,
+  "report_validation": "14/14 PASS",
+  "execution_time_sec": 20.57,
+  "database_before": 509,
+  "database_after": 689
+}

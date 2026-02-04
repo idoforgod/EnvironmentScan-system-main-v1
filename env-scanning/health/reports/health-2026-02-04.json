@@ -1,0 +1,274 @@
+{
+  "checked_at": "2026-02-03T22:09:24.586830+00:00",
+  "total": 23,
+  "healthy": 14,
+  "unhealthy": 6,
+  "suspect": 3,
+  "sources": {
+    "Google Patents": {
+      "name": "Google Patents",
+      "url": "https://patents.google.com/api",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 559.5,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "US Federal Register": {
+      "name": "US Federal Register",
+      "url": "https://www.federalregister.gov/api/v1/documents",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 852.4,
+      "content_type": "application/json; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "WHO Press Releases": {
+      "name": "WHO Press Releases",
+      "url": "https://www.who.int/rss-feeds/news-english.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 240.7,
+      "content_type": "application/rss+xml",
+      "redirect_chain": [],
+      "error": null
+    },
+    "TechCrunch": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 148.3,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "MIT Technology Review": {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 147.5,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "PubMed Central": {
+      "name": "PubMed Central",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=emerging+technology+OR+public+health+trend&format=xml",
+      "status_code": 500,
+      "health": "unhealthy",
+      "reason": "server_error",
+      "response_time_ms": 457.2,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Nature News": {
+      "name": "Nature News",
+      "url": "https://www.nature.com/nature.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 48.2,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Science Magazine": {
+      "name": "Science Magazine",
+      "url": "https://www.science.org/rss/news_current.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 296.0,
+      "content_type": "application/xml;charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "IEEE Spectrum": {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 241.7,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "OECD Newsroom": {
+      "name": "OECD Newsroom",
+      "url": "https://www.oecd.org/newsroom/index.xml",
+      "status_code": 403,
+      "health": "unhealthy",
+      "reason": "bot_blocked",
+      "response_time_ms": 236.8,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "World Bank Blogs": {
+      "name": "World Bank Blogs",
+      "url": "https://blogs.worldbank.org/feed",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 1140.4,
+      "content_type": "text/html;charset=utf-8",
+      "redirect_chain": [
+        "https://blogs.worldbank.org/feed",
+        "https://blogs.worldbank.org/en/feed"
+      ],
+      "error": null
+    },
+    "UN News": {
+      "name": "UN News",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 420.2,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "EUR-Lex Recent Acts": {
+      "name": "EUR-Lex Recent Acts",
+      "url": "https://eur-lex.europa.eu/EN/display-feed.html?rssId=67",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 1631.8,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Brookings Institution": {
+      "name": "Brookings Institution",
+      "url": "https://www.brookings.edu/feed/",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 1690.3,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [
+        "https://www.brookings.edu/feed/",
+        "https://www.brookings.edu/"
+      ],
+      "error": null
+    },
+    "World Economic Forum": {
+      "name": "World Economic Forum",
+      "url": "https://www.weforum.org/feed/",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 339.5,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Pew Research Center": {
+      "name": "Pew Research Center",
+      "url": "https://www.pewresearch.org/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 191.4,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Hacker News": {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1016.6,
+      "content_type": "application/xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Wired": {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 57.2,
+      "content_type": "application/xml",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Ars Technica": {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 52.0,
+      "content_type": "text/xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "NASA Climate Change": {
+      "name": "NASA Climate Change",
+      "url": "https://climate.nasa.gov/news/rss.xml",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 1352.3,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [
+        "https://climate.nasa.gov/news/rss.xml",
+        "https://science.nasa.gov/climate-change/"
+      ],
+      "error": null
+    },
+    "Carbon Brief": {
+      "name": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 433.2,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "IMF Blog": {
+      "name": "IMF Blog",
+      "url": "https://www.imf.org/en/News/Rss?Language=ENG",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 857.7,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [
+        "https://www.imf.org/en/News/Rss?Language=ENG",
+        "https://www.imf.org/en/news/rss?Language=ENG"
+      ],
+      "error": null
+    },
+    "BIS Speeches": {
+      "name": "BIS Speeches",
+      "url": "https://www.bis.org/doclist/cbspeeches.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1239.0,
+      "content_type": "application/rss+xml",
+      "redirect_chain": [],
+      "error": null
+    }
+  }
+}

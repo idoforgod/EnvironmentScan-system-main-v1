@@ -1,0 +1,680 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "sources_configured": 1,
+    "sources_scanned": 1,
+    "sources_failed": 0,
+    "total_items": 120,
+    "execution_time": 15.13,
+    "mode": "multi_source",
+    "days_back": 7,
+    "timestamp": "2026-01-30T10:59:17.858978"
+  },
+  "batch_info": {
+    "batch_number": 6,
+    "total_batches": 6,
+    "start_index": 100,
+    "end_index": 120,
+    "batch_size": 20
+  },
+  "items": [
+    {
+      "id": "arxiv-2601.20848v1",
+      "title": "Post-Training Fairness Control: A Single-Train Framework for Dynamic Fairness in Recommendation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20848v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Despite growing efforts to mitigate unfairness in recommender systems, existing fairness-aware methods typically fix the fairness requirement at training time and provide limited post-training flexibility. However, in real-world scenarios, diverse stakeholders may demand differing fairness requirements over time, so retraining for different fairness requirements becomes prohibitive. To address this limitation, we propose Cofair, a single-train framework that enables post-training fairness control in recommendation. Specifically, Cofair introduces a shared representation layer with fairness-conditioned adapter modules to produce user embeddings specialized for varied fairness levels, along with a user-level regularization term that guarantees user-wise monotonic fairness improvements across these levels. We theoretically establish that the adversarial objective of Cofair upper bounds demographic parity and the regularization term enforces progressive fairness at user level. Comprehensive experiments on multiple datasets and backbone models demonstrate that our framework provides dynamic fairness at different levels, delivering comparable or better fairness-accuracy curves than state-of-the-art baselines, without the need to retrain for each new fairness requirement. Our code is publicly available at https://github.com/weixinchen98/Cofair.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20848v1",
+        "authors": [
+          "Weixin Chen",
+          "Li Chen",
+          "Yuhan Zhao"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858895"
+    },
+    {
+      "id": "arxiv-2601.20838v1",
+      "title": "Reward Models Inherit Value Biases from Pretraining",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20838v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Reward models (RMs) are central to aligning large language models (LLMs) with human values but have received less attention than pre-trained and post-trained LLMs themselves. Because RMs are initialized from LLMs, they inherit representations that shape their behavior, but the nature and extent of this influence remain understudied. In a comprehensive study of 10 leading open-weight RMs using validated psycholinguistic corpora, we show that RMs exhibit significant differences along multiple dimensions of human value as a function of their base model. Using the \"Big Two\" psychological axes, we show a robust preference of Llama RMs for \"agency\" and a corresponding robust preference of Gemma RMs for \"communion.\" This phenomenon holds even when the preference data and finetuning process are identical, and we trace it back to the logits of the respective instruction-tuned and pre-trained models. These log-probability differences themselves can be formulated as an implicit RM; we derive usable implicit reward scores and show that they exhibit the very same agency/communion difference. We run experiments training RMs with ablations for preference data source and quantity, which demonstrate that this effect is not only repeatable but surprisingly durable. Despite RMs being designed to represent human preferences, our evidence shows that their outputs are influenced by the pretrained LLMs on which they are based. This work underscores the importance of safety and alignment efforts at the pretraining stage, and makes clear that open-source developers' choice of base model is as much a consideration of values as of performance.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20838v1",
+        "authors": [
+          "Brian Christian",
+          "Jessica A. F. Thompson",
+          "Elle Michelle Yang"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858905"
+    },
+    {
+      "id": "arxiv-2601.20792v1",
+      "title": "Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20792v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Privacy policies are supposed to provide notice. But what if substantive information appears only where users skip it? We identify a structural pattern we call jurisdiction-siloed disclosure: information about data practices appearing in specific, actionable form only within regional compliance sections labeled \"California Residents\" or \"EU/UK Users,\" while general sections use vague or qualified language for the same practices. Our audit of 123 major companies identifies 282 potential instances across 77 companies (62.6% of this purposive sample). A conservative estimate restricted to practice categories validated against OPP-115 human annotations finds 138 instances across 54 companies (44%); post-2018 categories central to our findings await independent validation. If users skip jurisdiction-labeled sections as information foraging theory predicts, users outside regulated jurisdictions would receive less specific information about practices affecting them--a transparency failure operating through document architecture rather than omission. We propose universal substantive disclosure: practices affecting all users should appear in the main policy body, with regional sections containing only procedural rights information. This standard finds support in analogous disclosure regimes (securities, truth-in-lending, nutritional labeling) where material information must reach all affected parties. Regulators could operationalize this through the FTC's \"clear and conspicuous\" standard and GDPR transparency principles. This work is hypothesis-generating: we establish that the structural pattern exists and ground the transparency concern in behavioral theory, but direct measurement of jurisdiction-specific section skipping remains the critical validation priority. We release our methodology and annotated dataset to enable replication.",
+        "keywords": [
+          "cs.CL",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20792v1",
+        "authors": [
+          "Thomas Brackin"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.CY",
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858908"
+    },
+    {
+      "id": "arxiv-2601.20731v1",
+      "title": "QueerGen: How LLMs Reflect Societal Norms on Gender and Sexuality in Sentence Completion Tasks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20731v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This paper examines how Large Language Models (LLMs) reproduce societal norms, particularly heterocisnormativity, and how these norms translate into measurable biases in their text generations. We investigate whether explicit information about a subject's gender or sexuality influences LLM responses across three subject categories: queer-marked, non-queer-marked, and the normalized \"unmarked\" category. Representational imbalances are operationalized as measurable differences in English sentence completions across four dimensions: sentiment, regard, toxicity, and prediction diversity. Our findings show that Masked Language Models (MLMs) produce the least favorable sentiment, higher toxicity, and more negative regard for queer-marked subjects. Autoregressive Language Models (ARLMs) partially mitigate these patterns, while closed-access ARLMs tend to produce more harmful outputs for unmarked subjects. Results suggest that LLMs reproduce normative social assumptions, though the form and degree of bias depend strongly on specific model characteristics, which may redistribute, but not eliminate, representational harms.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20731v1",
+        "authors": [
+          "Mae Sosto",
+          "Delfina Sol Martinez Pandiani",
+          "Laura Hollink"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858910"
+    },
+    {
+      "id": "arxiv-2601.20727v1",
+      "title": "Audit Trails for Accountability in Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20727v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) are increasingly embedded in consequential decisions across healthcare, finance, employment, and public services. Yet accountability remains fragile because process transparency is rarely recorded in a durable and reviewable form. We propose LLM audit trails as a sociotechnical mechanism for continuous accountability. An audit trail is a chronological, tamper-evident, context-rich ledger of lifecycle events and decisions that links technical provenance (models, data, training and evaluation runs, deployments, monitoring) with governance records (approvals, waivers, and attestations), so organizations can reconstruct what changed, when, and who authorized it. This paper contributes: (1) a lifecycle framework that specifies event types, required metadata, and governance rationales; (2) a reference architecture with lightweight emitters, append only audit stores, and an auditor interface supporting cross organizational traceability; and (3) a reusable, open-source Python implementation that instantiates this audit layer in LLM workflows with minimal integration effort. We conclude by discussing limitations and directions for adoption.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20727v1",
+        "authors": [
+          "Victor Ojewale",
+          "Harini Suresh",
+          "Suresh Venkatasubramanian"
+        ],
+        "arxiv_categories": [
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858911"
+    },
+    {
+      "id": "arxiv-2601.20726v1",
+      "title": "Directionality and node heterogeneity reshape criticality in hypergraph percolation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20726v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Directed and heterogeneous hypergraphs capture directional higher-order interactions with intrinsically asymmetric functional dependencies among nodes. As a result, damage to certain nodes can suppress entire hyperedges, whereas failure of others only weakens interactions. Metabolic reaction networks offer an intuitive example of such asymmetric dependencies. Here we develop a message-passing and statistical mechanics framework for percolation in directed hypergraphs that explicitly incorporates directionality and node heterogeneity. Remarkably, we show that these hypergraph features have a fundamental effect on the critical properties of hypergraph percolation, reshaping criticality in a way that depends on network structure. Specifically, we derive anomalous critical exponents that depend on whether node or hyperedge percolation is considered in maximally correlated, heavy-tailed regimes. These theoretical predictions are validated on synthetic hypergraph models and on a real directed metabolic network, opening new perspectives for the characterization of the robustness and resilience of real-world directed, heterogeneous higher-order networks.",
+        "keywords": [
+          "physics.soc-ph",
+          "cond-mat.dis-nn",
+          "cond-mat.stat-mech"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20726v1",
+        "authors": [
+          "Yunxue Sun",
+          "Xueming Liu",
+          "Ginestra Bianconi"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "cond-mat.dis-nn",
+          "cond-mat.stat-mech"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858913"
+    },
+    {
+      "id": "arxiv-2601.20617v1",
+      "title": "Agent Benchmarks Fail Public Sector Requirements",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20617v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Deploying Large Language Model-based agents (LLM agents) in the public sector requires assuring that they meet the stringent legal, procedural, and structural requirements of public-sector institutions. Practitioners and researchers often turn to benchmarks for such assessments. However, it remains unclear what criteria benchmarks must meet to ensure they adequately reflect public-sector requirements, or how many existing benchmarks do so. In this paper, we first define such criteria based on a first-principles survey of public administration literature: benchmarks must be \\emph{process-based}, \\emph{realistic}, \\emph{public-sector-specific} and report \\emph{metrics} that reflect the unique requirements of the public sector. We analyse more than 1,300 benchmark papers for these criteria using an expert-validated LLM-assisted pipeline. Our results show that no single benchmark meets all of the criteria. Our findings provide a call to action for both researchers to develop public sector-relevant benchmarks and for public-sector officials to apply these criteria when evaluating their own agentic use cases.",
+        "keywords": [
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20617v1",
+        "authors": [
+          "Jonathan Rystrøm",
+          "Chris Schmitz",
+          "Karolina Korgul"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858915"
+    },
+    {
+      "id": "arxiv-2601.20452v1",
+      "title": "Manipulation in Prediction Markets: An Agent-based Modeling Experiment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20452v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Prediction markets mobilize financial incentives to forecast binary event outcomes through the aggregation of dispersed beliefs and heterogeneous information. Their growing popularity and demonstrated predictive accuracy in political elections have raised speculation and concern regarding their susceptibility to manipulation and the potential consequences for democratic processes. Using agent-based simulations combined with an analytic characterization of price dynamics, we study how high-budget agents can introduce price distortions in prediction markets. We explore the persistence and stability of these distortions in the presence of herding or stubborn agents, and analyze how agent expertise affects market-price variance. Firstly we propose an agent-based model of a prediction market in which bettors with heterogeneous expertise, noisy private information, variable learning rates and budgets observe the evolution of public opinion on a binary election outcome to inform their betting strategies in the market. The model exhibits stability across a broad parameter space, with complex agent behaviors and price interactions producing self-regulatory price discovery. Second, using this simulation framework, we investigate the conditions under which a highly resourced minority, or ''whale'' agent, with a biased valuation can distort the market price, and for how long. We find that biased whales can temporarily shift prices, with the magnitude and duration of distortion increasing when non-whale bettors exhibit herding behavior and slow learning. Our theoretical analysis corroborates these results, showing that whales can shift prices proportionally to their share of market capital, with distortion duration depending on non-whale learning rates and herding intensity.",
+        "keywords": [
+          "physics.soc-ph",
+          "q-fin.TR",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20452v1",
+        "authors": [
+          "Bridget Smart",
+          "Ebba Mark",
+          "Anne Bastian"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "q-fin.TR",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858917"
+    },
+    {
+      "id": "arxiv-2601.20450v1",
+      "title": "Resilient-to-Fragile Transition and Excess Volatility in Supply Chain Networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20450v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We study the disequilibrium dynamics of a stylised model of production networks in which firms use perishable and non-substitutable intermediate inputs, so that adverse idiosyncratic productivity shocks can trigger downstream shortages and output losses. To protect against such disruptions, firms hold precautionary inventories that act as buffer stocks. We show that, for a given dispersion of firm-level productivity shocks, there exists a critical level of inventories above which the economy remains in a stable stochastic steady state. Below this critical level, the system becomes fragile, i.e., it becomes prone to system-wide crises. As this resilience-fragility boundary is approached from above, aggregate output volatility rises sharply and diverges, even though shocks are purely idiosyncratic. Because inventories are costly, competitive pressures induce firms to economize on buffers. Although we do not explicitly model such costs, we argue that the resulting behaviour of individual firms drives the system close to criticality, generating persistent excess macroeconomic volatility -- in other words, ``small shocks, large cycles'' -- in line with other settings where efficiency and resilience are in tension with each other. In the language of phase transitions, the resilient-to-fragile transition is continuous (supercritical): the economy exhibits a well-defined stochastic equilibrium with finite volatility on one side of the boundary, while beyond it the probability of a collapse in finite time tends to one. We characterize this transition primarily through numerical simulations and derive an analytical description in a high-perishability, high-connectivity limit.",
+        "keywords": [
+          "physics.soc-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20450v1",
+        "authors": [
+          "David Martin",
+          "José Moran",
+          "Debabrata Panja"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858918"
+    },
+    {
+      "id": "arxiv-2601.20413v1",
+      "title": "Schadenfreude in the Digital Public Sphere: A cross-national and decade-long analysis of Facebook news engagement",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20413v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Schadenfreude, or the pleasure derived from others' misfortunes, has become a visible and performative feature of online news engagement, yet little is known about its prevalence, dynamics, or social patterning. We examine schadenfreude on Facebook over a ten-year period across nine major news publishers in the United States, the United Kingdom, and India (one left-leaning, one right-leaning, and one centrist per country). Using a combination of human annotation and machine-learning classification, we identify posts describing misfortune and detect schadenfreude in nearly one million associated comments. We find that while sadness and anger dominate reactions to misfortune posts, laughter and amusement form a substantial and patterned minority. Schadenfreude is most frequent in moralized and political contexts, higher among right-leaning audiences, and more pronounced in India than in the United States or United Kingdom. Temporal and regression analyses further reveal that schadenfreude generally increases when groups are politically out of power, but these patterns differ across party lines. Together, our findings move beyond anecdotal accounts to map schadenfreude as a dynamic, context-dependent feature of digital discourse, revealing how it evolves over time and across ideological and cultural divides.",
+        "keywords": [
+          "cs.SI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20413v1",
+        "authors": [
+          "Nouar Aldahoul",
+          "Hazem Ibrahim",
+          "Majd Mahmutoglu"
+        ],
+        "arxiv_categories": [
+          "cs.SI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858920"
+    },
+    {
+      "id": "arxiv-2601.20245v1",
+      "title": "How AI Impacts Skill Formation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20245v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "AI assistance produces significant productivity gains across professional domains, particularly for novice workers. Yet how this assistance affects the development of skills required to effectively supervise AI remains unclear. Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation -- particularly in safety-critical domains.",
+        "keywords": [
+          "cs.AI",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20245v1",
+        "authors": [
+          "Judy Hanwen Shen",
+          "Alex Tamkin"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CY",
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858922"
+    },
+    {
+      "id": "arxiv-2601.20241v1",
+      "title": "Adequately Tailoring Age Verification Regulations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20241v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "The Supreme Court decision in Free Speech Coalition v. Paxton upheld the constitutionality of Texas H.B. 1181, one of the most constitutionally vulnerable of these age verification laws, holding that it was subject to and satisfied intermediate scrutiny and the requirement that age verification regulations be \"adequately tailored\". However, the decision leaves unresolved practical challenges. What is the current state of age verification legislation in the United States? How can \"adequate tailoring\" be interpreted in a way that is accessible to non-legal experts, particularly those in technical and engineering domains? What age verification approaches are used today, what infrastructures and standards support them, and what tradeoffs do they introduce? This paper addresses those questions by proposing an analytical model to interpret \"adequate tailoring\" from multiple perspectives with associated governmental goals and interests, and by applying that model to evaluate both current state laws and widely used verification methods. This paper's major contributions include: (1) we mapped the current U.S. age-verification legislative landscape; (2) we introduce an analytical model to analyze \"adequate tailoring\" for age verification and potential application to other online regulatory policies; and (3) we analyze the main technical approaches to age verification, highlighting the practical challenges and tradeoffs from a technical perspective. Further, while we focus on U.S. State laws, the principles underlying our framework are applicable to age-verification debates and methods worldwide.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20241v1",
+        "authors": [
+          "Shuang Liu",
+          "Sarah Scheffler"
+        ],
+        "arxiv_categories": [
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858923"
+    },
+    {
+      "id": "arxiv-2601.20141v1",
+      "title": "Large language models accurately predict public perceptions of support for climate action worldwide",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20141v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Although most people support climate action, widespread underestimation of others' support stalls individual and systemic changes. In this preregistered experiment, we test whether large language models (LLMs) can reliably predict these perception gaps worldwide. Using country-level indicators and public opinion data from 125 countries, we benchmark four state-of-the-art LLMs against Gallup World Poll 2021/22 data and statistical regressions. LLMs, particularly Claude, accurately capture public perceptions of others' willingness to contribute financially to climate action (MAE approximately 5 p.p.; r = .77), comparable to statistical models, though performance declines in less digitally connected, lower-GDP countries. Controlled tests show that LLMs capture the key psychological process - social projection with a systematic downward bias - and rely on structured reasoning rather than memorized values. Overall, LLMs provide a rapid tool for assessing perception gaps in climate action, serving as an alternative to costly surveys in resource-rich countries and as a complement in underrepresented populations.",
+        "keywords": [
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20141v1",
+        "authors": [
+          "Nattavudh Powdthavee",
+          "Sandra J. Geiger"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858925"
+    },
+    {
+      "id": "arxiv-2601.20100v1",
+      "title": "Taming Toxic Talk: Using chatbots to intervene with users posting toxic comments",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20100v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Generative AI chatbots have proven surprisingly effective at persuading people to change their beliefs and attitudes in lab settings. However, the practical implications of these findings are not yet clear. In this work, we explore the impact of rehabilitative conversations with generative AI chatbots on users who share toxic content online. Toxic behaviors -- like insults or threats of violence, are widespread in online communities. Strategies to deal with toxic behavior are typically punitive, such as removing content or banning users. Rehabilitative approaches are rarely attempted, in part due to the emotional and psychological cost of engaging with aggressive users. In collaboration with seven large Reddit communities, we conducted a large-scale field experiment (N=893) to invite people who had recently posted toxic content to participate in conversations with AI chatbots. A qualitative analysis of the conversations shows that many participants engaged in good faith and even expressed remorse or a desire to change. However, we did not observe a significant change in toxic behavior in the following month compared to a control group. We discuss possible explanations for our findings, as well as theoretical and practical implications based on our results.",
+        "keywords": [
+          "cs.HC",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20100v1",
+        "authors": [
+          "Jeremy Foote",
+          "Deepak Kumar",
+          "Bedadyuti Jha"
+        ],
+        "arxiv_categories": [
+          "cs.HC",
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858927"
+    },
+    {
+      "id": "arxiv-2601.20099v1",
+      "title": "Dynamics of Human-AI Collective Knowledge on the Web: A Scalable Model and Insights for Sustainable Growth",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20099v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Humans and large language models (LLMs) now co-produce and co-consume the web's shared knowledge archives. Such human-AI collective knowledge ecosystems contain feedback loops with both benefits (e.g., faster growth, easier learning) and systemic risks (e.g., quality dilution, skill reduction, model collapse). To understand such phenomena, we propose a minimal, interpretable dynamical model of the co-evolution of archive size, archive quality, model (LLM) skill, aggregate human skill, and query volume. The model captures two content inflows (human, LLM) controlled by a gate on LLM-content admissions, two learning pathways for humans (archive study vs. LLM assistance), and two LLM-training modalities (corpus-driven scaling vs. learning from human feedback). Through numerical experiments, we identify different growth regimes (e.g., healthy growth, inverted flow, inverted learning, oscillations), and show how platform and policy levers (gate strictness, LLM training, human learning pathways) shift the system across regime boundaries. Two domain configurations (PubMed, GitHub and Copilot) illustrate contrasting steady states under different growth rates and moderation norms. We also fit the model to Wikipedia's knowledge flow during pre-ChatGPT and post-ChatGPT eras separately. We find a rise in LLM additions with a concurrent decline in human inflow, consistent with a regime identified by the model. Our model and analysis yield actionable insights for sustainable growth of human-AI collective knowledge on the Web.",
+        "keywords": [
+          "cs.AI",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20099v1",
+        "authors": [
+          "Buddhika Nettasinghe",
+          "Kang Zhao"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858928"
+    },
+    {
+      "id": "arxiv-2601.20016v1",
+      "title": "Fueling Volunteer Growth: the case of Wikipedia Administrators",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20016v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Wikipedia administrators are vital to the platform's success, performing over a million administrative actions annually. This multi-method study systematically analyzes adminship across 284 Wikipedia languages since 2018, revealing a critical two-sided trend: while over half of all Wikipedias show a net increase in administrators, almost two-thirds of highly active Wikipedias face decline. Our analysis, drawing from large-scale adminship log analysis, over 3000 surveys, and 12 interviews, reveals this decline is primarily driven by insufficient recruitment, not unusual attrition. We identify key barriers for potential administrators, including limited awareness, ambiguous requirements, a demanding selection process, and low initial interest. Recognizing that current administrators remain highly motivated and engaged, we propose actionable recommendations to strengthen recruitment pipelines and fuel Wikipedia administrator growth, crucial for Wikipedia's long-term sustainability.",
+        "keywords": [
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20016v1",
+        "authors": [
+          "Eli Asikin-Garmager",
+          "Yu-Ming Liou",
+          "Caroline Myrick"
+        ],
+        "arxiv_categories": [
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858930"
+    },
+    {
+      "id": "arxiv-2601.19886v1",
+      "title": "AI Cap-and-Trade: Efficiency Incentives for Accessibility and Sustainability",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19886v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "The race for artificial intelligence (AI) dominance often prioritizes scale over efficiency. Hyper-scaling is the common industry approach: larger models, more data, and as many computational resources as possible. Using more resources is a simpler path to improved AI performance. Thus, efficiency has been de-emphasized. Consequently, the need for costly computational resources has marginalized academics and smaller companies. Simultaneously, increased energy expenditure, due to growing AI use, has led to mounting environmental costs. In response to accessibility and sustainability concerns, we argue for research into, and implementation of, market-based methods that incentivize AI efficiency. We believe that incentivizing efficient operations and approaches will reduce emissions while opening new opportunities for academics and smaller companies. As a call to action, we propose a cap-and-trade system for AI. Our system provably reduces computations for AI deployment, thereby lowering emissions and monetizing efficiency to the benefit of of academics and smaller companies.",
+        "keywords": [
+          "cs.GT",
+          "cs.AI",
+          "cs.CY",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19886v1",
+        "authors": [
+          "Marco Bornstein",
+          "Amrit Singh Bedi"
+        ],
+        "arxiv_categories": [
+          "cs.GT",
+          "cs.AI",
+          "cs.CY",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858932"
+    },
+    {
+      "id": "arxiv-2601.19859v1",
+      "title": "Modeling Two-Scale Rank Distributions via Redistribution Dynamics or an Analytic Derivation of the Beta Rank Function",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19859v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Beta Rank Function (BRF) is a two-sided distribution characterized by a smooth peak and double powerlaw decay, widely used to model empirical data exhibiting deviations from pure power laws. In this paper, we introduce a novel two-step generative process that produces data exactly following the BRF distribution. The first step involves any mechanism generating a power-law distribution, while the second step applies a regressive redistribution process that reallocates resources from poorer to richer entities, thereby amplifying inequality. This approach represents the first analytic derivation of an exact BRF distribution from a generative mechanism. We validate the model through applications to income and urban population distributions. Beyond exact generation, this framework offers new insights into the systemic origins of deviations from power laws frequently observed in complex systems, linking rank distributions to underlying feedback and redistribution dynamics.",
+        "keywords": [
+          "physics.soc-ph",
+          "stat.AP",
+          "nlin.AO"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19859v1",
+        "authors": [
+          "Oscar Fontanelli",
+          "Wentian Li"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "stat.AP",
+          "nlin.AO"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858933"
+    },
+    {
+      "id": "arxiv-2601.19837v1",
+      "title": "Self-Sovereign Identity and eIDAS 2.0: An Analysis of Control, Privacy, and Legal Implications",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19837v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "European digital identity initiatives are grounded in regulatory frameworks designed to ensure interoperability and robust, harmonized security standards. The evolution of these frameworks culminates in eIDAS 2.0, whose origins trace back to the Electronic Signatures Directive 1999/93/EC, the first EU-wide legal foundation for the use of electronic signatures in cross-border electronic transactions. As technological capabilities advanced, the initial eIDAS 1.0 framework was increasingly criticized for its limitations and lack of comprehensiveness. Emerging decentralized approaches further exposed these shortcomings and introduced the possibility of integrating innovative identity paradigms, such as Self-Sovereign Identity (SSI) models. In this article, we analyse key provisions of the eIDAS 2.0 Regulation and its accompanying recitals, drawing on existing literature to identify legislative gaps and implementation challenges. Furthermore, we examine the European Digital Identity Architecture and Reference Framework (ARF), assessing its proposed guidelines and evaluating the extent to which its emerging implementations align with SSI principles.",
+        "keywords": [
+          "cs.CY",
+          "cs.CR",
+          "cs.ET",
+          "cs.DC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19837v1",
+        "authors": [
+          "Nacereddine Sitouah",
+          "Marco Esposito",
+          "Francesco Bruschi"
+        ],
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.CR",
+          "cs.ET",
+          "cs.DC"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858935"
+    },
+    {
+      "id": "arxiv-2601.19814v1",
+      "title": "Abundance and Economic diversity as a descriptor of cities' economic complexity",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19814v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Intricate interactions among firms, institutions, and spatial structures shape urban economic systems. In this study, we propose a framework based on three structural dimensions -- abundance, diversity, and longevity (ADL) of economic units -- as proxies of urban economic complexity and resilience. Using a decade of georeferenced firm-level data from Mexico City, we analyze the relationships among ADL variables using regression, spatial correlation, and time-series clustering. Our results reveal nonlinear dynamics across urban space, with powerlaw behavior in central zones and logarithmic saturation in peripheral areas, suggesting differentiated growth regimes. Notably, firm longevity modulates the relationship between abundance and diversity, particularly in periurban transition zones. These spatial patterns point to an emerging polycentric restructuring within a traditionally monocentric metropolis. By integrating economic complexity theory with spatial analysis, our approach provides a scalable method to assess the adaptive capacity of urban economies. This has implications for understanding informality, designing inclusive urban policies, and navigating structural transitions in rapidly urbanizing regions.",
+        "keywords": [
+          "physics.soc-ph",
+          "stat.OT",
+          "stat.AP",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19814v1",
+        "authors": [
+          "Marco A. Rosas Pulido",
+          "Roberto Murcio",
+          "Omar R. Vázquez"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "stat.OT",
+          "stat.AP",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T10:59:17.858937"
+    }
+  ]
+}

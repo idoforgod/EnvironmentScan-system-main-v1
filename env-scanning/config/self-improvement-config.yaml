@@ -1,0 +1,132 @@
+# Self-Improvement Engine (SIE) Configuration
+# Version: 1.0.0
+# Last Updated: 2026-01-31
+#
+# Controls the behavior, safety limits, and analysis areas of the
+# Self-Improvement Engine that runs as Step 3.6 after each workflow.
+
+self_improvement:
+  enabled: true
+  version: "1.0.0"
+
+  # ─────────────────────────────────────────────
+  # Safety Limits
+  # ─────────────────────────────────────────────
+  safety:
+    max_minor_changes_per_cycle: 3         # Maximum MINOR auto-applies per run
+    max_threshold_delta_percent: 10        # ±10% max adjustment per cycle
+    min_evidence_sample_size: 10           # Need ≥10 data points before acting
+    min_workflow_history: 3                # Need ≥3 past workflows for comparison
+    core_invariants_file: "config/core-invariants.yaml"
+
+  # ─────────────────────────────────────────────
+  # Analysis Areas (6 areas)
+  # ─────────────────────────────────────────────
+  analysis_areas:
+    threshold_tuning:
+      enabled: true
+      description: "Adjust dedup, confidence, and priority thresholds based on performance"
+      metrics:
+        - "false_positive_rate"
+        - "false_negative_rate"
+        - "human_corrections"
+      constraints:
+        - "max_delta_per_cycle from core-invariants.yaml"
+        - "min_value / max_value bounds"
+
+    agent_performance:
+      enabled: true
+      description: "Optimize timeouts, retry delays, and source priority"
+      metrics:
+        - "execution_time_per_agent"
+        - "error_rate_per_agent"
+        - "retry_count_per_agent"
+      constraints:
+        - "Cannot disable or add agents"
+        - "Cannot change agent invocation order"
+
+    classification_quality:
+      enabled: true
+      description: "Fine-tune classification confidence and prompt parameters"
+      metrics:
+        - "category_distribution_skew"
+        - "confidence_gap_analysis"
+        - "human_correction_patterns"
+      constraints:
+        - "Cannot change STEEPs categories (core invariant)"
+        - "Cannot modify category definitions"
+
+    workflow_efficiency:
+      enabled: true
+      description: "Identify bottlenecks and suggest timing improvements"
+      metrics:
+        - "phase_times_vs_targets"
+        - "bottleneck_identification"
+        - "idle_time_between_steps"
+      constraints:
+        - "Cannot change phase order (core invariant)"
+        - "Cannot skip steps"
+        - "Cannot remove pipeline gates"
+
+    hallucination_tracking:
+      enabled: true
+      description: "Detect and tighten controls for AI fabrication"
+      metrics:
+        - "fabricated_signal_count"
+        - "id_corruption_rate"
+        - "url_invalidity_rate"
+        - "date_anomaly_rate"
+      constraints:
+        - "Can only make verification stricter, never looser"
+        - "Cannot reduce validation check count"
+
+    source_health:
+      enabled: true
+      description: "Monitor source URL health, detect failures, and suggest replacements"
+      consecutive_failure_threshold: 3    # Consecutive failures before proposing URL replacement
+      strategy_cache_effectiveness: true  # Track adaptive fetcher strategy cache hit rate
+      auto_disable_threshold: 5           # Consecutive failures before proposing source disabling
+      metrics:
+        - "source_availability_rate"
+        - "consecutive_failure_count"
+        - "strategy_cache_hit_rate"
+        - "redirect_pattern_changes"
+      constraints:
+        - "Cannot auto-disable critical sources"
+        - "URL replacements are always MAJOR (user approval required)"
+        - "Only reads health-history.jsonl (no direct source modification)"
+
+  # ─────────────────────────────────────────────
+  # Rollback Configuration
+  # ─────────────────────────────────────────────
+  rollback:
+    keep_rollback_history: 10              # Retain last N change snapshots
+    auto_rollback_on_regression: true      # Auto-revert if next run degrades
+    regression_threshold: 0.05            # >5% degradation triggers rollback
+    rollback_log: "self-improvement/rollback-log.json"
+
+  # ─────────────────────────────────────────────
+  # Metrics Comparison
+  # ─────────────────────────────────────────────
+  comparison:
+    history_window: 5                      # Compare against last N workflows
+    trend_detection_window: 3              # Detect trends over N consecutive runs
+    statistical_significance: 0.05         # p-value threshold for changes
+
+  # ─────────────────────────────────────────────
+  # Paths
+  # ─────────────────────────────────────────────
+  paths:
+    improvement_log: "self-improvement/improvement-log.json"
+    proposals_dir: "self-improvement/proposals"
+    metrics_dir: "logs/quality-metrics"
+    core_invariants: "config/core-invariants.yaml"
+    thresholds: "config/thresholds.yaml"
+
+  # ─────────────────────────────────────────────
+  # Notification
+  # ─────────────────────────────────────────────
+  notification:
+    report_applied_changes: true           # Always report what was auto-applied
+    language: "ko"                         # Korean-first user communication
+    include_evidence: true                 # Show evidence for each proposal

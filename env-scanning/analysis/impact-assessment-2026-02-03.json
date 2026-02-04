@@ -1,0 +1,116 @@
+{
+  "scan_date": "2026-02-03",
+  "workflow_id": "scan-2026-02-03-marathon",
+  "analysis_method": "Futures Wheel (2-order) + Cross-Impact Matrix",
+  "total_signals_analyzed": 48,
+  "cross_impact_matrix": {
+    "complexity_score": 0.068,
+    "scenario_generation_triggered": false,
+    "strong_interactions": [
+      {
+        "signal_a": "tc-2026-02-03-001",
+        "signal_b": "hn-2026-02-03-002",
+        "interaction": "SpaceX-xAI merger directly impacts Nvidia-OpenAI investment dynamics",
+        "strength": 0.8,
+        "direction": "reinforcing"
+      },
+      {
+        "signal_a": "tc-2026-02-03-005",
+        "signal_b": "mtr-2026-02-03-003",
+        "interaction": "Grok ban demand and Civitai deepfake marketplace both reflect AI-generated CSAM/NCII crisis",
+        "strength": 0.9,
+        "direction": "reinforcing"
+      },
+      {
+        "signal_a": "ieee-2026-02-03-002",
+        "signal_b": "tc-2026-02-03-009",
+        "interaction": "AI regulation paradigm debate connects to Southeast Asian AI governance convergence",
+        "strength": 0.7,
+        "direction": "reinforcing"
+      },
+      {
+        "signal_a": "nasa-2026-02-03-001",
+        "signal_b": "cb-2026-02-03-001",
+        "interaction": "NASA climate communication suppression and US Paris exit form coordinated climate governance retreat",
+        "strength": 0.95,
+        "direction": "reinforcing"
+      },
+      {
+        "signal_a": "tc-2026-02-03-003",
+        "signal_b": "hn-2026-02-03-003",
+        "interaction": "Notepad++ supply chain attack and Moltbook API leak indicate systemic software supply chain vulnerability",
+        "strength": 0.75,
+        "direction": "reinforcing"
+      },
+      {
+        "signal_a": "mtr-2026-02-03-001",
+        "signal_b": "nat-2026-02-03-006",
+        "interaction": "AI truth crisis and health influencer misinformation amplify information ecosystem degradation",
+        "strength": 0.8,
+        "direction": "reinforcing"
+      },
+      {
+        "signal_a": "sci-2026-02-03-002",
+        "signal_b": "nasa-2026-02-03-002",
+        "interaction": "UK physics cuts and US NASA science cuts reflect global science funding austerity trend",
+        "strength": 0.85,
+        "direction": "reinforcing"
+      }
+    ],
+    "total_interactions": 103,
+    "normalized_strong_influences": 7
+  },
+  "futures_wheel_highlights": [
+    {
+      "signal": "tc-2026-02-03-001",
+      "title": "SpaceX-xAI Merger",
+      "first_order_impacts": [
+        "Consolidation of AI compute + space infrastructure under single entity",
+        "Potential space-based data center paradigm",
+        "Valuation reshaping of private tech sector"
+      ],
+      "second_order_impacts": [
+        "Regulatory scrutiny of concentrated AI-space power",
+        "New competitive dynamics for cloud providers",
+        "National security implications of private space-AI monopoly"
+      ]
+    },
+    {
+      "signal": "tc-2026-02-03-003",
+      "title": "Notepad++ Supply Chain Attack",
+      "first_order_impacts": [
+        "Loss of trust in open-source software update channels",
+        "Heightened state-sponsored cyber threat awareness"
+      ],
+      "second_order_impacts": [
+        "Accelerated adoption of code signing and SBOM requirements",
+        "Potential new software supply chain regulations"
+      ]
+    },
+    {
+      "signal": "nat-2026-02-03-003",
+      "title": "Quantum Repeater Breakthrough",
+      "first_order_impacts": [
+        "Path to scalable quantum networks",
+        "Potential obsolescence of current encryption standards timeline accelerated"
+      ],
+      "second_order_impacts": [
+        "Quantum internet infrastructure investment surge",
+        "National security crypto-transition urgency increases"
+      ]
+    },
+    {
+      "signal": "cb-2026-02-03-001",
+      "title": "US Paris Agreement Exit",
+      "first_order_impacts": [
+        "Removal of world's second-largest emitter from climate governance framework",
+        "Weakened global climate ambition signals"
+      ],
+      "second_order_impacts": [
+        "Other nations may reduce own climate commitments",
+        "Increased role for non-state actors in climate action",
+        "Clean energy investment uncertainty in US market"
+      ]
+    }
+  ]
+}

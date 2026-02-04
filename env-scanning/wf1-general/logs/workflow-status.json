@@ -1,0 +1,56 @@
+{
+  "workflow_id": "scan-2026-02-04-marathon",
+  "start_time": "2026-02-04T07:00:00Z",
+  "current_phase": 3,
+  "current_step": "3.4_approved",
+  "status": "completed",
+  "mode": "marathon",
+  "topic": "Daily Environmental Scan - 2026-02-04 [MARATHON MODE - AUTOPILOT]",
+  "completed_steps": [
+    "1.1_load_archive",
+    "1.2_stage_a_base_scan",
+    "1.2_stage_b_expansion_scan",
+    "1.3_filter_duplicates",
+    "1.4_human_review_auto_passed",
+    "2.1_classify_steeps",
+    "2.2_impact_analysis",
+    "2.3_priority_ranking",
+    "2.4_scenario_check_not_triggered",
+    "2.5_human_review_analysis_approved",
+    "3.1_update_database",
+    "3.2_generate_report",
+    "3.2_validate_report_14_14_PASS",
+    "3.3_archive_report",
+    "3.4_approved"
+  ],
+  "blocked_on": null,
+  "errors": [],
+  "human_decisions": [
+    {
+      "step": "2.5",
+      "decision": "approved_autopilot",
+      "reason": "Autopilot mode - all validation checks passed (14/14). Report structure complete.",
+      "timestamp": "2026-02-04T07:15:00Z"
+    },
+    {
+      "step": "3.4",
+      "decision": "approved_autopilot",
+      "reason": "Autopilot mode - WF1 complete. 180 new signals, 22.7% dedup rate, 14/14 validation PASS.",
+      "timestamp": "2026-02-04T07:15:00Z"
+    }
+  ],
+  "artifacts": {
+    "raw_signals": 233,
+    "dedup_removed": 53,
+    "dedup_rate_percent": 22.7,
+    "filtered_signals": 180,
+    "sources_active": 17,
+    "sources_disabled": 6,
+    "validation_result": "14/14 PASS",
+    "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-04.md",
+    "archive_path": "env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-04.md",
+    "snapshot_path": "env-scanning/wf1-general/signals/snapshots/database-2026-02-04-pre-update.json",
+    "database_total_signals": 689
+  },
+  "last_updated": "2026-02-04T07:15:00Z"
+}

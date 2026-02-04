@@ -1,0 +1,276 @@
+# ================================================================
+# WORKFLOW REGISTRY — Source of Truth (SOT)
+# ================================================================
+# Version: 1.0.0
+# Last Updated: 2026-02-03
+#
+# This file is the SINGLE authoritative definition of the
+# Dual Environmental Scanning System.
+#
+# RULES:
+#   1. master-orchestrator MUST read this file at startup
+#   2. validate_registry.py MUST pass before any workflow executes
+#   3. Shared configs are referenced, NEVER duplicated
+#   4. Adding/removing a workflow requires modifying this file FIRST
+#   5. Agents do NOT hardcode paths — they receive paths from this registry
+#   6. Validation failure with severity HALT stops the workflow entirely
+#
+# INDEPENDENCE GUARANTEE:
+#   - WF1 does not know WF2 exists
+#   - WF2 does not know WF1 exists
+#   - Either can be deleted without affecting the other
+#   - Neither reads nor writes the other's data during execution
+#   - Each produces a complete, independently valid final report
+# ================================================================
+
+system:
+  name: "Dual Environmental Scanning System"
+  version: "1.0.0"
+  created: "2026-02-03"
+
+  # ── Execution Mode ──
+  execution:
+    mode: "sequential"  # wf1 completes → wf2 completes → merge
+    master_orchestrator: ".claude/agents/master-orchestrator.md"
+    protocol: ".claude/agents/protocols/orchestrator-protocol.md"
+
+  # ── Shared Invariants (read-only reference, never modified at runtime) ──
+  # All workflows reference these same files to guarantee philosophical consistency.
+  # These are methodology references, NOT runtime data dependencies.
+  shared_invariants:
+    steep_framework: ".claude/skills/env-scanner/references/steep-framework.md"
+    report_format: ".claude/skills/env-scanner/references/report-format.md"
+    report_skeleton: ".claude/skills/env-scanner/references/report-skeleton.md"
+    signal_template: ".claude/skills/env-scanner/references/signal-template.md"
+    core_invariants: "env-scanning/config/core-invariants.yaml"
+    domains: "env-scanning/config/domains.yaml"
+    thresholds: "env-scanning/config/thresholds.yaml"
+    self_improvement_config: "env-scanning/config/self-improvement-config.yaml"
+
+  # ── Shared Engine (Python modules used by all workflows) ──
+  shared_engine:
+    core_modules: "env-scanning/core/"
+    scanners: "env-scanning/scanners/"
+    validate_script: "env-scanning/scripts/validate_report.py"
+    validate_registry_script: "env-scanning/scripts/validate_registry.py"
+
+  # ── Shared Worker Agents (invoked by both orchestrators, unmodified) ──
+  shared_workers:
+    - ".claude/agents/workers/multi-source-scanner.md"
+    - ".claude/agents/workers/deduplication-filter.md"
+    - ".claude/agents/workers/signal-classifier.md"
+    - ".claude/agents/workers/impact-analyzer.md"
+    - ".claude/agents/workers/priority-ranker.md"
+    - ".claude/agents/workers/report-generator.md"
+    - ".claude/agents/workers/database-updater.md"
+    - ".claude/agents/workers/archive-loader.md"
+    - ".claude/agents/workers/archive-notifier.md"
+    - ".claude/agents/workers/translation-agent.md"
+    - ".claude/agents/workers/self-improvement-analyzer.md"
+
+  # ── SIE Policy ──
+  sie_policy: "independent"
+  # Each workflow runs its own SIE on its own metrics.
+  # Shared configs (thresholds.yaml, domains.yaml) are NOT modifiable by SIE.
+  # Modifying shared configs requires MAJOR change approval from user.
+
+  # ── Total Human Checkpoints ──
+  checkpoints_total: 5
+  checkpoints_detail:
+    wf1_analysis_review: "required"   # WF1 Step 2.5
+    wf1_report_approval: "required"   # WF1 Step 3.4
+    wf2_analysis_review: "required"   # WF2 Step 2.5
+    wf2_report_approval: "required"   # WF2 Step 3.4
+    integrated_approval: "required"   # Integrated report final approval
+
+# ================================================================
+# WORKFLOW DEFINITIONS
+# ================================================================
+
+workflows:
+
+  # ────────────────────────────────────────────
+  # WF1: General Environmental Scanning
+  # ────────────────────────────────────────────
+  wf1-general:
+    name: "General Environmental Scanning"
+    name_ko: "일반 환경스캐닝"
+    description: "Multi-source environmental scanning (arXiv removed — transferred to WF2)"
+    enabled: true
+    execution_order: 1
+
+    orchestrator: ".claude/agents/env-scan-orchestrator.md"
+    sources_config: "env-scanning/config/sources.yaml"
+    excluded_sources: ["arXiv"]  # Explicitly recorded: arXiv is disabled in sources.yaml
+
+    data_root: "env-scanning/wf1-general"
+    paths:
+      raw: "raw/"
+      structured: "structured/"
+      filtered: "filtered/"
+      analysis: "analysis/"
+      signals_db: "signals/database.json"
+      signals_snapshots: "signals/snapshots/"
+      reports_daily: "reports/daily/"
+      reports_archive: "reports/archive/"
+      context: "context/"
+      logs: "logs/"
+      health: "health/"
+      calibration: "calibration/"
+      self_improvement: "self-improvement/"
+
+    parameters:
+      marathon_mode: true
+      base_only_flag: false
+
+    checkpoints:
+      step_1_4: "optional"
+      step_2_5: "required"
+      step_3_4: "required"
+
+    validate_profile: "standard"
+
+  # ────────────────────────────────────────────
+  # WF2: arXiv Academic Deep Scanning
+  # ────────────────────────────────────────────
+  wf2-arxiv:
+    name: "arXiv Academic Deep Scanning"
+    name_ko: "arXiv 학술 심층 스캐닝"
+    description: "arXiv-only deep scanning with extended parameters"
+    enabled: true
+    execution_order: 2
+
+    orchestrator: ".claude/agents/arxiv-scan-orchestrator.md"
+    sources_config: "env-scanning/config/sources-arxiv.yaml"
+    exclusive_sources: ["arXiv"]  # This workflow scans ONLY arXiv
+
+    data_root: "env-scanning/wf2-arxiv"
+    paths:
+      raw: "raw/"
+      structured: "structured/"
+      filtered: "filtered/"
+      analysis: "analysis/"
+      signals_db: "signals/database.json"
+      signals_snapshots: "signals/snapshots/"
+      reports_daily: "reports/daily/"
+      reports_archive: "reports/archive/"
+      context: "context/"
+      logs: "logs/"
+
+    parameters:
+      days_back: 14
+      max_results_per_category: 50
+      arxiv_extended_categories: true
+      marathon_mode: false  # Single source, marathon not needed
+
+    checkpoints:
+      step_1_4: "optional"
+      step_2_5: "required"
+      step_3_4: "required"
+
+    validate_profile: "standard"
+
+# ================================================================
+# INTEGRATION DEFINITION
+# ================================================================
+
+integration:
+  enabled: true
+  merger_agent: ".claude/agents/workers/report-merger.md"
+  output_root: "env-scanning/integrated"
+
+  paths:
+    reports_daily: "reports/daily/"
+    reports_archive: "reports/archive/"
+    logs: "logs/"
+
+  # Merge scope: reports only. Signal DBs remain independent.
+  # No feedback loop — integrated output does NOT feed back into individual workflows.
+  merge_scope: "reports_only"
+
+  merge_strategy:
+    # No source overlap between WF1 and WF2, so no signal dedup needed at merge.
+    # Merger combines signals from both reports and re-ranks by pSST.
+    signal_dedup: false
+    ranking_method: "pSST_unified"
+    integrated_top_signals: 15
+    cross_workflow_analysis: true  # Analyze WF1↔WF2 signal interactions
+
+  integrated_skeleton: ".claude/skills/env-scanner/references/integrated-report-skeleton.md"
+  validate_profile: "integrated"
+
+  checkpoints:
+    final_approval: "required"
+
+# ================================================================
+# STARTUP VALIDATION RULES
+# ================================================================
+# validate_registry.py executes these checks before any workflow runs.
+# HALT = stop everything. CREATE = create missing directory. WARN = log and continue.
+
+startup_validation:
+  rules:
+    - id: "SOT-001"
+      check: "all_shared_invariants_exist"
+      description: "All files in system.shared_invariants must exist"
+      severity: "HALT"
+
+    - id: "SOT-002"
+      check: "all_orchestrators_exist"
+      description: "All workflow orchestrator files must exist"
+      severity: "HALT"
+
+    - id: "SOT-003"
+      check: "all_sources_configs_exist"
+      description: "All workflow sources_config files must exist"
+      severity: "HALT"
+
+    - id: "SOT-004"
+      check: "all_shared_workers_exist"
+      description: "All shared worker agent files must exist"
+      severity: "HALT"
+
+    - id: "SOT-005"
+      check: "all_data_roots_exist"
+      description: "All workflow data_root directories exist (create subdirs if missing)"
+      severity: "CREATE"
+
+    - id: "SOT-006"
+      check: "integration_output_root_exists"
+      description: "Integration output_root directory exists (create if missing)"
+      severity: "CREATE"
+
+    - id: "SOT-007"
+      check: "execution_order_unique_sequential"
+      description: "Workflow execution_order values must be unique and sequential"
+      severity: "HALT"
+
+    - id: "SOT-008"
+      check: "protocol_file_exists"
+      description: "system.execution.protocol file must exist"
+      severity: "HALT"
+
+    - id: "SOT-009"
+      check: "integrated_skeleton_exists"
+      description: "integration.integrated_skeleton file must exist"
+      severity: "HALT"
+
+    - id: "SOT-010"
+      check: "arxiv_disabled_in_wf1"
+      description: "arXiv source must be enabled:false in WF1 sources_config"
+      severity: "HALT"
+
+    - id: "SOT-011"
+      check: "arxiv_enabled_in_wf2"
+      description: "arXiv source must be enabled:true in WF2 sources_config"
+      severity: "HALT"
+
+    - id: "SOT-012"
+      check: "no_source_overlap"
+      description: "No enabled source appears in both WF1 and WF2 sources_config"
+      severity: "HALT"
+
+    - id: "SOT-013"
+      check: "merger_agent_exists"
+      description: "integration.merger_agent file must exist"
+      severity: "HALT"

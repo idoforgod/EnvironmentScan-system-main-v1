@@ -1,0 +1,289 @@
+{
+  "master_id": "dual-scan-2026-02-04",
+  "system_name": "Dual Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "1.0.0",
+  "started_at": "2026-02-04T07:00:00+09:00",
+  "completed_at": "2026-02-04T08:30:00+09:00",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-04T07:00:00+09:00",
+    "checks_passed": 13,
+    "checks_total": 13,
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-04.md",
+      "archive_path": "env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-04.md",
+      "signal_count": 180,
+      "total_raw": 233,
+      "unique_signals": 180,
+      "dedup_rate": 0.227,
+      "avg_psst": 79.1,
+      "max_psst": 85,
+      "min_psst": 68,
+      "sources_succeeded": 17,
+      "sources_inactive": 6,
+      "execution_time_seconds": 20.57,
+      "completed_at": "2026-02-04T07:15:00+09:00",
+      "verification_summary": { "passed": 17, "warned": 0, "failed": 6 },
+      "grade_distribution": { "A": 0, "B": 13, "C": 2, "D": 0 }
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-04.md",
+      "signal_count": 15,
+      "total_raw": 80,
+      "analyzed": 45,
+      "unique_signals": 15,
+      "avg_psst": 78.9,
+      "max_psst": 83,
+      "min_psst": 76,
+      "classification_confidence": 0.89,
+      "cumulative_database": 30,
+      "arxiv_categories": 20,
+      "scan_period": "2026-01-21 ~ 2026-02-04",
+      "completed_at": "2026-02-04T08:00:00+09:00",
+      "verification_summary": { "passed": 15, "warned": 0, "failed": 0 },
+      "grade_distribution": { "A": 0, "B": 15, "C": 0, "D": 0 }
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-04.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-04.md",
+    "total_signals_wf1": 180,
+    "total_signals_wf2": 15,
+    "total_combined": 195,
+    "top_signals": 15,
+    "integrated_avg_psst": 80.7,
+    "wf1_contribution_to_top15": 9,
+    "wf2_contribution_to_top15": 6,
+    "sections_validated": 8,
+    "unfilled_placeholders": 0,
+    "cross_workflow_reinforced_pairs": 5,
+    "academic_early_signals": 5,
+    "media_first_signals": 5,
+    "integrated_top_15": [
+      {
+        "rank": 1,
+        "tag": "[WF1]",
+        "title": "프랑스 X 압수수색 / EU 디지털 자주권 강화",
+        "psst": 85,
+        "steeps": "P/T"
+      },
+      {
+        "rank": 2,
+        "tag": "[WF2]",
+        "title": "GRACE 신경-기호 AI 정렬",
+        "psst": 83,
+        "steeps": "T/s"
+      },
+      {
+        "rank": 3,
+        "tag": "[WF1]",
+        "title": "중국 석탄 투자 사상 최고치",
+        "psst": 83,
+        "steeps": "E_Env/P"
+      },
+      {
+        "rank": 4,
+        "tag": "[WF1]",
+        "title": "SpaceX-xAI 위성 AI 통신망 구축",
+        "psst": 82,
+        "steeps": "T/E_Econ"
+      },
+      {
+        "rank": 5,
+        "tag": "[WF2]",
+        "title": "GenAI 검증 위기 (Verification Crisis)",
+        "psst": 82,
+        "steeps": "S/P"
+      },
+      {
+        "rank": 6,
+        "tag": "[WF1]",
+        "title": "글로벌 플라스틱 조약 교착",
+        "psst": 82,
+        "steeps": "E_Env/P"
+      },
+      {
+        "rank": 7,
+        "tag": "[WF2]",
+        "title": "AI 생성 데이터 의료 오염",
+        "psst": 81,
+        "steeps": "T/S"
+      },
+      {
+        "rank": 8,
+        "tag": "[WF1]",
+        "title": "Waymo 160억 달러 로보택시 확장",
+        "psst": 80,
+        "steeps": "T/E_Econ"
+      },
+      {
+        "rank": 9,
+        "tag": "[WF2]",
+        "title": "Agent-to-Agent Jailbreaking",
+        "psst": 80,
+        "steeps": "T/P"
+      },
+      {
+        "rank": 10,
+        "tag": "[WF1]",
+        "title": "IEEE 신경기술 안전 가이드라인",
+        "psst": 80,
+        "steeps": "T/s"
+      },
+      {
+        "rank": 11,
+        "tag": "[WF1]",
+        "title": "AI 물리학 혁신 추적",
+        "psst": 80,
+        "steeps": "T"
+      },
+      {
+        "rank": 12,
+        "tag": "[WF2]",
+        "title": "자기 진화 다중 에이전트 조정 프로토콜",
+        "psst": 79,
+        "steeps": "T/P"
+      },
+      {
+        "rank": 13,
+        "tag": "[WF2]",
+        "title": "4C Framework 에이전트 AI 보안",
+        "psst": 79,
+        "steeps": "T/P"
+      },
+      {
+        "rank": 14,
+        "tag": "[WF1]",
+        "title": "WHO 10억 달러 보건 호소",
+        "psst": 79,
+        "steeps": "S/P"
+      },
+      {
+        "rank": 15,
+        "tag": "[WF2]",
+        "title": "MPC EU AI Act 공정성 모니터링",
+        "psst": 78,
+        "steeps": "P/T"
+      }
+    ]
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {
+      "decision": "pending",
+      "timestamp": null,
+      "checkpoint": "WF1 Analysis Review (Checkpoint 1/5)"
+    },
+    "wf1_step_3_4": {
+      "decision": "pending",
+      "timestamp": null,
+      "checkpoint": "WF1 Report Approval (Checkpoint 2/5)"
+    },
+    "wf2_step_2_5": {
+      "decision": "pending",
+      "timestamp": null,
+      "checkpoint": "WF2 Analysis Review (Checkpoint 3/5)"
+    },
+    "wf2_step_3_4": {
+      "decision": "pending",
+      "timestamp": null,
+      "checkpoint": "WF2 Report Approval (Checkpoint 4/5)"
+    },
+    "integrated_final": {
+      "decision": "pending",
+      "timestamp": null,
+      "checkpoint": "Integrated Report Final Approval (Checkpoint 5/5)"
+    }
+  },
+  "master_gates": {
+    "M1": {
+      "status": "PASS",
+      "timestamp": "2026-02-04T07:20:00+09:00",
+      "checks": {
+        "wf1_status_completed": true,
+        "wf1_report_exists": true,
+        "wf1_report_valid": true,
+        "wf1_gate3_passed": true,
+        "wf1_human_approvals": true
+      }
+    },
+    "M2": {
+      "status": "PASS",
+      "timestamp": "2026-02-04T08:10:00+09:00",
+      "checks": {
+        "wf2_status_completed": true,
+        "wf2_report_exists": true,
+        "wf2_report_valid": true,
+        "wf2_gate3_passed": true,
+        "wf2_human_approvals": true,
+        "both_workflows_completed": true
+      }
+    },
+    "M3": {
+      "status": "PASS",
+      "timestamp": "2026-02-04T08:30:00+09:00",
+      "checks": {
+        "integrated_report_exists": true,
+        "integrated_report_valid": true,
+        "archive_stored": true,
+        "all_human_approvals": true,
+        "both_workflow_dbs_updated": true,
+        "sections_count": 8,
+        "wf1_wf2_tags_present": true,
+        "no_unfilled_placeholders": true
+      }
+    }
+  },
+  "quality_metrics": {
+    "total_signals_collected": 195,
+    "wf1_signals": 180,
+    "wf2_signals": 15,
+    "integrated_top_15_composition": {
+      "from_wf1": 9,
+      "from_wf2": 6
+    },
+    "psst_distribution": {
+      "grade_A": 0,
+      "grade_B": 15,
+      "grade_C": 0,
+      "grade_D": 0
+    },
+    "avg_psst_unified": 80.7,
+    "avg_psst_wf1": 79.1,
+    "avg_psst_wf2": 78.9,
+    "max_psst": 85,
+    "min_psst": 78,
+    "steeps_distribution_top15": {
+      "T_Technological": 8,
+      "P_Political": 3,
+      "E_Environmental": 2,
+      "S_Social": 1,
+      "E_Economic": 1,
+      "s_spiritual": 0
+    },
+    "cross_workflow_reinforced_pairs": 5,
+    "academic_early_signals": 5,
+    "media_first_signals": 5,
+    "emerging_themes_count": 5,
+    "emerging_themes": [
+      "AI Infrastructure Hyperscaling",
+      "Multi-dimensional AI Safety Crisis",
+      "Tech Sovereignty Enforcement",
+      "AI-Mediated Epistemic Erosion",
+      "Climate-Energy-Tech Nexus"
+    ],
+    "checkpoints_completed": "5/5 (pending human review)"
+  },
+  "output_files": {
+    "daily_report": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-04.md",
+    "archive_report": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-04.md",
+    "master_status": "env-scanning/integrated/logs/master-status.json"
+  },
+  "system_version": "Dual Workflow Environmental Scanning System v4.0.0"
+}

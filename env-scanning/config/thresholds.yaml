@@ -1,0 +1,322 @@
+# Filtering and Scoring Thresholds
+# Version: 1.2.0 - Marathon Mode Default
+# Last Updated: 2026-02-01
+
+# Deduplication Filter Thresholds
+deduplication:
+  stage_1_url_exact:
+    threshold: 1.0
+    description: "100% match required for URL exact matching"
+    method: "URL normalization + exact string match"
+
+  stage_2_string_similarity:
+    threshold: 0.9
+    description: "90% similarity for Jaro-Winkler string matching"
+    method: "Jaro-Winkler algorithm on titles"
+    min_title_length: 10  # Skip very short titles
+
+  stage_3_semantic_similarity:
+    threshold: 0.8
+    description: "80% similarity for semantic meaning"
+    method: "SBERT cosine similarity"
+    model: "all-MiniLM-L6-v2"
+    use_abstract: true  # Include abstract in comparison
+
+  stage_4_entity_matching:
+    threshold: 0.85
+    description: "85% overlap for named entity matching"
+    method: "NER + Jaccard similarity"
+    entity_weights:
+      organizations: 0.4
+      technologies: 0.3
+      policies: 0.2
+      locations: 0.1
+
+# AI Confidence Levels
+ai_confidence:
+  high: 0.9  # Auto-approve
+  medium: 0.7  # Sample review (10%)
+  low: 0.7  # Full human review required (<0.7)
+
+# Priority Scoring Weights
+priority_scoring:
+  impact: 0.40
+  probability: 0.30
+  urgency: 0.20
+  novelty: 0.10
+
+# Signal Maturity Scoring
+signal_status:
+  emerging:
+    urgency_score: 3
+    description: "Just appeared, low awareness"
+  developing:
+    urgency_score: 4
+    description: "Gaining traction, evidence building"
+  mature:
+    urgency_score: 2
+    description: "Widely recognized, established"
+
+# Quality Metrics Targets
+quality_targets:
+  duplicate_detection_precision: 0.95
+  duplicate_detection_recall: 0.90
+  classification_accuracy: 0.90
+  human_ai_agreement: 0.85  # Cohen's Kappa
+
+# Conditional Activation Thresholds
+conditional_features:
+  phase_1_5_delphi:
+    trigger: "new_signal_count > 50"
+    description: "Activate expert panel if >50 new signals"
+
+  step_7_5_scenarios:
+    trigger: "cross_impact_complexity > 0.5"
+    description: "Generate scenarios if complex interactions"
+    complexity_metric: "normalized_strong_influences / total_interactions"
+
+# Performance Targets
+performance:
+  filter_rate_min: 0.30  # At least 30% duplicates expected
+  filter_rate_max: 0.90  # Max 90% duplicates (sanity check)
+  execution_time_phase_1: 60  # seconds
+  execution_time_phase_2: 40  # seconds
+  execution_time_phase_3: 35  # seconds
+
+# Weekly Threshold Calibration
+calibration:
+  enabled: true
+  frequency: "weekly"
+  auto_adjust: false  # Manual review recommended
+  min_sample_size: 20  # Need at least 20 corrections to recalibrate
+
+# ============================================================================
+# pSST (predicted Signal Scanning Trust) Configuration
+# Inspired by AlphaFold's pLDDT - per-signal confidence scoring
+# Version: 1.0.0
+# ============================================================================
+
+psst_scoring:
+  # Dimension weights (must sum to 1.0)
+  dimension_weights:
+    SR: 0.20  # Source Reliability
+    ES: 0.20  # Evidence Strength
+    CC: 0.15  # Classification Confidence
+    TC: 0.15  # Temporal Confidence
+    DC: 0.15  # Distinctiveness Confidence
+    IC: 0.15  # Impact Confidence
+
+  # Stage alpha values for cumulative confidence (must sum to 1.0)
+  stage_alphas:
+    stage_1_collection: 0.15   # Scanner output (SR, TC available)
+    stage_2_filtering: 0.15    # Dedup output (DC available)
+    stage_3_classification: 0.25  # Classifier output (ES, CC available)
+    stage_4_impact: 0.20       # Impact analyzer output (IC available)
+    stage_5_ranking: 0.25      # Final aggregation
+
+  # Coverage penalty exponent for incomplete dimensions
+  # When fewer than 6 dimensions are available, score is reduced by:
+  #   coverage_factor = (available_weight / total_weight) ^ coverage_exponent
+  # 0.5 (sqrt) = moderate penalty; 1.0 = linear; 0.0 = no penalty
+  coverage_exponent: 0.5
+
+  # Level 2 Advanced Scoring (Difficulty Evolution)
+  # Adds granular criteria to SR, TC, DC for upper-tier differentiation
+  # Formula: total = level1 * base_weight + level2_scaled * advanced_weight
+  # Without Level 2 data: max achievable = 100 * 0.85 = 85
+  level2_config:
+    enabled: true
+    advanced_weight: 0.15
+    base_weight: 0.85
+    # When Level 2 is enabled, Grade A threshold rises to prevent
+    # achieving Grade A without Level 2 data.
+    # Derivation: theoretical max without L2 = 92.5
+    #   (SR=85, ES=100, CC=100, TC=85, DC=85, IC=100)
+    # Setting to 95 provides 2.5pt buffer and requires ≥1 L2 dimension.
+    grade_a_threshold: 95
+
+  # Grade thresholds (0-100 scale)
+  grade_thresholds:
+    very_high: 90   # Grade A - auto-approve
+    confident: 70   # Grade B - standard processing
+    low: 50         # Grade C - flag for review
+    very_low: 0     # Grade D - require human review (below 50)
+
+# pSST Dimension Parameters
+dimension_params:
+  SR:  # Source Reliability
+    base_scores:
+      academic: 85
+      patent: 80
+      government: 80
+      policy: 75
+      news_major: 65
+      news_minor: 50
+      blog: 45
+      social_media: 30
+    bonuses:
+      peer_reviewed: 10
+      citation_count_high: 5    # >50 citations
+      multiple_corroboration: 5  # 2+ independent sources
+    quality_offsets:             # Within-type quality discrimination
+      high: 0                   # Top-tier (Nature, Science, etc.) — default
+      medium: -15               # Mid-tier (regional journals, established outlets)
+      low: -30                  # Low-tier (predatory journals, minor outlets)
+    max_score: 100
+    level2_criteria:
+      has_methodology:
+        points: 5
+      has_replication:
+        points: 5
+      data_transparency:
+        points: 5
+
+  ES:  # Evidence Strength
+    components:
+      quantitative_data: 40     # Has numbers/metrics
+      multiple_sources: 30      # Corroborated by 2+ sources
+      verification_status: 30   # Expert-verified or peer-reviewed
+    scoring:
+      quantitative_present: 40
+      quantitative_absent: 10
+      sources_3_plus: 30
+      sources_2: 20
+      sources_1: 10
+      verified: 30
+      partially_verified: 15
+      unverified: 5
+
+  CC:  # Classification Confidence
+    components:
+      category_margin: 60       # How clearly one category dominates
+      keyword_match: 25         # Keyword alignment with category
+      expert_validation: 15     # Expert agreement (if available)
+    margin_scoring:
+      clear_margin: 60          # Top category score > 2nd by 20%+
+      moderate_margin: 40       # 10-20% margin
+      narrow_margin: 20         # < 10% margin
+
+  TC:  # Temporal Confidence
+    freshness_decay:
+      days_0_7: 100             # Published within 7 days
+      days_8_14: 85
+      days_15_30: 70
+      days_31_90: 50
+      days_91_plus: 30
+    emerging_bonus: 10          # Signal status == "emerging"
+    developing_bonus: 5         # Signal status == "developing"
+    level2_criteria:
+      momentum:
+        accelerating: 6
+        stable: 3
+        decelerating: 0
+      has_update:
+        points: 5
+      time_sensitivity:
+        points: 4
+
+  DC:  # Distinctiveness Confidence
+    cascade_stage_scores:
+      passed_all_4: 100         # Passed all 4 dedup stages → truly unique
+      passed_3: 85              # Similar to one in stage 4 (entity)
+      passed_2: 70              # Similar in stage 3 (semantic)
+      passed_1: 60              # Similar in stage 2 (string)
+      duplicate: 0              # Caught as duplicate
+    level2_criteria:
+      semantic_distance:
+        very_novel: 7      # distance ≥ 0.7
+        moderately_novel: 4 # 0.5 ≤ distance < 0.7
+        slightly_novel: 1   # 0.3 ≤ distance < 0.5
+      information_gain:
+        high: 5    # ratio ≥ 0.5
+        medium: 3  # 0.3 ≤ ratio < 0.5
+        low: 1     # 0.1 ≤ ratio < 0.3
+      cross_category_novelty:
+        points: 3
+
+  IC:  # Impact Confidence
+    components:
+      cluster_stability: 50     # Impact cluster consistency
+      cross_impact_consensus: 30  # Agreement in cross-impact scores
+      score_consistency: 20     # Impact score variance across methods
+    stability_thresholds:
+      high: 80                  # Low variance in cluster assignment
+      medium: 50
+      low: 20
+
+# pSST Calibration Settings
+psst_calibration:
+  enabled: true
+  min_samples: 20              # Minimum human reviews before calibrating
+  trigger_interval: 10         # Calibrate every N scans
+  method: "platt_scaling"      # Platt Scaling for probability calibration
+  ece_target: 0.05             # Target Expected Calibration Error
+  history_file: "calibration/psst-review-history.json"
+  weights_file: "calibration/psst-calibrated-weights.json"
+  bins: 10                     # Number of bins for ECE calculation
+
+# pSST Pipeline Gates
+psst_pipeline_gates:
+  gate_1_post_collection:
+    required_dimensions: ["SR", "TC"]
+    min_psst: null             # No minimum at collection stage
+  gate_2_post_analysis:
+    required_dimensions: ["SR", "TC", "DC", "ES", "CC"]
+    min_psst: 30               # Minimum pSST to proceed to impact analysis
+  gate_3_post_ranking:
+    required_dimensions: ["SR", "TC", "DC", "ES", "CC", "IC"]
+    min_psst: null             # All dimensions must exist, no minimum
+    calibration_check: true    # Trigger calibration if conditions met
+
+# pSST Reporting Configuration
+psst_reporting:
+  badge_emojis:
+    very_high: "🟢"   # 95-100 (when L2 enabled) / 90-100 (when L2 disabled)
+    confident: "🔵"    # 70-94 (when L2 enabled) / 70-89 (when L2 disabled)
+    low: "🟡"          # 50-69
+    very_low: "🔴"     # 0-49
+  show_dimension_breakdown: true
+  show_stage_progression: true
+
+# ============================================================================
+# Self-Improvement Engine Tracking
+# Records when thresholds were last tuned by the SIE (Step 3.6)
+# ============================================================================
+
+# ============================================================================
+# Marathon Mode Configuration
+# Expands Step 1.2 scanning to include expansion-tier sources
+# Version: 1.0.0
+# ============================================================================
+
+marathon_mode:
+  # Time budget for entire Step 1.2 (Stage A + Stage B combined)
+  # This is a ceiling (upper bound), not a floor — scanning ends early if all
+  # expansion sources are scanned before budget exhaustion.
+  total_budget_minutes: 30
+
+  # Minimum time reserved for Stage B (expansion scanning)
+  # If Stage A takes longer than (total - min_stage_b), Stage B still gets this minimum.
+  stage_b_min_budget_minutes: 5
+
+  # How to prioritize expansion sources when time is limited:
+  #   type_diversity  - Scan one source from each type first, then cycle
+  #   reliability     - Scan highest reliability sources first
+  #   steeps_coverage - Prioritize sources that cover underrepresented STEEPs categories
+  expansion_source_priority: "type_diversity"
+
+  # Tag expansion signals for downstream tracking and SIE analysis
+  expansion_signal_tag: "expansion"
+
+  # pSST SR handling for expansion sources:
+  # Expansion sources use the same SR calculation as base sources.
+  # Source type (academic, policy, blog) and reliability field determine SR score.
+  # No penalty or bonus for being expansion-tier.
+  psst_expansion_policy: "same_as_base"
+
+# ============================================================================
+
+self_improvement_tracking:
+  last_tuned: null
+  tune_count: 0
+  fields_tuned: []

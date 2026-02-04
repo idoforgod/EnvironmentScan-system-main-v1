@@ -1,0 +1,14 @@
+{
+  "test_date": "2026-01-30T14:26:21.628914",
+  "phase3_impact_compression": {
+    "original_size": 8578685,
+    "compressed_size": 4819042,
+    "reduction": 1.780163982799901
+  },
+  "phase4_embedding_dedup": {
+    "original_size": 17047624,
+    "deduped_size": 1733770,
+    "reduction": 9.832690610634629
+  },
+  "combined_reduction": 5.806427296717265
+}

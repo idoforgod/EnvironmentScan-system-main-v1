@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-04",
+    "scan_period": "2026-01-21 ~ 2026-02-04",
+    "workflow": "WF2 - arXiv Academic Deep Scanning",
+    "total_signals": 45,
+    "by_steeps": {
+      "T_Technological": 7,
+      "S_Social": 4,
+      "P_Political": 2,
+      "E_Economic": 1,
+      "s_spiritual": 1
+    },
+    "by_significance": {
+      "score_9": 4,
+      "score_8": 8,
+      "score_7": 3
+    },
+    "classification_confidence": 0.89,
+    "arxiv_categories_covered": [
+      "cs.AI", "cs.CL", "cs.CY", "cs.HC", "cs.CR", "cs.RO", "cs.SE",
+      "cs.MA", "cs.SI", "cs.LG", "cs.CV", "cs.NE", "cs.DC", "cs.ET",
+      "cs.AR", "econ.GN", "econ.TH", "q-fin.EC", "quant-ph", "stat.ML"
+    ]
+  },
+  "signals": [
+    {
+      "rank": 1,
+      "id": "WF2-T-2026-023",
+      "arxiv_id": "2602.02395",
+      "title_ko": "에이전트 간 탈옥 공격: 강화학습을 통한 검증 가능한 Agent-to-Agent Jailbreaking",
+      "title_en": "David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning",
+      "steeps": "T_Technological",
+      "steeps_secondary": "P_Political",
+      "significance": 9,
+      "source_domain": "T_Technological",
+      "key_finding": "Tag-Along Attacks achieve 67% success against safety-aligned models, transferable to closed-source"
+    },
+    {
+      "rank": 2,
+      "id": "WF2-S-2026-011",
+      "arxiv_id": "2602.02100",
+      "title_ko": "검증 위기: GenAI 허위정보에 대한 전문가 인식과 재현 가능한 출처 증명",
+      "title_en": "The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance",
+      "steeps": "S_Social",
+      "steeps_secondary": "P_Political",
+      "significance": 9,
+      "source_domain": "S_Social",
+      "key_finding": "Expert survey shows large-scale text generation poses systemic epistemic risk"
+    },
+    {
+      "rank": 3,
+      "id": "WF2-T-2026-024",
+      "arxiv_id": "2601.12946",
+      "title_ko": "AI 생성 데이터 오염이 병리학적 변이성과 진단 신뢰성을 침식",
+      "title_en": "AI-generated Data Contamination Erodes Pathological Variability and Diagnostic Reliability",
+      "steeps": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "significance": 9,
+      "source_domain": "T_Technological",
+      "key_finding": "Synthetic medical data causes false reassurance rates tripling"
+    },
+    {
+      "rank": 4,
+      "id": "WF2-T-2026-025",
+      "arxiv_id": "2601.10520",
+      "title_ko": "GRACE: 규범적 단일체 행위자 해체를 위한 이유 기반 신경-기호 아키텍처",
+      "title_en": "Breaking Up with Normatively Monolithic Agency with GRACE: A Reason-Based Neuro-Symbolic Architecture for Safe and Ethical AI Alignment",
+      "steeps": "T_Technological",
+      "steeps_secondary": "s_spiritual",
+      "significance": 9,
+      "source_domain": "T_Technological",
+      "key_finding": "Decouples normative reasoning from instrumental decision-making"
+    },
+    {
+      "rank": 5,
+      "id": "WF2-T-2026-026",
+      "arxiv_id": "2602.02170",
+      "title_ko": "다중 에이전트 AI 시스템의 자기 진화 조정 프로토콜",
+      "title_en": "Self-Evolving Coordination Protocol in Multi-Agent AI Systems",
+      "steeps": "T_Technological",
+      "steeps_secondary": "P_Political",
+      "significance": 8,
+      "source_domain": "T_Technological",
+      "key_finding": "Externally validated self-modification with Byzantine fault tolerance for regulated domains"
+    },
+    {
+      "rank": 6,
+      "id": "WF2-T-2026-027",
+      "arxiv_id": "2602.02378",
+      "title_ko": "Sycophancy에서 Sensemaking으로: 인간-AI 의사결정을 위한 Premise Governance",
+      "title_en": "From Sycophancy to Sensemaking: Premise Governance for Human-AI Decision Making",
+      "steeps": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "significance": 8,
+      "source_domain": "T_Technological",
+      "key_finding": "Fluent agreement without calibrated judgment risks poor decisions"
+    },
+    {
+      "rank": 7,
+      "id": "WF2-T-2026-028",
+      "arxiv_id": "2602.01942",
+      "title_ko": "인간 사회 영감의 에이전트 AI 보안 접근법: 4C Framework",
+      "title_en": "Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework",
+      "steeps": "T_Technological",
+      "steeps_secondary": "P_Political",
+      "significance": 8,
+      "source_domain": "T_Technological",
+      "key_finding": "Core, Connection, Cognition, Compliance governance framework for agentic AI"
+    },
+    {
+      "rank": 8,
+      "id": "WF2-E-2026-001",
+      "arxiv_id": "2602.01684",
+      "title_ko": "LLM의 전략적 예측: 완전 전향적 벤처 토너먼트의 증거",
+      "title_en": "The Strategic Foresight of LLMs: Evidence from a Fully Prospective Venture Tournament",
+      "steeps": "E_Economic",
+      "steeps_secondary": "T_Technological",
+      "significance": 8,
+      "source_domain": "E_Economic",
+      "key_finding": "Tests if AI can outperform humans at strategic foresight via prospective tournament"
+    },
+    {
+      "rank": 9,
+      "id": "WF2-S-2026-012",
+      "arxiv_id": "2602.02479",
+      "title_ko": "동기, 주의, 시각적 플랫폼 디자인: 도덕적 전염이 TikTok과 Instagram에서 확산되는 방식",
+      "title_en": "Motivation, Attention, and Visual Platform Design: How Moral Contagions Spread on TikTok and Instagram",
+      "steeps": "S_Social",
+      "steeps_secondary": "P_Political",
+      "significance": 8,
+      "source_domain": "S_Social",
+      "key_finding": "TikTok algorithm enabled viral moralized political content spread"
+    },
+    {
+      "rank": 10,
+      "id": "WF2-S-2026-013",
+      "arxiv_id": "2601.11651",
+      "title_ko": "구조적 해악으로서의 미학: 텍스트-이미지 생성에서의 알고리즘적 외모주의",
+      "title_en": "Aesthetics as Structural Harm: Algorithmic Lookism Across Text-to-Image Generation",
+      "steeps": "S_Social",
+      "steeps_secondary": "s_spiritual",
+      "significance": 8,
+      "source_domain": "S_Social",
+      "key_finding": "Systematic infrastructure compounding inequalities through AI systems"
+    },
+    {
+      "rank": 11,
+      "id": "WF2-P-2026-006",
+      "arxiv_id": "2602.01837",
+      "title_ko": "알고리즘 채용의 사후 시장 공정성 모니터링을 위한 다자간 연산 프로토콜",
+      "title_en": "Multi-party Computation Protocols for Post-Market Fairness Monitoring in Algorithmic Hiring",
+      "steeps": "P_Political",
+      "steeps_secondary": "T_Technological",
+      "significance": 8,
+      "source_domain": "P_Political",
+      "key_finding": "Operationalizing EU AI Act fairness requirements via MPC"
+    },
+    {
+      "rank": 12,
+      "id": "WF2-P-2026-007",
+      "arxiv_id": "2601.12164",
+      "title_ko": "질문하는 언어에 따라: LLM 분석에서의 언어 조건부 이데올로기적 분기",
+      "title_en": "The Language You Ask In: Language-Conditioned Ideological Divergence in LLM Analysis",
+      "steeps": "P_Political",
+      "steeps_secondary": "S_Social",
+      "significance": 8,
+      "source_domain": "P_Political",
+      "key_finding": "Prompt language produces systematically different ideological outputs"
+    },
+    {
+      "rank": 13,
+      "id": "WF2-S-2026-014",
+      "arxiv_id": "2601.22893",
+      "title_ko": "기계가 틀릴 때: LLM이 인간보다 자폐증 미신을 더 많이 영속시킴",
+      "title_en": "When Machines Get It Wrong: Large Language Models Perpetuate Autism Myths More Than Humans Do",
+      "steeps": "S_Social",
+      "steeps_secondary": "T_Technological",
+      "significance": 7,
+      "source_domain": "S_Social",
+      "key_finding": "Human participants endorsed fewer myths than LLMs"
+    },
+    {
+      "rank": 14,
+      "id": "WF2-S-2026-015",
+      "arxiv_id": "2602.01959",
+      "title_ko": "얽힌 인간-AI 상호작용에서 인지-행동 표류를 탐색하기 위한 메타인지 강화",
+      "title_en": "Boosting Metacognition in Entangled Human-AI Interaction to Navigate Cognitive-Behavioral Drift",
+      "steeps": "S_Social",
+      "steeps_secondary": "T_Technological",
+      "significance": 7,
+      "source_domain": "S_Social",
+      "key_finding": "Subjective confidence increases without gains in epistemic reliability"
+    },
+    {
+      "rank": 15,
+      "id": "WF2-T-2026-029",
+      "arxiv_id": "2602.02495",
+      "title_ko": "충돌하는 목표를 위한 보상 없는 정렬",
+      "title_en": "Reward-free Alignment for Conflicting Objectives",
+      "steeps": "T_Technological",
+      "steeps_secondary": null,
+      "significance": 7,
+      "source_domain": "T_Technological",
+      "key_finding": "Aligning LLMs with multiple conflicting human objectives simultaneously without reward functions"
+    }
+  ]
+}

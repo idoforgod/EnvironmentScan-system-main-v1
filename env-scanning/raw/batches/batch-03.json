@@ -1,0 +1,655 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "sources_configured": 1,
+    "sources_scanned": 1,
+    "sources_failed": 0,
+    "total_items": 120,
+    "execution_time": 15.13,
+    "mode": "multi_source",
+    "days_back": 7,
+    "timestamp": "2026-01-30T10:59:17.858978"
+  },
+  "batch_info": {
+    "batch_number": 3,
+    "total_batches": 6,
+    "start_index": 40,
+    "end_index": 60,
+    "batch_size": 20
+  },
+  "items": [
+    {
+      "id": "arxiv-2601.20771v1",
+      "title": "Cross-Country Learning for National Infectious Disease Forecasting Using European Data",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20771v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Accurate forecasting of infectious disease incidence is critical for public health planning and timely intervention. While most data-driven forecasting approaches rely primarily on historical data from a single country, such data are often limited in length and variability, restricting the performance of machine learning (ML) models. In this work, we investigate a cross-country learning approach for infectious disease forecasting, in which a single model is trained on time series data from multiple countries and evaluated on a country of interest. This setting enables the model to exploit shared epidemic dynamics across countries and to benefit from an enlarged training set. We examine this approach through a case study on COVID-19 case forecasting in Cyprus, using surveillance data from European countries. We evaluate multiple ML models and analyse the impact of the lookback window length and cross-country `data augmentation' on multi-step forecasting performance. Our results show that incorporating data from other countries can lead to consistent improvements over models trained solely on national data. Although the empirical focus is on Cyprus and COVID-19, the proposed framework and findings are applicable to infectious disease forecasting more broadly, particularly in settings with limited national historical data.",
+        "keywords": [
+          "cs.LG",
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20771v1",
+        "authors": [
+          "Zacharias Komodromos",
+          "Kleanthis Malialis",
+          "Artemis Kontou"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935401"
+    },
+    {
+      "id": "arxiv-2601.20670v1",
+      "title": "Noise-induced excitability: bloom, bust and extirpation in autotoxic population dynamics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20670v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Species populations often modify their environment as they grow. When environmental feedback operates more slowly than population growth, the system can undergo boom-bust dynamics, where the population overshoots its carrying capacity and subsequently collapses. In extreme cases, this collapse leads to total extinction. While deterministic models typically fail to capture these finite-time extinction events, we propose a stochastic framework, derived from an individual-based model, to describe boom-bust-extirpation dynamics. We identify a noise-driven, threshold-like behavior where, depending on initial conditions, the population either undergoes a \"boom\" or is extirpated before the expansion occurs. Furthermore, we characterize a transition between an excitable regime, where most trajectories are captured by the absorbing state immediately after the first bust, and a persistent regime, where most populations reach a metastable state. We show that this transition is governed by the diffusion strength and the ratio of environmental-to-population timescales. This framework provides a theoretical basis for understanding irreversible transitions in invasive species, plant succession, and microbial dynamics.",
+        "keywords": [
+          "nlin.AO",
+          "cond-mat.stat-mech",
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20670v1",
+        "authors": [
+          "Pablo Moreno-Spiegelberg",
+          "Javier Aguilar"
+        ],
+        "arxiv_categories": [
+          "nlin.AO",
+          "cond-mat.stat-mech",
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935413"
+    },
+    {
+      "id": "arxiv-2601.20416v1",
+      "title": "Promotion of cooperation in deme-structured populations with growth-merging dynamics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20416v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "The spatial structure of populations may promote the emergence and maintenance of cooperation. Cooperation in the prisoner's dilemma is favored under specific update rules in evolutionary graph theory models with one individual per node of a graph, but this effect vanishes in models with well-mixed demes connected by migrations under soft selection. In contrast, experiments and models involving cycles of growth, merging and dilution have shown that spatial structure can favor cooperation. Here, we reconcile these findings by studying deme-structured populations under growth-merging-dilution dynamics, corresponding to a clique (fully connected graph) under hard selection. We obtain analytical conditions for the cooperator fraction to increase during deterministic logistic growth, and to increase on average under dilution-growth-merging cycles, in the weak selection regime. Furthermore, we analytically express the fixation probability of cooperators under weak selection, yielding a criterion for cooperative mutants to have a higher fixation probability than neutral ones. Finally, numerical simulations show that stochastic growth further promotes cooperation. Overall, hard selection is essential for cooperation to be promoted in deme-structured populations.",
+        "keywords": [
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20416v1",
+        "authors": [
+          "Damien Ribière",
+          "Alia Abbara",
+          "Anne-Florence Bitbol"
+        ],
+        "arxiv_categories": [
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935415"
+    },
+    {
+      "id": "arxiv-2601.20342v1",
+      "title": "StormDiT: A generative AI model bridges the 2-6 hour 'gray zone' in precipitation nowcasting",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20342v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Accurate short-term warnings for extreme precipitation are critical for global disaster mitigation but are hindered by a persistent predictability barrier at the 2-6 hour horizon -- the \"nowcasting gray zone.\" In this window, traditional observation-based extrapolation fails due to error accumulation, while numerical weather prediction is computationally too slow to resolve storm-scale dynamics. Recent generative AI approaches attempt to bridge this gap by decomposing precipitation into separate deterministic advection and stochastic diffusion components. However, this decomposition can sever fundamental causal links between entangled atmospheric processes, such as the dynamic initiation of convection triggered by boundary advection. Here we present StormDiT, a unified generative model that treats weather evolution as a holistic spatiotemporal problem, learning the coupled physics of the gray zone without human-imposed structural priors. Trained on a massive dataset of 7,720 precipitation events from China, our model achieves a breakthrough in long-horizon stability. On a heavy-rainfall test set, it maintains skillful prediction for strong convection ($\\ge$ 35 dBZ) with a Critical Success Index (CSI) near 0.2 across the full 6-hour forecast at 6-minute resolution. Crucially, the model exhibits superior probabilistic calibration, accurately quantifying operational risks. On the public SEVIR benchmark, our unified paradigm more than doubles the state-of-the-art 1-hour performance for heavy rain and establishes the first robust baseline for 3-hour forecasting. Furthermore, interpretability analysis reveals that the model attends to non-local physical precursors, such as outflow boundaries, explicitly validating its emergent understanding of convective organization.",
+        "keywords": [
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20342v1",
+        "authors": [
+          "Haofei Sun",
+          "Yunfan Yang",
+          "Wei Han"
+        ],
+        "arxiv_categories": [
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935418"
+    },
+    {
+      "id": "arxiv-2601.20182v1",
+      "title": "Atmospheric Muon Measurements Near Tornadic and Non-Tornadic Storms in the US Central Plains",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20182v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Tornadoes and other severe weather hazards affect thousands of people every year. Despite this, the details surrounding tornadic processes including formation, decay, and longevity are not well understood, partially due to limitations of available instrumentation. Measurements of atmospheric pressure within tornadic systems currently rely almost entirely on in-situ instrumentation, and no existing techniques can provide two-dimensional spatial information of the atmospheric density field. Atmospheric muons may hold a solution to this problem: muons are attenuated by matter, and tornadic storms are large regions of low atmospheric density, suggesting that tornadic storms induce a directional perturbation on the atmospheric muon flux. Measurements of this perturbation could then be used to infer the density field associated with severe weather. Simulations of these systems indicate that a robust measurement of the atmospheric density field would require a relatively large muon detector, however smaller detectors may be able to detect ambient muon flux perturbations if the storm is large and intense enough. This paper presents results from a pilot field study that measured the atmospheric muon flux near tornadic storms during May 2025, including directional measurements of the muon flux near tornadic mesocyclones and a measurement of the muon flux near the base of a forming tornado.",
+        "keywords": [
+          "hep-ex",
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20182v1",
+        "authors": [
+          "William Luszczak",
+          "Jana Houser",
+          "Matt Kauer"
+        ],
+        "arxiv_categories": [
+          "hep-ex",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935420"
+    },
+    {
+      "id": "arxiv-2601.20136v1",
+      "title": "Physics-informed deep learning links geodetic data and fault friction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20136v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Fault slip modeling, based on laboratory-derived friction laws, has significantly enhanced our understanding of fault mechanics. Agreement between model predictions and observations supports the hypothesis that observed slip diversity, including fast earthquakes and slow transient slips (Slow Slip Events; SSEs), originates from frictional heterogeneity. However, quantitative assessments of frictional heterogeneity from geodetic observations while fully incorporating fault mechanics are lacking due to the difficulties of high-dimensional optimization. In this study, we aim to address this gap using Physics-Informed Neural Networks (PINNs) to link frictional heterogeneity with geodetic observations. PINNs employ a neural network to represent the spatially variable frictional properties, making their estimation feasible. Targeting the 2010 Bungo SSE in southwest Japan, our estimation reveals heterogeneous friction coinciding with localized SSE nucleation in southwest Shikoku, and subsequent westward propagation. The calculated fault slip of SSE successfully reproduces the spatio-temporal pattern of observed surface displacements. This PINN-based inversion provides a mechanically consistent fault slip model validated through quantitative comparison with observations. Furthermore, we predict the future fault slip evolution, demonstrating the importance of assimilating observations spanning multiple SSE cycles. Our results demonstrate the potential of PINN for advancing understanding of fault mechanics and enabling physics-based fault slip forecasting.",
+        "keywords": [
+          "physics.geo-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20136v1",
+        "authors": [
+          "Rikuto Fukushima",
+          "Masayuki Kano",
+          "Kazuro Hirahara"
+        ],
+        "arxiv_categories": [
+          "physics.geo-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935422"
+    },
+    {
+      "id": "arxiv-2601.20123v1",
+      "title": "Optimal illness policy for an unethical daycare center",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20123v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "While businesses are typically more profitable if their workers and communities are minimally exposed to diseases, the same is not true for daycare centers. Here it is shown that a daycare center could maximize its profits by maintaining a population of sick children within the center, with the intention to infect more children who then do not attend. Through a modification of the Susceptible-Infected-Recovered (SIR) model for disease spread we find the optimal number of sick children who should be kept within the center to maximize profits. We show that as disease infectiousness increases, the optimal attendance rate of sick children approaches zero, while the potential profit increases.",
+        "keywords": [
+          "q-bio.PE",
+          "math.DS"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20123v1",
+        "authors": [
+          "Lauren D Smith"
+        ],
+        "arxiv_categories": [
+          "q-bio.PE",
+          "math.DS"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935424"
+    },
+    {
+      "id": "arxiv-2601.20049v1",
+      "title": "Evolving beyond collapse: An adaptive particle batch smoother for cryospheric data assimilation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20049v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "We present a new adaptive particle-based data assimilation scheme for cryospheric applications that leverages promising developments in importance sampling. The proposed approach seeks to combine some of the advantages of two widely used classes of schemes: particle methods and iterative ensemble Kalman methods. Specifically, it extends the PBS that is commonly used in cryospheric data assimilation, with the AMIS algorithm. This adaptive formulation transforms the PBS into an iterative scheme with improved resilience against ensemble collapse and the ability to implement early-stopping strategies. As such, computational cost is automatically adapted to the complexity of the problem at hand, even down to the grid-cell and water year level in distributed multiyear simulations. In homage to the schemes that it builds on, we coin this new algorithm the Adaptive Particle Batch Smoother (AdaPBS) and we test it across a range of scenarios. First, we conducted an intercomparison of some of the most commonly used cryospheric data assimilation algorithms using MCMC simulation as a costly gold-standard benchmark in a simplified temperature index model assimilating snow depth observations. We further evaluated AdaPBS by assimilating snow depth observations from the ESMSnowMIP project at 6 different sites spanning 3 continents, using an ensemble of simulations generated with the more complex FSM2. Our results demonstrate that AdaPBS is a robust and reliable tool, outperforming or at least matching the performance of other commonly used algorithms and successfully handling complex cases with dense observational datasets. All experiments were carried out using the open-source MuSA toolbox, which now includes AdaPBS and MCMC among the growing list of available cryospheric data assimilation methods.",
+        "keywords": [
+          "physics.data-an",
+          "physics.geo-ph",
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20049v1",
+        "authors": [
+          "Kristoffer Aalstad",
+          "Esteban Alonso-González",
+          "Norbert Pirk"
+        ],
+        "arxiv_categories": [
+          "physics.data-an",
+          "physics.geo-ph",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935426"
+    },
+    {
+      "id": "arxiv-2601.19681v1",
+      "title": "Long-term evolution of regulatory DNA sequences. Part 1: Simulations on global, biophysically-realistic genotype-phenotype maps",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19681v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Promoters and enhancers are cis-regulatory elements (CREs), DNA sequences that bind transcription factor (TF) proteins to up- or down-regulate target genes. Decades-long efforts yielded TF-DNA interaction models that predict how strongly an individual TF binds arbitrary DNA sequences and how individual binding events on the CRE combine to affect gene expression. These insights can be synthesized into a global, biophysically-realistic, and quantitative genotype-phenotype (GP) map for gene regulation, a \"holy grail\" for the application of evolutionary theory. A global map provides a rare opportunity to simulate long-term evolution of regulatory sequences and pose several fundamental questions: How long does it take to evolve CREs de novo? How many non-trivial regulatory functions exist in sequence space? How connected are they? For which regulatory architecture is CRE evolution most rapid and evolvable? In this article, the first of a two-part series, we briefly review the pertinent modeling and simulation efforts for a unique system that enables close, quantitative, and mechanistic links between biophysics, as well as systems, synthetic, and evolutionary biology.",
+        "keywords": [
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19681v1",
+        "authors": [
+          "Elia Mascolo",
+          "Réka Borbély",
+          "Santiago Herrera-Álvarez"
+        ],
+        "arxiv_categories": [
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935428"
+    },
+    {
+      "id": "arxiv-2601.19298v1",
+      "title": "Spread/Error relationship and spatial error structure of precipitation ensemble nowcasting: Comparison of STEPS and generative AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19298v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "The predictability of the generative AI-based nowcasting model LDCast (trained on another region) is evaluated over Belgium, together with the pysteps implementation of the nowcasting algorithm STEPS. STEPS and LDCast are slightly underdispersive, but the ensemble spread provides an estimation of the error at almost all scales. Both models adapt the properties of their ensembles to the type of event, either convective or stratiform. The spatial scores of the STEPS and LDCast ensembles are compared with those of surrogate ensembles having some key properties, revealing that both STEPS and LDCast have very little ability to spatially localise the ensemble mean error vector through their ensemble members. This suggests that the content of STEPS and LDCast ensembles is informative in terms of statistics, but not in terms of dynamics.",
+        "keywords": [
+          "nlin.CD",
+          "physics.geo-ph",
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19298v1",
+        "authors": [
+          "Martin Bonte",
+          "Lesley De Cruz",
+          "Fabian Debal"
+        ],
+        "arxiv_categories": [
+          "nlin.CD",
+          "physics.geo-ph",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935430"
+    },
+    {
+      "id": "arxiv-2601.19289v1",
+      "title": "Continued activity of the 25th cycle: largest in 20 years. Ground-level enhancement and Forbush decrease",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19289v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "After a very calm 24th solar activity cycle, the 25th cycle has already seen several interesting events. A Ground Level Enhancement GLE77 was observed on 11 November 2025 following an X5.1 class solar flare. A strong Forbush decrease occurred on 19 and 20 January 2026 during one of the most intense geomagnetic storms of Solar Cycle 25. Events were recorded coherently by the global neutron monitor network and by SEVAN detectors at multiple altitudes. Using spectrometric capabilities, we reconstruct energy spectra of missing neutrons and muons during the FD and compare them with corresponding spectra measured during GLE77. The analysis demonstrates that FD and GLE signatures are intrinsically asymmetric. FDs selectively suppress the preexisting galactic cosmic ray population, whereas GLEs introduce an additional, harder particle component. Neutron and muon channels exhibit markedly different spectral behavior, particularly at higher deposited energies, reflecting their sensitivity to different primary energy ranges. These results show that combined NM and SEVAN observations provide robust, complementary diagnostics of rigidity dependent cosmic ray modulation during extreme heliospheric disturbances.",
+        "keywords": [
+          "astro-ph.SR",
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19289v1",
+        "authors": [
+          "B. Sargsyan",
+          "A. Chilingarian"
+        ],
+        "arxiv_categories": [
+          "astro-ph.SR",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935432"
+    },
+    {
+      "id": "arxiv-2601.19265v1",
+      "title": "Cosmic Rays as an Interdisciplinary Earth Observation Tool: From Particle Physics and Atmospheric Processes to Geosciences and Urban Science",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19265v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "The exploration of cosmic rays, which are high-energy particles originate from space and the atmosphere, has historically been associated with particle physics and astrophysics. In the last 20 years, these particles have evolved into valuable tools for observing Earth's systems. This review compiles the use of cosmic rays in three primary areas: (1) particle physics and atmospheric processes, which include cosmic-ray-induced cascades, ionization, and their impact on atmospheric chemistry and radiation; (2) geosciences, where cosmogenic radionuclides assist in the dating of geological materials and cosmic-ray neutrons are used for large-scale monitoring of soil moisture and snow water equivalents; and (3) urban science, where cosmic-ray muons are employed for non-invasive subsurface imaging and, when paired with distributed sensors, serve as the basis for smart city monitoring. The review places particular emphasis on integrating these methods with remote sensing and geographic information systems (GIS), which helps close the persistent scale gap between point measurements and satellite observations, thereby enabling three-dimensional digital representations of subsurfaces. The review concludes by discussing the data standards, their integration into operational Earth observation workflows, and future research directions.",
+        "keywords": [
+          "hep-ex",
+          "astro-ph.IM",
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19265v1",
+        "authors": [
+          "Bugra Bilin",
+          "Nuhcan Akçit"
+        ],
+        "arxiv_categories": [
+          "hep-ex",
+          "astro-ph.IM",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935434"
+    },
+    {
+      "id": "arxiv-2601.19064v1",
+      "title": "LvD: A New Algorithm for Computing the Likelihood of a Phylogeny",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19064v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "There are few, if any, algorithms in statistical phylogenetics which are used more heavily than Felsenstein's 1973 pruning method for computing the likelihood of a tree. We present LvD, (Likelihood via Decomposition), an alternative to Felsenstein's algorithm based on a different decomposition of the underlying phylogeny. It works for all standard nucleotide models. The new algorithm allows updates of the likelihood calculation in worst case $O(\\log n)$ time with $n$ taxa, as opposed to worst case $O(n)$ time for existing methods. In practice this leads to appreciable improvements in likelihood calculations, the extent of speed-up depending on how balanced or unbalanced the trees are. We explore implications for parallel computing, and show that the approach allows likelihoods to be computed in $O(\\log n)$ parallel time per site, compared to (worst case) $O(n)$ time. We implemented and applied the algorithm to large numbers of simulated and empirical data sets and showed that these theoretical advances lead to a significant practical speed-up, although the extent of the improvement depends on how balanced the phylogenies already are.",
+        "keywords": [
+          "cs.DS",
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19064v1",
+        "authors": [
+          "David Bryant",
+          "Celine Scornavacca",
+          "David Swofford"
+        ],
+        "arxiv_categories": [
+          "cs.DS",
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935436"
+    },
+    {
+      "id": "arxiv-2601.18703v1",
+      "title": "Chemotaxis-inspired PDE models of airborne infectious disease transmission: epidemiologically-motivated mathematical and numerical analyses",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18703v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "Partial differential equation (PDE) models for infectious diseases, while less common than their ordinary differential equation (ODE) counterparts, have found successful applications for many years. Such models are typically of reaction-diffusion type, and model spatial propagation as a diffusive process. However, given the complex nature of human mobility, such models are limited in their ability to describe airborne infectious diseases in human populations. Recent work has advocated for the inclusion of an additional chemotaxis-type term as an alternative; spatial propagation of infection fronts is assumed additionally to flow from low-to-high concentrations of susceptible populations. The present work extends the study of such models by providing an epidemiologically interpretable analysis, directly connecting model behavior to information readily available to policymakers. In particular, we derive a spatially-aware basic reproduction number, which accounts for spatial heterogeneity in population density. Furthermore, we discuss several important aspects concerning the numerical solution of the model, including the introduction of a stabilization scheme. Finally, we perform a series of simulation studies in the Italian region of Lombardy (severely affected by the COVID-19 outbreak in 2020) and in the US state of Georgia, in which we demonstrate the model's potential to better capture important spatiotemporal dynamics observed in real-world data compared to pure reaction-diffusion models.",
+        "keywords": [
+          "math.AP",
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18703v1",
+        "authors": [
+          "Alex Viguerie",
+          "Malú Grave",
+          "Alvaro L. G. A. Coutinho"
+        ],
+        "arxiv_categories": [
+          "math.AP",
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935438"
+    },
+    {
+      "id": "arxiv-2601.18674v1",
+      "title": "Melting dynamics and mixing layer growth near the ice-ocean interface",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18674v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "Ice melting into saline water plays a fundamental role in the dynamics near the ice-ocean interface in polar oceans. The physics of ice melting involves a non-trivial interplay between thermodynamics at the interface, hydrodynamic transport in the bulk and the properties of the ambient ocean. The key control parameters are the density ratio $R_ρ$ proportional to the ambient ocean salinity and the Lewis number $Le = κ_T/κ_S$, which compares the thermal and salt diffusivities. Increasing the salinity is known to slow down melting, with the melt rate transitioning from subdiffusive to diffusive as $R_ρ$ increases. Here, we ssess the role of turbulence in this transition, using highly-resolved numerical simulations of the two-dimensional Boussinesq equations with a slowly melting upper boundary. We analyse the non-stationary growth of the temperature and meltwater mixing layers, varying the Lewis number and the density ratio. While meltwater is continuously entrained by convection inside the bulk, we identify a transition from convection to diffusion close to the interface. This transition is reflected by the formation of an interfacial boundary layer that regulates the flux of meltwater pouring into the turbulent bulk for $R_ρ\\gtrsim 10$. Using mixing-layer diagnostics based on meltwater-concentration thresholds, we observe that the turbulent layer grows super-diffusively $\\propto t^{1.33}$, while the interfacial boundary layer expands diffusively $\\propto t^{0.5}$ but with a non-universal prefactor. These results indicate that double-diffusive effects are here confined to the interface, and highlight potential limitations of diagnostics based on fixed concentration thresholds in oceanographic applications.",
+        "keywords": [
+          "physics.ao-ph",
+          "physics.geo-ph",
+          "physics.flu-dyn"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18674v1",
+        "authors": [
+          "Sofía Allende",
+          "Louis-Alexandre Couston",
+          "Simon Thalabard"
+        ],
+        "arxiv_categories": [
+          "physics.ao-ph",
+          "physics.geo-ph",
+          "physics.flu-dyn"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935440"
+    },
+    {
+      "id": "arxiv-2601.18529v1",
+      "title": "N.E.O.N.-Bridge Geometry Determination: Turbulence Modeling of Individual N.E.O.N.-Bridge Segment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18529v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "The N.E.O.N.-Bridge is a capstone project being developed by students at TAMUCC, under the oversight of Los Alamos National Laboratory. The project requires the development of a hull geometry for an autonomous bridge segment optimized to support onboard electronics and camera systems while maintaining stability in a dynamic water environment. Traditional ribbon bridge systems typically do not experience intense hydrodynamic loading due to current transportation and assembly methods, whereas the N.E.O.N-Bridge must continuously withstand forces from dynamic flow patterns. The requirement for a hull geometry to have both hydrodynamic design and rigidity, as in current ribbon bridges, has posed unique challenges. The current hull designs were evaluated through turbulent water-flow simulations performed with ANSYS Discovery. Boundary conditions were determined based on the forward motion of the bridge segment, simulating inlet and outlet flows, and the resulting pressure distribution. A waterline-based geometric constraint derived from the camera system's elevation enabled the simulation to model flow characteristics in an operational scenario. Velocity fields, pressure contours, and turbulent flow patterns were analyzed to identify areas of high loading and hydrodynamic inefficiencies. The findings will provide essential performance metrics that could be used to make design adjustments to the overall hull geometry. The simulation results will support improvements in stability, structural rigidity, and overall effectiveness of the hull geometry, advancing the development of the N.E.O.N-Bridge segments.",
+        "keywords": [
+          "physics.ao-ph",
+          "physics.flu-dyn"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18529v1",
+        "authors": [
+          "Arturo Rodriguez",
+          "Dominic Alexander",
+          "Nicolas J. Torres"
+        ],
+        "arxiv_categories": [
+          "physics.ao-ph",
+          "physics.flu-dyn"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935442"
+    },
+    {
+      "id": "arxiv-2601.18522v1",
+      "title": "Livestock, Methane and Climate",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18522v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "Methane emissions by livestock have a negligible effect on Earth's temperature. For example, killing all of the approximately 1.6 billion cattle on Earth in the year 2025, when this paper was written, would only reduce atmospheric methane concentrations enough to change the temperature by -0.04 C. Killing all 1.3 billion sheep would lead to a temperature change of -0.004 C. New Zealand's pledge to reduce methane emissions of their livestock by 14% to 24% from those in the year 2017 would change the temperature by -0.000005 to -0.000008 C, far too small to measure. These are maximum temperature savings where methane emissions from domestic livestock are not replaced by other sources (such as wild ruminants and termites) during the inevitable rewilding of managed grasslands and rangelands.",
+        "keywords": [
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18522v1",
+        "authors": [
+          "D. Alexander",
+          "J. D. Ferguson",
+          "A. Glatzle"
+        ],
+        "arxiv_categories": [
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935443"
+    },
+    {
+      "id": "arxiv-2601.18214v1",
+      "title": "A model for a population of trees structured by phenological traits",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18214v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "In the context of global warming, tree populations rely on two primary mechanisms of adaptation: phenotypic plasticity, which enables individuals to adjust their behavior in response to environmental stress, and genetic evolution, driven by natural selection and genetic diversity within the population. Understanding the interplay between these mechanisms is crucial for assessing the impacts of climate change on forest ecosystems and for informing sustainable management strategies. In this manuscript, we focus on a specific phenological adaptation: the ability of trees to enter summer dormancy once a critical temperature threshold is exceeded. Individuals are characterized by this threshold temperature and by their seed production capacity. We first establish a detailed mathematical model describing the population dynamics under these traits, and progressively reduce it to a system of two coupled ordinary differential equations. This simpler macroscopic model is then analyzed numerically, to investigate how the population reacts to a shift in its environment: an temperature increase, a drop in precipitation levels, or a combination of the two. Our results highlight contrasting effects of water stress and temperature stress on population dynamics, as well as the ambivalent effect of the plasticity.",
+        "keywords": [
+          "q-bio.PE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18214v1",
+        "authors": [
+          "Sirine Boucenna",
+          "Vasilis Dakos",
+          "Gaël Raoul"
+        ],
+        "arxiv_categories": [
+          "q-bio.PE"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935446"
+    },
+    {
+      "id": "arxiv-2601.18182v1",
+      "title": "A strictly geostrophic product of sea-surface velocities from the SWOT fast-sampling phase",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18182v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "While geostrophy remains the simplest and most practical balance to extract velocity information from sea-surface height anomaly (SSHa), confusions remain within the oceanographic community to what extent this balance can be applied to altimetric observations with the launch of the Surface Water and Ocean Topography (SWOT) satellite. Given the limited temporal resolution of SWOT, many studies have resorted to claiming that the spatially filtered SSHa fields correspond to the geostrophic component. This introduces the ambiguity of which spatial scale to choose. Here, we build upon the recent developments in internal tide (IT) corrections (Yadidya et al., 2025) and apply a dynamic mode decomposition (DMD)-based method introduced by Lapo et al. (2025) to robustly extract the geostrophic component associated with sub-inertial frequencies from the SWOT one-day-repeat orbit; we distribute the global dataset as a public good. We provide the joint probability density function (PDF) of vorticity and strain, and spectra of SSHa at a few cross-over regions.",
+        "keywords": [
+          "physics.data-an",
+          "physics.ao-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18182v1",
+        "authors": [
+          "Takaya Uchida",
+          "Badarvada Yadidya",
+          "Vadim Bertrand"
+        ],
+        "arxiv_categories": [
+          "physics.data-an",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935448"
+    },
+    {
+      "id": "arxiv-2601.17867v1",
+      "title": "Scalar Dispersion from Wall-Mounted Cylinders at Large Reynolds Number: Plume Transitions and Regime Classification",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.17867v1",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "This study presents a comprehensive experimental investigation of scalar dispersion from the free end of wall-mounted cylindrical obstacles immersed in a large-Reynolds-number turbulent boundary layer. A key focus is the characterization of transition behavior between distinct dispersion regimes: elevated plumes (EP), ground-level plumes (GLP), and ground-level sources (GLS). Experiments systematically vary the primary and secondary aspect ratios ($AR_1, AR_2$) and the velocity ratio ($ r$) to explore their effects on the evolution of scalar plumes. Plume classification is governed by the non-dimensional parameter $\\tilde{h}_s / δ_{cz}$, which quantifies the progressive interaction between the plume and the ground. Here, $\\tilde{h}_s$ denotes the effective source height and $δ_{cz}$, the vertical plume half-width. Detailed concentration measurements demonstrate that the EP--GLP--GLS transitions substantially modify both vertical and lateral dispersion characteristics. The measurements reveal systematic departures from classical dispersion-coefficient scaling. To assess the capability of existing models under these conditions, the experimentally determined dispersion coefficients are used to evaluate the Gaussian Dispersion Model (GDM) and a Wall Similarity Model (WSM). The GDM captures general trends but deviates in specific regimes, whereas the WSM offers improved representation under GLS conditions. The resulting dataset, grounded in systematic laboratory measurements, establishes a critical benchmark for validating numerical simulations and informing the development of next-generation predictive models. Finally, leveraging these results, a concise data-informed predictive framework is introduced that captures the EP--GLP--GLS transitions and provides first-order estimates of ground-level concentration across geometric and momentum-ratio parameter space.",
+        "keywords": [
+          "physics.ao-ph",
+          "physics.flu-dyn"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.17867v1",
+        "authors": [
+          "Kofi Agyemang Amankwah",
+          "Juan Carlos Cuevas Bautista",
+          "Theresa Oehmke"
+        ],
+        "arxiv_categories": [
+          "physics.ao-ph",
+          "physics.flu-dyn"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:08.935449"
+    }
+  ]
+}

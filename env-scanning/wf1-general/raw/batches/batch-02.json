@@ -1,0 +1,646 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "sources_configured": 1,
+    "sources_scanned": 1,
+    "sources_failed": 0,
+    "total_items": 120,
+    "execution_time": 15.13,
+    "mode": "multi_source",
+    "days_back": 7,
+    "timestamp": "2026-01-30T10:59:17.858978"
+  },
+  "batch_info": {
+    "batch_number": 2,
+    "total_batches": 6,
+    "start_index": 20,
+    "end_index": 40,
+    "batch_size": 20
+  },
+  "items": [
+    {
+      "id": "arxiv-2601.20853v1",
+      "title": "A Smoothed GMM for Dynamic Quantile Preferences Estimation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20853v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This paper suggests methods for estimation of the $τ$-quantile, $τ\\in(0,1)$, as a parameter along with the other finite-dimensional parameters identified by general conditional quantile restrictions. We employ a generalized method of moments framework allowing for non-linearities and dependent data, where moment functions are smoothed to aid both computation and tractability. Consistency and asymptotic normality of the estimators are established under weak assumptions. Simulations illustrate the finite-sample properties of the methods. An empirical application using a quantile intertemporal consumption model with multiple assets estimates the risk attitude, which is captured by $τ$, together with the elasticity of intertemporal substitution.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20853v1",
+        "authors": [
+          "Xin Liu",
+          "Luciano de Castro",
+          "Antonio F. Galvao"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806712"
+    },
+    {
+      "id": "arxiv-2601.20724v1",
+      "title": "Pricing Catastrophe: How Extreme Political Shocks Reprice Sovereign Risk, Beliefs, and Growth Expectations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20724v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Extreme political shocks may reshape economies not only through contemporaneous disruption but by altering beliefs about the distribution of future states. We study how such belief ruptures affect the cost of capital, expectations, and macroeconomic dynamics, using the October 7, 2023 attack on Israel as a precisely timed shock. Leveraging monthly data from 2008 to 2025 and a donor pool of advanced economies, we estimate counterfactual paths using a matrix completion design with rolling-window cross-validation and placebo-based inference, corroborated by synthetic difference-in-differences. We document three core findings. First, long-horizon sovereign risk of Israel is persistently repriced. Ten-year yields and spreads relative to the United States rise sharply and remain elevated. Second, household welfare beliefs deteriorate durably, as reflected in consumer confidence. Third, medium-run momentum improves, captured by a strong rise in the OECD composite leading indicator. These patterns reveal risk-growth decoupling where tail-risk premia rise even as medium-horizon activity expectations strengthen. Our results highlight belief-driven channels as a central mechanism through which extreme ruptures shape macro-financial outcomes.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20724v1",
+        "authors": [
+          "Riste Ichev",
+          "Rok Spruk"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806722"
+    },
+    {
+      "id": "arxiv-2601.20487v1",
+      "title": "Normative Equivalence in human-AI Cooperation: Behaviour, Not Identity, Drives Cooperation in Mixed-Agent Groups",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20487v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "The introduction of artificial intelligence (AI) agents into human group settings raises essential questions about how these novel participants influence cooperative social norms. While previous studies on human-AI cooperation have primarily focused on dyadic interactions, little is known about how integrating AI agents affects the emergence and maintenance of cooperative norms in small groups. This study addresses this gap through an online experiment using a repeated four-player Public Goods Game (PGG). Each group consisted of three human participants and one bot, which was framed either as human or AI and followed one of three predefined decision strategies: unconditional cooperation, conditional cooperation, or free-riding. In our sample of 236 participants, we found that reciprocal group dynamics and behavioural inertia primarily drove cooperation. These normative mechanisms operated identically across conditions, resulting in cooperation levels that did not differ significantly between human and AI labels. Furthermore, we found no evidence of differences in norm persistence in a follow-up Prisoner's Dilemma, or in participants' normative perceptions. Participants' behaviour followed the same normative logic across human and AI conditions, indicating that cooperation depended on group behaviour rather than partner identity. This supports a pattern of normative equivalence, in which the mechanisms that sustain cooperation function similarly in mixed human-AI and all human groups. These findings suggest that cooperative norms are flexible enough to extend to artificial agents, blurring the boundary between humans and AI in collective decision-making.",
+        "keywords": [
+          "cs.GT",
+          "cs.AI",
+          "cs.HC",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20487v1",
+        "authors": [
+          "Nico Mutzner",
+          "Taha Yasseri",
+          "Heiko Rauhut"
+        ],
+        "arxiv_categories": [
+          "cs.GT",
+          "cs.AI",
+          "cs.HC",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806724"
+    },
+    {
+      "id": "arxiv-2601.20469v1",
+      "title": "The realized empirical distribution function of stochastic variance with application to goodness-of-fit testing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20469v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We propose a nonparametric estimator of the empirical distribution function (EDF) of the latent spot variance of the log-price of a financial asset. We show that over a fixed time span our realized EDF (or REDF) -- inferred from noisy high-frequency data -- is consistent as the mesh of the observation grid goes to zero. In a double-asymptotic framework, with time also increasing to infinity, the REDF converges to the cumulative distribution function of volatility, if it exists. We exploit these results to construct some new goodness-of-fit tests for stochastic volatility models. In a Monte Carlo study, the REDF is found to be accurate over the entire support of volatility. This leads to goodness-of-fit tests that are both correctly sized and relatively powerful against common alternatives. In an empirical application, we recover the REDF from stock market high-frequency data. We inspect the goodness-of-fit of several two-parameter marginal distributions that are inherent in standard stochastic volatility models. The inverse Gaussian offers the best overall description of random equity variation, but the fit is less than perfect. This suggests an extra parameter (as available in, e.g., the generalized inverse Gaussian) is required to model stochastic variance.",
+        "keywords": [
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20469v1",
+        "authors": [
+          "Kim Christensen",
+          "Martin Thyrsgaard",
+          "Bezirgen Veliyev"
+        ],
+        "arxiv_categories": [
+          "econ.EM"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806726"
+    },
+    {
+      "id": "arxiv-2601.20463v1",
+      "title": "Realized range-based estimation of integrated variance",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20463v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We provide a set of probabilistic laws for estimating the quadratic variation of continuous semimartingales with realized range-based variance -- a statistic that replaces every squared return of realized variance with a normalized squared range. If the entire sample path of the process is available, and under a set of weak conditions, our statistic is consistent and has a mixed Gaussian limit, whose precision is five times greater than that of realized variance. In practice, of course, inference is drawn from discrete data and true ranges are unobserved, leading to downward bias. We solve this problem to get a consistent, mixed normal estimator, irrespective of non-trading effects. This estimator has varying degrees of efficiency over realized variance, depending on how many observations that are used to construct the high-low. The methodology is applied to TAQ data and compared with realized variance. Our findings suggest that the empirical path of quadratic variation is also estimated better with the realized range-based variance.",
+        "keywords": [
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20463v1",
+        "authors": [
+          "Kim Christensen",
+          "Mark Podolskij"
+        ],
+        "arxiv_categories": [
+          "econ.EM"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806728"
+    },
+    {
+      "id": "arxiv-2601.20452v1",
+      "title": "Manipulation in Prediction Markets: An Agent-based Modeling Experiment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20452v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Prediction markets mobilize financial incentives to forecast binary event outcomes through the aggregation of dispersed beliefs and heterogeneous information. Their growing popularity and demonstrated predictive accuracy in political elections have raised speculation and concern regarding their susceptibility to manipulation and the potential consequences for democratic processes. Using agent-based simulations combined with an analytic characterization of price dynamics, we study how high-budget agents can introduce price distortions in prediction markets. We explore the persistence and stability of these distortions in the presence of herding or stubborn agents, and analyze how agent expertise affects market-price variance. Firstly we propose an agent-based model of a prediction market in which bettors with heterogeneous expertise, noisy private information, variable learning rates and budgets observe the evolution of public opinion on a binary election outcome to inform their betting strategies in the market. The model exhibits stability across a broad parameter space, with complex agent behaviors and price interactions producing self-regulatory price discovery. Second, using this simulation framework, we investigate the conditions under which a highly resourced minority, or ''whale'' agent, with a biased valuation can distort the market price, and for how long. We find that biased whales can temporarily shift prices, with the magnitude and duration of distortion increasing when non-whale bettors exhibit herding behavior and slow learning. Our theoretical analysis corroborates these results, showing that whales can shift prices proportionally to their share of market capital, with distortion duration depending on non-whale learning rates and herding intensity.",
+        "keywords": [
+          "physics.soc-ph",
+          "q-fin.TR",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20452v1",
+        "authors": [
+          "Bridget Smart",
+          "Ebba Mark",
+          "Anne Bastian"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "q-fin.TR",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806729"
+    },
+    {
+      "id": "arxiv-2601.20285v1",
+      "title": "Bank Runs With and Without Bank Failure",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20285v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We study the causes and consequences of bank runs using a novel dataset on bank runs in the United States from 1863 to 1934. Applying natural language processing to historical newspapers, we identify 4,049 runs on individual banks. Runs are considerably more likely in weak banks but also occur in strong banks, especially in response to negative news about the real economy or the broader banking system. However, runs typically only result in failure for banks with weak fundamentals. Strong banks survive runs through various mechanisms, including interbank cooperation, equity injections, public signals of strength, and suspension of convertibility. At the local level, bank failures (with and without runs) translate into substantially larger declines in deposits and lending than runs without failures. Our findings suggest that poor bank fundamentals are necessary for bank runs to translate into failure and for bank distress to generate severe economic consequences.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20285v1",
+        "authors": [
+          "Sergio Correia",
+          "Stephan Luck",
+          "Emil Verner"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806731"
+    },
+    {
+      "id": "arxiv-2601.20238v1",
+      "title": "Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20238v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "The emergence of large language models (LLMs) is reshaping how people engage in political discourse online. We examine how the release of ChatGPT altered ideological and emotional patterns in the largest political forum on Reddit. Analysis of millions of comments shows that ChatGPT intensified ideological polarization: liberals became more liberal, and conservatives more conservative. This shift does not stem from the creation of more persuasive or ideologically extreme original content using ChatGPT. Instead, it originates from the tendency of ChatGPT-generated comments to echo and reinforce the viewpoint of original posts, a pattern consistent with algorithmic sycophancy. Yet, despite growing ideological divides, affective polarization, measured by hostility and toxicity, declined. These findings reveal that LLMs can simultaneously deepen ideological separation and foster more civil exchanges, challenging the long-standing assumption that extremity and incivility necessarily move together.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20238v1",
+        "authors": [
+          "Gavin Wang",
+          "Srinaath Anbudurai",
+          "Oliver Sun"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806732"
+    },
+    {
+      "id": "arxiv-2601.20197v1",
+      "title": "Bias-Reduced Estimation of Finite Mixtures: An Application to Latent Group Structures in Panel Data",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20197v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Finite mixture models are widely used in econometric analyses to capture unobserved heterogeneity. This paper shows that maximum likelihood estimation of finite mixtures of parametric densities can suffer from substantial finite-sample bias in all parameters under mild regularity conditions. The bias arises from the influence of outliers in component densities with unbounded or large support and increases with the degree of overlap among mixture components. I show that maximizing the classification-mixture likelihood function, equipped with a consistent classifier, yields parameter estimates that are less biased than those obtained by standard maximum likelihood estimation (MLE). I then derive the asymptotic distribution of the resulting estimator and provide conditions under which oracle efficiency is achieved. Monte Carlo simulations show that conventional mixture MLE exhibits pronounced finite-sample bias, which diminishes as the sample size or the statistical distance between component densities tends to infinity. The simulations further show that the proposed estimation strategy generally outperforms standard MLE in finite samples in terms of both bias and mean squared errors under relatively weak assumptions. An empirical application to latent group panel structures using health administrative data shows that the proposed approach reduces out-of-sample prediction error by approximately 17.6% relative to the best results obtained from standard MLE procedures.",
+        "keywords": [
+          "cs.LG",
+          "stat.CO",
+          "stat.ME",
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20197v1",
+        "authors": [
+          "Raphaël Langevin"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "stat.CO",
+          "stat.ME",
+          "econ.EM"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806734"
+    },
+    {
+      "id": "arxiv-2601.20169v1",
+      "title": "United in Currency, Divided in Growth: Dynamic Effects of Euro Adoption",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20169v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Does euro adoption affect long-run economic growth? Existing evidence is mixed, reflecting limited treated countries, long horizons that challenge inference, and heterogeneity across member states. We estimate causal dynamic and heterogeneous treatment effects using Causal Forests with Fixed Effects (CFFE), a machine-learning approach that combines causal forests with two-way fixed effects. Under a conditional parallel-trends assumption, we find that euro adoption reduced annual GDP growth by 0.3-0.4 percentage points on average. Effects emerge shortly after adoption and stabilize after roughly a decade. Average effects mask substantial heterogeneity. Countries with lower initial GDP per capita experience larger and more persistent growth shortfalls than core economies. Weaker consumption and productivity growth contribute to the overall effect, while improvements in net exports partially offset these declines. A two-country New Keynesian DSGE model with hysteresis generates qualitatively similar patterns: one-size-fits-all monetary policy and scarring mechanisms produce larger output losses under monetary union than under flexible exchange rates. By jointly estimating dynamic and heterogeneous treatment effects, the analysis highlights the importance of country characteristics in assessing the long-run consequences of monetary union.",
+        "keywords": [
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20169v1",
+        "authors": [
+          "Harry Aytug"
+        ],
+        "arxiv_categories": [
+          "econ.EM"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806735"
+    },
+    {
+      "id": "arxiv-2601.20018v1",
+      "title": "Decoupling and randomization for double-indexed permutation statistics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20018v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This paper introduces a version of decoupling and randomization to establish concentration inequalities for double-indexed permutation statistics. The results yield, among other applications, a new combinatorial Hanson-Wright inequality and a new combinatorial Bennett inequality. Several illustrative examples from rank-based statistics, graph-based statistics, and causal inference are also provided.",
+        "keywords": [
+          "math.PR",
+          "econ.EM",
+          "math.ST"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20018v1",
+        "authors": [
+          "Mingxuan Zou",
+          "Jingfan Xu",
+          "Peng Ding"
+        ],
+        "arxiv_categories": [
+          "math.PR",
+          "econ.EM",
+          "math.ST"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806737"
+    },
+    {
+      "id": "arxiv-2601.19886v1",
+      "title": "AI Cap-and-Trade: Efficiency Incentives for Accessibility and Sustainability",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19886v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "The race for artificial intelligence (AI) dominance often prioritizes scale over efficiency. Hyper-scaling is the common industry approach: larger models, more data, and as many computational resources as possible. Using more resources is a simpler path to improved AI performance. Thus, efficiency has been de-emphasized. Consequently, the need for costly computational resources has marginalized academics and smaller companies. Simultaneously, increased energy expenditure, due to growing AI use, has led to mounting environmental costs. In response to accessibility and sustainability concerns, we argue for research into, and implementation of, market-based methods that incentivize AI efficiency. We believe that incentivizing efficient operations and approaches will reduce emissions while opening new opportunities for academics and smaller companies. As a call to action, we propose a cap-and-trade system for AI. Our system provably reduces computations for AI deployment, thereby lowering emissions and monetizing efficiency to the benefit of of academics and smaller companies.",
+        "keywords": [
+          "cs.GT",
+          "cs.AI",
+          "cs.CY",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19886v1",
+        "authors": [
+          "Marco Bornstein",
+          "Amrit Singh Bedi"
+        ],
+        "arxiv_categories": [
+          "cs.GT",
+          "cs.AI",
+          "cs.CY",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806738"
+    },
+    {
+      "id": "arxiv-2601.19880v1",
+      "title": "Mobility-as-a-service (MaaS) system as a multi-leader-multi-follower game: A single-level variational inequality (VI) formulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19880v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This study models a Mobility-as-a-Service (MaaS) system as a multi-leader-multi-follower game that captures the complex interactions among the MaaS platform, service operators, and travelers. We consider a coopetitive setting where the MaaS platform purchases service capacity from service operators and sells multi-modal trips to travelers following an origin-destination-based pricing scheme; meanwhile, service operators use their remaining capacities to serve single-modal trips. As followers, travelers make both mode choices, including whether to use MaaS, and route choices in the multi-modal transportation network, subject to prices and congestion. Inspired by the dual formulation for traffic assignment problems, we propose a novel single-level variational inequality (VI) formulation by introducing a virtual traffic operator, along with the MaaS platform and multiple service operators. A key advantage of the proposed VI formulation is that it supports parallel solution procedures and thus enables large-scale applications. We prove that an equilibrium solution always exists given the negotiated wholesale price of service capacity. Numerical experiments on a small network further demonstrate that the wholesale price can be tailored to align with varying system-wide objectives. The proposed MaaS system demonstrates potential for creating a \"win-win-win\" outcome -- service operators and travelers are better off compared to the \"without MaaS\" scenario, meanwhile the MaaS platform remains profitable. Such a Pareto-improving regime can be explicitly specified with the wholesale capacity price. Similar conclusions are drawn from the experiment of an extended multi-modal Sioux Falls network, which also validates the scalability of the proposed model and solution algorithm.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19880v1",
+        "authors": [
+          "Rui Yao",
+          "Xinyu Ma",
+          "Kenan Zhang"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806740"
+    },
+    {
+      "id": "arxiv-2601.19664v1",
+      "title": "To Adopt or Not to Adopt: Heterogeneous Trade Effects of the Euro",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19664v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "Two decades of research on the euro's trade effects have produced estimates ranging from 4% to 30%, with no consensus on the magnitude. We find evidence that this divergence may reflect genuine heterogeneity in the euro's trade effect across country pairs rather than methodological differences alone. Using Eurostat data on 15 EU countries from 1995-2015, we estimate that euro adoption increased bilateral trade by 24% on average (15.0% after fixed effects correction), but effects range from -12% to +68% across eurozone pairs. Core eurozone pairs (e.g., Germany-France, Germany-Netherlands) show large gains, while peripheral pairs involving Finland, Greece, and Portugal saw smaller or negative effects, with some negative estimates statistically significant and interpretable as trade diversion. Pre-euro trade intensity and GDP explain over 90% of this variation. Extending to EU28, we find evidence that crisis-era adopters (Slovakia, Estonia, Latvia) pull down naive estimates to 5%, but accounting for fixed effects recovers estimates of 14.0%, consistent with the EU15 fixed-effects baseline of 15.0%. Illustrative counterfactual analysis suggests non-eurozone members would have experienced varied effects: UK (+24%), Sweden (+20%), Denmark (+19%). The wide range of prior estimates appears to be largely a feature of the data, not a bug in the methods.",
+        "keywords": [
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19664v1",
+        "authors": [
+          "Harry Aytug"
+        ],
+        "arxiv_categories": [
+          "econ.EM"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806741"
+    },
+    {
+      "id": "arxiv-2601.19369v1",
+      "title": "Directional Liquidity and Geometric Shear in Pregeometric Order Books",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.19369v1",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "We introduce a structural framework for the geometry of financial order books in which liquidity, supply, and demand are treated as emergent observables rather than primitive market variables. The market is modeled as a relational substrate without assumed metric, temporal, or price coordinates. Observable quantities arise only through observation, implemented here as a reduction of relational degrees of freedom followed by a low-dimensional spectral projection. A one-dimensional projection induces a price-like coordinate and a projected liquidity density around the mid price, from which bid and ask sides emerge as two complementary restrictions. We show that directional liquidity imbalances decompose naturally into a rigid drift of the projected density and a geometric shear mode that deforms the bid--ask structure without inducing price motion. Under a minimal single-scale hypothesis, the shear geometry constrains the projected liquidity to a gamma-like functional form, appearing as an integrated-gamma profile in discrete data. Empirical analysis of high-frequency Level~II data across multiple U.S. equities confirms this geometry and shows that it outperforms standard alternative cumulative models under explicit model comparison and residual diagnostics.",
+        "keywords": [
+          "physics.soc-ph",
+          "q-fin.TR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.19369v1",
+        "authors": [
+          "João P. da Cruz"
+        ],
+        "arxiv_categories": [
+          "physics.soc-ph",
+          "q-fin.TR"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806743"
+    },
+    {
+      "id": "arxiv-2601.18991v1",
+      "title": "Who Restores the Peg? A Mean-Field Game Approach to Model Stablecoin Market Dynamics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18991v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "USDC and USDT are the dominant stablecoins pegged to \\$1 with a total market capitalization of over \\$300B and rising. Stablecoins make dollar value globally accessible with secure transfer and settlement. Yet in practice, these stablecoins experience periods of stress and de-pegging from their \\$1 target, posing significant systemic risks. The behavior of market participants during these stress events and the collective actions that either restore or break the peg are not well understood. This paper addresses the question: who restores the peg? We develop a dynamic, agent-based mean-field game framework for fiat-collateralized stablecoins, in which a large population of arbitrageurs and retail traders strategically interacts across explicit primary (mint/redeem) and secondary (exchange) markets during a de-peg episode. The key advantage of this equilibrium formulation is that it endogenously maps market frictions into a market-clearing price path and implied net order flows, allowing us to attribute peg-reverting pressure by channel and to stress-test when a given mechanism becomes insufficient for recovery. Using three historical de-peg events, we show that the calibrated equilibrium reproduces observed recovery half-lives and yields an order flow decomposition in which system-wide stress is predominantly stabilized by primary-market arbitrage, whereas episodes with impaired primary redemption require a joint recovery via both primary and secondary markets. Finally, a quantitative sensitivity analysis of primary-rail frictions identifies a non-linear breakdown threshold. Beyond this point, secondary-market liquidity acts mainly as a second-order amplifier around this primary-market bottleneck.",
+        "keywords": [
+          "cs.GT",
+          "q-fin.TR",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18991v1",
+        "authors": [
+          "Hardhik Mohanty",
+          "Bhaskar Krishnamachari"
+        ],
+        "arxiv_categories": [
+          "cs.GT",
+          "q-fin.TR",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806744"
+    },
+    {
+      "id": "arxiv-2601.18644v1",
+      "title": "Digital Euro: Frequently Asked Questions Revisited",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18644v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "The European Central Bank (ECB) is working on the \"digital euro\", an envisioned retail central bank digital currency for the Euro area. In this article, we take a closer look at the \"digital euro FAQ\", which provides answers to 26 frequently asked questions about the digital euro, and other published documents by the ECB on the topic. We question the provided answers based on our analysis of the current design in terms of privacy, technical feasibility, risks, costs and utility. In particular, we discuss the following key findings: (KF1) Central monitoring of all online digital euro transactions by the ECB threatens privacy even more than contemporary digital payment methods with segregated account databases. (KF2) The ECB's envisioned concept of a secure offline version of the digital euro offering full anonymity is in strong conflict with the actual history of hardware security breaches and mathematical evidence against it. (KF3) The legal and financial liabilities for the various parties involved remain unclear. (KF4) The design lacks well-specified economic incentives for operators as well as a discussion of its economic impact on merchants. (KF5) The ECB fails to identify tangible benefits the digital euro would create for society, in particular given that the online component of the proposed infrastructure mainly duplicates existing payment systems. (KF6) The design process has been exclusionary, with critical decisions being set in stone before public consultations. Alternative and open design ideas have not even been discussed by the ECB.",
+        "keywords": [
+          "cs.CY",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18644v1",
+        "authors": [
+          "Joe Cannataci",
+          "Benjamin Fehrensen",
+          "Mikolai Gütschow"
+        ],
+        "arxiv_categories": [
+          "cs.CY",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806746"
+    },
+    {
+      "id": "arxiv-2601.18052v1",
+      "title": "BASTION: A Bayesian Framework for Trend and Seasonality Decomposition",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.18052v1",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "We introduce BASTION (Bayesian Adaptive Seasonality and Trend DecompositION), a flexible Bayesian framework for decomposing time series into trend and multiple seasonality components. We cast the decomposition as a penalized nonparametric regression and establish formal conditions under which the trend and seasonal components are uniquely identifiable, an issue only treated informally in the existing literature. BASTION offers three key advantages over existing decomposition methods: (1) accurate estimation of trend and seasonality amidst abrupt changes, (2) enhanced robustness against outliers and time-varying volatility, and (3) robust uncertainty quantification. We evaluate BASTION against established methods, including TBATS, STR, and MSTL, using both simulated and real-world datasets. By effectively capturing complex dynamics while accounting for irregular components such as outliers and heteroskedasticity, BASTION delivers a more nuanced and interpretable decomposition. To support further research and practical applications, BASTION is available as an R package at https://github.com/Jasoncho0914/BASTION",
+        "keywords": [
+          "stat.ME",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.18052v1",
+        "authors": [
+          "Jason B. Cho",
+          "David S. Matteson"
+        ],
+        "arxiv_categories": [
+          "stat.ME",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806747"
+    },
+    {
+      "id": "arxiv-2601.17860v1",
+      "title": "The Hellinger Bounds on the Kullback-Leibler Divergence and the Bernstein Norm",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.17860v1",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "The Kullback-Leibler divergence, the Kullback-Leibler variation, and the Bernstein \"norm\" are used to quantify discrepancies among probability distributions in likelihood models such as nonparametric maximum likelihood and nonparametric Bayes. They are closely related to the Hellinger distance, which is often easier to work with. Consequently, it is of interest to characterize conditions under which the Hellinger distance serves as an upper bound for these measures. This article characterizes a necessary and sufficient condition for each of the discrepancy measures to be bounded by the Hellinger distance. It accommodates unbounded likelihood ratios and generalizes all previously known results. We then apply it to relax the regularity condition for the sieve maximum likelihood estimator.",
+        "keywords": [
+          "econ.EM",
+          "math.ST"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.17860v1",
+        "authors": [
+          "Tetsuya Kaji"
+        ],
+        "arxiv_categories": [
+          "econ.EM",
+          "math.ST"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806749"
+    },
+    {
+      "id": "arxiv-2601.17843v1",
+      "title": "Best Feasible Conditional Critical Values for a More Powerful Subvector Anderson-Rubin Test",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.17843v1",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "For subvector inference in the linear instrumental variables model under homoskedasticity but allowing for weak instruments, Guggenberger, Kleibergen, and Mavroeidis (2019) (GKM) propose a conditional subvector Anderson and Rubin (1949) (AR) test that uses data-dependent critical values that adapt to the strength of the parameters not under test. This test has correct size and strictly higher power than the test that uses standard asymptotic chi-square critical values. The subvector AR test is the minimum eigenvalue of a data dependent matrix. The GKM critical value function conditions on the largest eigenvalue of this matrix. We consider instead the data dependent critical value function conditioning on the second-smallest eigenvalue, as this eigenvalue is the appropriate indicator for weak identification. We find that the data dependent critical value function of GKM also applies to this conditioning and show that this test has correct size and power strictly higher than the GKM test when the number of parameters not under test is larger than one. Our proposed procedure further applies to the subvector AR test statistic that is robust to an approximate kronecker product structure of conditional heteroskedasticity as proposed by Guggenberger, Kleibergen, and Mavroeidis (2024), carrying over its power advantage to this setting as well.",
+        "keywords": [
+          "stat.ME",
+          "econ.EM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.17843v1",
+        "authors": [
+          "Jesse Hoekstra",
+          "Frank Windmeijer"
+        ],
+        "arxiv_categories": [
+          "stat.ME",
+          "econ.EM"
+        ]
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T10:59:05.806750"
+    }
+  ]
+}

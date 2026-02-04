@@ -1,0 +1,143 @@
+{
+  "test_date": "2026-01-30T11:52:07.705969",
+  "scanners_tested": 4,
+  "successful": 4,
+  "failed": 0,
+  "results": [
+    {
+      "scanner": "US Federal Register",
+      "status": "SUCCESS",
+      "signals_found": 50,
+      "scan_time": 0.5701808929443359,
+      "sample_signal": {
+        "id": "federal-register-d48b458108fc",
+        "title": "Continuance of the Federal Emergency Management Agency Review Council",
+        "source": {
+          "name": "US Federal Register",
+          "type": "policy",
+          "url": "https://www.federalregister.gov/documents/2026/01/29/2026-01872/continuance-of-the-federal-emergency-management-agency-review-council",
+          "published_date": "2026-01-29"
+        },
+        "content": {
+          "abstract": "Presidential Document by Executive Office of the President",
+          "keywords": [
+            "executive office of the president"
+          ],
+          "language": "en"
+        },
+        "metadata": {
+          "document_type": "Presidential Document",
+          "agencies": [
+            "Executive Office of the President"
+          ],
+          "topics": []
+        },
+        "preliminary_category": "P",
+        "collected_at": "2026-01-30T11:52:03.023881"
+      }
+    },
+    {
+      "scanner": "WHO Press Releases",
+      "status": "SUCCESS",
+      "signals_found": 1,
+      "scan_time": 0.14452600479125977,
+      "sample_signal": {
+        "id": "who-press-releases-7ae71587985d",
+        "title": "WHO urges schools worldwide to promote healthy eating for children",
+        "source": {
+          "name": "WHO Press Releases",
+          "type": "policy",
+          "url": "https://www.who.int/news/item/27-01-2026-who-urges-schools-worldwide-to-promote-healthy-eating-for-children",
+          "published_date": "2026-01-27"
+        },
+        "content": {
+          "abstract": "Healthy food in schools can help children develop healthy dietary habits for life, according to the World Health Organization (WHO), which released a new global guideline on evidence-based policies and interventions to create healthy school food environments.",
+          "keywords": [
+            "urges",
+            "schools",
+            "worldwide",
+            "promote",
+            "healthy",
+            "eating",
+            "children",
+            "healthy",
+            "food",
+            "schools"
+          ],
+          "language": "en"
+        },
+        "metadata": {
+          "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+          "author": ""
+        },
+        "preliminary_category": "P",
+        "collected_at": "2026-01-30T11:52:04.178463"
+      }
+    },
+    {
+      "scanner": "TechCrunch",
+      "status": "SUCCESS",
+      "signals_found": 20,
+      "scan_time": 0.2831740379333496,
+      "sample_signal": {
+        "id": "techcrunch-3946df596f9a",
+        "title": "How Sequoia-backed Ethos reached the public market while rivals fell short",
+        "source": {
+          "name": "TechCrunch",
+          "type": "blog",
+          "url": "https://techcrunch.com/2026/01/29/how-sequoia-backed-ethos-reached-the-public-market-while-rivals-fell-short/",
+          "published_date": "2026-01-30"
+        },
+        "content": {
+          "abstract": "How Sequoia-backed Ethos reached the public market while rivals fell short",
+          "keywords": [
+            "fintech",
+            "ethos",
+            "insuretech",
+            "ipo",
+            "sequoia capital"
+          ],
+          "language": "en"
+        },
+        "metadata": {
+          "feed_source": "https://techcrunch.com/feed/",
+          "author": "Marina Temkin"
+        },
+        "preliminary_category": "T",
+        "collected_at": "2026-01-30T11:52:05.466141"
+      }
+    },
+    {
+      "scanner": "MIT Technology Review",
+      "status": "SUCCESS",
+      "signals_found": 10,
+      "scan_time": 0.2259221076965332,
+      "sample_signal": {
+        "id": "mit-technology-review-8ff1ee9780bc",
+        "title": "The AI Hype Index: Grok makes porn, and Claude Code nails your job",
+        "source": {
+          "name": "MIT Technology Review",
+          "type": "blog",
+          "url": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
+          "published_date": "2026-01-29"
+        },
+        "content": {
+          "abstract": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It\u2019s just that you never know which one you\u2019re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what this&#8230;",
+          "keywords": [
+            "artificial intelligence",
+            "ai",
+            "ai hype index",
+            "app"
+          ],
+          "language": "en"
+        },
+        "metadata": {
+          "feed_source": "https://www.technologyreview.com/feed/",
+          "author": "Michelle Kim"
+        },
+        "preliminary_category": "T",
+        "collected_at": "2026-01-30T11:52:06.697666"
+      }
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+# Core Invariants Definition
+# Version: 1.2.0
+# Last Updated: 2026-02-03
+#
+# This file defines the IMMUTABLE core elements of the environmental scanning
+# workflow. The Self-Improvement Engine (SIE) MUST check every proposed change
+# against this file. Any change touching a core invariant is classified as
+# CRITICAL and blocked immediately — no user override is possible.
+#
+# Philosophy: "Improve the tuning, never break the machine"
+
+# ============================================================================
+# IMMUTABLE CORE ELEMENTS (CRITICAL — never modifiable by SIE)
+# ============================================================================
+
+core_invariants:
+  version: "1.2.0"
+
+  # --- Workflow Structure ---
+  workflow_phases:
+    description: "3-phase workflow structure is architecturally immutable"
+    immutable: true
+    phases:
+      - id: 1
+        name: "Research"
+        description: "Information Collection"
+      - id: 2
+        name: "Planning"
+        description: "Analysis & Structuring"
+      - id: 3
+        name: "Implementation"
+        description: "Report Generation"
+
+  # --- Human Checkpoints ---
+  human_checkpoints:
+    description: "Human-in-the-loop checkpoints ensure oversight and cannot be removed"
+    immutable: true
+    checkpoints:
+      - step: "1.4"
+        name: "Filter Review"
+        type: "optional"
+        description: "Human review of deduplication results (triggered if confidence < 0.9)"
+      - step: "2.5"
+        name: "Analysis Review"
+        type: "required"
+        description: "Required human review of analysis and priority rankings"
+      - step: "3.4"
+        name: "Final Approval"
+        type: "required"
+        description: "Required human approval of final report before archiving"
+
+  # --- STEEPs Framework ---
+  steeps_categories:
+    description: "6 STEEPs categories are the foundational classification framework"
+    immutable: true
+    categories:
+      - code: "S"
+        name: "Social"
+        scope: "demographics, education, labor — NO spiritual"
+      - code: "T"
+        name: "Technological"
+        scope: "innovation, digital transformation"
+      - code: "E"
+        name: "Economic"
+        scope: "markets, finance, trade"
+      - code: "E"
+        name: "Environmental"
+        scope: "climate, sustainability, resources"
+      - code: "P"
+        name: "Political"
+        scope: "policy, law, regulation, institutions, geopolitics"
+      - code: "s"
+        name: "spiritual"
+        scope: "ethics, psychology, values, meaning, AI ethics"
+
+  # --- VEV Protocol ---
+  vev_protocol:
+    description: "Verify-Execute-Verify protocol structure is immutable"
+    immutable: true
+    stages:
+      - "PRE-VERIFY"
+      - "EXECUTE"
+      - "POST-VERIFY"
+      - "RETRY"
+      - "RECORD"
+    post_verify_layers: 3
+    max_retries: 2
+
+  # --- Pipeline Gates ---
+  pipeline_gates:
+    description: "Inter-phase validation gates cannot be removed or bypassed"
+    immutable: true
+    gates:
+      - id: "gate_1"
+        transition: "Phase 1 → Phase 2"
+        check_count: 6
+      - id: "gate_2"
+        transition: "Phase 2 → Phase 3"
+        check_count: 6
+      - id: "gate_3"
+        transition: "Phase 3 completion"
+        check_count: 6
+
+  # --- Database Atomicity ---
+  database_atomicity:
+    description: "Database operations must remain atomic with backup/restore"
+    immutable: true
+    requirements:
+      - "Pre-update snapshot creation"
+      - "Atomic write with backup"
+      - "Restore capability on failure"
+      - "Signal ID uniqueness enforcement"
+
+  # --- Phase Ordering ---
+  phase_ordering:
+    description: "Phases must execute in strict sequential order"
+    immutable: true
+    order: [1, 2, 3]
+    skip_allowed: false
+
+  # --- Bilingual Protocol ---
+  bilingual_protocol:
+    description: "English-internal, Korean-external communication pattern"
+    immutable: true
+    internal_language: "en"
+    external_language: "ko"
+
+  # --- Dual Workflow System (v1.2.0, 2026-02-03) ---
+  dual_workflow_system:
+    description: >
+      The Dual Workflow System architecture is immutable. WF1 (general) and WF2 (arXiv)
+      must remain completely independent — no shared runtime data, no feedback loops,
+      no cross-workflow signal database access. The Source of Truth (workflow-registry.yaml)
+      must be validated at startup before any workflow executes. Integration merges
+      reports only — never raw data or signal databases.
+    immutable: true
+
+    rules:
+      - id: "DW-001"
+        name: "Workflow Independence"
+        description: "WF1 and WF2 must never read or write each other's data directories"
+        enforcement: "master-orchestrator.md Independence Enforcement section"
+
+      - id: "DW-002"
+        name: "SOT Validation at Startup"
+        description: "validate_registry.py must pass before any workflow executes"
+        enforcement: "master-orchestrator.md Step 0.2"
+
+      - id: "DW-003"
+        name: "Sequential Execution"
+        description: "WF1 completes fully before WF2 starts; WF2 completes before integration"
+        enforcement: "workflow-registry.yaml execution.mode: sequential"
+
+      - id: "DW-004"
+        name: "No Source Overlap"
+        description: "No enabled source may appear in both WF1 and WF2 source configs"
+        enforcement: "validate_registry.py SOT-012"
+
+      - id: "DW-005"
+        name: "Report-Only Integration"
+        description: "Integration merges final reports only; never raw/filtered/structured data"
+        enforcement: "workflow-registry.yaml merge_scope: reports_only"
+
+      - id: "DW-006"
+        name: "5 Human Checkpoints"
+        description: "All 5 human checkpoints (2 per workflow + 1 integrated) are required"
+        enforcement: "workflow-registry.yaml checkpoints_total: 5"
+
+      - id: "DW-007"
+        name: "Independent SIE"
+        description: "Each workflow runs its own SIE; shared configs not modifiable by SIE"
+        enforcement: "workflow-registry.yaml sie_policy: independent"
+
+  # --- Report Quality 4-Layer Defense (v1.3.0, 2026-02-02) ---
+  report_quality_defense:
+    description: >
+      4-layer defense system ensuring report quality consistency.
+      Introduced after the 2026-02-02 regression where LLM non-determinism
+      caused 4/9 signal fields, 3/8 sections, and 69% content to be silently
+      dropped. This defense is IMMUTABLE — every layer must execute on every
+      report generation cycle. Disabling or bypassing any layer is forbidden.
+    immutable: true
+    incident_reference: "2026-02-02 report regression (22KB vs 71KB)"
+
+    layers:
+      - id: "L1_SKELETON"
+        name: "Skeleton-Fill Method"
+        description: >
+          Reports MUST be generated by filling the skeleton template
+          (report-skeleton.md), NOT by free-form generation. The skeleton
+          contains all 8 section headers and 10 signal blocks with 9-field
+          {{PLACEHOLDER}} tokens pre-placed. The agent fills content into
+          this structure — it does NOT create the structure itself.
+        enforcement: "report-generator.md GENERATION METHOD section"
+        artifact: "references/report-skeleton.md"
+
+      - id: "L2_VALIDATION"
+        name: "Programmatic Validation (validate_report.py)"
+        description: >
+          Every generated report MUST be validated by validate_report.py
+          BEFORE proceeding to archiving or approval. The script performs
+          14 checks across FILE, SEC, SIG, S5, S3, S4, QUAL, SKEL categories.
+          Exit codes: 0=PASS, 1=FAIL(CRITICAL), 2=WARN(ERROR-only).
+          Skipping validation is FORBIDDEN.
+        enforcement: "orchestrator Step 3.2 POST-VERIFY"
+        artifact: "scripts/validate_report.py"
+        checks_count: 14
+        critical_checks:
+          - "FILE-001: Report file exists"
+          - "FILE-002: File size >= 1KB"
+          - "SEC-001: 7 required section headers present"
+          - "SIG-001: >= 10 signal blocks detected"
+          - "SIG-002: All 9 fields present per signal"
+          - "S5-001: Section 5 has 5.1/5.2/5.3 subsections"
+          - "SKEL-001: No unfilled {{PLACEHOLDER}} tokens"
+
+      - id: "L3_AUTO_RETRY"
+        name: "Progressive Escalation Retry"
+        description: >
+          On CRITICAL validation failure, the orchestrator MUST execute
+          a 3-stage retry protocol. It must NOT silently accept a failed
+          report. The retry budget (max 2 retries) is enforced by VEV.
+        enforcement: "orchestrator Step 3.2 POST-VERIFY retry block"
+        stages:
+          - stage: 1
+            action: "Targeted Fix — pass violation list to report-generator"
+          - stage: 2
+            action: "Full Skeleton Regen — pass template + violations + golden reference"
+          - stage: 3
+            action: "Human Escalation — warning banner + E3200 error at Step 3.4"
+
+      - id: "L4_GOLDEN_REFERENCE"
+        name: "Golden Reference Example"
+        description: >
+          report-generator.md MUST contain a GOLDEN REFERENCE section with
+          a complete 9-field signal example. This serves as a few-shot prompt
+          anchor ensuring the LLM never omits fields. The golden reference
+          must include all 9 fields: 분류, 출처, 핵심 사실, 정량 지표,
+          영향도, 상세 설명, 추론, 이해관계자, 모니터링 지표.
+          Removing or truncating this section is FORBIDDEN.
+        enforcement: "report-generator.md GOLDEN REFERENCE section"
+        required_fields: 9
+        field_names:
+          - "분류"
+          - "출처"
+          - "핵심 사실"
+          - "정량 지표"
+          - "영향도"
+          - "상세 설명"
+          - "추론"
+          - "이해관계자"
+          - "모니터링 지표"
+
+    # Minimum quality thresholds enforced by L2_VALIDATION
+    quality_thresholds:
+      min_total_words: 5000
+      min_korean_char_ratio: 0.30
+      min_signal_blocks: 10
+      required_fields_per_signal: 9
+      required_section_count: 7
+      min_cross_impact_pairs: 3
+
+# ============================================================================
+# TUNABLE PARAMETERS (MINOR — auto-adjustable within constraints)
+# ============================================================================
+
+tunable_parameters:
+  description: "Parameters the SIE may auto-adjust within specified constraints"
+
+  # --- Deduplication Thresholds ---
+  deduplication_thresholds:
+    file: "config/thresholds.yaml"
+    fields:
+      - path: "deduplication.stage_2_string_similarity.threshold"
+        current_value: 0.9
+        min_value: 0.7
+        max_value: 0.98
+        max_delta_per_cycle: 0.05
+      - path: "deduplication.stage_3_semantic_similarity.threshold"
+        current_value: 0.8
+        min_value: 0.6
+        max_value: 0.95
+        max_delta_per_cycle: 0.05
+      - path: "deduplication.stage_4_entity_matching.threshold"
+        current_value: 0.85
+        min_value: 0.7
+        max_value: 0.98
+        max_delta_per_cycle: 0.05
+
+  # --- AI Confidence Levels ---
+  ai_confidence_levels:
+    file: "config/thresholds.yaml"
+    fields:
+      - path: "ai_confidence.high"
+        current_value: 0.9
+        min_value: 0.8
+        max_value: 0.99
+        max_delta_per_cycle: 0.05
+      - path: "ai_confidence.medium"
+        current_value: 0.7
+        min_value: 0.5
+        max_value: 0.85
+        max_delta_per_cycle: 0.05
+
+  # --- Performance Timeouts ---
+  performance_timeouts:
+    file: "config/thresholds.yaml"
+    fields:
+      - path: "performance.execution_time_phase_1"
+        current_value: 60
+        min_value: 30
+        max_value: 180
+        max_delta_per_cycle: 15
+      - path: "performance.execution_time_phase_2"
+        current_value: 40
+        min_value: 20
+        max_value: 120
+        max_delta_per_cycle: 10
+      - path: "performance.execution_time_phase_3"
+        current_value: 35
+        min_value: 15
+        max_value: 90
+        max_delta_per_cycle: 10
+
+  # --- pSST Dimension Weights ---
+  psst_weights:
+    file: "config/thresholds.yaml"
+    fields:
+      - path: "psst_scoring.dimension_weights.SR"
+        current_value: 0.20
+        min_value: 0.10
+        max_value: 0.35
+        max_delta_per_cycle: 0.03
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "psst_scoring.dimension_weights.ES"
+        current_value: 0.20
+        min_value: 0.10
+        max_value: 0.35
+        max_delta_per_cycle: 0.03
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "psst_scoring.dimension_weights.CC"
+        current_value: 0.15
+        min_value: 0.05
+        max_value: 0.30
+        max_delta_per_cycle: 0.03
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "psst_scoring.dimension_weights.TC"
+        current_value: 0.15
+        min_value: 0.05
+        max_value: 0.30
+        max_delta_per_cycle: 0.03
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "psst_scoring.dimension_weights.DC"
+        current_value: 0.15
+        min_value: 0.05
+        max_value: 0.30
+        max_delta_per_cycle: 0.03
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "psst_scoring.dimension_weights.IC"
+        current_value: 0.15
+        min_value: 0.05
+        max_value: 0.30
+        max_delta_per_cycle: 0.03
+        constraint: "sum_of_all_weights_must_equal_1.0"
+
+  # --- Quality Targets ---
+  quality_targets:
+    file: "config/thresholds.yaml"
+    fields:
+      - path: "quality_targets.duplicate_detection_precision"
+        current_value: 0.95
+        min_value: 0.85
+        max_value: 0.99
+        max_delta_per_cycle: 0.02
+      - path: "quality_targets.duplicate_detection_recall"
+        current_value: 0.90
+        min_value: 0.80
+        max_value: 0.99
+        max_delta_per_cycle: 0.02
+      - path: "quality_targets.classification_accuracy"
+        current_value: 0.90
+        min_value: 0.80
+        max_value: 0.99
+        max_delta_per_cycle: 0.02
+
+  # --- Priority Scoring Weights ---
+  priority_weights:
+    file: "config/thresholds.yaml"
+    fields:
+      - path: "priority_scoring.impact"
+        current_value: 0.40
+        min_value: 0.20
+        max_value: 0.60
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "priority_scoring.probability"
+        current_value: 0.30
+        min_value: 0.10
+        max_value: 0.50
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "priority_scoring.urgency"
+        current_value: 0.20
+        min_value: 0.05
+        max_value: 0.40
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "priority_scoring.novelty"
+        current_value: 0.10
+        min_value: 0.05
+        max_value: 0.30
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+
+# ============================================================================
+# MAJOR CHANGE DOMAINS (require user approval)
+# ============================================================================
+
+major_change_domains:
+  description: "Changes in these areas require explicit user approval"
+  domains:
+    - name: "scanner_sources"
+      description: "Adding/removing/reordering data sources"
+      file: "config/sources.yaml"
+    - name: "dedup_strategy"
+      description: "Changing deduplication cascade stages or ordering"
+      file: "config/thresholds.yaml"
+    - name: "report_structure"
+      description: "Modifying report sections or format"
+      reference: "references/report-format.md"
+    - name: "classification_prompt"
+      description: "Significant changes to classification prompt template"
+      file: "agents/workers/classification-prompt-template.md"
+    - name: "new_analysis_area"
+      description: "Adding entirely new analysis dimensions"
+    - name: "translation_strategy"
+      description: "Changing translation approach or quality requirements"

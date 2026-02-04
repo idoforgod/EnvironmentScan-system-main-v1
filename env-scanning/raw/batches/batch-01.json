@@ -1,0 +1,658 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "sources_configured": 1,
+    "sources_scanned": 1,
+    "sources_failed": 0,
+    "total_items": 120,
+    "execution_time": 15.13,
+    "mode": "multi_source",
+    "days_back": 7,
+    "timestamp": "2026-01-30T10:59:17.858978"
+  },
+  "batch_info": {
+    "batch_number": 1,
+    "total_batches": 6,
+    "start_index": 0,
+    "end_index": 20,
+    "batch_size": 20
+  },
+  "items": [
+    {
+      "id": "arxiv-2601.20861v1",
+      "title": "Evolutionary Strategies lead to Catastrophic Forgetting in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20861v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "One of the biggest missing capabilities in current AI systems is the ability to learn continuously after deployment. Implementing such continually learning systems have several challenges, one of which is the large memory requirement of gradient-based algorithms that are used to train state-of-the-art LLMs. Evolutionary Strategies (ES) have recently re-emerged as a gradient-free alternative to traditional learning algorithms and have shown encouraging performance on specific tasks in LLMs. In this paper, we perform a comprehensive analysis of ES and specifically evaluate its forgetting curves when training for an increasing number of update steps. We first find that ES is able to reach performance numbers close to GRPO for math and reasoning tasks with a comparable compute budget. However, and most importantly for continual learning, the performance gains in ES is accompanied by significant forgetting of prior abilities, limiting its applicability for training models online. We also explore the reason behind this behavior and show that the updates made using ES are much less sparse and have orders of magnitude larger $\\ell_2$ norm compared to corresponding GRPO updates, explaining the contrasting forgetting curves between the two algorithms. With this study, we aim to highlight the issue of forgetting in gradient-free algorithms like ES and hope to inspire future work to mitigate these issues.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20861v1",
+        "authors": [
+          "Immanuel Abdi",
+          "Akshat Gupta",
+          "Micah Mok"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823018"
+    },
+    {
+      "id": "arxiv-2601.20860v1",
+      "title": "Quantum teleportation in expanding FRW universe",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20860v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "We investigate the process of quantum teleportation in an expanding universe modeled by Friedmann-Robertson-Walker spacetime, focusing on two cosmologically relevant scenarios: a power-law expansion and the de Sitter universe. Adopting a field-theoretical approach, we analyze the quantum correlations between two comoving observers who share an entangled mode of a scalar field. Using the Bogoliubov transformation, we compute the teleportation fidelity and examine its dependence on the expansion rate, initial entanglement, and the mode frequency. Our findings indicate that spacetime curvature and the underlying cosmological background significantly affect the efficiency of quantum teleportation, particularly through mode mixing and vacuum structure. We also compare our results with the flat Minkowski case to highlight the role of cosmic expansion in degrading or preserving quantum information.",
+        "keywords": [
+          "hep-th",
+          "gr-qc",
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20860v1",
+        "authors": [
+          "Babak Vakili"
+        ],
+        "arxiv_categories": [
+          "hep-th",
+          "gr-qc",
+          "quant-ph"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823026"
+    },
+    {
+      "id": "arxiv-2601.20858v1",
+      "title": "When Flores Bloomz Wrong: Cross-Direction Contamination in Machine Translation Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20858v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) can be benchmark-contaminated, resulting in inflated scores that mask memorization as generalization, and in multilingual settings, this memorization can even transfer to \"uncontaminated\" languages. Using the FLORES-200 translation benchmark as a diagnostic, we study two 7-8B instruction-tuned multilingual LLMs: Bloomz, which was trained on FLORES, and Llama as an uncontaminated control. We confirm Bloomz's FLORES contamination and demonstrate that machine translation contamination can be cross-directional, artificially boosting performance in unseen translation directions due to target-side memorization. Further analysis shows that recall of memorized references often persists despite various source-side perturbation efforts like paraphrasing and named entity replacement. However, replacing named entities leads to a consistent decrease in BLEU, suggesting an effective probing method for memorization in contaminated models.",
+        "keywords": [
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20858v1",
+        "authors": [
+          "David Tan",
+          "Pinzhen Chen",
+          "Josef van Genabith"
+        ],
+        "arxiv_categories": [
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823028"
+    },
+    {
+      "id": "arxiv-2601.20857v1",
+      "title": "FreeFix: Boosting 3D Gaussian Splatting via Fine-Tuning-Free Diffusion Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20857v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Neural Radiance Fields and 3D Gaussian Splatting have advanced novel view synthesis, yet still rely on dense inputs and often degrade at extrapolated views. Recent approaches leverage generative models, such as diffusion models, to provide additional supervision, but face a trade-off between generalization and fidelity: fine-tuning diffusion models for artifact removal improves fidelity but risks overfitting, while fine-tuning-free methods preserve generalization but often yield lower fidelity. We introduce FreeFix, a fine-tuning-free approach that pushes the boundary of this trade-off by enhancing extrapolated rendering with pretrained image diffusion models. We present an interleaved 2D-3D refinement strategy, showing that image diffusion models can be leveraged for consistent refinement without relying on costly video diffusion models. Furthermore, we take a closer look at the guidance signal for 2D refinement and propose a per-pixel confidence mask to identify uncertain regions for targeted improvement. Experiments across multiple datasets show that FreeFix improves multi-frame consistency and achieves performance comparable to or surpassing fine-tuning-based methods, while retaining strong generalization ability.",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20857v1",
+        "authors": [
+          "Hongyu Zhou",
+          "Zisen Shao",
+          "Sheng Miao"
+        ],
+        "arxiv_categories": [
+          "cs.CV"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823030"
+    },
+    {
+      "id": "arxiv-2601.20856v1",
+      "title": "SokoBench: Evaluating Long-Horizon Planning and Reasoning in Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20856v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Although the capabilities of large language models have been increasingly tested on complex reasoning tasks, their long-horizon planning abilities have not yet been extensively investigated. In this work, we provide a systematic assessment of the planning and long-horizon reasoning capabilities of state-of-the-art Large Reasoning Models (LRMs). We propose a novel benchmark based on Sokoban puzzles, intentionally simplified to isolate long-horizon planning from state persistence. Our findings reveal a consistent degradation in planning performance when more than 25 moves are required to reach the solution, suggesting a fundamental constraint on forward planning capacity. We show that equipping LRMs with Planning Domain Definition Language (PDDL) parsing, validation, and solving tools allows for modest improvements, suggesting inherent architectural limitations which might not be overcome by test-time scaling approaches alone.",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20856v1",
+        "authors": [
+          "Sebastiano Monti",
+          "Carlo Nicolini",
+          "Gianni Pellegrini"
+        ],
+        "arxiv_categories": [
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823031"
+    },
+    {
+      "id": "arxiv-2601.20854v1",
+      "title": "Exploring Transformer Placement in Variational Autoencoders for Tabular Data Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20854v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Tabular data remains a challenging domain for generative models. In particular, the standard Variational Autoencoder (VAE) architecture, typically composed of multilayer perceptrons, struggles to model relationships between features, especially when handling mixed data types. In contrast, Transformers, through their attention mechanism, are better suited for capturing complex feature interactions. In this paper, we empirically investigate the impact of integrating Transformers into different components of a VAE. We conduct experiments on 57 datasets from the OpenML CC18 suite and draw two main conclusions. First, results indicate that positioning Transformers to leverage latent and decoder representations leads to a trade-off between fidelity and diversity. Second, we observe a high similarity between consecutive blocks of a Transformer in all components. In particular, in the decoder, the relationship between the input and output of a Transformer is approximately linear.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20854v1",
+        "authors": [
+          "Aníbal Silva",
+          "Moisés Santos",
+          "André Restivo"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823033"
+    },
+    {
+      "id": "arxiv-2601.20852v1",
+      "title": "C3Box: A CLIP-based Class-Incremental Learning Toolbox",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20852v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Traditional machine learning systems are typically designed for static data distributions, which suffer from catastrophic forgetting when learning from evolving data streams. Class-Incremental Learning (CIL) addresses this challenge by enabling learning systems to continuously learn new classes while preserving prior knowledge. With the rise of pre-trained models (PTMs) such as CLIP, leveraging their strong generalization and semantic alignment capabilities has become a promising direction in CIL. However, existing CLIP-based CIL methods are often scattered across disparate codebases, rely on inconsistent configurations, hindering fair comparisons, reproducibility, and practical adoption. Therefore, we propose C3Box (CLIP-based Class-inCremental learning toolBOX), a modular and comprehensive Python toolbox. C3Box integrates representative traditional CIL methods, ViT-based CIL methods, and state-of-the-art CLIP-based CIL methods into a unified CLIP-based framework. By inheriting the streamlined design of PyCIL, C3Box provides a JSON-based configuration and standardized execution pipeline. This design enables reproducible experimentation with low engineering overhead and makes C3Box a reliable benchmark platform for continual learning research. Designed to be user-friendly, C3Box relies only on widely used open-source libraries and supports major operating systems. The code is available at https://github.com/LAMDA-CL/C3Box.",
+        "keywords": [
+          "cs.LG",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20852v1",
+        "authors": [
+          "Hao Sun",
+          "Da-Wei Zhou"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.CV"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823034"
+    },
+    {
+      "id": "arxiv-2601.20848v1",
+      "title": "Post-Training Fairness Control: A Single-Train Framework for Dynamic Fairness in Recommendation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20848v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Despite growing efforts to mitigate unfairness in recommender systems, existing fairness-aware methods typically fix the fairness requirement at training time and provide limited post-training flexibility. However, in real-world scenarios, diverse stakeholders may demand differing fairness requirements over time, so retraining for different fairness requirements becomes prohibitive. To address this limitation, we propose Cofair, a single-train framework that enables post-training fairness control in recommendation. Specifically, Cofair introduces a shared representation layer with fairness-conditioned adapter modules to produce user embeddings specialized for varied fairness levels, along with a user-level regularization term that guarantees user-wise monotonic fairness improvements across these levels. We theoretically establish that the adversarial objective of Cofair upper bounds demographic parity and the regularization term enforces progressive fairness at user level. Comprehensive experiments on multiple datasets and backbone models demonstrate that our framework provides dynamic fairness at different levels, delivering comparable or better fairness-accuracy curves than state-of-the-art baselines, without the need to retrain for each new fairness requirement. Our code is publicly available at https://github.com/weixinchen98/Cofair.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20848v1",
+        "authors": [
+          "Weixin Chen",
+          "Li Chen",
+          "Yuhan Zhao"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823035"
+    },
+    {
+      "id": "arxiv-2601.20847v1",
+      "title": "A New Dataset and Framework for Robust Road Surface Classification via Camera-IMU Fusion",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20847v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Road surface classification (RSC) is a key enabler for environment-aware predictive maintenance systems. However, existing RSC techniques often fail to generalize beyond narrow operational conditions due to limited sensing modalities and datasets that lack environmental diversity. This work addresses these limitations by introducing a multimodal framework that fuses images and inertial measurements using a lightweight bidirectional cross-attention module followed by an adaptive gating layer that adjusts modality contributions under domain shifts. Given the limitations of current benchmarks, especially regarding lack of variability, we introduce ROAD, a new dataset composed of three complementary subsets: (i) real-world multimodal recordings with RGB-IMU streams synchronized using a gold-standard industry datalogger, captured across diverse lighting, weather, and surface conditions; (ii) a large vision-only subset designed to assess robustness under adverse illumination and heterogeneous capture setups; and (iii) a synthetic subset generated to study out-of-distribution generalization in scenarios difficult to obtain in practice. Experiments show that our method achieves a +1.4 pp improvement over the previous state-of-the-art on the PVS benchmark and an +11.6 pp improvement on our multimodal ROAD subset, with consistently higher F1-scores on minority classes. The framework also demonstrates stable performance across challenging visual conditions, including nighttime, heavy rain, and mixed-surface transitions. These findings indicate that combining affordable camera and IMU sensors with multimodal attention mechanisms provides a scalable, robust foundation for road surface understanding, particularly relevant for regions where environmental variability and cost constraints limit the adoption of high-end sensing suites.",
+        "keywords": [
+          "cs.AI",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20847v1",
+        "authors": [
+          "Willams de Lima Costa",
+          "Thifany Ketuli Silva de Souza",
+          "Jonas Ferreira Silva"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CV"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823036"
+    },
+    {
+      "id": "arxiv-2601.20846v1",
+      "title": "End-to-end example-based sim-to-real RL policy transfer based on neural stylisation with application to robotic cutting",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20846v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Whereas reinforcement learning has been applied with success to a range of robotic control problems in complex, uncertain environments, reliance on extensive data - typically sourced from simulation environments - limits real-world deployment due to the domain gap between simulated and physical systems, coupled with limited real-world sample availability. We propose a novel method for sim-to-real transfer of reinforcement learning policies, based on a reinterpretation of neural style transfer from image processing to synthesise novel training data from unpaired unlabelled real world datasets. We employ a variational autoencoder to jointly learn self-supervised feature representations for style transfer and generate weakly paired source-target trajectories to improve physical realism of synthesised trajectories. We demonstrate the application of our approach based on the case study of robot cutting of unknown materials. Compared to baseline methods, including our previous work, CycleGAN, and conditional variational autoencoder-based time series translation, our approach achieves improved task completion time and behavioural stability with minimal real-world data. Our framework demonstrates robustness to geometric and material variation, and highlights the feasibility of policy adaptation in challenging contact-rich tasks where real-world reward information is unavailable.",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20846v1",
+        "authors": [
+          "Jamie Hathaway",
+          "Alireza Rastegarpanah",
+          "Rustam Stolkin"
+        ],
+        "arxiv_categories": [
+          "cs.RO"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823037"
+    },
+    {
+      "id": "arxiv-2601.20844v1",
+      "title": "$\\mathbb{R}^{2k}$ is Theoretically Large Enough for Embedding-based Top-$k$ Retrieval",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20844v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This paper studies the minimal dimension required to embed subset memberships ($m$ elements and ${m\\choose k}$ subsets of at most $k$ elements) into vector spaces, denoted as Minimal Embeddable Dimension (MED). The tight bounds of MED are derived theoretically and supported empirically for various notions of \"distances\" or \"similarities,\" including the $\\ell_2$ metric, inner product, and cosine similarity. In addition, we conduct numerical simulation in a more achievable setting, where the ${m\\choose k}$ subset embeddings are chosen as the centroid of the embeddings of the contained elements. Our simulation easily realizes a logarithmic dependency between the MED and the number of elements to embed. These findings imply that embedding-based retrieval limitations stem primarily from learnability challenges, not geometric constraints, guiding future algorithm design.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20844v1",
+        "authors": [
+          "Zihao Wang",
+          "Hang Yin",
+          "Lihui Liu"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IR"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823038"
+    },
+    {
+      "id": "arxiv-2601.20843v1",
+      "title": "Deep Researcher with Sequential Plan Reflection and Candidates Crossover (Deep Researcher Reflect Evolve)",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20843v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This paper introduces a novel Deep Researcher architecture designed to generate detailed research reports on complex PhD level topics by addressing the inherent limitations of the Parallel Scaling paradigm. Our system utilizes two key innovations: Sequential Research Plan Refinement via Reflection and a Candidates Crossover algorithm. The sequential refinement process is demonstrated as an efficient method that allows the agent to maintain a centralized Global Research Context, enabling it to look back at current progress, reason about the research plan, and intelligently make changes at runtime. This dynamic adaptation contrasts with parallel approaches, which often suffer from siloed knowledge. The Candidates Crossover algorithm further enhances search efficiency by deploying multiple LLM candidates with varied parameters to explore a larger search space, with their findings synthesized to curate a comprehensive final research response. The process concludes with One Shot Report Generation, ensuring the final document is informed by a unified narrative and high fact density. Powered by the Gemini 2.5 Pro model, our Deep Researcher was evaluated on the DeepResearch Bench, a globally recognized benchmark of 100 doctoral level research tasks. Our architecture achieved an overall score of 46.21, demonstrating superior performance by surpassing leading deep research agents such as Claude Researcher, Nvidia AIQ Research Assistant, Perplexity Research, Kimi Researcher and Grok Deeper Search present on the DeepResearch Bench actively running leaderboard. This performance marginally exceeds our previous work, Static DRA, and reinforces the finding that sequential scaling consistently outperforms the parallel self consistency paradigm.",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20843v1",
+        "authors": [
+          "Saurav Prateek"
+        ],
+        "arxiv_categories": [
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823040"
+    },
+    {
+      "id": "arxiv-2601.20838v1",
+      "title": "Reward Models Inherit Value Biases from Pretraining",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20838v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Reward models (RMs) are central to aligning large language models (LLMs) with human values but have received less attention than pre-trained and post-trained LLMs themselves. Because RMs are initialized from LLMs, they inherit representations that shape their behavior, but the nature and extent of this influence remain understudied. In a comprehensive study of 10 leading open-weight RMs using validated psycholinguistic corpora, we show that RMs exhibit significant differences along multiple dimensions of human value as a function of their base model. Using the \"Big Two\" psychological axes, we show a robust preference of Llama RMs for \"agency\" and a corresponding robust preference of Gemma RMs for \"communion.\" This phenomenon holds even when the preference data and finetuning process are identical, and we trace it back to the logits of the respective instruction-tuned and pre-trained models. These log-probability differences themselves can be formulated as an implicit RM; we derive usable implicit reward scores and show that they exhibit the very same agency/communion difference. We run experiments training RMs with ablations for preference data source and quantity, which demonstrate that this effect is not only repeatable but surprisingly durable. Despite RMs being designed to represent human preferences, our evidence shows that their outputs are influenced by the pretrained LLMs on which they are based. This work underscores the importance of safety and alignment efforts at the pretraining stage, and makes clear that open-source developers' choice of base model is as much a consideration of values as of performance.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20838v1",
+        "authors": [
+          "Brian Christian",
+          "Jessica A. F. Thompson",
+          "Elle Michelle Yang"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823041"
+    },
+    {
+      "id": "arxiv-2601.20835v1",
+      "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20835v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Generating 3D humans that functionally interact with 3D scenes remains an open problem with applications in embodied AI, robotics, and interactive content creation. The key challenge involves reasoning about both the semantics of functional elements in 3D scenes and the 3D human poses required to achieve functionality-aware interaction. Unfortunately, existing methods typically lack explicit reasoning over object functionality and the corresponding human-scene contact, resulting in implausible or functionally incorrect interactions. In this work, we propose FunHSI, a training-free, functionality-driven framework that enables functionally correct human-scene interactions from open-vocabulary task prompts. Given a task prompt, FunHSI performs functionality-aware contact reasoning to identify functional scene elements, reconstruct their 3D geometry, and model high-level interactions via a contact graph. We then leverage vision-language models to synthesize a human performing the task in the image and estimate proposed 3D body and hand poses. Finally, the proposed 3D body configuration is refined via stage-wise optimization to ensure physical plausibility and functional correctness. In contrast to existing methods, FunHSI not only synthesizes more plausible general 3D interactions, such as \"sitting on a sofa'', while supporting fine-grained functional human-scene interactions, e.g., \"increasing the room temperature''. Extensive experiments demonstrate that FunHSI consistently generates functionally correct and physically plausible human-scene interactions across diverse indoor and outdoor scenes.",
+        "keywords": [
+          "cs.AI",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20835v1",
+        "authors": [
+          "Jie Liu",
+          "Yu Sun",
+          "Alpar Cseke"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CV"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823042"
+    },
+    {
+      "id": "arxiv-2601.20834v1",
+      "title": "Linear representations in language models can change dramatically over a conversation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20834v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Language model representations often contain linear directions that correspond to high-level concepts. Here, we study the dynamics of these representations: how representations evolve along these dimensions within the context of (simulated) conversations. We find that linear representations can change dramatically over a conversation; for example, information that is represented as factual at the beginning of a conversation can be represented as non-factual at the end and vice versa. These changes are content-dependent; while representations of conversation-relevant information may change, generic information is generally preserved. These changes are robust even for dimensions that disentangle factuality from more superficial response patterns, and occur across different model families and layers of the model. These representation changes do not require on-policy conversations; even replaying a conversation script written by an entirely different model can produce similar changes. However, adaptation is much weaker from simply having a sci-fi story in context that is framed more explicitly as such. We also show that steering along a representational direction can have dramatically different effects at different points in a conversation. These results are consistent with the idea that representations may evolve in response to the model playing a particular role that is cued by a conversation. Our findings may pose challenges for interpretability and steering -- in particular, they imply that it may be misleading to use static interpretations of features or directions, or probes that assume a particular range of features consistently corresponds to a particular ground-truth value. However, these types of representational dynamics also point to exciting new research directions for understanding how models adapt to context.",
+        "keywords": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20834v1",
+        "authors": [
+          "Andrew Kyle Lampinen",
+          "Yuxuan Li",
+          "Eghbal Hosseini"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.LG"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823043"
+    },
+    {
+      "id": "arxiv-2601.20832v1",
+      "title": "Symplectic Optimization on Gaussian States",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20832v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Computing Gaussian ground states via variational optimization is challenging because the covariance matrices must satisfy the uncertainty principle, rendering constrained or Riemannian optimization costly, delicate, and thus difficult to scale, particularly in large and inhomogeneous systems. We introduce a symplectic optimization framework that addresses this challenge by parameterizing covariance matrices directly as positive-definite symplectic matrices using unit-triangular factorizations. This approach enforces all physical constraints exactly, yielding a globally unconstrained variational formulation of the bosonic ground-state problem. The unconstrained structure also naturally supports solution reuse across nearby Hamiltonians: warm-starting from previously optimized covariance matrices substantially reduces the number of optimization steps required for convergence in families of related configurations, as encountered in crystal lattices, molecular systems, and fluids. We demonstrate the method on weakly dipole-coupled lattices, recovering ground-state energies, covariance matrices, and spectral gaps accurately. The framework further provides a foundation for large-scale approximate treatments of weakly non-quadratic interactions and offers potential scaling advantages through tensor-network enhancements.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20832v1",
+        "authors": [
+          "Christopher Willby",
+          "Tomohiro Hashizume",
+          "Jason Crain"
+        ],
+        "arxiv_categories": [
+          "quant-ph"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823044"
+    },
+    {
+      "id": "arxiv-2601.20831v1",
+      "title": "MemCtrl: Using MLLMs as Active Memory Controllers on Embodied Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20831v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Foundation models rely on in-context learning for personalized decision making. The limited size of this context window necessitates memory compression and retrieval systems like RAG. These systems however often treat memory as large offline storage spaces, which is unfavorable for embodied agents that are expected to operate under strict memory and compute constraints, online. In this work, we propose MemCtrl, a novel framework that uses Multimodal Large Language Models (MLLMs) for pruning memory online. MemCtrl augments MLLMs with a trainable memory head μthat acts as a gate to determine which observations or reflections to retain, update, or discard during exploration. We evaluate with training two types of μ, 1) via an offline expert, and 2) via online RL, and observe significant improvement in overall embodied task completion ability on μ-augmented MLLMs. In particular, on augmenting two low performing MLLMs with MemCtrl on multiple subsets of the EmbodiedBench benchmark, we observe that μ-augmented MLLMs show an improvement of around 16% on average, with over 20% on specific instruction subsets. Finally, we present a qualitative analysis on the memory fragments collected by μ, noting the superior performance of μaugmented MLLMs on long and complex instruction types.",
+        "keywords": [
+          "cs.AI",
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20831v1",
+        "authors": [
+          "Vishnu Sashank Dorbala",
+          "Dinesh Manocha"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.RO"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823045"
+    },
+    {
+      "id": "arxiv-2601.20829v1",
+      "title": "Training Reasoning Models on Saturated Problems via Failure-Prefix Conditioning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20829v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has substantially improved the reasoning abilities of large language models (LLMs), yet training often stalls as problems become saturated. We identify the core challenge as the poor accessibility of informative failures: learning signals exist but are rarely encountered during standard rollouts. To address this, we propose failure-prefix conditioning, a simple and effective method for learning from saturated problems. Rather than starting from the original question, our approach reallocates exploration by conditioning training on prefixes derived from rare incorrect reasoning trajectories, thereby exposing the model to failure-prone states. We observe that failure-prefix conditioning yields performance gains matching those of training on medium-difficulty problems, while preserving token efficiency. Furthermore, we analyze the model's robustness, finding that our method reduces performance degradation under misleading failure prefixes, albeit with a mild trade-off in adherence to correct early reasoning. Finally, we demonstrate that an iterative approach, which refreshes failure prefixes during training, unlocks additional gains after performance plateaus. Overall, our results suggest that failure-prefix conditioning offers an effective pathway to extend RLVR training on saturated problems.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20829v1",
+        "authors": [
+          "Minwu Kim",
+          "Safal Shrestha",
+          "Keith Ross"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823046"
+    },
+    {
+      "id": "arxiv-2601.20818v1",
+      "title": "Quantum Memory and Autonomous Computation in Two Dimensions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20818v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Standard approaches to quantum error correction (QEC) require active maintenance using measurements and classical processing. The possibility of passive QEC has so far only been established in an unphysical number of spatial dimensions. In this work, we present a simple method for autonomous QEC in two spatial dimensions, formulated as a quantum cellular automaton with a fixed, local and translation-invariant update rule. The construction uses hierarchical, self-simulating control elements based on the classical schemes from the seminal results of Gács (1986, 1989) together with a measurement-free concatenated code. We analyze the system under a local noise model and prove a noise threshold below which the logical errors are suppressed arbitrarily with increasing system size and the memory lifetime diverges in the thermodynamic limit. The scheme admits a continuous-time implementation as a time-independent, translation-invariant local Lindbladian with engineered dissipative jump operators. Further, the recursive nature of our protocol allows for the fault-tolerant encoding of arbitrary quantum circuits and thus constitutes a self-correcting universal quantum computer.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20818v1",
+        "authors": [
+          "Gesa Dünnweber",
+          "Georgios Styliaris",
+          "Rahul Trivedi"
+        ],
+        "arxiv_categories": [
+          "quant-ph"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823047"
+    },
+    {
+      "id": "arxiv-2601.20815v1",
+      "title": "GNN Explanations that do not Explain and How to find Them",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2601.20815v1",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Explanations provided by Self-explainable Graph Neural Networks (SE-GNNs) are fundamental for understanding the model's inner workings and for identifying potential misuse of sensitive attributes. Although recent works have highlighted that these explanations can be suboptimal and potentially misleading, a characterization of their failure cases is unavailable. In this work, we identify a critical failure of SE-GNN explanations: explanations can be unambiguously unrelated to how the SE-GNNs infer labels. We show that, on the one hand, many SE-GNNs can achieve optimal true risk while producing these degenerate explanations, and on the other, most faithfulness metrics can fail to identify these failure modes. Our empirical analysis reveals that degenerate explanations can be maliciously planted (allowing an attacker to hide the use of sensitive attributes) and can also emerge naturally, highlighting the need for reliable auditing. To address this, we introduce a novel faithfulness metric that reliably marks degenerate explanations as unfaithful, in both malicious and natural settings. Our code is available in the supplemental.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2601.20815v1",
+        "authors": [
+          "Steve Azzolin",
+          "Stefano Teso",
+          "Bruno Lepri"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T10:59:02.823048"
+    }
+  ]
+}

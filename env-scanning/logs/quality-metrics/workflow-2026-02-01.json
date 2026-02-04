@@ -1,0 +1,93 @@
+{
+  "workflow_id": "scan-2026-02-01-daily",
+  "timestamp": "2026-02-01T08:02:22.618751",
+  "mode": "normal",
+  "collection": {
+    "total_raw_signals": 202,
+    "sources": {
+      "arXiv": {
+        "collected": 120,
+        "status": "success",
+        "response_time_sec": 20
+      },
+      "US Federal Register": {
+        "collected": 50,
+        "status": "success",
+        "response_time_sec": 3
+      },
+      "WHO Press Releases": {
+        "collected": 2,
+        "status": "success",
+        "response_time_sec": 2
+      },
+      "TechCrunch": {
+        "collected": 20,
+        "status": "success",
+        "response_time_sec": 2
+      },
+      "MIT Technology Review": {
+        "collected": 10,
+        "status": "success",
+        "response_time_sec": 2
+      }
+    },
+    "source_success_rate": 1.0,
+    "total_sources": 5
+  },
+  "deduplication": {
+    "input": 202,
+    "output": 101,
+    "removal_rate": 0.5,
+    "target_range": [
+      0.3,
+      0.9
+    ],
+    "within_target": true,
+    "cascade_breakdown": {
+      "stage_1_url_exact": 72,
+      "stage_2_string_similarity": 0,
+      "stage_3_semantic_similarity": 13,
+      "stage_4_entity_matching": 0,
+      "internal_dedup": 16
+    }
+  },
+  "classification": {
+    "total_classified": 101,
+    "categories": {
+      "T_Technological": 45,
+      "P_Political": 32,
+      "E_Economic": 10,
+      "S_Social": 8,
+      "E_Environmental": 6,
+      "s_spiritual": 0
+    },
+    "reclassified": 18,
+    "category_coverage": 5,
+    "dominant_category": "T_Technological (44.6%)"
+  },
+  "ranking": {
+    "score_range": [
+      3.26,
+      4.57
+    ],
+    "mean_score": 3.91,
+    "top_signal": "Requirements for Site Security and Production Handling",
+    "top_score": 4.57
+  },
+  "database": {
+    "before": 181,
+    "after": 282,
+    "new_signals_added": 101,
+    "backup_created": true
+  },
+  "quality_checks": {
+    "dedup_rate_in_range": true,
+    "all_sources_responded": true,
+    "score_range_valid": true,
+    "categories_covered": true,
+    "database_backup_exists": true,
+    "report_generated": true,
+    "archive_created": true,
+    "overall": "PASS"
+  }
+}

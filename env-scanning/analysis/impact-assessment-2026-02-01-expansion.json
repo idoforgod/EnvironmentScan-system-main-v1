@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "scan_date": "2026-02-01",
+  "scan_mode": "marathon",
+  "total_expansion_signals": 43,
+  "classification_summary": {
+    "T_Technological": 13,
+    "P_Political": 10,
+    "E_Economic": 9,
+    "E_Environmental": 5,
+    "S_Social": 5,
+    "s_spiritual": 1
+  },
+  "cross_impact_complexity": 0.42,
+  "scenario_generation_triggered": false,
+  "high_impact_signals": [
+    {
+      "id": "nature-d41586-026-00274-9",
+      "title": "China is betting on optical computer chips - will they power AI?",
+      "priority_score": 8.7,
+      "category": "T",
+      "impact_analysis": {
+        "first_order": "Alternative AI computing pathway bypassing traditional silicon limitations",
+        "second_order": "Reduced dependency on chip fabs, potential energy efficiency revolution, geopolitical semiconductor restructuring",
+        "cross_impacts": ["US-China tech competition", "energy policy", "AI hardware supply chains"]
+      },
+      "futures_wheel": {
+        "center": "Photonic computing viability",
+        "ring_1": ["AI processing speed increase", "Energy consumption reduction", "New manufacturing paradigm"],
+        "ring_2": ["Data center redesign", "Climate benefit", "China tech self-sufficiency", "US chip export control bypass"]
+      }
+    },
+    {
+      "id": "un-1166847-ai-workers",
+      "title": "Can workers compete with machines and stay relevant in the AI era?",
+      "priority_score": 8.5,
+      "category": "S",
+      "impact_analysis": {
+        "first_order": "Job displacement in routine cognitive work across sectors",
+        "second_order": "Education system transformation, social safety net redesign, inequality widening",
+        "cross_impacts": ["Teen AI chatbot adoption", "Young adult news consumption", "Trust in government"]
+      }
+    },
+    {
+      "id": "carbonbrief-us-exits-paris",
+      "title": "US formally exits Paris Agreement",
+      "priority_score": 8.4,
+      "category": "E_Environmental",
+      "impact_analysis": {
+        "first_order": "Reduced US emission commitments, weakened global climate framework",
+        "second_order": "Carbon border tax escalation, EU/China climate leadership shift, clean energy firm messaging adaptation",
+        "cross_impacts": ["Clean energy messaging", "Norwegian EV transition", "Chinese wind power Europe"]
+      }
+    },
+    {
+      "id": "hn-autonomous-cars-prompt-injection",
+      "title": "Autonomous cars obey prompt injection by road sign",
+      "priority_score": 8.2,
+      "category": "T",
+      "impact_analysis": {
+        "first_order": "Fundamental AI security vulnerability in transportation systems",
+        "second_order": "Regulatory pressure on AV deployment, new cybersecurity standards for AI infrastructure",
+        "cross_impacts": ["WhatsApp privacy investigation", "GPS tracking by carriers"]
+      }
+    },
+    {
+      "id": "nature-d41586-026-00302-8",
+      "title": "DeepMind AlphaGenome for rare diseases",
+      "priority_score": 8.0,
+      "category": "T",
+      "impact_analysis": {
+        "first_order": "Diagnostic revolution for rare genetic conditions",
+        "second_order": "Personalized medicine acceleration, healthcare cost restructuring, genomic data governance",
+        "cross_impacts": ["Light-powered bacteria biotech", "Synthetic biology advancement"]
+      }
+    },
+    {
+      "id": "bis-bunge-stablecoins-digital-euro",
+      "title": "Stablecoins and digital euro driven by digitalisation and geopolitics",
+      "priority_score": 7.8,
+      "category": "E",
+      "impact_analysis": {
+        "first_order": "Digital currency adoption acceleration, monetary sovereignty implications",
+        "second_order": "Dollar hegemony challenge, financial system restructuring, cross-border payment revolution",
+        "cross_impacts": ["Federal Reserve independence", "ECB future of money", "BOJ monetary policy"]
+      }
+    },
+    {
+      "id": "hn-finland-youth-social-media-ban",
+      "title": "Finland bans youth social media",
+      "priority_score": 7.7,
+      "category": "P",
+      "impact_analysis": {
+        "first_order": "First Nordic country comprehensive youth digital protection legislation",
+        "second_order": "EU-wide harmonization potential, tech company compliance costs, digital rights debate",
+        "cross_impacts": ["Teens AI chatbot adoption", "Young adult news consumption", "WhatsApp privacy"]
+      }
+    }
+  ],
+  "cross_impact_matrix_top": [
+    {"pair": ["China optical chips", "US Paris exit"], "strength": 0.6, "direction": "reinforcing"},
+    {"pair": ["AI workforce", "Teens AI chatbots"], "strength": 0.7, "direction": "reinforcing"},
+    {"pair": ["Finland social media ban", "Youth news consumption"], "strength": 0.8, "direction": "causal"},
+    {"pair": ["Stablecoins/CBDC", "Fed independence"], "strength": 0.7, "direction": "reinforcing"},
+    {"pair": ["US Paris exit", "Clean energy messaging"], "strength": 0.7, "direction": "causal"},
+    {"pair": ["Ukraine nuclear", "Gaza peace"], "strength": 0.5, "direction": "parallel"},
+    {"pair": ["China-Africa trade", "US-China relations"], "strength": 0.6, "direction": "reinforcing"}
+  ],
+  "expansion_source_statistics": {
+    "Nature News": 5,
+    "IEEE Spectrum": 5,
+    "UN News": 5,
+    "Brookings Institution": 8,
+    "Pew Research Center": 6,
+    "Carbon Brief": 4,
+    "BIS Speeches": 3,
+    "Hacker News": 5
+  }
+}

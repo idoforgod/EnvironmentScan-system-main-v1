@@ -1,0 +1,301 @@
+{
+  "date": "2026-02-02",
+  "total_analyzed": 294,
+  "priority_weights": {
+    "impact": 0.4,
+    "probability": 0.3,
+    "urgency": 0.2,
+    "novelty": 0.1
+  },
+  "score_distribution": {
+    "max": 4.5,
+    "min": 2.9,
+    "mean": 3.55
+  },
+  "cross_impact": {
+    "complexity": 0.042,
+    "pairs": [
+      {
+        "signal_a": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passiv",
+        "signal_b": "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Sp",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.ai"
+        ],
+        "interaction_strength": 1
+      },
+      {
+        "signal_a": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passiv",
+        "signal_b": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Archite",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.ai",
+          "cs.cl"
+        ],
+        "interaction_strength": 2
+      },
+      {
+        "signal_a": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+        "signal_b": "Age Matters: Analyzing Age-Related Discussions in App Reviews",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.se"
+        ],
+        "interaction_strength": 1
+      },
+      {
+        "signal_a": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+        "signal_b": "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Sp",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.ai"
+        ],
+        "interaction_strength": 1
+      },
+      {
+        "signal_a": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+        "signal_b": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Archite",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.ai"
+        ],
+        "interaction_strength": 1
+      },
+      {
+        "signal_a": "Small models, big threats: Characterizing safety challenges from low-compute AI ",
+        "signal_b": "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Sp",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.cy"
+        ],
+        "interaction_strength": 1
+      },
+      {
+        "signal_a": "Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empo",
+        "signal_b": "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Sp",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.cy",
+          "cs.ai"
+        ],
+        "interaction_strength": 2
+      },
+      {
+        "signal_a": "Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empo",
+        "signal_b": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Archite",
+        "cat_a": "P",
+        "cat_b": "T",
+        "shared_keywords": [
+          "cs.ai"
+        ],
+        "interaction_strength": 1
+      }
+    ],
+    "scenario_triggered": false
+  },
+  "top_15_signals": [
+    {
+      "rank": 1,
+      "title": "JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion",
+      "category": "T",
+      "priority_score": 4.5,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 2,
+      "title": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers",
+      "category": "P",
+      "priority_score": 4.5,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 3,
+      "title": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+      "category": "P",
+      "priority_score": 4.5,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 4,
+      "title": "Small models, big threats: Characterizing safety challenges from low-compute AI models",
+      "category": "P",
+      "priority_score": 4.5,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 5,
+      "title": "Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empowered Reinforcement Learning",
+      "category": "P",
+      "priority_score": 4.5,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 6,
+      "title": "Age Matters: Analyzing Age-Related Discussions in App Reviews",
+      "category": "T",
+      "priority_score": 4.4,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 4
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 7,
+      "title": "A Unified SPD Token Transformer Framework for EEG Classification: Systematic Comparison of Geometric Embeddings",
+      "category": "T",
+      "priority_score": 4.4,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 4
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 8,
+      "title": "StormDiT: A generative AI model bridges the 2-6 hour 'gray zone' in precipitation nowcasting",
+      "category": "T",
+      "priority_score": 4.3,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 3,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 9,
+      "title": "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Spatial Simulation",
+      "category": "T",
+      "priority_score": 4.3,
+      "impact_scores": {
+        "impact": 5,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 3
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 10,
+      "title": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts",
+      "category": "T",
+      "priority_score": 4.1,
+      "impact_scores": {
+        "impact": 4,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 11,
+      "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+      "category": "P",
+      "priority_score": 4.1,
+      "impact_scores": {
+        "impact": 4,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 12,
+      "title": "StepShield: When, Not Whether to Intervene on Rogue Agents",
+      "category": "T",
+      "priority_score": 4.1,
+      "impact_scores": {
+        "impact": 4,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 13,
+      "title": "SWE-Replay: Efficient Test-Time Scaling for Software Engineering Agents",
+      "category": "T",
+      "priority_score": 4.1,
+      "impact_scores": {
+        "impact": 4,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 14,
+      "title": "Fast and user-friendly econometrics estimations: The R package fixest",
+      "category": "T",
+      "priority_score": 4.1,
+      "impact_scores": {
+        "impact": 4,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    },
+    {
+      "rank": 15,
+      "title": "Moral Outrage Shapes Commitments Beyond Attention: Multimodal Moral Emotions on YouTube in Korea and the US",
+      "category": "T",
+      "priority_score": 4.1,
+      "impact_scores": {
+        "impact": 4,
+        "probability": 4,
+        "urgency": 4,
+        "novelty": 5
+      },
+      "source": "arXiv"
+    }
+  ],
+  "timestamp": "2026-02-02T11:28:11.852106"
+}

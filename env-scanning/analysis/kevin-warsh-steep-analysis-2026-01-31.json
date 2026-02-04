@@ -1,0 +1,458 @@
+{
+  "analysis_id": "steep-kevin-warsh-2026-01-31",
+  "subject": "Kevin Warsh - Federal Reserve Chair Nomination",
+  "date": "2026-01-31",
+  "framework": "STEEPs",
+  "total_signals": 42,
+  "categories": {
+    "S_Social": {
+      "signal_count": 5,
+      "signals": [
+        {
+          "id": "KW-S-001",
+          "title": "Estee Lauder 가문과의 혼인 관계 및 엘리트 네트워크",
+          "description": "Jane Lauder(Estee Lauder 손녀, 순자산 $2.7B)와 결혼, Ronald Lauder(트럼프 대학 동문)의 사위. 월스트리트-정치-재계 엘리트 네트워크의 결절점",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "mature"
+        },
+        {
+          "id": "KW-S-002",
+          "title": "Albany 출신 중산층에서 최연소 연준 이사까지의 입지전적 경력",
+          "description": "뉴욕주 Albany 출신, Shaker High School 졸업 후 Stanford-Harvard Law-Morgan Stanley-백악관-연준 이사로 이어지는 미국 엘리트 코스의 전형",
+          "impact_score": 2.5,
+          "priority": "low",
+          "status": "mature"
+        },
+        {
+          "id": "KW-S-003",
+          "title": "소득 불평등 관련 비판 및 자산 불평등 심화 우려",
+          "description": "Elizabeth Warren 상원의원: '2008년 위기 후 수백만 실업자보다 월스트리트 돕기에 급급했던 인물'. 연준의 양적완화가 자산 불평등을 심화시켰다는 비판을 워시 본인도 인정",
+          "impact_score": 4.0,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-S-004",
+          "title": "AI 생산성 향상으로 인한 실질 임금 상승 전망",
+          "description": "워시의 핵심 논제: AI가 생산성을 혁신적으로 높여 실질 가계 소득 증가를 가져올 것. '생산성 향상이 실질 임금 상승으로 이어질 것'",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-S-005",
+          "title": "Gen-Z 시대 워시의 리더십 스타일과 세대간 관계",
+          "description": "Fortune: '경마장 연필 판매부터 연준 의장까지' - Z세대에게 전하는 커리어 교훈으로 조명",
+          "impact_score": 2.0,
+          "priority": "low",
+          "status": "emerging"
+        }
+      ]
+    },
+    "T_Technological": {
+      "signal_count": 4,
+      "signals": [
+        {
+          "id": "KW-T-001",
+          "title": "AI 디스인플레이션 논제: 인공지능이 물가 안정의 핵심 동력",
+          "description": "워시: 'AI는 생산성을 높이고 미국의 경쟁력을 강화하는 중대한 디스인플레이션 동력이 될 것.' 1990년대 Greenspan 시대 생산성 혁명의 재현 가능성. Druckenmiller: '케빈은 인플레이션 없이 성장이 가능하다고 확신'",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-T-002",
+          "title": "CBDC(중앙은행 디지털 화폐) 지지 및 디지털 달러 구상",
+          "description": "2022년 WSJ 기고: '새로운 디지털 달러는 새 시대를 위해 통화를 강화할 것.' 중국 디지털 위안화에 대한 전략적 대응 필요 강조. 프라이버시 우려도 동시 언급",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-T-003",
+          "title": "Bitcoin을 '정책의 좋은 경찰관'으로 인정",
+          "description": "워시: 'Bitcoin이 나를 불안하게 하지는 않는다.' '비트코인은 정책에 대한 매우 좋은 경찰관 역할을 할 수 있다.' 다만 '달러의 대체물은 아니다'",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "developing"
+        },
+        {
+          "id": "KW-T-004",
+          "title": "Basis/Electric Capital 등 크립토 프로젝트 투자 이력",
+          "description": "알고리즘 중앙은행 Basis 프로젝트 투자, Electric Capital(크립토/블록체인 VC) 어드바이저, Bitwise Asset Management 관련. 디지털 자산 생태계에 대한 실질적 이해도 보유",
+          "impact_score": 3.0,
+          "priority": "medium",
+          "status": "mature"
+        }
+      ]
+    },
+    "E_Economic": {
+      "signal_count": 14,
+      "signals": [
+        {
+          "id": "KW-E-001",
+          "title": "매파에서 비둘기파로의 정책 전환 논란",
+          "description": "역사적으로 '매파(inflation hawk)' 성향. 연준 이사 시절 실업률 10% 시에도 인플레이션 경고. 최근 AI 생산성 논거로 금리 인하 지지로 전환. Brett House(Columbia): '4명 최종후보 중 가장 매파적'",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "developing"
+        },
+        {
+          "id": "KW-E-002",
+          "title": "연준 대차대조표 대폭 축소 구상",
+          "description": "WSJ 기고: '위기 시대를 위해 설계된 연준의 비대한 대차대조표를 대폭 축소할 수 있다.' 양적긴축(QT) 가속화 가능성. 2019년 레포시장 유동성 경색 재발 위험 내포",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-E-003",
+          "title": "규제 완화를 통한 디스인플레이션 전략",
+          "description": "2025년 1월 WSJ 기고: '트럼프 행정부의 강력한 규제 완화 정책은 디스인플레이션 효과를 가져올 것.' Michelle Bowman 부의장의 규제 완화 노력 가속화 전망",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-E-004",
+          "title": "달러 강세 및 원화 약세 파급효과",
+          "description": "지명 소식에 달러인덱스 0.8% 급등(7월 이후 최대 일일 상승). 달러-원 환율 1,443.50원까지 급등(전일 대비 17.20원 상승). 현물환 거래량 205억 달러(2025년 10월 이후 최대)",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-E-005",
+          "title": "채권시장: 10년물 금리 상승 및 장기 금리 상방 압력",
+          "description": "10년물 국채금리 3bp 상승(4.27%). Capital Economics: 'AI와 규제 완화가 물가를 억제한다는 확신, 소규모 대차대조표 선호가 장기 채권 금리의 상방 압력 요인'",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-E-006",
+          "title": "Bitcoin 및 암호화폐 시장 급락",
+          "description": "비트코인 $90,400에서 $82,800으로 7% 하락. 10x Research Thielen: '통화 규율, 높은 실질 금리, 유동성 축소는 암호화폐에 불리.' 금값, 은값 각각 10%, 30% 이상 급락",
+          "impact_score": 4.0,
+          "priority": "high",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-E-007",
+          "title": "2008년 금융위기 대응 경험과 위기관리 역량",
+          "description": "Ben Bernanke: '워시와 Don Kohn은 위기 대응 전략을 수립하는 끝없는 전화회의의 가장 빈번한 동반자.' David Wessel: '버냉키의 월스트리트 다리 역할'. G20 대표로 국제 협력 주도",
+          "impact_score": 4.0,
+          "priority": "high",
+          "status": "mature"
+        },
+        {
+          "id": "KW-E-008",
+          "title": "Morgan Stanley M&A 경력과 월스트리트 인맥",
+          "description": "1995-2002년 Morgan Stanley 인수합병부서, 부사장 겸 상무이사까지 승진. 월스트리트 금융기관들과의 깊은 관계망 보유",
+          "impact_score": 3.0,
+          "priority": "medium",
+          "status": "mature"
+        },
+        {
+          "id": "KW-E-009",
+          "title": "Duquesne Family Office(Druckenmiller) 파트너십",
+          "description": "억만장자 Stanley Druckenmiller의 투자회사 파트너. Druckenmiller: '케빈은 현재 인플레이션 없이 성장이 가능하다고 확신.' 헤지펀드계와의 밀접한 관계",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "mature"
+        },
+        {
+          "id": "KW-E-010",
+          "title": "쿠팡 이사직과 한국 경제 연결고리",
+          "description": "쿠팡 사외이사, 쿠팡 주식 47만주(약 130억원) 보유. 의장 취임 전 사임 및 주식 처분 예정. 한미 통화 스와프 등 한국 관련 의사결정에 영향력",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-E-011",
+          "title": "FOMC 내부 분열 가능성: 금리 인하 컨센서스 부재",
+          "description": "복수의 FOMC 위원이 추가 금리 인하에 저항. 2025년 12월 점도표: 2026년 1회 인하 전망. Carson Group: '공격적 인하를 기본으로 제시하면 신뢰도 상실, 심하면 인하 없는 깊은 분열'",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-E-012",
+          "title": "스테이블코인에 대한 회의론과 트럼프 가문 갈등 가능성",
+          "description": "워시: '다수의 민간 암호화폐가 달러의 충분히 강하고 신뢰할 수 있는 대리인인지 회의적.' 트럼프 가문의 스테이블코인 사업과 충돌 가능성",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-E-013",
+          "title": "주택담보대출 금리 및 소비자 금융 영향",
+          "description": "CNBC: 정치적 이유로 단기 금리를 너무 공격적으로 인하하면 월스트리트 투자자들이 국채를 매도, 장기 금리(모기지 금리 포함) 상승으로 역효과 가능",
+          "impact_score": 4.0,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-E-014",
+          "title": "한국은행 대응: 2026년 금리 인하 폭 제한 전망",
+          "description": "한국은행 2026년 물가 전망 2.1%, 성장률 2% 내외. 주요국 금리 인하에 동조하되 조정폭 제한적. 달러 강세로 원화 약세 압력 지속",
+          "impact_score": 4.0,
+          "priority": "high",
+          "status": "developing"
+        }
+      ]
+    },
+    "E_Environmental": {
+      "signal_count": 2,
+      "signals": [
+        {
+          "id": "KW-ENV-001",
+          "title": "ESG/기후 관련 연준 역할 축소 전망",
+          "description": "워시의 '연준 역할 축소' 철학에 따라 기후 리스크 스트레스 테스트, ESG 관련 금융 규제 등이 후퇴할 가능성. 연준의 기후 관련 재무 공시 요구 약화 예상",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-ENV-002",
+          "title": "그린에너지 자금조달 비용 변동 가능성",
+          "description": "장기 채권금리 상방 압력은 그린에너지/인프라 프로젝트 자금조달 비용 증가로 이어질 수 있음. 반면 규제 완화가 에너지 투자 확대에 기여할 가능성",
+          "impact_score": 3.0,
+          "priority": "medium",
+          "status": "emerging"
+        }
+      ]
+    },
+    "P_Political": {
+      "signal_count": 13,
+      "signals": [
+        {
+          "id": "KW-P-001",
+          "title": "Thom Tillis 상원의원의 인준 반대: 최대 장애물",
+          "description": "Tillis(공화/노스캐롤라이나): 'DOJ의 파월 수사가 완전하고 투명하게 해결될 때까지 모든 연준 후보자 인준에 반대.' 상원 은행위원회 공화 13 vs 민주 11에서 1인 반대시 교착상태",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-002",
+          "title": "파월 DOJ 수사의 정치적 파급효과",
+          "description": "파월: 연준 본사 리모델링 관련 DOJ 형사수사 대상이라 발표. 실제 이유는 금리 인하 거부에 대한 정치적 보복이라 주장. 공화/민주 양당 상원의원 분노. Tillis 반대의 직접적 원인",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-003",
+          "title": "연준 독립성 논쟁: 통화정책 독립 vs 규제 정치적 감독",
+          "description": "워시의 핵심 구분: 통화정책 독립성은 수호하되, 규제/감독 정책은 정치적 감독을 받아야 한다. Michigan 대학 Kress 교수: '워시는 과거 은행 규제·감독에 대한 연준 독립성을 부인'",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-004",
+          "title": "트럼프와의 관계: 충성인가 독립인가",
+          "description": "트럼프: '케빈을 오래 알았으며 역대 최고의 연준 의장이 될 것.' 시장의 시각: 트럼프의 명령을 항상 따르지는 않을 것. Common Dreams: '충성도 테스트 통과'. 핵심 긴장 관계",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-P-005",
+          "title": "상원 다수당 대표 Thune의 비관적 전망",
+          "description": "John Thune(공화/상원 다수당 대표): Tillis 지지 없이는 워시가 '아마도 인준 통과하지 못할 것(probably not)'. 60표 필요한 discharge vote는 분열된 상원에서 불가능에 가까움",
+          "impact_score": 5.0,
+          "priority": "critical",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-006",
+          "title": "Elizabeth Warren의 강력한 반대",
+          "description": "Warren: '연준 독립성을 중시한다는 공화당 의원이라면 누구도 이 인준에 동의해서는 안 된다.' '트럼프에 반대하는 사람은 절대 연준 의장이 될 수 없다고 했다'",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-007",
+          "title": "11명 후보군에서의 최종 선정 과정",
+          "description": "11명 후보 -> 5명 -> 4명(워시, Kevin Hassett NEC 국장, Chris Waller 연준 이사 등) -> 최종 워시 선정. Trump: 'Central Casting에서 온 인물'",
+          "impact_score": 3.0,
+          "priority": "medium",
+          "status": "mature"
+        },
+        {
+          "id": "KW-P-008",
+          "title": "Ronald Lauder의 그린란드 사업이익과 트럼프 연결고리",
+          "description": "워시의 장인 Ronald Lauder(억만장자)는 트럼프의 대학 동문이자 그린란드에 사업 이익 보유. 트럼프의 그린란드 인수 구상과의 연관성 논란",
+          "impact_score": 3.0,
+          "priority": "medium",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-009",
+          "title": "Bill Hagerty, Tim Scott 등 공화당 지지세력",
+          "description": "Hagerty 상원의원: '연준을 이끌고 핵심 법정 의무에 재집중시키기에 이보다 적합한 인물은 없다.' Tim Scott 상원 은행위원장도 워시 지지 의사",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "developing"
+        },
+        {
+          "id": "KW-P-010",
+          "title": "연준의 '체제 변환(Regime Change)' 구상",
+          "description": "워시가 CNBC 인터뷰에서 연준에 '체제 변환'이 필요하다고 발언. 포워드 가이던스 축소, 데이터 의존성 비판, 커뮤니케이션 체계 전면 개편 구상",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "emerging"
+        },
+        {
+          "id": "KW-P-011",
+          "title": "George W. Bush 백악관 경제정책 특별보좌관 경력",
+          "description": "2002-2006년 부시 대통령 경제정책 특별보좌관 및 국가경제위원회(NEC) 사무총장 역임. 공화당 경제정책 네트워크의 핵심 인사",
+          "impact_score": 3.0,
+          "priority": "medium",
+          "status": "mature"
+        },
+        {
+          "id": "KW-P-012",
+          "title": "G20 대표 경험과 국제 중앙은행 네트워크",
+          "description": "연준 이사 시절 G20 대표, 신흥/선진 아시아 경제 특사 역임. ECB, BOJ, BOE 등 주요 중앙은행과의 협력 경험. 국제 금융 외교 역량",
+          "impact_score": 4.0,
+          "priority": "high",
+          "status": "mature"
+        },
+        {
+          "id": "KW-P-013",
+          "title": "인준 지연 시나리오: 파월 임기 만료(5월) 후 공백 가능성",
+          "description": "Tillis 반대가 지속되면 파월 임기 만료(5월 15일)까지 인준 불가능. 연준 의장 공석 또는 대행 체제 가능성. 금융시장 불확실성 극대화",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "emerging"
+        }
+      ]
+    },
+    "s_spiritual": {
+      "signal_count": 4,
+      "signals": [
+        {
+          "id": "KW-s-001",
+          "title": "연준에 대한 사회적 신뢰(Social Trust) 위기",
+          "description": "워시: '연준이 너무 많은 일을 하려 하면서 독립성의 근거를 약화시켰다.' 중앙은행에 대한 대중적 신뢰 하락은 민주주의 제도에 대한 광범위한 불신의 일부",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-s-002",
+          "title": "제도적 독립성의 윤리적 가치와 정치적 현실의 충돌",
+          "description": "DOJ의 파월 수사는 중앙은행 독립성이라는 민주주의적 가치가 정치적 압력에 의해 훼손되는 윤리적 위기. 공화/민주 양당의 분노는 이 가치의 초당적 중요성을 반영",
+          "impact_score": 4.5,
+          "priority": "high",
+          "status": "developing"
+        },
+        {
+          "id": "KW-s-003",
+          "title": "'인플레이션은 선택이다': 경제정책의 도덕적 프레이밍",
+          "description": "워시: '인플레이션은 선택이다(Inflation is a choice).' 경제 현상을 기술적 문제가 아닌 도덕적/의지적 선택의 문제로 프레이밍. 정책 결정자의 책임 강조",
+          "impact_score": 3.5,
+          "priority": "medium",
+          "status": "developing"
+        },
+        {
+          "id": "KW-s-004",
+          "title": "유대인 가문 배경과 세계유대인회의(WJC) 연결",
+          "description": "유대인 가정 출신. 장인 Ronald Lauder는 세계유대인회의 의장. 유대인 커뮤니티의 글로벌 금융·정치 네트워크와의 연결",
+          "impact_score": 2.5,
+          "priority": "low",
+          "status": "mature"
+        }
+      ]
+    }
+  },
+  "cross_impact_matrix": {
+    "description": "Key cross-category interactions",
+    "high_impact_pairs": [
+      {
+        "signal_1": "KW-E-001 (매파->비둘기 전환)",
+        "signal_2": "KW-P-004 (트럼프와의 관계)",
+        "interaction": "strong_positive",
+        "note": "정책 전환이 트럼프 수용으로 해석되면 독립성 의심, 시장 신뢰도 하락"
+      },
+      {
+        "signal_1": "KW-E-002 (대차대조표 축소)",
+        "signal_2": "KW-E-006 (암호화폐 급락)",
+        "interaction": "strong_positive",
+        "note": "유동성 축소는 위험자산 전반에 하방 압력"
+      },
+      {
+        "signal_1": "KW-T-001 (AI 디스인플레이션)",
+        "signal_2": "KW-E-003 (규제 완화)",
+        "interaction": "strong_positive",
+        "note": "AI + 규제완화 = 공급측 낙관론의 양대 축. 실현 시 금리 인하 정당화"
+      },
+      {
+        "signal_1": "KW-P-001 (Tillis 반대)",
+        "signal_2": "KW-P-002 (파월 DOJ 수사)",
+        "interaction": "strong_positive",
+        "note": "파월 수사 미해결이 Tillis 반대의 직접 원인. 수사 종결이 인준의 선결 조건"
+      },
+      {
+        "signal_1": "KW-P-003 (연준 독립성)",
+        "signal_2": "KW-s-001 (사회적 신뢰)",
+        "interaction": "strong_positive",
+        "note": "독립성 훼손 인식은 제도적 신뢰 위기 심화로 직결"
+      },
+      {
+        "signal_1": "KW-E-004 (달러 강세)",
+        "signal_2": "KW-E-010 (쿠팡/한국 연결)",
+        "interaction": "moderate_negative",
+        "note": "달러 강세는 한국 수출기업에 호재이나 원화 약세로 수입물가 상승 압력"
+      }
+    ]
+  },
+  "scenario_projections": {
+    "scenario_1_goldilocks": {
+      "name": "골디락스 시나리오",
+      "probability": 0.25,
+      "description": "파월 수사 조기 종결 -> Tillis 반대 철회 -> 워시 인준 통과 -> AI 생산성 혁명 현실화 -> 인플레이션 없는 성장 -> 점진적 금리 인하 + 대차대조표 축소 동시 진행",
+      "key_indicators": ["AI 투자 급증", "생산성 지표 개선", "CPI 안정", "장기금리 횡보"],
+      "market_impact": "주식 상승, 달러 완만한 약세, 신흥국 자금 유입"
+    },
+    "scenario_2_confirmation_crisis": {
+      "name": "인준 위기 시나리오",
+      "probability": 0.35,
+      "description": "파월 수사 장기화 -> Tillis 반대 지속 -> 5월 파월 임기 만료 후 의장 공석 -> 금융시장 불확실성 급증 -> 트럼프가 다른 후보 지명 또는 임시 의장 체제",
+      "key_indicators": ["상원 은행위원회 교착", "연준 정책 불확실성 급등", "VIX 상승"],
+      "market_impact": "주식 변동성 확대, 달러 약세, 국채 수요 증가(안전자산)"
+    },
+    "scenario_3_hawkish_reality": {
+      "name": "매파적 현실 복귀 시나리오",
+      "probability": 0.25,
+      "description": "워시 인준 통과했으나 AI 생산성 혁명 지연 -> 관세로 인한 인플레이션 재점화 -> 워시의 본래 매파적 성향 재부상 -> 금리 동결 또는 인상 -> FOMC 내부 분열",
+      "key_indicators": ["CPI 3% 이상 회귀", "AI 투자 ROI 미달", "관세 인플레이션 현실화"],
+      "market_impact": "주식 하락, 달러 강세, 장기금리 급등, 신흥국 자금 유출"
+    },
+    "scenario_4_political_fed": {
+      "name": "정치화된 연준 시나리오",
+      "probability": 0.15,
+      "description": "워시가 트럼프 압력에 굴복 -> 공격적 금리 인하 -> 인플레이션 재점화 -> 채권시장 반란(bond vigilantes) -> 장기금리 급등 -> 주택시장/재정 악화",
+      "key_indicators": ["정치적 금리 인하", "채권시장 매도", "인플레이션 기대 상승"],
+      "market_impact": "단기 주식 상승 후 급락, 달러 약세, 금값 급등, 신흥국 혼란"
+    }
+  },
+  "priority_ranking": [
+    {"rank": 1, "id": "KW-P-001", "title": "Tillis 인준 반대", "score": 5.0, "urgency": "immediate"},
+    {"rank": 2, "id": "KW-P-002", "title": "파월 DOJ 수사", "score": 5.0, "urgency": "immediate"},
+    {"rank": 3, "id": "KW-E-001", "title": "매파->비둘기 전환", "score": 5.0, "urgency": "short_term"},
+    {"rank": 4, "id": "KW-E-002", "title": "대차대조표 축소", "score": 5.0, "urgency": "medium_term"},
+    {"rank": 5, "id": "KW-E-004", "title": "달러 강세/원화 약세", "score": 5.0, "urgency": "immediate"},
+    {"rank": 6, "id": "KW-T-001", "title": "AI 디스인플레이션", "score": 5.0, "urgency": "medium_term"},
+    {"rank": 7, "id": "KW-P-003", "title": "연준 독립성 논쟁", "score": 5.0, "urgency": "short_term"},
+    {"rank": 8, "id": "KW-P-005", "title": "Thune 비관적 전망", "score": 5.0, "urgency": "immediate"},
+    {"rank": 9, "id": "KW-E-010", "title": "쿠팡/한국 연결", "score": 4.5, "urgency": "short_term"},
+    {"rank": 10, "id": "KW-E-011", "title": "FOMC 내부 분열", "score": 4.5, "urgency": "medium_term"}
+  ]
+}

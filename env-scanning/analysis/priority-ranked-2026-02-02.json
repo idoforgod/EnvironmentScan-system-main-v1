@@ -1,0 +1,316 @@
+{
+  "date": "2026-02-02",
+  "total_ranked": 294,
+  "category_distribution": {
+    "T": 157,
+    "P": 89,
+    "Econ": 2,
+    "S": 7,
+    "Env": 13,
+    "s": 5,
+    "E": 21
+  },
+  "top_30": [
+    {
+      "rank": 1,
+      "id": "arxiv-2601.22143v1",
+      "title": "JUST-DUB-IT: Video Dubbing via Joint Audio-Visual Diffusion",
+      "final_category": "T",
+      "priority_score": 4.5,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Audio-Visual Foundation Models, which are pretrained to jointly generate sound and visual content, have recently shown an unprecedented ability to model multi-modal generation and editing, opening new"
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-2601.22139v1",
+      "title": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers",
+      "final_category": "P",
+      "priority_score": 4.5,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \\emph{blind self-thinking} paradigm:"
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-2601.22130v1",
+      "title": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+      "final_category": "P",
+      "priority_score": 4.5,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across intercon"
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-2601.21365v1",
+      "title": "Small models, big threats: Characterizing safety challenges from low-compute AI models",
+      "final_category": "P",
+      "priority_score": 4.5,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Artificial intelligence (AI) systems are revolutionizing fields such as medicine, drug discovery, and materials science; however, many technologists and policymakers are also concerned about the techn"
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-2601.21212v1",
+      "title": "Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empowered Reinforcement Learning",
+      "final_category": "P",
+      "priority_score": 4.5,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Effective urban planning is crucial for enhancing residents' quality of life and ensuring societal stability, playing a pivotal role in the sustainable development of cities. Current planning methods "
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-2601.21605v1",
+      "title": "Age Matters: Analyzing Age-Related Discussions in App Reviews",
+      "final_category": "T",
+      "priority_score": 4.4,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "In recent years, mobile applications have become indispensable tools for managing various aspects of life. From enhancing productivity to providing personalized entertainment, mobile apps have revolut"
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-2601.21521v1",
+      "title": "A Unified SPD Token Transformer Framework for EEG Classification: Systematic Comparison of Geometric Embeddings",
+      "final_category": "T",
+      "priority_score": 4.4,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Spatial covariance matrices of EEG signals are Symmetric Positive Definite (SPD) and lie on a Riemannian manifold, yet the theoretical connection between embedding geometry and optimization dynamics r"
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-2601.20342v1",
+      "title": "StormDiT: A generative AI model bridges the 2-6 hour 'gray zone' in precipitation nowcasting",
+      "final_category": "T",
+      "priority_score": 4.3,
+      "source": "arXiv",
+      "published_date": "2026-01-28",
+      "abstract_preview": "Accurate short-term warnings for extreme precipitation are critical for global disaster mitigation but are hindered by a persistent predictability barrier at the 2-6 hour horizon -- the \"nowcasting gr"
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-2601.21977v1",
+      "title": "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Spatial Simulation",
+      "final_category": "T",
+      "priority_score": 4.3,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Traditional architectural simulations (e.g. Computational Fluid Dynamics, evacuation, structural analysis) model elements as deterministic physics-based \"particles\" rather than cognitive \"agents\". To "
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-2601.22156v1",
+      "title": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-throughput tradeoff for long-context modeling, but the"
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-2601.22149v1",
+      "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+      "final_category": "P",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, trainin"
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-2601.22136v1",
+      "title": "StepShield: When, Not Whether to Intervene on Rogue Agents",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Existing agent safety benchmarks report binary accuracy, conflating early intervention with post-mortem analysis. A detector that flags a violation at step 8 enables intervention; one that reports it "
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-2601.22129v1",
+      "title": "SWE-Replay: Efficient Test-Time Scaling for Software Engineering Agents",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Test-time scaling has been widely adopted to enhance the capabilities of Large Language Model (LLM) agents in software engineering (SWE) tasks. However, the standard approach of repeatedly sampling tr"
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-2601.21749v1",
+      "title": "Fast and user-friendly econometrics estimations: The R package fixest",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "fixest is an R package for fast and flexible econometric estimation, providing a comprehensive toolkit for applied researchers. The package particularly excels at fixed-effects estimation, supported b"
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-2601.21815v1",
+      "title": "Moral Outrage Shapes Commitments Beyond Attention: Multimodal Moral Emotions on YouTube in Korea and the US",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Understanding how media rhetoric shapes audience engagement is crucial in the attention economy. This study examines how moral emotional framing by mainstream news channels on YouTube influences user "
+    },
+    {
+      "rank": 16,
+      "id": "arxiv-2601.21650v1",
+      "title": "When Life Gives You AI, Will You Turn It Into A Market for Lemons? Understanding How Information Asymmetries About AI System Capabilities Affect Market Outcomes and Adoption",
+      "final_category": "P",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "AI consumer markets are characterized by severe buyer-supplier market asymmetries. Complex AI systems can appear highly accurate while making costly errors or embedding hidden defects. While there hav"
+    },
+    {
+      "rank": 17,
+      "id": "arxiv-2601.21648v1",
+      "title": "CAF-Mamba: Mamba-Based Cross-Modal Adaptive Attention Fusion for Multimodal Depression Detection",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Depression is a prevalent mental health disorder that severely impairs daily functioning and quality of life. While recent deep learning approaches for depression detection have shown promise, most re"
+    },
+    {
+      "rank": 18,
+      "id": "nature-news-4c63f8ea2779",
+      "title": "This AI has chemical expertise \u2014 and helps synthesize 35 new compounds",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "Nature News",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00240-5An open-source program helps researchers bypass a major bottleneck in the process chemical synthesis."
+    },
+    {
+      "rank": 19,
+      "id": "nasa-climate-change-0a7cfd446c1c",
+      "title": "NASA Earth Energy Instrument Completes Testing, Ready for Delivery",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "NASA Climate Change",
+      "published_date": "2026-01-30",
+      "abstract_preview": "NASA\u2019s Libera instrument, which is designed to maintain the global data record of Earth\u2019s radiation budget, has successfully completed comprehensive environmental testing. This critical milestone incl"
+    },
+    {
+      "rank": 20,
+      "id": "nasa-climate-change-1968980813aa",
+      "title": "NASA Honor Awards for Cold Atom Lab Team Members",
+      "final_category": "T",
+      "priority_score": 4.1,
+      "source": "NASA Climate Change",
+      "published_date": "2026-01-30",
+      "abstract_preview": "NASA OUTSTANDING PUBLIC LEADERSHIP MEDAL Awarded for notable leadership accomplishments that have significantly influenced NASA\u2019s mission. Sustained leadership and exceptionally high-impact leadership"
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-2601.21791v1",
+      "title": "Preliminary Results of a Scoping Review on Assistive Technologies for Adults with ADHD",
+      "final_category": "P",
+      "priority_score": 4.0,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Attention Deficit Hyperactivity Disorder (ADHD), characterized by inattention, hyperactivity, and impulsivity, is prevalent in the adult population. Long perceived and treated as a childhood condition"
+    },
+    {
+      "rank": 22,
+      "id": "mit-technology-review-66606b8da84c",
+      "title": "Roundtables: Why AI Companies Are Betting on Next-Gen Nuclear",
+      "final_category": "T",
+      "priority_score": 4.0,
+      "source": "MIT Technology Review",
+      "published_date": "2026-01-28",
+      "abstract_preview": "AI is driving unprecedented investment for massive data centers and an energy supply that can support its huge computational appetite. One potential source of electricity for these facilities is next-"
+    },
+    {
+      "rank": 23,
+      "id": "arxiv-2601.22157v1",
+      "title": "Discovering Hidden Gems in Model Repositories",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Public repositories host millions of fine-tuned models, yet community usage remains disproportionately concentrated on a small number of foundation checkpoints. We investigate whether this concentrati"
+    },
+    {
+      "rank": 24,
+      "id": "arxiv-2601.22155v1",
+      "title": "UEval: A Benchmark for Unified Multimodal Generation",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "We introduce UEval, a benchmark to evaluate unified models, i.e., models capable of generating both images and text. UEval comprises 1,000 expert-curated questions that require both images and text in"
+    },
+    {
+      "rank": 25,
+      "id": "arxiv-2601.22134v1",
+      "title": "Early and Prediagnostic Detection of Pancreatic Cancer from Computed Tomography",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Pancreatic ductal adenocarcinoma (PDAC), one of the deadliest solid malignancies, is often detected at a late and inoperable stage. Retrospective reviews of prediagnostic CT scans, when conducted by e"
+    },
+    {
+      "rank": 26,
+      "id": "arxiv-2601.20487v2",
+      "title": "Normative Equivalence in Human-AI Cooperation: Behaviour, Not Identity, Drives Cooperation in Mixed-Agent Groups",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-28",
+      "abstract_preview": "The introduction of artificial intelligence (AI) agents into human group settings raises essential questions about how these novel participants influence cooperative social norms. While previous studi"
+    },
+    {
+      "rank": 27,
+      "id": "arxiv-2601.20285v1",
+      "title": "Bank Runs With and Without Bank Failure",
+      "final_category": "Econ",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-28",
+      "abstract_preview": "We study the causes and consequences of bank runs using a novel dataset on bank runs in the United States from 1863 to 1934. Applying natural language processing to historical newspapers, we identify "
+    },
+    {
+      "rank": 28,
+      "id": "arxiv-2601.21743v1",
+      "title": "Impact of behavioral heterogeneity on epidemic outcome and its mapping into effective network topologies",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Human behavior plays a critical role in shaping epidemic trajectories. During health crises, people respond in diverse ways in terms of self-protection and adherence to recommended measures, largely r"
+    },
+    {
+      "rank": 29,
+      "id": "arxiv-2601.21516v1",
+      "title": "PINN-based short-term forecasting of fault slip evolution during the 2010 slow slip event in the Bungo Channel, Japan",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-29",
+      "abstract_preview": "Monitoring and forecasting fault slip evolution are fundamental for understanding earthquake cycles and assessing future seismic hazards. This study proposes a physics-based data assimilation framewor"
+    },
+    {
+      "rank": 30,
+      "id": "arxiv-2601.21079v1",
+      "title": "The quenched structured coalescent for diploid population models on finite graphs with large migrations and uneven offspring distributions",
+      "final_category": "T",
+      "priority_score": 3.9,
+      "source": "arXiv",
+      "published_date": "2026-01-28",
+      "abstract_preview": "In this work we describe a new model for the evolution of a diploid structured population backwards in time that allows for large migrations and uneven offspring distributions. The model generalizes b"
+    }
+  ],
+  "timestamp": "2026-02-02T11:28:11.852961"
+}

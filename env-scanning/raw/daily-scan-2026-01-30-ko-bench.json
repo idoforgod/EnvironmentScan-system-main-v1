@@ -1,0 +1,1620 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "parallelization": "agent_swarm_multiprocessing",
+    "execution_mode": "parallel",
+    "agents_used": [
+      "arxiv",
+      "blog",
+      "policy",
+      "patent"
+    ],
+    "total_items": 100,
+    "total_sources_scanned": 4,
+    "scan_duration": "15.5s",
+    "language": "ko",
+    "translated_at": "2026-01-30T18:19:11.643735"
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Signal 1: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Technology",
+      "description": "Detailed description of signal 1 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-1",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.5
+    },
+    {
+      "id": 2,
+      "title": "Signal 2: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Economy",
+      "description": "Detailed description of signal 2 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-2",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.51
+    },
+    {
+      "id": 3,
+      "title": "Signal 3: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Environment",
+      "description": "Detailed description of signal 3 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-3",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.52
+    },
+    {
+      "id": 4,
+      "title": "Signal 4: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Politics",
+      "description": "Detailed description of signal 4 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-4",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.53
+    },
+    {
+      "id": 5,
+      "title": "Signal 5: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Social",
+      "description": "Detailed description of signal 5 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-5",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.54
+    },
+    {
+      "id": 6,
+      "title": "Signal 6: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Technology",
+      "description": "Detailed description of signal 6 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-6",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.55
+    },
+    {
+      "id": 7,
+      "title": "Signal 7: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Economy",
+      "description": "Detailed description of signal 7 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-7",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.56
+    },
+    {
+      "id": 8,
+      "title": "Signal 8: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Environment",
+      "description": "Detailed description of signal 8 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-8",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.5700000000000001
+    },
+    {
+      "id": 9,
+      "title": "Signal 9: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Politics",
+      "description": "Detailed description of signal 9 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-9",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.58
+    },
+    {
+      "id": 10,
+      "title": "Signal 10: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Social",
+      "description": "Detailed description of signal 10 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-10",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.59
+    },
+    {
+      "id": 11,
+      "title": "Signal 11: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Technology",
+      "description": "Detailed description of signal 11 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-11",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.6
+    },
+    {
+      "id": 12,
+      "title": "Signal 12: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Economy",
+      "description": "Detailed description of signal 12 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-12",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.61
+    },
+    {
+      "id": 13,
+      "title": "Signal 13: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Environment",
+      "description": "Detailed description of signal 13 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-13",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.62
+    },
+    {
+      "id": 14,
+      "title": "Signal 14: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Politics",
+      "description": "Detailed description of signal 14 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-14",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.63
+    },
+    {
+      "id": 15,
+      "title": "Signal 15: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Social",
+      "description": "Detailed description of signal 15 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-15",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.64
+    },
+    {
+      "id": 16,
+      "title": "Signal 16: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Technology",
+      "description": "Detailed description of signal 16 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-16",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.65
+    },
+    {
+      "id": 17,
+      "title": "Signal 17: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Economy",
+      "description": "Detailed description of signal 17 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-17",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.66
+    },
+    {
+      "id": 18,
+      "title": "Signal 18: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Environment",
+      "description": "Detailed description of signal 18 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-18",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.67
+    },
+    {
+      "id": 19,
+      "title": "Signal 19: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Politics",
+      "description": "Detailed description of signal 19 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-19",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.6799999999999999
+    },
+    {
+      "id": 20,
+      "title": "Signal 20: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Social",
+      "description": "Detailed description of signal 20 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-20",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.69
+    },
+    {
+      "id": 21,
+      "title": "Signal 21: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Technology",
+      "description": "Detailed description of signal 21 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-21",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.7
+    },
+    {
+      "id": 22,
+      "title": "Signal 22: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Economy",
+      "description": "Detailed description of signal 22 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-22",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.71
+    },
+    {
+      "id": 23,
+      "title": "Signal 23: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Environment",
+      "description": "Detailed description of signal 23 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-23",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.72
+    },
+    {
+      "id": 24,
+      "title": "Signal 24: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Politics",
+      "description": "Detailed description of signal 24 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-24",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.73
+    },
+    {
+      "id": 25,
+      "title": "Signal 25: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Social",
+      "description": "Detailed description of signal 25 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-25",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.74
+    },
+    {
+      "id": 26,
+      "title": "Signal 26: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Technology",
+      "description": "Detailed description of signal 26 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-26",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.75
+    },
+    {
+      "id": 27,
+      "title": "Signal 27: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Economy",
+      "description": "Detailed description of signal 27 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-27",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.76
+    },
+    {
+      "id": 28,
+      "title": "Signal 28: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Environment",
+      "description": "Detailed description of signal 28 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-28",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.77
+    },
+    {
+      "id": 29,
+      "title": "Signal 29: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Politics",
+      "description": "Detailed description of signal 29 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-29",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.78
+    },
+    {
+      "id": 30,
+      "title": "Signal 30: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Social",
+      "description": "Detailed description of signal 30 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-30",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.79
+    },
+    {
+      "id": 31,
+      "title": "Signal 31: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Technology",
+      "description": "Detailed description of signal 31 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-31",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.8
+    },
+    {
+      "id": 32,
+      "title": "Signal 32: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Economy",
+      "description": "Detailed description of signal 32 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-32",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.81
+    },
+    {
+      "id": 33,
+      "title": "Signal 33: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Environment",
+      "description": "Detailed description of signal 33 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-33",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.8200000000000001
+    },
+    {
+      "id": 34,
+      "title": "Signal 34: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Politics",
+      "description": "Detailed description of signal 34 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-34",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.8300000000000001
+    },
+    {
+      "id": 35,
+      "title": "Signal 35: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Social",
+      "description": "Detailed description of signal 35 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-35",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.8400000000000001
+    },
+    {
+      "id": 36,
+      "title": "Signal 36: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Technology",
+      "description": "Detailed description of signal 36 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-36",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.85
+    },
+    {
+      "id": 37,
+      "title": "Signal 37: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Economy",
+      "description": "Detailed description of signal 37 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-37",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.86
+    },
+    {
+      "id": 38,
+      "title": "Signal 38: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Environment",
+      "description": "Detailed description of signal 38 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-38",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.87
+    },
+    {
+      "id": 39,
+      "title": "Signal 39: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Politics",
+      "description": "Detailed description of signal 39 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-39",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.88
+    },
+    {
+      "id": 40,
+      "title": "Signal 40: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Social",
+      "description": "Detailed description of signal 40 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-40",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.89
+    },
+    {
+      "id": 41,
+      "title": "Signal 41: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Technology",
+      "description": "Detailed description of signal 41 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-41",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.9
+    },
+    {
+      "id": 42,
+      "title": "Signal 42: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Economy",
+      "description": "Detailed description of signal 42 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-42",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.9099999999999999
+    },
+    {
+      "id": 43,
+      "title": "Signal 43: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Environment",
+      "description": "Detailed description of signal 43 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-43",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.9199999999999999
+    },
+    {
+      "id": 44,
+      "title": "Signal 44: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Politics",
+      "description": "Detailed description of signal 44 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-44",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.9299999999999999
+    },
+    {
+      "id": 45,
+      "title": "Signal 45: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Social",
+      "description": "Detailed description of signal 45 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-45",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.94
+    },
+    {
+      "id": 46,
+      "title": "Signal 46: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Technology",
+      "description": "Detailed description of signal 46 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-46",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.95
+    },
+    {
+      "id": 47,
+      "title": "Signal 47: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Economy",
+      "description": "Detailed description of signal 47 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-47",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.96
+    },
+    {
+      "id": 48,
+      "title": "Signal 48: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Environment",
+      "description": "Detailed description of signal 48 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-48",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.97
+    },
+    {
+      "id": 49,
+      "title": "Signal 49: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Politics",
+      "description": "Detailed description of signal 49 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-49",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.98
+    },
+    {
+      "id": 50,
+      "title": "Signal 50: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Social",
+      "description": "Detailed description of signal 50 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-50",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.99
+    },
+    {
+      "id": 51,
+      "title": "Signal 51: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Technology",
+      "description": "Detailed description of signal 51 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-51",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.5
+    },
+    {
+      "id": 52,
+      "title": "Signal 52: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Economy",
+      "description": "Detailed description of signal 52 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-52",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.51
+    },
+    {
+      "id": 53,
+      "title": "Signal 53: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Environment",
+      "description": "Detailed description of signal 53 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-53",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.52
+    },
+    {
+      "id": 54,
+      "title": "Signal 54: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Politics",
+      "description": "Detailed description of signal 54 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-54",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.53
+    },
+    {
+      "id": 55,
+      "title": "Signal 55: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Social",
+      "description": "Detailed description of signal 55 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-55",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.54
+    },
+    {
+      "id": 56,
+      "title": "Signal 56: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Technology",
+      "description": "Detailed description of signal 56 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-56",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.55
+    },
+    {
+      "id": 57,
+      "title": "Signal 57: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Economy",
+      "description": "Detailed description of signal 57 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-57",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.56
+    },
+    {
+      "id": 58,
+      "title": "Signal 58: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Environment",
+      "description": "Detailed description of signal 58 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-58",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.5700000000000001
+    },
+    {
+      "id": 59,
+      "title": "Signal 59: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Politics",
+      "description": "Detailed description of signal 59 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-59",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.58
+    },
+    {
+      "id": 60,
+      "title": "Signal 60: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Social",
+      "description": "Detailed description of signal 60 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-60",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.59
+    },
+    {
+      "id": 61,
+      "title": "Signal 61: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Technology",
+      "description": "Detailed description of signal 61 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-61",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.6
+    },
+    {
+      "id": 62,
+      "title": "Signal 62: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Economy",
+      "description": "Detailed description of signal 62 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-62",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.61
+    },
+    {
+      "id": 63,
+      "title": "Signal 63: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Environment",
+      "description": "Detailed description of signal 63 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-63",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.62
+    },
+    {
+      "id": 64,
+      "title": "Signal 64: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Politics",
+      "description": "Detailed description of signal 64 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-64",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.63
+    },
+    {
+      "id": 65,
+      "title": "Signal 65: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Social",
+      "description": "Detailed description of signal 65 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-65",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.64
+    },
+    {
+      "id": 66,
+      "title": "Signal 66: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Technology",
+      "description": "Detailed description of signal 66 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-66",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.65
+    },
+    {
+      "id": 67,
+      "title": "Signal 67: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Economy",
+      "description": "Detailed description of signal 67 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-67",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.66
+    },
+    {
+      "id": 68,
+      "title": "Signal 68: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Environment",
+      "description": "Detailed description of signal 68 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-68",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.67
+    },
+    {
+      "id": 69,
+      "title": "Signal 69: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Politics",
+      "description": "Detailed description of signal 69 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-69",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.6799999999999999
+    },
+    {
+      "id": 70,
+      "title": "Signal 70: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Social",
+      "description": "Detailed description of signal 70 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-70",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.69
+    },
+    {
+      "id": 71,
+      "title": "Signal 71: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Technology",
+      "description": "Detailed description of signal 71 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-71",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.7
+    },
+    {
+      "id": 72,
+      "title": "Signal 72: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Economy",
+      "description": "Detailed description of signal 72 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-72",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.71
+    },
+    {
+      "id": 73,
+      "title": "Signal 73: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Environment",
+      "description": "Detailed description of signal 73 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-73",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.72
+    },
+    {
+      "id": 74,
+      "title": "Signal 74: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Politics",
+      "description": "Detailed description of signal 74 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-74",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.73
+    },
+    {
+      "id": 75,
+      "title": "Signal 75: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Social",
+      "description": "Detailed description of signal 75 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-75",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.74
+    },
+    {
+      "id": 76,
+      "title": "Signal 76: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Technology",
+      "description": "Detailed description of signal 76 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-76",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.75
+    },
+    {
+      "id": 77,
+      "title": "Signal 77: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Economy",
+      "description": "Detailed description of signal 77 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-77",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.76
+    },
+    {
+      "id": 78,
+      "title": "Signal 78: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Environment",
+      "description": "Detailed description of signal 78 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-78",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.77
+    },
+    {
+      "id": 79,
+      "title": "Signal 79: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Politics",
+      "description": "Detailed description of signal 79 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-79",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.78
+    },
+    {
+      "id": 80,
+      "title": "Signal 80: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Social",
+      "description": "Detailed description of signal 80 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-80",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.79
+    },
+    {
+      "id": 81,
+      "title": "Signal 81: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Technology",
+      "description": "Detailed description of signal 81 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-81",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.8
+    },
+    {
+      "id": 82,
+      "title": "Signal 82: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Economy",
+      "description": "Detailed description of signal 82 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-82",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.81
+    },
+    {
+      "id": 83,
+      "title": "Signal 83: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Environment",
+      "description": "Detailed description of signal 83 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-83",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.8200000000000001
+    },
+    {
+      "id": 84,
+      "title": "Signal 84: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Politics",
+      "description": "Detailed description of signal 84 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-84",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.8300000000000001
+    },
+    {
+      "id": 85,
+      "title": "Signal 85: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Social",
+      "description": "Detailed description of signal 85 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-85",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.8400000000000001
+    },
+    {
+      "id": 86,
+      "title": "Signal 86: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Technology",
+      "description": "Detailed description of signal 86 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-86",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.85
+    },
+    {
+      "id": 87,
+      "title": "Signal 87: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Economy",
+      "description": "Detailed description of signal 87 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-87",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.86
+    },
+    {
+      "id": 88,
+      "title": "Signal 88: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Environment",
+      "description": "Detailed description of signal 88 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-88",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.87
+    },
+    {
+      "id": 89,
+      "title": "Signal 89: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Politics",
+      "description": "Detailed description of signal 89 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-89",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.88
+    },
+    {
+      "id": 90,
+      "title": "Signal 90: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Social",
+      "description": "Detailed description of signal 90 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-90",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.89
+    },
+    {
+      "id": 91,
+      "title": "Signal 91: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Technology",
+      "description": "Detailed description of signal 91 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-91",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-0",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.9
+    },
+    {
+      "id": 92,
+      "title": "Signal 92: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Economy",
+      "description": "Detailed description of signal 92 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-92",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-1",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.9099999999999999
+    },
+    {
+      "id": 93,
+      "title": "Signal 93: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Environment",
+      "description": "Detailed description of signal 93 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-93",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-2",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.9199999999999999
+    },
+    {
+      "id": 94,
+      "title": "Signal 94: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Politics",
+      "description": "Detailed description of signal 94 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-94",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-3",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.9299999999999999
+    },
+    {
+      "id": 95,
+      "title": "Signal 95: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Social",
+      "description": "Detailed description of signal 95 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-95",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-4",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.94
+    },
+    {
+      "id": 96,
+      "title": "Signal 96: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Technology",
+      "description": "Detailed description of signal 96 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-96",
+      "published_date": "2026-01-30",
+      "steep_category": "Social",
+      "tags": [
+        "tag-5",
+        "category-0",
+        "important"
+      ],
+      "relevance_score": 0.95
+    },
+    {
+      "id": 97,
+      "title": "Signal 97: Technology Innovation in AI and Machine Learning",
+      "source": "arXiv",
+      "category": "Economy",
+      "description": "Detailed description of signal 97 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-97",
+      "published_date": "2026-01-30",
+      "steep_category": "Technology",
+      "tags": [
+        "tag-6",
+        "category-1",
+        "important"
+      ],
+      "relevance_score": 0.96
+    },
+    {
+      "id": 98,
+      "title": "Signal 98: Technology Innovation in AI and Machine Learning",
+      "source": "Blog",
+      "category": "Environment",
+      "description": "Detailed description of signal 98 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-98",
+      "published_date": "2026-01-30",
+      "steep_category": "Economy",
+      "tags": [
+        "tag-7",
+        "category-2",
+        "important"
+      ],
+      "relevance_score": 0.97
+    },
+    {
+      "id": 99,
+      "title": "Signal 99: Technology Innovation in AI and Machine Learning",
+      "source": "Federal Register",
+      "category": "Politics",
+      "description": "Detailed description of signal 99 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-99",
+      "published_date": "2026-01-30",
+      "steep_category": "Environment",
+      "tags": [
+        "tag-8",
+        "category-3",
+        "important"
+      ],
+      "relevance_score": 0.98
+    },
+    {
+      "id": 100,
+      "title": "Signal 100: Technology Innovation in AI and Machine Learning",
+      "source": "Patent",
+      "category": "Social",
+      "description": "Detailed description of signal 100 with multiple sentences. This simulates real-world content that would be translated. The content includes technical details, policy implications, and strategic considerations for future planning.",
+      "url": "https://example.com/signal-100",
+      "published_date": "2026-01-30",
+      "steep_category": "Politics",
+      "tags": [
+        "tag-9",
+        "category-4",
+        "important"
+      ],
+      "relevance_score": 0.99
+    }
+  ]
+}

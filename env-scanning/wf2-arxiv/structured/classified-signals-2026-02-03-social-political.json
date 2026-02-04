@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-03",
+    "scan_period": "2026-01-20 ~ 2026-02-03",
+    "workflow": "WF2 - arXiv Academic Deep Scanning",
+    "domains": ["S_Social", "P_Political"],
+    "total_signals": 15,
+    "by_steeps": {
+      "S_Social": 10,
+      "P_Political": 5
+    },
+    "by_significance": {
+      "high_9_10": 4,
+      "medium_7_8": 11,
+      "low_1_6": 0
+    },
+    "arxiv_categories_covered": ["cs.CY", "cs.HC", "cs.MA", "cs.AI", "econ.GN", "econ.TH", "stat.ML", "cs.CL", "cs.SE"]
+  },
+  "signals_by_steeps": {
+    "S_Social": [
+      {
+        "rank": 1,
+        "arxiv_id": "2601.00306",
+        "title_ko": "생성형 AI 역설: GenAI와 신뢰의 침식, 정보 검증의 부식, 그리고 진실의 종말",
+        "significance": 9,
+        "theme": "합성 현실과 인식론적 위기"
+      },
+      {
+        "rank": 2,
+        "arxiv_id": "2601.00240",
+        "title_ko": "에이전트가 인간을 외집단으로 볼 때: LLM 기반 에이전트의 신념 의존적 편향",
+        "significance": 9,
+        "theme": "AI 에이전트의 반인간 편향"
+      },
+      {
+        "rank": 3,
+        "arxiv_id": "2601.21920",
+        "title_ko": "일의 미래에서 노동자의 미래로: 존엄한 인간-AI 상호작용을 위한 무증상 AI 해악 다루기",
+        "significance": 9,
+        "theme": "AI의 비가시적 노동 해악"
+      },
+      {
+        "rank": 4,
+        "arxiv_id": "2601.01090",
+        "title_ko": "AI 주도 사회의 해악: Chirper.ai에서의 독성 채택에 대한 감사",
+        "significance": 8,
+        "theme": "AI 소셜 생태계의 독성 전파"
+      },
+      {
+        "rank": 5,
+        "arxiv_id": "2601.06129",
+        "title_ko": "AI 주도 노동시장 전환의 그래프 기반 분석: 이집트 10,000개 직업의 증거와 정책적 시사점",
+        "significance": 8,
+        "theme": "글로벌 남반구 노동시장 자동화 충격"
+      },
+      {
+        "rank": 6,
+        "arxiv_id": "2601.07973",
+        "title_ko": "문화적 나침반: 인간-AI 대화에서 위반을 탐지하기 위한 사회적 규범 조직화 프레임워크",
+        "significance": 7,
+        "theme": "AI의 문화적 규범 위반"
+      },
+      {
+        "rank": 7,
+        "arxiv_id": "2601.06093",
+        "title_ko": "GenAITEd 가나: 교사교육을 위한 최초의 맥락 인식형 교육과정 정합 대화형 AI 에이전트",
+        "significance": 7,
+        "theme": "글로벌 남반구 AI 교육 격차 해소"
+      },
+      {
+        "rank": 8,
+        "arxiv_id": "2601.00579",
+        "title_ko": "AI 비가시성 효과: 사용자가 인공지능을 인식하지 못할 때의 인간-AI 상호작용 이해",
+        "significance": 7,
+        "theme": "비가시적 AI의 사회적 영향"
+      },
+      {
+        "rank": 9,
+        "arxiv_id": "2601.03558",
+        "title_ko": "인공지능과 기술: 온라인 구인 공고에서의 대조학습 증거",
+        "significance": 7,
+        "theme": "AI의 노동시장 정보 구조 재편"
+      },
+      {
+        "rank": 10,
+        "arxiv_id": "2601.07136",
+        "title_ko": "다중 에이전트 AI 시스템의 개발과 이슈에 대한 대규모 연구",
+        "significance": 7,
+        "theme": "MAS 기술적 성숙도와 사회적 배포 위험"
+      }
+    ],
+    "P_Political": [
+      {
+        "rank": 1,
+        "arxiv_id": "2601.11369",
+        "title_ko": "제도적 AI: 공공 거버넌스 그래프를 통한 다중 에이전트 쿠르노 시장에서의 LLM 담합 규제",
+        "significance": 9,
+        "theme": "AI 시장 거버넌스 메커니즘 설계"
+      },
+      {
+        "rank": 2,
+        "arxiv_id": "2601.00360",
+        "title_ko": "인간의 반담합 메커니즘을 다중 에이전트 AI에 매핑",
+        "significance": 8,
+        "theme": "AI 반담합 제도적 프레임워크"
+      },
+      {
+        "rank": 3,
+        "arxiv_id": "2601.17191",
+        "title_ko": "국제 AI 거버넌스에서의 글로벌 다수(Global Majority)",
+        "significance": 8,
+        "theme": "AI 거버넌스의 글로벌 불평등"
+      },
+      {
+        "rank": 4,
+        "arxiv_id": "2601.18654",
+        "title_ko": "자기공개는 언제 최적인가? AI 생성 콘텐츠의 인센티브와 거버넌스",
+        "significance": 8,
+        "theme": "AI 콘텐츠 공개 정책의 경제학"
+      },
+      {
+        "rank": 5,
+        "arxiv_id": "2501.12962",
+        "title_ko": "복잡한 관계: EU AI 법의 고위험 시스템에 대한 알고리즘 공정성과 비차별 규정의 관계",
+        "significance": 8,
+        "theme": "EU AI Act의 공정성-비차별 간극"
+      }
+    ]
+  }
+}

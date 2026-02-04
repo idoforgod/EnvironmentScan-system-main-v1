@@ -1,0 +1,34 @@
+{
+  "scan_date": "2026-01-31",
+  "scan_topic": "Kevin Warsh Fed Chair Nomination",
+  "classification_method": "STEEPs Framework (Manual Expert + AI-Assisted)",
+  "total_classified": 42,
+  "category_distribution": {
+    "S_Social": {"count": 5, "percentage": 11.9},
+    "T_Technological": {"count": 4, "percentage": 9.5},
+    "E_Economic": {"count": 14, "percentage": 33.3},
+    "E_Environmental": {"count": 2, "percentage": 4.8},
+    "P_Political": {"count": 13, "percentage": 31.0},
+    "s_spiritual": {"count": 4, "percentage": 9.5}
+  },
+  "priority_summary": {
+    "critical": 8,
+    "high": 14,
+    "medium": 12,
+    "low": 8
+  },
+  "top_10_signals": [
+    {"id": "KW-P-001", "title": "Tillis 인준 반대", "category": "P", "score": 5.0},
+    {"id": "KW-P-002", "title": "파월 DOJ 수사", "category": "P", "score": 5.0},
+    {"id": "KW-E-001", "title": "매파->비둘기 전환", "category": "E", "score": 5.0},
+    {"id": "KW-E-002", "title": "대차대조표 축소", "category": "E", "score": 5.0},
+    {"id": "KW-E-004", "title": "달러 강세/원화 약세", "category": "E", "score": 5.0},
+    {"id": "KW-T-001", "title": "AI 디스인플레이션", "category": "T", "score": 5.0},
+    {"id": "KW-P-003", "title": "연준 독립성 논쟁", "category": "P", "score": 5.0},
+    {"id": "KW-P-005", "title": "Thune 비관적 전망", "category": "P", "score": 5.0},
+    {"id": "KW-E-010", "title": "쿠팡/한국 연결", "category": "E", "score": 4.5},
+    {"id": "KW-E-011", "title": "FOMC 내부 분열", "category": "E", "score": 4.5}
+  ],
+  "data_freshness": "2026-01-31 (same-day)",
+  "source_count": 18
+}

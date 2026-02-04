@@ -1,0 +1,31 @@
+{
+  "workflow_id": "scan-2026-01-30",
+  "execution_time_seconds": 0.2658360004425049,
+  "phase_times": {
+    "phase_1": 0.002938985824584961,
+    "phase_2": 0.25803494453430176,
+    "phase_3": 0.004862070083618164
+  },
+  "step_times": {
+    "1.1 Archive Loader": 0.0006620883941650391,
+    "1.2 Multi-Source Scanner": 0.0015349388122558594,
+    "1.3 Deduplication Filter": 0.0007419586181640625,
+    "2.1 Signal Classifier": 0.0009107589721679688,
+    "2.2 Impact Analyzer (OPTIMIZED)": 0.25528812408447266,
+    "2.3 Priority Ranker": 0.0018360614776611328,
+    "3.1 Database Updater": 0.0034689903259277344,
+    "3.2 Report Generator": 0.0007319450378417969,
+    "3.3 Archive Notifier": 0.0006611347198486328
+  },
+  "quality_scores": {
+    "dedup_accuracy": 0.92,
+    "classification_accuracy": 0.94,
+    "human_ai_agreement": 0.88
+  },
+  "signals_processed": {
+    "collected": 50,
+    "filtered": 35,
+    "classified": 35,
+    "archived": 35
+  }
+}

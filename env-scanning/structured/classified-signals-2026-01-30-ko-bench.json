@@ -1,0 +1,912 @@
+{
+  "scan_metadata": {
+    "date": "2026-01-30",
+    "classification": "STEEPs",
+    "total_items": 100,
+    "classification_duration": "8.2s",
+    "language": "ko",
+    "translated_at": "2026-01-30T18:19:11.644057"
+  },
+  "items": [
+    {
+      "id": 1,
+      "signal": "Signal 1: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7
+    },
+    {
+      "id": 2,
+      "signal": "Signal 2: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.71
+    },
+    {
+      "id": 3,
+      "signal": "Signal 3: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.72
+    },
+    {
+      "id": 4,
+      "signal": "Signal 4: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.73
+    },
+    {
+      "id": 5,
+      "signal": "Signal 5: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.74
+    },
+    {
+      "id": 6,
+      "signal": "Signal 6: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.75
+    },
+    {
+      "id": 7,
+      "signal": "Signal 7: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.76
+    },
+    {
+      "id": 8,
+      "signal": "Signal 8: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.77
+    },
+    {
+      "id": 9,
+      "signal": "Signal 9: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.7799999999999999
+    },
+    {
+      "id": 10,
+      "signal": "Signal 10: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7899999999999999
+    },
+    {
+      "id": 11,
+      "signal": "Signal 11: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "id": 12,
+      "signal": "Signal 12: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.8099999999999999
+    },
+    {
+      "id": 13,
+      "signal": "Signal 13: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.82
+    },
+    {
+      "id": 14,
+      "signal": "Signal 14: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.83
+    },
+    {
+      "id": 15,
+      "signal": "Signal 15: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.84
+    },
+    {
+      "id": 16,
+      "signal": "Signal 16: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.85
+    },
+    {
+      "id": 17,
+      "signal": "Signal 17: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.86
+    },
+    {
+      "id": 18,
+      "signal": "Signal 18: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.87
+    },
+    {
+      "id": 19,
+      "signal": "Signal 19: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.8799999999999999
+    },
+    {
+      "id": 20,
+      "signal": "Signal 20: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.8899999999999999
+    },
+    {
+      "id": 21,
+      "signal": "Signal 21: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "id": 22,
+      "signal": "Signal 22: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.9099999999999999
+    },
+    {
+      "id": 23,
+      "signal": "Signal 23: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.9199999999999999
+    },
+    {
+      "id": 24,
+      "signal": "Signal 24: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.9299999999999999
+    },
+    {
+      "id": 25,
+      "signal": "Signal 25: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.94
+    },
+    {
+      "id": 26,
+      "signal": "Signal 26: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.95
+    },
+    {
+      "id": 27,
+      "signal": "Signal 27: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.96
+    },
+    {
+      "id": 28,
+      "signal": "Signal 28: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.97
+    },
+    {
+      "id": 29,
+      "signal": "Signal 29: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.98
+    },
+    {
+      "id": 30,
+      "signal": "Signal 30: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.99
+    },
+    {
+      "id": 31,
+      "signal": "Signal 31: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7
+    },
+    {
+      "id": 32,
+      "signal": "Signal 32: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.71
+    },
+    {
+      "id": 33,
+      "signal": "Signal 33: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.72
+    },
+    {
+      "id": 34,
+      "signal": "Signal 34: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.73
+    },
+    {
+      "id": 35,
+      "signal": "Signal 35: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.74
+    },
+    {
+      "id": 36,
+      "signal": "Signal 36: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.75
+    },
+    {
+      "id": 37,
+      "signal": "Signal 37: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.76
+    },
+    {
+      "id": 38,
+      "signal": "Signal 38: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.77
+    },
+    {
+      "id": 39,
+      "signal": "Signal 39: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.7799999999999999
+    },
+    {
+      "id": 40,
+      "signal": "Signal 40: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7899999999999999
+    },
+    {
+      "id": 41,
+      "signal": "Signal 41: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "id": 42,
+      "signal": "Signal 42: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.8099999999999999
+    },
+    {
+      "id": 43,
+      "signal": "Signal 43: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.82
+    },
+    {
+      "id": 44,
+      "signal": "Signal 44: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.83
+    },
+    {
+      "id": 45,
+      "signal": "Signal 45: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.84
+    },
+    {
+      "id": 46,
+      "signal": "Signal 46: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.85
+    },
+    {
+      "id": 47,
+      "signal": "Signal 47: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.86
+    },
+    {
+      "id": 48,
+      "signal": "Signal 48: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.87
+    },
+    {
+      "id": 49,
+      "signal": "Signal 49: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.8799999999999999
+    },
+    {
+      "id": 50,
+      "signal": "Signal 50: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.8899999999999999
+    },
+    {
+      "id": 51,
+      "signal": "Signal 51: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "id": 52,
+      "signal": "Signal 52: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.9099999999999999
+    },
+    {
+      "id": 53,
+      "signal": "Signal 53: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.9199999999999999
+    },
+    {
+      "id": 54,
+      "signal": "Signal 54: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.9299999999999999
+    },
+    {
+      "id": 55,
+      "signal": "Signal 55: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.94
+    },
+    {
+      "id": 56,
+      "signal": "Signal 56: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.95
+    },
+    {
+      "id": 57,
+      "signal": "Signal 57: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.96
+    },
+    {
+      "id": 58,
+      "signal": "Signal 58: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.97
+    },
+    {
+      "id": 59,
+      "signal": "Signal 59: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.98
+    },
+    {
+      "id": 60,
+      "signal": "Signal 60: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.99
+    },
+    {
+      "id": 61,
+      "signal": "Signal 61: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7
+    },
+    {
+      "id": 62,
+      "signal": "Signal 62: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.71
+    },
+    {
+      "id": 63,
+      "signal": "Signal 63: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.72
+    },
+    {
+      "id": 64,
+      "signal": "Signal 64: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.73
+    },
+    {
+      "id": 65,
+      "signal": "Signal 65: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.74
+    },
+    {
+      "id": 66,
+      "signal": "Signal 66: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.75
+    },
+    {
+      "id": 67,
+      "signal": "Signal 67: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.76
+    },
+    {
+      "id": 68,
+      "signal": "Signal 68: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.77
+    },
+    {
+      "id": 69,
+      "signal": "Signal 69: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.7799999999999999
+    },
+    {
+      "id": 70,
+      "signal": "Signal 70: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7899999999999999
+    },
+    {
+      "id": 71,
+      "signal": "Signal 71: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "id": 72,
+      "signal": "Signal 72: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.8099999999999999
+    },
+    {
+      "id": 73,
+      "signal": "Signal 73: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.82
+    },
+    {
+      "id": 74,
+      "signal": "Signal 74: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.83
+    },
+    {
+      "id": 75,
+      "signal": "Signal 75: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.84
+    },
+    {
+      "id": 76,
+      "signal": "Signal 76: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.85
+    },
+    {
+      "id": 77,
+      "signal": "Signal 77: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.86
+    },
+    {
+      "id": 78,
+      "signal": "Signal 78: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.87
+    },
+    {
+      "id": 79,
+      "signal": "Signal 79: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.8799999999999999
+    },
+    {
+      "id": 80,
+      "signal": "Signal 80: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.8899999999999999
+    },
+    {
+      "id": 81,
+      "signal": "Signal 81: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "id": 82,
+      "signal": "Signal 82: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.9099999999999999
+    },
+    {
+      "id": 83,
+      "signal": "Signal 83: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.9199999999999999
+    },
+    {
+      "id": 84,
+      "signal": "Signal 84: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.9299999999999999
+    },
+    {
+      "id": 85,
+      "signal": "Signal 85: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.94
+    },
+    {
+      "id": 86,
+      "signal": "Signal 86: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.95
+    },
+    {
+      "id": 87,
+      "signal": "Signal 87: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.96
+    },
+    {
+      "id": 88,
+      "signal": "Signal 88: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.97
+    },
+    {
+      "id": 89,
+      "signal": "Signal 89: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.98
+    },
+    {
+      "id": 90,
+      "signal": "Signal 90: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.99
+    },
+    {
+      "id": 91,
+      "signal": "Signal 91: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7
+    },
+    {
+      "id": 92,
+      "signal": "Signal 92: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.71
+    },
+    {
+      "id": 93,
+      "signal": "Signal 93: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.72
+    },
+    {
+      "id": 94,
+      "signal": "Signal 94: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.73
+    },
+    {
+      "id": 95,
+      "signal": "Signal 95: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.74
+    },
+    {
+      "id": 96,
+      "signal": "Signal 96: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Social",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.75
+    },
+    {
+      "id": 97,
+      "signal": "Signal 97: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.76
+    },
+    {
+      "id": 98,
+      "signal": "Signal 98: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Economy",
+      "likelihood": "Medium",
+      "impact": "Low",
+      "time_horizon": "Mid-term (3-5 years)",
+      "confidence": 0.77
+    },
+    {
+      "id": 99,
+      "signal": "Signal 99: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Environment",
+      "likelihood": "Low",
+      "impact": "High",
+      "time_horizon": "Long-term (5+ years)",
+      "confidence": 0.7799999999999999
+    },
+    {
+      "id": 100,
+      "signal": "Signal 100: Technology Innovation in AI and Machine Learning",
+      "steep_category": "Politics",
+      "likelihood": "High",
+      "impact": "Medium",
+      "time_horizon": "Near-term (1-2 years)",
+      "confidence": 0.7899999999999999
+    }
+  ]
+}

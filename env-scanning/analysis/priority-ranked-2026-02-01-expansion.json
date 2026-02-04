@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "scan_date": "2026-02-01",
+  "scan_mode": "marathon",
+  "scoring_weights": {
+    "impact": 0.40,
+    "probability": 0.30,
+    "urgency": 0.20,
+    "novelty": 0.10
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "nature-d41586-026-00274-9", "title": "China optical computing chips for AI", "score": 8.7, "category": "T", "impact": 9.0, "probability": 8.0, "urgency": 9.0, "novelty": 9.0},
+    {"rank": 2, "id": "un-1166847-ai-workers", "title": "AI workforce displacement (UN)", "score": 8.5, "category": "S", "impact": 9.0, "probability": 9.0, "urgency": 8.0, "novelty": 7.0},
+    {"rank": 3, "id": "carbonbrief-us-exits-paris", "title": "US exits Paris Agreement", "score": 8.4, "category": "E_Environmental", "impact": 9.0, "probability": 10.0, "urgency": 9.0, "novelty": 4.0},
+    {"rank": 4, "id": "hn-autonomous-cars-prompt-injection", "title": "Prompt injection attacks on autonomous vehicles", "score": 8.2, "category": "T", "impact": 8.5, "probability": 7.5, "urgency": 8.0, "novelty": 9.5},
+    {"rank": 5, "id": "nature-d41586-026-00302-8", "title": "DeepMind AlphaGenome rare diseases", "score": 8.0, "category": "T", "impact": 8.5, "probability": 8.0, "urgency": 7.0, "novelty": 8.5},
+    {"rank": 6, "id": "bis-bunge-stablecoins-digital-euro", "title": "Stablecoins and digital euro geopolitics", "score": 7.8, "category": "E", "impact": 8.0, "probability": 7.5, "urgency": 7.5, "novelty": 8.0},
+    {"rank": 7, "id": "hn-finland-youth-social-media-ban", "title": "Finland youth social media ban", "score": 7.7, "category": "P", "impact": 7.5, "probability": 8.5, "urgency": 8.0, "novelty": 7.5},
+    {"rank": 8, "id": "brookings-us-china-trump", "title": "Three pathways US-China relations", "score": 7.5, "category": "P", "impact": 8.0, "probability": 7.0, "urgency": 8.0, "novelty": 6.5},
+    {"rank": 9, "id": "nature-d41586-026-00275-8", "title": "Light-powered bacteria as chemical factories", "score": 7.4, "category": "T", "impact": 7.5, "probability": 6.5, "urgency": 6.0, "novelty": 9.5},
+    {"rank": 10, "id": "brookings-trump-trade-policy", "title": "America First trade policy agenda", "score": 7.3, "category": "E", "impact": 8.0, "probability": 8.0, "urgency": 7.0, "novelty": 5.0},
+    {"rank": 11, "id": "un-1166863-ukraine-nuclear", "title": "Ukraine nuclear safety warning", "score": 7.2, "category": "P", "impact": 9.0, "probability": 6.0, "urgency": 8.0, "novelty": 4.0},
+    {"rank": 12, "id": "ieee-norway-ev-policy", "title": "Norway 97% EV transition", "score": 7.1, "category": "E_Environmental", "impact": 7.0, "probability": 10.0, "urgency": 5.0, "novelty": 7.0},
+    {"rank": 13, "id": "pew-teens-ai-chatbots", "title": "64% of teens use AI chatbots", "score": 7.0, "category": "S", "impact": 7.0, "probability": 10.0, "urgency": 6.0, "novelty": 6.0},
+    {"rank": 14, "id": "pew-public-trust-government", "title": "Public trust at historic low", "score": 6.9, "category": "P", "impact": 7.5, "probability": 10.0, "urgency": 5.0, "novelty": 4.0},
+    {"rank": 15, "id": "carbonbrief-chinese-wind-europe", "title": "Chinese wind power vs Europe climate goals", "score": 6.8, "category": "E_Environmental", "impact": 7.0, "probability": 7.0, "urgency": 6.5, "novelty": 7.0}
+  ],
+  "total_ranked": 43
+}

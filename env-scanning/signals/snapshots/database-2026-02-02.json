@@ -1,0 +1,1056 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-30T11:29:19.797749",
+  "signals": [
+    {
+      "id": "signal-016",
+      "title": "Mock Signal 16: Spiritual Well-being in Digital Age Study",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-16",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. This is a mock abstract for signal 16. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537310",
+      "final_category": "E",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 10.0,
+      "rank": 1
+    },
+    {
+      "id": "signal-017",
+      "title": "Mock Signal 17: Blockchain Revolution in Financial Services",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-17",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. This is a mock abstract for signal 17. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-01-30T11:29:19.537313",
+      "final_category": "P",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 9.8,
+      "rank": 2
+    },
+    {
+      "id": "signal-018",
+      "title": "Mock Signal 18: Gene Editing Regulation Update 2026",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-18",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. This is a mock abstract for signal 18. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T11:29:19.537315",
+      "final_category": "s",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 9.6,
+      "rank": 3
+    },
+    {
+      "id": "signal-019",
+      "title": "Mock Signal 19: Urban Migration Patterns Post-Pandemic",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-19",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. This is a mock abstract for signal 19. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T11:29:19.537322",
+      "final_category": "S",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 9.4,
+      "rank": 4
+    },
+    {
+      "id": "signal-020",
+      "title": "Mock Signal 20: Carbon Neutral Technology Adoption Accelerates",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-20",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. This is a mock abstract for signal 20. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T11:29:19.537325",
+      "final_category": "T",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 9.2,
+      "rank": 5
+    },
+    {
+      "id": "signal-021",
+      "title": "Mock Signal 21: Quantum Computing Breakthrough in Drug Discovery",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-21",
+        "published_date": "2026-01-24"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. This is a mock abstract for signal 21. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537328",
+      "final_category": "E",
+      "significance": 2,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 9.0,
+      "rank": 6
+    },
+    {
+      "id": "signal-022",
+      "title": "Mock Signal 22: AI Ethics Framework for Autonomous Systems",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-22",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. This is a mock abstract for signal 22. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537331",
+      "final_category": "E",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 8.8,
+      "rank": 7
+    },
+    {
+      "id": "signal-023",
+      "title": "Mock Signal 23: Climate Change Impact on Global Supply Chains",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-23",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. This is a mock abstract for signal 23. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-01-30T11:29:19.537334",
+      "final_category": "P",
+      "significance": 5,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 8.6,
+      "rank": 8
+    },
+    {
+      "id": "signal-024",
+      "title": "Mock Signal 24: Demographic Shift in East Asian Labor Markets",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-24",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. This is a mock abstract for signal 24. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T11:29:19.537336",
+      "final_category": "s",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 8.4,
+      "rank": 9
+    },
+    {
+      "id": "signal-025",
+      "title": "Mock Signal 25: New Trade Agreement Reshapes Pacific Economy",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-25",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. This is a mock abstract for signal 25. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T11:29:19.537339",
+      "final_category": "S",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 2,
+      "priority_score": 8.2,
+      "rank": 10
+    },
+    {
+      "id": "signal-026",
+      "title": "Mock Signal 26: Spiritual Well-being in Digital Age Study",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-26",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. This is a mock abstract for signal 26. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T11:29:19.537342",
+      "final_category": "T",
+      "significance": 5,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 8.0,
+      "rank": 11
+    },
+    {
+      "id": "signal-027",
+      "title": "Mock Signal 27: Blockchain Revolution in Financial Services",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-27",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. This is a mock abstract for signal 27. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537345",
+      "final_category": "E",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 7.8,
+      "rank": 12
+    },
+    {
+      "id": "signal-028",
+      "title": "Mock Signal 28: Gene Editing Regulation Update 2026",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-28",
+        "published_date": "2026-01-24"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. This is a mock abstract for signal 28. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537347",
+      "final_category": "E",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 7.6,
+      "rank": 13
+    },
+    {
+      "id": "signal-029",
+      "title": "Mock Signal 29: Urban Migration Patterns Post-Pandemic",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-29",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. This is a mock abstract for signal 29. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-01-30T11:29:19.537352",
+      "final_category": "P",
+      "significance": 2,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 7.4,
+      "rank": 14
+    },
+    {
+      "id": "signal-030",
+      "title": "Mock Signal 30: Carbon Neutral Technology Adoption Accelerates",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-30",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. This is a mock abstract for signal 30. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T11:29:19.537355",
+      "final_category": "s",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 7.199999999999999,
+      "rank": 15
+    },
+    {
+      "id": "signal-031",
+      "title": "Mock Signal 31: Quantum Computing Breakthrough in Drug Discovery",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-31",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. This is a mock abstract for signal 31. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T11:29:19.537358",
+      "final_category": "S",
+      "significance": 2,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 2,
+      "priority_score": 7.0,
+      "rank": 16
+    },
+    {
+      "id": "signal-032",
+      "title": "Mock Signal 32: AI Ethics Framework for Autonomous Systems",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-32",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. This is a mock abstract for signal 32. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T11:29:19.537360",
+      "final_category": "T",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 6.8,
+      "rank": 17
+    },
+    {
+      "id": "signal-033",
+      "title": "Mock Signal 33: Climate Change Impact on Global Supply Chains",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-33",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. This is a mock abstract for signal 33. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537363",
+      "final_category": "E",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 6.6,
+      "rank": 18
+    },
+    {
+      "id": "signal-034",
+      "title": "Mock Signal 34: Demographic Shift in East Asian Labor Markets",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-34",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. This is a mock abstract for signal 34. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537366",
+      "final_category": "E",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 2,
+      "priority_score": 6.4,
+      "rank": 19
+    },
+    {
+      "id": "signal-035",
+      "title": "Mock Signal 35: New Trade Agreement Reshapes Pacific Economy",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-35",
+        "published_date": "2026-01-24"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. This is a mock abstract for signal 35. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-01-30T11:29:19.537369",
+      "final_category": "P",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 6.199999999999999,
+      "rank": 20
+    },
+    {
+      "id": "signal-036",
+      "title": "Mock Signal 36: Spiritual Well-being in Digital Age Study",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-36",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. This is a mock abstract for signal 36. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T11:29:19.537372",
+      "final_category": "s",
+      "significance": 2,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 6.0,
+      "rank": 21
+    },
+    {
+      "id": "signal-037",
+      "title": "Mock Signal 37: Blockchain Revolution in Financial Services",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-37",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. This is a mock abstract for signal 37. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T11:29:19.537374",
+      "final_category": "S",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 5.8,
+      "rank": 22
+    },
+    {
+      "id": "signal-038",
+      "title": "Mock Signal 38: Gene Editing Regulation Update 2026",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-38",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. This is a mock abstract for signal 38. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T11:29:19.537378",
+      "final_category": "T",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 5.6,
+      "rank": 23
+    },
+    {
+      "id": "signal-039",
+      "title": "Mock Signal 39: Urban Migration Patterns Post-Pandemic",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-39",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. This is a mock abstract for signal 39. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537381",
+      "final_category": "E",
+      "significance": 5,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 4,
+      "priority_score": 5.3999999999999995,
+      "rank": 24
+    },
+    {
+      "id": "signal-040",
+      "title": "Mock Signal 40: Carbon Neutral Technology Adoption Accelerates",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-40",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. This is a mock abstract for signal 40. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537384",
+      "final_category": "E",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 5.199999999999999,
+      "rank": 25
+    },
+    {
+      "id": "signal-041",
+      "title": "Mock Signal 41: Quantum Computing Breakthrough in Drug Discovery",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-41",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. This is a mock abstract for signal 41. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-01-30T11:29:19.537387",
+      "final_category": "P",
+      "significance": 2,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 5.0,
+      "rank": 26
+    },
+    {
+      "id": "signal-042",
+      "title": "Mock Signal 42: AI Ethics Framework for Autonomous Systems",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-42",
+        "published_date": "2026-01-24"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. This is a mock abstract for signal 42. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T11:29:19.537389",
+      "final_category": "s",
+      "significance": 2,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 4.8,
+      "rank": 27
+    },
+    {
+      "id": "signal-043",
+      "title": "Mock Signal 43: Climate Change Impact on Global Supply Chains",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-43",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. This is a mock abstract for signal 43. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T11:29:19.537392",
+      "final_category": "S",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 4.6,
+      "rank": 28
+    },
+    {
+      "id": "signal-044",
+      "title": "Mock Signal 44: Demographic Shift in East Asian Labor Markets",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-44",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. This is a mock abstract for signal 44. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T11:29:19.537395",
+      "final_category": "T",
+      "significance": 5,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 4.3999999999999995,
+      "rank": 29
+    },
+    {
+      "id": "signal-045",
+      "title": "Mock Signal 45: New Trade Agreement Reshapes Pacific Economy",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-45",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. This is a mock abstract for signal 45. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537398",
+      "final_category": "E",
+      "significance": 4,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 4.199999999999999,
+      "rank": 30
+    },
+    {
+      "id": "signal-046",
+      "title": "Mock Signal 46: Spiritual Well-being in Digital Age Study",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-46",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. This is a mock abstract for signal 46. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-01-30T11:29:19.537400",
+      "final_category": "E",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 4.0,
+      "rank": 31
+    },
+    {
+      "id": "signal-047",
+      "title": "Mock Signal 47: Blockchain Revolution in Financial Services",
+      "source": {
+        "name": "TechCrunch",
+        "type": "academic",
+        "url": "https://example.com/article-47",
+        "published_date": "2026-01-26"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. This is a mock abstract for signal 47. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-01-30T11:29:19.537403",
+      "final_category": "P",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 5,
+      "priority_score": 3.8,
+      "rank": 32
+    },
+    {
+      "id": "signal-048",
+      "title": "Mock Signal 48: Gene Editing Regulation Update 2026",
+      "source": {
+        "name": "MIT Tech Review",
+        "type": "blog",
+        "url": "https://example.com/article-48",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. This is a mock abstract for signal 48. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-01-30T11:29:19.537406",
+      "final_category": "s",
+      "significance": 1,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 3.5999999999999996,
+      "rank": 33
+    },
+    {
+      "id": "signal-049",
+      "title": "Mock Signal 49: Urban Migration Patterns Post-Pandemic",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://example.com/article-49",
+        "published_date": "2026-01-24"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. This is a mock abstract for signal 49. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-01-30T11:29:19.537410",
+      "final_category": "S",
+      "significance": 5,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 2,
+      "priority_score": 3.3999999999999995,
+      "rank": 34
+    },
+    {
+      "id": "signal-050",
+      "title": "Mock Signal 50: Carbon Neutral Technology Adoption Accelerates",
+      "source": {
+        "name": "Nature",
+        "type": "blog",
+        "url": "https://example.com/article-50",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. This is a mock abstract for signal 50. ",
+        "keywords": [
+          "keyword0",
+          "keyword1",
+          "keyword2",
+          "keyword3",
+          "keyword4"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T11:29:19.537413",
+      "final_category": "T",
+      "significance": 3,
+      "accuracy": 4,
+      "confidence": 4,
+      "innovation": 3,
+      "priority_score": 3.1999999999999993,
+      "rank": 35
+    }
+  ]
+}

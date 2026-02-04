@@ -1,0 +1,813 @@
+{
+  "agent_metadata": {
+    "agent_name": "blog-agent",
+    "model_used": "haiku",
+    "articles_collected": 30,
+    "sources_scanned": 2,
+    "scan_date": "2026-01-30",
+    "status": "success",
+    "execution_time": 0.55,
+    "process_id": 48569
+  },
+  "items": [
+    {
+      "id": "techcrunch-3946df596f9a",
+      "title": "How Sequoia-backed Ethos reached the public market while rivals fell short",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/how-sequoia-backed-ethos-reached-the-public-market-while-rivals-fell-short/",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "How Sequoia-backed Ethos reached the public market while rivals fell short",
+        "keywords": [
+          "fintech",
+          "ethos",
+          "insuretech",
+          "ipo",
+          "sequoia capital"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Marina Temkin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111596"
+    },
+    {
+      "id": "techcrunch-bfc55b6a9417",
+      "title": "The iPhone just had its best quarter ever",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "The iPhone just had its best quarter ever",
+        "keywords": [
+          "hardware",
+          "apple",
+          "china",
+          "iphone",
+          "tim cook"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lucas Ropek"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111618"
+    },
+    {
+      "id": "techcrunch-480fa6dd21f7",
+      "title": "Guys, I don’t think Tim Cook knows how to monetize AI",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/guys-i-dont-think-tim-cook-knows-how-to-monetize-ai/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Guys, I don’t think Tim Cook knows how to monetize AI",
+        "keywords": [
+          "ai",
+          "tim cook"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Amanda Silberling"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111633"
+    },
+    {
+      "id": "techcrunch-8f0eea186e84",
+      "title": "Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/elon-musk-spacex-tesla-xai-merger-talks-ipo-reuters/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports",
+        "keywords": [
+          "ai",
+          "space",
+          "elon musk",
+          "mergers and acquisitions",
+          "spacex",
+          "tesla",
+          "xai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Amanda Silberling, Kirsten Korosec"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111648"
+    },
+    {
+      "id": "techcrunch-6ce5fb18223d",
+      "title": "Amazon is reportedly in talks to invest $50B in OpenAI",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Amazon is reportedly in talks to invest $50B in OpenAI",
+        "keywords": [
+          "ai",
+          "amazon",
+          "anthropic",
+          "in brief",
+          "microsoft",
+          "openai",
+          "sam altman"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lucas Ropek"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111661"
+    },
+    {
+      "id": "techcrunch-665f3a86fab2",
+      "title": "Medium gives employees Friday off to participate in national strike protesting ICE",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/medium-gives-employees-friday-off-to-participate-in-national-strike-protesting-ice/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Medium gives employees Friday off to participate in national strike protesting ICE",
+        "keywords": [
+          "government & policy",
+          "ice",
+          "medium",
+          "protest",
+          "trump"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111673"
+    },
+    {
+      "id": "techcrunch-21fe1c78fa6d",
+      "title": "Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/microsoft-wont-stop-buying-ai-chips-from-nvidia-amd-even-after-launching-its-own-nadella-says/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+        "keywords": [
+          "enterprise",
+          "hardware",
+          "tc",
+          "ai",
+          "ai chips",
+          "microsoft",
+          "nvidia"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Julie Bort"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111687"
+    },
+    {
+      "id": "techcrunch-fbe0e039ea04",
+      "title": "Fintech firm Marquis blames hack at firewall provider SonicWall for its data breach",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/fintech-firm-marquis-blames-hack-at-firewall-provider-sonicwall-for-its-data-breach/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Fintech firm Marquis blames hack at firewall provider SonicWall for its data breach",
+        "keywords": [
+          "security",
+          "cybersecurity",
+          "data breach",
+          "marquis",
+          "ransomware",
+          "sonicwall"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Zack Whittaker"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111698"
+    },
+    {
+      "id": "techcrunch-1a5c0e67f101",
+      "title": "Satya Nadella insists people are using Microsoft’s Copilot AI a lot",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/satya-nadella-insists-people-are-using-microsofts-copilot-ai-a-lot/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Satya Nadella insists people are using Microsoft’s Copilot AI a lot",
+        "keywords": [
+          "ai",
+          "enterprise",
+          "microsoft",
+          "microsoft copilot",
+          "satya nadella"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Julie Bort"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111710"
+    },
+    {
+      "id": "techcrunch-9a8080eff042",
+      "title": "Apple buys Israeli startup Q.ai as the AI race heats up",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/apple-buys-israeli-startup-q-ai-as-the-ai-race-heats-up/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Apple buys Israeli startup Q.ai as the AI race heats up",
+        "keywords": [
+          "ai",
+          "hardware",
+          "startups",
+          "apple",
+          "in brief",
+          "mergers and acquisitions"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lauren Forristal"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111721"
+    },
+    {
+      "id": "techcrunch-58fa4f115a55",
+      "title": "Waymo robotaxis are now giving rides to and from San Francisco International Airport",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/waymo-sfo-airport-robotaxis/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Waymo robotaxis are now giving rides to and from San Francisco International Airport",
+        "keywords": [
+          "transportation",
+          "robotaxis",
+          "waymo"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Kirsten Korosec"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111730"
+    },
+    {
+      "id": "techcrunch-664b87b36ed9",
+      "title": "I built marshmallow castles in Google’s new AI-world generator",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/i-built-marshmallow-castles-in-googles-new-ai-world-generator-project-genie/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "I built marshmallow castles in Google’s new AI-world generator",
+        "keywords": [
+          "ai",
+          "google",
+          "exclusive",
+          "gemini",
+          "google deepmind",
+          "world models",
+          "genie 3",
+          "nano banana pro",
+          "project genie"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Bellan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111743"
+    },
+    {
+      "id": "techcrunch-8807311fdd5e",
+      "title": "OpenAI’s Sora app is struggling after its stellar launch",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/openais-sora-app-is-struggling-after-its-stellar-launch/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "OpenAI’s Sora app is struggling after its stellar launch",
+        "keywords": [
+          "ai",
+          "apps",
+          "social",
+          "ai apps",
+          "openai",
+          "sora"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111754"
+    },
+    {
+      "id": "techcrunch-c475207b48ff",
+      "title": "Music publishers sue Anthropic for $3B over ‘flagrant piracy’ of 20,000 works",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/music-publishers-sue-anthropic-for-3b-over-flagrant-piracy-of-20000-works/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Music publishers sue Anthropic for $3B over ‘flagrant piracy’ of 20,000 works",
+        "keywords": [
+          "ai",
+          "tc",
+          "anthropic",
+          "copyright infringement",
+          "lawsuit",
+          "universal music group"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Amanda Silberling"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111766"
+    },
+    {
+      "id": "techcrunch-904324d998b5",
+      "title": "India is teaching Google how AI in education can scale",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/india-is-teaching-google-how-ai-in-education-can-scale/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "India is teaching Google how AI in education can scale",
+        "keywords": [
+          "ai",
+          "education ai",
+          "gemini",
+          "google",
+          "google gemini"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Jagmeet Singh"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111776"
+    },
+    {
+      "id": "techcrunch-65022284c2cf",
+      "title": "Flapping Airplanes and the promise of research-driven AI",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/flapping-airplanes-and-the-promise-of-research-driven-ai/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Flapping Airplanes and the promise of research-driven AI",
+        "keywords": [
+          "ai",
+          "flapping airplanes",
+          "in brief",
+          "research",
+          "scaling"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Russell Brandom"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111785"
+    },
+    {
+      "id": "techcrunch-95f510ad6401",
+      "title": "Tesla’s energy storage business is growing faster than any other part of the company",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/teslas-energy-storage-business-is-growing-faster-than-any-other-part-of-the-company/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Tesla’s energy storage business is growing faster than any other part of the company",
+        "keywords": [
+          "climate",
+          "transportation",
+          "batteries",
+          "energy storage",
+          "megapack",
+          "powerwall",
+          "tesla"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Tim De Chant"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111797"
+    },
+    {
+      "id": "techcrunch-7d096144bf58",
+      "title": "Spotify rolls out group chats",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/spotify-rolls-out-group-chats/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Spotify rolls out group chats",
+        "keywords": [
+          "apps",
+          "social",
+          "in brief",
+          "social networking",
+          "spotify",
+          "streaming music"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111807"
+    },
+    {
+      "id": "techcrunch-d64983d4f895",
+      "title": "Apple’s new iPhone and iPad security feature limits cell networks from collecting precise location data",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/apples-new-iphone-and-ipad-security-feature-limits-cell-networks-from-collecting-precise-location-data/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Apple’s new iPhone and iPad security feature limits cell networks from collecting precise location data",
+        "keywords": [
+          "government & policy",
+          "privacy",
+          "security",
+          "ipad",
+          "iphone",
+          "location data"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Zack Whittaker"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111820"
+    },
+    {
+      "id": "techcrunch-6274faa649f5",
+      "title": "Google Maps now lets you access Gemini while walking and cycling",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/01/29/google-maps-now-lets-you-access-gemini-while-walking-and-cycling/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Google Maps now lets you access Gemini while walking and cycling",
+        "keywords": [
+          "ai",
+          "apps",
+          "gemini",
+          "google",
+          "google maps"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.111830"
+    },
+    {
+      "id": "mit-technology-review-8ff1ee9780bc",
+      "title": "The AI Hype Index: Grok makes porn, and Claude Code nails your job",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It’s just that you never know which one you’re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what this&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "ai",
+          "ai hype index",
+          "app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Michelle Kim"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500418"
+    },
+    {
+      "id": "mit-technology-review-432c89d00a25",
+      "title": "DHS is using Google and Adobe AI to make videos",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda—some of which appears to be made with AI—and as&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "artificial intelligence"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "James O'Donnell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500445"
+    },
+    {
+      "id": "mit-technology-review-78694e36ea49",
+      "title": "The Download: inside the Vitalism movement, and why AI’s “memory” is a privacy problem",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/29/1131925/the-download-inside-the-vitalism-movement-and-why-ais-memory-is-a-privacy-problem/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the Vitalists: the hardcore longevity enthusiasts who believe death is “wrong” Last April, an excited crowd gathered at a compound in Berkeley, California, for a three-day event called the Vitalist Bay Summit.&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500467"
+    },
+    {
+      "id": "mit-technology-review-0b7540487453",
+      "title": "How the grid can ride out winter storms",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/29/1131863/grid-winter-storms/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "The eastern half of the US saw a monster snowstorm over the weekend. The good news is the grid has largely been able to keep up with the freezing temperatures and increased demand. But there were some signs of strain, particularly for fossil-fuel plants. One analysis found that PJM, the nation’s largest grid operator, saw&#8230;",
+        "keywords": [
+          "climate change and energy",
+          "app",
+          "the spark"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Casey Crownhart"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500488"
+    },
+    {
+      "id": "mit-technology-review-cae1066c969a",
+      "title": "Meet the Vitalists: the hardcore longevity enthusiasts who believe death is “wrong”",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/29/1131815/vitalism-longevity-enthusiasts-influence/",
+        "published_date": "2026-01-29"
+      },
+      "content": {
+        "abstract": "“Who here believes involuntary death is a good thing?”&#160; Nathan Cheng has been delivering similar versions of this speech over the last couple of years, so I knew what was coming. He was about to try to convince the 80 or so people in the audience that death is bad. And that defeating it should&#8230;",
+        "keywords": [
+          "biotechnology and health",
+          "app",
+          "the big story"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Jessica Hamzelou"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500508"
+    },
+    {
+      "id": "mit-technology-review-66606b8da84c",
+      "title": "Roundtables: Why AI Companies Are Betting on Next-Gen Nuclear",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/28/1131340/roundtables-why-ai-companies-are-betting-on-next-gen-nuclear/",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "AI is driving unprecedented investment for massive data centers and an energy supply that can support its huge computational appetite. One potential source of electricity for these facilities is next-generation nuclear power plants, which could be cheaper to construct and safer to operate than their predecessors. Watch a discussion with our editors and reporters on&#8230;",
+        "keywords": [
+          "subscriber-only stories"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "MIT Technology Review"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500528"
+    },
+    {
+      "id": "mit-technology-review-fd84872e94c8",
+      "title": "What AI “remembers” about you is privacy’s next frontier",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/28/1131835/what-ai-remembers-about-you-is-privacys-next-frontier/",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.&#160; Earlier this month, Google announced Personal Intelligence, a new way for people to interact with the company’s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini “more personal, proactive,&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "artificial intelligence",
+          "opinion"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Miranda Bogen, Ruchika Joshi"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500550"
+    },
+    {
+      "id": "mit-technology-review-a2225af0b24e",
+      "title": "Rules fail at the prompt, succeed at the boundary",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/28/1131003/rules-fail-at-the-prompt-succeed-at-the-boundary/",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "From the Gemini Calendar prompt-injection attack of 2026 to the September 2025 state-sponsored hack using Anthropic’s Claude code as an automated intrusion engine, the coercion of human-in-the-loop agentic actions and fully autonomous agentic workflows are the new attack vector for hackers. In the Anthropic case, roughly 30 organizations across tech, finance, manufacturing, and government were&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "sponsored"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Jessica Hammond"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500571"
+    },
+    {
+      "id": "mit-technology-review-e6a2f445f3b3",
+      "title": "The Download: A bid to treat blindness, and bridging the internet divide",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/28/1131830/the-download-a-bid-to-treat-blindness-and-bridging-the-internet-divide/",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The first human test of a rejuvenation method will begin “shortly” Life Biosciences, a small Boston startup founded by Harvard professor and life-extension evangelist David Sinclair, has won FDA approval to proceed with&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500591"
+    },
+    {
+      "id": "mit-technology-review-445c0ac5251c",
+      "title": "The first human test of a rejuvenation method will begin “shortly”",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/27/1131796/the-first-human-test-of-a-rejuvenation-method-will-begin-shortly/",
+        "published_date": "2026-01-27"
+      },
+      "content": {
+        "abstract": "When Elon Musk was at Davos last week, an interviewer asked him if he thought aging could be reversed. Musk said he hasn’t put much time into the problem but suspects it is “very solvable” and that when scientists discover why we age, it’s going to be something “obvious.” Not long after, the Harvard professor&#8230;",
+        "keywords": [
+          "biotechnology and health",
+          "app",
+          "biotech",
+          "why it matters"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Antonio Regalado"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-01-30T18:50:41.500611"
+    }
+  ]
+}

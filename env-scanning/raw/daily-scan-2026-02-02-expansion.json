@@ -1,0 +1,4325 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-02",
+    "stage": "B_expansion",
+    "sources_scanned": 15,
+    "sources_failed": 3,
+    "total_items": 140,
+    "execution_time": 21.94,
+    "failed_sources": [
+      "PubMed Central (500 Server Error: Internal Server Error for url: https://pubmed.ncbi.nlm.nih.gov/rss",
+      "World Bank Blogs (404 Client Error: Not Found for url: https://blogs.worldbank.org/en/feed)",
+      "EUR-Lex Recent Acts (404 Client Error: Not Found for url: https://eur-lex.europa.eu/EN/display-feed."
+    ],
+    "timestamp": "2026-02-02T11:26:24.662166"
+  },
+  "items": [
+    {
+      "id": "nature-news-f991933c2db1",
+      "title": "Publisher Correction: A domed pachycephalosaur from the early Cretaceous of Mongolia",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10184-5",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/s41586-026-10184-5Publisher Correction: A domed pachycephalosaur from the early Cretaceous of Mongolia",
+        "keywords": [
+          "publisher",
+          "correction:",
+          "domed",
+          "pachycephalosaur",
+          "from",
+          "early",
+          "cretaceous",
+          "mongolia",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Lindsay E. Zanno"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424643"
+    },
+    {
+      "id": "nature-news-ede242e9de6b",
+      "title": "Publisher Correction: <i>Nanotyrannus</i> and <i>Tyrannosaurus</i> coexisted at the close of the Cretaceous",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10185-4",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/s41586-026-10185-4Publisher Correction: Nanotyrannus and Tyrannosaurus coexisted at the close of the Cretaceous",
+        "keywords": [
+          "publisher",
+          "correction:",
+          "<i>nanotyrannus</i>",
+          "<i>tyrannosaurus</i>",
+          "coexisted",
+          "close",
+          "cretaceous",
+          "nature,",
+          "published",
+          "online:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "James G. Napoli"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424703"
+    },
+    {
+      "id": "nature-news-a20211b89a16",
+      "title": "Largest galaxy survey yet confirms that the Universe is not clumpy enough",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00276-7",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00276-7The six-year results from the Dark Energy Survey highlight unresolved tensions in standard cosmological theory.",
+        "keywords": [
+          "largest",
+          "galaxy",
+          "survey",
+          "confirms",
+          "that",
+          "universe",
+          "clumpy",
+          "enough",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Unknown"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424751"
+    },
+    {
+      "id": "nature-news-8536f4387c0f",
+      "title": "Briefing Chat: What Brazilian centenarians could reveal about the science of ageing",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00322-4",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00322-4Nature staff discuss some of the week\u2019s top science news.",
+        "keywords": [
+          "briefing",
+          "chat:",
+          "what",
+          "brazilian",
+          "centenarians",
+          "could",
+          "reveal",
+          "about",
+          "science",
+          "ageing"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Nick Petri\u0107 Howe"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424800"
+    },
+    {
+      "id": "nature-news-f68fa4c0cb45",
+      "title": "Light-powered bacteria become living chemical factories",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00275-8",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00275-8Engineered Escherichia coli could open the door to more sustainable routes to new drugs and other chemicals.",
+        "keywords": [
+          "light-powered",
+          "bacteria",
+          "become",
+          "living",
+          "chemical",
+          "factories",
+          "nature,",
+          "published",
+          "online:",
+          "january"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Unknown"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424840"
+    },
+    {
+      "id": "nature-news-f43a59548c68",
+      "title": "This robot hand detaches and walks by itself",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00327-z",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00327-zSix-fingered appendage can detach, crawl and manipulate objects",
+        "keywords": [
+          "this",
+          "robot",
+          "hand",
+          "detaches",
+          "walks",
+          "itself",
+          "nature,",
+          "published",
+          "online:",
+          "january"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Dan Fox"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424872"
+    },
+    {
+      "id": "nature-news-0631ceb08d18",
+      "title": "Can academia handle my religious faith?",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00154-2",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00154-2Religious faith is a fundamental part of many academics\u2019 identities, but some are nervous of talking about it at work.",
+        "keywords": [
+          "academia",
+          "handle",
+          "religious",
+          "faith?",
+          "nature,",
+          "published",
+          "online:",
+          "january",
+          "2026;",
+          "doi:10.1038/d41586-026-00154-2religious"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Adam Levy"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424916"
+    },
+    {
+      "id": "nature-news-02c78aeb32d5",
+      "title": "How DeepMind's genome AI could help solve rare disease mysteries",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00302-8",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00302-8Hackathons using AlphaGenome and other AI models are hunting down the genetic causes of devastating conditions that have evaded diagnosis.",
+        "keywords": [
+          "deepmind's",
+          "genome",
+          "could",
+          "help",
+          "solve",
+          "rare",
+          "disease",
+          "mysteries",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Ewen Callaway"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424956"
+    },
+    {
+      "id": "nature-news-2f3beb630000",
+      "title": "China is betting on \u2018optical\u2019 computer chips \u2013 will they power AI?",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00274-9",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00274-9Semiconductor chips that process light rather than electricity could boost processing speeds and reduce energy use.",
+        "keywords": [
+          "china",
+          "betting",
+          "\u2018optical\u2019",
+          "computer",
+          "chips",
+          "will",
+          "they",
+          "power",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Mohana Basu"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.424996"
+    },
+    {
+      "id": "nature-news-4715faebf0e0",
+      "title": "Longevity is in the genes: half of lifespan is heritable",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00300-w",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00300-wUnderstanding the genetic controls of ageing could lead to more therapies that forestall it.",
+        "keywords": [
+          "longevity",
+          "genes:",
+          "half",
+          "lifespan",
+          "heritable",
+          "nature,",
+          "published",
+          "online:",
+          "january",
+          "2026;"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Max Kozlov"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425031"
+    },
+    {
+      "id": "nature-news-e2b3fc2f14fc",
+      "title": "Genetically engineered \u2018stinkweed\u2019 comes up roses for making seed oil",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00277-6",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00277-6Field pennycress could become a valuable winter crop, with benefits for both carbon storage and farm profitability.",
+        "keywords": [
+          "genetically",
+          "engineered",
+          "\u2018stinkweed\u2019",
+          "comes",
+          "roses",
+          "making",
+          "seed",
+          "nature,",
+          "published",
+          "online:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Unknown"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425074"
+    },
+    {
+      "id": "nature-news-8d89a09dd533",
+      "title": "Author Correction: Hunter-gatherer sea voyages extended to remotest Mediterranean islands",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-025-10024-y",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/s41586-025-10024-yAuthor Correction: Hunter-gatherer sea voyages extended to remotest Mediterranean islands",
+        "keywords": [
+          "author",
+          "correction:",
+          "hunter-gatherer",
+          "voyages",
+          "extended",
+          "remotest",
+          "mediterranean",
+          "islands",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Nicholas C. Vella"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425112"
+    },
+    {
+      "id": "nature-news-98288dfb4428",
+      "title": "Still conscious? Brain marker signals when anaesthesia takes hold",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00301-9",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00301-9De-synchronized electrical activity marks the loss of awareness.",
+        "keywords": [
+          "still",
+          "conscious?",
+          "brain",
+          "marker",
+          "signals",
+          "when",
+          "anaesthesia",
+          "takes",
+          "hold",
+          "nature,"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Liam Drew"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425144"
+    },
+    {
+      "id": "nature-news-739001f9e22c",
+      "title": "ArXiv says submissions must be in English: are AI translators up for the job?",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00229-0",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00229-0The preprint repository\u2019s requirement could boost the use of large language models to translate scientific texts.",
+        "keywords": [
+          "arxiv",
+          "says",
+          "submissions",
+          "must",
+          "english:",
+          "translators",
+          "job?",
+          "nature,",
+          "published",
+          "online:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Nicola Jones"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425186"
+    },
+    {
+      "id": "nature-news-4c63f8ea2779",
+      "title": "This AI has chemical expertise \u2014 and helps synthesize 35 new compounds",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00240-5",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00240-5An open-source program helps researchers bypass a major bottleneck in the process chemical synthesis.",
+        "keywords": [
+          "this",
+          "chemical",
+          "expertise",
+          "helps",
+          "synthesize",
+          "compounds",
+          "nature,",
+          "published",
+          "online:",
+          "january"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Andy Extance"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425225"
+    },
+    {
+      "id": "nature-news-20d8dde9f755",
+      "title": "Developmental convergence and divergence in human stem cell models of autism",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-025-10047-5",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/s41586-025-10047-5Risk associated with genetically defined forms of autism spectrum disorder (ASD) can propagate by means of transcriptional regulation to affect convergently dysregulated pathways, providing insight into the convergent impact of ASD genetic risk on human neurodevelopment.",
+        "keywords": [
+          "developmental",
+          "convergence",
+          "divergence",
+          "human",
+          "stem",
+          "cell",
+          "models",
+          "autism",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Daniel H. Geschwind"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:03.425278"
+    },
+    {
+      "id": "nature-news-11149aff7162",
+      "title": "Daily briefing: Brain\u2013immune crosstalk worsens the damage of heart attacks",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00319-z",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00319-zVagus nerve signalling causes damaging post-heart-attack inflammation. Plus, why birds decorate their nests with \u2018tails\u2019 and the health benefits of forest bathing.",
+        "keywords": [
+          "daily",
+          "briefing:",
+          "brain\u2013immune",
+          "crosstalk",
+          "worsens",
+          "damage",
+          "heart",
+          "attacks",
+          "nature,",
+          "published"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Jacob Smith"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425324"
+    },
+    {
+      "id": "nature-news-e4d3e7298e66",
+      "title": "48 hours without lungs: artificial organ kept man alive until transplant",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00239-y",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00239-yThe external, artificial-lung system could be used to treat other people who are critically unwell and awaiting transplants.",
+        "keywords": [
+          "hours",
+          "without",
+          "lungs:",
+          "artificial",
+          "organ",
+          "kept",
+          "alive",
+          "until",
+          "transplant",
+          "nature,"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Rachel Fieldhouse"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425363"
+    },
+    {
+      "id": "nature-news-6282f4826e9b",
+      "title": "Five ways to make the academic workplace happier and healthier this year",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-025-04162-6",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-025-04162-6Despite attempts by many universities to modernize their policies on working conditions and misconduct, the academic system has pushed back. Here\u2019s how to ensure lasting change.",
+        "keywords": [
+          "five",
+          "ways",
+          "make",
+          "academic",
+          "workplace",
+          "happier",
+          "healthier",
+          "this",
+          "year",
+          "nature,"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Robert A. Harris"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425409"
+    },
+    {
+      "id": "nature-news-7ddc41ddcae5",
+      "title": "Critical social-media posts linked to retractions of scientific papers",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-025-04146-6",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-025-04146-6Online discussions can catch errors or fraud in articles that can be missed in peer review.",
+        "keywords": [
+          "critical",
+          "social-media",
+          "posts",
+          "linked",
+          "retractions",
+          "scientific",
+          "papers",
+          "nature,",
+          "published",
+          "online:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.nature.com/nature.rss",
+        "author": "Rachel Fieldhouse"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.425445"
+    },
+    {
+      "id": "science-magazine-fc8064a9a746",
+      "title": "Traces of ancient seafloor cataclysms turn up in the Himalayas",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/traces-ancient-seafloor-cataclysms-turn-himalayas",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Traces of ancient seafloor cataclysms turn up in the Himalayas",
+        "keywords": [
+          "traces",
+          "ancient",
+          "seafloor",
+          "cataclysms",
+          "turn",
+          "himalayas",
+          "traces",
+          "ancient",
+          "seafloor",
+          "cataclysms"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "James Dinneen"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.935879"
+    },
+    {
+      "id": "science-magazine-3cb136b35f1d",
+      "title": "Trump slump? Attendance plummets at some science meetings, but others hold steady",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/trump-slump-attendance-plummets-some-science-meetings-others-hold-steady",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Trump slump? Attendance plummets at some science meetings, but others hold steady",
+        "keywords": [
+          "trump",
+          "slump?",
+          "attendance",
+          "plummets",
+          "some",
+          "science",
+          "meetings,",
+          "others",
+          "hold",
+          "steady"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Katie Langin"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.935941"
+    },
+    {
+      "id": "science-magazine-b4632fa9e0ff",
+      "title": "U.K. physics community braces for deep funding cuts",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/u-k-physics-community-braces-deep-funding-cuts",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "U.K. physics community braces for deep funding cuts",
+        "keywords": [
+          "u.k.",
+          "physics",
+          "community",
+          "braces",
+          "deep",
+          "funding",
+          "cuts",
+          "u.k.",
+          "physics",
+          "community"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Perri Thaler"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.935988"
+    },
+    {
+      "id": "science-magazine-0b77eb14863d",
+      "title": "As humans return to the Moon, scientists confront the dangers of deep-space radiation",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/humans-return-moon-scientists-confront-dangers-deep-space-radiation",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "As humans return to the Moon, scientists confront the dangers of deep-space radiation",
+        "keywords": [
+          "humans",
+          "return",
+          "moon,",
+          "scientists",
+          "confront",
+          "dangers",
+          "deep-space",
+          "radiation",
+          "humans",
+          "return"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Elie Dolgin"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936046"
+    },
+    {
+      "id": "science-magazine-6683516f6d76",
+      "title": "Snakes on a train? Deadly reptiles may be hopping railcars in India",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/snakes-train-deadly-reptiles-may-be-hopping-railcars-india",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Snakes on a train? Deadly reptiles may be hopping railcars in India",
+        "keywords": [
+          "snakes",
+          "train?",
+          "deadly",
+          "reptiles",
+          "hopping",
+          "railcars",
+          "india",
+          "snakes",
+          "train?",
+          "deadly"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Erik Stokstad"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936092"
+    },
+    {
+      "id": "science-magazine-1268e19f17ea",
+      "title": "In a twist, polar bears are getting fatter in the Norwegian Arctic",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/twist-polar-bears-are-getting-fatter-norwegian-arctic",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "In a twist, polar bears are getting fatter in the Norwegian Arctic",
+        "keywords": [
+          "twist,",
+          "polar",
+          "bears",
+          "getting",
+          "fatter",
+          "norwegian",
+          "arctic",
+          "twist,",
+          "polar",
+          "bears"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Warren Cornwall"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936138"
+    },
+    {
+      "id": "science-magazine-79618a354444",
+      "title": "Earth-size planet spotted with yearlong orbit",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/earth-size-planet-spotted-yearlong-orbit",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Earth-size planet spotted with yearlong orbit",
+        "keywords": [
+          "earth-size",
+          "planet",
+          "spotted",
+          "yearlong",
+          "orbit",
+          "earth-size",
+          "planet",
+          "spotted",
+          "yearlong",
+          "orbit"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Elise Cutts"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936181"
+    },
+    {
+      "id": "science-magazine-16de9f702869",
+      "title": "A motley crew of fossils illuminates an ancient, mysterious extinction event",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/motley-crew-fossils-illuminates-ancient-mysterious-extinction-event",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "A motley crew of fossils illuminates an ancient, mysterious extinction event",
+        "keywords": [
+          "motley",
+          "crew",
+          "fossils",
+          "illuminates",
+          "ancient,",
+          "mysterious",
+          "extinction",
+          "event",
+          "motley",
+          "crew"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Perri Thaler"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936230"
+    },
+    {
+      "id": "science-magazine-5deefc6b11fc",
+      "title": "Splat! Could roadkill replace some studies of live animals?",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/splat-could-roadkill-replace-some-studies-live-animals",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Splat! Could roadkill replace some studies of live animals?",
+        "keywords": [
+          "splat!",
+          "could",
+          "roadkill",
+          "replace",
+          "some",
+          "studies",
+          "live",
+          "animals?",
+          "splat!",
+          "could"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Celina Zhao"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936270"
+    },
+    {
+      "id": "science-magazine-fe3be06bf230",
+      "title": "Fluttering \u2018tails\u2019 on bird nests confuse would-be predators",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/fluttering-tails-bird-nests-confuse-would-be-predators",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Fluttering \u2018tails\u2019 on bird nests confuse would-be predators",
+        "keywords": [
+          "fluttering",
+          "\u2018tails\u2019",
+          "bird",
+          "nests",
+          "confuse",
+          "would-be",
+          "predators",
+          "fluttering",
+          "\u2018tails\u2019",
+          "bird"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.science.org/rss/news_current.xml",
+        "author": "Christa Lest\u00e9-Lasserre"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:03.936321"
+    },
+    {
+      "id": "ieee-spectrum-790a3404d443",
+      "title": "LuSEE-Night: See You on the Far Side of the Moon",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/radio-telescope",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "LuSEE-Night: See You on the Far Side of the Moon",
+        "keywords": [
+          "radio astronomy",
+          "lunar missions",
+          "cosmic dark ages",
+          "lusee-night",
+          "firefly aerospace",
+          "blue ghost mission 2"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Harry Goldstein"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320229"
+    },
+    {
+      "id": "ieee-spectrum-822337a0f836",
+      "title": "How YouTube and Adhesive Tape Are Disrupting Assistive Technology",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/assistive-technology-macgyver",
+        "published_date": "2026-01-31",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "How YouTube and Adhesive Tape Are Disrupting Assistive Technology",
+        "keywords": [
+          "assistive technology",
+          "voice recognition",
+          "motion control",
+          "maker",
+          "maker-movement"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Jason Hahr"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320263"
+    },
+    {
+      "id": "ieee-spectrum-8aa4b70a8020",
+      "title": "Explore the Stratosphere With a DIY Pico balloon",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/explore-stratosphere-diy-pico-balloon",
+        "published_date": "2026-01-31",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Explore the Stratosphere With a DIY Pico balloon",
+        "keywords": [
+          "amateur radio",
+          "amateur science",
+          "ham radio",
+          "pico balloon",
+          "pico ballooning",
+          "type:departments"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "David Schneider"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320293"
+    },
+    {
+      "id": "ieee-spectrum-303a4aa34cb1",
+      "title": "Ode to Very Small Devices",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/poetry-for-engineers-ode",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Ode to Very Small Devices",
+        "keywords": [
+          "poetry",
+          "robotics",
+          "type:departments",
+          "verse-becomes-electric"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Paul Jones"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:04.320314"
+    },
+    {
+      "id": "ieee-spectrum-a08ceaaf7aaa",
+      "title": "Go Global to Make Your Career Go Further",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/global-projects-career-benefits",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Go Global to Make Your Career Go Further",
+        "keywords": [
+          "career advice",
+          "honeywell",
+          "ieee member news",
+          "ieee technology and engineering management society",
+          "project management",
+          "type:ti"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Paul McLaughlin"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320342"
+    },
+    {
+      "id": "ieee-spectrum-b510c5281a53",
+      "title": "Video Friday: Multitasking Robots Smoothly Do the Things Together",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/multitasking-robot",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Video Friday: Multitasking Robots Smoothly Do the Things Together",
+        "keywords": [
+          "humanoid-robots",
+          "video-friday",
+          "commercial-robots",
+          "drones",
+          "educational-robots",
+          "bipedal-robots"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Evan Ackerman"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320369"
+    },
+    {
+      "id": "ieee-spectrum-4eb754ee80f3",
+      "title": "At Age 25, Wikipedia Refuses to Evolve",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/wikipedia-at-25",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "At Age 25, Wikipedia Refuses to Evolve",
+        "keywords": [
+          "ai overviews",
+          "internet",
+          "unpaid labor",
+          "wikimedia enterprise",
+          "wikipedia"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Dariusz Jemielniak"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320391"
+    },
+    {
+      "id": "ieee-spectrum-c9a20296e091",
+      "title": "How Clean-Energy Firms Adapt Messaging in the Trump Era",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/trump-renewable-energy",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "How Clean-Energy Firms Adapt Messaging in the Trump Era",
+        "keywords": [
+          "ai dominance",
+          "energy dominance",
+          "fossil fuels",
+          "trump administration",
+          "trump-administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Julia Tilton"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320417"
+    },
+    {
+      "id": "ieee-spectrum-2a905bfb2b43",
+      "title": "The Art of Asking Questions",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/asking-questions",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The Art of Asking Questions",
+        "keywords": [
+          "tech career development",
+          "practical strategies",
+          "careers",
+          "careers-newsletter"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Rahul Pandey"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320439"
+    },
+    {
+      "id": "ieee-spectrum-048150af7201",
+      "title": "Mapping 6,000 Worlds: The New Era of Exoplanetary Data",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/exoplanets",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Mapping 6,000 Worlds: The New Era of Exoplanetary Data",
+        "keywords": [
+          "astronomy",
+          "exoplanets",
+          "type:departments"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Eliza Strickland"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320460"
+    },
+    {
+      "id": "ieee-spectrum-d18e6845f879",
+      "title": "How Norway Accomplished a Near-Total EV Transition",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/norway-ev-policy-electric-vehicles",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "How Norway Accomplished a Near-Total EV Transition",
+        "keywords": [
+          "type:departments",
+          "5 questions",
+          "evs",
+          "electric-vehicles",
+          "norway"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Lucas Laursen"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320484"
+    },
+    {
+      "id": "ieee-spectrum-a36b78748d0c",
+      "title": "IEEE Brings Hands-On STEM Activities to India\u2019s Rural Areas",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/ieee-stem-activities-rural-india",
+        "published_date": "2026-01-26",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "IEEE Brings Hands-On STEM Activities to India\u2019s Rural Areas",
+        "keywords": [
+          "ieee antennas and propagation society",
+          "ieee microwave theory and techniques",
+          "ieee news",
+          "india",
+          "stem",
+          "students",
+          "type:ti"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Pallab Kr Gogoi"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:04.320518"
+    },
+    {
+      "id": "un-news-c037eaa6ff14",
+      "title": "From Cape Town to London, Deo Kato runs to challenge racism and reclaim the migration narrative",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166858",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "From Cape Town to London, Deo Kato runs to challenge racism and reclaim the migration narrative",
+        "keywords": [
+          "from",
+          "cape",
+          "town",
+          "london,",
+          "kato",
+          "runs",
+          "challenge",
+          "racism",
+          "reclaim",
+          "migration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:11.089795"
+    },
+    {
+      "id": "un-news-79e9fc825daf",
+      "title": "Can workers compete with machines and stay relevant in the AI era?",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166847",
+        "published_date": "2026-01-31",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Can workers compete with machines and stay relevant in the AI era?",
+        "keywords": [
+          "workers",
+          "compete",
+          "machines",
+          "stay",
+          "relevant",
+          "era?",
+          "workers",
+          "compete",
+          "machines",
+          "stay"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.089847"
+    },
+    {
+      "id": "un-news-86c70ff15170",
+      "title": "Myanmar crisis deepens five years after coup, as military ballot entrenches repression",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166866",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Myanmar crisis deepens five years after coup, as military ballot entrenches repression",
+        "keywords": [
+          "myanmar",
+          "crisis",
+          "deepens",
+          "five",
+          "years",
+          "after",
+          "coup,",
+          "military",
+          "ballot",
+          "entrenches"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.089895"
+    },
+    {
+      "id": "un-news-c8a01426372c",
+      "title": "South Sudan: \u2018All the conditions for a human catastrophe are present\u2019",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166865",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "South Sudan: \u2018All the conditions for a human catastrophe are present\u2019",
+        "keywords": [
+          "south",
+          "sudan:",
+          "\u2018all",
+          "conditions",
+          "human",
+          "catastrophe",
+          "present\u2019",
+          "south",
+          "sudan:",
+          "\u2018all"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.089953"
+    },
+    {
+      "id": "un-news-9940949264dc",
+      "title": "World News in Brief: Syria ceasefire welcomed, \u2018Olympic truce\u2019, Ukraine\u2019s freezing children",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166864",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "World News in Brief: Syria ceasefire welcomed, \u2018Olympic truce\u2019, Ukraine\u2019s freezing children",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "syria",
+          "ceasefire",
+          "welcomed,",
+          "\u2018olympic",
+          "truce\u2019,",
+          "ukraine\u2019s",
+          "freezing"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090004"
+    },
+    {
+      "id": "un-news-088903ab1203",
+      "title": "UN watchdog warns Ukraine war remains world\u2019s biggest threat to nuclear safety",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166863",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "UN watchdog warns Ukraine war remains world\u2019s biggest threat to nuclear safety",
+        "keywords": [
+          "watchdog",
+          "warns",
+          "ukraine",
+          "remains",
+          "world\u2019s",
+          "biggest",
+          "threat",
+          "nuclear",
+          "safety",
+          "watchdog"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090053"
+    },
+    {
+      "id": "un-news-3cbf8a7ea959",
+      "title": "Reaching a child in Darfur is \u2018hard-won and fragile\u2019, says UNICEF",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166861",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Reaching a child in Darfur is \u2018hard-won and fragile\u2019, says UNICEF",
+        "keywords": [
+          "reaching",
+          "child",
+          "darfur",
+          "\u2018hard-won",
+          "fragile\u2019,",
+          "says",
+          "unicef",
+          "reaching",
+          "child",
+          "darfur"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090094"
+    },
+    {
+      "id": "un-news-a3faf2601565",
+      "title": "UN chief \u2018deeply concerned\u2019 by escalation of violence in South Sudan",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166859",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "UN chief \u2018deeply concerned\u2019 by escalation of violence in South Sudan",
+        "keywords": [
+          "chief",
+          "\u2018deeply",
+          "concerned\u2019",
+          "escalation",
+          "violence",
+          "south",
+          "sudan",
+          "chief",
+          "\u2018deeply",
+          "concerned\u2019"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090137"
+    },
+    {
+      "id": "un-news-cf44ca8dbede",
+      "title": "Violence roiling Nigeria extends beyond religious lines, amid a deepening humanitarian crisis",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166857",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Violence roiling Nigeria extends beyond religious lines, amid a deepening humanitarian crisis",
+        "keywords": [
+          "violence",
+          "roiling",
+          "nigeria",
+          "extends",
+          "beyond",
+          "religious",
+          "lines,",
+          "amid",
+          "deepening",
+          "humanitarian"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090185"
+    },
+    {
+      "id": "un-news-9aa46a3207cf",
+      "title": "World News in Brief: IOM warning for Sudan returnees, Nipah virus alert for India, food security in Afghanistan",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166855",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "World News in Brief: IOM warning for Sudan returnees, Nipah virus alert for India, food security in Afghanistan",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "warning",
+          "sudan",
+          "returnees,",
+          "nipah",
+          "virus",
+          "alert",
+          "india,"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090239"
+    },
+    {
+      "id": "un-news-8c3e32232e2a",
+      "title": "Choose peace over chaos, Guterres urges as he sets out final-year priorities",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166853",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Choose peace over chaos, Guterres urges as he sets out final-year priorities",
+        "keywords": [
+          "choose",
+          "peace",
+          "over",
+          "chaos,",
+          "guterres",
+          "urges",
+          "sets",
+          "final-year",
+          "priorities",
+          "choose"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090279"
+    },
+    {
+      "id": "un-news-877c600f0321",
+      "title": "Potential turning point for Gaza as peace plan enters second phase: UN envoy",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166852",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Potential turning point for Gaza as peace plan enters second phase: UN envoy",
+        "keywords": [
+          "potential",
+          "turning",
+          "point",
+          "gaza",
+          "peace",
+          "plan",
+          "enters",
+          "second",
+          "phase:",
+          "envoy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090320"
+    },
+    {
+      "id": "un-news-0db353a08d31",
+      "title": "\u2018We children saw things that no one should ever have to see\u2019 Holocaust survivor tells the UN",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166851",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "\u2018We children saw things that no one should ever have to see\u2019 Holocaust survivor tells the UN",
+        "keywords": [
+          "children",
+          "things",
+          "that",
+          "should",
+          "ever",
+          "have",
+          "see\u2019",
+          "holocaust",
+          "survivor",
+          "tells"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090370"
+    },
+    {
+      "id": "un-news-e1655ff9f46f",
+      "title": "World News in Brief: UN Support Office in Haiti, Goodwill Ambassador Theo James in Syria, urgent appeal for millions in DR Congo",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166850",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "World News in Brief: UN Support Office in Haiti, Goodwill Ambassador Theo James in Syria, urgent appeal for millions in DR Congo",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "support",
+          "office",
+          "haiti,",
+          "goodwill",
+          "ambassador",
+          "theo",
+          "james"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090423"
+    },
+    {
+      "id": "un-news-5dbf2b997e04",
+      "title": "Security Council LIVE: Ambassadors debate as Middle East crises mount",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166845",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Security Council LIVE: Ambassadors debate as Middle East crises mount",
+        "keywords": [
+          "security",
+          "council",
+          "live:",
+          "ambassadors",
+          "debate",
+          "middle",
+          "east",
+          "crises",
+          "mount",
+          "security"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090460"
+    },
+    {
+      "id": "un-news-430e6216ca95",
+      "title": "Yemen: Security Council votes on final extension of Hudaydah Mission",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166844",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Yemen: Security Council votes on final extension of Hudaydah Mission",
+        "keywords": [
+          "yemen:",
+          "security",
+          "council",
+          "votes",
+          "final",
+          "extension",
+          "hudaydah",
+          "mission",
+          "yemen:",
+          "security"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090499"
+    },
+    {
+      "id": "un-news-f6e24a9578c0",
+      "title": "From lunch tray to lifelong health: WHO sets global standards for school meals",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166843",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "From lunch tray to lifelong health: WHO sets global standards for school meals",
+        "keywords": [
+          "from",
+          "lunch",
+          "tray",
+          "lifelong",
+          "health:",
+          "sets",
+          "global",
+          "standards",
+          "school",
+          "meals"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090538"
+    },
+    {
+      "id": "un-news-c55f0c50c3e4",
+      "title": "UN says Gaza crisis remains dire, children hardest hit",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166842",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "UN says Gaza crisis remains dire, children hardest hit",
+        "keywords": [
+          "says",
+          "gaza",
+          "crisis",
+          "remains",
+          "dire,",
+          "children",
+          "hardest",
+          "says",
+          "gaza",
+          "crisis"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090576"
+    },
+    {
+      "id": "un-news-81959a6ec601",
+      "title": "Remembering the Holocaust: \u2018You are here because you choose hope over hate\u2019",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166840",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Remembering the Holocaust: \u2018You are here because you choose hope over hate\u2019",
+        "keywords": [
+          "remembering",
+          "holocaust:",
+          "\u2018you",
+          "here",
+          "because",
+          "choose",
+          "hope",
+          "over",
+          "hate\u2019",
+          "remembering"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:11.090622"
+    },
+    {
+      "id": "un-news-b53d9c8fa961",
+      "title": "Independent experts alarmed by child rights violations in US immigration procedures",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/01/1166837",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Independent experts alarmed by child rights violations in US immigration procedures",
+        "keywords": [
+          "independent",
+          "experts",
+          "alarmed",
+          "child",
+          "rights",
+          "violations",
+          "immigration",
+          "procedures",
+          "independent",
+          "experts"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:11.090669"
+    },
+    {
+      "id": "pew-research-center-341ef1d50419",
+      "title": "Methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/immigration-january-methodology/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Methodology",
+        "keywords": [
+          "immigration & migration",
+          "political parties & polarization",
+          "protests & uprisings"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Reem Nadeem"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:19.022420"
+    },
+    {
+      "id": "pew-research-center-0aea4dc62711",
+      "title": "Acknowledgments",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/immigration-january-acknowledgments/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Acknowledgments",
+        "keywords": [
+          "immigration & migration",
+          "political parties & polarization",
+          "protests & uprisings"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Reem Nadeem"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:19.022460"
+    },
+    {
+      "id": "pew-research-center-4e6d62574fe0",
+      "title": "Appendix: Did attitudes shift after Alex Pretti was killed?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/appendix-did-attitudes-shift-after-alex-pretti-was-killed/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Appendix: Did attitudes shift after Alex Pretti was killed?",
+        "keywords": [
+          "immigration & migration",
+          "political parties & polarization",
+          "protests & uprisings"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Reem Nadeem"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:19.022500"
+    },
+    {
+      "id": "pew-research-center-72202b332f72",
+      "title": "How Americans view key Trump administration immigration policies",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/how-americans-view-key-trump-administration-immigration-policies/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "How Americans view key Trump administration immigration policies",
+        "keywords": [
+          "immigration & migration",
+          "political parties & polarization",
+          "protests & uprisings"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Reem Nadeem"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:19.022539"
+    },
+    {
+      "id": "pew-research-center-cdbb672f59d7",
+      "title": "How Americans See Immigration Officers\u2019 Behaviors and Civilian Actions",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/how-americans-see-immigration-officers-behaviors-and-civilian-actions/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "How Americans See Immigration Officers\u2019 Behaviors and Civilian Actions",
+        "keywords": [
+          "immigration & migration",
+          "political parties & polarization",
+          "protests & uprisings"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Reem Nadeem"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:19.022587"
+    },
+    {
+      "id": "pew-research-center-7a2985239ac9",
+      "title": "Methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/views-of-trump-2026-methodology/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Methodology",
+        "keywords": [
+          "donald trump",
+          "political issues",
+          "politics & policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Beshay"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:19.022614"
+    },
+    {
+      "id": "pew-research-center-a812e3ce7b6e",
+      "title": "Acknowledgments",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/views-of-trump-2026-acknowledgments/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Acknowledgments",
+        "keywords": [
+          "donald trump",
+          "political issues",
+          "politics & policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Beshay"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:19.022641"
+    },
+    {
+      "id": "pew-research-center-fa2a7ffb24b7",
+      "title": "Appendix: Additional charts",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/views-of-trump-2026-appendix-additional-charts/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Appendix: Additional charts",
+        "keywords": [
+          "donald trump",
+          "political issues",
+          "politics & policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Beshay"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:19.022670"
+    },
+    {
+      "id": "pew-research-center-b1d1addaaf35",
+      "title": "Confidence in Trump Dips, and Fewer Now Say They Support His Policies and Plans",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/01/29/confidence-in-trump-dips-and-fewer-now-say-they-support-his-policies-and-plans/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Confidence in Trump Dips, and Fewer Now Say They Support His Policies and Plans",
+        "keywords": [
+          "donald trump",
+          "political issues",
+          "politics & policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Beshay"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:19.022707"
+    },
+    {
+      "id": "hacker-news-b3f23a6bbc84",
+      "title": "Notepad++ hijacked by state-sponsored actors",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://notepad-plus-plus.org/news/hijacked-incident-info-update/",
+        "published_date": "2026-02-02",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Notepad++ hijacked by state-sponsored actors",
+        "keywords": [
+          "notepad++",
+          "hijacked",
+          "state-sponsored",
+          "actors",
+          "notepad++",
+          "hijacked",
+          "state-sponsored",
+          "actors"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "mysterydip"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465002"
+    },
+    {
+      "id": "hacker-news-093cd6c016f3",
+      "title": "Actors: A Model of Concurrent Computation [pdf]",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://apps.dtic.mil/sti/tr/pdf/ADA157917.pdf",
+        "published_date": "2026-02-02",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Actors: A Model of Concurrent Computation [pdf]",
+        "keywords": [
+          "actors:",
+          "model",
+          "concurrent",
+          "computation",
+          "[pdf]",
+          "actors:",
+          "model",
+          "concurrent",
+          "computation",
+          "[pdf]"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "kioku"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465057"
+    },
+    {
+      "id": "hacker-news-103619af302c",
+      "title": "Show HN: Wikipedia as a doomscrollable social media feed",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://xikipedia.org",
+        "published_date": "2026-02-02",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Show HN: Wikipedia as a doomscrollable social media feed",
+        "keywords": [
+          "show",
+          "wikipedia",
+          "doomscrollable",
+          "social",
+          "media",
+          "feed",
+          "show",
+          "wikipedia",
+          "doomscrollable",
+          "social"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "rebane2001"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465104"
+    },
+    {
+      "id": "hacker-news-d7bd01077d19",
+      "title": "Time Machine-style Backups with rsync (2018)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://samuelhewitt.com/blog/2018-06-05-time-machine-style-backups-with-rsync",
+        "published_date": "2026-02-02",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Time Machine-style Backups with rsync (2018)",
+        "keywords": [
+          "time",
+          "machine-style",
+          "backups",
+          "rsync",
+          "(2018)",
+          "time",
+          "machine-style",
+          "backups",
+          "rsync",
+          "(2018)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "accrual"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465144"
+    },
+    {
+      "id": "hacker-news-83656ffe5e71",
+      "title": "History and Timeline of the Proco Rat Pedal (2021)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://web.archive.org/web/20211030011207/https://thejhsshow.com/articles/history-and-timeline-of-the-proco-rat-pedal",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "History and Timeline of the Proco Rat Pedal (2021)",
+        "keywords": [
+          "history",
+          "timeline",
+          "proco",
+          "pedal",
+          "(2021)",
+          "history",
+          "timeline",
+          "proco",
+          "pedal",
+          "(2021)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "brudgers"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465185"
+    },
+    {
+      "id": "hacker-news-917f722ca1b7",
+      "title": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/gavrielc/nanoclaw",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
+        "keywords": [
+          "show",
+          "nanoclaw",
+          "\u201cclawdbot\u201d",
+          "lines",
+          "apple",
+          "container",
+          "isolation",
+          "show",
+          "nanoclaw",
+          "\u201cclawdbot\u201d"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "jimminyx"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465247"
+    },
+    {
+      "id": "hacker-news-a281bab95e73",
+      "title": "Treasures found on HS2 route stored in secret warehouse",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.bbc.com/news/articles/c93v21q5xdvo",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Treasures found on HS2 route stored in secret warehouse",
+        "keywords": [
+          "treasures",
+          "found",
+          "route",
+          "stored",
+          "secret",
+          "warehouse",
+          "treasures",
+          "found",
+          "route",
+          "stored"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "breve"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465296"
+    },
+    {
+      "id": "hacker-news-b02feffdf729",
+      "title": "MRI scans show exercise can make the brain look younger",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260121034130.htm",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "MRI scans show exercise can make the brain look younger",
+        "keywords": [
+          "scans",
+          "show",
+          "exercise",
+          "make",
+          "brain",
+          "look",
+          "younger",
+          "scans",
+          "show",
+          "exercise"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "amichail"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465336"
+    },
+    {
+      "id": "hacker-news-d75841ad5fac",
+      "title": "Defeating a 40-year-old copy protection dongle",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Defeating a 40-year-old copy protection dongle",
+        "keywords": [
+          "defeating",
+          "40-year-old",
+          "copy",
+          "protection",
+          "dongle",
+          "defeating",
+          "40-year-old",
+          "copy",
+          "protection",
+          "dongle"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "zdw"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465377"
+    },
+    {
+      "id": "hacker-news-f5a210983993",
+      "title": "My thousand dollar iPhone can't do math",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "My thousand dollar iPhone can't do math",
+        "keywords": [
+          "thousand",
+          "dollar",
+          "iphone",
+          "can't",
+          "math",
+          "thousand",
+          "dollar",
+          "iphone",
+          "can't",
+          "math"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "rafaelcosta"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465413"
+    },
+    {
+      "id": "hacker-news-53cfef4b1be8",
+      "title": "Building Your Own Efficient uint128 in C++",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://solidean.com/blog/2026/building-your-own-u128/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Building Your Own Efficient uint128 in C++",
+        "keywords": [
+          "building",
+          "your",
+          "efficient",
+          "uint128",
+          "building",
+          "your",
+          "efficient",
+          "uint128"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "PaulHoule"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465451"
+    },
+    {
+      "id": "hacker-news-f4225093c4ef",
+      "title": "TIL: Apple Broke Time Machine Again on Tahoe",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://taoofmac.com/space/til/2026/02/01/1630",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "TIL: Apple Broke Time Machine Again on Tahoe",
+        "keywords": [
+          "til:",
+          "apple",
+          "broke",
+          "time",
+          "machine",
+          "again",
+          "tahoe",
+          "til:",
+          "apple",
+          "broke"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "rcarmo"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465488"
+    },
+    {
+      "id": "hacker-news-e7a42579c3b0",
+      "title": "I taught my neighbor to keep the volume down",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://idiallo.com/blog/teaching-my-neighbor-to-keep-the-volume-down",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "I taught my neighbor to keep the volume down",
+        "keywords": [
+          "taught",
+          "neighbor",
+          "keep",
+          "volume",
+          "down",
+          "taught",
+          "neighbor",
+          "keep",
+          "volume",
+          "down"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "firefoxd"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465526"
+    },
+    {
+      "id": "hacker-news-763478467482",
+      "title": "Clearspace (YC W23) Is Hiring an Applied Researcher (ML)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.ycombinator.com/companies/clearspace/jobs/GOWiDwp-research-engineer-at-clearspace",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Clearspace (YC W23) Is Hiring an Applied Researcher (ML)",
+        "keywords": [
+          "clearspace",
+          "w23)",
+          "hiring",
+          "applied",
+          "researcher",
+          "(ml)",
+          "clearspace",
+          "w23)",
+          "hiring",
+          "applied"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "anteloper"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465566"
+    },
+    {
+      "id": "hacker-news-39b3bf528868",
+      "title": "Towards a science of scaling agent systems: When and why agent systems work",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Towards a science of scaling agent systems: When and why agent systems work",
+        "keywords": [
+          "towards",
+          "science",
+          "scaling",
+          "agent",
+          "systems:",
+          "when",
+          "agent",
+          "systems",
+          "work",
+          "towards"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "gmays"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465611"
+    },
+    {
+      "id": "hacker-news-e01d7257c116",
+      "title": "A Crisis comes to Wordle: Reusing old words",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://forkingmad.blog/wordle-crisis/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "A Crisis comes to Wordle: Reusing old words",
+        "keywords": [
+          "crisis",
+          "comes",
+          "wordle:",
+          "reusing",
+          "words",
+          "crisis",
+          "comes",
+          "wordle:",
+          "reusing",
+          "words"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "cyanbane"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465648"
+    },
+    {
+      "id": "hacker-news-fc8f6a37587d",
+      "title": "Apple I Advertisement (1976)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "http://apple1.chez.com/Apple1project/Gallery/Gallery.htm",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Apple I Advertisement (1976)",
+        "keywords": [
+          "apple",
+          "advertisement",
+          "(1976)",
+          "apple",
+          "advertisement",
+          "(1976)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "janandonly"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465679"
+    },
+    {
+      "id": "hacker-news-96078b933afe",
+      "title": "Adventure Game Studio: OSS software for creating adventure games",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.adventuregamestudio.co.uk/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Adventure Game Studio: OSS software for creating adventure games",
+        "keywords": [
+          "adventure",
+          "game",
+          "studio:",
+          "software",
+          "creating",
+          "adventure",
+          "games",
+          "adventure",
+          "game",
+          "studio:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "doener"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465722"
+    },
+    {
+      "id": "hacker-news-4131069d1730",
+      "title": "Amiga Unix (Amix)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.amigaunix.com/doku.php/home",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Amiga Unix (Amix)",
+        "keywords": [
+          "amiga",
+          "unix",
+          "(amix)",
+          "amiga",
+          "unix",
+          "(amix)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "donatj"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465750"
+    },
+    {
+      "id": "hacker-news-02fe07dff156",
+      "title": "FOSDEM 2026 \u2013 Open-Source Conference in Brussels \u2013 Day#1 Recap",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "FOSDEM 2026 \u2013 Open-Source Conference in Brussels \u2013 Day#1 Recap",
+        "keywords": [
+          "fosdem",
+          "2026",
+          "open-source",
+          "conference",
+          "brussels",
+          "day#1",
+          "recap",
+          "fosdem",
+          "2026",
+          "open-source"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "yannick2k"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.465798"
+    },
+    {
+      "id": "wired-1cb609de59b3",
+      "title": "Building a Watch Collection on a Budget? Here\u2019s Where to Start (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/gallery/want-to-build-a-watch-collection-on-a-budget-heres-where-to-start/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Building a Watch Collection on a Budget? Here\u2019s Where to Start (2026)",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products",
+          "gear / products / watches",
+          "shopping",
+          "apparel",
+          "buying guides",
+          "wearables",
+          "watches",
+          "time to save"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Chris Haslam, Jeremy White"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.541881"
+    },
+    {
+      "id": "wired-f28bcb0b4494",
+      "title": "7 Best Prepaid Phone Plans (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/gallery/best-prepaid-phone-plans/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "7 Best Prepaid Phone Plans (2026)",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / phones",
+          "shopping",
+          "smartphones",
+          "phones",
+          "mobile",
+          "buying guides",
+          "cell networks",
+          "data"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Matthew S. Smith"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.541920"
+    },
+    {
+      "id": "wired-41868036a326",
+      "title": "The Best Date-Night Boxes of 2026, Tested With My Hinge Dates",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/gallery/best-date-night-boxes/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The Best Date-Night Boxes of 2026, Tested With My Hinge Dates",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / home",
+          "gear / products / health and fitness",
+          "sex",
+          "gifts",
+          "home",
+          "u up",
+          "shopping",
+          "unhinged"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.541957"
+    },
+    {
+      "id": "wired-a5e2aaa371d7",
+      "title": "How to Use Physics to Escape an Ice Bowl",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/how-to-use-physics-to-escape-an-ice-bowl/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "How to Use Physics to Escape an Ice Bowl",
+        "keywords": [
+          "science",
+          "science / physics and math",
+          "dot physics",
+          "physics",
+          "acceleration",
+          "forces"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Rhett Allain"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.541987"
+    },
+    {
+      "id": "wired-27eacdb8b3d4",
+      "title": "Best Valentine\u2019s Day Gifts (2026): Legos, Karaoke, Digital Frames, and More",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/best-valentines-day-gifts-2026/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Best Valentine\u2019s Day Gifts (2026): Legos, Karaoke, Digital Frames, and More",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "shopping",
+          "buying guides",
+          "gifts",
+          "holidays",
+          "household",
+          "apparel",
+          "gift guides",
+          "u up"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Nena Farrell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542027"
+    },
+    {
+      "id": "wired-408907a4b800",
+      "title": "The Best Chocolate Boxes of 2026 for Valentine\u2019s Delivery",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/best-chocolate-boxes-delivery-2026/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The Best Chocolate Boxes of 2026 for Valentine\u2019s Delivery",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / home",
+          "gear / products / kitchen",
+          "gear / products / online services",
+          "shopping",
+          "buying guides",
+          "delivery",
+          "gift guides",
+          "u up"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Matthew Korfhage"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542069"
+    },
+    {
+      "id": "wired-aa50d6de4a8f",
+      "title": "The Information Networks That Connect Venezuelans in Uncertain Times",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/venezuela-information-networks-maduro-censorship/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The Information Networks That Connect Venezuelans in Uncertain Times",
+        "keywords": [
+          "politics",
+          "politics / disinformation",
+          "politics",
+          "censorship",
+          "venezuela",
+          "x",
+          "keep in touch"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Lisseth Boon"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542104"
+    },
+    {
+      "id": "wired-8442734340c0",
+      "title": "Walmart Promo Codes and Coupons: Up to 65% Off",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/top-walmart-promo-codes/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Walmart Promo Codes and Coupons: Up to 65% Off",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542129"
+    },
+    {
+      "id": "wired-24912ae2e513",
+      "title": "Altra Promo Codes: Get 20% Off Plus Free Shipping",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/altra-promo-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Altra Promo Codes: Get 20% Off Plus Free Shipping",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Adrienne So"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542155"
+    },
+    {
+      "id": "wired-2fe8276ae251",
+      "title": "Paramount Plus Coupon Codes and Deals: 50% Off",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Paramount Plus Coupon Codes and Deals: 50% Off",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542180"
+    },
+    {
+      "id": "wired-64e09c0ba9ee",
+      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/legalzoom-promo-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Parker Hall"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542204"
+    },
+    {
+      "id": "wired-615fcb9ad5d9",
+      "title": "$20 Chewy Promo Code | February 2026",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/chewy-promo-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "$20 Chewy Promo Code | February 2026",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542226"
+    },
+    {
+      "id": "wired-37e298ea212d",
+      "title": "Tuft & Needle Promo Codes: 20% Off | February 2026",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Tuft & Needle Promo Codes: 20% Off | February 2026",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Nena Farrell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542249"
+    },
+    {
+      "id": "wired-cd1a2f13f003",
+      "title": "50% Off Home Depot Promo Codes | February 2026",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/home-depot-promo-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "50% Off Home Depot Promo Codes | February 2026",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Matthew Korfhage"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542272"
+    },
+    {
+      "id": "wired-e908a5b08ea4",
+      "title": "Home Chef Promo Code: 50% Off",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/home-chef-promo-code/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Home Chef Promo Code: 50% Off",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Louryn Strampe"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.542293"
+    },
+    {
+      "id": "ars-technica-b3eef7e70513",
+      "title": "At NIH, a power struggle over institute directorships deepens",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/02/at-nih-a-power-struggle-over-institute-directorships-deepens/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The research agency has 27 institute and center directors. Will those roles become politicized?",
+        "keywords": [
+          "science",
+          "national institutes of health",
+          "nih",
+          "nih funding",
+          "nih grants",
+          "syndication"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Michael Schulson, Undark"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604101"
+    },
+    {
+      "id": "ars-technica-ebda587a7669",
+      "title": "Fungus could be the insecticide of the future",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/02/fungus-could-be-the-insecticide-of-the-future/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Plant chemicals made more potent by insect pests are detoxified by the fungus.",
+        "keywords": [
+          "science",
+          "biochemistry",
+          "biology",
+          "fungus",
+          "insecticides",
+          "pine beetles"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Elizabeth Rayne"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604144"
+    },
+    {
+      "id": "ars-technica-95680064f6f1",
+      "title": "Research roundup: 6 cool stories we almost missed",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/01/research-roundup-6-cool-stories-we-almost-missed-2/",
+        "published_date": "2026-01-31",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "A lip-syncing robot, Leonardo's DNA, and new evidence that humans, not glaciers, moved stones to Stonehenge",
+        "keywords": [
+          "science",
+          "research roundup"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jennifer Ouellette"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604183"
+    },
+    {
+      "id": "ars-technica-367bc27bae6b",
+      "title": "A cup of coffee for depression treatment has better results than microdosing",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/health/2026/01/placebo-outperforms-lsd-microdosing-for-depression/",
+        "published_date": "2026-01-31",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The effect of microdosing have been overstated, at least when it comes to depression.",
+        "keywords": [
+          "health",
+          "depression",
+          "lsd",
+          "mental health",
+          "microdosing",
+          "syndication"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "John Semley, wired.com"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604219"
+    },
+    {
+      "id": "ars-technica-38d792b0342d",
+      "title": "The TV industry finally concedes that the future may not be in 8K",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/01/lg-joins-the-rest-of-the-world-accepts-that-people-dont-want-8k-tvs/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "With virtually no content and limited benefits, 8K TVs were doomed.",
+        "keywords": [
+          "tech",
+          "8k",
+          "lg",
+          "tvs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Scharon Harding"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604245"
+    },
+    {
+      "id": "ars-technica-9c878badcdc2",
+      "title": "ICE protester says her Global Entry was revoked after agent scanned her face",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Global Entry and Precheck revoked three days after incident, court filing says.",
+        "keywords": [
+          "policy",
+          "ice",
+          "immigration and customs enforcement"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jon Brodkin"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-02T11:26:20.604279"
+    },
+    {
+      "id": "ars-technica-6e67d5abcedf",
+      "title": "TrumpRx delayed as senators question if it's a giant scam with Big Pharma",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/health/2026/01/trumprx-delayed-as-senators-question-if-its-a-giant-scam-with-big-pharma/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The website is delayed as senators seek answers from health department watchdog.",
+        "keywords": [
+          "health",
+          "anti-kickback statute",
+          "kickbacks",
+          "telehealth",
+          "trumprx"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Beth Mole"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604312"
+    },
+    {
+      "id": "ars-technica-bb148ec78d52",
+      "title": "AI agents now have their own Reddit-style social network, and it's getting weird fast",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Moltbook lets 32,000 AI bots trade jokes, tips, and complaints about humans.",
+        "keywords": [
+          "ai",
+          "biz & it",
+          "agentic ai",
+          "ai agents",
+          "ai behavior",
+          "ai consciousness",
+          "ai ethics",
+          "ai security",
+          "anthropic",
+          "machine learning"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Benj Edwards"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604358"
+    },
+    {
+      "id": "ars-technica-3592e011fd13",
+      "title": "Here's why Blue Origin just ended its suborbital space tourism program",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/01/heres-why-blue-origin-just-ended-its-suborbital-space-tourism-program/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "\"This program has laid the groundwork for our company's future success.\"",
+        "keywords": [
+          "space",
+          "blue origin",
+          "new glenn",
+          "new shepard",
+          "space"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Eric Berger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604385"
+    },
+    {
+      "id": "ars-technica-31e57fb6844b",
+      "title": "FCC aims to ensure \"only living and lawful Americans\" get Lifeline benefits",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/01/fcc-chair-fights-calif-governor-over-alleged-lifeline-benefits-for-dead-people/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Alleging fraud in California, Carr proposes making enrollment stricter nationwide.",
+        "keywords": [
+          "policy",
+          "anna gomez",
+          "brendan carr",
+          "california",
+          "fcc",
+          "gavin newsom",
+          "lifeline"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jon Brodkin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604420"
+    },
+    {
+      "id": "ars-technica-487d358977c3",
+      "title": "Developers say AI coding tools work\u2014and that's precisely what worries them",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Ars spoke to several software devs about AI and found enthusiasm tempered by unease.",
+        "keywords": [
+          "ai",
+          "biz & it",
+          "ai agents",
+          "ai and work",
+          "ai coding",
+          "anthropic",
+          "claude",
+          "claude code",
+          "github copilot",
+          "large language models"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Benj Edwards"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604466"
+    },
+    {
+      "id": "ars-technica-3b07e7d242a4",
+      "title": "Web portal leaves kids' chats with AI toy open to anyone with Gmail account",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/security/2026/01/web-portal-leaves-kids-chats-with-ai-toy-open-to-anyone-with-gmail-account/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Just about anyone with a Gmail account could access Bondu chat transcripts.",
+        "keywords": [
+          "ai",
+          "security",
+          "bondu",
+          "eavesdropping",
+          "syndication",
+          "toys"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Andy Greenberg, wired.com"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604495"
+    },
+    {
+      "id": "ars-technica-92a762f1976e",
+      "title": "How far does $5,000 go when you want an electric car?",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/cars/2026/01/how-far-does-5000-go-when-you-want-an-electric-car/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "You won't be going on road trips, but a very cheap electric runabout is possible.",
+        "keywords": [
+          "cars",
+          "used ev prices"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jonathan M. Gitlin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604518"
+    },
+    {
+      "id": "ars-technica-774e8cdd93ff",
+      "title": "NASA faces a crucial choice on a Mars spacecraft\u2014and it must decide soon",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/01/nasa-faces-a-crucial-choice-on-a-mars-spacecraft-and-it-must-decide-soon/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "\"We think that\u2019s a really important mission, and something that we can do.\"",
+        "keywords": [
+          "space",
+          "blue origin",
+          "mars",
+          "mars telecommunications orbiter",
+          "nasa",
+          "rocket lab",
+          "space",
+          "spacex"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Eric Berger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604554"
+    },
+    {
+      "id": "ars-technica-896b5a224897",
+      "title": "Rocket Report: How a 5-ton satellite fell off a booster; will SpaceX and xAI merge?",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/01/rocket-report-how-a-5-ton-satellite-fell-off-a-booster-will-spacex-and-xai-merge/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "\"We\u2019re seeing remarkable growth year after year.\"",
+        "keywords": [
+          "space",
+          "rocket report",
+          "space"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Eric Berger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:20.604581"
+    },
+    {
+      "id": "nasa-climate-change-b4c2d66b1648",
+      "title": "Wet Dress Rehearsal Countdown Progressing for Artemis II",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/missions/2026/02/01/wet-dress-rehearsal-countdown-progressing-for-artemis-ii/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "NASA continues to press ahead through the countdown for the Artemis II wet dress rehearsal \u2013 a fueling test of the SLS (Space Launch System) rocket. Teams monitored all systems throughout the overnight hours during cold temperatures and high winds at the agency\u2019s Kennedy Space Center in Florida. Early this morning, at approximately L-39 hours and 30 minutes, teams powered up the rocket\u2019s core stage, which soon will be loaded [\u2026] The post Wet Dress Rehearsal Countdown Progressing for Artemis II appeared first on NASA Science.",
+        "keywords": [
+          "artemis",
+          "artemis 2",
+          "missions"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.868721"
+    },
+    {
+      "id": "nasa-climate-change-076d3f95eea3",
+      "title": "Countdown Begins for Artemis II Wet Dress Rehearsal",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/missions/2026/01/31/countdown-begins-for-artemis-ii-wet-dress-rehearsal/",
+        "published_date": "2026-02-01",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The countdown for the Artemis II wet dress rehearsal is underway at NASA\u2019s Kennedy Space Center in Florida. The countdown clock began at 8:13 p.m. EST, or L-48 hours, 40 minutes before the opening of a simulated launch window at 9 pm. Mon, Feb. 2. The test is expected to go until approximately 1 a.m. [\u2026] The post Countdown Begins for Artemis II Wet Dress Rehearsal appeared first on NASA Science.",
+        "keywords": [
+          "artemis",
+          "artemis 2",
+          "christina h. koch",
+          "exploration ground systems",
+          "g. reid wiseman",
+          "kennedy space center",
+          "missions",
+          "orion program",
+          "space launch system (sls)",
+          "victor j. glover"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.868805"
+    },
+    {
+      "id": "nasa-climate-change-bb707fb22232",
+      "title": "NASA Selects Axiom Space for Fifth Private Mission to Space Station",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/news-release/nasa-selects-axiom-space-for-fifth-private-mission-to-space-station/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "NASA and Axiom Space have signed an order for the fifth private astronaut mission to the International Space Station, targeted to launch no earlier than January 2027 from the agency\u2019s Kennedy Space Center in Florida. \u201cThe award of our fifth private astronaut mission shows that commercial space is not a distant promise, but a present [\u2026] The post NASA Selects Axiom Space for Fifth Private Mission to Space Station appeared first on NASA Science.",
+        "keywords": [
+          "commercial space",
+          "international space station (iss)",
+          "private astronaut missions"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.868878"
+    },
+    {
+      "id": "nasa-climate-change-0a7cfd446c1c",
+      "title": "NASA Earth Energy Instrument Completes Testing, Ready for Delivery",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/blogs/libera/2026/01/30/nasa-earth-energy-instrument-completes-testing-ready-for-delivery/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "NASA\u2019s Libera instrument, which is designed to maintain the global data record of Earth\u2019s radiation budget, has successfully completed comprehensive environmental testing. This critical milestone included thermal vacuum tests that simulate the expected space temperature and environments that Libera will experience during its mission. The Libera instrument will fly on Joint Polar Satellite System-4 (JPSS-4), [&#8230;] The post NASA Earth Energy Instrument Completes Testing, Ready for Delivery appeared first on NASA Science.",
+        "keywords": [
+          "earth",
+          "goddard space flight center",
+          "jpss-4",
+          "langley research center",
+          "libera",
+          "noaa (national oceanic and atmospheric administration)",
+          "science instruments"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "amdollar"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.868963"
+    },
+    {
+      "id": "nasa-climate-change-67ce9575c9f2",
+      "title": "NASA Earth Energy Instrument Completes Testing, Ready for Delivery",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/missions/libera/nasa-earth-energy-instrument-completes-testing-ready-for-delivery/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "NASA\u2019s Libera instrument, which is designed to maintain the global data record of Earth\u2019s radiation budget, has successfully completed comprehensive environmental testing. This critical milestone included thermal vacuum tests that simulate the expected space temperature and environments that Libera will experience during its mission. The Libera instrument will fly on Joint Polar Satellite System-4 (JPSS-4), [&#8230;] The post NASA Earth Energy Instrument Completes Testing, Ready for Delivery appeared first on NASA Science.",
+        "keywords": [
+          "libera",
+          "earth",
+          "goddard space flight center",
+          "jpss-4",
+          "langley research center",
+          "noaa (national oceanic and atmospheric administration)",
+          "science instruments"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "James Riordon"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.869041"
+    },
+    {
+      "id": "nasa-climate-change-6f441c986a4e",
+      "title": "NASA Aims to Advance Hypersonic Flight Testing with New Awards",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/aeronautics/nasa-aims-to-advance-hypersonic-flight-testing-with-new-awards/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "While NASA is working with U.S. aviation to explore commercial supersonic technologies, the agency is also looking forward to an even faster era of flight \u2013 one of vehicles that can fly hypersonic, or five times the speed of sound. And to further that vision, NASA has issued two awards for studies into vehicle concepts. [\u2026] The post NASA Aims to Advance Hypersonic Flight Testing with New Awards appeared first on NASA Science.",
+        "keywords": [
+          "advanced air vehicles program",
+          "aeronautics",
+          "aeronautics research mission directorate",
+          "hypersonic technology",
+          "supersonic flight"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.869111"
+    },
+    {
+      "id": "nasa-climate-change-c85aef5ee8c9",
+      "title": "Amendment 43: New Opportunity: Science Transport and Robotic Innovation for Deployment and Exploration",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/researchers/solicitations/roses-2025/amendment-43-new-opportunity-science-transport-and-robotic-innovation-for-deployment-and-exploration/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "C.13 Science Transport and Robotic Innovation for Deployment and Exploration (STRIDE) solicits proposals from U.S. industry to conduct design studies of advanced robotic surface and aerial mobility systems with payload transportation and deployment capability for Mars surface operations, and, where applicable, early-stage prototyping of hardware for the same purpose. These studies will inform the future [&#8230;] The post Amendment 43: New Opportunity: Science Transport and Robotic Innovation for Deployment and Exploration appeared first on NASA Science.",
+        "keywords": [
+          "research opportunities in space and earth sciences (roses)",
+          "mars",
+          "planetary science",
+          "robotics",
+          "science mission directorate"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "amdollar"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:21.869193"
+    },
+    {
+      "id": "nasa-climate-change-83c9646821b1",
+      "title": "Visualizing Perseverance\u2019s AI-Planned Drive on Mars",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/photojournal/visualizing-perseverances-ai-planned-drive-on-mars/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Description This animation of NASA\u2019s Perseverance was created with the Caspian visualization tool using data acquired during an 807-foot (246-meter) drive on the rim of Jezero Crater made by the rover on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. The mission\u2019s \u201cdrivers,\u201d or rover planners, use the information to understand the Perseverance\u2019s [&#8230;] The post Visualizing Perseverance\u2019s AI-Planned Drive on Mars appeared first on NASA Science.",
+        "keywords": [
+          "photojournal"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Rafael Alanis"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.869257"
+    },
+    {
+      "id": "nasa-climate-change-1968980813aa",
+      "title": "NASA Honor Awards for Cold Atom Lab Team Members",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/missions/station/iss-research/cold-atom-laboratory/nasa-honor-awards-for-cold-atom-lab-team-members/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "NASA OUTSTANDING PUBLIC LEADERSHIP MEDAL Awarded for notable leadership accomplishments that have significantly influenced NASA\u2019s mission. Sustained leadership and exceptionally high-impact leadership achievements demonstrate the individual\u2019s effectiveness in advancing NASA\u2019s goals and image in present and future terms. Kamal Oudrhiri &#8211; For outstanding leadership of the Cold Atom Laboratory, NASA\u2019s first quantum laboratory in space. [&#8230;] The post NASA Honor Awards for Cold Atom Lab Team Members appeared first on NASA Science.",
+        "keywords": [
+          "cold atom laboratory (cal)",
+          "international space station (iss)",
+          "iss research",
+          "jet propulsion laboratory"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Naomi Hartono"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.869332"
+    },
+    {
+      "id": "nasa-climate-change-ce30d7e6589a",
+      "title": "Video: Perseverance Rover\u2019s View of Crater Rim Drive",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/photojournal/video-perseverance-rovers-view-of-crater-rim-drive/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Description This animation shows Perseverance\u2019s point of view during drive of 807 feet (246 meters) along the rim of Jezero Crater on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. Captured over two hours and 35 minutes, 53 Navigation Camera (Navcam) image pairs were combined with rover data on orientation, wheel speed, [&#8230;] The post Video: Perseverance Rover\u2019s View of Crater Rim Drive appeared first on NASA Science.",
+        "keywords": [
+          "photojournal"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Rafael Alanis"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-02T11:26:21.869394"
+    },
+    {
+      "id": "carbon-brief-04cc8b7234e3",
+      "title": "DeBriefed 30 January 2026: \u00a0Fire and ice; US formally exits Paris; Climate image faux pas",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/debriefed-30-january-2026-fire-and-ice-us-formally-exits-paris-climate-image-faux-pas/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Welcome to Carbon Brief\u2019s DeBriefed.&#160;An essential guide to the week&#8217;s key developments relating to climate... The post DeBriefed 30 January 2026: Fire and ice; US formally exits Paris; Climate image faux pas appeared first on Carbon Brief.",
+        "keywords": [
+          "debriefed",
+          "climate change",
+          "climate change communication",
+          "temperature",
+          "weather",
+          "weather extremes",
+          "wildfire"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Ayesha Tandon"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278147"
+    },
+    {
+      "id": "carbon-brief-463b72c13b7e",
+      "title": "Factcheck: What it really costs to heat a home in the UK with a heat pump",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/factcheck-what-it-really-costs-to-heat-a-home-in-the-uk-with-a-heat-pump/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Electric heat pumps are set to play a key role in the UK\u2019s climate strategy,... The post Factcheck: What it really costs to heat a home in the UK with a heat pump appeared first on Carbon Brief.",
+        "keywords": [
+          "factchecks",
+          "other technologies",
+          "uk policy",
+          "energy",
+          "energy bills",
+          "energy policy",
+          "heat pumps",
+          "indoor heating",
+          "net zero",
+          "uk"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Simon Evans"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278209"
+    },
+    {
+      "id": "carbon-brief-d2af947d4981",
+      "title": "Experts: Will Chinese wind power help or hinder Europe\u2019s climate goals?",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/experts-will-chinese-wind-power-help-or-hinder-europes-climate-goals/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The European Union and the UK are not on track to meet their 2030 offshore... The post Experts: Will Chinese wind power help or hinder Europe\u2019s climate goals? appeared first on Carbon Brief.",
+        "keywords": [
+          "china policy",
+          "guest posts",
+          "international policy",
+          "china",
+          "china energy",
+          "china policy",
+          "energy policy",
+          "guest post",
+          "international policy",
+          "policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278269"
+    },
+    {
+      "id": "carbon-brief-20af3ccd23ee",
+      "title": "Met Office: A review of the UK\u2019s climate in 2025",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/met-office-a-review-of-the-uks-climate-in-2025/",
+        "published_date": "2026-01-30",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "The UK\u2019s climate saw a record-breaking 2025, with the year being both the warmest and... The post Met Office: A review of the UK\u2019s climate in 2025 appeared first on Carbon Brief.",
+        "keywords": [
+          "guest posts",
+          "science",
+          "2025",
+          "extreme weather",
+          "heatwaves",
+          "met office",
+          "uk",
+          "uk climate",
+          "uk met office",
+          "uk weather"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278316"
+    },
+    {
+      "id": "carbon-brief-123a5cb42a38",
+      "title": "Climate change and La Ni\u00f1a made \u2018devastating\u2019 southern African floods more intense",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/climate-change-and-la-nina-made-devastating-southern-african-floods-more-intense/",
+        "published_date": "2026-01-29",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "\u201cExceptionally heavy\u201d rainfall that led to deadly flooding across southern Africa in recent weeks was... The post Climate change and La Ni\u00f1a made \u2018devastating\u2019 southern African floods more intense appeared first on Carbon Brief.",
+        "keywords": [
+          "attribution",
+          "extreme weather",
+          "floods",
+          "science",
+          "africa",
+          "attribution study",
+          "climate change attribution",
+          "extreme event attribution",
+          "flood",
+          "floods"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278374"
+    },
+    {
+      "id": "carbon-brief-2d897a47c277",
+      "title": "Climate change could lead to 500,000 \u2018additional\u2019 malaria deaths in Africa by 2050",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/climate-change-could-lead-to-500000-additional-malaria-deaths-in-africa-by-2050/",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Climate change could lead to half a million more deaths from malaria in Africa over... The post Climate change could lead to 500,000 \u2018additional\u2019 malaria deaths in Africa by 2050 appeared first on Carbon Brief.",
+        "keywords": [
+          "people",
+          "public health",
+          "science",
+          "africa",
+          "disease",
+          "health",
+          "health and security",
+          "healthcare",
+          "infectious diseases",
+          "malaria"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Ayesha Tandon"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278427"
+    },
+    {
+      "id": "carbon-brief-c47d24733c55",
+      "title": "Cropped 28 January 2026: Ocean biodiversity boost; Nature and national security; Mangrove defence",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/cropped-28-january-2026-ocean-biodiversity-boost-nature-and-national-security-mangrove-defence/",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "We handpick and explain the most important stories at the intersection of climate, land, food... The post Cropped 28 January 2026: Ocean biodiversity boost; Nature and national security; Mangrove defence appeared first on Carbon Brief.",
+        "keywords": [
+          "cropped",
+          "australia",
+          "biodiversity",
+          "deep sea mining",
+          "high seas treaty",
+          "mangroves",
+          "water",
+          "water security"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:22.278480"
+    },
+    {
+      "id": "carbon-brief-26623c9909a4",
+      "title": "Expensive gas still biggest driver of high UK electricity bills, says UKERC",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/expensive-gas-still-biggest-driver-of-high-uk-electricity-bills-says-ukerc/",
+        "published_date": "2026-01-28",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "High gas prices are responsible for two-thirds of the rise in household electricity bills since... The post Expensive gas still biggest driver of high UK electricity bills, says UKERC appeared first on Carbon Brief.",
+        "keywords": [
+          "energy",
+          "oil and gas",
+          "policy",
+          "uk policy",
+          "climate policy",
+          "electricity",
+          "energy prices",
+          "gas",
+          "oil and gas",
+          "policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Simon Evans"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-02T11:26:22.278530"
+    },
+    {
+      "id": "carbon-brief-6b657ed4756f",
+      "title": "Analysis: EVs just outsold petrol cars in EU for first time ever",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/analysis-evs-just-outsold-petrol-cars-in-eu-for-first-time-ever/",
+        "published_date": "2026-01-27",
+        "tier": "expansion"
+      },
+      "content": {
+        "abstract": "Sales of electric vehicles (EVs) overtook standard petrol cars in the EU for the first... The post Analysis: EVs just outsold petrol cars in EU for first time ever appeared first on Carbon Brief.",
+        "keywords": [
+          "energy",
+          "eu policy",
+          "policy",
+          "renewables",
+          "climate change",
+          "electric vehicles",
+          "eu",
+          "ev",
+          "ev charging",
+          "policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Molly Lempriere"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-02T11:26:22.278579"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-03",
+    "scan_period": "2026-01-20 ~ 2026-02-03",
+    "workflow": "WF2 - arXiv Academic Deep Scanning",
+    "total_signals": 37,
+    "by_steeps": {
+      "T_Technological": 22,
+      "S_Social": 10,
+      "P_Political": 5
+    },
+    "by_significance": {
+      "score_10": 1,
+      "score_9": 8,
+      "score_8": 15,
+      "score_7": 13
+    },
+    "classification_confidence": 0.91,
+    "arxiv_categories_covered": [
+      "cs.AI", "cs.CL", "cs.CV", "cs.LG", "cs.RO", "cs.NE", "cs.CR",
+      "cs.DC", "cs.SE", "cs.ET", "cs.AR", "cs.CY", "cs.HC", "cs.MA",
+      "cs.SI", "econ.GN", "econ.TH", "eess.SP", "quant-ph", "stat.ML"
+    ]
+  },
+  "signals": [
+    {
+      "rank": 1,
+      "id": "WF2-T-2026-001",
+      "arxiv_id": "2512.24601",
+      "title_ko": "재귀적 언어 모델: 장문맥 AI의 패러다임 전환",
+      "title_en": "Recursive Language Models",
+      "steeps": "T_Technological",
+      "significance": 10,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 2,
+      "id": "WF2-T-2026-002",
+      "arxiv_id": "2512.24880",
+      "title_ko": "mHC: DeepSeek의 LLM 학습 안정성 혁신",
+      "title_en": "mHC: Manifold-Constrained Hyper-Connections",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 3,
+      "id": "WF2-T-2026-003",
+      "arxiv_id": "2601.19834",
+      "title_ko": "시각적 생성이 인간형 추론을 여는 열쇠: 멀티모달 세계 모델",
+      "title_en": "Visual Generation Unlocks Human-Like Reasoning through Multimodal World Models",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 4,
+      "id": "WF2-T-2026-004",
+      "arxiv_id": "2601.06521",
+      "title_ko": "BabyVision: AI 시각 지능의 유아기",
+      "title_en": "BabyVision: Visual Reasoning Beyond Language",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 5,
+      "id": "WF2-T-2026-005",
+      "arxiv_id": "2601.00830",
+      "title_ko": "AI 설명의 신뢰성: CoT 추론의 체계적 과소보고",
+      "title_en": "Can We Trust AI Explanations? Evidence of Systematic Underreporting in CoT Reasoning",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 6,
+      "id": "WF2-S-2026-001",
+      "arxiv_id": "2601.00306",
+      "title_ko": "생성형 AI 역설: 신뢰의 침식과 진실의 종말",
+      "title_en": "The Generative AI Paradox: GenAI and the Erosion of Trust",
+      "steeps": "S_Social",
+      "significance": 9,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 7,
+      "id": "WF2-S-2026-002",
+      "arxiv_id": "2601.00240",
+      "title_ko": "에이전트가 인간을 외집단으로 볼 때: LLM 에이전트의 반인간 편향",
+      "title_en": "When Agents See Humans as the Outgroup: Belief-Dependent Bias in LLM-Powered Agents",
+      "steeps": "S_Social",
+      "significance": 9,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 8,
+      "id": "WF2-S-2026-003",
+      "arxiv_id": "2601.21920",
+      "title_ko": "일의 미래에서 노동자의 미래로: 무증상 AI 해악",
+      "title_en": "From Future of Work to Future of Workers: Addressing Asymptomatic AI Harms",
+      "steeps": "S_Social",
+      "significance": 9,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 9,
+      "id": "WF2-P-2026-001",
+      "arxiv_id": "2601.11369",
+      "title_ko": "제도적 AI: 공공 거버넌스 그래프를 통한 LLM 담합 규제",
+      "title_en": "Institutional AI: Governing LLM Collusion via Public Governance Graphs",
+      "steeps": "P_Political",
+      "significance": 9,
+      "source_domain": "P_Political"
+    },
+    {
+      "rank": 10,
+      "id": "WF2-T-2026-006",
+      "arxiv_id": "2601.22139",
+      "title_ko": "능동적 질문 추론(PIR): 수동적 해결자에서 능동적 질문자로",
+      "title_en": "Proactive Interactive Reasoning (PIR)",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 11,
+      "id": "WF2-T-2026-007",
+      "arxiv_id": "2601.22156",
+      "title_ko": "HALO: 초장문맥을 위한 효율적 하이브리드 어텐션",
+      "title_en": "Hybrid Linear Attention Done Right (HALO)",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 12,
+      "id": "WF2-T-2026-008",
+      "arxiv_id": "2601.21821",
+      "title_ko": "MMFineReason: 소규모 모델이 대규모 모델을 능가",
+      "title_en": "MMFineReason: Closing the Multimodal Reasoning Gap",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 13,
+      "id": "WF2-T-2026-009",
+      "arxiv_id": "2601.10061",
+      "title_ko": "CoF-T2I: 비디오 모델의 시각적 추론을 텍스트-이미지 생성에",
+      "title_en": "CoF-T2I: Video Models as Pure Visual Reasoners for T2I",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 14,
+      "id": "WF2-T-2026-010",
+      "arxiv_id": "2601.02295",
+      "title_ko": "CycleVLA: 능동적 자기수정 로봇",
+      "title_en": "CycleVLA: Proactive Self-Correcting VLA Models",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 15,
+      "id": "WF2-T-2026-011",
+      "arxiv_id": "2601.22159",
+      "title_ko": "RedSage: 사이버보안 범용 LLM (ICLR 2026)",
+      "title_en": "RedSage: A Cybersecurity Generalist LLM",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 16,
+      "id": "WF2-T-2026-012",
+      "arxiv_id": "2601.04137",
+      "title_ko": "WoW-World-Eval: 체화 세계 모델 튜링 테스트",
+      "title_en": "WoW-World-Eval: Embodied World Model Turing Test",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 17,
+      "id": "WF2-T-2026-013",
+      "arxiv_id": "2601.03315",
+      "title_ko": "LLM은 아직 과학자가 아니다",
+      "title_en": "Why LLMs Aren't Scientists Yet",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 18,
+      "id": "WF2-T-2026-014",
+      "arxiv_id": "2601.20247",
+      "title_ko": "양자 컴퓨팅의 CS 도전과제",
+      "title_en": "Computer Science Challenges in Quantum Computing",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 19,
+      "id": "WF2-S-2026-004",
+      "arxiv_id": "2601.01090",
+      "title_ko": "AI 주도 사회의 해악: Chirper.ai 독성 감사",
+      "title_en": "Harm in AI-Driven Societies: Toxicity Audit on Chirper.ai",
+      "steeps": "S_Social",
+      "significance": 8,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 20,
+      "id": "WF2-S-2026-005",
+      "arxiv_id": "2601.06129",
+      "title_ko": "AI 주도 노동시장 전환: 이집트 10,000개 직업의 증거",
+      "title_en": "AI-Driven Labor Market Transitions: Evidence from 10,000 Egyptian Jobs",
+      "steeps": "S_Social",
+      "significance": 8,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 21,
+      "id": "WF2-P-2026-002",
+      "arxiv_id": "2601.00360",
+      "title_ko": "인간의 반담합 메커니즘을 다중 에이전트 AI에 매핑",
+      "title_en": "Mapping Human Anti-collusion Mechanisms to Multi-agent AI",
+      "steeps": "P_Political",
+      "significance": 8,
+      "source_domain": "P_Political"
+    },
+    {
+      "rank": 22,
+      "id": "WF2-P-2026-003",
+      "arxiv_id": "2601.17191",
+      "title_ko": "국제 AI 거버넌스에서의 글로벌 다수",
+      "title_en": "The Global Majority in International AI Governance",
+      "steeps": "P_Political",
+      "significance": 8,
+      "source_domain": "P_Political"
+    },
+    {
+      "rank": 23,
+      "id": "WF2-P-2026-004",
+      "arxiv_id": "2601.18654",
+      "title_ko": "AI 생성 콘텐츠의 자기공개 최적화",
+      "title_en": "When Is Self-Disclosure Optimal? Incentives and Governance of AI-Generated Content",
+      "steeps": "P_Political",
+      "significance": 8,
+      "source_domain": "P_Political"
+    },
+    {
+      "rank": 24,
+      "id": "WF2-P-2026-005",
+      "arxiv_id": "2501.12962",
+      "title_ko": "EU AI 법의 알고리즘 공정성과 비차별 규정",
+      "title_en": "Algorithmic Fairness and Non-Discrimination in EU AI Act",
+      "steeps": "P_Political",
+      "significance": 8,
+      "source_domain": "P_Political"
+    },
+    {
+      "rank": 25,
+      "id": "WF2-T-2026-015",
+      "arxiv_id": "2601.00644",
+      "title_ko": "FlexSpec: 엣지-클라우드 LLM 추측적 디코딩",
+      "title_en": "FlexSpec: Edge-Cloud LLM Speculative Decoding",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 26,
+      "id": "WF2-T-2026-016",
+      "arxiv_id": "2601.01053",
+      "title_ko": "비잔틴 강건 포스트양자 연합학습",
+      "title_en": "Byzantine-Robust Post-Quantum Federated Learning",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 27,
+      "id": "WF2-T-2026-017",
+      "arxiv_id": "2601.18943",
+      "title_ko": "구성 가능한 p-뉴런: 확률적 컴퓨팅",
+      "title_en": "Composable p-Neurons: Probabilistic Computing",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 28,
+      "id": "WF2-T-2026-018",
+      "arxiv_id": "2601.21548",
+      "title_ko": "느린 실리콘 뉴런의 초고속 로봇 제어",
+      "title_en": "Ultra-Fast Robot Control via Slow Silicon Neurons",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 29,
+      "id": "WF2-T-2026-019",
+      "arxiv_id": "2601.10922",
+      "title_ko": "DCVLR: 데이터 큐레이션의 핵심 요소",
+      "title_en": "DCVLR: Data Curation as Dominant Factor",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 30,
+      "id": "WF2-T-2026-020",
+      "arxiv_id": "cs.SE-2026-01",
+      "title_ko": "AI 시대의 개발자",
+      "title_en": "Developers in the Age of AI",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 31,
+      "id": "WF2-T-2026-021",
+      "arxiv_id": "eess.SP-2026-01",
+      "title_ko": "생성 AI 시대의 보안 의미론 통신",
+      "title_en": "Secure Semantic Communication in the Generative AI Era",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 32,
+      "id": "WF2-T-2026-022",
+      "arxiv_id": "cs.NE-2026-01",
+      "title_ko": "스파이킹 이종 그래프 어텐션 네트워크 (AAAI 2026)",
+      "title_en": "Spiking Heterogeneous Graph Attention Network",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "source_domain": "T_Technological"
+    },
+    {
+      "rank": 33,
+      "id": "WF2-S-2026-006",
+      "arxiv_id": "2601.07973",
+      "title_ko": "문화적 나침반: AI의 사회적 규범 위반 탐지",
+      "title_en": "Cultural Compass: Detecting Societal Norm Violations in Human-AI Conversations",
+      "steeps": "S_Social",
+      "significance": 7,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 34,
+      "id": "WF2-S-2026-007",
+      "arxiv_id": "2601.06093",
+      "title_ko": "GenAITEd 가나: 글로벌 남반구 AI 교육 에이전트",
+      "title_en": "GenAITEd Ghana: Context-Aware AI Agent for Teacher Education",
+      "steeps": "S_Social",
+      "significance": 7,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 35,
+      "id": "WF2-S-2026-008",
+      "arxiv_id": "2601.00579",
+      "title_ko": "AI 비가시성 효과: 사용자가 AI를 인식하지 못할 때",
+      "title_en": "The AI Invisibility Effect",
+      "steeps": "S_Social",
+      "significance": 7,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 36,
+      "id": "WF2-S-2026-009",
+      "arxiv_id": "2601.03558",
+      "title_ko": "AI와 기술: 온라인 구인 공고의 대조학습 증거",
+      "title_en": "AI and Skills: Evidence from Online Job Vacancies",
+      "steeps": "S_Social",
+      "significance": 7,
+      "source_domain": "S_Social"
+    },
+    {
+      "rank": 37,
+      "id": "WF2-S-2026-010",
+      "arxiv_id": "2601.07136",
+      "title_ko": "다중 에이전트 AI 시스템의 대규모 연구",
+      "title_en": "Large-Scale Study on Multi-Agent AI Systems",
+      "steeps": "S_Social",
+      "significance": 7,
+      "source_domain": "S_Social"
+    }
+  ]
+}

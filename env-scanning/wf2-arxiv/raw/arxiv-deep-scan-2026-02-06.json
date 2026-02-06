@@ -1,0 +1,293 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-06",
+    "workflow": "wf2-arxiv",
+    "source": "arXiv",
+    "days_back": 14,
+    "categories_scanned": 32,
+    "total_items": 35,
+    "execution_time": 38.7
+  },
+  "items": [
+    {
+      "id": "arxiv-2602-001",
+      "title": "MaxRL: Maximum Likelihood Reinforcement Learning with 20x Test-Time Scaling Efficiency",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.AI/recent", "published_date": "2026-02-03", "category": "cs.AI"},
+      "content": {"abstract": "Maximum Likelihood Reinforcement Learning (MaxRL) demonstrates superior scaling with increased computational resources, achieving up to 20x test-time scaling efficiency on mathematical reasoning benchmarks compared to existing methods.", "keywords": ["reinforcement learning", "scaling", "mathematical reasoning", "LLM"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-002",
+      "title": "SWE-Universe: 800,000 Real-World Software Engineering Environments",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.SE/recent", "published_date": "2026-02-01", "category": "cs.SE"},
+      "content": {"abstract": "Alibaba's Qwen Team developed SWE-Universe, a framework creating over 800,000 real-world software engineering environments. Qwen3-Max-Thinking model achieves 75.3% accuracy on SWE-Bench Verified, demonstrating significant advancement in automated software engineering.", "keywords": ["software engineering", "LLM", "benchmark", "code generation"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-003",
+      "title": "PixelGen: Pixel-Space Diffusion Achieving FID 5.11 on ImageNet-256",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CV/recent", "published_date": "2026-02-02", "category": "cs.CV"},
+      "content": {"abstract": "PixelGen, a pixel-space diffusion model, achieves higher fidelity than state-of-the-art latent diffusion models, obtaining FID of 5.11 on ImageNet-256. Challenges the dominance of latent diffusion approaches.", "keywords": ["diffusion model", "image generation", "pixel space", "computer vision"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-004",
+      "title": "WideSeek-R1: Width Scaling for Broad Information Seeking via Multi-Agent RL",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.AI/recent", "published_date": "2026-02-04", "category": "cs.AI"},
+      "content": {"abstract": "WideSeek-R1 explores width scaling for broad information seeking via multi-agent reinforcement learning, demonstrating new approaches to multi-agent coordination and information retrieval.", "keywords": ["multi-agent", "reinforcement learning", "information seeking", "scaling"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-005",
+      "title": "From Assumptions to Actions: LLM Reasoning into Uncertainty-Aware Planning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.RO/recent", "published_date": "2026-01-28", "category": "cs.RO"},
+      "content": {"abstract": "Paper accepted to ICLR 2026 presents framework turning LLM reasoning into uncertainty-aware planning for embodied agents, bridging language understanding with physical world interaction.", "keywords": ["embodied AI", "uncertainty", "planning", "LLM", "robotics"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-006",
+      "title": "LLM Game-Theoretic Reasoning: How Far from Professional Poker Players?",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.AI/recent", "published_date": "2026-02-05", "category": "cs.AI"},
+      "content": {"abstract": "Examines LLMs' game-theoretic capabilities through poker domain, revealing significant gaps between LLM reasoning and professional-level game-theoretic decision making.", "keywords": ["game theory", "LLM", "poker", "decision making", "strategic reasoning"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-007",
+      "title": "Unmasking Reasoning Processes: Process-aware Benchmark for Mathematical Reasoning in LLMs",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CL/recent", "published_date": "2026-02-01", "category": "cs.CL"},
+      "content": {"abstract": "Introduces process-aware benchmark for evaluating structural mathematical reasoning in LLMs, providing deeper insights into how models approach multi-step mathematical problems.", "keywords": ["mathematical reasoning", "benchmark", "LLM", "process evaluation"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:00:00Z"
+    },
+    {
+      "id": "arxiv-2602-008",
+      "title": "Review of Superconducting Qubit Devices and Large-Scale Integration",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.04831", "published_date": "2026-02-05", "category": "quant-ph"},
+      "content": {"abstract": "Comprehensive review of superconducting qubit quantum computers as leading architecture for large-scale integration. Covers proposals and developments for scaling superconducting quantum systems.", "keywords": ["superconducting qubits", "quantum computing", "large-scale integration"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:02:00Z"
+    },
+    {
+      "id": "arxiv-2602-009",
+      "title": "Enabling Large-Scale Digital Quantum Simulations with Superconducting Qubits",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.04719", "published_date": "2026-02-05", "category": "quant-ph"},
+      "content": {"abstract": "Digital quantum simulation using quantum computers to replicate behavior of other quantum systems could enable studying intractable problems, transforming quantum chemistry, condensed matter physics, and materials science.", "keywords": ["quantum simulation", "superconducting qubits", "materials science", "quantum chemistry"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:02:00Z"
+    },
+    {
+      "id": "arxiv-2602-010",
+      "title": "Computer Science Challenges in Quantum Computing: Early Fault-Tolerance and Beyond",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2601.20247", "published_date": "2026-01-29", "category": "quant-ph"},
+      "content": {"abstract": "Quantum computing entering period where progress shaped by computer science advances as much as hardware improvements. Early fault-tolerant QC shifting bottlenecks to system design and integration.", "keywords": ["quantum computing", "fault tolerance", "computer science", "system design"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:02:00Z"
+    },
+    {
+      "id": "arxiv-2602-011",
+      "title": "QRC-Lab: Open-Source Framework for Quantum Reservoir Computing",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/quant-ph/recent", "published_date": "2026-01-30", "category": "quant-ph"},
+      "content": {"abstract": "Introduces QRC-Lab, open-source Python framework bridging theoretical quantum dynamics and applied machine learning workflows. Quantum Reservoir Computing emerges as paradigm for noisy intermediate-scale quantum ML.", "keywords": ["quantum reservoir computing", "quantum ML", "NISQ", "open source"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:02:00Z"
+    },
+    {
+      "id": "arxiv-2602-012",
+      "title": "NorwAI's Large Language Models: Technical Report for Scandinavian NLP",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2601.03034", "published_date": "2026-01-08", "category": "cs.CL"},
+      "content": {"abstract": "NorLLM team at NorwAI develops family of models for Norwegian and Scandinavian languages, building on GPT, Mistral, Llama2, Mixtral and Magistral architectures to address underrepresented language NLP.", "keywords": ["Norwegian", "Scandinavian", "LLM", "multilingual NLP"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:04:00Z"
+    },
+    {
+      "id": "arxiv-2602-013",
+      "title": "LLM-based Embeddings: Attention Values Encode Sentence Semantics Better",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.01572", "published_date": "2026-02-03", "category": "cs.CL"},
+      "content": {"abstract": "Shows attention value vectors capture sentence semantics more effectively than hidden states for deriving sentence representations in LLMs, challenging conventional embedding extraction methods.", "keywords": ["embeddings", "attention", "sentence semantics", "LLM"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:04:00Z"
+    },
+    {
+      "id": "arxiv-2602-014",
+      "title": "Data Augmented Pipeline for Legal Information Extraction and Reasoning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2601.05609", "published_date": "2026-01-14", "category": "cs.CL"},
+      "content": {"abstract": "Pipeline leveraging LLMs for data augmentation in legal information extraction tasks. Demonstrates domain-specific LLM applications for law and legal reasoning.", "keywords": ["legal NLP", "information extraction", "LLM", "data augmentation"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:04:00Z"
+    },
+    {
+      "id": "arxiv-2602-015",
+      "title": "Vision-Language Action Models: Distracting Token Pruning for Robotic Manipulation",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.RO/recent", "published_date": "2026-02-01", "category": "cs.RO"},
+      "content": {"abstract": "Introduces Distracting Token Pruning (DTP) framework for Vision-Language Action models to improve attention to task-relevant regions, enhancing task success rates in robotic manipulation.", "keywords": ["VLA models", "robotics", "token pruning", "manipulation"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:06:00Z"
+    },
+    {
+      "id": "arxiv-2602-016",
+      "title": "Integrated Exploration and Manipulation on Scene Graph with LLM Replanning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.RO/recent", "published_date": "2026-01-25", "category": "cs.RO"},
+      "content": {"abstract": "Accepted by ICRA 2026. Presents integrated exploration and sequential manipulation using scene graphs with LLM-based situated replanning for embodied agents.", "keywords": ["scene graph", "LLM planning", "robotics", "embodied AI", "ICRA 2026"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:06:00Z"
+    },
+    {
+      "id": "arxiv-2602-017",
+      "title": "HoRD: Humanoid Control via Reinforcement Learning with Hierarchical Policy",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.RO/recent", "published_date": "2026-01-28", "category": "cs.RO"},
+      "content": {"abstract": "Advances humanoid robot control through reinforcement learning with hierarchical policy design. Addresses challenges of complex, high-dimensional humanoid locomotion and manipulation.", "keywords": ["humanoid", "reinforcement learning", "hierarchical policy", "locomotion"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:06:00Z"
+    },
+    {
+      "id": "arxiv-2602-018",
+      "title": "MoRo: Generative Masked Modeling for Human Motion Reconstruction",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CV/recent", "published_date": "2026-02-02", "category": "cs.CV"},
+      "content": {"abstract": "MoRo addresses human motion reconstruction from video through generative masked modeling, designed to handle occlusions in real-world robotic applications.", "keywords": ["motion reconstruction", "masked modeling", "occlusion", "robotics vision"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:06:00Z"
+    },
+    {
+      "id": "arxiv-2602-019",
+      "title": "Beyond Visual Realism: Toward Reliable Financial Time Series Generation",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/q-fin/recent", "published_date": "2026-01-28", "category": "q-fin.CP"},
+      "content": {"abstract": "Accepted by ICASSP 2026. Addresses reliability in financial time series generation beyond visual similarity, with implications for ML in finance.", "keywords": ["financial time series", "generation", "reliability", "ML finance"]},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T10:08:00Z"
+    },
+    {
+      "id": "arxiv-2602-020",
+      "title": "Deep RL for Optimum Order Execution: Mitigating Risk and Maximizing Returns",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/q-fin/recent", "published_date": "2026-01-30", "category": "q-fin.TR"},
+      "content": {"abstract": "Applies deep reinforcement learning to optimum order execution in trading, balancing risk mitigation and return maximization for algorithmic trading strategies.", "keywords": ["order execution", "deep RL", "algorithmic trading", "risk management"]},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T10:08:00Z"
+    },
+    {
+      "id": "arxiv-2602-021",
+      "title": "Martingale Optimal Transport: Dual Attainment for Multi-Asset, Multi-Period",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/q-fin.MF/recent", "published_date": "2026-02-01", "category": "q-fin.MF"},
+      "content": {"abstract": "Establishes dual attainment for multimarginal, multi-asset martingale optimal transport problems, extending results to arbitrary numbers of assets and time periods with financial applications.", "keywords": ["martingale optimal transport", "mathematical finance", "multi-asset", "duality"]},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T10:08:00Z"
+    },
+    {
+      "id": "arxiv-2602-022",
+      "title": "Algorithmic Coupling in US Banking: AI-Driven Decision Synchronization Risks",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/econ.GN/recent", "published_date": "2026-01-27", "category": "econ.GN"},
+      "content": {"abstract": "Presented at ASSA 2026. Examines how US banking system is becoming algorithmically coupled through synchronized AI-driven decision-making, creating implications for systemic financial risk.", "keywords": ["algorithmic coupling", "banking", "systemic risk", "AI finance"]},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T10:08:00Z"
+    },
+    {
+      "id": "arxiv-2602-023",
+      "title": "Quantum Computing for Climate Modelling: Opportunities and Challenges",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2502.10488", "published_date": "2026-02-04", "category": "physics.ao-ph"},
+      "content": {"abstract": "Explores how quantum computing could improve climate projections from Earth system models, with potential to address uncertainties in subgrid-scale processes like turbulence and convection.", "keywords": ["quantum computing", "climate modeling", "Earth system", "subgrid processes"]},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T10:10:00Z"
+    },
+    {
+      "id": "arxiv-2602-024",
+      "title": "ML-Physics Fusion Models for Typhoon Forecasting",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/physics.ao-ph/recent", "published_date": "2026-01-29", "category": "physics.ao-ph"},
+      "content": {"abstract": "Develops ML-physics fusion models for improved typhoon forecasting, combining data-driven approaches with physical constraints for extreme weather prediction.", "keywords": ["typhoon", "ML forecasting", "physics-ML fusion", "extreme weather"]},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T10:10:00Z"
+    },
+    {
+      "id": "arxiv-2602-025",
+      "title": "Continuous Decline of Land Carbon Sink During Recent Climate Events",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/physics.ao-ph/recent", "published_date": "2026-02-03", "category": "physics.ao-ph"},
+      "content": {"abstract": "Documents continuous decline of land carbon sink during recent extreme climate events, with implications for carbon cycle modeling and climate projections.", "keywords": ["carbon sink", "climate events", "carbon cycle", "land ecosystem"]},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T10:10:00Z"
+    },
+    {
+      "id": "arxiv-2602-026",
+      "title": "Adaptive Quantum-Safe Cryptography for 6G Vehicular Networks",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CR/recent", "published_date": "2026-01-30", "category": "cs.CR"},
+      "content": {"abstract": "Accepted at NDSS 2026. Presents adaptive quantum-safe cryptography for 6G vehicular networks via context-aware optimization, addressing emerging mobility security needs.", "keywords": ["quantum-safe", "6G", "vehicular networks", "post-quantum cryptography"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:12:00Z"
+    },
+    {
+      "id": "arxiv-2602-027",
+      "title": "Privacy-Preserving Multi-Client Data Sharing via Consensus-Based Distribution",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CR/recent", "published_date": "2026-02-02", "category": "cs.CR"},
+      "content": {"abstract": "Secure, verifiable, and scalable multi-client data sharing via consensus-based privacy-preserving data distribution, combining cryptography with distributed computing principles.", "keywords": ["privacy-preserving", "data sharing", "consensus", "distributed systems"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:12:00Z"
+    },
+    {
+      "id": "arxiv-2602-028",
+      "title": "Tri-LLM Cooperative Federated Zero-Shot Intrusion Detection",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CR/recent", "published_date": "2026-01-31", "category": "cs.CR"},
+      "content": {"abstract": "Tri-LLM cooperative federated zero-shot intrusion detection with semantic disagreement and trust-aware aggregation for security in distributed ML contexts.", "keywords": ["federated learning", "intrusion detection", "LLM", "zero-shot", "security"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:12:00Z"
+    },
+    {
+      "id": "arxiv-2602-029",
+      "title": "From Consensus to Chaos: Vulnerability Assessment of RAFT Algorithm",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.DC/recent", "published_date": "2026-02-01", "category": "cs.DC"},
+      "content": {"abstract": "Examines vulnerabilities in RAFT distributed consensus algorithm, revealing potential attack vectors in widely-used distributed systems.", "keywords": ["RAFT", "consensus", "vulnerability", "distributed systems", "security"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:12:00Z"
+    },
+    {
+      "id": "arxiv-2602-030",
+      "title": "Enterprise Quantum Readiness: Less Than 5% Have Formal Transition Plans",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/html/2509.01731v1", "published_date": "2026-01-25", "category": "cs.CR"},
+      "content": {"abstract": "Survey reveals fewer than 5% of enterprises have formal quantum-transition plans, while post-quantum cryptography is widely recognized as primary path for cybersecurity applications.", "keywords": ["quantum readiness", "PQC", "enterprise security", "transition planning"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:12:00Z"
+    },
+    {
+      "id": "arxiv-2602-031",
+      "title": "Social Network Analysis via Graph Neural Networks: Misinformation Detection",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.SI/recent", "published_date": "2026-02-03", "category": "cs.SI"},
+      "content": {"abstract": "Applies graph neural networks to social network analysis for improved misinformation detection, addressing growing concern about information integrity.", "keywords": ["misinformation", "GNN", "social networks", "detection"]},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-06T10:14:00Z"
+    },
+    {
+      "id": "arxiv-2602-032",
+      "title": "Value Alignment in Large Language Models: A Multi-Stakeholder Perspective",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.CY/recent", "published_date": "2026-01-28", "category": "cs.CY"},
+      "content": {"abstract": "Examines value alignment in LLMs from multi-stakeholder perspective, addressing ethical implications and governance challenges of AI systems.", "keywords": ["value alignment", "LLM ethics", "AI governance", "multi-stakeholder"]},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-06T10:14:00Z"
+    },
+    {
+      "id": "arxiv-2602-033",
+      "title": "AI Safety Benchmarks: Comprehensive Evaluation Framework for Risk Assessment",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.AI/recent", "published_date": "2026-02-04", "category": "cs.AI"},
+      "content": {"abstract": "Proposes comprehensive AI safety benchmark framework for systematic risk assessment, enabling standardized evaluation of model safety properties.", "keywords": ["AI safety", "benchmarks", "risk assessment", "evaluation"]},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-06T10:14:00Z"
+    },
+    {
+      "id": "arxiv-2602-034",
+      "title": "Explainable AI for Healthcare: Interpretable Diagnostic Models",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.LG/recent", "published_date": "2026-02-01", "category": "cs.LG"},
+      "content": {"abstract": "Develops explainable AI methods for healthcare diagnostic models, balancing predictive accuracy with interpretability for clinical decision support.", "keywords": ["explainable AI", "healthcare", "diagnostics", "interpretability"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:14:00Z"
+    },
+    {
+      "id": "arxiv-2602-035",
+      "title": "Federated Learning for Privacy-Preserving Medical AI Across Institutions",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/list/cs.LG/recent", "published_date": "2026-01-29", "category": "cs.LG"},
+      "content": {"abstract": "Advances federated learning methods for privacy-preserving medical AI across healthcare institutions, enabling collaborative model development without data sharing.", "keywords": ["federated learning", "medical AI", "privacy", "healthcare"]},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T10:14:00Z"
+    }
+  ]
+}

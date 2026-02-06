@@ -1,0 +1,486 @@
+{
+  "classification_metadata": {
+    "date": "2026-02-06",
+    "workflow": "wf1-general",
+    "total_classified": 52,
+    "classification_confidence": 0.89,
+    "steep_distribution": {
+      "T_Technological": 24,
+      "P_Political": 11,
+      "E_Economic": 8,
+      "E_Environmental": 6,
+      "S_Social": 4,
+      "s_spiritual": 3
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "raw-2026-02-06-001",
+      "title": "Physical AI Dominates CES 2026 - Robots Leave the Screen",
+      "final_category": "T",
+      "category_confidence": 0.95,
+      "classification_rationale": "Core technological innovation - robotics and physical AI devices entering market represents major tech transformation",
+      "cross_domain_relevance": ["E", "S"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-002",
+      "title": "AI Shift from Scaling to Practical Applications in 2026",
+      "final_category": "T",
+      "category_confidence": 0.92,
+      "classification_rationale": "Technology development paradigm shift - focus on practical deployment of smaller AI models",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-003",
+      "title": "OpenAI Bets on Audio - Silicon Valley Declares War on Screens",
+      "final_category": "T",
+      "category_confidence": 0.94,
+      "classification_rationale": "Major tech company product strategy shift toward audio-first computing interfaces",
+      "cross_domain_relevance": ["S"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-004",
+      "title": "MIT Technology Review 2026 Breakthrough Technologies - AI Companions Normalized",
+      "final_category": "s",
+      "category_confidence": 0.88,
+      "classification_rationale": "AI emotional companions impact psychology and social relationships - ethical/psychological domain per STEEPs framework",
+      "cross_domain_relevance": ["T", "S"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-005",
+      "title": "Mechanistic Interpretability - Understanding AI Inner Workings",
+      "final_category": "T",
+      "category_confidence": 0.93,
+      "classification_rationale": "Core AI research breakthrough in explainability and model transparency",
+      "cross_domain_relevance": ["s"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-006",
+      "title": "Trump Executive Order Challenges State AI Laws - Federal AI Framework",
+      "final_category": "P",
+      "category_confidence": 0.96,
+      "classification_rationale": "Executive order establishing federal policy framework - core political/regulatory action",
+      "cross_domain_relevance": ["T"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-007",
+      "title": "State AI Laws Effective January 2026 Face Federal Disruption",
+      "final_category": "P",
+      "category_confidence": 0.95,
+      "classification_rationale": "Federal-state regulatory tension and preemption dynamics - political/legal domain",
+      "cross_domain_relevance": ["T", "E"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-008",
+      "title": "WHO Pandemic Agreement Advances - PABS System Negotiations",
+      "final_category": "P",
+      "category_confidence": 0.94,
+      "classification_rationale": "International treaty negotiation and global health governance - political/institutional",
+      "cross_domain_relevance": ["S"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-009",
+      "title": "Global Health Systems at Risk as Funding Cuts Bite - WHO Warning",
+      "final_category": "P",
+      "category_confidence": 0.91,
+      "classification_rationale": "International aid and health funding policy dynamics - political/institutional governance",
+      "cross_domain_relevance": ["S", "E"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-010",
+      "title": "Four in Ten Cancer Cases Preventable Globally - WHO Report",
+      "final_category": "S",
+      "category_confidence": 0.87,
+      "classification_rationale": "Public health research with social/demographic implications for healthcare systems",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-011",
+      "title": "Google Willow Quantum Chip - Exponential Error Reduction at Scale",
+      "final_category": "T",
+      "category_confidence": 0.97,
+      "classification_rationale": "Major quantum computing hardware breakthrough - core technological innovation",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-012",
+      "title": "AI-Quantum Convergence - Neural Networks for Quantum Error Correction",
+      "final_category": "T",
+      "category_confidence": 0.96,
+      "classification_rationale": "Hybrid AI-quantum technology advancement - technological convergence",
+      "cross_domain_relevance": [],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-013",
+      "title": "Renewable Energy Surge Named 2025 Breakthrough of the Year",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.93,
+      "classification_rationale": "Clean energy transition and sustainability milestone - environmental domain",
+      "cross_domain_relevance": ["E", "T"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-014",
+      "title": "Small Modular Reactors Emerge as Nuclear Energy Opportunity",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.90,
+      "classification_rationale": "Nuclear energy infrastructure for decarbonization - environmental/sustainability",
+      "cross_domain_relevance": ["T", "E"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-015",
+      "title": "CRISPR Climate-Smart Crops - Root Architecture Modification Success",
+      "final_category": "T",
+      "category_confidence": 0.89,
+      "classification_rationale": "Biotechnology breakthrough using gene editing - technological innovation",
+      "cross_domain_relevance": ["E_Environmental"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-016",
+      "title": "SamudrACE - AI Model Simulating Atmosphere-Ocean Over Millennium",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.88,
+      "classification_rationale": "Climate modeling advancement for environmental prediction - environmental domain",
+      "cross_domain_relevance": ["T"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-017",
+      "title": "Boston Dynamics Atlas Humanoid Robot - Industrial Era Redesign",
+      "final_category": "T",
+      "category_confidence": 0.95,
+      "classification_rationale": "Industrial robotics advancement - core technological innovation",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-018",
+      "title": "Tech in 2026: Air Taxis, Wireless EV Charging, Robotic Umpires",
+      "final_category": "T",
+      "category_confidence": 0.92,
+      "classification_rationale": "Diverse emerging technologies - technological innovation across sectors",
+      "cross_domain_relevance": ["E", "S"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-019",
+      "title": "Global Economy Shows Resilience but Trade Tensions Cloud Outlook - UN",
+      "final_category": "E",
+      "category_confidence": 0.94,
+      "classification_rationale": "Global economic analysis and trade dynamics - economic domain",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-020",
+      "title": "Critical Minerals Supply Chain Risk - China's Rare Earth Dominance",
+      "final_category": "E",
+      "category_confidence": 0.91,
+      "classification_rationale": "Supply chain economics and trade dynamics - economic/geopolitical",
+      "cross_domain_relevance": ["P", "T"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-021",
+      "title": "Waabi $750M Series C - Largest Canadian Tech Funding for Physical AI",
+      "final_category": "T",
+      "category_confidence": 0.90,
+      "classification_rationale": "Major funding for autonomous vehicle AI technology - technological innovation",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-022",
+      "title": "Bedrock Robotics $270M - Operatorless Excavator Operations by 2026",
+      "final_category": "T",
+      "category_confidence": 0.91,
+      "classification_rationale": "Construction automation technology advancement - technological innovation",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-023",
+      "title": "Cerebras $1B Round - Wafer-Scale AI Chips Scaling",
+      "final_category": "T",
+      "category_confidence": 0.93,
+      "classification_rationale": "AI semiconductor infrastructure investment - technological innovation",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-024",
+      "title": "64% of Teens Use AI Chatbots Daily - Digital Behavior Shift",
+      "final_category": "S",
+      "category_confidence": 0.88,
+      "classification_rationale": "Youth digital behavior and social patterns - social/demographic trend",
+      "cross_domain_relevance": ["T", "s"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-025",
+      "title": "Young Adults News Consumption Shift to Social Media",
+      "final_category": "S",
+      "category_confidence": 0.89,
+      "classification_rationale": "Information consumption patterns and media behavior - social trend",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-026",
+      "title": "2025 Third-Hottest Year on Record - Climate Trajectory",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.96,
+      "classification_rationale": "Climate change data and trajectory - core environmental domain",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-027",
+      "title": "Arctic Sea Ice December 2025 Lowest on Record",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.95,
+      "classification_rationale": "Polar ice loss and climate change impact - environmental domain",
+      "cross_domain_relevance": [],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-028",
+      "title": "Carbon Emissions Rose 1.1% to Record 38.1B Tons in 2025",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.94,
+      "classification_rationale": "Emissions data and climate trajectory - environmental domain",
+      "cross_domain_relevance": ["E", "P"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-029",
+      "title": "Labor Market Impacts - Healthy Job Growth Could Reach Zero by 2027",
+      "final_category": "E",
+      "category_confidence": 0.92,
+      "classification_rationale": "Labor market dynamics and employment trends - economic domain",
+      "cross_domain_relevance": ["S", "P"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-030",
+      "title": "OBBBA Tax Provisions - Firm Behavior Impact Uncertain",
+      "final_category": "E",
+      "category_confidence": 0.90,
+      "classification_rationale": "Tax policy and business investment dynamics - economic/fiscal policy",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-031",
+      "title": "WEF Global Risks 2026 - Geoeconomic Confrontation Top Risk",
+      "final_category": "P",
+      "category_confidence": 0.93,
+      "classification_rationale": "Global risk assessment with geopolitical focus - political/institutional",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-032",
+      "title": "AI Adverse Outcomes Surge to Top Long-Term Risk",
+      "final_category": "s",
+      "category_confidence": 0.86,
+      "classification_rationale": "AI risk perception and societal concern - ethics/psychology per STEEPs",
+      "cross_domain_relevance": ["T", "P"],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-033",
+      "title": "Tariffs Could Lead to Substantial Contraction in Global Trade",
+      "final_category": "E",
+      "category_confidence": 0.93,
+      "classification_rationale": "Trade policy economic impact - economic domain",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-034",
+      "title": "BIS Tokenized Unified Ledger - Next-Generation Financial System",
+      "final_category": "E",
+      "category_confidence": 0.91,
+      "classification_rationale": "Financial infrastructure innovation - economic/fintech domain",
+      "cross_domain_relevance": ["T", "P"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-035",
+      "title": "Monetary Policy Easing 2026 - Inflation vs Financial Stability Balance",
+      "final_category": "E",
+      "category_confidence": 0.94,
+      "classification_rationale": "Central bank policy and macroeconomic dynamics - economic domain",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-036",
+      "title": "2026 AI Governance Shift - From Principles to Enforceable Rules",
+      "final_category": "P",
+      "category_confidence": 0.94,
+      "classification_rationale": "AI regulation and enforcement framework - political/regulatory domain",
+      "cross_domain_relevance": ["T"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-037",
+      "title": "72 Countries Propose 1000+ AI Policy Initiatives",
+      "final_category": "P",
+      "category_confidence": 0.95,
+      "classification_rationale": "Global AI policy landscape - political/regulatory domain",
+      "cross_domain_relevance": ["T"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-038",
+      "title": "China Cybersecurity Law January 2026 - AI Compliance Focus",
+      "final_category": "P",
+      "category_confidence": 0.93,
+      "classification_rationale": "National cybersecurity and AI regulation - political/legal domain",
+      "cross_domain_relevance": ["T"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-039",
+      "title": "Agentic AI Double-Edged Sword - Automated Arms Race in Cybersecurity",
+      "final_category": "T",
+      "category_confidence": 0.90,
+      "classification_rationale": "AI technology in cybersecurity context - technological innovation/risk",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-040",
+      "title": "Harvest Now Decrypt Later - Quantum Threat to Encryption",
+      "final_category": "T",
+      "category_confidence": 0.91,
+      "classification_rationale": "Quantum computing security threat - technological risk",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-041",
+      "title": "Post-Quantum Cryptography Pilots Become Requirements in 2026",
+      "final_category": "T",
+      "category_confidence": 0.92,
+      "classification_rationale": "Cryptography technology transition - technological innovation",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "short_term"
+    },
+    {
+      "id": "raw-2026-02-06-042",
+      "title": "AI Security Emerges as Formal Discipline in 2026",
+      "final_category": "T",
+      "category_confidence": 0.89,
+      "classification_rationale": "New cybersecurity discipline emergence - technological field development",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-043",
+      "title": "Ethics-by-Design Momentum Growing for AI Development",
+      "final_category": "s",
+      "category_confidence": 0.90,
+      "classification_rationale": "AI ethics and responsible development - ethics/values domain per STEEPs",
+      "cross_domain_relevance": ["T", "P"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-044",
+      "title": "UN AI Governance Recommendations - Policy Dialogues and Standards Exchange",
+      "final_category": "P",
+      "category_confidence": 0.94,
+      "classification_rationale": "International AI governance framework - political/institutional",
+      "cross_domain_relevance": ["T"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-045",
+      "title": "Decoded Quantum Interferometry - New Algorithm for Near-Optimal Solutions",
+      "final_category": "T",
+      "category_confidence": 0.95,
+      "classification_rationale": "Quantum computing algorithm breakthrough - technological innovation",
+      "cross_domain_relevance": [],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-046",
+      "title": "ElevenLabs $500M - Multimodal Agent Capabilities Expansion",
+      "final_category": "T",
+      "category_confidence": 0.91,
+      "classification_rationale": "AI company funding for multimodal capabilities - technological development",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-047",
+      "title": "66% Americans Say Federal Government Responsible for Healthcare Coverage",
+      "final_category": "S",
+      "category_confidence": 0.87,
+      "classification_rationale": "Public opinion on healthcare policy - social/demographic trend",
+      "cross_domain_relevance": ["P"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-048",
+      "title": "Middle Powers Navigate Global Moment - Davos 2026 Analysis",
+      "final_category": "P",
+      "category_confidence": 0.92,
+      "classification_rationale": "Geopolitical dynamics and international relations - political domain",
+      "cross_domain_relevance": ["E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-049",
+      "title": "World Models - Next Big Leap for AI Learning Physical Interactions",
+      "final_category": "T",
+      "category_confidence": 0.94,
+      "classification_rationale": "AI research direction and capability development - technological innovation",
+      "cross_domain_relevance": [],
+      "impact_horizon": "long_term"
+    },
+    {
+      "id": "raw-2026-02-06-050",
+      "title": "Hyperscale AI Data Centers Energy Challenge - 2026 Breakthrough Tech",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.85,
+      "classification_rationale": "Energy sustainability of AI infrastructure - environmental/sustainability focus",
+      "cross_domain_relevance": ["T", "E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-051",
+      "title": "AI Companies Betting on Next-Gen Nuclear Power",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.86,
+      "classification_rationale": "Clean energy for AI infrastructure - environmental/energy transition",
+      "cross_domain_relevance": ["T", "E"],
+      "impact_horizon": "medium_term"
+    },
+    {
+      "id": "raw-2026-02-06-052",
+      "title": "Stanford Students Launch $2M Breakthrough Ventures Accelerator",
+      "final_category": "E",
+      "category_confidence": 0.88,
+      "classification_rationale": "Venture capital and startup ecosystem - economic domain",
+      "cross_domain_relevance": ["S", "T"],
+      "impact_horizon": "short_term"
+    }
+  ]
+}

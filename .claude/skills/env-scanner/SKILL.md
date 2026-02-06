@@ -54,6 +54,7 @@ This skill provides the following slash commands:
 - `/run-daily-scan --base-only` - WF1 base sources only + WF2 + Integration
 - `/run-daily-scan --arxiv-only` - WF2 only (standalone arXiv scan)
 - `/run-arxiv-scan` - WF2 standalone (alias for --arxiv-only)
+- `/run-weekly-scan` - Execute weekly meta-analysis (no new scanning, analyzes last 7 days)
 - `/status` - Check current workflow progress
 - `/review-filter` - Review duplicate filtering results (Step 1.4)
 - `/review-analysis` - Review analysis results and adjust priorities (Step 2.5)

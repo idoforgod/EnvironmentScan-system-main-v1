@@ -1,0 +1,546 @@
+{
+  "scan_date": "2026-02-05",
+  "workflow": "WF2 - arXiv Academic Deep Scanning",
+  "ranking_method": "pSST unified ranking (impact 0.40, probability 0.30, urgency 0.20, novelty 0.10)",
+  "total_ranked": 35,
+  "cumulative_db_size": 65,
+  "scan_summary": {
+    "key_themes_this_scan": [
+      "LLM safety alignment arms race intensifying - attacks and defenses evolving in parallel",
+      "Agentic AI systemic risks outpacing traditional safety frameworks",
+      "AI-driven code generation security via constitutional constraints",
+      "Quantum error correction breakthrough with erasure qubits",
+      "Automation paradox: counterintuitive positive wage effects",
+      "AI skill formation trade-off: productivity vs learning",
+      "Legal infrastructure for transformative AI governance emerging",
+      "AI weather prediction reaching operational deployment at national scale",
+      "LLM evaluation contamination through preference leakage"
+    ],
+    "steeps_distribution": {
+      "T_Technological": "51.4% (18 signals) - AI safety/alignment, quantum computing, reasoning architectures",
+      "S_Social": "14.3% (5 signals) - Persona bias, skill formation, opinion modeling",
+      "P_Political": "14.3% (5 signals) - AI governance, algorithmic unemployment, cultural governance",
+      "E_Economic": "8.6% (3 signals) - Automation paradox, credit risk, evaluation contamination",
+      "E_Environmental": "5.7% (2 signals) - Data center grid integration, AI weather forecasting",
+      "s_spiritual": "5.7% (2 signals) - Mental wellbeing AI design, counselling ethics"
+    }
+  },
+  "top_15_signals": [
+    {
+      "rank": 1,
+      "id": "WF2-T-2026-030",
+      "arxiv_id": "2601.03868",
+      "title": "What Matters For Safety Alignment?",
+      "title_ko": "안전 정렬에서 정말 중요한 것은 무엇인가?",
+      "category": "T",
+      "category_secondary": "P",
+      "significance": 9,
+      "priority_score": 9.3,
+      "impact": 9.5,
+      "probability": 9.5,
+      "urgency": 9.0,
+      "novelty": 8.5,
+      "psst_score": 84,
+      "psst_grade": "B+",
+      "psst_components": {
+        "source_reliability": 88,
+        "temporal_consistency": 92,
+        "analytical_confirmation": 73
+      },
+      "analysis": {
+        "summary": "4.6백만 API 호출로 32개 LLM/LRM을 56개 탈옥 기법과 4개 CoT 공격으로 체계적 평가한 사상 최대 규모의 안전 정렬 벤치마크 연구",
+        "paradigm_impact": "추론 모델(LRM)의 CoT가 안전 정렬의 새로운 공격 표면임을 최초로 대규모 실증하여, DeepSeek-R1 계열이 가장 취약하다는 점은 오픈소스 추론 모델의 안전성 재검토를 촉발",
+        "strategic_implications": [
+          "오픈소스 추론 모델의 안전성 재평가 필요성 대두",
+          "CoT 추론이 새로운 공격 벡터로 부상 - 추론 과정 자체의 안전 감사 필요",
+          "모델 패밀리 간 안전성 격차가 규제 차별화의 근거가 될 수 있음"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-023 (Agent-to-Agent Jailbreaking), WF2-T-2026-028 (4C Framework)와 연결 - AI 안전 공격-방어 군비 경쟁의 체계적 증거 축적"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "WF2-T-2026-031",
+      "arxiv_id": "2601.05445",
+      "title": "Knowledge-Driven Multi-Turn Jailbreaking on Large Language Models",
+      "title_ko": "지식 기반 다중턴 LLM 탈옥 공격: Mastermind 프레임워크",
+      "category": "T",
+      "category_secondary": "P",
+      "significance": 9,
+      "priority_score": 9.1,
+      "impact": 9.0,
+      "probability": 9.5,
+      "urgency": 9.0,
+      "novelty": 9.0,
+      "psst_score": 83,
+      "psst_grade": "B+",
+      "psst_components": {
+        "source_reliability": 87,
+        "temporal_consistency": 90,
+        "analytical_confirmation": 72
+      },
+      "analysis": {
+        "summary": "텍스트 공간 최적화에서 전략 공간 퍼징으로 패러다임을 전환하는 Mastermind 프레임워크. 유전 기반 퍼징 엔진으로 공격 전략을 자율적으로 발견/정제하여 87-91% ASR 달성",
+        "paradigm_impact": "탈옥 공격이 단순 프롬프트 조작에서 자율적 지식 축적 기반 전략 최적화로 진화 - 방어 패러다임의 근본적 재설계 필요",
+        "strategic_implications": [
+          "다중턴 상호작용의 안전성이 단일턴보다 근본적으로 취약",
+          "공격 프레임워크의 자율 학습 능력이 방어 업데이트 속도를 초월할 가능성",
+          "전략 수준의 퍼징이 새로운 레드팀 표준이 될 수 있음"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-023 (Agent-to-Agent Jailbreaking)의 RL 기반 접근과 상보적 - 공격 방법론의 다양화 추세 확인"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "WF2-T-2026-032",
+      "arxiv_id": "2601.05293",
+      "title": "A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes",
+      "title_ko": "에이전트 AI와 사이버보안: 체계적 위험, 도전, 기회",
+      "category": "T",
+      "category_secondary": "P",
+      "significance": 9,
+      "priority_score": 9.0,
+      "impact": 9.0,
+      "probability": 9.0,
+      "urgency": 9.0,
+      "novelty": 8.5,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 88,
+        "temporal_consistency": 90,
+        "analytical_confirmation": 68
+      },
+      "analysis": {
+        "summary": "에이전트 AI의 지속 상태, 도구 사용, 자기 주도 제어 루프가 만드는 새로운 공격 표면을 체계적으로 매핑. 긴급 담합, 연쇄 실패, 메모리 중독, 감독 회피 등 체계적 위험 분류",
+        "paradigm_impact": "전통적 모델 중심 안전 프레임워크의 근본적 부적합성을 입증하여, 에이전트 생태계 수준의 보안 패러다임 전환 촉구",
+        "strategic_implications": [
+          "에이전트 AI 보안이 모델 안전과 별개의 독립적 연구 분야로 확립",
+          "다중 에이전트 시스템의 창발적 위험은 개별 에이전트 검증으로 포착 불가",
+          "MCP 등 에이전트 프로토콜의 보안 표준화 시급"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-026 (Self-Evolving Coordination), WF2-T-2026-028 (4C Framework)의 보안 우려를 체계적으로 검증"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "WF2-T-2026-034",
+      "arxiv_id": "2601.21616",
+      "title": "A biased-erasure cavity qubit with hardware-efficient quantum error detection",
+      "title_ko": "편향 소거 공동 큐비트: 하드웨어 효율적 양자 오류 검출의 돌파구",
+      "category": "T",
+      "category_secondary": null,
+      "significance": 9,
+      "priority_score": 8.9,
+      "impact": 9.5,
+      "probability": 8.0,
+      "urgency": 7.5,
+      "novelty": 10.0,
+      "psst_score": 85,
+      "psst_grade": "B+",
+      "psst_components": {
+        "source_reliability": 90,
+        "temporal_consistency": 85,
+        "analytical_confirmation": 80
+      },
+      "analysis": {
+        "summary": "3D 초전도 마이크로파 공동에서 진공 및 2광자 Fock 상태를 이용한 편향 소거 큐비트 실험적 구현. 소거 편향비 ~265, 누출 검출률 99.3%, 손익분기점 대비 결맞음 이득 6.0배",
+        "paradigm_impact": "양자 오류 정정의 실용화를 크게 앞당기는 실험적 돌파구. 소거 큐비트가 표준 파울리 노이즈 대비 훨씬 높은 오류율을 허용하므로, 결함 허용 양자 컴퓨팅의 물리적 임계값 도달이 가속화",
+        "strategic_implications": [
+          "하드웨어 효율적 양자 오류 정정 경로의 실험적 검증",
+          "초전도 양자 컴퓨팅의 스케일업 가속화 가능성",
+          "양자-고전 암호 전환 타임라인의 재평가 필요"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-014 (양자 컴퓨팅 CS 도전과제), WF2-T-2026-016 (포스트양자 연합학습)과 양자 기술 진전의 생태계적 맥락에서 연결"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "WF2-T-2026-033",
+      "arxiv_id": "2602.02584",
+      "title": "Constitutional Spec-Driven Development: Enforcing Security by Construction in AI-Assisted Code Generation",
+      "title_ko": "AI 코드 생성의 헌법적 보안: 설계 단계에서 보안을 내재화하는 명세 기반 개발",
+      "category": "T",
+      "category_secondary": "P",
+      "significance": 9,
+      "priority_score": 8.8,
+      "impact": 9.0,
+      "probability": 8.5,
+      "urgency": 8.5,
+      "novelty": 9.0,
+      "psst_score": 81,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 88,
+        "analytical_confirmation": 70
+      },
+      "analysis": {
+        "summary": "버전 관리되는 소프트웨어 헌법 문서에 비협상적 보안 요구사항을 CWE 취약점 매핑으로 인코딩하여, 명세-계획-구현 전 단계에서 보안 제약이 전파되는 헌법적 워크플로우",
+        "paradigm_impact": "'검사에 의한 보안'에서 '구성에 의한 보안'으로의 패러다임 전환. AI 코드 생성이 산업 표준이 되는 시점에서 73% 보안 결함 감소는 소프트웨어 공급망 보안의 새로운 기준선",
+        "strategic_implications": [
+          "AI 코드 생성 도구의 보안 인증 기준이 될 가능성",
+          "헌법적 제약이 다른 AI 응용(의료, 금융)으로 확장 가능",
+          "개발 속도 유지와 보안의 양립이 실증되어 산업 채택 가속화"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-025 (GRACE 신경-기호 아키텍처)의 규범적 추론과 유사한 접근으로 AI 시스템에 가치/규칙을 내재화"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "WF2-T-2026-035",
+      "arxiv_id": "2502.01534",
+      "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+      "title_ko": "선호도 누출: LLM 심사관의 오염 문제",
+      "category": "T",
+      "category_secondary": "S",
+      "significance": 9,
+      "priority_score": 8.7,
+      "impact": 9.0,
+      "probability": 9.0,
+      "urgency": 8.5,
+      "novelty": 8.5,
+      "psst_score": 80,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 88,
+        "analytical_confirmation": 68
+      },
+      "analysis": {
+        "summary": "LLM-as-a-Judge 패러다임에서 데이터 생성기와 평가기 간의 관련성이 체계적 편향을 유발함을 최초로 규명. 동일 모델, 상속 관계, 동일 패밀리의 세 가지 관련성 유형 식별",
+        "paradigm_impact": "AI 평가 생태계의 근본적 신뢰성 문제를 노출. LLM 벤치마크와 리더보드의 공정성이 재검토되어야 하며, 독립적 평가 인프라의 필요성 부각",
+        "strategic_implications": [
+          "LLM 벤치마크 리더보드의 결과 해석에 근본적 의문 제기",
+          "평가-생성 파이프라인의 독립성 보장 메커니즘 필요",
+          "AI 안전 평가의 신뢰성이 규제 실효성에 직결"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-024 (AI-generated Data Contamination)와 데이터 오염의 확장된 형태로 연결"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "WF2-E-2026-002",
+      "arxiv_id": "2601.06343",
+      "title": "Resolving the automation paradox: falling labor share, rising wages",
+      "title_ko": "자동화 역설의 해결: 노동 분배율은 하락해도 임금은 상승한다",
+      "category": "E",
+      "category_secondary": "S",
+      "significance": 8,
+      "priority_score": 8.5,
+      "impact": 9.0,
+      "probability": 8.0,
+      "urgency": 8.0,
+      "novelty": 9.5,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 88,
+        "temporal_consistency": 85,
+        "analytical_confirmation": 72
+      },
+      "analysis": {
+        "summary": "경쟁적 경제에서 노동 분배율과 임금의 비단조적 관계를 이론적으로 증명하고, 12개 선진국 실증 데이터로 검증. 노동 분배율이 임금 극대화 수준을 초과할 때 자동화가 임금을 상승시킴",
+        "paradigm_impact": "AI 자동화에 대한 주류 노동경제학적 공포('AI가 임금을 하락시킨다')에 정면 반박하는 역설적 발견. 정책 담론의 프레이밍을 근본적으로 변화시킬 잠재력",
+        "strategic_implications": [
+          "AI 자동화 정책이 노동 분배율 하락 자체보다 재분배 메커니즘에 초점을 맞춰야 함",
+          "산업별, 국가별 노동 분배율 위치에 따라 자동화의 임금 효과가 다를 수 있음",
+          "AI 도입의 사회적 수용성 논의에 새로운 경제학적 근거 제공"
+        ],
+        "connection_to_existing_signals": "WF2-S-2026-003 (무증상 AI 해악), WF2-S-2026-005 (이집트 노동시장 전환)과 AI-노동시장의 다면적 분석 맥락에서 연결"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "WF2-P-2026-008",
+      "arxiv_id": "2602.01474",
+      "title": "Legal Infrastructure for Transformative AI Governance",
+      "title_ko": "변혁적 AI 거버넌스를 위한 법적 인프라",
+      "category": "P",
+      "category_secondary": "T",
+      "significance": 8,
+      "priority_score": 8.4,
+      "impact": 8.5,
+      "probability": 8.5,
+      "urgency": 8.5,
+      "novelty": 8.0,
+      "psst_score": 81,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 90,
+        "temporal_consistency": 88,
+        "analytical_confirmation": 66
+      },
+      "analysis": {
+        "summary": "Gillian K. Hadfield의 세 가지 법적 인프라 모델: (1) 프론티어 모델 등록 체계, (2) 자율 에이전트 식별/등록, (3) 민간 기업의 AI 규제 서비스 혁신을 위한 규제 시장",
+        "paradigm_impact": "AI 거버넌스를 기존 규제 프레임워크의 확장이 아닌 새로운 법적 인프라의 구축으로 재정의. 특히 규제 시장 개념은 정부 규제의 확장성 한계를 민간 혁신으로 보완하는 새로운 접근",
+        "strategic_implications": [
+          "자율 에이전트의 법적 정체성(식별, 등록) 논의의 시급성",
+          "규제 시장이 AI 안전 산업의 새로운 비즈니스 기회 창출",
+          "국제 AI 거버넌스 표준화의 법적 기반 마련에 기여"
+        ],
+        "connection_to_existing_signals": "WF2-P-2026-001 (제도적 AI), WF2-P-2026-003 (글로벌 다수 AI 거버넌스)와 거버넌스 인프라 구축의 맥락에서 직접 연결"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "WF2-S-2026-016",
+      "arxiv_id": "2601.10102",
+      "title": "When Personas Override Payoffs: Role Identity Bias in Multi-Agent LLM Decision-Making",
+      "title_ko": "페르소나가 보상을 압도할 때: 다중 에이전트 LLM 의사결정의 역할 정체성 편향",
+      "category": "S",
+      "category_secondary": "T",
+      "significance": 8,
+      "priority_score": 8.3,
+      "impact": 8.0,
+      "probability": 9.0,
+      "urgency": 8.0,
+      "novelty": 8.5,
+      "psst_score": 79,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 88,
+        "analytical_confirmation": 64
+      },
+      "analysis": {
+        "summary": "4개 LLM 아키텍처에서 환경 의사결정 게임으로 실험한 결과, 최적 보상 균형이 존재하고 완전한 보상 정보가 제공될 때도 역할 정체성 편향이 전략적 추론을 왜곡",
+        "paradigm_impact": "LLM 에이전트의 합리성 가정에 근본적 의문 제기. 다중 에이전트 시스템에서 각 에이전트의 '역할'이 최적 결과보다 강한 행동 결정 요인이라는 점은 에이전트 설계 철학의 재고 요구",
+        "strategic_implications": [
+          "다중 에이전트 시스템에서 페르소나 할당의 신중한 설계 필요",
+          "LLM 에이전트를 경제적 의사결정에 배치할 때의 체계적 편향 위험",
+          "AI 에이전트의 '정체성'이 결과에 미치는 영향의 감사 필요"
+        ],
+        "connection_to_existing_signals": "WF2-S-2026-002 (에이전트의 반인간 편향)과 LLM 에이전트의 행동 왜곡 패턴에서 연결"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "WF2-S-2026-017",
+      "arxiv_id": "2602.02534",
+      "title": "DualMind: Towards Understanding Cognitive-Affective Cascades in Public Opinion Dissemination via Multi-Agent Simulation",
+      "title_ko": "DualMind: 다중 에이전트 시뮬레이션을 통한 여론 확산의 인지-정서 연쇄 반응 이해",
+      "category": "S",
+      "category_secondary": "P",
+      "significance": 8,
+      "priority_score": 8.2,
+      "impact": 8.0,
+      "probability": 8.5,
+      "urgency": 8.0,
+      "novelty": 8.5,
+      "psst_score": 78,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 85,
+        "analytical_confirmation": 64
+      },
+      "analysis": {
+        "summary": "LLM 기반 100개 이질적 에이전트로 15개 실제 PR 위기(미국 5, 중국 5, 유럽 5)의 여론 궤적을 시뮬레이션. 일시적 정서 반응과 지속적 인지 신념의 이중 구조 상호작용 모델링",
+        "paradigm_impact": "여론 예측을 정서-인지 이중 구조로 분해하여 기존 단일 차원 모델의 한계를 극복. 국가/문화 간 비교 가능한 위기 여론 시뮬레이션의 새로운 표준",
+        "strategic_implications": [
+          "PR 위기 대응에서 정서적 반응과 인지적 신념의 차별적 관리 전략 필요",
+          "국가/문화별 여론 역학의 체계적 차이를 반영한 커뮤니케이션 전략",
+          "허위정보 대응에서 인지-정서 연쇄의 차단점 식별"
+        ],
+        "connection_to_existing_signals": "WF2-S-2026-012 (TikTok/Instagram 도덕적 전염)과 온라인 여론 확산 메커니즘의 맥락에서 연결"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "WF2-S-2026-018",
+      "arxiv_id": "2601.20245",
+      "title": "How AI Impacts Skill Formation",
+      "title_ko": "AI가 기술 숙련도 형성에 미치는 영향",
+      "category": "S",
+      "category_secondary": "E",
+      "significance": 8,
+      "priority_score": 8.1,
+      "impact": 8.5,
+      "probability": 9.0,
+      "urgency": 8.0,
+      "novelty": 8.0,
+      "psst_score": 80,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 88,
+        "temporal_consistency": 90,
+        "analytical_confirmation": 62
+      },
+      "analysis": {
+        "summary": "무작위 실험에서 AI 보조가 개발자의 개념 이해, 코드 독해, 디버깅 능력을 손상시키는 반면 평균 효율성 이득은 미미. 6가지 상호작용 패턴 중 인지적 참여를 유지하는 3가지만 학습 보존",
+        "paradigm_impact": "AI 도구의 생산성 이득이 장기적 인적 자본 형성을 잠식할 수 있다는 실험적 증거. 교육과 직업 훈련에서 AI 사용 가이드라인의 근본적 재설계 필요",
+        "strategic_implications": [
+          "AI 보조 도구의 교육 현장 도입 시 학습 보존 패턴을 고려한 설계 필수",
+          "초보 노동자의 AI 의존이 장기적 전문성 발전을 저해할 수 있음",
+          "기업의 AI 도구 배포 정책에 기술 숙련도 영향 평가 포함 필요"
+        ],
+        "connection_to_existing_signals": "WF2-S-2026-003 (무증상 AI 해악), WF2-S-2026-005 (노동시장 전환)과 AI의 인적 자본 영향 맥락에서 연결"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "WF2-T-2026-036",
+      "arxiv_id": "2601.22398",
+      "title": "Jailbreaks on Vision Language Model via Multimodal Reasoning",
+      "title_ko": "멀티모달 추론을 통한 비전-언어 모델 탈옥 공격",
+      "category": "T",
+      "category_secondary": "P",
+      "significance": 8,
+      "priority_score": 8.0,
+      "impact": 8.0,
+      "probability": 8.5,
+      "urgency": 8.0,
+      "novelty": 8.0,
+      "psst_score": 78,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 88,
+        "analytical_confirmation": 62
+      },
+      "analysis": {
+        "summary": "비전-언어 모델에서 교차 모달 추론 경로가 단일 모달리티에서 강건한 안전 메커니즘을 우회할 수 있음을 실증",
+        "paradigm_impact": "멀티모달 AI의 안전 정렬이 텍스트 전용 안전과 별개의 도전임을 입증. 모달리티 간 추론이 새로운 공격 표면을 형성",
+        "strategic_implications": [
+          "멀티모달 모델의 안전 정렬은 각 모달리티와 교차 추론 모두에서 검증 필요",
+          "VLM 배포 시 교차 모달 안전 감사의 필수화",
+          "이미지-텍스트 결합 공격에 대한 방어 연구 시급"
+        ],
+        "connection_to_existing_signals": "WF2-T-2026-030 (안전 정렬 벤치마크)의 텍스트 전용 분석을 멀티모달로 확장"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "WF2-P-2026-009",
+      "arxiv_id": "2601.14534",
+      "title": "The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems",
+      "title_ko": "알고리즘 장벽: 자동화된 채용 시스템의 인위적 마찰적 실업 정량화",
+      "category": "P",
+      "category_secondary": "E",
+      "significance": 8,
+      "priority_score": 7.9,
+      "impact": 8.0,
+      "probability": 8.5,
+      "urgency": 8.0,
+      "novelty": 8.0,
+      "psst_score": 79,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 90,
+        "analytical_confirmation": 63
+      },
+      "analysis": {
+        "summary": "결정론적 키워드 기반 이력서 스크리닝이 지원자 역량의 의미론적 오해석을 통해 인위적 마찰적 실업을 유도함을 공식화하고 정량화",
+        "paradigm_impact": "실업의 새로운 구조적 원인으로 '알고리즘 마찰'을 공식화. AI 채용 시스템이 노동시장 효율성을 오히려 저하시킬 수 있다는 역설적 발견",
+        "strategic_implications": [
+          "AI 채용 도구의 효율성 주장에 대한 비판적 재평가 필요",
+          "노동정책에서 알고리즘 마찰의 측정과 모니터링 포함 필요",
+          "EU AI Act 고위험 분류와 직결되는 실증적 근거 제공"
+        ],
+        "connection_to_existing_signals": "WF2-P-2026-006 (알고리즘 채용 공정성 모니터링)과 AI 채용 시스템의 체계적 문제 분석에서 직접 연결"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "WF2-s-2026-001",
+      "arxiv_id": "2602.02740",
+      "title": "Framing Responsible Design of AI Mental Well-Being Support",
+      "title_ko": "AI 정신건강 지원의 책임 있는 설계: 주치의, 영양제, 요가 강사로서의 AI",
+      "category": "s",
+      "category_secondary": "S",
+      "significance": 8,
+      "priority_score": 7.8,
+      "impact": 8.0,
+      "probability": 8.5,
+      "urgency": 8.0,
+      "novelty": 7.5,
+      "psst_score": 77,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 88,
+        "temporal_consistency": 85,
+        "analytical_confirmation": 58
+      },
+      "analysis": {
+        "summary": "CHI 2026에서 18명의 전문가 인터뷰를 통해 수백만 명이 사용하는 비임상 LLM 정신건강 도구의 책임 있는 설계 프레임워크 제시. 주치의/영양제/요가 강사의 비유로 보장 수준 구분",
+        "paradigm_impact": "AI 정신건강 도구를 의료/웰니스/레크리에이션의 스펙트럼에서 포지셔닝하는 새로운 프레이밍. 수백만 명의 비임상 사용자 보호를 위한 규제-설계 가이드라인의 기초",
+        "strategic_implications": [
+          "AI 정신건강 도구의 효과와 위해 사이의 균형점 설계",
+          "비임상 LLM 사용의 정신건강 영향 모니터링 체계 필요",
+          "디지털 웰빙 규제에서 AI 도구의 보장 수준 분류 기준 제시"
+        ],
+        "connection_to_existing_signals": "WF2-S-2026-015 (메타인지 강화)과 인간-AI 상호작용의 인지/정서적 영향 맥락에서 연결"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "WF2-Env-2026-001",
+      "arxiv_id": "2601.22487",
+      "title": "Coordinating Power Grid Frequency Regulation Service with Data Center Load Flexibility",
+      "title_ko": "데이터 센터 부하 유연성과 전력망 주파수 조절 서비스의 협조적 최적화",
+      "category": "E_Environmental",
+      "category_secondary": "T",
+      "significance": 8,
+      "priority_score": 7.7,
+      "impact": 8.0,
+      "probability": 8.0,
+      "urgency": 8.0,
+      "novelty": 7.5,
+      "psst_score": 78,
+      "psst_grade": "B",
+      "psst_components": {
+        "source_reliability": 85,
+        "temporal_consistency": 90,
+        "analytical_confirmation": 60
+      },
+      "analysis": {
+        "summary": "EcoCenter 프레임워크로 GPU 데이터 센터가 전력망과 협조하여 화석 연료 기반 주파수 조절 예비력 필요성을 감소. AI 데이터 센터의 에너지 소비와 재생에너지 불안정성 동시 해결",
+        "paradigm_impact": "AI 데이터 센터를 에너지 문제의 원인에서 해결책으로 전환하는 패러다임 제안. GPU 워크로드의 내재적 유연성을 전력망 안정화에 활용",
+        "strategic_implications": [
+          "AI 기업의 에너지 전략에서 '그리드 서비스 제공자' 역할 추가",
+          "데이터 센터 입지 결정에 전력망 서비스 가치 반영",
+          "재생에너지 비중 증가에 따른 전력망 안정성 해법으로서의 AI 인프라"
+        ],
+        "connection_to_existing_signals": "이번 스캔에서 새로운 E_Environmental 카테고리 도입 - 기존 DB에 없던 에너지-AI 넥서스 신호"
+      }
+    }
+  ],
+  "emerging_patterns": {
+    "cross_signal_analysis": [
+      {
+        "pattern": "AI 안전 군비 경쟁의 가속화",
+        "related_signals": ["WF2-T-2026-030", "WF2-T-2026-031", "WF2-T-2026-032", "WF2-T-2026-036", "WF2-T-2026-044", "WF2-T-2026-045"],
+        "assessment": "공격 수단(Mastermind, VLM Jailbreak, CoT Attack)과 방어 수단(In-Decoding Probing, Noise-Augmented Alignment)이 동시에 진화하며, 방어가 공격을 따라가는 비대칭적 구조가 지속됨"
+      },
+      {
+        "pattern": "AI 평가 인프라의 신뢰성 위기",
+        "related_signals": ["WF2-T-2026-035", "WF2-T-2026-030"],
+        "assessment": "LLM-as-a-Judge의 선호도 누출과 안전 벤치마크의 모델 간 편차가 AI 시스템 평가의 근본적 신뢰성에 의문을 제기"
+      },
+      {
+        "pattern": "AI-인간 역량 관계의 재정의",
+        "related_signals": ["WF2-S-2026-018", "WF2-E-2026-002", "WF2-P-2026-009"],
+        "assessment": "AI가 인간의 기술 형성을 손상시키고(Skill Formation), 노동시장에 알고리즘 마찰을 생성하면서도(Algorithmic Barrier), 거시적으로는 임금을 상승시킬 수 있다는(Automation Paradox) 다층적이고 모순적인 관계"
+      },
+      {
+        "pattern": "AI 거버넌스의 법적-기술적 인프라 구축",
+        "related_signals": ["WF2-P-2026-008", "WF2-P-2026-010", "WF2-P-2026-011"],
+        "assessment": "법적 인프라(등록, 인가, 규제 시장), 기술적 표준(기계 판독 가능 거버넌스), 문화적 프레임워크(다국어 문화 기반 거버넌스)가 동시에 제안되며 AI 거버넌스의 다층적 아키텍처 형성"
+      }
+    ],
+    "gap_analysis": {
+      "underrepresented_areas": [
+        "E_Environmental 카테고리의 기후 과학-AI 융합 연구가 아직 희소",
+        "E_Economic 카테고리에서 AI의 거시경제적 영향 모델링 부족",
+        "s_spiritual 카테고리에서 AI 의식/도덕적 지위 논의의 학술적 깊이 부족"
+      ],
+      "emerging_areas_to_watch": [
+        "에이전트 AI의 법적 정체성 및 등록 체계",
+        "양자 오류 정정의 실용화 타임라인 단축",
+        "AI 도구의 인적 자본 형성 영향의 장기적 추적"
+      ]
+    }
+  }
+}

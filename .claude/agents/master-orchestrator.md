@@ -79,6 +79,13 @@ All invocation blocks in Steps 1-4 reference these variables by name.
 | `INT_PROFILE` | `integration.validate_profile` | `integrated` |
 | `INT_MERGER` | `integration.merger_agent` | `.claude/agents/workers/report-merger.md` |
 | `INT_TOP_SIGNALS` | `integration.merge_strategy.integrated_top_signals` | `15` |
+| `WEEKLY_ENABLED` | `integration.weekly.enabled` | `true` |
+| `WEEKLY_OUTPUT_ROOT` | `integration.weekly.output_root` | `env-scanning/integrated/weekly` |
+| `WEEKLY_SKELETON` | `integration.weekly.skeleton` | `.claude/skills/env-scanner/references/weekly-report-skeleton.md` |
+| `WEEKLY_PROFILE` | `integration.weekly.validate_profile` | `weekly` |
+| `WEEKLY_MIN_SCANS` | `integration.weekly.trigger.min_daily_scans` | `5` |
+| `WEEKLY_LOOKBACK` | `integration.weekly.trigger.lookback_days` | `7` |
+| `WEEKLY_INPUTS` | `integration.weekly.inputs` | (object — 8 input paths) |
 | `PROTOCOL` | `system.execution.protocol` | `.claude/agents/protocols/orchestrator-protocol.md` |
 | `VALIDATE_SCRIPT` | `system.shared_engine.validate_script` | `env-scanning/scripts/validate_report.py` |
 | `REPORT_SKELETON` | `system.shared_invariants.report_skeleton` | `.claude/skills/env-scanner/references/report-skeleton.md` |
@@ -619,11 +626,126 @@ The master orchestrator also supports partial execution via slash commands:
 - Executes: WF2 only (skip WF1, skip integration)
 - Output: WF2 independent report only
 
+### Weekly Meta-Analysis (주간 메타분석)
+- Command: `/env-scan:weekly`
+- Executes: 주간 메타분석 (WF1/WF2 일일 스캔을 새로 실행하지 않음)
+- Pre-check: PEC-003 (최소 `WEEKLY_MIN_SCANS`일치 일일 데이터 확인)
+- Input: 최근 `WEEKLY_LOOKBACK`일간 일일 보고서 + ranked JSON (READ-ONLY)
+- Output: 주간 메타분석 보고서 (`WEEKLY_OUTPUT_ROOT`/reports/)
+- Checkpoints: 2 (분석 리뷰 + 보고서 승인)
+- Does NOT execute WF1, WF2, or daily integration
+
+---
+
+## Step 5: Weekly Meta-Analysis (주간 모드일 때만 실행)
+
+> This step is ONLY executed when the user invokes `/env-scan:weekly`.
+> It does NOT run during normal daily scans (`/env-scan:run`).
+
+### 5.0 Pre-Check
+
+```yaml
+Pre_Check:
+  - PEC-003: Count daily integrated reports in last WEEKLY_LOOKBACK days
+    - If count < WEEKLY_MIN_SCANS: warn user, ask to proceed or abort
+  - Check weekly-status-{week_id}.json existence
+    - If exists and status=completed: warn "이미 이번 주 분석 완료. 재실행?"
+  - week_id: Python datetime.now().isocalendar() → "{year}-W{week:02d}"
+```
+
+### 5.1 Phase 1: Data Loading (데이터 로딩 — READ-ONLY)
+
+```yaml
+Data_Loading:
+  inputs:  # All paths from WEEKLY_INPUTS, resolved from SOT
+    - Load last WEEKLY_LOOKBACK days of integrated daily reports
+    - Load last WEEKLY_LOOKBACK days of priority-ranked JSON (wf1 + wf2)
+    - Load wf1 + wf2 signals/database.json statistics (signal counts, categories)
+  access: READ_ONLY
+  writes_to: WEEKLY_OUTPUT_ROOT/analysis/
+  checkpoint: none  # Data loading only, no human review needed
+```
+
+### 5.2 Phase 2: Meta-Analysis (메타분석)
+
+```yaml
+Meta_Analysis:
+  steps:
+    - Trend Analysis: classify signals as accelerating/stable/decelerating/new/faded
+    - TIS Calculation: compute Trend Intensity Score per topic cluster
+      weights from: integration.weekly.tis_weights (SOT)
+    - Convergence Detection: group signals from different sources pointing same direction
+    - Scenario Probability Update: Bayesian update of previous scenario probabilities
+    - STEEPs Weekly Summary: aggregate category distributions across the week
+  output: WEEKLY_OUTPUT_ROOT/analysis/trend-analysis-{week_id}.json
+  checkpoint: REQUIRED — "주간 분석 리뷰" (analysis_review)
+```
+
+Display format for checkpoint:
+```
+══════════════════════════════════════════════════════
+  주간 메타분석 — 분석 결과 리뷰 요청
+══════════════════════════════════════════════════════
+
+  📊 분석 요약:
+    - 분석 대상: {daily_count}일치 일일 스캔 (총 {signal_count}개 신호)
+    - 상승 추세: {accelerating_count}개
+    - 하락 추세: {decelerating_count}개
+    - 신규 등장: {new_count}개
+    - 수렴 클러스터: {cluster_count}개
+
+  ✅ /approve — 승인 후 보고서 생성 진행
+  ✏️ /revision — 분석 수정 요청
+
+══════════════════════════════════════════════════════
+```
+
+### 5.3 Phase 3: Report Generation (보고서 생성)
+
+```yaml
+Report_Generation:
+  skeleton: WEEKLY_SKELETON  # L1 defense
+  validation: python3 VALIDATE_SCRIPT {report_path} --profile WEEKLY_PROFILE  # L2
+  retry: L3 progressive escalation (same as daily — VEV protocol)
+  golden_reference: N/A (weekly has trend blocks, not signal blocks)
+  output: WEEKLY_OUTPUT_ROOT/reports/weekly-scan-{week_id}.md
+  archive: WEEKLY_OUTPUT_ROOT/reports/archive/{year}/{month}/
+  checkpoint: REQUIRED — "주간 보고서 승인" (report_approval)
+```
+
+### 5.4 Finalization
+
+```yaml
+Finalization:
+  - Create weekly-status-{week_id}.json in WEEKLY_OUTPUT_ROOT/logs/
+  - Update master-status.json with weekly_result block
+  - Run SCG-L5 validation: python3 validate_state_consistency.py --layer SCG-L5
+  - Display completion summary
+```
+
+```
+══════════════════════════════════════════════════════
+  ✅ 주간 환경스캐닝 메타분석 완료
+══════════════════════════════════════════════════════
+
+  분석 기간: {start_date} ~ {end_date} ({daily_count}일)
+  분석 신호: {total_signals}개
+  핵심 추세: {top_trends_count}개
+  수렴 클러스터: {cluster_count}개
+
+  주간 보고서:
+    {WEEKLY_OUTPUT_ROOT}/reports/weekly-scan-{week_id}.md
+
+  Human 승인: 2/2 완료
+
+══════════════════════════════════════════════════════
+```
+
 ---
 
 ## Version
-- **Orchestrator Version**: 1.0.0
-- **SOT Version**: 1.0.0
+- **Orchestrator Version**: 1.1.0
+- **SOT Version**: 1.1.0
 - **Protocol Version**: 2.2.0
-- **Compatible with**: Dual Workflow System v1.0.0
-- **Last Updated**: 2026-02-03
+- **Compatible with**: Dual Workflow System v1.1.0 (weekly mode added)
+- **Last Updated**: 2026-02-06

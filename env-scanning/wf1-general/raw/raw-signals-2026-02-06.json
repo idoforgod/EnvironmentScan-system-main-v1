@@ -1,0 +1,948 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-06",
+    "workflow": "wf1-general",
+    "sources_scanned": 18,
+    "total_items": 52,
+    "execution_time": 45.3,
+    "mode": "marathon"
+  },
+  "items": [
+    {
+      "id": "raw-2026-02-06-001",
+      "title": "Physical AI Dominates CES 2026 - Robots Leave the Screen",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://techcrunch.com/video/inside-ces-2026s-physical-ai-takeover/",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "CES 2026 dominated by 'physical AI' and robotics, including Boston Dynamics' redesigned Atlas humanoid robot. After years of chatbots and image generators, AI is finally leaving the screen with AI-powered devices, robotics, autonomous vehicles, drones, and wearables entering the market.",
+        "keywords": ["physical AI", "robotics", "CES 2026", "Boston Dynamics", "Atlas", "autonomous vehicles"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:05:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-002",
+      "title": "AI Shift from Scaling to Practical Applications in 2026",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
+        "published_date": "2026-01-02"
+      },
+      "content": {
+        "abstract": "If 2025 was the year AI got a vibe check, 2026 will be the year the tech gets practical. Focus shifting away from building ever-larger language models toward making AI usable - deploying smaller models, embedding intelligence into physical devices, and designing systems that integrate into human workflows.",
+        "keywords": ["AI pragmatism", "smaller models", "AI integration", "workflow automation"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:05:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-003",
+      "title": "OpenAI Bets on Audio - Silicon Valley Declares War on Screens",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://techcrunch.com/2026/01/01/openai-bets-big-on-audio-as-silicon-valley-declares-war-on-screens/",
+        "published_date": "2026-01-01"
+      },
+      "content": {
+        "abstract": "OpenAI has unified engineering, product, and research teams to overhaul audio models, preparing for an audio-first personal device expected to launch in about a year. Represents major shift toward voice-first computing interfaces.",
+        "keywords": ["OpenAI", "audio AI", "voice computing", "personal devices", "audio-first"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:05:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-004",
+      "title": "MIT Technology Review 2026 Breakthrough Technologies - AI Companions Normalized",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://www.technologyreview.com/2026/01/12/",
+        "published_date": "2026-01-12"
+      },
+      "content": {
+        "abstract": "MIT Technology Review's 2026 Breakthrough Technologies include AI chatbots as emotional companions (72% of teenagers use for companionship), hyperscale data centers, designer babies, salt batteries, flexible nuclear power, and commercial space stations.",
+        "keywords": ["AI companions", "breakthrough technologies", "emotional AI", "teenagers", "social impact"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-06T09:08:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-005",
+      "title": "Mechanistic Interpretability - Understanding AI Inner Workings",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
+        "published_date": "2026-01-12"
+      },
+      "content": {
+        "abstract": "New techniques giving researchers glimpse at inner workings of AI models. Mechanistic interpretability aims to map key features and pathways across entire models, addressing AI black box problem.",
+        "keywords": ["mechanistic interpretability", "AI transparency", "AI research", "explainable AI"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:08:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-006",
+      "title": "Trump Executive Order Challenges State AI Laws - Federal AI Framework",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "tier": "base",
+        "url": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+        "published_date": "2025-12-16"
+      },
+      "content": {
+        "abstract": "Executive Order 'Ensuring a National Policy Framework for Artificial Intelligence' establishes federal policy to sustain US AI dominance through minimally burdensome framework. Creates AI Litigation Task Force, requires evaluation of burdensome state laws by March 2026.",
+        "keywords": ["AI regulation", "federal policy", "state preemption", "AI governance", "executive order"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:10:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-007",
+      "title": "State AI Laws Effective January 2026 Face Federal Disruption",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "tier": "base",
+        "url": "https://www.kslaw.com/news-and-insights/new-state-ai-laws-are-effective-on-january-1-2026-but-a-new-executive-order-signals-disruption",
+        "published_date": "2026-01-03"
+      },
+      "content": {
+        "abstract": "New state AI laws effective January 1, 2026 face potential federal preemption. FTC must issue policy statement by March 11, 2026 on AI Act application. Creates regulatory uncertainty for businesses navigating both state and federal requirements.",
+        "keywords": ["state AI laws", "federal preemption", "FTC", "regulatory uncertainty", "compliance"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:10:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-008",
+      "title": "WHO Pandemic Agreement Advances - PABS System Negotiations",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "tier": "base",
+        "url": "https://www.who.int/news/item/23-01-2026-countries-progress-negotiations-in-support-of-who-pandemic-agreement",
+        "published_date": "2026-01-23"
+      },
+      "content": {
+        "abstract": "WHO Member States advance negotiations on Pathogen Access and Benefit-Sharing (PABS) system, core element of Pandemic Agreement adopted May 2025. Outcome to be submitted to 79th World Health Assembly in May 2026. Promotes fairer access to vaccines, medicines, diagnostics.",
+        "keywords": ["pandemic agreement", "PABS", "WHO", "global health", "vaccine access"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:12:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-009",
+      "title": "Global Health Systems at Risk as Funding Cuts Bite - WHO Warning",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "tier": "base",
+        "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "WHO warns cuts to international aid and persistent funding gaps undermining global health system. 2026 appeal seeks nearly $1 billion to respond to 36 emergencies worldwide including 14 Grade 3 emergencies. Risk from pandemics, drug-resistant infections rising.",
+        "keywords": ["global health funding", "WHO appeal", "health emergencies", "aid cuts", "pandemic risk"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:12:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-010",
+      "title": "Four in Ten Cancer Cases Preventable Globally - WHO Report",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "tier": "base",
+        "url": "https://www.who.int/news/item/03-02-2026-four-in-ten-cancer-cases-could-be-prevented-globally",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "New WHO report finds four in ten cancer cases globally could be prevented through lifestyle modifications and public health interventions. Major implications for healthcare policy and resource allocation.",
+        "keywords": ["cancer prevention", "public health", "WHO", "healthcare policy", "prevention"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-06T09:12:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-011",
+      "title": "Google Willow Quantum Chip - Exponential Error Reduction at Scale",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "tier": "base",
+        "url": "https://blog.google/technology/research/google-gesda-xprize-quantum-applications-finalists/",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "Google introduces Willow quantum chip reducing errors exponentially as qubits scale. Patents filed for Willow architecture, error-correcting code implementations, and feedback control systems that stabilize qubits. Major step toward fault-tolerant quantum computing.",
+        "keywords": ["quantum computing", "Willow chip", "error correction", "qubits", "Google"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:15:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-012",
+      "title": "AI-Quantum Convergence - Neural Networks for Quantum Error Correction",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "tier": "base",
+        "url": "https://www.thedailyupside.com/technology/big-tech/google-patent-highlights-ai-and-quantums-symbiotic-relationship/",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "Google patenting system for quantum error correction using neural networks - tracking quantum computation over time steps and deploying neural network to detect mistakes in real time. AI and quantum computing becoming symbiotic technologies.",
+        "keywords": ["quantum error correction", "neural networks", "AI-quantum", "Google patent", "hybrid computing"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:15:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-013",
+      "title": "Renewable Energy Surge Named 2025 Breakthrough of the Year",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "tier": "expansion",
+        "url": "https://www.science.org/content/article/breakthrough-2025",
+        "published_date": "2025-12-20"
+      },
+      "content": {
+        "abstract": "Science names renewable energy surge as 2025 Breakthrough of the Year. In 2004, it took a full year to install 1GW of solar; today twice that goes online daily. Clean energy reached 40% of global electricity generation.",
+        "keywords": ["renewable energy", "solar power", "clean energy", "breakthrough", "energy transition"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:18:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-014",
+      "title": "Small Modular Reactors Emerge as Nuclear Energy Opportunity",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "tier": "expansion",
+        "url": "https://www.nature.com/articles/d41586-026-00188-6",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "Small modular reactors (SMRs) producing up to 500MW emerge as major opportunity for nuclear resurgence. Russia and China have active SMRs; 100+ projects under consideration worldwide. Addresses energy security and decarbonization needs.",
+        "keywords": ["SMR", "nuclear energy", "modular reactors", "energy security", "decarbonization"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:18:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-015",
+      "title": "CRISPR Climate-Smart Crops - Root Architecture Modification Success",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "tier": "expansion",
+        "url": "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch",
+        "published_date": "2026-01-22"
+      },
+      "content": {
+        "abstract": "Teams using CRISPR/Cas9 and base editing successfully modified root architecture genes in rice, wheat, and maize. Promotes deeper, more efficient water uptake without compromising yield. Major advance for climate adaptation in agriculture.",
+        "keywords": ["CRISPR", "gene editing", "climate-smart crops", "agriculture", "water efficiency"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:18:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-016",
+      "title": "SamudrACE - AI Model Simulating Atmosphere-Ocean Over Millennium",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "tier": "expansion",
+        "url": "https://www.nature.com/articles/d41586-026-00188-6",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "Allen Institute researchers describe SamudrACE, integrating AI models of atmosphere and ocean to simulate behavior over more than a millennium. Major advancement in climate modeling capabilities.",
+        "keywords": ["climate modeling", "AI simulation", "atmosphere", "ocean", "long-term prediction"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:18:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-017",
+      "title": "Boston Dynamics Atlas Humanoid Robot - Industrial Era Redesign",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "tier": "expansion",
+        "url": "https://spectrum.ieee.org/robots-ces-2026",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "Newest version of Atlas humanoid robot featured at CES 2026 - designed with strength, precision, and adaptability for the industrial era. Represents major step toward practical industrial robotics.",
+        "keywords": ["Atlas robot", "Boston Dynamics", "humanoid robot", "industrial robotics", "CES 2026"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:20:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-018",
+      "title": "Tech in 2026: Air Taxis, Wireless EV Charging, Robotic Umpires",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "tier": "expansion",
+        "url": "https://spectrum.ieee.org/tech-in-2026",
+        "published_date": "2026-01-10"
+      },
+      "content": {
+        "abstract": "IEEE Spectrum previews 2026 tech: Porsche wireless home EV charger, world's first electric air taxi service, neutral-atom quantum computers, interoperable mesh networks, and robotic baseball umpires. Diverse technological frontiers advancing.",
+        "keywords": ["air taxis", "wireless charging", "EV", "quantum computers", "robotics"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:20:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-019",
+      "title": "Global Economy Shows Resilience but Trade Tensions Cloud Outlook - UN",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "tier": "expansion",
+        "url": "https://www.un.org/sustainabledevelopment/blog/2026/01/press-release-wesp2026/",
+        "published_date": "2026-01-23"
+      },
+      "content": {
+        "abstract": "UN warns navigating trade realignments, price pressures, climate shocks demands deeper global coordination as geopolitical tensions rise. Global output forecast 2.7% in 2026, below pre-pandemic 3.2% average. Higher tariffs impact evident.",
+        "keywords": ["global economy", "trade tensions", "geopolitical", "UN", "economic outlook"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:22:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-020",
+      "title": "Critical Minerals Supply Chain Risk - China's Rare Earth Dominance",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "tier": "expansion",
+        "url": "https://unctad.org/news/10-trends-shaping-global-trade-2026",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "China's near-total control over critical minerals and rare earth elements and willingness to weaponize dominance puts world on notice. Global value chains shifting from cost-driven offshoring to risk management, supplier diversification.",
+        "keywords": ["critical minerals", "rare earth", "supply chain", "China", "geopolitical risk"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:22:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-021",
+      "title": "Waabi $750M Series C - Largest Canadian Tech Funding for Physical AI",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://techstartups.com/2026/02/04/top-startup-and-tech-funding-news-february-4-2025/",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Waabi secures $750M Series C, largest tech fundraising in Canadian history. Pioneering 'Physical AI' - end-to-end AI platform powering self-driving trucks and robotaxis with unified AI 'brain' for different vehicles across geographies.",
+        "keywords": ["Waabi", "autonomous vehicles", "Physical AI", "self-driving trucks", "funding"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:25:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-022",
+      "title": "Bedrock Robotics $270M - Operatorless Excavator Operations by 2026",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://techstartups.com/2026/02/04/top-startup-and-tech-funding-news-february-4-2025/",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Bedrock Robotics raises $270M Series B to expand beyond single-machine deployments and target fully operatorless excavator operations in 2026. Co-led by CapitalG and Valor Atreides AI Fund.",
+        "keywords": ["construction robotics", "autonomous excavator", "AI operations", "funding", "automation"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:25:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-023",
+      "title": "Cerebras $1B Round - Wafer-Scale AI Chips Scaling",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://techstartups.com/2026/02/02/top-startup-and-tech-funding-news-february-2-2025/",
+        "published_date": "2026-02-02"
+      },
+      "content": {
+        "abstract": "Cerebras Systems locks in $1B round to scale wafer-scale AI chips. Company pioneering alternative to GPU-centric AI infrastructure with single-chip approach for large model training.",
+        "keywords": ["Cerebras", "AI chips", "wafer-scale", "funding", "AI infrastructure"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:25:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-024",
+      "title": "64% of Teens Use AI Chatbots Daily - Digital Behavior Shift",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.pewresearch.org/",
+        "published_date": "2026-02-01"
+      },
+      "content": {
+        "abstract": "64% of teens use chatbots, about three-in-ten daily. Roughly one-in-five US teens on TikTok and YouTube almost constantly. Shaping how information spreads and glimpse into future of news consumption.",
+        "keywords": ["teen technology", "chatbots", "social media", "digital behavior", "youth"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-06T09:28:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-025",
+      "title": "Young Adults News Consumption Shift to Social Media",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.pewresearch.org/journalism/2026/02/02/video-how-do-young-adults-get-their-news/",
+        "published_date": "2026-02-02"
+      },
+      "content": {
+        "abstract": "Young adults under 30 getting more news on social media, shaping how information spreads. Possible glimpse into future of news consumption with implications for journalism and democracy.",
+        "keywords": ["news consumption", "social media", "young adults", "journalism", "information"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-06T09:28:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-026",
+      "title": "2025 Third-Hottest Year on Record - Climate Trajectory",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://yaleclimateconnections.org/2026/01/2025-was-earths-3rd-warmest-year-on-record/",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "2025 had third-hottest year on record; 2024 remains hottest, 2023 second. CO2 concentration near 426 ppm - 53% above pre-industrial levels. Ocean heat content reached new record for nine consecutive years.",
+        "keywords": ["climate change", "temperature records", "CO2 levels", "ocean heat", "global warming"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:30:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-027",
+      "title": "Arctic Sea Ice December 2025 Lowest on Record",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "tier": "expansion",
+        "url": "https://science.nasa.gov/climate-change/",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "December 2025 Arctic sea ice extent lowest on record for the month, 1,620,000 km² below 1981-2010 average. Accelerating polar ice loss with implications for sea level rise and climate feedback loops.",
+        "keywords": ["Arctic ice", "sea ice", "climate change", "polar regions", "record low"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:30:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-028",
+      "title": "Carbon Emissions Rose 1.1% to Record 38.1B Tons in 2025",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://en.wikipedia.org/wiki/2026_in_climate_change",
+        "published_date": "2025-11-13"
+      },
+      "content": {
+        "abstract": "Carbon dioxide emissions from fossil fuels and cement production rose 1.1% in 2025, reaching record 38.1 billion tons according to 2025 Global Carbon Budget. Counterbalancing renewable energy gains.",
+        "keywords": ["carbon emissions", "fossil fuels", "climate", "emissions record", "decarbonization"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:30:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-029",
+      "title": "Labor Market Impacts - Healthy Job Growth Could Reach Zero by 2027",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.brookings.edu/articles/economic-issues-to-watch-in-2026/",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "Brookings warns dramatic decline in immigration fundamentally changed what constitutes healthy job growth. Analysis estimates healthy job growth could fall to zero or even turn negative by 2027. Major labor market restructuring.",
+        "keywords": ["labor market", "immigration", "job growth", "employment", "economic policy"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:32:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-030",
+      "title": "OBBBA Tax Provisions - Firm Behavior Impact Uncertain",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.brookings.edu/articles/economic-issues-to-watch-in-2026/",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "Key question: whether One Big Beautiful Bill Act's pro-investment provisions meaningfully change firm behavior. Existing tax rules, financing conditions, tariff policy uncertainty may limit responsiveness to incentives.",
+        "keywords": ["tax policy", "OBBBA", "investment", "fiscal policy", "business incentives"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:32:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-031",
+      "title": "WEF Global Risks 2026 - Geoeconomic Confrontation Top Risk",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.weforum.org/publications/global-risks-report-2026/",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "Geoeconomic confrontation emerges as top global risk for 2026, climbing 8 positions. Economic risks rise fastest - downturn and inflation both surge 8 positions year-on-year. Top 5: geoeconomic confrontation, interstate conflict, extreme weather, societal polarization, misinformation.",
+        "keywords": ["global risks", "geoeconomic", "WEF", "Davos", "risk assessment"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:35:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-032",
+      "title": "AI Adverse Outcomes Surge to Top Long-Term Risk",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition/",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "Potential for adverse AI outcomes soared faster than any other issue - from 30th place among short-term risks last year to 5th place among long-term risks. Half of experts expect turbulent or stormy global outlook; only 1% anticipate calm.",
+        "keywords": ["AI risk", "WEF", "long-term risks", "global risks", "AI governance"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-06T09:35:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-033",
+      "title": "Tariffs Could Lead to Substantial Contraction in Global Trade",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.cnbc.com/2026/01/14/world-economic-forum-2026-global-risks-report.html",
+        "published_date": "2026-01-14"
+      },
+      "content": {
+        "abstract": "WEF warns geoeconomic confrontation fueled by increasing competition and weaponizing economic tools like tariffs, regulations, supply chains, capital constraints could lead to substantial contraction in global trade.",
+        "keywords": ["tariffs", "trade war", "geoeconomic", "global trade", "economic confrontation"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:35:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-034",
+      "title": "BIS Tokenized Unified Ledger - Next-Generation Financial System",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "tier": "expansion",
+        "url": "https://www.bis.org/press/p250624.htm",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "BIS advancing tokenized unified ledger incorporating central bank money, commercial bank deposits, government bonds. Foundation of tokenized monetary and financial system based on sound money principles. Project Agora testing cross-border payments.",
+        "keywords": ["BIS", "tokenization", "CBDC", "financial system", "cross-border payments"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:38:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-035",
+      "title": "Monetary Policy Easing 2026 - Inflation vs Financial Stability Balance",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "tier": "expansion",
+        "url": "https://trendsresearch.org/insight/prospects-for-monetary-easing-during-2026/",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "Prospect of monetary policy easing in 2026 becomes focal point. Central banks must balance domestic stabilization against financial stability concerns. Prolonged accommodative policies may encourage excessive risk-taking in leveraged environments.",
+        "keywords": ["monetary policy", "central banks", "interest rates", "financial stability", "inflation"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:38:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-036",
+      "title": "2026 AI Governance Shift - From Principles to Enforceable Rules",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.governance-intelligence.com/regulatory-compliance/how-ai-will-redefine-compliance-risk-and-governance-2026",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "AI governance in 2026 moving from high-level principles to enforceable rules. Expectations include documented AI inventories, risk classifications, third-party due diligence, model lifecycle controls. Multi-million dollar penalties under emerging compliance laws.",
+        "keywords": ["AI governance", "compliance", "regulation", "risk management", "enforcement"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:40:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-037",
+      "title": "72 Countries Propose 1000+ AI Policy Initiatives",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://sumsub.com/blog/comprehensive-guide-to-ai-laws-and-regulations-worldwide/",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "Around the world, at least 72 countries have proposed over 1000 AI-related policy initiatives and legal frameworks. In 2024 alone, US federal agencies introduced 59 AI-related regulations, more than double the year before.",
+        "keywords": ["AI regulation", "global policy", "legal frameworks", "AI governance", "international"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:40:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-038",
+      "title": "China Cybersecurity Law January 2026 - AI Compliance Focus",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.mindfoundry.ai/blog/ai-regulations-around-the-world",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "China's new Cybersecurity Law effective January 2026 includes specific AI compliance guidelines focusing on ethics, risk monitoring, and safety testing. India refining framework via sandbox-to-regulations approach with National AI Mission Framework expected 2025-2026.",
+        "keywords": ["China AI law", "cybersecurity", "AI compliance", "India AI", "regulation"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:40:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-039",
+      "title": "Agentic AI Double-Edged Sword - Automated Arms Race in Cybersecurity",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.orfonline.org/expert-speak/cybersecurity-in-2026-how-ai-will-reshape-the-digital-battlefield",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "Rise of agentic AI escalating conflict between attackers and defenders into fully automated arms race. Malicious AI agents being deployed for sophisticated, evolving attacks. Cybercriminals automating attacks faster than ever with generative AI.",
+        "keywords": ["agentic AI", "cybersecurity", "AI attacks", "automated threats", "security"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:42:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-040",
+      "title": "Harvest Now Decrypt Later - Quantum Threat to Encryption",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://cpl.thalesgroup.com/blog/data-security/ai-quantum-cybersecurity-threats-2026",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "Threat actors carrying out 'harvest now, decrypt later' attacks - stockpiling sensitive encrypted data to crack once quantum technology matures. State-sponsored actors intercepting government communications; cybercriminals storing encrypted traffic.",
+        "keywords": ["quantum threat", "encryption", "harvest now decrypt later", "cybersecurity", "post-quantum"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:42:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-041",
+      "title": "Post-Quantum Cryptography Pilots Become Requirements in 2026",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.splashtop.com/blog/top-cybersecurity-trends-and-predictions-for-2026",
+        "published_date": "2026-01-18"
+      },
+      "content": {
+        "abstract": "While critical industries and governments conducting post-quantum pilot programs, 2026 will be year pilots become requirements. Organizations adopting quantum-resistant encryption and developing crypto-agility strategies.",
+        "keywords": ["post-quantum cryptography", "encryption", "quantum security", "crypto-agility", "security"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:42:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-042",
+      "title": "AI Security Emerges as Formal Discipline in 2026",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.eccu.edu/blog/cybersecurity-trends-2026/",
+        "published_date": "2026-01-22"
+      },
+      "content": {
+        "abstract": "In 2026, AI security will emerge as formal discipline, similar to application security a decade ago. Identity and access management changing as AI agents become common system users. Traditional identity models have gaps when applied to machine actors.",
+        "keywords": ["AI security", "cybersecurity", "identity management", "AI agents", "machine identity"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:42:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-043",
+      "title": "Ethics-by-Design Momentum Growing for AI Development",
+      "source": {
+        "name": "WebSearch",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.kdnuggets.com/emerging-trends-in-ai-ethics-and-governance-for-2026",
+        "published_date": "2026-01-30"
+      },
+      "content": {
+        "abstract": "Momentum growing for ethics-by-design approaches that embed fairness, privacy and accountability into algorithms and datasets from the start. Represents fundamental shift in how AI systems are developed and deployed.",
+        "keywords": ["AI ethics", "ethics-by-design", "fairness", "accountability", "responsible AI"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-06T09:45:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-044",
+      "title": "UN AI Governance Recommendations - Policy Dialogues and Standards Exchange",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "tier": "expansion",
+        "url": "https://bernardmarr.com/8-ai-ethics-trends-that-will-redefine-trust-and-accountability-in-2026/",
+        "published_date": "2026-01-25"
+      },
+      "content": {
+        "abstract": "UN recommendations include twice-yearly policy dialogues for governments and stakeholders, AI standards exchange for definitions and standards, capacity development network. International coordination on AI governance accelerating.",
+        "keywords": ["UN AI governance", "international standards", "policy dialogue", "AI coordination", "capacity building"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:45:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-045",
+      "title": "Decoded Quantum Interferometry - New Algorithm for Near-Optimal Solutions",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "tier": "base",
+        "url": "https://research.google/blog/a-new-quantum-toolkit-for-optimization/",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "Google Quantum AI and collaborators from Stanford, MIT, Caltech introduce Decoded Quantum Interferometry (DQI) - efficient quantum algorithm using wavelike nature of quantum mechanics to create interference patterns converging on near-optimal solutions.",
+        "keywords": ["quantum algorithm", "DQI", "optimization", "Google Quantum AI", "quantum computing"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:48:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-046",
+      "title": "ElevenLabs $500M - Multimodal Agent Capabilities Expansion",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://techstartups.com/2026/02/04/top-startup-and-tech-funding-news-february-4-2025/",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "ElevenLabs raises $500M to expand into multimodal agent capabilities. Company known for voice AI now building toward more comprehensive AI agent systems across multiple modalities.",
+        "keywords": ["ElevenLabs", "voice AI", "multimodal", "AI agents", "funding"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:48:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-047",
+      "title": "66% Americans Say Federal Government Responsible for Healthcare Coverage",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.pewresearch.org/",
+        "published_date": "2026-02-01"
+      },
+      "content": {
+        "abstract": "Most Americans (66%) say federal government has responsibility to make sure all Americans have health care coverage. Reflects ongoing public sentiment on healthcare policy and government role in social services.",
+        "keywords": ["healthcare", "public opinion", "federal government", "policy", "social services"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-06T09:50:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-048",
+      "title": "Middle Powers Navigate Global Moment - Davos 2026 Analysis",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "tier": "expansion",
+        "url": "https://www.weforum.org/stories/2026/01/davos-2026-how-middle-powers-are-reading-the-global-moment/",
+        "published_date": "2026-01-24"
+      },
+      "content": {
+        "abstract": "Middle powers navigating complex global moment as great power competition intensifies. Davos 2026 discussions highlight importance of Spirit of Dialogue as geopolitical tensions reshape international order.",
+        "keywords": ["middle powers", "geopolitics", "Davos", "international relations", "dialogue"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-06T09:50:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-049",
+      "title": "World Models - Next Big Leap for AI Learning Physical Interactions",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
+        "published_date": "2026-01-05"
+      },
+      "content": {
+        "abstract": "Many researchers believe next big AI leap will come from world models - AI systems learning how things move and interact in 3D spaces to make predictions and take actions. Foundation for more capable robotics and autonomous systems.",
+        "keywords": ["world models", "AI", "3D learning", "robotics", "physical AI"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-06T09:52:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-050",
+      "title": "Hyperscale AI Data Centers Energy Challenge - 2026 Breakthrough Tech",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://www.technologyreview.com/2026/01/12/1129982/hyperscale-ai-data-centers-energy-usage-2026-breakthrough-technology/",
+        "published_date": "2026-01-12"
+      },
+      "content": {
+        "abstract": "Hyperscale AI data centers named among 2026 breakthrough technologies. Growing energy demands of AI infrastructure raising sustainability concerns and driving investment in nuclear and renewable energy sources.",
+        "keywords": ["data centers", "AI infrastructure", "energy", "sustainability", "hyperscale"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:52:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-051",
+      "title": "AI Companies Betting on Next-Gen Nuclear Power",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://www.technologyreview.com/2026/01/28/1131340/roundtables-why-ai-companies-are-betting-on-next-gen-nuclear/",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "AI companies increasingly betting on next-generation nuclear power to meet massive energy demands of AI training and inference. Convergence of AI growth and clean energy imperatives driving new energy infrastructure investments.",
+        "keywords": ["nuclear energy", "AI", "energy demand", "clean energy", "infrastructure"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-06T09:52:00Z"
+    },
+    {
+      "id": "raw-2026-02-06-052",
+      "title": "Stanford Students Launch $2M Breakthrough Ventures Accelerator",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "tier": "base",
+        "url": "https://techcrunch.com/2026/02/02/two-stanford-students-launch-2m-startup-accelerator-for-students-nationwide/",
+        "published_date": "2026-02-02"
+      },
+      "content": {
+        "abstract": "Two Stanford students raised $2M for Breakthrough Ventures accelerator program funding businesses by college students and recent graduates nationwide. Signals continued strong interest in student entrepreneurship ecosystem.",
+        "keywords": ["accelerator", "Stanford", "student startups", "venture capital", "entrepreneurship"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-06T09:55:00Z"
+    }
+  ]
+}

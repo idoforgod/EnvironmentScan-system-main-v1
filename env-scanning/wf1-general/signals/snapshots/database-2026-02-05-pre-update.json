@@ -1,43 +1,42 @@
 {
   "version": "1.0",
   "created_at": "2026-01-30T12:11:53.840986",
-  "last_updated": "2026-02-05T09:30:00.000000",
-  "total_signals": 734,
+  "last_updated": "2026-02-04T07:15:00.000000",
+  "total_signals": 689,
   "first_scan_date": "2026-01-30",
-  "latest_scan_date": "2026-02-05",
+  "latest_scan_date": "2026-02-04",
   "statistics": {
-    "total_scans": 8,
-    "total_duplicates_prevented": 132,
+    "total_scans": 7,
+    "total_duplicates_prevented": 98,
     "sources": {
       "arXiv": 237,
-      "US Federal Register": 152,
-      "WHO Press Releases": 7,
-      "TechCrunch": 79,
-      "MIT Technology Review": 33,
-      "Nature News": 50,
-      "IEEE Spectrum": 33,
-      "UN News": 45,
-      "Brookings Institution": 11,
-      "Pew Research Center": 26,
-      "Carbon Brief": 22,
-      "BIS Speeches": 7,
-      "Hacker News": 52,
-      "Science Magazine": 26,
+      "US Federal Register": 149,
+      "WHO Press Releases": 5,
+      "TechCrunch": 74,
+      "MIT Technology Review": 28,
+      "Nature News": 44,
+      "IEEE Spectrum": 29,
+      "UN News": 42,
+      "Brookings Institution": 8,
+      "Pew Research Center": 23,
+      "Carbon Brief": 19,
+      "BIS Speeches": 3,
+      "Hacker News": 48,
+      "Science Magazine": 22,
       "Wired": 30,
       "Ars Technica": 27,
-      "NASA Climate Change": 13,
-      "WebSearch": 3
+      "NASA Climate Change": 11
     },
     "categories": {
-      "T": 415,
-      "E": 81,
-      "S": 69,
-      "P": 236,
-      "s": 9,
-      "E_Environmental": 31
+      "T": 400,
+      "E": 76,
+      "S": 63,
+      "P": 225,
+      "s": 7,
+      "E_Environmental": 25
     },
     "marathon_mode": {
-      "expansion_signals_added": 75,
+      "expansion_signals_added": 60,
       "expansion_sources": [
         "Carbon Brief",
         "Ars Technica",
@@ -49,10 +48,9 @@
         "NASA Climate Change",
         "Science Magazine",
         "Hacker News",
-        "BIS Speeches",
-        "WebSearch"
+        "BIS Speeches"
       ],
-      "scan_date": "2026-02-05"
+      "scan_date": "2026-02-03"
     }
   },
   "signals": [

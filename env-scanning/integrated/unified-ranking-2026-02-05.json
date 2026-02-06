@@ -1,0 +1,195 @@
+{
+  "ranking_date": "2026-02-05",
+  "ranking_method": "pSST_unified",
+  "source_pools": {
+    "wf1": {"total_ranked": 15, "avg_psst": 83.1, "range": [80, 87]},
+    "wf2": {"total_ranked": 15, "avg_psst": 80.7, "range": [77, 85]}
+  },
+  "unified_top_15": [
+    {
+      "unified_rank": 1,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-002",
+      "title": "Clean Energy Drove Over 1/3 of China GDP Growth in 2025",
+      "title_ko": "청정에너지, 2025년 중국 GDP 성장의 1/3 이상 견인",
+      "primary_steeps": "E_Environmental",
+      "secondary_steeps": "E_Economic",
+      "psst_total": 87,
+      "source": "Carbon Brief"
+    },
+    {
+      "unified_rank": 2,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-005",
+      "title": "Deepfake Crisis: Trust Erosion Despite Transparency Tools",
+      "title_ko": "딥페이크 위기: 투명성 도구에도 불구한 신뢰 침식",
+      "primary_steeps": "S_Social",
+      "secondary_steeps": "T_Technological",
+      "psst_total": 86,
+      "source": "MIT Technology Review / UNICEF / UN News"
+    },
+    {
+      "unified_rank": 3,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-001",
+      "title": "UN Establishes Independent AI Scientific Panel - Guterres Warning",
+      "title_ko": "UN 독립 AI 과학 패널 설립 - 구테흐스 경고",
+      "primary_steeps": "P_Political",
+      "secondary_steeps": "T_Technological",
+      "psst_total": 86,
+      "source": "UN News"
+    },
+    {
+      "unified_rank": 4,
+      "origin": "WF2",
+      "original_id": "WF2-T-2026-034",
+      "arxiv_id": "2601.21616",
+      "title": "Biased-Erasure Cavity Qubit: Hardware-Efficient Quantum Error Detection Breakthrough",
+      "title_ko": "편향 소거 공동 큐비트: 하드웨어 효율적 양자 오류 검출의 돌파구",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": null,
+      "psst_total": 85,
+      "source": "arXiv 2601.21616"
+    },
+    {
+      "unified_rank": 5,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-003",
+      "title": "China Coal Rush Hits Record High in 2025 Despite Climate Deadlines",
+      "title_ko": "기후 기한에도 불구, 2025년 중국 석탄 투자 사상 최고치",
+      "primary_steeps": "E_Environmental",
+      "secondary_steeps": "P_Political",
+      "psst_total": 85,
+      "source": "Carbon Brief"
+    },
+    {
+      "unified_rank": 6,
+      "origin": "WF2",
+      "original_id": "WF2-T-2026-030",
+      "arxiv_id": "2601.03868",
+      "title": "What Matters For Safety Alignment? Largest-Scale Safety Benchmark",
+      "title_ko": "안전 정렬에서 정말 중요한 것은 무엇인가? 사상 최대 규모 안전 벤치마크",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": "P_Political",
+      "psst_total": 84,
+      "source": "arXiv 2601.03868"
+    },
+    {
+      "unified_rank": 7,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-013",
+      "title": "China Critical Minerals Dominance Weaponized",
+      "title_ko": "중국 핵심 광물 지배력 무기화",
+      "primary_steeps": "P_Political",
+      "secondary_steeps": "E_Economic",
+      "psst_total": 84,
+      "source": "WebSearch / EY / CFR"
+    },
+    {
+      "unified_rank": 8,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-006",
+      "title": "AI Energy Infrastructure Becomes Gating Factor for Expansion",
+      "title_ko": "AI 에너지 인프라, 확장의 병목 요인으로 부상",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": "E_Environmental",
+      "psst_total": 84,
+      "source": "TechStartups / MIT Tech Review"
+    },
+    {
+      "unified_rank": 9,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-010",
+      "title": "RAG Language Model Outperforms Human Experts in Science Synthesis",
+      "title_ko": "RAG 언어 모델, 과학 종합에서 인간 전문가 능가",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": "S_Social",
+      "psst_total": 84,
+      "source": "Nature / Science Magazine"
+    },
+    {
+      "unified_rank": 10,
+      "origin": "WF2",
+      "original_id": "WF2-T-2026-031",
+      "arxiv_id": "2601.05445",
+      "title": "Knowledge-Driven Multi-Turn Jailbreaking: Mastermind Framework",
+      "title_ko": "지식 기반 다중턴 LLM 탈옥 공격: Mastermind 프레임워크",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": "P_Political",
+      "psst_total": 83,
+      "source": "arXiv 2601.05445"
+    },
+    {
+      "unified_rank": 11,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-007",
+      "title": "US Federal-State AI Regulation Collision",
+      "title_ko": "미국 연방-주 AI 규제 충돌",
+      "primary_steeps": "P_Political",
+      "secondary_steeps": "T_Technological",
+      "psst_total": 83,
+      "source": "WebSearch / US Federal Register"
+    },
+    {
+      "unified_rank": 12,
+      "origin": "WF2",
+      "original_id": "WF2-T-2026-032",
+      "arxiv_id": "2601.05293",
+      "title": "Agentic AI and Cybersecurity: Systemic Risks, Challenges, Opportunities",
+      "title_ko": "에이전트 AI와 사이버보안: 체계적 위험, 도전, 기회",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": "P_Political",
+      "psst_total": 82,
+      "source": "arXiv 2601.05293"
+    },
+    {
+      "unified_rank": 13,
+      "origin": "WF2",
+      "original_id": "WF2-E-2026-002",
+      "arxiv_id": "2601.06343",
+      "title": "Resolving the Automation Paradox: Falling Labor Share, Rising Wages",
+      "title_ko": "자동화 역설의 해결: 노동 분배율 하락에도 임금 상승",
+      "primary_steeps": "E_Economic",
+      "secondary_steeps": "S_Social",
+      "psst_total": 82,
+      "source": "arXiv 2601.06343"
+    },
+    {
+      "unified_rank": 14,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-008",
+      "title": "Bank of England: Global Imbalances in Fragmented World",
+      "title_ko": "영란은행: 분절된 세계의 글로벌 불균형",
+      "primary_steeps": "E_Economic",
+      "secondary_steeps": "P_Political",
+      "psst_total": 82,
+      "source": "BIS Speeches"
+    },
+    {
+      "unified_rank": 15,
+      "origin": "WF1",
+      "original_id": "WF1-2026-02-05-004",
+      "title": "Google Gemini Surpasses 750M Monthly Users",
+      "title_ko": "구글 제미나이, 월 7.5억 사용자 돌파",
+      "primary_steeps": "T_Technological",
+      "secondary_steeps": "E_Economic",
+      "psst_total": 82,
+      "source": "TechCrunch"
+    }
+  ],
+  "unified_stats": {
+    "wf1_count": 10,
+    "wf2_count": 5,
+    "avg_psst": 83.6,
+    "max_psst": 87,
+    "min_psst": 82,
+    "steeps_distribution": {
+      "T_Technological": 7,
+      "P_Political": 3,
+      "E_Environmental": 2,
+      "E_Economic": 1,
+      "S_Social": 1,
+      "s_spiritual": 0
+    }
+  }
+}

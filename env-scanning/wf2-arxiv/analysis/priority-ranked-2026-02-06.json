@@ -1,0 +1,177 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-06",
+    "workflow": "wf2-arxiv",
+    "total_ranked": 35,
+    "ranking_method": "pSST",
+    "average_psst": 74.2,
+    "top_10_average_psst": 85.6
+  },
+  "priority_ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-2602-001",
+      "title": "MaxRL: Maximum Likelihood Reinforcement Learning with 20x Test-Time Scaling Efficiency",
+      "final_category": "T",
+      "psst_score": 91,
+      "psst_grade": "A",
+      "impact_score": 4.4,
+      "urgency": "high",
+      "rationale": "Major RL scaling breakthrough. 20x efficiency gain on mathematical reasoning has immediate implications for LLM training and inference optimization."
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-2602-022",
+      "title": "Algorithmic Coupling in US Banking: AI-Driven Decision Synchronization Risks",
+      "final_category": "E",
+      "psst_score": 89,
+      "psst_grade": "B",
+      "impact_score": 4.6,
+      "urgency": "high",
+      "rationale": "Critical systemic risk finding. ASSA 2026 presentation on AI-driven synchronization in banking has major policy and risk management implications."
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-2602-002",
+      "title": "SWE-Universe: 800,000 Real-World Software Engineering Environments",
+      "final_category": "T",
+      "psst_score": 88,
+      "psst_grade": "B",
+      "impact_score": 4.2,
+      "urgency": "medium",
+      "rationale": "Alibaba Qwen achievement of 75.3% on SWE-Bench. Major step toward automated software engineering with large-scale environment framework."
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-2602-008",
+      "title": "Review of Superconducting Qubit Devices and Large-Scale Integration",
+      "final_category": "T",
+      "psst_score": 87,
+      "psst_grade": "B",
+      "impact_score": 4.3,
+      "urgency": "medium",
+      "rationale": "Authoritative review of leading quantum architecture. Comprehensive coverage of scaling proposals critical for quantum roadmap understanding."
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-2602-033",
+      "title": "AI Safety Benchmarks: Comprehensive Evaluation Framework for Risk Assessment",
+      "final_category": "s",
+      "psst_score": 86,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "urgency": "high",
+      "rationale": "Standardized AI safety evaluation framework. Critical for governance and responsible AI development as regulatory pressure increases."
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-2602-023",
+      "title": "Quantum Computing for Climate Modelling: Opportunities and Challenges",
+      "final_category": "E_Environmental",
+      "psst_score": 85,
+      "psst_grade": "B",
+      "impact_score": 4.1,
+      "urgency": "medium",
+      "rationale": "Quantum-climate intersection. Potential to address key uncertainties in climate projections through quantum advantage."
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-2602-026",
+      "title": "Adaptive Quantum-Safe Cryptography for 6G Vehicular Networks",
+      "final_category": "T",
+      "psst_score": 84,
+      "psst_grade": "B",
+      "impact_score": 3.9,
+      "urgency": "medium",
+      "rationale": "NDSS 2026 acceptance. Practical PQC for emerging 6G networks addresses critical future infrastructure security."
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-2602-010",
+      "title": "Computer Science Challenges in Quantum Computing: Early Fault-Tolerance and Beyond",
+      "final_category": "T",
+      "psst_score": 83,
+      "psst_grade": "B",
+      "impact_score": 3.8,
+      "urgency": "medium",
+      "rationale": "CS bottleneck identification in QC. System design focus signals maturation of quantum computing field."
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-2602-032",
+      "title": "Value Alignment in Large Language Models: A Multi-Stakeholder Perspective",
+      "final_category": "s",
+      "psst_score": 82,
+      "psst_grade": "B",
+      "impact_score": 3.9,
+      "urgency": "medium",
+      "rationale": "Multi-stakeholder value alignment framework. Essential for navigating AI ethics in diverse global contexts."
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-2602-003",
+      "title": "PixelGen: Pixel-Space Diffusion Achieving FID 5.11 on ImageNet-256",
+      "final_category": "T",
+      "psst_score": 81,
+      "psst_grade": "B",
+      "impact_score": 3.7,
+      "urgency": "medium",
+      "rationale": "Challenges latent diffusion dominance. State-of-the-art image generation with architectural innovation."
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-2602-030",
+      "title": "Enterprise Quantum Readiness: Less Than 5% Have Formal Transition Plans",
+      "final_category": "T",
+      "psst_score": 80,
+      "psst_grade": "B",
+      "impact_score": 3.8,
+      "urgency": "high",
+      "rationale": "Critical readiness gap identification. Highlights urgent need for enterprise PQC adoption planning."
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-2602-005",
+      "title": "From Assumptions to Actions: LLM Reasoning into Uncertainty-Aware Planning",
+      "final_category": "T",
+      "psst_score": 79,
+      "psst_grade": "C",
+      "impact_score": 3.6,
+      "urgency": "medium",
+      "rationale": "ICLR 2026 acceptance. Bridges LLM reasoning with embodied AI planning under uncertainty."
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-2602-025",
+      "title": "Continuous Decline of Land Carbon Sink During Recent Climate Events",
+      "final_category": "E_Environmental",
+      "psst_score": 78,
+      "psst_grade": "C",
+      "impact_score": 3.9,
+      "urgency": "medium",
+      "rationale": "Carbon cycle degradation evidence. Critical for climate projection accuracy and policy."
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-2602-016",
+      "title": "Integrated Exploration and Manipulation on Scene Graph with LLM Replanning",
+      "final_category": "T",
+      "psst_score": 77,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "urgency": "medium",
+      "rationale": "ICRA 2026 acceptance. Advances LLM-robotics integration for embodied AI."
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-2602-034",
+      "title": "Explainable AI for Healthcare: Interpretable Diagnostic Models",
+      "final_category": "T",
+      "psst_score": 76,
+      "psst_grade": "C",
+      "impact_score": 3.6,
+      "urgency": "medium",
+      "rationale": "XAI for clinical decision support. Addresses trust and accountability in medical AI."
+    }
+  ]
+}

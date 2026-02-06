@@ -288,6 +288,23 @@ mappings:
   "international": "국제"
   "domestic": "국내"
 
+  # Weekly Meta-Analysis Terms (v1.1.0)
+  "weekly meta-analysis": "주간 메타분석"
+  "trend analysis": "추세 분석"
+  "trend intensity score": "추세 강도 점수"
+  "TIS": "추세 강도 점수 (Trend Intensity Score)"
+  "accelerating": "상승 추세"
+  "decelerating": "하락 추세"
+  "surging": "급상승"
+  "fading": "소멸"
+  "convergence cluster": "수렴 클러스터"
+  "diverging signal": "발산 신호"
+  "signal evolution": "신호 진화"
+  "maturity transition": "성숙도 전이"
+  "system performance review": "시스템 성능 리뷰"
+  "calibration recommendation": "캘리브레이션 권고"
+  "week-over-week": "전주 대비"
+
   # Workflow Components
   "orchestrator": "오케스트레이터"
   "worker agent": "워커 에이전트"

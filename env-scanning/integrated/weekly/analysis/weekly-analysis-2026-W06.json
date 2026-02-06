@@ -1,0 +1,109 @@
+{
+  "week_id": "2026-W06",
+  "analysis_period": {
+    "start": "2026-02-01",
+    "end": "2026-02-06",
+    "daily_scans": 6,
+    "integrated_scans": 4,
+    "wf1_only_scans": 2
+  },
+  "total_signals_analyzed": 885,
+  "wf1_total": 763,
+  "wf2_total": 122,
+  "trends": [
+    {
+      "id": "trend-A",
+      "title": "AI 거버넌스 집행 전환",
+      "title_en": "AI Governance Enforcement Transition",
+      "tis": 0.87,
+      "grade": "Surging",
+      "days_detected": 6,
+      "signal_count": 10,
+      "key_signals": ["Trump AI EO (pSST 94)", "France X Raid (85)", "UN AI Panel (86)", "AI Governance Shift (90)"],
+      "steeps": ["P", "T", "s"],
+      "wf_sources": ["WF1", "WF2"]
+    },
+    {
+      "id": "trend-B",
+      "title": "AI 신뢰성-안전 위기 심화",
+      "title_en": "AI Trust & Safety Crisis Deepening",
+      "tis": 0.84,
+      "grade": "Surging",
+      "days_detected": 5,
+      "signal_count": 13,
+      "key_signals": ["CoT Underreporting (85)", "Agent Jailbreak 67% (80)", "Mastermind 87% (83)", "Deepfake Persistence (86)"],
+      "steeps": ["T", "S", "s"],
+      "wf_sources": ["WF1", "WF2"]
+    },
+    {
+      "id": "trend-E",
+      "title": "지경학적 대결 구조화",
+      "title_en": "Geoeconomic Confrontation Structuring",
+      "tis": 0.81,
+      "grade": "Surging",
+      "days_detected": 5,
+      "signal_count": 9,
+      "key_signals": ["WEF Geoeconomic Risk #1 (93)", "China Mineral Weaponization (84)", "France X Raid (85)"],
+      "steeps": ["P", "E", "T"],
+      "wf_sources": ["WF1", "WF2"]
+    },
+    {
+      "id": "trend-C",
+      "title": "물리적 AI 산업 변곡점",
+      "title_en": "Physical AI Industry Inflection Point",
+      "tis": 0.72,
+      "grade": "Rising",
+      "days_detected": 3,
+      "signal_count": 5,
+      "key_signals": ["CES 2026 Physical AI (92)", "Waabi $750M (89)", "Waymo $16B (80)"],
+      "steeps": ["T", "E"],
+      "wf_sources": ["WF1"]
+    },
+    {
+      "id": "trend-D",
+      "title": "양자 컴퓨팅 실용화 가속",
+      "title_en": "Quantum Computing Practical Acceleration",
+      "tis": 0.68,
+      "grade": "Rising",
+      "days_detected": 3,
+      "signal_count": 4,
+      "key_signals": ["Google Willow (91)", "Erasure Qubit 265 (85)", "Ion Entanglement (85)"],
+      "steeps": ["T"],
+      "wf_sources": ["WF1", "WF2"]
+    },
+    {
+      "id": "trend-F",
+      "title": "기후 협력 프레임워크 후퇴",
+      "title_en": "Climate Cooperation Framework Retreat",
+      "tis": 0.42,
+      "grade": "Declining",
+      "days_detected": 4,
+      "signal_count": 4,
+      "key_signals": ["US Paris Exit (~8.4)", "NASA Climate Deletion (73)", "China Coal Record (83)"],
+      "steeps": ["E_Env", "P"],
+      "wf_sources": ["WF1"]
+    },
+    {
+      "id": "trend-G",
+      "title": "AI 규모 만능주의 퇴조",
+      "title_en": "AI Scaling Supremacy Decline",
+      "tis": 0.35,
+      "grade": "Declining",
+      "days_detected": 3,
+      "signal_count": 3,
+      "key_signals": ["MMFineReason (80)", "mHC (86)", "MaxRL 20x (91)"],
+      "steeps": ["T"],
+      "wf_sources": ["WF2"]
+    }
+  ],
+  "convergence_clusters": 5,
+  "scenarios": [
+    {"name": "관리된 전환", "probability": 0.30},
+    {"name": "가속된 분절", "probability": 0.45},
+    {"name": "AI 신뢰 위기 폭발", "probability": 0.25}
+  ],
+  "meta_pattern": "삼중 전환(Triple Transition) — AI 거버넌스(원칙→규칙), AI 기술(디지털→물리적), 지정학(경쟁→대결)",
+  "a_grade_signals": 5,
+  "max_psst": 94,
+  "generated_at": "2026-02-06T18:00:00+09:00"
+}

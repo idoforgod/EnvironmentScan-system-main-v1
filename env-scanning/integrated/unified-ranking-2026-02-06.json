@@ -1,0 +1,273 @@
+{
+  "unified_ranking_metadata": {
+    "date": "2026-02-06",
+    "integration_type": "dual_workflow",
+    "wf1_signals": 52,
+    "wf2_signals": 35,
+    "total_pool": 87,
+    "unified_top_15": 15,
+    "wf1_in_top_15": 10,
+    "wf2_in_top_15": 5,
+    "ranking_method": "pSST_unified",
+    "wf1_avg_psst": 76.8,
+    "wf2_avg_psst": 74.2,
+    "unified_avg_psst": 87.1,
+    "unified_top_15_avg_psst": 87.1
+  },
+  "unified_top_15": [
+    {
+      "unified_rank": 1,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-006",
+      "title": "Trump Executive Order Challenges State AI Laws - Federal AI Framework",
+      "final_category": "P",
+      "psst_unified": 94,
+      "psst_grade": "A",
+      "impact_score": 4.5,
+      "urgency": "high",
+      "rationale": "Immediate regulatory impact on AI industry. Creates federal preemption framework affecting all US AI companies. March 2026 deadlines for FTC and Commerce actions."
+    },
+    {
+      "unified_rank": 2,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-031",
+      "title": "WEF Global Risks 2026 - Geoeconomic Confrontation Top Risk",
+      "final_category": "P",
+      "psst_unified": 93,
+      "psst_grade": "A",
+      "impact_score": 4.8,
+      "urgency": "high",
+      "rationale": "Authoritative global risk assessment. Geoeconomic confrontation as top risk signals major strategic shift. Economic risks climbing fastest in two years."
+    },
+    {
+      "unified_rank": 3,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-001",
+      "title": "Physical AI Dominates CES 2026 - Robots Leave the Screen",
+      "final_category": "T",
+      "psst_unified": 92,
+      "psst_grade": "A",
+      "impact_score": 4.3,
+      "urgency": "high",
+      "rationale": "Inflection point for AI industry. Shift from digital to physical AI represents major market transformation. Boston Dynamics Atlas as industry bellwether."
+    },
+    {
+      "unified_rank": 4,
+      "origin": "WF2",
+      "original_id": "arxiv-2602-001",
+      "title": "MaxRL: Maximum Likelihood Reinforcement Learning with 20x Test-Time Scaling Efficiency",
+      "final_category": "T",
+      "psst_unified": 91,
+      "psst_grade": "A",
+      "impact_score": 4.4,
+      "urgency": "high",
+      "rationale": "Major RL scaling breakthrough. 20x efficiency gain on mathematical reasoning has immediate implications for LLM training and inference optimization."
+    },
+    {
+      "unified_rank": 5,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-011",
+      "title": "Google Willow Quantum Chip - Exponential Error Reduction at Scale",
+      "final_category": "T",
+      "psst_unified": 91,
+      "psst_grade": "A",
+      "impact_score": 4.6,
+      "urgency": "medium",
+      "rationale": "Major quantum computing milestone. Exponential error reduction addresses key barrier to fault-tolerant quantum computing. Patents signal commercialization path."
+    },
+    {
+      "unified_rank": 6,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-036",
+      "title": "2026 AI Governance Shift - From Principles to Enforceable Rules",
+      "final_category": "P",
+      "psst_unified": 90,
+      "psst_grade": "A",
+      "impact_score": 4.2,
+      "urgency": "high",
+      "rationale": "Global governance paradigm shift. Multi-million dollar penalties under emerging compliance laws. Organizations must prepare documented AI inventories and risk classifications."
+    },
+    {
+      "unified_rank": 7,
+      "origin": "WF2",
+      "original_id": "arxiv-2602-022",
+      "title": "Algorithmic Coupling in US Banking: AI-Driven Decision Synchronization Risks",
+      "final_category": "E",
+      "psst_unified": 89,
+      "psst_grade": "B",
+      "impact_score": 4.6,
+      "urgency": "high",
+      "rationale": "Critical systemic risk finding. ASSA 2026 presentation on AI-driven synchronization in banking has major policy and risk management implications."
+    },
+    {
+      "unified_rank": 8,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-021",
+      "title": "Waabi $750M Series C - Largest Canadian Tech Funding for Physical AI",
+      "final_category": "T",
+      "psst_unified": 89,
+      "psst_grade": "B",
+      "impact_score": 3.9,
+      "urgency": "medium",
+      "rationale": "Record-setting funding validates physical AI market. Unified AI brain for multiple vehicle types signals platform approach gaining traction."
+    },
+    {
+      "unified_rank": 9,
+      "origin": "WF2",
+      "original_id": "arxiv-2602-002",
+      "title": "SWE-Universe: 800,000 Real-World Software Engineering Environments",
+      "final_category": "T",
+      "psst_unified": 88,
+      "psst_grade": "B",
+      "impact_score": 4.2,
+      "urgency": "medium",
+      "rationale": "Alibaba Qwen achievement of 75.3% on SWE-Bench. Major step toward automated software engineering with large-scale environment framework."
+    },
+    {
+      "unified_rank": 10,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-039",
+      "title": "Agentic AI Double-Edged Sword - Automated Arms Race in Cybersecurity",
+      "final_category": "T",
+      "psst_unified": 88,
+      "psst_grade": "B",
+      "impact_score": 4.4,
+      "urgency": "high",
+      "rationale": "Critical security paradigm shift. Fully automated attacker-defender arms race represents new threat landscape requiring immediate response."
+    },
+    {
+      "unified_rank": 11,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-004",
+      "title": "MIT Technology Review 2026 Breakthrough Technologies - AI Companions Normalized",
+      "final_category": "s",
+      "psst_unified": 87,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "urgency": "medium",
+      "rationale": "72% teen adoption signals societal transformation. Emotional AI companions raise profound psychological and ethical questions about human relationships."
+    },
+    {
+      "unified_rank": 12,
+      "origin": "WF2",
+      "original_id": "arxiv-2602-008",
+      "title": "Review of Superconducting Qubit Devices and Large-Scale Integration",
+      "final_category": "T",
+      "psst_unified": 87,
+      "psst_grade": "B",
+      "impact_score": 4.3,
+      "urgency": "medium",
+      "rationale": "Authoritative review of leading quantum architecture. Comprehensive coverage of scaling proposals critical for quantum roadmap understanding."
+    },
+    {
+      "unified_rank": 13,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-019",
+      "title": "Global Economy Shows Resilience but Trade Tensions Cloud Outlook - UN",
+      "final_category": "E",
+      "psst_unified": 86,
+      "psst_grade": "B",
+      "impact_score": 4.1,
+      "urgency": "high",
+      "rationale": "Authoritative economic outlook. 2.7% growth forecast below pre-pandemic average. Trade tensions impact becoming evident in 2026."
+    },
+    {
+      "unified_rank": 14,
+      "origin": "WF2",
+      "original_id": "arxiv-2602-033",
+      "title": "AI Safety Benchmarks: Comprehensive Evaluation Framework for Risk Assessment",
+      "final_category": "s",
+      "psst_unified": 86,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "urgency": "high",
+      "rationale": "Standardized AI safety evaluation framework. Critical for governance and responsible AI development as regulatory pressure increases."
+    },
+    {
+      "unified_rank": 15,
+      "origin": "WF1",
+      "original_id": "raw-2026-02-06-040",
+      "title": "Harvest Now Decrypt Later - Quantum Threat to Encryption",
+      "final_category": "T",
+      "psst_unified": 85,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "urgency": "medium",
+      "rationale": "Active state-sponsored data collection for future decryption. Critical infrastructure and government communications at risk. Requires immediate cryptographic planning."
+    }
+  ],
+  "cross_workflow_analysis": {
+    "reinforced_signals": [
+      {
+        "theme": "Quantum Computing Maturation",
+        "wf1_signals": ["Google Willow Quantum Chip", "Harvest Now Decrypt Later"],
+        "wf2_signals": ["Review of Superconducting Qubit Devices", "Computer Science Challenges in QC", "Enterprise Quantum Readiness"],
+        "synthesis": "Both workflows identify quantum computing at critical inflection point - hardware breakthroughs from industry (WF1) validated by academic research maturation (WF2). Security implications emerging in parallel."
+      },
+      {
+        "theme": "AI Governance Transition",
+        "wf1_signals": ["Trump AI Executive Order", "AI Governance Shift", "72 Countries AI Policy"],
+        "wf2_signals": ["AI Safety Benchmarks", "Value Alignment Multi-Stakeholder"],
+        "synthesis": "Media coverage (WF1) of regulatory actions complemented by academic frameworks (WF2) for evaluation and alignment. Governance becoming operationalized."
+      },
+      {
+        "theme": "Physical AI Emergence",
+        "wf1_signals": ["Physical AI CES 2026", "Waabi $750M", "Boston Dynamics Atlas"],
+        "wf2_signals": ["LLM Reasoning Uncertainty-Aware Planning", "Scene Graph LLM Replanning"],
+        "synthesis": "Industry announcements (WF1) on robotics convergent with academic research (WF2) on embodied AI planning and manipulation."
+      }
+    ],
+    "academic_early_signals": [
+      {
+        "signal": "MaxRL: 20x Test-Time Scaling Efficiency",
+        "origin": "WF2",
+        "assessment": "Novel RL efficiency breakthrough not yet in mainstream media. May signal next generation of efficient inference methods.",
+        "watch_horizon": "3-6 months"
+      },
+      {
+        "signal": "Algorithmic Coupling in Banking",
+        "origin": "WF2",
+        "assessment": "Academic research on AI-driven systemic risk in finance. Policy implications not yet widely covered in general media.",
+        "watch_horizon": "6-12 months"
+      },
+      {
+        "signal": "SWE-Universe Automated Software Engineering",
+        "origin": "WF2",
+        "assessment": "Large-scale benchmark for AI coding capabilities. Industry impact will accelerate as benchmarks mature.",
+        "watch_horizon": "3-6 months"
+      }
+    ],
+    "media_first_signals": [
+      {
+        "signal": "Physical AI CES 2026 Dominance",
+        "origin": "WF1",
+        "assessment": "Major industry trend announcement. Academic research typically follows industry deployment patterns.",
+        "research_gap": "Limited academic evaluation of real-world physical AI deployment challenges"
+      },
+      {
+        "signal": "AI Companions 72% Teen Adoption",
+        "origin": "WF1",
+        "assessment": "Societal adoption metrics ahead of comprehensive academic study. Psychology/ethics research needed.",
+        "research_gap": "Long-term psychological impact studies on AI companion use"
+      }
+    ]
+  },
+  "domain_distribution": {
+    "unified_top_15": {
+      "T_Technological": 7,
+      "P_Political": 3,
+      "E_Economic": 2,
+      "s_spiritual": 2,
+      "E_Environmental": 0,
+      "S_Social": 0
+    },
+    "total_pool": {
+      "T_Technological": 46,
+      "P_Political": 14,
+      "E_Economic": 10,
+      "E_Environmental": 8,
+      "S_Social": 5,
+      "s_spiritual": 4
+    }
+  }
+}

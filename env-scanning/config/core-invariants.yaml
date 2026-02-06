@@ -383,6 +383,36 @@ tunable_parameters:
         max_value: 0.99
         max_delta_per_cycle: 0.02
 
+  # --- TIS (Trend Intensity Score) Weights (Weekly Mode, v1.1.0) ---
+  tis_weights:
+    file: "config/workflow-registry.yaml"
+    section: "integration.weekly.tis_weights"
+    fields:
+      - path: "integration.weekly.tis_weights.n_sources"
+        current_value: 0.30
+        min_value: 0.10
+        max_value: 0.50
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "integration.weekly.tis_weights.psst_delta"
+        current_value: 0.30
+        min_value: 0.10
+        max_value: 0.50
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "integration.weekly.tis_weights.frequency"
+        current_value: 0.20
+        min_value: 0.05
+        max_value: 0.40
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+      - path: "integration.weekly.tis_weights.cross_domain"
+        current_value: 0.20
+        min_value: 0.05
+        max_value: 0.40
+        max_delta_per_cycle: 0.05
+        constraint: "sum_of_all_weights_must_equal_1.0"
+
   # --- Priority Scoring Weights ---
   priority_weights:
     file: "config/thresholds.yaml"
@@ -435,3 +465,57 @@ major_change_domains:
       description: "Adding entirely new analysis dimensions"
     - name: "translation_strategy"
       description: "Changing translation approach or quality requirements"
+
+# ============================================================================
+# EXECUTION INTEGRITY INVARIANT (v1.0.0, 2026-02-06)
+# ============================================================================
+
+execution_integrity_invariant:
+  description: >
+    실행 무결성 시스템(SCG, PoE, 상태 파일 패턴)의 모든 규칙은
+    workflow-registry.yaml의 execution_integrity 섹션에 정의되어야 한다.
+    validate_state_consistency.py는 이 섹션에서 규칙을 동적으로 읽어야 하며,
+    하드코딩된 규칙을 가질 수 없다.
+  immutable: true
+  introduced: "2026-02-06"
+  incident_reference: "2026-02-06 미실행 완료 표시 버그"
+
+  rules:
+    - id: "EI-001"
+      name: "SOT Definition Required"
+      description: "모든 SCG 규칙, PoE 스키마, 상태 파일 패턴은 SOT에 정의되어야 함"
+      enforcement: "workflow-registry.yaml execution_integrity section"
+
+    - id: "EI-002"
+      name: "Dynamic Rule Loading"
+      description: "validate_state_consistency.py는 SOT에서 규칙을 동적으로 로드해야 함"
+      enforcement: "load_scg_rules_from_sot() 함수 호출 필수"
+
+    - id: "EI-003"
+      name: "No Hardcoded Rules"
+      description: "검증 스크립트에 하드코딩된 SCG 규칙 금지"
+      enforcement: "코드 리뷰 시 확인"
+
+    - id: "EI-004"
+      name: "Date-Based State Isolation"
+      description: "상태 파일은 날짜별로 격리되어야 함"
+      enforcement: "workflow-status-{date}.json 패턴 사용"
+
+    - id: "EI-005"
+      name: "Proof of Execution Required"
+      description: "raw 데이터 파일에 실행 증명 메타데이터 필수"
+      enforcement: "scan_metadata.execution_proof 필드"
+
+  components:
+    state_consistency_gate:
+      description: "계층적 상태 일관성 검증 게이트"
+      layers: ["SOT-Master", "Master-WF", "WF-Raw", "Raw-Report"]
+      validation_script: "env-scanning/scripts/validate_state_consistency.py"
+
+    proof_of_execution:
+      description: "실행 증명 메타데이터 스키마"
+      schema_location: "workflow-registry.yaml execution_integrity.proof_of_execution"
+
+    state_file_patterns:
+      description: "날짜별 상태 파일 경로 패턴"
+      pattern_location: "workflow-registry.yaml execution_integrity.state_file_patterns"

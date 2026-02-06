@@ -2,10 +2,10 @@
   "metadata": {
     "version": "1.0.0",
     "created": "2026-02-03",
-    "last_updated": "2026-02-04",
+    "last_updated": "2026-02-05",
     "workflow": "wf2-arxiv",
     "description": "arXiv Academic Deep Scanning signal database",
-    "total_signals": 30,
+    "total_signals": 65,
     "scan_history": [
       {
         "date": "2026-02-03",
@@ -16,6 +16,11 @@
         "date": "2026-02-04",
         "signals_added": 15,
         "scan_period": "2026-01-21 ~ 2026-02-04"
+      },
+      {
+        "date": "2026-02-05",
+        "signals_added": 35,
+        "scan_period": "2026-01-22 ~ 2026-02-05"
       }
     ]
   },
@@ -193,7 +198,6 @@
       "url": "https://arxiv.org/abs/2602.02395",
       "date": "2026-02-04",
       "steeps": "T_Technological",
-      "steeps_secondary": "P_Political",
       "significance": 9,
       "scan_date": "2026-02-04"
     },
@@ -205,7 +209,6 @@
       "url": "https://arxiv.org/abs/2602.02100",
       "date": "2026-02-03",
       "steeps": "S_Social",
-      "steeps_secondary": "P_Political",
       "significance": 9,
       "scan_date": "2026-02-04"
     },
@@ -217,7 +220,6 @@
       "url": "https://arxiv.org/abs/2601.12946",
       "date": "2026-01-22",
       "steeps": "T_Technological",
-      "steeps_secondary": "S_Social",
       "significance": 9,
       "scan_date": "2026-02-04"
     },
@@ -229,7 +231,6 @@
       "url": "https://arxiv.org/abs/2601.10520",
       "date": "2026-01-20",
       "steeps": "T_Technological",
-      "steeps_secondary": "s_spiritual",
       "significance": 9,
       "scan_date": "2026-02-04"
     },
@@ -241,7 +242,6 @@
       "url": "https://arxiv.org/abs/2602.02170",
       "date": "2026-02-03",
       "steeps": "T_Technological",
-      "steeps_secondary": "P_Political",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -253,7 +253,6 @@
       "url": "https://arxiv.org/abs/2602.02378",
       "date": "2026-02-04",
       "steeps": "T_Technological",
-      "steeps_secondary": "S_Social",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -265,7 +264,6 @@
       "url": "https://arxiv.org/abs/2602.01942",
       "date": "2026-02-03",
       "steeps": "T_Technological",
-      "steeps_secondary": "P_Political",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -277,7 +275,6 @@
       "url": "https://arxiv.org/abs/2602.01684",
       "date": "2026-02-02",
       "steeps": "E_Economic",
-      "steeps_secondary": "T_Technological",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -289,7 +286,6 @@
       "url": "https://arxiv.org/abs/2602.02479",
       "date": "2026-02-04",
       "steeps": "S_Social",
-      "steeps_secondary": "P_Political",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -301,7 +297,6 @@
       "url": "https://arxiv.org/abs/2601.11651",
       "date": "2026-01-21",
       "steeps": "S_Social",
-      "steeps_secondary": "s_spiritual",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -313,7 +308,6 @@
       "url": "https://arxiv.org/abs/2602.01837",
       "date": "2026-02-03",
       "steeps": "P_Political",
-      "steeps_secondary": "T_Technological",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -325,7 +319,6 @@
       "url": "https://arxiv.org/abs/2601.12164",
       "date": "2026-01-21",
       "steeps": "P_Political",
-      "steeps_secondary": "S_Social",
       "significance": 8,
       "scan_date": "2026-02-04"
     },
@@ -337,7 +330,6 @@
       "url": "https://arxiv.org/abs/2601.22893",
       "date": "2026-01-30",
       "steeps": "S_Social",
-      "steeps_secondary": "T_Technological",
       "significance": 7,
       "scan_date": "2026-02-04"
     },
@@ -349,7 +341,6 @@
       "url": "https://arxiv.org/abs/2602.01959",
       "date": "2026-02-03",
       "steeps": "S_Social",
-      "steeps_secondary": "T_Technological",
       "significance": 7,
       "scan_date": "2026-02-04"
     },
@@ -363,6 +354,391 @@
       "steeps": "T_Technological",
       "significance": 7,
       "scan_date": "2026-02-04"
+    },
+    {
+      "id": "wf2-2601.03868",
+      "arxiv_id": "2601.03868",
+      "title_ko": "안전 정렬에서 정말 중요한 것은 무엇인가?",
+      "title_en": "What Matters For Safety Alignment?",
+      "url": "https://arxiv.org/abs/2601.03868",
+      "date": "2026-01-07",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.05445",
+      "arxiv_id": "2601.05445",
+      "title_ko": "지식 기반 다중턴 LLM 탈옥 공격: Mastermind 프레임워크",
+      "title_en": "Knowledge-Driven Multi-Turn Jailbreaking on Large Language Models",
+      "url": "https://arxiv.org/abs/2601.05445",
+      "date": "2026-01-09",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.05293",
+      "arxiv_id": "2601.05293",
+      "title_ko": "에이전트 AI와 사이버보안: 체계적 위험, 도전, 기회",
+      "title_en": "A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes",
+      "url": "https://arxiv.org/abs/2601.05293",
+      "date": "2026-01-09",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.02584",
+      "arxiv_id": "2602.02584",
+      "title_ko": "AI 코드 생성의 헌법적 보안: 설계 단계에서 보안을 내재화하는 명세 기반 개발",
+      "title_en": "Constitutional Spec-Driven Development: Enforcing Security by Construction in AI-Assisted Code Generation",
+      "url": "https://arxiv.org/abs/2602.02584",
+      "date": "2026-02-04",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.21616",
+      "arxiv_id": "2601.21616",
+      "title_ko": "편향 소거 공동 큐비트: 하드웨어 효율적 양자 오류 검출의 돌파구",
+      "title_en": "A biased-erasure cavity qubit with hardware-efficient quantum error detection",
+      "url": "https://arxiv.org/abs/2601.21616",
+      "date": "2026-01-30",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2502.01534",
+      "arxiv_id": "2502.01534",
+      "title_ko": "선호도 누출: LLM 심사관의 오염 문제",
+      "title_en": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+      "url": "https://arxiv.org/abs/2502.01534",
+      "date": "2026-02-03",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.01474",
+      "arxiv_id": "2602.01474",
+      "title_ko": "변혁적 AI 거버넌스를 위한 법적 인프라",
+      "title_en": "Legal Infrastructure for Transformative AI Governance",
+      "url": "https://arxiv.org/abs/2602.01474",
+      "date": "2026-02-03",
+      "steeps": "P_Political",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.10102",
+      "arxiv_id": "2601.10102",
+      "title_ko": "페르소나가 보상을 압도할 때: 다중 에이전트 LLM 의사결정의 역할 정체성 편향",
+      "title_en": "When Personas Override Payoffs: Role Identity Bias in Multi-Agent LLM Decision-Making",
+      "url": "https://arxiv.org/abs/2601.10102",
+      "date": "2026-01-17",
+      "steeps": "S_Social",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.02534",
+      "arxiv_id": "2602.02534",
+      "title_ko": "DualMind: 다중 에이전트 시뮬레이션을 통한 여론 확산의 인지-정서 연쇄 반응 이해",
+      "title_en": "DualMind: Towards Understanding Cognitive-Affective Cascades in Public Opinion Dissemination via Multi-Agent Simulation",
+      "url": "https://arxiv.org/abs/2602.02534",
+      "date": "2026-02-04",
+      "steeps": "S_Social",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.06343",
+      "arxiv_id": "2601.06343",
+      "title_ko": "자동화 역설의 해결: 노동 분배율은 하락해도 임금은 상승한다",
+      "title_en": "Resolving the automation paradox: falling labor share, rising wages",
+      "url": "https://arxiv.org/abs/2601.06343",
+      "date": "2026-01-10",
+      "steeps": "E_Economic",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.20245",
+      "arxiv_id": "2601.20245",
+      "title_ko": "AI가 기술 숙련도 형성에 미치는 영향",
+      "title_en": "How AI Impacts Skill Formation",
+      "url": "https://arxiv.org/abs/2601.20245",
+      "date": "2026-01-29",
+      "steeps": "S_Social",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.22398",
+      "arxiv_id": "2601.22398",
+      "title_ko": "멀티모달 추론을 통한 비전-언어 모델 탈옥 공격",
+      "title_en": "Jailbreaks on Vision Language Model via Multimodal Reasoning",
+      "url": "https://arxiv.org/abs/2601.22398",
+      "date": "2026-01-30",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.14534",
+      "arxiv_id": "2601.14534",
+      "title_ko": "알고리즘 장벽: 자동화된 채용 시스템의 인위적 마찰적 실업 정량화",
+      "title_en": "The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems",
+      "url": "https://arxiv.org/abs/2601.14534",
+      "date": "2026-01-24",
+      "steeps": "P_Political",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.02740",
+      "arxiv_id": "2602.02740",
+      "title_ko": "AI 정신건강 지원의 책임 있는 설계: 주치의, 영양제, 요가 강사로서의 AI",
+      "title_en": "Framing Responsible Design of AI Mental Well-Being Support: AI as Primary Care, Nutritional Supplement, or Yoga Instructor?",
+      "url": "https://arxiv.org/abs/2602.02740",
+      "date": "2026-02-04",
+      "steeps": "s_spiritual",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.22487",
+      "arxiv_id": "2601.22487",
+      "title_ko": "데이터 센터 부하 유연성과 전력망 주파수 조절 서비스의 협조적 최적화",
+      "title_en": "Coordinating Power Grid Frequency Regulation Service with Data Center Load Flexibility",
+      "url": "https://arxiv.org/abs/2601.22487",
+      "date": "2026-01-30",
+      "steeps": "E_Environmental",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.17275",
+      "arxiv_id": "2601.17275",
+      "title_ko": "안정적이고 효율적인 LLM 추론을 위한 잠재 공간 대조적 강화학습",
+      "title_en": "Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning",
+      "url": "https://arxiv.org/abs/2601.17275",
+      "date": "2026-01-28",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.01698",
+      "arxiv_id": "2602.01698",
+      "title_ko": "후처리 학습 후 탐색 복원: 대규모 추론 모델을 위한 잠재 탐색 디코딩",
+      "title_en": "Restoring Exploration after Post-Training: Latent Exploration Decoding for Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2602.01698",
+      "date": "2026-02-03",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.01791",
+      "arxiv_id": "2602.01791",
+      "title_ko": "Grad2Reward: 희소 판단에서 밀집 보상으로 - 개방형 LLM 추론 개선",
+      "title_en": "Grad2Reward: From Sparse Judgment to Dense Rewards for Improving Open-Ended LLM Reasoning",
+      "url": "https://arxiv.org/abs/2602.01791",
+      "date": "2026-02-03",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.08000",
+      "arxiv_id": "2601.08000",
+      "title_ko": "판례와 법률의 결합 추론: 사례 기반 심의적 LLM 안전 정렬",
+      "title_en": "Reasoning over Precedents Alongside Statutes: Case-Augmented Deliberative Alignment for LLM Safety",
+      "url": "https://arxiv.org/abs/2601.08000",
+      "date": "2026-01-12",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.02183",
+      "arxiv_id": "2601.02183",
+      "title_ko": "초전도 소거 큐비트의 발전: 하드웨어 효율적 양자 오류 정정의 새 지평",
+      "title_en": "Developments in superconducting erasure qubits for hardware-efficient quantum error correction",
+      "url": "https://arxiv.org/abs/2601.02183",
+      "date": "2026-01-05",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.03382",
+      "arxiv_id": "2601.03382",
+      "title_ko": "딥페이크 탐지의 새로운 통합 접근법",
+      "title_en": "A Novel Unified Approach to Deepfake Detection",
+      "url": "https://arxiv.org/abs/2601.03382",
+      "date": "2026-01-07",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.00295",
+      "arxiv_id": "2602.00295",
+      "title_ko": "다화자 대화형 오디오 딥페이크: 분류 체계, 데이터셋, 파일럿 연구",
+      "title_en": "Multi-Speaker Conversational Audio Deepfake: Taxonomy, Dataset and Pilot Study",
+      "url": "https://arxiv.org/abs/2602.00295",
+      "date": "2026-02-01",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.08869",
+      "arxiv_id": "2601.08869",
+      "title_ko": "AI 배치 인가: 고위험 AI의 기계 판독 가능한 거버넌스를 위한 글로벌 표준",
+      "title_en": "AI Deployment Authorisation: A Global Standard for Machine-Readable Governance of High-Risk Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2601.08869",
+      "date": "2026-01-15",
+      "steeps": "P_Political",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.00497",
+      "arxiv_id": "2602.00497",
+      "title_ko": "다국어 언어 모델을 위한 문화 기반 거버넌스: 권리, 데이터 경계, 책임 있는 AI 설계",
+      "title_en": "Culturally-Grounded Governance for Multilingual Language Models: Rights, Data Boundaries, and Accountable AI Design",
+      "url": "https://arxiv.org/abs/2602.00497",
+      "date": "2026-02-01",
+      "steeps": "P_Political",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.10543",
+      "arxiv_id": "2601.10543",
+      "title_ko": "디코딩 중 안전 인식 탐침을 통한 대규모 언어 모델의 탈옥 공격 방어",
+      "title_en": "Defending Large Language Models Against Jailbreak Attacks via In-Decoding Safety-Awareness Probing",
+      "url": "https://arxiv.org/abs/2601.10543",
+      "date": "2026-01-17",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.01587",
+      "arxiv_id": "2602.01587",
+      "title_ko": "노이즈 증강 정렬을 통한 LLM 탈옥 방어의 입증 가능한 프레임워크",
+      "title_en": "Provable Defense Framework for LLM Jailbreaks via Noise-Augmented Alignment",
+      "url": "https://arxiv.org/abs/2602.01587",
+      "date": "2026-02-03",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.11134",
+      "arxiv_id": "2601.11134",
+      "title_ko": "FSL-BDP: 신용 위험 모델링을 위한 베이지안 차등 프라이버시 연합 생존 학습",
+      "title_en": "FSL-BDP: Federated Survival Learning with Bayesian Differential Privacy for Credit Risk Modeling",
+      "url": "https://arxiv.org/abs/2601.11134",
+      "date": "2026-01-19",
+      "steeps": "E_Economic",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.13658",
+      "arxiv_id": "2601.13658",
+      "title_ko": "알려진 사실 너머: LLM 평가의 데이터 오염 해결을 위한 미지의 시간적 지식 생성",
+      "title_en": "Beyond Known Facts: Generating Unseen Temporal Knowledge to Address Data Contamination in LLM Evaluation",
+      "url": "https://arxiv.org/abs/2601.13658",
+      "date": "2026-01-23",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.16218",
+      "arxiv_id": "2601.16218",
+      "title_ko": "M3Kang: 비전-언어 모델의 다국어 멀티모달 수학 추론 평가",
+      "title_en": "M3Kang: Evaluating Multilingual Multimodal Mathematical Reasoning in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2601.16218",
+      "date": "2026-01-27",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.11421",
+      "arxiv_id": "2601.11421",
+      "title_ko": "그레이트 마치 100: 체화 AI 에이전트 평가를 위한 100개의 세밀한 과제",
+      "title_en": "The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents",
+      "url": "https://arxiv.org/abs/2601.11421",
+      "date": "2026-01-20",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.15488",
+      "arxiv_id": "2601.15488",
+      "title_ko": "다중 페르소나 사고를 통한 대규모 언어 모델의 편향 완화",
+      "title_en": "Multi-Persona Thinking for Bias Mitigation in Large Language Models",
+      "url": "https://arxiv.org/abs/2601.15488",
+      "date": "2026-01-26",
+      "steeps": "S_Social",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.03767",
+      "arxiv_id": "2602.03767",
+      "title_ko": "의사결정 지향 벤치마킹으로 AI 기상예보 접근성 혁신: 인도 몬순 적용 사례",
+      "title_en": "Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon",
+      "url": "https://arxiv.org/abs/2602.03767",
+      "date": "2026-02-05",
+      "steeps": "E_Environmental",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2602.01013",
+      "arxiv_id": "2602.01013",
+      "title_ko": "그리드 형성 제어를 통한 데이터 센터 부하 위험 완화 및 전력망 지원 기능 구현",
+      "title_en": "Mitigating Data Centers Load Risks and Enabling Grid Support Functions through Grid-Forming Control",
+      "url": "https://arxiv.org/abs/2602.01013",
+      "date": "2026-02-02",
+      "steeps": "E_Environmental",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.08878",
+      "arxiv_id": "2601.08878",
+      "title_ko": "텍스트 기반 온라인 상담 AI 시스템: 세 가지 구현 방식의 윤리적 고찰",
+      "title_en": "AI Systems in Text-Based Online Counselling: Ethical Considerations Across Three Implementation Approaches",
+      "url": "https://arxiv.org/abs/2601.08878",
+      "date": "2026-01-15",
+      "steeps": "s_spiritual",
+      "significance": 7,
+      "scan_date": "2026-02-05"
+    },
+    {
+      "id": "wf2-2601.04891",
+      "arxiv_id": "2601.04891",
+      "title_ko": "산업용 GenAI 플랫폼에서의 제약 장시간 동영상 추론을 위한 비전-언어 모델 스케일링",
+      "title_en": "Scaling Vision Language Models for Pharmaceutical Long Form Video Reasoning on Industrial GenAI Platform",
+      "url": "https://arxiv.org/abs/2601.04891",
+      "date": "2026-01-09",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-02-05"
     }
   ]
 }

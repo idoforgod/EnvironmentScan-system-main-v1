@@ -45,6 +45,17 @@ REQUIRED_SECTION_HEADERS = [
     "## 8. 부록",
 ]
 
+WEEKLY_REQUIRED_SECTION_HEADERS = [
+    "## 1. 경영진 요약",
+    "## 2. 주간 추세 분석",
+    "## 3. 신호 수렴 분석",
+    "## 4. 신호 진화 타임라인",
+    "## 5. 전략적 시사점",
+    "## 7. 신뢰도 분석",
+    "## 8. 시스템 성능 리뷰",
+    "## 9. 부록",
+]
+
 SIGNAL_REQUIRED_FIELDS = [
     "분류",
     "출처",
@@ -101,6 +112,37 @@ PROFILES = {
         "min_cross_impact_pairs": 2,
         "require_cross_workflow": False,
         "require_source_tags": False,
+    },
+    "weekly": {
+        "min_total_words": 6000,
+        "min_korean_ratio": 0.30,
+        "min_signal_blocks": 0,          # 주간은 개별 신호 블록이 아닌 추세 블록
+        "min_fields_per_signal": 0,
+        "min_field_global_count": 0,
+        "min_cross_impact_pairs": 3,
+        "require_cross_workflow": True,   # WF1↔WF2 교차 분석 필수
+        "require_source_tags": True,      # [WF1]/[WF2] 태그 필수
+        "section_headers": WEEKLY_REQUIRED_SECTION_HEADERS,
+        "section_min_words": {
+            "## 1. 경영진 요약": 100,
+            "## 2. 주간 추세 분석": 500,
+            "## 3. 신호 수렴 분석": 200,
+            "## 4. 신호 진화 타임라인": 200,
+            "## 5. 전략적 시사점": 100,
+            "## 7. 신뢰도 분석": 30,
+            "## 8. 시스템 성능 리뷰": 100,
+            "## 9. 부록": 30,
+        },
+        "min_trend_blocks": 5,           # 추세 블록 최소 5개 (주간 고유)
+        # 주간은 교차 워크플로우 분석이 섹션 3.3에 위치 (일일/통합은 4.3)
+        "cross_workflow_section": "## 3. 신호 수렴 분석",
+        "cross_workflow_header": r"###\s*3\.3",
+        "cross_workflow_subsections": [],  # 주간은 3.3 하위에 번호 서브섹션 없음
+        # 주간 섹션 3/4 서브섹션 체크 (일일과 다른 구조)
+        "s3_section_header": "## 3. 신호 수렴 분석",
+        "s3_required_subs": ["3.1", "3.2", "3.3"],
+        "s4_section_header": "## 4. 신호 진화 타임라인",
+        "s4_required_subs": ["4.1", "4.2", "4.3"],
     },
 }
 
@@ -344,8 +386,9 @@ def validate_report(report_path: str, profile: str = "standard") -> ValidationRe
         detail=f"File size: {file_size} bytes" if file_size < 1024 else "",
     ))
 
-    # ── SEC-001: Required section headers (7) ──
-    missing_sections = [h for h in REQUIRED_SECTION_HEADERS if h not in content]
+    # ── SEC-001: Required section headers (profile-dependent) ──
+    section_headers = prof.get("section_headers", REQUIRED_SECTION_HEADERS)
+    missing_sections = [h for h in section_headers if h not in content]
     vr.results.append(CheckResult(
         check_id="SEC-001",
         level="CRITICAL",
@@ -355,8 +398,9 @@ def validate_report(report_path: str, profile: str = "standard") -> ValidationRe
     ))
 
     # ── SEC-002: Each section minimum word count ──
+    section_min_words = prof.get("section_min_words", SECTION_MIN_WORDS)
     below_min = []
-    for header, min_words in SECTION_MIN_WORDS.items():
+    for header, min_words in section_min_words.items():
         section_text = _extract_section(content, header)
         if section_text is None:
             below_min.append(f"{header}: section not found")
@@ -423,30 +467,34 @@ def validate_report(report_path: str, profile: str = "standard") -> ValidationRe
         detail=f"Missing subsections: {s5_subs}" if s5_subs else "",
     ))
 
-    # ── S3-001: Section 3 has 3.1, 3.2 subsections ──
-    s3_text = _extract_section(content, "## 3. 기존 신호 업데이트") or ""
+    # ── S3-001: Section 3 subsections (profile-dependent) ──
+    s3_section_header = prof.get("s3_section_header", "## 3. 기존 신호 업데이트")
+    s3_required_subs = prof.get("s3_required_subs", ["3.1", "3.2"])
+    s3_text = _extract_section(content, s3_section_header) or ""
     s3_subs = []
-    for sub in ["3.1", "3.2"]:
+    for sub in s3_required_subs:
         if not re.search(rf"###\s*{re.escape(sub)}", s3_text):
             s3_subs.append(sub)
     vr.results.append(CheckResult(
         check_id="S3-001",
         level="ERROR",
-        description="섹션 3에 3.1/3.2 서브섹션 존재",
+        description=f"섹션 3에 {'/'.join(s3_required_subs)} 서브섹션 존재" if s3_required_subs else "섹션 3 서브섹션 (해당 없음)",
         passed=len(s3_subs) == 0,
         detail=f"Missing subsections: {s3_subs}" if s3_subs else "",
     ))
 
-    # ── S4-001: Section 4 has 4.1, 4.2 subsections ──
-    s4_text = _extract_section(content, "## 4. 패턴 및 연결고리") or ""
+    # ── S4-001: Section 4 subsections (profile-dependent) ──
+    s4_section_header = prof.get("s4_section_header", "## 4. 패턴 및 연결고리")
+    s4_required_subs = prof.get("s4_required_subs", ["4.1", "4.2"])
+    s4_text = _extract_section(content, s4_section_header) or ""
     s4_subs = []
-    for sub in ["4.1", "4.2"]:
+    for sub in s4_required_subs:
         if not re.search(rf"###\s*{re.escape(sub)}", s4_text):
             s4_subs.append(sub)
     vr.results.append(CheckResult(
         check_id="S4-001",
         level="ERROR",
-        description="섹션 4에 4.1/4.2 서브섹션 존재",
+        description=f"섹션 4에 {'/'.join(s4_required_subs)} 서브섹션 존재" if s4_required_subs else "섹션 4 서브섹션 (해당 없음)",
         passed=len(s4_subs) == 0,
         detail=f"Missing subsections: {s4_subs}" if s4_subs else "",
     ))
@@ -496,19 +544,23 @@ def validate_report(report_path: str, profile: str = "standard") -> ValidationRe
         detail=f"Unfilled placeholders: {placeholders}" if placeholders else "",
     ))
 
-    # ── CW-001: Cross-workflow analysis section (integrated profile) ──
+    # ── CW-001: Cross-workflow analysis section (profile-dependent location) ──
     if prof["require_cross_workflow"]:
-        cw_subs = []
-        for sub in ["4.3.1", "4.3.2", "4.3.3"]:
-            if not re.search(rf"####?\s*{re.escape(sub)}", s4_text):
-                cw_subs.append(sub)
-        has_s43 = bool(re.search(r"###\s*4\.3", s4_text))
+        cw_header_pattern = prof.get("cross_workflow_header", r"###\s*4\.3")
+        cw_subsection_ids = prof.get("cross_workflow_subsections", ["4.3.1", "4.3.2", "4.3.3"])
+        cw_section_key = prof.get("cross_workflow_section", "## 4. 신호 진화 타임라인")
+        cw_search_text = _extract_section(content, cw_section_key) or ""
+        has_cw_header = bool(re.search(cw_header_pattern, cw_search_text))
+        cw_missing_subs = []
+        for sub in cw_subsection_ids:
+            if not re.search(rf"####?\s*{re.escape(sub)}", cw_search_text):
+                cw_missing_subs.append(sub)
         vr.results.append(CheckResult(
             check_id="CW-001",
             level="CRITICAL",
             description="섹션 4.3 교차 워크플로우 분석 존재",
-            passed=has_s43 and len(cw_subs) == 0,
-            detail=f"Missing: 4.3 header={not has_s43}, subsections={cw_subs}" if not has_s43 or cw_subs else "",
+            passed=has_cw_header and len(cw_missing_subs) == 0,
+            detail=f"Missing: header={not has_cw_header}, subsections={cw_missing_subs}" if not has_cw_header or cw_missing_subs else "",
         ))
 
     # ── CW-002: Source tags [WF1]/[WF2] present (integrated profile) ──

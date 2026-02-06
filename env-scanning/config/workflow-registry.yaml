@@ -202,6 +202,74 @@ integration:
   checkpoints:
     final_approval: "required"
 
+  # ────────────────────────────────────────────
+  # Weekly Meta-Analysis Mode (v1.1.0, 2026-02-06)
+  # ────────────────────────────────────────────
+  # 주간 메타분석: 7일간 일일 스캔 결과를 거시적으로 재분석.
+  # 새로운 소스 스캐닝 없음. 내부 축적 데이터 읽기 전용 접근.
+  # 기존 일일 스캔(WF1→WF2→Merge)과 완전히 독립적으로 실행.
+  weekly:
+    enabled: true
+    description: "주간 메타분석 - 7일간 일일 스캔 결과의 거시적 패턴 분석"
+
+    # ── 트리거 조건 ──
+    trigger:
+      type: "manual"           # /env-scan:weekly로 수동 실행
+      min_daily_scans: 5       # 최소 5일치 일일 스캔 필요
+      lookback_days: 7         # 분석 대상: 최근 7일
+
+    # ── 입력 (읽기 전용) ──
+    inputs:
+      wf1_reports: "wf1-general/reports/daily/"
+      wf2_reports: "wf2-arxiv/reports/daily/"
+      integrated_reports: "integrated/reports/daily/"
+      wf1_signals_db: "wf1-general/signals/database.json"
+      wf2_signals_db: "wf2-arxiv/signals/database.json"
+      wf1_ranked: "wf1-general/analysis/"
+      wf2_ranked: "wf2-arxiv/analysis/"
+      integrated_rankings: "integrated/"
+
+    access_policy:
+      wf1_data: "READ_ONLY"
+      wf2_data: "READ_ONLY"
+      integrated_daily: "READ_ONLY"
+      weekly_output: "READ_WRITE"
+
+    # ── 출력 ──
+    output_root: "env-scanning/integrated/weekly"
+    paths:
+      reports: "reports/"
+      reports_archive: "reports/archive/"
+      analysis: "analysis/"
+      logs: "logs/"
+
+    # ── 스켈레톤 ──
+    skeleton: ".claude/skills/env-scanner/references/weekly-report-skeleton.md"
+
+    # ── 체크포인트 ──
+    checkpoints:
+      analysis_review: "required"    # Phase 2.5 분석 리뷰
+      report_approval: "required"    # Phase 3.4 보고서 승인
+
+    # ── 검증 프로파일 ──
+    validate_profile: "weekly"
+
+    # ── 주간 ID 체계 ──
+    week_id_format: "ISO8601"  # {year}-W{week_number}, e.g., 2026-W06
+
+    # ── TIS (추세 강도 점수) 가중치 ──
+    tis_weights:
+      n_sources: 0.30
+      psst_delta: 0.30
+      frequency: 0.20
+      cross_domain: 0.20
+
+    # ── 캘리브레이션 연동 ──
+    calibration_integration:
+      enabled: true
+      source: "env-scanning/config/thresholds.yaml"
+      section: "calibration"
+
 # ================================================================
 # STARTUP VALIDATION RULES
 # ================================================================
@@ -274,3 +342,217 @@ startup_validation:
       check: "merger_agent_exists"
       description: "integration.merger_agent file must exist"
       severity: "HALT"
+
+    - id: "SOT-014"
+      check: "execution_integrity_section_exists"
+      description: "execution_integrity section must exist in registry"
+      severity: "HALT"
+
+    - id: "SOT-015"
+      check: "scg_rules_valid"
+      description: "All SCG rules have required fields (id, name, severity, checks)"
+      severity: "HALT"
+
+    - id: "SOT-016"
+      check: "poe_schema_valid"
+      description: "PoE schema has all required_fields defined"
+      severity: "HALT"
+
+    - id: "SOT-017"
+      check: "weekly_skeleton_exists"
+      description: "Weekly report skeleton file must exist if weekly enabled"
+      severity: "HALT"
+      condition: "integration.weekly.enabled == true"
+
+    - id: "SOT-018"
+      check: "weekly_output_root_exists"
+      description: "Weekly output directories must exist (create if missing)"
+      severity: "CREATE"
+      condition: "integration.weekly.enabled == true"
+
+    - id: "SOT-019"
+      check: "weekly_validate_profile_defined"
+      description: "Weekly validate_profile must be defined in integration.weekly"
+      severity: "HALT"
+      condition: "integration.weekly.enabled == true"
+
+# ================================================================
+# EXECUTION INTEGRITY (v1.0.0)
+# ================================================================
+# 이 섹션은 워크플로우 실행의 무결성을 보장하기 위한
+# 상태 관리, 실행 증명, 일관성 검증 규칙을 정의합니다.
+#
+# RULES:
+#   1. validate_state_consistency.py MUST read this section at execution
+#   2. 모든 상태 파일 경로는 이 섹션의 패턴을 따라야 함
+#   3. 실행 증명(PoE)은 이 섹션의 스키마를 준수해야 함
+#   4. SCG 검증은 이 섹션의 규칙을 따라야 함
+# ================================================================
+
+execution_integrity:
+  version: "1.0.0"
+
+  # ── 상태 파일 패턴 정의 ──
+  # 모든 오케스트레이터는 이 패턴을 사용해야 함
+  state_file_patterns:
+    # 날짜별 상태 파일 (신규)
+    workflow_status_dated: "{data_root}/logs/workflow-status-{date}.json"
+    # 최신 상태 파일 (기존 호환)
+    workflow_status_latest: "{data_root}/logs/workflow-status-latest.json"
+    # 마스터 상태 파일 (날짜별)
+    master_status_dated: "{integration_root}/logs/master-status-{date}.json"
+    # 마스터 최신 상태 파일
+    master_status_latest: "{integration_root}/logs/master-status-latest.json"
+    # 주간 상태 파일 (v1.1.0)
+    weekly_status: "{integration_root}/weekly/logs/weekly-status-{week_id}.json"
+
+  # ── 실행 증명 (Proof of Execution) 스키마 ──
+  proof_of_execution:
+    enabled: true
+    location: "scan_metadata.execution_proof"
+
+    required_fields:
+      - name: "execution_id"
+        type: "string"
+        format: "{workflow_id}-{date}-{time}-{random4}"
+        example: "wf1-scan-2026-02-06-09-15-42-a3f2"
+
+      - name: "started_at"
+        type: "string"
+        format: "ISO8601"
+
+      - name: "completed_at"
+        type: "string"
+        format: "ISO8601"
+
+      - name: "actual_api_calls"
+        type: "object"
+        required_keys: ["web_search", "arxiv_api"]
+
+      - name: "actual_sources_scanned"
+        type: "array"
+        min_length: 1
+
+      - name: "file_created_at"
+        type: "string"
+        format: "ISO8601"
+
+    validation_rules:
+      timestamp_tolerance_minutes: 5
+      min_total_api_calls: 1
+      validate_execution_id_format: true
+
+  # ── 상태 일관성 검증 게이트 (SCG) ──
+  state_consistency_gate:
+    enabled: true
+    execute_at:
+      - "startup"
+      - "phase_transition"
+      - "completion"
+
+    layers:
+      - id: "SCG-L1"
+        name: "SOT ↔ Master Status"
+        description: "SOT와 마스터 상태 파일 간 일관성 검증"
+        severity: "HALT"
+        checks:
+          - id: "SCG-L1-001"
+            name: "registry_version_match"
+            description: "SOT version과 master_status.registry_version 일치"
+          - id: "SCG-L1-002"
+            name: "workflow_list_match"
+            description: "SOT workflows 목록과 master_status.workflow_results 키 일치"
+
+      - id: "SCG-L2"
+        name: "Master Status ↔ WF Status"
+        description: "마스터 상태와 개별 워크플로우 상태 간 일관성 검증"
+        severity: "HALT"
+        checks:
+          - id: "SCG-L2-001"
+            name: "wf_status_match"
+            description: "master.workflow_results[wf].status == wf_status.status"
+          - id: "SCG-L2-002"
+            name: "date_match"
+            description: "모든 상태 파일의 날짜가 오늘 날짜와 일치"
+          - id: "SCG-L2-003"
+            name: "execution_id_prefix_match"
+            description: "master.execution_id 접미사와 wf_status.execution_id 접미사 일치"
+
+      - id: "SCG-L3"
+        name: "WF Status ↔ Raw Data"
+        description: "워크플로우 상태와 실제 데이터 파일 간 일관성 검증"
+        severity: "HALT"
+        checks:
+          - id: "SCG-L3-001"
+            name: "raw_file_exists"
+            description: "wf_status.status=completed → raw 파일 존재"
+          - id: "SCG-L3-002"
+            name: "poe_valid"
+            description: "raw 파일의 execution_proof가 스키마 준수"
+          - id: "SCG-L3-003"
+            name: "poe_execution_id_match"
+            description: "wf_status.execution_id == raw.execution_proof.execution_id"
+          - id: "SCG-L3-004"
+            name: "poe_timestamp_valid"
+            description: "파일 mtime과 poe.file_created_at 차이 < tolerance"
+          - id: "SCG-L3-005"
+            name: "poe_min_api_calls"
+            description: "actual_api_calls 합계 >= min_total_api_calls"
+
+      - id: "SCG-L5"
+        name: "Weekly ↔ Daily Consistency"
+        description: "주간 분석이 참조한 일일 데이터와의 일관성 검증"
+        severity: "WARN"
+        applies_to: "weekly"
+        checks:
+          - id: "SCG-L5-001"
+            name: "weekly_daily_report_count_match"
+            description: "주간 분석에서 참조한 일일 보고서 수 == 실제 존재하는 보고서 수"
+          - id: "SCG-L5-002"
+            name: "weekly_signal_count_consistency"
+            description: "주간 통계의 총 신호 수 ≤ 일일 보고서들의 신호 수 합계"
+          - id: "SCG-L5-003"
+            name: "weekly_date_range_valid"
+            description: "주간 분석 대상 날짜 범위가 lookback_days 이내"
+
+      - id: "SCG-L4"
+        name: "Raw Data ↔ Report"
+        description: "데이터 파일과 보고서 간 일관성 검증"
+        severity: "WARN"
+        checks:
+          - id: "SCG-L4-001"
+            name: "signal_count_consistent"
+            description: "raw.items.length >= report.signal_count"
+          - id: "SCG-L4-002"
+            name: "report_date_match"
+            description: "report 파일명 날짜 == raw 파일 날짜"
+
+    failure_actions:
+      HALT: "워크플로우 즉시 중단, 사용자에게 불일치 보고, 수동 해결 요청"
+      WARN: "경고 로그 기록, 사용자에게 알림, 워크플로우 계속 진행"
+
+  # ── 사전 실행 검증 (Pre-Execution Check) ──
+  pre_execution_check:
+    enabled: true
+    checks:
+      - id: "PEC-001"
+        name: "today_status_exists"
+        description: "오늘 날짜 상태 파일 존재 여부 확인"
+        on_exists:
+          completed: "이미 완료됨. 재실행 확인 요청"
+          in_progress: "진행 중. 이어서 실행 또는 재시작 확인 요청"
+          failed: "실패 상태. 재시도 확인 요청"
+        on_not_exists: "신규 실행 시작"
+
+      - id: "PEC-002"
+        name: "previous_day_completed"
+        description: "전일 상태 확인 (경고용)"
+        severity: "WARN"
+
+      - id: "PEC-003"
+        name: "weekly_data_sufficiency"
+        description: "주간 분석에 필요한 최소 일일 스캔 수 확인"
+        applies_to: "weekly"
+        min_daily_scans: 5
+        lookback_days: 7
+        on_insufficient: "경고 표시 후 사용자 확인 요청"

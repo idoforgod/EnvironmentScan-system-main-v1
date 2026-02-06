@@ -342,6 +342,91 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         f"Missing: {merger}" if not merger_exists else ""
     ))
 
+    # ── SOT-014: execution_integrity section exists ──
+    exec_integrity = registry.get("execution_integrity", {})
+    ei_exists = bool(exec_integrity) and exec_integrity.get("version") is not None
+    vr.results.append(CheckResult(
+        "SOT-014", "HALT",
+        "execution_integrity section exists in registry",
+        ei_exists,
+        "Missing execution_integrity section or version" if not ei_exists else ""
+    ))
+
+    # ── SOT-015: SCG rules valid ──
+    scg = exec_integrity.get("state_consistency_gate", {})
+    scg_layers = scg.get("layers", [])
+    scg_valid = True
+    scg_errors = []
+    for layer in scg_layers:
+        if not all(k in layer for k in ["id", "name", "severity", "checks"]):
+            scg_valid = False
+            scg_errors.append(f"Layer {layer.get('id', 'unknown')} missing required fields")
+        for check in layer.get("checks", []):
+            if not all(k in check for k in ["id", "name", "description"]):
+                scg_valid = False
+                scg_errors.append(f"Check {check.get('id', 'unknown')} missing required fields")
+    vr.results.append(CheckResult(
+        "SOT-015", "HALT",
+        "All SCG rules have required fields (id, name, severity, checks)",
+        scg_valid,
+        "; ".join(scg_errors) if scg_errors else ""
+    ))
+
+    # ── SOT-016: PoE schema valid ──
+    poe = exec_integrity.get("proof_of_execution", {})
+    poe_fields = poe.get("required_fields", [])
+    required_poe_names = {"execution_id", "started_at", "completed_at", "actual_api_calls", "actual_sources_scanned", "file_created_at"}
+    actual_poe_names = {f.get("name") for f in poe_fields if isinstance(f, dict)}
+    poe_valid = required_poe_names.issubset(actual_poe_names)
+    missing_poe = required_poe_names - actual_poe_names
+    vr.results.append(CheckResult(
+        "SOT-016", "HALT",
+        "PoE schema has all required_fields defined",
+        poe_valid,
+        f"Missing PoE fields: {missing_poe}" if missing_poe else ""
+    ))
+
+    # ── SOT-017: Weekly skeleton exists (conditional) ──
+    weekly_cfg = integration.get("weekly", {})
+    if weekly_cfg.get("enabled", False):
+        weekly_skel = weekly_cfg.get("skeleton", "")
+        weekly_skel_exists = _file_exists(project_root, weekly_skel) if weekly_skel else False
+        vr.results.append(CheckResult(
+            "SOT-017", "HALT",
+            "Weekly report skeleton file exists",
+            weekly_skel_exists,
+            f"Missing: {weekly_skel}" if not weekly_skel_exists else ""
+        ))
+
+    # ── SOT-018: Weekly output directories exist (create if missing) ──
+    if weekly_cfg.get("enabled", False):
+        weekly_root = weekly_cfg.get("output_root", "")
+        weekly_created = []
+        if weekly_root:
+            weekly_root_path = _resolve(project_root, weekly_root)
+            for path_key, rel in weekly_cfg.get("paths", {}).items():
+                full = weekly_root_path / rel
+                if not full.exists():
+                    full.mkdir(parents=True, exist_ok=True)
+                    weekly_created.append(str(full.relative_to(project_root)))
+        vr.results.append(CheckResult(
+            "SOT-018", "CREATE",
+            "Weekly output directories exist",
+            True,
+            "",
+            f"Created {len(weekly_created)} directories" if weekly_created else ""
+        ))
+
+    # ── SOT-019: Weekly validate_profile is defined ──
+    if weekly_cfg.get("enabled", False):
+        weekly_profile = weekly_cfg.get("validate_profile", "")
+        vr.results.append(CheckResult(
+            "SOT-019", "HALT",
+            "Weekly validate_profile is defined",
+            bool(weekly_profile),
+            "Missing validate_profile in integration.weekly" if not weekly_profile else ""
+        ))
+
     return vr
 
 

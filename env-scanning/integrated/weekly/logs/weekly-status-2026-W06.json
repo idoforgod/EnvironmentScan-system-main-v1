@@ -1,0 +1,33 @@
+{
+  "week_id": "2026-W06",
+  "status": "completed",
+  "phase": "approved",
+  "started_at": "2026-02-06T17:00:00+09:00",
+  "analysis_completed_at": "2026-02-06T18:00:00+09:00",
+  "approved_at": "2026-02-06T18:30:00+09:00",
+  "data_loaded": {
+    "integrated_reports": 4,
+    "wf1_supplementary": 2,
+    "total_daily_scans": 6,
+    "total_signals": 885
+  },
+  "analysis_results": {
+    "trends_identified": 7,
+    "surging_trends": 3,
+    "rising_trends": 2,
+    "declining_trends": 2,
+    "convergence_clusters": 5,
+    "scenarios": 3,
+    "a_grade_signals": 5
+  },
+  "report_path": "env-scanning/integrated/weekly/reports/weekly-scan-2026-W06.md",
+  "report_archive": "env-scanning/integrated/weekly/reports/archive/2026/02/weekly-scan-2026-W06.md",
+  "analysis_path": "env-scanning/integrated/weekly/analysis/weekly-analysis-2026-W06.json",
+  "pec_003_status": "WARNING_PROCEEDED",
+  "pec_003_detail": "4 integrated + 2 WF1-only (minimum 5 required, 4 integrated available)",
+  "approval": {
+    "approved_by": "user",
+    "revision_count": 0,
+    "final": true
+  }
+}

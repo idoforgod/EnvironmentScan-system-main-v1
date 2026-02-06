@@ -1,0 +1,422 @@
+{
+  "scan_date": "2026-02-05",
+  "workflow": "wf2-arxiv",
+  "scan_period": "2026-01-22 to 2026-02-05",
+  "parameters": {
+    "days_back": 14,
+    "max_per_category": 50,
+    "extended_categories": true,
+    "search_queries_executed": 18,
+    "categories_covered": [
+      "cs.AI", "cs.CL", "cs.CV", "cs.LG", "cs.CR", "cs.RO", "cs.SE",
+      "cs.MA", "cs.CY", "cs.HC", "cs.SI", "cs.NE", "cs.DC", "cs.ET",
+      "cs.AR", "econ.GN", "econ.TH", "econ.EM", "q-fin.EC", "q-fin.GN",
+      "quant-ph", "stat.ML", "stat.AP", "eess.SP",
+      "physics.ao-ph", "physics.soc-ph"
+    ]
+  },
+  "deduplication": {
+    "existing_db_size": 30,
+    "existing_arxiv_ids": [
+      "2602.02395", "2602.02100", "2601.12946", "2601.10520", "2602.02170",
+      "2602.02378", "2602.01942", "2602.01684", "2602.02479", "2601.11651",
+      "2602.01837", "2601.12164", "2601.22893", "2602.01959", "2602.02495",
+      "2512.24601", "2512.24880", "2601.19834", "2601.06521", "2601.00830",
+      "2601.00306", "2601.00240", "2601.21920", "2601.11369", "2601.22139",
+      "2601.22156", "2601.21821", "2601.10061", "2601.02295", "2601.22159",
+      "2601.04137", "2601.03315", "2601.20247", "2601.00644", "2601.01053",
+      "2601.18943", "2601.21548", "2601.10922", "2601.07973", "2601.06093",
+      "2601.00579", "2601.03558", "2601.07136", "2601.06129", "2501.12962"
+    ],
+    "duplicates_removed": 8,
+    "note": "8 papers found in search matched existing DB and were excluded"
+  },
+  "total_papers_found": 35,
+  "papers": [
+    {
+      "id": "RAW-WF2-001",
+      "arxiv_id": "2601.05445",
+      "title": "Knowledge-Driven Multi-Turn Jailbreaking on Large Language Models",
+      "title_ko": "지식 기반 다중턴 LLM 탈옥 공격: Mastermind 프레임워크",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CR", "cs.AI", "cs.CL"],
+      "abstract_summary": "Proposes Mastermind, a knowledge-driven multi-turn jailbreak framework using hierarchical multi-agent architecture that decouples strategic planning from tactical execution. Achieves 87% ASR on HarmBench and 91% on StrongReject through strategy-space fuzzing and a genetic-based optimization engine.",
+      "url": "https://arxiv.org/abs/2601.05445",
+      "date": "2026-01-09"
+    },
+    {
+      "id": "RAW-WF2-002",
+      "arxiv_id": "2601.03868",
+      "title": "What Matters For Safety Alignment?",
+      "title_ko": "안전 정렬에서 정말 중요한 것은 무엇인가?",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.CL", "cs.CR"],
+      "abstract_summary": "Comprehensive empirical study evaluating 32 LLMs/LRMs across 13 model families (3B-235B parameters) using 5 safety datasets and 56 jailbreak techniques. CoT attacks elevate ASR by 3.34x. Top-3 safest: OpenAI GPT-OSS, Qwen3-Next, Gemma-3. Most vulnerable: DeepSeek-R1-Distilled, Mistral-v0.3.",
+      "url": "https://arxiv.org/abs/2601.03868",
+      "date": "2026-01-07"
+    },
+    {
+      "id": "RAW-WF2-003",
+      "arxiv_id": "2601.05293",
+      "title": "A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes",
+      "title_ko": "에이전트 AI와 사이버보안: 체계적 위험, 도전, 기회",
+      "authors": "Sahaya Jestus Lazer, Kshitiz Aryal, Maanak Gupta, Elisa Bertino",
+      "categories": ["cs.CR", "cs.AI", "cs.MA"],
+      "abstract_summary": "Comprehensive survey analyzing systemic risks of agentic AI including emergent collusion, cascading failures, memory poisoning, and oversight evasion. Argues traditional model-centric safety frameworks are inadequate for agent-based AI with persistent state and tool use.",
+      "url": "https://arxiv.org/abs/2601.05293",
+      "date": "2026-01-09"
+    },
+    {
+      "id": "RAW-WF2-004",
+      "arxiv_id": "2602.02584",
+      "title": "Constitutional Spec-Driven Development: Enforcing Security by Construction in AI-Assisted Code Generation",
+      "title_ko": "AI 코드 생성의 헌법적 보안: 설계 단계에서 보안을 내재화하는 명세 기반 개발",
+      "authors": "Not specified in search results",
+      "categories": ["cs.SE", "cs.CR", "cs.AI"],
+      "abstract_summary": "Introduces a constitutional methodology embedding security principles into AI code generation specifications. Reduces security defects by 73% vs unconstrained generation by mapping CWE/MITRE Top 25 vulnerabilities into machine-readable constitutional constraints that propagate through planning to implementation.",
+      "url": "https://arxiv.org/abs/2602.02584",
+      "date": "2026-02-04"
+    },
+    {
+      "id": "RAW-WF2-005",
+      "arxiv_id": "2602.01474",
+      "title": "Legal Infrastructure for Transformative AI Governance",
+      "title_ko": "변혁적 AI 거버넌스를 위한 법적 인프라",
+      "authors": "Gillian K. Hadfield",
+      "categories": ["cs.CY", "cs.AI", "econ.GN"],
+      "abstract_summary": "Reviews three key legal infrastructure examples for AI governance: registration regimes for frontier models, identification regimes for autonomous agents, and regulatory markets enabling private sector innovation in AI regulatory services.",
+      "url": "https://arxiv.org/abs/2602.01474",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "RAW-WF2-006",
+      "arxiv_id": "2601.10102",
+      "title": "When Personas Override Payoffs: Role Identity Bias in Multi-Agent LLM Decision-Making",
+      "title_ko": "페르소나가 보상을 압도할 때: 다중 에이전트 LLM 의사결정의 역할 정체성 편향",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.MA", "cs.CY"],
+      "abstract_summary": "Systematic experiments across four LLM architectures (Qwen-7B, Qwen-32B, Llama-8B, Mistral-7B) demonstrate that role identity bias fundamentally alters strategic reasoning even when payoff-optimal equilibria exist and complete payoff information is available.",
+      "url": "https://arxiv.org/abs/2601.10102",
+      "date": "2026-01-17"
+    },
+    {
+      "id": "RAW-WF2-007",
+      "arxiv_id": "2602.02534",
+      "title": "DualMind: Towards Understanding Cognitive-Affective Cascades in Public Opinion Dissemination via Multi-Agent Simulation",
+      "title_ko": "DualMind: 다중 에이전트 시뮬레이션을 통한 여론 확산의 인지-정서 연쇄 반응 이해",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.MA", "cs.SI", "cs.CY"],
+      "abstract_summary": "LLM-driven multi-agent platform modeling dual-component interplay of transient affective responses and persistent cognitive beliefs. Evaluated on 15 real-world PR crises (2024-2025) across US, China, Europe with 100 heterogeneous agents per scenario, significantly outperforming baselines.",
+      "url": "https://arxiv.org/abs/2602.02534",
+      "date": "2026-02-04"
+    },
+    {
+      "id": "RAW-WF2-008",
+      "arxiv_id": "2601.22398",
+      "title": "Jailbreaks on Vision Language Model via Multimodal Reasoning",
+      "title_ko": "멀티모달 추론을 통한 비전-언어 모델 탈옥 공격",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CV", "cs.AI", "cs.CR"],
+      "abstract_summary": "Examines vulnerabilities in vision-language models' safety alignment through multimodal reasoning pathways. Demonstrates how cross-modal reasoning can bypass safety mechanisms that are robust in single-modality settings.",
+      "url": "https://arxiv.org/abs/2601.22398",
+      "date": "2026-01-30"
+    },
+    {
+      "id": "RAW-WF2-009",
+      "arxiv_id": "2601.06343",
+      "title": "Resolving the automation paradox: falling labor share, rising wages",
+      "title_ko": "자동화 역설의 해결: 노동 분배율은 하락해도 임금은 상승한다",
+      "authors": "Not specified in search results",
+      "categories": ["econ.GN", "econ.TH", "cs.AI"],
+      "abstract_summary": "Shows that declining labor share is more likely to raise wages in competitive economies with constant returns to scale. Empirical data from US and 11 industrialized countries estimates labor share is too high in all 12, implying further automation should raise wages.",
+      "url": "https://arxiv.org/abs/2601.06343",
+      "date": "2026-01-10"
+    },
+    {
+      "id": "RAW-WF2-010",
+      "arxiv_id": "2601.20245",
+      "title": "How AI Impacts Skill Formation",
+      "title_ko": "AI가 기술 숙련도 형성에 미치는 영향",
+      "authors": "Judy Hanwen Shen, Alex Tamkin",
+      "categories": ["cs.HC", "cs.AI", "cs.CY"],
+      "abstract_summary": "Randomized experiments show AI assistance impairs conceptual understanding, code reading, and debugging abilities without significant average efficiency gains. Identifies six AI interaction patterns, three of which preserve learning while using AI. Highlights critical productivity-learning trade-off.",
+      "url": "https://arxiv.org/abs/2601.20245",
+      "date": "2026-01-29"
+    },
+    {
+      "id": "RAW-WF2-011",
+      "arxiv_id": "2601.14534",
+      "title": "The Algorithmic Barrier: Quantifying Artificial Frictional Unemployment in Automated Recruitment Systems",
+      "title_ko": "알고리즘 장벽: 자동화된 채용 시스템의 인위적 마찰적 실업 정량화",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CY", "econ.GN", "cs.AI"],
+      "abstract_summary": "Formalizes artificial frictional unemployment arising from semantic misinterpretation of candidate competencies in automated recruitment systems. Argues that keyword-based screening induces a non-trivial portion of contemporary frictional unemployment.",
+      "url": "https://arxiv.org/abs/2601.14534",
+      "date": "2026-01-24"
+    },
+    {
+      "id": "RAW-WF2-012",
+      "arxiv_id": "2601.21616",
+      "title": "A biased-erasure cavity qubit with hardware-efficient quantum error detection",
+      "title_ko": "편향 소거 공동 큐비트: 하드웨어 효율적 양자 오류 검출의 돌파구",
+      "authors": "Not specified in search results",
+      "categories": ["quant-ph", "cs.ET"],
+      "abstract_summary": "Experimentally realized biased-erasure qubit in vacuum and two-photon Fock states of a single 3D superconducting microwave cavity. Achieves erasure bias ratio of ~265, converting 99.3% of leakage events into detected erasures, with coherence gain ~6.0x beyond break-even.",
+      "url": "https://arxiv.org/abs/2601.21616",
+      "date": "2026-01-30"
+    },
+    {
+      "id": "RAW-WF2-013",
+      "arxiv_id": "2601.02183",
+      "title": "Developments in superconducting erasure qubits for hardware-efficient quantum error correction",
+      "title_ko": "초전도 소거 큐비트의 발전: 하드웨어 효율적 양자 오류 정정의 새 지평",
+      "authors": "Not specified in search results",
+      "categories": ["quant-ph"],
+      "abstract_summary": "Perspective on dual-rail encoded erasure qubits using superconducting qubits. Erasure qubits provide explicit error location information enabling quantum codes to tolerate much higher physical error rates than standard Pauli-noise settings.",
+      "url": "https://arxiv.org/abs/2601.02183",
+      "date": "2026-01-05"
+    },
+    {
+      "id": "RAW-WF2-014",
+      "arxiv_id": "2602.02740",
+      "title": "Framing Responsible Design of AI Mental Well-Being Support: AI as Primary Care, Nutritional Supplement, or Yoga Instructor?",
+      "title_ko": "AI 정신건강 지원의 책임 있는 설계: 주치의, 영양제, 요가 강사로서의 AI",
+      "authors": "Not specified in search results",
+      "categories": ["cs.HC", "cs.AI", "cs.CY"],
+      "abstract_summary": "CHI 2026 paper investigating responsible design of LLM tools used by millions for mental well-being. Interviews 18 experts across responsible AI, digital therapeutics, and health policy. Proposes framework distinguishing guarantee levels of well-being benefits.",
+      "url": "https://arxiv.org/abs/2602.02740",
+      "date": "2026-02-04"
+    },
+    {
+      "id": "RAW-WF2-015",
+      "arxiv_id": "2601.22487",
+      "title": "Coordinating Power Grid Frequency Regulation Service with Data Center Load Flexibility",
+      "title_ko": "데이터 센터 부하 유연성과 전력망 주파수 조절 서비스의 협조적 최적화",
+      "authors": "Not specified in search results",
+      "categories": ["eess.SP", "cs.AI", "physics.soc-ph"],
+      "abstract_summary": "Proposes EcoCenter framework enabling GPU data centers to coordinate with power grids, reducing need for fossil-fueled frequency regulation reserves. Addresses how AI/ML data center growth destabilizes power grids relying on renewable energy.",
+      "url": "https://arxiv.org/abs/2601.22487",
+      "date": "2026-01-30"
+    },
+    {
+      "id": "RAW-WF2-016",
+      "arxiv_id": "2602.01013",
+      "title": "Mitigating Data Centers Load Risks and Enabling Grid Support Functions through Grid-Forming Control",
+      "title_ko": "그리드 형성 제어를 통한 데이터 센터 부하 위험 완화 및 전력망 지원 기능 구현",
+      "authors": "Not specified in search results",
+      "categories": ["eess.SP", "cs.DC", "physics.soc-ph"],
+      "abstract_summary": "Presents integrated architecture combining Battery Energy Storage Systems within data centers using Grid-Forming inverters to provide active grid-support functions, enabling data centers to transition from passive loads to grid-interactive assets.",
+      "url": "https://arxiv.org/abs/2602.01013",
+      "date": "2026-02-02"
+    },
+    {
+      "id": "RAW-WF2-017",
+      "arxiv_id": "2601.08000",
+      "title": "Reasoning over Precedents Alongside Statutes: Case-Augmented Deliberative Alignment for LLM Safety",
+      "title_ko": "판례와 법률의 결합 추론: 사례 기반 심의적 LLM 안전 정렬",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.CL"],
+      "abstract_summary": "Proposes CADA, a case-augmented deliberative alignment method using reinforcement learning on self-generated safety reasoning chains. Addresses how to ensure LLMs adhere to safety principles without refusing benign requests.",
+      "url": "https://arxiv.org/abs/2601.08000",
+      "date": "2026-01-12"
+    },
+    {
+      "id": "RAW-WF2-018",
+      "arxiv_id": "2602.01698",
+      "title": "Restoring Exploration after Post-Training: Latent Exploration Decoding for Large Reasoning Models",
+      "title_ko": "후처리 학습 후 탐색 복원: 대규모 추론 모델을 위한 잠재 탐색 디코딩",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.LG", "cs.CL"],
+      "abstract_summary": "Addresses how Large Reasoning Models lose exploration capability after RL-based post-training. Proposes latent exploration decoding to restore diverse reasoning paths while maintaining the benefits of post-training alignment.",
+      "url": "https://arxiv.org/abs/2602.01698",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "RAW-WF2-019",
+      "arxiv_id": "2601.17275",
+      "title": "Latent-Space Contrastive Reinforcement Learning for Stable and Efficient LLM Reasoning",
+      "title_ko": "안정적이고 효율적인 LLM 추론을 위한 잠재 공간 대조적 강화학습",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.LG", "cs.CL"],
+      "abstract_summary": "Proposes DeepLatent Reasoning (DLR), shifting trial-and-error from expensive token-level generation to continuous latent manifold. Achieves more stable and efficient RL-based reasoning training compared to standard approaches.",
+      "url": "https://arxiv.org/abs/2601.17275",
+      "date": "2026-01-28"
+    },
+    {
+      "id": "RAW-WF2-020",
+      "arxiv_id": "2602.01791",
+      "title": "Grad2Reward: From Sparse Judgment to Dense Rewards for Improving Open-Ended LLM Reasoning",
+      "title_ko": "Grad2Reward: 희소 판단에서 밀집 보상으로 - 개방형 LLM 추론 개선",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.CL", "cs.LG"],
+      "abstract_summary": "Extends RLVR to open-ended tasks by transforming sparse sequence-level LLM-as-a-Judge rewards into dense token-level signals. Addresses the sparsity problem that limits RL effectiveness in non-verifiable reasoning domains.",
+      "url": "https://arxiv.org/abs/2602.01791",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "RAW-WF2-021",
+      "arxiv_id": "2601.03382",
+      "title": "A Novel Unified Approach to Deepfake Detection",
+      "title_ko": "딥페이크 탐지의 새로운 통합 접근법",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CV", "cs.AI", "cs.CR"],
+      "abstract_summary": "Proposes a unified deepfake detection framework that generalizes across image, video, and audio modalities. Addresses growing threats of synthetic media in politically sensitive contexts.",
+      "url": "https://arxiv.org/abs/2601.03382",
+      "date": "2026-01-07"
+    },
+    {
+      "id": "RAW-WF2-022",
+      "arxiv_id": "2602.00295",
+      "title": "Multi-Speaker Conversational Audio Deepfake: Taxonomy, Dataset and Pilot Study",
+      "title_ko": "다화자 대화형 오디오 딥페이크: 분류 체계, 데이터셋, 파일럿 연구",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CV", "cs.AI", "eess.SP"],
+      "abstract_summary": "Introduces taxonomy and dataset for multi-speaker conversational audio deepfakes, extending deepfake detection beyond single-speaker scenarios to realistic multi-party conversation settings.",
+      "url": "https://arxiv.org/abs/2602.00295",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "RAW-WF2-023",
+      "arxiv_id": "2502.01534",
+      "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge",
+      "title_ko": "선호도 누출: LLM 심사관의 오염 문제",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.CL", "cs.LG"],
+      "abstract_summary": "Exposes preference leakage in LLM-as-a-judge caused by relatedness between data generators and evaluators. Confirms bias of judges towards related student models across multiple baselines through experiments on three relatedness types: same model, inheritance, same family.",
+      "url": "https://arxiv.org/abs/2502.01534",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "RAW-WF2-024",
+      "arxiv_id": "2601.08869",
+      "title": "AI Deployment Authorisation: A Global Standard for Machine-Readable Governance of High-Risk Artificial Intelligence",
+      "title_ko": "AI 배치 인가: 고위험 AI의 기계 판독 가능한 거버넌스를 위한 글로벌 표준",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CY", "cs.AI"],
+      "abstract_summary": "Proposes a formal, enforceable mechanism for determining whether a given AI system is legally permitted to operate in a specific domain and jurisdiction. Addresses the gap in modern AI governance for machine-readable deployment authorization.",
+      "url": "https://arxiv.org/abs/2601.08869",
+      "date": "2026-01-15"
+    },
+    {
+      "id": "RAW-WF2-025",
+      "arxiv_id": "2602.00497",
+      "title": "Culturally-Grounded Governance for Multilingual Language Models: Rights, Data Boundaries, and Accountable AI Design",
+      "title_ko": "다국어 언어 모델을 위한 문화 기반 거버넌스: 권리, 데이터 경계, 책임 있는 AI 설계",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CY", "cs.CL", "cs.AI"],
+      "abstract_summary": "Synthesizes evidence on multilingual model behavior, data asymmetries, and sociotechnical harm. Articulates a culturally grounded governance framework for multilingual LLMs addressing linguistic equity and cultural representation.",
+      "url": "https://arxiv.org/abs/2602.00497",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "RAW-WF2-026",
+      "arxiv_id": "2601.11134",
+      "title": "FSL-BDP: Federated Survival Learning with Bayesian Differential Privacy for Credit Risk Modeling",
+      "title_ko": "FSL-BDP: 신용 위험 모델링을 위한 베이지안 차등 프라이버시 연합 생존 학습",
+      "authors": "Not specified in search results",
+      "categories": ["q-fin.RM", "cs.CR", "cs.LG", "stat.AP"],
+      "abstract_summary": "Framework providing Bayesian (data-dependent) differential privacy guarantees while enabling financial institutions to jointly learn credit risk dynamics through federated learning without sharing sensitive data.",
+      "url": "https://arxiv.org/abs/2601.11134",
+      "date": "2026-01-19"
+    },
+    {
+      "id": "RAW-WF2-027",
+      "arxiv_id": "2601.16218",
+      "title": "M3Kang: Evaluating Multilingual Multimodal Mathematical Reasoning in Vision-Language Models",
+      "title_ko": "M3Kang: 비전-언어 모델의 다국어 멀티모달 수학 추론 평가",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CV", "cs.CL", "cs.AI"],
+      "abstract_summary": "Introduces M3Kang, the first massively multilingual multimodal mathematical reasoning dataset. Reveals significant performance gaps in VLM mathematical reasoning across languages beyond English.",
+      "url": "https://arxiv.org/abs/2601.16218",
+      "date": "2026-01-27"
+    },
+    {
+      "id": "RAW-WF2-028",
+      "arxiv_id": "2601.11421",
+      "title": "The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents",
+      "title_ko": "그레이트 마치 100: 체화 AI 에이전트 평가를 위한 100개의 세밀한 과제",
+      "authors": "Not specified in search results",
+      "categories": ["cs.RO", "cs.AI", "cs.CV"],
+      "abstract_summary": "Presents GM-100, a benchmark of 100 carefully designed tasks covering wide range of interactions and long-tail behaviors for comprehensive evaluation of robotic agents and promoting diversity in robot dataset task designs.",
+      "url": "https://arxiv.org/abs/2601.11421",
+      "date": "2026-01-20"
+    },
+    {
+      "id": "RAW-WF2-029",
+      "arxiv_id": "2601.15488",
+      "title": "Multi-Persona Thinking for Bias Mitigation in Large Language Models",
+      "title_ko": "다중 페르소나 사고를 통한 대규모 언어 모델의 편향 완화",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.CL", "cs.CY"],
+      "abstract_summary": "Proposes Multi-Persona Thinking (MPT), a novel inference-time framework leveraging dialectical reasoning from multiple perspectives to reduce bias in LLM outputs without retraining.",
+      "url": "https://arxiv.org/abs/2601.15488",
+      "date": "2026-01-26"
+    },
+    {
+      "id": "RAW-WF2-030",
+      "arxiv_id": "2602.01587",
+      "title": "Provable Defense Framework for LLM Jailbreaks via Noise-Augmented Alignment",
+      "title_ko": "노이즈 증강 정렬을 통한 LLM 탈옥 방어의 입증 가능한 프레임워크",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CR", "cs.AI", "cs.CL"],
+      "abstract_summary": "Proposes a defense framework with provable guarantees against LLM jailbreak attacks through noise-augmented alignment, providing theoretical bounds on defense effectiveness.",
+      "url": "https://arxiv.org/abs/2602.01587",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "RAW-WF2-031",
+      "arxiv_id": "2602.03767",
+      "title": "Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon",
+      "title_ko": "의사결정 지향 벤치마킹으로 AI 기상예보 접근성 혁신: 인도 몬순 적용 사례",
+      "authors": "Not specified in search results",
+      "categories": ["physics.ao-ph", "cs.AI"],
+      "abstract_summary": "AIWP models now often outperform physics-based models requiring orders-of-magnitude less computing. Framework informed 2025 government effort sending 38 million Indian farmers AI-based monsoon onset forecasts, capturing unusual weeks-long monsoon pause.",
+      "url": "https://arxiv.org/abs/2602.03767",
+      "date": "2026-02-05"
+    },
+    {
+      "id": "RAW-WF2-032",
+      "arxiv_id": "2601.04891",
+      "title": "Scaling Vision Language Models for Pharmaceutical Long Form Video Reasoning on Industrial GenAI Platform",
+      "title_ko": "산업용 GenAI 플랫폼에서의 제약 장시간 동영상 추론을 위한 비전-언어 모델 스케일링",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CV", "cs.AI", "cs.CL"],
+      "abstract_summary": "Scales vision language models for pharmaceutical video reasoning on industrial platforms, addressing practical challenges of applying multimodal AI to drug manufacturing quality control and compliance.",
+      "url": "https://arxiv.org/abs/2601.04891",
+      "date": "2026-01-09"
+    },
+    {
+      "id": "RAW-WF2-033",
+      "arxiv_id": "2601.08878",
+      "title": "AI Systems in Text-Based Online Counselling: Ethical Considerations Across Three Implementation Approaches",
+      "title_ko": "텍스트 기반 온라인 상담 AI 시스템: 세 가지 구현 방식의 윤리적 고찰",
+      "authors": "Not specified in search results",
+      "categories": ["cs.HC", "cs.AI", "cs.CY"],
+      "abstract_summary": "Analyzes three AI implementation approaches in counselling: autonomous bots, AI training simulators, and counsellor-facing augmentation tools. Identifies four ethical principles: privacy, fairness, autonomy, and accountability.",
+      "url": "https://arxiv.org/abs/2601.08878",
+      "date": "2026-01-15"
+    },
+    {
+      "id": "RAW-WF2-034",
+      "arxiv_id": "2601.10543",
+      "title": "Defending Large Language Models Against Jailbreak Attacks via In-Decoding Safety-Awareness Probing",
+      "title_ko": "디코딩 중 안전 인식 탐침을 통한 대규모 언어 모델의 탈옥 공격 방어",
+      "authors": "Not specified in search results",
+      "categories": ["cs.CR", "cs.AI", "cs.CL"],
+      "abstract_summary": "Demonstrates that probing safety awareness during decoding is substantially more effective than probing only after full completion. Proposes in-decoding safety-awareness probing for real-time jailbreak defense.",
+      "url": "https://arxiv.org/abs/2601.10543",
+      "date": "2026-01-17"
+    },
+    {
+      "id": "RAW-WF2-035",
+      "arxiv_id": "2601.13658",
+      "title": "Beyond Known Facts: Generating Unseen Temporal Knowledge to Address Data Contamination in LLM Evaluation",
+      "title_ko": "알려진 사실 너머: LLM 평가의 데이터 오염 해결을 위한 미지의 시간적 지식 생성",
+      "authors": "Not specified in search results",
+      "categories": ["cs.AI", "cs.CL", "cs.LG"],
+      "abstract_summary": "Introduces YAGO 2026 dataset as long-term contamination-resistant benchmark for evaluating LLM-based temporal knowledge graph embedding systems. Forecasts unseen future temporal facts using learned temporal rules.",
+      "url": "https://arxiv.org/abs/2601.13658",
+      "date": "2026-01-23"
+    }
+  ]
+}

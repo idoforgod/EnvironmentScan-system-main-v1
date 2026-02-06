@@ -323,13 +323,30 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         f"arXiv not found as enabled in WF2 (found: {wf2_enabled})" if not arxiv_in_wf2 else ""
     ))
 
-    # ── SOT-012: No source overlap ──
-    overlap = set(wf1_enabled) & set(wf2_enabled)
+    # ── SOT-012: No source overlap between any workflow pair ──
+    # Generalized: check all enabled workflow pairs for source overlap
+    all_wf_sources = {}
+    for wf_id, wf in workflows.items():
+        if wf.get("enabled", False):
+            src_cfg = wf.get("sources_config", "")
+            all_wf_sources[wf_id] = set(_get_enabled_sources(project_root, src_cfg))
+
+    overlap_found = False
+    overlap_details = []
+    wf_ids = sorted(all_wf_sources.keys())
+    for i in range(len(wf_ids)):
+        for j in range(i + 1, len(wf_ids)):
+            pair_overlap = all_wf_sources[wf_ids[i]] & all_wf_sources[wf_ids[j]]
+            if pair_overlap:
+                overlap_found = True
+                overlap_details.append(
+                    f"{wf_ids[i]}↔{wf_ids[j]}: {pair_overlap}"
+                )
     vr.results.append(CheckResult(
         "SOT-012", "HALT",
-        "No enabled source overlap between WF1 and WF2",
-        len(overlap) == 0,
-        f"Overlapping sources: {overlap}" if overlap else ""
+        "No enabled source overlap between any workflow pair",
+        not overlap_found,
+        "; ".join(overlap_details) if overlap_details else ""
     ))
 
     # ── SOT-013: Merger agent exists ──
@@ -425,6 +442,30 @@ def validate_registry(registry_path: str) -> RegistryValidation:
             "Weekly validate_profile is defined",
             bool(weekly_profile),
             "Missing validate_profile in integration.weekly" if not weekly_profile else ""
+        ))
+
+    # ── SOT-020: WF3 Naver source exclusive (conditional) ──
+    wf3_cfg = workflows.get("wf3-naver", {})
+    if wf3_cfg.get("enabled", False):
+        wf3_src = wf3_cfg.get("sources_config", "")
+        wf3_enabled = _get_enabled_sources(project_root, wf3_src) if wf3_src else []
+        naver_in_wf3 = "NaverNews" in wf3_enabled
+        vr.results.append(CheckResult(
+            "SOT-020", "HALT",
+            "NaverNews source is enabled in WF3 sources config",
+            naver_in_wf3,
+            f"NaverNews not found as enabled in WF3 (found: {wf3_enabled})" if not naver_in_wf3 else ""
+        ))
+
+    # ── SOT-021: WF3 orchestrator exists (conditional) ──
+    if wf3_cfg.get("enabled", False):
+        wf3_orch = wf3_cfg.get("orchestrator", "")
+        wf3_orch_exists = _file_exists(project_root, wf3_orch) if wf3_orch else False
+        vr.results.append(CheckResult(
+            "SOT-021", "HALT",
+            "WF3 orchestrator file exists",
+            wf3_orch_exists,
+            f"Missing: {wf3_orch}" if not wf3_orch_exists else ""
         ))
 
     return vr

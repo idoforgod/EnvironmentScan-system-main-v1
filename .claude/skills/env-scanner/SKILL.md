@@ -1,27 +1,27 @@
 ---
 name: env-scanner
-description: Dual Workflow Environmental Scanning System — WF1 (general multi-source) + WF2 (arXiv academic deep scan) with integrated report. Use when the user wants to (1) run daily environmental scanning, (2) check scanning workflow status, (3) review or approve scanning results, or (4) manage the signals database.
+description: Triple Workflow Environmental Scanning System — WF1 (general multi-source) + WF2 (arXiv academic deep scan) + WF3 (Naver News with FSSF/Tipping Point) with integrated report. Use when the user wants to (1) run daily environmental scanning, (2) check scanning workflow status, (3) review or approve scanning results, or (4) manage the signals database.
 agent: master-orchestrator
 ---
 
 # Environmental Scanner Skill
 
 ## Description
-Dual Workflow Environmental Scanning System for detecting weak signals of future changes across STEEPs domains (Social, Technological, Economic, Environmental, Political, spiritual). Operates two completely independent workflows — WF1 (general multi-source) and WF2 (arXiv academic deep scan) — each producing independently complete reports, which are then merged into a unified integrated report.
+Triple Workflow Environmental Scanning System for detecting weak signals of future changes across STEEPs domains (Social, Technological, Economic, Environmental, Political, spiritual). Operates three completely independent workflows — WF1 (general multi-source), WF2 (arXiv academic deep scan), and WF3 (Naver News with FSSF classification, Three Horizons tagging, and Tipping Point detection) — each producing independently complete reports, which are then merged into a unified integrated report.
 
 ## Purpose
-Enable systematic daily scanning of global information sources to catch early signals of trends, paradigm shifts, and emerging futures "AS FAST AS POSSIBLE" across Korea, Asia, Europe, Africa, and Americas — from both mainstream sources and academic research.
+Enable systematic daily scanning of global information sources to catch early signals of trends, paradigm shifts, and emerging futures "AS FAST AS POSSIBLE" across Korea, Asia, Europe, Africa, and Americas — from mainstream sources, academic research, and Korean media.
 
 ---
 
 ## Architecture
 
-### Dual Workflow System
+### Triple Workflow System
 
 ```
 ┌─────────────────────────────────────────────────┐
 │  Master Orchestrator                             │
-│    SOT: workflow-registry.yaml (13 checks)       │
+│    SOT: workflow-registry.yaml (23 checks)       │
 ├─────────────────────────────────────────────────┤
 │  WF1: General Environmental Scanning             │
 │    Sources: 20+ (patents, policy, blogs, etc.)   │
@@ -33,14 +33,19 @@ Enable systematic daily scanning of global information sources to catch early si
 │    Parameters: 14 days, 50/category              │
 │    Checkpoints: 2 (Step 2.5, Step 3.4)          │
 ├─────────────────────────────────────────────────┤
+│  WF3: Naver News Environmental Scanning          │
+│    Sources: NaverNews ONLY (6 sections)          │
+│    FSSF 8-type + Three Horizons + Tipping Point  │
+│    Checkpoints: 2 (Step 2.5, Step 3.4)          │
+├─────────────────────────────────────────────────┤
 │  Integration: Report Merger                      │
-│    Merge: pSST unified ranking (top 15)          │
-│    Cross-workflow analysis                        │
+│    Merge: pSST unified ranking (top 20)          │
+│    Cross-workflow analysis (WF1↔WF2↔WF3)        │
 │    Checkpoint: 1 (final approval)                │
 └─────────────────────────────────────────────────┘
 ```
 
-**Independence**: WF1 and WF2 are completely independent — separate data directories, separate signal databases, no runtime data sharing. Either can be disabled or run standalone without affecting the other.
+**Independence**: WF1, WF2, and WF3 are completely independent — separate data directories, separate signal databases, no runtime data sharing. Any can be disabled or run standalone without affecting the others.
 
 **Source of Truth**: `env-scanning/config/workflow-registry.yaml` — single authoritative definition validated at startup.
 
@@ -54,6 +59,7 @@ This skill provides the following slash commands:
 - `/run-daily-scan --base-only` - WF1 base sources only + WF2 + Integration
 - `/run-daily-scan --arxiv-only` - WF2 only (standalone arXiv scan)
 - `/run-arxiv-scan` - WF2 standalone (alias for --arxiv-only)
+- `/run-naver-scan` - WF3 standalone (Naver News with FSSF/Tipping Point)
 - `/run-weekly-scan` - Execute weekly meta-analysis (no new scanning, analyzes last 7 days)
 - `/status` - Check current workflow progress
 - `/review-filter` - Review duplicate filtering results (Step 1.4)
@@ -67,7 +73,7 @@ This skill provides the following slash commands:
 
 ## Workflow Overview
 
-### Execution Flow: WF1 → WF2 → Integration
+### Execution Flow: WF1 → WF2 → WF3 → Integration
 
 Each workflow (WF1, WF2) follows the same 3-phase structure:
 
@@ -116,13 +122,17 @@ Each workflow (WF1, WF2) follows the same 3-phase structure:
 
 ### Execution Modes
 
-**Full Dual Scan** (default): WF1 marathon → WF2 arXiv deep → Integrated report
-- 5 human checkpoints, top 15 signals in integrated report
-- WF1 scans 20+ sources; WF2 scans arXiv with 30+ categories
+**Full Triple Scan** (default): WF1 marathon → WF2 arXiv deep → WF3 Naver News → Integrated report
+- 7 human checkpoints, top 20 signals in integrated report
+- WF1 scans 20+ sources; WF2 scans arXiv 30+ categories; WF3 crawls Naver 6 sections
 
 **arXiv Standalone**: WF2 only, produces independent arXiv academic report
 - 2 human checkpoints, no integration
 - Use when you need academic-focused signals only
+
+**Naver Standalone**: WF3 only, produces independent Naver report with FSSF/Tipping Point
+- 2 human checkpoints, no integration
+- Use when you need Korean mainstream media signals only
 
 ### Advanced Usage
 
@@ -151,6 +161,7 @@ Each workflow (WF1, WF2) follows the same 3-phase structure:
 ### Workflow-Specific Configs
 - `env-scanning/config/sources.yaml` - WF1 data sources (arXiv disabled)
 - `env-scanning/config/sources-arxiv.yaml` - WF2 data sources (arXiv only, extended)
+- `env-scanning/config/sources-naver.yaml` - WF3 data sources (NaverNews only, crawl)
 
 ---
 
@@ -165,6 +176,13 @@ Each workflow (WF1, WF2) follows the same 3-phase structure:
 - Report: `reports/daily/environmental-scan-{date}.md`
 - Database: `signals/database.json`
 - Archive: `reports/archive/{year}/{month}/`
+
+### WF3 (Naver News) — `env-scanning/wf3-naver/`
+- Report: `reports/daily/environmental-scan-{date}.md`
+- Database: `signals/database.json`
+- Archive: `reports/archive/{year}/{month}/`
+- Alerts: `logs/alerts-{date}.json`
+- Tipping Points: `analysis/tipping-point-indicators-{date}.json`
 
 ### Integrated — `env-scanning/integrated/`
 - Report: `reports/daily/integrated-scan-{date}.md`
@@ -315,12 +333,12 @@ See `references/` directory for:
 ---
 
 ## Version
-- **Skill Version**: 2.0.0 (Dual Workflow System)
+- **Skill Version**: 3.0.0 (Triple Workflow System)
 - **Compatible with**: Claude Code v1.0+
-- **System Version**: 1.0.0 (Dual Workflow + SOT + Integration)
-- **Sources Version**: 4.0.0 (arXiv transferred to WF2)
+- **System Version**: 2.0.0 (Triple Workflow + SOT + Integration)
+- **Sources Version**: 5.0.0 (arXiv → WF2, NaverNews → WF3)
 - **Protocol Version**: 2.2.0 (VEV + Pipeline Gates)
-- **Last Updated**: 2026-02-03
+- **Last Updated**: 2026-02-06
 
 ---
 

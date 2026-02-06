@@ -12,6 +12,7 @@ from .database_recovery import restore_from_snapshot, restore_latest, list_snaps
 from .source_health_checker import SourceHealthChecker
 from .redirect_resolver import RedirectResolver
 from .adaptive_fetcher import AdaptiveFetcher
+from .naver_crawler import NaverNewsCrawler, CrawlDefender
 
 __all__ = [
     'SharedContextManager',
@@ -26,4 +27,6 @@ __all__ = [
     'SourceHealthChecker',
     'RedirectResolver',
     'AdaptiveFetcher',
+    'NaverNewsCrawler',
+    'CrawlDefender',
 ]

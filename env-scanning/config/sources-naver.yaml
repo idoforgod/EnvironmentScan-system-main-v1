@@ -1,0 +1,79 @@
+# WF3 Exclusive: Naver News Environmental Scanning Source Configuration
+# Version: 1.0.0
+# Last Updated: 2026-02-06
+#
+# This file is used ONLY by WF3 (Naver News dedicated workflow).
+# It contains a single source: NaverNews, with crawling-specific parameters.
+#
+# Key Differences from WF1/WF2:
+#   - Source type: "crawl" (not API or RSS)
+#   - Requires anti-block-crawler skill
+#   - 6 Naver news sections (정치/경제/사회/생활문화/세계/IT과학)
+#   - critical: true (NaverNews is the sole source; crawl failure halts WF3)
+
+sources:
+  - name: "NaverNews"
+    tier: "base"
+    type: "crawl"
+    enabled: true
+    base_url: "https://news.naver.com/section/"
+    rate_limit: 30  # requests per minute (conservative for anti-block)
+    timeout: 15  # seconds per request
+    critical: true  # Sole source — failure halts WF3
+    description: "Naver News full crawling — dedicated WF3 source"
+    reliability: "high"
+    cost: "free"
+
+    # Naver News section IDs
+    sections:
+      정치: 100
+      경제: 101
+      사회: 102
+      생활문화: 103
+      세계: 104
+      IT과학: 105
+
+    # Crawling parameters
+    crawl_config:
+      min_delay: 2.0        # seconds between requests
+      max_delay: 5.0
+      section_delay: 5.0    # seconds between sections
+      max_retries: 10       # per URL
+      fetch_content: true   # fetch full article body
+      content_selectors:
+        article_list: "li.sa_item, div.news_area"
+        title: "a.sa_text_title, a.news_tit"
+        press: ".sa_text_press, .info_group .press"
+        time: ".sa_text_datetime, .info_group span"
+        content: "#dic_area, #newsct_article, article"
+
+    # Anti-block configuration reference
+    anti_block:
+      skill: "anti-block-crawler"
+      strategy_cascade:
+        - "default"
+        - "httpx_async"
+        - "rotate_headers"
+        - "delay_increase"
+        - "proxy_rotation"
+        - "session_reset"
+        - "browser_emulation"
+
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+# Retry Configuration
+retry_policy:
+  max_attempts: 10  # Higher than WF1/WF2 due to crawling nature
+  backoff_strategy: "exponential"
+  timeout_increase: true
+
+# Error Handling
+error_handling:
+  on_critical_failure: "halt_workflow"
+  on_non_critical_failure: "skip_and_continue"
+  log_errors: true
+  notify_on_failure: false

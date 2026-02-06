@@ -1,11 +1,11 @@
 # ================================================================
 # WORKFLOW REGISTRY — Source of Truth (SOT)
 # ================================================================
-# Version: 1.0.0
-# Last Updated: 2026-02-03
+# Version: 2.0.0
+# Last Updated: 2026-02-06
 #
 # This file is the SINGLE authoritative definition of the
-# Dual Environmental Scanning System.
+# Triple Environmental Scanning System.
 #
 # RULES:
 #   1. master-orchestrator MUST read this file at startup
@@ -16,21 +16,22 @@
 #   6. Validation failure with severity HALT stops the workflow entirely
 #
 # INDEPENDENCE GUARANTEE:
-#   - WF1 does not know WF2 exists
-#   - WF2 does not know WF1 exists
-#   - Either can be deleted without affecting the other
-#   - Neither reads nor writes the other's data during execution
+#   - WF1 does not know WF2 or WF3 exists
+#   - WF2 does not know WF1 or WF3 exists
+#   - WF3 does not know WF1 or WF2 exists
+#   - Any workflow can be deleted without affecting the others
+#   - No workflow reads or writes another's data during execution
 #   - Each produces a complete, independently valid final report
 # ================================================================
 
 system:
-  name: "Dual Environmental Scanning System"
-  version: "1.0.0"
+  name: "Triple Environmental Scanning System"
+  version: "2.0.0"
   created: "2026-02-03"
 
   # ── Execution Mode ──
   execution:
-    mode: "sequential"  # wf1 completes → wf2 completes → merge
+    mode: "sequential"  # wf1 completes → wf2 completes → wf3 completes → merge
     master_orchestrator: ".claude/agents/master-orchestrator.md"
     protocol: ".claude/agents/protocols/orchestrator-protocol.md"
 
@@ -75,12 +76,14 @@ system:
   # Modifying shared configs requires MAJOR change approval from user.
 
   # ── Total Human Checkpoints ──
-  checkpoints_total: 5
+  checkpoints_total: 7
   checkpoints_detail:
     wf1_analysis_review: "required"   # WF1 Step 2.5
     wf1_report_approval: "required"   # WF1 Step 3.4
     wf2_analysis_review: "required"   # WF2 Step 2.5
     wf2_report_approval: "required"   # WF2 Step 3.4
+    wf3_analysis_review: "required"   # WF3 Step 2.5
+    wf3_report_approval: "required"   # WF3 Step 3.4
     integrated_approval: "required"   # Integrated report final approval
 
 # ================================================================
@@ -170,6 +173,48 @@ workflows:
 
     validate_profile: "standard"
 
+  # ────────────────────────────────────────────
+  # WF3: Naver News Environmental Scanning
+  # ────────────────────────────────────────────
+  wf3-naver:
+    name: "Naver News Environmental Scanning"
+    name_ko: "네이버 뉴스 환경스캐닝"
+    description: "Naver News crawling with FSSF classification, Three Horizons tagging, and Tipping Point detection"
+    enabled: true
+    execution_order: 3
+
+    orchestrator: ".claude/agents/naver-scan-orchestrator.md"
+    sources_config: "env-scanning/config/sources-naver.yaml"
+    exclusive_sources: ["NaverNews"]  # This workflow scans ONLY Naver News
+
+    data_root: "env-scanning/wf3-naver"
+    paths:
+      raw: "raw/"
+      structured: "structured/"
+      filtered: "filtered/"
+      analysis: "analysis/"
+      signals_db: "signals/database.json"
+      signals_snapshots: "signals/snapshots/"
+      reports_daily: "reports/daily/"
+      reports_archive: "reports/archive/"
+      context: "context/"
+      logs: "logs/"
+      health: "health/"
+
+    parameters:
+      fssf_classification: true       # FSSF 8-type signal taxonomy
+      three_horizons_tagging: true    # H1/H2/H3 time horizon classification
+      tipping_point_detection: true   # Critical Slowing Down, Flickering detection
+      anomaly_detection: true         # Statistical + Structural anomaly detection
+      marathon_mode: false            # Single source, marathon not needed
+
+    checkpoints:
+      step_1_4: "optional"
+      step_2_5: "required"
+      step_3_4: "required"
+
+    validate_profile: "naver"
+
 # ================================================================
 # INTEGRATION DEFINITION
 # ================================================================
@@ -189,12 +234,12 @@ integration:
   merge_scope: "reports_only"
 
   merge_strategy:
-    # No source overlap between WF1 and WF2, so no signal dedup needed at merge.
-    # Merger combines signals from both reports and re-ranks by pSST.
+    # No source overlap between WF1, WF2, and WF3, so no signal dedup needed at merge.
+    # Merger combines signals from all three reports and re-ranks by pSST.
     signal_dedup: false
     ranking_method: "pSST_unified"
-    integrated_top_signals: 15
-    cross_workflow_analysis: true  # Analyze WF1↔WF2 signal interactions
+    integrated_top_signals: 20
+    cross_workflow_analysis: true  # Analyze WF1↔WF2↔WF3 signal interactions
 
   integrated_skeleton: ".claude/skills/env-scanner/references/integrated-report-skeleton.md"
   validate_profile: "integrated"
@@ -222,16 +267,20 @@ integration:
     inputs:
       wf1_reports: "wf1-general/reports/daily/"
       wf2_reports: "wf2-arxiv/reports/daily/"
+      wf3_reports: "wf3-naver/reports/daily/"
       integrated_reports: "integrated/reports/daily/"
       wf1_signals_db: "wf1-general/signals/database.json"
       wf2_signals_db: "wf2-arxiv/signals/database.json"
+      wf3_signals_db: "wf3-naver/signals/database.json"
       wf1_ranked: "wf1-general/analysis/"
       wf2_ranked: "wf2-arxiv/analysis/"
+      wf3_ranked: "wf3-naver/analysis/"
       integrated_rankings: "integrated/"
 
     access_policy:
       wf1_data: "READ_ONLY"
       wf2_data: "READ_ONLY"
+      wf3_data: "READ_ONLY"
       integrated_daily: "READ_ONLY"
       weekly_output: "READ_WRITE"
 
@@ -375,6 +424,30 @@ startup_validation:
       description: "Weekly validate_profile must be defined in integration.weekly"
       severity: "HALT"
       condition: "integration.weekly.enabled == true"
+
+    - id: "SOT-020"
+      check: "wf3_naver_source_exclusive"
+      description: "NaverNews source must be enabled in WF3 sources config"
+      severity: "HALT"
+      condition: "workflows.wf3-naver.enabled == true"
+
+    - id: "SOT-021"
+      check: "wf3_orchestrator_exists"
+      description: "WF3 orchestrator file must exist"
+      severity: "HALT"
+      condition: "workflows.wf3-naver.enabled == true"
+
+    - id: "SOT-022"
+      check: "wf3_data_root_exists"
+      description: "WF3 data_root directory exists (create subdirs if missing)"
+      severity: "CREATE"
+      condition: "workflows.wf3-naver.enabled == true"
+
+    - id: "SOT-023"
+      check: "wf3_sources_config_exists"
+      description: "WF3 sources_config file must exist"
+      severity: "HALT"
+      condition: "workflows.wf3-naver.enabled == true"
 
 # ================================================================
 # EXECUTION INTEGRITY (v1.0.0)

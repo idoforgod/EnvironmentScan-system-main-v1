@@ -13,6 +13,16 @@ from .source_health_checker import SourceHealthChecker
 from .redirect_resolver import RedirectResolver
 from .adaptive_fetcher import AdaptiveFetcher
 from .naver_crawler import NaverNewsCrawler, CrawlDefender
+from .naver_signal_processor import (
+    compute_fssf_hints,
+    suggest_horizon,
+    detect_tipping_points,
+    detect_anomalies,
+    evaluate_alert_triggers,
+    FSSFHints,
+    TippingPointResult,
+    AnomalyResult,
+)
 
 __all__ = [
     'SharedContextManager',
@@ -29,4 +39,12 @@ __all__ = [
     'AdaptiveFetcher',
     'NaverNewsCrawler',
     'CrawlDefender',
+    'compute_fssf_hints',
+    'suggest_horizon',
+    'detect_tipping_points',
+    'detect_anomalies',
+    'evaluate_alert_triggers',
+    'FSSFHints',
+    'TippingPointResult',
+    'AnomalyResult',
 ]

@@ -83,23 +83,60 @@ class Article:
     press: str
     pub_time: str
     section: str
+    section_id: int = 0
     content: str = ""
     content_hash: str = ""
     crawled_at: str = ""
     word_count: int = 0
 
-    def to_dict(self) -> dict:
+    def to_standard_signal(self, idx: int, scan_date: str) -> dict:
+        """Convert to standard signal format compatible with shared workers.
+
+        Matches the WF1/WF2 raw signal schema:
+        - id, title, source (object), content (object),
+          preliminary_category, collected_at
+        """
+        abstract = self.content[:300] if self.content else self.title
         return {
+            "id": f"naver-{scan_date.replace('-', '')}-{self.section_id}-{idx:03d}",
             "title": self.title,
-            "url": self.url,
-            "press": self.press,
-            "pub_time": self.pub_time,
-            "section": self.section,
-            "content": self.content,
-            "content_hash": self.content_hash,
-            "crawled_at": self.crawled_at,
-            "word_count": self.word_count,
+            "source": {
+                "name": "NaverNews",
+                "type": "news",
+                "url": self.url,
+                "published_date": scan_date,
+                "section": self.section,
+                "section_id": self.section_id,
+                "press": self.press,
+            },
+            "content": {
+                "abstract": abstract,
+                "full_text": self.content,
+                "keywords": [],
+                "language": "ko",
+            },
+            "preliminary_category": SECTION_TO_STEEPS.get(self.section_id, "S"),
+            "collected_at": self.crawled_at,
+            "metadata": {
+                "content_hash": self.content_hash,
+                "word_count": self.word_count,
+                "pub_time_raw": self.pub_time,
+            },
         }
+
+
+# ──────────────────────────────────────────────────────────────────────
+# Section → STEEPs Preliminary Mapping
+# ──────────────────────────────────────────────────────────────────────
+
+SECTION_TO_STEEPS: dict[int, str] = {
+    100: "P",   # 정치 → Political
+    101: "E",   # 경제 → Economic
+    102: "S",   # 사회 → Social
+    103: "S",   # 생활문화 → Social
+    104: "P",   # 세계 → Political (international)
+    105: "T",   # IT과학 → Technological
+}
 
 
 # ──────────────────────────────────────────────────────────────────────
@@ -430,7 +467,7 @@ class NaverNewsCrawler:
 
     # ── HTML Parsing ──
 
-    def _parse_article_list(self, html: str, section_name: str) -> list[Article]:
+    def _parse_article_list(self, html: str, section_name: str, section_id: int = 0) -> list[Article]:
         """Parse article list from section HTML."""
         if not self._bs4_available:
             logger.error("Cannot parse HTML without BeautifulSoup4")
@@ -474,6 +511,7 @@ class NaverNewsCrawler:
                     press=press,
                     pub_time=pub_time,
                     section=section_name,
+                    section_id=section_id,
                     crawled_at=datetime.now(timezone.utc).isoformat(),
                 ))
 
@@ -530,7 +568,7 @@ class NaverNewsCrawler:
             logger.error(f"[FAIL] Section crawl failed: {section_name}")
             return []
 
-        articles = self._parse_article_list(response.text, section_name)
+        articles = self._parse_article_list(response.text, section_name, section_id)
         logger.info(f"[CRAWL] {section_name}: {len(articles)} articles found")
 
         if self.fetch_content:
@@ -567,17 +605,42 @@ class NaverNewsCrawler:
             ))
 
         end_time = datetime.now(timezone.utc)
+        scan_date = datetime.now().strftime("%Y-%m-%d")
         total = len(all_articles)
         total_raw = total + self.noise_filtered
         snr = total / total_raw if total_raw > 0 else 0.0
 
+        # Generate execution ID for PoE (Proof of Execution)
+        exec_id = (
+            f"wf3-crawl-{scan_date}-"
+            f"{start_time.strftime('%H-%M-%S')}-"
+            f"{hashlib.md5(start_time.isoformat().encode()).hexdigest()[:4]}"
+        )
+
+        # Convert articles to standard signal format
+        items = []
+        for idx, article in enumerate(all_articles, start=1):
+            items.append(article.to_standard_signal(idx, scan_date))
+
         result = {
             "scan_metadata": {
-                "workflow_id": "wf3-naver",
-                "scan_date": datetime.now().strftime("%Y-%m-%d"),
-                "crawled_at": start_time.isoformat(),
-                "completed_at": end_time.isoformat(),
-                "duration_seconds": (end_time - start_time).total_seconds(),
+                "date": scan_date,
+                "workflow": "wf3-naver",
+                "source": "NaverNews",
+                "total_items": total,
+                "execution_time": round((end_time - start_time).total_seconds(), 1),
+                "execution_proof": {
+                    "execution_id": exec_id,
+                    "started_at": start_time.isoformat(),
+                    "completed_at": end_time.isoformat(),
+                    "actual_api_calls": {
+                        "web_search": 0,
+                        "arxiv_api": 0,
+                        "naver_crawl": self.defender.success_count,
+                    },
+                    "actual_sources_scanned": ["NaverNews"],
+                    "file_created_at": end_time.isoformat(),
+                },
                 "crawler_version": "1.0.0",
             },
             "crawl_stats": {
@@ -590,12 +653,12 @@ class NaverNewsCrawler:
                 "failed_urls_count": len(self.failed_urls),
             },
             "defense_summary": self.defender.summary(),
-            "articles": [a.to_dict() for a in all_articles],
+            "items": items,
             "failed_urls": self.failed_urls,
         }
 
         logger.info(
-            f"[DONE] Crawl complete: {total} articles "
+            f"[DONE] Crawl complete: {total} items "
             f"({self.noise_filtered} noise filtered, S/N={snr:.2%})"
         )
         return result
@@ -722,7 +785,7 @@ def main():
         print(json.dumps(stats, ensure_ascii=False, indent=2))
 
     # Exit code: 0 = OK, 1 = all sections failed
-    if result["crawl_stats"]["total_articles"] == 0:
+    if result["scan_metadata"]["total_items"] == 0:
         logger.error("[EXIT] No articles crawled — all sections failed")
         sys.exit(1)
 

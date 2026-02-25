@@ -1,8 +1,8 @@
 # WORKFLOW-ARCHITECTURE-AND-PHILOSOPHY
 
-> **Triple Environmental Scanning System** | 워크플로우 아키텍처와 철학
+> **Quadruple Environmental Scanning System** | 워크플로우 아키텍처와 철학
 >
-> Version: 2.0.0 | Last Updated: 2026-02-07
+> Version: 3.0.0 | Last Updated: 2026-02-24
 
 ---
 
@@ -14,11 +14,11 @@
 2. [아키텍처 전체도와 오케스트레이터](#제2장-아키텍처-전체도와-오케스트레이터)
 3. [SOT와 검증 체계](#제3장-sot와-검증-체계)
 4. [VEV 프로토콜과 검증 체계](#제4장-vev-프로토콜과-검증-체계)
-5. [트리플 워크플로우](#제5장-트리플-워크플로우)
+5. [쿼드러플 워크플로우](#제5장-쿼드러플-워크플로우)
 6. [태스크 관리와 실행 흐름](#제6장-태스크-관리와-실행-흐름)
 7. [pSST 신뢰도 프레임워크](#제7장-psst-신뢰도-프레임워크)
 8. [에이전트 체계](#제8장-에이전트-체계)
-9. [WF3 전용 프레임워크](#제9장-wf3-전용-프레임워크)
+9. [WF3/WF4 전용 프레임워크](#제9장-wf3wf4-전용-프레임워크)
 10. [자기개선엔진 (SIE)](#제10장-자기개선엔진-sie)
 11. [설정과 확장 포인트](#제11장-설정과-확장-포인트)
 12. [불변의 경계](#제12장-불변의-경계)
@@ -39,12 +39,12 @@
 |---|------|------|------|
 | 1 | **"Improve the tuning, never break the machine"** | `core-invariants.yaml` | 시스템의 핵심 구조를 변경하지 않고 세부 조정만 허용한다 |
 | 2 | **오케스트레이터-워커 분리** | `env-scan-orchestrator.md` | 관리자(오케스트레이터)와 실행자(워커)의 역할을 명확히 분리한다 |
-| 3 | **Human-in-the-Loop** | `core-invariants.yaml` | 7개의 인간 검토 체크포인트를 통해 인간의 감독을 보장한다 |
+| 3 | **Human-in-the-Loop** | `core-invariants.yaml` | 9개의 인간 검토 체크포인트를 통해 인간의 감독을 보장한다 |
 | 4 | **품질 기반 실행** | VEV 프로토콜 | 시간이 아닌 품질 검증을 기준으로 단계를 진행한다 |
 | 5 | **통제된 소스 관리** | `core-invariants.yaml` | 모든 소스는 사전 설정되고, 추가/제거는 사용자 승인을 요한다 |
 | 6 | **이중언어 프로토콜** | `core-invariants.yaml` | 내부 처리는 영어, 외부 출력은 한국어. STEEPs 용어 100% 보존 |
 | 7 | **데이터베이스 원자성** | `core-invariants.yaml` | DB 업데이트는 반드시 스냅샷 → 원자적 쓰기 → 실패 시 복원 순서를 따른다 |
-| 8 | **워크플로우 독립성** | `workflow-registry.yaml` | WF1/WF2/WF3는 서로의 존재를 모른다. 교차 읽기/쓰기 금지 |
+| 8 | **워크플로우 독립성** | `workflow-registry.yaml` | WF1/WF2/WF3/WF4는 서로의 존재를 모른다. 교차 읽기/쓰기 금지 |
 
 ### 1.3 STEEPs 프레임워크
 
@@ -79,13 +79,14 @@
 ### 2.1 디렉토리 구조
 
 ```
-EnvironmentScan-system-main-v2/
+EnvironmentScan-system-main-v4/
 ├── .claude/
 │   ├── agents/
 │   │   ├── master-orchestrator.md              ← 최상위 오케스트레이터
 │   │   ├── env-scan-orchestrator.md            ← WF1 오케스트레이터
 │   │   ├── arxiv-scan-orchestrator.md          ← WF2 오케스트레이터
 │   │   ├── naver-scan-orchestrator.md          ← WF3 오케스트레이터
+│   │   ├── multiglobal-news-scan-orchestrator.md ← WF4 오케스트레이터
 │   │   ├── protocols/
 │   │   │   └── orchestrator-protocol.md        ← 공유 프로토콜
 │   │   ├── TASK_MANAGEMENT_EXECUTION_GUIDE.md  ← 태스크 관리 가이드
@@ -109,6 +110,11 @@ EnvironmentScan-system-main-v2/
 │   │       ├── naver-signal-detector.md
 │   │       ├── naver-pattern-detector.md
 │   │       ├── naver-alert-dispatcher.md
+│   │       ├── news-direct-crawler.md          ← WF4 전용 워커 (5개)
+│   │       ├── news-signal-detector.md
+│   │       ├── news-pattern-detector.md
+│   │       ├── news-alert-dispatcher.md
+│   │       ├── news-language-normalizer.md
 │   │       ├── report-merger.md                ← 통합 워커
 │   │       ├── realtime-delphi-facilitator.md  ← 조건부 워커 (2개)
 │   │       ├── scenario-builder.md
@@ -146,13 +152,14 @@ EnvironmentScan-system-main-v2/
 │   │   ├── sources.yaml               ← WF1 소스 (arXiv 제외)
 │   │   ├── sources-arxiv.yaml         ← WF2 전용 소스
 │   │   ├── sources-naver.yaml         ← WF3 전용 소스
+│   │   ├── sources-multiglobal-news.yaml ← WF4 전용 소스 (43개 사이트, 11개 언어)
 │   │   ├── thresholds.yaml            ← 채점/필터링 임계치
 │   │   ├── ml-models.yaml             ← AI 모델 설정
 │   │   ├── translation-terms.yaml     ← 번역 용어 매핑
 │   │   ├── core-invariants.yaml       ← 불변 경계 정의
 │   │   └── self-improvement-config.yaml ← SIE 설정
 │   │
-│   ├── core/                           ← Python 코어 모듈 (17개)
+│   ├── core/                           ← Python 코어 모듈 (33개)
 │   │   ├── naver_crawler.py           ← NaverNewsCrawler + CrawlDefender
 │   │   ├── naver_signal_processor.py  ← FSSF/ThreeHorizons/TippingPoint/Anomaly
 │   │   ├── psst_calculator.py         ← pSST 점수 계산
@@ -193,6 +200,10 @@ EnvironmentScan-system-main-v2/
 │   │
 │   ├── wf3-naver/                     ← WF3 데이터 루트
 │   │   ├── (wf1-general과 동일 구조)
+│   │   └── ...
+│   │
+│   ├── wf4-multiglobal-news/         ← WF4 데이터 루트
+│   │   ├── (wf1-general과 동일 구조 + FSSF + Three Horizons + Tipping Point + 다국어)
 │   │   └── ...
 │   │
 │   └── integrated/                    ← 통합 출력
@@ -241,20 +252,29 @@ EnvironmentScan-system-main-v2/
 │  │  출력: wf3-naver/reports/daily/environmental-scan-{date}.md  │    │
 │  └──────────────────────────────────────────────────────────────┘    │
 │                         ↓                                            │
+│  ┌─ WF4: Multi&Global-News ──────────────────────────────────┐    │
+│  │  multiglobal-news-scan-orchestrator                        │    │
+│  │  Phase 1 → Phase 2 → Phase 3                               │    │
+│  │  소스: sources-multiglobal-news.yaml (43개 뉴스 사이트, 11개 언어) │    │
+│  │  FSSF 8유형 분류 + Three Horizons + Tipping Point Detection    │    │
+│  │  체크포인트: 1.4(선택), 2.5(필수), 3.4(필수)                    │    │
+│  │  출력: wf4-multiglobal-news/reports/daily/environmental-scan-{date}.md │    │
+│  └──────────────────────────────────────────────────────────────┘    │
+│                         ↓                                            │
 │  ┌─ Integration (통합) ────────────────────────────────────────┐    │
-│  │  report-merger                                              │    │
-│  │  WF1 + WF2 + WF3 보고서 병합                                  │    │
+│  │  report-merger (Agent-Teams 5 members)                      │    │
+│  │  WF1 + WF2 + WF3 + WF4 보고서 병합                            │    │
 │  │  pSST 기반 교차 워크플로우 재순위화                               │    │
 │  │  체크포인트: 통합 보고서 최종 승인(필수)                           │    │
 │  │  출력: integrated/reports/daily/integrated-scan-{date}.md    │    │
 │  └──────────────────────────────────────────────────────────────┘    │
 │                                                                      │
-│  총 인간 체크포인트: 7개 (WF1×2 + WF2×2 + WF3×2 + 통합×1)             │
+│  총 인간 체크포인트: 9개 (WF1×2 + WF2×2 + WF3×2 + WF4×2 + 통합×1)     │
 └──────────────────────────────────────────────────────────────────────┘
 
 ┌─ Weekly Meta-Analysis (별도 실행) ──────────────────────────────────┐
 │  /env-scan:run-weekly로 수동 트리거                                   │
-│  입력: 최근 7일간 WF1+WF2+WF3+통합 보고서 (읽기 전용)                   │
+│  입력: 최근 7일간 WF1+WF2+WF3+WF4+통합 보고서 (읽기 전용)               │
 │  출력: integrated/weekly/reports/weekly-meta-{week_id}.md            │
 │  TIS (Trend Intensity Score) 기반 추세 분석                           │
 └──────────────────────────────────────────────────────────────────────┘
@@ -262,14 +282,15 @@ EnvironmentScan-system-main-v2/
 
 ### 2.3 오케스트레이터 계층 구조
 
-트리플 워크플로우 시스템은 **4개의 오케스트레이터**로 구성된다:
+쿼드러플 워크플로우 시스템은 **5개의 오케스트레이터**로 구성된다:
 
 | 오케스트레이터 | 파일 | 역할 |
 |--------------|------|------|
-| **Master Orchestrator** | `master-orchestrator.md` | 최상위 관리자. SOT 읽기, WF1→WF2→WF3→Merge 순차 실행, 7개 체크포인트 총괄 |
-| **WF1 Orchestrator** | `env-scan-orchestrator.md` | 일반 환경스캐닝. 29개 소스(arXiv 제외) 다중 소스 스캔 |
+| **Master Orchestrator** | `master-orchestrator.md` | 최상위 관리자. SOT 읽기, WF1→WF2→WF3→WF4→Merge 순차 실행, 9개 체크포인트 총괄 |
+| **WF1 Orchestrator** | `env-scan-orchestrator.md` | 일반 환경스캐닝. 25+개 소스(arXiv 제외) 다중 소스 스캔 |
 | **WF2 Orchestrator** | `arxiv-scan-orchestrator.md` | arXiv 학술 심층 스캐닝. arXiv 단일 소스, 확장 파라미터 |
 | **WF3 Orchestrator** | `naver-scan-orchestrator.md` | 네이버 뉴스 환경스캐닝. FSSF/ThreeHorizons/TippingPoint |
+| **WF4 Orchestrator** | `multiglobal-news-scan-orchestrator.md` | 다국어 글로벌 뉴스 환경스캐닝. 43개 사이트, 11개 언어, FSSF/ThreeHorizons/TippingPoint |
 
 **오케스트레이터 공통 책임**:
 - 워크플로우 상태 관리 (`{data_root}/logs/workflow-status-{date}.json`)
@@ -296,7 +317,7 @@ EnvironmentScan-system-main-v2/
 
 ### 3.1 SOT (Source of Truth) 개요
 
-`env-scanning/config/workflow-registry.yaml` (v2.0.0)은 트리플 워크플로우 시스템의 **단일 진실의 원천**이다. 모든 오케스트레이터는 이 파일에서 경로, 파라미터, 설정을 읽는다.
+`env-scanning/config/workflow-registry.yaml` (v3.0.0)은 쿼드러플 워크플로우 시스템의 **단일 진실의 원천**이다. 모든 오케스트레이터는 이 파일에서 경로, 파라미터, 설정을 읽는다.
 
 **SOT 핵심 규칙**:
 1. master-orchestrator는 시작 시 반드시 이 파일을 읽어야 한다
@@ -322,15 +343,19 @@ Master Orchestrator는 SOT를 읽은 후 **명명 변수(named variables)** 를 
 | `WF3_DATA_ROOT` | `workflows.wf3-naver.data_root` | WF3 데이터 루트 경로 |
 | `WF3_SOURCES` | `workflows.wf3-naver.sources_config` | WF3 소스 설정 파일 |
 | `WF3_PROFILE` | `workflows.wf3-naver.validate_profile` | WF3 검증 프로파일 (`naver`) |
+| `WF4_DATA_ROOT` | `workflows.wf4-multiglobal-news.data_root` | WF4 데이터 루트 경로 |
+| `WF4_SOURCES` | `workflows.wf4-multiglobal-news.sources_config` | WF4 소스 설정 파일 |
+| `WF4_PROFILE` | `workflows.wf4-multiglobal-news.validate_profile` | WF4 검증 프로파일 (`multiglobal-news`) |
 | `INT_ROOT` | `integration.output_root` | 통합 출력 경로 |
 | `INT_PROFILE` | `integration.validate_profile` | 통합 검증 프로파일 |
 
 ### 3.3 워크플로우 독립성 보장 (INDEPENDENCE GUARANTEE)
 
 ```
-- WF1은 WF2와 WF3의 존재를 모른다
-- WF2는 WF1과 WF3의 존재를 모른다
-- WF3는 WF1과 WF2의 존재를 모른다
+- WF1은 WF2, WF3, WF4의 존재를 모른다
+- WF2는 WF1, WF3, WF4의 존재를 모른다
+- WF3는 WF1, WF2, WF4의 존재를 모른다
+- WF4는 WF1, WF2, WF3의 존재를 모른다
 - 어떤 워크플로우도 다른 워크플로우의 데이터를 읽거나 쓰지 않는다
 - 각 워크플로우는 독립적으로 삭제할 수 있다
 - 각 워크플로우는 독립적으로 완전한 보고서를 생산한다
@@ -353,7 +378,7 @@ Master Orchestrator는 SOT를 읽은 후 **명명 변수(named variables)** 를 
 | SOT-009 | 통합 스켈레톤 존재 | HALT | `integrated-report-skeleton.md` 존재 |
 | SOT-010 | WF1에서 arXiv 비활성화 | HALT | WF1 소스에서 arXiv가 `enabled: false` |
 | SOT-011 | WF2에서 arXiv 활성화 | HALT | WF2 소스에서 arXiv가 `enabled: true` |
-| SOT-012 | 소스 중복 없음 | HALT | WF1과 WF2 간 활성화된 소스 중복 없음 |
+| SOT-012 | 소스 중복 없음 | HALT | WF1/WF2/WF3/WF4 간 활성화된 소스 중복 없음 |
 | SOT-013 | 병합 에이전트 존재 | HALT | `report-merger.md` 존재 |
 | SOT-014 | 실행 무결성 섹션 존재 | HALT | `execution_integrity` 섹션 존재 |
 | SOT-015 | SCG 규칙 유효성 | HALT | SCG 규칙에 필수 필드(id, name, severity, checks) 존재 |
@@ -428,7 +453,7 @@ Master Orchestrator는 SOT를 읽은 후 **명명 변수(named variables)** 를 
 
 ### 4.1 VEV (Verify-Execute-Verify) 패턴
 
-VEV 프로토콜은 모든 워크플로우 스텝의 100% 작업 완료를 보장하는 체계적 검증 메커니즘이다. 모든 WF1/WF2/WF3 오케스트레이터가 공유한다.
+VEV 프로토콜은 모든 워크플로우 스텝의 100% 작업 완료를 보장하는 체계적 검증 메커니즘이다. 모든 WF1/WF2/WF3/WF4 오케스트레이터가 공유한다.
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -483,7 +508,7 @@ Layer 3(품질) 실패는 스텝의 컨텍스트에 따라 3가지 패턴 중 �
 
 ### 4.4 Pipeline Gate (Phase 간 전환 검증)
 
-3개의 Pipeline Gate가 Phase 간 데이터 연속성과 무결성을 보장한다. 모든 WF1/WF2/WF3에 동일하게 적용된다:
+3개의 Pipeline Gate가 Phase 간 데이터 연속성과 무결성을 보장한다. 모든 WF1/WF2/WF3/WF4에 동일하게 적용된다:
 
 **Pipeline Gate 1** (Phase 1 → Phase 2):
 1. 신호 ID 연속성: filtered IDs ⊂ raw scan IDs
@@ -531,12 +556,12 @@ Layer 3(품질) 실패는 스텝의 컨텍스트에 따라 3가지 패턴 중 �
 
 ---
 
-## 제5장: 트리플 워크플로우
+## 제5장: 쿼드러플 워크플로우
 
 ### 5.1 실행 모드
 
 ```yaml
-mode: "sequential"  # WF1 완료 → WF2 완료 → WF3 완료 → Merge
+mode: "sequential"  # WF1 완료 → WF2 완료 → WF3 완료 → WF4 완료 → Merge
 ```
 
 Master Orchestrator가 SOT의 `execution_order`에 따라 워크플로우를 순차 실행한다. 각 워크플로우는 독립적으로 3-Phase 파이프라인을 실행한다.
@@ -647,24 +672,68 @@ WF3는 3-Phase 파이프라인의 기본 구조를 따르되, **4개 전용 워�
 | 3.4 | Final Approval (필수) | - | 동일 |
 | 3.5~3.6 | Quality + SIE | 오케스트레이터 | 동일 |
 
-### 5.5 Integration (통합)
+### 5.5 WF4: Multi&Global-News Environmental Scanning (다국어 글로벌 뉴스 환경스캐닝)
 
-WF1, WF2, WF3 보고서가 모두 완료되면, Master Orchestrator가 `report-merger` 에이전트를 호출한다.
+**소스**: `sources-multiglobal-news.yaml` — 43개 직접 뉴스 사이트, 11개 언어
+
+WF4는 WF3과 동일한 FSSF/Three Horizons/Tipping Point 프레임워크를 사용하되, **5개 전용 워커**와 **다국어 직접 크롤링** 방식을 사용한다.
+
+| 파라미터 | 값 | 설명 |
+|---------|---|------|
+| `sources` | 43개 | 직접 뉴스 사이트 |
+| `languages` | 11개 | 다국어 지원 (en, ko, zh, ja, de, fr, es, pt, ar, hi, ru) |
+| `crawler` | `news_direct_crawler.py` | 직접 크롤링 (RSS/API 아닌 사이트 직접 접근) |
+| `signal_processor` | `news_signal_processor.py` | FSSF/ThreeHorizons/TippingPoint 다국어 적용 |
+| `validate_profile` | `multiglobal-news` | WF4 전용 검증 프로파일 |
+
+#### WF4 Phase 1: Research
+
+| 스텝 | 이름 | 에이전트 | 비고 |
+|------|------|---------|------|
+| 1.1 | Archive Loading | @archive-loader (공유) | 동일 |
+| 1.2 | **Direct News Crawling** | **@news-direct-crawler** (전용) | `news_direct_crawler.py` 실행, 43개 사이트 다국어 크롤링 |
+| 1.3 | Deduplication | @deduplication-filter (공유) | 동일 |
+| 1.4 | Human Review (선택적) | - | 동일 |
+
+#### WF4 Phase 2: Planning
+
+| 스텝 | 이름 | 에이전트 | 비고 |
+|------|------|---------|------|
+| 2.1 | STEEPs + **FSSF 분류** | @signal-classifier (공유) + **@news-signal-detector** (전용) | FSSF 8유형 + Three Horizons 태깅 |
+| 2.2 | Impact Analysis + **Pattern Detection** | @impact-analyzer (공유) + **@news-pattern-detector** (전용) | Tipping Point Detection, Anomaly Detection |
+| 2.3 | Priority Ranking | @priority-ranker (공유) | 동일 |
+| 2.5 | Human Review (필수) | - | 동일 |
+
+#### WF4 Phase 3: Implementation
+
+| 스텝 | 이름 | 에이전트 | 비고 |
+|------|------|---------|------|
+| 3.1 | Database Update | @database-updater (공유) | 동일 |
+| 3.2 | Report Generation | @report-generator (공유) | multiglobal-news-report-skeleton 사용 |
+| 3.3 | Archive & Notify + **Alert Dispatch** | @archive-notifier (공유) + **@news-alert-dispatcher** (전용) | Tipping Point 경보 발송 |
+| 3.4 | Final Approval (필수) | - | 동일 |
+| 3.5~3.6 | Quality + SIE | 오케스트레이터 | 동일 |
+
+신호 ID 형식: `news-YYYYMMDD-{site_short}-NNN` (예: `news-20260224-reuters-001`)
+
+### 5.6 Integration (통합)
+
+WF1, WF2, WF3, WF4 보고서가 모두 완료되면, Master Orchestrator가 `report-merger` 에이전트(Agent-Teams 5 members)를 호출한다.
 
 | 항목 | 설정 |
 |------|------|
-| **병합 에이전트** | `report-merger.md` |
+| **병합 에이전트** | `report-merger.md` (Agent-Teams 5 members) |
 | **병합 범위** | 보고서만 병합 (signal DB는 독립 유지) |
-| **신호 중복제거** | 불필요 (WF1/WF2/WF3 간 소스 중복 없음) |
+| **신호 중복제거** | 불필요 (WF1/WF2/WF3/WF4 간 소스 중복 없음) |
 | **순위화 방법** | pSST 통합 순위화 (`pSST_unified`) |
 | **통합 상위 신호** | 20개 |
-| **교차 워크플로우 분석** | 활성화 (WF1↔WF2↔WF3 신호 상호작용 분석) |
+| **교차 워크플로우 분석** | 활성화 (WF1↔WF2↔WF3↔WF4 신호 상호작용 분석) |
 | **스켈레톤** | `integrated-report-skeleton.md` |
 | **검증 프로파일** | `integrated` |
 | **인간 체크포인트** | 통합 보고서 최종 승인 (필수) |
 | **출력** | `integrated/reports/daily/integrated-scan-{date}.md` |
 
-### 5.6 Weekly Meta-Analysis (주간 메타분석)
+### 5.7 Weekly Meta-Analysis (주간 메타분석)
 
 `/env-scan:run-weekly`로 수동 트리거하는 별도 분석 모드다. 새로운 소스 스캐닝 없이, 최근 7일간 축적된 일일 스캔 결과를 거시적으로 재분석한다.
 
@@ -673,7 +742,7 @@ WF1, WF2, WF3 보고서가 모두 완료되면, Master Orchestrator가 `report-m
 | **트리거** | 수동 (`/env-scan:run-weekly`) |
 | **최소 조건** | 최소 5일치 일일 스캔 결과 필요 |
 | **분석 범위** | 최근 7일 (`lookback_days: 7`) |
-| **입력** | WF1/WF2/WF3/통합 보고서 + signal DB + 분석 파일 (읽기 전용) |
+| **입력** | WF1/WF2/WF3/WF4/통합 보고서 + signal DB + 분석 파일 (읽기 전용) |
 | **출력** | `integrated/weekly/reports/weekly-meta-{week_id}.md` |
 | **스켈레톤** | `weekly-report-skeleton.md` |
 | **검증 프로파일** | `weekly` |
@@ -692,7 +761,7 @@ TIS = n_sources × 0.30 + psst_delta × 0.30 + frequency × 0.20 + cross_domain 
 | `frequency` | 0.20 | 7일간 출현 빈도 |
 | `cross_domain` | 0.20 | STEEPs 교차 도메인 출현 수 |
 
-### 5.7 이중언어 워크플로우
+### 5.8 이중언어 워크플로우
 
 ```
 Worker Agent (EN) → EN Output → VEV 검증 → @translation-agent → KR Output → VEV Lite 검증
@@ -704,7 +773,7 @@ Worker Agent (EN) → EN Output → VEV 검증 → @translation-agent → KR Out
 - 역번역 유사도: > 0.95 (핵심 보고서)
 - 번역 오버헤드: 전체 워크플로우의 < 25%
 
-### 5.8 Standard Signal Format (표준 신호 형식)
+### 5.9 Standard Signal Format (표준 신호 형식)
 
 모든 워크플로우의 raw 데이터는 동일한 표준 형식을 따른다:
 
@@ -761,8 +830,10 @@ Master Orchestrator
 │   └── (WF2 내부 48+3 태스크)
 ├── M-3: WF3 Naver Scanning          ← WF3 전체 실행
 │   └── (WF3 내부 태스크 + WF3 전용 태스크)
-├── M-4: Report Merge                ← 통합 보고서 병합
-└── M-5: Final Approval              ← 통합 보고서 승인
+├── M-4: WF4 Multi&Global-News Scanning ← WF4 전체 실행
+│   └── (WF4 내부 태스크 + WF4 전용 태스크)
+├── M-5: Report Merge                ← 통합 보고서 병합
+└── M-6: Final Approval              ← 통합 보고서 승인
 ```
 
 ### 6.3 개별 워크플로우 태스크 계층 (WF1/WF2 공통, 48 정적 + 3 조건부)
@@ -843,7 +914,7 @@ except Exception:
 
 ### 7.1 개요
 
-pSST(predicted Signal Scanning Trust)는 AlphaFold의 pLDDT에서 영감을 받은 **신호별 신뢰도 채점 체계**이다. 각 신호의 신뢰도를 6개 차원으로 분해하여 0~100 점수를 산출한다. 모든 WF1/WF2/WF3에 동일하게 적용된다.
+pSST(predicted Signal Scanning Trust)는 AlphaFold의 pLDDT에서 영감을 받은 **신호별 신뢰도 채점 체계**이다. 각 신호의 신뢰도를 6개 차원으로 분해하여 0~100 점수를 산출한다. 모든 WF1/WF2/WF3/WF4에 동일하게 적용된다.
 
 ### 7.2 6개 차원
 
@@ -906,7 +977,7 @@ Level 2 데이터 없이 달성 가능한 최대 점수: 92.5. Grade A 임계치
 
 ### 7.7 통합 보고서에서의 pSST 활용
 
-통합 보고서(Integration) 단계에서 `report-merger`는 WF1/WF2/WF3의 모든 신호를 pSST 통합 순위(`pSST_unified`)로 재순위화한다. 이를 통해 워크플로우 출처에 관계없이 가장 신뢰도 높은 신호가 상위에 배치된다.
+통합 보고서(Integration) 단계에서 `report-merger`는 WF1/WF2/WF3/WF4의 모든 신호를 pSST 통합 순위(`pSST_unified`)로 재순위화한다. 이를 통해 워크플로우 출처에 관계없이 가장 신뢰도 높은 신호가 상위에 배치된다.
 
 ### 7.8 보정 (Calibration)
 
@@ -960,20 +1031,32 @@ master-orchestrator (최상위 오케스트레이터)
 │   ├── @naver-pattern-detector   ← WF3 전용 (Step 2.2 TippingPoint/Anomaly)
 │   └── @naver-alert-dispatcher   ← WF3 전용 (Step 3.3 경보 발송)
 │
-└── @report-merger (통합 단계)
+├── multiglobal-news-scan-orchestrator (WF4 오케스트레이터)
+│   ├── (공유 워커 사용: archive-loader, deduplication-filter,
+│   │    signal-classifier, impact-analyzer, priority-ranker,
+│   │    database-updater, report-generator, archive-notifier,
+│   │    translation-agent, self-improvement-analyzer)
+│   ├── @news-direct-crawler       ← WF4 전용 (Step 1.2, 43개 사이트 다국어 크롤링)
+│   ├── @news-signal-detector      ← WF4 전용 (Step 2.1 FSSF/ThreeHorizons)
+│   ├── @news-pattern-detector     ← WF4 전용 (Step 2.2 TippingPoint/Anomaly)
+│   ├── @news-alert-dispatcher     ← WF4 전용 (Step 3.3 경보 발송)
+│   └── @news-language-normalizer  ← WF4 전용 (다국어 정규화)
+│
+└── @report-merger (통합 단계, Agent-Teams 5 members)
 ```
 
 ### 8.2 에이전트 분류 요약
 
 | 분류 | 수량 | 에이전트 |
 |------|------|---------|
-| **오케스트레이터** | 4 | master, env-scan, arxiv-scan, naver-scan |
+| **오케스트레이터** | 5 | master, env-scan, arxiv-scan, naver-scan, multiglobal-news-scan |
 | **공유 워커** | 11 | archive-loader, multi-source-scanner, deduplication-filter, signal-classifier, impact-analyzer, priority-ranker, database-updater, report-generator, archive-notifier, translation-agent, self-improvement-analyzer |
 | **소스별 서브에이전트** | 4 | arxiv-agent, patent-agent, policy-agent, blog-agent |
 | **WF3 전용 워커** | 4 | naver-news-crawler, naver-signal-detector, naver-pattern-detector, naver-alert-dispatcher |
+| **WF4 전용 워커** | 5 | news-direct-crawler, news-signal-detector, news-pattern-detector, news-alert-dispatcher, news-language-normalizer |
 | **통합 워커** | 1 | report-merger |
 | **조건부 워커** | 2 | realtime-delphi-facilitator, scenario-builder |
-| **합계 (에이전트)** | **26** | |
+| **합계 (에이전트 스펙)** | **~40** | (exploration 에이전트 포함) |
 | **프로토콜** | 1 | orchestrator-protocol.md |
 | **가이드** | 1 | TASK_MANAGEMENT_EXECUTION_GUIDE.md |
 | **프롬프트 템플릿** | 1 | classification-prompt-template.md |
@@ -1008,7 +1091,7 @@ master-orchestrator (최상위 오케스트레이터)
 
 ---
 
-## 제9장: WF3 전용 프레임워크
+## 제9장: WF3/WF4 전용 프레임워크
 
 ### 9.1 네이버 뉴스 6개 섹션 매핑
 
@@ -1023,9 +1106,11 @@ master-orchestrator (최상위 오케스트레이터)
 
 신호 ID 형식: `naver-YYYYMMDD-SID-NNN` (예: `naver-20260207-102-001`)
 
+> **WF4 공유**: FSSF 8유형 분류, Three Horizons 태깅, Tipping Point Detection, Anomaly Detection은 WF3와 WF4가 공유하는 프레임워크이다. WF4는 `news_signal_processor.py`와 `news_direct_crawler.py`를 통해 동일한 분류 체계를 43개 다국어 뉴스 사이트에 적용한다.
+
 ### 9.2 FSSF 8유형 분류 체계
 
-FSSF(Futures Signal System Framework)는 STEEPs와 직교하는 별도 분류 축이다. 모든 WF3 신호는 STEEPs 분류와 함께 FSSF 8유형 중 하나로 분류된다:
+FSSF(Futures Signal System Framework)는 STEEPs와 직교하는 별도 분류 축이다. 모든 WF3/WF4 신호는 STEEPs 분류와 함께 FSSF 8유형 중 하나로 분류된다:
 
 | # | 유형 | 영문 | 설명 |
 |---|------|------|------|
@@ -1038,11 +1123,11 @@ FSSF(Futures Signal System Framework)는 STEEPs와 직교하는 별도 분류 �
 | 7 | **불연속** | Discontinuity | 기존 추세의 급격한 단절 또는 전환 |
 | 8 | **전조 사건** | Precursor Event | 더 큰 변화를 예고하는 구체적 사건 |
 
-`naver_signal_processor.py`의 `FSSFClassifier` 클래스가 분류를 수행한다.
+`naver_signal_processor.py`(WF3) 및 `news_signal_processor.py`(WF4)의 `FSSFClassifier` 클래스가 분류를 수행한다.
 
 ### 9.3 Three Horizons (3지평) 태깅
 
-각 WF3 신호에 시간 지평(Time Horizon)이 태깅된다:
+각 WF3/WF4 신호에 시간 지평(Time Horizon)이 태깅된다:
 
 | 지평 | 기간 | 의미 |
 |------|------|------|
@@ -1052,7 +1137,7 @@ FSSF(Futures Signal System Framework)는 STEEPs와 직교하는 별도 분류 �
 
 ### 9.4 Tipping Point Detection (티핑 포인트 감지)
 
-`naver_signal_processor.py`의 `TippingPointDetector` 클래스가 두 가지 감지 방식을 사용한다:
+`naver_signal_processor.py`(WF3) 및 `news_signal_processor.py`(WF4)의 `TippingPointDetector` 클래스가 두 가지 감지 방식을 사용한다:
 
 | 감지 방식 | 설명 |
 |----------|------|
@@ -1096,6 +1181,13 @@ FSSF(Futures Signal System Framework)는 STEEPs와 직교하는 별도 분류 �
 | `naver_crawler.py` | ~29KB | NaverNewsCrawler 클래스, CrawlDefender 7-전략, Article 데이터클래스 |
 | `naver_signal_processor.py` | ~30KB | FSSFClassifier, ThreeHorizonsTagging, TippingPointDetector, AnomalyDetector |
 
+### 9.8 WF4 전용 Python 모듈
+
+| 모듈 | 역할 |
+|------|------|
+| `news_direct_crawler.py` | 43개 직접 뉴스 사이트 크롤러, 11개 언어 지원, CrawlDefender 통합 |
+| `news_signal_processor.py` | FSSFClassifier, ThreeHorizonsTagging, TippingPointDetector 다국어 적용 |
+
 ---
 
 ## 제10장: 자기개선엔진 (SIE)
@@ -1112,7 +1204,7 @@ SIE는 Step 3.6에서 실행되며, 워크플로우 품질 메트릭을 분석�
 sie_policy: "independent"
 ```
 
-각 워크플로우(WF1/WF2/WF3)는 자체 SIE를 독립적으로 실행한다. 공유 설정(`thresholds.yaml`, `domains.yaml`)은 SIE가 수정할 수 없으며, 수정하려면 MAJOR change 승인이 필요하다.
+각 워크플로우(WF1/WF2/WF3/WF4)는 자체 SIE를 독립적으로 실행한다. 공유 설정(`thresholds.yaml`, `domains.yaml`)은 SIE가 수정할 수 없으며, 수정하려면 MAJOR change 승인이 필요하다.
 
 ### 10.3 5개 분석 영역
 
@@ -1165,15 +1257,17 @@ SIE 내 VEV POST-VERIFY Layer 2에서 불변 경계 위반이 감지되면, 해�
 
 ## 제11장: 설정과 확장 포인트
 
-### 11.1 설정 파일 (10개)
+### 11.1 설정 파일 (12개)
 
 | 파일 | 역할 |
 |------|------|
-| `config/workflow-registry.yaml` | **SOT** — 트리플 워크플로우 시스템 정의 (제3장 참조) |
+| `config/workflow-registry.yaml` | **SOT** — 쿼드러플 워크플로우 시스템 정의 (제3장 참조) |
 | `config/domains.yaml` | STEEPs 6개 카테고리 키워드 및 검색어 정의 |
 | `config/sources.yaml` | WF1 소스 (arXiv 제외, Base 11개 + Expansion 18개) |
 | `config/sources-arxiv.yaml` | WF2 전용 소스 (arXiv 단일, 심층 파라미터) |
 | `config/sources-naver.yaml` | WF3 전용 소스 (네이버 뉴스 6개 섹션) |
+| `config/sources-multiglobal-news.yaml` | WF4 전용 소스 (43개 직접 뉴스 사이트, 11개 언어) |
+| `config/exploration-frontiers.yaml` | 소스 탐색 프론티어 설정 |
 | `config/thresholds.yaml` | 중복제거/AI 신뢰도/우선순위/pSST/마라톤 임계치 |
 | `config/ml-models.yaml` | AI/ML 모델 설정 (SBERT, 분류기) |
 | `config/translation-terms.yaml` | EN-KR 번역 용어 매핑 |
@@ -1229,7 +1323,7 @@ marathon_mode:
 
 | 커맨드 | 파일 | 기능 |
 |--------|------|------|
-| `/env-scan:run` | `commands/env-scan/run.md` | 전체 트리플 워크플로우 실행 (WF1→WF2→WF3→Merge) |
+| `/env-scan:run` | `commands/env-scan/run.md` | 전체 쿼드러플 워크플로우 실행 (WF1→WF2→WF3→WF4→Merge) |
 | `/env-scan:run-arxiv` | `commands/env-scan/run-arxiv.md` | WF2 단독 실행 (arXiv 심층 스캐닝) |
 | `/env-scan:run-naver` | `commands/env-scan/run-naver.md` | WF3 단독 실행 (네이버 뉴스 스캐닝) |
 | `/env-scan:run-weekly` | `commands/env-scan/run-weekly.md` | 주간 메타분석 실행 |
@@ -1243,7 +1337,7 @@ marathon_mode:
 
 | 스킬 | 설명 |
 |------|------|
-| `env-scanner` | 트리플 워크플로우 환경 스캐닝 시스템 |
+| `env-scanner` | 쿼드러플 워크플로우 환경 스캐닝 시스템 |
 | `longform-journalism` | 환경 스캐닝 보고서 → 장편 저널리즘 변환 |
 | `skill-creator` | 새 스킬 생성 도구 |
 | `slash-command-creator` | 슬래시 커맨드 생성 도구 |
@@ -1251,13 +1345,14 @@ marathon_mode:
 | `hook-creator` | Claude Code 훅 생성 도구 |
 | `youtube-collector` | YouTube 데이터 수집기 |
 
-### 11.6 보고서 스켈레톤 (4종)
+### 11.6 보고서 스켈레톤 (5종)
 
 | 스켈레톤 | 파일 | 용도 |
 |---------|------|------|
 | **WF1/WF2 보고서** | `report-skeleton.md` | 일반/arXiv 일일 보고서 (8개 섹션, 15개 신호) |
 | **WF3 보고서** | `naver-report-skeleton.md` | 네이버 일일 보고서 (FSSF/ThreeHorizons 포함) |
-| **통합 보고서** | `integrated-report-skeleton.md` | WF1+WF2+WF3 통합 보고서 (20개 신호, 교차 분석) |
+| **WF4 보고서** | `multiglobal-news-report-skeleton.md` | 다국어 글로벌 뉴스 일일 보고서 (FSSF/ThreeHorizons/TippingPoint 포함) |
+| **통합 보고서** | `integrated-report-skeleton.md` | WF1+WF2+WF3+WF4 통합 보고서 (20개 신호, 교차 분석) |
 | **주간 보고서** | `weekly-report-skeleton.md` | 주간 메타분석 보고서 (TIS, 추세 분석) |
 
 ### 11.7 Context Preservation Hooks (컨텍스트 보존 훅)
@@ -1273,7 +1368,7 @@ marathon_mode:
 
 백업 위치: `.claude/context-backups/latest-context.md`
 
-### 11.8 Python 코어 모듈 (17개)
+### 11.8 Python 코어 모듈 (33개)
 
 | 모듈 | 역할 |
 |------|------|
@@ -1293,6 +1388,22 @@ marathon_mode:
 | `redirect_resolver.py` | URL 리다이렉트 해석 |
 | `index_cache_manager.py` | 인덱스 캐시 관리 |
 | `lazy_report_generator.py` | 지연 보고서 생성 최적화 |
+| `news_direct_crawler.py` | WF4 직접 뉴스 사이트 크롤러 (43개 사이트, 11개 언어) |
+| `news_signal_processor.py` | WF4 FSSF/ThreeHorizons/TippingPoint 다국어 적용 |
+| `bilingual_resolver.py` | 이중언어 해석기 |
+| `dedup_gate.py` | 중복제거 게이트 |
+| `exploration_gate.py` | 소스 탐색 게이트 |
+| `exploration_merge_gate.py` | 탐색 병합 게이트 |
+| `frontier_selector.py` | 프론티어 선택기 |
+| `report_metadata_injector.py` | 보고서 메타데이터 주입기 |
+| `report_statistics_engine.py` | 보고서 통계 엔진 |
+| `signal_evolution_tracker.py` | 신호 진화 추적기 |
+| `skeleton_mirror.py` | 스켈레톤 미러링 |
+| `source_explorer.py` | 소스 탐색기 |
+| `temporal_anchor.py` | 시간 앵커 |
+| `temporal_gate.py` | 시간 게이트 |
+| `timeline_map_generator.py` | 타임라인 맵 생성기 |
+| `translation_validator.py` | 번역 검증기 |
 | `__init__.py` | 패키지 초기화 |
 
 ---
@@ -1308,7 +1419,7 @@ marathon_mode:
 | # | 불변 요소 | 설명 |
 |---|----------|------|
 | 1 | **3-Phase 워크플로우** | Research → Planning → Implementation 구조 |
-| 2 | **인간 체크포인트** | WF별 2개(2.5 필수, 3.4 필수) + 통합 1개 = 7개 제거 불가 |
+| 2 | **인간 체크포인트** | WF별 2개(2.5 필수, 3.4 필수) + 통합 1개 = 9개 제거 불가 |
 | 3 | **STEEPs 6개 카테고리** | S, T, E, E, P, s 카테고리 자체를 변경 불가 |
 | 4 | **VEV 프로토콜 5단계** | PRE-VERIFY → EXECUTE → POST-VERIFY → RETRY → RECORD |
 | 5 | **Pipeline Gate 3개** | Phase 간 전환 검증 게이트 제거/우회 불가 |
@@ -1316,7 +1427,7 @@ marathon_mode:
 | 7 | **Phase 순서** | [1, 2, 3] 순서 엄수, 건너뛰기 불가 |
 | 8 | **이중언어 프로토콜** | 내부=영어, 외부=한국어 통신 패턴 |
 | 9 | **보고서 품질 4중 방어** | L1(스켈레톤) → L2(검증) → L3(재시도) → L4(골든 레퍼런스) |
-| 10 | **워크플로우 독립성** | WF1/WF2/WF3 간 교차 읽기/쓰기 금지, 각 WF 독립 삭제 가능 |
+| 10 | **워크플로우 독립성** | WF1/WF2/WF3/WF4 간 교차 읽기/쓰기 금지, 각 WF 독립 삭제 가능 |
 
 > **불변 요소 #9 상세** (v1.3.0, 2026-02-02 도입)
 >
@@ -1369,7 +1480,7 @@ marathon_mode:
 
 | 영역 | 설명 | 관련 파일 |
 |------|------|----------|
-| scanner_sources | 데이터 소스 추가/제거/순서 변경 | sources.yaml, sources-arxiv.yaml, sources-naver.yaml |
+| scanner_sources | 데이터 소스 추가/제거/순서 변경 | sources.yaml, sources-arxiv.yaml, sources-naver.yaml, sources-multiglobal-news.yaml |
 | dedup_strategy | 중복제거 캐스케이드 단계 변경 | thresholds.yaml |
 | report_structure | 보고서 섹션 변경 | references/report-format.md |
 | classification_prompt | 분류 프롬프트 대폭 변경 | workers/classification-prompt-template.md |
@@ -1399,6 +1510,7 @@ marathon_mode:
 | WF1 Orchestrator | `.claude/agents/env-scan-orchestrator.md` | WF1 오케스트레이터 명세 |
 | WF2 Orchestrator | `.claude/agents/arxiv-scan-orchestrator.md` | WF2 오케스트레이터 명세 |
 | WF3 Orchestrator | `.claude/agents/naver-scan-orchestrator.md` | WF3 오케스트레이터 명세 |
+| WF4 Orchestrator | `.claude/agents/multiglobal-news-scan-orchestrator.md` | WF4 오케스트레이터 명세 |
 | SOT | `env-scanning/config/workflow-registry.yaml` | 단일 진실의 원천 |
 | 태스크 관리 가이드 | `.claude/agents/TASK_MANAGEMENT_EXECUTION_GUIDE.md` | 태스크 계층 상세 |
 | 공유 프로토콜 | `.claude/agents/protocols/orchestrator-protocol.md` | VEV/Pipeline Gate 공유 프로토콜 |
@@ -1412,16 +1524,24 @@ marathon_mode:
 
 | 구성요소 | 버전 |
 |---------|------|
-| 시스템 | Triple Workflow System v2.0.0 |
-| SOT (workflow-registry) | 2.0.0 |
+| 시스템 | Quadruple Workflow System v3.0.0 |
+| SOT (workflow-registry) | 3.0.0 |
 | Master Orchestrator | 1.0.0 |
 | WF1 Orchestrator (env-scan) | 3.1.0 |
 | WF2 Orchestrator (arxiv-scan) | 1.0.0 |
 | WF3 Orchestrator (naver-scan) | 1.0.0 |
+| WF4 Orchestrator (multiglobal-news-scan) | 1.0.0 |
 | VEV 프로토콜 | 2.2.0 |
 | pSST 프레임워크 | 1.0.0 |
 | SIE | 1.0.0 |
 | Execution Integrity (PoE/SCG) | 1.0.0 |
 | 스킬 (env-scanner) | 2.0.0 |
-| 본 문서 | 2.0.0 |
-| 최종 갱신 | 2026-02-07 |
+| 본 문서 | 3.0.0 |
+| 최종 갱신 | 2026-02-24 |
+
+### 변경 이력
+
+| 버전 | 날짜 | 변경 내용 |
+|------|------|----------|
+| 2.0.0 | 2026-02-07 | Triple Workflow System — WF1/WF2/WF3 아키텍처 문서화 |
+| 3.0.0 | 2026-02-24 | Quadruple Workflow System — WF4 (Multi&Global-News, 43개 사이트, 11개 언어) 추가. 인간 체크포인트 7→9개. Agent-Teams 5 members 통합. 33개 Python 모듈, ~40개 에이전트 스펙, 12개 설정 파일 |

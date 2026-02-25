@@ -1,6 +1,6 @@
-# Environmental Scanning System
+# Quadruple Environmental Scanning System
 
-Automated AI-powered environmental scanning system for detecting weak signals of future changes across STEEPs domains.
+Automated AI-powered environmental scanning system for detecting weak signals of future changes across STEEPs domains. The system runs **4 independent workflows** (General, arXiv, Naver News, Multi&Global-News) that are integrated into a unified strategic report.
 
 ## 🎯 Absolute Goal
 
@@ -10,13 +10,28 @@ Automated AI-powered environmental scanning system for detecting weak signals of
 
 ## Overview
 
-This system automates the daily process of scanning global information sources, filtering duplicates, classifying signals, analyzing impacts, and generating strategic reports for decision-makers.
+This system automates the daily process of scanning global information sources across 4 independent workflows, filtering duplicates, classifying signals, analyzing impacts, and generating strategic reports for decision-makers.
+
+### 4 Independent Workflows
+
+| Workflow | Scope | Sources |
+|----------|-------|---------|
+| **WF1** General | Patents, policy, tech blogs | Multi-source (arXiv excluded) |
+| **WF2** arXiv | Academic papers | arXiv only |
+| **WF3** Naver News | Korean news | Naver News only |
+| **WF4** Multi&Global-News | Global multilingual news | 43 direct news sites, 11 languages |
+
+Each workflow is fully independent -- it cannot see or access any other workflow's data. Integration happens only at the final report stage.
 
 ### Key Features
 
-- **Multi-Source Scanning**: Academic papers, patents, policy documents, tech blogs
+- **Quadruple Workflow Architecture**: 4 independent scanning pipelines with unified integration
+- **Multi-Source Scanning**: Academic papers, patents, policy documents, tech blogs, Korean news, global multilingual news
 - **4-Stage Deduplication**: URL → String → Semantic → Entity matching (>95% accuracy)
 - **STEEPs Classification**: 6-category framework (Social, Technological, Economic, Environmental, Political, spiritual)
+- **FSSF 8-Type Classification** (WF3/WF4): Weak Signal, Wild Card, Discontinuity, Driver, Emerging Issue, Precursor Event, Trend, Megatrend
+- **Three Horizons** (WF3/WF4): H1 (0-2yr), H2 (2-7yr), H3 (7yr+)
+- **Tipping Point Detection** (WF3/WF4): Critical Slowing Down and Flickering pattern analysis
 - **Impact Analysis**: Probabilistic Cross-Impact Matrix + Bayesian Network
 - **Expert Validation**: Real-Time AI Delphi for high-volume signals (optional)
 - **Scenario Generation**: QUEST-based plausible future scenarios (optional)
@@ -25,36 +40,48 @@ This system automates the daily process of scanning global information sources, 
   - Korean-first user interface
   - 100% STEEPs terminology preservation
   - High-quality back-translation verification
+- **WF4 Multilingual Pipeline**: 11-language source scanning with English-first translation pipeline
 
 ## Architecture
 
-### Orchestrator-Agent Pattern
+### Quadruple Orchestrator-Agent Pattern
 
 ```
-Orchestrator Agent
-    ├── Phase 1: Research (4 workers)
-    │   ├── archive-loader
-    │   ├── multi-source-scanner
-    │   ├── deduplication-filter
-    │   └── realtime-delphi-facilitator (optional)
-    │
-    ├── Phase 2: Planning (4 workers)
-    │   ├── signal-classifier
-    │   ├── impact-analyzer
-    │   ├── priority-ranker
-    │   └── scenario-builder (optional)
-    │
-    └── Phase 3: Implementation (3 workers)
-        ├── database-updater
-        ├── report-generator
-        └── archive-notifier
+Master Orchestrator
+├── WF1: env-scan-orchestrator (General)
+│   ├── Phase 1: Research (4 workers)
+│   ├── Phase 2: Planning (4 workers)
+│   └── Phase 3: Implementation (3 workers)
+│
+├── WF2: arxiv-scan-orchestrator (arXiv)
+│   ├── Phase 1: Research (4 workers)
+│   ├── Phase 2: Planning (4 workers)
+│   └── Phase 3: Implementation (3 workers)
+│
+├── WF3: naver-scan-orchestrator (Naver News)
+│   ├── Phase 1: Research (4 workers)
+│   ├── Phase 2: Planning (4 workers + FSSF)
+│   └── Phase 3: Implementation (3 workers)
+│
+├── WF4: multiglobal-news-scan-orchestrator (Multi&Global-News)
+│   ├── Phase 1: Research (4 workers + multilingual translation)
+│   ├── Phase 2: Planning (4 workers + FSSF)
+│   └── Phase 3: Implementation (3 workers)
+│
+└── Integration: report-merger
+    └── Agent Team (5 members: wf1-analyst, wf2-analyst, wf3-analyst, wf4-analyst, synthesizer)
 ```
 
-### Human-in-the-Loop Checkpoints
+Shared workers across all workflows: archive-loader, multi-source-scanner, deduplication-filter, signal-classifier, impact-analyzer, priority-ranker, report-generator, database-updater, archive-notifier, self-improvement-analyzer, and more (40 agent specs total).
 
-1. **Step 1.4** (optional): Review duplicate filtering
-2. **Step 2.5** (required): Review analysis and adjust priorities
-3. **Step 3.4** (required): Approve final report
+### Human-in-the-Loop Checkpoints (9 total)
+
+Per workflow (x4):
+1. **Phase 2.5** (required): Review analysis and adjust priorities
+2. **Phase 3.4** (required): Approve final report
+
+After integration (x1):
+3. **Integrated Report Approval** (required): Approve merged quadruple report
 
 ## Quick Start
 
@@ -83,29 +110,27 @@ Edit configuration files in `env-scanning/config/`:
 ### 3. Run First Scan
 
 ```bash
-# In Claude Code CLI
-/run-daily-scan
+# In Claude Code CLI — full quadruple scan (WF1 + WF2 + WF3 + WF4 + Integration)
+/env-scan:run
 ```
 
 The workflow will:
-1. Scan configured sources
-2. Filter duplicates
-3. Classify and analyze signals
-4. Pause for your review
-5. Generate Korean report
-6. Wait for final approval
+1. Execute WF1 (General), WF2 (arXiv), WF3 (Naver), WF4 (Multi&Global-News) sequentially
+2. Each workflow: scan sources → filter duplicates → classify → analyze → pause for review → generate report → wait for approval
+3. Merge all 4 approved reports into a unified integrated report
+4. Wait for final integrated report approval
 
 ### 4. Review and Approve
 
 ```bash
 # Check progress
-/status
+/env-scan:status
 
-# At Step 2.5 - Review analysis
-/review-analysis
+# At Phase 2.5 - Review analysis
+/env-scan:review-analysis
 
-# At Step 3.4 - Approve report
-/approve
+# At Phase 3.4 - Approve report
+/env-scan:approve
 ```
 
 ## Directory Structure
@@ -114,58 +139,75 @@ The workflow will:
 EnvironmentScan-system-main/
 ├── .claude/
 │   ├── agents/
-│   │   ├── env-scan-orchestrator.md
-│   │   └── workers/
-│   │       ├── archive-loader.md
-│   │       ├── multi-source-scanner.md
-│   │       ├── deduplication-filter.md
-│   │       └── ... (8 more workers)
+│   │   ├── master-orchestrator.md
+│   │   ├── env-scan-orchestrator.md              (WF1)
+│   │   ├── arxiv-scan-orchestrator.md             (WF2)
+│   │   ├── naver-scan-orchestrator.md             (WF3)
+│   │   ├── multiglobal-news-scan-orchestrator.md  (WF4)
+│   │   └── workers/                               (25+ shared workers)
 │   ├── skills/
 │   │   └── env-scanner/
 │   │       ├── SKILL.md
-│   │       └── references/
+│   │       └── references/                        (10 skeleton files)
 │   └── commands/
 │       └── env-scan/
 │           ├── run.md
 │           ├── status.md
-│           └── ... (4 more commands)
+│           └── ... (7 more commands)
 │
 ├── env-scanning/
 │   ├── config/
+│   │   ├── workflow-registry.yaml   ← SOT (Source of Truth)
+│   │   ├── core-invariants.yaml
 │   │   ├── domains.yaml
-│   │   ├── sources.yaml
+│   │   ├── sources.yaml             (WF1)
+│   │   ├── sources-arxiv.yaml       (WF2)
+│   │   ├── sources-naver.yaml       (WF3)
+│   │   ├── sources-multiglobal-news.yaml  (WF4)
 │   │   ├── thresholds.yaml
-│   │   └── ml-models.yaml
-│   ├── reports/
-│   │   ├── daily/
-│   │   └── archive/{year}/{month}/
-│   ├── signals/
-│   │   ├── database.json
-│   │   └── snapshots/
-│   ├── raw/
-│   ├── filtered/
-│   ├── structured/
-│   ├── analysis/
-│   └── logs/
+│   │   ├── translation-terms.yaml
+│   │   └── ... (12 config files total)
+│   ├── core/                        (33 Python modules)
+│   ├── scripts/                     (validation scripts)
+│   ├── wf1-general/                 ← WF1 data directory
+│   │   ├── raw/ structured/ filtered/ analysis/ signals/ reports/
+│   │   └── exploration/             (v2.5.0 source exploration)
+│   ├── wf2-arxiv/                   ← WF2 data directory
+│   │   └── raw/ structured/ filtered/ analysis/ signals/ reports/
+│   ├── wf3-naver/                   ← WF3 data directory
+│   │   └── raw/ structured/ filtered/ analysis/ signals/ reports/
+│   ├── wf4-multiglobal-news/        ← WF4 data directory
+│   │   └── raw/ structured/ filtered/ analysis/ signals/ reports/
+│   └── integrated/                  ← Merged output
+│       ├── reports/daily/
+│       ├── reports/archive/{year}/{month}/
+│       └── weekly/
 │
-├── tests/
+├── tests/                           (15 test files)
 │   ├── unit/
 │   ├── integration/
 │   └── e2e/
 │
+├── AGENTS.md                        ← Cross-platform methodology
+├── CLAUDE.md                        ← Claude Code directives
+├── GEMINI.md                        ← Gemini CLI directives
 └── README.md
 ```
 
 ## Available Commands
 
-- `/run-daily-scan` - Execute full workflow
-- `/status` - Check workflow progress
-- `/review-filter` - Review duplicate filtering (Step 1.4)
-- `/review-analysis` - Review analysis results (Step 2.5)
-- `/approve` - Approve final report (Step 3.4)
-- `/revision "feedback"` - Request report changes
-- `/trigger-delphi` - Manually activate expert validation
-- `/generate-scenarios` - Manually activate scenario builder
+| Command | Description |
+|---------|-------------|
+| `/env-scan:run` | Execute full quadruple scan (WF1 + WF2 + WF3 + WF4 + Integration) |
+| `/env-scan:run-arxiv` | WF2 standalone (arXiv only) |
+| `/env-scan:run-naver` | WF3 standalone (Naver News only) |
+| `/env-scan:run-multiglobal-news` | WF4 standalone (Multi&Global-News only) |
+| `/env-scan:run-weekly` | Weekly meta-analysis (no new scanning) |
+| `/env-scan:status` | Check current workflow progress |
+| `/env-scan:review-filter` | Review duplicate filtering results |
+| `/env-scan:review-analysis` | Review analysis and adjust priorities |
+| `/env-scan:approve` | Approve final report |
+| `/env-scan:revision` | Request report revision with feedback |
 
 ## STEEPs Framework
 
@@ -208,11 +250,12 @@ Check if sources are returning old content. Verify date filters in `config/sourc
 
 ### Issue: Database corruption
 
-Restore from snapshot:
+Restore from snapshot (each workflow has its own database):
 
 ```bash
-cp env-scanning/signals/snapshots/database-{recent-date}.json \
-   env-scanning/signals/database.json
+# Example for WF1:
+cp env-scanning/wf1-general/signals/snapshots/database-{recent-date}.json \
+   env-scanning/wf1-general/signals/database.json
 ```
 
 ### Issue: Classification errors
@@ -264,10 +307,11 @@ Agent (EN) → Output (EN) → Translation Agent → Output (KR)
 
 ## Version
 
-- **System Version**: 2.0.0 (Bilingual EN-KR)
-- **Workflow Version**: Enhanced Environmental Scanning v1.0
-- **Translation Layer**: v1.0
-- **Last Updated**: 2026-01-30
+- **System Version**: 2.5.0 (Quadruple Workflow, Bilingual EN-KR)
+- **Workflow Version**: Quadruple Environmental Scanning v2.5.0
+- **Architecture**: 40 agent specs, 33 Python modules, 12 config files, 10 skeleton files, 15 test files
+- **Validation**: 55 SOT checks (SOT-001~054), 12 validate_report profiles
+- **Last Updated**: 2026-02-24
 
 ## References
 

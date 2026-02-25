@@ -129,9 +129,9 @@ Every report must pass through all 4 layers:
 
 Required signal fields (9): 분류, 출처, 핵심 사실, 정량 지표, 영향도, 상세 설명, 추론, 이해관계자, 모니터링 지표.
 
-### 2.10 WF3-Specific Frameworks
+### 2.10 WF3/WF4-Shared Frameworks
 
-WF3 (Naver News) uses additional classification systems beyond STEEPs:
+WF3 (Naver News) and WF4 (Multi&Global-News) use additional classification systems beyond STEEPs:
 
 **FSSF 8-Type Classification** (Future Signal Scanning Framework):
 - Weak Signal, Wild Card, Discontinuity (CRITICAL priority)
@@ -144,13 +144,26 @@ WF3 (Naver News) uses additional classification systems beyond STEEPs:
 
 **Naver Section→STEEPs Mapping**: Defined in `env-scanning/config/sources-naver.yaml`. Each news section maps to a STEEPs category. READ the config file for current mappings — do not hardcode.
 
-### 2.11 Temporal Consistency (시간적 일관성)
+### 2.11 WF4-Specific Configuration
+
+WF4 (Multi&Global-News) shares FSSF, Three Horizons, and Tipping Point frameworks with WF3 but operates on a distinct source pool:
+
+- **Sources**: `env-scanning/config/sources-multiglobal-news.yaml` — 43 direct news sites across 11 languages
+- **Crawler**: `news_direct_crawler.py` — direct news site crawler with multilingual support
+- **Signal Processor**: `news_signal_processor.py` — FSSF/Three Horizons/Tipping Point adapted for multilingual news
+- **Orchestrator**: `multiglobal-news-scan-orchestrator.md`
+- **5 WF4-exclusive workers**: dedicated crawling, signal detection, pattern detection, alert dispatch, and language normalization agents
+- **Signal ID format**: `news-{YYYYMMDD}-{site_short}-{NNN}`
+
+> WF4's source configuration, site mappings, and language-specific settings are defined in `sources-multiglobal-news.yaml`. READ the config file — do not hardcode.
+
+### 2.12 Temporal Consistency (시간적 일관성)
 
 모든 일일 환경스캐닝은 마스터 오케스트레이터가 정의한 단일 시간 범위(scan window) 내에서 수행된다. 이것은 환경스캐닝의 가장 근본적인 원칙이다.
 
 - **T₀**: 마스터 오케스트레이터 실행 시작 시점 (anchor timestamp)
 - **Scan Window**: [T₀ - lookback_hours, T₀]
-- 모든 워크플로우(WF1, WF2, WF3)는 동일한 T₀를 기준으로 한다
+- 모든 워크플로우(WF1, WF2, WF3, WF4)는 동일한 T₀를 기준으로 한다
 - lookback_hours는 SOT에서 워크플로우별로 정의된다 (기본: 24시간)
 - 수집 시점(collection-time)과 수집 후(post-collection) 2중으로 시간 범위를 강제한다
 - 범위 외 시그널은 Pipeline Gate 1에서 프로그래매틱으로 제거된다
@@ -184,6 +197,7 @@ Before executing ANY workflow:
 | `env-scanning/config/sources.yaml` | WF1 source list (arXiv disabled) |
 | `env-scanning/config/sources-arxiv.yaml` | WF2 source list (arXiv only) |
 | `env-scanning/config/sources-naver.yaml` | WF3 source list (Naver News only) |
+| `env-scanning/config/sources-multiglobal-news.yaml` | WF4 source list (43 direct news sites, 11 languages) |
 | `env-scanning/config/thresholds.yaml` | Scoring thresholds, dedup parameters, AI confidence levels |
 | `env-scanning/config/translation-terms.yaml` | Korean translation term mappings |
 
@@ -200,6 +214,7 @@ Before executing ANY workflow:
 |--------------------|---------------------|----------|
 | `references/report-skeleton.md` | `references/report-skeleton-en.md` | WF1, WF2 |
 | `references/naver-report-skeleton.md` | `references/naver-report-skeleton-en.md` | WF3 |
+| `references/multiglobal-news-report-skeleton.md` | `references/multiglobal-news-report-skeleton-en.md` | WF4 |
 | `references/integrated-report-skeleton.md` | `references/integrated-report-skeleton-en.md` | Integration |
 | `references/weekly-report-skeleton.md` | `references/weekly-report-skeleton-en.md` | Weekly meta-analysis |
 
@@ -230,7 +245,7 @@ Phase 1: Research
   1.4 [Optional] Human review of filter results
 
 Phase 2: Planning
-  2.1 Classify into STEEPs (+ FSSF for WF3)
+  2.1 Classify into STEEPs (+ FSSF for WF3/WF4)
   2.2 Cross-impact analysis
   2.3 Priority ranking (weights defined in env-scanning/config/thresholds.yaml — tunable by SIE)
   2.4 [Optional] Scenario generation
@@ -260,7 +275,7 @@ Phase 3: Implementation
 ```
 env-scanning/
 ├── config/          ← All configuration files (SOT, sources, thresholds)
-├── core/            ← Python modules (17 modules)
+├── core/            ← Python modules (33 modules)
 ├── scripts/         ← Validation scripts
 ├── wf1-general/     ← WF1 data (raw/structured/filtered/analysis/signals/reports)
 │   ├── exploration/        ← Source exploration data (v2.5.0)
@@ -269,7 +284,7 @@ env-scanning/
 │   └── ...
 ├── wf2-arxiv/       ← WF2 data (same structure as WF1)
 ├── wf3-naver/       ← WF3 data (same structure + FSSF outputs)
-├── wf4-multiglobal-news/ ← WF4 data (same structure + FSSF + multilingual translation)
+├── wf4-multiglobal-news/ ← WF4 data (same structure + FSSF + Three Horizons + Tipping Point + multilingual)
 └── integrated/      ← Merged output (reports/daily, reports/archive, weekly/)
 ```
 
@@ -287,6 +302,7 @@ Raw signal files use `items[]` array. Each item contains:
 
 - WF1/WF2: `{source}-{YYYYMMDD}-{sequence}`
 - WF3: `naver-{YYYYMMDD}-{SID}-{NNN}`
+- WF4: `news-{YYYYMMDD}-{site_short}-{NNN}`
 - Exploration: `explore-{YYYYMMDD}-{source_name}-{NNN}`
 
 ---
@@ -297,12 +313,12 @@ Raw signal files use `items[]` array. Each item contains:
 |---|-----------|---------|
 | 1 | "Improve the tuning, never break the machine" | Only fine-tune parameters within bounds; never alter core structure |
 | 2 | Orchestrator-Worker Separation | Managers coordinate; workers execute. Never mix roles |
-| 3 | Human-in-the-Loop | 7 checkpoints ensure human oversight |
+| 3 | Human-in-the-Loop | 9 checkpoints ensure human oversight |
 | 4 | Quality-Based Progression | Advance by quality gates, not by time |
 | 5 | Controlled Source Management | Adding/removing sources requires user approval |
 | 6 | Bilingual Protocol | Internal: English. External: Korean |
 | 7 | Database Atomicity | Snapshot → Write → Restore on failure |
-| 8 | Workflow Independence | WF1/WF2/WF3 are invisible to each other |
+| 8 | Workflow Independence | WF1/WF2/WF3/WF4 are invisible to each other |
 
 ---
 
@@ -314,8 +330,8 @@ Raw signal files use `items[]` array. Each item contains:
 | Real-Time AI Delphi | ScienceDirect | Expert panel validation (Phase 1.5) |
 | Cross-Impact Analysis | Wiley Online Library | Impact matrix (Step 2.2) |
 | Millennium Project FRM 3.0 | millennium-project.org | Futures research methodology |
-| FSSF 8-Type Classification | Futures studies standard | WF3 signal classification |
-| Three Horizons | Curry & Hodgson | WF3 time horizon tagging |
+| FSSF 8-Type Classification | Futures studies standard | WF3/WF4 signal classification |
+| Three Horizons | Curry & Hodgson | WF3/WF4 time horizon tagging |
 
 ---
 
@@ -325,4 +341,4 @@ Raw signal files use `items[]` array. Each item contains:
 - **Validation at startup**: `validate_registry.py` must pass before any workflow executes. Failure = HALT.
 - **No source overlap**: No enabled source may appear in more than one workflow.
 - **SIE policy**: Each workflow runs its own Self-Improvement Engine independently. Shared configs (thresholds.yaml, domains.yaml) are NOT modifiable by SIE — they require user approval.
-- **Report-only integration**: The integration step merges final reports. It never accesses raw data or signal databases of individual workflows.
+- **Report-only integration**: The integration step merges 4 final reports. It never accesses raw data or signal databases of individual workflows.

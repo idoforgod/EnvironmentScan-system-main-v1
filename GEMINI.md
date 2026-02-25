@@ -10,7 +10,7 @@
 
 - **SOT validation**: Before running any workflow, execute `python3 env-scanning/scripts/validate_registry.py` and confirm exit code 0.
 - **Report validation**: After generating any report, execute `python3 env-scanning/scripts/validate_report.py <report_path> --profile <profile>` and confirm exit code 0.
-- Validation profiles: `standard` (WF1/WF2), `naver` (WF3), `integrated`, `weekly`.
+- Validation profiles: `standard` (WF1/WF2), `naver` (WF3), `multiglobal-news` / `multiglobal-news_en` (WF4), `integrated`, `weekly`.
 
 ### File Search
 
@@ -28,3 +28,4 @@ When looking for configuration or data files, refer to the SOT at `env-scanning/
 - Internal analysis and reasoning: English
 - All report output and user-facing content: Korean
 - STEEPs terminology must be preserved exactly during translation
+- **WF4 multilingual pipeline**: WF4 scans 43 global news sites in 11 languages. Source articles are translated to English during Phase 1 collection, then the final report follows the standard English-first → Korean translation pipeline. Use `translation_validator.py` to verify structural integrity after translation.

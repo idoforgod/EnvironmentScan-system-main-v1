@@ -1,0 +1,67 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-15",
+    "workflow": "wf3-naver",
+    "phase": "2.2-impact-analysis"
+  },
+  "cross_impact_matrix": {
+    "description": "Signal interaction analysis showing reinforcing and opposing relationships",
+    "interactions": [
+      {"signal_a": "TOP-001", "signal_b": "TOP-012", "type": "reinforcing", "note": "이란 군사긴장 + 유럽 안보자립 = 글로벌 안보 재편 가속"},
+      {"signal_a": "TOP-004", "signal_b": "TOP-005", "type": "reinforcing", "note": "삼성 HBM4 + TSMC 미국투자 = AI 반도체 공급망 재편"},
+      {"signal_a": "TOP-003", "signal_b": "TOP-013", "type": "reinforcing", "note": "청년 쉬었음 + AI 제작비절감 = AI 고용대체 구조화"},
+      {"signal_a": "TOP-002", "signal_b": "TOP-008", "type": "opposing", "note": "AI 군사화 vs 피지컬AI 민간 상용화 = 윤리적 경계선 충돌"},
+      {"signal_a": "TOP-006", "signal_b": "TOP-010", "type": "reinforcing", "note": "부동산 정책 + 소득 양극화 = 자산 불평등 구조 심화"}
+    ]
+  },
+  "tipping_point_detection": {
+    "alerts": [
+      {
+        "signal_id": "TOP-001",
+        "alert_level": "ORANGE",
+        "indicator": "Critical Slowing Down",
+        "evidence": "이란 핵 + 원유 차단 + 항모 전개 + 정권교체 발언 = 다중 긴장 요인 동시 수렴",
+        "threshold_proximity": 0.85
+      },
+      {
+        "signal_id": "TOP-003",
+        "alert_level": "YELLOW",
+        "indicator": "Flickering",
+        "evidence": "쉬었음 인구 278만 역대최다 → 고용시장 구조적 전환 신호, 월별 변동 패턴 확인 필요",
+        "threshold_proximity": 0.70
+      },
+      {
+        "signal_id": "TOP-009",
+        "alert_level": "YELLOW",
+        "indicator": "Critical Slowing Down",
+        "evidence": "김주애 후계 + 당대회 확정 + 러시아 파병 기념관 = 북한 체제 전환 압력 축적",
+        "threshold_proximity": 0.65
+      },
+      {
+        "signal_id": "TOP-012",
+        "alert_level": "YELLOW",
+        "indicator": "Flickering",
+        "evidence": "뮌헨안보회의 '파괴중' 보고서 + 유럽 핵억지 논의 = 나토 체제 요동",
+        "threshold_proximity": 0.60
+      }
+    ]
+  },
+  "anomaly_detection": {
+    "statistical_anomalies": [
+      {
+        "type": "keyword_cluster",
+        "signal_id": "TOP-002",
+        "anomaly": "AI 윤리 + 군사 계약 해지 최후통첩 = 기존 AI 윤리 담론 프레임 외부 사건",
+        "severity": "HIGH"
+      }
+    ],
+    "structural_anomalies": [
+      {
+        "type": "cross_domain",
+        "signal_id": "TOP-010",
+        "anomaly": "사업소득 격차 100배 돌파는 경제학 문헌에서 극단값(outlier) 수준",
+        "severity": "MEDIUM"
+      }
+    ]
+  }
+}

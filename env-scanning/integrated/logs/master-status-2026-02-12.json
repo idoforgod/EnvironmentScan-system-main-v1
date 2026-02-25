@@ -1,0 +1,56 @@
+{
+  "scan_date": "2026-02-12",
+  "system_version": "2.5.0",
+  "anchor_timestamp": "2026-02-11T23:58:38+00:00",
+  "status": "completed",
+  "completed_at": "2026-02-12T12:30:00+09:00",
+  "workflows": {
+    "wf1-general": {
+      "status": "completed",
+      "signals_collected": 30,
+      "signals_reported": 15,
+      "exploration_signals": 5,
+      "validation": "16/16 PASS",
+      "report": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-12.md",
+      "report_size_bytes": 49511
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "signals_collected": 612,
+      "categories_scanned": 155,
+      "query_groups": 22,
+      "unique_categories_observed": 127,
+      "signals_reported": 15,
+      "validation": "16/16 PASS",
+      "report": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-12.md",
+      "report_size_bytes": 53900,
+      "scanner_version": "v2.0.0"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "articles_crawled": 270,
+      "sections_crawled": 6,
+      "signals_reported": 15,
+      "fssf_types_covered": 8,
+      "tipping_points": 3,
+      "validation": "19/19 PASS",
+      "report": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-12.md",
+      "report_size_bytes": 79313
+    },
+    "integration": {
+      "status": "completed",
+      "total_signal_pool": 45,
+      "signals_reported": 20,
+      "wf_distribution": {"WF1": 7, "WF2": 6, "WF3": 7},
+      "validation": "18/18 PASS",
+      "report": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-12.md",
+      "report_size_bytes": 79573
+    }
+  },
+  "total_validation_checks": "69/69 PASS",
+  "improvements_this_session": [
+    "sources-arxiv.yaml v2.0.0: 36→155 categories in 22 query groups",
+    "arxiv_scanner.py v2.0.0: config-driven scanning + submittedDate API filter",
+    "HTTP→HTTPS URL normalization for all arXiv papers"
+  ]
+}

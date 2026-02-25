@@ -1,0 +1,195 @@
+{
+  "master_id": "triple-scan-2026-02-10-v221-test",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.2.1",
+  "started_at": "2026-02-10T10:56:39+00:00",
+  "completed_at": "2026-02-10T12:45:00+00:00",
+  "test_run": true,
+  "test_suffix": "-v221-test",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-10T10:56:39+00:00",
+    "checks_passed": 33,
+    "checks_total": 33,
+    "warnings": []
+  },
+  "temporal_anchor": {
+    "t0": "2026-02-10T10:56:39.359973+00:00",
+    "state_file": "env-scanning/integrated/logs/scan-window-2026-02-10-v221-test.json",
+    "generator": "temporal_anchor.py v1.0.0"
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-10-v221-test.md",
+      "archive_path": "env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-10-v221-test.md",
+      "signal_count": 20,
+      "temporal_gate": "PASS (20/20)",
+      "validation": "15/15 PASS (standard)",
+      "completed_at": "2026-02-10T11:15:00+00:00"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-10-v221-test.md",
+      "archive_path": "env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-10-v221-test.md",
+      "signal_count": 15,
+      "temporal_gate": "PASS (15/15)",
+      "validation": "15/15 PASS (standard)",
+      "completed_at": "2026-02-10T11:25:00+00:00"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-10-v221-test.md",
+      "archive_path": "env-scanning/wf3-naver/reports/archive/2026/02/environmental-scan-2026-02-10-v221-test.md",
+      "signal_count": 15,
+      "temporal_gate": "PASS (15/15)",
+      "validation": "15/15 PASS (standard)",
+      "fssf_distribution": {
+        "Weak Signal": 2,
+        "Trend": 5,
+        "Driver": 3,
+        "Emerging Issue": 3,
+        "Wild Card": 1,
+        "Precursor Event": 1
+      },
+      "tipping_alerts": {
+        "RED": 0,
+        "ORANGE": 1,
+        "YELLOW": 3,
+        "GREEN": 11
+      },
+      "completed_at": "2026-02-10T11:50:00+00:00"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent (agent-team fallback)",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-10-v221-test.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-10-v221-test.md",
+    "total_signals": 50,
+    "top_signals": 20,
+    "top20_distribution": {
+      "WF1": 8,
+      "WF2": 6,
+      "WF3": 6
+    },
+    "validation": "17/17 PASS (integrated)",
+    "completed_at": "2026-02-10T12:30:00+00:00"
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {
+      "decision": "approved",
+      "checkpoint": "1/7",
+      "description": "WF1 Analysis Review",
+      "timestamp": "2026-02-10T11:05:00+00:00"
+    },
+    "wf1_step_3_4": {
+      "decision": "approved",
+      "checkpoint": "2/7",
+      "description": "WF1 Report Approval",
+      "timestamp": "2026-02-10T11:15:00+00:00"
+    },
+    "wf2_step_2_5": {
+      "decision": "approved",
+      "checkpoint": "3/7",
+      "description": "WF2 Analysis Review",
+      "timestamp": "2026-02-10T11:20:00+00:00"
+    },
+    "wf2_step_3_4": {
+      "decision": "approved",
+      "checkpoint": "4/7",
+      "description": "WF2 Report Approval",
+      "timestamp": "2026-02-10T11:25:00+00:00"
+    },
+    "wf3_step_2_5": {
+      "decision": "approved",
+      "checkpoint": "5/7",
+      "description": "WF3 Analysis Review",
+      "timestamp": "2026-02-10T11:40:00+00:00"
+    },
+    "wf3_step_3_4": {
+      "decision": "approved",
+      "checkpoint": "6/7",
+      "description": "WF3 Report Approval",
+      "timestamp": "2026-02-10T11:50:00+00:00"
+    },
+    "integrated_final": {
+      "decision": "approved",
+      "checkpoint": "7/7",
+      "description": "Integrated Report Final Approval",
+      "timestamp": "2026-02-10T12:45:00+00:00"
+    }
+  },
+  "master_gates": {
+    "M1": {
+      "status": "PASS",
+      "description": "WF1 -> WF2 Transition",
+      "checks": "wf1_status_completed, wf1_report_exists, wf1_report_valid, wf1_gate3_passed, wf1_human_approvals",
+      "timestamp": "2026-02-10T11:16:00+00:00"
+    },
+    "M2": {
+      "status": "PASS",
+      "description": "WF2 -> WF3 Transition",
+      "checks": "wf2_status_completed, wf2_report_exists, wf2_report_valid, wf2_gate3_passed, wf2_human_approvals",
+      "timestamp": "2026-02-10T11:26:00+00:00"
+    },
+    "M2a": {
+      "status": "PASS",
+      "description": "WF3 -> Integration Transition",
+      "checks": "wf3_status_completed, wf3_report_exists, wf3_report_valid, wf3_gate3_passed, wf3_human_approvals, all_workflows_completed",
+      "timestamp": "2026-02-10T11:51:00+00:00"
+    },
+    "M3": {
+      "status": "PASS",
+      "description": "Final Completion",
+      "checks": "integrated_report_exists, integrated_report_valid, archive_stored, all_human_approvals, all_workflow_dbs_updated",
+      "timestamp": "2026-02-10T12:45:00+00:00"
+    }
+  },
+  "v221_test_results": {
+    "test_objective": "Validate SOT v2.2.1 temporal consistency Python enforcement modules",
+    "modules_tested": {
+      "temporal_anchor": {
+        "script": "env-scanning/core/temporal_anchor.py",
+        "verdict": "PASS",
+        "notes": "Generated deterministic T0 and per-workflow scan windows from SOT parameters"
+      },
+      "temporal_gate": {
+        "script": "env-scanning/core/temporal_gate.py",
+        "verdict": "PASS",
+        "notes": "All 50 signals (WF1:20 + WF2:15 + WF3:15) validated within scan windows"
+      },
+      "report_metadata_injector": {
+        "script": "env-scanning/core/report_metadata_injector.py",
+        "verdict": "PASS",
+        "notes": "Temporal placeholders injected into all 4 skeletons (WF1:4/4, WF2:4/4, WF3:4/4, INT:6/6)"
+      },
+      "validate_registry": {
+        "script": "env-scanning/scripts/validate_registry.py",
+        "verdict": "PASS",
+        "notes": "33/33 checks passed including new SOT-030 through SOT-032 temporal rules"
+      },
+      "validate_report": {
+        "script": "env-scanning/scripts/validate_report.py",
+        "verdict": "PASS",
+        "notes": "All 4 reports passed validation (WF1:15/15, WF2:15/15, WF3:15/15, INT:17/17)"
+      }
+    },
+    "temporal_consistency_summary": {
+      "anchor_timestamp": "2026-02-10T10:56:39.359973+00:00",
+      "wf1_window": "2026-02-09T10:56:39+00:00 to 2026-02-10T10:56:39+00:00 (24h)",
+      "wf2_window": "2026-02-08T10:56:39+00:00 to 2026-02-10T10:56:39+00:00 (48h)",
+      "wf3_window": "2026-02-09T10:56:39+00:00 to 2026-02-10T10:56:39+00:00 (24h)",
+      "total_signals_gated": 50,
+      "signals_passed": 50,
+      "signals_rejected": 0,
+      "gate_pass_rate": "100%"
+    },
+    "overall_verdict": "v2.2.1 temporal consistency Python enforcement VALIDATED",
+    "known_issues": [
+      "validate_report.py --profile naver not yet implemented (used standard profile for WF3)",
+      "Agent-team integration fell back to single-agent due to context constraints"
+    ]
+  }
+}

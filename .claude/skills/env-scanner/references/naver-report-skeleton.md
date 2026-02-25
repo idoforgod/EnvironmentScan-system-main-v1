@@ -9,6 +9,8 @@
 >
 > **WF3 특화 섹션**: FSSF 8-type 분류, Three Horizons 분포, 전환점(Tipping Point) 경고, 이상 탐지 결과
 >
+> **검증 프로파일**: `naver` (validate_report.py --profile naver)
+>
 > **작성 언어**: 한국어 (기술 용어, 고유명사, 약어는 영문 병기 허용)
 
 ---
@@ -28,6 +30,8 @@
 {{REPORT_HEADER_METADATA}}
 
 > **보고서 유형**: WF3 네이버 뉴스 환경스캐닝 (FSSF + Three Horizons + Tipping Point)
+> **스캔 시간 범위**: {{SCAN_WINDOW_START}} ~ {{SCAN_WINDOW_END}} ({{LOOKBACK_HOURS}}시간)
+> **기준 시점 (T₀)**: {{SCAN_ANCHOR_TIMESTAMP}}
 
 ---
 
@@ -81,6 +85,12 @@
 | H1 (0-2년) | {{H1_COUNT}} | {{H1_PCT}} | 현재 체제 내 변화 |
 | H2 (2-7년) | {{H2_COUNT}} | {{H2_PCT}} | 전환기 신호 |
 | H3 (7년+) | {{H3_COUNT}} | {{H3_PCT}} | 미래 체제 맹아 |
+
+### 전환점(Tipping Point) 경고 요약
+
+| 경고 수준 | 신호 수 | 핵심 신호 |
+|-----------|---------|----------|
+{{TIPPING_POINT_ALERT_SUMMARY}}
 
 {{ADDITIONAL_EXEC_SUMMARY}}
 
@@ -288,15 +298,29 @@
 
 ## 3. 기존 신호 업데이트
 
+> 활성 추적 스레드: {{EVOLUTION_ACTIVE_THREADS}}개 | 강화: {{EVOLUTION_STRENGTHENING_COUNT}}개 | 약화: {{EVOLUTION_WEAKENING_COUNT}}개 | 소멸: {{EVOLUTION_FADED_COUNT}}개
+
 ### 3.1 강화 추세 (Strengthening)
+
+{{EVOLUTION_TABLE_STRENGTHENING}}
 
 {{SECTION_3_1_CONTENT}}
 
 ### 3.2 약화 추세 (Weakening)
 
+{{EVOLUTION_TABLE_WEAKENING}}
+
 {{SECTION_3_2_CONTENT}}
 
 ### 3.3 신호 상태 요약
+
+| 상태 | 수 | 비율 |
+|------|---|------|
+| 신규 | {{EVOLUTION_NEW_COUNT}} | {{EVOLUTION_NEW_PCT}} |
+| 강화 | {{EVOLUTION_STRENGTHENING_COUNT}} | {{EVOLUTION_STRENGTHENING_PCT}} |
+| 반복 등장 | {{EVOLUTION_RECURRING_COUNT}} | {{EVOLUTION_RECURRING_PCT}} |
+| 약화 | {{EVOLUTION_WEAKENING_COUNT}} | {{EVOLUTION_WEAKENING_PCT}} |
+| 소멸 | {{EVOLUTION_FADED_COUNT}} | {{EVOLUTION_FADED_PCT}} |
 
 {{SECTION_3_3_CONTENT}}
 
@@ -371,7 +395,7 @@
 
 ---
 
-## 6. 플러서블 시나리오
+## 6. Plausible Scenarios(개연성 있는 시나리오)
 
 {{SECTION_6_SCENARIOS}}
 

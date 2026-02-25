@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "scan_date": "2026-02-18",
+  "workflow": "wf1-general",
+  "ranking_method": "pSST_weighted",
+  "total_ranked": 47,
+  "top_15": [
+    {"rank":1,"id":"wf1-20260218-020","title":"Iceberg Quantum Breaks RSA-2048 with <100K Qubits","category":"T","psst":94,"impact":"10/10","urgency":"CRITICAL"},
+    {"rank":2,"id":"wf1-20260218-005","title":"New START Treaty Expiration Risk — Nuclear Arms Control Gap","category":"P","psst":93,"impact":"10/10","urgency":"CRITICAL"},
+    {"rank":3,"id":"wf1-20260218-006","title":"Microsoft-Atom Computing Deliver First Error-Corrected Quantum Computer","category":"T","psst":92,"impact":"9/10","urgency":"HIGH"},
+    {"rank":4,"id":"wf1-20260218-010","title":"International AI Safety Report 2026 Published","category":"s","psst":91,"impact":"9/10","urgency":"HIGH"},
+    {"rank":5,"id":"wf1-20260218-009","title":"Deuterium-Tritium Fusion Fuel Cycle Demonstration","category":"T","psst":90,"impact":"9/10","urgency":"HIGH"},
+    {"rank":6,"id":"wf1-20260218-001","title":"WHO Pandemic Agreement Annex Negotiation Progress","category":"P","psst":89,"impact":"8/10","urgency":"HIGH"},
+    {"rank":7,"id":"wf1-20260218-013","title":"Greenland Records Warmest January Ever — 4x Faster Warming","category":"E_Environmental","psst":88,"impact":"9/10","urgency":"HIGH"},
+    {"rank":8,"id":"wf1-20260218-011","title":"CRISPR Breakthrough: Gene Activation Without DNA Cutting","category":"T","psst":87,"impact":"8/10","urgency":"HIGH"},
+    {"rank":9,"id":"wf1-20260218-004","title":"EU Countervailing Duty Amendment on Chinese EVs","category":"P","psst":86,"impact":"8/10","urgency":"HIGH"},
+    {"rank":10,"id":"wf1-20260218-042","title":"Global Trade Realignment Without US","category":"E","psst":86,"impact":"8/10","urgency":"HIGH"},
+    {"rank":11,"id":"wf1-20260218-030","title":"Colorado AI Act: Algorithmic Discrimination Requirements","category":"P","psst":85,"impact":"8/10","urgency":"HIGH"},
+    {"rank":12,"id":"wf1-20260218-017","title":"OECD: Global Growth Slowing to 2.9% in 2026","category":"E","psst":84,"impact":"7/10","urgency":"MEDIUM"},
+    {"rank":13,"id":"wf1-20260218-024","title":"Pew: 64% of US Teens Use AI Chatbots, 30% Daily","category":"S","psst":84,"impact":"7/10","urgency":"MEDIUM"},
+    {"rank":14,"id":"wf1-20260218-029","title":"International Ocean Treaty Enters Force","category":"E_Environmental","psst":83,"impact":"8/10","urgency":"MEDIUM"},
+    {"rank":15,"id":"wf1-20260218-008","title":"Tensor SAE Level 4 Consumer Autonomous Vehicle","category":"T","psst":83,"impact":"8/10","urgency":"MEDIUM"}
+  ],
+  "cross_impact_pairs": [
+    {"a":"wf1-20260218-020","b":"wf1-20260218-006","relationship":"mutual_reinforcement","strength":5,"note":"RSA-2048 break + error-corrected QC = quantum era acceleration"},
+    {"a":"wf1-20260218-020","b":"wf1-20260218-019","relationship":"causal","strength":4,"note":"Quantum crypto break → HKMA quantum preparedness urgency"},
+    {"a":"wf1-20260218-005","b":"wf1-20260218-038","relationship":"mutual_reinforcement","strength":5,"note":"New START expiry + Ukraine infrastructure attacks = nuclear risk escalation"},
+    {"a":"wf1-20260218-004","b":"wf1-20260218-042","relationship":"mutual_reinforcement","strength":4,"note":"EU-China EV tariffs + trade realignment = deglobalization acceleration"},
+    {"a":"wf1-20260218-010","b":"wf1-20260218-030","relationship":"mutual_reinforcement","strength":4,"note":"AI Safety Report + Colorado AI Act = converging AI governance"},
+    {"a":"wf1-20260218-013","b":"wf1-20260218-022","relationship":"responsive","strength":3,"note":"Arctic warming → India CCUS investment response"},
+    {"a":"wf1-20260218-017","b":"wf1-20260218-025","relationship":"mutual_reinforcement","strength":4,"note":"OECD + UNCTAD growth slowdown = synchronized global deceleration"}
+  ]
+}

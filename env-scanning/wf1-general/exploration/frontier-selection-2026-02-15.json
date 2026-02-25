@@ -1,0 +1,31 @@
+{
+  "selector": "frontier_selector.py",
+  "selector_version": "1.0.0",
+  "selected_at": "2026-02-15T02:44:36.613884+00:00",
+  "status": "SUCCESS",
+  "message": "Selected 3 keywords from 23 eligible",
+  "method": "weighted_random",
+  "selected_keywords": [
+    {
+      "keyword": "food systems innovation",
+      "category": "interdisciplinary",
+      "weight": 1.0
+    },
+    {
+      "keyword": "neurotechnology policy",
+      "category": "emerging_domains",
+      "weight": 1.0
+    },
+    {
+      "keyword": "Latin American sustainability news",
+      "category": "geographic",
+      "weight": 1.0
+    }
+  ],
+  "selected_count": 3,
+  "statistics": {
+    "total_keywords": 23,
+    "eligible_keywords": 23,
+    "excluded_count": 0
+  }
+}

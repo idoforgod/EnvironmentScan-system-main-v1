@@ -1,0 +1,178 @@
+{
+  "filter_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-12",
+    "total_raw": 30,
+    "total_duplicates": 0,
+    "total_new": 30,
+    "filter_rate": 0.0,
+    "avg_dedup_confidence": 0.98,
+    "stage_breakdown": {
+      "stage_1_url": 0,
+      "stage_2_string": 0,
+      "stage_3_semantic": 0,
+      "stage_4_entity": 0
+    },
+    "method": "4-stage cascade (URL, string, semantic, entity)",
+    "database_signals_checked_against": 476,
+    "includes_exploration_signals": true,
+    "exploration_signal_count": 5
+  },
+  "new_signals": [
+    {
+      "id": "wf1-20260212-001",
+      "title": "Microsoft Majorana 1 Topological Quantum Chip Unveiled",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-002",
+      "title": "Gold Breaches $5,000 Amid Fed Pivot Expectations",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-003",
+      "title": "Geoeconomic Confrontation Named World's Top Risk 2026",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-004",
+      "title": "US Jobs Report: Structural Labor Market Challenges",
+      "dedup_confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-005",
+      "title": "EPA Eliminates Clean Air Act Endangerment Finding",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-006",
+      "title": "New START Nuclear Treaty Expires",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-007",
+      "title": "Cerebras Raises $1B at $23B for AI Chip Alternative",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-008",
+      "title": "WHO: 40% of Cancer Cases Preventable",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-009",
+      "title": "China Clean Energy Drives 1/3 of GDP Growth",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-010",
+      "title": "Baby KJ: First Personalized CRISPR Gene-Editing Treatment",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-011",
+      "title": "US Federal Judge Rules Secret Climate Panel Unlawful",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-012",
+      "title": "Stanford Optical Cavities Enable Scalable Quantum Networking",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-013",
+      "title": "Global CBDC Race: Russia, Brazil, EU Digital Currencies",
+      "dedup_confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-014",
+      "title": "EU Targets Meta Over AI Assistants on WhatsApp (DMA)",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-015",
+      "title": "Sodium-Ion Batteries: Cheaper Alternative to Lithium",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-016",
+      "title": "Artemis II Moon Mission Delayed to March",
+      "dedup_confidence": 0.96
+    },
+    {
+      "id": "wf1-20260212-017",
+      "title": "AI Trustworthiness Shifts to Operational Necessity",
+      "dedup_confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-018",
+      "title": "Mechanistic Interpretability: 2026 Breakthrough Technology",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-019",
+      "title": "AI-Assisted Engineers Learn 25% Less",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-020",
+      "title": "Global Energy Storage to Exceed 100GW in 2026",
+      "dedup_confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-021",
+      "title": "Jimmy Lai Sentenced to 20 Years (Hong Kong)",
+      "dedup_confidence": 0.99
+    },
+    {
+      "id": "wf1-20260212-022",
+      "title": "~800 New Deep-Sea Species Found Before Mining",
+      "dedup_confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-023",
+      "title": "H-2B Visa Expanded: +64,716 for FY2026",
+      "dedup_confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-024",
+      "title": "Portugal Center-Left Defeats Far-Right in Runoff",
+      "dedup_confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-025",
+      "title": "US Patent Applications Drop 9%; Cell Tech Surges",
+      "dedup_confidence": 0.96
+    },
+    {
+      "id": "explore-20260212-ilo-001",
+      "title": "ILO: Global Jobs Gap Reaches 408 Million in 2026",
+      "dedup_confidence": 0.99,
+      "source_tier": "exploration"
+    },
+    {
+      "id": "explore-20260212-sd-001",
+      "title": "Climate Models Missing Key Ocean Player: Plankton Dissolution",
+      "dedup_confidence": 0.99,
+      "source_tier": "exploration"
+    },
+    {
+      "id": "explore-20260212-lt-001",
+      "title": "FDA Clears First Human Trial of Epigenetic Reprogramming",
+      "dedup_confidence": 0.99,
+      "source_tier": "exploration"
+    },
+    {
+      "id": "explore-20260212-sd-002",
+      "title": "Deep-Sea Chiton Named by Public Vote: 8,000 Submissions",
+      "dedup_confidence": 0.98,
+      "source_tier": "exploration"
+    },
+    {
+      "id": "explore-20260212-nasa-001",
+      "title": "NASA Perseverance AI-Driven Autonomous Navigation: 450m",
+      "dedup_confidence": 0.99,
+      "source_tier": "exploration"
+    }
+  ]
+}

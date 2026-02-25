@@ -1,0 +1,32 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-10",
+    "workflow": "wf2-arxiv",
+    "version": "2.2.1-test",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 15,
+    "scan_window": {
+      "start": "2026-02-08T10:56:39+00:00",
+      "end": "2026-02-10T10:56:39+00:00",
+      "lookback_hours": 48,
+      "temporal_gate_status": "PASS"
+    }
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "wf2-20260210-001", "title": "OpenCRISPR-1: AI-Designed Programmable Gene Editor", "category": "T", "psst": 90, "impact": 9.2, "priority_score": 93.5},
+    {"rank": 2, "id": "wf2-20260210-005", "title": "Climate-Biodiversity Destabilizing Feedback Loop", "category": "E_Environmental", "psst": 88, "impact": 8.8, "priority_score": 91.2},
+    {"rank": 3, "id": "wf2-20260210-006", "title": "Groundwater Depletion Acceleration Under Climate Change", "category": "E_Environmental", "psst": 87, "impact": 8.6, "priority_score": 89.8},
+    {"rank": 4, "id": "wf2-20260210-008", "title": "CRISPR-Cas9 for Alzheimer's and Parkinson's", "category": "T", "psst": 86, "impact": 8.4, "priority_score": 88.5},
+    {"rank": 5, "id": "wf2-20260210-004", "title": "LLM Rational Agency: Belief Coherence in Decision Making", "category": "T", "psst": 85, "impact": 8.0, "priority_score": 87.0},
+    {"rank": 6, "id": "wf2-20260210-009", "title": "AI Agents for Clinical Workflows", "category": "T", "psst": 84, "impact": 7.8, "priority_score": 85.6},
+    {"rank": 7, "id": "wf2-20260210-012", "title": "Income and Labour Productivity Losses from Climate Change", "category": "E", "psst": 83, "impact": 7.6, "priority_score": 84.3},
+    {"rank": 8, "id": "wf2-20260210-011", "title": "Carbon Credit Market Integrity: ML Detection", "category": "E_Environmental", "psst": 82, "impact": 7.4, "priority_score": 83.0},
+    {"rank": 9, "id": "wf2-20260210-014", "title": "AI-Revolutionized CRISPR Guide RNA Design", "category": "T", "psst": 81, "impact": 7.2, "priority_score": 81.8},
+    {"rank": 10, "id": "wf2-20260210-010", "title": "Quantum Deep Learning Still Needs a Quantum Leap", "category": "T", "psst": 80, "impact": 7.0, "priority_score": 80.5},
+    {"rank": 11, "id": "wf2-20260210-003", "title": "TraceCoder: Multi-Agent Automated Code Debugging", "category": "T", "psst": 79, "impact": 6.8, "priority_score": 79.2},
+    {"rank": 12, "id": "wf2-20260210-015", "title": "Global Dengue Incidence Projections Under Climate Change", "category": "S", "psst": 78, "impact": 7.0, "priority_score": 78.5},
+    {"rank": 13, "id": "wf2-20260210-013", "title": "QAOA Applied to Integer Optimization on Graphs", "category": "T", "psst": 77, "impact": 6.6, "priority_score": 77.1},
+    {"rank": 14, "id": "wf2-20260210-007", "title": "First-Order Temporal Logic Reward Specification in RL", "category": "T", "psst": 76, "impact": 6.4, "priority_score": 75.8},
+    {"rank": 15, "id": "wf2-20260210-002", "title": "Quantum Machine Learning Tutorial", "category": "T", "psst": 72, "impact": 5.0, "priority_score": 70.2}
+  ]
+}

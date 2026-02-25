@@ -1,0 +1,25 @@
+{
+  "ranking_metadata": {
+    "workflow_id": "wf3-naver",
+    "date": "2026-02-11",
+    "total_ranked": 15,
+    "ranking_method": "pSST_unified"
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "naver-20260211-100-001", "title": "트럼프, 철강·알루미늄 25% 관세 확정 — 한국 포함 전면 적용", "category": "P", "fssf_type": "Driver", "horizon": "H1", "psst_score": 93, "impact_score": 9.2, "priority_score": 9.1},
+    {"rank": 2, "id": "naver-20260211-101-001", "title": "TSMC 무관세 물량 빅테크 배분 — 반도체 관세 정책 2라운드 예고", "category": "E", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 91, "impact_score": 9.0, "priority_score": 8.9},
+    {"rank": 3, "id": "naver-20260211-104-001", "title": "트럼프, 온실가스 '위해성 판단' 폐지 추진 — 글로벌 기후 규제 후퇴", "category": "E_Environmental", "fssf_type": "Wild Card", "horizon": "H2", "psst_score": 90, "impact_score": 8.8, "priority_score": 8.7},
+    {"rank": 4, "id": "naver-20260211-102-001", "title": "의대 정원 5년간 3,300명 증원 확정 — 2027학년도 490명 시작", "category": "S", "fssf_type": "Trend", "horizon": "H2", "psst_score": 88, "impact_score": 8.5, "priority_score": 8.5},
+    {"rank": 5, "id": "naver-20260211-105-001", "title": "가트너 '2026년 말 기업 앱 40% AI 에이전트 탑재' 전망", "category": "T", "fssf_type": "Megatrend", "horizon": "H1", "psst_score": 87, "impact_score": 8.3, "priority_score": 8.3},
+    {"rank": 6, "id": "naver-20260211-101-002", "title": "대형마트 새벽배송 허용 — 유통업계 판도 변화 (CJ대한통운 +16.7%)", "category": "E", "fssf_type": "Discontinuity", "horizon": "H1", "psst_score": 86, "impact_score": 8.2, "priority_score": 8.2},
+    {"rank": 7, "id": "naver-20260211-100-002", "title": "공공부문 AI 도입 가속 — 행안부 'AI 민주정부' 실현 선언", "category": "P", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 85, "impact_score": 8.0, "priority_score": 8.0},
+    {"rank": 8, "id": "naver-20260211-102-002", "title": "주 4.5일제 시범 도입 — 정부 324억 원 예산 편성", "category": "S", "fssf_type": "Weak Signal", "horizon": "H2", "psst_score": 84, "impact_score": 7.8, "priority_score": 7.8},
+    {"rank": 9, "id": "naver-20260211-105-002", "title": "구글 TPU 아이언우드 출시 — 엔비디아 GPU 독점 도전", "category": "T", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 83, "impact_score": 7.7, "priority_score": 7.7},
+    {"rank": 10, "id": "naver-20260211-101-003", "title": "한국 수출 7,094억 달러 역대 최대 — 반도체·IT 19.9% 증가", "category": "E", "fssf_type": "Trend", "horizon": "H1", "psst_score": 82, "impact_score": 7.5, "priority_score": 7.5},
+    {"rank": 11, "id": "naver-20260211-104-002", "title": "북한 무인기 침투 — 통일부 '깊은 유감' 공식 표명", "category": "P", "fssf_type": "Precursor Event", "horizon": "H1", "psst_score": 81, "impact_score": 7.3, "priority_score": 7.3},
+    {"rank": 12, "id": "naver-20260211-101-004", "title": "외국인 주택 거래 규제 강화 — 2년 실거주·체류자격 확인 의무화", "category": "E", "fssf_type": "Trend", "horizon": "H1", "psst_score": 80, "impact_score": 7.2, "priority_score": 7.2},
+    {"rank": 13, "id": "naver-20260211-105-003", "title": "한국 AI 유망기업 100선 발표 — AIIA 산업생태계 지도 구축", "category": "T", "fssf_type": "Driver", "horizon": "H2", "psst_score": 79, "impact_score": 7.0, "priority_score": 7.0},
+    {"rank": 14, "id": "naver-20260211-103-001", "title": "농촌 기본소득 시범 지급 개시 — 2월 말 15만 원 월 지급", "category": "s", "fssf_type": "Weak Signal", "horizon": "H3", "psst_score": 78, "impact_score": 6.8, "priority_score": 6.8},
+    {"rank": 15, "id": "naver-20260211-100-003", "title": "산업안전 제재 강화 — 사망사고 반복 기업 영업정지·과징금 예고", "category": "P", "fssf_type": "Megatrend", "horizon": "H3", "psst_score": 77, "impact_score": 6.6, "priority_score": 6.6}
+  ]
+}

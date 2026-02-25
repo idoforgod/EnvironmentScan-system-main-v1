@@ -1,6 +1,6 @@
 # Core Invariants Definition
-# Version: 1.2.0
-# Last Updated: 2026-02-03
+# Version: 1.3.0
+# Last Updated: 2026-02-10
 #
 # This file defines the IMMUTABLE core elements of the environmental scanning
 # workflow. The Self-Improvement Engine (SIE) MUST check every proposed change
@@ -14,7 +14,7 @@
 # ============================================================================
 
 core_invariants:
-  version: "1.2.0"
+  version: "1.3.0"
 
   # --- Workflow Structure ---
   workflow_phases:
@@ -124,6 +124,42 @@ core_invariants:
     immutable: true
     internal_language: "en"
     external_language: "ko"
+
+  # --- Temporal Consistency (v1.3.0, 2026-02-10) ---
+  temporal_consistency:
+    description: >
+      모든 일일 환경스캐닝은 엄격한 시간적 범위(scan window) 내에서 수행되어야 한다.
+      마스터 오케스트레이터가 실행 시작 시점(T₀)을 기록하고, T₀를 기준으로
+      lookback_hours 이전까지의 콘텐츠만 수집 대상으로 한다. 이 시간 범위는
+      3개 워크플로우 모두에 동일한 T₀를 기준으로 적용된다. 시간적 일관성은
+      환경스캐닝의 가장 근본적인 원칙이며, 위반 시 스캔 결과의 비교 가능성,
+      추세 분석의 정확성, 일일 모니터링의 연속성이 모두 훼손된다.
+      "매 24시간 단위로 일정하고 고르고 지속적으로 변화를 모니터링한다"는
+      절대 원칙의 기술적 구현이다.
+    immutable: true
+    introduced: "2026-02-10"
+    incident_reference: "2026-02-10 시간적 일관성 위반 발견 (WF1: 37일, WF2: 33일, WF3: 9일)"
+
+    rules:
+      - id: "TC-001"
+        name: "Master Anchor Timestamp"
+        description: "마스터 오케스트레이터는 실행 시작 시 T₀를 기록하고 모든 WF에 전달해야 함"
+        enforcement: "master-orchestrator.md Step 0.3 scan_window"
+
+      - id: "TC-002"
+        name: "Uniform Scan Window"
+        description: "3개 WF 모두 동일한 T₀를 기준으로 [T₀ - lookback_hours, T₀] 범위를 사용"
+        enforcement: "workflow-registry.yaml system.temporal_consistency.anchor"
+
+      - id: "TC-003"
+        name: "Post-Collection Enforcement"
+        description: "수집 후 프로그래매틱 필터링으로 범위 외 시그널 강제 제거"
+        enforcement: "Pipeline Gate 1 temporal_boundary_check"
+
+      - id: "TC-004"
+        name: "Report Transparency"
+        description: "모든 보고서에 스캔 시간 범위를 명시"
+        enforcement: "report-skeleton {{SCAN_WINDOW_START/END}} placeholder"
 
   # --- Dual Workflow System (v1.2.0, 2026-02-03) ---
   dual_workflow_system:
@@ -287,6 +323,22 @@ tunable_parameters:
         max_value: 0.98
         max_delta_per_cycle: 0.05
 
+  # --- Dedup Gate Thresholds (v2.6.0) ---
+  # Deterministic Python pre-filter. These are the bounds for SOT-tunable thresholds.
+  dedup_gate_thresholds:
+    file: "config/workflow-registry.yaml"
+    fields:
+      - path: "system.dedup_gate.thresholds.topic_fingerprint_definite"
+        current_value: 0.60
+        min_value: 0.50      # Below 0.50 causes false positives (domain/geographic overlap)
+        max_value: 0.90
+        max_delta_per_cycle: 0.05
+      - path: "system.dedup_gate.thresholds.topic_fingerprint_uncertain"
+        current_value: 0.30
+        min_value: 0.15
+        max_value: 0.50      # Must remain < topic_fingerprint_definite
+        max_delta_per_cycle: 0.05
+
   # --- AI Confidence Levels ---
   ai_confidence_levels:
     file: "config/thresholds.yaml"
@@ -412,6 +464,69 @@ tunable_parameters:
         max_value: 0.40
         max_delta_per_cycle: 0.05
         constraint: "sum_of_all_weights_must_equal_1.0"
+
+  # --- Signal Evolution Thresholds (v2.3.0) ---
+  signal_evolution_thresholds:
+    file: "config/workflow-registry.yaml"
+    section: "system.signal_evolution"
+    fields:
+      - path: "system.signal_evolution.matching.title_similarity_threshold"
+        current_value: 0.80
+        min_value: 0.60
+        max_value: 0.95
+        max_delta_per_cycle: 0.05
+      - path: "system.signal_evolution.matching.semantic_similarity_threshold"
+        current_value: 0.70
+        min_value: 0.50
+        max_value: 0.90
+        max_delta_per_cycle: 0.05
+      - path: "system.signal_evolution.lifecycle.fade_threshold_days"
+        current_value: 3
+        min_value: 2
+        max_value: 7
+        max_delta_per_cycle: 1
+      - path: "system.signal_evolution.state_detection.strengthening_psst_delta"
+        current_value: 5
+        min_value: 3
+        max_value: 15
+        max_delta_per_cycle: 2
+      - path: "system.signal_evolution.state_detection.weakening_psst_delta"
+        current_value: -5
+        min_value: -15
+        max_value: -3
+        max_delta_per_cycle: 2
+      # Cross-workflow correlation thresholds (v2.3.1)
+      - path: "system.signal_evolution.cross_workflow_correlation.matching.title_similarity_threshold"
+        current_value: 0.75
+        min_value: 0.50
+        max_value: 0.90
+        max_delta_per_cycle: 0.05
+      - path: "system.signal_evolution.cross_workflow_correlation.matching.semantic_similarity_threshold"
+        current_value: 0.65
+        min_value: 0.40
+        max_value: 0.85
+        max_delta_per_cycle: 0.05
+
+  # --- Source Exploration Thresholds (v2.5.0) ---
+  source_exploration_thresholds:
+    file: "config/workflow-registry.yaml"
+    section: "workflows.wf1-general.parameters.source_exploration"
+    fields:
+      - path: "...source_exploration.coverage_gap_threshold"
+        current_value: 0.15
+        min_value: 0.05
+        max_value: 0.50
+        max_delta_per_cycle: 0.05
+      - path: "...source_exploration.max_candidates_per_scan"
+        current_value: 5
+        min_value: 1
+        max_value: 20
+        max_delta_per_cycle: 2
+      - path: "...source_exploration.min_signals_for_viable"
+        current_value: 2
+        min_value: 1
+        max_value: 10
+        max_delta_per_cycle: 1
 
   # --- Priority Scoring Weights ---
   priority_weights:

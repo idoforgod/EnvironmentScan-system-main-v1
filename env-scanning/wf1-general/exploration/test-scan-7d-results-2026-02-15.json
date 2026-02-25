@@ -1,0 +1,1102 @@
+{
+  "viable": [
+    {
+      "name": "Mongabay",
+      "url": "https://news.mongabay.com/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "discovery_query": "conservation environment Latin America sustainability",
+      "scan_status": "viable",
+      "signal_count": 10
+    },
+    {
+      "name": "STAT News",
+      "url": "https://www.statnews.com/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "S_Social",
+      "discovery_query": "health neurotechnology brain-computer interface policy",
+      "scan_status": "viable",
+      "signal_count": 10
+    },
+    {
+      "name": "DigitalFoodLab",
+      "url": "https://digitalfoodlab.com/feed/",
+      "type": "blog",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "discovery_query": "food systems innovation",
+      "frontier_keyword": "food systems innovation",
+      "scan_status": "viable",
+      "signal_count": 3
+    },
+    {
+      "name": "KDnuggets",
+      "url": "https://www.kdnuggets.com/feed",
+      "type": "blog",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "discovery_query": "AI ethics governance neurotechnology",
+      "frontier_keyword": "neurotechnology policy",
+      "scan_status": "viable",
+      "signal_count": 10
+    }
+  ],
+  "non_viable": [],
+  "signals": [
+    {
+      "id": "explore-20260215-mongabay-001",
+      "title": "When environmental reporting has to outlast the news cycle",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/short-article/2026/02/when-environmental-reporting-has-to-outlast-the-news-cycle/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "In parts of Africa most affected by biodiversity loss and climate stress, the problem is not an absence of events worth reporting. It is the difficulty of translating slow-moving ecological change, fragmented governance and contested evidence into journalism that travels beyond borders. The signals are often local, technical and politically inconvenient. Yet they shape global [&#8230;]",
+        "keywords": [
+          "when",
+          "environmental",
+          "reporting",
+          "outlast",
+          "news",
+          "cycle",
+          "parts",
+          "africa",
+          "most",
+          "affected"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Rhett Butler"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341072",
+      "original_scanner_id": "mongabay-d29bca66b5ef",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-002",
+      "title": "Storm aftermath leaves 2 dead in France; flood alerts to remain Saturday",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/short-article/2026/02/storm-aftermath-leaves-2-dead-in-france-flood-alerts-to-remain-saturday/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "PARIS (AP) — The aftermath of a deadly storm continued to disrupt parts of France on Friday, with flooding concerns persisting in the southwest even as wind alerts were lifted, according to weather service Météo-France. Government spokesperson Maud Bregeon said on TF1 that France had recorded two deaths linked to Storm Nils: one on Thursday [&#8230;]",
+        "keywords": [
+          "storm",
+          "aftermath",
+          "leaves",
+          "dead",
+          "france;",
+          "flood",
+          "alerts",
+          "remain",
+          "saturday",
+          "paris"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Mongabay Editor"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341180",
+      "original_scanner_id": "mongabay-4645229bcce7",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-003",
+      "title": "Forests don’t just store carbon. They keep people alive, scientists say",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/02/forests-dont-just-store-carbon-they-keep-people-alive-scientists-say/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "For decades, a dominant argument for protecting forests has focused on carbon. Trees absorb carbon dioxide, store it in wood and soils, and slow the accumulation of greenhouse gases. A new scientific review suggests this emphasis overlooks other ways forests shape climate and human well-being. Forests, it argues, are not only a mitigation tool for [&#8230;]",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Rhett Butler"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341249",
+      "original_scanner_id": "mongabay-266aa74e1a4d",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-004",
+      "title": "Insects are moving pharmaceutical pollutants from rivers to land; risks unknown",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/02/insects-are-moving-pharmaceutical-pollutants-from-rivers-to-land-risks-unknown/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Pharmaceuticals that people globally rely on for daily health — including antibiotics, antidepressants and painkillers — are entering ecosystems via wastewater, posing poorly understood risks. Once there, aquatic insects can accumulate these chemical contaminants, with their predators transporting them back onto land, raising concern among scientists. A recent paper found that a host of pharmaceuticals [&#8230;]",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Glenn Scherer"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341317",
+      "original_scanner_id": "mongabay-b94a8a97f6e9",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-005",
+      "title": "Baby gorilla seized from traffickers languishes in Turkish zoo",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/02/baby-gorilla-seized-from-traffickers-languishes-in-turkish-zoo/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "In December 2024, Turkish customs officers were flummoxed when they discovered a malnourished baby gorilla in the cargo hold of an airplane flying from Nigeria to Bangkok, transiting via Istanbul. Wearing a soiled T-shirt, the 5-month-old infant was shoved inside a wooden crate falsely declared to contain 50 rabbits. After a social media campaign, he [&#8230;]",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Sharon Guynup"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341374",
+      "original_scanner_id": "mongabay-d44a89b7dbd3",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-006",
+      "title": "From land acquisitions to local ownership: Alternatives for carbon offsetting (commentary)",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/02/from-land-acquisitions-to-local-ownership-alternatives-for-carbon-offsetting-commentary/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The voluntary carbon market and the business of carbon offsetting have faced increasing criticism in recent years, not only for the systematic overestimation of emission reductions, but also because projects have frequently had adverse effects on local livelihoods, particularly in the Global South, where many land-intensive projects are located. From the perspective of the Land [&#8230;]",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Erik Hoffner"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341432",
+      "original_scanner_id": "mongabay-b191afe09376",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-007",
+      "title": "The bug that makes bubbles with its butt: Froghopper",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/short-article/2026/02/the-bug-that-makes-bubbles-with-its-butt-froghopper/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Meet the froghopper: a tiny insect that builds a bubble fortress out of sap, pee and air to protect itself from predators. Fully grown, it’s one of the best jumpers on Earth, leaping to heights nearly 100 times its body length. This is Episode 6 of Stranger Creatures, a series where biologist Romi Castagnino ventures [&#8230;]",
+        "keywords": [
+          "that",
+          "makes",
+          "bubbles",
+          "butt:",
+          "froghopper",
+          "meet",
+          "froghopper:",
+          "tiny",
+          "insect",
+          "that"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Sam Lee"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341500",
+      "original_scanner_id": "mongabay-76165d1bf748",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-008",
+      "title": "Thousands of peat fires flare across Indonesia despite rainy season",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/02/thousands-of-peat-fires-flare-across-indonesia-despite-rainy-season/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "JAKARTA — Satellite imagery recorded more than 5,000 fire hotspots on peatlands across Indonesia in January, despite the fact that much of the country remains firmly in the grip of the rainy season. Independent watchdog Pantau Gambut identified 5,490 hotspots within peatlands, perennially waterlogged ecosystems that store massive amounts of carbon dioxide. Official monitoring also [&#8230;]",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Hans Nicholas Jong"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341560",
+      "original_scanner_id": "mongabay-cf0085b41c1a",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-009",
+      "title": "US cuts legal foundation for federal climate regulation",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/short-article/2026/02/us-cuts-legal-foundation-for-federal-climate-regulation/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "On Feb. 12, the United States repealed the so-called endangerment finding, a 2009 cornerstone rule that enabled the federal government to regulate greenhouse gas emissions as a pollutant. Established under former President Barack Obama, the rule codified the long-held scientific consensus that anthropogenic greenhouse gas emissions “threaten the public health and welfare of current and [&#8230;]",
+        "keywords": [
+          "cuts",
+          "legal",
+          "foundation",
+          "federal",
+          "climate",
+          "regulation",
+          "feb.",
+          "united",
+          "states",
+          "repealed"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Karen Coates"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T11:47:53.341640",
+      "original_scanner_id": "mongabay-fcf735826aec",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-mongabay-010",
+      "title": "The business case for biodiversity",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/02/the-business-case-for-biodiversity/",
+        "published_date": "2026-02-12",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "In Manchester this week, governments endorsed a report that tries to do something business has long resisted: treat biodiversity as economically material. The new assessment from the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES) argues that the loss of nature is no longer an environmental side issue. It is a systemic risk to firms, [&#8230;]",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.mongabay.com/feed/",
+        "author": "Rhett Butler"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.341696",
+      "original_scanner_id": "mongabay-4c76499d8f56",
+      "exploration_source": "Mongabay"
+    },
+    {
+      "id": "explore-20260215-stat-news-001",
+      "title": "STAT+: In court, AAP argues Kennedy’s HHS made unlawful changes to vaccine policies",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/rfk-jr-vaccine-lawsuit-pediatricians-challenge-acip-policy-changes/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "After a day of oral arguments in a packed courtroom, a Boston federal judge did not rule from the bench on a lawsuit from AAP against HHS focused on vaccines.",
+        "keywords": [
+          "politics",
+          "hhs",
+          "legal",
+          "public health",
+          "vaccines"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Anil Oza"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420076",
+      "original_scanner_id": "stat-news-802c0f15a117",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-002",
+      "title": "STAT+: FDA rejects rare disease therapy from Disc Medicine, early recipient of commissioner’s voucher",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/disc-medicine-fda-decision/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The FDA has rejected a rare disease therapy from Disc Medicine, an early recipient of a commissioner's voucher from the agency.",
+        "keywords": [
+          "biotech",
+          "breaking news",
+          "biotechnology",
+          "fda",
+          "pharmaceuticals",
+          "stat+"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Lizzy Lawrence and Adam Feuerstein"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:53.420128",
+      "original_scanner_id": "stat-news-01e2c02e44be",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-003",
+      "title": "Major shakeup underway at HHS as White House braces for midterms",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/hhs-leadership-changes-rfk-jr-hhs-midterm-elections/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Several senior officials are exiting RFK Jr.'s department amid an effort to focus on drug pricing and food issues.",
+        "keywords": [
+          "breaking news",
+          "health",
+          "politics",
+          "cdc",
+          "cms",
+          "hhs",
+          "policy",
+          "public health",
+          "rfk jr.",
+          "white house"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Chelsea Cirruzzo"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420169",
+      "original_scanner_id": "stat-news-76aeef7dd9a0",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-004",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/pharmalot/2026/02/13/pharma-biotech-jobs-lexeo-sanofi-ocugen/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+        "keywords": [
+          "pharmalot",
+          "biotechnology",
+          "jobs",
+          "pharmaceuticals",
+          "stat+"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Ed Silverman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:53.420208",
+      "original_scanner_id": "stat-news-9c51cf56db95",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-005",
+      "title": "STAT+: Pediatricians confront HHS in vaccine showdown",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/biotech-news-pediatricians-confront-hhs-vaccine-showdown/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "And other biotech news brought to you by The Readout",
+        "keywords": [
+          "biotech",
+          "business",
+          "pharma",
+          "the readout",
+          "biotechnology",
+          "drug development",
+          "drug prices",
+          "research"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Meghana Keshavan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:53.420240",
+      "original_scanner_id": "stat-news-5a11139bcbc3",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-006",
+      "title": "STAT+: Pharmalittle: We’re reading about Lilly bulking up on weight-loss drugs, scrutiny of a 340B contractor, and more",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/pharmalot/2026/02/13/lilly-glp1-obesity-340b-nih-hiv-aids/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "And other pharma news from the Pharmalot campus today",
+        "keywords": [
+          "pharmalot",
+          "pharmalittle",
+          "stat+"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Ed Silverman"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420271",
+      "original_scanner_id": "stat-news-f7767719f993",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-007",
+      "title": "HHS shakes ups key advisers",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/health-news-hhs-shakes-up-key-advisors/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "And other health news from the Morning Rounds newsletter",
+        "keywords": [
+          "health",
+          "morning rounds",
+          "health care"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "O. Rose Broderick"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420295",
+      "original_scanner_id": "stat-news-937139376be1",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-008",
+      "title": "STAT+: How pediatricians found themselves at war with RFK Jr.",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/american-academy-pediatrics-becomes-maha-vaccine-foil/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The AAP has become a leading opponent of MAHA and RFK Jr.'s vaccine agenda.",
+        "keywords": [
+          "health",
+          "politics",
+          "children's health",
+          "hhs",
+          "legal",
+          "physicians",
+          "policy",
+          "rfk jr.",
+          "vaccines"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Daniel Payne"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420329",
+      "original_scanner_id": "stat-news-479e389adea1",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-009",
+      "title": "Opinion: America’s disease surveillance system is going dark. Here’s what we can build to replace it",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/cdc-surveillance-dismantled-rebuild-early-warning-systems/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "America’s disease surveillance system is broken. Here’s how to replace it.",
+        "keywords": [
+          "first opinion",
+          "cdc",
+          "congress",
+          "infectious disease",
+          "policy",
+          "public health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "Robert B. Shpiner"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420366",
+      "original_scanner_id": "stat-news-4526c80eb531",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-stat-news-010",
+      "title": "Opinion: Pharmacist oversight must be built into prescription kiosks",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/pharmacy-kiosks-automated-medication-dispensing-safety/?utm_campaign=rss",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Pharmacy kiosks can expand access and convenience, but only when paired with pharmacist-led safeguards that ensure safe and coordinated medication use.",
+        "keywords": [
+          "first opinion",
+          "pharmaceuticals"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.statnews.com/feed/",
+        "author": "T. Joseph Mattingly II and Mark A. Munger"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:53.420399",
+      "original_scanner_id": "stat-news-3c553b50d4e8",
+      "exploration_source": "STAT News"
+    },
+    {
+      "id": "explore-20260215-digitalfoodlab-001",
+      "title": "Video – State of AgriFoodTech trends in 2026",
+      "source": {
+        "name": "DigitalFoodLab",
+        "type": "blog",
+        "url": "https://digitalfoodlab.com/webinar-agrifoodtech-trends-2026/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Following the release of DigitalFoodLab&#8217;s report on FoodTech trends, we organised a webinar to : 1 &#8211; Present the trends as we see them in 2026 […] L’article Video &#8211; State of AgriFoodTech trends in 2026 est apparu en premier sur DigitalFoodLab.",
+        "keywords": [
+          "news",
+          "speaking",
+          "video"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://digitalfoodlab.com/feed/",
+        "author": "Matthieu Vincent"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:55.392565",
+      "original_scanner_id": "digitalfoodlab-0ea5478528a5",
+      "exploration_source": "DigitalFoodLab"
+    },
+    {
+      "id": "explore-20260215-digitalfoodlab-002",
+      "title": "Four signals on why the food industry maybe loosing the control of its future",
+      "source": {
+        "name": "DigitalFoodLab",
+        "type": "blog",
+        "url": "https://digitalfoodlab.com/four-signals-on-why-the-food-industry-maybe-loosing-the-control-of-its-future/",
+        "published_date": "2026-02-09",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "I’d like to share four graphs with you, all of which give an uncomfortable signal. Even if these different “stories” relate to topics as diverse as […] L’article Four signals on why the food industry maybe loosing the control of its future est apparu en premier sur DigitalFoodLab.",
+        "keywords": [
+          "à la une",
+          "news",
+          "top insights",
+          "graphs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://digitalfoodlab.com/feed/",
+        "author": "Matthieu Vincent"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:55.392633",
+      "original_scanner_id": "digitalfoodlab-d66365a6ffe8",
+      "exploration_source": "DigitalFoodLab"
+    },
+    {
+      "id": "explore-20260215-digitalfoodlab-003",
+      "title": "18 FoodTech news to know this week (2026 – week #7)",
+      "source": {
+        "name": "DigitalFoodLab",
+        "type": "blog",
+        "url": "https://digitalfoodlab.com/18-foodtech-news-to-know-this-week-2026-week-7/",
+        "published_date": "2026-02-09",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "💸 Funding news 🇦🇪🍽️ Kitopi, a UAE startup and cloud-kitchen operator, raised $50M in growth debt to expand its own brands and franchise model across the Gulf countries. […] L’article 18 FoodTech news to know this week (2026 – week #7) est apparu en premier sur DigitalFoodLab.",
+        "keywords": [
+          "news",
+          "top deals"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://digitalfoodlab.com/feed/",
+        "author": "Matthieu Vincent"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:55.392723",
+      "original_scanner_id": "digitalfoodlab-5dc25fd9a65d",
+      "exploration_source": "DigitalFoodLab"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-001",
+      "title": "Building Vertex AI Search Applications: A Comprehensive Guide",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/building-vertex-ai-search-applications-a-comprehensive-guide",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Building Vertex AI Search Applications: A Comprehensive Guide",
+        "keywords": [
+          "building",
+          "vertex",
+          "search",
+          "applications:",
+          "comprehensive",
+          "guide",
+          "building",
+          "vertex",
+          "search",
+          "applications:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Rachel Kuznetsov"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.429836",
+      "original_scanner_id": "kdnuggets-cc298f842aaa",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-002",
+      "title": "12 Python Libraries You Need to Try in 2026",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/12-python-libraries-you-need-to-try-in-2026",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "12 Python Libraries You Need to Try in 2026",
+        "keywords": [
+          "python",
+          "libraries",
+          "need",
+          "2026",
+          "python",
+          "libraries",
+          "need",
+          "2026"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Kanwal Mehreen"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.429891",
+      "original_scanner_id": "kdnuggets-735f97bce746",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-003",
+      "title": "My Honest And Candid Review of Abacus AI Deep Agent",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/2025/02/abacus/my-honest-and-candid-review-of-abacus-ai-deep-agent",
+        "published_date": "2026-02-12",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "My Honest And Candid Review of Abacus AI Deep Agent",
+        "keywords": [
+          "honest",
+          "candid",
+          "review",
+          "abacus",
+          "deep",
+          "agent",
+          "honest",
+          "candid",
+          "review",
+          "abacus"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "KDnuggets"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.429938",
+      "original_scanner_id": "kdnuggets-4e6b3a389e66",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-004",
+      "title": "Building Practical MLOps for a Personal ML Project",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/building-practical-mlops-for-a-personal-ml-project",
+        "published_date": "2026-02-12",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Building Practical MLOps for a Personal ML Project",
+        "keywords": [
+          "building",
+          "practical",
+          "mlops",
+          "personal",
+          "project",
+          "building",
+          "practical",
+          "mlops",
+          "personal",
+          "project"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Nate Rosidi"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.429985",
+      "original_scanner_id": "kdnuggets-735e93b18d6c",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-005",
+      "title": "Top 5 Embedding Models for Your RAG Pipeline",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/top-5-embedding-models-for-your-rag-pipeline",
+        "published_date": "2026-02-12",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Top 5 Embedding Models for Your RAG Pipeline",
+        "keywords": [
+          "embedding",
+          "models",
+          "your",
+          "pipeline",
+          "embedding",
+          "models",
+          "your",
+          "pipeline"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Abid Ali Awan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.430029",
+      "original_scanner_id": "kdnuggets-2c39978c9d70",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-006",
+      "title": "Why Most People Misuse SMOTE, And How to Do It Right",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/why-most-people-misuse-smote-and-how-to-do-it-right",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Why Most People Misuse SMOTE, And How to Do It Right",
+        "keywords": [
+          "most",
+          "people",
+          "misuse",
+          "smote,",
+          "right",
+          "most",
+          "people",
+          "misuse",
+          "smote,",
+          "right"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Iván Palomares Carrascosa"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.430067",
+      "original_scanner_id": "kdnuggets-a0e112c9b557",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-007",
+      "title": "Versioning and Testing Data Solutions: Applying CI and Unit Tests on Interview-style Queries",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/versioning-and-testing-data-solutions-applying-ci-and-unit-tests-on-interview-style-queries",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Versioning and Testing Data Solutions: Applying CI and Unit Tests on Interview-style Queries",
+        "keywords": [
+          "versioning",
+          "testing",
+          "data",
+          "solutions:",
+          "applying",
+          "unit",
+          "tests",
+          "interview-style",
+          "queries",
+          "versioning"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Nate Rosidi"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.430114",
+      "original_scanner_id": "kdnuggets-58e564628e67",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-008",
+      "title": "What Every Small Business Needs to Know About Agentic AI",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://bit.ly/3NWvOYo",
+        "published_date": "2026-02-10",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "What Every Small Business Needs to Know About Agentic AI",
+        "keywords": [
+          "what",
+          "every",
+          "small",
+          "business",
+          "needs",
+          "know",
+          "about",
+          "agentic",
+          "what",
+          "every"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Ingram Micro"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.430152",
+      "original_scanner_id": "kdnuggets-689baa2a0598",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-009",
+      "title": "AI Agents Explained in 3 Levels of Difficulty",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/ai-agents-explained-in-3-levels-of-difficulty",
+        "published_date": "2026-02-10",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "AI Agents Explained in 3 Levels of Difficulty",
+        "keywords": [
+          "agents",
+          "explained",
+          "levels",
+          "difficulty",
+          "agents",
+          "explained",
+          "levels",
+          "difficulty"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Bala Priya C"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.430188",
+      "original_scanner_id": "kdnuggets-441eb295452a",
+      "exploration_source": "KDnuggets"
+    },
+    {
+      "id": "explore-20260215-kdnuggets-010",
+      "title": "Building Your Modern Data Analytics Stack with Python, Parquet, and DuckDB",
+      "source": {
+        "name": "KDnuggets",
+        "type": "blog",
+        "url": "https://www.kdnuggets.com/building-your-modern-data-analytics-stack-with-python-parquet-and-duckdb",
+        "published_date": "2026-02-10",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Building Your Modern Data Analytics Stack with Python, Parquet, and DuckDB",
+        "keywords": [
+          "building",
+          "your",
+          "modern",
+          "data",
+          "analytics",
+          "stack",
+          "python,",
+          "parquet,",
+          "duckdb",
+          "building"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.kdnuggets.com/feed",
+        "author": "Bala Priya C"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T11:47:56.430228",
+      "original_scanner_id": "kdnuggets-6f68a70f47f5",
+      "exploration_source": "KDnuggets"
+    }
+  ],
+  "scan_results": {
+    "Mongabay": {
+      "signal_count": 10,
+      "url": "https://news.mongabay.com/feed/",
+      "status": "scanned"
+    },
+    "STAT News": {
+      "signal_count": 10,
+      "url": "https://www.statnews.com/feed/",
+      "status": "scanned"
+    },
+    "DigitalFoodLab": {
+      "signal_count": 3,
+      "url": "https://digitalfoodlab.com/feed/",
+      "status": "scanned"
+    },
+    "KDnuggets": {
+      "signal_count": 10,
+      "url": "https://www.kdnuggets.com/feed",
+      "status": "scanned"
+    }
+  }
+}

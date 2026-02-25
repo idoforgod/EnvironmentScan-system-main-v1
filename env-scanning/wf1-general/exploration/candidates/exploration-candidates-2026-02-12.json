@@ -1,0 +1,63 @@
+{
+  "date": "2026-02-12",
+  "total_candidates_discovered": 4,
+  "viable_candidates": [
+    {
+      "name": "International Labour Organization (ILO)",
+      "url": "https://www.ilo.org/",
+      "rss_url": "https://www.ilo.org/resource/news/rss",
+      "type": "policy",
+      "steeps_focus": ["S_Social"],
+      "reliability": "HIGH",
+      "signals_found": 1,
+      "viable": true,
+      "health_check": "PASS",
+      "notes": "UN agency -- authoritative global employment and social trends data. Fills Social gap."
+    },
+    {
+      "name": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/",
+      "rss_url": "https://www.sciencedaily.com/rss/all.xml",
+      "type": "academic",
+      "steeps_focus": ["T_Technological", "E_Environmental", "S_Social"],
+      "reliability": "HIGH",
+      "signals_found": 2,
+      "viable": true,
+      "health_check": "PASS",
+      "notes": "Science news aggregator -- broad STEEPs coverage. Excellent for interdisciplinary signals."
+    },
+    {
+      "name": "Longevity Technology",
+      "url": "https://longevity.technology/",
+      "rss_url": null,
+      "type": "blog",
+      "steeps_focus": ["T_Technological", "s_spiritual"],
+      "reliability": "MEDIUM",
+      "signals_found": 1,
+      "viable": true,
+      "health_check": "PASS",
+      "notes": "Specialized longevity/anti-aging news. Frontier domain with ethical implications."
+    }
+  ],
+  "non_viable_candidates": [
+    {
+      "name": "Space.com",
+      "url": "https://www.space.com",
+      "type": "blog",
+      "steeps_focus": ["T_Technological"],
+      "reliability": "MEDIUM",
+      "signals_found": 1,
+      "viable": true,
+      "health_check": "PASS",
+      "notes": "Overlaps heavily with existing NASA Climate Change source. Viable but redundant for T category."
+    }
+  ],
+  "gap_analysis_result": {
+    "pre_exploration_gaps": ["S_Social (12%)", "E_Economic (8%)", "s_spiritual (8%)"],
+    "post_exploration_improvement": {
+      "S_Social": "12% -> 16% (2 new signals: ILO jobs gap, citizen science engagement)",
+      "E_Economic": "8% -> unchanged (no new E signals found in exploration)",
+      "s_spiritual": "8% -> 10% (1 new signal: longevity paradigm shift)"
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "analysis_date": "2026-02-13",
+    "workflow": "wf2-arxiv",
+    "sie_version": "1.0.0",
+    "analyzer": "self-improvement-analyzer",
+    "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-13.md",
+    "priority_ranked_path": "env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-13.json",
+    "signal_db_path": "env-scanning/wf2-arxiv/signals/database.json",
+    "signal_db_total": 110,
+    "prior_sie_runs": 0,
+    "is_first_run": true
+  },
+
+  "status": "completed",
+  "applied_count": 0,
+  "proposed_count": 0,
+  "blocked_count": 0,
+  "deferred_reason": "First SIE run for WF2 -- insufficient history (0 prior runs, minimum 3 required). All parameter tuning suggestions are deferred. This run establishes the baseline.",
+
+  "quality_assessment": {
+    "overall_grade": "A-",
+    "overall_score": 91,
+    "grade_rationale": "Report passes all 16/16 programmatic validation checks. Full 9-field completeness across all 15 signals. Excellent word count (8,644 words, ~66KB). Strong analytical depth in sections 4-6. Minor deductions for pSST score compression and STEEPs category imbalance (T dominance).",
+
+    "dimensions": {
+      "nine_field_completeness": {
+        "grade": "A",
+        "score": 98,
+        "details": "All 15 signals contain all 9 required fields (bunryu, chulcheo, haeksim sasilm, jeongyang jipyo, yeonghyangdo, sangse seolmyeong, churon, ihaegwangye-ja, monitoring jipyo). Every field has substantive content, not filler. Signals 11-15 have full depth equal to signals 1-10 (W7 FIXED)."
+      },
+      "steeps_balance": {
+        "grade": "B",
+        "score": 72,
+        "details": {
+          "distribution": {
+            "T_Technological": 8,
+            "E_Environmental": 2,
+            "P_Political": 2,
+            "S_Social": 1,
+            "E_Economic": 1,
+            "s_spiritual": 1
+          },
+          "coverage": "6/6 categories represented (100% coverage)",
+          "imbalance_note": "T_Technological dominates at 53.3%. This is structurally expected for arXiv (WF2) given cs.* category dominance, but S_Social (6.7%) and s_spiritual (6.7%) representation is thin. The s_spiritual signal in metadata (count=1) has no corresponding signal block in priority-ranked data -- all 15 signals are classified as T/E/P/S/E_Eco. This is a metadata inconsistency.",
+          "metadata_discrepancy": "priority-ranked-2026-02-13.json steeps_distribution claims s_spiritual=1, but no signal in the signals[] array has steeps=s_spiritual. The report exec summary also claims s(value/ethics)=1 but section 8.2 notes '(no separate detection today, existing tracking maintained)'. This suggests the count was carried from historical tracking, not from today's 15 signals.",
+          "recommendation": "For future scans, ensure steeps_distribution in priority-ranked metadata counts only today's detected signals, not historical tracking states."
+        }
+      },
+      "psst_score_distribution": {
+        "grade": "B+",
+        "score": 78,
+        "details": {
+          "range": {
+            "min": 85.0,
+            "max": 93.5,
+            "spread": 8.5,
+            "mean": 88.67,
+            "median": 88.5
+          },
+          "score_list": [93.5, 92.0, 91.5, 90.5, 90.0, 89.5, 89.0, 88.5, 88.0, 87.5, 87.0, 86.5, 86.0, 85.5, 85.0],
+          "compression_analysis": "8.5pt spread across 15 signals is moderate compression. The 1.0pt step between most adjacent scores suggests scoring may be over-linear. The top cluster (93.5-90.0, 5 signals) and bottom cluster (87.5-85.0, 5 signals) show reasonable differentiation. W2 (pSST score compression) is PARTIALLY ADDRESSED -- spread improved from prior reports' ~11pt range to a similar range here, but the near-linear stepping (0.5-1.5pt gaps) could benefit from more varied intervals.",
+          "grade_distribution": {
+            "grade_A_very_high_90plus": 5,
+            "grade_B_confident_70_89": 10,
+            "grade_C_low_50_69": 0,
+            "grade_D_very_low_below_50": 0
+          }
+        }
+      },
+      "format_compliance": {
+        "grade": "A",
+        "score": 100,
+        "details": {
+          "validate_report_result": "16/16 PASS (0 CRITICAL, 0 ERROR failures)",
+          "sections_present": 8,
+          "signal_blocks": 15,
+          "cross_impact_pairs": 5,
+          "subsections_5": ["5.1", "5.2", "5.3"],
+          "subsections_3": ["3.1", "3.2", "3.3"],
+          "subsections_4": ["4.1", "4.2"],
+          "placeholder_tokens": 0,
+          "scan_window_declared": true,
+          "signal_evolution_present": true
+        }
+      },
+      "impact_scale_consistency": {
+        "grade": "A",
+        "score": 100,
+        "details": "All 15 signals use consistent X/10 format. Range: 7/10 to 10/10. No instances of X/5, +X.X, or other inconsistent formats. W1 (Impact scale inconsistency) is CONFIRMED FIXED."
+      },
+      "analytical_depth": {
+        "grade": "A",
+        "score": 93,
+        "details": {
+          "cross_impact_pairs": 5,
+          "emerging_themes": 4,
+          "scenarios": 3,
+          "signal_evolution_tracking": {
+            "strengthening": 5,
+            "weakening": 2,
+            "fading": 0,
+            "active_threads": 95
+          },
+          "strategic_implications_subsections": 3,
+          "quality_note": "Cross-impact analysis identifies non-obvious connections (e.g., quantum qubit cloning <-> code security as parallel security-functionality trade-offs). Scenarios are differentiated by probability and timeframe. Section 3 signal evolution tracking is substantive with specific evidence for each state change."
+        }
+      },
+      "word_count_and_language": {
+        "grade": "A",
+        "score": 95,
+        "details": {
+          "total_words": 8644,
+          "file_size_bytes": 67454,
+          "korean_char_ratio_pass": true,
+          "bilingual_protocol": "Korean primary with English technical terms -- compliant"
+        }
+      }
+    }
+  },
+
+  "weakness_status": {
+    "W1_impact_scale_inconsistency": {
+      "status": "FIXED",
+      "evidence": "All 15 signals use X/10 format consistently (7/10 to 10/10)."
+    },
+    "W2_psst_score_compression": {
+      "status": "PARTIALLY_ADDRESSED",
+      "evidence": "8.5pt spread (85.0-93.5) with near-linear 0.5-1.5pt stepping. Compression is less severe than early reports but still present. The lack of Level 2 advanced scoring data may contribute to ceiling effects.",
+      "recommendation": "Consider enabling Level 2 pSST criteria (methodology, replication, data_transparency under SR; momentum, has_update under TC; semantic_distance, information_gain under DC) for WF2 signals to enable wider differentiation above the 85pt band."
+    },
+    "W3_cross_workflow_analysis_formulaic": {
+      "status": "NOT_APPLICABLE",
+      "evidence": "This weakness applies to integrated reports, not individual WF reports."
+    },
+    "W4_churon_field_too_shallow": {
+      "status": "FIXED",
+      "evidence": "All 15 signals have substantive 'churon' (reasoning/inference) fields with specific predictions, timeframe estimates, and actionable implications. Average length exceeds 100 words per signal."
+    },
+    "W5_steeps_category_imbalance": {
+      "status": "ACKNOWLEDGED_STRUCTURAL",
+      "evidence": "T_Technological at 53.3% is structurally expected for arXiv. All 6 STEEPs categories are represented, which is the best achievable balance for WF2. s_spiritual representation is nominal (metadata only, no actual signal block).",
+      "note": "STEEPs imbalance in WF2 is a feature of the source, not a quality defect. WF1 and WF3 provide complementary coverage."
+    },
+    "W6_unicode_arrow": {
+      "status": "FIXED",
+      "evidence": "All cross-impact pairs use the correct Unicode bidirectional arrow character (U+2194). 5 instances found in section 4.1."
+    },
+    "W7_signals_11_15_condensed": {
+      "status": "FIXED",
+      "evidence": "Signals 11-15 have full 9-field treatment with equivalent depth to signals 1-10. Each contains substantive content in all fields including detailed sangse seolmyeong (150+ words) and churon (100+ words)."
+    },
+    "W8_report_length_disparity": {
+      "status": "ACCEPTABLE",
+      "evidence": "8,644 words / 67KB is well above the 5,000-word minimum and provides sufficient depth. Within expected range for a 15-signal WF2 report."
+    }
+  },
+
+  "analysis_areas": {
+    "area_1_threshold_tuning": {
+      "status": "deferred",
+      "reason": "First SIE run. No historical comparison available. Will establish baseline for future runs.",
+      "baseline_recorded": {
+        "dedup_stage_2_threshold": 0.9,
+        "dedup_stage_3_threshold": 0.8,
+        "dedup_stage_4_threshold": 0.85,
+        "ai_confidence_high": 0.9,
+        "ai_confidence_medium": 0.7,
+        "priority_weights": {
+          "impact": 0.40,
+          "probability": 0.30,
+          "urgency": 0.20,
+          "novelty": 0.10
+        }
+      },
+      "observations": [
+        "Dedup removed 0 signals this run (arXiv ID exact matching is highly effective for WF2)",
+        "All 15 signals passed dedup cascade -- no false positives observed",
+        "pSST scores cluster in 85-93.5 range; Level 2 scoring not yet active"
+      ]
+    },
+    "area_2_agent_performance": {
+      "status": "deferred",
+      "reason": "First SIE run. No execution timing data available in standardized format.",
+      "observations": [
+        "Report generation completed successfully on first attempt (no retries needed)",
+        "Validation passed 16/16 checks"
+      ]
+    },
+    "area_3_classification_quality": {
+      "status": "deferred",
+      "reason": "First SIE run. No human correction data available yet.",
+      "baseline_recorded": {
+        "steeps_distribution_2026_02_13": {
+          "T": 8,
+          "E_Env": 2,
+          "P": 2,
+          "S": 1,
+          "E_Eco": 1,
+          "s": 0
+        },
+        "note": "Actual signal count is 15 across 5 categories (not 6). s_spiritual metadata entry is a tracking artifact, not a detected signal."
+      },
+      "issues_found": [
+        {
+          "id": "CQ-001",
+          "severity": "LOW",
+          "description": "STEEPs metadata discrepancy: priority-ranked JSON claims s_spiritual=1 but no signal in the data has steeps=s_spiritual. The report section 8.2 acknowledges this with '(no separate detection today, existing tracking maintained)'. This should be corrected in future runs -- steeps_distribution should reflect only the current scan's signals.",
+          "recommendation": "Fix metadata generation to count actual signal classifications, not carry forward historical categories."
+        }
+      ]
+    },
+    "area_4_workflow_efficiency": {
+      "status": "deferred",
+      "reason": "First SIE run. Phase timing data not available in standardized metrics format.",
+      "observations": [
+        "Signal DB grew from 95 to 110 signals (15 new, 0 duplicates)",
+        "5 scan history entries in database spanning 2026-02-03 to 2026-02-13",
+        "Scan window correctly set to 48 hours (matching WF2 arXiv lookback)"
+      ]
+    },
+    "area_5_hallucination_tracking": {
+      "status": "baseline_established",
+      "reason": "First SIE run. Recording baseline indicators.",
+      "baseline_recorded": {
+        "fabrication_indicators": 0,
+        "id_format_violations": 0,
+        "url_format": "All 15 signals use valid arxiv.org/abs/YYMM.NNNNN format",
+        "date_anomalies": 0,
+        "placeholder_tokens": 0,
+        "verification_warnings": 0
+      },
+      "observations": [
+        "All 15 arXiv IDs follow the 2602.NNNNN format consistently",
+        "All publication dates fall within the declared scan window (2026-02-10 to 2026-02-12)",
+        "Author names appear consistent with arXiv metadata conventions",
+        "No signs of fabricated citations or phantom sources",
+        "Report correctly notes arXiv preprint limitations in section 7"
+      ]
+    },
+    "area_6_source_exploration": {
+      "status": "not_applicable",
+      "reason": "Source exploration is WF1-only (workflow independence). WF2 uses arXiv exclusively. No exploration data exists for WF2.",
+      "wf1_exploration_noted": "WF1 has exploration data for 2026-02-12 and 2026-02-13 (frontier-selection, candidates, merge-report files observed). This is tracked by WF1's own SIE cycle, not WF2's."
+    }
+  },
+
+  "parameter_tuning_suggestions": {
+    "status": "deferred_all",
+    "reason": "Requires minimum 3 prior SIE runs with historical metrics. This is run 0 (baseline establishment).",
+    "future_candidates": [
+      {
+        "parameter": "psst_scoring.level2_config.enabled",
+        "current": true,
+        "observation": "Level 2 scoring is configured as enabled, but actual Level 2 criteria data (methodology, replication, data_transparency for SR; momentum, has_update for TC; semantic_distance, information_gain for DC) does not appear to be actively populated. This may contribute to pSST compression in the 85-93 band.",
+        "action_when_eligible": "After 3 runs, if pSST compression persists, propose MAJOR change to implement Level 2 data collection in the arXiv scanner pipeline."
+      },
+      {
+        "parameter": "steeps_distribution_metadata",
+        "current": "includes historical tracking",
+        "observation": "Metadata counts include s_spiritual=1 but no actual signal was classified as s_spiritual in this scan.",
+        "action_when_eligible": "After confirming this is a recurring pattern across 3+ runs, propose MINOR metadata generation fix."
+      }
+    ]
+  },
+
+  "source_promotion_candidates": {
+    "status": "not_applicable",
+    "reason": "WF2 uses arXiv exclusively. Source promotion is a WF1 concept (exploration tier to expansion tier). No exploration candidates exist for WF2."
+  },
+
+  "applied_changes": [],
+  "pending_proposals": [],
+  "blocked_attempts": [],
+
+  "historical_comparison": {
+    "status": "insufficient_history",
+    "runs_available": 0,
+    "runs_required": 3,
+    "note": "This run establishes the baseline. Historical metrics will be compared starting from SIE run 3."
+  },
+
+  "signal_db_health": {
+    "total_signals": 110,
+    "scan_history_entries": 5,
+    "growth_trajectory": [
+      {"date": "2026-02-03", "added": 15, "cumulative": 15},
+      {"date": "2026-02-04", "added": 15, "cumulative": 30},
+      {"date": "2026-02-05", "added": 35, "cumulative": 65},
+      {"date": "2026-02-12", "added": 15, "cumulative": 80},
+      {"date": "2026-02-13", "added": 15, "cumulative": 95}
+    ],
+    "note": "DB reports 110 total but scan_history adds to 95. The 15-signal gap suggests the 2026-02-05 batch of 35 may include pre-existing signals or there is a counting methodology difference. Not a quality issue but worth noting for future SIE tracking.",
+    "uniqueness": "No duplicate arXiv IDs detected in today's 15 signals vs existing DB."
+  },
+
+  "recommendations_for_next_run": [
+    "Establish standardized quality-metrics JSON output (logs/quality-metrics/workflow-wf2-YYYY-MM-DD.json) for automated SIE trend analysis",
+    "Fix steeps_distribution metadata to count only current scan signals (not historical tracking artifacts)",
+    "Consider populating Level 2 pSST criteria in arXiv scanner to enable wider score differentiation",
+    "After 3 SIE runs with metrics, enable threshold tuning analysis for dedup and confidence parameters",
+    "Track pSST score compression trend -- if spread remains under 10pt across 3+ runs, investigate Level 2 activation"
+  ],
+
+  "execution_proof": {
+    "analysis_start": "2026-02-13",
+    "input_files_read": [
+      "env-scanning/config/core-invariants.yaml",
+      "env-scanning/config/self-improvement-config.yaml",
+      "env-scanning/config/thresholds.yaml",
+      "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-13.md",
+      "env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-13.json",
+      "env-scanning/wf2-arxiv/signals/database.json"
+    ],
+    "validation_run": "validate_report.py --profile standard: 16/16 PASS",
+    "core_invariants_checked": true,
+    "sie_enabled": true,
+    "safety_limits_respected": true
+  }
+}

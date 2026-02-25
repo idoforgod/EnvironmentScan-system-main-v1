@@ -16,13 +16,42 @@ Collect weak signals from diverse sources, applying STEEPs framework (Social, Te
 ### Runtime Parameters
 ```yaml
 runtime_params:
-  --days-back: 7          # Lookback period (default: 7 days)
-  --tier: "base|expansion" # Source tier filter (v3.0.0+)
-                           #   base: Only base-tier sources
-                           #   expansion: Only expansion-tier sources (Stage B)
-  --time-budget: null      # Time budget in seconds (optional, for Stage B)
-                           # When set, scanner stops after this many seconds elapsed
+  --lookback-hours: 24     # Scan window lookback (default: 24h, from scan_window.lookback_hours)
+  --days-back: null         # DEPRECATED — use --lookback-hours instead
+  --tier: "base|expansion"  # Source tier filter (v3.0.0+)
+                            #   base: Only base-tier sources
+                            #   expansion: Only expansion-tier sources (Stage B)
+  --time-budget: null       # Time budget in seconds (optional, for Stage B)
+                            # When set, scanner stops after this many seconds elapsed
+  # ── 시간적 일관성 파라미터 (v2.2.0 — from orchestrator's scan_window) ──
+  --scan-window-start: null # ISO8601 timestamp — window start (T₀ - lookback_hours)
+  --scan-window-end: null   # ISO8601 timestamp — window end (T₀)
+  --scan-tolerance-min: 30  # Tolerance in minutes for publish date comparison
+  --scan-enforce: "strict"  # "strict" = hard filter, "lenient" = warn only
 ```
+
+### TEMPORAL CONSISTENCY (시간적 일관성 — v2.2.0, updated v2.2.1)
+
+> **v2.2.1 Update**: `--scan-window-start`/`--scan-window-end` 값은 이제 WF 오케스트레이터가
+> `scan_window_state_file`(temporal_anchor.py가 생성)에서 추출하여 전달한다.
+> 이 워커는 state file을 직접 읽지 않는다 — 오케스트레이터가 값을 전달한다.
+> 수집 이후, Pipeline Gate 1에서 `temporal_gate.py`가 Python 결정론적 최종 검증을 수행한다.
+
+This scanner MUST enforce temporal boundaries at two levels:
+
+**Level 1: Collection-Time Filtering**
+- When constructing search queries (WebSearch, API calls), use `--scan-window-start` and `--scan-window-end` as date range bounds
+- This reduces the volume of out-of-window signals collected in the first place
+
+**Level 2: Post-Collection Filtering (MANDATORY)**
+- After all signals are collected, programmatically filter out any signal whose `published_date` falls outside `[scan_window_start - tolerance, scan_window_end]`
+- This is the safety net — even if a source API ignores date filters, out-of-range signals are removed here
+- Log every removed signal: `"TC-filter: removed {id} (pub: {date}, window: [{start}, {end}])"`
+
+**Parameter Resolution**:
+- If `--scan-window-start` and `--scan-window-end` are provided (from orchestrator), use them directly
+- If not provided (standalone mode), compute: `end = now()`, `start = now() - timedelta(hours=lookback_hours)`
+- `--lookback-hours` takes precedence over deprecated `--days-back`
 
 **Tier Filtering Behavior**:
 - `--tier base` (or omitted): Scan sources where `tier: "base"` or `tier` field is absent (backward compatible)
@@ -70,6 +99,11 @@ output:
       sources_scanned: Integer
       total_items: Integer
       execution_time: Float
+      scan_window:                # v2.2.0 — temporal consistency proof
+        start: String (ISO8601)   # Window start used for this scan
+        end: String (ISO8601)     # Window end (T₀)
+        lookback_hours: Integer
+        tc_filtered_count: Integer  # Number of signals removed by post-collection filter
     items: Array<RawSignal>
 
   shared_context_update:
@@ -164,11 +198,12 @@ def scan_academic_source(source, domains):
     for category, keywords in domains['STEEPs'].items():
         query = build_search_query(keywords)
 
-        # Search with date filter (last 7 days)
+        # Search with date filter (from scan_window, NOT hardcoded)
         results = search_api(
             endpoint=source['api_endpoint'],
             query=query,
-            date_from=today() - timedelta(days=7),
+            date_from=scan_window_start,   # From --scan-window-start
+            date_to=scan_window_end,       # From --scan-window-end
             max_results=50
         )
 
@@ -245,7 +280,8 @@ def scan_policy_source(source, domains):
     results = fetch_rss_or_api(
         endpoint=source['endpoint'],
         keywords=policy_keywords,
-        date_from=today() - timedelta(days=7)
+        date_from=scan_window_start,   # From --scan-window-start
+        date_to=scan_window_end         # From --scan-window-end
     )
 
     for result in results:
@@ -283,7 +319,8 @@ def scan_blog_source(source, domains):
         results = search_blog_api(
             endpoint=source['api_endpoint'],
             query=query,
-            published_after=today() - timedelta(days=7)
+            published_after=scan_window_start,  # From --scan-window-start
+            published_before=scan_window_end     # From --scan-window-end
         )
 
         for result in results:
@@ -753,10 +790,11 @@ def test_scanner_output():
     sources = {item['source']['name'] for item in output['items']}
     assert len(sources) >= 3, f"Only {len(sources)} sources scanned (expected >= 3)"
 
-    # Test 6: Recency check
+    # Test 6: Temporal window check (TC-003)
     for item in output['items']:
         pub_date = parse_date(item['source']['published_date'])
-        assert today() - pub_date <= timedelta(days=30), "Old items included"
+        assert pub_date >= scan_window_start - timedelta(minutes=scan_tolerance), "Signal before scan window"
+        assert pub_date <= scan_window_end, "Signal after scan window"
 
     log("PASS", "Multi-source scanner output validation passed")
 ```

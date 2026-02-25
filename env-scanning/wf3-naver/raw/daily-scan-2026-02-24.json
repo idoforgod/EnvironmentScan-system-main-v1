@@ -1,0 +1,568 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf3-naver",
+    "scan_date": "2026-02-24",
+    "scan_window": {
+      "start": "2026-02-23T20:44:18+00:00",
+      "end": "2026-02-24T20:44:18+00:00",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "anchor_timestamp": "2026-02-24T20:44:18+00:00",
+    "source": "NaverNews",
+    "total_signals_collected": 30,
+    "execution_proof": {
+      "execution_id": "wf3-scan-2026-02-24-20-44-18-b7c3",
+      "started_at": "2026-02-24T20:44:18+00:00",
+      "completed_at": "2026-02-24T21:15:00+00:00",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": ["NaverNews"],
+      "file_created_at": "2026-02-24T21:15:00+00:00"
+    }
+  },
+  "items": [
+    {
+      "id": "naver-20260224-100-001",
+      "title": "US Supreme Court Rules Trump Reciprocal Tariffs Unlawful Under IEEPA",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/politics/20260221",
+        "published_date": "2026-02-21T09:00:00+09:00",
+        "section": "politics"
+      },
+      "content": {
+        "abstract": "The US Supreme Court issued a final ruling that President Trump's reciprocal tariffs imposed on global trading partners were unlawful under IEEPA. An estimated $142-250 billion in tariffs collected in 2025 are subject to refund. Korean exports in autos, electronics, and steel are expected to receive refunds worth trillions of won. Trump responded by signing an executive order imposing a 10% global tariff under Trade Act Section 122, later raising it to 15%.",
+        "keywords": ["US Supreme Court", "IEEPA", "reciprocal tariffs", "Korea trade", "tariff refund", "Trump"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:50:00+00:00"
+    },
+    {
+      "id": "naver-20260224-100-002",
+      "title": "Korea-Brazil Summit Elevates Ties to Strategic Partnership",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/politics/20260224",
+        "published_date": "2026-02-24T10:00:00+09:00",
+        "section": "politics"
+      },
+      "content": {
+        "abstract": "President Lee Jae-myung and Brazilian President Lula held a summit upgrading bilateral relations to a 'Strategic Partnership' for the first time in 67 years of diplomatic ties. The two leaders adopted a 4-year action plan and signed MOUs across 10 fields including health and agriculture. Both leaders expressed interest in a Korea-Mercosur trade agreement.",
+        "keywords": ["Korea-Brazil", "strategic partnership", "Lula", "Lee Jae-myung", "Mercosur", "trade agreement"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:51:00+00:00"
+    },
+    {
+      "id": "naver-20260224-100-003",
+      "title": "US-Iran Military Confrontation Risk at Peak: Oil Prices Surge 4%",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/world/20260224",
+        "published_date": "2026-02-24T08:00:00+09:00",
+        "section": "world"
+      },
+      "content": {
+        "abstract": "The US has amassed the largest military force in the Middle East since the 2003 Iraq invasion — two aircraft carriers, 50+ fighter jets (F-35, F-22, F-16). Trump set a 10-15 day deadline for Iran nuclear talks. Experts estimate 90% probability of US-Iran clash within weeks. Oil prices surged 4% to six-month highs. Hormuz Strait closure would devastate global oil supply.",
+        "keywords": ["US-Iran", "military confrontation", "oil prices", "Hormuz Strait", "Middle East crisis", "aircraft carrier"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:52:00+00:00"
+    },
+    {
+      "id": "naver-20260224-100-004",
+      "title": "Kim Yo-jong Promoted to Department Director at 9th WPK Congress",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/politics/20260224b",
+        "published_date": "2026-02-24T07:00:00+09:00",
+        "section": "politics"
+      },
+      "content": {
+        "abstract": "Kim Yo-jong, North Korea's Workers' Party vice department director, was promoted to full department director (equivalent to a cabinet minister) at the 9th WPK Congress. This solidifies her position as second-in-command. The promotion signals continued centralization of power in the Kim family and has implications for inter-Korean relations and North Korean nuclear diplomacy.",
+        "keywords": ["Kim Yo-jong", "North Korea", "WPK Congress", "promotion", "inter-Korean relations", "nuclear diplomacy"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:53:00+00:00"
+    },
+    {
+      "id": "naver-20260224-100-005",
+      "title": "Chungnam-Daejeon Administrative Integration Bill Stalls in National Assembly",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/politics/20260224c",
+        "published_date": "2026-02-24T12:00:00+09:00",
+        "section": "politics"
+      },
+      "content": {
+        "abstract": "President Lee stated 'we cannot force it unilaterally' regarding the stalled Chungnam-Daejeon administrative integration bill. The bill failed to pass the National Assembly Judiciary Committee on Feb 24, effectively ruling out both Chungnam-Daejeon and Gyeongbuk-Daegu mergers before the June 3 local elections. This impacts Korea's administrative reform and regional governance restructuring agenda.",
+        "keywords": ["administrative integration", "Chungnam-Daejeon", "local elections", "governance reform"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:54:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-001",
+      "title": "Samsung and SK Hynix Begin World-First HBM4 Mass Production",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260213",
+        "published_date": "2026-02-23T09:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "Samsung Electronics began the world's first mass production of 6th-generation HBM4 on Feb 12, 2026 — 3-4 months ahead of original mid-2026 schedule. HBM4 achieves up to 13Gbps speed with 2.4x bandwidth improvement over HBM3E, reaching max 3TB/s per stack. SK Hynix uses Icheon M16 and Cheongju M15X fabs. The move is strategically timed for NVIDIA's next-gen Rubin accelerator launch, targeting the explosive AI infrastructure demand.",
+        "keywords": ["Samsung", "SK Hynix", "HBM4", "mass production", "AI semiconductor", "NVIDIA Rubin"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:55:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-002",
+      "title": "KOSPI Hits Record Highs Consecutively: Reaches 5,910 Level",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260223",
+        "published_date": "2026-02-23T15:30:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "KOSPI opened at the 5,910 level on Feb 23, marking consecutive record highs. Samsung Electronics rose 4.3% and SK Hynix 1.7%, leading the rally. Hyundai Motor, LG Energy Solution, Kia, and HD Hyundai Heavy Industries also joined the broad-based rally. Defense giant Hanwha Aerospace surged 8.09%. The market is driven by AI/semiconductor demand, US tariff refund expectations, and strong corporate earnings.",
+        "keywords": ["KOSPI", "record high", "Samsung", "SK Hynix", "Hanwha Aerospace", "stock market"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:56:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-003",
+      "title": "AMD Signs $60 Billion AI Chip Supply Deal with Meta",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260224",
+        "published_date": "2026-02-24T22:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "AMD agreed to sell up to $60 billion (87 trillion KRW) of AI chips to Meta Platforms over 5 years, with Meta securing an option to acquire up to 10% of AMD's equity. The deal includes 6GW of chips, with 1GW for Meta's flagship MI450 hardware in H2 2026, plus custom CPUs. AMD stock surged 6.5%. This signals a shift in the AI infrastructure market away from NVIDIA's monopoly, introducing multi-vendor supply chain strategies.",
+        "keywords": ["AMD", "Meta", "AI chips", "$60 billion", "NVIDIA", "MI450", "supply diversification"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:57:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-004",
+      "title": "Korean Tariff Refunds Worth Trillions as US Court Voids IEEPA Tariffs",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260222",
+        "published_date": "2026-02-22T10:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "Following the US Supreme Court ruling voiding IEEPA-based tariffs, Korean companies in autos, electronics, and steel are expected to receive tariff refunds worth several trillion won. Korea's Customs Service announced it will support export companies in the refund process. However, Trump's new executive order imposing 15% global tariff under Trade Act Section 122 creates continued uncertainty for Korean exporters.",
+        "keywords": ["tariff refund", "Korean exporters", "IEEPA ruling", "Customs Service", "Trade Act Section 122"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:58:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-005",
+      "title": "Pizza Hut Franchise Fee Ruling Sparks Industry-Wide Disputes",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260224b",
+        "published_date": "2026-02-24T11:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "After the Supreme Court ordered Korea Pizza Hut headquarters to return 21.5 billion KRW in differential franchise fees, disputes have spread across the franchise industry. As of Feb 20, lawsuits or proceedings involving differential fee returns have been filed against over 14 franchise brands. This precedent-setting ruling could reshape the franchise business model in Korea.",
+        "keywords": ["franchise", "Pizza Hut", "Supreme Court", "franchise fees", "business model"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:59:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-006",
+      "title": "Aekyung Products Enter 600 US Walmart Stores: Korean Beauty Expansion",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260224c",
+        "published_date": "2026-02-24T09:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "Aekyung Industrial's body care brands 'Luvsent' and 'Shower Mate' entered approximately 600 Walmart physical stores across 48 US states and Walmart online simultaneously. The company's stock surged on the news. This represents the continuing expansion of Korean beauty (K-Beauty) into the US mass market channel, following the premium channel penetration already achieved.",
+        "keywords": ["Aekyung", "K-Beauty", "Walmart", "US market expansion", "consumer goods"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:00:00+00:00"
+    },
+    {
+      "id": "naver-20260224-105-001",
+      "title": "Samsung Introduces 6th-Gen SSD Tester for PCIe 6.0: AI Data Center Ready",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260223",
+        "published_date": "2026-02-23T10:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "Samsung Electronics introduced a 6th-generation SSD tester in H1 2026 with PCIe 6.0 interface, providing 8GB/s per lane and 128GB/s total transfer speed. This marks full preparation for next-generation AI data center storage demand, which requires ultra-high bandwidth to feed AI training workloads. The move positions Samsung to capture the growing AI infrastructure storage market.",
+        "keywords": ["Samsung", "SSD", "PCIe 6.0", "AI data center", "storage", "128GB/s"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:01:00+00:00"
+    },
+    {
+      "id": "naver-20260224-105-002",
+      "title": "Agentic AI Year: Korean Enterprises Navigate the Paradigm Shift",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260223b",
+        "published_date": "2026-02-23T14:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "2026 is being called the 'Year of Agentic AI' — AI that doesn't wait for instructions but autonomously judges and acts. Korean enterprises face a critical inflection point: SK Telecom identified 5 key AI trends including AI agents, physical AI, and AI safety. Korea's AI Ethics and Safety Basic Act took effect Jan 1, 2026. Companies must balance innovation speed with the ethical framework mandated by law.",
+        "keywords": ["Agentic AI", "AI agents", "Korean enterprises", "AI Ethics Act", "SK Telecom", "paradigm shift"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:02:00+00:00"
+    },
+    {
+      "id": "naver-20260224-105-003",
+      "title": "AI Drug Discovery Meets Quantum Computing: Virtual Lab Systems Emerge",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260224",
+        "published_date": "2026-02-24T16:29:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "A new paradigm of AI-quantum computing convergence is emerging in drug discovery. AI proposes drug candidates while quantum computers perform selection and verification through virtual experiments. Quantum computing is transitioning from equipment competition to ecosystem competition, with the emphasis shifting to integration with supercomputers and AI rather than standalone quantum capability.",
+        "keywords": ["quantum computing", "AI drug discovery", "virtual lab", "quantum-AI convergence", "drug development"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:03:00+00:00"
+    },
+    {
+      "id": "naver-20260224-105-004",
+      "title": "TTTera Launches Multilingual AI Call Agent Supporting 15 Languages",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260213",
+        "published_date": "2026-02-23T11:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "Korean AI startup TTTera unveiled a real-time voice-based 'AI Call Agent' that can make and receive phone calls on behalf of users, supporting 15 languages. The system demonstrates AI-to-AI conversations completing reservations autonomously. Flow also unveiled Korea's first 'Project Design AI Agent' and was the only startup selected for the government's 'Standalone AI Foundation Model' project.",
+        "keywords": ["TTTera", "AI Call Agent", "voice AI", "multilingual", "Flow", "AI agent startup"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:04:00+00:00"
+    },
+    {
+      "id": "naver-20260224-105-005",
+      "title": "Government Allocates 1.68 Trillion KRW for ICT R&D: AI Semiconductor and 6G Focus",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260224b",
+        "published_date": "2026-02-24T09:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "The Ministry of Science and ICT finalized 1.68 trillion KRW (24.3% YoY increase) for ICT R&D budget, targeting escape from GPU dependency through domestic NPU development, quantum computing advancement, and 6G technology. The ministry stated the priority is developing world-class domestic Neural Processing Units (NPUs) and strengthening quantum-AI convergence capabilities.",
+        "keywords": ["ICT R&D", "1.68 trillion KRW", "NPU", "6G", "quantum computing", "GPU dependency"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:05:00+00:00"
+    },
+    {
+      "id": "naver-20260224-102-001",
+      "title": "Korea Officially Enters Super-Aged Society: 65+ Population Exceeds 20%",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/society/20260224",
+        "published_date": "2026-02-24T08:00:00+09:00",
+        "section": "society"
+      },
+      "content": {
+        "abstract": "Korea's 65+ population reached 10.24 million (20.0% of total population of 51.22 million) as of late 2024, officially entering super-aged society status. Korea transitioned from aging to super-aged society in just 7 years 4 months — faster than Japan's 10 years. The working-age population (15-64) is projected to shrink from 36.57M (2023) to 27.17M by 2044. Total fertility rate collapsed from 5.95 (1960) to 0.81 (2021).",
+        "keywords": ["super-aged society", "population decline", "fertility rate", "working-age population", "demographics"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:06:00+00:00"
+    },
+    {
+      "id": "naver-20260224-102-002",
+      "title": "Flexible Work Hours and Senior Jobs Expansion in 2026 Labor Reforms",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/society/20260224b",
+        "published_date": "2026-02-24T10:00:00+09:00",
+        "section": "society"
+      },
+      "content": {
+        "abstract": "Korea's 2026 labor policy reforms include phased implementation of flexible/selective work hour systems and expansion of senior citizen jobs from 1.098M to 1.152M positions. The Ministry of Employment also expanded youth employment policy age criteria to reflect delayed workforce entry and longer career formation periods. Military officer retention incentives include new savings accounts with 300K KRW government matching.",
+        "keywords": ["flexible work hours", "senior jobs", "labor reform", "youth employment", "military retention"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:07:00+00:00"
+    },
+    {
+      "id": "naver-20260224-102-003",
+      "title": "Coupang Data Breach: 33.67 Million Accounts Compromised",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/society/20260210",
+        "published_date": "2026-02-23T15:00:00+09:00",
+        "section": "society"
+      },
+      "content": {
+        "abstract": "Government joint investigation confirmed 33.67 million accounts compromised in the Coupang data breach. 148 million delivery address pages were accessed, and 50,000 shared entrance codes were viewed. The breach originated from unauthorized access via stolen access tokens on Nov 6, 2025, but wasn't detected until Nov 18 through customer complaints. Coupang delayed notification by 2 days and deleted 5 months of web access logs. US investors are pursuing ISDS arbitration and USTR investigation petitions.",
+        "keywords": ["Coupang", "data breach", "33.67 million", "personal data", "ISDS", "cybersecurity"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:08:00+00:00"
+    },
+    {
+      "id": "naver-20260224-102-004",
+      "title": "Former President Yoon Sentenced to Life in Prison for Insurrection",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/society/20260219",
+        "published_date": "2026-02-23T09:00:00+09:00",
+        "section": "society"
+      },
+      "content": {
+        "abstract": "Former President Yoon Suk-yeol was found guilty of masterminding insurrection and sentenced to life imprisonment over his short-lived martial law declaration in December 2024. The court stated the martial law declaration 'resulted in enormous social costs' and found no indication of remorse. Previously sentenced to 5 years for obstructing his own arrest. International observers including Amnesty International called it 'a significant step towards accountability'.",
+        "keywords": ["Yoon Suk-yeol", "insurrection", "life sentence", "martial law", "accountability", "constitutional crisis"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T21:09:00+00:00"
+    },
+    {
+      "id": "naver-20260224-103-001",
+      "title": "2026 Energy Transition Performance Year: Distributed Power Grid Plan Announced",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/life/20260220",
+        "published_date": "2026-02-23T11:00:00+09:00",
+        "section": "life_culture"
+      },
+      "content": {
+        "abstract": "The Ministry of Climate, Energy and Environment announced a 'Next-Generation Distributed Power Grid' construction plan on Feb 20, focusing on overcoming centralized power system limitations with flexible regional energy management. Solar Income Villages will expand to 500 in 2026 and 2,500 by 2030. Wind Income Village pilot projects will launch this year. Ultra-high-efficiency tandem solar cells and 20MW+ offshore wind turbines are in development.",
+        "keywords": ["distributed power grid", "energy transition", "solar villages", "offshore wind", "tandem solar cells", "carbon neutrality"],
+        "language": "ko"
+      },
+      "preliminary_category": "E_env",
+      "collected_at": "2026-02-24T21:10:00+00:00"
+    },
+    {
+      "id": "naver-20260224-103-002",
+      "title": "Japan's Takaichi Regime Pushes 'Economic Security Diplomacy' Front and Center",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/world/20260224b",
+        "published_date": "2026-02-24T07:00:00+09:00",
+        "section": "world"
+      },
+      "content": {
+        "abstract": "Japan's PM Takaichi Sanae regime is foregrounding 'economic security diplomacy' as its signature foreign policy approach. This includes supply chain resilience, technology export controls, and critical mineral security. The strategy represents a paradigm shift from traditional diplomatic approaches to economically-grounded geopolitical positioning, with direct implications for Korea-Japan relations and regional tech competition.",
+        "keywords": ["Japan", "Takaichi", "economic security", "supply chain", "technology controls", "Korea-Japan"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T21:11:00+00:00"
+    },
+    {
+      "id": "naver-20260224-104-001",
+      "title": "North-US Summit Possibility Open: Foreign Ministry Says Ball in Pyongyang's Court",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/politics/20260224d",
+        "published_date": "2026-02-24T14:00:00+09:00",
+        "section": "politics"
+      },
+      "content": {
+        "abstract": "Korea's Foreign Ministry stated that the possibility of a North Korea-US summit remains open, timed with Trump's visit to China, but success depends on Pyongyang's response. This comes amid North Korea's internal political reshuffling (Kim Yo-jong promotion) and renewed US engagement with China. The diplomatic window could reshape the security landscape on the Korean Peninsula.",
+        "keywords": ["North-US summit", "Trump China visit", "Pyongyang", "nuclear diplomacy", "Korean Peninsula"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T21:12:00+00:00"
+    },
+    {
+      "id": "naver-20260224-105-006",
+      "title": "AI Ethics and Safety Basic Act Takes Effect: Korea's Regulatory Framework for AI",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260224c",
+        "published_date": "2026-02-24T08:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "Korea's AI Ethics and Safety Basic Act, passed by the National Assembly in 2025, took effect on January 1, 2026. The law mandates core ethical principles including human dignity, transparency, fairness, and accountability across all AI development and deployment. LG AI Research Institute published its '2025 AI Ethics Accountability Report' in February. Companies must now balance innovation with legal compliance in a rapidly evolving regulatory landscape.",
+        "keywords": ["AI Ethics Act", "AI regulation", "transparency", "accountability", "LG AI Research", "compliance"],
+        "language": "ko"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T21:13:00+00:00"
+    },
+    {
+      "id": "naver-20260224-101-007",
+      "title": "OPCON Transfer Roadmap Finalized by April 2026: Full Capability by October",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/politics/20260224e",
+        "published_date": "2026-02-24T13:00:00+09:00",
+        "section": "politics"
+      },
+      "content": {
+        "abstract": "Defense Minister Ahn Gyu-back announced that the roadmap for accelerated wartime operational control (OPCON) transfer will be finalized by April 2026, with Full Operational Capability (FOC) verification completed by October 2026. This represents a significant acceleration of the long-delayed OPCON transfer timeline and marks a shift toward greater Korean military sovereignty.",
+        "keywords": ["OPCON transfer", "wartime control", "FOC", "military sovereignty", "US-Korea alliance", "Defense Minister"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T21:14:00+00:00"
+    },
+    {
+      "id": "naver-20260224-103-003",
+      "title": "Jeonnam Province Passes 13.38 Trillion KRW Supplementary Budget for Low Birth Rate",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260224d",
+        "published_date": "2026-02-24T14:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "Jeonnam Province submitted a 13.38 trillion KRW supplementary budget (5.3% increase from 12.7 trillion KRW base) to the provincial assembly, targeting regional economic revitalization and low birth rate measures. This is the largest supplementary budget in the province's history and reflects the urgency of demographic and economic challenges at the local government level.",
+        "keywords": ["Jeonnam Province", "supplementary budget", "low birth rate", "regional economy", "demographic crisis"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:14:30+00:00"
+    },
+    {
+      "id": "naver-20260224-101-008",
+      "title": "Real Estate Market: 26 Trillion KRW Flows from Stocks to Property",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/economy/20260224e",
+        "published_date": "2026-02-24T12:00:00+09:00",
+        "section": "economy"
+      },
+      "content": {
+        "abstract": "Approximately 26 trillion KRW in funds that exited the stock market are flowing into real estate, creating a strong support floor for property prices. Seoul apartment inventory is increasing but demand remains robust. US employment data strength is delaying rate cut expectations, which impacts mortgage rates and property affordability. The dynamic between stock market wealth effects and real estate demand represents a significant capital reallocation trend.",
+        "keywords": ["real estate", "stock market", "capital flow", "26 trillion KRW", "Seoul apartments", "interest rates"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:15:00+00:00"
+    },
+    {
+      "id": "naver-20260224-103-004",
+      "title": "Physical AI Startup Medisve Joins Medical Textbook Writing Team",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260223c",
+        "published_date": "2026-02-23T12:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "Medical robotics startup Medisve, co-founded by Gangnam Severance Hospital's Dr. Lim Jun-yeol and a Yonsei University AI professor, joined the editorial team of the 'Orthopedics 9th Edition' textbook published by the Korean Orthopedic Association. The company focuses on Physical AI combining medical robots and AI. This formal recognition signals the maturation of AI-driven rehabilitation robotics in clinical practice.",
+        "keywords": ["Medisve", "Physical AI", "medical robotics", "rehabilitation", "orthopedics", "startup"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:15:30+00:00"
+    },
+    {
+      "id": "naver-20260224-103-005",
+      "title": "2026 Health and Welfare Policy Changes: Comprehensive Reforms Take Effect",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/society/20260224c",
+        "published_date": "2026-02-24T08:00:00+09:00",
+        "section": "society"
+      },
+      "content": {
+        "abstract": "Major health and welfare policy reforms took effect in 2026, including expanded elderly welfare services, enhanced healthcare coverage, and new support systems for the super-aged society. These reforms represent the government's first comprehensive policy response to the demographic crisis, shifting from 'expansion' to 'implementation' of previously announced measures across healthcare, senior care, and social safety nets.",
+        "keywords": ["health policy", "welfare reform", "elderly care", "healthcare coverage", "super-aged society", "social safety"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:16:00+00:00"
+    },
+    {
+      "id": "naver-20260224-104-002",
+      "title": "Korea Robot Industry Association Rebrands to AI-Robot Industry Association",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://news.naver.com/it/20260224d",
+        "published_date": "2026-02-24T10:00:00+09:00",
+        "section": "it_science"
+      },
+      "content": {
+        "abstract": "The Korea Robot Industry Association renamed itself to 'Korea AI-Robot Industry Association' to reflect the convergence of AI and robotics. The association's vision centers on building a 'Next Robot Industry Ecosystem' where AI capabilities are deeply integrated into robotic systems. This rebranding signals the industry consensus that the future of robotics is inseparable from AI advancement.",
+        "keywords": ["Robot Industry Association", "AI-Robot convergence", "industry rebranding", "next robot ecosystem"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:16:30+00:00"
+    }
+  ]
+}

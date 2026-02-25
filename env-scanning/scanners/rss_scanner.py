@@ -36,13 +36,19 @@ class RSSScanner(BaseScanner):
 
     def scan(self,
              steeps_domains: Dict[str, List[str]],
-             days_back: int = 7) -> List[Dict[str, Any]]:
+             days_back: int = 7,
+             lookback_hours: int = None,
+             scan_window_start: datetime = None,
+             scan_window_end: datetime = None) -> List[Dict[str, Any]]:
         """
         Scan RSS feed for signals
 
         Args:
             steeps_domains: STEEPs category definitions
-            days_back: How many days back to scan
+            days_back: DEPRECATED — How many days back to scan
+            lookback_hours: Scan window lookback in hours
+            scan_window_start: Explicit window start from orchestrator
+            scan_window_end: Explicit window end from orchestrator
 
         Returns:
             List of signals in standard format
@@ -63,8 +69,13 @@ class RSSScanner(BaseScanner):
                 self.log_warning("No entries found in feed")
                 return []
 
-            # Calculate date range
-            start_date, end_date = self.calculate_date_range(days_back)
+            # Calculate date range (v2.2.0: temporal consistency)
+            start_date, end_date = self.calculate_date_range(
+                days_back=days_back,
+                lookback_hours=lookback_hours,
+                scan_window_start=scan_window_start,
+                scan_window_end=scan_window_end
+            )
 
             # Process entries
             signals = []
@@ -77,7 +88,8 @@ class RSSScanner(BaseScanner):
                     self.log_warning(f"Failed to process entry: {e}")
                     continue
 
-            self.log_success(f"Found {len(signals)} signals from last {days_back} days")
+            effective_window = f"{lookback_hours}h" if lookback_hours else f"{days_back}d"
+            self.log_success(f"Found {len(signals)} signals within {effective_window} window")
             return signals
 
         except requests.RequestException as e:

@@ -1,0 +1,1254 @@
+{
+  "tracker_version": "1.3.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-02-18",
+  "computed_at": "2026-02-18T21:34:48Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 47,
+    "new_signals": 47,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 47
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "wf1-20260218-001",
+      "thread_id": "THREAD-WF1-001",
+      "canonical_title": "WHO Pandemic Agreement Annex Negotiation Progress",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "WHO Pandemic Agreement Annex Negotiation Progress",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-002",
+      "thread_id": "THREAD-WF1-002",
+      "canonical_title": "Amazon Halts Blue Jay Warehouse Robotics Project",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Amazon Halts Blue Jay Warehouse Robotics Project",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-003",
+      "thread_id": "THREAD-WF1-003",
+      "canonical_title": "Figure Fintech Data Breach Affects ~1M Customers",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Figure Fintech Data Breach Affects ~1M Customers",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-004",
+      "thread_id": "THREAD-WF1-004",
+      "canonical_title": "EU Countervailing Duty Amendment on Chinese EVs",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "EU Countervailing Duty Amendment on Chinese EVs",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-005",
+      "thread_id": "THREAD-WF1-005",
+      "canonical_title": "New START Treaty Expiration Risk — Nuclear Arms Control Gap",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "New START Treaty Expiration Risk — Nuclear Arms Control Gap",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-006",
+      "thread_id": "THREAD-WF1-006",
+      "canonical_title": "Microsoft-Atom Computing Deliver First Error-Corrected Quantum Computer",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Microsoft-Atom Computing Deliver First Error-Corrected Quantum Computer",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-007",
+      "thread_id": "THREAD-WF1-007",
+      "canonical_title": "Neuralink Brain Chip Aims to Restore Sight to Blind",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Neuralink Brain Chip Aims to Restore Sight to Blind",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-008",
+      "thread_id": "THREAD-WF1-008",
+      "canonical_title": "Tensor Announces SAE Level 4 Consumer Autonomous Vehicle",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Tensor Announces SAE Level 4 Consumer Autonomous Vehicle",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-009",
+      "thread_id": "THREAD-WF1-009",
+      "canonical_title": "Deuterium-Tritium Fusion Fuel Cycle Demonstration Project",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Deuterium-Tritium Fusion Fuel Cycle Demonstration Project",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-010",
+      "thread_id": "THREAD-WF1-010",
+      "canonical_title": "International AI Safety Report 2026 Published",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "International AI Safety Report 2026 Published",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-011",
+      "thread_id": "THREAD-WF1-011",
+      "canonical_title": "CRISPR Breakthrough: Gene Activation Without DNA Cutting",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "CRISPR Breakthrough: Gene Activation Without DNA Cutting",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-012",
+      "thread_id": "THREAD-WF1-012",
+      "canonical_title": "Sudan Crisis: UNHCR Appeals $1.6B for Displacement",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Sudan Crisis: UNHCR Appeals $1.6B for Displacement",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-013",
+      "thread_id": "THREAD-WF1-013",
+      "canonical_title": "Greenland Records Warmest January Ever — 4x Faster Warming",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Greenland Records Warmest January Ever — 4x Faster Warming",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-014",
+      "thread_id": "THREAD-WF1-014",
+      "canonical_title": "Amsterdam and Florence Ban Fossil Fuel Advertisements",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Amsterdam and Florence Ban Fossil Fuel Advertisements",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-015",
+      "thread_id": "THREAD-WF1-015",
+      "canonical_title": "HBM Scarcity: Bottleneck in AI Supply Chain",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "HBM Scarcity: Bottleneck in AI Supply Chain",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-016",
+      "thread_id": "THREAD-WF1-016",
+      "canonical_title": "Cohere Releases Open Multilingual AI Models for Edge Devices",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Cohere Releases Open Multilingual AI Models for Edge Devices",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-017",
+      "thread_id": "THREAD-WF1-017",
+      "canonical_title": "OECD: Global Growth Slowing to 2.9% in 2026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "OECD: Global Growth Slowing to 2.9% in 2026",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-018",
+      "thread_id": "THREAD-WF1-018",
+      "canonical_title": "Qualcomm UK Lawsuit Challenges Chip Licensing Model",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Qualcomm UK Lawsuit Challenges Chip Licensing Model",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-019",
+      "thread_id": "THREAD-WF1-019",
+      "canonical_title": "Hong Kong HKMA Fintech 2030 Blueprint: Quantum and AI Focus",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Hong Kong HKMA Fintech 2030 Blueprint: Quantum and AI Focus",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-020",
+      "thread_id": "THREAD-WF1-020",
+      "canonical_title": "Iceberg Quantum Breaks RSA-2048 with <100K Qubits",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Iceberg Quantum Breaks RSA-2048 with <100K Qubits",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-021",
+      "thread_id": "THREAD-WF1-021",
+      "canonical_title": "US Federal Register: Clean Coal Executive Order & Libya Emergency",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "US Federal Register: Clean Coal Executive Order & Libya Emergency",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-022",
+      "thread_id": "THREAD-WF1-022",
+      "canonical_title": "India Budget: $2.2B for Carbon Capture and Renewables",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "India Budget: $2.2B for Carbon Capture and Renewables",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-023",
+      "thread_id": "THREAD-WF1-023",
+      "canonical_title": "Swedish Youth Climate Lawsuit: Aurora vs Government",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Swedish Youth Climate Lawsuit: Aurora vs Government",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-024",
+      "thread_id": "THREAD-WF1-024",
+      "canonical_title": "Pew: 64% of US Teens Use AI Chatbots, 30% Daily",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Pew: 64% of US Teens Use AI Chatbots, 30% Daily",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-025",
+      "thread_id": "THREAD-WF1-025",
+      "canonical_title": "UNCTAD: World Output Slowing to 2.7% — Below Pre-Pandemic Average",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "UNCTAD: World Output Slowing to 2.7% — Below Pre-Pandemic Average",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-026",
+      "thread_id": "THREAD-WF1-026",
+      "canonical_title": "WEF Global Cooperation Barometer 2026: Cooperation Weakening",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "WEF Global Cooperation Barometer 2026: Cooperation Weakening",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-027",
+      "thread_id": "THREAD-WF1-027",
+      "canonical_title": "Mass-Produced NK Cancer Cells via Cord Blood Stem Cell Engineering",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Mass-Produced NK Cancer Cells via Cord Blood Stem Cell Engineering",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-028",
+      "thread_id": "THREAD-WF1-028",
+      "canonical_title": "CRISPR Tool for Antibiotic Resistance Crisis — UC San Diego",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "CRISPR Tool for Antibiotic Resistance Crisis — UC San Diego",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-029",
+      "thread_id": "THREAD-WF1-029",
+      "canonical_title": "International Ocean Treaty Enters Force — Marine Life Protection",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "International Ocean Treaty Enters Force — Marine Life Protection",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-030",
+      "thread_id": "THREAD-WF1-030",
+      "canonical_title": "Colorado AI Act: Algorithmic Discrimination Requirements",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Colorado AI Act: Algorithmic Discrimination Requirements",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-031",
+      "thread_id": "THREAD-WF1-031",
+      "canonical_title": "MIT Scientists Trace Oxygen-Processing Enzyme Back Hundreds of Millions of Years",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "MIT Scientists Trace Oxygen-Processing Enzyme Back Hundreds of Millions of Years",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-032",
+      "thread_id": "THREAD-WF1-032",
+      "canonical_title": "Species Turnover Slowed by One-Third Since 1970s Due to Warming",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Species Turnover Slowed by One-Third Since 1970s Due to Warming",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-033",
+      "thread_id": "THREAD-WF1-033",
+      "canonical_title": "Apple Teases March 4 Global Synchronized Product Launch",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Apple Teases March 4 Global Synchronized Product Launch",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-034",
+      "thread_id": "THREAD-WF1-034",
+      "canonical_title": "Toxic Metals Moving from Contaminated Soil into Edible Crops — Brazil",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Toxic Metals Moving from Contaminated Soil into Edible Crops — Brazil",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-035",
+      "thread_id": "THREAD-WF1-035",
+      "canonical_title": "Quantum Key Distribution: Ultra-Secure Communication Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Quantum Key Distribution: Ultra-Secure Communication Systems",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-036",
+      "thread_id": "THREAD-WF1-036",
+      "canonical_title": "Global Health Systems 'At Risk' as Funding Cuts Bite — WHO",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Global Health Systems 'At Risk' as Funding Cuts Bite — WHO",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-037",
+      "thread_id": "THREAD-WF1-037",
+      "canonical_title": "Nature Confirms 'Vibe Shift': Usable Quantum Computers Within a Decade",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Nature Confirms 'Vibe Shift': Usable Quantum Computers Within a Decade",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-038",
+      "thread_id": "THREAD-WF1-038",
+      "canonical_title": "Ukraine: Russia Attacks on Energy Infrastructure Near 4-Year Mark",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Ukraine: Russia Attacks on Energy Infrastructure Near 4-Year Mark",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-039",
+      "thread_id": "THREAD-WF1-039",
+      "canonical_title": "Pew: What Makes People Proud of Their Country — Global Study",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Pew: What Makes People Proud of Their Country — Global Study",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-040",
+      "thread_id": "THREAD-WF1-040",
+      "canonical_title": "Two-Thirds of Maternal Deaths in Conflict/Fragile States — WHO",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Two-Thirds of Maternal Deaths in Conflict/Fragile States — WHO",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-041",
+      "thread_id": "THREAD-WF1-041",
+      "canonical_title": "Banks Report 15% Fraud Detection Improvement via Quantum-Classical Hybrid Systems",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Banks Report 15% Fraud Detection Improvement via Quantum-Classical Hybrid Systems",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-042",
+      "thread_id": "THREAD-WF1-042",
+      "canonical_title": "Global Trade Realignment Without US — New Trade Deals",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Global Trade Realignment Without US — New Trade Deals",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-043",
+      "thread_id": "THREAD-WF1-043",
+      "canonical_title": "Denmark Ranks #1 in Climate Action; Offshore Energy Leadership",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Denmark Ranks #1 in Climate Action; Offshore Energy Leadership",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-044",
+      "thread_id": "THREAD-WF1-044",
+      "canonical_title": "125-Million-Year-Old Dinosaur with Fossilized Skin Discovered in China",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "125-Million-Year-Old Dinosaur with Fossilized Skin Discovered in China",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-045",
+      "thread_id": "THREAD-WF1-045",
+      "canonical_title": "US Executive Order: Clean Coal for National Defense",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "US Executive Order: Clean Coal for National Defense",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-046",
+      "thread_id": "THREAD-WF1-046",
+      "canonical_title": "Fed Vice Chair: Supply-Side Disinflation Dynamics Speech at Brookings",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Fed Vice Chair: Supply-Side Disinflation Dynamics Speech at Brookings",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260218-047",
+      "thread_id": "THREAD-WF1-047",
+      "canonical_title": "Firefighting Drones and eVTOL Air Taxis Among 2026 Tech Deployments",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-18",
+          "title": "Firefighting Drones and eVTOL Air Taxis Among 2026 Tech Deployments",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-001",
+    "THREAD-WF1-002",
+    "THREAD-WF1-003",
+    "THREAD-WF1-004",
+    "THREAD-WF1-005",
+    "THREAD-WF1-006",
+    "THREAD-WF1-007",
+    "THREAD-WF1-008",
+    "THREAD-WF1-009",
+    "THREAD-WF1-010",
+    "THREAD-WF1-011",
+    "THREAD-WF1-012",
+    "THREAD-WF1-013",
+    "THREAD-WF1-014",
+    "THREAD-WF1-015",
+    "THREAD-WF1-016",
+    "THREAD-WF1-017",
+    "THREAD-WF1-018",
+    "THREAD-WF1-019",
+    "THREAD-WF1-020",
+    "THREAD-WF1-021",
+    "THREAD-WF1-022",
+    "THREAD-WF1-023",
+    "THREAD-WF1-024",
+    "THREAD-WF1-025",
+    "THREAD-WF1-026",
+    "THREAD-WF1-027",
+    "THREAD-WF1-028",
+    "THREAD-WF1-029",
+    "THREAD-WF1-030",
+    "THREAD-WF1-031",
+    "THREAD-WF1-032",
+    "THREAD-WF1-033",
+    "THREAD-WF1-034",
+    "THREAD-WF1-035",
+    "THREAD-WF1-036",
+    "THREAD-WF1-037",
+    "THREAD-WF1-038",
+    "THREAD-WF1-039",
+    "THREAD-WF1-040",
+    "THREAD-WF1-041",
+    "THREAD-WF1-042",
+    "THREAD-WF1-043",
+    "THREAD-WF1-044",
+    "THREAD-WF1-045",
+    "THREAD-WF1-046",
+    "THREAD-WF1-047"
+  ]
+}

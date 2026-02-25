@@ -1,0 +1,52 @@
+{
+  "generator": "temporal_anchor.py",
+  "generator_version": "1.0.0",
+  "generated_at": "2026-02-13T00:39:44.669855+00:00",
+  "anchor_timestamp": "2026-02-13T00:39:44.669590+00:00",
+  "anchor_date": "2026-02-13",
+  "anchor_time_ko": "2026년 02월 13일 00:39:44 UTC",
+  "temporal_consistency_enabled": true,
+  "default_lookback_hours": 24,
+  "default_tolerance_minutes": 30,
+  "default_enforce": "strict",
+  "workflows": {
+    "wf1-general": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-02-12T00:39:44.669590+00:00",
+      "window_end": "2026-02-13T00:39:44.669590+00:00",
+      "effective_start": "2026-02-12T00:09:44.669590+00:00",
+      "window_start_ko": "2026년 02월 12일 00:39 UTC",
+      "window_end_ko": "2026년 02월 13일 00:39 UTC",
+      "window_start_date": "2026-02-12",
+      "window_end_date": "2026-02-13"
+    },
+    "wf2-arxiv": {
+      "lookback_hours": 48,
+      "tolerance_minutes": 60,
+      "enforce": "strict",
+      "window_start": "2026-02-11T00:39:44.669590+00:00",
+      "window_end": "2026-02-13T00:39:44.669590+00:00",
+      "effective_start": "2026-02-10T23:39:44.669590+00:00",
+      "window_start_ko": "2026년 02월 11일 00:39 UTC",
+      "window_end_ko": "2026년 02월 13일 00:39 UTC",
+      "window_start_date": "2026-02-11",
+      "window_end_date": "2026-02-13"
+    },
+    "wf3-naver": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-02-12T00:39:44.669590+00:00",
+      "window_end": "2026-02-13T00:39:44.669590+00:00",
+      "effective_start": "2026-02-12T00:09:44.669590+00:00",
+      "window_start_ko": "2026년 02월 12일 00:39 UTC",
+      "window_end_ko": "2026년 02월 13일 00:39 UTC",
+      "window_start_date": "2026-02-12",
+      "window_end_date": "2026-02-13"
+    }
+  },
+  "registry_path": "env-scanning/config/workflow-registry.yaml",
+  "registry_version": "2.5.0"
+}

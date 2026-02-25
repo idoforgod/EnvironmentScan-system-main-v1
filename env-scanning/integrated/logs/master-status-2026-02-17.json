@@ -1,0 +1,80 @@
+{
+  "master_id": "triple-scan-2026-02-17",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "completed",
+  "completed_at": "2026-02-18T01:50:00+00:00",
+  "registry_version": "2.5.0",
+  "started_at": "2026-02-17T23:00:20+00:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-17.json",
+  "sot_validation": {
+    "status": "WARN",
+    "timestamp": "2026-02-17T23:00:20+00:00",
+    "passed": 43,
+    "total": 44,
+    "warnings": ["SOT-042: wf1-general dedup index is 359h old (>48h)"]
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-17.md",
+      "validation": "18/18 PASS (standard)",
+      "approved_at": "2026-02-17T23:30:00+00:00",
+      "signals_count": 25,
+      "steeps_distribution": {"T": 10, "P": 7, "E": 3, "E_Environmental": 3, "S": 1, "s": 1}
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-17.md",
+      "validation": "17/17 PASS (standard)",
+      "signals_count": 15,
+      "steeps_distribution": {"S": 6, "T": 6, "P": 1, "E": 1, "E_Environmental": 1},
+      "approved_at": "2026-02-18T00:30:00+00:00"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-17.md",
+      "validation": "20/20 PASS (naver)",
+      "signals_count": 15,
+      "steeps_distribution": {"P": 5, "T": 4, "S": 3, "E": 1, "E_Environmental": 1, "s": 1},
+      "fssf_distribution": {"Precursor Event": 4, "Emerging Issue": 3, "Trend": 3, "Driver": 2, "Weak Signal": 2, "Wild Card": 1},
+      "tipping_point_alerts": {"RED": 0, "ORANGE": 1, "YELLOW": 3, "GREEN": 11},
+      "approved_at": "2026-02-18T01:15:00+00:00"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-17.md",
+    "validation": "19/19 PASS (integrated)",
+    "unified_signals": 55,
+    "top20_composition": {"WF1": 10, "WF3": 9, "WF2": 1},
+    "cross_workflow_insights": {"convergences": 3, "contradictions": 2, "blind_spots": 1}
+  },
+  "human_decisions": {
+    "M1": {
+      "checkpoint": "WF1 Report Approval",
+      "decision": "approved",
+      "timestamp": "2026-02-17T23:30:00+00:00"
+    },
+    "M2": {
+      "checkpoint": "WF2 Report Approval",
+      "decision": "approved",
+      "timestamp": "2026-02-18T00:30:00+00:00"
+    },
+    "M2a": {
+      "checkpoint": "WF3 Report Approval",
+      "decision": "approved",
+      "timestamp": "2026-02-18T01:15:00+00:00"
+    },
+    "M3": {
+      "checkpoint": "Integrated Report Approval",
+      "decision": "approved",
+      "timestamp": "2026-02-18T01:50:00+00:00"
+    }
+  },
+  "master_gates": {
+    "M1": { "status": "passed", "passed_at": "2026-02-17T23:30:00+00:00" },
+    "M2": { "status": "passed", "passed_at": "2026-02-18T00:30:00+00:00" },
+    "M2a": { "status": "passed", "passed_at": "2026-02-18T01:15:00+00:00" },
+    "M3": { "status": "passed", "passed_at": "2026-02-18T01:50:00+00:00" }
+  }
+}

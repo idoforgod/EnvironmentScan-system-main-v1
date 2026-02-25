@@ -1,0 +1,62 @@
+{
+  "resolver": "bilingual_resolver.py",
+  "resolver_version": "1.0.0",
+  "bilingual_enabled": true,
+  "english_first": true,
+  "internal_language": "en",
+  "external_language": "ko",
+  "workflows": {
+    "wf1-general": {
+      "report_skeleton": ".claude/skills/env-scanner/references/report-skeleton-en.md",
+      "validate_profile": "standard_en",
+      "statistics_language": "en",
+      "metadata_injector_language": "en",
+      "translation_needed": true,
+      "ko_skeleton": ".claude/skills/env-scanner/references/report-skeleton.md",
+      "ko_validate_profile": "standard"
+    },
+    "wf2-arxiv": {
+      "report_skeleton": ".claude/skills/env-scanner/references/report-skeleton-en.md",
+      "validate_profile": "standard_en",
+      "statistics_language": "en",
+      "metadata_injector_language": "en",
+      "translation_needed": true,
+      "ko_skeleton": ".claude/skills/env-scanner/references/report-skeleton.md",
+      "ko_validate_profile": "standard"
+    },
+    "wf3-naver": {
+      "report_skeleton": ".claude/skills/env-scanner/references/naver-report-skeleton-en.md",
+      "validate_profile": "naver_en",
+      "statistics_language": "en",
+      "metadata_injector_language": "en",
+      "translation_needed": true,
+      "ko_skeleton": ".claude/skills/env-scanner/references/naver-report-skeleton.md",
+      "ko_validate_profile": "naver"
+    },
+    "integrated": {
+      "report_skeleton": ".claude/skills/env-scanner/references/integrated-report-skeleton-en.md",
+      "validate_profile": "integrated_en",
+      "statistics_language": "en",
+      "metadata_injector_language": "en",
+      "translation_needed": true,
+      "ko_skeleton": ".claude/skills/env-scanner/references/integrated-report-skeleton.md",
+      "ko_validate_profile": "integrated"
+    },
+    "weekly": {
+      "report_skeleton": ".claude/skills/env-scanner/references/weekly-report-skeleton-en.md",
+      "validate_profile": "weekly_en",
+      "statistics_language": "en",
+      "metadata_injector_language": "en",
+      "translation_needed": true,
+      "ko_skeleton": ".claude/skills/env-scanner/references/weekly-report-skeleton.md",
+      "ko_validate_profile": "weekly"
+    }
+  },
+  "scripts": {
+    "skeleton_mirror": "env-scanning/core/skeleton_mirror.py",
+    "translation_validator": "env-scanning/core/translation_validator.py",
+    "bilingual_resolver": "env-scanning/core/bilingual_resolver.py"
+  },
+  "registry_path": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/config/workflow-registry.yaml",
+  "registry_version": "2.5.0"
+}

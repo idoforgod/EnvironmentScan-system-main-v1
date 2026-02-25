@@ -1,0 +1,17 @@
+{
+  "gate_id": "exploration_merge_gate.py",
+  "gate_version": "1.0.0",
+  "executed_at": "2026-02-12T23:54:26.367611+00:00",
+  "command": "merge",
+  "status": "SUCCESS",
+  "message": "Merged 5 exploration signals into both files",
+  "statistics": {
+    "total_input_signals": 5,
+    "merged": 5,
+    "skipped_duplicate": 0,
+    "raw_before": 43,
+    "raw_after": 48,
+    "cls_before": 25,
+    "cls_after": 30
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "metadata": {
+    "classification_date": "2026-02-18",
+    "workflow": "wf3-naver",
+    "total_raw_articles": 270,
+    "classified_signals": 15,
+    "classification_method": "dual_steeps_fssf",
+    "fssf_types_found": [
+      "Weak Signal",
+      "Emerging Issue",
+      "Trend",
+      "Megatrend",
+      "Driver",
+      "Wild Card",
+      "Discontinuity",
+      "Precursor Event"
+    ],
+    "three_horizons_distribution": {
+      "H1": 8,
+      "H2": 5,
+      "H3": 2
+    },
+    "steeps_distribution": {
+      "S": 2,
+      "T": 5,
+      "E": 3,
+      "Ev": 1,
+      "P": 3,
+      "s": 1
+    }
+  },
+  "signals": [
+    {
+      "id": "naver-20260218-TOP-001",
+      "title": "미-이란 전면전 임박 징후 증가 -- 악시오스 '수주 내 군사행동 90%'",
+      "category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/mnews/article/421/0008779002",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "악시오스가 보도한 미-이란 대규모 전면전 준비 징후. 트럼프 행정부 소식통 '수주 내 물리적 군사 행동 가능성 90%'. 핵협상 난항 속 미 항공모함 중동 배치, 이란 호르무즈 봉쇄 훈련으로 긴장 최고조. 국제유가 4%대 급등, 금값 사상 최고 경신.",
+        "keywords": [
+          "미-이란",
+          "전면전",
+          "중동",
+          "유가급등",
+          "핵협상",
+          "호르무즈",
+          "군사작전"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 9.5,
+        "probability_score": 7.0,
+        "urgency_score": 9.5,
+        "novelty_score": 8.0,
+        "priority_score": 8.7,
+        "priority_tag": "URGENT",
+        "cross_impact": [
+          "E: 국제유가 급등 → 한국 수입물가 상승",
+          "T: 에너지 공급망 교란",
+          "P: 한국군 중동 파견 논의"
+        ],
+        "tipping_point": {
+          "alert_level": "ORANGE",
+          "pattern": "Critical Slowing Down",
+          "evidence": "협상 교착 + 군사력 증강 + 유가 급등이 동시 발생. 복수 미디어가 '임박' 표현 사용."
+        },
+        "actor_identification": [
+          "미국 트럼프 행정부",
+          "이란 혁명수비대",
+          "이스라엘 IDF"
+        ],
+        "source_credibility": 8.5,
+        "psst_dimensions": {
+          "SR": 9.0,
+          "TC": 9.0,
+          "DC": 8.5,
+          "ES": 9.5,
+          "CC": 8.5,
+          "IC": 9.5
+        }
+      },
+      "psst_score": 90
+    },
+    {
+      "id": "naver-20260218-TOP-002",
+      "title": "시댄스(Sidence) 출시 1주 -- 할리우드 저작권 체계 뒤흔든 중국발 AI 동영상 생성",
+      "category": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/mnews/article/028/0002861005",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "바이트댄스 시댄스(Sidence), 명령어 2줄로 실사급 영상 생성. 톰 크루즈·브래드 피트 격투 영상 등 초상권·저작권 논란 폭발. 데드풀 각본가 '할리우드 끝났다' 발언. 디즈니 'IP 탈취' 비난, 미·일 엔터업계 법적 대응 예고.",
+        "keywords": [
+          "시댄스",
+          "바이트댄스",
+          "AI영상생성",
+          "저작권",
+          "할리우드",
+          "딥페이크"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 9.0,
+        "probability_score": 9.5,
+        "urgency_score": 9.0,
+        "novelty_score": 9.5,
+        "priority_score": 9.2,
+        "priority_tag": "URGENT",
+        "cross_impact": [
+          "s: AI 윤리·초상권 논쟁 격화",
+          "E: 엔터산업 가치사슬 재편",
+          "P: AI 규제 입법 가속화"
+        ],
+        "tipping_point": {
+          "alert_level": "RED",
+          "pattern": "Flickering",
+          "evidence": "DeepSeek 충격 직후 시댄스 등장. AI 기술의 민주화 속도가 규제 속도를 압도. 콘텐츠 산업 게임체인저."
+        },
+        "actor_identification": [
+          "바이트댄스",
+          "할리우드 스튜디오",
+          "디즈니",
+          "글로벌 규제당국"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 9.5,
+          "TC": 9.0,
+          "DC": 9.0,
+          "ES": 9.5,
+          "CC": 9.0,
+          "IC": 9.5
+        }
+      },
+      "psst_score": 93
+    },
+    {
+      "id": "naver-20260218-TOP-003",
+      "title": "페로브스카이트 대량생산 기술 확보 -- 韓 연구진 0도 합성법으로 초격차",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/mnews/article/016/0002601832",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "서울대 이태우 교수팀, 페로브스카이트 0도 저온 합성법 개발. 기존 150도 공정 대비 생산성 6배 향상, 수명 저하 문제 해결. 네이처·사이언스 1개월 새 3편 게재. 원천 특허 9건 확보, 전자 대기업과 상용화 협의 중. 차세대 디스플레이·태양전지 게임체인저.",
+        "keywords": [
+          "페로브스카이트",
+          "대량생산",
+          "0도합성",
+          "디스플레이",
+          "태양전지",
+          "네이처"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.5,
+        "probability_score": 8.0,
+        "urgency_score": 6.5,
+        "novelty_score": 9.5,
+        "priority_score": 8.1,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "E: K-디스플레이 산업 재도약",
+          "Ev: 태양전지 효율 혁신 → 재생에너지 전환 가속"
+        ],
+        "tipping_point": {
+          "alert_level": "YELLOW",
+          "pattern": "Critical Slowing Down",
+          "evidence": "양산 기술 확보가 상용화 임계점을 넘길 가능성. 중국 추격 봉쇄 효과."
+        },
+        "actor_identification": [
+          "서울대 이태우 교수팀",
+          "삼성디스플레이",
+          "LG디스플레이",
+          "중국 BOE"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 9.0,
+          "TC": 8.0,
+          "DC": 9.5,
+          "ES": 8.5,
+          "CC": 7.5,
+          "IC": 8.5
+        }
+      },
+      "psst_score": 85
+    },
+    {
+      "id": "naver-20260218-TOP-004",
+      "title": "FOMC 의사록 -- 금리 인상 시나리오 부활, '인플레이션 상회시 인상 필요'",
+      "category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "경제",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/mnews/article/018/0006220200",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "미 연준 1월 FOMC 의사록에서 금리 인상 가능성 공식 언급. 일부 위원 '인플레이션 목표치 상회시 인상 필요' 제기. 시장은 '금리인상 시나리오'에 한 때 급락 후 반등. 한국 금리·환율·증시에 직접 영향.",
+        "keywords": [
+          "FOMC",
+          "금리인상",
+          "인플레이션",
+          "연준",
+          "통화정책"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 9.0,
+        "probability_score": 5.5,
+        "urgency_score": 8.5,
+        "novelty_score": 8.0,
+        "priority_score": 7.8,
+        "priority_tag": "URGENT",
+        "cross_impact": [
+          "P: 한은 기준금리 정책 경로 재검토",
+          "S: 가계부채 이자부담 증가"
+        ],
+        "tipping_point": {
+          "alert_level": "YELLOW",
+          "pattern": "Flickering",
+          "evidence": "인하→동결→인상 가능성의 방향 전환 언급. 시장 변동성 급등."
+        },
+        "actor_identification": [
+          "미 연준",
+          "FOMC 위원",
+          "한국은행"
+        ],
+        "source_credibility": 9.5,
+        "psst_dimensions": {
+          "SR": 9.0,
+          "TC": 8.5,
+          "DC": 7.5,
+          "ES": 9.0,
+          "CC": 8.0,
+          "IC": 9.0
+        }
+      },
+      "psst_score": 85
+    },
+    {
+      "id": "naver-20260218-TOP-005",
+      "title": "GPU 26만장 韓 상륙 시작 -- 삼성·SK·현대차·네이버 '깐부 약속' 이행",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/mnews/article/016/0002601900",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "젠슨 황 '깐부 약속' 이행 시작. 이달부터 GPU 1만장 산학연 AI 혁신 수요에 투입. 2030년까지 총 26만장: 정부 5.2만, 삼성·SK·현대차 각 5만, 네이버 6만장. 부총리 체제 AI 드라이브에 GPU 인프라 본격 가동.",
+        "keywords": [
+          "GPU",
+          "엔비디아",
+          "AI인프라",
+          "깐부",
+          "삼성",
+          "SK",
+          "네이버"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.5,
+        "probability_score": 9.5,
+        "urgency_score": 8.0,
+        "novelty_score": 7.0,
+        "priority_score": 8.4,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "E: AI 산업 생태계 투자 확대",
+          "P: 정부 AI 3강 전략 가속"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "확정된 공급 계획 이행 단계."
+        },
+        "actor_identification": [
+          "엔비디아 젠슨 황",
+          "삼성",
+          "SK",
+          "현대차",
+          "네이버",
+          "정부"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 8.5,
+          "TC": 8.5,
+          "DC": 7.0,
+          "ES": 8.5,
+          "CC": 8.0,
+          "IC": 8.5
+        }
+      },
+      "psst_score": 82
+    },
+    {
+      "id": "naver-20260218-TOP-006",
+      "title": "대북 무인기 침투 4건 확인 -- 정동영 9·19 비행금지구역 복원, 김여정 '군사 경고'",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "정치",
+        "section_id": 100,
+        "url": "https://n.news.naver.com/mnews/article/018/0006220336",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "민간 무인기 대북 침투 4건 확인. 정동영 통일부 장관 공식 유감 표명 + 9·19 군사합의 비행금지구역 선제 복원 추진. 김여정 '유감 표명 높이 평가' + '주권 침해 재발시 끔찍한 사태' 군사 경고. 남북 긴장과 대화 가능성 양면 병존.",
+        "keywords": [
+          "무인기",
+          "대북침투",
+          "919합의",
+          "정동영",
+          "김여정",
+          "비행금지구역"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.0,
+        "probability_score": 8.5,
+        "urgency_score": 9.0,
+        "novelty_score": 8.5,
+        "priority_score": 8.4,
+        "priority_tag": "URGENT",
+        "cross_impact": [
+          "S: 접경지역 주민 안전 우려",
+          "T: 무인기 규제·방공체계 강화"
+        ],
+        "tipping_point": {
+          "alert_level": "YELLOW",
+          "pattern": "Flickering",
+          "evidence": "김여정 반응이 '긍정 평가 + 군사 경고'의 양면성. 9·19 합의 복원은 긴장완화 가능성이나 재발시 위기 격화 가능."
+        },
+        "actor_identification": [
+          "정동영 통일부 장관",
+          "김여정 노동당 부부장",
+          "국방부"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 8.5,
+          "TC": 8.5,
+          "DC": 8.5,
+          "ES": 8.0,
+          "CC": 8.5,
+          "IC": 8.0
+        }
+      },
+      "psst_score": 84
+    },
+    {
+      "id": "naver-20260218-TOP-007",
+      "title": "애플·구글 스마트 안경 출격 -- 빅테크 'AI 착용 디바이스' 전쟁 개막",
+      "category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/mnews/article/009/0005638400",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "메타에 이어 애플·구글 스마트 안경 시장 진입. 애플은 카메라·내비 기능 탑재 + 옷 부착 펜던트형 준비. 구글은 삼성·젠틀몬스터와 협업, 제미나이 탑재 안경 연내 출시. AI를 적용할 차세대 인터페이스로 '눈의 전쟁' 본격화.",
+        "keywords": [
+          "스마트안경",
+          "AI디바이스",
+          "애플",
+          "구글",
+          "메타",
+          "제미나이",
+          "젠틀몬스터"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.0,
+        "probability_score": 8.5,
+        "urgency_score": 7.0,
+        "novelty_score": 8.5,
+        "priority_score": 7.9,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "S: 프라이버시 논쟁 재점화",
+          "E: K-패션(젠틀몬스터) 글로벌 기회"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "시장 형성 초기 단계. 2026년 출시 제품 성패가 방향 결정."
+        },
+        "actor_identification": [
+          "애플",
+          "구글",
+          "메타",
+          "삼성",
+          "젠틀몬스터"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 8.0,
+          "TC": 8.5,
+          "DC": 8.5,
+          "ES": 8.0,
+          "CC": 7.5,
+          "IC": 8.0
+        }
+      },
+      "psst_score": 81
+    },
+    {
+      "id": "naver-20260218-TOP-008",
+      "title": "한국 2030년 GDP 대비 부채 60% 돌파 전망 -- 재정 완충 능력 약화 경고",
+      "category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "경제",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/mnews/article/015/0005129301",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "한국 GDP 대비 국가부채 비율 2030년 60% 돌파 전망. 전문가 '60% 초과시 통화정책 마비 위험'. 고령화 + 복지지출 확대 + 저성장이 구조적 원인. 재정준칙 법제화 시급성 부각.",
+        "keywords": [
+          "국가부채",
+          "GDP비율",
+          "재정건전성",
+          "통화정책",
+          "고령화"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.5,
+        "probability_score": 8.5,
+        "urgency_score": 6.0,
+        "novelty_score": 6.0,
+        "priority_score": 7.5,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "P: 재정준칙 입법 압력",
+          "S: 복지지출 축소 vs 확대 논쟁"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "점진적 추세. 60% 임계점 도달 시기가 관건."
+        },
+        "actor_identification": [
+          "기획재정부",
+          "한국은행",
+          "OECD"
+        ],
+        "source_credibility": 8.5,
+        "psst_dimensions": {
+          "SR": 8.0,
+          "TC": 7.5,
+          "DC": 6.0,
+          "ES": 8.5,
+          "CC": 7.0,
+          "IC": 8.5
+        }
+      },
+      "psst_score": 76
+    },
+    {
+      "id": "naver-20260218-TOP-009",
+      "title": "사우디, 머스크 xAI에 4조원 투자 -- 中東 AI 패권 + 美 안보기업 지분 확보",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/mnews/article/003/0012613322",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "사우디 인공지능 기업 휴메인이 머스크의 xAI에 약 4조원(30억 달러) 투자. 스페이스X 지분도 확보하여 '미국 안보에 중요한 기업'의 주주로 부상. 사우디의 AI 헤게모니 전략과 미국 기술안보 논쟁 교차.",
+        "keywords": [
+          "사우디",
+          "xAI",
+          "머스크",
+          "스페이스X",
+          "AI투자",
+          "중동"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.0,
+        "probability_score": 9.0,
+        "urgency_score": 7.0,
+        "novelty_score": 8.5,
+        "priority_score": 8.0,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "P: 기술안보·외국인투자심사 강화 논쟁",
+          "E: AI 투자 지정학화"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "구조적 추세의 일환. 중동 오일머니의 AI 전환."
+        },
+        "actor_identification": [
+          "사우디 무함마드 빈 살만",
+          "일론 머스크 xAI",
+          "미 의회"
+        ],
+        "source_credibility": 8.5,
+        "psst_dimensions": {
+          "SR": 8.0,
+          "TC": 8.0,
+          "DC": 8.5,
+          "ES": 8.0,
+          "CC": 7.5,
+          "IC": 8.0
+        }
+      },
+      "psst_score": 80
+    },
+    {
+      "id": "naver-20260218-TOP-010",
+      "title": "큇GPT(QuitGPT) 70만명 동참 -- AI 기업 정치 연루에 대한 시민 저항 확산",
+      "category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/mnews/article/015/0005129200",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "오픈AI 경영진의 트럼프 거액 후원과 ICE 기술 도입이 도화선. 미국에서 챗GPT 유료 구독 취소 '큇GPT' 운동 확산, 70만명 동참. 헐크 배우 마크 러펄로 등 유명인 합류. AI 윤리와 정치적 중립성 논쟁 격화.",
+        "keywords": [
+          "QuitGPT",
+          "오픈AI",
+          "AI윤리",
+          "시민저항",
+          "트럼프",
+          "구독취소"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 7.5,
+        "probability_score": 8.0,
+        "urgency_score": 7.5,
+        "novelty_score": 9.0,
+        "priority_score": 7.9,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "T: AI 기업 중립성 요구 → 거버넌스 변화",
+          "E: 구독 이탈 → AI 시장 경쟁 구도 변화"
+        ],
+        "tipping_point": {
+          "alert_level": "YELLOW",
+          "pattern": "Flickering",
+          "evidence": "소비자 행동주의가 AI 산업에 처음 적용. 확산 궤적이 불확실."
+        },
+        "actor_identification": [
+          "오픈AI",
+          "미국 시민",
+          "앤트로픽(수혜 기업)"
+        ],
+        "source_credibility": 8.0,
+        "psst_dimensions": {
+          "SR": 8.5,
+          "TC": 8.0,
+          "DC": 9.0,
+          "ES": 7.5,
+          "CC": 7.5,
+          "IC": 7.5
+        }
+      },
+      "psst_score": 80
+    },
+    {
+      "id": "naver-20260218-TOP-011",
+      "title": "K-방산 빅4 영업익 4.6조 사상 최대 -- 올해 6조 돌파 전망",
+      "category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "경제",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/mnews/article/011/0004570001",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "한화에어로·현대로템·LIG넥스원·KAI 합산 영업익 4조6322억원 사상 최대. 합산 매출 40조4526억원. 올해 6조원 돌파 예상. 글로벌 방산 수주 호조 + 수출 확대가 핵심 성장 동력.",
+        "keywords": [
+          "K방산",
+          "한화에어로",
+          "현대로템",
+          "LIG넥스원",
+          "KAI",
+          "방산수출"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 7.5,
+        "probability_score": 9.0,
+        "urgency_score": 6.0,
+        "novelty_score": 6.5,
+        "priority_score": 7.3,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "P: 방산외교 전략 자산화",
+          "T: 방위산업 기술 고도화"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "지속적 성장 추세. 구조적 호황."
+        },
+        "actor_identification": [
+          "한화에어로",
+          "현대로템",
+          "LIG넥스원",
+          "KAI"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 7.5,
+          "TC": 7.0,
+          "DC": 6.5,
+          "ES": 7.5,
+          "CC": 7.0,
+          "IC": 7.5
+        }
+      },
+      "psst_score": 72
+    },
+    {
+      "id": "naver-20260218-TOP-012",
+      "title": "전공의 최장 연속근무 36시간→24시간 단축 -- 수련환경 개혁 시동",
+      "category": "S",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "사회",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/mnews/article/056/0011937001",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "21일부터 전공의 최장 연속근무 36시간→24시간 단축. 주당 80시간→72시간 시범사업도 추진. 위반시 수련기관 지정취소·과태료. 의료진 삶의 질 개선과 환자 안전 간 균형.",
+        "keywords": [
+          "전공의",
+          "근무시간",
+          "수련환경",
+          "의료개혁",
+          "의료법"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 7.0,
+        "probability_score": 9.5,
+        "urgency_score": 8.0,
+        "novelty_score": 7.0,
+        "priority_score": 7.7,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "E: 의료기관 운영비용 증가",
+          "P: 의료계-정부 관계 변화"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "법 개정 확정. 이행 단계."
+        },
+        "actor_identification": [
+          "보건복지부",
+          "전공의 단체",
+          "대한의사협회"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 8.0,
+          "TC": 7.5,
+          "DC": 7.0,
+          "ES": 7.0,
+          "CC": 7.0,
+          "IC": 7.0
+        }
+      },
+      "psst_score": 72
+    },
+    {
+      "id": "naver-20260218-TOP-013",
+      "title": "글로벌 청소년 SNS 규제 확산 -- 유럽 '16금' 법제화, 머스크 '폭군' 반발",
+      "category": "S",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/mnews/article/015/0005129300",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "호주를 시작으로 영국·프랑스·스페인·체코 등 전 세계적 청소년 SNS 규제 법제화 확산. 인스타그램·틱톡·페이스북 등 16세 미만 사용 금지. 저커버그 SNS 중독 재판 출석. 머스크 '폭군' 비난으로 반발. AI 시대 디지털 양육 패러다임 전환.",
+        "keywords": [
+          "청소년",
+          "SNS규제",
+          "16금",
+          "저커버그",
+          "디지털양육",
+          "중독"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.0,
+        "probability_score": 8.5,
+        "urgency_score": 7.5,
+        "novelty_score": 7.5,
+        "priority_score": 7.9,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "T: 플랫폼 연령인증 기술 수요",
+          "s: 디지털 윤리·아동 보호 가치관 변화"
+        ],
+        "tipping_point": {
+          "alert_level": "YELLOW",
+          "pattern": "Critical Slowing Down",
+          "evidence": "규제 모멘텀이 미국까지 확산 중. 한국도 조만간 유사 입법 예상."
+        },
+        "actor_identification": [
+          "유럽 각국 정부",
+          "메타(저커버그)",
+          "X(머스크)",
+          "한국 방송통신위원회"
+        ],
+        "source_credibility": 8.5,
+        "psst_dimensions": {
+          "SR": 8.5,
+          "TC": 8.0,
+          "DC": 7.5,
+          "ES": 8.0,
+          "CC": 7.5,
+          "IC": 8.0
+        }
+      },
+      "psst_score": 79
+    },
+    {
+      "id": "naver-20260218-TOP-014",
+      "title": "트럼프·일본 52조원 대미투자 합의 발표 -- '다음은 한국' 압박 시작",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/mnews/article/214/0001455301",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "트럼프 대통령, 일본의 52조원 규모 대미투자 1호 사업 직접 공개. 다카이치 총리 재선출 후 개헌 의지 재확인. '다음 순서는 한국'이라는 투자 압박 예상. 한미 통상관계 재편 기로.",
+        "keywords": [
+          "일본투자",
+          "트럼프",
+          "대미투자",
+          "한국",
+          "통상압박",
+          "다카이치"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.0,
+        "probability_score": 8.5,
+        "urgency_score": 8.0,
+        "novelty_score": 7.0,
+        "priority_score": 7.9,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "E: 한국 대기업 대미 투자 확대 압력",
+          "T: 반도체 팹 투자 강제 가속화"
+        ],
+        "tipping_point": {
+          "alert_level": "YELLOW",
+          "pattern": "N/A",
+          "evidence": "일본 선례 확정. 한국에 동일 패턴 적용 시간 문제."
+        },
+        "actor_identification": [
+          "트럼프 대통령",
+          "다카이치 일본 총리",
+          "한국 대통령실",
+          "삼성·SK·현대"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 8.0,
+          "TC": 8.0,
+          "DC": 7.0,
+          "ES": 8.0,
+          "CC": 8.0,
+          "IC": 8.0
+        }
+      },
+      "psst_score": 79
+    },
+    {
+      "id": "naver-20260218-TOP-015",
+      "title": "졸업생 10명 이하 학교 1,863곳 -- 학령인구 급감으로 학교 소멸 위기 심화",
+      "category": "Ev",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "section": "사회",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/mnews/article/001/0015310001",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "전국 초·중·고교 중 졸업생 10명 이하 학교 1,863곳. 학교급별: 초 1,259곳, 중 457곳, 고 147곳. 학령인구 급감이 구조적 원인. 지방 교육 인프라 붕괴와 지역 소멸 가속화 우려.",
+        "keywords": [
+          "학교소멸",
+          "학령인구",
+          "인구감소",
+          "지방소멸",
+          "교육인프라"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "impact_score": 8.0,
+        "probability_score": 9.5,
+        "urgency_score": 7.0,
+        "novelty_score": 6.0,
+        "priority_score": 7.7,
+        "priority_tag": "WATCH",
+        "cross_impact": [
+          "S: 지역 교육 형평성 붕괴",
+          "P: 지방 행정 구조 개편 불가피"
+        ],
+        "tipping_point": {
+          "alert_level": "GREEN",
+          "pattern": "N/A",
+          "evidence": "비가역적 인구구조 변화. 관리 가능 수준이지만 가속화 추세."
+        },
+        "actor_identification": [
+          "교육부",
+          "지방자치단체",
+          "학부모"
+        ],
+        "source_credibility": 9.0,
+        "psst_dimensions": {
+          "SR": 8.0,
+          "TC": 6.5,
+          "DC": 6.0,
+          "ES": 8.0,
+          "CC": 6.5,
+          "IC": 8.0
+        }
+      },
+      "psst_score": 72
+    }
+  ]
+}

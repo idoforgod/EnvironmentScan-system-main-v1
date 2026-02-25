@@ -2,9 +2,12 @@
 # Version: 4.0.0 - Dual Workflow (arXiv transferred to WF2)
 # Last Updated: 2026-02-03
 #
-# Tier System:
-#   base      - Always scanned (Stage A, in all modes)
-#   expansion - Scanned by default in Stage B (skipped only with --base-only)
+# Tier System (v2.5.0):
+#   base        - Always scanned (Stage A, in all modes)
+#   expansion   - Scanned by default in Stage B (skipped only with --base-only)
+#   exploration - Discovered by Stage C; user-approved, tracked by SIE/mini-RLM.
+#                 After auto_promotion_scans successful scans, eligible for
+#                 promotion to "expansion" tier (requires user approval).
 #
 # Health Tracking Fields (per source, updated at runtime):
 #   health_status:        healthy | unhealthy | suspect (set by System 1)
@@ -514,6 +517,84 @@ sources:
     reliability: "high"
     cost: "free"
     steeps_focus: ["E_Economic", "P_Political"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  # ========================================
+  # EXPANSION TIER — Ethics, Values & Social Psychology (Skipped with --base-only)
+  # ========================================
+  # Added to address structural STEEPs imbalance:
+  # s_spiritual had 0 dedicated sources, S_Social had only 1 (Pew Research).
+
+  - name: "The Conversation - Ethics"
+    tier: "expansion"
+    type: "academic"
+    enabled: true
+    rss_feed: "https://theconversation.com/us/topics/ethics-6/articles.atom"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Academic-sourced ethics and values journalism — bridges academia and public discourse"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["s_spiritual", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Psychology Today"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://www.psychologytoday.com/intl/blog/feed"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Psychology, collective sentiment, meaning crisis, behavioral change signals"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["s_spiritual", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Aeon Magazine"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://aeon.co/feed.rss"
+    timeout: 15
+    critical: false
+    max_results: 10
+    description: "Philosophy, transhumanism, worldview shifts — deep essays on ideas and culture"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["s_spiritual", "S_Social", "T_Technological"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "AI Ethics Brief"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://brief.montrealethics.ai/feed"
+    timeout: 15
+    critical: false
+    max_results: 10
+    description: "Montreal AI Ethics Institute — AI ethics, data ethics, bioethics"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["s_spiritual", "T_Technological"]
     health_status: null
     last_health_check: null
     resolved_url: null

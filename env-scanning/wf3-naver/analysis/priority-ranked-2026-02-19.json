@@ -1,0 +1,142 @@
+{
+  "workflow": "wf3-naver",
+  "scan_date": "2026-02-19",
+  "ranking_method": "pSST_unified",
+  "total_signals": 15,
+  "ranked_signals": [
+    {"rank": 1, "id": "naver-20260219-104-001", "title": "트럼프 '10일내 이란 공격 결정' — 유가 4.6% 급등", "psst_score": 93, "steeps": "P/E", "fssf": "Wild Card", "horizon": "H1", "tipping": "ORANGE"},
+    {"rank": 2, "id": "naver-20260219-101-002", "title": "코스피 5600선 돌파 — 코스닥 매수 사이드카 발동", "psst_score": 89, "steeps": "E/T", "fssf": "Precursor Event", "horizon": "H1", "tipping": "YELLOW"},
+    {"rank": 3, "id": "naver-20260219-105-003", "title": "메타·애플·오픈AI 'AI 디바이스' 3파전 격화", "psst_score": 88, "steeps": "T/E", "fssf": "Driver", "horizon": "H1", "tipping": "YELLOW"},
+    {"rank": 4, "id": "naver-20260219-100-004", "title": "북한 핵탑재 가능 방사포 공개", "psst_score": 87, "steeps": "P/S", "fssf": "Precursor Event", "horizon": "H1", "tipping": "YELLOW"},
+    {"rank": 5, "id": "naver-20260219-105-005", "title": "AI 영상도 '차이나쇼크' — 중국 AI영상 1분 생성", "psst_score": 86, "steeps": "T/E", "fssf": "Discontinuity", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 6, "id": "naver-20260219-101-006", "title": "美 뉴욕주 로보택시 허용법안 철회 — 웨이모 타격", "psst_score": 85, "steeps": "P/T", "fssf": "Emerging Issue", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 7, "id": "naver-20260219-105-007", "title": "삼성·한화 하이브리드 본더 개발 — ASML 동맹", "psst_score": 84, "steeps": "T/E", "fssf": "Driver", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 8, "id": "naver-20260219-105-008", "title": "과기정통부 2035년 핵융합 초전도체 기술 확보 추진", "psst_score": 82, "steeps": "T/E_Env", "fssf": "Driver", "horizon": "H2", "tipping": "GREEN"},
+    {"rank": 9, "id": "naver-20260219-101-009", "title": "자동차 1월 수출 친환경차 42% — 사상 최대 비중", "psst_score": 81, "steeps": "E/E_Env", "fssf": "Trend", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 10, "id": "naver-20260219-104-010", "title": "일본 선제적 대미투자, 한국에 부담 — 한일 경쟁 심화", "psst_score": 80, "steeps": "E/P", "fssf": "Emerging Issue", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 11, "id": "naver-20260219-102-011", "title": "법원 계엄 선포 내란죄 해석 — 윤 무기징역 판결", "psst_score": 78, "steeps": "P/S", "fssf": "Emerging Issue", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 12, "id": "naver-20260219-105-012", "title": "트릴리온랩스 트리 21B 씽크 공개 — AI 글로벌 톱30", "psst_score": 77, "steeps": "T/E", "fssf": "Weak Signal", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 13, "id": "naver-20260219-101-013", "title": "코픽스 5개월 만에 소폭 하락 — 금리 인하 신호", "psst_score": 76, "steeps": "E/S", "fssf": "Driver", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 14, "id": "naver-20260219-102-014", "title": "교복 등골브레이커 — 정부 합동 대책회의", "psst_score": 74, "steeps": "S/E", "fssf": "Weak Signal", "horizon": "H1", "tipping": "GREEN"},
+    {"rank": 15, "id": "naver-20260219-104-015", "title": "이란 '핵 농축 권리' 고수 — 핵협상 결렬 신호", "psst_score": 73, "steeps": "P/T", "fssf": "Megatrend", "horizon": "H2", "tipping": "GREEN"}
+  ],
+  "cross_impact_pairs": [
+    {
+      "pair": "naver-20260219-104-001 ↔ naver-20260219-101-002",
+      "description": "이란 공격 위협(유가 급등) ↔ 코스피 5600 과열",
+      "relationship": "tension",
+      "strength": "strong",
+      "note": "지정학 충격이 증시 조정 트리거로 작용할 가능성. 유가 급등 지속 시 코스피 상단 저항 강화"
+    },
+    {
+      "pair": "naver-20260219-105-003 ↔ naver-20260219-105-005",
+      "description": "메타·애플·오픈AI AI디바이스 경쟁 ↔ 중국 AI영상 차이나쇼크",
+      "relationship": "reinforcing",
+      "strength": "strong",
+      "note": "서방과 중국 모두 AI 하드웨어-소프트웨어 통합 경쟁에서 가속. AI 디바이스 전쟁의 중국 변수 강화"
+    },
+    {
+      "pair": "naver-20260219-104-001 ↔ naver-20260219-104-015",
+      "description": "트럼프 이란 공격 위협 ↔ 이란 핵 농축 권리 고수",
+      "relationship": "reinforcing",
+      "strength": "strong",
+      "note": "이란의 핵 고수 선언과 미국의 군사 위협이 동일 신호를 양방향에서 강화. 중동 군사충돌 확률 상승"
+    },
+    {
+      "pair": "naver-20260219-105-007 ↔ naver-20260219-105-008",
+      "description": "삼성·한화 하이브리드 본더 ↔ 과기정통부 핵융합 초전도체",
+      "relationship": "reinforcing",
+      "strength": "medium",
+      "note": "한국의 첨단 소재·장비 기술 자립 의지가 민관 양면에서 동시 추진 중임을 확인"
+    },
+    {
+      "pair": "naver-20260219-101-006 ↔ naver-20260219-105-003",
+      "description": "뉴욕주 로보택시 규제 역풍 ↔ AI 디바이스 경쟁 가속",
+      "relationship": "tension",
+      "strength": "medium",
+      "note": "AI 기술 가속과 규제 저항이 동시에 발생. 하드웨어 AI는 가속, 자율주행 AI는 규제 역풍 — 분야별 이중 속도"
+    },
+    {
+      "pair": "naver-20260219-104-010 ↔ naver-20260219-101-009",
+      "description": "일본 대미투자 한국 부담 ↔ 한국 친환경차 수출 최대",
+      "relationship": "tension",
+      "strength": "medium",
+      "note": "한국 자동차 수출 호조에도 불구, 일본의 선제적 트럼프 협력으로 관세 불이익 리스크 증가"
+    },
+    {
+      "pair": "naver-20260219-100-004 ↔ naver-20260219-102-011",
+      "description": "북한 신형 방사포 공개 ↔ 윤 무기징역 판결(한국 정치 불안)",
+      "relationship": "reinforcing",
+      "strength": "medium",
+      "note": "외부 안보 위협과 내부 정치 혼란이 동시 발생 — 한국의 안보·정치 이중 취약성 고조"
+    }
+  ],
+  "fssf_analysis": {
+    "critical_priority": {
+      "types": ["Wild Card", "Discontinuity"],
+      "count": 2,
+      "signals": ["naver-20260219-104-001", "naver-20260219-105-005"],
+      "summary": "이란 군사충돌 와일드카드 + 중국 AI 영상 급성장 단절 — 예측 불가 충격 2건"
+    },
+    "high_priority": {
+      "types": ["Driver", "Emerging Issue", "Precursor Event"],
+      "count": 9,
+      "summary": "AI 디바이스 경쟁, 반도체 기술 경쟁, 증시 과열, 북핵 위협, 로보택시 규제 역풍 등 고영향 동인"
+    },
+    "medium_priority": {
+      "types": ["Trend", "Megatrend", "Weak Signal"],
+      "count": 4,
+      "summary": "친환경차 수출 추세, 이란 핵 메가트렌드, 한국 AI 스타트업 약한 신호"
+    }
+  },
+  "tipping_point_details": {
+    "ORANGE": [
+      {
+        "signal_id": "naver-20260219-104-001",
+        "title": "트럼프 이란 공격 10일 내 결정",
+        "pattern": "Flickering",
+        "indicators": ["유가 4.6% 단일일 급등", "밴스 부통령 이란 레드라인 발언", "트럼프 직접 시한 설정"],
+        "threshold_trigger": "이란 핵시설 공습 또는 호르무즈 해협 봉쇄",
+        "cascade_risk": "유가 120달러 이상, 글로벌 인플레이션 재점화, 한국 에너지 비용 급등"
+      }
+    ],
+    "YELLOW": [
+      {
+        "signal_id": "naver-20260219-101-002",
+        "title": "코스피 5600 돌파 + 코스닥 사이드카",
+        "pattern": "Critical Slowing Down",
+        "indicators": ["코스닥 매수 사이드카 올해 2번 발동", "4300 신중론 동시 등장", "거래소 부실기업 신속퇴출 추진"],
+        "threshold_trigger": "외부 충격(이란, 트럼프 관세) 시 급락 전환",
+        "cascade_risk": "신흥시장 자금 이탈, 원화 약세 연쇄"
+      },
+      {
+        "signal_id": "naver-20260219-105-003",
+        "title": "AI 디바이스 3파전",
+        "pattern": "Critical Slowing Down",
+        "indicators": ["메타 스마트워치 재도전", "오픈AI 하드웨어 진출", "애플 AI 통합 가속"],
+        "threshold_trigger": "3사 중 1사의 AI 디바이스 출시 성공 시 시장 재편",
+        "cascade_risk": "스마트폰 패러다임 붕괴, 한국 삼성·LG 포지셔닝 위기"
+      },
+      {
+        "signal_id": "naver-20260219-100-004",
+        "title": "북한 신형 방사포 공개",
+        "pattern": "Flickering",
+        "indicators": ["핵탑재 가능 신형 방사포", "한반도 전역 사정권", "정동영 대북 유감 외교"],
+        "threshold_trigger": "북한 추가 핵실험 또는 ICBM 발사",
+        "cascade_risk": "한반도 안보 리스크 재평가, 외국인 투자 이탈"
+      }
+    ]
+  },
+  "three_horizons_summary": {
+    "H1": {"count": 13, "dominant_themes": ["이란위기", "증시과열", "AI디바이스", "북핵", "자율주행규제"]},
+    "H2": {"count": 2, "dominant_themes": ["핵융합초전도체", "이란핵메가트렌드"]},
+    "H3": {"count": 0}
+  },
+  "steeps_cross_impact_matrix": {
+    "P_E": "이란 군사위협 → 유가 → 한국 경제 비용 충격 (HIGH)",
+    "T_E": "AI 디바이스 경쟁 → 한국 IT 기업 포지셔닝 (HIGH)",
+    "P_T": "로보택시 규제 역풍 → 한국 자율주행 산업 정책 재검토 (MEDIUM)",
+    "E_S": "금리 인하 신호 → 주택 시장 재열 가능성 (MEDIUM)",
+    "P_S": "북핵 위협 + 정치 불안 → 사회 불안정 (MEDIUM)"
+  }
+}

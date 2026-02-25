@@ -1,0 +1,112 @@
+{
+  "date": "2026-02-13",
+  "total_candidates_discovered": 5,
+  "viable_candidates": [
+    {
+      "name": "World Inequality Database (WID.world)",
+      "url": "https://wid.world",
+      "type": "academic",
+      "description": "World Inequality Lab (Chancel, Piketty) publishes flagship World Inequality Report with granular data on global wealth, income, gender, and carbon inequality. WIR 2026 released Feb 2026.",
+      "steeps_coverage": ["E_Economic", "S_Social"],
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Economic",
+      "sample_content_available": true,
+      "recent_content_verified": true,
+      "last_publication_date": "2026-02-12",
+      "evaluation": {
+        "signal_quality": "HIGH",
+        "uniqueness": "HIGH — not covered by existing WF1 sources (World Bank/IMF focus on macro policy, not distributional data)",
+        "relevance_to_gaps": "CRITICAL — directly addresses Economic and Social inequality gaps",
+        "recommendation": "PROMOTE — strong candidate for permanent source addition"
+      }
+    },
+    {
+      "name": "Council on Strategic Risks (AIxBio Program)",
+      "url": "https://councilonstrategicrisks.org",
+      "type": "policy",
+      "description": "Nonpartisan policy institute tracking AI-biology convergence risks, biosecurity governance, and synthetic biology ethics. Publishes annual AIxBio reviews with projections.",
+      "steeps_coverage": ["s_spiritual", "P_Political", "T_Technological"],
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "synthetic biology ethics governance",
+      "sample_content_available": true,
+      "recent_content_verified": true,
+      "last_publication_date": "2025-12-22",
+      "evaluation": {
+        "signal_quality": "HIGH",
+        "uniqueness": "HIGH — unique intersection of AI + biology + ethics governance, not covered by existing sources",
+        "relevance_to_gaps": "HIGH — addresses spiritual/ethics gap through bioethics and AI-bio convergence governance",
+        "recommendation": "VIABLE — good niche source for AI-bio ethics signals"
+      }
+    },
+    {
+      "name": "CaixaBank Research (Global Economics)",
+      "url": "https://www.caixabankresearch.com/en",
+      "type": "blog",
+      "description": "European bank research division providing detailed global economic analysis, GDP forecasts, trade disruption scenarios, and structural shift analysis. Non-US perspective on global economy.",
+      "steeps_coverage": ["E_Economic", "P_Political"],
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Economic",
+      "sample_content_available": true,
+      "recent_content_verified": true,
+      "last_publication_date": "2026-02-10",
+      "evaluation": {
+        "signal_quality": "MEDIUM-HIGH",
+        "uniqueness": "MEDIUM — overlaps somewhat with IMF/World Bank, but provides independent European perspective with more granular trade/tariff analysis",
+        "relevance_to_gaps": "HIGH — directly addresses Economic gap with quantitative forecasts",
+        "recommendation": "VIABLE — useful complement to existing economic sources"
+      }
+    },
+    {
+      "name": "UVA Darden Ethics in AI Program",
+      "url": "https://news.darden.virginia.edu",
+      "type": "academic",
+      "description": "University of Virginia Darden School tracks AI ethics implementation gap — the divide between ethical principles and actual practice. Focus on accountability, trust, and societal values.",
+      "steeps_coverage": ["s_spiritual", "T_Technological"],
+      "discovery_method": "gap_directed",
+      "gap_targeted": "s_spiritual",
+      "sample_content_available": true,
+      "recent_content_verified": true,
+      "last_publication_date": "2026-01-22",
+      "evaluation": {
+        "signal_quality": "HIGH",
+        "uniqueness": "HIGH — focuses on the ethics-to-practice implementation gap, not just principles. Academic rigor from LaCross Institute.",
+        "relevance_to_gaps": "CRITICAL — directly addresses spiritual/values gap through AI ethics as defining societal issue",
+        "recommendation": "PROMOTE — strong candidate for permanent spiritual/ethics source"
+      }
+    }
+  ],
+  "non_viable_candidates": [
+    {
+      "name": "NDE Beyond (AI Consciousness)",
+      "url": "https://ndebeyond.com",
+      "type": "blog",
+      "description": "Blog covering AI consciousness, near-death experiences, and philosophical questions about machine sentience.",
+      "steeps_coverage": ["s_spiritual"],
+      "discovery_method": "gap_directed",
+      "gap_targeted": "s_spiritual",
+      "reason_non_viable": "Low publication frequency and niche scope. Content is philosophically interesting but lacks the empirical rigor and policy relevance needed for environmental scanning signals. Better covered by academic sources like Darden."
+    }
+  ],
+  "gap_analysis_result": {
+    "pre_exploration_gaps": ["s_spiritual", "E_Economic", "S_Social"],
+    "pre_exploration_distribution": {
+      "S_Social": "4/25 (16.0%)",
+      "T_Technological": "8/25 (32.0%)",
+      "E_Economic": "2/25 (8.0%)",
+      "E_Environmental": "4/25 (16.0%)",
+      "P_Political": "7/25 (28.0%)",
+      "s_spiritual": "0/25 (0.0%)"
+    },
+    "exploration_signals_by_gap": {
+      "s_spiritual": 2,
+      "E_Economic": 2,
+      "S_Social": 1
+    },
+    "expected_post_merge_improvement": "spiritual from 0% to ~6.7%, Economic from 8% to ~13.3%, Social stays at 16%+"
+  },
+  "frontier_keywords_used": [
+    "synthetic biology ethics governance",
+    "Latin American sustainability news",
+    "music and artificial intelligence"
+  ]
+}

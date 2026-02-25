@@ -1,0 +1,881 @@
+# WF4 Exclusive: Multi & Global News Environmental Scanning Source Configuration
+# Version: 1.0.0
+# Last Updated: 2026-02-24
+#
+# This file is used ONLY by WF4 (Multi & Global News dedicated workflow).
+# It contains a single logical source: MultiGlobalNews, comprising 44 individual
+# news sites organized into regional/thematic groups for direct crawling.
+#
+# Key Differences from WF1/WF2/WF3:
+#   - Source type: "crawl" (direct site crawling, RSS-first where available)
+#   - 43 individual sites across 18 groups (KR/EN/CN/JP/DE/FR/RU/MX)
+#   - Multi-language: ko, en, zh, ja, de, fr, ru, es
+#   - Paywall-aware: 7 sites require total_war strategy
+#   - No single critical site — resilient by diversity
+#
+# Site Groups (43 total):
+#   KR-종합(7) + KR-경제(4) + KR-기술(4) + KR-과학(1) + KR-오피니언(1) = 17 KR
+#   EN-미국(7) + EN-영국(2) + EN-캐나다(1) + EN-중동(3) + EN-아시아(3)
+#     + EN-한반도(2) + EN-기술(2) = 20 EN
+#   CN(2) + JP(1) + DE(1) + FR(1) + RU(1) + MX(1) = 7 Other
+#   Total: 44
+
+sources:
+  - name: "MultiGlobalNews"
+    tier: "base"
+    type: "crawl"
+    enabled: true
+    description: "44 global news sites — direct crawling with RSS-first strategy"
+    reliability: "high"
+    cost: "free"
+    rate_limit: 20  # requests per minute (conservative global average)
+    timeout: 20  # seconds per request
+    critical: false  # No single site is critical — resilience through diversity
+
+    # ================================================================
+    # SITE DEFINITIONS — 44 individual sites organized by group
+    # ================================================================
+
+    sites:
+      # ========================================
+      # KR-종합 (Korean Major Newspapers) — 7 sites
+      # ========================================
+
+      - name: "chosun"
+        display_name: "조선일보"
+        url: "https://www.chosun.com"
+        rss_url: "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "joongang"
+        display_name: "중앙일보"
+        url: "https://www.joongang.co.kr"
+        rss_url: "https://rss.joins.com/joins_news_list.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "donga"
+        display_name: "동아일보"
+        url: "https://www.donga.com"
+        rss_url: "https://rss.donga.com/total.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "hani"
+        display_name: "한겨레"
+        url: "https://www.hani.co.kr"
+        rss_url: "https://www.hani.co.kr/rss/"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "khan"
+        display_name: "경향신문"
+        url: "https://www.khan.co.kr"
+        rss_url: "https://www.khan.co.kr/rss/rssdata/total_news.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "mk"
+        display_name: "매일경제"
+        url: "https://www.mk.co.kr"
+        rss_url: "https://www.mk.co.kr/rss/30000001/"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "hankyung"
+        display_name: "한국경제"
+        url: "https://www.hankyung.com"
+        rss_url: "https://www.hankyung.com/feed/all-news"
+        language: "ko"
+        region: "KR"
+        group: "KR-종합"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # KR-경제 (Korean Economy/Business) — 4 sites
+      # ========================================
+
+      - name: "sedaily"
+        display_name: "서울경제"
+        url: "https://www.sedaily.com"
+        rss_url: "https://www.sedaily.com/RSS/BC"
+        language: "ko"
+        region: "KR"
+        group: "KR-경제"
+        source_type: "news_econ"
+        steeps_focus: ["E", "T", "P"]
+        paywall: false
+        critical: false
+
+      - name: "edaily"
+        display_name: "이데일리"
+        url: "https://www.edaily.co.kr"
+        rss_url: "https://rss.edaily.co.kr/edaily_all.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-경제"
+        source_type: "news_econ"
+        steeps_focus: ["E", "T", "P"]
+        paywall: false
+        critical: false
+
+      - name: "mt"
+        display_name: "머니투데이"
+        url: "https://www.mt.co.kr"
+        rss_url: "https://rss.mt.co.kr/mt_news.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-경제"
+        source_type: "news_econ"
+        steeps_focus: ["E", "T", "P"]
+        paywall: false
+        critical: false
+
+      - name: "businesspost"
+        display_name: "비즈니스포스트"
+        url: "https://www.businesspost.co.kr"
+        rss_url: null
+        language: "ko"
+        region: "KR"
+        group: "KR-경제"
+        source_type: "news_econ"
+        steeps_focus: ["E", "T", "P"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # KR-기술 (Korean Technology) — 4 sites
+      # ========================================
+
+      - name: "zdnet_kr"
+        display_name: "지디넷코리아"
+        url: "https://zdnet.co.kr"
+        rss_url: "https://zdnet.co.kr/rss/all_news.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-기술"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E"]
+        paywall: false
+        critical: false
+
+      - name: "etnews"
+        display_name: "전자신문"
+        url: "https://www.etnews.com"
+        rss_url: "https://rss.etnews.com/Section901.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-기술"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E"]
+        paywall: false
+        critical: false
+
+      - name: "bloter"
+        display_name: "블로터"
+        url: "https://www.bloter.net"
+        rss_url: "https://www.bloter.net/feed"
+        language: "ko"
+        region: "KR"
+        group: "KR-기술"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E"]
+        paywall: false
+        critical: false
+
+      - name: "aitimes"
+        display_name: "AI타임스"
+        url: "https://www.aitimes.com"
+        rss_url: "https://www.aitimes.com/rss/allArticle.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-기술"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # KR-과학 (Korean Science) — 1 site
+      # ========================================
+
+      - name: "sciencetimes"
+        display_name: "사이언스타임즈"
+        url: "https://www.sciencetimes.co.kr"
+        rss_url: "https://www.sciencetimes.co.kr/feed/"
+        language: "ko"
+        region: "KR"
+        group: "KR-과학"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # KR-오피니언 (Korean Opinion) — 1 site
+      # ========================================
+
+      - name: "sisain"
+        display_name: "시사IN"
+        url: "https://www.sisain.co.kr"
+        rss_url: "https://www.sisain.co.kr/rss/allArticle.xml"
+        language: "ko"
+        region: "KR"
+        group: "KR-오피니언"
+        source_type: "news_major"
+        steeps_focus: ["S", "s", "P"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-미국 (US Major) — 7 sites
+      # ========================================
+
+      - name: "nytimes"
+        display_name: "The New York Times"
+        url: "https://www.nytimes.com"
+        rss_url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: true
+        critical: false
+
+      - name: "washingtonpost"
+        display_name: "The Washington Post"
+        url: "https://www.washingtonpost.com"
+        rss_url: "https://feeds.washingtonpost.com/rss/world"
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "wsj"
+        display_name: "The Wall Street Journal"
+        url: "https://www.wsj.com"
+        rss_url: "https://feeds.a.dj.com/rss/RSSWorldNews.xml"
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: true
+        critical: false
+
+      - name: "bloomberg"
+        display_name: "Bloomberg"
+        url: "https://www.bloomberg.com"
+        rss_url: null
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_econ"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: true
+        critical: false
+
+      - name: "reuters"
+        display_name: "Reuters"
+        url: "https://www.reuters.com"
+        rss_url: "https://www.reutersagency.com/feed/"
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_intl"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "apnews"
+        display_name: "Associated Press"
+        url: "https://apnews.com"
+        rss_url: "https://rsshub.app/apnews/topics/apf-topnews"
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_intl"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      - name: "politico"
+        display_name: "Politico"
+        url: "https://www.politico.com"
+        rss_url: "https://rss.politico.com/politics-news.xml"
+        language: "en"
+        region: "US"
+        group: "EN-미국"
+        source_type: "news_major"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-영국 (UK Major) — 2 sites
+      # ========================================
+
+      - name: "ft"
+        display_name: "Financial Times"
+        url: "https://www.ft.com"
+        rss_url: "https://www.ft.com/rss/home"
+        language: "en"
+        region: "UK"
+        group: "EN-영국"
+        source_type: "news_econ"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: true
+        critical: false
+
+      - name: "bbc"
+        display_name: "BBC News"
+        url: "https://www.bbc.com/news"
+        rss_url: "https://feeds.bbci.co.uk/news/rss.xml"
+        language: "en"
+        region: "UK"
+        group: "EN-영국"
+        source_type: "news_intl"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-캐나다 (Canada) — 1 site
+      # ========================================
+
+      - name: "globeandmail"
+        display_name: "The Globe and Mail"
+        url: "https://www.theglobeandmail.com"
+        rss_url: "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/world/"
+        language: "en"
+        region: "CA"
+        group: "EN-캐나다"
+        source_type: "news_major"
+        steeps_focus: ["E", "T", "P"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-중동 (Middle East) — 3 sites
+      # ========================================
+
+      - name: "aljazeera"
+        display_name: "Al Jazeera"
+        url: "https://www.aljazeera.com"
+        rss_url: "https://www.aljazeera.com/xml/rss/all.xml"
+        language: "en"
+        region: "QA"
+        group: "EN-중동"
+        source_type: "news_intl"
+        steeps_focus: ["P", "S", "E"]
+        paywall: false
+        critical: false
+
+      - name: "timesofisrael"
+        display_name: "The Times of Israel"
+        url: "https://www.timesofisrael.com"
+        rss_url: "https://www.timesofisrael.com/feed/"
+        language: "en"
+        region: "IL"
+        group: "EN-중동"
+        source_type: "news_major"
+        steeps_focus: ["P", "S", "E"]
+        paywall: false
+        critical: false
+
+      - name: "arabnews"
+        display_name: "Arab News"
+        url: "https://www.arabnews.com"
+        rss_url: "https://www.arabnews.com/rss.xml"
+        language: "en"
+        region: "SA"
+        group: "EN-중동"
+        source_type: "news_major"
+        steeps_focus: ["P", "S", "E"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-아시아 (Asia-Pacific) — 3 sites
+      # ========================================
+
+      - name: "scmp"
+        display_name: "South China Morning Post"
+        url: "https://www.scmp.com"
+        rss_url: "https://www.scmp.com/rss/91/feed"
+        language: "en"
+        region: "HK"
+        group: "EN-아시아"
+        source_type: "news_intl"
+        steeps_focus: ["P", "E", "T", "S"]
+        paywall: false
+        critical: false
+
+      - name: "straitstimes"
+        display_name: "The Straits Times"
+        url: "https://www.straitstimes.com"
+        rss_url: "https://www.straitstimes.com/news/world/rss.xml"
+        language: "en"
+        region: "SG"
+        group: "EN-아시아"
+        source_type: "news_intl"
+        steeps_focus: ["P", "E", "T", "S"]
+        paywall: false
+        critical: false
+
+      - name: "japantimes"
+        display_name: "The Japan Times"
+        url: "https://www.japantimes.co.jp"
+        rss_url: "https://www.japantimes.co.jp/feed/"
+        language: "en"
+        region: "JP"
+        group: "EN-아시아"
+        source_type: "news_intl"
+        steeps_focus: ["P", "E", "T", "S"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-한반도 (Korean Peninsula, English) — 2 sites
+      # ========================================
+
+      - name: "nknews"
+        display_name: "NK News"
+        url: "https://www.nknews.org"
+        rss_url: "https://www.nknews.org/feed/"
+        language: "en"
+        region: "KR"
+        group: "EN-한반도"
+        source_type: "news_intl"
+        steeps_focus: ["P", "S", "E"]
+        paywall: false
+        critical: false
+
+      - name: "koreaherald"
+        display_name: "The Korea Herald"
+        url: "https://www.koreaherald.com"
+        rss_url: "https://www.koreaherald.com/common/rss_xml.php"
+        language: "en"
+        region: "KR"
+        group: "EN-한반도"
+        source_type: "news_intl"
+        steeps_focus: ["P", "S", "E"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # EN-기술 (Tech, English) — 2 sites
+      # ========================================
+
+      - name: "techcrunch"
+        display_name: "TechCrunch"
+        url: "https://techcrunch.com"
+        rss_url: "https://techcrunch.com/feed/"
+        language: "en"
+        region: "US"
+        group: "EN-기술"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E"]
+        paywall: false
+        critical: false
+
+      - name: "arstechnica"
+        display_name: "Ars Technica"
+        url: "https://arstechnica.com"
+        rss_url: "https://feeds.arstechnica.com/arstechnica/index"
+        language: "en"
+        region: "US"
+        group: "EN-기술"
+        source_type: "news_tech"
+        steeps_focus: ["T", "E"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # CN (China) — 2 sites
+      # ========================================
+
+      - name: "caixin"
+        display_name: "财新网 (Caixin)"
+        url: "https://www.caixin.com"
+        rss_url: null
+        language: "zh"
+        region: "CN"
+        group: "CN"
+        source_type: "news_econ"
+        steeps_focus: ["E", "P", "T"]
+        paywall: true
+        critical: false
+
+      - name: "thepaper"
+        display_name: "澎湃新闻 (The Paper)"
+        url: "https://www.thepaper.cn"
+        rss_url: null
+        language: "zh"
+        region: "CN"
+        group: "CN"
+        source_type: "news_major"
+        steeps_focus: ["E", "P", "T"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # JP (Japan) — 1 site
+      # ========================================
+
+      - name: "nikkei"
+        display_name: "日本経済新聞 (Nikkei)"
+        url: "https://www.nikkei.com"
+        rss_url: "https://www.nikkei.com/rss/topnews.xml"
+        language: "ja"
+        region: "JP"
+        group: "JP"
+        source_type: "news_econ"
+        steeps_focus: ["E", "P", "T"]
+        paywall: true
+        critical: false
+
+      # ========================================
+      # DE (Germany) — 1 site
+      # ========================================
+
+      - name: "handelsblatt"
+        display_name: "Handelsblatt"
+        url: "https://www.handelsblatt.com"
+        rss_url: "https://www.handelsblatt.com/contentexport/feed/top"
+        language: "de"
+        region: "DE"
+        group: "DE"
+        source_type: "news_econ"
+        steeps_focus: ["E", "P", "T"]
+        paywall: true
+        critical: false
+
+      # ========================================
+      # FR (France) — 1 site
+      # ========================================
+
+      - name: "lemonde"
+        display_name: "Le Monde"
+        url: "https://www.lemonde.fr"
+        rss_url: "https://www.lemonde.fr/rss/une.xml"
+        language: "fr"
+        region: "FR"
+        group: "FR"
+        source_type: "news_major"
+        steeps_focus: ["E", "P", "T"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # RU (Russia) — 1 site
+      # ========================================
+
+      - name: "rt"
+        display_name: "RT (Russia Today)"
+        url: "https://www.rt.com"
+        rss_url: "https://www.rt.com/rss/"
+        language: "ru"
+        region: "RU"
+        group: "RU"
+        source_type: "news_intl"
+        steeps_focus: ["P", "E"]
+        paywall: false
+        critical: false
+
+      # ========================================
+      # MX (Mexico) — 1 site
+      # ========================================
+
+      - name: "elfinanciero"
+        display_name: "El Financiero"
+        url: "https://www.elfinanciero.com.mx"
+        rss_url: "https://www.elfinanciero.com.mx/arc/outboundfeeds/rss/?outputType=xml"
+        language: "es"
+        region: "MX"
+        group: "MX"
+        source_type: "news_econ"
+        steeps_focus: ["E", "S", "P"]
+        paywall: false
+        critical: false
+
+    # ================================================================
+    # GROUP METADATA — Summary of site groups
+    # ================================================================
+
+    group_metadata:
+      KR-종합:
+        display_name: "한국 종합지"
+        count: 7
+        language: "ko"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        description: "Korean major national newspapers — broadest domestic coverage"
+
+      KR-경제:
+        display_name: "한국 경제지"
+        count: 4
+        language: "ko"
+        steeps_focus: ["E", "T", "P"]
+        description: "Korean economy and business specialized media"
+
+      KR-기술:
+        display_name: "한국 기술매체"
+        count: 4
+        language: "ko"
+        steeps_focus: ["T", "E"]
+        description: "Korean technology and IT specialized media"
+
+      KR-과학:
+        display_name: "한국 과학매체"
+        count: 1
+        language: "ko"
+        steeps_focus: ["T", "E_Environmental"]
+        description: "Korean science news coverage"
+
+      KR-오피니언:
+        display_name: "한국 오피니언매체"
+        count: 1
+        language: "ko"
+        steeps_focus: ["S", "s", "P"]
+        description: "Korean opinion and in-depth analysis magazine"
+
+      EN-미국:
+        display_name: "미국 주요매체"
+        count: 7
+        language: "en"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        description: "US major newspapers, wire services, and political news"
+
+      EN-영국:
+        display_name: "영국 주요매체"
+        count: 2
+        language: "en"
+        steeps_focus: ["S", "T", "E", "P", "E_Environmental"]
+        description: "UK financial and public broadcasting news"
+
+      EN-캐나다:
+        display_name: "캐나다 주요매체"
+        count: 1
+        language: "en"
+        steeps_focus: ["E", "T", "P"]
+        description: "Canada national newspaper of record"
+
+      EN-중동:
+        display_name: "중동 영문매체"
+        count: 3
+        language: "en"
+        steeps_focus: ["P", "S", "E"]
+        description: "English-language Middle East news coverage"
+
+      EN-아시아:
+        display_name: "아시아 영문매체"
+        count: 3
+        language: "en"
+        steeps_focus: ["P", "E", "T", "S"]
+        description: "English-language Asia-Pacific news from HK, SG, JP"
+
+      EN-한반도:
+        display_name: "한반도 영문매체"
+        count: 2
+        language: "en"
+        steeps_focus: ["P", "S", "E"]
+        description: "English-language Korean peninsula and North Korea coverage"
+
+      EN-기술:
+        display_name: "영문 기술매체"
+        count: 2
+        language: "en"
+        steeps_focus: ["T", "E"]
+        description: "English-language technology news and analysis"
+
+      CN:
+        display_name: "중국 매체"
+        count: 2
+        language: "zh"
+        steeps_focus: ["E", "P", "T"]
+        description: "Chinese financial and general news"
+
+      JP:
+        display_name: "일본 매체"
+        count: 1
+        language: "ja"
+        steeps_focus: ["E", "P", "T"]
+        description: "Japan's leading business newspaper"
+
+      DE:
+        display_name: "독일 매체"
+        count: 1
+        language: "de"
+        steeps_focus: ["E", "P", "T"]
+        description: "Germany's leading business and financial newspaper"
+
+      FR:
+        display_name: "프랑스 매체"
+        count: 1
+        language: "fr"
+        steeps_focus: ["E", "P", "T"]
+        description: "France's newspaper of record"
+
+      RU:
+        display_name: "러시아 매체"
+        count: 1
+        language: "ru"
+        steeps_focus: ["P", "E"]
+        description: "Russian state-funded international news network"
+
+      MX:
+        display_name: "멕시코 매체"
+        count: 1
+        language: "es"
+        steeps_focus: ["E", "S", "P"]
+        description: "Mexico's leading financial newspaper"
+
+    # ================================================================
+    # CRAWL CONFIGURATION — Shared across all 43 sites
+    # ================================================================
+
+    crawl_config:
+      min_delay: 2.0          # seconds between requests to same site
+      max_delay: 5.0          # upper bound for randomized delay
+      site_delay: 3.0         # seconds between switching to next site
+      max_retries_network: 5  # retries for network-level failures (timeout, DNS, etc.)
+      max_retries_crawler: 3  # retries for crawler-level failures (parse error, empty page)
+      max_retries_pipeline: 3 # retries for pipeline-level failures (validation, transform)
+      total_war: true         # enable aggressive fallback strategies for paywall sites
+      rss_first: true         # attempt RSS feed before direct crawling
+      fetch_content: true     # fetch full article body (not just headline)
+      required_fields:
+        - title
+        - published_date
+        - content
+        - source_url
+
+    # ================================================================
+    # PAYWALL STRATEGY — Sites requiring total_war escalation
+    # ================================================================
+
+    paywall_sites:
+      - "nytimes"
+      - "wsj"
+      - "ft"
+      - "bloomberg"
+      - "nikkei"
+      - "handelsblatt"
+      - "caixin"
+
+    paywall_strategy:
+      # When total_war is true and site is in paywall_sites:
+      #   1. Try RSS feed (often provides full text or summary)
+      #   2. Try Google cache / archive.org fallback
+      #   3. Try reader-mode extraction
+      #   4. Accept headline + summary only (degraded but not lost)
+      fallback_cascade:
+        - "rss_feed"
+        - "google_cache"
+        - "archive_org"
+        - "reader_mode"
+        - "headline_only"
+      accept_partial: true  # Accept headline-only as degraded signal
+
+    # ================================================================
+    # ANTI-BLOCK CONFIGURATION
+    # ================================================================
+
+    anti_block:
+      skill: "anti-block-crawler"
+      strategy_cascade:
+        - "default"
+        - "httpx_async"
+        - "rotate_headers"
+        - "delay_increase"
+        - "proxy_rotation"
+        - "session_reset"
+        - "browser_emulation"
+
+    # ================================================================
+    # HEALTH TRACKING (Runtime fields — initialized to null)
+    # ================================================================
+
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+# ================================================================
+# RETRY POLICY
+# ================================================================
+
+retry_policy:
+  max_attempts: 5  # Per-site retry limit (higher than WF1/WF2 due to crawling nature)
+  backoff_strategy: "exponential"  # 1s, 2s, 4s, 8s, 16s
+  timeout_increase: true  # Increase timeout on each retry
+  per_site_budget: 60  # Maximum seconds to spend on any single site before skipping
+  global_budget: 3600  # Maximum seconds for entire crawl cycle (1 hour)
+
+# ================================================================
+# ERROR HANDLING
+# ================================================================
+
+error_handling:
+  on_critical_failure: "skip_and_continue"  # No single site is critical; skip and move on
+  on_non_critical_failure: "skip_and_continue"
+  on_all_sites_failed: "halt_workflow"  # If ALL 44 sites fail, halt WF4
+  minimum_sites_required: 10  # At least 10 of 44 must succeed for a valid scan
+  log_errors: true
+  notify_on_failure: false  # Set to true for email/Slack alerts
+  failure_report:
+    enabled: true
+    include_per_site_status: true
+    include_retry_details: true
+
+# ================================================================
+# LANGUAGE COVERAGE SUMMARY
+# ================================================================
+# ko: 17 sites (KR-종합 7, KR-경제 4, KR-기술 4, KR-과학 1, KR-오피니언 1)
+# en: 20 sites (EN-미국 7, EN-영국 2, EN-캐나다 1, EN-중동 3, EN-아시아 3, EN-한반도 2, EN-기술 2)
+# zh:  2 sites (CN 2)
+# ja:  1 site  (JP 1)
+# de:  1 site  (DE 1)
+# fr:  1 site  (FR 1)
+# ru:  1 site  (RU 1)
+# es:  1 site  (MX 1)
+# TOTAL: 44 sites across 8 languages

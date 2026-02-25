@@ -20,7 +20,7 @@
 2. 모든 `{{...}}` 플레이스홀더를 데이터에 기반한 실제 내용으로 대체합니다.
 3. 섹션 헤더(`## N. ...`)는 **절대 변경하지 마세요** — 정확한 문자열이 검증 대상입니다.
 4. 서브섹션 헤더(`### N.N ...`)도 번호를 유지하세요.
-5. 모든 신호/추세에 `[WF1]` 또는 `[WF2]` 소스 태그를 반드시 포함하세요.
+5. 모든 신호/추세에 `[WF1]`, `[WF2]`, `[WF3]`, 또는 `[WF4]` 소스 태그를 반드시 포함하세요.
 6. 생성 완료 후, 파일에 `{{`가 남아 있지 않은지 확인합니다.
 
 ---
@@ -32,6 +32,7 @@
 > **보고서 유형**: 주간 메타분석 보고서 (Weekly Meta-Analysis)
 > **분석 기간**: {{ANALYSIS_START_DATE}} ~ {{ANALYSIS_END_DATE}} ({{DAILY_SCAN_COUNT}}일)
 > **주간 ID**: {{WEEK_ID}}
+> **일일 스캔 기준**: 각 일일 스캔은 T₀ 기준 {{DAILY_LOOKBACK_HOURS}}시간 범위
 
 ---
 
@@ -61,6 +62,8 @@
 - **분석 대상 총 신호**: {{TOTAL_SIGNALS_ANALYZED}}개
   - WF1 (일반): {{WF1_TOTAL_SIGNALS}}개
   - WF2 (arXiv): {{WF2_TOTAL_SIGNALS}}개
+  - WF3 (네이버 뉴스): {{WF3_TOTAL_SIGNALS}}개
+  - WF4 (멀티글로벌 뉴스): {{WF4_TOTAL_SIGNALS}}개
 - **상승 추세**: {{ACCELERATING_COUNT}}개
 - **하락 추세**: {{DECELERATING_COUNT}}개
 - **신규 등장**: {{NEW_EMERGED_COUNT}}개
@@ -117,11 +120,17 @@
 
 ## 4. 신호 진화 타임라인
 
+> 주간 활성 스레드: {{WEEKLY_EVOLUTION_TOTAL_THREADS}}개 | 신규: {{WEEKLY_EVOLUTION_NEW_THREADS}}개 | 소멸: {{WEEKLY_EVOLUTION_FADED_THREADS}}개
+
 ### 4.1 주간 신호 진화 흐름
+
+{{WEEKLY_EVOLUTION_TOP_ACCELERATING}}
 
 {{SIGNAL_EVOLUTION_FLOW}}
 
 ### 4.2 pSST 점수 변동 추적
+
+{{WEEKLY_EVOLUTION_TOP_DECELERATING}}
 
 {{PSST_CHANGES}}
 
@@ -151,7 +160,7 @@
 
 ---
 
-## 6. 플러서블 시나리오
+## 6. Plausible Scenarios(개연성 있는 시나리오)
 
 {{WEEKLY_SCENARIOS}}
 

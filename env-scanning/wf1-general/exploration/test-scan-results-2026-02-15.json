@@ -1,0 +1,185 @@
+{
+  "viable": [
+    {
+      "name": "Inside Climate News",
+      "url": "https://insideclimatenews.org/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "discovery_query": "environmental sustainability climate change independent news",
+      "scan_status": "viable",
+      "signal_count": 3
+    }
+  ],
+  "non_viable": [
+    {
+      "name": "Mongabay",
+      "url": "https://news.mongabay.com/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "discovery_query": "conservation environment Latin America sustainability",
+      "scan_status": "insufficient_signals",
+      "signal_count": 0
+    },
+    {
+      "name": "STAT News",
+      "url": "https://www.statnews.com/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "S_Social",
+      "discovery_query": "health neurotechnology brain-computer interface policy",
+      "scan_status": "insufficient_signals",
+      "signal_count": 0
+    },
+    {
+      "name": "DigitalFoodLab",
+      "url": "https://digitalfoodlab.com/feed/",
+      "type": "blog",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "discovery_query": "food systems innovation",
+      "frontier_keyword": "food systems innovation",
+      "scan_status": "insufficient_signals",
+      "signal_count": 0
+    },
+    {
+      "name": "KDnuggets",
+      "url": "https://www.kdnuggets.com/feed",
+      "type": "blog",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "discovery_query": "AI ethics governance neurotechnology",
+      "frontier_keyword": "neurotechnology policy",
+      "scan_status": "insufficient_signals",
+      "signal_count": 0
+    }
+  ],
+  "signals": [
+    {
+      "id": "explore-20260215-inside-climate-news-001",
+      "title": "For Maine’s Lakes, Shorter Ice Seasons Mean Loss of Water Quality, Winter Traditions",
+      "source": {
+        "name": "Inside Climate News",
+        "type": "news",
+        "url": "https://insideclimatenews.org/news/14022026/maine-shorter-ice-season-water-quality/",
+        "published_date": "2026-02-14",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Ice fascinates Richard Behr. Almost every winter day, the 66-year-old central Maine resident checks out satellite images of some of his favorite lakes and ponds for “wild” skating. He drives out to check ice thickness in person and shares condition reports with his fellow skaters on Facebook. He reads articles about ice science before bed. [&#8230;]",
+        "keywords": [
+          "science",
+          "climate change",
+          "ice",
+          "ice skating",
+          "maine",
+          "water quality",
+          "winter"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://insideclimatenews.org/feed/",
+        "author": "By Sydney Cromwell"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:30.871578",
+      "original_scanner_id": "inside-climate-news-957000f28597",
+      "exploration_source": "Inside Climate News"
+    },
+    {
+      "id": "explore-20260215-inside-climate-news-002",
+      "title": "Mamdani’s New Chief Climate Officer Wants to Make New York a ‘Better Place to Live’",
+      "source": {
+        "name": "Inside Climate News",
+        "type": "news",
+        "url": "https://insideclimatenews.org/news/14022026/new-york-city-chief-climate-officer/",
+        "published_date": "2026-02-14",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "In Louise Yeung’s decade of work in New York City government, she has helped rebuild flood infrastructure after Hurricane Sandy, worked to make streets and tunnels more resilient to climate change and ensured that the city’s financial investments aligned with its climate goals.&#160; In her new role as Mayor Zohran Mamdani’s chief climate officer, Yeung [&#8230;]",
+        "keywords": [
+          "politics",
+          "louise yeung",
+          "new york",
+          "new york city",
+          "new york city panel on climate change",
+          "zohran mamdani"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://insideclimatenews.org/feed/",
+        "author": "By Lauren Dalban"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:30.871684",
+      "original_scanner_id": "inside-climate-news-40a1ac68e37a",
+      "exploration_source": "Inside Climate News"
+    },
+    {
+      "id": "explore-20260215-inside-climate-news-003",
+      "title": "China Is Leaving America in the Dust on Clean Energy",
+      "source": {
+        "name": "Inside Climate News",
+        "type": "news",
+        "url": "https://insideclimatenews.org/news/14022026/china-dominates-clean-energy/",
+        "published_date": "2026-02-14",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "From our collaborating partner “Living on Earth,” public radio’s environmental news magazine, an interview by host Steve Curwood with journalist Isabel Hilton.&#160; As the United States fully withdrew from the United Nations climate negotiations in the fall of 2025, China stepped forward with an absolute emissions-reduction target of at least 7 percent by 2035. While [&#8230;]",
+        "keywords": [
+          "clean energy",
+          "china",
+          "dialogue earth",
+          "electric vehicles",
+          "energy transition",
+          "evs",
+          "isabel hilton",
+          "living on earth",
+          "q&a",
+          "solar"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://insideclimatenews.org/feed/",
+        "author": "Interview by Steve Curwood, Living on Earth"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T11:47:30.871787",
+      "original_scanner_id": "inside-climate-news-54f148030100",
+      "exploration_source": "Inside Climate News"
+    }
+  ],
+  "scan_results": {
+    "Inside Climate News": {
+      "signal_count": 3,
+      "url": "https://insideclimatenews.org/feed/",
+      "status": "scanned"
+    },
+    "Mongabay": {
+      "signal_count": 0,
+      "url": "https://news.mongabay.com/feed/",
+      "status": "scanned"
+    },
+    "STAT News": {
+      "signal_count": 0,
+      "url": "https://www.statnews.com/feed/",
+      "status": "scanned"
+    },
+    "DigitalFoodLab": {
+      "signal_count": 0,
+      "url": "https://digitalfoodlab.com/feed/",
+      "status": "scanned"
+    },
+    "KDnuggets": {
+      "signal_count": 0,
+      "url": "https://www.kdnuggets.com/feed",
+      "status": "scanned"
+    }
+  }
+}

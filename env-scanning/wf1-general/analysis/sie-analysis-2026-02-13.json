@@ -1,0 +1,198 @@
+{
+  "sie_analysis": {
+    "version": "1.0.0",
+    "workflow": "WF1-General",
+    "report_date": "2026-02-13",
+    "report_id": "WF1-SCAN-2026-02-13",
+    "analysis_timestamp": "2026-02-13T09:00:00Z"
+  },
+
+  "steeps_distribution": {
+    "total_signals": 30,
+    "distribution": {
+      "T_Technological": { "count": 8, "ratio": 0.267 },
+      "P_Political": { "count": 7, "ratio": 0.233 },
+      "S_Social": { "count": 5, "ratio": 0.167 },
+      "E_Environmental": { "count": 4, "ratio": 0.133 },
+      "E_Economic": { "count": 4, "ratio": 0.133 },
+      "s_spiritual": { "count": 2, "ratio": 0.067 }
+    },
+    "balance_assessment": "ACCEPTABLE_WITH_CAVEATS",
+    "notes": [
+      "T (26.7%) is the dominant category — expected given current AI/quantum breakthroughs cycle.",
+      "s (spiritual) at 6.7% is the weakest category, but was improved from 0% via source exploration.",
+      "Source exploration successfully addressed E_Economic gap (8% -> 13.3%) and s_spiritual gap (0% -> 6.7%).",
+      "Ideal uniform distribution would be 16.7% per category. T and P are over-represented; s is under-represented.",
+      "No category is at 0%, which is a quality improvement over prior scans."
+    ],
+    "skew_index": 0.073,
+    "skew_index_method": "variance of category ratios from uniform (0.167)"
+  },
+
+  "signal_quality": {
+    "top_15_signals_analyzed": 15,
+    "nine_field_completeness": {
+      "signals_with_all_9_fields": 15,
+      "signals_missing_fields": 0,
+      "completeness_rate": 1.0
+    },
+    "field_quality_notes": {
+      "분류": "All 15 signals have category + subcategory. Consistent format.",
+      "출처": "All include source names + dates. Multi-source corroboration on major signals (EPA, quantum, trade).",
+      "핵심_사실": "All present and substantive. Good factual density.",
+      "정량_지표": "All present. Strong quantitative anchoring with specific numbers, percentages, dollar amounts.",
+      "영향도": "All use consistent X/10 format. Range: 8.0-9.5. No format violations.",
+      "상세_설명": "All present and detailed. Good cross-referencing between signals.",
+      "추론": "STRONG — all signals include forward-looking reasoning with cross-signal connections (e.g., rank 2+5 quantum convergence, rank 1+4 policy-market decoupling). Depth is significantly improved vs known W4 weakness.",
+      "이해관계자": "All present. Diverse stakeholder identification across signals.",
+      "모니터링_지표": "All present. Actionable monitoring indicators provided."
+    },
+    "impact_scale_consistency": "PASS — all 15 signals use X/10 format consistently (W1 weakness resolved)",
+    "unicode_consistency": "PASS — ↔ used consistently in cross-impact section (W6 weakness resolved)"
+  },
+
+  "psst_score_analysis": {
+    "top_15_scores": [90, 87, 87, 87, 85, 85, 85, 83, 83, 83, 82, 82, 80, 77, 77],
+    "statistics": {
+      "min": 77,
+      "max": 90,
+      "mean": 83.4,
+      "median": 83,
+      "range": 13,
+      "std_dev": 3.72
+    },
+    "distribution_by_tier": {
+      "CRITICAL_90_100": { "count": 1, "ratio": 0.067 },
+      "HIGH_80_89": { "count": 12, "ratio": 0.800 },
+      "HIGH_70_79": { "count": 2, "ratio": 0.133 }
+    },
+    "score_compression_assessment": "MODERATE",
+    "notes": [
+      "80% of signals cluster in the 80-89 range — moderate score compression persists (known W2 weakness).",
+      "Range of 13 points (77-90) is acceptable but narrow.",
+      "CRITICAL tier (90+) has only 1 signal, suggesting the threshold effectively discriminates extreme signals.",
+      "No scores below 77 in top 15, meaning the HIGH threshold effectively separates top signals.",
+      "Score compression is partially structural: all top-15 signals ARE genuinely high-impact current events.",
+      "Consider: pSST weight rebalancing to spread the 80-89 cluster. SR and ES weights could be differentiated more."
+    ]
+  },
+
+  "cross_impact_analysis": {
+    "pairs_identified": 6,
+    "minimum_required": 3,
+    "quality_assessment": "STRONG",
+    "pairs_summary": [
+      { "pair": "EPA Endangerment Finding <-> Energy Transition Investment", "quality": "HIGH", "insight": "Policy-market decoupling concept is original and well-argued" },
+      { "pair": "Quantum Computing <-> Cybersecurity Breaches", "quality": "HIGH", "insight": "Temporal dimension (current vulnerability + future quantum threat) well articulated" },
+      { "pair": "Trade Fragmentation <-> Food Insecurity", "quality": "HIGH", "insight": "Direct causal chain identified with production concentration as amplifier" },
+      { "pair": "AI Practical Shift <-> AI Regulation <-> AI Ethics Gap", "quality": "HIGH", "insight": "Triple interaction with exploration signal integration is excellent" },
+      { "pair": "Biodiversity Systemic Risk <-> Energy Transition", "quality": "MEDIUM-HIGH", "insight": "Green transition paradox well identified; could be more specific on mineral-biodiversity tradeoffs" },
+      { "pair": "Iran Protests <-> Energy/Trade Fragmentation", "quality": "MEDIUM", "insight": "Geopolitical-energy link is standard; could benefit from deeper Hormuz scenario analysis" }
+    ],
+    "notes": [
+      "6 pairs exceeds the minimum of 3 — good analytical depth.",
+      "Quality improvement: pairs include cross-references to specific signal ranks, enabling traceability.",
+      "Exploration signals are integrated into cross-impact analysis (AI Ethics Gap from UVA Darden), showing exploration pipeline value.",
+      "W3 weakness (formulaic cross-analysis) is partially addressed — pairs 1-4 show genuine contradictions and non-obvious connections."
+    ]
+  },
+
+  "report_structure_quality": {
+    "sections_present": 8,
+    "sections_required": 7,
+    "section_5_subsections": ["5.1", "5.2", "5.3"],
+    "section_5_complete": true,
+    "scenarios_count": 3,
+    "scenarios_with_probability": true,
+    "existing_signals_update": {
+      "strengthening": 5,
+      "weakening": 1,
+      "extinct": 0,
+      "assessment": "Good signal tracking continuity with previous day"
+    },
+    "emerging_themes_count": 3,
+    "themes_quality": "HIGH — original conceptual frameworks (Normative Vacuum, Technological Convergence, Fragmented Resilience)"
+  },
+
+  "source_exploration_assessment": {
+    "exploration_executed": true,
+    "candidates_discovered": 5,
+    "candidates_viable": 4,
+    "exploration_signals_merged": 5,
+    "gap_remediation": {
+      "s_spiritual": { "before": 0.0, "after": 0.067, "improved": true },
+      "E_Economic": { "before": 0.08, "after": 0.133, "improved": true }
+    },
+    "promotion_candidates": [
+      "World Inequality Database — PROMOTE recommendation (HIGH signal quality + HIGH originality)",
+      "UVA Darden School — PROMOTE recommendation (HIGH signal quality + HIGH originality)"
+    ],
+    "notes": "Source exploration is functioning as intended — gap-directed discovery is effective. Two sources recommended for promotion to permanent (MAJOR change, requires user approval)."
+  },
+
+  "known_weaknesses_status": {
+    "W1_impact_scale_inconsistency": "RESOLVED — all X/10 format",
+    "W2_psst_score_compression": "PARTIALLY_PERSISTENT — 80% in 80-89 range. Improvement needed.",
+    "W3_cross_analysis_formulaic": "IMPROVED — non-obvious connections present (policy-market decoupling, green transition paradox)",
+    "W4_reasoning_too_shallow": "IMPROVED — cross-signal reasoning with ranked references throughout",
+    "W5_steeps_category_imbalance": "IMPROVED — no 0% categories, exploration addressing gaps",
+    "W6_unicode_arrow": "RESOLVED — consistent ↔ usage",
+    "W7_signals_11_15_condensed": "RESOLVED — all 15 signals have full 9 fields",
+    "W8_report_length_disparity": "NOT_ASSESSED — single report analysis"
+  },
+
+  "parameter_tuning_suggestions": [
+    {
+      "parameter": "psst_scoring.dimension_weights.SR",
+      "current_value": 0.20,
+      "suggested_value": 0.22,
+      "delta": 0.02,
+      "within_bounds": true,
+      "max_delta_per_cycle": 0.03,
+      "rationale": "Increasing Signal Reliability weight slightly could help spread the 80-89 cluster by differentiating signals with stronger/weaker source backing. However, this requires sum rebalancing.",
+      "severity": "MINOR",
+      "action": "DEFER — insufficient history (need >= 3 runs per SIE config). First SIE run; establishing baseline only.",
+      "constraint_check": "Would require reducing another weight by 0.02 to maintain sum=1.0"
+    },
+    {
+      "parameter": "source_exploration.coverage_gap_threshold",
+      "current_value": 0.15,
+      "suggested_value": 0.10,
+      "delta": -0.05,
+      "within_bounds": true,
+      "max_delta_per_cycle": 0.05,
+      "rationale": "s_spiritual is at 6.7% (below 10%). A lower gap threshold would trigger exploration for categories under 10% rather than 15%, potentially finding more s-category signals earlier.",
+      "severity": "MINOR",
+      "action": "DEFER — first SIE run, need more data points to validate effectiveness of current threshold.",
+      "constraint_check": "Within bounds (min: 0.05, max: 0.50)"
+    }
+  ],
+
+  "overall_assessment": {
+    "quality_grade": "A-",
+    "summary": "WF1 report for 2026-02-13 demonstrates strong quality across all dimensions. All 15 top signals have complete 9-field coverage. STEEPs distribution is improved via source exploration (no 0% categories). Cross-impact analysis shows genuine analytical depth with 6 pairs and original conceptual frameworks. Known weaknesses W1, W6, W7 are fully resolved. W2 (pSST compression) persists at moderate level. W3 and W4 are significantly improved. Source exploration is functioning effectively with 2 promotion-worthy candidates identified.",
+    "top_strengths": [
+      "100% 9-field completeness across all 15 signals",
+      "Source exploration successfully remediated STEEPs gaps",
+      "Cross-impact analysis quality significantly improved with original concepts",
+      "Signal evolution tracking (Section 3) shows good day-over-day continuity",
+      "Scenarios include probability assessments and are logically grounded"
+    ],
+    "areas_for_improvement": [
+      "pSST score compression (80% in 80-89 range) — consider dimension weight rebalancing",
+      "s (spiritual) category still underrepresented at 6.7% — continue gap-directed exploration",
+      "Geographic balance noted as 'moderate' — US/Europe heavy, Asia/Africa/Latin America underrepresented",
+      "Iran signal (rank 9) cross-impact with energy/trade is somewhat formulaic compared to other pairs"
+    ]
+  },
+
+  "meta": {
+    "this_is_first_sie_run": true,
+    "baseline_established": true,
+    "auto_changes_applied": 0,
+    "proposals_requiring_approval": 0,
+    "deferred_suggestions": 2,
+    "reason_for_deferral": "SIE config requires min_workflow_history >= 3 before acting. This is run 1 of 3 needed.",
+    "next_action": "Continue collecting SIE baselines for 2 more runs before applying any parameter changes."
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "scan_metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-02-17",
+    "scan_window": {
+      "start": "2026-02-16T23:00:20Z",
+      "end": "2026-02-17T23:00:20Z",
+      "lookback_hours": 24
+    },
+    "sources_scanned": 24,
+    "marathon_mode": true,
+    "base_only": false,
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-17-23-01-00-c9e3",
+      "started_at": "2026-02-17T23:01:00Z",
+      "completed_at": "2026-02-17T23:20:00Z",
+      "actual_api_calls": {
+        "web_search": 15,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "TechCrunch", "MIT Technology Review", "US Federal Register", "WHO Press Releases",
+        "Google Patents", "Nature News", "Science Magazine", "IEEE Spectrum",
+        "OECD Newsroom", "World Bank Blogs", "UN News", "EUR-Lex Recent Acts",
+        "Brookings Institution", "Pew Research Center", "Hacker News", "Wired",
+        "Ars Technica", "NASA Climate Change", "Carbon Brief", "IMF Blog",
+        "BIS Speeches", "World Economic Forum", "The Conversation - Ethics", "Psychology Today"
+      ],
+      "file_created_at": "2026-02-17T23:20:00Z"
+    }
+  },
+  "total_items": 30,
+  "items": [
+    {
+      "id": "wf1-20260217-001",
+      "title": "India AI Impact Summit: Adani pledges $100B for renewable AI data centers by 2035",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/16/all-the-important-news-from-the-ongoing-india-ai-summit/", "published_date": "2026-02-16"},
+      "content": {"abstract": "India hosts four-day AI Impact Summit with executives from OpenAI, Anthropic, Nvidia, Microsoft, Google. Adani Group announces $100 billion allocation for AI data centers powered by renewable energy in India by 2035. Cohere Labs launches multilingual model family supporting 70+ languages for local devices. Signal of massive emerging market AI infrastructure buildout.", "keywords": ["AI", "data center", "renewable energy", "India", "multilingual AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:01:00Z"
+    },
+    {
+      "id": "wf1-20260217-002",
+      "title": "Trump EPA rescinds 2009 endangerment finding, dismantling legal basis for federal climate regulation",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.npr.org/2026/02/11/nx-s1-5678273/trump-epa-climate-change-endangerment", "published_date": "2026-02-17"},
+      "content": {"abstract": "The Trump administration rescinded the EPA's 2009 endangerment finding that greenhouse gas emissions endanger public health — the legal foundation for most federal climate regulations under the Clean Air Act. EPA now argues the Clean Air Act does not grant authority to regulate greenhouse gases, in its most aggressive action yet to halt climate initiatives. Expected to face immediate legal challenges.", "keywords": ["climate policy", "EPA", "Clean Air Act", "endangerment finding", "deregulation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:01:30Z"
+    },
+    {
+      "id": "wf1-20260217-003",
+      "title": "MIT Technology Review 2026 Breakthroughs: sodium-ion batteries, base-edited babies, mechanistic interpretability",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/12/1130697/10-breakthrough-technologies-2026/", "published_date": "2026-02-17"},
+      "content": {"abstract": "MIT Technology Review's 2026 breakthrough list features: sodium-ion batteries (cheaper alternative to lithium-ion using abundant low-cost sodium), base-edited babies (gene therapy for infants with rare diseases), mechanistic interpretability (mapping LLM inner workings), AI coding tools, next-generation nuclear (SMR with alternative fuels and cooling), hyperscale data centers, designer babies, space stations.", "keywords": ["sodium-ion battery", "gene therapy", "mechanistic interpretability", "nuclear energy", "AI coding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:02:00Z"
+    },
+    {
+      "id": "wf1-20260217-004",
+      "title": "New START nuclear treaty expires February 2026, no replacement in sight — arms race risk rises",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.cfr.org/articles/visualizing-2026-five-foreign-policy-trends-watch", "published_date": "2026-02-17"},
+      "content": {"abstract": "The last remaining nuclear arms control treaty between the US and Russia (New START) expired in February 2026 with no replacement framework negotiated. This removes the final constraint on nuclear arsenal expansion by both superpowers, raising risk of renewed arms race and strategic instability. China simultaneously expanding nuclear arsenal to estimated 1,000 warheads by 2030.", "keywords": ["nuclear arms control", "New START", "US-Russia", "arms race", "China nuclear"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:02:30Z"
+    },
+    {
+      "id": "wf1-20260217-005",
+      "title": "WHO 2026 appeal: $1 billion for 36 emergencies as humanitarian financing contracts globally",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal", "published_date": "2026-02-17"},
+      "content": {"abstract": "WHO launches 2026 appeal seeking nearly $1 billion for 36 emergencies including 14 Grade 3 emergencies requiring highest organizational response. Protracted conflicts, escalating climate impacts, and recurrent infectious disease outbreaks drive increasing demand while global humanitarian financing continues to contract. Nipah virus outbreak confirmed in Bangladesh (February 3). Measles surging in Americas with 1,031 new cases across 7 countries.", "keywords": ["WHO", "humanitarian emergency", "health financing", "Nipah virus", "measles"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-17T23:03:00Z"
+    },
+    {
+      "id": "wf1-20260217-006",
+      "title": "Global solar + wind capacity reaches 4,000 GW in 2026, overtaking coal and gas for first time",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00188-6", "published_date": "2026-02-17"},
+      "content": {"abstract": "Global capacity of solar and wind expected to reach 4,000 GW in 2026, overtaking operating capacity of coal and gas-fired power for the first time. Solar and wind installations exceeded 800 GW last year — all-time record, tripling since 2021. Clean energy accounted for over 90% of new US power capacity additions in 2025. Carbon capture cost drops to ~$70/ton via new electrochemical process.", "keywords": ["solar energy", "wind energy", "renewable capacity", "energy transition", "carbon capture"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-17T23:03:30Z"
+    },
+    {
+      "id": "wf1-20260217-007",
+      "title": "US GENIUS Act: comprehensive stablecoin regulation due July 2026; crypto regulatory framework matures",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update", "published_date": "2026-02-17"},
+      "content": {"abstract": "Under the GENIUS Act, supervisory agencies must publish implementing rules for USD-backed stablecoin issuers by July 2026. Congress poised to adopt comprehensive market infrastructure bill for digital asset exchanges. Executive Order 14178 prohibited federal CBDC development while Federal Reserve focuses on wholesale pilots with tokenized treasuries. FATF scheduled to issue stablecoin analysis in Q1 2026.", "keywords": ["stablecoin", "crypto regulation", "GENIUS Act", "CBDC", "tokenization"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-17T23:04:00Z"
+    },
+    {
+      "id": "wf1-20260217-008",
+      "title": "Deepfake-as-a-Service surge: AI identity fraud in 30% of corporate attacks, $1.1B losses",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://www.techtimes.com/articles/314526/20260211/generative-ai-cyber-threats-2026.htm", "published_date": "2026-02-17"},
+      "content": {"abstract": "Deepfake-as-a-Service surged driving AI identity fraud in over 30% of high-impact corporate impersonation attacks. Real-time voice cloning enables executive impersonation with seconds of audio. US deepfake-related losses reached $1.1 billion in 2025, tripling from $360 million in 2024. 2026 AI Safety Report warns of rising sophistication. AI-generated misinformation identified as top global risk.", "keywords": ["deepfake", "AI fraud", "cybersecurity", "voice cloning", "AI safety"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:04:30Z"
+    },
+    {
+      "id": "wf1-20260217-009",
+      "title": "IMF: global growth 3.3% in 2026; JP Morgan sees 35% US recession probability",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026", "published_date": "2026-02-17"},
+      "content": {"abstract": "IMF projects global growth at 3.3% for 2026. Technology investment, fiscal and monetary support, and private sector adaptability offset trade policy shifts. US growth projected to slow. JP Morgan sees 35% recession probability for US and global economy. Key downside risks: reevaluation of technology expectations and escalation of geopolitical tensions. MSCI Emerging Markets gained 9% in January — best since 2012.", "keywords": ["IMF", "global growth", "recession risk", "tariffs", "emerging markets"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-17T23:05:00Z"
+    },
+    {
+      "id": "wf1-20260217-010",
+      "title": "High Seas Treaty enters into force January 2026; Japan begins deep-seabed rare earth extraction",
+      "source": {"name": "UN News", "type": "policy", "url": "https://unu.edu/ehs/article/5-things-watch-climate-and-environment-2026", "published_date": "2026-02-17"},
+      "content": {"abstract": "High Seas Treaty entered into force January 17, 2026 after two decades of negotiations. Covers two-thirds of world's ocean outside national jurisdictions. Japan becomes first country to extract rare earths from deep seabed near Minamitori Island. Tension between ocean conservation and deep-sea mining. EU Carbon Border Adjustment Mechanism (CBAM) becomes fully operational in 2026.", "keywords": ["High Seas Treaty", "ocean conservation", "deep-sea mining", "rare earths", "CBAM"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-17T23:05:30Z"
+    },
+    {
+      "id": "wf1-20260217-011",
+      "title": "Tesla plans 50,000 Optimus humanoid robots at $20-30K; manufacturing costs fell 40% in one year",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://theinnovationmode.com/the-innovation-blog/2026-innovation-trends", "published_date": "2026-02-17"},
+      "content": {"abstract": "Humanoid robots entering commercial availability at unprecedented scale. Tesla plans 50,000 Optimus units in 2026 at $20,000-30,000 price. Boston Dynamics targets commercial Atlas at $140,000-150,000. Unitree G1 at $16,000. Manufacturing costs dropped 40% from 2023 to 2024 — far faster than expected 15-20% annual decline — advancing factory applications by a year and consumer applications by 2-4 years.", "keywords": ["humanoid robot", "Tesla Optimus", "cost reduction", "commercial robotics", "Boston Dynamics"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:06:00Z"
+    },
+    {
+      "id": "wf1-20260217-012",
+      "title": "EU bans destruction of unsold clothes; Amsterdam and Florence ban fossil fuel advertising",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://earth.org/this-week-in-climate-news-february-2026-week-2/", "published_date": "2026-02-17"},
+      "content": {"abstract": "European Commission introduces rules prohibiting companies from destroying unsold textiles and footwear. Amsterdam becomes first capital city to fully prohibit fossil fuel advertisements, joined by Florence. Dutch and Italian city-level climate action moves ahead of national policies. Swedish youth launch legal challenge alleging nation's climate targets are inadequate under EU Green Deal.", "keywords": ["EU regulation", "textile waste", "fossil fuel advertising ban", "climate litigation", "circular economy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:06:30Z"
+    },
+    {
+      "id": "wf1-20260217-013",
+      "title": "Executive Order 14386: US pivots to coal power for national defense infrastructure",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov", "published_date": "2026-02-17"},
+      "content": {"abstract": "Executive Order 14386 signed February 17, 2026 aims to strengthen US national defense through coal power generation fleet. Signals US policy shift toward fossil fuel support for defense infrastructure, contradicting global energy transition trends. Simultaneous US withdrawal from Paris Climate Agreement creates policy divergence with EU and allies.", "keywords": ["executive order", "coal power", "defense policy", "energy policy", "Paris Agreement"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:07:00Z"
+    },
+    {
+      "id": "wf1-20260217-014",
+      "title": "Hydrogen economy make-or-break year: 2 Mtpa poised for FID; South Korea nuclear-hydrogen integration",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.woodmac.com/blogs/the-edge/five-themes-shaping-the-energy-world-2026/", "published_date": "2026-02-17"},
+      "content": {"abstract": "2026 is make-or-break for hydrogen with 2 Mtpa poised for Final Investment Decision, double 2025. Clean hydrogen production expected to rise to 5 Mtpa by 2030. South Korea integrates nuclear-hydrogen strategy: 10 reactors providing surplus baseload for industrial-scale electrolysis at 85-90% utilization. EU CBAM creating demand pull for green hydrogen in steel and aluminum sectors.", "keywords": ["hydrogen economy", "clean hydrogen", "nuclear-hydrogen", "FID", "CBAM"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:07:30Z"
+    },
+    {
+      "id": "wf1-20260217-015",
+      "title": "Refinity validates breakthrough plastic waste conversion technology with DuoZone reactor patents",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.globenewswire.com/news-release/2026/02/17/3239188/0/en/Refinity-Validates-Breakthrough-Waste-Conversion-Technology.html", "published_date": "2026-02-17"},
+      "content": {"abstract": "Refinity (Innventure) announces validation of proprietary DuoZone reactor for converting difficult-to-recycle plastic waste into chemical intermediates. Two patent applications filed. On path to commercial demonstration at 10 kilotonnes/year. Partners include two engineering firms and two global fluidized bed equipment providers. Potential to address the 91% of plastic waste that is currently not recycled.", "keywords": ["plastic waste", "chemical recycling", "circular economy", "DuoZone reactor", "patent"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:08:00Z"
+    },
+    {
+      "id": "wf1-20260217-016",
+      "title": "One-third of teens prefer AI chatbots for emotional support; AI toddler buddies emerge without guardrails",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.universityofcalifornia.edu/news/11-things-ai-experts-are-watching-2026", "published_date": "2026-02-17"},
+      "content": {"abstract": "One-third of teenagers prefer talking about feelings with AI bots instead of humans. Companies using social media business models manipulate and incentivize overuse, with teen AI dependence associated with suicide. AI buddies for toddlers emerging as market without guardrails. Shannon Vallor warns society underprepared for psychological and social effects of AI. Questions about what counts as authentic connection.", "keywords": ["AI companionship", "teen mental health", "AI ethics", "child safety", "digital wellbeing"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-17T23:08:30Z"
+    },
+    {
+      "id": "wf1-20260217-017",
+      "title": "SpaceX competes in Pentagon autonomous drone program; NASA CADRE deploys lunar multi-robot exploration",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.quillcircuit.com/blog/february-2026-tech-surge", "published_date": "2026-02-17"},
+      "content": {"abstract": "SpaceX expected to compete in Pentagon initiative focused on autonomous drone systems, expanding defense footprint beyond launch services. DOD's growing focus on AI-enabled autonomous systems. NASA CADRE mission to deploy autonomous multi-robot lunar exploration. Commercial space companies positioning deeper within defense procurement pipelines. Billion-dollar robotics funding surge.", "keywords": ["SpaceX", "autonomous drones", "defense procurement", "lunar robotics", "military AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:09:00Z"
+    },
+    {
+      "id": "wf1-20260217-018",
+      "title": "IPBES: all business sectors must respond to biodiversity loss; global soil moisture declining rapidly",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/cropped-11-february-2026/", "published_date": "2026-02-17"},
+      "content": {"abstract": "IPBES report (agreed February 2026) finds all business sectors need to respond to biodiversity loss and minimize impacts. Evidence of widespread soil moisture decline suggests growing pressure on terrestrial and freshwater ecosystems, with implications for food production, biodiversity, and water security. Ocean darkening detected via satellite: light penetrated 21% less in 2022 vs 2003. Biodiversity metric pilot with 30 global companies.", "keywords": ["biodiversity", "soil moisture", "IPBES", "ocean darkening", "ecosystem collapse"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-17T23:09:30Z"
+    },
+    {
+      "id": "wf1-20260217-019",
+      "title": "US-China de-risking framework: four Trump-Xi summits planned for 2026",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis", "published_date": "2026-02-17"},
+      "content": {"abstract": "Presidents Trump and Xi set for up to four summits in 2026. Beijing and Washington shaping new bipolar framework, recognizing coexistence through de-risking rather than zero-sum contest. Washington's fusion of muscular economic interventionism and transactional dealmaking creating new industrial strategy playbook. Critical minerals competition intensifying over Venezuela and Greenland.", "keywords": ["US-China", "geopolitics", "de-risking", "bipolar framework", "critical minerals"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:10:00Z"
+    },
+    {
+      "id": "wf1-20260217-020",
+      "title": "EU nuclear revival: 81.2 GW capacity target by 2040 as SMR projects advance toward construction",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://www.woodmac.com/news/opinion/nuclear-2026-outlook/", "published_date": "2026-02-17"},
+      "content": {"abstract": "EU member states reversed policy restrictions to pave way for 81.2 GW nuclear capacity by 2040. Belgium reversed nuclear phase-out, Italy lifted ban, Germany recognized nuclear as green. SMR projects expected to progress toward construction with pipeline showing potential 6.7 GW advancing toward FID. Nuclear-AI synergy: data center energy demand driving nuclear investment case.", "keywords": ["nuclear energy", "SMR", "EU energy policy", "nuclear revival", "AI data centers"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:10:30Z"
+    },
+    {
+      "id": "wf1-20260217-021",
+      "title": "Munich Security Conference 2026: EU activates mutual defense clause; European defense spending surge",
+      "source": {"name": "Wired", "type": "blog", "url": "https://euromil.org/under-destruction-munich-security-conference-2026/", "published_date": "2026-02-17"},
+      "content": {"abstract": "Munich Security Conference (Feb 13-15, 2026) outcome: EU Commission President calls for operationalizing Article 42(7) mutual defense clause. UK deploys warships to North Atlantic led by HMS Prince of Wales. US-Europe relationship redefined with partnership on new terms. No resolution on Ukraine; Rubio met Zelensky. Europe recognized it must assume greater defense responsibility.", "keywords": ["Munich Security Conference", "EU defense", "NATO", "Ukraine", "transatlantic relations"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:11:00Z"
+    },
+    {
+      "id": "wf1-20260217-022",
+      "title": "SELF DRIVE Act of 2026: first federal AV regulation, DOT proposes three new autonomous vehicle rules",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.act-news.com/news/house-introduces-discussion-draft-of-self-drive-act-of-2026/", "published_date": "2026-02-17"},
+      "content": {"abstract": "Rep. Robert Latta introduces H.R. 7390, the SELF DRIVE Act of 2026 — first federal statute for autonomous vehicle safety. DOT plans three new rules in spring 2026 to update outdated human-driver-era standards for AV. Manufacturers required to submit safety cases for automated driving systems. AV deployments expanding to Dallas, Miami, Nashville in 2026.", "keywords": ["autonomous vehicles", "SELF DRIVE Act", "federal regulation", "NHTSA", "AV deployment"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:11:30Z"
+    },
+    {
+      "id": "wf1-20260217-023",
+      "title": "ILO: global jobs gap reaches 408 million; workforce aging crisis deepens",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "published_date": "2026-02-17"},
+      "content": {"abstract": "Global jobs gap — capturing people who want paid work but cannot access it — projected to reach 408 million in 2026. Unemployment stays at 4.9%. Demographic headwind: 65-69 age group population nearly doubled (+97.3%) in 20 years, labor participation up 8+ percentage points. College-educated women surging while non-college women in care/service roles declining rapidly.", "keywords": ["global employment", "jobs gap", "workforce aging", "demographic shift", "labor participation"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-17T23:12:00Z"
+    },
+    {
+      "id": "wf1-20260217-024",
+      "title": "Google quantum advantage: 13,000x faster than supercomputers; IonQ outperforms classical by 12%",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.startus-insights.com/innovators-guide/future-of-quantum-computing/", "published_date": "2026-02-17"},
+      "content": {"abstract": "Google's Quantum Echoes algorithm demonstrates verifiable quantum advantage running 13,000x faster than classical supercomputers for molecular structure computation. IonQ medical device simulation outperforms classical HPC by 12%. HSBC improves bond trading by 34% using IBM quantum. Quantum shift from hardware-focused R&D to software, simulation and middleware. D-Wave achieves quantum supremacy on real-world magnetic materials problem.", "keywords": ["quantum computing", "quantum advantage", "Google quantum", "IonQ", "HSBC quantum"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:12:30Z"
+    },
+    {
+      "id": "wf1-20260217-025",
+      "title": "H-1B visa overhaul: wage-weighted selection replaces random lottery from February 27, 2026",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.fisherphillips.com/en/news-insights/dhs-releases-final-h-1b-weighted-selection-rule.html", "published_date": "2026-02-17"},
+      "content": {"abstract": "DHS finalizes change to H-1B visa program replacing traditional random lottery with wage-weighted selection system favoring higher wage levels. Effective February 27, 2026. Additional 64,716 H-2B visas authorized for FY2026. Signals fundamental shift in US immigration policy toward merit-based selection with economic impact optimization.", "keywords": ["H-1B visa", "immigration reform", "wage-weighted selection", "labor policy", "skilled immigration"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:13:00Z"
+    },
+    {
+      "id": "wf1-20260217-026",
+      "title": "Personalized gene editing breakthrough: first baby treated with base-edited therapy doing well",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.technologyreview.com/2026/01/16/1131363/three-technologies-shape-biotech-in-2026-gene-editing-embryo-scoring/", "published_date": "2026-02-17"},
+      "content": {"abstract": "A baby with a rare genetic disorder was treated with the first personalized gene-editing drug using base editing to correct genetic mutations, doing well three doses later. Three key biotech technologies shaping 2026: personalized gene editing, genetic resurrection (Colossal created woolly mice and dire wolves via 20 genetic changes), and embryo scoring. MIT named base-edited babies among 2026 breakthroughs.", "keywords": ["gene editing", "base editing", "personalized medicine", "genetic resurrection", "embryo scoring"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:13:30Z"
+    },
+    {
+      "id": "wf1-20260217-027",
+      "title": "AI truth crisis: MIT Technology Review warns society getting AI misinformation problem wrong",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/", "published_date": "2026-02-17"},
+      "content": {"abstract": "MIT Technology Review analysis argues society has fundamentally mischaracterized AI's truth crisis — the issue is not just about generating false content but about undermining the very concept of shared truth. As AI generates an increasingly large fraction of all online content, the line between authentic and synthetic information becomes impossible to discern. Ethics experts warn of 'epistemic collapse'.", "keywords": ["AI misinformation", "truth crisis", "epistemic collapse", "synthetic content", "information integrity"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-17T23:14:00Z"
+    },
+    {
+      "id": "wf1-20260217-028",
+      "title": "UNCTAD: 10 trends reshaping global trade; tariffs redistributing competitiveness across supply chains",
+      "source": {"name": "OECD Newsroom", "type": "policy", "url": "https://unctad.org/news/10-trends-shaping-global-trade-2026", "published_date": "2026-02-17"},
+      "content": {"abstract": "UNCTAD identifies 10 trends shaping global trade in 2026. US raised significant trade barriers disrupting supply chains and creating financial market volatility. Tariff use rose sharply in 2025 in manufacturing, led by US measures tied to industrial and geopolitical objectives. Average global tariffs lifted unevenly across sectors. South African wine now 17 percentage points more expensive relative to competitors.", "keywords": ["global trade", "tariffs", "trade barriers", "UNCTAD", "supply chain disruption"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-17T23:14:30Z"
+    },
+    {
+      "id": "wf1-20260217-029",
+      "title": "USPTO proposes dramatic restrictions on patent challenges; AI patent application surge",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.gtlaw.com/en/insights/2026/01/ai-patent-outlook-for-2026", "published_date": "2026-02-17"},
+      "content": {"abstract": "USPTO proposes dramatic restrictions on patent challenges through inter partes review. AI patent outlook promising under new Director John A. Squires. Brain-computer interfaces advancing: Neuralink, Synchron, Blackrock Neurotech, Paradromics developing implantable devices for speech restoration, motor control, neuroprosthetics. Physical AI patent filings growing with NVIDIA, LG Electronics, Intel leading.", "keywords": ["USPTO", "patent reform", "AI patents", "brain-computer interface", "neurotech"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:15:00Z"
+    },
+    {
+      "id": "wf1-20260217-030",
+      "title": "Middle East flashpoint: Lebanon civil war risk, Yemen escalation; EU internal divisions deepen",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-outlook", "published_date": "2026-02-17"},
+      "content": {"abstract": "Middle East remains flashpoint for instability in 2026. Possible scenarios include Lebanon civil war, Israel-Lebanon war, intensified internal fighting in Iraq, and escalation in Yemen. Europe's internal divisions deepen as war costs, high debt, and rising defense spending cause fatigue. Western-Eastern Europe split potentially emerging. Protectionist policies rising globally as major powers strengthen economic sovereignty.", "keywords": ["Middle East", "geopolitical risk", "Lebanon", "European divisions", "economic sovereignty"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:15:30Z"
+    }
+  ]
+}

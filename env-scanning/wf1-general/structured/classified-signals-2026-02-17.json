@@ -1,0 +1,42 @@
+{
+  "classification_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-02-17",
+    "total_signals": 25,
+    "steeps_distribution": {
+      "S": 1,
+      "T": 10,
+      "E": 3,
+      "E_Environmental": 3,
+      "P": 7,
+      "s": 1
+    }
+  },
+  "signals": [
+    {"id": "wf1-20260217-001", "steeps": "T", "sub_category": "AI_Infrastructure", "confidence": 0.92},
+    {"id": "wf1-20260217-002", "steeps": "P", "sub_category": "Climate_Policy", "confidence": 0.95},
+    {"id": "wf1-20260217-003", "steeps": "T", "sub_category": "Energy_Technology", "confidence": 0.88},
+    {"id": "wf1-20260217-004", "steeps": "P", "sub_category": "Arms_Control", "confidence": 0.97},
+    {"id": "wf1-20260217-005", "steeps": "S", "sub_category": "Global_Health", "confidence": 0.90},
+    {"id": "wf1-20260217-006", "steeps": "E_Environmental", "sub_category": "Energy_Transition", "confidence": 0.94},
+    {"id": "wf1-20260217-007", "steeps": "E", "sub_category": "Financial_Regulation", "confidence": 0.91},
+    {"id": "wf1-20260217-008", "steeps": "T", "sub_category": "Cybersecurity", "confidence": 0.93},
+    {"id": "wf1-20260217-009", "steeps": "E", "sub_category": "Macroeconomics", "confidence": 0.96},
+    {"id": "wf1-20260217-010", "steeps": "E_Environmental", "sub_category": "Ocean_Conservation", "confidence": 0.95},
+    {"id": "wf1-20260217-011", "steeps": "T", "sub_category": "Robotics", "confidence": 0.91},
+    {"id": "wf1-20260217-012", "steeps": "P", "sub_category": "Environmental_Regulation", "confidence": 0.89},
+    {"id": "wf1-20260217-013", "steeps": "P", "sub_category": "Energy_Policy", "confidence": 0.94},
+    {"id": "wf1-20260217-014", "steeps": "T", "sub_category": "Energy_Technology", "confidence": 0.87},
+    {"id": "wf1-20260217-015", "steeps": "T", "sub_category": "Waste_Technology", "confidence": 0.85},
+    {"id": "wf1-20260217-016", "steeps": "s", "sub_category": "AI_Ethics", "confidence": 0.92},
+    {"id": "wf1-20260217-017", "steeps": "T", "sub_category": "Defense_Technology", "confidence": 0.90},
+    {"id": "wf1-20260217-018", "steeps": "E_Environmental", "sub_category": "Biodiversity", "confidence": 0.93},
+    {"id": "wf1-20260217-019", "steeps": "P", "sub_category": "Geopolitics", "confidence": 0.95},
+    {"id": "wf1-20260217-020", "steeps": "T", "sub_category": "Nuclear_Technology", "confidence": 0.88},
+    {"id": "wf1-20260217-021", "steeps": "T", "sub_category": "Consumer_Technology", "confidence": 0.82},
+    {"id": "wf1-20260217-022", "steeps": "P", "sub_category": "Global_Health_Governance", "confidence": 0.91},
+    {"id": "wf1-20260217-023", "steeps": "E", "sub_category": "International_Trade", "confidence": 0.94},
+    {"id": "wf1-20260217-024", "steeps": "T", "sub_category": "AI_Safety", "confidence": 0.90},
+    {"id": "wf1-20260217-025", "steeps": "P", "sub_category": "Geopolitical_Risk", "confidence": 0.93}
+  ]
+}

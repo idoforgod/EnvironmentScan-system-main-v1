@@ -1,0 +1,26 @@
+{
+  "classification_metadata": {
+    "date": "2026-02-10",
+    "workflow": "wf2-arxiv",
+    "version": "2.2.1-test",
+    "total_signals": 15,
+    "categories": {"T": 9, "E_Environmental": 3, "E": 1, "S": 1, "s": 1}
+  },
+  "signals": [
+    {"id": "wf2-20260210-001", "title": "OpenCRISPR-1: AI-Designed Programmable Gene Editor", "category": "T", "impact_score": 9.2, "psst": 90},
+    {"id": "wf2-20260210-005", "title": "Climate-Biodiversity Destabilizing Feedback Loop", "category": "E_Environmental", "impact_score": 8.8, "psst": 88},
+    {"id": "wf2-20260210-006", "title": "Groundwater Depletion Acceleration Under Climate Change", "category": "E_Environmental", "impact_score": 8.6, "psst": 87},
+    {"id": "wf2-20260210-008", "title": "CRISPR-Cas9 for Alzheimer's and Parkinson's", "category": "T", "impact_score": 8.4, "psst": 86},
+    {"id": "wf2-20260210-004", "title": "LLM Rational Agency: Belief Coherence in Decision Making", "category": "T", "impact_score": 8.0, "psst": 85},
+    {"id": "wf2-20260210-009", "title": "AI Agents for Clinical Workflows", "category": "T", "impact_score": 7.8, "psst": 84},
+    {"id": "wf2-20260210-012", "title": "Income and Labour Productivity Losses from Climate Change", "category": "E", "impact_score": 7.6, "psst": 83},
+    {"id": "wf2-20260210-011", "title": "Carbon Credit Market Integrity: ML Detection", "category": "E_Environmental", "impact_score": 7.4, "psst": 82},
+    {"id": "wf2-20260210-014", "title": "AI-Revolutionized CRISPR Guide RNA Design", "category": "T", "impact_score": 7.2, "psst": 81},
+    {"id": "wf2-20260210-010", "title": "Quantum Deep Learning Still Needs a Quantum Leap", "category": "T", "impact_score": 7.0, "psst": 80},
+    {"id": "wf2-20260210-003", "title": "TraceCoder: Multi-Agent Automated Code Debugging", "category": "T", "impact_score": 6.8, "psst": 79},
+    {"id": "wf2-20260210-015", "title": "Global Dengue Incidence Projections Under Climate Change", "category": "S", "impact_score": 7.0, "psst": 78},
+    {"id": "wf2-20260210-013", "title": "QAOA Applied to Integer Optimization on Graphs", "category": "T", "impact_score": 6.6, "psst": 77},
+    {"id": "wf2-20260210-007", "title": "First-Order Temporal Logic Reward Specification in RL", "category": "T", "impact_score": 6.4, "psst": 76},
+    {"id": "wf2-20260210-002", "title": "Quantum Machine Learning Tutorial", "category": "T", "impact_score": 5.0, "psst": 72}
+  ]
+}

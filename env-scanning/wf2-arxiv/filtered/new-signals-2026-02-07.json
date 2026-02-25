@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "workflow": "wf2-arxiv",
+    "date": "2026-02-07",
+    "total_before_dedup": 44,
+    "total_after_dedup": 44,
+    "dedup_removed": 0
+  },
+  "items": [
+    {
+      "arxiv_id": "2602.05877",
+      "title": "Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy",
+      "steeps": [
+        "S_Social",
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05987",
+      "title": "From Human-Human Collaboration to Human-Agent Collaboration: Vision and Framework for LLM Agent Partnerships",
+      "steeps": [
+        "S_Social"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05819",
+      "title": "Authorship Drift: How Self-Efficacy and Trust Evolve During LLM-Assisted Writing",
+      "steeps": [
+        "S_Social"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.04487",
+      "title": "The Supportiveness-Safety Tradeoff in LLM Well-Being Agents",
+      "steeps": [
+        "S_Social",
+        "s_spiritual"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.05628",
+      "title": "AI Chatbots versus Human Healthcare Professionals: Systematic Review and Meta-analysis of Empathy in Patient Care",
+      "steeps": [
+        "S_Social",
+        "s_spiritual"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.02598",
+      "title": "Social Catalysts, Not Moral Agents: The Illusion of Alignment in LLM Societies",
+      "steeps": [
+        "S_Social",
+        "s_spiritual"
+      ],
+      "published": "2026-02-04"
+    },
+    {
+      "arxiv_id": "2602.05111",
+      "title": "Metacognitive Demands and Strategies While Using AI Conversational Agents for Health Information",
+      "steeps": [
+        "S_Social"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.04478",
+      "title": "Informing Robot Wellbeing Coach Design through Longitudinal Analysis of Human-AI Dialogue",
+      "steeps": [
+        "S_Social",
+        "s_spiritual"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.00139",
+      "title": "Payrolls to Prompts: Firm-Level Evidence on the Substitution of Labor for AI",
+      "steeps": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "published": "2026-02-01"
+    },
+    {
+      "arxiv_id": "2602.06039",
+      "title": "DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05946",
+      "title": "f-GRPO and Beyond: Divergence-Based Reinforcement Learning for General LLM Alignment",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05484",
+      "title": "Clouding the Mirror: Stealthy Prompt Injection Attacks Targeting LLM-based Phishing Detection",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05401",
+      "title": "BadTemplate: A Training-Free Backdoor Attack via Chat Template Against LLMs",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.04653",
+      "title": "Inference-Time Backdoors via Hidden Instructions in LLM Chat Templates",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.04896",
+      "title": "Steering Externalities: Benign Activation Steering Unintentionally Increases Jailbreak Risk for LLMs",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.04893",
+      "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.04224",
+      "title": "RAPO: Risk-Aware Preference Optimization for Generalizable Safe Reasoning",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.05302",
+      "title": "PieArena: Frontier Language Agents Achieve MBA-Level Negotiation Performance",
+      "steeps": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05353",
+      "title": "AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05472",
+      "title": "ALIVE: Awakening LLM Reasoning via Adversarial Learning and Instructive Verbal Evaluation",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.04939",
+      "title": "SynthForensics: A Multi-Generator Benchmark for Detecting Synthetic Video Deepfakes",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.01129",
+      "title": "SMCP: Secure Model Context Protocol",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-02"
+    },
+    {
+      "arxiv_id": "2602.04921",
+      "title": "Scalable Testing of Quantum Error Correction",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.05890",
+      "title": "DFPO: Scaling Value Modeling via Distributional Flow for Robust LLM Post-Training",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05868",
+      "title": "Persistent Human Feedback, LLMs, and Static Analyzers for Secure Code Generation",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.06008",
+      "title": "AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions",
+      "steeps": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05818",
+      "title": "TKG-Thinker: Dynamic Reasoning over Temporal Knowledge Graphs via Agentic RL",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.00050",
+      "title": "AI in Debt Collection: Estimating the Psychological Impact on Consumers",
+      "steeps": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "published": "2026-02-01"
+    },
+    {
+      "arxiv_id": "2602.00948",
+      "title": "FinEvo: From Isolated Backtests to Ecological Market Games for Multi-Agent Financial Strategy Evolution",
+      "steeps": [
+        "E_Economic",
+        "T_Technological"
+      ],
+      "published": "2026-02-02"
+    },
+    {
+      "arxiv_id": "2602.05916",
+      "title": "Quantum Error Mitigation at the Pre-processing Stage",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05181",
+      "title": "Prediction Laundering: The Illusion of Neutrality, Transparency, and Governance in Polymarket",
+      "steeps": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05200",
+      "title": "FATe of Bots: Ethical Considerations of Social Bot Detection",
+      "steeps": [
+        "P_Political",
+        "S_Social"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.04759",
+      "title": "How to Stop Playing Whack-a-Mole: Mapping Technologies Facilitating AI-Generated Non-Consensual Intimate Images",
+      "steeps": [
+        "P_Political",
+        "S_Social"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.04456",
+      "title": "Growth First, Care Second? Tracing LLM Value Preferences in Everyday Dilemmas",
+      "steeps": [
+        "P_Political",
+        "s_spiritual"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.03334",
+      "title": "The Personality Trap: How LLMs Embed Bias When Generating Human-Like Personas",
+      "steeps": [
+        "S_Social",
+        "P_Political"
+      ],
+      "published": "2026-02-05"
+    },
+    {
+      "arxiv_id": "2602.04687",
+      "title": "Investigating Disability Representations in Text-to-Image Models",
+      "steeps": [
+        "S_Social",
+        "P_Political"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.04039",
+      "title": "Evaluating the Vulnerability Landscape of LLM-Generated Smart Contracts",
+      "steeps": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.05915",
+      "title": "Higher-order Adaptive Behaviors Outperform Pairwise Strategies in Mitigating Contagion Dynamics",
+      "steeps": [
+        "S_Social"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.04829",
+      "title": "Opinion Dynamics under Electoral Shocks in Competitive Campaigns",
+      "steeps": [
+        "P_Political",
+        "S_Social"
+      ],
+      "published": "2026-02-06"
+    },
+    {
+      "arxiv_id": "2602.00234",
+      "title": "Fragmentation of a Longitudinal Population-Scale Social Network: Decreasing Structural Social Cohesion in the Netherlands",
+      "steeps": [
+        "S_Social"
+      ],
+      "published": "2026-02-01"
+    },
+    {
+      "arxiv_id": "2602.03676",
+      "title": "Entropy Geometry and Condensation in Wealth Allocation",
+      "steeps": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "published": "2026-02-05"
+    },
+    {
+      "arxiv_id": "2602.02541",
+      "title": "The Spectral Topology of Global Imbalances: Graph-Theoretic Framework for Systemic Risk in Balance of Payments",
+      "steeps": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "published": "2026-02-04"
+    },
+    {
+      "arxiv_id": "2602.05016",
+      "title": "From Fragmentation to Integration: Exploring AI Agents for Human-as-the-Unit Privacy Management",
+      "steeps": [
+        "S_Social",
+        "P_Political"
+      ],
+      "published": "2026-02-07"
+    },
+    {
+      "arxiv_id": "2602.05541",
+      "title": "Reducing Complexity of Matrix Multiplication to O(N²log₂N) by Asymptotically Optimal Quantum Algorithm",
+      "steeps": [
+        "T_Technological"
+      ],
+      "published": "2026-02-07"
+    }
+  ]
+}

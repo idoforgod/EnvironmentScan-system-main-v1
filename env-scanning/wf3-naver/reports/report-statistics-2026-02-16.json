@@ -1,0 +1,121 @@
+{
+  "engine_version": "1.2.0",
+  "computed_at": "2026-02-17T02:14:19Z",
+  "source_file": "env-scanning/wf3-naver/structured/classified-signals-2026-02-16.json",
+  "workflow_type": "naver",
+  "total_signals": 15,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 0,
+      "s": 0
+    },
+    "fssf": {
+      "Weak Signal": 3,
+      "Wild Card": 1,
+      "Discontinuity": 0,
+      "Driver": 2,
+      "Emerging Issue": 3,
+      "Precursor Event": 2,
+      "Trend": 2,
+      "Megatrend": 2
+    },
+    "horizons": {
+      "H1": 0,
+      "H2": 0,
+      "H3": 0
+    },
+    "tipping_point_alerts": {
+      "RED": {
+        "count": 0,
+        "signals": []
+      },
+      "ORANGE": {
+        "count": 2,
+        "signals": [
+          "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+          "중국 비밀 핵시설 확장 + 유럽 '핵 억지' 자립 선언 -- 글로벌 핵확산 '뉴 노멀' 진입"
+        ]
+      },
+      "YELLOW": {
+        "count": 4,
+        "signals": [
+          "미 국방부 앤트로픽 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화",
+          "부동산 정책 정면 드라이브 -- 52% '효과 있을 것' vs 야당 '사회주의' 반발, 설 민심 격전",
+          "김주애 후계 공식화 가능성 + 김정은 러 파병 전사자 주택 준공 -- 북한 체제 전환 신호 다중 발생",
+          "사업소득 '초양극화' 100배 격차 + '고용한파 AI시대' 공무원 재인기 -- 소득 불평등 구조적 심화"
+        ]
+      },
+      "GREEN": {
+        "count": 0,
+        "signals": []
+      }
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 15
+    },
+    "evolution": {
+      "new": 0,
+      "recurring": 0,
+      "strengthening": 0,
+      "weakening": 0,
+      "faded": 0,
+      "transformed": 0,
+      "active_threads": 0
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "15",
+    "DOMAIN_DISTRIBUTION": "",
+    "FSSF_WEAK_SIGNAL_COUNT": "3",
+    "FSSF_WEAK_SIGNAL_PCT": "20%",
+    "FSSF_WILD_CARD_COUNT": "1",
+    "FSSF_WILD_CARD_PCT": "7%",
+    "FSSF_DISCONTINUITY_COUNT": "0",
+    "FSSF_DISCONTINUITY_PCT": "0%",
+    "FSSF_DRIVER_COUNT": "2",
+    "FSSF_DRIVER_PCT": "13%",
+    "FSSF_EMERGING_ISSUE_COUNT": "3",
+    "FSSF_EMERGING_ISSUE_PCT": "20%",
+    "FSSF_PRECURSOR_COUNT": "2",
+    "FSSF_PRECURSOR_PCT": "13%",
+    "FSSF_TREND_COUNT": "2",
+    "FSSF_TREND_PCT": "13%",
+    "FSSF_MEGATREND_COUNT": "2",
+    "FSSF_MEGATREND_PCT": "13%",
+    "FSSF_DIST_WS_COUNT": "3",
+    "FSSF_DIST_WC_COUNT": "1",
+    "FSSF_DIST_DC_COUNT": "0",
+    "FSSF_DIST_DR_COUNT": "2",
+    "FSSF_DIST_EI_COUNT": "3",
+    "FSSF_DIST_PE_COUNT": "2",
+    "FSSF_DIST_TR_COUNT": "2",
+    "FSSF_DIST_MT_COUNT": "2",
+    "H1_COUNT": "0",
+    "H1_PCT": "0%",
+    "H2_COUNT": "0",
+    "H2_PCT": "0%",
+    "H3_COUNT": "0",
+    "H3_PCT": "0%",
+    "TIPPING_POINT_ALERT_SUMMARY": "| ORANGE | 2 | 트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지', 중국 비밀 핵시설 확장 + 유럽 '핵 억지' 자립 선언 -- 글로벌 핵확산 '뉴 노멀' 진입 |\n| YELLOW | 4 | 미 국방부 앤트로픽 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화, 부동산 정책 정면 드라이브 -- 52% '효과 있을 것' vs 야당 '사회주의' 반발, 설 민심 격전, 김주애 후계 공식화 가능성 + 김정은 러 파병 전사자 주택 준공 -- 북한 체제 전환 신호 다중 발생 외 1건 |",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "0%",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "0%",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "0%",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "0%",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "해당 없음",
+    "EVOLUTION_TABLE_WEAKENING": "해당 없음"
+  }
+}

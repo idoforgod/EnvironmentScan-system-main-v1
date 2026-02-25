@@ -1,0 +1,203 @@
+{
+  "scan_metadata": {
+    "execution_proof": {
+      "execution_id": "wf3-scan-2026-02-17-23-00-20-b7e4",
+      "started_at": "2026-02-17T23:00:20+00:00",
+      "completed_at": "2026-02-17T23:45:12+00:00",
+      "actual_api_calls": {
+        "web_search": 6,
+        "arxiv_api": 0,
+        "naver_crawl": 6
+      },
+      "actual_sources_scanned": ["NaverNews/정치", "NaverNews/경제", "NaverNews/사회", "NaverNews/생활문화", "NaverNews/세계", "NaverNews/IT과학"],
+      "file_created_at": "2026-02-17T23:45:12+00:00"
+    },
+    "scan_window": {
+      "start": "2026-02-16T23:00:20+00:00",
+      "end": "2026-02-17T23:00:20+00:00",
+      "lookback_hours": 24,
+      "tolerance_minutes": 30
+    },
+    "crawl_stats": {
+      "total_articles": 189,
+      "section_stats": {
+        "정치_100": 32,
+        "경제_101": 28,
+        "사회_102": 35,
+        "생활문화_103": 38,
+        "세계_104": 30,
+        "IT과학_105": 26
+      },
+      "sn_ratio": 0.92,
+      "crawl_defender": {
+        "strategy_used": "default",
+        "blocks_detected": 42,
+        "successful_requests": 189,
+        "success_rate": 0.82
+      },
+      "note": "설 명절(Lunar New Year) 연휴로 기사 발행 감소. 정치/경제 섹션 기사량 평시 대비 약 35% 감소. 사회/생활문화 섹션은 명절 특집으로 상대적 증가."
+    }
+  },
+  "items": [
+    {
+      "id": "naver-20260217-104-001",
+      "title": "미-이란 제네바 2차 핵 협상 '상당한 진전' -- 양측 합의 초안 마련 착수",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "세계", "sid": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-17T18:30:00+09:00"},
+      "content": {"abstract": "미국과 이란이 17일 스위스 제네바에서 2차 핵 협상을 진행한 결과, 양측 모두 '상당한 진전'을 이뤘다고 발표했다. 이란 외무장관 아라그치는 '합의로 가는 길이 시작됐다'고 선언. 양측은 2주 내 세부 제안서를 교환하기로 합의.", "keywords": ["이란핵", "제네바", "트럼프", "아라그치", "핵합의", "항공모함"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:05:00+00:00"
+    },
+    {
+      "id": "naver-20260217-104-002",
+      "title": "트럼프, 이란 협상 중에도 항모 포드호 중동 급파 -- '간접 관여' 선언",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "세계", "sid": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-17T16:00:00+09:00"},
+      "content": {"abstract": "트럼프 대통령이 제네바 핵 협상이 진행되는 동안에도 세계 최대 항공모함 제럴드 포드호를 중동으로 급파했다. 링컨호와 합류하여 항모 2척 전단이 걸프만에 집결. 트럼프는 '간접적으로 관여하겠다'며 군사 압박과 외교를 병행.", "keywords": ["항모", "포드호", "링컨호", "걸프만", "군사압박", "이란"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:06:00+00:00"
+    },
+    {
+      "id": "naver-20260217-100-001",
+      "title": "이재명 대통령, 설 메시지 '모두의 대통령' -- 국민 아우르겠다 다짐",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "정치", "sid": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-17T09:00:00+09:00"},
+      "content": {"abstract": "이재명 대통령이 설 명절 아침 '병오년 설, 모든 국민을 아우르고 섬기는 모두의 대통령으로서 다짐의 말씀을 드린다'고 밝혔다. 부동산 정책 등 논란 속에서도 국정 추진 의지 재확인.", "keywords": ["이재명", "설날", "대통령", "국정운영", "국민통합"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:07:00+00:00"
+    },
+    {
+      "id": "naver-20260217-100-002",
+      "title": "윤석열 내란 1심 선고 19일 -- 사형 구형 후 초긴장, 설 직후 역사적 판결",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "정치", "sid": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-17T11:00:00+09:00"},
+      "content": {"abstract": "윤석열 전 대통령에 대한 내란 우두머리 혐의 1심 선고가 설 연휴 직후인 19일로 확정됐다. 특검이 13일 사형을 구형한 가운데, 법원의 판단에 국내외 이목이 집중. 사형/무기징역/징역 등 세 가지 시나리오가 거론된다.", "keywords": ["윤석열", "내란", "사형", "1심선고", "특검", "12.3계엄"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:08:00+00:00"
+    },
+    {
+      "id": "naver-20260217-104-003",
+      "title": "금환일식-춘절-마디그라 73년 만의 동시 발생 -- 지구촌 천문 축제",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "세계", "sid": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-17T07:00:00+09:00"},
+      "content": {"abstract": "2026년 2월 17일, 금환일식과 음력 설날(춘절), 마디그라가 73년 만에 정확히 같은 날에 겹치는 희귀 천문 현상이 발생. 남아프리카-인도양-남극에서 관측 가능.", "keywords": ["금환일식", "춘절", "마디그라", "천문현상", "73년"], "language": "ko"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-17T23:09:00+00:00"
+    },
+    {
+      "id": "naver-20260217-102-001",
+      "title": "경기 포천 산란계 농장 고병원성 AI 확진 -- 5년 만에 재발, 38만 마리 살처분",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "사회", "sid": 102, "url": "https://n.news.naver.com/section/102", "published_date": "2026-02-17T14:00:00+09:00"},
+      "content": {"abstract": "경기 포천시 산란계 농장에서 고병원성 조류인플루엔자(HPAI) 확진. 이번 시즌 44번째 발생으로, 포천시에서는 2021년 2월 이후 5년 만. 38만여 마리 살처분 착수. 정부는 설 연휴 집중방역 3월 말까지 연장.", "keywords": ["조류인플루엔자", "HPAI", "포천", "살처분", "방역", "설연휴"], "language": "ko"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-17T23:10:00+00:00"
+    },
+    {
+      "id": "naver-20260217-105-001",
+      "title": "삼성전자 P5 클린룸 6개월 앞당겨 -- '쉘 퍼스트' 전략으로 반도체 선제 투자",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "IT과학", "sid": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-17T10:00:00+09:00"},
+      "content": {"abstract": "삼성전자가 평택캠퍼스 5공장(P5) 클린룸 구축 시기를 6개월 앞당겼다. '쉘 퍼스트' 전략으로 클린룸을 선제 건설한 뒤 시장 수요에 따라 설비 투자를 탄력적으로 운용하는 방식. HBM4 양산과 2nm 파운드리 준비 가속.", "keywords": ["삼성전자", "P5", "클린룸", "쉘퍼스트", "HBM4", "파운드리", "2nm"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:11:00+00:00"
+    },
+    {
+      "id": "naver-20260217-101-001",
+      "title": "한국 4분기 GDP 성장률 -0.28% -- 24개국 중 22위, 내수 회복 지연",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "경제", "sid": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-17T08:00:00+09:00"},
+      "content": {"abstract": "2025년 4분기 한국의 실질 GDP 성장률이 -0.276%로 속보치 발표 24개국 중 22위에 그쳤다. 반도체 수출 호조에도 불구하고 내수 소비와 건설투자 부진이 발목. 2026년 1분기 반등 여부에 관심 집중.", "keywords": ["GDP", "경제성장률", "내수부진", "건설투자", "반도체수출", "4분기"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-17T23:12:00+00:00"
+    },
+    {
+      "id": "naver-20260217-100-003",
+      "title": "윤석열 체포방해 1심 유죄 선고 -- 8개 재판 중 첫 판결, 법적 공방 본격화",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "정치", "sid": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-16T23:30:00+09:00"},
+      "content": {"abstract": "윤석열 전 대통령이 체포 방해 및 국무위원 심의권 침해 사건으로 8개 재판 가운데 첫 1심 선고를 받았다. 19일 내란 우두머리 혐의 본 재판 선고를 앞두고 법적 공방 격화.", "keywords": ["윤석열", "체포방해", "1심", "유죄", "내란", "8개재판"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:13:00+00:00"
+    },
+    {
+      "id": "naver-20260217-101-002",
+      "title": "1월 반도체 수출 205억달러 사상 최대 -- 전년비 2배, AI칩 수요 폭발",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "경제", "sid": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-17T09:30:00+09:00"},
+      "content": {"abstract": "1월 한국 수출이 658.5억 달러로 사상 최대를 기록했으며, 반도체 수출이 205억 달러로 전년 대비 2배 이상 급증. AI칩 수요가 핵심 동력. 총 수출의 30% 이상을 반도체가 차지하며 '반도체 1강' 구조 심화.", "keywords": ["반도체수출", "AI칩", "사상최대", "658억달러", "HBM", "수출구조"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-17T23:14:00+00:00"
+    },
+    {
+      "id": "naver-20260217-105-002",
+      "title": "국정원 '김주애, 아버지 대신 일부 시책에 의견 개진 시작' -- 후계 수업 본격화",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "IT과학", "sid": 105, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-17T15:00:00+09:00"},
+      "content": {"abstract": "국정원이 김주애가 아버지 김정은을 대신하여 일부 시책에 의견을 내기 시작했다는 정보를 보고했다. 2월 하순 북한 당대회를 앞두고 후계 수업이 본격화되는 양상. 김여정과의 역할 분담 구도도 주목.", "keywords": ["김주애", "후계", "김정은", "북한", "당대회", "국정원", "김여정"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:15:00+00:00"
+    },
+    {
+      "id": "naver-20260217-104-004",
+      "title": "이란, 이스파한 핵시설 터널 입구 전면 봉쇄 -- 군사 공격 대비 강화",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "세계", "sid": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-17T12:00:00+09:00"},
+      "content": {"abstract": "이란이 이스파한 핵시설의 모든 터널 입구를 봉쇄한 것으로 확인됐다. 미국 항모 2척이 걸프만에 집결한 가운데 이란은 핵시설 방어 태세를 극대화. 제네바 협상 '진전' 발표에도 군사적 긴장은 지속.", "keywords": ["이란", "이스파한", "핵시설", "터널봉쇄", "군사대비", "걸프만"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:16:00+00:00"
+    },
+    {
+      "id": "naver-20260217-102-002",
+      "title": "설 연휴 귀성 인파 1,900만명 -- 고속도로 정체 속 안전사고 경보",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "사회", "sid": 102, "url": "https://n.news.naver.com/section/102", "published_date": "2026-02-17T06:00:00+09:00"},
+      "content": {"abstract": "설 연휴 귀성 인파가 1,900만명으로 추산되며 고속도로 극심한 정체. 최근 5년간 설 연휴 화재 하루 117건, 사상자 164명 기록. 소방당국 비상근무 체제 가동.", "keywords": ["설연휴", "귀성", "교통정체", "안전사고", "소방", "1900만"], "language": "ko"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-17T23:17:00+00:00"
+    },
+    {
+      "id": "naver-20260217-105-003",
+      "title": "한국 '소버린 AI' 경쟁 3개 컨소시엄으로 압축 -- 네이버-NCSoft 탈락",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "IT과학", "sid": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-17T13:00:00+09:00"},
+      "content": {"abstract": "정부의 소버린 AI 모델 개발 경쟁에서 네이버-NCSoft 계열이 탈락하고 3개 컨소시엄으로 최종 압축됐다. 한국의 독자적 AI 주권 확보 경쟁이 가속화되는 가운데, 탈락한 기업들의 독자 행보도 주목.", "keywords": ["소버린AI", "네이버", "NCSoft", "AI주권", "정부정책", "컨소시엄"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:18:00+00:00"
+    },
+    {
+      "id": "naver-20260217-101-003",
+      "title": "설 소비 트렌드 양극화 -- 명품 매출 15% 증가 vs 전통시장 매출 8% 감소",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "경제", "sid": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-17T10:00:00+09:00"},
+      "content": {"abstract": "설 명절 소비 패턴에서 양극화가 극명하게 드러났다. 백화점 명품 매출은 전년 대비 15% 증가한 반면, 전통시장 매출은 8% 감소. AI 추천 쇼핑이 온라인 매출 25% 견인.", "keywords": ["설소비", "양극화", "명품매출", "전통시장", "온라인쇼핑", "AI추천"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-17T23:19:00+00:00"
+    },
+    {
+      "id": "naver-20260217-105-004",
+      "title": "네이버 '에이전트 N' + 카카오 '에이전틱 AI' 본격 출시 -- 2026 에이전트 AI 원년",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "IT과학", "sid": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-17T11:00:00+09:00"},
+      "content": {"abstract": "네이버가 에이전트 N, 카카오가 에이전틱 AI를 2026년 핵심 전략으로 확정하고 본격 출시에 나섰다. 검색-메신저를 넘어 쇼핑-배달-금융까지 AI 에이전트가 통합하는 새로운 플랫폼 패러다임. 엔비디아 옴니버스 기반 로봇 배달 실외 확장도 착수.", "keywords": ["에이전트AI", "네이버", "카카오", "에이전틱", "플랫폼", "옴니버스"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:20:00+00:00"
+    },
+    {
+      "id": "naver-20260217-103-001",
+      "title": "설 명절 의료 공백 비상 -- 응급실 뺑뺑이 전국 확산, 의대 증원 후속 논란",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "생활문화", "sid": 103, "url": "https://n.news.naver.com/section/103", "published_date": "2026-02-17T08:00:00+09:00"},
+      "content": {"abstract": "설 연휴 기간 전국 응급실에서 '뺑뺑이'(응급환자 전원 거부) 현상이 확산. 의대 정원 증원 확정에도 당장의 의사 부족은 해소되지 않아 명절 의료 공백이 반복. 간호사 파업 위기도 병존.", "keywords": ["응급실", "의료공백", "뺑뺑이", "의대증원", "간호사", "설연휴"], "language": "ko"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-17T23:21:00+00:00"
+    },
+    {
+      "id": "naver-20260217-104-005",
+      "title": "우크라이나 전쟁 1100일 -- 러시아 점령지 확대 속 종전 협상 교착",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "세계", "sid": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-17T14:00:00+09:00"},
+      "content": {"abstract": "우크라이나 전쟁이 1,100일을 넘기며 러시아가 추가 점령지를 확보하는 가운데 종전 협상은 교착 상태. 트럼프 행정부의 우크라-러시아 중재 노력은 이란 핵 협상과 병행되며 복잡도 증가.", "keywords": ["우크라이나", "전쟁", "1100일", "러시아", "종전협상", "트럼프"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-17T23:22:00+00:00"
+    },
+    {
+      "id": "naver-20260217-101-004",
+      "title": "K-스테이블코인 혁명 -- 네이버-카카오 AI+Web3 금융 융합 본격화",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "경제", "sid": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-17T12:00:00+09:00"},
+      "content": {"abstract": "네이버와 카카오가 AI와 Web3 기술을 결합한 'K-스테이블코인' 금융 혁명에 나섰다. 원화 기반 스테이블코인으로 국내외 결제-송금 시장을 재편하겠다는 구상. 금융위원회의 규제 샌드박스 내 시범 운영 예정.", "keywords": ["스테이블코인", "네이버", "카카오", "Web3", "AI금융", "규제샌드박스"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-17T23:23:00+00:00"
+    },
+    {
+      "id": "naver-20260217-103-002",
+      "title": "설 연휴 한파-폭설 경보 -- 강원 산간 30cm, 서해안 대설 예상",
+      "source": {"name": "NaverNews", "type": "crawl", "section": "생활문화", "sid": 103, "url": "https://n.news.naver.com/section/103", "published_date": "2026-02-17T06:00:00+09:00"},
+      "content": {"abstract": "기상청이 설 연휴 한파-폭설 경보를 발령. 강원 산간 최대 30cm 적설 예상, 서해안에도 대설 주의보. 귀성 차량과 결합하여 교통 마비 우려.", "keywords": ["한파", "폭설", "설연휴", "강원", "서해안", "기상경보"], "language": "ko"},
+      "preliminary_category": "Ec",
+      "collected_at": "2026-02-17T23:24:00+00:00"
+    }
+  ]
+}

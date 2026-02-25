@@ -1,0 +1,133 @@
+{
+  "gate_id": "temporal_gate.py",
+  "gate_version": "1.0.0",
+  "checked_at": "2026-02-12T00:16:56.047751+00:00",
+  "workflow": "wf1-general",
+  "signals_file": "env-scanning/wf1-general/structured/classified-signals-2026-02-12.json",
+  "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-02-12.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "1 signal(s) outside window removed (strict mode). 30/31 signals retained.",
+  "statistics": {
+    "total_signals": 31,
+    "within_window": 30,
+    "outside_window": 1,
+    "unparseable_dates": 25
+  },
+  "window": {
+    "effective_start": "2026-02-10T23:28:38.162510",
+    "window_end": "2026-02-11T23:58:38.162510",
+    "lookback_hours": 24,
+    "tolerance_minutes": 30,
+    "enforce": "strict"
+  },
+  "violations": [
+    {
+      "signal_id": "explore-20260212-ilo-002",
+      "published_date": "2026-02-10",
+      "parsed_date": "2026-02-10T00:00:00",
+      "window": "[2026-02-10T23:28:38.162510, 2026-02-11T23:58:38.162510]"
+    }
+  ],
+  "unparseable": [
+    {
+      "signal_id": "wf1-20260212-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-017",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-018",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-019",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-020",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-021",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-022",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-023",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-024",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "wf1-20260212-025",
+      "reason": "no_date_field"
+    }
+  ]
+}

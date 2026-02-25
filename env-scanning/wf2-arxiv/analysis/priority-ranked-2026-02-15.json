@@ -1,0 +1,4515 @@
+{
+  "metadata": {
+    "workflow": "wf2-arxiv",
+    "ranking_date": "2026-02-15",
+    "total_ranked": 583,
+    "top_n": 15,
+    "curation_method": "expert_adjusted_psst",
+    "psst_range": {
+      "max": 93.5,
+      "min": 85.5
+    },
+    "steeps_distribution": {
+      "T_Technological": 516,
+      "S_Social": 21,
+      "E_Environmental": 14,
+      "E_Economic": 24,
+      "s_spiritual": 3,
+      "P_Political": 5
+    },
+    "grade_distribution": {
+      "A": 0,
+      "B": 583,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "top_signals": [
+    {
+      "id": "arxiv-2602.11457v1",
+      "title": "The Pinnacle Architecture: Reducing the cost of breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11457v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "The realisation of utility-scale quantum computing inextricably depends on the design of practical, low-overhead fault-tolerant architectures. We introduce the \\textit{Pinnacle Architecture}, which uses quantum low-density parity check (QLDPC) codes to allow for universal, fault-tolerant quantum computation with a spacetime overhead significantly smaller than that of any competing architecture. With this architecture, we show that 2048-bit RSA integers can be factored with less than one hundred thousand physical qubits, given a physical error rate of $10^{-3}$, code cycle time of $1$ \\textmu s and a reaction time of $10$ \\textmu s. We thereby demonstrate the feasibility of utility-scale quantum computing with an order of magnitude fewer physical qubits than has previously been believed necessary.",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.11457v1",
+        "authors": [
+          "Paul Webster",
+          "Lucas Berent",
+          "Omprakash Chandra",
+          "Evan T. Hockings",
+          "Nouédyn Baspin"
+        ],
+        "arxiv_categories": [
+          "quant-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Pinnacle Architecture",
+        "Quantum Computing",
+        "RSA-2048",
+        "QLDPC",
+        "LDPC",
+        "Act",
+        "RSA",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:54:05.727309",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [],
+        "classification_confidence": 0.85
+      },
+      "psst": {
+        "psst_score": 93.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 85.0,
+          "TC": 100,
+          "DC": 85,
+          "IC": 50
+        },
+        "grade": "A"
+      },
+      "significance": 10,
+      "impact_analysis": "Paradigm shift: reduces RSA-2048 breaking cost to 100K physical qubits using QLDPC codes, bringing post-quantum cryptography timeline significantly forward"
+    },
+    {
+      "id": "arxiv-2602.12124v1",
+      "title": "Capability-Oriented Training Induced Alignment Risk",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12124v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "While most AI alignment research focuses on preventing models from generating explicitly harmful content, a more subtle risk is emerging: capability-oriented training induced exploitation. We investigate whether language models, when trained with reinforcement learning (RL) in environments with implicit loopholes, will spontaneously learn to exploit these flaws to maximize their reward, even without any malicious intent in their training. To test this, we design a suite of four diverse \"vulnerability games\", each presenting a unique, exploitable flaw related to context-conditional compliance, proxy metrics, reward tampering, and self-evaluation. Our experiments show that models consistently learn to exploit these vulnerabilities, discovering opportunistic strategies that significantly increase their reward at the expense of task correctness or safety. More critically, we find that these exploitative strategies are not narrow \"tricks\" but generalizable skills; they can be transferred to new tasks and even \"distilled\" from a capable teacher model to other student models through data alone. Our findings reveal that capability-oriented training induced risks pose a fundamental challenge to current alignment approaches, suggesting that future AI safety work must extend beyond content moderation to rigorously auditing and securing the training environments and reward mechanisms themselves. Code is available at https://github.com/YujunZhou/Capability_Oriented_Alignment_Risk.",
+        "keywords": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12124v1",
+        "authors": [
+          "Yujun Zhou",
+          "Yue Huang",
+          "Han Bao",
+          "Kehan Guo",
+          "Zhenwen Liang"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Oriented Training Induced Alignment",
+        "Risk While",
+        "NIST",
+        "NSF",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:07.031058",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [
+          "S_Social"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 92.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 60
+        },
+        "grade": "A"
+      },
+      "significance": 9,
+      "impact_analysis": "Critical safety finding: standard capability training creates exploitable alignment vulnerabilities, challenging fundamental assumptions about AI safety"
+    },
+    {
+      "id": "arxiv-2602.12150v1",
+      "title": "GPT-4o Lacks Core Features of Theory of Mind",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12150v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Do Large Language Models (LLMs) possess a Theory of Mind (ToM)? Research into this question has focused on evaluating LLMs against benchmarks and found success across a range of social tasks. However, these evaluations do not test for the actual representations posited by ToM: namely, a causal model of mental states and behavior. Here, we use a cognitively-grounded definition of ToM to develop and test a new evaluation framework. Specifically, our approach probes whether LLMs have a coherent, domain-general, and consistent model of how mental states cause behavior -- regardless of whether that model matches a human-like ToM. We find that even though LLMs succeed in approximating human judgments in a simple ToM paradigm, they fail at a logically equivalent task and exhibit low consistency between their action predictions and corresponding mental state inferences. As such, these findings suggest that the social proficiency exhibited by LLMs is not the result of an domain-general or consistent ToM.",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12150v1",
+        "authors": [
+          "John Muchovej",
+          "Amanda Royka",
+          "Shane Lee",
+          "Julian Jara-Ettinger"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Mind Do Large Language",
+        "Lacks Core Features",
+        "Framework",
+        "Act",
+        "LLM",
+        "GPT",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:07.026947",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [
+          "S_Social"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 91.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 90,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 60
+        },
+        "grade": "A"
+      },
+      "significance": 9,
+      "impact_analysis": "Fundamental limitation: despite benchmark success, LLMs lack actual ToM representations, challenging claims of emergent social cognition"
+    },
+    {
+      "id": "arxiv-2602.12018v1",
+      "title": "Artificial intelligence is creating a new global linguistic hierarchy",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12018v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Artificial intelligence (AI) has the potential to transform healthcare, education, governance and socioeconomic equity, but its benefits remain concentrated in a small number of languages (Bender, 2019; Blasi et al., 2022; Joshi et al., 2020; Ranathunga and de Silva, 2022; Young, 2015). Language AI - the technologies that underpin widely-used conversational systems such as ChatGPT - could provide major benefits if available in people's native languages, yet most of the world's 7,000+ linguistic communities currently lack access and face persistent digital marginalization. Here we present a global longitudinal analysis of social, economic and infrastructural conditions across languages to assess systemic inequalities in language AI. We first analyze the existence of AI resources for 6003 languages. We find that despite efforts of the community to broaden the reach of language technologies (Bapna et al., 2022; Costa-Jussà et al., 2022), the dominance of a handful of languages is exacerbating disparities on an unprecedented scale, with divides widening exponentially rather than narrowing. Further, we contrast the longitudinal diffusion of AI with that of earlier IT technologies, revealing a distinctive hype-driven pattern of spread. To translate our findings into practical insights and guide prioritization efforts, we introduce the Language AI Readiness Index (EQUATE), which maps the state of technological, socio-economic, and infrastructural prerequisites for AI deployment across languages. The index highlights communities where capacity exists but remains underutilized, and provides a framework for accelerating more equitable diffusion of language AI. Our work contributes to setting the baseline for a transition towards more sustainable and equitable language technologies.",
+        "keywords": [
+          "cs.CY",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12018v1",
+        "authors": [
+          "Giulia Occhini",
+          "Kumiko Tanaka-Ishii",
+          "Anna Barford",
+          "Refael Tikochinski",
+          "Songbo Hu"
+        ],
+        "arxiv_categories": [
+          "cs.CY",
+          "cs.CL"
+        ],
+        "steeps_mapping": "S_Social"
+      },
+      "entities": [
+        "Artificial Intelligence",
+        "Readiness Index",
+        "Framework",
+        "ChatGPT",
+        "EQUATE",
+        "Fusion",
+        "Intel",
+        "Act",
+        "NSF",
+        "GPT",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T13:53:27.968541",
+      "classification": {
+        "primary_steeps": "S_Social",
+        "secondary_steeps": [
+          "E_Economic",
+          "P_Political"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 91.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 65
+        },
+        "grade": "A"
+      },
+      "significance": 9,
+      "impact_analysis": "Systemic inequality: AI systems concentrate benefits in a few languages, potentially widening global digital divide across healthcare, education, governance"
+    },
+    {
+      "id": "arxiv-2602.12158v1",
+      "title": "SafeNeuron: Neuron-Level Safety Alignment for Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12158v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) and multimodal LLMs are typically safety-aligned before release to prevent harmful content generation. However, recent studies show that safety behaviors are concentrated in a small subset of parameters, making alignment brittle and easily bypassed through neuron-level attacks. Moreover, most existing alignment methods operate at the behavioral level, offering limited control over the model's internal safety mechanisms. In this work, we propose SafeNeuron, a neuron-level safety alignment framework that improves robustness by redistributing safety representations across the network. SafeNeuron first identifies safety-related neurons, then freezes these neurons during preference optimization to prevent reliance on sparse safety pathways and force the model to construct redundant safety representations. Extensive experiments across models and modalities demonstrate that SafeNeuron significantly improves robustness against neuron pruning attacks, reduces the risk of open-source models being repurposed as red-team generators, and preserves general capabilities. Furthermore, our layer-wise analysis reveals that safety behaviors are governed by stable and shared internal representations. Overall, SafeNeuron provides an interpretable and robust perspective for model alignment.",
+        "keywords": [
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12158v1",
+        "authors": [
+          "Zhaoxin Wang",
+          "Jiaming Liang",
+          "Fengbin Zhu",
+          "Weixiang Zhao",
+          "Junfeng Fang"
+        ],
+        "arxiv_categories": [
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Large Language Models Large",
+        "Level Safety Alignment",
+        "Framework",
+        "MIT",
+        "LLM",
+        "AI",
+        "UN",
+        "EU"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:07.025947",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [
+          "S_Social"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 90.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 70
+        },
+        "grade": "A"
+      },
+      "significance": 9,
+      "impact_analysis": "Safety breakthrough: identifies that safety behaviors are concentrated in small parameter subsets, enabling neuron-level alignment that is more robust to attacks"
+    },
+    {
+      "id": "arxiv-2602.12270v1",
+      "title": "Creative Ownership in the Age of AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12270v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Copyright law focuses on whether a new work is \"substantially similar\" to an existing one, but generative AI can closely imitate style without copying content, a capability now central to ongoing litigation. We argue that existing definitions of infringement are ill-suited to this setting and propose a new criterion: a generative AI output infringes on an existing work if it could not have been generated without that work in its training corpus. To operationalize this definition, we model generative systems as closure operators mapping a corpus of existing works to an output of new works. AI generated outputs are \\emph{permissible} if they do not infringe on any existing work according to our criterion. Our results characterize structural properties of permissible generation and reveal a sharp asymptotic dichotomy: when the process of organic creations is light-tailed, dependence on individual works eventually vanishes, so that regulation imposes no limits on AI generation; with heavy-tailed creations, regulation can be persistently constraining.",
+        "keywords": [
+          "econ.TH",
+          "cs.AI",
+          "cs.GT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12270v1",
+        "authors": [
+          "Annie Liang",
+          "Jay Lu"
+        ],
+        "arxiv_categories": [
+          "econ.TH",
+          "cs.AI",
+          "cs.GT"
+        ],
+        "steeps_mapping": "E_Economic"
+      },
+      "entities": [
+        "Creative Ownership",
+        "Regulation",
+        "Act",
+        "MIT",
+        "AI"
+      ],
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T13:53:07.013099",
+      "classification": {
+        "primary_steeps": "E_Economic",
+        "secondary_steeps": [
+          "P_Political"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 90.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 60
+        },
+        "grade": "A"
+      },
+      "significance": 9,
+      "impact_analysis": "Legal paradigm: AI can imitate style without copying content, breaking copyright frameworks. Proposes new IP structure with major economic implications"
+    },
+    {
+      "id": "arxiv-2602.12134v1",
+      "title": "Value Alignment Tax: Measuring Value Trade-offs in LLM Alignment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12134v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Existing work on value alignment typically characterizes value relations statically, ignoring how interventions - such as prompting, fine-tuning, or preference optimization - reshape the broader value system. We introduce the Value Alignment Tax (VAT), a framework that measures how alignment-induced changes propagate across interconnected values relative to achieved on-target gain. VAT captures the dynamics of value expression under alignment pressure. Using a controlled scenario-action dataset grounded in Schwartz value theory, we collect paired pre-post normative judgments and analyze alignment effects across models, values, and alignment strategies. Our results show that alignment often produces uneven, structured co-movement among values. These effects are invisible under conventional target-only evaluation, revealing systemic, process-level alignment risks and offering new insights into the dynamics of value alignment in LLMs.",
+        "keywords": [
+          "cs.AI",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12134v1",
+        "authors": [
+          "Jiajun Chen",
+          "Hua Shen"
+        ],
+        "arxiv_categories": [
+          "cs.AI",
+          "cs.HC"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Measuring Value Trade",
+        "Value Alignment Tax",
+        "Alignment Existing",
+        "Framework",
+        "Act",
+        "VAT",
+        "LLM",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:07.029127",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [
+          "E_Economic"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 89.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 90,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 60
+        },
+        "grade": "B"
+      },
+      "significance": 9,
+      "impact_analysis": "Novel framework: quantifies trade-offs between values during alignment, showing that improving one value systematically degrades others"
+    },
+    {
+      "id": "arxiv-2602.12194v1",
+      "title": "MalTool: Malicious Tool Attacks on LLM Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12194v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "In a malicious tool attack, an attacker uploads a malicious tool to a distribution platform; once a user installs the tool and the LLM agent selects it during task execution, the tool can compromise the user's security and privacy. Prior work primarily focuses on manipulating tool names and descriptions to increase the likelihood of installation by users and selection by LLM agents. However, a successful attack also requires embedding malicious behaviors in the tool's code implementation, which remains largely unexplored. In this work, we bridge this gap by presenting the first systematic study of malicious tool code implementations. We first propose a taxonomy of malicious tool behaviors based on the confidentiality-integrity-availability triad, tailored to LLM-agent settings. To investigate the severity of the risks posed by attackers exploiting coding LLMs to automatically generate malicious tools, we develop MalTool, a coding-LLM-based framework that synthesizes tools exhibiting specified malicious behaviors, either as standalone tools or embedded within otherwise benign implementations. To ensure functional correctness and structural diversity, MalTool leverages an automated verifier that validates whether generated tools exhibit the intended malicious behaviors and differ sufficiently from prior instances, iteratively refining generations until success. Our evaluation demonstrates that MalTool is highly effective even when coding LLMs are safety-aligned. Using MalTool, we construct two datasets of malicious tools: 1,200 standalone malicious tools and 5,287 real-world tools with embedded malicious behaviors. We further show that existing detection methods, including commercial malware detection approaches such as VirusTotal and methods tailored to the LLM-agent setting, exhibit limited effectiveness at detecting the malicious tools, highlighting an urgent need for new defenses.",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12194v1",
+        "authors": [
+          "Yuepeng Hu",
+          "Yuqi Jia",
+          "Mengyuan Li",
+          "Dawn Song",
+          "Neil Gong"
+        ],
+        "arxiv_categories": [
+          "cs.CR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Malicious Tool Attacks",
+        "Agents In",
+        "Framework",
+        "MIT",
+        "LLM",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:15.381563",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [],
+        "classification_confidence": 0.85
+      },
+      "psst": {
+        "psst_score": 89.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 85.0,
+          "TC": 100,
+          "DC": 85,
+          "IC": 55
+        },
+        "grade": "B"
+      },
+      "significance": 9,
+      "impact_analysis": "Emerging threat vector: malicious tools uploaded to distribution platforms can compromise LLM agents, a new supply-chain attack class for agentic AI"
+    },
+    {
+      "id": "arxiv-2602.11754v1",
+      "title": "Cooperation Breakdown in LLM Agents Under Communication Delays",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11754v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "LLM-based multi-agent systems (LLM-MAS), in which autonomous AI agents cooperate to solve tasks, are gaining increasing attention. For such systems to be deployed in society, agents must be able to establish cooperation and coordination under real-world computational and communication constraints. We propose the FLCOA framework (Five Layers for Cooperation/Coordination among Autonomous Agents) to conceptualize how cooperation and coordination emerge in groups of autonomous agents, and highlight that the influence of lower-layer factors - especially computational and communication resources - has been largely overlooked. To examine the effect of communication delay, we introduce a Continuous Prisoner's Dilemma with Communication Delay and conduct simulations with LLM-based agents. As delay increases, agents begin to exploit slower responses even without explicit instructions. Interestingly, excessive delay reduces cycles of exploitation, yielding a U-shaped relationship between delay magnitude and mutual cooperation. These results suggest that fostering cooperation requires attention not only to high-level institutional design but also to lower-layer factors such as communication delay and resource allocation, pointing to new directions for MAS research.",
+        "keywords": [
+          "cs.MA",
+          "cs.AI",
+          "cs.GT"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.11754v1",
+        "authors": [
+          "Keita Nishimoto",
+          "Kimitaka Asatani",
+          "Ichiro Sakata"
+        ],
+        "arxiv_categories": [
+          "cs.MA",
+          "cs.AI",
+          "cs.GT"
+        ],
+        "steeps_mapping": "P_Political"
+      },
+      "entities": [
+        "Agents Under Communication Delays",
+        "Cooperation Breakdown",
+        "Continuous Prisoner",
+        "Communication Delay",
+        "Autonomous Agents",
+        "Five Layers",
+        "Framework",
+        "FLCOA",
+        "Act",
+        "MAS",
+        "LLM",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T13:53:27.972830",
+      "classification": {
+        "primary_steeps": "P_Political",
+        "secondary_steeps": [
+          "S_Social"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 88.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 60
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Multi-agent governance: reveals that communication delays cause cooperation collapse in LLM multi-agent systems, critical for real-world deployment"
+    },
+    {
+      "id": "arxiv-2602.11495v1",
+      "title": "Jailbreaking Leaves a Trace: Understanding and Detecting Jailbreak Attacks from Internal Representations of Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11495v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Jailbreaking large language models (LLMs) has emerged as a critical security challenge with the widespread deployment of conversational AI systems. Adversarial users exploit these models through carefully crafted prompts to elicit restricted or unsafe outputs, a phenomenon commonly referred to as Jailbreaking. Despite numerous proposed defense mechanisms, attackers continue to develop adaptive prompting strategies, and existing models remain vulnerable. This motivates approaches that examine the internal behavior of LLMs rather than relying solely on prompt-level defenses. In this work, we study jailbreaking from both security and interpretability perspectives by analyzing how internal representations differ between jailbreak and benign prompts. We conduct a systematic layer-wise analysis across multiple open-source models, including GPT-J, LLaMA, Mistral, and the state-space model Mamba, and identify consistent latent-space patterns associated with harmful inputs. We then propose a tensor-based latent representation framework that captures structure in hidden activations and enables lightweight jailbreak detection without model fine-tuning or auxiliary LLM-based detectors. We further demonstrate that the latent signals can be used to actively disrupt jailbreak execution at inference time. On an abliterated LLaMA-3.1-8B model, selectively bypassing high-susceptibility layers blocks 78% of jailbreak attempts while preserving benign behavior on 94% of benign prompts. This intervention operates entirely at inference time and introduces minimal overhead, providing a scalable foundation for achieving stronger coverage by incorporating additional attack distributions or more refined susceptibility thresholds. Our results provide evidence that jailbreak behavior is rooted in identifiable internal structures and suggest a complementary, architecture-agnostic direction for improving LLM security.",
+        "keywords": [
+          "cs.CR",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.11495v1",
+        "authors": [
+          "Sri Durga Sai Sowmya Kadali",
+          "Evangelos E. Papalexakis"
+        ],
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Large Language Models Jailbreaking",
+        "Detecting Jailbreak Attacks",
+        "Internal Representations",
+        "Jailbreaking Leaves",
+        "LLaMA-3.1",
+        "Framework",
+        "Act",
+        "LLM",
+        "GPT",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:15.397910",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [],
+        "classification_confidence": 0.85
+      },
+      "psst": {
+        "psst_score": 88.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 85.0,
+          "TC": 100,
+          "DC": 85,
+          "IC": 65
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Defensive innovation: jailbreak attempts leave detectable internal representation patterns, enabling real-time attack detection from model internals"
+    },
+    {
+      "id": "arxiv-2602.11632v1",
+      "title": "CL API: Real-Time Closed-Loop Interactions with Biological Neural Networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11632v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Biological neural networks (BNNs) are increasingly explored for their rich dynamics, parallelism, and adaptive behavior. Beyond understanding their function as a scientific endeavour, a key focus has been using these biological systems as a novel computing substrate. However, BNNs can only function as reliable information-processing systems if inputs are delivered in a temporally and structurally consistent manner. In practice, this requires stimulation with precisely controlled structure, microsecond-scale timing, multi-channel synchronization, and the ability to observe and respond to neural activity in real-time. Existing approaches to interacting with BNNs face a fundamental trade-off: they either depend on low-level hardware mechanisms, imposing prohibitive complexity for rapid iteration, or they sacrifice temporal and structural control, undermining consistency and reproducibility - particularly in closed-loop experiments. The Cortical Labs Application Programming Interface (CL API) enables real-time, sub-millisecond closed-loop interactions with BNNs. Taking a contract-based API design approach, the CL API provides users with precise stimulation semantics, transactional admission, deterministic ordering, and explicit synchronization guarantees. This contract is presented through a declarative Python interface, enabling non-expert programmers to express complex stimulation and closed-loop behavior without managing low-level scheduling or hardware details. Ultimately, the CL API provides an accessible and reproducible foundation for real-time experimentation with BNNs, supporting both fundamental biological research and emerging neurocomputing applications.",
+        "keywords": [
+          "q-bio.NC",
+          "cs.ET",
+          "cs.NE",
+          "eess.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.11632v1",
+        "authors": [
+          "David Hogan",
+          "Andrew Doherty",
+          "Boon Kien Khoo",
+          "Johnson Zhou",
+          "Richard Salib"
+        ],
+        "arxiv_categories": [
+          "q-bio.NC",
+          "cs.ET",
+          "cs.NE",
+          "eess.SY"
+        ],
+        "steeps_mapping": "s_spiritual"
+      },
+      "entities": [
+        "Biological Neural Networks Biological",
+        "Programming Interface",
+        "Loop Interactions",
+        "Neural Network",
+        "Time Closed",
+        "NIST",
+        "Labs",
+        "Act",
+        "API",
+        "AI",
+        "UN",
+        "EU"
+      ],
+      "preliminary_category": "s",
+      "collected_at": "2026-02-15T13:53:11.200762",
+      "classification": {
+        "primary_steeps": "s_spiritual",
+        "secondary_steeps": [],
+        "classification_confidence": 0.85
+      },
+      "psst": {
+        "psst_score": 87.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 85.0,
+          "TC": 100,
+          "DC": 85,
+          "IC": 60
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Bio-digital convergence: enables real-time bidirectional interaction with biological neural networks, bridging neuroscience and computational systems"
+    },
+    {
+      "id": "arxiv-2602.12274v1",
+      "title": "Function-Space Decoupled Diffusion for Forward and Inverse Modeling in Carbon Capture and Storage",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12274v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Accurate characterization of subsurface flow is critical for Carbon Capture and Storage (CCS) but remains challenged by the ill-posed nature of inverse problems with sparse observations. We present Fun-DDPS, a generative framework that combines function-space diffusion models with differentiable neural operator surrogates for both forward and inverse modeling. Our approach learns a prior distribution over geological parameters (geomodel) using a single-channel diffusion model, then leverages a Local Neural Operator (LNO) surrogate to provide physics-consistent guidance for cross-field conditioning on the dynamics field. This decoupling allows the diffusion prior to robustly recover missing information in parameter space, while the surrogate provides efficient gradient-based guidance for data assimilation. We demonstrate Fun-DDPS on synthetic CCS modeling datasets, achieving two key results: (1) For forward modeling with only 25% observations, Fun-DDPS achieves 7.7% relative error compared to 86.9% for standard surrogates (an 11x improvement), proving its capability to handle extreme data sparsity where deterministic methods fail. (2) We provide the first rigorous validation of diffusion-based inverse solvers against asymptotically exact Rejection Sampling (RS) posteriors. Both Fun-DDPS and the joint-state baseline (Fun-DPS) achieve Jensen-Shannon divergence less than 0.06 against the ground truth. Crucially, Fun-DDPS produces physically consistent realizations free from the high-frequency artifacts observed in joint-state baselines, achieving this with 4x improved sample efficiency compared to rejection sampling.",
+        "keywords": [
+          "cs.LG",
+          "physics.geo-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12274v1",
+        "authors": [
+          "Xin Ju",
+          "Jiachen Yao",
+          "Anima Anandkumar",
+          "Sally M. Benson",
+          "Gege Wen"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "physics.geo-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Space Decoupled Diffusion",
+        "Local Neural Operator",
+        "Rejection Sampling",
+        "Inverse Modeling",
+        "Storage Accurate",
+        "Carbon Capture",
+        "Framework",
+        "Standard",
+        "Both Fun",
+        "Fusion",
+        "NIST",
+        "DDPS",
+        "Act",
+        "LNO",
+        "CCS"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:07.012105",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [
+          "E_Environmental"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 87.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 60
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Climate tech: AI-driven subsurface flow characterization for CCS addresses key bottleneck in carbon sequestration deployment"
+    },
+    {
+      "id": "arxiv-2602.11528v1",
+      "title": "Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11528v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Recent studies have shown that large language models (LLMs) can infer private user attributes (e.g., age, location, gender) from user-generated text shared online, enabling rapid and large-scale privacy breaches. Existing anonymization-based defenses are coarse-grained, lacking word-level precision in anonymizing privacy-leaking elements. Moreover, they are inherently limited as altering user text to hide sensitive cues still allows attribute inference to occur through models' reasoning capabilities. To address these limitations, we propose a unified defense framework that combines fine-grained anonymization (TRACE) with inference-preventing optimization (RPS). TRACE leverages attention mechanisms and inference chain generation to identify and anonymize privacy-leaking textual elements, while RPS employs a lightweight two-stage optimization strategy to induce model rejection behaviors, thereby preventing attribute inference. Evaluations across diverse LLMs show that TRACE-RPS reduces attribute inference accuracy from around 50\\% to below 5\\% on open-source models. In addition, our approach offers strong cross-model generalization, prompt-variation robustness, and utility-privacy tradeoffs. Our code is available at https://github.com/Jasper-Yan/TRACE-RPS.",
+        "keywords": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.11528v1",
+        "authors": [
+          "Dong Yan",
+          "Jian Liang",
+          "Ran He",
+          "Tieniu Tan"
+        ],
+        "arxiv_categories": [
+          "cs.CR",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Proactive Defense Against Attribute",
+        "Inference Attack",
+        "Stop Tracking Me",
+        "Framework",
+        "TRACE",
+        "Act",
+        "RPS",
+        "MIT",
+        "LLM",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T13:53:15.396821",
+      "classification": {
+        "primary_steeps": "T_Technological",
+        "secondary_steeps": [],
+        "classification_confidence": 0.85
+      },
+      "psst": {
+        "psst_score": 86.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 85.0,
+          "TC": 100,
+          "DC": 85,
+          "IC": 65
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Privacy defense: LLMs can infer private attributes from text, and existing anonymization fails. New proactive defense approach for digital privacy"
+    },
+    {
+      "id": "arxiv-2602.12089v1",
+      "title": "Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12089v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that improve both individual and group outcomes. We present an online behavioral experiment (N = 243) in which participants play three multi-turn bargaining games in groups of three. Each game, presented in randomized order, grants \\textit{access to} a single LLM assistance modality: proactive recommendations from an \\textit{Advisor}, reactive feedback from a \\textit{Coach}, or autonomous execution by a \\textit{Delegate}; all modalities are powered by an underlying LLM that achieves superhuman performance in an all-agent environment. On each turn, participants privately decide whether to act manually or use the AI modality available in that game. Despite preferring the \\textit{Advisor} modality, participants achieve the highest mean individual gains with the \\textit{Delegate}, demonstrating a preference-performance misalignment. Moreover, delegation generates positive externalities; even non-adopting users in \\textit{access-to-delegate} treatment groups benefit by receiving higher-quality offers. Mechanism analysis reveals that the \\textit{Delegate} agent acts as a market maker, injecting rational, Pareto-improving proposals that restructure the trading environment. Our research reveals a gap between agent capabilities and realized group welfare. While autonomous agents can exhibit super-human strategic performance, their impact on realized welfare gains can be constrained by interfaces, user perceptions, and adoption barriers. Assistance modalities should be designed as mechanisms with endogenous participation; adoption-compatible interaction rules are a prerequisite to improving human welfare with automated assistance.",
+        "keywords": [
+          "cs.GT",
+          "cs.AI",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12089v1",
+        "authors": [
+          "Kehang Zhu",
+          "Lithium Thain",
+          "Vivian Tsai",
+          "James Wexler",
+          "Crystal Qian"
+        ],
+        "arxiv_categories": [
+          "cs.GT",
+          "cs.AI",
+          "cs.HC"
+        ],
+        "steeps_mapping": "E_Economic"
+      },
+      "entities": [
+        "Party Negotiation As",
+        "Choose Your Agent",
+        "Act",
+        "LLM",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T13:53:07.035097",
+      "classification": {
+        "primary_steeps": "E_Economic",
+        "secondary_steeps": [
+          "S_Social"
+        ],
+        "classification_confidence": 0.7
+      },
+      "psst": {
+        "psst_score": 86.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 70.0,
+          "TC": 100,
+          "DC": 90,
+          "IC": 65
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Human-AI decision architecture: empirically maps tradeoffs between AI advisory, coaching, and delegation roles in multi-party negotiations"
+    },
+    {
+      "id": "arxiv-2602.12066v1",
+      "title": "Chaos and Misallocation under Price Controls",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.12066v1",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Price controls kill the incentive for arbitrage. We prove a Chaos Theorem: under a binding price ceiling, suppliers are indifferent across destinations, so arbitrarily small cost differences can determine the entire allocation. The economy tips to corner outcomes in which some markets are fully served while others are starved; small parameter changes flip the identity of the corners, generating discontinuous welfare jumps. These corner allocations create a distinct source of cross-market misallocation, separate from the aggregate quantity loss (the Harberger triangle) and from within-market misallocation emphasized in prior work. They also create an identification problem: welfare depends on demand far from the observed equilibrium. We derive sharp bounds on misallocation that require no parametric assumptions. In an efficient allocation, shadow prices are equalized across markets; combined with the adding-up constraint, this collapses the infinite-dimensional welfare problem to a one-dimensional search over a common shadow price, with extremal losses achieved by piecewise-linear demand schedules. Calibrating the bounds to station-level AAA survey data from the 1973-74 U.S. gasoline crisis, misallocation losses range from roughly 1 to 9 times the Harberger triangle.",
+        "keywords": [
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.12066v1",
+        "authors": [
+          "Brian C. Albrecht",
+          "Alex Tabarrok",
+          "Mark Whitmeyer"
+        ],
+        "arxiv_categories": [
+          "econ.GN"
+        ],
+        "steeps_mapping": "E_Economic"
+      },
+      "entities": [
+        "Price Controls Price",
+        "EPA",
+        "AAA",
+        "AI",
+        "UN"
+      ],
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T13:54:14.139789",
+      "classification": {
+        "primary_steeps": "E_Economic",
+        "secondary_steeps": [],
+        "classification_confidence": 0.85
+      },
+      "psst": {
+        "psst_score": 85.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 60,
+          "CC": 85.0,
+          "TC": 100,
+          "DC": 85,
+          "IC": 50
+        },
+        "grade": "B"
+      },
+      "significance": 8,
+      "impact_analysis": "Economic theory: proves a Chaos Theorem showing price controls create extreme allocation sensitivity, with implications for AI-era economic governance"
+    }
+  ],
+  "all_ranked": [
+    {
+      "id": "arxiv-2602.12183v1",
+      "title": "Unknown Attack Detection in IoT Networks using Large Language Models: A Robust, Data-efficient Approach",
+      "psst": 84.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11469v1",
+      "title": "Structural control of two-level defect density revealed by high-throughput correlative measurements of Josephson junctio",
+      "psst": 84.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12249v1",
+      "title": "\"Sorry, I Didn't Catch That\": How Speech Models Miss What Matters Most",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12247v1",
+      "title": "ExtractBench: A Benchmark and Evaluation Methodology for Complex Structured Extraction",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12236v1",
+      "title": "Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12203v1",
+      "title": "ExStrucTiny: A Benchmark for Schema-Variable Structured Information Extraction from Document Images",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12196v1",
+      "title": "Visual Reasoning Benchmark: Evaluating Multimodal LLMs on Classroom-Authentic Visual Problems from Primary Education",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12147v1",
+      "title": "It's TIME: Towards the Next Generation of Time Series Forecasting Benchmarks",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12144v1",
+      "title": "On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12135v1",
+      "title": "WavBench: Benchmarking Reasoning, Colloquialism, and Paralinguistics for End-to-End Spoken Dialogue Models",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12038v1",
+      "title": "An Empirical Study of the Imbalance Issue in Software Vulnerability Detection",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11580v1",
+      "title": "Benchmarking for Single Feature Attribution with Microarchitecture Cliffs",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11750v1",
+      "title": "AmbiBench: Benchmarking Mobile GUI Agents Beyond One-Shot Instructions in the Wild",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11514v1",
+      "title": "How Smart Is Your GUI Agent? A Framework for the Future of Software Interaction",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11903v1",
+      "title": "Learning Perceptual Representations for Gaming NR-VQA with Multi-Task FR Signals",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11864v1",
+      "title": "Selecting Optimal Stellar Calibration Fields for the CSST Imaging Survey",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11895v1",
+      "title": "Benchmarking Classical and Quantum Optimization Approaches for Rider-Order Assignment",
+      "psst": 83.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12092v1",
+      "title": "DeepSight: An All-in-One LM Safety Toolkit",
+      "psst": 83.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11655v1",
+      "title": "LoRA-based Parameter-Efficient LLMs for Continuous Learning in Edge-based Malware Detection",
+      "psst": 83.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12192v1",
+      "title": "Query-focused and Memory-aware Reranker for Long Context Processing",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12150v1",
+      "title": "GPT-4o Lacks Core Features of Theory of Mind",
+      "psst": 91.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12134v1",
+      "title": "Value Alignment Tax: Measuring Value Trade-offs in LLM Alignment",
+      "psst": 89.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12129v1",
+      "title": "Towards Personalized Bangla Book Recommendation: A Large-Scale Multi-Entity Book Graph Dataset",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12049v1",
+      "title": "Improving HPC Code Generation Capability of LLMs via Online Reinforcement Learning with Real-Machine Benchmark Rewards",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12215v1",
+      "title": "LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12206v1",
+      "title": "Making the complete OpenAIRE citation graph easily accessible through compact data representation",
+      "psst": 83.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11941v1",
+      "title": "IncompeBench: A Permissively Licensed, Fine-Grained Benchmark for Music Information Retrieval",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11874v1",
+      "title": "Efficient Crawling for Scalable Web Data Acquisition (Extended Version)",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11664v1",
+      "title": "IntTravel: A Real-World Dataset and Generative Framework for Integrated Multi-Task Travel Recommendation",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11573v1",
+      "title": "Fast Tuning the Index Construction Parameters of Proximity Graphs in Vector Databases",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11962v1",
+      "title": "Wisdom of the LLM Crowd: A Large Scale Benchmark of Multi-Label U.S. Election-Related Harmful Social Media Content",
+      "psst": 83.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11689v1",
+      "title": "A Preliminary Assessment of Coding Agents for CFD Workflows",
+      "psst": 83.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11597v1",
+      "title": "Performance and pulse shape discrimination of glass scintillator SG101 for neutron detection",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11709v1",
+      "title": "Rust-accelerated powder X-ray diffraction simulation for high-throughput and machine-learning-driven materials science",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12088v1",
+      "title": "GAN-based data augmentation for rare and exotic hadron searches in Pb--Pb collisions in ALICE",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11912v1",
+      "title": "Millisecond-Scale Calibration and Benchmarking of Superconducting Qubits",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11618v1",
+      "title": "How Well Do Large-Scale Chemical Language Models Transfer to Downstream Tasks?",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11804v1",
+      "title": "Efficient Segment Anything with Depth-Aware Fusion and Limited Training Data",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11488v1",
+      "title": "When Audio-LLMs Don't Listen: A Cross-Linguistic Study of Modality Arbitration",
+      "psst": 83.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12281v1",
+      "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12267v1",
+      "title": "Self-Supervised Learning via Flow-Guided Neural Operator on Time-Series Data",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12221v1",
+      "title": "Best of Both Worlds: Multimodal Reasoning and Generation via Unified Discrete Flow Matching",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12177v1",
+      "title": "EO-VAE: Towards A Multi-sensor Tokenizer for Earth Observation Data",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12125v1",
+      "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12246v1",
+      "title": "6G Empowering Future Robotics: A Vision for Next-Generation Autonomous Systems",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12024v1",
+      "title": "Adaptive-Horizon Conflict-Based Search for Closed-Loop Multi-Agent Path Finding",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11764v1",
+      "title": "Reliable and Private Anonymous Routing for Satellite Constellations",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11513v1",
+      "title": "Differentially Private and Communication Efficient Large Language Model Split Inference via Stochastic Quantization and ",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11969v1",
+      "title": "UPDA: Unsupervised Progressive Domain Adaptation for No-Reference Point Cloud Quality Assessment",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11626v1",
+      "title": "ArGEnT: Arbitrary Geometry-encoded Transformer for Operator Learning",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12145v1",
+      "title": "Spin networks of quantum channels",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11627v1",
+      "title": "Krylov Subspace Dynamics as Near-Horizon AdS$_2$ Holography",
+      "psst": 82.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12137v1",
+      "title": "CitiLink-Minutes: A Multilayer Annotated Dataset of Municipal Meeting Minutes",
+      "psst": 82.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11936v1",
+      "title": "Probing Dynamical Dark Energy with Late-Time Data: Evidence, Tensions, and the Limits of the $w_0w_a$CDM Framework",
+      "psst": 82.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11842v1",
+      "title": "A day-ahead market model for power systems: benchmarking and security implications",
+      "psst": 82.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12279v1",
+      "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12276v1",
+      "title": "Agentic Test-Time Scaling for WebAgents",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12253v1",
+      "title": "Is Online Linear Optimization Sufficient for Strategic Robustness?",
+      "psst": 81.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12187v1",
+      "title": "SAGEO Arena: A Realistic Environment for Evaluating Search-Augmented Generative Engine Optimization",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12164v1",
+      "title": "Sci-CoE: Co-evolving Scientific Reasoning LLMs via Geometric Consensus with Sparse Supervision",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12153v1",
+      "title": "dVoting: Fast Voting for dLLMs",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12116v1",
+      "title": "P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12089v1",
+      "title": "Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation",
+      "psst": 86.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12059v1",
+      "title": "Evaluation of Security-Induced Latency on 5G RAN Interfaces and User Plane Communication",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12032v1",
+      "title": "When would Vision-Proprioception Policies Fail in Robotic Manipulation?",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11882v1",
+      "title": "Where Bits Matter in World Model Planning: A Paired Mixed-Bit Study for Efficient Spatial Reasoning",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11656v1",
+      "title": "SToRM: Supervised Token Reduction for Multi-modal LLMs toward efficient end-to-end autonomous driving",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11598v1",
+      "title": "ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11530v1",
+      "title": "PASCAL: A Phase-Aware Scheduling Algorithm for Serving Reasoning-based Large Language Models",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11481v1",
+      "title": "Compiler-Guided Inference-Time Adaptation: Improving GPT-5 Programming Performance in Idris",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11953v1",
+      "title": "History-Independent Load Balancing",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12064v1",
+      "title": "DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence Reasoning",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12041v1",
+      "title": "Compress, Cross and Scale: Multi-Level Compression Cross Networks for Efficient Scaling in Recommender Systems",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11857v1",
+      "title": "Scale-Invariant Fast Convergence in Games",
+      "psst": 81.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11684v1",
+      "title": "PatientHub: A Unified Framework for Patient Simulation",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11872v1",
+      "title": "A High-Performance Parallel Algorithm for Multi-Objective Integer Optimization",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12142v1",
+      "title": "Protocols for a many-body phase microscope: From coherences and d-wave superconductivity to Green's functions",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11739v1",
+      "title": "Experimental setup for the combined study of spin ensembles and superconducting quantum circuits",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11728v1",
+      "title": "Beyond One-Thousandth Energy Resolution with an AlMn TES Detector",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12050v1",
+      "title": "A Frequency-Optimized Optogenetic Study of Network-Level Potentiation in Cortical Cultures on Microelectrode Arrays",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11702v1",
+      "title": "A Hardware-Native Realisation of Semi-Empirical Electronic Structure Theory on Field-Programmable Gate Arrays",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11497v1",
+      "title": "End-to-End Differentiable Photon Counting CT",
+      "psst": 81.8,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12252v1",
+      "title": "The Dark Side of the Moon: Listening to Scalar-Induced Gravitational Waves",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11806v1",
+      "title": "GR from RG: Gravity Is Induced From Renormalization Group Flow In The Infrared",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11888v1",
+      "title": "Full Three-Loop Electroweak Multiplet Contributions to the Electron Electric Dipole Moment",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11879v1",
+      "title": "Heavy-to-light Structure Functions at $\\mathcal{O}(α_s^3)$ in QCD",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12040v1",
+      "title": "Exploiting Structural Flexibility in SIM-Enabled Communications: From Adaptive Inter-Layer Spacing to Fully Morphable La",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11477v1",
+      "title": "SLD-L2S: Hierarchical Subspace Latent Diffusion for High-Fidelity Lip to Speech Synthesis",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11461v1",
+      "title": "EM-Aware Physical Synthesis: Neural Inductor Modeling and Intelligent Placement & Routing for RF Circuits",
+      "psst": 81.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12207v1",
+      "title": "VIRENA: Virtual Arena for Research, Education, and Democratic Innovation",
+      "psst": 81.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12205v1",
+      "title": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12143v1",
+      "title": "STAR : Bridging Statistical and Agentic Reasoning for Large Model Performance Prediction",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12113v1",
+      "title": "Stop Unnecessary Reflection: Training LRMs for Efficient Reasoning with Adaptive Reflection and Length Coordinated Penal",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12112v1",
+      "title": "Few-Shot Design Optimization by Exploiting Auxiliary Information",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12083v1",
+      "title": "Differentiable Modal Logic for Multi-Agent Diagnosis, Orchestration and Communication",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12082v1",
+      "title": "Empirical Gaussian Processes",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12078v1",
+      "title": "Tiny Recursive Reasoning with Mamba-2 Attention Hybrid",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12244v1",
+      "title": "Any House Any Task: Scalable Long-Horizon Planning for Abstract Human Tasks",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11929v1",
+      "title": "General Humanoid Whole-Body Control via Pretraining and Fast Adaptation",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11832v1",
+      "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11614v1",
+      "title": "Device-Circuit Co-Design of Variation-Resilient Read and Write Drivers for Antiferromagnetic Tunnel Junction (AFMTJ) Mem",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11585v1",
+      "title": "C-POD: An AWS Cloud Framework for Edge Pod Automation and Remote Wireless Testbed Sharing",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12106v1",
+      "title": "MedExChain: Enabling Secure and Efffcient PHR Sharing Across Heterogeneous Blockchains",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12079v1",
+      "title": "Performance Antipatterns: Angel or Devil for Power Consumption?",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11988v1",
+      "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11911v1",
+      "title": "Improving Code Generation via Small Language Model-as-a-judge",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11897v1",
+      "title": "Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11692v1",
+      "title": "Beyond Code: Empirical Insights into How Team Dynamics Influence OSS Project Selection",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11671v1",
+      "title": "Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11843v1",
+      "title": "Fast Evaluation of Truncated Neumann Series by Low-Product Radix Kernels",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12242v1",
+      "title": "MagneX: A High-Performance, GPU-Enabled, Data-Driven Micromagnetics Solver for Spintronics",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12182v1",
+      "title": "Rate-Reliability Tradeoff for Deterministic Identification over Gaussian Channels",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11986v1",
+      "title": "Achievability Bounds of Coding with Finite Blocklength for Gaussian Broadcast Channels",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11910v1",
+      "title": "TADA! Tuning Audio Diffusion Models through Activation Steering",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11901v1",
+      "title": "On Fundamental Limits of Transmission Activity Detection in Fluid Antenna Systems",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12118v1",
+      "title": "Anonymous Contracts",
+      "psst": 81.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11944v1",
+      "title": "Using predictive multiplicity to measure individual performance within the AI Act",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11691v1",
+      "title": "Searching for Optimal Prices in Two-Sided Markets",
+      "psst": 81.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11486v1",
+      "title": "Dueling over Multiple Pieces of Dessert",
+      "psst": 81.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12234v1",
+      "title": "Batch-based Bayesian Optimal Experimental Design in Linear Inverse Problems",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12027v1",
+      "title": "General-purpose post-sampling reweighting method for multimodal target measures",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11948v1",
+      "title": "Insights on Muon from Simple Quadratics",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11921v1",
+      "title": "Relationship Between Controllability Scoring and Optimal Experimental Design",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12161v1",
+      "title": "Coherent Perfect Tunneling at Exceptional Points via Directional Degeneracy",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12111v1",
+      "title": "Variable dose slicer for refractive index engineering in two-photon polymerization",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11952v1",
+      "title": "Intrabeam Scattering",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11695v1",
+      "title": "Experimental challenges and prospects for quantum-enhanced energy conversion: Stationary Fano coherence in V-type qutrit",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11563v1",
+      "title": "Nonlinear optical spectra from Rydberg-mediated photon-photon interactions",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11526v1",
+      "title": "Nonmonotonic Magnetic Friction from Collective Rotor Dynamics",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12060v1",
+      "title": "The Outflow of the B335 Protostar II: After the Outburst",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12011v1",
+      "title": "pespace: A new tool of GPU-accelerated and auto-differentiable response generation and likelihood evaluation for space-b",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11644v1",
+      "title": "A Multiwavelength Evaluation of AGN in the Post-Starburst Phase",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11620v1",
+      "title": "Design and characterization of W-band and D-band calibration sources for the AliCPT-1 experiment",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12248v1",
+      "title": "Simultaneous High-Fidelity Readout and Strong Coupling for a Donor-Based Spin Qubit",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12020v1",
+      "title": "Topological chiral random walker",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11979v1",
+      "title": "RING: Rabi oscillations induced by nonresonant geometric drive",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11963v1",
+      "title": "Melting of quantum Hall Wigner and bubble crystals",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11916v1",
+      "title": "Microscopic field theory for active Brownian particles with translational and rotational inertia",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11894v1",
+      "title": "Emergence of charge and spin current in non-Hermitian quantum ring",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11634v1",
+      "title": "Spin-Chain Incipient Magnetocaloric Effect and Rare-Earth Controlled Switching in the Haldane-Chain System, R2BaNiO5",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11996v1",
+      "title": "Medium effects on light clusters from heavy-ion collisions within a relativistic mean-field description",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11811v1",
+      "title": "On the numerical evaluation of the `exact' Post-Newtonian parameters in Brans-Dicke and Entangled Relativity theories",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11833v1",
+      "title": "Operational limits to entanglement-based satellite quantum key distribution",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11797v1",
+      "title": "Learning functions of quantum states with distributed architectures",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11576v1",
+      "title": "Control the qubit-qubit coupling with double superconducting resonators",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11831v1",
+      "title": "A weighted approach to identifying key team contributors: Individual productivity in professional road cycling",
+      "psst": 81.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12072v1",
+      "title": "Enhanced Forest Inventories for Habitat Mapping: A Case Study in the Sierra Nevada Mountains of California",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11747v1",
+      "title": "High-Probability Minimax Adaptive Estimation in Besov Spaces via Online-to-Batch",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11511v1",
+      "title": "Representation Learning with Blockwise Missingness and Signal Heterogeneity",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11950v1",
+      "title": "Radio Map Prediction from Noisy Environment Information and Sparse Observations",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11670v1",
+      "title": "Exploring Frequency-Domain Feature Modeling for HRTF Magnitude Upsampling",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11473v1",
+      "title": "Radar Sensing using Dual-Beam Reconfigurable Intelligent Surface",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11463v1",
+      "title": "Estimation of Electrical Characteristics of Complex Walls Using Deep Neural Networks",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11823v1",
+      "title": "Intrinsic speed characteristics of a self-propelled camphor disk under repulsive perturbations",
+      "psst": 81.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12275v1",
+      "title": "On-Policy Context Distillation for Language Models",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12218v1",
+      "title": "The Observer Effect in World Models: Invasive Adaptation Corrupts Latent Physics",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12204v1",
+      "title": "Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12162v1",
+      "title": "Amortized Molecular Optimization via Group Relative Policy Optimization",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12039v1",
+      "title": "The Implicit Bias of Logit Regularization",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12063v1",
+      "title": "VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11966v1",
+      "title": "MING: An Automated CNN-to-Edge MLIR HLS framework",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11934v1",
+      "title": "Robot-DIFT: Distilling Diffusion Features for Geometrically Consistent Visuomotor Control",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11904v1",
+      "title": "Leveraging LLMs to support co-evolution between definitions and instances of textual DSLs: A Systematic Evaluation",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11775v1",
+      "title": "V-SHiNE: A Virtual Smart Home Framework for Explainability Evaluation",
+      "psst": 80.2,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11746v1",
+      "title": "Leveraging Language Models to Discover Evidence-Based Actions for OSS Sustainability",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11970v1",
+      "title": "Tuning Optical Properties of FTO via Carbonaceous Al2O3 Microdot Deposition by DC plasma sputtering",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11682v1",
+      "title": "Synthetic Gauge Phase in Rydberg Electromagnetically Induced Transparency",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12184v1",
+      "title": "One-, two-, and three-dimensional photon femtoscopy",
+      "psst": 80.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11992v1",
+      "title": "Labor Supply under Temporary Wage Increases: Evidence from a Randomized Field Experiment",
+      "psst": 80.2,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11687v1",
+      "title": "Exact Value Solution to the Equity Premium Puzzle",
+      "psst": 80.2,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12241v1",
+      "title": "Moonshine v2: Ergodic Streaming Encoder ASR for Latency-Critical Speech Applications",
+      "psst": 80.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12047v1",
+      "title": "Safety Beyond the Training Data: Robust Out-of-Distribution MPC via Conformalized System Level Synthesis",
+      "psst": 80.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11729v1",
+      "title": "Cross-Architecture Model Diffing with Crosscoders: Unsupervised Discovery of Differences Between LLMs",
+      "psst": 80.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11528v1",
+      "title": "Stop Tracking Me! Proactive Defense Against Attribute Inference Attack in LLMs",
+      "psst": 86.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11495v1",
+      "title": "Jailbreaking Leaves a Trace: Understanding and Detecting Jailbreak Attacks from Internal Representations of Large Langua",
+      "psst": 88.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11503v1",
+      "title": "Generalized entropic uncertainty relation and non-classicality in Schwarzschild black hole",
+      "psst": 79.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12280v1",
+      "title": "Stroke of Surprise: Progressive Semantic Illusions in Vector Sketching",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12273v1",
+      "title": "Learning to Control: The iUzawa-Net for Nonsmooth Optimal Control of Linear PDEs",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12250v1",
+      "title": "Community Concealment from Unsupervised Graph Learning-Based Clustering",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12237v1",
+      "title": "Olmix: A Framework for Data Mixing Throughout LM Development",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12222v1",
+      "title": "Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12189v1",
+      "title": "WaveFormer: Wavelet Embedding Transformer for Biomedical Signals",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12172v1",
+      "title": "Pedagogically-Inspired Data Synthesis for Language Model Knowledge Distillation",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12158v1",
+      "title": "SafeNeuron: Neuron-Level Safety Alignment for Large Language Models",
+      "psst": 90.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12146v1",
+      "title": "Seq2Seq2Seq: Lossless Data Compression via Discrete Latent Transformers and Reinforcement Learning",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12074v1",
+      "title": "RF-Modulated Adaptive Communication Improves Multi-Agent Robotic Exploration",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11890v1",
+      "title": "Data-Driven Trajectory Imputation for Vessel Mobility Analysis",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11706v1",
+      "title": "LLM-Driven 3D Scene Generation of Agricultural Simulation Environments",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11688v1",
+      "title": "GORGO: Maximizing KV-Cache Reuse While Minimizing Network Latency in Cross-Region LLM Load Balancing",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11643v1",
+      "title": "ViTaS: Visual Tactile Soft Fusion Contrastive Learning for Visuomotor Learning",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11632v1",
+      "title": "CL API: Real-Time Closed-Loop Interactions with Biological Neural Networks",
+      "psst": 87.5,
+      "steeps": "s_spiritual"
+    },
+    {
+      "id": "arxiv-2602.12209v1",
+      "title": "Keeping a Secret Requires a Good Memory: Space Lower-Bounds for Private Algorithms",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11851v1",
+      "title": "Resource-Aware Deployment Optimization for Collaborative Intrusion Detection in Layered Networks",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12220v1",
+      "title": "Taming Subpacketization without Sacrificing Communication: A Packet Type-based Framework for D2D Coded Caching",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11719v1",
+      "title": "Uncertainty-aware Generative Recommendation",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11693v1",
+      "title": "OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatars",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11638v1",
+      "title": "Variation-aware Flexible 3D Gaussian Editing",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11977v1",
+      "title": "Multi-Defender Single-Attacker Perimeter Defense Game on a Cylinder: Special Case in which the Attacker Starts at the Bo",
+      "psst": 78.5,
+      "steeps": "P_Political"
+    },
+    {
+      "id": "arxiv-2602.11855v1",
+      "title": "Decision Support System for Technology Opportunity Discovery: An Application of the Schwartz Theory of Basic Values",
+      "psst": 78.5,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11835v1",
+      "title": "Global Convergence to Nash Equilibrium in Nonconvex General-Sum Games under the $n$-Sided PL Condition",
+      "psst": 78.5,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11822v1",
+      "title": "Non-Trivial Consensus on Directed Matrix-Weighted Networks with Cooperative and Antagonistic Interactions",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12230v1",
+      "title": "First variation of flat traces on negatively curved surfaces",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12006v1",
+      "title": "A Novel Approach to Peng's Maximum Principle for McKean-Vlasov Stochastic Differential Equations",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12255v1",
+      "title": "Vision Transformer for Multi-Domain Phase Retrieval in Coherent Diffraction Imaging",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12109v1",
+      "title": "A critical assessment of bonding descriptors for predicting materials properties",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11593v1",
+      "title": "Quantum Spin-1/2 Rings Built from [2]Triangulene Molecular Units",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11760v1",
+      "title": "Aggregate Models, Not Explanations: Improving Feature Importance Estimation",
+      "psst": 78.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12278v1",
+      "title": "AttentionRetriever: Attention Layers are Secretly Long Document Retrievers",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12271v1",
+      "title": "MonarchRT: Efficient Attention for Real-Time Video Generation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12259v1",
+      "title": "Think like a Scientist: Physics-guided LLM Agent for Equation Discovery",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12257v1",
+      "title": "On the implicit regularization of Langevin dynamics with projected noise",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12251v1",
+      "title": "A technical curriculum on language-oriented artificial intelligence in translation and specialised communication",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12224v1",
+      "title": "Bandit Learning in Matching Markets with Interviews",
+      "psst": 77.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12181v1",
+      "title": "Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria",
+      "psst": 77.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12160v1",
+      "title": "DreamID-Omni: Unified Framework for Controllable Human-Centric Audio-Video Generation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12139v1",
+      "title": "Oscillators Are All You Need: Irregular Time Series Modelling via Damped Harmonic Oscillators with Closed-Form Solutions",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12128v1",
+      "title": "HLA: Hadamard Linear Attention",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12108v1",
+      "title": "The Pensieve Paradigm: Stateful Language Models Mastering Their Own Context",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12107v1",
+      "title": "On the Complexity of Offline Reinforcement Learning with $Q^\\star$-Approximation and Partial Coverage",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12105v1",
+      "title": "Iskra: A System for Inverse Geometry Processing",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12100v1",
+      "title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12096v1",
+      "title": "Multi Graph Search for High-Dimensional Robot Motion Planning",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12087v1",
+      "title": "Geometry of Uncertainty: Learning Metric Spaces for Multimodal State Estimation in RL",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12058v1",
+      "title": "ModelWisdom: An Integrated Toolkit for TLA+ Model Visualization, Digest and Repair",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12055v1",
+      "title": "Multi UAVs Preflight Planning in a Shared and Dynamic Airspace",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12045v1",
+      "title": "Fourier Transformers for Latent Crystallographic Diffusion and Generative Modeling",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12044v1",
+      "title": "A DMD-Based Adaptive Modulation Method for High Dynamic Range Imaging in High-Glare Environments",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12260v1",
+      "title": "Legitimate Overrides in Decentralized Protocols",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12062v1",
+      "title": "HoloBrain-0 Technical Report",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11978v1",
+      "title": "Accelerating Robotic Reinforcement Learning with Agent Guidance",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11875v1",
+      "title": "DiffPlace: Street View Generation via Place-Controllable Diffusion Model Enhancing Place Recognition",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11862v1",
+      "title": "LAMP: Implicit Language Map for Robot Navigation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11798v1",
+      "title": "Real-World Asset Integration in Next-Generation Communication Networks: Fundamental, Framework, and Case Study",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11740v1",
+      "title": "Counterfactual Conditional Likelihood Rewards for Multiagent Exploration",
+      "psst": 77.8,
+      "steeps": "P_Political"
+    },
+    {
+      "id": "arxiv-2602.11686v1",
+      "title": "LAER-MoE: Load-Adaptive Expert Re-layout for Efficient Mixture-of-Experts Training",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11660v1",
+      "title": "Clutt3R-Seg: Sparse-view 3D Instance Segmentation for Language-grounded Grasping in Cluttered Scenes",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11575v1",
+      "title": "ReaDy-Go: Real-to-Sim Dynamic 3D Gaussian Splatting Simulation for Environment-Specific Visual Navigation with Moving Ob",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11554v1",
+      "title": "HyperDet: 3D Object Detection with Hyper 4D Radar Point Clouds",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11544v1",
+      "title": "Differentially Private Perturbed Push-Sum Protocol and Its Application in Non-Convex Optimization",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12194v1",
+      "title": "MalTool: Malicious Tool Attacks on LLM Agents",
+      "psst": 89.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12054v1",
+      "title": "Unravelling Abstract Cyclic Proofs into Proofs by Induction",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11954v1",
+      "title": "PAC to the Future: Zero-Knowledge Proofs of PAC Private Systems",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11887v1",
+      "title": "Verifiable Provenance of Software Artifacts with Zero-Knowledge Compilation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11793v1",
+      "title": "More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11606v1",
+      "title": "QDBFT: A Dynamic Consensus Algorithm for Quantum-Secured Blockchain",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12178v1",
+      "title": "Systematic Analysis of Penalty-Optimised Illumination Design for Tomographic Volumetric Additive Manufacturing via the E",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12028v1",
+      "title": "An Improved FPT Algorithm for Computing the Interleaving Distance between Merge Trees via Path-Preserving Maps",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11975v1",
+      "title": "Beyond Bilinear Complexity: What Works and What Breaks with Many Modes?",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11791v1",
+      "title": "Gray Codes With Constant Delay and Constant Auxiliary Space",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11951v1",
+      "title": "Robust Composite DNA Storage under Sampling Randomness, Substitution, and Insertion-Deletion Errors",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11909v1",
+      "title": "Echo: Towards Advanced Audio Comprehension via Audio-Interleaved Reasoning",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11841v1",
+      "title": "Improving Neural Retrieval with Attribution-Guided Query Rewriting",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11836v1",
+      "title": "ULTRA:Urdu Language Transformer-based Recommendation Architecture",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11712v1",
+      "title": "Potential-energy gating for robust state estimation in bistable stochastic systems",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11680v1",
+      "title": "EpicCBR: Item-Relation-Enhanced Dual-Scenario Contrastive Learning for Cold-Start Bundle Recommendation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11622v1",
+      "title": "Evolutionary Router Feature Generation for Zero-Shot Graph Anomaly Detection with Mixture-of-Experts",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11605v1",
+      "title": "Recurrent Preference Memory for Efficient Long-Sequence Generative Recommendation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11581v1",
+      "title": "Analytical Search",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12243v1",
+      "title": "Federated Gaussian Process Learning via Pseudo-Representations for Large-Scale Multi-Robot Systems",
+      "psst": 77.8,
+      "steeps": "P_Political"
+    },
+    {
+      "id": "arxiv-2602.12018v1",
+      "title": "Artificial intelligence is creating a new global linguistic hierarchy",
+      "psst": 91.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11967v1",
+      "title": "Pareto-Efficient Multi-Buyer Mechanisms: Characterization, Fairness and Welfare",
+      "psst": 77.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11924v1",
+      "title": "Who Does What? Archetypes of Roles Assigned to LLMs During Human-AI Decision-Making",
+      "psst": 77.8,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11829v1",
+      "title": "Towards Sustainable Investment Policies Informed by Opponent Shaping",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11753v1",
+      "title": "Building Intelligent User Interfaces for Human-AI Alignment",
+      "psst": 77.8,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11522v1",
+      "title": "Implications of AI Involvement for Trust in Expert Advisory Workflows Under Epistemic Dependence",
+      "psst": 77.8,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11483v1",
+      "title": "Understanding Persuasive Interactions between Generative Social Agents and Humans: The Knowledge-based Persuasion Model ",
+      "psst": 77.8,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12214v1",
+      "title": "The colored knapsack problem: structural properties and exact algorithms",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12211v1",
+      "title": "On real algebraic realization of round fold maps of codimension $-1$",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12166v1",
+      "title": "Twisted Pollicott--Ruelle resonances and zeta function at zero on surfaces",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12122v1",
+      "title": "The initial-to-final-state inverse problem with critically-singular potentials",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12104v1",
+      "title": "Liquidation Dynamics in DeFi and the Role of Transaction Fees",
+      "psst": 77.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11976v1",
+      "title": "Lambda admissible subspaces of self adjoint matrices",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11972v1",
+      "title": "Splitting Schemes for ODEs with Goal-Oriented Error Estimation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11905v1",
+      "title": "Strong convergence of random representations of free products of finite groups",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11889v1",
+      "title": "Global Multiplicity and Comparison Principles for Singular Problems driven by Mixed Local-Nonlocal Operators",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11870v1",
+      "title": "Avoiding stabilization terms in virtual elements for eigenvalue problems: The Reduced Basis Virtual Element Method",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12085v1",
+      "title": "Refined half-integer condition on RG flows",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12034v1",
+      "title": "Anomaly Reparametrization of the Ligon--Schaaf Regularization in the Kepler problem",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11943v1",
+      "title": "The Cylinder Simplicial DG Ring",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12075v1",
+      "title": "Efficient parallel finite-element methods for planetary gravitation: DtN and multipole expansions",
+      "psst": 77.8,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.12225v1",
+      "title": "Second excited state of ${}^4\\mathrm{He}$ tetramer",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12179v1",
+      "title": "Theoretical description of a photonic topological insulator based on a cubic lattice of bianisotropic resonators",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12090v1",
+      "title": "Unconditional full vector magnetometry using spin selectivity in Nitrogen Vacancy centers in diamond",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11868v1",
+      "title": "Conditions for resonant optical tunnelling in three-layer photonic microsystems",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11752v1",
+      "title": "Broadband Tunable Photon-Pair Generation and Spectrum Measurement Based on Noncritical Lithium Niobate Crystals",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11613v1",
+      "title": "Dynamic Dispersion Accumulation in Fiber Loops for Realizing Record-High Frequency Resolution or Ultra-Low Signal Sampli",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11535v1",
+      "title": "Switchable high-Q light absorbers based on phase-change resonant metasurfaces",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11873v1",
+      "title": "Temporally resolved aortic 3D shape reconstruction from a limited number of cine 2D MRI slices",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11813v1",
+      "title": "Early stages of collective cell invasion: Biomechanics",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11701v1",
+      "title": "BSoNet: Deep Learning Solution for Optimizing Image Quality of Portable Backscatter Imaging Systems",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11601v1",
+      "title": "Collaboration drives phase transitions towards cooperation in prisoner's dilemma",
+      "psst": 77.8,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12282v1",
+      "title": "Ubiquitous yet forgotten: broad absorptions in the optical spectra of low-mass X-ray binaries",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12277v1",
+      "title": "Reionization Bubbles from Real-Space Cross Correlations of Line Intensity Maps",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12115v1",
+      "title": "Search for Sub-Solar Mass Binaries in the First Part of LIGO's Fourth Observing Run",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12077v1",
+      "title": "Cosmographic Connection Between Cosmological And Planck Scales: The Barrow-Tsallis Entropy",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12017v1",
+      "title": "Velocities of Free Floaters in a Sea of Stars",
+      "psst": 77.8,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11994v1",
+      "title": "Surface brightness-colour relations of Milky Way and Magellanic Clouds classical Cepheids based on Gaia magnitudes",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11681v1",
+      "title": "The faint end of the UV luminosity function at $0.4 < z < 0.7$ from the Hubble Frontier Fields",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11652v1",
+      "title": "Numerical simulation of the stochastic formalism including non-Markovianity",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11600v1",
+      "title": "An optical transient candidate of $\\lesssim$ 2-second duration captured by wide-field video observations",
+      "psst": 77.8,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.12228v1",
+      "title": "Non-Abelian Quantum Low-Density Parity Check Codes and Non-Clifford Operations from Gauging Logical Gates via Measuremen",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12223v1",
+      "title": "Kagome edge states under lattice termination, spin-orbit coupling, and magnetic order",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12212v1",
+      "title": "Quantum-Coherent Thermodynamics: Leaf Typicality via Minimum-Variance Foliation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12185v1",
+      "title": "Charged moments and symmetry-resolved entanglement from Ballistic Fluctuation Theory",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12141v1",
+      "title": "Elastoresistance as probe of strain-controlled entropy from Kondo scattering",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12068v1",
+      "title": "Stacking theory for bilayer two-dimensional magnets",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12053v1",
+      "title": "Remarks on non-invertible symmetries on a tensor product Hilbert space in 1+1 dimensions",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12000v1",
+      "title": "Two-point functions in boundary loop models",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11935v1",
+      "title": "Proposal for realizing unpaired Weyl points in a three-dimensional periodically driven optical Raman lattice",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11932v1",
+      "title": "Emergence of a Helical Metal in Rippled Ultrathin Topological Insulator Sb\\textsubscript{2}Te\\textsubscript{3} on Graphe",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11781v1",
+      "title": "Stacking-dependent magnetic ordering in bilayer ScI$_{2}$",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11768v1",
+      "title": "What is a Fluctuation Theorem?",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11696v1",
+      "title": "Symmetry Spans and Enforced Gaplessness",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12101v1",
+      "title": "Black Holes Trapped by Ghosts",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12094v1",
+      "title": "Elliptic flow of strange and multi-strange hadrons in isobar collisions at $\\sqrt{s_{\\mathrm {NN}}} = 200\\mathrm{~GeV}$ ",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11974v1",
+      "title": "Measurement of the singly Cabibbo-suppressed decay $Λ_c^+\\to pη'$ with Deep Learning",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11815v1",
+      "title": "Two-Pion Exchange Contributions to the Nucleon-Nucleon Interaction from the Roper Resonance",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11839v1",
+      "title": "Single-shot GHZ characterization with connectivity-aware fanout constructions",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12114v1",
+      "title": "Matrix bordering structure of the Faddeev-Jackiw algorithm: Schur complement regularization and symbolic automation",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11787v1",
+      "title": "On the interaction between a rigid-body and a viscous-fluid: existence of a weak solution and a suitable Théorème de Str",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12043v1",
+      "title": "Improved Inference for CSDID Using the Cluster Jackknife",
+      "psst": 77.8,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11711v1",
+      "title": "Estimation of instrument and noise parameters for inverse problem based on prior diffusion model",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11679v1",
+      "title": "Provable Offline Reinforcement Learning for Structured Cyclic MDPs",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11520v1",
+      "title": "Locally Interpretable Individualized Treatment Rules for Black-Box Decision Models",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11956v1",
+      "title": "TAVAE: A VAE with Adaptable Priors Explains Contextual Modulation in the Visual Cortex",
+      "psst": 77.8,
+      "steeps": "s_spiritual"
+    },
+    {
+      "id": "arxiv-2602.11609v1",
+      "title": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12198v1",
+      "title": "Continuous and Discrete-Time Filters: A Unified Operational Perspective",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11547v1",
+      "title": "H.265/HEVC Video Steganalysis Based on CU Block Structure Gradients and IPM Mapping",
+      "psst": 77.8,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12274v1",
+      "title": "Function-Space Decoupled Diffusion for Forward and Inverse Modeling in Carbon Capture and Storage",
+      "psst": 87.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12270v1",
+      "title": "Creative Ownership in the Age of AI",
+      "psst": 90.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12268v1",
+      "title": "CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12262v1",
+      "title": "T3D: Few-Step Diffusion Language Models via Trajectory Self-Distillation with Direct Discriminative Optimization",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12235v1",
+      "title": "Detecting Overflow in Compressed Token Representations for Retrieval-Augmented Generation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12229v1",
+      "title": "Diffusion Alignment Beyond KL: Variance Minimisation as Effective Policy Optimiser",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12180v1",
+      "title": "How Sampling Shapes LLM Alignment: From One-Shot Optima to Iterative Dynamics",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12173v1",
+      "title": "SAM3-LiteText: An Anatomical Study of the SAM3 Text Encoder for Efficient Vision-Language Segmentation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12170v1",
+      "title": "Statistical Parsing for Logical Information Retrieval",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12159v1",
+      "title": "3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12157v1",
+      "title": "TexSpot: 3D Texture Enhancement with Spatially-uniform Point Latent Representation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12133v1",
+      "title": "Neutral Prompts, Non-Neutral People: Quantifying Gender and Skin-Tone Bias in Gemini Flash 2.5 Image and GPT Image 1.5",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12132v1",
+      "title": "A Rule-based Computational Model for Gaidhlig Morphology",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12127v1",
+      "title": "PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12124v1",
+      "title": "Capability-Oriented Training Induced Alignment Risk",
+      "psst": 92.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12123v1",
+      "title": "Meta-Sel: Efficient Demonstration Selection for In-Context Learning via Supervised Meta-Learning",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12120v1",
+      "title": "Commencing-Student Enrolment Forecasting Under Data Sparsity with Time Series Foundation Models",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12117v1",
+      "title": "KAN-FIF: Spline-Parameterized Lightweight Physics-based Tropical Cyclone Estimation on Meteorological Satellite",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12099v1",
+      "title": "GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement Learning",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12036v1",
+      "title": "Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12029v1",
+      "title": "PrefillShare: A Shared Prefill Module for KV Reuse in Multi-LLM Disaggregated Serving",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12026v1",
+      "title": "Protein Circuit Tracing via Cross-layer Transcoders",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12264v1",
+      "title": "Transmit or Idle: Efficient AoI Optimal Transmission Policy for Gossiping Receivers",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12199v1",
+      "title": "Sub--Riemannian boundary value problems for Optimal Geometric Locomotion",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12151v1",
+      "title": "OServe: Accelerating LLM Serving via Spatial-Temporal Workload Orchestration",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12095v1",
+      "title": "Pack it in: Packing into Partially Filled Containers Through Contact",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12070v1",
+      "title": "Contention Resolution, With and Without a Global Clock",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12065v1",
+      "title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12012v1",
+      "title": "Decentralized Multi-Robot Obstacle Detection and Tracking in a Maritime Scenario",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11776v1",
+      "title": "MUSE: Multi-Tenant Model Serving With Seamless Model Updates",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11758v1",
+      "title": "HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11741v1",
+      "title": "Designing Scalable Rate Limiting Systems: Algorithms, Architecture, and Distributed Solutions",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11735v1",
+      "title": "AC-MASAC: An Attentive Curriculum Learning Framework for Heterogeneous UAV Swarm Coordination",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11714v1",
+      "title": "GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11710v1",
+      "title": "Mapping the Landscape of Affective Extended Reality: A Scoping Review of Biodata-Driven Systems for Understanding and Sh",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12084v1",
+      "title": "Computing Distinguishing Formulae for Threshold-Based Behavioural Distances",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11949v1",
+      "title": "Designing and Comparing RPQ Semantics",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11925v1",
+      "title": "Studying Quality Improvements Recommended via Manual and Automated Code Review",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11907v1",
+      "title": "A Unified Treatment of Substitution for Presheaves, Nominal Sets, Renaming Sets, and so on",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11782v1",
+      "title": "FlowMind: Execute-Summarize for Structured Workflow Generation from LLM Reasoning",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11724v1",
+      "title": "WebTestPilot: Agentic End-to-End Web Testing against Natural Language Specification by Inferring Oracles with Symbolized",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11487v1",
+      "title": "Search-Based Quantum Program Testing via Commuting Pauli String",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11472v1",
+      "title": "Future Mining: Learning for Safety and Security",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12126v1",
+      "title": "Optimizing Distances for Multi-Broadcast in Temporal Graphs",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11826v1",
+      "title": "Combinatorial Perpetual Scheduling",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11796v1",
+      "title": "Frankl's diversity theorem for permutations",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11716v1",
+      "title": "Cycles of Well-Linked Sets II: an Elementary Bound for the Directed Grid Theorem",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11454v1",
+      "title": "Adaptive Power Iteration Method for Differentially Private PCA",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11896v1",
+      "title": "Musical Metamerism with Time--Frequency Scattering",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11846v1",
+      "title": "Universal Sequential Changepoint Detection of Quantum Observables via Classical Shadows",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11814v1",
+      "title": "A Comparative Study of MAP and LMMSE Estimators for Blind Inverse Problems",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11788v1",
+      "title": "The Arithmetic Singleton Bound on the Hamming Distances of Simple-rooted Constacyclic Codes over Finite Fields",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11756v1",
+      "title": "Towards a theory of Façade-X data access: satisfiability of SPARQL basic graph patterns",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11578v1",
+      "title": "Quantum-Enhanced Temporal Embeddings via a Hybrid Seq2Seq Architecture",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11577v1",
+      "title": "LeafFit: Plant Assets Creation from 3D Gaussian Splatting",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11568v1",
+      "title": "Non-signaling Assisted Capacity of a Classical Channel with Causal CSIT",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12231v1",
+      "title": "Adjusted Winner: from Splitting to Selling",
+      "psst": 77.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12136v1",
+      "title": "Embodied AI Agents for Team Collaboration in Co-located Blue-Collar Work",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12102v1",
+      "title": "DEpiABS: Differentiable Epidemic Agent-Based Simulator",
+      "psst": 77.0,
+      "steeps": "P_Political"
+    },
+    {
+      "id": "arxiv-2602.11914v1",
+      "title": "Incentive Effects of a Cut-Off Score: Optimal Contest Design with Transparent Pre-Selection",
+      "psst": 77.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11772v1",
+      "title": "Optimizing edge weights in the inverse eigenvector centrality problem",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11754v1",
+      "title": "Cooperation Breakdown in LLM Agents Under Communication Delays",
+      "psst": 88.5,
+      "steeps": "P_Political"
+    },
+    {
+      "id": "arxiv-2602.11663v1",
+      "title": "\"I Was Told to Come Back and Share This\": Social Media-Based Near-Death Experience Disclosures as Expressions of Spiritu",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11567v1",
+      "title": "Behavioral Indicators of Overreliance During Interaction with Conversational Language Models",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11507v1",
+      "title": "An Educational Human Machine Interface Providing Request-to-Intervene Trigger and Reason Explanation for Enhancing the D",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11492v1",
+      "title": "Data-driven modelling of low-dimensional dynamical structures underlying complex full-body human movement",
+      "psst": 77.0,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12261v1",
+      "title": "Half-plane non-coexistence without FKG",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12219v1",
+      "title": "A Chain Ring Analogue of the Erdos-Ko-Rado Theorem",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12190v1",
+      "title": "High-Temperature Increasing Propagation of Chaos and its breakdown for the Hopfield Model",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12188v1",
+      "title": "A Discrete-Time Model of the Academic Pipeline in Mathematical Sciences with Constrained Hiring in the United States",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12171v1",
+      "title": "Global solutions and large time stabilization in a model for thermoacoustics in a standard linear solid",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12169v1",
+      "title": "Independence Polynomials of graphs and degree of $h$-polynomials of edge ideals",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12163v1",
+      "title": "NLS with exponential nonlinearity on compact surfaces",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12130v1",
+      "title": "On minimal pattern-containing inversion sequences",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12121v1",
+      "title": "Low T-Phase Rank Approximation of Third Order Tensors",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12073v1",
+      "title": "Some remarks on monodromy",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12061v1",
+      "title": "Bond failure in peridynamics: Nonequivalence of critical stretch and critical energy density criteria",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12046v1",
+      "title": "Local boundedness for solutions to parabolic $p,q$-problems with degenerate coefficients",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12023v1",
+      "title": "Decomposition of Spillover Effects Under Misspecification:Pseudo-true Estimands and a Local--Global Extension",
+      "psst": 77.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12008v1",
+      "title": "Mesh-free numerical method for Dirichlet eigenpairs of the Laplacian with potential",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12007v1",
+      "title": "Density of Neumann regular smooth functions in Sobolev spaces of subanalytic manifolds",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12001v1",
+      "title": "Inner regularity and Liouville theorems for stable solutions to the mean curvature equation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11999v1",
+      "title": "Local convergence of mean-field Langevin dynamics: from gradient flows to linearly monotone games",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11991v1",
+      "title": "Improved Interior Gradient Estimates for the Mean Curvature Equation under Nonlinear Assumptions",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11990v1",
+      "title": "A positive instance of Scott's Conjecture on induced subdivisions",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11987v1",
+      "title": "Recovery of an Anisotropic Conductivity from the Neumann-to-Dirichlet Map in a Semilinear Elliptic Equation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11981v1",
+      "title": "Stability of Phase-Locked States in Signed Kuramoto Networks: Structure versus Adaptation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11947v1",
+      "title": "Mixed-Integer Programming for Change-point Detection",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11926v1",
+      "title": "Optimal Quantization for Nonuniform Densities on Spherical Curves",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11892v1",
+      "title": "On plane rigidity matroids",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12265v1",
+      "title": "Holographic Equidistribution",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12217v1",
+      "title": "Generalizing the Clunie--Hayman construction in an Erdős maximum-term problem",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12213v1",
+      "title": "On the dynamical Galois group of certain affine polynomials in positive characteristic",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12208v1",
+      "title": "Generators for Tensor Product Components",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12191v1",
+      "title": "The higher connectivity at infinity of mapping class groups",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12186v1",
+      "title": "Aleksandrov reflection for Geometric Flows in Hyperbolic Spaces",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12149v1",
+      "title": "On some convergence approach structures on hyperspaces",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12131v1",
+      "title": "Hilbert's Program and Infinity",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12076v1",
+      "title": "Weak stability conditions on coherent systems of genus four curves",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11971v1",
+      "title": "Hypercovers in Differential Geometry",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11955v1",
+      "title": "Recovering Hardy spaces from optimal domains of integration operators",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11930v1",
+      "title": "Modified mean curvature flow of graphs in Riemannian manifolds",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11900v1",
+      "title": "The total geodesic curvature and the $(2+1)$-dimensional hyperbolic mass",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12093v1",
+      "title": "Covariant Chu-Kovasznay Decomposition: Resolving Thermodynamic Ambiguity in Compressible Flows",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11847v1",
+      "title": "Monitoring the upper atmospheric temperature and interplanetary magnetic field with the GRAPES-3 muon telescope",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11777v1",
+      "title": "pycopm: An open-source tool to tailor OPM Flow geological models",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11631v1",
+      "title": "Enforcing Reciprocity in Operator Learning for Seismic Wave Propagation",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11621v1",
+      "title": "Differentiable Graph Neural Network Simulator for the Back-Analysis of Post-Liquefaction Residual Strength from Flow Fai",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.12227v1",
+      "title": "Phase Estimation from Amplitude Collapse in Correlated Matter-Wave Interference",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12152v1",
+      "title": "Realization of a cavity-coupled Rydberg array",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11884v1",
+      "title": "Signatures of Damping Nonlinear Oscillations by KHI-induced Turbulence in Synthetic Observations",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11763v1",
+      "title": "Phase-Space Topology and Spectral Flow in Screened Magnetized Plasmas",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11734v1",
+      "title": "Ultra-Fast 3D Porous Media Generation: a GPU- Accelerated List-Indexed Explicit Time-Stepping QSGS Algorithm",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11697v1",
+      "title": "Hybridized-band parametric oscillations in coupled Kerr microresonators",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11508v1",
+      "title": "Single-exposure holographic lithography of ultra-high aspect-ratio microstructures",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12240v1",
+      "title": "Harmonic-to-anharmonic thermodynamic integration made simple using REG TI",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12037v1",
+      "title": "Markov State Models for Tracking Reaction Dynamics on Catalytic Nanoparticles",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12031v1",
+      "title": "Thermodynamic Stability and Hydrogen Bonds in Mixed Halide Perovskites",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11540v1",
+      "title": "Transition from traveling fronts to diffusion-limited growth in expanding populations",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12238v1",
+      "title": "Status of the $S_8$ Tension: A 2026 Review of Probe Discrepancies",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12232v1",
+      "title": "Extending the Cosmological Collider: New Scaling Regimes and Constraints from BOSS",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12201v1",
+      "title": "Oxygen left behind: Atmospheric Enrichment due to Fractionation in Sub-Neptunes using BOREAS",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.12200v1",
+      "title": "What does a regular star look like?",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12195v1",
+      "title": "A simple model for extracting astrophysics from black hole images",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12174v1",
+      "title": "Probing baryonic feedback with fast radio bursts: joint analyses with cosmic shear and galaxy clustering",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12110v1",
+      "title": "Testing and Validation of the Updated Pixel-Based Non-Linearity Calibration File for WFC3/IR",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12071v1",
+      "title": "Thermal and Dielectric Properties of Juno's Regolith at One Millimeter Wavelength",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.12051v1",
+      "title": "The Interstellar Scintillation of the Radio-Loud Magnetar XTE J1810-197",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11989v1",
+      "title": "Simulation-Based Cosmological Mass Calibration of XXL Galaxy Clusters using HSC Weak Lensing",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11876v1",
+      "title": "Spectro-timing origin of large amplitude X-ray variability in GRS 1915+105 using AstroSat/LAXPC and SXT",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11838v1",
+      "title": "NE2025: An Updated Electron Density Model for the Galactic Interstellar Medium",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11818v1",
+      "title": "Global magnetohydrodynamic simulations of the inner regions of protoplanetary discs. II. Vertical-net-flux regime",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11809v1",
+      "title": "Impact of crust-core connection procedures on the tidal deformability of neutron stars",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11783v1",
+      "title": "Characterising Ly$α$ damping wings at the onset of reionisation: Evidence for highly efficient star formation driven by ",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11765v1",
+      "title": "Population synthesis predictions of the Galactic compact binary gravitational wave foreground detectable by LISA",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11736v1",
+      "title": "Subaru High-$z$ Exploration of Low-Luminosity Quasars (SHELLQs). XXV. Large-scale environments of low-luminosity quasars",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11649v1",
+      "title": "Dynamic modeling of coronal abundances during flares on M-dwarf stars",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11624v1",
+      "title": "Understanding coronal geometry in NGC 4593 using Fourier frequency-resolved covariance and time-lag spectral analysis",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11617v1",
+      "title": "The ALMA-QUARKS Survey: Discovery of Dusty Fibrils inside Massive Star-forming Clumps",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11560v1",
+      "title": "Analysis of Karin and Koronis2 asteroid families: new findings and challenges",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11531v1",
+      "title": "Eccentricity Evolution of Warm Jupiters: The Role of Distant Perturbers and Nearby Companions",
+      "psst": 77.0,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11529v1",
+      "title": "Searching for Anisotropy in the Gravitational Wave Background Using the Parkes Pulsar Timing Array",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12254v1",
+      "title": "A Stochastic Cluster Expansion for Electronic Correlation in Large Systems",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12168v1",
+      "title": "Magnetopological mechanics in Maxwell lattice frustrated Mott insulators",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12069v1",
+      "title": "Two-photon-assisted collisions in ultracold gases of polar molecules II : Optical shielding of ultracold polar molecular",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12067v1",
+      "title": "Momentum Distribution of the Dilute Fermi Gas",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12048v1",
+      "title": "Non-Hermitian topology of quantum spin-Hall systems to detect edge-state polarization",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11983v1",
+      "title": "Dynamics and thermodynamics of the S = 5/2 almost-Heisenberg triangular lattice antiferromagnet K2Mn(SeO3)2",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11866v1",
+      "title": "Phaseless auxiliary-field quantum Monte Carlo method with spin-orbit coupling",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11844v1",
+      "title": "Parity-dependent double degeneracy and spectral statistics in the projected dice lattice",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11762v1",
+      "title": "QCD phase diagram in a magnetic field with baryon and isospin chemical potentials",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11721v1",
+      "title": "Emergence of a spin Hall topological Hall effect in the non-collinear phase of the ferrimagnetic insulator terbium-iron ",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11694v1",
+      "title": "Emergent spin-resolved electronic charge density waves and pseudogap phenomena from strong $d$-wave altermagnetism",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11645v1",
+      "title": "Epitaxial Growth and Anomalous Hall Effect in High-Quality Altermagnetic $α$-MnTe Thin Films",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11637v1",
+      "title": "First-order phase transition in atom-molecule quantum degenerate mixtures with coherent three-body recombination",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12263v1",
+      "title": "Systematic Operator Construction for Non-relativistic Effective Field Theories: Hilbert Series versus Young Tensor",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12197v1",
+      "title": "Holographic entanglement entropy in Chern-Simons gravity with torsion",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12176v1",
+      "title": "Single-minus gluon tree amplitudes are nonzero",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12167v1",
+      "title": "Time-Structured Tail Probabilities for Ultra-High-Energy Gamma-Hadron Discrimination in Water-Cherenkov Arrays",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12154v1",
+      "title": "Resurrecting Kaluza-Klein Dark Matter with Low-Temperature Reheating",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12148v1",
+      "title": "Resonating group method for baryon-baryon interactions with unequal oscillator frequencies and its application to the $N",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12119v1",
+      "title": "Studies of low energy $l+p\\to l+p+γ$ process in covariant chiral perturbation theory",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12057v1",
+      "title": "Primordial Black Hole Formation in Dust-Radiation Bouncing Cosmologies",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12010v1",
+      "title": "Existence of the $DD^*\\bar{K}^*$ and $BB^*K^*$ three-body molecular states",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11997v1",
+      "title": "Recent progress in decays of $b$ and $c$ hadrons",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11927v1",
+      "title": "Bosonic and fermionic statistics in nonperturbative quantum gravity",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11883v1",
+      "title": "A unified framework for photon and massive particle hypersurfaces in stationary spacetimes",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11878v1",
+      "title": "Effective Potential in Subleading Logarithmic Approximation in Arbitrary Non-renormalizable Scalar Field Theory",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11828v1",
+      "title": "Black holes in effective loop quantum gravity: Hawking radiation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11744v1",
+      "title": "Spectrum of $[cq][\\bar{s}\\bar{q}]$ tetraquarks: Nature of $D^*_{s0}(2317)$, $D_{s1}(2460)$ and $T^*_{c\\bar s0}(2900)$",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11713v1",
+      "title": "QCD matter at a finite magnetic field and nonzero chemical potential",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12269v1",
+      "title": "Certification of linear optical quantum state preparation",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12193v1",
+      "title": "A Framework for Spatial Quantum Sensing",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12156v1",
+      "title": "Deterministic Generation of Arbitrary Fock States via Resonant Subspace Engineering",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12097v1",
+      "title": "Hierarchy of saturation conditions for multiparameter quantum metrology bounds",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11985v1",
+      "title": "A New Angle on Quantum Subspace Diagonalization for Quantum Chemistry",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11869v1",
+      "title": "Resource-Efficient Teleportation of High-Dimensional Quantum Coherence via Initial Phase Engineering",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11616v1",
+      "title": "The Power of Two Bases: Robust and copy-optimal certification of nearly all quantum states with few-qubit measurements",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11604v1",
+      "title": "Quantization Mapping on Dirac Dynamics via Voltage-Driven Charge Density in Monolayer Graphene: A Klein Paradox and Entr",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11586v1",
+      "title": "Complete freezing of initially maximal entanglement in Schwarzschild black hole",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11457v1",
+      "title": "The Pinnacle Architecture: Reducing the cost of breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes",
+      "psst": 93.5,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12066v1",
+      "title": "Chaos and Misallocation under Price Controls",
+      "psst": 85.5,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12035v1",
+      "title": "The Algorithmic Advantage: How Reinforcement Learning Generates Rich Communication",
+      "psst": 77.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12030v1",
+      "title": "Time-Inhomogeneous Volatility Aversion for Financial Applications of Reinforcement Learning",
+      "psst": 77.0,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.12216v1",
+      "title": "Bayesian inference for the automultinomial model with an application to landcover data",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11920v1",
+      "title": "Learning Conditional Averages",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11610v1",
+      "title": "Improving the adjusted Benjamini--Hochberg method using e-values in knockoff-assisted variable selection",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12098v1",
+      "title": "ViPer NL-COMM: Making Vector Perturbation Precoding Practical",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11899v1",
+      "title": "Gradient-Based Adaptive Prediction and Control for Nonlinear Dynamical Systems",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11891v1",
+      "title": "Is Downlink Training Necessary for User-Centric Cell-Free RSMA Systems With Mobile Users?",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11834v1",
+      "title": "EqDeepRx: Learning a Scalable MIMO Receiver",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11784v1",
+      "title": "On the Maintainability of Pinching-Antenna Systems: A Failure-Repair Perspective",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11704v1",
+      "title": "U-DAVI: Uncertainty-Aware Diffusion-Prior-Based Amortized Variational Inference for Image Reconstruction",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11654v1",
+      "title": "Beamforming Gain Maximization for Fluid Reconfigurable Intelligent Surface: A Minkowski Geometry Approach",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11546v1",
+      "title": "TC-BiMamba: Trans-Chunk bidirectionally within BiMamba for unified streaming and non-streaming ASR",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11471v1",
+      "title": "Around-the-corner Radar Sensing Using Reconfigurable Intelligent Surface",
+      "psst": 77.0,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12245v1",
+      "title": "Intrinsic-Energy Joint Embedding Predictive Architectures Induce Quasimetric Spaces",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12233v1",
+      "title": "Categorical Flow Maps",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12155v1",
+      "title": "FAIL: Flow Matching Adversarial Imitation Learning for Image Generation",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12080v1",
+      "title": "PathCRF: Ball-Free Soccer Event Detection via Possession Path Inference from Player Trajectories",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12056v1",
+      "title": "LawThinker: A Deep Research Legal Agent in Dynamic Environments",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11998v1",
+      "title": "An Auction-Based Mechanism for Optimal Task Allocation and Resource Aware Containerization",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11885v1",
+      "title": "Learning to Manipulate Anything: Revealing Data Scaling Laws in Bounding-Box Guided Policies",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11648v1",
+      "title": "Human-Like Gaze Behavior in Social Robots: A Deep Learning Approach Integrating Human and Non-Human Stimuli",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12256v1",
+      "title": "Automated Test Suite Enhancement Using Large Language Models with Few-shot Prompting",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12138v1",
+      "title": "BlackCATT: Black-box Collusion Aware Traitor Tracing in Federated Learning",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12081v1",
+      "title": "PPTAM$η$: Energy Aware CI/CD Pipeline for Container Based Applications",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11820v1",
+      "title": "Solving the Post-Quantum Control Plane Bottleneck: Energy-Aware Cryptographic Scheduling in Open RAN",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11651v1",
+      "title": "DMind-3: A Sovereign Edge--Local--Cloud AI System with Controlled Deliberation and Correction-Based Tuning for Safe, Low",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12175v1",
+      "title": "Improved Online Algorithms for Inventory Management Problems with Holding and Delay Costs: Riding the Wave Makes Things ",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11993v1",
+      "title": "The Balanced Up-Down Walk",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11773v1",
+      "title": "A Note on the Complexity of Directed Clique",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11476v1",
+      "title": "Bounded Local Generator Classes for Deterministic State Evolution",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11946v1",
+      "title": "Towards a Sustainable Age of Information Metric: Carbon Footprint of Real-Time Status Updates",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11708v1",
+      "title": "Systematic Trend-Following with Adaptive Portfolio Construction: Enhancing Risk-Adjusted Alpha in Cryptocurrency Markets",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11959v1",
+      "title": "Strengthening Bulow-Klemperer-Style Results for Multi-Unit Auctions",
+      "psst": 76.2,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11732v1",
+      "title": "Achieving EF1 and Epistemic EFX Guarantees Simultaneously",
+      "psst": 76.2,
+      "steeps": "E_Economic"
+    },
+    {
+      "id": "arxiv-2602.11707v1",
+      "title": "Digital Ecosystems: Enabling Collaboration in a Fragmented World",
+      "psst": 76.2,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.12103v1",
+      "title": "Local Integrable Symmetries of Diffieties",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12091v1",
+      "title": "Series involving central binomial coefficients and harmonic numbers of order 2",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12033v1",
+      "title": "On the interplay between $(p,q)$-growth and $x$-dependence of the energy integrand: a limit case",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11915v1",
+      "title": "Eigenfracture approximation of quasi-static crack growth in brittle materials",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12239v1",
+      "title": "Tininess and right adjoints to exponentials",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12226v1",
+      "title": "A resistance invariant of special alternating links",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11984v1",
+      "title": "Radicals in primitive axial algebras",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11922v1",
+      "title": "Trace arithmetic--$κ_p$ inequality",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11913v1",
+      "title": "Eigenvalue Estimates of the Hodge Laplacian Under Lower Ricci Curvature Bound",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11906v1",
+      "title": "Largeness notions and polytime translation for $\\forall Σ^0_3$-consequences of $\\mathsf{RT}^2_2$",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11825v1",
+      "title": "CAAL: Confidence-Aware Active Learning for Heteroscedastic Atmospheric Regression",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12086v1",
+      "title": "Solvothermal vapor annealing and environmental control setup with adjustable magnetic field module for GISAXS studies",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12052v1",
+      "title": "GPU-Accelerated Analytic Simulation of Sparse Signals in Pixelated Time Projection Detector",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11928v1",
+      "title": "Topology-Enabled Switchable Unidirectional Radiative Band in a Bilayer Photonic Crystal",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11659v1",
+      "title": "Low-Energy, Octave-Spanning Supercontinuum Generation in Ta_2O_5 Waveguides: Towards Optical Coherence Metrology",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11489v1",
+      "title": "Intermediate Thermal Equilibrium Stages in Molecular Dynamics Simulations of two Bodies in Contact",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12140v1",
+      "title": "Spreading viscous fluids on a horizontal surface: project-based learning in fluid mechanics",
+      "psst": 76.2,
+      "steeps": "S_Social"
+    },
+    {
+      "id": "arxiv-2602.11603v1",
+      "title": "Rapid Dissipative Ground State Preparation at Chemical Transition States",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12272v1",
+      "title": "The Wandering Supermassive Black Hole Powering the off-nuclear TDE AT2024tvd",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12165v1",
+      "title": "Poloidal Field Amplification through Compression-Shear Dynamics in Schwarzschild Accretion: Pathways to MAD States",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12019v1",
+      "title": "Is cosmic birefringence due to dark energy or dark matter? Simulation-based inference",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11923v1",
+      "title": "The Radius Cliff is a Waterfall: Explaining Sub-Neptune Exoplanets with Steam Worlds",
+      "psst": 76.2,
+      "steeps": "E_Environmental"
+    },
+    {
+      "id": "arxiv-2602.11853v1",
+      "title": "Three-dimensional mapping of coronal magnetic field and plasma parameters in a solar flare",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11751v1",
+      "title": "Evolution of submillimeter galaxies across cosmic-web environments",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11647v1",
+      "title": "Ordered states of undoped AB bilayer graphene: bias induced cascade of transitions",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12266v1",
+      "title": "Repulsive Gravitational Force as a Witness of the Quantum Nature of Gravity",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12210v1",
+      "title": "Stress stability criterion of $U(1)$ gauged non-topological solitons in the 3+1 dimensional O(3) sigma-model",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12025v1",
+      "title": "Study of multi-particle states with tensor renormalization group method",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12022v1",
+      "title": "Dark matter distributions around extreme mass ratio inspirals: effects of radial pressure and relativistic treatment",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12258v1",
+      "title": "Post-measurement states are (very) useful for measurement discrimination",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12042v1",
+      "title": "Scalable Preparation of Matrix Product States with Sequential and Brick Wall Quantum Circuits",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11592v1",
+      "title": "Scalable and Highly Fault-Tolerant Circular Quantum Byzantine Agreement",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11722v1",
+      "title": "PAC-Bayesian Generalization Guarantees for Fairness on Stochastic and Deterministic Classifiers",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11496v1",
+      "title": "High-Dimensional Mediation Analysis for Generalized Linear Models Using Bayesian Variable Selection Guided by Mediator C",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.11478v1",
+      "title": "Defining causal mechanism in dual process theory and two types of feedback control",
+      "psst": 76.2,
+      "steeps": "s_spiritual"
+    },
+    {
+      "id": "arxiv-2602.12202v1",
+      "title": "Equivalent Circuit Modeling of Grid-Forming Inverters in (Sub)-Transient Time-Frame",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    },
+    {
+      "id": "arxiv-2602.12016v1",
+      "title": "Adaptive Behavioral Predictive Control: State-Free Regulation Without Hankel Weights",
+      "psst": 76.2,
+      "steeps": "T_Technological"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "classification_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-11",
+    "total_signals": 27,
+    "after_dedup": 25,
+    "duplicates_removed": 2,
+    "duplicate_details": [
+      {"removed": "cfr-20260211-026", "duplicate_of": "un-20260211-010", "reason": "Same topic: New START treaty expiration", "stage": "semantic_similarity", "score": 0.92},
+      {"removed": "eurlex-20260211-024", "duplicate_of": "eurlex-20260211-006", "reason": "Same topic: EU AI regulation/Meta measures", "stage": "semantic_similarity", "score": 0.88}
+    ],
+    "steeps_distribution": {
+      "T": 9,
+      "P": 6,
+      "E": 4,
+      "E_Environmental": 3,
+      "S": 2,
+      "s": 1
+    }
+  },
+  "signals": [
+    {"id": "techcrunch-20260211-001", "final_category": "T", "sub_category": "AI_Infrastructure", "confidence": 0.95},
+    {"id": "fedregister-20260211-002", "final_category": "P", "sub_category": "AI_Regulation", "confidence": 0.93},
+    {"id": "who-20260211-003", "final_category": "S", "sub_category": "Global_Health", "confidence": 0.91},
+    {"id": "mit-20260211-004", "final_category": "T", "sub_category": "AI_Safety", "confidence": 0.96},
+    {"id": "wef-20260211-005", "final_category": "P", "sub_category": "Geopolitics", "confidence": 0.94},
+    {"id": "eurlex-20260211-006", "final_category": "P", "sub_category": "Digital_Regulation", "confidence": 0.92},
+    {"id": "nature-20260211-007", "final_category": "E_Environmental", "sub_category": "Biodiversity", "confidence": 0.93},
+    {"id": "oecd-20260211-008", "final_category": "E", "sub_category": "Macroeconomics", "confidence": 0.95},
+    {"id": "carbon-20260211-009", "final_category": "E_Environmental", "sub_category": "Climate_Policy", "confidence": 0.91},
+    {"id": "un-20260211-010", "final_category": "P", "sub_category": "Arms_Control", "confidence": 0.97},
+    {"id": "ieee-20260211-011", "final_category": "T", "sub_category": "BCI_Space", "confidence": 0.90},
+    {"id": "imf-20260211-012", "final_category": "E", "sub_category": "Financial_Stability", "confidence": 0.94},
+    {"id": "pew-20260211-013", "final_category": "s", "sub_category": "Trust_Values", "confidence": 0.89},
+    {"id": "hacker-20260211-014", "final_category": "T", "sub_category": "AI_Agents", "confidence": 0.91},
+    {"id": "brookings-20260211-015", "final_category": "P", "sub_category": "Geopolitics", "confidence": 0.92},
+    {"id": "who-20260211-016", "final_category": "S", "sub_category": "Global_Health", "confidence": 0.90},
+    {"id": "pubmed-20260211-017", "final_category": "T", "sub_category": "Biotech", "confidence": 0.95},
+    {"id": "science-20260211-018", "final_category": "T", "sub_category": "Biotech", "confidence": 0.93},
+    {"id": "wired-20260211-019", "final_category": "T", "sub_category": "Autonomous_Systems", "confidence": 0.92},
+    {"id": "nasa-20260211-020", "final_category": "E_Environmental", "sub_category": "Renewable_Energy", "confidence": 0.91},
+    {"id": "ars-20260211-021", "final_category": "T", "sub_category": "Medical_AI", "confidence": 0.94},
+    {"id": "worldbank-20260211-022", "final_category": "E", "sub_category": "Macroeconomics", "confidence": 0.93},
+    {"id": "bis-20260211-023", "final_category": "E", "sub_category": "Monetary_Policy", "confidence": 0.90},
+    {"id": "mit-20260211-025", "final_category": "T", "sub_category": "Energy_Storage", "confidence": 0.94},
+    {"id": "fedregister-20260211-027", "final_category": "P", "sub_category": "Tech_Trade", "confidence": 0.95}
+  ]
+}

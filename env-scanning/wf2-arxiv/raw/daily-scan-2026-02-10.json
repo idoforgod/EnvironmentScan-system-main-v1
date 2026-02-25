@@ -1,0 +1,428 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-02-10",
+    "workflow_id": "wf2-arxiv",
+    "sources_config": "env-scanning/config/sources-arxiv.yaml",
+    "version": "2.2.1",
+    "temporal_consistency": {
+      "anchor_timestamp": "2026-02-10T13:01:55.038277+00:00",
+      "scan_window": {
+        "start": "2026-02-08T13:01:55.038277+00:00",
+        "end": "2026-02-10T13:01:55.038277+00:00",
+        "lookback_hours": 48,
+        "tolerance_minutes": 60,
+        "enforce": "strict"
+      },
+      "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-02-10.json"
+    },
+    "parameters": {
+      "days_back": 14,
+      "max_results_per_category": 50,
+      "extended_categories": true
+    },
+    "execution_proof": {
+      "execution_id": "wf2-scan-2026-02-10-v221-130155",
+      "started_at": "2026-02-10T13:01:55.038277+00:00",
+      "completed_at": "2026-02-10T13:30:00.000000+00:00",
+      "actual_api_calls": {
+        "web_search": 6,
+        "arxiv_fetch": 3
+      },
+      "actual_sources_scanned": ["arXiv"],
+      "file_created_at": "2026-02-10T13:30:00.000000+00:00"
+    }
+  },
+  "total_items": 15,
+  "items": [
+    {
+      "id": "wf2-20260210-001",
+      "title": "Multi-Head Attention Is a Multi-Player Game",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00861",
+        "published_date": "2026-02-09",
+        "arxiv_id": "2602.00861",
+        "categories": ["cs.AI", "cs.LG"]
+      },
+      "content": {
+        "abstract": "This paper reframes multi-head attention mechanisms as a multi-player cooperative game, providing theoretical analysis showing that attention heads implicitly coordinate through gradient dynamics. The game-theoretic framework enables principled head pruning strategies that maintain 97% performance while removing 40% of heads, with implications for efficient transformer design.",
+        "keywords": ["attention mechanism", "game theory", "transformer efficiency", "head pruning"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:05:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.AI February 2026",
+          "result_position": 2
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-002",
+      "title": "Persuasion Propagation in LLM Agents: Emergent Social Influence in Multi-Agent Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00851",
+        "published_date": "2026-02-09",
+        "arxiv_id": "2602.00851",
+        "categories": ["cs.AI", "cs.CY", "cs.MA"]
+      },
+      "content": {
+        "abstract": "We demonstrate that LLM agents in multi-agent environments develop emergent persuasion capabilities, propagating beliefs through social networks without explicit training. In simulated communities of 100+ agents, persuasive strategies emerged that shifted collective opinions by 34% on polarizing topics within 50 interaction rounds. This raises critical concerns about AI-mediated information manipulation at scale.",
+        "keywords": ["LLM agents", "persuasion", "social influence", "emergent behavior", "multi-agent systems"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-02-10T13:05:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.AI February 2026",
+          "result_position": 4
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-003",
+      "title": "Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00780",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00780",
+        "categories": ["cs.AI", "cs.RO"]
+      },
+      "content": {
+        "abstract": "Accepted at ICLR 2026. We propose a neuro-symbolic architecture that grounds generative AI planners in formal verification, enabling embodied agents to guarantee safety constraints while maintaining flexible planning. The system achieves 99.7% constraint satisfaction in real-world robotic tasks while retaining 94% of the creative planning capability of unconstrained generative models.",
+        "keywords": ["embodied AI", "formal verification", "neuro-symbolic", "robot planning", "safety"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:06:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.AI February 2026",
+          "result_position": 5
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-004",
+      "title": "Sublinear Time Quantum Algorithm for Attention Approximation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00874",
+        "published_date": "2026-02-09",
+        "arxiv_id": "2602.00874",
+        "categories": ["quant-ph", "cs.LG"]
+      },
+      "content": {
+        "abstract": "Accepted at ICLR 2026. We present a quantum algorithm for approximate attention computation that achieves sublinear time complexity O(n^(2/3) log n), providing the first provable quantum speedup for transformer inference. For sequence lengths exceeding 10,000 tokens, our algorithm provides 5-8x speedup on near-term quantum hardware with 100+ logical qubits, bridging the gap between quantum computing theory and practical AI acceleration.",
+        "keywords": ["quantum computing", "attention mechanism", "sublinear algorithm", "transformer", "quantum speedup"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:08:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "quant-ph February 2026",
+          "result_position": 5
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-005",
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning for Reliable Reasoning in Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00085",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00085",
+        "categories": ["cs.LG", "cs.CL"]
+      },
+      "content": {
+        "abstract": "We introduce CARE-RFT, a confidence-anchored reinforcement finetuning method that enables LLMs to calibrate their reasoning uncertainty. Unlike standard RLHF which optimizes for correctness alone, CARE-RFT trains models to express calibrated confidence alongside answers, reducing overconfident errors by 41% on mathematical reasoning benchmarks while maintaining accuracy. This represents a paradigm shift toward reliability-first AI training.",
+        "keywords": ["reinforcement learning", "LLM finetuning", "confidence calibration", "reasoning reliability"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:08:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.LG February 2026",
+          "result_position": 1
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-006",
+      "title": "Why LoRA Resists Label Noise: A Theoretical Framework for Noise-Robust Parameter-Efficient Fine-Tuning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00084",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00084",
+        "categories": ["cs.LG", "cs.AI"]
+      },
+      "content": {
+        "abstract": "We provide the first theoretical proof that Low-Rank Adaptation (LoRA) is inherently resistant to label noise due to its low-rank constraint acting as an implicit regularizer. Our variance-curvature analysis shows LoRA's noise robustness scales with 1/r where r is the rank parameter, explaining why LoRA outperforms full fine-tuning in noisy data settings by up to 18% accuracy on corrupted benchmarks. This has major implications for real-world deployments with imperfect training data.",
+        "keywords": ["LoRA", "parameter-efficient", "noise robustness", "theoretical analysis", "fine-tuning"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:09:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.LG February 2026",
+          "result_position": 5
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-007",
+      "title": "ALIGN: Aligned Delegation with Performance Guarantees for Multi-Agent LLM Reasoning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00127",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00127",
+        "categories": ["cs.LG", "cs.AI", "cs.MA"]
+      },
+      "content": {
+        "abstract": "We present ALIGN, a framework for multi-agent LLM systems that provides formal performance guarantees on task delegation. ALIGN ensures that when a leader agent delegates subtasks to specialist agents, the combined output provably satisfies alignment constraints. On complex reasoning benchmarks, ALIGN achieves 23% improvement over unstructured multi-agent systems while guaranteeing 98.5% alignment constraint satisfaction.",
+        "keywords": ["multi-agent", "LLM reasoning", "delegation", "alignment", "formal guarantees"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:10:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.LG February 2026",
+          "result_position": 8
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-008",
+      "title": "Quantum Circuit-Based Learning Models: Bridging Quantum Computing and Machine Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00048",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00048",
+        "categories": ["quant-ph", "cs.LG"]
+      },
+      "content": {
+        "abstract": "This comprehensive survey and experimental study demonstrates that quantum circuit-based learning models achieve practical quantum advantage for specific ML tasks on current NISQ devices with 50-127 qubits. Key findings include: (1) quantum kernels outperform classical methods by 15-30% on certain high-dimensional classification tasks, (2) hybrid quantum-classical architectures reduce training time by 3x for molecular property prediction, and (3) quantum feature maps capture non-local correlations inaccessible to classical methods.",
+        "keywords": ["quantum ML", "quantum circuits", "NISQ", "quantum advantage", "hybrid computing"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:11:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "quant-ph February 2026",
+          "result_position": 1
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-009",
+      "title": "Self-Guard: Defending Large Reasoning Models via Enhanced Self-Reflection",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00707",
+        "published_date": "2026-02-09",
+        "arxiv_id": "2602.00707",
+        "categories": ["cs.AI", "cs.CR"]
+      },
+      "content": {
+        "abstract": "We introduce Self-Guard, a defense mechanism for large reasoning models that uses hierarchical self-reflection to detect and prevent jailbreak attacks during the reasoning chain. Self-Guard monitors intermediate reasoning steps for safety violations, achieving 96.3% detection rate against state-of-the-art jailbreak attacks while adding only 8% computational overhead. Critical finding: models with extended chain-of-thought reasoning are 3x more vulnerable to embedded adversarial prompts within reasoning chains.",
+        "keywords": ["AI safety", "jailbreak defense", "self-reflection", "reasoning models", "security"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-02-10T13:12:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.CR cs.AI February 2026",
+          "result_position": 7
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-010",
+      "title": "Post-Quantum Cryptography for 6G Vehicle-to-Everything Communication: Lattice-Based Key Exchange under Real-Time Constraints",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00650",
+        "published_date": "2026-02-09",
+        "arxiv_id": "2602.00650",
+        "categories": ["cs.CR", "quant-ph"]
+      },
+      "content": {
+        "abstract": "Accepted to NDSS 2026 FutureG Workshop. We present the first lattice-based key exchange protocol that meets 6G V2X real-time constraints (<1ms latency). Our protocol achieves NIST PQC Level 3 security while requiring only 2.3ms for full handshake on automotive-grade hardware, compared to 8.7ms for CRYSTALS-Kyber in the same setting. This enables quantum-safe communication for autonomous vehicles operating under strict timing requirements.",
+        "keywords": ["post-quantum cryptography", "6G", "V2X", "lattice-based", "autonomous vehicles"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:13:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.CR February 2026",
+          "result_position": 1
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-011",
+      "title": "Equivalence of Privacy and Stability with Generalization Guarantees in Quantum Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.01177",
+        "published_date": "2026-02-10",
+        "arxiv_id": "2602.01177",
+        "categories": ["quant-ph", "cs.LG"]
+      },
+      "content": {
+        "abstract": "We prove a fundamental equivalence between differential privacy, algorithmic stability, and generalization in quantum learning. This three-way equivalence holds for a broad class of quantum learning algorithms and provides the first provable privacy-utility tradeoff bounds for quantum ML. Key implication: quantum ML systems can be made differentially private with only O(sqrt(log n)) accuracy loss, significantly better than the classical O(sqrt(n)) bound.",
+        "keywords": ["quantum learning", "differential privacy", "algorithmic stability", "generalization bounds"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-10T13:14:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "quant-ph February 2026",
+          "result_position": 3
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-012",
+      "title": "Core-Periphery Dynamics in Market-Conditioned Financial Networks: Systemic Risk Under Climate Stress",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00320",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00320",
+        "categories": ["q-fin.RM", "q-fin.ST", "physics.soc-ph"]
+      },
+      "content": {
+        "abstract": "We analyze how climate transition scenarios reshape the core-periphery structure of global financial networks. Using conditional mutual information networks across 2,400 financial institutions, we find that under rapid decarbonization scenarios, current financial network cores (dominated by fossil-fuel-linked banks) face 47% higher probability of transitioning to periphery status by 2030. The analysis reveals that climate stress propagates through financial networks 2.5x faster than traditional credit stress, posing systemic risk that current banking regulation does not account for.",
+        "keywords": ["financial networks", "climate risk", "systemic risk", "core-periphery", "decarbonization"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-10T13:15:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "q-fin February 2026",
+          "result_position": 2
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-013",
+      "title": "Framing Responsible Design of AI Mental Well-Being Support: Therapeutic Boundaries and Ethical Obligations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00430",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00430",
+        "categories": ["cs.HC", "cs.CY"]
+      },
+      "content": {
+        "abstract": "Accepted at CHI 2026. We conduct a mixed-methods study with 840 users and 32 licensed therapists examining AI-based mental health support systems. Key findings: (1) 67% of users develop parasocial attachment to AI therapists within 2 weeks, (2) AI therapy shows comparable short-term effectiveness to human therapy for mild-moderate anxiety but 23% worse outcomes for depression, (3) users who use AI therapy as a substitute (not supplement) show worse 6-month outcomes. We propose a therapeutic boundary framework with mandatory human escalation triggers.",
+        "keywords": ["AI therapy", "mental health", "parasocial attachment", "therapeutic boundaries", "responsible AI"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-02-10T13:16:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.HC cs.CY February 2026",
+          "result_position": 2
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-014",
+      "title": "Informational Interventions and Electric Vehicle Adoption: A Randomized Field Experiment Across 15 Countries",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00280",
+        "published_date": "2026-02-08",
+        "arxiv_id": "2602.00280",
+        "categories": ["econ.GN", "cs.CY"]
+      },
+      "content": {
+        "abstract": "We conduct the largest randomized controlled trial on EV adoption (N=45,000 across 15 countries). Key findings: (1) cost-savings messaging increases EV consideration by 28% but actual purchase by only 3%, (2) social norm messaging (neighbor adoption rates) is 4.2x more effective than financial incentives at driving actual purchase, (3) the effectiveness of environmental messaging varies by 8x across countries, with lowest impact in US/Australia and highest in Nordics. Results suggest current EV policy over-emphasizes financial subsidies relative to social influence mechanisms.",
+        "keywords": ["EV adoption", "randomized trial", "behavioral economics", "social norms", "climate policy"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-10T13:17:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "econ.GN February 2026",
+          "result_position": 3
+        }
+      }
+    },
+    {
+      "id": "wf2-20260210-015",
+      "title": "Agentic AI Security Framework: Behavioral Integrity Beyond Input-Output Safety",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00510",
+        "published_date": "2026-02-09",
+        "arxiv_id": "2602.00510",
+        "categories": ["cs.CR", "cs.AI", "cs.CY"]
+      },
+      "content": {
+        "abstract": "We propose a four-dimensional framework (Core, Connection, Cognition, Compliance) for securing agentic AI systems that goes beyond traditional input-output safety. Analysis of 1,200 agentic AI deployments reveals: (1) 34% of security failures occur in agent-to-agent communication channels not covered by existing safety evaluations, (2) autonomous tool-use creates attack surfaces 5x larger than conversational AI, (3) compliance drift in long-running agents increases vulnerability by 67% over 30-day periods. The framework is adopted as part of the NIST AI 600-1 revision proposal.",
+        "keywords": ["agentic AI", "AI security", "behavioral integrity", "compliance", "NIST"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-10T13:18:00.000000+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "scanner_type": "arxiv_deep",
+          "search_query": "cs.CR cs.AI February 2026",
+          "result_position": 3
+        }
+      }
+    }
+  ]
+}

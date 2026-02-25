@@ -1,0 +1,47 @@
+{
+  "exploration_metadata": {
+    "date": "2026-02-19",
+    "method": "single-agent",
+    "frontiers_used": ["African innovation technology", "neurotechnology policy", "ocean biology discoveries"],
+    "candidates_tested": 3,
+    "viable_candidates": 2
+  },
+  "candidates": [
+    {
+      "candidate_id": "explore-20260219-techcabal-001",
+      "source_name": "TechCabal",
+      "source_url": "https://techcabal.com",
+      "source_type": "blog",
+      "steeps_focus": "T",
+      "frontier_keyword": "African innovation technology",
+      "signals_found": 1,
+      "viable": true,
+      "test_signal_title": "Deeptech is Africa's Next VC Frontier",
+      "notes": "Pan-African tech journalism covering AI, fintech, and deeptech; strong geographic coverage gap fill for Africa"
+    },
+    {
+      "candidate_id": "explore-20260219-statnews-001",
+      "source_name": "STAT News (Neurotech)",
+      "source_url": "https://www.statnews.com",
+      "source_type": "academic",
+      "steeps_focus": "T",
+      "frontier_keyword": "neurotechnology policy",
+      "signals_found": 1,
+      "viable": true,
+      "test_signal_title": "Brain-computer implants coming of age: 3 trends to watch in 2026",
+      "notes": "Science journalism specialist in biotech/medtech with strong regulatory coverage; fills BCI policy gap"
+    },
+    {
+      "candidate_id": "explore-20260219-columbia-001",
+      "source_name": "Columbia Climate School (State of the Planet)",
+      "source_url": "https://news.climate.columbia.edu",
+      "source_type": "academic",
+      "steeps_focus": "E_Environmental",
+      "frontier_keyword": "ocean biology discoveries",
+      "signals_found": 1,
+      "viable": true,
+      "test_signal_title": "AI Discovers Rise in Floating Algae Across Global Ocean",
+      "notes": "Climate/ocean science journalism from Columbia University; fills E_Environmental gap with systematic monitoring data"
+    }
+  ]
+}

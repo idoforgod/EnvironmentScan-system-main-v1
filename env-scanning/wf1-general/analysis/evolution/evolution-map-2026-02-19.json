@@ -1,0 +1,552 @@
+{
+  "tracker_version": "1.3.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-02-19",
+  "computed_at": "2026-02-19T22:18:23Z",
+  "config_source": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 20,
+    "new_signals": 20,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 67
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "wf1-20260219-001",
+      "thread_id": "THREAD-WF1-048",
+      "canonical_title": "OpenAI Finalizing $100B Deal at $850B+ Valuation",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "OpenAI Finalizing $100B Deal at $850B+ Valuation",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-002",
+      "thread_id": "THREAD-WF1-049",
+      "canonical_title": "China CO2 Emissions Flat or Falling for Almost Two Years",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "China CO2 Emissions Flat or Falling for Almost Two Years",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-003",
+      "thread_id": "THREAD-WF1-050",
+      "canonical_title": "India AI Impact Summit 2026: First Global AI Summit in Global South",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "India AI Impact Summit 2026: First Global AI Summit in Global South",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-004",
+      "thread_id": "THREAD-WF1-051",
+      "canonical_title": "WEF Global Risks Report 2026: Geoeconomic Confrontation as Top Risk",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "WEF Global Risks Report 2026: Geoeconomic Confrontation as Top Risk",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-005",
+      "thread_id": "THREAD-WF1-052",
+      "canonical_title": "EU AI Act Full Application Approaching August 2026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "EU AI Act Full Application Approaching August 2026",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-006",
+      "thread_id": "THREAD-WF1-053",
+      "canonical_title": "IMF: Global Growth Steady at 3.3% but Masks Tech-Sector Fragilities",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "IMF: Global Growth Steady at 3.3% but Masks Tech-Sector Fragilities",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-007",
+      "thread_id": "THREAD-WF1-054",
+      "canonical_title": "Europe Accelerates Digital Sovereignty as National Survival Issue",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "Europe Accelerates Digital Sovereignty as National Survival Issue",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-008",
+      "thread_id": "THREAD-WF1-055",
+      "canonical_title": "WHO: World Not Adequately Prepared for Next Pandemic",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "WHO: World Not Adequately Prepared for Next Pandemic",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-009",
+      "thread_id": "THREAD-WF1-056",
+      "canonical_title": "MIT Technology Review 10 Breakthrough Technologies 2026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "MIT Technology Review 10 Breakthrough Technologies 2026",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-010",
+      "thread_id": "THREAD-WF1-057",
+      "canonical_title": "Climate Models Missing Key Ocean Player: Marine Plankton",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "Climate Models Missing Key Ocean Player: Marine Plankton",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-011",
+      "thread_id": "THREAD-WF1-058",
+      "canonical_title": "AI Agent Security Vulnerabilities: ClawHub Malicious Skills",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "AI Agent Security Vulnerabilities: ClawHub Malicious Skills",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-012",
+      "thread_id": "THREAD-WF1-059",
+      "canonical_title": "Fusion Energy Demo: First D-T Fuel Cycle Test Planned for 2026",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "Fusion Energy Demo: First D-T Fuel Cycle Test Planned for 2026",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-013",
+      "thread_id": "THREAD-WF1-060",
+      "canonical_title": "US Federal Register: RFI on AI Agent Security",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "US Federal Register: RFI on AI Agent Security",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-014",
+      "thread_id": "THREAD-WF1-061",
+      "canonical_title": "China Critical Minerals Weaponization Reshapes Geopolitics",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "China Critical Minerals Weaponization Reshapes Geopolitics",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-015",
+      "thread_id": "THREAD-WF1-062",
+      "canonical_title": "Brookings: AI Sovereignty Infeasible, Managed Interdependence",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "Brookings: AI Sovereignty Infeasible, Managed Interdependence",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-016",
+      "thread_id": "THREAD-WF1-063",
+      "canonical_title": "Quantum Computing Shifts from Experimental to Commercial",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "Quantum Computing Shifts from Experimental to Commercial",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-017",
+      "thread_id": "THREAD-WF1-064",
+      "canonical_title": "Alzheimer's Breakthrough: Brain Receptors Clearing Amyloid Beta",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "Alzheimer's Breakthrough: Brain Receptors Clearing Amyloid Beta",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-018",
+      "thread_id": "THREAD-WF1-065",
+      "canonical_title": "US Foreign Aid Cuts: 350,000+ Deaths Attributed",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "US Foreign Aid Cuts: 350,000+ Deaths Attributed",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-019",
+      "thread_id": "THREAD-WF1-066",
+      "canonical_title": "17 US AI Companies Raise $100M+ — Capital Concentration Accelerates",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "17 US AI Companies Raise $100M+ — Capital Concentration Accelerates",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "wf1-20260219-020",
+      "thread_id": "THREAD-WF1-067",
+      "canonical_title": "US Secret Climate Panel Ruled Unlawful",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-02-19",
+          "title": "US Secret Climate Panel Ruled Unlawful",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-048",
+    "THREAD-WF1-049",
+    "THREAD-WF1-050",
+    "THREAD-WF1-051",
+    "THREAD-WF1-052",
+    "THREAD-WF1-053",
+    "THREAD-WF1-054",
+    "THREAD-WF1-055",
+    "THREAD-WF1-056",
+    "THREAD-WF1-057",
+    "THREAD-WF1-058",
+    "THREAD-WF1-059",
+    "THREAD-WF1-060",
+    "THREAD-WF1-061",
+    "THREAD-WF1-062",
+    "THREAD-WF1-063",
+    "THREAD-WF1-064",
+    "THREAD-WF1-065",
+    "THREAD-WF1-066",
+    "THREAD-WF1-067"
+  ]
+}

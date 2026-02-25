@@ -97,7 +97,7 @@ Output:
 
 ---
 
-## Analysis Areas (5)
+## Analysis Areas (6)
 
 ### Area 1: Threshold Tuning
 - **What**: Dedup thresholds, confidence levels, quality targets
@@ -123,6 +123,16 @@ Output:
 - **What**: Verification warning trends, fabrication indicators
 - **Metrics examined**: warning rates, error patterns
 - **Constraint**: Can only tighten verification, never loosen
+
+### Area 6: Source Exploration Tracking (v2.5.0)
+- **What**: Track exploration source performance and propose tier promotions
+- **Metrics examined**: candidates discovered, candidates approved, signal yield rate, coverage gap reduction
+- **Actions**:
+  - After `auto_promotion_scans` consecutive successful scans → propose **MAJOR**: promote exploration source to expansion tier
+  - Persistently low-yield exploration source → propose **MAJOR**: deactivate source
+  - frontiers.yaml keyword weight adjustment → auto-apply as **MINOR** (within SIE bounds)
+- **Constraint**: Promotion to expansion tier is always MAJOR (user approval required). Cannot add sources to WF2 or WF3 (workflow independence). Only applies to WF1.
+- **Data source**: `{data_root}/exploration/history/exploration-history.json`
 
 ---
 

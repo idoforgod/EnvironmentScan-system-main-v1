@@ -1,0 +1,92 @@
+{
+  "master_id": "triple-scan-2026-02-15",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.5.0",
+  "started_at": "2026-02-15T01:58:05.078794+00:00",
+  "completed_at": "2026-02-15T17:45:00+09:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-15.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-15T01:58:00+00:00",
+    "passed": 42,
+    "total": 42,
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-15.md",
+      "signals_count": 53,
+      "validation": "17/17 PASS",
+      "completed_at": "2026-02-15T12:00:00+09:00"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-15.md",
+      "signals_count": 15,
+      "validation": "16/16 PASS",
+      "completed_at": "2026-02-15T15:30:00+09:00",
+      "note": "arXiv weekend freeze - used Feb 12 published papers"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-15.md",
+      "signals_count": 15,
+      "validation": "19/19 PASS",
+      "completed_at": "2026-02-15T16:30:00+09:00",
+      "archive_path": "env-scanning/wf3-naver/reports/archive/2026/02/environmental-scan-2026-02-15.md",
+      "crawl_stats": {
+        "total_articles": 264,
+        "sections_crawled": 6,
+        "blocks_encountered": 0,
+        "sn_ratio": 1.0
+      },
+      "tipping_points": {
+        "ORANGE": 1,
+        "YELLOW": 3,
+        "GREEN": 11
+      },
+      "fssf_distribution": {
+        "Weak Signal": 4,
+        "Emerging Issue": 3,
+        "Trend": 2,
+        "Driver": 2,
+        "Wild Card": 1,
+        "Discontinuity": 1,
+        "Precursor Event": 1,
+        "Megatrend": 1
+      }
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent (fallback)",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-15.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-15.md",
+    "total_signals_input": 83,
+    "top_signals_selected": 20,
+    "signal_distribution": {
+      "wf1": 7,
+      "wf2": 7,
+      "wf3": 6
+    },
+    "validation": "18/18 PASS",
+    "completed_at": "2026-02-15T17:45:00+09:00"
+  },
+  "human_decisions": {
+    "wf1_step_2_5": { "decision": "approved", "timestamp": "2026-02-15T12:00:00+09:00" },
+    "wf1_step_3_4": { "decision": "approved", "timestamp": "2026-02-15T12:00:00+09:00" },
+    "wf2_step_2_5": { "decision": "approved", "timestamp": "2026-02-15T15:00:00+09:00" },
+    "wf2_step_3_4": { "decision": "approved", "timestamp": "2026-02-15T15:30:00+09:00" },
+    "wf3_step_2_5": { "decision": "approved", "timestamp": "2026-02-15T16:00:00+09:00" },
+    "wf3_step_3_4": { "decision": "approved", "timestamp": "2026-02-15T16:30:00+09:00" },
+    "integrated_final": { "decision": "approved", "timestamp": "2026-02-15T17:45:00+09:00" }
+  },
+  "master_gates": {
+    "M1": { "status": "passed", "timestamp": "2026-02-15T12:00:00+09:00" },
+    "M2": { "status": "passed", "timestamp": "2026-02-15T15:30:00+09:00" },
+    "M2a": { "status": "passed", "timestamp": "2026-02-15T16:30:00+09:00" },
+    "M3": { "status": "passed", "timestamp": "2026-02-15T17:45:00+09:00" }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "master_id": "triple-scan-2026-02-19",
+  "system_name": "Triple Environmental Scanning System",
+  "version": "2.5.0",
+  "status": "completed",
+  "execution_mode": "autopilot",
+  "special_topic": "자산 토큰화와 이더리움 가격 폭락",
+  "special_topic_en": "Asset Tokenization & Ethereum Price Crash",
+  "started_at": "2026-02-19T11:55:00Z",
+  "completed_at": "2026-02-19T19:39:00Z",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-19.json",
+  "anchor_timestamp": "2026-02-20T03:05:06.437919+00:00",
+  "bilingual_config_file": "env-scanning/integrated/logs/bilingual-config-2026-02-19.json",
+  "bilingual_mode": "en-first",
+  "sot_validation": {
+    "status": "WARN",
+    "pass_count": 50,
+    "total_checks": 51,
+    "halt_count": 0,
+    "timestamp": "2026-02-19T11:55:00Z",
+    "warnings": ["SOT-042: dedup index 410h old (>48h) — will use full DB as baseline"],
+    "decision": "PROCEED (0 HALT failures)"
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "phase1_status": "completed",
+      "phase2_status": "completed (pre-provided)",
+      "phase3_status": "completed",
+      "signals_collected": 13,
+      "special_topic_signals": 5,
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-19.md",
+      "report_size_bytes": 69921,
+      "validation_profile": "standard_en",
+      "validation_status": "PASS",
+      "validation_checks": "18/18",
+      "skeleton_prepared": "env-scanning/wf1-general/reports/skeleton-prepared-2026-02-19.md",
+      "approved_by": "AUTOPILOT"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "scan_window_hours": 48,
+      "signals_collected": 15,
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-19.md",
+      "report_size_bytes": 49651,
+      "validation_profile": "standard_en",
+      "validation_status": "PASS",
+      "top_signal": "Policy Compiler for Secure Agentic AI Systems",
+      "approved_by": "AUTOPILOT"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "scan_window_hours": 24,
+      "signals_collected": 15,
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-19.md",
+      "report_size_bytes": 52365,
+      "validation_profile": "naver_en",
+      "validation_status": "PASS",
+      "top_signal": "Trump Iran 공습 결정 (Wild Card, H1)",
+      "fssf_distribution": "Wild Card: 2, Precursor Event: 3, Driver: 4, Emerging Issue: 3, Discontinuity: 1, Trend: 2",
+      "approved_by": "AUTOPILOT"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "agent-team",
+    "total_signals_merged": 43,
+    "top_signals_selected": 20,
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-19.md",
+    "report_size_bytes": 89647,
+    "validation_profile": "integrated_en",
+    "validation_status": "PASS",
+    "validation_checks": "19/19",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-19.md",
+    "approved_by": "AUTOPILOT"
+  },
+  "longform_journalism": {
+    "status": "completed",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-장편저널리즘-2026-02-19.md",
+    "report_size_bytes": 40764,
+    "special_topic_section": "제7부: 자산 토큰화와 이더리움의 역설"
+  },
+  "special_scan_output": {
+    "status": "completed",
+    "theme": "자산 토큰화와 이더리움 가격 폭락",
+    "signals_analyzed": 13,
+    "markdown_path": "env-scanning/integrated/reports/daily/특별스캔-자산토큰화-이더리움-2026-02-19.md",
+    "markdown_size_bytes": 25741,
+    "docx_path": "env-scanning/integrated/reports/daily/특별스캔-자산토큰화-이더리움-2026-02-19.docx",
+    "docx_size_bytes": 47184,
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/특별스캔-자산토큰화-이더리움-2026-02-19.md",
+    "structure": [
+      "도입부: 하나의 날, 두 개의 현실",
+      "제1부: 폭락의 해부 — 붕괴 메커니즘",
+      "제2부: 구축의 해부 — 제도화의 전진",
+      "제3부: 역설의 해석 — 왜 동시에 붕괴하고 성장하는가",
+      "제4부: 시스템 리스크와 전이 경로",
+      "제5부: 규제 지형의 재편",
+      "제6부: 전망과 시나리오",
+      "결론: 붕괴와 구축, 그리고 한국",
+      "핵심 모니터링 지표 (6개)"
+    ],
+    "scenarios": {
+      "institutional_floor": {"probability": "45%", "description": "기관 자금이 하한선 형성, RWA 성장 지속"},
+      "macro_winter": {"probability": "35%", "description": "거시 역풍 심화, 전통 금융 회귀"},
+      "bifurcated_recovery": {"probability": "20%", "description": "RWA/DeFi 디커플링, 이중 시장 구조"}
+    },
+    "word_generator_script": "env-scanning/integrated/reports/daily/generate_word_report.py"
+  },
+  "human_decisions": {
+    "all_checkpoints": "AUTO-APPROVED (AUTOPILOT MODE)",
+    "checkpoint_count": 7,
+    "checkpoints": {
+      "WF1_analysis_review": "AUTO-APPROVED",
+      "WF1_report_approval": "AUTO-APPROVED",
+      "WF2_analysis_review": "AUTO-APPROVED",
+      "WF2_report_approval": "AUTO-APPROVED",
+      "WF3_analysis_review": "AUTO-APPROVED",
+      "WF3_report_approval": "AUTO-APPROVED",
+      "integrated_report_approval": "AUTO-APPROVED"
+    }
+  },
+  "master_gates": {
+    "M1": { "status": "passed", "description": "SOT validation", "result": "50/51 PASS, 0 HALT" },
+    "M2": { "status": "passed", "description": "All 3 WF reports validated", "result": "All PASS" },
+    "M2a": { "status": "passed", "description": "Integration complete", "result": "19/19 PASS" },
+    "M3": { "status": "passed", "description": "All outputs archived", "result": "Archive complete" }
+  },
+  "pipeline_summary": {
+    "total_signals_processed": 43,
+    "unique_signals_in_final_reports": 55,
+    "special_topic_signals_deep_analyzed": 13,
+    "reports_generated": 5,
+    "word_files_generated": 1,
+    "validation_failures": 0,
+    "human_interventions": 0
+  }
+}

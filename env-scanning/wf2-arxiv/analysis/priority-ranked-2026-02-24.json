@@ -1,0 +1,199 @@
+{
+  "analysis_metadata": {
+    "workflow": "wf2-arxiv",
+    "date": "2026-02-24",
+    "total_signals_analyzed": 35,
+    "signals_after_dedup": 35,
+    "duplicates_removed": 0,
+    "category_distribution": {
+      "T": 18,
+      "E": 7,
+      "E_Environmental": 3,
+      "S": 3,
+      "P": 2,
+      "s": 2
+    }
+  },
+  "priority_ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-20260224-003",
+      "title": "Non-Interfering Weight Fields (NIWF): Zero Catastrophic Forgetting via Learned Weight Subspaces",
+      "category": "T",
+      "pSST": 93,
+      "impact_score": 95,
+      "probability": 80,
+      "urgency": 85,
+      "novelty": 98,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-20260224-004",
+      "title": "Free Quantum Computing: Axiomatisation via Discrete Equations",
+      "category": "T",
+      "pSST": 91,
+      "impact_score": 95,
+      "probability": 60,
+      "urgency": 70,
+      "novelty": 99,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-20260224-001",
+      "title": "Position: General Alignment Has Hit a Ceiling; Edge Alignment Must Be Taken Seriously",
+      "category": "s",
+      "pSST": 90,
+      "impact_score": 90,
+      "probability": 85,
+      "urgency": 90,
+      "novelty": 88,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-20260224-006",
+      "title": "Self-Correction Phase Transition in the Dissipative Toric Code",
+      "category": "T",
+      "pSST": 89,
+      "impact_score": 90,
+      "probability": 70,
+      "urgency": 65,
+      "novelty": 95,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260224-008",
+      "title": "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models",
+      "category": "E",
+      "pSST": 87,
+      "impact_score": 85,
+      "probability": 80,
+      "urgency": 80,
+      "novelty": 90,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-20260224-002",
+      "title": "Sycophantic Chatbots Cause Delusional Spiraling",
+      "category": "s",
+      "pSST": 86,
+      "impact_score": 85,
+      "probability": 90,
+      "urgency": 85,
+      "novelty": 85,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-20260224-017",
+      "title": "From Bias Mitigation to Bias Negotiation: Governing Identity and Sociocultural Representation in Generative AI",
+      "category": "S",
+      "pSST": 85,
+      "impact_score": 85,
+      "probability": 80,
+      "urgency": 75,
+      "novelty": 88,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260224-005",
+      "title": "Exceptional Point Superradiant Lasing with Ultranarrow Linewidth",
+      "category": "T",
+      "pSST": 84,
+      "impact_score": 85,
+      "probability": 65,
+      "urgency": 60,
+      "novelty": 95,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-20260224-021",
+      "title": "Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomous Operations",
+      "category": "P",
+      "pSST": 83,
+      "impact_score": 85,
+      "probability": 75,
+      "urgency": 80,
+      "novelty": 82,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-20260224-013",
+      "title": "Fiscal Limits to Protectionism: The 2025 U.S. Tariff Laffer Curve",
+      "category": "E",
+      "pSST": 82,
+      "impact_score": 80,
+      "probability": 90,
+      "urgency": 85,
+      "novelty": 75,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-20260224-009",
+      "title": "Stability Anchors and Risk Amplifiers: Tail Spillovers Across Stablecoin Designs",
+      "category": "E",
+      "pSST": 81,
+      "impact_score": 80,
+      "probability": 85,
+      "urgency": 75,
+      "novelty": 80,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-20260224-026",
+      "title": "Large Causal Models for Temporal Causal Discovery",
+      "category": "T",
+      "pSST": 80,
+      "impact_score": 80,
+      "probability": 70,
+      "urgency": 65,
+      "novelty": 90,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-20260224-019",
+      "title": "Janus-Faced Technological Progress and the Arms Race in Education of Humans and AI",
+      "category": "S",
+      "pSST": 79,
+      "impact_score": 80,
+      "probability": 85,
+      "urgency": 70,
+      "novelty": 80,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-20260224-016",
+      "title": "R2Energy: A Large-Scale Benchmark for Robust Renewable Energy Forecasting under Extreme Weather",
+      "category": "E_Environmental",
+      "pSST": 78,
+      "impact_score": 80,
+      "probability": 85,
+      "urgency": 75,
+      "novelty": 70,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-20260224-027",
+      "title": "Quantifying Automation Risk in High-Automation AI Systems",
+      "category": "T",
+      "pSST": 77,
+      "impact_score": 80,
+      "probability": 80,
+      "urgency": 75,
+      "novelty": 70,
+      "evolution_state": "NEW"
+    }
+  ]
+}

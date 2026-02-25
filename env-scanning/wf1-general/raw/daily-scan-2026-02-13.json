@@ -1,0 +1,1152 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-02-13",
+    "scan_type": "daily",
+    "workflow": "wf1-general",
+    "sources_scanned": 23,
+    "total_items_collected": 45,
+    "scan_window": {
+      "start": "2026-02-11T23:33:37Z",
+      "end": "2026-02-12T23:33:37Z",
+      "lookback_hours": 24
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-13-08-33-37-a7b2",
+      "started_at": "2026-02-12T23:33:37Z",
+      "completed_at": "2026-02-12T23:50:00Z",
+      "actual_api_calls": {
+        "web_search": 18,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "Google Patents",
+        "US Federal Register",
+        "WHO Press Releases",
+        "TechCrunch",
+        "MIT Technology Review",
+        "PubMed Central",
+        "Nature News",
+        "Science Magazine",
+        "IEEE Spectrum",
+        "OECD Newsroom",
+        "World Bank Blogs",
+        "UN News",
+        "EUR-Lex Recent Acts",
+        "Brookings Institution",
+        "World Economic Forum",
+        "Pew Research Center",
+        "Hacker News",
+        "Wired",
+        "Ars Technica",
+        "NASA Climate Change",
+        "Carbon Brief",
+        "IMF Blog",
+        "BIS Speeches"
+      ],
+      "file_created_at": "2026-02-12T23:50:00Z"
+    }
+  },
+  "items": [
+    {
+      "id": "techcrunch-20260213-001",
+      "title": "xAI Co-founders and Senior Engineers Exit Amid Organizational Restructuring",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/senior-engineers-including-co-founders-exit-xai-amid-controversy/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Six of twelve original xAI co-founders have departed. Elon Musk attributes exits to organizational restructuring for faster execution speed, but industry observers note potential deeper issues in AI talent retention.",
+        "keywords": [
+          "xAI",
+          "AI talent",
+          "organizational change",
+          "Elon Musk"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:40:00Z"
+    },
+    {
+      "id": "techcrunch-20260213-002",
+      "title": "Microsoft Patches 59 Vulnerabilities Including 5 Critical Zero-Day Exploits",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/microsoft-says-hackers-are-exploiting-critical-zero-day-bugs-to-target-windows-and-office-users/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Microsoft released security updates for 59 flaws including 5 critical and 6 actively exploited zero-day vulnerabilities. One-click attacks can plant malware through malicious links or Office files.",
+        "keywords": [
+          "cybersecurity",
+          "zero-day",
+          "Microsoft",
+          "malware"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:40:00Z"
+    },
+    {
+      "id": "mit-20260213-001",
+      "title": "Chinese Open-Source AI Models Surpass US Models in Total Downloads",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "MIT study finds Chinese open-source AI models have overtaken US models in total downloads globally, signaling fundamental shift in AI geopolitics and open-source ecosystem center of gravity.",
+        "keywords": [
+          "AI",
+          "open-source",
+          "China",
+          "geopolitics",
+          "AI competition"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:40:00Z"
+    },
+    {
+      "id": "mit-20260213-002",
+      "title": "MIT TR 2026 Breakthrough Technologies: Hyperscale Data Centers, Designer Babies, Small Nuclear",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "MIT Technology Review 2026 breakthrough technologies include hyperscale data centers, designer babies via embryo screening, smaller nuclear reactors, and commercial space stations.",
+        "keywords": [
+          "breakthrough tech",
+          "data centers",
+          "nuclear",
+          "space",
+          "biotech"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:40:00Z"
+    },
+    {
+      "id": "mit-20260213-003",
+      "title": "US DHS Using AI Video Generators for Public Content: Trust Crisis",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "US DHS using AI video generators from Google and Adobe to create public-facing content. Raises concerns about government AI-generated media and institutional trust erosion.",
+        "keywords": [
+          "AI",
+          "government",
+          "deepfake",
+          "trust",
+          "DHS"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-12T23:40:00Z"
+    },
+    {
+      "id": "nature-20260213-001",
+      "title": "Quantum Error Correction Breakthrough: Lattice Surgery Enables Continuous Computation",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/news",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "New experiment demonstrates quantum operations while continuously fixing errors using lattice surgery to split protected qubits into entangled ones. Major step toward fault-tolerant quantum computing.",
+        "keywords": [
+          "quantum computing",
+          "error correction",
+          "lattice surgery",
+          "fault-tolerant"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:41:00Z"
+    },
+    {
+      "id": "nature-20260213-002",
+      "title": "AI Agents Launch Own Social Media Platform and Preprint Server",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/news",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "AI agents now have their own social media platform and publish AI-generated research papers on their own preprint server. Fundamental questions about AI autonomy and scientific publishing.",
+        "keywords": [
+          "AI agents",
+          "autonomous AI",
+          "scientific publishing"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:41:00Z"
+    },
+    {
+      "id": "nature-20260213-003",
+      "title": "Seven Technologies to Watch in 2026: Quantum, mRNA, BCIs",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00188-6",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Nature highlights quantum computing, mRNA therapeutics, brain-computer interfaces as transformative technologies reaching critical milestones in 2026.",
+        "keywords": [
+          "technology forecast",
+          "quantum",
+          "mRNA",
+          "BCI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:41:00Z"
+    },
+    {
+      "id": "who-20260213-001",
+      "title": "WHO Pandemic Agreement Negotiations Resume: 5th Working Group Meeting",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Fifth Intergovernmental Working Group meeting on WHO Pandemic Agreement Feb 9-14. Six years after COVID-19 alarm, WHO warns pandemic preparedness progress remains fragile.",
+        "keywords": [
+          "pandemic agreement",
+          "WHO",
+          "pandemic preparedness"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:42:00Z"
+    },
+    {
+      "id": "who-20260213-002",
+      "title": "WHO Launches $1B 2026 Appeal for 36 Global Health Emergencies",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/03-02-2026",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "WHO seeks $1 billion for 36 emergencies worldwide including 14 Grade 3 emergencies. Signals growing scale of global health crisis burden.",
+        "keywords": [
+          "WHO",
+          "health emergencies",
+          "humanitarian funding"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-12T23:42:00Z"
+    },
+    {
+      "id": "un-20260213-001",
+      "title": "UN: AI Moving at Speed of Light — Calls for Independent Scientific Panel",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/en/story/2026/02/1166891",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "UN GA to decide on Independent International Scientific Panel on AI. Guterres warns AI moving at speed of light, calls for urgent governance.",
+        "keywords": [
+          "UN",
+          "AI governance",
+          "scientific panel",
+          "Guterres"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:42:00Z"
+    },
+    {
+      "id": "un-20260213-002",
+      "title": "Global Economy Slowing to 2.7% Growth in 2026 Amid Trade Tensions",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://unctad.org/publication/world-economic-situation-and-prospects-2026",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Global economy resilient but clouded by trade tensions, fiscal strains. Growth to 2.7% in 2026. Europe weak, high debt constrains developing economies.",
+        "keywords": [
+          "global economy",
+          "trade tensions",
+          "growth slowdown"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-12T23:42:00Z"
+    },
+    {
+      "id": "un-20260213-003",
+      "title": "New START Nuclear Treaty Expires: No Bilateral Arms Control for First Time in 50 Years",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://www.cfr.org/reports/conflicts-watch-2026",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "New START expires Feb 2026. US-Russia without bilateral arms control for first time in 50+ years. Nuclear proliferation and strategic instability risks surge.",
+        "keywords": [
+          "nuclear arms",
+          "New START",
+          "Russia",
+          "US",
+          "nonproliferation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:43:00Z"
+    },
+    {
+      "id": "carbon-20260213-001",
+      "title": "US Federal Judge Rules Secret Climate Panel Unlawful",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/debriefed-6-february-2026/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Federal judge rules DOE violated law handpicking climate science deniers for secret government report. Legal challenge to anti-science climate policy.",
+        "keywords": [
+          "climate science",
+          "DOE",
+          "legal ruling",
+          "climate denial"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-12T23:43:00Z"
+    },
+    {
+      "id": "carbon-20260213-002",
+      "title": "US Withdrawal Aftershocks: Biodiversity Risks, Deep-Sea Mining Tensions",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/cropped-11-february-2026/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "US withdrawal from climate agreements creating aftershocks in biodiversity protection and business risk. Deep-sea mining tensions escalate.",
+        "keywords": [
+          "US withdrawal",
+          "biodiversity",
+          "deep-sea mining"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-12T23:43:00Z"
+    },
+    {
+      "id": "nasa-20260213-001",
+      "title": "NASA Climate Satellites Face Shutdown Orders from Trump Administration",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/climate-change/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Trump admin directs NASA to prepare shutdown plans for CO2 and plant health monitoring satellites. Vital scientific data at risk.",
+        "keywords": [
+          "NASA",
+          "climate satellites",
+          "CO2 monitoring",
+          "science defunding"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-12T23:44:00Z"
+    },
+    {
+      "id": "nasa-20260213-002",
+      "title": "Global Warming Accelerates to 0.25C/Decade: 10 Hiroshima Bombs Per Second in Oceans",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2026/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Warming rate changed from -0.03C/decade in 1970 to 0.25C/decade in 2025. Oceans absorbed energy equivalent to 10 Hiroshima bombs per second in 2025.",
+        "keywords": [
+          "global warming",
+          "ocean heat",
+          "climate acceleration"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-12T23:44:00Z"
+    },
+    {
+      "id": "ieee-20260213-001",
+      "title": "AutoFlight Unveils World's Largest 5-Ton eVTOL Air Taxi 'Matrix'",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "AutoFlight reveals 5-ton Matrix eVTOL, world's largest air taxi. China leads eVTOL commercialization with EHang first to receive commercial certification.",
+        "keywords": [
+          "eVTOL",
+          "air taxi",
+          "AutoFlight",
+          "urban mobility"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:44:00Z"
+    },
+    {
+      "id": "ieee-20260213-002",
+      "title": "Fusion Energy: D-T Fuel Cycle Demo Planned Operational Late 2026",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/new-technology-2026",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "First deuterium-tritium fuel cycle demonstration project plans to be operational by late 2026. Major milestone toward commercial fusion power.",
+        "keywords": [
+          "fusion energy",
+          "deuterium-tritium",
+          "energy transition"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:44:00Z"
+    },
+    {
+      "id": "imf-20260213-001",
+      "title": "IMF: Global Growth 3.3% for 2026, Technology Investment Offsets Trade Shifts",
+      "source": {
+        "name": "IMF Blog",
+        "type": "blog",
+        "url": "https://www.imf.org/en/publications/weo/issues/2026/01/19/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "IMF projects 3.3% global growth. Technology investment and fiscal support offset trade policy shifts. US inflation returns to target more gradually.",
+        "keywords": [
+          "IMF",
+          "global growth",
+          "monetary policy",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-12T23:45:00Z"
+    },
+    {
+      "id": "imf-20260213-002",
+      "title": "Central Banks Shift to Easing: ECB, BoE, BoC Cut Rates Early 2026",
+      "source": {
+        "name": "IMF Blog",
+        "type": "blog",
+        "url": "https://www.imf.org/en/publications/weo",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Global monetary policy shifts from tightening to easing. ECB cut 25bp Jan, BoE Feb, BoC March. G20 inflation expected to moderate to 2.8%.",
+        "keywords": [
+          "monetary policy",
+          "rate cuts",
+          "ECB",
+          "central banks"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-12T23:45:00Z"
+    },
+    {
+      "id": "bis-20260213-001",
+      "title": "BIS-BoE-ECB-IMF Conference: Trade and Financial Fragmentation Risks",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.ecb.europa.eu/press/conferences/html/20260428_spilloverconference.en.html",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "BIS, BoE, ECB, IMF convening on trade/financial system reshaping and fragmentation risks to fiscal sustainability.",
+        "keywords": [
+          "BIS",
+          "financial fragmentation",
+          "trade system"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-12T23:45:00Z"
+    },
+    {
+      "id": "oecd-20260213-001",
+      "title": "OECD: Global Growth Cooling to 2.9% — US 1.7%, China 4.4%",
+      "source": {
+        "name": "OECD Newsroom",
+        "type": "policy",
+        "url": "https://www.oecd.org/en/about/news/press-releases/2025/12/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "OECD projects global growth slowing to 2.9% in 2026. US GDP to 1.7%, China to 4.4%. G20 inflation to moderate to 2.8%.",
+        "keywords": [
+          "OECD",
+          "GDP",
+          "growth",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-12T23:45:00Z"
+    },
+    {
+      "id": "patent-20260213-001",
+      "title": "USPTO Expands AI Patent Eligibility Under Director Squires",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://www.gtlaw.com/en/insights/2026/01/ai-patent-outlook-for-2026",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "USPTO Director Squires implements expansive AI patent interpretations. Physical AI and robotics filings grow. NVIDIA, LG, Intel lead.",
+        "keywords": [
+          "USPTO",
+          "AI patents",
+          "patent policy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:46:00Z"
+    },
+    {
+      "id": "patent-20260213-002",
+      "title": "BCI Patent Surge: Neuralink, Synchron, Blackrock Advance Clinical Devices",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://parolaanalytics.com/blog/2026-tech-trends-patent-report/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "BCI patent filings accelerate. Neuralink, Synchron, Blackrock, Paradromics advance implantable devices for speech, motor control, sight restoration.",
+        "keywords": [
+          "BCI",
+          "brain-computer interface",
+          "Neuralink",
+          "neurotechnology"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:46:00Z"
+    },
+    {
+      "id": "patent-20260213-003",
+      "title": "Satellite-to-Device Network Patents: Qualcomm, Huawei Lead NTN Filings",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://parolaanalytics.com/blog/2026-tech-trends-patent-report/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Satellite connectivity patent surge. Qualcomm, Huawei, Samsung lead satellite-ready chipsets and NTN protocol filings.",
+        "keywords": [
+          "satellite",
+          "NTN",
+          "Qualcomm",
+          "connectivity"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:46:00Z"
+    },
+    {
+      "id": "crispr-20260213-001",
+      "title": "CRISPR Gene Activation Without DNA Cutting: Safer Therapeutic Path",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "UNSW CRISPR technology turns genes on without cutting DNA. Safer gene therapy for Sickle Cell disease via fetal blood gene reactivation.",
+        "keywords": [
+          "CRISPR",
+          "gene editing",
+          "epigenetics",
+          "sickle cell"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:47:00Z"
+    },
+    {
+      "id": "crispr-20260213-002",
+      "title": "AI-CRISPR Integration: New Phase of Biological Innovation",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.globenewswire.com/news-release/2026/02/10/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "AI-driven pattern recognition as foundational layer for CRISPR innovation. AI guides target discovery, reduces trial-and-error, expands economic viability of gene editing.",
+        "keywords": [
+          "AI",
+          "CRISPR",
+          "genomics",
+          "biotech"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:47:00Z"
+    },
+    {
+      "id": "eu-20260213-001",
+      "title": "EU AI Act High-Risk Obligations Fully Applicable August 2026",
+      "source": {
+        "name": "EUR-Lex Recent Acts",
+        "type": "policy",
+        "url": "https://sumsub.com/blog/comprehensive-guide-to-ai-laws-and-regulations-worldwide/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "EU AI Act imposing binding obligations on high-risk and general-purpose AI systems. Full applicability August 2026. US states accelerate parallel legislation.",
+        "keywords": [
+          "EU AI Act",
+          "AI regulation",
+          "compliance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:47:00Z"
+    },
+    {
+      "id": "eu-20260213-002",
+      "title": "EU DMA Review May 2026: Tougher Enforcement Despite US Pressure",
+      "source": {
+        "name": "EUR-Lex Recent Acts",
+        "type": "policy",
+        "url": "https://europeanbusinessmagazine.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "EU stepping up DMA and DSA enforcement in 2026 despite US retaliation warnings. DMA review required by May 2026.",
+        "keywords": [
+          "DMA",
+          "EU",
+          "digital regulation",
+          "Big Tech"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:47:00Z"
+    },
+    {
+      "id": "cbdc-20260213-001",
+      "title": "China e-CNY Interest-Bearing Wallets: Global First in CBDC",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "url": "https://www.piie.com/blogs/realtime-economics/2026/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "PBOC introduces interest-bearing e-CNY wallets with deposit insurance — global first. 137 countries exploring CBDCs, 49 pilot projects worldwide.",
+        "keywords": [
+          "CBDC",
+          "e-CNY",
+          "digital currency",
+          "China"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-12T23:48:00Z"
+    },
+    {
+      "id": "cbdc-20260213-002",
+      "title": "US GENIUS Act: Stablecoin Full Reserves and Audits Required Q1 2026",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "url": "https://www.atlanticcouncil.org/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "US GENIUS Act establishes stablecoin regulatory framework. Full reserves and regular audits required Q1 2026. US prohibits federal CBDC but promotes stablecoins.",
+        "keywords": [
+          "stablecoin",
+          "GENIUS Act",
+          "crypto regulation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:48:00Z"
+    },
+    {
+      "id": "pew-20260213-001",
+      "title": "72% of Americans Rate Economy 'Fair or Poor' One Year Into Trump 2nd Term",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://ssrs.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "28% rate economy excellent/good vs 72% fair/poor. Persistent negative sentiment despite economic indicators. Public-policy perception gap deepens.",
+        "keywords": [
+          "public opinion",
+          "economy",
+          "US",
+          "sentiment"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-12T23:48:00Z"
+    },
+    {
+      "id": "pew-20260213-002",
+      "title": "48% of US Teens Say Social Media Mostly Negative: Up from 32% in 2022",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://brainmindsociety.org/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Nearly half of US teens (48%) see social media as mostly negative, up from 32% in 2022. Shifting generational attitudes toward digital platforms.",
+        "keywords": [
+          "social media",
+          "teens",
+          "mental health",
+          "Gen Z"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-12T23:48:00Z"
+    },
+    {
+      "id": "brookings-20260213-001",
+      "title": "AI Governance: From Voluntary Guidelines to Enforceable Standards 2026",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "url": "https://www.governance-intelligence.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "2026 marks transition from aspirational AI governance to enforceable standards. Regulators demand documentation of model development, risk assessment, accountability.",
+        "keywords": [
+          "AI governance",
+          "regulation",
+          "compliance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "worldbank-20260213-001",
+      "title": "831 Million in Extreme Poverty: World Bank Warns Eradication Could Take Decades",
+      "source": {
+        "name": "World Bank Blogs",
+        "type": "policy",
+        "url": "https://www.worldbank.org/en/topic/poverty",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "831M in extreme poverty (<$3/day), concentrated in Sub-Saharan Africa and conflict zones. Per capita income growth 2.8% insufficient. Eradication could take decades.",
+        "keywords": [
+          "poverty",
+          "World Bank",
+          "inequality",
+          "development"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "security-20260213-001",
+      "title": "Lazarus Group Fake Recruitment Campaign Targets npm and PyPI Developers",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://thehackernews.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "North Korea Lazarus Group orchestrating fake recruitment malware campaign in npm/PyPI. Codenamed graphalgo, active since May 2025. State-sponsored supply chain attack.",
+        "keywords": [
+          "cybersecurity",
+          "Lazarus Group",
+          "supply chain attack"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "security-20260213-002",
+      "title": "CTEM Shows 50% Better Attack Surface Visibility: Enterprise Security Paradigm Shift",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://thehackernews.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "128 enterprise study shows CTEM demonstrates 50% better attack surface visibility and 23-point higher solution adoption. Paradigm shift in enterprise cybersecurity.",
+        "keywords": [
+          "CTEM",
+          "cybersecurity",
+          "enterprise"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "geopolitics-20260213-001",
+      "title": "CFR: 5 High-Impact Conflicts for 2026 — Middle East and Nuclear Risks Dominate",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "url": "https://www.cfr.org/reports/conflicts-watch-2026",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Five high-likelihood high-impact conflict contingencies for 2026. Six Middle Eastern conflicts in top tiers. Ukraine infrastructure attacks intensify. 28 of 30 contingencies judged likely.",
+        "keywords": [
+          "geopolitics",
+          "conflict",
+          "Middle East",
+          "nuclear"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "space-20260213-001",
+      "title": "Artemis II: First Crewed Lunar Flight in 50+ Years",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.nasa.gov/2026-news-releases/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Artemis II 10-day crewed flight around Moon launching Feb 2026. Testing Orion life support, navigation, deep-space ops with humans aboard first time.",
+        "keywords": [
+          "Artemis II",
+          "Moon",
+          "NASA",
+          "space"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "fedregister-20260213-001",
+      "title": "EO on Iran, Burma Emergency, Atlantic Fishing Deregulation",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "EO 14382 on Iran threats. Burma national emergency continued. Atlantic fishing deregulation signals natural resource management shift.",
+        "keywords": [
+          "executive order",
+          "Iran",
+          "Burma",
+          "deregulation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "india-20260213-001",
+      "title": "India Budget: $2.2B for Carbon Capture, Renewables, Critical Minerals",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "India 2026 budget includes $2.2B for carbon capture, renewables support, critical mineral mining. Dual decarbonization and energy security strategy.",
+        "keywords": [
+          "India",
+          "carbon capture",
+          "renewables",
+          "energy policy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-12T23:49:00Z"
+    },
+    {
+      "id": "quantum-20260213-001",
+      "title": "Quantum-AI Achieves 97% Accuracy in Fusion Diagnostics",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://quantumzeitgeist.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Koopman-quantum ML framework achieves 97% accuracy in tokamak diagnostics. Applicable to fluid dynamics, climate modelling, financial analysis.",
+        "keywords": [
+          "quantum computing",
+          "AI",
+          "fusion",
+          "machine learning"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T23:50:00Z"
+    },
+    {
+      "id": "explore-20260213-wid-001",
+      "title": "World Inequality Report 2026: Top 10% Own 75% of Global Wealth While Bottom Half Holds Just 2%",
+      "source": {
+        "name": "World Inequality Database",
+        "type": "academic",
+        "url": "https://wid.world/news-article/world-inequality-report-2026-inequality-persist-at-a-very-extreme-level/",
+        "published_date": "2026-02-12",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The World Inequality Report 2026, edited by Lucas Chancel, Ricardo Gomez-Carrera, Rowaida Moshrif, and Thomas Piketty, reveals that global inequality persists at very extreme levels. The top 10% of the global population owns three-quarters (75%) of global wealth, while the bottom half holds only 2%. Carbon inequality mirrors wealth inequality: the poorest half accounts for only 3% of carbon emissions associated with private capital ownership, while the top 10% accounts for 77%. The report explores new dimensions including climate inequality, gender disparities, unequal access to human capital, asymmetries in the global financial system, and territorial divides reshaping democracies. It proposes a global taxation framework for multi-millionaires as a potential remedy.",
+        "keywords": [
+          "wealth inequality",
+          "carbon inequality",
+          "global taxation",
+          "Piketty",
+          "World Inequality Report 2026",
+          "economic justice"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "final_category": "E",
+      "classification_confidence": 0.96,
+      "classification_reasoning": "Flagship report on global wealth and income distribution, financial system asymmetries, and proposed taxation policy — core Economic domain with Social cross-impact.",
+      "collected_at": "2026-02-13T08:52:00Z",
+      "exploration_source": "World Inequality Database",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Economic",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "web_search + web_fetch",
+          "url_verified": true,
+          "content_freshness": "2026-02-12"
+        }
+      }
+    },
+    {
+      "id": "explore-20260213-darden-001",
+      "title": "AI Ethics Implementation Gap: 5 Years to Embed Ethics as Infrastructure Before It's Too Late",
+      "source": {
+        "name": "UVA Darden School (LaCross Institute)",
+        "type": "academic",
+        "url": "https://news.darden.virginia.edu/2026/01/22/ethics-is-the-defining-issue-for-the-future-of-ai-and-time-is-running-short/",
+        "published_date": "2026-01-22",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "UVA President Scott Beardsley warns that structural risks like bias, opacity, and concentration of power remain entrenched in AI systems despite proliferation of ethical frameworks. The next 5 years will determine whether ethics are embedded as infrastructure in AI or patched in too late at greater cost. Critical gap identified between 'AI ethics' (academic study) and 'ethical AI' (practical implementation). EU AI Act fully in force 2026 while US offers only partial guidance, creating regulatory fragmentation. Small errors scale into systemic harms when organizations rush to deploy. LaCross Institute reframes ethics as strategic advantage: ethical AI builds consumer trust, brand loyalty, and mitigates legal/regulatory risks.",
+        "keywords": [
+          "AI ethics",
+          "implementation gap",
+          "EU AI Act",
+          "bias",
+          "accountability",
+          "regulatory fragmentation",
+          "ethical infrastructure"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "final_category": "s",
+      "classification_confidence": 0.94,
+      "classification_reasoning": "Addresses fundamental values question of how society embeds ethics into AI — core spiritual/values domain (ethics, psychology, meaning of responsible technology). Political cross-impact through regulatory analysis.",
+      "collected_at": "2026-02-13T08:53:00Z",
+      "exploration_source": "UVA Darden School",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "s_spiritual"
+    },
+    {
+      "id": "explore-20260213-csr-001",
+      "title": "Synthetic Biology + AI Convergence Governance: Standards and Global Oversight Urgently Needed for 2026",
+      "source": {
+        "name": "Council on Strategic Risks",
+        "type": "policy",
+        "url": "https://councilonstrategicrisks.org/2025/12/22/2025-aixbio-wrapped-a-year-in-review-and-projections-for-2026/",
+        "published_date": "2025-12-22",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The Council on Strategic Risks' AIxBio program identifies critical governance gaps at the convergence of AI and synthetic biology. OECD framework proposes 5-pillar co-evolutionary governance: R&D promotion through biofoundries, strategic intelligence for biosecurity risk monitoring, stakeholder engagement for public trust, agile data-driven regulation (not rigid precautionary measures), and international cooperation via networks like iGEM and Global Biofoundry Alliance. Regulatory disparities persist: US/UK use risk-based frameworks for faster commercialization while South Korea applies existing LMO regulations constraining biofoundry efficiency. UK Precision Breeding Act exempts certain gene-edited organisms from traditional requirements. FY2026 NDAA includes biotech/biosecurity provisions requiring biological data be AI-ready. Scientists bear responsibility for considering institutional conditions and ensuring accountability.",
+        "keywords": [
+          "synthetic biology governance",
+          "AI-bio convergence",
+          "biosecurity",
+          "OECD framework",
+          "biofoundries",
+          "gene editing regulation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "final_category": "s",
+      "classification_confidence": 0.91,
+      "classification_reasoning": "Ethics and governance of synthetic biology — fundamental values question about creating and governing engineered life. Spiritual/values domain (bioethics, accountability for scientific power). Political and Technological cross-impacts.",
+      "collected_at": "2026-02-13T08:54:00Z",
+      "exploration_source": "Council on Strategic Risks",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "synthetic biology ethics governance"
+    },
+    {
+      "id": "explore-20260213-caixabank-001",
+      "title": "Global Economy 2026: US Tariffs Stabilize at 14.5-16% as AI Investment Nears $3 Trillion by 2030",
+      "source": {
+        "name": "CaixaBank Research",
+        "type": "blog",
+        "url": "https://www.caixabankresearch.com/en/economics-markets/activity-growth/world-economy-2026-resilience-transition-or-disruption",
+        "published_date": "2026-02-10",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "CaixaBank Research projects 2026 global growth at approximately 3% cruising speed, with sharp regional disparities: Asia 4.5%, US 1.8%, Europe 1.3%. Average US tariffs have stabilized at 14.5-16% (up from 2.5% pre-Trump), representing a structural protectionist shift. Tech firms plan nearly $3 trillion in AI-related investment by 2030 (approximately 10% of GDP), raising concerns about circular financing structures and return justification. IMF projects US public debt reaching 143% of GDP by 2030 with deficit not falling below 7%. EU-ASEAN-Canada-Australia trade links may partly offset effects of reduced US openness. Geo-economics has become an instrument of political strategy as China challenges post-WWII US-led economic order.",
+        "keywords": [
+          "global GDP forecast",
+          "trade tariffs",
+          "AI investment",
+          "US debt",
+          "geoeconomics",
+          "trade fragmentation",
+          "European economic outlook"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "final_category": "E",
+      "classification_confidence": 0.97,
+      "classification_reasoning": "Comprehensive macroeconomic analysis with GDP forecasts, tariff data, investment flows, and debt projections — core Economic domain. Political cross-impact through geoeconomics.",
+      "collected_at": "2026-02-13T08:55:00Z",
+      "exploration_source": "CaixaBank Research",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Economic"
+    },
+    {
+      "id": "explore-20260213-cmu-001",
+      "title": "CMU Study: AI Music Less Creative Than Human Compositions — Fewer Notes, Lower Originality Ratings",
+      "source": {
+        "name": "Carnegie Mellon University News",
+        "type": "academic",
+        "url": "https://www.cmu.edu/news/stories/archives/2026/january/as-ai-generated-music-advances-humans-still-lead-in-creativity-cmu-research-finds",
+        "published_date": "2026-01-28",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Carnegie Mellon University study with 140 musically trained participants found AI-generated music is significantly less creative than human compositions. Half of participants used Udio (AI music generator) while the other half composed independently. AI compositions were slower in tempo, used fewer notes, and were rated significantly less creative by independent evaluators. Researchers warn these tools are developed 'with the promise of improving creativity or having social benefit — so if they are not helping, that has important implications.' Fundamental distinction identified: humans create music from personal experiences and inspirations, creating relationships between music, artist and listener that AI cannot replicate. Industry trend: AI platforms increasingly offer stem generation, MIDI exports, and multitrack editing — shifting from autonomous creation to human-centered collaboration tools.",
+        "keywords": [
+          "AI music",
+          "creativity research",
+          "human-AI collaboration",
+          "Udio",
+          "music generation",
+          "artistic authenticity",
+          "CMU"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "final_category": "S",
+      "classification_confidence": 0.89,
+      "classification_reasoning": "Study on human creativity vs AI in music — Social domain (education, cultural production, labor implications for creative workers). Spiritual/values cross-impact (meaning and authenticity in art). Technological cross-impact (AI capabilities).",
+      "collected_at": "2026-02-13T08:56:00Z",
+      "exploration_source": "CMU News",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "music and artificial intelligence"
+    }
+  ]
+}

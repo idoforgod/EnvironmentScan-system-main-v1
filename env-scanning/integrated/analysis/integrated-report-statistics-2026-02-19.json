@@ -1,0 +1,24 @@
+{
+  "engine_version": "1.3.0",
+  "computed_at": "2026-02-20T00:53:27Z",
+  "workflow_type": "integrated",
+  "mode": "integrated_evolution",
+  "evolution_maps_loaded": 0,
+  "cross_evolution_loaded": false,
+  "placeholders": {
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "N/A",
+    "EVOLUTION_TABLE_WEAKENING": "N/A",
+    "INT_EVOLUTION_CROSS_TABLE": "No cross-evolution data"
+  }
+}

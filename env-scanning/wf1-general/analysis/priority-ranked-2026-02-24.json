@@ -1,0 +1,199 @@
+{
+  "analysis_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-02-24",
+    "total_signals_analyzed": 35,
+    "signals_after_dedup": 35,
+    "duplicates_removed": 0,
+    "category_distribution": {
+      "T": 9,
+      "E": 6,
+      "E_Environmental": 3,
+      "P": 9,
+      "S": 4,
+      "s": 4
+    }
+  },
+  "priority_ranked_signals": [
+    {
+      "rank": 1,
+      "id": "websearch-20260224-009",
+      "title": "New START Nuclear Treaty Expires: US-Russia Without Bilateral Arms Control for First Time in 50+ Years",
+      "category": "P",
+      "pSST": 92,
+      "impact_score": 95,
+      "probability": 100,
+      "urgency": 100,
+      "novelty": 70,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 2,
+      "id": "websearch-20260224-001",
+      "title": "Triplet Superconductor Discovery Opens Path to Zero-Power Quantum Computing",
+      "category": "T",
+      "pSST": 88,
+      "impact_score": 90,
+      "probability": 65,
+      "urgency": 70,
+      "novelty": 95,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 3,
+      "id": "websearch-20260224-005",
+      "title": "Planet Conclusively Expected to Breach 1.5°C Barrier Within 3-5 Years",
+      "category": "E_Environmental",
+      "pSST": 87,
+      "impact_score": 95,
+      "probability": 90,
+      "urgency": 85,
+      "novelty": 60,
+      "evolution_state": "STRENGTHENING"
+    },
+    {
+      "rank": 4,
+      "id": "websearch-20260224-012",
+      "title": "WHO Warns Global Health Systems 'At Risk' as International Aid Funding Cuts Bite",
+      "category": "S",
+      "pSST": 85,
+      "impact_score": 90,
+      "probability": 95,
+      "urgency": 90,
+      "novelty": 65,
+      "evolution_state": "STRENGTHENING"
+    },
+    {
+      "rank": 5,
+      "id": "websearch-20260224-008",
+      "title": "Agentic AI in Banking: Systems Moving from Assistance to Transactional Authority",
+      "category": "E",
+      "pSST": 84,
+      "impact_score": 85,
+      "probability": 80,
+      "urgency": 75,
+      "novelty": 85,
+      "evolution_state": "STRENGTHENING"
+    },
+    {
+      "rank": 6,
+      "id": "websearch-20260224-015",
+      "title": "DeepSeek R1 Open-Source Reasoning Model Reshapes AI Landscape from China",
+      "category": "T",
+      "pSST": 83,
+      "impact_score": 85,
+      "probability": 90,
+      "urgency": 80,
+      "novelty": 80,
+      "evolution_state": "RECURRING"
+    },
+    {
+      "rank": 7,
+      "id": "websearch-20260224-006",
+      "title": "EU Carbon Border Adjustment Mechanism (CBAM) Begins Imposing Costs on Carbon-Intensive Imports",
+      "category": "P",
+      "pSST": 82,
+      "impact_score": 85,
+      "probability": 100,
+      "urgency": 85,
+      "novelty": 55,
+      "evolution_state": "RECURRING"
+    },
+    {
+      "rank": 8,
+      "id": "websearch-20260224-021",
+      "title": "Real-World Asset Tokenization Pivots from Pilots to Active Global Markets in 2026",
+      "category": "E",
+      "pSST": 81,
+      "impact_score": 80,
+      "probability": 85,
+      "urgency": 75,
+      "novelty": 80,
+      "evolution_state": "STRENGTHENING"
+    },
+    {
+      "rank": 9,
+      "id": "websearch-20260224-018",
+      "title": "The 'Soul Gap': AI Mirrors Human Cognition, Triggering Civilizational Identity Crisis",
+      "category": "s",
+      "pSST": 79,
+      "impact_score": 75,
+      "probability": 70,
+      "urgency": 60,
+      "novelty": 95,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 10,
+      "id": "websearch-20260224-010",
+      "title": "Global Political Risk Reaches Historic Tipping Point at 41.1% — Coface Index",
+      "category": "P",
+      "pSST": 78,
+      "impact_score": 80,
+      "probability": 100,
+      "urgency": 85,
+      "novelty": 60,
+      "evolution_state": "STRENGTHENING"
+    },
+    {
+      "rank": 11,
+      "id": "websearch-20260224-003",
+      "title": "Tesla Plans 50,000 Optimus Humanoid Robots at $20K-$30K Price Point in 2026",
+      "category": "T",
+      "pSST": 77,
+      "impact_score": 80,
+      "probability": 70,
+      "urgency": 65,
+      "novelty": 75,
+      "evolution_state": "RECURRING"
+    },
+    {
+      "rank": 12,
+      "id": "websearch-20260224-019",
+      "title": "AI Ethics Governance 2026: Autonomy Thresholds and Algorithmic Accountability on Legislative Agenda",
+      "category": "s",
+      "pSST": 76,
+      "impact_score": 75,
+      "probability": 80,
+      "urgency": 70,
+      "novelty": 70,
+      "evolution_state": "STRENGTHENING"
+    },
+    {
+      "rank": 13,
+      "id": "websearch-20260224-014",
+      "title": "Microsoft Blueprint for Verifying Real vs AI-Generated Content Online",
+      "category": "T",
+      "pSST": 75,
+      "impact_score": 75,
+      "probability": 85,
+      "urgency": 70,
+      "novelty": 70,
+      "evolution_state": "NEW"
+    },
+    {
+      "rank": 14,
+      "id": "websearch-20260224-007",
+      "title": "Global Output Projected to Slow to 2.7% in 2026 Below Pre-Pandemic Average",
+      "category": "E",
+      "pSST": 74,
+      "impact_score": 80,
+      "probability": 90,
+      "urgency": 75,
+      "novelty": 45,
+      "evolution_state": "RECURRING"
+    },
+    {
+      "rank": 15,
+      "id": "websearch-20260224-011",
+      "title": "DHS Overhauls H-1B Visa Selection: Prioritizing Higher-Skilled and Higher-Paid Workers Over Lottery",
+      "category": "P",
+      "pSST": 73,
+      "impact_score": 70,
+      "probability": 100,
+      "urgency": 90,
+      "novelty": 65,
+      "evolution_state": "NEW"
+    }
+  ]
+}

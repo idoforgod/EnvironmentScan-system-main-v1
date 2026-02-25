@@ -1,0 +1,4010 @@
+{
+  "analysis_date": "2026-02-06",
+  "fssf_hints": [
+    {
+      "signal_id": "naver-20260206-100-001",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-002",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-003",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-004",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-005",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-006",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-007",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-008",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-009",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-010",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-011",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-012",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-013",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-014",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-015",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-016",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-017",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-018",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-019",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-020",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-021",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-022",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-023",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-024",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-025",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-026",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-027",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-028",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-029",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-030",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-031",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-032",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-033",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-034",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-035",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-036",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-037",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-038",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-039",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-040",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-041",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H3",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-042",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-043",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-044",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-045",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-100-046",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-047",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-048",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-049",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-050",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-051",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-052",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.7,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-053",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-054",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-055",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-056",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-057",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-058",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-059",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-060",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-061",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-062",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-063",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-064",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-065",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-066",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-067",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-068",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-069",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-070",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-071",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-072",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-073",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-074",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-075",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-076",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-077",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-078",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-079",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H2",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-080",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-081",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-082",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-083",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-084",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-085",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-086",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": true,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-087",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-088",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-089",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-090",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-091",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-101-092",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-093",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-094",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-095",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.7,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-096",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-097",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-098",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-099",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-100",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-101",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-102",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-103",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-104",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-105",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-106",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-107",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-108",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.8,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-109",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-110",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-111",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-112",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-113",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-114",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-115",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-116",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-117",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-118",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-119",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-120",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-121",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-122",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-123",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-124",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-125",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-126",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-127",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-128",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-129",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-130",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-131",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-132",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-133",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-134",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-135",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.7,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-136",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-137",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-102-138",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-139",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.7,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-140",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-141",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-142",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-143",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-144",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-145",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-146",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-147",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-148",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-149",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-150",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-151",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-152",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-153",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-154",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-155",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-156",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.7,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-157",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-158",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-159",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-160",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-161",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-162",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-163",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-164",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-165",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-166",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-167",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-168",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-169",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-170",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-171",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-172",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-173",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-174",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-175",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-176",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-103-177",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": true,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-178",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-179",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-180",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-181",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-182",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H3",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-183",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-184",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-185",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-186",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-187",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-188",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-189",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-190",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-191",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-192",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-193",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-194",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H2",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-195",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-196",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-197",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-198",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-199",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-200",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-201",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-202",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-203",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-204",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-205",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-206",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-207",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-208",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 4
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-209",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-210",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-211",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-212",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H3",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-213",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-214",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-215",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-216",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-217",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-218",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-219",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-220",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-221",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-222",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-104-223",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-224",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-225",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-226",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-227",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.9,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-228",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-229",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-230",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-231",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-232",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-233",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-234",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-235",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-236",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-237",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-238",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-239",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-240",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-241",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-242",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-243",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-244",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-245",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-246",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-247",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H2",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-248",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-249",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-250",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-251",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-252",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H3",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-253",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H2",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-254",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-255",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-256",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-257",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.8,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-258",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 2
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-259",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 3
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-260",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-261",
+      "suggested_fssf": "Precursor Event",
+      "fssf_confidence": 0.7,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": true,
+        "is_first_occurrence": true,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-262",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-263",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-264",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-265",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.4,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-266",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    },
+    {
+      "signal_id": "naver-20260206-105-267",
+      "suggested_fssf": "Weak Signal",
+      "fssf_confidence": 0.6,
+      "suggested_horizon": "H1",
+      "horizon_confidence": 0.6,
+      "hints": {
+        "source_count": 1,
+        "historical_frequency": 0.0,
+        "is_event": false,
+        "is_first_occurrence": false,
+        "breaks_pattern": false,
+        "cross_steeps_count": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-15",
+    "workflow": "wf1-general",
+    "total_ranked": 53,
+    "method": "pSST_unified",
+    "weights": {
+      "impact": 0.40,
+      "probability": 0.30,
+      "urgency": 0.20,
+      "novelty": 0.10
+    },
+    "exploration_signals_included": 8,
+    "exploration_sources": ["Inside Climate News", "Mongabay", "STAT News", "DigitalFoodLab"]
+  },
+  "priority_ranked_signals": [
+    {
+      "rank": 1,
+      "id": "epa-20260215-013",
+      "title": "EPA revokes CO2 endangerment finding — largest deregulation in US history",
+      "steeps": "P",
+      "psst_score": 94,
+      "impact_score": "9.5/10",
+      "rationale": "Eliminates the central legal basis for all US federal climate regulation. Cascading global impact on climate governance, trade policy, and energy markets. Affects every sector of the economy."
+    },
+    {
+      "rank": 2,
+      "id": "techcrunch-20260215-001",
+      "title": "Anthropic closes in on $20B round at $350B valuation",
+      "steeps": "T",
+      "psst_score": 92,
+      "impact_score": "9.0/10",
+      "rationale": "Signals continued exponential growth in foundational AI investment. $350B valuation exceeds many traditional industry leaders, indicating AI sector's massive capital absorption."
+    },
+    {
+      "rank": 3,
+      "id": "security-20260215-024",
+      "title": "Last US-Russia nuclear arms control treaty set to expire",
+      "steeps": "P",
+      "psst_score": 91,
+      "impact_score": "9.5/10",
+      "rationale": "Expiration of the last nuclear arms control framework between superpowers fundamentally changes the global security architecture, coinciding with Ukraine war escalation."
+    },
+    {
+      "rank": 4,
+      "id": "un-20260215-016",
+      "title": "UN declares dawn of global water bankruptcy",
+      "steeps": "E_Environmental",
+      "psst_score": 90,
+      "impact_score": "9.0/10",
+      "rationale": "Global water crisis declaration represents a critical sustainability threshold affecting agriculture, energy production, and human settlements worldwide."
+    },
+    {
+      "rank": 5,
+      "id": "quantum-20260215-035",
+      "title": "IBM: 2026 marks first quantum computer outperforming classical",
+      "steeps": "T",
+      "psst_score": 89,
+      "impact_score": "8.5/10",
+      "rationale": "Quantum advantage milestone will disrupt cryptography, drug discovery, materials science, and financial modeling. Near-term commercialization implications."
+    },
+    {
+      "rank": 6,
+      "id": "geopolitics-20260215-023",
+      "title": "Geoeconomic confrontation identified as world's top threat",
+      "steeps": "P",
+      "psst_score": 88,
+      "impact_score": "8.5/10",
+      "rationale": "Systemic shift from military to economic statecraft as primary geopolitical weapon. Trade, sanctions, and industrial policy reshaping global economic order."
+    },
+    {
+      "rank": 7,
+      "id": "climate-20260215-014",
+      "title": "China clean energy drove one-third of 2025 GDP growth ($2.1T)",
+      "steeps": "E",
+      "psst_score": 87,
+      "impact_score": "8.5/10",
+      "rationale": "Clean energy as primary economic growth driver demonstrates green transition's economic viability at scale. Reshapes global energy competition dynamics."
+    },
+    {
+      "rank": 8,
+      "id": "mittr-20260215-007",
+      "title": "Personalized gene-editing: Baby KJ first recipient",
+      "steeps": "T",
+      "psst_score": 87,
+      "impact_score": "8.5/10",
+      "rationale": "First personalized gene therapy represents a paradigm shift in medicine — from one-size-fits-all to individualized genetic treatments. Ethical and regulatory implications massive."
+    },
+    {
+      "rank": 9,
+      "id": "eu-20260215-025",
+      "title": "EU AI Act delayed: high-risk obligations deferred to December 2027",
+      "steeps": "P",
+      "psst_score": 86,
+      "impact_score": "8.0/10",
+      "rationale": "EU's delay in implementing AI regulation creates a critical regulatory gap during rapid AI scaling. US-EU divergence in AI governance approaches widens."
+    },
+    {
+      "rank": 10,
+      "id": "labor-20260215-043",
+      "title": "US-born labor force to shrink: GDP growth impossible without immigration",
+      "steeps": "S",
+      "psst_score": 85,
+      "impact_score": "8.0/10",
+      "rationale": "Structural demographic shift threatens economic growth model. Collides with immigration restriction policies, creating a fundamental policy contradiction."
+    },
+    {
+      "rank": 11,
+      "id": "ieee-20260215-018",
+      "title": "First D-T fusion fuel cycle demonstration planned for late 2026",
+      "steeps": "T",
+      "psst_score": 85,
+      "impact_score": "8.0/10",
+      "rationale": "Most critical milestone for practical fusion energy. If successful, fundamentally changes the long-term energy landscape and climate mitigation calculus."
+    },
+    {
+      "rank": 12,
+      "id": "ieee-20260215-017",
+      "title": "Neuralink Blindsight: brain implant for vision restoration in humans",
+      "steeps": "T",
+      "psst_score": 84,
+      "impact_score": "8.0/10",
+      "rationale": "Direct neural interface for sensory restoration represents a major BCI milestone with implications for disability, neurotechnology regulation, and human enhancement."
+    },
+    {
+      "rank": 13,
+      "id": "coral-20260215-029",
+      "title": "Half of world's coral reefs damaged: $9.8 trillion ecosystem at risk",
+      "steeps": "E_Environmental",
+      "psst_score": 84,
+      "impact_score": "8.0/10",
+      "rationale": "Coral reef collapse threatens marine biodiversity and coastal economies worth $9.8T annually. Irreversible damage with cascading ecological consequences."
+    },
+    {
+      "rank": 14,
+      "id": "explore-20260215-icn-001",
+      "title": "Maine Lakes: Shorter Ice Seasons Signal Water Quality Crisis",
+      "steeps": "E_Environmental",
+      "psst_score": 83,
+      "impact_score": "7.5/10",
+      "rationale": "Climate-driven ice season shortening threatens water quality through algal blooms, combining environmental degradation with cultural loss. Tangible localized evidence of systemic climate impacts.",
+      "exploration_source": true
+    },
+    {
+      "rank": 15,
+      "id": "climate-20260215-015",
+      "title": "Greenland warmest January: warming 4x faster than global average",
+      "steeps": "E_Environmental",
+      "psst_score": 83,
+      "impact_score": "7.5/10",
+      "rationale": "Arctic amplification accelerating beyond projections. Greenland ice melt contributes to sea level rise threatening coastal populations globally."
+    },
+    {
+      "rank": 16,
+      "id": "cyber-20260215-031",
+      "title": "North Korea UNC2970 using Google Gemini for cyber reconnaissance",
+      "steeps": "P",
+      "psst_score": 83,
+      "impact_score": "7.5/10",
+      "rationale": "State-sponsored use of commercial AI for offensive cyber operations opens new dimension of AI-enabled warfare. Raises urgent questions about dual-use AI governance."
+    },
+    {
+      "rank": 17,
+      "id": "explore-20260215-stat-001",
+      "title": "AAP Challenges Kennedy HHS Unlawful Vaccine Policy Changes",
+      "steeps": "S",
+      "psst_score": 82,
+      "impact_score": "7.5/10",
+      "rationale": "Institutional conflict between medical establishment and political appointees over vaccine policy represents a critical public health governance challenge with population-wide implications.",
+      "exploration_source": true
+    },
+    {
+      "rank": 18,
+      "id": "explore-20260215-mongabay-002",
+      "title": "Storm Nils: Deadly Floods in France as Extreme Weather Events Accelerate",
+      "steeps": "E_Environmental",
+      "psst_score": 81,
+      "impact_score": "7.5/10",
+      "rationale": "Deadly flooding in France confirms accelerating extreme weather pattern in Western Europe. Immediate human casualties underscore urgency of climate adaptation infrastructure.",
+      "exploration_source": true
+    },
+    {
+      "rank": 19,
+      "id": "explore-20260215-dfl-001",
+      "title": "AgriFoodTech Trends 2026: AI Reshaping Food System Innovation",
+      "steeps": "T",
+      "psst_score": 80,
+      "impact_score": "7.0/10",
+      "rationale": "AI transitioning from experimental add-on to essential food system infrastructure. Cross-sector transformation affecting food safety, agriculture, and supply chains.",
+      "exploration_source": true
+    },
+    {
+      "rank": 20,
+      "id": "explore-20260215-icn-002",
+      "title": "NYC Chief Climate Officer Signals Urban Climate Governance Paradigm Shift",
+      "steeps": "P",
+      "psst_score": 80,
+      "impact_score": "7.0/10",
+      "rationale": "Cities creating dedicated executive-level climate positions represents institutional innovation in climate governance, particularly relevant as federal climate action retreats.",
+      "exploration_source": true
+    },
+    {
+      "rank": 21,
+      "id": "explore-20260215-dfl-002",
+      "title": "Food Industry Losing Control of Its Future: 4 Warning Signals",
+      "steeps": "E",
+      "psst_score": 79,
+      "impact_score": "7.0/10",
+      "rationale": "Four data signals suggest food industry at inflection point with market share shifts, technology adoption gaps, and regulatory pressure converging to reshape the sector.",
+      "exploration_source": true
+    },
+    {
+      "rank": 22,
+      "id": "explore-20260215-mongabay-001",
+      "title": "Environmental Reporting Must Outlast the News Cycle: Africa Biodiversity",
+      "steeps": "E_Environmental",
+      "psst_score": 78,
+      "impact_score": "6.5/10",
+      "rationale": "Information asymmetry in African environmental reporting creates blind spots in global biodiversity monitoring. Signals need for expanded environmental information infrastructure.",
+      "exploration_source": true
+    },
+    {
+      "rank": 23,
+      "id": "explore-20260215-stat-002",
+      "title": "FDA Rejects Disc Medicine Rare Disease Therapy",
+      "steeps": "T",
+      "psst_score": 77,
+      "impact_score": "6.5/10",
+      "rationale": "FDA regulatory caution in rare disease space despite expedited pathways signals ongoing tension between innovation acceleration and safety standards in biotechnology.",
+      "exploration_source": true
+    },
+    {
+      "rank": 24,
+      "id": "mittr-20260215-006",
+      "title": "Mechanistic interpretability of AI models",
+      "steeps": "T",
+      "psst_score": 82,
+      "impact_score": "7.0/10",
+      "rationale": "AI interpretability research critical for safety and regulation. Understanding how AI models work internally is fundamental to trustworthy AI deployment."
+    },
+    {
+      "rank": 25,
+      "id": "mittr-20260215-005",
+      "title": "Sodium-ion batteries breakthrough",
+      "steeps": "T",
+      "psst_score": 81,
+      "impact_score": "7.0/10",
+      "rationale": "Alternative battery chemistry reduces lithium dependence and could democratize energy storage. Important for energy transition and supply chain diversification."
+    },
+    {
+      "rank": 26,
+      "id": "nvidia-20260215-030",
+      "title": "NVIDIA Rubin six-chip AI platform production",
+      "steeps": "T",
+      "psst_score": 80,
+      "impact_score": "7.0/10",
+      "rationale": "Next-generation AI infrastructure platform will define AI computing capabilities for the next cycle. Critical for maintaining AI development pace."
+    },
+    {
+      "rank": 27,
+      "id": "biotech-20260215-041",
+      "title": "CRISPR advancing xenotransplantation",
+      "steeps": "T",
+      "psst_score": 80,
+      "impact_score": "7.0/10",
+      "rationale": "CRISPR-edited pig organs for human transplant could address chronic organ shortage. Represents convergence of gene editing and transplant medicine."
+    },
+    {
+      "rank": 28,
+      "id": "robot-20260215-042",
+      "title": "MIT robot Relevance framework: 90% accuracy",
+      "steeps": "T",
+      "psst_score": 79,
+      "impact_score": "7.0/10",
+      "rationale": "Robot intent prediction enables safer human-robot collaboration. 90% accuracy milestone significant for industrial and service robotics deployment."
+    },
+    {
+      "rank": 29,
+      "id": "techcrunch-20260215-002",
+      "title": "Runway AI video startup raises $315M at $5.3B valuation",
+      "steeps": "T",
+      "psst_score": 78,
+      "impact_score": "7.0/10",
+      "rationale": "AI video generation investment surge reflects growing confidence in world models and generative AI content creation capabilities."
+    },
+    {
+      "rank": 30,
+      "id": "techcrunch-20260215-003",
+      "title": "Modal Labs AI inference in talks at $2.5B valuation",
+      "steeps": "T",
+      "psst_score": 77,
+      "impact_score": "6.5/10",
+      "rationale": "AI inference infrastructure becoming its own investment category, signaling maturation of AI deployment stack beyond training."
+    },
+    {
+      "rank": 31,
+      "id": "cisco-20260215-004",
+      "title": "Cisco Silicon One G300 for AI infrastructure",
+      "steeps": "T",
+      "psst_score": 76,
+      "impact_score": "6.5/10",
+      "rationale": "Networking infrastructure specifically designed for AI workloads indicates AI-driven transformation of enterprise networking architecture."
+    },
+    {
+      "rank": 32,
+      "id": "ieee-20260215-019",
+      "title": "Tensor Level 4 autonomous vehicle",
+      "steeps": "T",
+      "psst_score": 76,
+      "impact_score": "6.5/10",
+      "rationale": "Level 4 autonomous vehicle milestone advances toward full self-driving capability with implications for transportation, logistics, and urban planning."
+    },
+    {
+      "rank": 33,
+      "id": "security-20260215-032",
+      "title": "Passwordless authentication inflection point",
+      "steeps": "T",
+      "psst_score": 75,
+      "impact_score": "6.5/10",
+      "rationale": "Shift away from passwords represents fundamental change in digital identity and security architecture, especially urgent with quantum computing advances."
+    },
+    {
+      "rank": 34,
+      "id": "nature-20260215-027",
+      "title": "DMTF1 protein for brain cell rejuvenation",
+      "steeps": "T",
+      "psst_score": 75,
+      "impact_score": "6.5/10",
+      "rationale": "Brain cell rejuvenation mechanism discovery could transform neurodegenerative disease treatment. Early-stage but high potential impact."
+    },
+    {
+      "rank": 35,
+      "id": "quantum-20260215-036",
+      "title": "99.93% neutral-atom qubit readout fidelity",
+      "steeps": "T",
+      "psst_score": 75,
+      "impact_score": "6.5/10",
+      "rationale": "Near-perfect qubit readout is key requirement for quantum error correction. Enables practical quantum computing advancement."
+    },
+    {
+      "rank": 36,
+      "id": "patent-20260215-034",
+      "title": "BCI patent surge: Neuralink, Synchron lead",
+      "steeps": "T",
+      "psst_score": 74,
+      "impact_score": "6.5/10",
+      "rationale": "Patent surge indicates BCI industry transitioning from research to commercialization phase. Multiple companies competing signals market maturation."
+    },
+    {
+      "rank": 37,
+      "id": "wipo-20260215-044",
+      "title": "WIPO: Global innovation geography shifting",
+      "steeps": "T",
+      "psst_score": 73,
+      "impact_score": "6.0/10",
+      "rationale": "Shifting innovation geography reflects structural changes in global R&D capacity and technology leadership competition."
+    },
+    {
+      "rank": 38,
+      "id": "oecd-20260215-020",
+      "title": "OECD: global GDP cooling to 2.9%",
+      "steeps": "E",
+      "psst_score": 73,
+      "impact_score": "6.5/10",
+      "rationale": "Slowing global growth amid trade tensions and geopolitical uncertainty creates challenging environment for business and investment planning."
+    },
+    {
+      "rank": 39,
+      "id": "imf-20260215-021",
+      "title": "IMF: global growth steady at 3.3%",
+      "steeps": "E",
+      "psst_score": 72,
+      "impact_score": "6.0/10",
+      "rationale": "IMF assessment provides baseline economic outlook but highlights downside risks from trade policy and geopolitical tensions."
+    },
+    {
+      "rank": 40,
+      "id": "unctad-20260215-022",
+      "title": "Global economy slows; digital divide widens",
+      "steeps": "E",
+      "psst_score": 71,
+      "impact_score": "6.0/10",
+      "rationale": "Economic slowdown combined with widening digital divide threatens inclusive development and exacerbates Global South challenges."
+    },
+    {
+      "rank": 41,
+      "id": "patent-20260215-033",
+      "title": "US patents drop 9%; Asia holds 60% globally",
+      "steeps": "E",
+      "psst_score": 71,
+      "impact_score": "6.0/10",
+      "rationale": "US patent decline signals potential erosion of innovation leadership, while Asia's dominance reshapes global technology competition landscape."
+    },
+    {
+      "rank": 42,
+      "id": "ev-20260215-037",
+      "title": "EV marketplace Ever raises $31M",
+      "steeps": "E",
+      "psst_score": 70,
+      "impact_score": "5.5/10",
+      "rationale": "EV marketplace investment signals maturation of EV ecosystem beyond manufacturing into services and distribution platforms."
+    },
+    {
+      "rank": 43,
+      "id": "fedreg-20260215-008",
+      "title": "H-1B weighted selection rule",
+      "steeps": "P",
+      "psst_score": 70,
+      "impact_score": "6.0/10",
+      "rationale": "Wage-weighted H-1B selection restructures skilled immigration toward higher-paid positions, affecting tech industry talent pipeline."
+    },
+    {
+      "rank": 44,
+      "id": "fedreg-20260215-009",
+      "title": "H-2B visa expansion: 64,716 additional visas",
+      "steeps": "P",
+      "psst_score": 69,
+      "impact_score": "5.5/10",
+      "rationale": "Visa expansion reflects recognition of labor shortages in seasonal industries despite broader immigration restriction rhetoric."
+    },
+    {
+      "rank": 45,
+      "id": "climate-20260215-038",
+      "title": "Amsterdam and Florence ban fossil fuel ads",
+      "steeps": "P",
+      "psst_score": 69,
+      "impact_score": "6.0/10",
+      "rationale": "City-level fossil fuel advertising bans represent emerging regulatory trend with potential to spread across European cities."
+    },
+    {
+      "rank": 46,
+      "id": "legal-20260215-040",
+      "title": "Swedish youth climate litigation",
+      "steeps": "P",
+      "psst_score": 68,
+      "impact_score": "5.5/10",
+      "rationale": "Youth climate litigation continuing to establish legal precedents for government accountability on climate commitments."
+    },
+    {
+      "rank": 47,
+      "id": "pandemic-20260215-045",
+      "title": "WHO Pandemic Agreement IGWG meeting Feb 9-14",
+      "steeps": "P",
+      "psst_score": 67,
+      "impact_score": "5.5/10",
+      "rationale": "Pandemic preparedness treaty negotiations represent critical multilateral health governance effort with implications for future outbreak response."
+    },
+    {
+      "rank": 48,
+      "id": "who-20260215-010",
+      "title": "WHO pandemic preparedness assessment",
+      "steeps": "S",
+      "psst_score": 67,
+      "impact_score": "5.5/10",
+      "rationale": "Ongoing pandemic preparedness evaluation informs global health security infrastructure investment and policy priorities."
+    },
+    {
+      "rank": 49,
+      "id": "who-20260215-011",
+      "title": "WHO $1B 2026 emergency appeal",
+      "steeps": "S",
+      "psst_score": 66,
+      "impact_score": "5.5/10",
+      "rationale": "WHO emergency funding appeal reflects scale of ongoing global health emergencies and funding gap challenges."
+    },
+    {
+      "rank": 50,
+      "id": "who-20260215-012",
+      "title": "Global health funding cuts warning",
+      "steeps": "S",
+      "psst_score": 66,
+      "impact_score": "5.5/10",
+      "rationale": "Health funding reductions threaten pandemic preparedness and routine health services, particularly in developing nations."
+    },
+    {
+      "rank": 51,
+      "id": "pew-20260215-026",
+      "title": "Americans negative economic views persist",
+      "steeps": "S",
+      "psst_score": 65,
+      "impact_score": "5.0/10",
+      "rationale": "Persistent negative economic sentiment despite macro indicators creates political uncertainty and affects consumer behavior patterns."
+    },
+    {
+      "rank": 52,
+      "id": "nature-20260215-028",
+      "title": "Menopause brain structure changes revealed",
+      "steeps": "S",
+      "psst_score": 64,
+      "impact_score": "5.0/10",
+      "rationale": "Novel research on menopause-related brain changes advances understanding of gender-specific health needs and aging research."
+    },
+    {
+      "rank": 53,
+      "id": "sbti-20260215-039",
+      "title": "SBTi validates 10,000 company climate targets",
+      "steeps": "E_Environmental",
+      "psst_score": 64,
+      "impact_score": "5.0/10",
+      "rationale": "10,000 companies with validated climate targets shows growing corporate commitment, though implementation gap remains significant."
+    }
+  ]
+}

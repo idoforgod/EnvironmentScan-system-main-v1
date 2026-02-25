@@ -1,0 +1,40 @@
+{
+  "engine_version": "1.2.0",
+  "computed_at": "2026-02-12T00:38:54Z",
+  "source_file": "env-scanning/wf1-general/structured/classified-signals-2026-02-12.json",
+  "workflow_type": "standard",
+  "total_signals": 30,
+  "raw_distributions": {
+    "steeps": {
+      "E": 2,
+      "T": 10,
+      "S": 5,
+      "P": 6,
+      "E_Environmental": 5,
+      "s": 2
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "30",
+    "DOMAIN_DISTRIBUTION": "기술(T) 10건, 정치(P) 6건, 사회(S) 5건, 환경(E) 5건, 경제(E) 2건, 정신적(s) 2건",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "해당 없음",
+    "EVOLUTION_TABLE_WEAKENING": "해당 없음"
+  }
+}

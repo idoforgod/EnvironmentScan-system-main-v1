@@ -167,7 +167,11 @@ class LazyReportGenerator:
         with open(self.classified_signals_path, 'r') as f:
             data = json.load(f)
 
-        for signal in data.get('signals', []):
+        # Key-variant fallback: "classified_signals" (v2.1.0+), "signals" (v2.0.x), "items" (v1.x)
+        all_signals = (data.get('classified_signals')
+                       or data.get('signals')
+                       or data.get('items', []))
+        for signal in all_signals:
             if signal.get('category') == category or signal.get('final_category') == category:
                 yield signal
 
@@ -320,7 +324,7 @@ class LazyReportGenerator:
         Memory: ~100 KB (scenario narratives)
         """
         section = []
-        section.append("## 6. 플러서블 시나리오")
+        section.append("## 6. Plausible Scenarios(개연성 있는 시나리오)")
         section.append("")
 
         if self.scenarios_path and self.scenarios_path.exists():
@@ -356,7 +360,10 @@ class LazyReportGenerator:
         with open(self.classified_signals_path, 'r') as f:
             data = json.load(f)
 
-        total_signals = len(data.get('signals', []))
+        # Key-variant fallback: same pattern as _get_signals_by_category
+        total_signals = len(data.get('classified_signals')
+                           or data.get('signals')
+                           or data.get('items', []))
         section.append(f"총 {total_signals}개의 신호가 탐지되었습니다.")
         section.append("")
 

@@ -4,7 +4,7 @@
 > 모든 `{{PLACEHOLDER}}` 토큰은 반드시 실제 내용으로 대체되어야 합니다.
 > 미채워진 플레이스홀더가 남으면 **SKEL-001 검증 실패**가 발생합니다.
 >
-> **중요**: 이 스켈레톤은 WF1(일반), WF2(arXiv), WF3(네이버 뉴스) 세 독립 워크플로우의 결과를
+> **중요**: 이 스켈레톤은 WF1(일반), WF2(arXiv), WF3(네이버 뉴스), WF4(멀티글로벌 뉴스) 네 독립 워크플로우의 결과를
 > 통합한 보고서용입니다. 개별 워크플로우 보고서에는 `report-skeleton.md`(WF1/WF2) 또는 `naver-report-skeleton.md`(WF3)를 사용하세요.
 >
 > **작성 언어**: 한국어 (기술 용어, 고유명사, 약어는 영문 병기 허용)
@@ -17,7 +17,7 @@
 2. 모든 `{{...}}` 플레이스홀더를 데이터에 기반한 실제 내용으로 대체합니다.
 3. 섹션 헤더(`## N. ...`)는 **절대 변경하지 마세요** — 정확한 문자열이 검증 대상입니다.
 4. 서브섹션 헤더(`### N.N ...`)도 번호를 유지하세요.
-5. 모든 신호에 `[WF1]`, `[WF2]`, 또는 `[WF3]` 소스 태그를 반드시 포함하세요.
+5. 모든 신호에 `[WF1]`, `[WF2]`, `[WF3]`, 또는 `[WF4]` 소스 태그를 반드시 포함하세요.
 6. 생성 완료 후, 파일에 `{{`가 남아 있지 않은지 확인합니다.
 
 ---
@@ -26,7 +26,10 @@
 
 {{REPORT_HEADER_METADATA}}
 
-> **보고서 유형**: 통합 보고서 (WF1 일반 환경스캐닝 + WF2 arXiv 학술 심층스캐닝 + WF3 네이버 뉴스 환경스캐닝)
+> **보고서 유형**: 통합 보고서 (WF1 일반 환경스캐닝 + WF2 arXiv 학술 심층스캐닝 + WF3 네이버 뉴스 환경스캐닝 + WF4 멀티글로벌 뉴스 환경스캐닝)
+> **스캔 시간 범위**: {{SCAN_WINDOW_START}} ~ {{SCAN_WINDOW_END}}
+> **기준 시점 (T₀)**: {{SCAN_ANCHOR_TIMESTAMP}}
+> **개별 스캔 범위**: WF1 {{WF1_LOOKBACK_HOURS}}시간 | WF2 {{WF2_LOOKBACK_HOURS}}시간 | WF3 {{WF3_LOOKBACK_HOURS}}시간 | WF4 {{WF4_LOOKBACK_HOURS}}시간
 
 ---
 
@@ -63,8 +66,10 @@
 
 - **WF1 (일반 환경스캐닝)**: {{WF1_TOTAL_SIGNALS}}개 신호 수집
 - **WF2 (arXiv 학술 심층)**: {{WF2_TOTAL_SIGNALS}}개 신호 수집
+- **WF3 (네이버 뉴스)**: {{WF3_TOTAL_SIGNALS}}개 신호 수집
+- **WF4 (멀티글로벌 뉴스)**: {{WF4_TOTAL_SIGNALS}}개 신호 수집
 - **통합 신호 풀**: {{TOTAL_COMBINED_SIGNALS}}개
-- **상위 15개 신호 선정** (pSST 통합 순위 기준)
+- **상위 20개 신호 선정** (pSST 통합 순위 기준)
 - 주요 영향 도메인: {{DOMAIN_DISTRIBUTION}}
 
 ### 워크플로우 교차 하이라이트
@@ -336,21 +341,120 @@
 
 ---
 
-{{SIGNALS_16_PLUS_CONDENSED}}
+### 통합 우선순위 16: {{INT_SIGNAL_16_TAG}} {{INT_SIGNAL_16_TITLE}}
+
+- **신뢰도**: {{INT_SIGNAL_16_PSST}}
+- **원본 워크플로우**: {{INT_SIGNAL_16_ORIGIN}}
+
+1. **분류**: {{INT_SIGNAL_16_CLASSIFICATION}}
+2. **출처**: {{INT_SIGNAL_16_SOURCE}}
+3. **핵심 사실**: {{INT_SIGNAL_16_KEY_FACT}}
+4. **정량 지표**: {{INT_SIGNAL_16_METRICS}}
+5. **영향도**: {{INT_SIGNAL_16_IMPACT}}
+6. **상세 설명**: {{INT_SIGNAL_16_DETAIL}}
+7. **추론**: {{INT_SIGNAL_16_INFERENCE}}
+8. **이해관계자**: {{INT_SIGNAL_16_STAKEHOLDERS}}
+9. **모니터링 지표**: {{INT_SIGNAL_16_MONITORING}}
+
+---
+
+### 통합 우선순위 17: {{INT_SIGNAL_17_TAG}} {{INT_SIGNAL_17_TITLE}}
+
+- **신뢰도**: {{INT_SIGNAL_17_PSST}}
+- **원본 워크플로우**: {{INT_SIGNAL_17_ORIGIN}}
+
+1. **분류**: {{INT_SIGNAL_17_CLASSIFICATION}}
+2. **출처**: {{INT_SIGNAL_17_SOURCE}}
+3. **핵심 사실**: {{INT_SIGNAL_17_KEY_FACT}}
+4. **정량 지표**: {{INT_SIGNAL_17_METRICS}}
+5. **영향도**: {{INT_SIGNAL_17_IMPACT}}
+6. **상세 설명**: {{INT_SIGNAL_17_DETAIL}}
+7. **추론**: {{INT_SIGNAL_17_INFERENCE}}
+8. **이해관계자**: {{INT_SIGNAL_17_STAKEHOLDERS}}
+9. **모니터링 지표**: {{INT_SIGNAL_17_MONITORING}}
+
+---
+
+### 통합 우선순위 18: {{INT_SIGNAL_18_TAG}} {{INT_SIGNAL_18_TITLE}}
+
+- **신뢰도**: {{INT_SIGNAL_18_PSST}}
+- **원본 워크플로우**: {{INT_SIGNAL_18_ORIGIN}}
+
+1. **분류**: {{INT_SIGNAL_18_CLASSIFICATION}}
+2. **출처**: {{INT_SIGNAL_18_SOURCE}}
+3. **핵심 사실**: {{INT_SIGNAL_18_KEY_FACT}}
+4. **정량 지표**: {{INT_SIGNAL_18_METRICS}}
+5. **영향도**: {{INT_SIGNAL_18_IMPACT}}
+6. **상세 설명**: {{INT_SIGNAL_18_DETAIL}}
+7. **추론**: {{INT_SIGNAL_18_INFERENCE}}
+8. **이해관계자**: {{INT_SIGNAL_18_STAKEHOLDERS}}
+9. **모니터링 지표**: {{INT_SIGNAL_18_MONITORING}}
+
+---
+
+### 통합 우선순위 19: {{INT_SIGNAL_19_TAG}} {{INT_SIGNAL_19_TITLE}}
+
+- **신뢰도**: {{INT_SIGNAL_19_PSST}}
+- **원본 워크플로우**: {{INT_SIGNAL_19_ORIGIN}}
+
+1. **분류**: {{INT_SIGNAL_19_CLASSIFICATION}}
+2. **출처**: {{INT_SIGNAL_19_SOURCE}}
+3. **핵심 사실**: {{INT_SIGNAL_19_KEY_FACT}}
+4. **정량 지표**: {{INT_SIGNAL_19_METRICS}}
+5. **영향도**: {{INT_SIGNAL_19_IMPACT}}
+6. **상세 설명**: {{INT_SIGNAL_19_DETAIL}}
+7. **추론**: {{INT_SIGNAL_19_INFERENCE}}
+8. **이해관계자**: {{INT_SIGNAL_19_STAKEHOLDERS}}
+9. **모니터링 지표**: {{INT_SIGNAL_19_MONITORING}}
+
+---
+
+### 통합 우선순위 20: {{INT_SIGNAL_20_TAG}} {{INT_SIGNAL_20_TITLE}}
+
+- **신뢰도**: {{INT_SIGNAL_20_PSST}}
+- **원본 워크플로우**: {{INT_SIGNAL_20_ORIGIN}}
+
+1. **분류**: {{INT_SIGNAL_20_CLASSIFICATION}}
+2. **출처**: {{INT_SIGNAL_20_SOURCE}}
+3. **핵심 사실**: {{INT_SIGNAL_20_KEY_FACT}}
+4. **정량 지표**: {{INT_SIGNAL_20_METRICS}}
+5. **영향도**: {{INT_SIGNAL_20_IMPACT}}
+6. **상세 설명**: {{INT_SIGNAL_20_DETAIL}}
+7. **추론**: {{INT_SIGNAL_20_INFERENCE}}
+8. **이해관계자**: {{INT_SIGNAL_20_STAKEHOLDERS}}
+9. **모니터링 지표**: {{INT_SIGNAL_20_MONITORING}}
+
+---
+
+{{SIGNALS_21_PLUS_CONDENSED}}
 
 ---
 
 ## 3. 기존 신호 업데이트
 
+> 활성 추적 스레드: {{EVOLUTION_ACTIVE_THREADS}}개 | 강화: {{EVOLUTION_STRENGTHENING_COUNT}}개 | 약화: {{EVOLUTION_WEAKENING_COUNT}}개 | 소멸: {{EVOLUTION_FADED_COUNT}}개
+
 ### 3.1 강화 추세 (Strengthening)
+
+{{EVOLUTION_TABLE_STRENGTHENING}}
 
 {{SECTION_3_1_CONTENT}}
 
 ### 3.2 약화 추세 (Weakening)
 
+{{EVOLUTION_TABLE_WEAKENING}}
+
 {{SECTION_3_2_CONTENT}}
 
 ### 3.3 신호 상태 요약
+
+| 상태 | 수 | 비율 |
+|------|---|------|
+| 신규 | {{EVOLUTION_NEW_COUNT}} | {{EVOLUTION_NEW_PCT}} |
+| 강화 | {{EVOLUTION_STRENGTHENING_COUNT}} | {{EVOLUTION_STRENGTHENING_PCT}} |
+| 반복 등장 | {{EVOLUTION_RECURRING_COUNT}} | {{EVOLUTION_RECURRING_PCT}} |
+| 약화 | {{EVOLUTION_WEAKENING_COUNT}} | {{EVOLUTION_WEAKENING_PCT}} |
+| 소멸 | {{EVOLUTION_FADED_COUNT}} | {{EVOLUTION_FADED_PCT}} |
 
 {{SECTION_3_3_CONTENT}}
 
@@ -380,6 +484,28 @@
 
 {{SECTION_4_3_MEDIA_FIRST}}
 
+#### 워크플로우 간 긴장/모순 (Cross-Workflow Tensions)
+
+{{SECTION_4_3_TENSIONS}}
+
+#### WF3 고유 신호 (Naver-Exclusive Signals)
+
+{{SECTION_4_3_NAVER_EXCLUSIVE}}
+
+#### WF4 고유 신호 (Multi&Global-News-Exclusive Signals)
+
+{{SECTION_4_3_WF4_EXCLUSIVE}}
+
+#### 네이버↔직접뉴스 교차 검증 (Naver↔Direct-News Cross-Validation)
+
+{{SECTION_4_3_NAVER_DIRECTNEWS_CROSS}}
+
+#### 시간축 교차 확인 (Temporal Cross-Validation)
+
+{{INT_EVOLUTION_CROSS_TABLE}}
+
+{{SECTION_4_3_TEMPORAL_CROSS}}
+
 ---
 
 ## 5. 전략적 시사점
@@ -398,7 +524,7 @@
 
 ---
 
-## 6. 플러서블 시나리오
+## 6. Plausible Scenarios(개연성 있는 시나리오)
 
 {{SECTION_6_SCENARIOS}}
 
@@ -444,11 +570,11 @@
 
 ### 8.4 워크플로우 실행 요약
 
-| 항목 | WF1 (일반) | WF2 (arXiv) | 통합 |
-|------|-----------|-------------|------|
-| 소스 수 | {{WF1_SOURCE_COUNT}} | 1 (arXiv) | {{TOTAL_SOURCE_COUNT}} |
-| 수집 신호 | {{WF1_SIGNAL_COUNT}} | {{WF2_SIGNAL_COUNT}} | {{TOTAL_SIGNAL_COUNT}} |
-| 중복 제거 후 | {{WF1_DEDUP_COUNT}} | {{WF2_DEDUP_COUNT}} | {{TOTAL_DEDUP_COUNT}} |
-| 상위 신호 | {{WF1_TOP_COUNT}}개 | {{WF2_TOP_COUNT}}개 | 15개 |
-| 평균 pSST | {{WF1_AVG_PSST}} | {{WF2_AVG_PSST}} | {{TOTAL_AVG_PSST}} |
-| 실행 시간 | {{WF1_DURATION}} | {{WF2_DURATION}} | {{TOTAL_DURATION}} |
+| 항목 | WF1 (일반) | WF2 (arXiv) | WF3 (네이버) | WF4 (멀티글로벌) | 통합 |
+|------|-----------|-------------|-------------|-------------|------|
+| 소스 수 | {{WF1_SOURCE_COUNT}} | 1 (arXiv) | 1 (NaverNews) | {{WF4_SOURCE_COUNT}} | {{TOTAL_SOURCE_COUNT}} |
+| 수집 신호 | {{WF1_SIGNAL_COUNT}} | {{WF2_SIGNAL_COUNT}} | {{WF3_SIGNAL_COUNT}} | {{WF4_SIGNAL_COUNT}} | {{TOTAL_SIGNAL_COUNT}} |
+| 중복 제거 후 | {{WF1_DEDUP_COUNT}} | {{WF2_DEDUP_COUNT}} | {{WF3_DEDUP_COUNT}} | {{WF4_DEDUP_COUNT}} | {{TOTAL_DEDUP_COUNT}} |
+| 상위 신호 | {{WF1_TOP_COUNT}}개 | {{WF2_TOP_COUNT}}개 | {{WF3_TOP_COUNT}}개 | {{WF4_TOP_COUNT}}개 | 20개 |
+| 평균 pSST | {{WF1_AVG_PSST}} | {{WF2_AVG_PSST}} | {{WF3_AVG_PSST}} | {{WF4_AVG_PSST}} | {{TOTAL_AVG_PSST}} |
+| 실행 시간 | {{WF1_DURATION}} | {{WF2_DURATION}} | {{WF3_DURATION}} | {{WF4_DURATION}} | {{TOTAL_DURATION}} |

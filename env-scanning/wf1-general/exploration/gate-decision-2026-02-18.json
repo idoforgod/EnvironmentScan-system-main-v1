@@ -1,0 +1,29 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.0.0",
+  "command": "check",
+  "checked_at": "2026-02-18T21:54:58.908971+00:00",
+  "date": "2026-02-18",
+  "decision": "MUST_RUN",
+  "reason": "source_exploration.enabled=true and base_only_flag=false",
+  "exploration_config": {
+    "enabled": true,
+    "method": "agent-team",
+    "max_candidates": 5,
+    "coverage_gap_threshold": 0.15
+  },
+  "base_only_flag": false,
+  "gap_preview": {
+    "total_signals": 0,
+    "distribution": {},
+    "gaps": [
+      "E_Economic",
+      "E_Environmental",
+      "P_Political",
+      "S_Social",
+      "T_Technological",
+      "s_spiritual"
+    ],
+    "threshold": 0.15
+  }
+}

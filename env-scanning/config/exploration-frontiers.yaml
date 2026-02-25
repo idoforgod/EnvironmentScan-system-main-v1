@@ -1,0 +1,45 @@
+# Source Exploration Frontiers — Random Discovery Keywords
+# Version: 1.0.0
+# Last Updated: 2026-02-12
+#
+# Used by discovery-beta for serendipitous source discovery.
+# SIE may add/remove keywords based on discovery success rates (MINOR change).
+# Keywords are sampled randomly (or weighted-randomly) at each scan.
+
+frontiers:
+  geographic:
+    - "African innovation technology RSS"
+    - "Southeast Asian emerging policy feed"
+    - "Latin American sustainability news"
+    - "Middle East digital transformation"
+    - "Central Asian development"
+    - "Pacific Islands climate adaptation"
+
+  interdisciplinary:
+    - "art technology convergence research"
+    - "food systems innovation"
+    - "ocean biology discoveries RSS"
+    - "space exploration breakthroughs feed"
+    - "music and artificial intelligence"
+    - "architecture sustainability trends"
+
+  emerging_domains:
+    - "quantum biology applications"
+    - "synthetic biology ethics governance"
+    - "neurotechnology policy"
+    - "digital commons movement"
+    - "longevity science breakthroughs"
+    - "indigenous knowledge systems"
+
+  paradigm_shifts:
+    - "degrowth economics research"
+    - "post-quantum cryptography"
+    - "regenerative agriculture science"
+    - "decentralized autonomous organizations"
+    - "biomimicry engineering innovations"
+
+selection:
+  method: "weighted_random"        # random | weighted_random
+  samples_per_scan: 3              # 3 keywords randomly selected per scan
+  weight_by_success: true          # Weight by previous success rate (mini-RLM)
+  cooldown_after_failure: 3        # Skip keyword for 3 scans after failure

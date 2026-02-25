@@ -1,0 +1,120 @@
+{
+  "engine_version": "1.2.0",
+  "computed_at": "2026-02-15T06:08:39Z",
+  "source_file": "env-scanning/wf3-naver/structured/classified-signals-2026-02-15.json",
+  "workflow_type": "naver",
+  "total_signals": 15,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 0,
+      "s": 0
+    },
+    "fssf": {
+      "Weak Signal": 4,
+      "Wild Card": 1,
+      "Discontinuity": 1,
+      "Driver": 2,
+      "Emerging Issue": 3,
+      "Precursor Event": 1,
+      "Trend": 2,
+      "Megatrend": 1
+    },
+    "horizons": {
+      "H1": 0,
+      "H2": 0,
+      "H3": 0
+    },
+    "tipping_point_alerts": {
+      "RED": {
+        "count": 0,
+        "signals": []
+      },
+      "ORANGE": {
+        "count": 0,
+        "signals": []
+      },
+      "YELLOW": {
+        "count": 0,
+        "signals": []
+      },
+      "GREEN": {
+        "count": 15,
+        "signals": [
+          "트럼프-네타냐후, 이란산 원유 대중국 판매 차단 합의 -- 이란 정권교체 수주 내 군사작전 대비",
+          "미 국방부, 앤스로픽에 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화",
+          "청년 '쉬었음' 인구 278만 역대 최다 -- 1월 고용 한파, 구조적 미스매치 심화",
+          "삼성전자 HBM4 파운드리 비메모리 흑자 전환 전망 -- 엑시노스 확대가 변수",
+          "TSMC, 미국 내 367조원 투자로 '반도체 제국' 건설 -- 트럼프 관세 100% 회피 전략",
+          "다주택자 양도세 중과 -- 이재명 정부 부동산 정책 전면 드라이브, 설 연휴 격돌",
+          "푸틴 정적 나발니 독화살개구리 독소로 살해 -- 유럽 5개국 공동 수사 발표",
+          "LG AI연구원 '피지컬 AI' 전담팀 확대 -- 젠슨황·샘알트먼 인도 AI 서밋 한자리",
+          "김주애 후계 공식화시 김여정과 권력투쟁 가능성 -- 북한 당대회 2월 하순 주목",
+          "사업소득 상하위 20% 격차 처음 100배 초과 -- '초양극화' 시대 진입",
+          "미 조선업판 관세 -- 트럼프, 해양 지배 액션플랜 공개로 한국 조선 영향 불가피",
+          "유럽 정상들 '안보 자립' 선언 -- 핵 억지 강화 논의 본격화, 나토 체제 균열",
+          "AI 게임 제작비 절감 드라이브 -- DX 넘어 AX(AI Transformation) 산업 패러다임 전환",
+          "원자재 슈퍼사이클 전망 -- 비철금속 다음 차례, 글로벌 투기 광풍",
+          "우주비행사 스마트폰 휴대 첫 허용 -- 혜성 역회전 첫 관측 등 우주과학 전환점"
+        ]
+      }
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 15
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "15",
+    "DOMAIN_DISTRIBUTION": "",
+    "FSSF_WEAK_SIGNAL_COUNT": "4",
+    "FSSF_WEAK_SIGNAL_PCT": "27%",
+    "FSSF_WILD_CARD_COUNT": "1",
+    "FSSF_WILD_CARD_PCT": "7%",
+    "FSSF_DISCONTINUITY_COUNT": "1",
+    "FSSF_DISCONTINUITY_PCT": "7%",
+    "FSSF_DRIVER_COUNT": "2",
+    "FSSF_DRIVER_PCT": "13%",
+    "FSSF_EMERGING_ISSUE_COUNT": "3",
+    "FSSF_EMERGING_ISSUE_PCT": "20%",
+    "FSSF_PRECURSOR_COUNT": "1",
+    "FSSF_PRECURSOR_PCT": "7%",
+    "FSSF_TREND_COUNT": "2",
+    "FSSF_TREND_PCT": "13%",
+    "FSSF_MEGATREND_COUNT": "1",
+    "FSSF_MEGATREND_PCT": "7%",
+    "FSSF_DIST_WS_COUNT": "4",
+    "FSSF_DIST_WC_COUNT": "1",
+    "FSSF_DIST_DC_COUNT": "1",
+    "FSSF_DIST_DR_COUNT": "2",
+    "FSSF_DIST_EI_COUNT": "3",
+    "FSSF_DIST_PE_COUNT": "1",
+    "FSSF_DIST_TR_COUNT": "2",
+    "FSSF_DIST_MT_COUNT": "1",
+    "H1_COUNT": "0",
+    "H1_PCT": "0%",
+    "H2_COUNT": "0",
+    "H2_PCT": "0%",
+    "H3_COUNT": "0",
+    "H3_PCT": "0%",
+    "TIPPING_POINT_ALERT_SUMMARY": "| GREEN | 15 | 트럼프-네타냐후, 이란산 원유 대중국 판매 차단 합의 -- 이란 정권교체 수주 내 군사작전 대비, 미 국방부, 앤스로픽에 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화, 청년 '쉬었음' 인구 278만 역대 최다 -- 1월 고용 한파, 구조적 미스매치 심화 외 12건 |",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "해당 없음",
+    "EVOLUTION_TABLE_WEAKENING": "해당 없음"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "scan_metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-02-16",
+    "scan_window": {
+      "start": "2026-02-14T21:02:56+00:00",
+      "end": "2026-02-15T21:02:56+00:00",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-16-06-02-56-x4f7",
+      "started_at": "2026-02-15T21:02:56+00:00",
+      "completed_at": "2026-02-15T21:15:00+00:00",
+      "actual_api_calls": {
+        "web_search": 11,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "TechCrunch", "MIT Technology Review", "US Federal Register",
+        "WHO Press Releases", "Google Patents", "PubMed Central",
+        "Nature News", "Science Magazine", "IEEE Spectrum",
+        "OECD Newsroom", "World Bank Blogs", "UN News",
+        "EUR-Lex Recent Acts", "Brookings Institution",
+        "World Economic Forum", "Pew Research Center",
+        "Hacker News", "Wired", "Ars Technica",
+        "NASA Climate Change", "Carbon Brief",
+        "IMF Blog", "BIS Speeches"
+      ],
+      "file_created_at": "2026-02-15T21:15:00+00:00"
+    },
+    "sources_scanned_count": 23,
+    "mode": "marathon"
+  },
+  "items": [
+    {
+      "id": "wf1-20260216-001",
+      "title": "US EPA to Rescind Endangerment Finding for Greenhouse Gas Emissions",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov", "published_date": "2026-02-14"},
+      "content": {"abstract": "EPA will issue final rule rescinding 2009 endangerment finding that CO2 and greenhouse gases endanger public health. EPA claims $1.3T savings; scientists and environmental groups denounce as endangering public health and shifting costs to communities.", "keywords": ["EPA", "endangerment finding", "greenhouse gas", "climate policy", "regulation rollback"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T21:05:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-002",
+      "title": "Stanford Miniature Light Trap Breakthrough Could Enable Million-Qubit Quantum Computers",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.sciencedaily.com/releases/2026/02/260201223737.htm", "published_date": "2026-02-01"},
+      "content": {"abstract": "Stanford researchers create miniature optical cavities that efficiently collect light from individual atoms, enabling parallel qubit readout. Arrays with hundreds of cavities demonstrated, potentially supporting million-qubit quantum networks for drug discovery and materials design.", "keywords": ["quantum computing", "optical cavity", "qubit scaling", "Stanford", "drug discovery"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:05:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-003",
+      "title": "New START Nuclear Treaty Expires: US-Russia Without Arms Control for First Time in 50 Years",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.cfr.org/reports/conflicts-watch-2026", "published_date": "2026-02-15"},
+      "content": {"abstract": "New START nuclear arms treaty between US and Russia expired in February 2026, leaving both countries without bilateral arms control for first time in over 50 years. Raises concerns about unconstrained nuclear arsenal development and strategic instability.", "keywords": ["New START", "nuclear treaty", "arms control", "US-Russia", "strategic stability"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T21:06:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-004",
+      "title": "Global Solar+Wind Capacity to Reach 4,000 GW in 2026, Overtaking Coal+Gas",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://earth.org/energy-transition-where-are-we-headed-in-2026/", "published_date": "2026-02-14"},
+      "content": {"abstract": "Global combined capacity of solar and wind energy expected to reach 4,000 GW in 2026, surpassing operating capacity of coal and gas-fired power for the first time. Solar PV accounts for 80% of new additions, with distributed solar contributing 42% of growth.", "keywords": ["solar energy", "wind energy", "renewable capacity", "energy transition", "coal displacement"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T21:06:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-005",
+      "title": "Edelman 2026 Trust Barometer: Society Slides from Grievance into Insularity",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.edelman.com/news-awards/2026-edelman-trust-barometer-society-slides-into-insularity", "published_date": "2026-02-15"},
+      "content": {"abstract": "2026 Trust Barometer reveals grievance has devolved into insularity. 37% cite growing use of GenAI as affecting trust. 54% of low-income respondents believe they will be left behind by AI. Trust in institutions declining across demographics.", "keywords": ["trust crisis", "AI inequality", "social insularity", "institutional trust", "generative AI"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-15T21:07:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-006",
+      "title": "NIST Awards $3.19M for Quantum, Semiconductor, and Biotech R&D",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://quantumzeitgeist.com/nist-quantum-computing-rd-funding/", "published_date": "2026-02-10"},
+      "content": {"abstract": "NIST invests $3.19 million in eight small businesses across seven states via Phase II SBIR grants for 24-month R&D projects in quantum technology, biotechnology, and semiconductors.", "keywords": ["NIST", "SBIR", "quantum R&D", "semiconductor", "biotech funding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:07:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-007",
+      "title": "WHO Warns: Humanitarian Health Funding Below 2016 Levels, Only 1/3 of Targets Reached",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings", "published_date": "2026-02-03"},
+      "content": {"abstract": "WHO launches 2026 emergency appeal. Humanitarian health funding fell below 2016 levels in 2025, reaching only one-third of 81 million targeted people. Protracted conflicts, climate change impacts, and infectious disease outbreaks drive increasing demand.", "keywords": ["WHO", "humanitarian funding", "health emergency", "pandemic preparedness", "funding crisis"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T21:08:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-008",
+      "title": "Deepfake-as-a-Service Explodes: Over 30% of Corporate Impersonation Attacks Now AI-Powered",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://cyble.com/knowledge-hub/deepfake-as-a-service-exploded-in-2025/", "published_date": "2026-02-11"},
+      "content": {"abstract": "AI-powered deepfakes involved in over 30% of high-impact corporate impersonation attacks in 2025. Real-time voice cloning enables executive impersonation with seconds of audio. Security leaders report 31% least prepared for deepfake attacks.", "keywords": ["deepfake", "voice cloning", "cybersecurity", "corporate fraud", "identity threat"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:08:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-009",
+      "title": "US Wave of State Tech Laws: AI, Privacy, Crypto Protections, Right to Repair Take Effect 2026",
+      "source": {"name": "Wired", "type": "blog", "url": "https://interestingengineering.com/culture/us-state-tech-laws-2026", "published_date": "2026-02-14"},
+      "content": {"abstract": "Dozens of technology-related laws took effect across US states on Jan 1 2026, with more arriving monthly. New rules cover AI governance, social media protections, data privacy (Indiana, Kentucky, Rhode Island), crypto, and right-to-repair electronics.", "keywords": ["state regulation", "AI governance", "data privacy", "right to repair", "crypto regulation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T21:09:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-010",
+      "title": "Global Jobs Gap Projected to Reach 408 Million in 2026 Despite Stable Headline Employment",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "published_date": "2026-02-15"},
+      "content": {"abstract": "ILO reports global jobs gap projected at 408 million in 2026. Stable headline employment masks stalled progress in job quality and widening inequalities. Health, construction sectors grow while retail, federal government decline.", "keywords": ["ILO", "jobs gap", "employment inequality", "labor market", "workforce transformation"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T21:09:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-011",
+      "title": "Physical AI Reaches Inflection Point: Humanoid Robots Enter Manufacturing Production",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.manufacturingdive.com/news/physical-ai-craze-2026-automation-trends-to-watch/810860/", "published_date": "2026-02-14"},
+      "content": {"abstract": "Physical AI reaches inflection point in 2026 as humanoid robots transition from R&D to commercial deployment. Hyundai debuts Atlas humanoid robot for production settings. Google announces major robotics investment. Applications expand in warehousing and manufacturing.", "keywords": ["humanoid robot", "physical AI", "manufacturing automation", "Hyundai Atlas", "Google robotics"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:10:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-012",
+      "title": "EU Bans Destruction of Unsold Clothes Under Ecodesign Regulation",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://earth.org/this-week-in-climate-news-february-2026-week-2/", "published_date": "2026-02-14"},
+      "content": {"abstract": "European Commission introduces new rules prohibiting companies from destroying unsold textiles and footwear under the Ecodesign for Sustainable Products Regulation (ESPR). Part of broader EU circular economy strategy.", "keywords": ["EU regulation", "circular economy", "textile waste", "ecodesign", "sustainability policy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T21:10:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-013",
+      "title": "Global Trade Tariffs Surge: UNCTAD Reports Protectionism Reshaping World Commerce",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://unctad.org/publication/global-trade-update-february-2026-who-wins-when-trade-policies-shift", "published_date": "2026-02-15"},
+      "content": {"abstract": "UNCTAD Global Trade Update Feb 2026 analyzes winners and losers from trade policy shifts. US tariffs make South African wine 17pp more expensive; Italian rice 12pp cheaper. Global growth subdued at 2.6%. Protectionism driven by industrial and geopolitical objectives.", "keywords": ["tariffs", "protectionism", "UNCTAD", "trade policy", "globalization"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T21:11:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-014",
+      "title": "NASA Perseverance Rover Makes History: First AI-Planned Mars Routes",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://news.mit.edu/topic/artificial-intelligence2", "published_date": "2026-02-14"},
+      "content": {"abstract": "NASA's Perseverance rover achieved historic milestone by driving across Mars using routes planned by artificial intelligence instead of human operators. Demonstrates autonomous navigation capability for space exploration.", "keywords": ["NASA", "Mars", "Perseverance", "autonomous navigation", "space AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:11:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-015",
+      "title": "UK Data Protection Overhaul: Data Use and Access Act Provisions Take Effect February 2026",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.techpolicy.press/global-digital-policy-roundup-january-2026/", "published_date": "2026-02-15"},
+      "content": {"abstract": "UK GDPR updated under Data Use and Access Act: new legitimate interest criteria, revised purpose limitation, altered response periods for data subjects, enhanced data protection by design with higher standards for children.", "keywords": ["UK GDPR", "data protection", "children privacy", "legitimate interest", "Data Use and Access Act"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T21:12:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-016",
+      "title": "Greenland Records Warmest January Ever: Warming 4x Faster Than Global Average",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://earth.org/this-week-in-climate-news-february-2026-week-1/", "published_date": "2026-02-14"},
+      "content": {"abstract": "Greenland recorded warmest January ever: Nuuk average +0.2C vs -7.7C normal (1991-2020). Climate researchers note Greenland warming 4x faster than global average. Globally, Jan 2026 was 5th warmest on record at 1.47C above pre-industrial.", "keywords": ["Greenland warming", "Arctic amplification", "temperature record", "climate change", "polar ice"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T21:12:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-017",
+      "title": "SEC Approves DTC Pilot for Tokenized Securities on Blockchain",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update-a-landmark-2025-but-more-developments-on-the-horizon", "published_date": "2026-02-14"},
+      "content": {"abstract": "SEC issues no-action letter allowing DTC to operate 3-year pilot tokenizing custodied assets on supported blockchains. Pilot launch expected H2 2026. Five national trust bank charter applications approved for crypto custody, stablecoin, and tokenization.", "keywords": ["SEC", "tokenization", "DTC", "blockchain securities", "digital assets"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T21:12:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-018",
+      "title": "Amsterdam and Florence Ban Fossil Fuel and Meat Advertisements",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://earth.org/this-week-in-climate-news-february-2026-week-2/", "published_date": "2026-02-14"},
+      "content": {"abstract": "Amsterdam's city council passes legally binding ban on ads for fossil fuels and meat products, becoming first capital city to fully prohibit such ads. Florence follows with similar legislation. Part of growing global movement to restrict fossil fuel advertising.", "keywords": ["advertising ban", "fossil fuel", "Amsterdam", "Florence", "climate policy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T21:13:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-019",
+      "title": "Stanford AI Predicts Disease Risk from Single Night of Sleep Data",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/", "published_date": "2026-02-15"},
+      "content": {"abstract": "Stanford researchers develop AI that predicts future disease risk from data of single night of sleep, analyzing physiological signals and finding hidden patterns across brain, heart, and breathing. Potential for early intervention and preventive medicine.", "keywords": ["AI healthcare", "sleep analysis", "disease prediction", "preventive medicine", "Stanford"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:13:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-020",
+      "title": "Harvard Data Breach: 115K Records Exposed via ShinyHunters Deepfake Voice Phishing",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://www.infostealers.com/article/a-technical-and-ethical-post-mortem-of-the-feb-2026-harvard-university-shinyhunters-data-breach/", "published_date": "2026-02-04"},
+      "content": {"abstract": "ShinyHunters breach exposed 115,000 records from Harvard Alumni Affairs department. Attack executed through voice-phishing using deepfake voice technology to impersonate IT support. Highlights convergence of AI and cybercrime.", "keywords": ["data breach", "Harvard", "ShinyHunters", "deepfake phishing", "identity theft"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:14:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-021",
+      "title": "Neuromorphic Computers Solve Complex Physics Equations Previously Requiring Supercomputers",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/", "published_date": "2026-02-14"},
+      "content": {"abstract": "Neuromorphic computers modeled after human brain can now solve complex equations behind physics simulations, achieving feats previously requiring energy-hungry supercomputers. Breakthrough in energy-efficient computing for scientific simulation.", "keywords": ["neuromorphic computing", "brain-inspired", "physics simulation", "energy efficiency", "supercomputing"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:14:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-022",
+      "title": "US-China Competition Intensifies: Six Middle East Conflicts in Tier I/II Priority",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.cfr.org/reports/conflicts-watch-2026", "published_date": "2026-02-15"},
+      "content": {"abstract": "CFR Conflicts to Watch 2026: Six Middle Eastern conflicts rated Tier I or II, each involving Israel. Ukraine war focuses on infrastructure attacks. US-China competition, Russian pressure on Europe, and multi-regional conflict escalation risks.", "keywords": ["geopolitical conflict", "Middle East", "US-China", "Ukraine", "strategic competition"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T21:14:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-023",
+      "title": "US Battery Storage to Add 20 GW in 2026; Lithium-Ion Costs Could Drop 30-56% by 2035",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://www.powermag.com/powering-tomorrow-a-multi-technology-roadmap-for-the-global-energy-transition/", "published_date": "2026-02-14"},
+      "content": {"abstract": "EIA projects 20 GW of utility-scale battery storage additions to US grid in 2026. Capital costs for 4-hour lithium-ion systems could fall 30-56% between 2024-2035. Clean energy investment approaching $2 trillion annually.", "keywords": ["battery storage", "lithium-ion", "grid energy", "clean energy investment", "cost reduction"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:15:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-024",
+      "title": "AI Ethics: Shannon Vallor Warns Society Underprepared for Psychological Effects of AI Interaction",
+      "source": {"name": "Wired", "type": "blog", "url": "https://news.darden.virginia.edu/2026/01/22/ethics-is-the-defining-issue-for-the-future-of-ai-and-time-is-running-short/", "published_date": "2026-02-15"},
+      "content": {"abstract": "Ethicist Shannon Vallor warns human mind is learning to interact with entities simulating understanding and emotion. Long-term consequences on mental health, social cohesion, and ethical judgment remain uncertain. Ethics treated as afterthought in AI deployment.", "keywords": ["AI ethics", "psychological impact", "social cohesion", "emotional AI", "human-AI interaction"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-15T21:15:00+00:00"
+    },
+    {
+      "id": "wf1-20260216-025",
+      "title": "D-Wave Announces First Major Quantum Computing Breakthrough of 2026: Scalable Technology",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://www.fastcompany.com/91469364/d-wave-quantum-computing-first-major-breakthrough-of-2026-scalable-technology", "published_date": "2026-02-15"},
+      "content": {"abstract": "D-Wave announces first major quantum computing breakthrough of 2026 with advances in scalable technology. Industry shifting from experimental to commercially relevant applications. Quantum-related patent filings increased fivefold from 2014-2024.", "keywords": ["D-Wave", "quantum computing", "scalability", "commercial quantum", "patent growth"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T21:15:00+00:00"
+    }
+  ],
+  "total_items": 25,
+  "steeps_distribution": {
+    "S": 2,
+    "T": 10,
+    "E": 2,
+    "E_Environmental": 3,
+    "P": 5,
+    "s": 2
+  }
+}

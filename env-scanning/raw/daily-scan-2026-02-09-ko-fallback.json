@@ -1,0 +1,40 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-09",
+    "parallelization": "agent_swarm_multiprocessing",
+    "execution_mode": "parallel",
+    "agents_used": [
+      "arxiv",
+      "blog",
+      "policy",
+      "patent"
+    ],
+    "total_items": 10,
+    "total_sources_scanned": 4,
+    "language": "ko",
+    "translated_at": "2026-02-09T15:11:46.479191"
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "AI Breakthrough in Language Models",
+      "source": "arXiv",
+      "category": "Technology",
+      "description": "New research shows significant improvements in LLM efficiency"
+    },
+    {
+      "id": 2,
+      "title": "Climate Policy Updates",
+      "source": "Federal Register",
+      "category": "Environment",
+      "description": "New regulations for carbon emissions"
+    },
+    {
+      "id": 3,
+      "title": "Economic Outlook 2026",
+      "source": "Economic Blog",
+      "category": "Economy",
+      "description": "Analysis of global economic trends"
+    }
+  ]
+}

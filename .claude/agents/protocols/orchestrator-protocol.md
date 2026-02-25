@@ -3,13 +3,13 @@
 ## Purpose
 
 This file defines the shared execution protocol used by ALL workflow orchestrators
-(env-scan-orchestrator, arxiv-scan-orchestrator). It is the single source of truth
+(env-scan-orchestrator, arxiv-scan-orchestrator, naver-scan-orchestrator). It is the single source of truth
 for VEV, Pipeline Gates, Retry logic, and Verification Report structure.
 
 **Referenced by**: All workflow orchestrators via `system.execution.protocol` in workflow-registry.yaml.
 
-**Version**: 2.2.0
-**Last Updated**: 2026-02-03
+**Version**: 2.2.1
+**Last Updated**: 2026-02-10
 
 ---
 
@@ -114,6 +114,11 @@ Pipeline_Gate_1:  # Phase 1 → Phase 2
     - file_pair_check: "all EN files have -ko counterpart (warn if missing)"
     - psst_dimensions_phase1: "SR, TC dimensions exist for all signals"
     - psst_dimensions_dc: "DC dimension exists for all non-duplicate signals"
+    - temporal_boundary_check: |
+        TC-003: MANDATORY Python enforcement — temporal_gate.py validates every signal.
+        Each WF orchestrator invokes temporal_gate.py at Pipeline Gate 1 with the
+        scan_window_state_file. See individual WF orchestrator specs for exact command.
+        Exit code 0 = proceed, 1 = HALT (no signals remain after temporal filtering).
   on_fail:
     action: trace_back
     retry: re_execute_failing_step
@@ -158,7 +163,7 @@ Pipeline_Gate_3:  # Phase 3 completion
 ```json
 {
   "workflow_id": "{workflow_name}-{date}",
-  "vev_protocol_version": "2.2.0",
+  "vev_protocol_version": "2.2.1",
   "verification_summary": {
     "total_checks": 0,
     "passed": 0,
@@ -258,5 +263,6 @@ L4: Golden Reference — 9-field signal example in report-generator.md
 ---
 
 ## Version History
+- v2.2.1 (2026-02-10): Added naver-scan-orchestrator to scope. Added temporal_boundary_check (TC-003) to Pipeline Gate 1. Updated version strings.
 - v2.2.0 (2026-02-03): Extracted from env-scan-orchestrator.md as shared protocol
 - v2.2.0 (2026-02-02): Original VEV protocol in env-scan-orchestrator.md

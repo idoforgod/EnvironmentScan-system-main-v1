@@ -1,0 +1,116 @@
+{
+  "analysis_metadata": {
+    "date": "2026-02-19",
+    "workflow": "wf1-general",
+    "special_topic": "자산 토큰화와 이더리움 가격 폭락",
+    "ranking_method": "pSST_weighted",
+    "special_topic_weight_boost": 2.0,
+    "analyzed_at": "2026-02-19T12:35:00Z"
+  },
+  "priority_ranked_signals": [
+    {
+      "rank": 1,
+      "id": "blog-20260219-002",
+      "title": "ETH Price Crashes 28% in February 2026: Liquidation Cascade Wipes $2.5B",
+      "pSST_score": 9.5,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 2,
+      "id": "policy-20260219-001",
+      "title": "Kevin Warsh Fed Chair Nomination Triggers Hawkish Shock: Crypto Loses $800B",
+      "pSST_score": 9.3,
+      "steeps": "P_Political",
+      "special_topic_relevance": "SUPPORTING"
+    },
+    {
+      "rank": 3,
+      "id": "blog-20260219-001",
+      "title": "Ethereum RWA Market Soars 315% to $17B, Commanding 34% Market Share",
+      "pSST_score": 9.2,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 4,
+      "id": "blog-20260219-009",
+      "title": "DeFi Collateral Risk: ETH Price Drop Creates Systemic Feedback Loop",
+      "pSST_score": 9.2,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 5,
+      "id": "blog-20260219-003",
+      "title": "Trend Research $2B ETH Leveraged Bet Collapses: $686M-$869M Loss on AAVE",
+      "pSST_score": 9.0,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 6,
+      "id": "policy-20260219-002",
+      "title": "SEC Issues Tokenized Securities Taxonomy: 'Project Crypto' Advances",
+      "pSST_score": 9.0,
+      "steeps": "P_Political",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 7,
+      "id": "blog-20260219-006",
+      "title": "Crypto Market Crash: AI Bubble Fears, $2T Wipeout, Bitcoin Exits Top-10",
+      "pSST_score": 9.0,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "SUPPORTING"
+    },
+    {
+      "rank": 8,
+      "id": "blog-20260219-007",
+      "title": "RWA Tokenization $24B On-Chain: 2026 Pivot to Secondary Market Liquidity",
+      "pSST_score": 8.8,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 9,
+      "id": "blog-20260219-010",
+      "title": "ETH/BTC Ratio Hits Multi-Year Low: Ethereum Narrative Crisis",
+      "pSST_score": 8.7,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 10,
+      "id": "blog-20260219-008",
+      "title": "BlackRock BUIDL Integrates Uniswap, Expands Multi-Chain",
+      "pSST_score": 8.5,
+      "steeps": "E_Economic",
+      "special_topic_relevance": "CORE"
+    },
+    {
+      "rank": 11,
+      "id": "blog-20260219-005",
+      "title": "Ethereum Foundation 2026 Protocol Priorities: Scale, UX, Quantum Hardening",
+      "pSST_score": 8.5,
+      "steeps": "T_Technological",
+      "special_topic_relevance": "SUPPORTING"
+    },
+    {
+      "rank": 12,
+      "id": "policy-20260219-003",
+      "title": "Korea RWA Tokenization: Regulatory Lag Risk",
+      "pSST_score": 8.0,
+      "steeps": "P_Political",
+      "special_topic_relevance": "SUPPORTING"
+    },
+    {
+      "rank": 13,
+      "id": "blog-20260219-004",
+      "title": "ETH Denver 2026: Builder Ecosystem Resilient Amid Bear Market",
+      "pSST_score": 7.5,
+      "steeps": "T_Technological",
+      "special_topic_relevance": "SUPPORTING"
+    }
+  ]
+}

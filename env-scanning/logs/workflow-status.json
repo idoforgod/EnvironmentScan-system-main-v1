@@ -1,61 +1,14 @@
 {
-  "workflow_id": "scan-2026-02-06-dual",
-  "start_time": "2026-02-06T09:00:00Z",
-  "current_phase": 3,
-  "current_step": "3.5_completed",
-  "status": "completed",
-  "mode": "marathon",
-  "topic": "Daily Environmental Scan - 2026-02-06 [DUAL MODE]",
-  "completed_steps": [
-    "1.1_initialization",
-    "1.2_source_scan",
-    "1.3_deduplication",
-    "1.4_classification",
-    "2.1_impact_analysis",
-    "2.2_priority_ranking",
-    "2.3_pattern_detection",
-    "2.4_strategic_implications",
-    "2.5_analysis_review",
-    "3.1_report_generation",
-    "3.2_translation",
-    "3.3_validation",
-    "3.4_approval",
-    "3.5_archiving"
-  ],
-  "blocked_on": null,
-  "errors": [],
-  "human_decisions": [
-    {
-      "checkpoint": "wf1_step_2_5",
-      "decision": "approved",
-      "timestamp": "2026-02-06T17:00:00+09:00"
-    },
-    {
-      "checkpoint": "wf1_step_3_4",
-      "decision": "approved",
-      "timestamp": "2026-02-06T17:00:00+09:00"
-    },
-    {
-      "checkpoint": "wf2_step_2_5",
-      "decision": "approved",
-      "timestamp": "2026-02-06T17:00:00+09:00"
-    },
-    {
-      "checkpoint": "wf2_step_3_4",
-      "decision": "approved",
-      "timestamp": "2026-02-06T17:00:00+09:00"
-    },
-    {
-      "checkpoint": "integrated_final",
-      "decision": "approved",
-      "timestamp": "2026-02-06T17:00:00+09:00"
-    }
-  ],
-  "artifacts": {
-    "wf1_report": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-06.md",
-    "wf2_report": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-06.md",
-    "integrated_report": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-06.md",
-    "unified_ranking": "env-scanning/integrated/unified-ranking-2026-02-06.json"
+  "last_completed_scan": "2026-02-24",
+  "status": "COMPLETE",
+  "T0": "2026-02-24T20:44:18+00:00",
+  "workflows": {
+    "wf1-general": {"status": "COMPLETE", "signals": 35, "report_validated": true},
+    "wf2-arxiv": {"status": "COMPLETE", "signals": 35, "report_validated": true},
+    "wf3-naver": {"status": "COMPLETE", "signals": 30, "report_validated": true},
+    "integration": {"status": "COMPLETE", "signals_merged": 100, "report_validated": true}
   },
-  "last_updated": "2026-02-06T17:00:00+09:00"
+  "checkpoints_passed": "7/7",
+  "total_validations": "147/147 PASS",
+  "completed_at": "2026-02-24T22:45:00+00:00"
 }

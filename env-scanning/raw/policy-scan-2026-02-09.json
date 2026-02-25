@@ -1,0 +1,2800 @@
+{
+  "agent_metadata": {
+    "agent_name": "policy-agent",
+    "model_used": "haiku",
+    "documents_collected": 95,
+    "sources_scanned": 8,
+    "scan_date": "2026-02-09",
+    "status": "success",
+    "execution_time": 27.09,
+    "process_id": 77135
+  },
+  "items": [
+    {
+      "id": "federal-register-bad1395d7847",
+      "title": "Safety Zone; Ice Accumulations; Ohio River, Pittsburgh, PA",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02567/safety-zone-ice-accumulations-ohio-river-pittsburgh-pa",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The Coast Guard is establishing a temporary safety zone on the Ohio River within the Captain of the Port Pittsburgh Zone, which includes mile marker 13 to mile marker 32, mile marker 65 to mile marker 85, and mile marker 109 to mile marker 127 on the Ohio River. This safety zone is needed to protect persons, property, and vessels transiting the area from the hazards associated with ice accumulation on the waterways. Entry into this zone is prohibited unless specifically authorized by the Captain of the Port (COTP) Pittsburgh or a designated representative.",
+        "keywords": [
+          "harbors",
+          "marine safety",
+          "navigation (water)",
+          "reporting and recordkeeping requirements",
+          "security measures",
+          "waterways",
+          "homeland security department",
+          "coast guard"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Homeland Security Department",
+          "Coast Guard"
+        ],
+        "topics": [
+          "Harbors",
+          "Marine safety",
+          "Navigation (water)",
+          "Reporting and recordkeeping requirements",
+          "Security measures",
+          "Waterways"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668620"
+    },
+    {
+      "id": "federal-register-dd7d3467f517",
+      "title": "Amendment of United States Area Navigation Route T-388 in the Vicinity of Kodiak, Alaska.",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02564/amendment-of-united-states-area-navigation-route-t-388-in-the-vicinity-of-kodiak-alaska",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "This action proposes to amend United States Area Navigation Route (RNAV) T-388 in the vicinity of Kodiak, Alaska. The FAA is proposing this action to increase the route structure connectivity in Alaska.",
+        "keywords": [
+          "airspace",
+          "incorporation by reference",
+          "navigation (air)",
+          "transportation department",
+          "federal aviation administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Transportation Department",
+          "Federal Aviation Administration"
+        ],
+        "topics": [
+          "Airspace",
+          "Incorporation by reference",
+          "Navigation (air)"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668664"
+    },
+    {
+      "id": "federal-register-233790bf15e6",
+      "title": "National Organic Program: 2026 Sunset Review and Substance Renewals",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02548/national-organic-program-2026-sunset-review-and-substance-renewals",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "This document announces the renewal of 56 substances listed on the National List of Allowed and Prohibited Substances within the U.S. Department of Agriculture's organic regulations. This document reflects the outcome of the 2026 sunset review processes and addresses recommendations submitted to the Secretary of Agriculture, through the USDA's Agricultural Marketing Service, by the National Organic Standards Board.",
+        "keywords": [
+          "agriculture department",
+          "agricultural marketing service"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Agriculture Department",
+          "Agricultural Marketing Service"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668693"
+    },
+    {
+      "id": "federal-register-963a75040980",
+      "title": "Notice of Proposed Methodology for the 2026 Delaware River and Bay Water Quality Assessment Report",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02547/notice-of-proposed-methodology-for-the-2026-delaware-river-and-bay-water-quality-assessment-report",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice is hereby given that the methodology proposed to be used in the 2026 Delaware River and Bay Water Quality Assessment Report is available for review and comment.",
+        "keywords": [
+          "delaware river basin commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Delaware River Basin Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668712"
+    },
+    {
+      "id": "federal-register-2e29af5ffa6a",
+      "title": "Meeting of the Regional Energy Resource Council",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02540/meeting-of-the-regional-energy-resource-council",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The TVA Regional Energy Resource Council (RERC) will hold a meeting on February 18, to kickoff the 7th term of the RERC with a member orientation and to receive an update on TVA's Integrated Resource Plan (IRP). The IRP provides strategic direction on how TVA will continue to provide low-cost, reliable, and resilient electricity to the 10 million residents of the Valley region.",
+        "keywords": [
+          "tennessee valley authority"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Tennessee Valley Authority"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668732"
+    },
+    {
+      "id": "federal-register-4e0cbd053233",
+      "title": "Agency Information Collection Activities: Request for Comments for a New Information Collection",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02539/agency-information-collection-activities-request-for-comments-for-a-new-information-collection",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The FHWA invites public comments about our intention to request the Office of Management and Budget's (OMB) approval for a new information collection, which is summarized below under Supplementary Information. We are required to publish this notice in the Federal Register by the Paperwork Reduction Act of 1995.",
+        "keywords": [
+          "transportation department",
+          "federal highway administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "Federal Highway Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668752"
+    },
+    {
+      "id": "federal-register-92bb9e4c5cc4",
+      "title": "Kitchen Appliance Shelving and Racks From China; Scheduling of Expedited Five-Year Reviews",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02538/kitchen-appliance-shelving-and-racks-from-china-scheduling-of-expedited-five-year-reviews",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The Commission hereby gives notice of the scheduling of expedited reviews pursuant to the Tariff Act of 1930 (\"the Act\") to determine whether revocation of the antidumping and countervailing duty orders on kitchen appliance shelving and racks from China would be likely to lead to continuation or recurrence of material injury within a reasonably foreseeable time.",
+        "keywords": [
+          "international trade commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "International Trade Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668772"
+    },
+    {
+      "id": "federal-register-527496acc9c2",
+      "title": "Division of Longshore and Harbor Workers' Compensation Guidance for Insurance Carrier Security Deposit Requirements",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02537/division-of-longshore-and-harbor-workers-compensation-guidance-for-insurance-carrier-security",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The Office of Workers' Compensation Program is issuing this guidance to clarify the securitization requirements for insurance carriers authorized under the Longshore and Harbor Workers' Compensation Act (LHWCA) and its extensions. This guidance establishes a rubric which allows OWCP to adjust the insurance carriers' obligations based on their fiscal stability and performance within the Longshore industry and serves to establish a clear and standardized process for determining the amount of collateral an authorized insurance carrier must deposit to cover its potential liabilities. This clarification benefits insurance carriers by providing predictability which aids in capital planning and avoids arbitrary or unexpected security adjustments. This also helps to standardize compliance across the industry and ensures authorized carriers secure their critical obligations. This sub-regulatory guidance does not supersede existing regulations and is intended to provide insurance carriers (carriers) with clarification on the posting of security deposits to collateralize liabilities.",
+        "keywords": [
+          "labor department",
+          "workers' compensation programs office"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Labor Department",
+          "Workers' Compensation Programs Office"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668806"
+    },
+    {
+      "id": "federal-register-3a1eeb89cfec",
+      "title": "Agency Information Collection Extension With Changes",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02536/agency-information-collection-extension-with-changes",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "EIA invites public comments on the proposed collection of information, the Annual Manufacturing Energy Consumption Survey, Form EIA-847, as required under the Paperwork Reduction Act of 1995. This report will be part of EIA's comprehensive energy data program. The Annual Manufacturing Energy Consumption Survey collects information on energy consumption and expenditures from establishments in the manufacturing sector.",
+        "keywords": [
+          "energy department",
+          "energy information administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Energy Information Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668826"
+    },
+    {
+      "id": "federal-register-6ba95085730e",
+      "title": "Sunshine Act Meetings",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02535/sunshine-act-meetings",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Securities and Exchange Commission",
+        "keywords": [
+          "securities and exchange commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Securities and Exchange Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668842"
+    },
+    {
+      "id": "federal-register-7873b771af1c",
+      "title": "Pesticide Registration Review; Proposed Decisions for Pyrimethanil; Notice of Availability",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02534/pesticide-registration-review-proposed-decisions-for-pyrimethanil-notice-of-availability",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "This notice announces the availability of EPA's proposed interim decision for pyrimethanil. EPA is opening a 60-day public comment period for the proposed interim decision.",
+        "keywords": [
+          "environmental protection agency"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Environmental Protection Agency"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668858"
+    },
+    {
+      "id": "federal-register-c8c2b3042a54",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02533/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668872"
+    },
+    {
+      "id": "federal-register-04579c662228",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02532/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668883"
+    },
+    {
+      "id": "federal-register-61dddbd4bf7f",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02531/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668895"
+    },
+    {
+      "id": "federal-register-4311293824d1",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02530/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668906"
+    },
+    {
+      "id": "federal-register-500771e340b3",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02529/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668918"
+    },
+    {
+      "id": "federal-register-55ee46d72819",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02528/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668929"
+    },
+    {
+      "id": "federal-register-0eea2872095b",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02527/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668940"
+    },
+    {
+      "id": "federal-register-bffb408733d5",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02526/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668952"
+    },
+    {
+      "id": "federal-register-a9091a1111a2",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02525/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668964"
+    },
+    {
+      "id": "federal-register-65635fe35029",
+      "title": "Arms Sales Notification",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02524/arms-sales-notification",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The DoD is publishing the unclassified text of an arms sales notification.",
+        "keywords": [
+          "defense department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Defense Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.668976"
+    },
+    {
+      "id": "federal-register-3374e8af53a2",
+      "title": "Submission of Data by State Educational Agencies; Submission Dates for State Revenue and Expenditure Reports for Fiscal Year 2025, Revisions to Those Reports, and Revisions to Prior Fiscal Year Reports",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02523/submission-of-data-by-state-educational-agencies-submission-dates-for-state-revenue-and-expenditure",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The Secretary announces dates for State Educational Agencies (SEAs) to submit expenditure and revenue data and average daily attendance statistics on ED Form 2447 (the National Public Education Financial Survey (NPEFS)) for fiscal year (FY) 2025, revisions to those reports, and revisions to reports for previous fiscal years. The Secretary sets these dates to ensure that data are available to serve as the basis for timely distribution of Federal funds. The U.S. Census Bureau is the data collection agent for this request of the Department of Education's National Center for Education Statistics (NCES). The data will be published by NCES and will be used by the Secretary in the calculation of allocations using FY 2027 appropriated funds.",
+        "keywords": [
+          "education department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Education Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669010"
+    },
+    {
+      "id": "federal-register-938033da8b49",
+      "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Grote Industries, LLC",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02522/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-grote",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "FMCSA requests public comment on an application from Grote Industries, LLC (Grote) for an exemption from the requirement that exterior lighting devices on commercial motor vehicles (CMVs) be steady-burning. The exemption would allow motor carriers to operate CMVs equipped with auxiliary rear or side lamps that flash or strobe when controlled by Grote's Rear-End Collision Warning (RCW) system. FMCSA requests public comment on the applicant's request for exemption.",
+        "keywords": [
+          "transportation department",
+          "federal motor carrier safety administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "Federal Motor Carrier Safety Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669033"
+    },
+    {
+      "id": "federal-register-617d2bdb9306",
+      "title": "Duke Energy Carolinas, LLC; Belews Creek; Belews Creek Early Site Permit Application",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02521/duke-energy-carolinas-llc-belews-creek-belews-creek-early-site-permit-application",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The U.S. Nuclear Regulatory Commission (NRC) staff has accepted and docketed an application for an early site permit (ESP) submitted by Duke Energy Carolinas, LLC, dated December 30, 2025. In addition, the NRC is providing notice that an uncontested hearing will be held on the ESP application at a time and place to be set in the future by the presiding officer for the uncontested hearing. This notice also provides the public an opportunity to request a hearing and petition for leave to intervene (i.e., contested hearing) with respect to that application. If the NRC issues an ESP, the applicant, Duke Energy Carolinas, LLC, would be approved for one or more proposed sites for a nuclear power facility, independent of a specific nuclear plant design or an application for a construction permit or combined license. Because the application contains Sensitive Unclassified Non-Safeguards Information (SUNSI), this notice includes an order that imposes procedures to obtain access to SUNSI for contention preparation.",
+        "keywords": [
+          "nuclear regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Nuclear Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669066"
+    },
+    {
+      "id": "federal-register-0efdb906e0e1",
+      "title": "Privacy Act of 1974; Systems of Records",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02520/privacy-act-of-1974-systems-of-records",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "In accordance with the Privacy Act of 1974, as amended, the Federal Energy Regulatory Commission (FERC) is modifying the systems of records listed in this notice to incorporate a new routine use related to releasing records to the Department of the Treasury pursuant to Executive Order No. 14249, Protecting America's Bank Account Against Fraud, Waste, and Abuse (March 25, 2025) and OMB Memo M-25-32, Preventing Improper Payment and Protecting Privacy Through Do Not Pay.",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669087"
+    },
+    {
+      "id": "federal-register-77458cc65451",
+      "title": "Dominion Energy South Carolina, Inc.; Notice of Availability of Environmental Assessment",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02519/dominion-energy-south-carolina-inc-notice-of-availability-of-environmental-assessment",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669104"
+    },
+    {
+      "id": "federal-register-7f6093cf5340",
+      "title": "Green Mountain Power Corporation; Notice of Application Accepted for Filing, Soliciting Motions To Intervene and Protests, Ready for Environmental Analysis, and Soliciting Comments, Recommendations, Preliminary Terms and Conditions, and Preliminary Fishway Prescriptions",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02518/green-mountain-power-corporation-notice-of-application-accepted-for-filing-soliciting-motions-to",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669123"
+    },
+    {
+      "id": "federal-register-821a71ed795c",
+      "title": "Southern Star Central Gas Pipeline, Inc.; Notice of Application and Establishing Intervention Deadline",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02517/southern-star-central-gas-pipeline-inc-notice-of-application-and-establishing-intervention-deadline",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669139"
+    },
+    {
+      "id": "federal-register-f8c9df7a2481",
+      "title": "Northern Illinois Hydropower, LLC; Notice of Intent To Prepare an Environmental Assessment",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02516/northern-illinois-hydropower-llc-notice-of-intent-to-prepare-an-environmental-assessment",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669154"
+    },
+    {
+      "id": "federal-register-d3787644d281",
+      "title": "Committee and Quarterly Board Meetings",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02515/committee-and-quarterly-board-meetings",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "This notice sets forth the agenda, time, and instructions to access the National Assessment Governing Board's (hereafter referred to as the Board or Governing Board) standing committee meetings and quarterly Governing Board meeting. This notice provides information to members of the public who may be interested in attending the meetings and/or providing written comments related to the work of the Governing Board. The meetings will be held either in person and/or virtually, as noted below. Members of the public must register in advance to attend all meetings virtually. A registration link will be posted on the Governing Board's website, www.nagb.gov, five (5) business days prior to each meeting.",
+        "keywords": [
+          "education department",
+          "national assessment governing board"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Education Department",
+          "National Assessment Governing Board"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669179"
+    },
+    {
+      "id": "federal-register-1d9f0e2c4831",
+      "title": "Notice of Indirect Cost Rates",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02514/notice-of-indirect-cost-rates",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "NOAA's Office of National Marine Sanctuaries (ONMS) announces the establishment of new indirect cost rates for the recovery of indirect costs for its component organizations involved in natural resource damage and restoration activities for fiscal year (FY) 2019. NOAA will apply the indirect cost rate for FY2019 as recommended by Empirical Concepts LLP (Empirical) for each of the ONMS component organizations and the dates of implementation in this notice. The public can obtain more information on this rate from the address provided below in the FOR FURTHER INFORMATION CONTACT section.",
+        "keywords": [
+          "commerce department",
+          "national oceanic and atmospheric administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commerce Department",
+          "National Oceanic and Atmospheric Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669203"
+    },
+    {
+      "id": "federal-register-a220447caf3d",
+      "title": "Agency Information Collection Activities Under OMB Review",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02513/agency-information-collection-activities-under-omb-review",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "In compliance with the Paperwork Reduction Act of 1995 (\"PRA\"), this notice announces that the Information Collection Request (\"ICR\") abstracted below has been forwarded to the Office of Information and Regulatory Affairs (\"OIRA\"), of the Office of Management and Budget (\"OMB\"), for review and comment. The ICR describes the nature of the information collection and its expected costs and burden.",
+        "keywords": [
+          "commodity futures trading commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commodity Futures Trading Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669224"
+    },
+    {
+      "id": "federal-register-8eb80fcbe75e",
+      "title": "New Postal Products",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02512/new-postal-products",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.",
+        "keywords": [
+          "postal regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Postal Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669239"
+    },
+    {
+      "id": "federal-register-f7b6fbaeb0b3",
+      "title": "Agency Information Collection Activities: Notice of Intent To Extend Collection 3038-0101, Registration of Foreign Boards of Trade",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02511/agency-information-collection-activities-notice-of-intent-to-extend-collection-3038-0101",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The Commodity Futures Trading Commission (Commission or CFTC) is announcing an opportunity for public comment on the proposed renewal of a collection of certain information by the agency. Under the Paperwork Reduction Act (PRA), Federal agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including proposed extension of an existing collection of information, and to allow 60 days for public comment. This notice solicits comments on collections of information provided for by Commission regulation Part 48, Registration of Foreign Boards of Trade.",
+        "keywords": [
+          "commodity futures trading commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commodity Futures Trading Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669269"
+    },
+    {
+      "id": "federal-register-271a22b984c5",
+      "title": "Mammoth Cave National Park; Bicycling and Horses",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02510/mammoth-cave-national-park-bicycling-and-horses",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The National Park Service (NPS) proposes to amend the special regulations for Mammoth Cave National Park to allow bicycle use on approximately 37 miles of multi-use trails throughout the park. The proposed rule also would allow visitors to ride horses on the 5.4-mile Houchin Ferry North/Ollie Road.",
+        "keywords": [
+          "national parks",
+          "reporting and recordkeeping requirements",
+          "interior department",
+          "national park service"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Interior Department",
+          "National Park Service"
+        ],
+        "topics": [
+          "National parks",
+          "Reporting and recordkeeping requirements"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669289"
+    },
+    {
+      "id": "federal-register-65a2236e6477",
+      "title": "Information Collections Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02509/information-collections-being-reviewed-by-the-federal-communications-commission-under-delegated",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection burden on small business concerns with fewer than 25 employees. The FCC may not conduct or sponsor a collection of information unless it displays a currently valid OMB control number. No person shall be subject to any penalty for failing to comply with a collection of information subject to the PRA that does not display a valid OMB control number.",
+        "keywords": [
+          "federal communications commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Federal Communications Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669323"
+    },
+    {
+      "id": "federal-register-e69f10b8c5e7",
+      "title": "Notice of Intent of Waiver With Respect to Land; Extension of Comment Period Indianapolis Downtown Heliport, Indianapolis, IN",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02508/notice-of-intent-of-waiver-with-respect-to-land-extension-of-comment-period-indianapolis-downtown",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "On January 13, 2026, the Federal Aviation Administration (FAA) published a notice seeking further public comment on a proposal to permanently close the Indianapolis Downtown Heliport and change 5.36 acres of land from aeronautical use to non-aeronautical use and to authorize the sale of all heliport property located at the Indianapolis Downtown Heliport (8A4), Indianapolis, Indiana. The comment period for the notice was scheduled to end on February 12, 2026. FAA received a request to extend the comment period. The FAA is extending the comment period for the January 13, 2026, notice by 14 days.",
+        "keywords": [
+          "transportation department",
+          "federal aviation administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "Federal Aviation Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669347"
+    },
+    {
+      "id": "federal-register-f683ee466a52",
+      "title": "Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02507/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection burden on small business concerns with fewer than 25 employees. The FCC may not conduct or sponsor a collection of information unless it displays a currently valid OMB control number. No person shall be subject to any penalty for failing to comply with a collection of information subject to the PRA that does not display a valid OMB control number.",
+        "keywords": [
+          "federal communications commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Federal Communications Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669374"
+    },
+    {
+      "id": "federal-register-8760b31419a0",
+      "title": "Information Collection Being Submitted for Review and Approval to Office of Management and Budget",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02506/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal Agencies to take this opportunity to comment on the following information collection. Pursuant to the Small Business Paperwork Relief Act of 2002, the FCC seeks specific comment on how it can further reduce the information collection burden for small business concerns with fewer than 25 employees.",
+        "keywords": [
+          "federal communications commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Federal Communications Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669392"
+    },
+    {
+      "id": "federal-register-bd3fd054dc17",
+      "title": "Findings of Research Misconduct",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02505/findings-of-research-misconduct",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Findings of research misconduct have been made against Daniel Andrade, Ph.D., former Assistant Professor of Research, Department of Obstetrics and Gynecology and Stephenson Cancer Center, University of Oklahoma Health Science Center. Dr. Andrade engaged in research misconduct under 42 CFR part 93 in research included in two (2) grant applications submitted for U.S. Public Health Service (PHS) funds, specifically DP2 OD030789-01 submitted to the Office of the Director (OD), National Institutes of Health (NIH), and R21 CA253956-01 submitted to the National Cancer Institute (NCI), NIH. Administrative actions, including supervision for a period of three (3) years, were implemented and are detailed below.",
+        "keywords": [
+          "health and human services department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department",
+          ""
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669412"
+    },
+    {
+      "id": "federal-register-050fe8f4e281",
+      "title": "Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02504/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection burden on small business concerns with fewer than 25 employees. The FCC may not conduct or sponsor a collection of information unless it displays a currently valid OMB control number. No person shall be subject to any penalty for failing to comply with a collection of information subject to the PRA that does not display a valid OMB control number.",
+        "keywords": [
+          "federal communications commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Federal Communications Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669438"
+    },
+    {
+      "id": "federal-register-9f2f21b1b864",
+      "title": "NHTSA Automated Vehicle Safety Public Meeting: March 2026",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02503/nhtsa-automated-vehicle-safety-public-meeting-march-2026",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The National Highway Traffic Safety Administration (NHTSA) will hold a public meeting on March 10, 2026. The event will provide updates and insights into ongoing vehicle automation activities across NHTSA. The meeting will be held in-person and will feature keynote addresses from the DOT leadership and industry executive panel discussions on key Automated Driving Systems (ADS) topics in the morning. The second portion of the meeting will build upon the ADS workshop held November 20, 2025. NHTSA gleaned valuable information from stakeholders on various topics. In this subsequent meeting, NHTSA intends to gather specific input on potential actions, including potential future guidance to the safe domestic development, testing and deployment of ADS equipped vehicles. NHTSA intends to utilize stakeholder input to better inform the agency's upcoming activities. The event will not be live streamed.",
+        "keywords": [
+          "transportation department",
+          "national highway traffic safety administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "National Highway Traffic Safety Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669463"
+    },
+    {
+      "id": "federal-register-99554d74e856",
+      "title": "Center for Scientific Review; Notice of Closed Meetings",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02502/center-for-scientific-review-notice-of-closed-meetings",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Health and Human Services Department, National Institutes of Health",
+        "keywords": [
+          "health and human services department",
+          "national institutes of health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department",
+          "National Institutes of Health"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669477"
+    },
+    {
+      "id": "federal-register-baaec773871b",
+      "title": "Protection of Federal Property; Technical Amendment",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02501/protection-of-federal-property-technical-amendment",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "On June 9, 2025, DHS adopted regulations governing the protection of Federal property. These regulations contained cross references to old General Services Administration (GSA) regulations that have since been rescinded. This rule corrects the DHS regulations by removing these rescinded GSA cross-references. Additionally, this rule revises the language of the section regarding photography to clarify the prohibitions on photography and recording.",
+        "keywords": [
+          "aircraft",
+          "alcohol and alcoholic beverages",
+          "animals",
+          "arms and munitions",
+          "buildings and facilities",
+          "civil disorders",
+          "crime",
+          "explosives",
+          "federal buildings and facilities",
+          "gambling"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Homeland Security Department"
+        ],
+        "topics": [
+          "Aircraft",
+          "Alcohol and alcoholic beverages",
+          "Animals",
+          "Arms and munitions",
+          "Buildings and facilities",
+          "Civil disorders",
+          "Crime",
+          "Explosives",
+          "Federal buildings and facilities",
+          "Gambling",
+          "Government employees",
+          "Government property",
+          "Government property management",
+          "Law enforcement",
+          "Law enforcement officers",
+          "Penalties",
+          "Safety",
+          "Security measures",
+          "Terrorism",
+          "Tobacco"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669501"
+    },
+    {
+      "id": "federal-register-2cafe3b952d2",
+      "title": "Silicon Metal From Norway: Preliminary Affirmative Determination of Sales at Less Than Fair Value, Postponement of Final Determination, and Extension of Provisional Measures",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02500/silicon-metal-from-norway-preliminary-affirmative-determination-of-sales-at-less-than-fair-value",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The U.S. Department of Commerce (Commerce) preliminarily determines that silicon metal from Norway is being, or is likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is April 1, 2024, through March 31, 2025. Interested parties are invited to comment on this preliminary determination.",
+        "keywords": [
+          "commerce department",
+          "international trade administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commerce Department",
+          "International Trade Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669520"
+    },
+    {
+      "id": "federal-register-d2bcfb58c9b7",
+      "title": "Silicon Metal From Australia: Preliminary Affirmative Determination of Sales at Less Than Fair Value, Postponement of Final Determination, and Extension of Provisional Measures",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02499/silicon-metal-from-australia-preliminary-affirmative-determination-of-sales-at-less-than-fair-value",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The U.S. Department of Commerce (Commerce) preliminarily determines that silicon metal from Australia is being, or is likely to be, sold in the United States at less than fair value (LTFV). The period of investigation (POI) is April 1, 2024, through March 31, 2025. Interested parties are invited to comment on this preliminary determination.",
+        "keywords": [
+          "commerce department",
+          "international trade administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commerce Department",
+          "International Trade Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669538"
+    },
+    {
+      "id": "federal-register-5896a856dba2",
+      "title": "Marine Mammals; File No. 29070",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02498/marine-mammals-file-no-29070",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice is hereby given that the University of Florida, Aquatic Animal Health Program, 2015 SW 16th Avenue, Gainesville, Florida 32608 (Michael Walsh, DVM, Responsible Party), has applied in due form for a permit to import, export, and receive marine mammal parts of for scientific research.",
+        "keywords": [
+          "commerce department",
+          "national oceanic and atmospheric administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commerce Department",
+          "National Oceanic and Atmospheric Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669552"
+    },
+    {
+      "id": "federal-register-177ec8bd0546",
+      "title": "Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02495/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection burden on small business concerns with fewer than 25 employees. The FCC may not conduct or sponsor a collection of information unless it displays a currently valid OMB control number. No person shall be subject to any penalty for failing to comply with a collection of information subject to the PRA that does not display a valid OMB control number.",
+        "keywords": [
+          "federal communications commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Federal Communications Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669578"
+    },
+    {
+      "id": "federal-register-db0ae879c586",
+      "title": "Agency Information Collection Activities: Submission for OMB Review; Comment Request",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02494/agency-information-collection-activities-submission-for-omb-review-comment-request",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Notice by Health and Human Services Department, Substance Abuse and Mental Health Services Administration",
+        "keywords": [
+          "health and human services department",
+          "substance abuse and mental health services administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department",
+          "Substance Abuse and Mental Health Services Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669592"
+    },
+    {
+      "id": "federal-register-c95960a65db9",
+      "title": "Float Glass Products From the People's Republic of China: Final Affirmative Countervailing Duty Determination",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/09/2026-02493/float-glass-products-from-the-peoples-republic-of-china-final-affirmative-countervailing-duty",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The U.S. Department of Commerce (Commerce) determines that countervailable subsidies are being provided to producers and exporters of float glass products (float glass) from the People's Republic of China (China). The period of investigation is January 1, 2023, through December 31, 2023.",
+        "keywords": [
+          "commerce department",
+          "international trade administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commerce Department",
+          "International Trade Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.669608"
+    },
+    {
+      "id": "who-press-releases-5b12aba81047",
+      "title": "Over four million girls still at risk of female genital mutilation: UN leaders call for sustained commitment and investment to end FGM",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/05-02-2026-over-four-million-girls-still-at-risk-of-female-genital-mutilation--un-leaders-call-for-sustained-commitment-and-investment-to-end-fgm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Over four million girls still at risk of female genital mutilation: UN leaders call for sustained commitment and investment to end FGM",
+        "keywords": [
+          "over",
+          "four",
+          "million",
+          "girls",
+          "still",
+          "risk",
+          "female",
+          "genital",
+          "mutilation:",
+          "leaders"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.930709"
+    },
+    {
+      "id": "who-press-releases-233262c0d675",
+      "title": "Preventive cholera vaccination resumes as global supply reaches critical milestone",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/04-02-2026-preventive-cholera-vaccination-resumes-as-global-supply-reaches-critical-milestone",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "First preventive campaign in over three years launches in Mozambique, with others planned in Bangladesh and the Democratic Republic of the Congo",
+        "keywords": [
+          "preventive",
+          "cholera",
+          "vaccination",
+          "resumes",
+          "global",
+          "supply",
+          "reaches",
+          "critical",
+          "milestone",
+          "first"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.930750"
+    },
+    {
+      "id": "who-press-releases-8189a46dd431",
+      "title": "Four in ten cancer cases could be prevented globally",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/03-02-2026-four-in-ten-cancer-cases-could-be-prevented-globally",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "Up to four in ten cancer cases worldwide could be prevented, according to a new global analysis from the World Health Organization (WHO) and its International Agency for Research on Cancer (IARC). The study examines 30 preventable causes, including tobacco, alcohol, high body mass index, physical inactivity, air pollution, ultraviolet radiation – and for the first time – nine cancer-causing infections.",
+        "keywords": [
+          "four",
+          "cancer",
+          "cases",
+          "could",
+          "prevented",
+          "globally",
+          "four",
+          "cancer",
+          "cases",
+          "worldwide"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.930803"
+    },
+    {
+      "id": "who-press-releases-988cac3b9f3e",
+      "title": "WHO launches 2026 appeal to help millions of people in health emergencies and crisis settings",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "The World Health Organization (WHO) today launched its 2026 global appeal to ensure millions of people living in humanitarian crises and conflicts can access health care.",
+        "keywords": [
+          "launches",
+          "2026",
+          "appeal",
+          "help",
+          "millions",
+          "people",
+          "health",
+          "emergencies",
+          "crisis",
+          "settings"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.930831"
+    },
+    {
+      "id": "who-press-releases-57309db26d3a",
+      "title": "Six years after COVID-19’s global alarm: Is the world better prepared for the next pandemic?",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/02-02-2026-six-years-after-covid-19-s-global-alarm-is-the-world-better-prepared-for-the-next-pandemic",
+        "published_date": "2026-02-02"
+      },
+      "content": {
+        "abstract": "Progress made during the six years, since the declaration of COVID-19 as a Public Health Emergency of International Concern, in preparing for a future pandemic, and what remains to be done.",
+        "keywords": [
+          "years",
+          "after",
+          "covid-19’s",
+          "global",
+          "alarm:",
+          "world",
+          "better",
+          "prepared",
+          "next",
+          "pandemic?"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:14.930863"
+    },
+    {
+      "id": "un-news-0e526e234b11",
+      "title": "From rural margins to media trailblazers: India’s women journalists are rewriting the news",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166917",
+        "published_date": "2026-02-08"
+      },
+      "content": {
+        "abstract": "From rural margins to media trailblazers: India’s women journalists are rewriting the news",
+        "keywords": [
+          "from",
+          "rural",
+          "margins",
+          "media",
+          "trailblazers:",
+          "india’s",
+          "women",
+          "journalists",
+          "rewriting",
+          "news"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690620"
+    },
+    {
+      "id": "un-news-cb4a3417a615",
+      "title": "Guterres condemns escalating violence in South Sudan as aid operations come under fire",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166921",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "Guterres condemns escalating violence in South Sudan as aid operations come under fire",
+        "keywords": [
+          "guterres",
+          "condemns",
+          "escalating",
+          "violence",
+          "south",
+          "sudan",
+          "operations",
+          "come",
+          "under",
+          "fire"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690647"
+    },
+    {
+      "id": "un-news-4fd0ae2111b0",
+      "title": "How AI, gaming and virtual worlds are reshaping Holocaust remembrance",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166912",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "How AI, gaming and virtual worlds are reshaping Holocaust remembrance",
+        "keywords": [
+          "gaming",
+          "virtual",
+          "worlds",
+          "reshaping",
+          "holocaust",
+          "remembrance",
+          "gaming",
+          "virtual",
+          "worlds",
+          "reshaping"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690667"
+    },
+    {
+      "id": "un-news-232aa595a7b4",
+      "title": "From shelter to strength: How disaster refuges protect lives in Palau",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166915",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "From shelter to strength: How disaster refuges protect lives in Palau",
+        "keywords": [
+          "from",
+          "shelter",
+          "strength:",
+          "disaster",
+          "refuges",
+          "protect",
+          "lives",
+          "palau",
+          "from",
+          "shelter"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690685"
+    },
+    {
+      "id": "un-news-259266abb86d",
+      "title": "Pakistan: Guterres condemns deadly suicide bombing at Islamabad mosque",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166920",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Pakistan: Guterres condemns deadly suicide bombing at Islamabad mosque",
+        "keywords": [
+          "pakistan:",
+          "guterres",
+          "condemns",
+          "deadly",
+          "suicide",
+          "bombing",
+          "islamabad",
+          "mosque",
+          "pakistan:",
+          "guterres"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690701"
+    },
+    {
+      "id": "un-news-89ef8e952d86",
+      "title": "Nuclear disarmament at breaking point as mistrust grows – but hope remains",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166916",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Nuclear disarmament at breaking point as mistrust grows – but hope remains",
+        "keywords": [
+          "nuclear",
+          "disarmament",
+          "breaking",
+          "point",
+          "mistrust",
+          "grows",
+          "hope",
+          "remains",
+          "nuclear",
+          "disarmament"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690719"
+    },
+    {
+      "id": "un-news-439b237d7eff",
+      "title": "Ukraine war keeps nuclear safety on a knife-edge, UN watchdog warns",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166914",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Ukraine war keeps nuclear safety on a knife-edge, UN watchdog warns",
+        "keywords": [
+          "ukraine",
+          "keeps",
+          "nuclear",
+          "safety",
+          "knife-edge,",
+          "watchdog",
+          "warns",
+          "ukraine",
+          "keeps",
+          "nuclear"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690735"
+    },
+    {
+      "id": "un-news-4d0637513740",
+      "title": "Guterres welcomes resumption of Iran-US talks",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166910",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Guterres welcomes resumption of Iran-US talks",
+        "keywords": [
+          "guterres",
+          "welcomes",
+          "resumption",
+          "iran-us",
+          "talks",
+          "guterres",
+          "welcomes",
+          "resumption",
+          "iran-us",
+          "talks"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690749"
+    },
+    {
+      "id": "un-news-9ad29a36973d",
+      "title": "Concerns persist over herbicide spraying reports on Blue Line between Lebanon and Israel",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166907",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Concerns persist over herbicide spraying reports on Blue Line between Lebanon and Israel",
+        "keywords": [
+          "concerns",
+          "persist",
+          "over",
+          "herbicide",
+          "spraying",
+          "reports",
+          "blue",
+          "line",
+          "between",
+          "lebanon"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690764"
+    },
+    {
+      "id": "un-news-99d698804daf",
+      "title": "Keeping hope ‘alive for younger generations’ in Haiti as funding falters",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166906",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Keeping hope ‘alive for younger generations’ in Haiti as funding falters",
+        "keywords": [
+          "keeping",
+          "hope",
+          "‘alive",
+          "younger",
+          "generations’",
+          "haiti",
+          "funding",
+          "falters",
+          "keeping",
+          "hope"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690782"
+    },
+    {
+      "id": "un-news-6f24132a19bc",
+      "title": "Fatwas, faith and fallacies: Myth-busting female genital mutilation in Africa",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166902",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Fatwas, faith and fallacies: Myth-busting female genital mutilation in Africa",
+        "keywords": [
+          "fatwas,",
+          "faith",
+          "fallacies:",
+          "myth-busting",
+          "female",
+          "genital",
+          "mutilation",
+          "africa",
+          "fatwas,",
+          "faith"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690797"
+    },
+    {
+      "id": "un-news-de81695a3487",
+      "title": "UN Police ‘indispensable’ to fulfilling peacekeeping mandates, Security Council hears",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166905",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "UN Police ‘indispensable’ to fulfilling peacekeeping mandates, Security Council hears",
+        "keywords": [
+          "police",
+          "‘indispensable’",
+          "fulfilling",
+          "peacekeeping",
+          "mandates,",
+          "security",
+          "council",
+          "hears",
+          "police",
+          "‘indispensable’"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690814"
+    },
+    {
+      "id": "un-news-3a67d042b537",
+      "title": "Chad: Africa’s refugee haven struggles with its own stark challenges",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166904",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Chad: Africa’s refugee haven struggles with its own stark challenges",
+        "keywords": [
+          "chad:",
+          "africa’s",
+          "refugee",
+          "haven",
+          "struggles",
+          "stark",
+          "challenges",
+          "chad:",
+          "africa’s",
+          "refugee"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690833"
+    },
+    {
+      "id": "un-news-de915d9e1151",
+      "title": "World News in Brief: UN condemns attack on civilians in Nigeria, updates from Gaza and West Bank, relief flights to resume in Yemen",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166903",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "World News in Brief: UN condemns attack on civilians in Nigeria, updates from Gaza and West Bank, relief flights to resume in Yemen",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "condemns",
+          "attack",
+          "civilians",
+          "nigeria,",
+          "updates",
+          "from",
+          "gaza"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690851"
+    },
+    {
+      "id": "un-news-5887902bc23f",
+      "title": "M23 rebels: UN sees progress in talks but warns violence persists",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166899",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "M23 rebels: UN sees progress in talks but warns violence persists",
+        "keywords": [
+          "rebels:",
+          "sees",
+          "progress",
+          "talks",
+          "warns",
+          "violence",
+          "persists",
+          "rebels:",
+          "sees",
+          "progress"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690865"
+    },
+    {
+      "id": "un-news-fc045d51137e",
+      "title": "Child malnutrition hits catastrophic levels in parts of Sudan",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166898",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Child malnutrition hits catastrophic levels in parts of Sudan",
+        "keywords": [
+          "child",
+          "malnutrition",
+          "hits",
+          "catastrophic",
+          "levels",
+          "parts",
+          "sudan",
+          "child",
+          "malnutrition",
+          "hits"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690879"
+    },
+    {
+      "id": "un-news-26b9259539db",
+      "title": "UN lauds $6 billion US funding approval towards ending HIV/AIDS",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166897",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "UN lauds $6 billion US funding approval towards ending HIV/AIDS",
+        "keywords": [
+          "lauds",
+          "billion",
+          "funding",
+          "approval",
+          "towards",
+          "ending",
+          "hiv/aids",
+          "lauds",
+          "billion",
+          "funding"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690895"
+    },
+    {
+      "id": "un-news-6161616d2232",
+      "title": "Cuba: UN warns of possible humanitarian ‘collapse’, as oil supplies dwindle",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166895",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Cuba: UN warns of possible humanitarian ‘collapse’, as oil supplies dwindle",
+        "keywords": [
+          "cuba:",
+          "warns",
+          "possible",
+          "humanitarian",
+          "‘collapse’,",
+          "supplies",
+          "dwindle",
+          "cuba:",
+          "warns",
+          "possible"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690912"
+    },
+    {
+      "id": "un-news-cbb93dc42649",
+      "title": "‘Human rights cannot wait’: Türk launches $400 million appeal for 2026",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166893",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "‘Human rights cannot wait’: Türk launches $400 million appeal for 2026",
+        "keywords": [
+          "‘human",
+          "rights",
+          "cannot",
+          "wait’:",
+          "türk",
+          "launches",
+          "$400",
+          "million",
+          "appeal",
+          "2026"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690929"
+    },
+    {
+      "id": "un-news-4888655e4eb8",
+      "title": "UN chief warns of ‘grave moment’ as final US-Russia nuclear arms treaty expires",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1166892",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "UN chief warns of ‘grave moment’ as final US-Russia nuclear arms treaty expires",
+        "keywords": [
+          "chief",
+          "warns",
+          "‘grave",
+          "moment’",
+          "final",
+          "us-russia",
+          "nuclear",
+          "arms",
+          "treaty",
+          "expires"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:37.690945"
+    },
+    {
+      "id": "nasa-climate-change-f2a22728f0ba",
+      "title": "NASA Conducts Repairs, Analysis Ahead of Next Artemis II Fueling Test",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/missions/2026/02/08/nasa-conducts-repairs-analysis-ahead-of-next-artemis-ii-fueling-test/",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Since concluding a wet dress rehearsal Feb. 3 ahead of Artemis II, technicians have replaced two seals in an area where operators saw higher than allowable hydrogen gas concentrations during the test. Engineers are analyzing the removed seals and developing plans to address all issues ahead of the next rehearsal. Once the SLS (Space Launch […] The post NASA Conducts Repairs, Analysis Ahead of Next Artemis II Fueling Test appeared first on NASA Science.",
+        "keywords": [
+          "artemis",
+          "artemis 2",
+          "exploration ground systems",
+          "kennedy space center",
+          "orion multi-purpose crew vehicle",
+          "space launch system (sls)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797663"
+    },
+    {
+      "id": "nasa-climate-change-559fa2b6a110",
+      "title": "NASA’s SpaceX Crew-12 Answer Questions from Quarantine",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/spacestation/2026/02/08/nasas-spacex-crew-12-answer-questions-from-quarantine/",
+        "published_date": "2026-02-08"
+      },
+      "content": {
+        "abstract": "NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev answered questions Sunday from the Astronaut Crew Quarters inside the Neil A. Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida. During their virtual briefing with the media, Crew-12 discussed their science objections aboard the International […] The post NASA’s SpaceX Crew-12 Answer Questions from Quarantine appeared first on NASA Science.",
+        "keywords": [
+          "commercial crew",
+          "jack hathaway",
+          "jessica u. meir"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797705"
+    },
+    {
+      "id": "nasa-climate-change-be8b3587ce78",
+      "title": "A Grand, Snow-Rimmed Canyon",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/earth/earth-observatory/a-grand-snow-rimmed-canyon/",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "A dusting of white highlighted the Colorado Plateau around the deep gorge, while shadows created a visual illusion. The post A Grand, Snow-Rimmed Canyon appeared first on NASA Science.",
+        "keywords": [
+          "earth observatory",
+          "snow",
+          "topography"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Lauren Dauphin"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797728"
+    },
+    {
+      "id": "nasa-climate-change-4dccfb5de7ec",
+      "title": "NASA’s SpaceX Crew-12 Arrives in Florida",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/commercialcrew/2026/02/06/nasas-spacex-crew-12-arrives-in-florida/",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev, all members of the Crew-12 mission, landed shortly after 8:30 p.m. EST Friday at NASA Kennedy’s Launch and Landing Facility in Florida. Watch the crew arrival here. Crew-12 will head to Astronaut Crew Quarters inside Kennedy’s […] The post NASA’s SpaceX Crew-12 Arrives in Florida appeared first on NASA Science.",
+        "keywords": [
+          "commercial crew",
+          "jack hathaway",
+          "jessica u. meir",
+          "kennedy space center"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797761"
+    },
+    {
+      "id": "nasa-climate-change-6341a9c06db0",
+      "title": "NASA’s SpaceX Crew-12 ‘Go’ For Launch",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/spacestation/2026/02/06/nasas-spacex-crew-12-go-for-launch/",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "NASA’s SpaceX Crew-12 mission has been cleared to proceed with launch preparations following a Flight Readiness Review with NASA, SpaceX, and the agency’s international partners. Liftoff of Crew-12 aboard a SpaceX Falcon 9 rocket and Dragon spacecraft remains on track for no earlier than 6:01 a.m. EST on Wednesday, Feb. 11, from Space Launch Complex […] The post NASA’s SpaceX Crew-12 ‘Go’ For Launch appeared first on NASA Science.",
+        "keywords": [
+          "commercial crew",
+          "international space station (iss)",
+          "jack hathaway",
+          "jessica u. meir",
+          "kennedy space center"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797793"
+    },
+    {
+      "id": "nasa-climate-change-eb18625ea5fe",
+      "title": "NASA’s SpaceX Crew-12 Flies to NASA Kennedy",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/spacestation/2026/02/06/nasas-spacex-crew-12-flies-to-nasa-kennedy/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "The crew members of NASA’s SpaceX Crew-12 mission are on their way to the agency’s Kennedy Space Center in Florida to complete final preparations before their launch to the International Space Station. NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev took off at 6:55 […] The post NASA’s SpaceX Crew-12 Flies to NASA Kennedy appeared first on NASA Science.",
+        "keywords": [
+          "commercial crew",
+          "johnson space center",
+          "kennedy space center"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797823"
+    },
+    {
+      "id": "nasa-climate-change-db298c71f26e",
+      "title": "HWO SIG Seminar, 11 Feb 2026",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/astrophysics/programs/cosmic-origins/community/hwo-sig-seminar-11-feb-2026/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "This seminar will feature an update from the Habitable Worlds Observatory Community Science &#38; Instrument Team (CSIT), presentations on technical capabilities, and time for groups to advertise their HWO-related work and find collaborators. If you would like an advertisement slot please email&#160;laura.mayorga@jhuapl.edu&#160;to confirm your slot. Agenda TopicSpeakerHWO SIG WelcomeRichard MasseyUpdates from the CSITEvgenya ShkolnikHWO News [&#8230;] The post HWO SIG Seminar, 11 Feb 2026 appeared first on NASA Science.",
+        "keywords": [
+          "cosmic origins program"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Patricia Tyler"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797852"
+    },
+    {
+      "id": "nasa-climate-change-9215e5d0f1c8",
+      "title": "Habitable Worlds Observatory SIG Seminar, 11 Feb 2026",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/habitable-worlds-observatory-sig-seminar-11-feb-2026/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "This seminar will feature an update from the Habitable Worlds Observatory Community Science &#38; Instrument Team (CSIT), presentations on technical capabilities, and time for groups to advertise their HWO-related work and find collaborators. If you would like an advertisement slot please email&#160;laura.mayorga@jhuapl.edu&#160;to confirm your slot. Agenda TopicSpeakerHWO SIG WelcomeRichard MasseyUpdates from the CSITEvgenya ShkolnikHWO News [&#8230;] The post Habitable Worlds Observatory SIG Seminar, 11 Feb 2026 appeared first on NASA Science.",
+        "keywords": [
+          "physics of the cosmos"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Patricia Tyler"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797880"
+    },
+    {
+      "id": "nasa-climate-change-a8a5540aaecd",
+      "title": "Biospheric Science Branch Page",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/earth-science-at-ames/who-we-are/biospheric-science/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Satellite Missions: The Biospheric Science Branch contributes to several NASA satellite missions with the goal to better understanding Earth’s terrestrial and marine biospheres and atmosphere. The post Biospheric Science Branch Page appeared first on NASA Science.",
+        "keywords": [
+          "ames research center",
+          "ames research center's science directorate",
+          "earth science",
+          "earth science division"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797904"
+    },
+    {
+      "id": "nasa-climate-change-ce7d9add94d2",
+      "title": "Atmospheric Science Branch Page",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/earth-science-at-ames/who-we-are/atmospheric-science/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Satellite Missions: The Atmospheric Science Branch (SGG) leads and contributes to a range of NASA missions, field campaigns, and technology development efforts that support atmospheric research, satellite validation, and next-generation exploration. Below is a spotlight on some of our current high-impact projects: The post Atmospheric Science Branch Page appeared first on NASA Science.",
+        "keywords": [
+          "ames research center",
+          "ames research center's science directorate",
+          "earth science",
+          "earth science division"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:39.797929"
+    },
+    {
+      "id": "bis-speeches-b1b24f9cc389",
+      "title": "Yannis Stournaras: Banking and financial outlook for Greece and Europe in 2026",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260204d.htm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Yannis Stournaras: Banking and financial outlook for Greece and Europe in 2026",
+        "keywords": [
+          "yannis",
+          "stournaras:",
+          "banking",
+          "financial",
+          "outlook",
+          "greece",
+          "europe",
+          "2026",
+          "yannis",
+          "stournaras:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Yannis Stournaras"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953325"
+    },
+    {
+      "id": "bis-speeches-3f1dc3dcf7e7",
+      "title": "Steven Maijoor: Europe's digital autonomy - between fault lines and vault lines",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260204c.htm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Steven Maijoor: Europe's digital autonomy - between fault lines and vault lines",
+        "keywords": [
+          "steven",
+          "maijoor:",
+          "europe's",
+          "digital",
+          "autonomy",
+          "between",
+          "fault",
+          "lines",
+          "vault",
+          "lines"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Steven Maijoor"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953363"
+    },
+    {
+      "id": "bis-speeches-58e557704ae0",
+      "title": "Gent Sejko: Launch of the EBRD Transition Report 2025-26",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260204e.htm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Gent Sejko: Launch of the EBRD Transition Report 2025-26",
+        "keywords": [
+          "gent",
+          "sejko:",
+          "launch",
+          "ebrd",
+          "transition",
+          "report",
+          "2025-26",
+          "gent",
+          "sejko:",
+          "launch"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Gent Sejko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953390"
+    },
+    {
+      "id": "bis-speeches-d8792a08a6c0",
+      "title": "Eli M Remolona: Speech - Rotary Club of Manila 16th Weekly Membership Meeting",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260203p.htm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Eli M Remolona: Speech - Rotary Club of Manila 16th Weekly Membership Meeting",
+        "keywords": [
+          "remolona:",
+          "speech",
+          "rotary",
+          "club",
+          "manila",
+          "16th",
+          "weekly",
+          "membership",
+          "meeting",
+          "remolona:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Eli M Remolona"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953415"
+    },
+    {
+      "id": "bis-speeches-859fdf0f5919",
+      "title": "Joachim Nagel: The digital euro - an opportunity for Europe",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260204b.htm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Joachim Nagel: The digital euro - an opportunity for Europe",
+        "keywords": [
+          "joachim",
+          "nagel:",
+          "digital",
+          "euro",
+          "opportunity",
+          "europe",
+          "joachim",
+          "nagel:",
+          "digital",
+          "euro"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Joachim Nagel"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953436"
+    },
+    {
+      "id": "bis-speeches-7e43224e541c",
+      "title": "Michelle W Bowman: Outlook for the economy and monetary policy",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260204a.htm",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Michelle W Bowman: Outlook for the economy and monetary policy",
+        "keywords": [
+          "michelle",
+          "bowman:",
+          "outlook",
+          "economy",
+          "monetary",
+          "policy",
+          "michelle",
+          "bowman:",
+          "outlook",
+          "economy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Michelle W Bowman"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953457"
+    },
+    {
+      "id": "bis-speeches-21974f22de79",
+      "title": "Erik Thedéen: Weak consumption and the housing market - causes and lessons learnt",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260203m.htm",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Erik Thedéen: Weak consumption and the housing market - causes and lessons learnt",
+        "keywords": [
+          "erik",
+          "thedéen:",
+          "weak",
+          "consumption",
+          "housing",
+          "market",
+          "causes",
+          "lessons",
+          "learnt",
+          "erik"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Erik Thedéen"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953485"
+    },
+    {
+      "id": "bis-speeches-d041fe5efc0f",
+      "title": "Ida Wolden Bache: Policy rate kept unchanged",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260203k.htm",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Ida Wolden Bache: Policy rate kept unchanged",
+        "keywords": [
+          "wolden",
+          "bache:",
+          "policy",
+          "rate",
+          "kept",
+          "unchanged",
+          "wolden",
+          "bache:",
+          "policy",
+          "rate"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Ida Wolden Bache"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953505"
+    },
+    {
+      "id": "bis-speeches-c9c52936a295",
+      "title": "Philip N Jefferson: Economic outlook and monetary policy implementation",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260203j.htm",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Philip N Jefferson: Economic outlook and monetary policy implementation",
+        "keywords": [
+          "philip",
+          "jefferson:",
+          "economic",
+          "outlook",
+          "monetary",
+          "policy",
+          "implementation",
+          "philip",
+          "jefferson:",
+          "economic"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Philip N Jefferson"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953526"
+    },
+    {
+      "id": "bis-speeches-203e2cd59625",
+      "title": "Andrew Bailey: Global imbalances in a more fragmented world",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260203h.htm",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Andrew Bailey: Global imbalances in a more fragmented world",
+        "keywords": [
+          "andrew",
+          "bailey:",
+          "global",
+          "imbalances",
+          "more",
+          "fragmented",
+          "world",
+          "andrew",
+          "bailey:",
+          "global"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Andrew Bailey"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-09T15:11:40.953546"
+    }
+  ]
+}

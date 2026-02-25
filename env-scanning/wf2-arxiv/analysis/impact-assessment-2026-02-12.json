@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "workflow": "wf2-arxiv",
+    "scan_date": "2026-02-12",
+    "analysis_type": "cross_impact",
+    "theme_count": 8,
+    "cross_domain_themes": 7
+  },
+  "themes": {
+    "AI_Reasoning_Efficiency": {
+      "signal_count": 47,
+      "steeps_domains": [
+        "S_Social",
+        "P_Political",
+        "s_spiritual",
+        "T_Technological",
+        "E_Economic"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.10092v1",
+          "title": "Quantum-Audit: Evaluating the Reasoning Limits of LLMs on Qu",
+          "psst": 83.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09847v1",
+          "title": "Stabilized Maximum-Likelihood Iterative Quantum Amplitude Es",
+          "psst": 83.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09805v1",
+          "title": "Decomposing Reasoning Efficiency in Large Language Models",
+          "psst": 83.0,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10017v1",
+          "title": "SCORE: Specificity, Context Utilization, Robustness, and Rel",
+          "psst": 82.8,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09937v1",
+          "title": "Why Do AI Agents Systematically Fail at Cloud Root Cause Ana",
+          "psst": 82.7,
+          "category": "T_Technological"
+        }
+      ]
+    },
+    "Quantum_Computing": {
+      "signal_count": 7,
+      "steeps_domains": [
+        "T_Technological"
+      ],
+      "is_cross_domain": false,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.10092v1",
+          "title": "Quantum-Audit: Evaluating the Reasoning Limits of LLMs on Qu",
+          "psst": 83.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09847v1",
+          "title": "Stabilized Maximum-Likelihood Iterative Quantum Amplitude Es",
+          "psst": 83.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10037v1",
+          "title": "Effectiveness of Binary Autoencoders for QUBO-Based Optimiza",
+          "psst": 80.7,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10049v1",
+          "title": "Preventing Barren Plateaus in Continuous Quantum Generative ",
+          "psst": 79.7,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09639v1",
+          "title": "Blind denoising diffusion models and the blessings of dimens",
+          "psst": 79.7,
+          "category": "T_Technological"
+        }
+      ]
+    },
+    "AI_Safety_Ethics": {
+      "signal_count": 21,
+      "steeps_domains": [
+        "S_Social",
+        "s_spiritual",
+        "E_Economic",
+        "T_Technological"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.09416v1",
+          "title": "Are Language Models Sensitive to Morally Irrelevant Distract",
+          "psst": 80.2,
+          "category": "s_spiritual"
+        },
+        {
+          "id": "arxiv-2602.10053v1",
+          "title": "The Architecture of Illusion: Network Opacity and Strategic ",
+          "psst": 80.2,
+          "category": "E_Economic"
+        },
+        {
+          "id": "arxiv-2602.09317v1",
+          "title": "SnareNet: Flexible Repair Layers for Neural Networks with Ha",
+          "psst": 79.7,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10117v1",
+          "title": "Biases in the Blind Spot: Detecting What LLMs Fail to Mentio",
+          "psst": 79.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10098v1",
+          "title": "VLA-JEPA: Enhancing Vision-Language-Action Model with Latent",
+          "psst": 79.2,
+          "category": "T_Technological"
+        }
+      ]
+    },
+    "Autonomous_Systems": {
+      "signal_count": 42,
+      "steeps_domains": [
+        "E_Environmental",
+        "P_Political",
+        "S_Social",
+        "T_Technological",
+        "E_Economic"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.10085v1",
+          "title": "CODE-SHARP: Continuous Open-ended Discovery and Evolution of",
+          "psst": 82.8,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09937v1",
+          "title": "Why Do AI Agents Systematically Fail at Cloud Root Cause Ana",
+          "psst": 82.7,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09310v1",
+          "title": "A11y-CUA Dataset: Characterizing the Accessibility Gap in Co",
+          "psst": 82.5,
+          "category": "S_Social"
+        },
+        {
+          "id": "arxiv-2602.10029v1",
+          "title": "Resilient Topology-Aware Coordination for Dynamic 3D UAV Net",
+          "psst": 81.0,
+          "category": "P_Political"
+        },
+        {
+          "id": "arxiv-2602.09893v1",
+          "title": "TaCo: A Benchmark for Lossless and Lossy Codecs of Heterogen",
+          "psst": 80.8,
+          "category": "T_Technological"
+        }
+      ]
+    },
+    "Climate_Energy": {
+      "signal_count": 3,
+      "steeps_domains": [
+        "E_Environmental",
+        "S_Social"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.09964v1",
+          "title": "Failure to track a stable AMOC state under rapid climate cha",
+          "psst": 77.7,
+          "category": "E_Environmental"
+        },
+        {
+          "id": "arxiv-2602.09553v1",
+          "title": "A Narrowband Technosignature Search Toward the Hycean Candid",
+          "psst": 76.5,
+          "category": "E_Environmental"
+        },
+        {
+          "id": "arxiv-2602.09846v1",
+          "title": "Generative AI Adoption in an Energy Company: Exploring Chall",
+          "psst": 71.2,
+          "category": "S_Social"
+        }
+      ]
+    },
+    "Economic_Finance": {
+      "signal_count": 12,
+      "steeps_domains": [
+        "S_Social",
+        "s_spiritual",
+        "E_Economic",
+        "T_Technological"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.09937v1",
+          "title": "Why Do AI Agents Systematically Fail at Cloud Root Cause Ana",
+          "psst": 82.7,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10071v1",
+          "title": "Deep Learning for Electricity Price Forecasting: A Review of",
+          "psst": 82.1,
+          "category": "E_Economic"
+        },
+        {
+          "id": "arxiv-2602.09394v1",
+          "title": "The Critical Horizon: Inspection Design Principles for Multi",
+          "psst": 80.7,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09997v1",
+          "title": "Popularity Feedback Constrains Innovation in Cultural Market",
+          "psst": 80.0,
+          "category": "S_Social"
+        },
+        {
+          "id": "arxiv-2602.09967v1",
+          "title": "Incentive Pareto Efficiency in Monopoly Insurance Markets wi",
+          "psst": 79.2,
+          "category": "E_Economic"
+        }
+      ]
+    },
+    "Social_HCI": {
+      "signal_count": 62,
+      "steeps_domains": [
+        "E_Environmental",
+        "P_Political",
+        "S_Social",
+        "s_spiritual",
+        "T_Technological",
+        "E_Economic"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.10092v1",
+          "title": "Quantum-Audit: Evaluating the Reasoning Limits of LLMs on Qu",
+          "psst": 83.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10085v1",
+          "title": "CODE-SHARP: Continuous Open-ended Discovery and Evolution of",
+          "psst": 82.8,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09310v1",
+          "title": "A11y-CUA Dataset: Characterizing the Accessibility Gap in Co",
+          "psst": 82.5,
+          "category": "S_Social"
+        },
+        {
+          "id": "arxiv-2602.10029v1",
+          "title": "Resilient Topology-Aware Coordination for Dynamic 3D UAV Net",
+          "psst": 81.0,
+          "category": "P_Political"
+        },
+        {
+          "id": "arxiv-2602.09394v1",
+          "title": "The Critical Horizon: Inspection Design Principles for Multi",
+          "psst": 80.7,
+          "category": "T_Technological"
+        }
+      ]
+    },
+    "Governance_Policy": {
+      "signal_count": 15,
+      "steeps_domains": [
+        "P_Political",
+        "S_Social",
+        "T_Technological"
+      ],
+      "is_cross_domain": true,
+      "top_signals": [
+        {
+          "id": "arxiv-2602.10093v1",
+          "title": "UniVTAC: A Unified Simulation Platform for Visuo-Tactile Man",
+          "psst": 79.0,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10100v1",
+          "title": "Towards Explainable Federated Learning: Understanding the Im",
+          "psst": 78.5,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10106v1",
+          "title": "EgoHumanoid: Unlocking In-the-Wild Loco-Manipulation with Ro",
+          "psst": 78.2,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.10043v1",
+          "title": "Simple Image Processing and Similarity Measures Can Link Dat",
+          "psst": 78.2,
+          "category": "T_Technological"
+        },
+        {
+          "id": "arxiv-2602.09949v1",
+          "title": "Bladder Vessel Segmentation using a Hybrid Attention-Convolu",
+          "psst": 77.8,
+          "category": "T_Technological"
+        }
+      ]
+    }
+  }
+}

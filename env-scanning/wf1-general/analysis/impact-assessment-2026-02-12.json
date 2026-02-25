@@ -1,0 +1,652 @@
+{
+  "impact_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-12",
+    "total_signals_analyzed": 30,
+    "method": "Futures Wheel + Cross-Impact Analysis",
+    "includes_exploration_signals": true,
+    "exploration_signals_analyzed": 5
+  },
+  "impact_assessments": [
+    {
+      "id": "wf1-20260212-006",
+      "title": "New START Nuclear Treaty Expires",
+      "category": "P",
+      "impact_score": 9.5,
+      "probability": 1.0,
+      "urgency": 10,
+      "novelty": 8,
+      "primary_impacts": [
+        "Unconstrained nuclear arsenal expansion by US and Russia",
+        "Collapse of post-WWII arms control architecture",
+        "Nuclear proliferation risk cascade to other states"
+      ],
+      "secondary_impacts": [
+        "New arms race with China entering as third nuclear peer",
+        "Space-based weapons deployment acceleration",
+        "Erosion of non-proliferation regime (NPT under stress)"
+      ],
+      "cross_impact_links": ["wf1-20260212-003"]
+    },
+    {
+      "id": "wf1-20260212-005",
+      "title": "EPA Eliminates Clean Air Act Endangerment Finding",
+      "category": "E_Environmental",
+      "impact_score": 9.3,
+      "probability": 0.95,
+      "urgency": 9,
+      "novelty": 9,
+      "primary_impacts": [
+        "Legal basis for all federal GHG regulation removed",
+        "EPA authority to regulate CO2 as pollutant eliminated",
+        "Reversal of Obama-era and Biden-era climate policies"
+      ],
+      "secondary_impacts": [
+        "State-level climate litigation surge as federal backstop disappears",
+        "International climate credibility collapse (Paris Agreement commitments)",
+        "Corporate ESG framework disruption"
+      ],
+      "cross_impact_links": ["wf1-20260212-009", "wf1-20260212-011", "wf1-20260212-020"]
+    },
+    {
+      "id": "wf1-20260212-001",
+      "title": "Microsoft Majorana 1 Topological Quantum Chip",
+      "category": "T",
+      "impact_score": 9.0,
+      "probability": 0.80,
+      "urgency": 7,
+      "novelty": 10,
+      "primary_impacts": [
+        "Potential solution to decoherence -- the core barrier to practical quantum computing",
+        "New architectural paradigm for fault-tolerant qubits",
+        "Microsoft leap ahead in quantum hardware race"
+      ],
+      "secondary_impacts": [
+        "Post-quantum cryptography urgency accelerated",
+        "Drug discovery and materials science revolution timeline compressed",
+        "National security implications for code-breaking capability"
+      ],
+      "cross_impact_links": ["wf1-20260212-012"]
+    },
+    {
+      "id": "wf1-20260212-003",
+      "title": "Geoeconomic Confrontation Named World's Top Risk 2026",
+      "category": "P",
+      "impact_score": 8.8,
+      "probability": 0.90,
+      "urgency": 9,
+      "novelty": 7,
+      "primary_impacts": [
+        "Paradigm shift: economic tools as primary instruments of geopolitical confrontation",
+        "Supply chain weaponization becoming normalized",
+        "Tariff-sanction spiral risk assessment threshold breached"
+      ],
+      "secondary_impacts": [
+        "Friend-shoring and near-shoring acceleration",
+        "Technology export control escalation",
+        "De-dollarization acceleration (link to CBDC race)"
+      ],
+      "cross_impact_links": ["wf1-20260212-013", "wf1-20260212-002", "wf1-20260212-006"]
+    },
+    {
+      "id": "wf1-20260212-010",
+      "title": "Baby KJ: First Personalized CRISPR Gene-Editing Treatment",
+      "category": "T",
+      "impact_score": 8.7,
+      "probability": 0.85,
+      "urgency": 6,
+      "novelty": 10,
+      "primary_impacts": [
+        "Opens era of bespoke genetic medicine -- treatment designed for individual patient",
+        "Proof of concept for personalized gene therapy at clinical scale",
+        "Regulatory precedent for individualized therapies"
+      ],
+      "secondary_impacts": [
+        "Insurance and healthcare cost model disruption",
+        "Genetic enhancement debate intensification",
+        "Equity and access concerns for ultra-personalized medicine"
+      ],
+      "cross_impact_links": ["explore-20260212-lt-001"]
+    },
+    {
+      "id": "explore-20260212-lt-001",
+      "title": "FDA Clears First Human Trial of Epigenetic Reprogramming",
+      "category": "T",
+      "impact_score": 8.6,
+      "probability": 0.75,
+      "urgency": 7,
+      "novelty": 10,
+      "primary_impacts": [
+        "First-ever human clinical trial of anti-aging gene therapy using Yamanaka factors",
+        "Potential to reverse age-related cellular damage (not just slow aging)",
+        "Regulatory pathway established for rejuvenation therapies"
+      ],
+      "secondary_impacts": [
+        "Longevity industry investment surge",
+        "Pension and retirement system disruption if lifespan extends",
+        "Philosophical redefinition of 'natural' aging"
+      ],
+      "cross_impact_links": ["wf1-20260212-010"]
+    },
+    {
+      "id": "wf1-20260212-009",
+      "title": "China Clean Energy Drives 1/3 of GDP Growth",
+      "category": "E_Environmental",
+      "impact_score": 8.5,
+      "probability": 0.95,
+      "urgency": 8,
+      "novelty": 8,
+      "primary_impacts": [
+        "Clean energy as economic growth engine -- not just environmental policy",
+        "Solar/wind surpassing coal: structural irreversibility signal",
+        "China as dominant clean energy superpower"
+      ],
+      "secondary_impacts": [
+        "Global fossil fuel stranded asset risk acceleration",
+        "Clean tech supply chain geopolitics intensification",
+        "Developing country energy transition pathway model"
+      ],
+      "cross_impact_links": ["wf1-20260212-005", "wf1-20260212-020", "wf1-20260212-015"]
+    },
+    {
+      "id": "explore-20260212-ilo-001",
+      "title": "ILO: Global Jobs Gap Reaches 408 Million in 2026",
+      "category": "S",
+      "impact_score": 8.4,
+      "probability": 0.95,
+      "urgency": 9,
+      "novelty": 7,
+      "primary_impacts": [
+        "408M global jobs gap exposes failure of standard unemployment metric",
+        "2.1B workers in informal economy without protection -- systemic vulnerability",
+        "Gender gap: women 24.2% less likely in labor force"
+      ],
+      "secondary_impacts": [
+        "Migration pressure from employment-scarce regions",
+        "Political instability in high-youth-unemployment countries",
+        "AI displacement amplification of existing job quality crisis"
+      ],
+      "cross_impact_links": ["wf1-20260212-004", "wf1-20260212-023"]
+    },
+    {
+      "id": "wf1-20260212-002",
+      "title": "Gold Breaches $5,000",
+      "category": "E",
+      "impact_score": 8.3,
+      "probability": 1.0,
+      "urgency": 8,
+      "novelty": 7,
+      "primary_impacts": [
+        "Historic gold price signals structural loss of confidence in fiat currencies",
+        "Fed pivot expectations driving massive monetary policy repricing",
+        "Safe haven demand reflecting geopolitical risk premium"
+      ],
+      "secondary_impacts": [
+        "Central bank gold accumulation accelerating de-dollarization",
+        "Mining sector and resource nationalism implications",
+        "Commodity-linked inflation transmission"
+      ],
+      "cross_impact_links": ["wf1-20260212-013", "wf1-20260212-003"]
+    },
+    {
+      "id": "wf1-20260212-013",
+      "title": "Global CBDC Race Accelerates",
+      "category": "E",
+      "impact_score": 8.2,
+      "probability": 0.85,
+      "urgency": 7,
+      "novelty": 8,
+      "primary_impacts": [
+        "Multiple major economies simultaneously launching digital currencies",
+        "Monetary infrastructure modernization at global scale",
+        "Cross-border payment disruption"
+      ],
+      "secondary_impacts": [
+        "Financial surveillance expansion concerns",
+        "Private cryptocurrency competitive pressure",
+        "Monetary sovereignty redefinition"
+      ],
+      "cross_impact_links": ["wf1-20260212-002", "wf1-20260212-003"]
+    },
+    {
+      "id": "wf1-20260212-019",
+      "title": "AI-Assisted Engineers Learn 25% Less",
+      "category": "s",
+      "impact_score": 8.2,
+      "probability": 0.85,
+      "urgency": 8,
+      "novelty": 9,
+      "primary_impacts": [
+        "Empirical evidence: AI assistance degrades human learning (50% vs 67% mastery)",
+        "Fundamental challenge to AI-augmented workforce paradigm",
+        "Training vs productivity trade-off quantified"
+      ],
+      "secondary_impacts": [
+        "Educational system redesign implications",
+        "Long-term workforce skill atrophy risk",
+        "AI dependency cycle concerns"
+      ],
+      "cross_impact_links": ["wf1-20260212-017", "wf1-20260212-018"]
+    },
+    {
+      "id": "wf1-20260212-007",
+      "title": "Cerebras Raises $1B for AI Chip Alternative",
+      "category": "T",
+      "impact_score": 8.0,
+      "probability": 0.80,
+      "urgency": 7,
+      "novelty": 8,
+      "primary_impacts": [
+        "Wafer-scale AI chip as fundamental alternative to GPU architecture",
+        "$23B valuation signals investor conviction in Nvidia disruption",
+        "AI compute diversification reducing single-vendor dependency"
+      ],
+      "secondary_impacts": [
+        "Semiconductor industry restructuring",
+        "AI training cost reduction potential",
+        "Geopolitical implications for chip supply chain"
+      ],
+      "cross_impact_links": ["wf1-20260212-001"]
+    },
+    {
+      "id": "wf1-20260212-015",
+      "title": "Sodium-Ion Batteries Emerging as Lithium Alternative",
+      "category": "T",
+      "impact_score": 7.8,
+      "probability": 0.80,
+      "urgency": 6,
+      "novelty": 9,
+      "primary_impacts": [
+        "Salt-based batteries could break lithium supply chain dependency",
+        "Cheaper energy storage democratizing grid and EV access",
+        "Reduced critical mineral geopolitical tensions"
+      ],
+      "secondary_impacts": [
+        "Lithium mining industry disruption",
+        "Developing country energy access acceleration",
+        "Battery recycling ecosystem transformation"
+      ],
+      "cross_impact_links": ["wf1-20260212-009", "wf1-20260212-020"]
+    },
+    {
+      "id": "wf1-20260212-021",
+      "title": "Jimmy Lai Sentenced to 20 Years",
+      "category": "P",
+      "impact_score": 7.7,
+      "probability": 1.0,
+      "urgency": 8,
+      "novelty": 6,
+      "primary_impacts": [
+        "Definitive end of 'one country, two systems' in practice",
+        "Landmark press freedom case with global chilling effect",
+        "Foreign nationals charged under NSL -- extraterritorial reach precedent"
+      ],
+      "secondary_impacts": [
+        "International business confidence erosion in Hong Kong",
+        "Western sanctions considerations",
+        "Taiwan policy signaling"
+      ],
+      "cross_impact_links": ["wf1-20260212-003"]
+    },
+    {
+      "id": "explore-20260212-sd-001",
+      "title": "Climate Models Missing Key Ocean Player",
+      "category": "E_Environmental",
+      "impact_score": 7.6,
+      "probability": 0.90,
+      "urgency": 7,
+      "novelty": 9,
+      "primary_impacts": [
+        "Systematic bias in climate projections if plankton dissolution omitted",
+        "Carbon cycle budget calculations potentially incorrect",
+        "Ocean chemistry understanding fundamentally incomplete"
+      ],
+      "secondary_impacts": [
+        "Climate policy targets may need recalibration",
+        "Ocean geoengineering proposals affected",
+        "Marine biodiversity impact assessment gaps"
+      ],
+      "cross_impact_links": ["wf1-20260212-005", "wf1-20260212-022"]
+    },
+    {
+      "id": "wf1-20260212-004",
+      "title": "US Jobs: Structural Labor Market Transformation",
+      "category": "S",
+      "impact_score": 7.5,
+      "probability": 0.90,
+      "urgency": 8,
+      "novelty": 7,
+      "primary_impacts": [
+        "Demographic contraction: US to add only 23M in 30yr vs 70M previous 30yr",
+        "Older workers extending careers while younger generation disengaging",
+        "Immigration decline compounding labor supply crisis"
+      ],
+      "secondary_impacts": [
+        "Automation adoption acceleration as labor shortage response",
+        "Social security sustainability crisis",
+        "Immigration policy reform pressure"
+      ],
+      "cross_impact_links": ["explore-20260212-ilo-001", "wf1-20260212-023"]
+    },
+    {
+      "id": "wf1-20260212-018",
+      "title": "Mechanistic Interpretability: 2026 Breakthrough",
+      "category": "T",
+      "impact_score": 7.5,
+      "probability": 0.80,
+      "urgency": 7,
+      "novelty": 9,
+      "primary_impacts": [
+        "First systematic approach to understanding AI model internal reasoning",
+        "Shift from black-box to transparent AI possible",
+        "AI safety research enabled at mechanistic level"
+      ],
+      "secondary_impacts": [
+        "Regulatory compliance for AI systems facilitated",
+        "AI hallucination diagnosis and prevention",
+        "Foundation for AI alignment verification"
+      ],
+      "cross_impact_links": ["wf1-20260212-017", "wf1-20260212-019"]
+    },
+    {
+      "id": "wf1-20260212-022",
+      "title": "~800 New Deep-Sea Species Found Before Mining",
+      "category": "E_Environmental",
+      "impact_score": 7.3,
+      "probability": 0.90,
+      "urgency": 8,
+      "novelty": 8,
+      "primary_impacts": [
+        "Biodiversity discovery in mining-targeted areas creates urgent conservation tension",
+        "37% animal decline and 32% species reduction in mined areas documented",
+        "Critical mineral demand vs biodiversity conservation dilemma"
+      ],
+      "secondary_impacts": [
+        "International seabed mining moratorium pressure",
+        "Alternative mineral sourcing technologies priority",
+        "Marine protected area expansion"
+      ],
+      "cross_impact_links": ["explore-20260212-sd-001", "explore-20260212-sd-002"]
+    },
+    {
+      "id": "wf1-20260212-020",
+      "title": "Global Energy Storage to Exceed 100GW in 2026",
+      "category": "E_Environmental",
+      "impact_score": 7.2,
+      "probability": 0.90,
+      "urgency": 7,
+      "novelty": 7,
+      "primary_impacts": [
+        "Energy storage milestone enables higher renewable penetration",
+        "EV sales overtaking petrol in EU (Dec 2025) -- transportation electrification",
+        "90%+ of new renewables cheaper than fossil fuels"
+      ],
+      "secondary_impacts": [
+        "Grid flexibility transformation",
+        "Fossil fuel stranded asset acceleration",
+        "Energy independence for importing nations"
+      ],
+      "cross_impact_links": ["wf1-20260212-009", "wf1-20260212-015"]
+    },
+    {
+      "id": "explore-20260212-nasa-001",
+      "title": "NASA Perseverance AI-Driven Autonomous Navigation",
+      "category": "T",
+      "impact_score": 7.0,
+      "probability": 0.85,
+      "urgency": 5,
+      "novelty": 8,
+      "primary_impacts": [
+        "AI-generated waypoints reduce Earth-Mars communication dependency",
+        "450m autonomous drive demonstrates practical AI-rover integration",
+        "Template for future autonomous exploration (lunar, asteroid)"
+      ],
+      "secondary_impacts": [
+        "Terrestrial autonomous vehicle technology cross-pollination",
+        "Deep space mission planning transformation",
+        "Reduced human oversight for planetary operations"
+      ],
+      "cross_impact_links": ["wf1-20260212-016"]
+    },
+    {
+      "id": "wf1-20260212-012",
+      "title": "Stanford Optical Cavities Enable Scalable Quantum Networking",
+      "category": "T",
+      "impact_score": 7.0,
+      "probability": 0.70,
+      "urgency": 5,
+      "novelty": 9,
+      "primary_impacts": [
+        "Miniature optical cavities enable simultaneous multi-qubit reading",
+        "Scalable quantum networking with hundreds of cavities demonstrated",
+        "Stanford architecture complements Microsoft topological approach"
+      ],
+      "secondary_impacts": [
+        "Quantum internet infrastructure development",
+        "Distributed quantum computing feasibility",
+        "Quantum sensing applications"
+      ],
+      "cross_impact_links": ["wf1-20260212-001"]
+    },
+    {
+      "id": "wf1-20260212-017",
+      "title": "AI Trustworthiness: Operational Necessity",
+      "category": "s",
+      "impact_score": 6.8,
+      "probability": 0.85,
+      "urgency": 7,
+      "novelty": 7,
+      "primary_impacts": [
+        "Shift from aspirational principles to mandatory operational requirements",
+        "Autonomy threshold legislation being considered",
+        "Human oversight levels becoming legally defined"
+      ],
+      "secondary_impacts": [
+        "Corporate AI governance restructuring",
+        "AI audit industry emergence",
+        "International harmonization challenges"
+      ],
+      "cross_impact_links": ["wf1-20260212-018", "wf1-20260212-019", "wf1-20260212-014"]
+    },
+    {
+      "id": "wf1-20260212-014",
+      "title": "EU Targets Meta Over AI Assistants (DMA)",
+      "category": "P",
+      "impact_score": 6.7,
+      "probability": 0.85,
+      "urgency": 7,
+      "novelty": 8,
+      "primary_impacts": [
+        "DMA enforcement expanding to AI-level platform gatekeeping",
+        "Platform-embedded AI assistants as new competition law frontier",
+        "Meta required to enable rival AI assistants on WhatsApp"
+      ],
+      "secondary_impacts": [
+        "Global platform regulation precedent",
+        "AI assistant interoperability standards",
+        "Big Tech AI integration strategies constrained"
+      ],
+      "cross_impact_links": ["wf1-20260212-017"]
+    },
+    {
+      "id": "wf1-20260212-011",
+      "title": "US Judge Rules Secret Climate Panel Unlawful",
+      "category": "P",
+      "impact_score": 6.5,
+      "probability": 0.90,
+      "urgency": 7,
+      "novelty": 7,
+      "primary_impacts": [
+        "Judicial check on executive climate policy manipulation",
+        "Scientific advisory process integrity defended",
+        "DOE Secretary Wright's handpicked panel ruled illegal"
+      ],
+      "secondary_impacts": [
+        "Future administration climate science interference deterred",
+        "Court-enforced scientific transparency precedent",
+        "Federal advisory committee transparency standards strengthened"
+      ],
+      "cross_impact_links": ["wf1-20260212-005"]
+    },
+    {
+      "id": "wf1-20260212-008",
+      "title": "WHO: 40% of Cancer Cases Preventable",
+      "category": "S",
+      "impact_score": 6.5,
+      "probability": 0.90,
+      "urgency": 6,
+      "novelty": 7,
+      "primary_impacts": [
+        "40% prevention rate identified across 30 causes including 9 infections",
+        "Public health priority reframing from treatment to prevention",
+        "Cost-effectiveness argument for prevention investment"
+      ],
+      "secondary_impacts": [
+        "Vaccination program expansion for cancer-causing infections",
+        "Lifestyle intervention policy strengthening",
+        "Healthcare system sustainability improvement"
+      ],
+      "cross_impact_links": []
+    },
+    {
+      "id": "wf1-20260212-023",
+      "title": "H-2B Visa Expanded: +64,716 for FY2026",
+      "category": "S",
+      "impact_score": 6.3,
+      "probability": 1.0,
+      "urgency": 7,
+      "novelty": 6,
+      "primary_impacts": [
+        "Persistent labor shortage in seasonal industries confirmed by policy response",
+        "Immigration policy tension: expansion vs restriction rhetoric",
+        "Temporary worker dependency deepening"
+      ],
+      "secondary_impacts": [
+        "Seasonal industry business model sustainability",
+        "Worker rights and exploitation risks",
+        "Permanent immigration reform pressure"
+      ],
+      "cross_impact_links": ["wf1-20260212-004", "explore-20260212-ilo-001"]
+    },
+    {
+      "id": "wf1-20260212-024",
+      "title": "Portugal: Center-Left Defeats Far-Right",
+      "category": "P",
+      "impact_score": 6.2,
+      "probability": 1.0,
+      "urgency": 6,
+      "novelty": 7,
+      "primary_impacts": [
+        "Counter-trend to European far-right surge",
+        "Center-left viability demonstrated in populist era",
+        "Portuguese democratic resilience signal"
+      ],
+      "secondary_impacts": [
+        "European political strategy recalibration",
+        "EU integration stability signal",
+        "Southern Europe governance credibility"
+      ],
+      "cross_impact_links": ["wf1-20260212-003"]
+    },
+    {
+      "id": "wf1-20260212-016",
+      "title": "Artemis II Delayed to March",
+      "category": "T",
+      "impact_score": 6.0,
+      "probability": 0.90,
+      "urgency": 5,
+      "novelty": 5,
+      "primary_impacts": [
+        "Hydrogen leak delays first crewed lunar mission since Apollo 17",
+        "SLS reliability concerns for Artemis program timeline",
+        "Commercial alternatives (SpaceX Starship) competitive pressure"
+      ],
+      "secondary_impacts": [
+        "NASA budget and political pressure",
+        "International lunar program coordination delays",
+        "Space tourism and commercial crew momentum"
+      ],
+      "cross_impact_links": ["explore-20260212-nasa-001"]
+    },
+    {
+      "id": "wf1-20260212-025",
+      "title": "US Patent Applications Drop 9%",
+      "category": "T",
+      "impact_score": 5.8,
+      "probability": 0.90,
+      "urgency": 5,
+      "novelty": 7,
+      "primary_impacts": [
+        "Innovation output declining after record highs",
+        "Samsung leading with 7,054 grants (+11% YoY) -- East Asian dominance",
+        "Cell-related technology surging +23% over 4 years"
+      ],
+      "secondary_impacts": [
+        "IP landscape shifts favoring biotech",
+        "Innovation policy effectiveness questions",
+        "Patent quality vs quantity debate"
+      ],
+      "cross_impact_links": []
+    },
+    {
+      "id": "explore-20260212-sd-002",
+      "title": "Deep-Sea Chiton Named by Public Vote",
+      "category": "S",
+      "impact_score": 5.5,
+      "probability": 0.90,
+      "urgency": 4,
+      "novelty": 7,
+      "primary_impacts": [
+        "Citizen science engagement growing -- 8,000 naming submissions",
+        "Science communication democratization via social media (YouTube)",
+        "Public awareness of deep-sea biodiversity increasing"
+      ],
+      "secondary_impacts": [
+        "Marine conservation public support building",
+        "Science-society relationship evolution",
+        "Taxonomic naming conventions modernizing"
+      ],
+      "cross_impact_links": ["wf1-20260212-022"]
+    }
+  ],
+  "cross_impact_matrix_summary": {
+    "total_cross_links": 42,
+    "strongest_clusters": [
+      {
+        "theme": "Climate-Energy Nexus",
+        "signals": ["wf1-20260212-005", "wf1-20260212-009", "wf1-20260212-020", "wf1-20260212-015", "explore-20260212-sd-001"],
+        "influence_strength": "HIGH"
+      },
+      {
+        "theme": "Quantum Computing Convergence",
+        "signals": ["wf1-20260212-001", "wf1-20260212-012"],
+        "influence_strength": "HIGH"
+      },
+      {
+        "theme": "Geopolitical-Economic Confrontation",
+        "signals": ["wf1-20260212-003", "wf1-20260212-006", "wf1-20260212-002", "wf1-20260212-013"],
+        "influence_strength": "HIGH"
+      },
+      {
+        "theme": "AI Ethics-Trust-Learning Triad",
+        "signals": ["wf1-20260212-017", "wf1-20260212-018", "wf1-20260212-019"],
+        "influence_strength": "MEDIUM"
+      },
+      {
+        "theme": "Longevity-Biotech Revolution",
+        "signals": ["wf1-20260212-010", "explore-20260212-lt-001"],
+        "influence_strength": "MEDIUM"
+      },
+      {
+        "theme": "Global Labor Crisis",
+        "signals": ["wf1-20260212-004", "explore-20260212-ilo-001", "wf1-20260212-023"],
+        "influence_strength": "MEDIUM"
+      },
+      {
+        "theme": "Deep-Sea Biodiversity vs Mining",
+        "signals": ["wf1-20260212-022", "explore-20260212-sd-001", "explore-20260212-sd-002"],
+        "influence_strength": "MEDIUM"
+      }
+    ]
+  }
+}

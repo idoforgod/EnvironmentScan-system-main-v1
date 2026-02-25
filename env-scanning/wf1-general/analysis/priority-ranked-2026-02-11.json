@@ -1,0 +1,36 @@
+{
+  "ranking_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-11",
+    "total_ranked": 25,
+    "ranking_method": "pSST_unified",
+    "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10}
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "un-20260211-010", "title": "New START Treaty Expiration: Nuclear Arms Control at Crossroads", "category": "P", "psst_score": 92, "impact_score": 9.5, "priority_score": 9.2},
+    {"rank": 2, "id": "techcrunch-20260211-001", "title": "Google Projects $200B Capex for AI Infrastructure 2026", "category": "T", "psst_score": 90, "impact_score": 9.0, "priority_score": 8.9},
+    {"rank": 3, "id": "fedregister-20260211-002", "title": "Trump EO: Federal AI Policy Framework Preempting State Laws", "category": "P", "psst_score": 89, "impact_score": 8.8, "priority_score": 8.7},
+    {"rank": 4, "id": "wef-20260211-005", "title": "WEF: Geoeconomic Confrontation Tops Global Risks 2026", "category": "P", "psst_score": 88, "impact_score": 8.5, "priority_score": 8.5},
+    {"rank": 5, "id": "mit-20260211-004", "title": "Mechanistic Interpretability: MIT 2026 Breakthrough Technology", "category": "T", "psst_score": 87, "impact_score": 8.3, "priority_score": 8.4},
+    {"rank": 6, "id": "oecd-20260211-008", "title": "OECD: Global Growth Slowing to 2.9%, Labor Market Weakening", "category": "E", "psst_score": 87, "impact_score": 8.2, "priority_score": 8.3},
+    {"rank": 7, "id": "pubmed-20260211-017", "title": "First Personalized Base-Edited Gene Therapy", "category": "T", "psst_score": 86, "impact_score": 8.5, "priority_score": 8.2},
+    {"rank": 8, "id": "eurlex-20260211-006", "title": "EU AI Act High-Risk Guidelines + Digital Omnibus Package", "category": "P", "psst_score": 85, "impact_score": 8.0, "priority_score": 8.1},
+    {"rank": 9, "id": "fedregister-20260211-027", "title": "AI OVERWATCH Act: Semiconductor Export Controls Tighten", "category": "P", "psst_score": 85, "impact_score": 8.3, "priority_score": 8.0},
+    {"rank": 10, "id": "carbon-20260211-009", "title": "US Climate Panel Ruled Unlawful; Offshore Wind Resumes", "category": "E_Environmental", "psst_score": 84, "impact_score": 7.8, "priority_score": 7.9},
+    {"rank": 11, "id": "hacker-20260211-014", "title": "AI Agent Fleet Management: Enterprise-Scale Autonomous Systems", "category": "T", "psst_score": 83, "impact_score": 7.5, "priority_score": 7.8},
+    {"rank": 12, "id": "imf-20260211-012", "title": "IMF: Financial Stability Risks Elevated, Nonbank Growth", "category": "E", "psst_score": 83, "impact_score": 7.8, "priority_score": 7.7},
+    {"rank": 13, "id": "wired-20260211-019", "title": "Waymo $16B/$126B Valuation; Physical AI Dominates CES 2026", "category": "T", "psst_score": 82, "impact_score": 7.5, "priority_score": 7.6},
+    {"rank": 14, "id": "nature-20260211-007", "title": "Deep-Sea Mining: 800 Species Documented on Pacific Seabed", "category": "E_Environmental", "psst_score": 82, "impact_score": 7.3, "priority_score": 7.5},
+    {"rank": 15, "id": "ars-20260211-021", "title": "Medical AI Safety: Injuries from AI-Guided Surgical Systems", "category": "T", "psst_score": 81, "impact_score": 7.5, "priority_score": 7.4},
+    {"rank": 16, "id": "brookings-20260211-015", "title": "Shift in Global Economic Power Perception: China vs US", "category": "P", "psst_score": 80, "impact_score": 7.2, "priority_score": 7.3},
+    {"rank": 17, "id": "who-20260211-003", "title": "WHO IA2030 Mid-Term Review: Immunization Agenda Reset", "category": "S", "psst_score": 80, "impact_score": 7.0, "priority_score": 7.2},
+    {"rank": 18, "id": "science-20260211-018", "title": "NK Cell Receptor Breakthrough: Targeted Cancer Immunotherapy", "category": "T", "psst_score": 79, "impact_score": 7.5, "priority_score": 7.1},
+    {"rank": 19, "id": "mit-20260211-025", "title": "Sodium-Ion Batteries: Salt-Based Grid/EV Energy Storage", "category": "T", "psst_score": 79, "impact_score": 7.0, "priority_score": 7.0},
+    {"rank": 20, "id": "pew-20260211-013", "title": "US Partisan Divide on Science Leadership Widens", "category": "s", "psst_score": 78, "impact_score": 6.8, "priority_score": 6.9},
+    {"rank": 21, "id": "ieee-20260211-011", "title": "Neuralink BCI for Sight Restoration; Artemis Moon Mission", "category": "T", "psst_score": 77, "impact_score": 7.0, "priority_score": 6.8},
+    {"rank": 22, "id": "nasa-20260211-020", "title": "Africa Solar Record Growth; US Offshore Wind Resumes", "category": "E_Environmental", "psst_score": 77, "impact_score": 6.8, "priority_score": 6.7},
+    {"rank": 23, "id": "who-20260211-016", "title": "Cholera Vaccine Supply Milestone: Global Prevention Resumes", "category": "S", "psst_score": 76, "impact_score": 6.5, "priority_score": 6.6},
+    {"rank": 24, "id": "worldbank-20260211-022", "title": "World Bank Raises 2026 Growth to 2.6%: Shock-Proof Economy", "category": "E", "psst_score": 75, "impact_score": 6.5, "priority_score": 6.5},
+    {"rank": 25, "id": "bis-20260211-023", "title": "Central Bank Easing: Gradual, Data-Dependent, Differentiated", "category": "E", "psst_score": 74, "impact_score": 6.3, "priority_score": 6.4}
+  ]
+}

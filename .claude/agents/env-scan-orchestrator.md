@@ -26,13 +26,24 @@ a known resolution.
 data_root: "env-scanning/wf1-general"
 sources_config: "env-scanning/config/sources.yaml"
 validate_profile: "standard"
+# ── 시간적 일관성 파라미터 (v2.2.1 — Python 결정론적 시행) ──
+scan_window_state_file: "{TC_STATE_FILE}"   # temporal_anchor.py가 생성한 JSON — 단일 시간 권위
+scan_window_workflow: "wf1-general"          # state file 내 이 WF의 키
+temporal_gate_script: "{TC_GATE_SCRIPT}"     # env-scanning/core/temporal_gate.py
+metadata_injector_script: "{TC_INJECTOR_SCRIPT}"  # env-scanning/core/report_metadata_injector.py
 ```
+
+> **⚠️ TEMPORAL DATA AUTHORITY (v2.2.1)**: 모든 시간 관련 값(T₀, window_start, window_end,
+> lookback_hours 등)은 `scan_window_state_file`에서 읽어야 한다. 이 파일은 `temporal_anchor.py`가
+> SOT를 직접 읽어 Python `datetime` 연산으로 생성한 것이다. 수동 계산 금지.
 
 > **SOT AUTHORITY RULE**: At runtime, the master-orchestrator passes the actual values
 > from the SOT. If those values differ from the canonical defaults above, the
 > **passed values take precedence unconditionally**. This orchestrator MUST use
-> `data_root`, `sources_config`, and `validate_profile` as received at invocation
-> for ALL file path construction and validation calls.
+> `data_root`, `sources_config`, `validate_profile`, `report_skeleton`,
+> `scan_window_state_file`, `temporal_gate_script`, `metadata_injector_script`,
+> `statistics_engine_script`, `bilingual_config_file`, and `bilingual_language`
+> as received at invocation for ALL file path construction, validation calls, and temporal filtering.
 
 > **IMPORTANT**: This orchestrator is part of the Dual Workflow System.
 > - This is WF1. arXiv has been transferred to WF2 (arxiv-scan-orchestrator).
@@ -213,7 +224,7 @@ The orchestrator accumulates verification results throughout execution:
 ```json
 {
   "workflow_id": "scan-{date}",
-  "vev_protocol_version": "2.2.0",
+  "vev_protocol_version": "2.2.1",
   "verification_summary": {
     "total_checks": 0,
     "passed": 0,
@@ -489,7 +500,8 @@ Phase 1: Research (id: phase1)
 ├── 1.2b: Translate raw scan results (KR) (blockedBy: [1.2a-M], or [1.2a] if --base-only)
 ├── 1.2c: Classify signals (STEEPs) (blockedBy: [1.2a-M], or [1.2a] if --base-only)
 ├── 1.2d: Translate classified signals (KR) (blockedBy: [1.2c])
-├── 1.3a: Run 4-stage deduplication cascade (blockedBy: [1.2c])
+├── 1.2a-E: Source exploration - Stage C (blockedBy: [1.2c]) [conditional: exploration.enabled]
+├── 1.3a: Run 4-stage deduplication cascade (blockedBy: [1.2c], or [1.2a-E] if exploration active)
 ├── 1.3b: Generate dedup log (blockedBy: [1.3a])
 ├── 1.3c: Translate filtered results (KR) (blockedBy: [1.3a])
 ├── 1.4:  Human review of filtering [checkpoint] (blockedBy: [1.3a])
@@ -722,12 +734,21 @@ Load or create this file at the start of each workflow execution.
     Store as "task1_2d_id"
     Then use TaskUpdate: addBlockedBy: [task1_2c_id]
 
+13c. **Conditional (skip if source_exploration.enabled == false or --base-only)** — Use TaskCreate tool:
+    - subject: "1.2a-E: Source exploration (Stage C)"
+    - description: "Discover and test-scan new sources via gap analysis + random exploration"
+    - activeForm: "Exploring new sources"
+    Store as "task1_2a_e_id"
+    Then use TaskUpdate: addBlockedBy: [task1_2c_id]
+    **Note**: Only create this task if `source_exploration.enabled == true` AND
+    not in `--base-only` mode. If not created, set `task1_2a_e_id = null`.
+
 14. Use TaskCreate tool:
     - subject: "1.3a: Run 4-stage deduplication cascade"
     - description: "URL → String → Semantic → Entity matching deduplication pipeline"
     - activeForm: "Filtering duplicates"
     Store as "task1_3a_id"
-    Then use TaskUpdate: addBlockedBy: [task1_2c_id]
+    Then use TaskUpdate: addBlockedBy: [task1_2a_e_id if created, else task1_2c_id]
 
 15. Use TaskCreate tool:
     - subject: "1.3b: Generate dedup log"
@@ -1011,6 +1032,7 @@ NOTE: Step 2.4 (Scenario Building) is conditional - create only when complexity 
       "1.2b": task1_2b_id,
       "1.2c": task1_2c_id,
       "1.2d": task1_2d_id,
+      "1.2a-E": task1_2a_e_id,
       "1.3a": task1_3a_id,
       "1.3b": task1_3b_id,
       "1.3c": task1_3c_id,
@@ -1090,7 +1112,7 @@ After Task hierarchy creation, initialize the verification system:
    ```json
    {
      "workflow_id": "scan-{date}",
-     "vev_protocol_version": "2.2.0",
+     "vev_protocol_version": "2.2.1",
      "verification_summary": {
        "total_checks": 0, "passed": 0, "warned": 0, "failed": 0,
        "retries_triggered": 0, "pipeline_gates_passed": 0, "overall_status": "PENDING"
@@ -1109,6 +1131,30 @@ After Task hierarchy creation, initialize the verification system:
 ## Phase 1: Research (Information Collection)
 
 Execute steps **sequentially**:
+
+### Step 1.0.5: Read Temporal Parameters from State File
+
+> **v2.2.1**: `scan_window_state_file`에서 이 WF의 시간 파라미터를 추출한다.
+> 이 값들을 Step 1.2 워커 호출 시 `--scan-window-start`/`--scan-window-end`로 전달한다.
+
+```bash
+cat {scan_window_state_file}   # JSON 읽기
+```
+
+**JSON 구조에서 추출할 값**:
+```yaml
+# {scan_window_state_file} → workflows.{scan_window_workflow} 키 참조
+WF_WINDOW_START:  workflows.wf1-general.window_start   # ISO8601 (예: "2026-02-09T09:00:00+00:00")
+WF_WINDOW_END:    workflows.wf1-general.window_end     # ISO8601 (예: "2026-02-10T09:00:00+00:00")
+WF_LOOKBACK:      workflows.wf1-general.lookback_hours  # 정수 (예: 24)
+WF_TOLERANCE:     workflows.wf1-general.tolerance_minutes # 정수 (예: 30)
+```
+
+**사용처**:
+- Step 1.2 워커 호출: `--scan-window-start {WF_WINDOW_START} --scan-window-end {WF_WINDOW_END} --scan-tolerance-min {WF_TOLERANCE}`
+- Pipeline Gate 1: `temporal_gate.py`가 state file을 직접 읽으므로 별도 전달 불필요
+
+**주의**: 이 값들을 직접 계산하지 말 것. state file에서 읽기만 할 것.
 
 ### Step 1.1: Load Archive
 
@@ -1140,6 +1186,20 @@ Execute these steps before invoking the worker agent:
    - status: "in_progress"
 4. If task_mapping is empty or TaskUpdate fails: Continue without error
 
+**MANDATORY — Cache Invalidation (v2.6.0)**:
+
+Before invoking the archive-loader, delete the persistent index cache to force a full rebuild.
+This prevents stale cached indexes from causing duplicate signals to bypass dedup filters.
+The archive-loader will rebuild fresh from `signals/database.json` (authoritative source).
+
+```bash
+# Orchestrator executes BEFORE Task invocation:
+rm -f {data_root}/context/index-cache.json
+rm -f {data_root}/context/previous-signals.json
+```
+
+Where `{data_root}` is the workflow's `data_root` from SOT (e.g., `env-scanning/wf1-general`).
+
 **Invoke**: Task tool with `@archive-loader` worker agent
 
 ```yaml
@@ -1168,6 +1228,8 @@ Layer_2_Functional:
     on_fail: RETRY
   - check: "Contains 'entity_index' field (object type)"
     on_fail: RETRY
+  - check: "previous-signals.json metadata.last_updated is within last 1 hour"
+    on_fail: RETRY (stale cache detected — archive-loader may have used cached data)
 
 Layer_3_Quality:
   - check: "At least 1 signal loaded (or empty on confirmed first run)"
@@ -1637,6 +1699,123 @@ Verification:
 
 ---
 
+### Step 1.2a-E: Source Exploration — Stage C (Conditional)
+
+> **SKIP** this step entirely if:
+> - `source_exploration.enabled == false` in SOT, OR
+> - `--base-only` mode is active, OR
+> - `task1_2a_e_id` was not created
+
+**Trigger**: After Step 1.2c (classification) completes. Runs **parallel** to Step 1.2d (translation).
+
+#### ① PRE-GATE: Exploration Gate Check (MANDATORY)
+
+⚠️ **BEFORE invoking exploration-orchestrator**, run the exploration gate check:
+
+```bash
+python3 {gate_script} check \
+    --sot {SOT_path} \
+    --classified {data_root}/structured/classified-signals-{date}.json \
+    --date {date} \
+    --output {data_root}/exploration/gate-decision-{date}.json \
+    --json
+```
+
+Where `{gate_script}` = SOT `source_exploration.gate_script` value.
+
+- If `decision` == `"MUST_RUN"` → proceed to invoke exploration-orchestrator below.
+- If `decision` == `"SKIP_DISABLED"` or `"SKIP_BASE_ONLY"` → skip directly to POST-GATE.
+- Store the gate decision file path for POST-GATE usage.
+
+**This Python check replaces the LLM conditional logic above — it is the authoritative decision.**
+
+#### ② EXECUTE: Invoke Exploration Orchestrator
+
+**Invoke**: Task tool with `.claude/agents/exploration-orchestrator.md`
+
+```yaml
+Agent: exploration-orchestrator
+Description: "Discover and test-scan new sources (Stage C)"
+Input:
+  classified_signals_path: "{data_root}/structured/classified-signals-{date}.json"
+  domains_config: "env-scanning/config/domains.yaml"
+  frontiers_config: "{SOT source_exploration.frontiers_config}"
+  excluded_sources_path: "{data_root}/exploration/excluded-sources.json"
+  exploration_config: {SOT source_exploration section}
+  scan_window:
+    start: "{scan_window_start from state file}"
+    end: "{scan_window_end from state file}"
+    T0: "{T0 from state file}"
+  data_root: "{data_root}"
+  date: "{date}"
+```
+
+**On success**:
+1. If `exploration_signals` is non-empty:
+   - **MANDATORY**: Use `exploration_merge_gate.py` (NOT manual merge) to merge signals:
+     ```bash
+     python3 env-scanning/core/exploration_merge_gate.py merge \
+         --exploration-signals {path_to_exploration_signals_json} \
+         --target-raw {data_root}/raw/daily-scan-{date}.json \
+         --target-classified {data_root}/structured/classified-signals-{date}.json \
+         --output {data_root}/exploration/merge-report-{date}.json \
+         --json
+     ```
+   - The script atomically merges into BOTH files or NEITHER — partial update is impossible.
+   - Check exit code: 0 = SUCCESS, 1 = ERROR.
+   - If the exploration-orchestrator returned signals as a dict/list (not a file), first write
+     them to a temporary JSON file (`{data_root}/exploration/exploration-signals-{date}.json`)
+     before passing to the merge gate.
+   - After merge, run verification:
+     ```bash
+     python3 env-scanning/core/exploration_merge_gate.py verify \
+         --target-raw {data_root}/raw/daily-scan-{date}.json \
+         --target-classified {data_root}/structured/classified-signals-{date}.json \
+         --excluded-sources {data_root}/exploration/excluded-sources.json \
+         --max-exploration-signals {max_candidates * max_test_signals} \
+         --json
+     ```
+   - Verify exit code: 0 = PASS. If 1 = FAIL, log violations and treat as merge failure.
+   - Update signal count in workflow-status.json
+2. Store `candidates_file` path in workflow-status.json for Step 2.5 review
+3. Mark task1_2a_e as completed
+
+**On failure or skip**:
+1. Log warning: "Stage C exploration failed/skipped. Continuing without exploration signals."
+2. Mark task1_2a_e as completed (non-critical step)
+3. Continue to Step 1.3a — dedup dependency falls back to task1_2c_id
+
+#### ③ POST-GATE: Exploration Gate Post (MANDATORY)
+
+⚠️ **AFTER exploration completes (or is skipped)**, ALWAYS run the exploration gate post:
+
+```bash
+python3 {gate_script} post \
+    --decision {data_root}/exploration/gate-decision-{date}.json \
+    --data-root {data_root} \
+    --candidates {data_root}/exploration/candidates/exploration-candidates-{date}.json \
+    --signals {data_root}/exploration/exploration-signals-{date}.json \
+    --method {actual_method_used} \
+    --output {data_root}/exploration/exploration-proof-{date}.json \
+    --json
+```
+
+Where `{actual_method_used}` = `"agent-team"` | `"single-agent"` | `"unknown"`.
+
+- This creates `exploration-proof-{date}.json` (required for PG1 verification).
+- This also records the scan in `exploration/history/` as a safety net for the RLM loop.
+- **This command MUST run regardless of whether exploration succeeded or was skipped.**
+- If candidates/signals files don't exist (skip case), pass the paths anyway — the script handles missing files gracefully.
+
+**Update dependency**: If task1_2a_e was created, Step 1.3a waits for it.
+If exploration was skipped/failed, Step 1.3a proceeds after 1.2c.
+
+**TASK UPDATE**:
+1. TaskUpdate(taskId: task_mapping["1.2a-E"], status: "in_progress") before invocation
+2. TaskUpdate(taskId: task_mapping["1.2a-E"], status: "completed") after POST-GATE completion
+
+---
+
 ### Step 1.3: Deduplication Filtering
 
 #### ① PRE-VERIFY (선행 조건 확인)
@@ -1653,7 +1832,7 @@ Pre-Verification Checks:
     on_fail: HALT (previous step must be verified)
 ```
 
-#### ② EXECUTE (기존 로직)
+#### ② EXECUTE (2-Phase: Python Gate → LLM Agent)
 
 **TASK UPDATE - BEFORE EXECUTION** (Optional, non-critical):
 
@@ -1661,13 +1840,59 @@ Pre-Verification Checks:
 2. If exists: Use TaskUpdate tool (taskId from step 1, status: "in_progress")
 3. If fails: Continue without error
 
+**Phase A: Deterministic Python Gate (v2.6.0)**
+
+Run `dedup_gate.py` BEFORE the LLM agent. This catches URL-exact and topic-level
+duplicates deterministically. Read thresholds from SOT `system.dedup_gate`.
+
+```bash
+# Read dedup_gate config from SOT
+DG_SCRIPT=$(SOT → system.dedup_gate.gate_script)
+DG_ENFORCE=$(SOT → system.dedup_gate.enforce)
+DG_TH_DEF=$(SOT → system.dedup_gate.thresholds.topic_fingerprint_definite)
+DG_TH_UNC=$(SOT → system.dedup_gate.thresholds.topic_fingerprint_uncertain)
+
+# Use database snapshot as comparison set (NOT stale previous-signals.json)
+PREV_FILE="{data_root}/signals/snapshots/database-{date}-pre-update.json"
+# Fallback: if no snapshot exists yet, use database.json
+if [ ! -f "$PREV_FILE" ]; then
+  PREV_FILE="{data_root}/signals/database.json"
+fi
+
+python3 $DG_SCRIPT \
+  --signals {data_root}/raw/daily-scan-{date}.json \
+  --previous $PREV_FILE \
+  --workflow {workflow_name} \
+  --output {data_root}/filtered/gate-result-{date}.json \
+  --definite-threshold $DG_TH_DEF \
+  --uncertain-threshold $DG_TH_UNC \
+  --enforce $DG_ENFORCE \
+  --json
+```
+
+Exit codes:
+- 0 (PASS/PASS_WITH_REMOVAL): Continue to Phase B with gate-filtered signals
+- 1 (FAIL): HALT — input error
+- 2 (WARN): No previous signals — all pass through, continue to Phase B
+
+The gate produces:
+- `filtered/gate-result-{date}.json` — full gate result with statistics
+- `filtered/gate-filtered-{date}.json` — signals split into definite_new + uncertain
+
+**Phase B: LLM Agent for Uncertain Signals**
+
 **Invoke**: Task tool with `@deduplication-filter` worker agent
+
+The LLM agent now receives the gate-filtered output instead of raw signals.
+It applies semantic and entity-level judgment to **uncertain** signals only.
+**definite_new** signals pass through without LLM review.
+**definite_duplicates** were already removed by the Python gate.
 
 ```yaml
 Agent: deduplication-filter
-Description: Filter duplicate signals using 4-stage cascade
+Description: Apply semantic/entity dedup judgment to gate-uncertain signals
 Input files:
-  - raw/daily-scan-{date}.json
+  - filtered/gate-filtered-{date}.json  (gate output: definite_new + uncertain)
   - context/previous-signals.json
   - context/shared-context-{date}.json
 Output:
@@ -2034,6 +2259,61 @@ Pipeline_Gate_1_Checks:
     check: "All signal IDs in filtered file are unique (no duplicates within results)"
     purpose: "Basic data integrity"
     on_fail: TRACE_BACK to Step 1.3
+
+  7_temporal_boundary_check:
+    check: "MANDATORY Python enforcement — temporal_gate.py validates every signal"
+    purpose: "Temporal consistency enforcement (TC-003). Deterministic, zero-hallucination."
+    enforcement: |
+      ⚠️ THIS CHECK IS EXECUTED BY PYTHON — NOT BY LLM INSTRUCTION.
+
+      python3 {temporal_gate_script} \
+        --signals {data_root}/filtered/new-signals-{date}.json \
+        --scan-window {scan_window_state_file} \
+        --workflow {scan_window_workflow} \
+        --output {data_root}/filtered/new-signals-{date}.json
+
+      Exit codes:
+        0 (PASS)              → All signals within window. Proceed.
+        0 (PASS_WITH_REMOVAL) → Some signals removed. Output file updated. Proceed.
+        1 (FAIL)              → No signals remain after filtering. HALT.
+        2 (WARN)              → Warnings only (e.g., missing dates). Proceed with caution.
+
+      The script reads window boundaries from scan_window_state_file
+      (generated by temporal_anchor.py) and checks each signal's
+      published_date programmatically. No LLM datetime arithmetic involved.
+    on_fail: WARN (signals outside window are removed, not a pipeline halt)
+
+  8_exploration_proof_check:
+    check: "MANDATORY Python enforcement — exploration_gate.py verify validates proof file"
+    purpose: "Source exploration enforcement (v2.5.1). Ensures Stage C was executed or correctly skipped."
+    enforcement: |
+      ⚠️ THIS CHECK IS EXECUTED BY PYTHON — NOT BY LLM INSTRUCTION.
+      ⚠️ THIS CHECK IS THE STRUCTURAL SAFETY NET — it catches cases where
+         the PRE-GATE/POST-GATE calls were skipped by the LLM.
+
+      python3 {exploration_gate_script} verify \
+        --proof {data_root}/exploration/exploration-proof-{date}.json \
+        --decision {data_root}/exploration/gate-decision-{date}.json \
+        --json
+
+      Where {exploration_gate_script} = SOT source_exploration.gate_script
+
+      Exit codes:
+        0 (PASS) → All VP checks passed. Proceed.
+        1 (FAIL) → Proof file missing or invalid.
+
+      If FAIL → This means exploration gate calls were skipped.
+      Recovery: Run gate check + post commands now, then re-verify.
+
+      If source_exploration.enabled == false in SOT → Skip this check entirely.
+    on_fail: |
+      IF SOT source_exploration.enforcement == "mandatory":
+        HALT — "Exploration proof missing/invalid. Stage C is mandatory (enforcement=mandatory in SOT). Run exploration before proceeding."
+        Recovery: Run gate check → exploration-orchestrator → gate post, then re-verify PG1.
+      ELSE:
+        WARN — Log "Exploration proof missing/invalid" but do NOT halt pipeline.
+        Reason: When enforcement is "optional", missing proof is non-critical.
+        The WARN is recorded for post-execution audit.
 ```
 
 **Gate Result**:
@@ -2479,7 +2759,7 @@ options:
   - label: "시나리오 건너뛰기"
     description: "분석 결과만으로 보고서를 생성합니다."
   - label: "시나리오 생성 (QUEST 방법론)"
-    description: "4가지 플러서블 시나리오를 생성합니다."
+    description: "4가지 Plausible Scenarios(개연성 있는 시나리오)를 생성합니다."
 ```
 
 **If activated**:
@@ -2587,6 +2867,54 @@ Pre-Verification Checks:
    NOTE: User will see "Awaiting human review" when pressing Ctrl+T
 3. If fails: Continue without error
 
+**CHECKPOINT SUMMARY DISPLAY (REQUIRED — AskUserQuestion 호출 전 필수 출력)**:
+
+체크포인트 질문을 제시하기 전에, 아래 구조화된 요약을 한국어 텍스트로 사용자에게 표시한다. **모든 섹션 필수**:
+
+```
+**CHECKPOINT {N} of 7 — WF1 Phase 2.5: 분석 검토**
+
+**WF1 스캔 결과 요약 ({date})**
+- 수집 소스: {sources_scanned}개
+- 신규 시그널: {new_signals}개
+- 스캔 윈도우: {scan_start} → {scan_end} (24시간)
+- 검증: {checks_passed}/{checks_total} PASS ({profile} 프로파일)
+
+**상위 5개 우선순위 시그널 (pSST)**
+| 순위 | 시그널 | 분류 | pSST |
+|------|--------|------|------|
+| 1    | ...    | ...  | ...  |
+...
+
+**STEEPs 분포**
+P(정치): N개 (X%) | T(기술): N개 (X%) | ...
+
+**교차영향 클러스터**
+- Cluster A: ...
+
+---
+
+**탐험/탐색 결과 (Stage C)** ← 이 섹션은 반드시 포함
+- 상태: {execution_status}  [MUST_RUN→"실행됨" | SKIP_DISABLED→"비활성화됨" | SKIP_BASE_ONLY→"기본 소스만"]
+- 탐색 방법: {method_used}  [agent-team | single-agent | n/a]
+- 발견 후보 소스: {candidates_discovered}개  (viable: {viable_count}개)
+- 탐험 시그널 수집: {signals_collected}개
+- VP-5 검증: {vp5_status}  [PASS | FAIL | 해당없음]
+```
+
+**탐험 결과 데이터 소스**:
+1. `{data_root}/exploration/exploration-proof-{date}.json` 읽기
+   - `execution_status` ← `proof["execution_status"]`
+   - `method_used` ← `proof["method_used"]`
+   - `candidates_discovered` ← `proof["results"]["candidates_discovered"]`
+   - `viable_count` ← `proof["results"]["viable_count"]`
+   - `signals_collected` ← `proof["results"]["signals_collected"]`
+2. VP-5 상태는 exploration-proof.json의 `files.frontier_selection` 경로로 판단:
+   - 경로가 기록되어 있고 파일 존재 → "PASS"
+   - null 또는 파일 없음 → "FAIL"
+   - execution_status == "skipped" → "해당없음"
+3. 증명 파일 없을 경우: "탐험 증명 파일 없음 (미실행 또는 오류)"으로 표시
+
 **Action**: Use AskUserQuestion tool
 
 ```yaml
@@ -2623,6 +2951,51 @@ questions:
 - If modifications requested: Update structured/classified-signals-{date}.json
 - If priority adjustments: Update analysis/priority-ranked-{date}.json
 - Log all decisions
+
+**Exploration Candidate Review (v2.5.0)** — Conditional:
+
+IF `{data_root}/exploration/candidates/exploration-candidates-{date}.json` exists:
+
+1. Read the candidates file
+2. Present viable candidates to user in Korean:
+
+```yaml
+questions:
+  - question: "소스 탐사(Stage C)에서 발견된 후보 소스를 검토해주세요. 각 후보에 대해 결정해주세요."
+    header: "탐사 후보 검토"
+    multiSelect: false
+    options:
+      - label: "개별 결정"
+        description: "각 후보 소스에 대해 승인/보류/폐기를 선택합니다."
+      - label: "모두 보류"
+        description: "모든 후보를 다음 스캔에서 재검토합니다."
+      - label: "모두 폐기"
+        description: "모든 후보를 폐기합니다 (재제안 안 함)."
+```
+
+3. If "개별 결정" selected:
+   - For each viable candidate, display: name, URL, quality_score, signal_count, target_steeps
+   - Ask: [승인] → sources.yaml에 tier: "exploration"으로 추가
+   -       [보류] → 다음 스캔에서 재시도
+   -       [폐기] → 재제안 안 함 (history에 기록)
+4. Build decisions list with full candidate details:
+   ```python
+   decisions = [
+       {
+           "name": candidate["name"],
+           "decision": user_choice,         # "approved" | "discarded" | "deferred"
+           "url": candidate["url"],          # needed for sources.yaml write
+           "type": candidate.get("type", "blog"),
+           "target_steeps": candidate.get("target_steeps", []),
+       }
+       for candidate, user_choice in zip(viable_candidates, user_choices)
+   ]
+   ```
+5. Apply decisions via `SourceExplorer.apply_user_decisions(decisions, sources_yaml_path)`
+   - Approved sources are **actually added** to sources.yaml with `tier: "exploration"`
+   - Discarded sources are recorded in history (never re-proposed)
+   - Deferred sources are retried in the next exploration scan
+5. Log all decisions in workflow-status.json `human_decisions` array
 
 #### ③ POST-VERIFY (Human Checkpoint)
 
@@ -2872,6 +3245,46 @@ additional_data:
 - If failure: Log error E7000 and HALT
 - **Retry (VEV)**: Layer 1/2 failure → max 2 retries. On exhaustion → RESTORE_AND_HALT (restore backup, halt workflow, notify user)
 
+### Step 3.1b: Signal Evolution Tracking (v2.3.0)
+
+> **Purpose**: 오늘 시그널을 히스토리 DB와 비교하여 cross-day evolution을 추적한다.
+> DB 업데이트(3.1c) 이전에 실행해야 오늘 시그널이 자기 자신과 매칭되지 않는다.
+
+**Read SOT** `system.signal_evolution.enabled`:
+
+```yaml
+IF signal_evolution.enabled == true:
+  → Execute evolution tracker
+ELSE:
+  → Skip Step 3.1b (evolution-map will not be generated; statistics engine handles graceful degradation)
+```
+
+**Execute** (when enabled):
+
+```bash
+python3 env-scanning/core/signal_evolution_tracker.py track \
+  --registry env-scanning/config/workflow-registry.yaml \
+  --input {data_root}/structured/classified-signals-{date}.json \
+  --db {data_root}/signals/database.json \
+  --index {data_root}/signals/evolution-index.json \
+  --workflow {workflow_name} \
+  --priority-ranked {data_root}/analysis/priority-ranked-{date}.json \
+  --output {data_root}/analysis/evolution/evolution-map-{date}.json
+```
+
+> **⚠️ SOT Direct Reading (v2.3.1)**: All evolution thresholds (title similarity, semantic similarity,
+> fade days, etc.) are read DIRECTLY from the registry by Python. Do NOT pass numeric threshold
+> arguments — the tracker reads `system.signal_evolution.*` from the SOT itself.
+>
+> **`--priority-ranked` (v1.3.0 L3 fix)**: Back-fills pSST scores from Step 2.3 output.
+> classified-signals lack psst_score (computed later in pipeline); this argument provides them.
+
+**VEV Protocol**:
+- **PRE-VERIFY**: classified-signals JSON exists, signals/database.json exists
+- **EXECUTE**: Run tracker (creates evolution-map + updates evolution-index)
+- **POST-VERIFY**: evolution-map JSON is valid, evolution-index thread count ≥ 0
+- **On failure**: Log warning, continue without evolution data (graceful degradation). Do NOT halt workflow.
+
 ### Step 3.2: Report Generation
 
 #### ① PRE-VERIFY (선행 조건 확인)
@@ -2890,7 +3303,43 @@ Pre-Verification Checks:
     on_fail: HALT
 ```
 
-#### ② EXECUTE (기존 로직)
+#### ② EXECUTE
+
+**Step A.0: Statistical Placeholder Computation (Python — 결정론적)**
+
+> v2.2.2: 통계 플레이스홀더(TOTAL_NEW_SIGNALS, DOMAIN_DISTRIBUTION)를 Python이 계산한다.
+> "LLM이 분류하고, Python이 센다" — 통계 할루시네이션 원천 차단.
+
+```bash
+python3 {statistics_engine_script} \
+  --input {data_root}/structured/classified-signals-{date}.json \
+  --workflow-type standard \
+  --evolution-map {data_root}/analysis/evolution/evolution-map-{date}.json \
+  --language {bilingual_language} \
+  --output {data_root}/reports/report-statistics-{date}.json
+```
+
+> **v2.3.0**: `--evolution-map` 인자가 추가됨. 파일이 없으면(evolution disabled 또는 Step 3.1b 실패) statistics engine이 빈 evolution 플레이스홀더를 생성하여 graceful degradation.
+
+**Step A: Temporal + Statistical Metadata Injection (Python — 결정론적)**
+
+> v2.2.1+: 시간 + 통계 플레이스홀더를 Python이 채운다. LLM은 분석 콘텐츠만 채운다.
+
+```bash
+python3 {metadata_injector_script} \
+  --skeleton {report_skeleton} \
+  --scan-window {scan_window_state_file} \
+  --statistics {data_root}/reports/report-statistics-{date}.json \
+  --workflow {scan_window_workflow} \
+  --language {bilingual_language} \
+  --output {data_root}/reports/daily/_skeleton-prefilled-{date}.md
+```
+
+이 스크립트는 시간 플레이스홀더({{SCAN_WINDOW_START}} 등)와 통계 플레이스홀더
+({{TOTAL_NEW_SIGNALS}}, {{DOMAIN_DISTRIBUTION}})를 결정론적 값으로 대체한다.
+분석용 플레이스홀더({{SIGNAL_BLOCKS}} 등)는 보존된다.
+
+**Step B: Report Generation (LLM)**
 
 **Invoke**: Task tool with `@report-generator` worker agent
 
@@ -2902,10 +3351,14 @@ Input files:
   - analysis/priority-ranked-{date}.json
   - scenarios/scenarios-{date}.json (optional)
   - context/shared-context-{date}.json
+Skeleton: reports/daily/_skeleton-prefilled-{date}.md   # ⚠️ Pre-filled skeleton (NOT raw template)
 Output:
   - reports/daily/environmental-scan-{date}.md
 Language: English (primary)
 ```
+
+> **⚠️ CRITICAL**: report-generator는 반드시 `_skeleton-prefilled-{date}.md`를 사용해야 한다.
+> raw skeleton(`report-skeleton.md`)을 직접 사용하면 시간 플레이스홀더가 미치환 상태로 남는다.
 
 #### ③ POST-VERIFY (3-Layer 사후 검증 + Automated Validation Script)
 
@@ -2917,11 +3370,23 @@ Language: English (primary)
 ```bash
 python3 env-scanning/scripts/validate_report.py \
   {data_root}/reports/daily/environmental-scan-{date}.md \
-  --profile {validate_profile} --json
+  --profile {validate_profile} \
+  {exploration_proof_flag} \
+  --json
 ```
 
 > `{validate_profile}` is received from master-orchestrator invocation (sourced from SOT).
 > For WF1 this is typically `standard`; do NOT hardcode the value.
+>
+> `{exploration_proof_flag}`: If source_exploration.enabled == true AND exploration-proof-{date}.json exists,
+> add `--exploration-proof {data_root}/exploration/exploration-proof-{date}.json`.
+> This overrides the proof **path** for EXPLO-001 check. The check **level** is always
+> determined from SOT enforcement setting:
+>   - enforcement="mandatory" → CRITICAL (pipeline blocked on failure)
+>   - enforcement="optional" → ERROR (logged, pipeline continues)
+> If this flag is omitted, `validate_report.py` auto-detects WF1 path and SOT enforcement
+> to run EXPLO-001 automatically (same level determination).
+> **This flag is WF1-only** — WF2 does not pass it (they share the "standard" profile).
 
 **Step 2: Interpret exit code**
 
@@ -2954,6 +3419,13 @@ Layer_3_Quality (from validate_report.py):
   - QUAL-001: "Total 5,000+ words"                    → on_fail: WARN
   - QUAL-002: "Korean character ratio >= 30%"          → on_fail: WARN
 
+Pipeline_Enforcement (from validate_report.py, path-conditional):
+  - EXPLO-001: "Source exploration proof exists and valid"  → on_fail: SEE BELOW
+    # Level is CRITICAL when SOT enforcement=mandatory, ERROR when optional.
+    # IMPORTANT: EXPLO-001 CRITICAL failure is NOT fixable by report regeneration.
+    # The proof file is created by exploration_gate.py, not by report-generator.
+    # → Skip retry, escalate immediately (see ④ EXPLO-001 special handling below).
+
 Additional Manual Checks (not in validator):
   - check: "Top 5 priority signals appear in Executive Summary"
     on_fail: WARN
@@ -2962,6 +3434,14 @@ Additional Manual Checks (not in validator):
 ```
 
 #### ④ RETRY (실패 시 — 3단계 점진적 강화)
+
+**EXPLO-001 CRITICAL Special Handling — Skip Retry, Escalate Immediately**:
+> If the ONLY CRITICAL failure is EXPLO-001 (exploration proof missing/invalid):
+> - DO NOT retry report regeneration — report-generator cannot create exploration proof.
+> - Escalate immediately to user:
+>   "탐사 증명 파일(exploration-proof)이 누락되었습니다. Stage C(소스 탐사)를 먼저 실행해야 합니다.
+>    SOT enforcement=mandatory 설정으로 보고서 검증이 차단되었습니다."
+> - Recovery path: Run Step 1.2a-E (exploration) → gate post → then re-run Step 3.2.
 
 **Retry 1 — Targeted Fix (위반 항목만 수정)**:
 1. Parse `validate_report.py --json` output to extract failing check IDs and details
@@ -2977,7 +3457,7 @@ Additional Manual Checks (not in validator):
 1. If Retry 1 still fails, re-invoke `@report-generator` with:
    ```
    FULL REGENERATION REQUIRED.
-   Use the skeleton template at .claude/skills/env-scanner/references/report-skeleton.md
+   Use the skeleton template at {report_skeleton}
    Fill every {{PLACEHOLDER}} with data.
    Previous violations: {full validator JSON output}
    Refer to the GOLDEN REFERENCE example for correct 9-field format.
@@ -3024,7 +3504,7 @@ additional_data:
 8. 부록
 
 **Optional Sections** (if Step 2.4 activated):
-6. 플러서블 시나리오
+6. Plausible Scenarios(개연성 있는 시나리오)
 
 **Retry (VEV)**: Layer 1/2 failure → Targeted Fix (Retry 1) → Full Skeleton Regen (Retry 2) → Human Escalation with warning banner. See ④ RETRY above for detailed protocol.
 
@@ -3499,7 +3979,7 @@ After workflow completion, generate:
     "total_translation_time": 42
   },
   "verification_summary": {
-    "vev_protocol_version": "2.2.0",
+    "vev_protocol_version": "2.2.1",
     "total_checks": 42,
     "passed": 40,
     "warned": 2,

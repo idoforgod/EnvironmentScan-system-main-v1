@@ -1,0 +1,52 @@
+{
+  "date": "2026-02-17",
+  "workflow": "wf3-naver",
+  "ranking_method": "Impact 40%, Probability 30%, Urgency 20%, Novelty 10%",
+  "total_ranked": 15,
+  "steeps_distribution": {
+    "S": 3,
+    "T": 4,
+    "E": 1,
+    "Ec": 1,
+    "P": 5,
+    "s": 1
+  },
+  "fssf_distribution": {
+    "Weak Signal": 2,
+    "Emerging Issue": 3,
+    "Trend": 3,
+    "Megatrend": 0,
+    "Driver": 2,
+    "Wild Card": 1,
+    "Discontinuity": 0,
+    "Precursor Event": 4
+  },
+  "three_horizons_distribution": {
+    "H1": 10,
+    "H2": 3,
+    "H3": 2
+  },
+  "tipping_point_summary": {
+    "RED": 0,
+    "ORANGE": 1,
+    "YELLOW": 3,
+    "GREEN": 11
+  },
+  "signals": [
+    {"rank": 1, "id": "naver-20260217-TOP-001", "title": "미-이란 제네바 2차 핵 협상 '상당한 진전' -- 합의 초안 마련 착수, 그러나 항모 2척 걸프만 집결", "psst": 9.45, "steeps": "P", "fssf": "Emerging Issue", "horizon": "H1", "tp": "ORANGE"},
+    {"rank": 2, "id": "naver-20260217-TOP-002", "title": "윤석열 내란 1심 선고 D-2 -- 사형 구형 후 설 직후 역사적 판결, 체포방해 첫 유죄", "psst": 9.25, "steeps": "P", "fssf": "Precursor Event", "horizon": "H1", "tp": "YELLOW"},
+    {"rank": 3, "id": "naver-20260217-TOP-003", "title": "삼성전자 P5 클린룸 6개월 앞당겨 + 1월 반도체 수출 205억달러 사상 최대", "psst": 9.20, "steeps": "T", "fssf": "Trend", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 4, "id": "naver-20260217-TOP-004", "title": "한국 4분기 GDP -0.28% 24개국 중 22위 -- 반도체 호황 속 내수 함정의 역설", "psst": 8.85, "steeps": "E", "fssf": "Emerging Issue", "horizon": "H1", "tp": "YELLOW"},
+    {"rank": 5, "id": "naver-20260217-TOP-005", "title": "김주애 '아버지 대신 시책 의견 개진' -- 후계 수업 본격화, 2월 하순 당대회 분기점", "psst": 8.70, "steeps": "P", "fssf": "Wild Card", "horizon": "H2", "tp": "YELLOW"},
+    {"rank": 6, "id": "naver-20260217-TOP-006", "title": "이재명 대통령 '모두의 대통령' 설 메시지 -- 국정 추진 의지 재확인", "psst": 8.55, "steeps": "P", "fssf": "Precursor Event", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 7, "id": "naver-20260217-TOP-007", "title": "네이버 에이전트 N + 카카오 에이전틱 AI -- 2026 에이전트 AI 원년 선언", "psst": 8.50, "steeps": "T", "fssf": "Driver", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 8, "id": "naver-20260217-TOP-008", "title": "경기 포천 고병원성 AI 확진 -- 5년 만 재발, 시즌 44번째, 38만 마리 살처분", "psst": 8.40, "steeps": "S", "fssf": "Precursor Event", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 9, "id": "naver-20260217-TOP-009", "title": "한국 소버린 AI 경쟁 3개 컨소시엄 압축 -- 네이버-NCSoft 탈락", "psst": 8.35, "steeps": "T", "fssf": "Driver", "horizon": "H2", "tp": "GREEN"},
+    {"rank": 10, "id": "naver-20260217-TOP-010", "title": "설 소비 양극화 극명 -- 명품 +15% vs 전통시장 -8%", "psst": 8.25, "steeps": "S", "fssf": "Trend", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 11, "id": "naver-20260217-TOP-011", "title": "우크라이나 전쟁 1100일 -- 러시아 점령지 확대 속 종전 교착", "psst": 8.20, "steeps": "P", "fssf": "Emerging Issue", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 12, "id": "naver-20260217-TOP-012", "title": "K-스테이블코인 -- 네이버-카카오 AI+Web3 금융 융합", "psst": 8.15, "steeps": "T", "fssf": "Weak Signal", "horizon": "H2", "tp": "GREEN"},
+    {"rank": 13, "id": "naver-20260217-TOP-013", "title": "설 명절 의료 공백 비상 -- 응급실 뺑뺑이 전국 확산", "psst": 8.05, "steeps": "S", "fssf": "Trend", "horizon": "H1", "tp": "GREEN"},
+    {"rank": 14, "id": "naver-20260217-TOP-014", "title": "금환일식-춘절-마디그라 73년 만 동시 발생", "psst": 7.85, "steeps": "s", "fssf": "Weak Signal", "horizon": "H3", "tp": "GREEN"},
+    {"rank": 15, "id": "naver-20260217-TOP-015", "title": "설 연휴 한파-폭설 + 귀성 1,900만", "psst": 7.75, "steeps": "Ec", "fssf": "Precursor Event", "horizon": "H1", "tp": "GREEN"}
+  ]
+}

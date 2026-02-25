@@ -1,0 +1,42 @@
+{
+  "classification_metadata": {
+    "date": "2026-02-10",
+    "workflow": "wf1-general",
+    "version": "2.2.1-test",
+    "total_signals": 20,
+    "categories": {
+      "T": 8,
+      "E": 3,
+      "E_Environmental": 2,
+      "P": 4,
+      "S": 4,
+      "s": 1
+    },
+    "scan_window": {
+      "start": "2026-02-09T10:56:39+00:00",
+      "end": "2026-02-10T10:56:39+00:00"
+    }
+  },
+  "signals": [
+    {"id": "wf1-20260210-006", "title": "NEW START Treaty Expiration: Last Nuclear Arms Control Pact Between US and Russia Ends Feb 5", "category": "P", "impact_score": 9.5, "probability": 1.0, "urgency": 10, "novelty": 8, "psst": 91, "source_type": "policy"},
+    {"id": "wf1-20260210-010", "title": "Three-Year Global Temperature Average Exceeds 1.5C for First Time", "category": "E_Environmental", "impact_score": 9.2, "probability": 1.0, "urgency": 9, "novelty": 7, "psst": 89, "source_type": "academic"},
+    {"id": "wf1-20260210-005", "title": "China's Artificial Sun Breaks Plasma Density Limits Previously Thought Unbreakable", "category": "T", "impact_score": 9.0, "probability": 0.85, "urgency": 6, "novelty": 10, "psst": 88, "source_type": "academic"},
+    {"id": "wf1-20260210-008", "title": "CRISPR Epigenetic Editing: Gene Activation Without DNA Cutting Achieved", "category": "T", "impact_score": 8.8, "probability": 0.80, "urgency": 7, "novelty": 9, "psst": 87, "source_type": "academic"},
+    {"id": "wf1-20260210-004", "title": "Global Trade Growth Subdued at 2.6% as Tariff Uncertainty Becomes Top Risk", "category": "E", "impact_score": 8.5, "probability": 0.95, "urgency": 9, "novelty": 6, "psst": 86, "source_type": "policy"},
+    {"id": "wf1-20260210-007", "title": "AI Impact Summit in New Delhi: Governments Move from Discussion to Regulation Action", "category": "P", "impact_score": 8.3, "probability": 0.90, "urgency": 8, "novelty": 7, "psst": 85, "source_type": "policy"},
+    {"id": "wf1-20260210-009", "title": "Global Jobs Gap Reaches 408 Million as AI Reshapes Labor Markets", "category": "S", "impact_score": 8.2, "probability": 0.90, "urgency": 8, "novelty": 6, "psst": 84, "source_type": "policy"},
+    {"id": "wf1-20260210-002", "title": "EeroQ Demonstrates Million-Qubit Control Architecture with Wonder Lake Chip", "category": "T", "impact_score": 8.0, "probability": 0.75, "urgency": 5, "novelty": 10, "psst": 83, "source_type": "academic"},
+    {"id": "wf1-20260210-016", "title": "Semiconductor Tariffs Shift to Country of Design: Global Value Chain Fragmentation Accelerates", "category": "E", "impact_score": 8.0, "probability": 0.90, "urgency": 9, "novelty": 8, "psst": 82, "source_type": "blog"},
+    {"id": "wf1-20260210-001", "title": "D-Wave Achieves Scalable On-Chip Cryogenic Control for Gate-Model Qubits", "category": "T", "impact_score": 7.8, "probability": 0.80, "urgency": 5, "novelty": 9, "psst": 81, "source_type": "blog"},
+    {"id": "wf1-20260210-013", "title": "China Adds 240 GW Solar in Single Year as Renewables Surpass Coal in Global Electricity", "category": "E_Environmental", "impact_score": 8.0, "probability": 1.0, "urgency": 7, "novelty": 7, "psst": 80, "source_type": "blog"},
+    {"id": "wf1-20260210-018", "title": "US EPA Announces Plans to Rescind Endangerment Finding Supporting Federal Climate Regulations", "category": "P", "impact_score": 8.5, "probability": 0.70, "urgency": 8, "novelty": 8, "psst": 79, "source_type": "policy"},
+    {"id": "wf1-20260210-011", "title": "US GENIUS Act and CLARITY Act Create First Federal Stablecoin and Digital Asset Framework", "category": "E", "impact_score": 7.5, "probability": 0.85, "urgency": 7, "novelty": 8, "psst": 78, "source_type": "policy"},
+    {"id": "wf1-20260210-019", "title": "Cleveland Clinic CRISPR Trial: Single Infusion Safely Reduces Cholesterol and Triglycerides", "category": "T", "impact_score": 7.5, "probability": 0.75, "urgency": 6, "novelty": 8, "psst": 77, "source_type": "academic"},
+    {"id": "wf1-20260210-003", "title": "EU Launches SUPREME Consortium: EUR 50M to Industrialize Superconducting Quantum Technology", "category": "T", "impact_score": 7.0, "probability": 0.90, "urgency": 5, "novelty": 7, "psst": 76, "source_type": "policy"},
+    {"id": "wf1-20260210-012", "title": "Boston Dynamics Production Atlas Humanoid Robot Enters Manufacturing at Hyundai Metaplant", "category": "T", "impact_score": 7.2, "probability": 0.85, "urgency": 6, "novelty": 7, "psst": 75, "source_type": "blog"},
+    {"id": "wf1-20260210-014", "title": "WHO Six-Year Post-COVID Assessment: Preparedness Progress Fragile and Uneven", "category": "S", "impact_score": 7.0, "probability": 0.85, "urgency": 7, "novelty": 5, "psst": 74, "source_type": "policy"},
+    {"id": "wf1-20260210-020", "title": "US Demographic Slowdown: Next 30 Years to Add Only 23 Million vs Previous 70 Million", "category": "S", "impact_score": 7.5, "probability": 0.90, "urgency": 5, "novelty": 6, "psst": 73, "source_type": "blog"},
+    {"id": "wf1-20260210-017", "title": "Workforce Pell Grants Arrive in 2026: Non-Degree Credentials Gain Federal Funding Parity", "category": "S", "impact_score": 6.5, "probability": 0.90, "urgency": 7, "novelty": 7, "psst": 72, "source_type": "blog"},
+    {"id": "wf1-20260210-015", "title": "Ethical AI Shifts from Principles to Practice: Accountability Frameworks Demanded", "category": "s", "impact_score": 6.8, "probability": 0.85, "urgency": 6, "novelty": 6, "psst": 71, "source_type": "blog"}
+  ]
+}

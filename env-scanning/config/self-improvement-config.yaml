@@ -80,6 +80,19 @@ self_improvement:
         - "Can only make verification stricter, never looser"
         - "Cannot reduce validation check count"
 
+    source_exploration:
+      enabled: true
+      description: "Track exploration source performance and propose tier promotions"
+      metrics:
+        - "exploration_candidates_discovered"
+        - "exploration_candidates_approved"
+        - "exploration_signal_yield_rate"
+        - "exploration_coverage_gap_reduction"
+      constraints:
+        - "Promotion to expansion tier is always MAJOR (user approval required)"
+        - "Cannot add sources to WF2 or WF3 (workflow independence)"
+        - "frontiers.yaml keyword changes are MINOR (within SIE bounds)"
+
     source_health:
       enabled: true
       description: "Monitor source URL health, detect failures, and suggest replacements"

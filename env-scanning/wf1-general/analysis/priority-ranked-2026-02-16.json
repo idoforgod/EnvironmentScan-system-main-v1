@@ -1,0 +1,36 @@
+{
+  "ranking_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-02-16",
+    "method": "pSST_unified",
+    "total_ranked": 25,
+    "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10}
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "wf1-20260216-003", "title": "New START Nuclear Treaty Expires: US-Russia Without Arms Control for First Time in 50 Years", "psst": 96, "impact": 9.5, "probability": 10.0, "urgency": 10.0, "category": "P"},
+    {"rank": 2, "id": "wf1-20260216-001", "title": "US EPA to Rescind Endangerment Finding for Greenhouse Gas Emissions", "psst": 95, "impact": 9.5, "probability": 9.5, "urgency": 9.0, "category": "P"},
+    {"rank": 3, "id": "wf1-20260216-004", "title": "Global Solar+Wind Capacity to Reach 4,000 GW in 2026, Overtaking Coal+Gas", "psst": 93, "impact": 9.0, "probability": 9.5, "urgency": 8.5, "category": "E_Environmental"},
+    {"rank": 4, "id": "wf1-20260216-008", "title": "Deepfake-as-a-Service Explodes: Over 30% of Corporate Impersonation Attacks Now AI-Powered", "psst": 92, "impact": 8.5, "probability": 9.0, "urgency": 9.5, "category": "T"},
+    {"rank": 5, "id": "wf1-20260216-011", "title": "Physical AI Reaches Inflection Point: Humanoid Robots Enter Manufacturing Production", "psst": 91, "impact": 9.0, "probability": 8.5, "urgency": 8.0, "category": "T"},
+    {"rank": 6, "id": "wf1-20260216-010", "title": "Global Jobs Gap Projected to Reach 408 Million in 2026 Despite Stable Headline Employment", "psst": 90, "impact": 8.5, "probability": 9.0, "urgency": 8.5, "category": "S"},
+    {"rank": 7, "id": "wf1-20260216-005", "title": "Edelman 2026 Trust Barometer: Society Slides from Grievance into Insularity", "psst": 89, "impact": 8.5, "probability": 9.0, "urgency": 8.0, "category": "s"},
+    {"rank": 8, "id": "wf1-20260216-013", "title": "Global Trade Tariffs Surge: UNCTAD Reports Protectionism Reshaping World Commerce", "psst": 88, "impact": 8.5, "probability": 9.0, "urgency": 8.0, "category": "E"},
+    {"rank": 9, "id": "wf1-20260216-016", "title": "Greenland Records Warmest January Ever: Warming 4x Faster Than Global Average", "psst": 88, "impact": 8.5, "probability": 10.0, "urgency": 7.5, "category": "E_Environmental"},
+    {"rank": 10, "id": "wf1-20260216-002", "title": "Stanford Miniature Light Trap Breakthrough Could Enable Million-Qubit Quantum Computers", "psst": 87, "impact": 8.5, "probability": 7.5, "urgency": 7.0, "category": "T"},
+    {"rank": 11, "id": "wf1-20260216-009", "title": "US Wave of State Tech Laws: AI, Privacy, Crypto Protections, Right to Repair Take Effect 2026", "psst": 87, "impact": 8.0, "probability": 9.5, "urgency": 8.0, "category": "P"},
+    {"rank": 12, "id": "wf1-20260216-022", "title": "US-China Competition Intensifies: Six Middle East Conflicts in Tier I/II Priority", "psst": 86, "impact": 8.5, "probability": 8.5, "urgency": 8.0, "category": "P"},
+    {"rank": 13, "id": "wf1-20260216-017", "title": "SEC Approves DTC Pilot for Tokenized Securities on Blockchain", "psst": 85, "impact": 8.0, "probability": 8.5, "urgency": 7.5, "category": "E"},
+    {"rank": 14, "id": "wf1-20260216-007", "title": "WHO Warns: Humanitarian Health Funding Below 2016 Levels", "psst": 85, "impact": 8.0, "probability": 9.0, "urgency": 8.0, "category": "S"},
+    {"rank": 15, "id": "wf1-20260216-019", "title": "Stanford AI Predicts Disease Risk from Single Night of Sleep Data", "psst": 84, "impact": 8.0, "probability": 7.5, "urgency": 7.0, "category": "T"},
+    {"rank": 16, "id": "wf1-20260216-012", "title": "EU Bans Destruction of Unsold Clothes Under Ecodesign Regulation", "psst": 83, "impact": 7.5, "probability": 9.0, "urgency": 7.5, "category": "E_Environmental"},
+    {"rank": 17, "id": "wf1-20260216-024", "title": "AI Ethics: Shannon Vallor Warns Society Underprepared for Psychological Effects", "psst": 82, "impact": 7.5, "probability": 8.0, "urgency": 7.5, "category": "s"},
+    {"rank": 18, "id": "wf1-20260216-020", "title": "Harvard Data Breach: 115K Records Exposed via Deepfake Voice Phishing", "psst": 82, "impact": 7.5, "probability": 9.0, "urgency": 8.0, "category": "T"},
+    {"rank": 19, "id": "wf1-20260216-023", "title": "US Battery Storage to Add 20 GW in 2026; Lithium-Ion Costs Could Drop 30-56%", "psst": 81, "impact": 7.5, "probability": 8.5, "urgency": 7.0, "category": "T"},
+    {"rank": 20, "id": "wf1-20260216-015", "title": "UK Data Protection Overhaul: Data Use and Access Act Takes Effect", "psst": 80, "impact": 7.0, "probability": 9.5, "urgency": 8.0, "category": "P"},
+    {"rank": 21, "id": "wf1-20260216-021", "title": "Neuromorphic Computers Solve Complex Physics Equations", "psst": 79, "impact": 7.5, "probability": 7.0, "urgency": 6.5, "category": "T"},
+    {"rank": 22, "id": "wf1-20260216-014", "title": "NASA Perseverance Rover Makes History: First AI-Planned Mars Routes", "psst": 78, "impact": 7.0, "probability": 10.0, "urgency": 6.0, "category": "T"},
+    {"rank": 23, "id": "wf1-20260216-018", "title": "Amsterdam and Florence Ban Fossil Fuel and Meat Advertisements", "psst": 77, "impact": 7.0, "probability": 9.0, "urgency": 7.0, "category": "E_Environmental"},
+    {"rank": 24, "id": "wf1-20260216-025", "title": "D-Wave Announces First Major Quantum Computing Breakthrough of 2026", "psst": 76, "impact": 7.0, "probability": 7.5, "urgency": 6.5, "category": "T"},
+    {"rank": 25, "id": "wf1-20260216-006", "title": "NIST Awards $3.19M for Quantum, Semiconductor, and Biotech R&D", "psst": 74, "impact": 6.5, "probability": 9.0, "urgency": 6.0, "category": "T"}
+  ]
+}

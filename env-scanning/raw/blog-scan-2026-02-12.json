@@ -1,0 +1,2921 @@
+{
+  "agent_metadata": {
+    "agent_name": "blog-agent",
+    "model_used": "haiku",
+    "articles_collected": 101,
+    "sources_scanned": 10,
+    "scan_date": "2026-02-12",
+    "status": "success",
+    "execution_time": 7.53,
+    "process_id": 72038
+  },
+  "items": [
+    {
+      "id": "techcrunch-6778a9c4fc1b",
+      "title": "xAI lays out interplanetary ambitions in public all-hands",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "xAI lays out interplanetary ambitions in public all-hands",
+        "keywords": [
+          "ai",
+          "elon musk",
+          "xai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Russell Brandom"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164250"
+    },
+    {
+      "id": "techcrunch-e7dcf295fc8d",
+      "title": "AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say",
+        "keywords": [
+          "ai",
+          "enterprise",
+          "startups",
+          "exclusive",
+          "general catalyst",
+          "inference",
+          "modal labs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Marina Temkin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164279"
+    },
+    {
+      "id": "techcrunch-986418e2d5bb",
+      "title": "OpenAI disbands mission alignment team, which focused on ‘safe’ and ‘trustworthy’ AI development",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "OpenAI disbands mission alignment team, which focused on ‘safe’ and ‘trustworthy’ AI development",
+        "keywords": [
+          "ai",
+          "ai safety",
+          "chatgpt",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lucas Ropek"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164300"
+    },
+    {
+      "id": "techcrunch-534c9aea7b16",
+      "title": "Apple’s Siri revamp reportedly delayed… again",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Apple’s Siri revamp reportedly delayed… again",
+        "keywords": [
+          "ai",
+          "apple",
+          "in brief",
+          "siri"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Amanda Silberling"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164316"
+    },
+    {
+      "id": "techcrunch-0851e76eed60",
+      "title": "Uber Eats launches AI assistant to help with grocery cart creation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Uber Eats launches AI assistant to help with grocery cart creation",
+        "keywords": [
+          "ai",
+          "apps",
+          "ai chatbot",
+          "food delivery",
+          "uber eats"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lauren Forristal"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164331"
+    },
+    {
+      "id": "techcrunch-636873458307",
+      "title": "Who will own your company’s AI layer? Glean’s CEO explains",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/video/who-will-own-your-companys-ai-layer-gleans-ceo-explains/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Who will own your company’s AI layer? Glean’s CEO explains",
+        "keywords": [
+          "ai",
+          "startups",
+          "ai agents",
+          "ai consolidation",
+          "arvind jain",
+          "equity video",
+          "glean",
+          "web summit qatar"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Theresa Loconsolo"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164347"
+    },
+    {
+      "id": "techcrunch-e07349983ab3",
+      "title": "Elon Musk suggests spate of xAI exits have been push, not pull",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/senior-engineers-including-co-founders-exit-xai-amid-controversy/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Elon Musk suggests spate of xAI exits have been push, not pull",
+        "keywords": [
+          "ai",
+          "elon musk",
+          "exclusive",
+          "x",
+          "xai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Bellan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164360"
+    },
+    {
+      "id": "techcrunch-71a00b6f9638",
+      "title": "Microsoft says hackers are exploiting critical zero-day bugs to target Windows and Office users",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/microsoft-says-hackers-are-exploiting-critical-zero-day-bugs-to-target-windows-and-office-users/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Microsoft says hackers are exploiting critical zero-day bugs to target Windows and Office users",
+        "keywords": [
+          "security",
+          "cybersecurity",
+          "macos",
+          "microsoft",
+          "microsoft office",
+          "windows",
+          "zero-day"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Zack Whittaker"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164376"
+    },
+    {
+      "id": "techcrunch-ac4623ad4210",
+      "title": "How to get into a16z’s super-competitive Speedrun startup accelerator program",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/how-to-get-into-a16zs-super-competitive-speedrun-startup-accelerator-program/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "How to get into a16z’s super-competitive Speedrun startup accelerator program",
+        "keywords": [
+          "startups",
+          "venture",
+          "a16z",
+          "speedrun"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Dominic-Madori Davis"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164390"
+    },
+    {
+      "id": "techcrunch-1ad4453e5dbd",
+      "title": "Cash App adds payment links so you can get paid in a DM",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/cash-app-adds-payment-links-so-you-can-get-paid-in-a-dm/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Cash App adds payment links so you can get paid in a DM",
+        "keywords": [
+          "fintech",
+          "cash app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lucas Ropek"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164401"
+    },
+    {
+      "id": "techcrunch-8e63a5436117",
+      "title": "Amazon’s new eero Signal keeps you connected to the internet when outages occur",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/amazons-new-eero-signal-keeps-you-connected-to-the-internet-when-outages-occur/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Amazon’s new eero Signal keeps you connected to the internet when outages occur",
+        "keywords": [
+          "hardware",
+          "tc",
+          "4g device",
+          "amazon",
+          "eero",
+          "in brief"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164416"
+    },
+    {
+      "id": "techcrunch-66c2c2727bb0",
+      "title": "The search is on: 2026 Joseph C. Belden Innovation Award nominations are open",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/the-search-is-on-2026-joseph-c-belden-innovation-award-nominations-are-open/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The search is on: 2026 Joseph C. Belden Innovation Award nominations are open",
+        "keywords": [
+          "startups",
+          "joseph belden"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "TechCrunch Events"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164427"
+    },
+    {
+      "id": "techcrunch-6a3d3e099652",
+      "title": "Activist investor Ancora publicly opposes the WBD-Netflix deal",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/activist-investor-ancora-publicly-opposes-the-wbd-netflix-deal/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Activist investor Ancora publicly opposes the WBD-Netflix deal",
+        "keywords": [
+          "media & entertainment",
+          "netflix",
+          "paramount",
+          "mergers and acquisitions",
+          "warner bros discovery",
+          "in brief"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lauren Forristal"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164441"
+    },
+    {
+      "id": "techcrunch-e3871514cfca",
+      "title": "DOJ says Trenchant boss sold exploits to Russian broker capable of accessing ‘millions of computers and devices’",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/doj-says-trenchant-boss-sold-exploits-to-russian-broker-capable-of-accessing-millions-of-computers-and-devices/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "DOJ says Trenchant boss sold exploits to Russian broker capable of accessing ‘millions of computers and devices’",
+        "keywords": [
+          "security",
+          "cybersecurity",
+          "exclusive",
+          "infosec",
+          "l3harris",
+          "operation zero",
+          "peter williams",
+          "russia",
+          "trenchant",
+          "u.s. department of justice"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lorenzo Franceschi-Bicchierai"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164460"
+    },
+    {
+      "id": "techcrunch-638a2c6e4cd1",
+      "title": "Why the economics of orbital AI are so brutal",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/why-the-economics-of-orbital-ai-are-so-brutal/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Why the economics of orbital AI are so brutal",
+        "keywords": [
+          "ai",
+          "space",
+          "data center",
+          "google",
+          "project suncatcher",
+          "spacex",
+          "starcloud",
+          "starlink",
+          "xai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Tim Fernholz"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164474"
+    },
+    {
+      "id": "techcrunch-32b74a41ea28",
+      "title": "Threads’ new ‘Dear Algo’ AI feature lets you personalize your feed",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/threads-new-dear-algo-ai-feature-lets-you-personalize-your-feed/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Threads’ new ‘Dear Algo’ AI feature lets you personalize your feed",
+        "keywords": [
+          "ai",
+          "apps",
+          "social",
+          "algorithms",
+          "meta",
+          "social media",
+          "threads"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164489"
+    },
+    {
+      "id": "techcrunch-fe917ec00f91",
+      "title": "Google releases the first beta of Android 17, adopts a continuous developer release plan",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/google-releases-the-first-beta-of-android-17-adopts-a-continous-developer-release-plan/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Google releases the first beta of Android 17, adopts a continuous developer release plan",
+        "keywords": [
+          "apps",
+          "android",
+          "google",
+          "software updates"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Ivan Mehta"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164501"
+    },
+    {
+      "id": "techcrunch-3488e735ebe5",
+      "title": "How AI changes the math for startups, according to a Microsoft VP",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/how-ai-changes-the-math-for-startups-according-to-a-microsoft-vp/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "How AI changes the math for startups, according to a Microsoft VP",
+        "keywords": [
+          "ai",
+          "exclusive",
+          "interview",
+          "microsoft",
+          "microsoft foundry"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Russell Brandom"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164513"
+    },
+    {
+      "id": "techcrunch-7c6a4872b305",
+      "title": "UpScrolled’s social network is struggling to moderate hate speech after fast growth",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/upscrolleds-social-network-is-struggling-to-moderate-hate-speech-after-fast-growth/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "UpScrolled’s social network is struggling to moderate hate speech after fast growth",
+        "keywords": [
+          "apps",
+          "social",
+          "startups",
+          "social media",
+          "upscrolled"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164527"
+    },
+    {
+      "id": "techcrunch-becf53396d0c",
+      "title": "Twilio co-founder’s fusion power startup raises $450M from Bessemer and Alphabet’s GV",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/twilio-co-founders-fusion-power-startup-raises-450m-from-bessemer-and-alphabets-gv/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Twilio co-founder’s fusion power startup raises $450M from Bessemer and Alphabet’s GV",
+        "keywords": [
+          "climate",
+          "fundraising",
+          "startups",
+          "bessemer venture partners",
+          "fusion",
+          "fusion power",
+          "gv",
+          "inertia enterprises",
+          "nuclear fusion",
+          "threshold ventures"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Tim De Chant"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.164544"
+    },
+    {
+      "id": "mit-technology-review-26db947a58b2",
+      "title": "Is a secure AI assistant possible?",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That might explain why the&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "ai",
+          "app",
+          "summary"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Grace Huckins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367116"
+    },
+    {
+      "id": "mit-technology-review-6d9fbd1257af",
+      "title": "The Download: inside the QuitGPT movement, and EVs in Africa",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/11/1132724/the-download-inside-the-quitgpt-movement-and-evs-in-africa/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions In September, Alfred Stephen, a freelance software developer in Singapore, purchased a ChatGPT Plus subscription, which costs $20 a month and offers&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367152"
+    },
+    {
+      "id": "mit-technology-review-180dae038de1",
+      "title": "EVs could be cheaper to own than gas cars in Africa by 2040",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/11/1132714/evs-africa-cost/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Electric vehicles could be economically competitive in Africa sooner than expected. Just 1% of new cars sold across the continent in 2025 were electric, but a new analysis finds that with solar off-grid charging, EVs could be cheaper to own than gas vehicles by 2040. There are major barriers to higher EV uptake in many&#8230;",
+        "keywords": [
+          "climate change and energy",
+          "app",
+          "electric vehicles",
+          "why it matters"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Casey Crownhart"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367181"
+    },
+    {
+      "id": "mit-technology-review-5f5ee2c27862",
+      "title": "A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/10/1132577/a-quitgpt-campaign-is-urging-people-to-cancel-chatgpt-subscriptions/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "In September, Alfred Stephen, a freelance software developer in Singapore, purchased a ChatGPT Plus subscription, which costs $20 a month and offers more access to advanced models, to speed up his work. But he grew frustrated with the chatbot’s coding abilities and its gushing, meandering replies. Then he came across a post on Reddit about&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Michelle Kim"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367210"
+    },
+    {
+      "id": "mit-technology-review-84d4fd17d797",
+      "title": "The Download: Making AI Work, and why the Moltbook hype is similar to Pokémon",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/10/1132608/the-download-making-ai-work-and-why-the-moltbook-hype-is-similar-to-pokemon/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A first look at Making AI Work, MIT Technology Review’s new AI newsletter Are you interested in learning more about the ways in which AI is actually being used? We’ve launched a new&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367237"
+    },
+    {
+      "id": "mit-technology-review-e3e028d7e82f",
+      "title": "Why the Moltbook frenzy was like Pokémon",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/09/1132537/a-lesson-from-pokemon/",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Lots of influential people in tech last week were describing Moltbook, an online hangout populated by AI agents interacting with one another, as a glimpse into the future. It appeared to show&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "artificial intelligence",
+          "the algorithm"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "James O'Donnell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367267"
+    },
+    {
+      "id": "mit-technology-review-323950acb74d",
+      "title": "The Download: what Moltbook tells us about AI hype, and the rise and rise of AI therapy",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/09/1132498/the-download-what-moltbook-tells-us-about-ai-hype-and-the-rise-and-rise-of-ai-therapy/",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Moltbook was peak AI theater For a few days recently, the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots.&#8230;",
+        "keywords": [
+          "uncategorized"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367294"
+    },
+    {
+      "id": "mit-technology-review-d7ce15dc6361",
+      "title": "Making AI Work, MIT Technology Review’s new AI newsletter, is here",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "For years, our newsroom has explored AI’s limitations and potential dangers, as well as its growing energy needs. And our reporters have looked closely at how generative tools are being used for tasks such as coding and running scientific experiments.&#160; But how is AI actually being used in fields like health care, climate tech, education,&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "artificial intelligence"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Abby Ivory-Ganja"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367321"
+    },
+    {
+      "id": "mit-technology-review-63da4d4a8711",
+      "title": "Moltbook was peak AI theater",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on January 28 by Matt Schlicht,&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Will Douglas Heaven"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367346"
+    },
+    {
+      "id": "mit-technology-review-67b0afac986b",
+      "title": "The Download: helping cancer survivors to give birth, and cleaning up Bangladesh’s garment industry",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An experimental surgery is helping cancer survivors give birth An experimental surgical procedure that’s helping people have babies after they’ve had treatment for bowel or rectal cancer. Radiation and chemo can have pretty&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:55:59.367372"
+    },
+    {
+      "id": "pew-research-center-8af540104ee9",
+      "title": "Video: How do polls work when no one answers the phone anymore?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/methods/2026/02/11/video-how-do-polls-work-when-no-one-answers-the-phone-anymore/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Video: How do polls work when no one answers the phone anymore?",
+        "keywords": [
+          "survey methods"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Sara Atske"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242351"
+    },
+    {
+      "id": "pew-research-center-d48115cc1d05",
+      "title": "Methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/methodology-role-of-news-consumers/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Methodology",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242370"
+    },
+    {
+      "id": "pew-research-center-1a9072b8ad9b",
+      "title": "Acknowledgments",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/acknowledgments-role-of-news-consumers/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Acknowledgments",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242385"
+    },
+    {
+      "id": "pew-research-center-e0515539091f",
+      "title": "Why Americans think news habits are changing, in their own words",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/why-americans-think-news-habits-are-changing-in-their-own-words/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Why Americans think news habits are changing, in their own words",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242399"
+    },
+    {
+      "id": "pew-research-center-772b3a4e1728",
+      "title": "Few say Americans have a responsibility to pay for news",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/few-say-americans-have-a-responsibility-to-pay-for-news/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Few say Americans have a responsibility to pay for news",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242412"
+    },
+    {
+      "id": "pew-research-center-4e7d7fdfe7cb",
+      "title": "Why Americans discuss the news – or don’t – with others",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/why-americans-discuss-the-news-or-dont-with-others/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Why Americans discuss the news – or don’t – with others",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242427"
+    },
+    {
+      "id": "pew-research-center-09225e039ffd",
+      "title": "Who should make sure people know how to verify news, according to Americans?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/who-should-make-sure-people-know-how-to-verify-news-according-to-americans/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Who should make sure people know how to verify news, according to Americans?",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242441"
+    },
+    {
+      "id": "pew-research-center-3dd5eb70463a",
+      "title": "What does it mean to ‘do your own research,’ and how often do Americans do it?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/what-does-it-mean-to-do-your-own-research-and-how-often-do-americans-do-it/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "What does it mean to ‘do your own research,’ and how often do Americans do it?",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242457"
+    },
+    {
+      "id": "pew-research-center-ec428205c15f",
+      "title": "The age divide in how Americans think about news",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/the-age-divide-in-how-americans-think-about-news/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The age divide in how Americans think about news",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242471"
+    },
+    {
+      "id": "pew-research-center-c6cf3567f03e",
+      "title": "Americans’ Complicated Relationship With News",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Americans’ Complicated Relationship With News",
+        "keywords": [
+          "facts & fact checking",
+          "media attitudes",
+          "news habits & media",
+          "trust in media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242485"
+    },
+    {
+      "id": "pew-research-center-5c60db7bab5d",
+      "title": "Errata: Comparing Levels of Religious Nationalism Around the World",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/2026/02/06/errata-comparing-levels-of-religious-nationalism-around-the-world/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Errata: Comparing Levels of Religious Nationalism Around the World",
+        "keywords": [
+          "errata:",
+          "comparing",
+          "levels",
+          "religious",
+          "nationalism",
+          "around",
+          "world",
+          "errata:",
+          "comparing",
+          "levels"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242502"
+    },
+    {
+      "id": "pew-research-center-a43f5efa3bb3",
+      "title": "Errata: Many around the globe say it’s important their leader stands up for people’s religious beliefs",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/2026/02/06/errata-many-around-the-globe-say-its-important-their-leader-stands-up-for-peoples-religious-beliefs/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Errata: Many around the globe say it’s important their leader stands up for people’s religious beliefs",
+        "keywords": [
+          "errata:",
+          "many",
+          "around",
+          "globe",
+          "it’s",
+          "important",
+          "their",
+          "leader",
+          "stands",
+          "people’s"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242524"
+    },
+    {
+      "id": "pew-research-center-1066ef1b1de8",
+      "title": "Errata: Many Religious ‘Nones’ Around the World Hold Spiritual Beliefs",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/2026/02/06/errata-many-religious-nones-around-the-world-hold-spiritual-beliefs/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Errata: Many Religious ‘Nones’ Around the World Hold Spiritual Beliefs",
+        "keywords": [
+          "errata:",
+          "many",
+          "religious",
+          "‘nones’",
+          "around",
+          "world",
+          "hold",
+          "spiritual",
+          "beliefs",
+          "errata:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:04.242540"
+    },
+    {
+      "id": "hacker-news-7d0d0875dad2",
+      "title": "Discord/Twitch/Snapchat age verification bypass",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://age-verifier.kibty.town/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Discord/Twitch/Snapchat age verification bypass",
+        "keywords": [
+          "discord/twitch/snapchat",
+          "verification",
+          "bypass",
+          "discord/twitch/snapchat",
+          "verification",
+          "bypass"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "JustSkyfall"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311740"
+    },
+    {
+      "id": "hacker-news-534c9aea7b16",
+      "title": "Apple's Siri revamp reportedly delayed again",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Apple's Siri revamp reportedly delayed again",
+        "keywords": [
+          "apple's",
+          "siri",
+          "revamp",
+          "reportedly",
+          "delayed",
+          "again",
+          "apple's",
+          "siri",
+          "revamp",
+          "reportedly"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "salkahfi"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311767"
+    },
+    {
+      "id": "hacker-news-bbe71cb823a0",
+      "title": "Q&A: New UK onshore wind and solar is '50% cheaper' than new gas",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/qa-new-uk-onshore-wind-and-solar-is-50-cheaper-than-new-gas/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Q&A: New UK onshore wind and solar is '50% cheaper' than new gas",
+        "keywords": [
+          "q&a:",
+          "onshore",
+          "wind",
+          "solar",
+          "'50%",
+          "cheaper'",
+          "than",
+          "q&a:",
+          "onshore",
+          "wind"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "DamonHD"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311791"
+    },
+    {
+      "id": "hacker-news-6c43ca63c73f",
+      "title": "US labels SpaceX a common carrier by air, will regulate firm under railway law",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/02/victory-for-elon-musk-us-labor-board-abandons-authority-over-spacex/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "US labels SpaceX a common carrier by air, will regulate firm under railway law",
+        "keywords": [
+          "labels",
+          "spacex",
+          "common",
+          "carrier",
+          "air,",
+          "will",
+          "regulate",
+          "firm",
+          "under",
+          "railway"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "Bender"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311814"
+    },
+    {
+      "id": "hacker-news-0c0fa02d90b6",
+      "title": "Show HN: Agent Alcove – Claude, GPT, and Gemini debate across forums",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://agentalcove.ai",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Show HN: Agent Alcove – Claude, GPT, and Gemini debate across forums",
+        "keywords": [
+          "show",
+          "agent",
+          "alcove",
+          "claude,",
+          "gpt,",
+          "gemini",
+          "debate",
+          "across",
+          "forums",
+          "show"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "nickvec"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311839"
+    },
+    {
+      "id": "hacker-news-c2ec969869e4",
+      "title": "Microwave Oven Failure: Spontaneously turned on by its LED display (2024)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blog.stuffedcow.net/2024/06/microwave-failure-spontaneously-turns-on/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Microwave Oven Failure: Spontaneously turned on by its LED display (2024)",
+        "keywords": [
+          "microwave",
+          "oven",
+          "failure:",
+          "spontaneously",
+          "turned",
+          "display",
+          "(2024)",
+          "microwave",
+          "oven",
+          "failure:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "arm"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311860"
+    },
+    {
+      "id": "hacker-news-f17323b3c9ea",
+      "title": "Paragon accidentally uploaded a photo of its spyware control panel",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://twitter.com/DrWhax/status/2021608609595945442",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Paragon accidentally uploaded a photo of its spyware control panel",
+        "keywords": [
+          "paragon",
+          "accidentally",
+          "uploaded",
+          "photo",
+          "spyware",
+          "control",
+          "panel",
+          "paragon",
+          "accidentally",
+          "uploaded"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "CGMthrowaway"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311880"
+    },
+    {
+      "id": "hacker-news-7c8035bc23a8",
+      "title": "Show HN: Agent framework that generates its own topology and evolves at runtime",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/adenhq/hive/blob/main/README.md",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Show HN: Agent framework that generates its own topology and evolves at runtime",
+        "keywords": [
+          "show",
+          "agent",
+          "framework",
+          "that",
+          "generates",
+          "topology",
+          "evolves",
+          "runtime",
+          "show",
+          "agent"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "vincentjiang"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311899"
+    },
+    {
+      "id": "hacker-news-7ab23b198164",
+      "title": "iOS 26.3 and macOS 26.3 Fix Dozens of Vulnerabilities, Including Zero-Day",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.macrumors.com/2026/02/11/ios-26-3-security-vulnerabilities/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "iOS 26.3 and macOS 26.3 Fix Dozens of Vulnerabilities, Including Zero-Day",
+        "keywords": [
+          "26.3",
+          "macos",
+          "26.3",
+          "dozens",
+          "vulnerabilities,",
+          "including",
+          "zero-day",
+          "26.3",
+          "macos",
+          "26.3"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "akyuu"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311918"
+    },
+    {
+      "id": "hacker-news-b19b9eac4f61",
+      "title": "Components will kill pages",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://bitsandbytes.dev/posts/components-will-kill-pages",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Components will kill pages",
+        "keywords": [
+          "components",
+          "will",
+          "kill",
+          "pages",
+          "components",
+          "will",
+          "kill",
+          "pages"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "cmsparks"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311935"
+    },
+    {
+      "id": "hacker-news-bf188506eaf2",
+      "title": "The risk of a hothouse Earth trajectory",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.cell.com/one-earth/fulltext/S2590-3322%2825%2900391-4",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The risk of a hothouse Earth trajectory",
+        "keywords": [
+          "risk",
+          "hothouse",
+          "earth",
+          "trajectory",
+          "risk",
+          "hothouse",
+          "earth",
+          "trajectory"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "Archelaos"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311952"
+    },
+    {
+      "id": "hacker-news-8243cff3ddb4",
+      "title": "Amazon Ring's lost dog ad sparks backlash amid fears of mass surveillance",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.theverge.com/tech/876866/ring-search-party-super-bowl-ad-online-backlash",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Amazon Ring's lost dog ad sparks backlash amid fears of mass surveillance",
+        "keywords": [
+          "amazon",
+          "ring's",
+          "lost",
+          "sparks",
+          "backlash",
+          "amid",
+          "fears",
+          "mass",
+          "surveillance",
+          "amazon"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "jedberg"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311970"
+    },
+    {
+      "id": "hacker-news-a95801d11e35",
+      "title": "Claude Code is being dumbed down?",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Claude Code is being dumbed down?",
+        "keywords": [
+          "claude",
+          "code",
+          "being",
+          "dumbed",
+          "down?",
+          "claude",
+          "code",
+          "being",
+          "dumbed",
+          "down?"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "WXLCKNO"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.311988"
+    },
+    {
+      "id": "hacker-news-262670ebf398",
+      "title": "NetNewsWire Turns 23",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://netnewswire.blog/2026/02/11/netnewswire-turns.html",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "NetNewsWire Turns 23",
+        "keywords": [
+          "netnewswire",
+          "turns",
+          "netnewswire",
+          "turns"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "robin_reala"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312003"
+    },
+    {
+      "id": "hacker-news-a5df606f38fa",
+      "title": "Should your developer company go open source?",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://extremefoundership.substack.com/p/should-your-developer-company-go",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Should your developer company go open source?",
+        "keywords": [
+          "should",
+          "your",
+          "developer",
+          "company",
+          "open",
+          "source?",
+          "should",
+          "your",
+          "developer",
+          "company"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "paraphrenia"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312021"
+    },
+    {
+      "id": "hacker-news-7f6c18d112d5",
+      "title": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://z.ai/blog/glm-5",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "GLM-5: From Vibe Coding to Agentic Engineering",
+        "keywords": [
+          "glm-5:",
+          "from",
+          "vibe",
+          "coding",
+          "agentic",
+          "engineering",
+          "glm-5:",
+          "from",
+          "vibe",
+          "coding"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "meetpateltech"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312038"
+    },
+    {
+      "id": "hacker-news-39a4607200d2",
+      "title": "Fluorite – A console-grade game engine fully integrated with Flutter",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://fluorite.game/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Fluorite – A console-grade game engine fully integrated with Flutter",
+        "keywords": [
+          "fluorite",
+          "console-grade",
+          "game",
+          "engine",
+          "fully",
+          "integrated",
+          "flutter",
+          "fluorite",
+          "console-grade",
+          "game"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "bsimpson"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312060"
+    },
+    {
+      "id": "hacker-news-efb84102d9e6",
+      "title": "Why vampires live forever",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://machielreyneke.com/blog/vampires-longevity/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Why vampires live forever",
+        "keywords": [
+          "vampires",
+          "live",
+          "forever",
+          "vampires",
+          "live",
+          "forever"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "machielrey"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312083"
+    },
+    {
+      "id": "hacker-news-4b4a6b2da609",
+      "title": "Exposure Simulator",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "http://www.andersenimages.com/tutorials/exposure-simulator/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Exposure Simulator",
+        "keywords": [
+          "exposure",
+          "simulator",
+          "exposure",
+          "simulator"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "sneela"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312100"
+    },
+    {
+      "id": "hacker-news-34341afccbdb",
+      "title": "Officials Claim Drone Incursion Led to Shutdown of El Paso Airport",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.nytimes.com/2026/02/11/us/faa-el-paso-flight-restrictions.html",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Officials Claim Drone Incursion Led to Shutdown of El Paso Airport",
+        "keywords": [
+          "officials",
+          "claim",
+          "drone",
+          "incursion",
+          "shutdown",
+          "paso",
+          "airport",
+          "officials",
+          "claim",
+          "drone"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "edward"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.312118"
+    },
+    {
+      "id": "wired-05b590528fc2",
+      "title": "Study of Buddhist Monks Finds Meditation Alters Brain Activity",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/study-of-buddhist-monks-finds-meditation-alters-brain-activity/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Study of Buddhist Monks Finds Meditation Alters Brain Activity",
+        "keywords": [
+          "science",
+          "science / psychology and neuroscience",
+          "neuroscience",
+          "brains and behavior",
+          "mental health",
+          "psychology",
+          "research",
+          "thought experiment"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Javier Carbajal"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372147"
+    },
+    {
+      "id": "wired-9c5b0c0fe451",
+      "title": "‘Heated Rivalry’ Is Bringing New Fans to Hockey. Does the Sport Deserve Them?",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/winter-olympics-heated-rivalry-effect-lgbtq-inclusivity/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "‘Heated Rivalry’ Is Bringing New Fans to Hockey. Does the Sport Deserve Them?",
+        "keywords": [
+          "culture",
+          "tv",
+          "books",
+          "digital culture",
+          "hbo",
+          "2026 winter olympics",
+          "video games",
+          "iced out"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Manisha Krishnan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372172"
+    },
+    {
+      "id": "wired-a09cca0cd0f1",
+      "title": "ICE Is Crashing the US Court System in Minnesota",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/ice-crashing-us-court-system-minnesota/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "ICE Is Crashing the US Court System in Minnesota",
+        "keywords": [
+          "security",
+          "security / national security",
+          "security / security news",
+          "politics / policy",
+          "immigration and customs enforcement",
+          "immigration",
+          "courts",
+          "politics",
+          "policy",
+          "law"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Maddy Varner"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372195"
+    },
+    {
+      "id": "wired-a36d00eea23f",
+      "title": "The ICE Expansion Won’t Happen in the Dark",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/ice-expansion-wont-happen-in-the-dark/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The ICE Expansion Won’t Happen in the Dark",
+        "keywords": [
+          "politics",
+          "politics / politics news",
+          "inner loop",
+          "politics",
+          "immigration and customs enforcement",
+          "department of homeland security",
+          "donald trump",
+          "cities",
+          "government"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Brian Barrett"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372214"
+    },
+    {
+      "id": "wired-185da156f6c8",
+      "title": "I Loved My OpenClaw AI Agent—Until It Turned on Me",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "I Loved My OpenClaw AI Agent—Until It Turned on Me",
+        "keywords": [
+          "business",
+          "business / artificial intelligence",
+          "ai lab",
+          "artificial intelligence",
+          "models",
+          "silicon valley",
+          "openai",
+          "anthropic"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Will Knight"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372232"
+    },
+    {
+      "id": "wired-12d037e102dd",
+      "title": "Jeffrey Epstein Advised an Elon Musk Associate on Taking Tesla Private",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/jeffrey-epstein-advised-an-elon-musk-associate-on-taking-tesla-private/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Jeffrey Epstein Advised an Elon Musk Associate on Taking Tesla Private",
+        "keywords": [
+          "business",
+          "business / big tech",
+          "elon musk",
+          "tesla",
+          "jeffrey epstein",
+          "department of justice",
+          "finance",
+          "private eye"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Miles Klee"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372249"
+    },
+    {
+      "id": "wired-fd105b62b9d5",
+      "title": "Our Favorite Upgraded Power Bank Is $30 Off",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/anker-laptop-power-bank-deal-226/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Our Favorite Upgraded Power Bank Is $30 Off",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "gear / products",
+          "buying guides",
+          "accessories and peripherals",
+          "travel",
+          "shopping",
+          "deals",
+          "deal of the day"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Brad Bourque"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372265"
+    },
+    {
+      "id": "wired-5f26749c6344",
+      "title": "CBP Signs Clearview AI Deal to Use Face Recognition for ‘Tactical Targeting’",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "CBP Signs Clearview AI Deal to Use Face Recognition for ‘Tactical Targeting’",
+        "keywords": [
+          "security",
+          "security / national security",
+          "security / privacy",
+          "security / security news",
+          "department of homeland security",
+          "immigration",
+          "immigration and customs enforcement",
+          "artificial intelligence",
+          "machine learning",
+          "privacy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Dell Cameron"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372289"
+    },
+    {
+      "id": "wired-3ae9ffb61b1a",
+      "title": "How to Set Up an Apple Watch for Your Kids (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/how-to-set-up-apple-watch-for-kids/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "How to Set Up an Apple Watch for Your Kids (2026)",
+        "keywords": [
+          "gear",
+          "gear / how to and advice",
+          "how-to",
+          "iphone",
+          "kids",
+          "education",
+          "apple watch",
+          "tips",
+          "shopping",
+          "parenting"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Adrienne So"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372307"
+    },
+    {
+      "id": "wired-8582cbfb07ea",
+      "title": "9 Best Cheap Laptops (2026), Tested and Reviewed",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/gallery/best-cheap-laptops/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "9 Best Cheap Laptops (2026), Tested and Reviewed",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / computers",
+          "shopping",
+          "laptops",
+          "notebooks",
+          "buying guides",
+          "computers",
+          "pcs",
+          "chromebooks"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Luke Larsen"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372328"
+    },
+    {
+      "id": "wired-04ae403605e5",
+      "title": "Razer Huntsman V3 Pro 8KHz Review: A Keyboard for the Competitive",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/review/razer-huntsman-v3-pro-8khz/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Razer Huntsman V3 Pro 8KHz Review: A Keyboard for the Competitive",
+        "keywords": [
+          "gear",
+          "gear / reviews",
+          "gear / products / gaming",
+          "gear / products / home office",
+          "shopping",
+          "reviews",
+          "review",
+          "mechanical keyboards",
+          "keyboards",
+          "accessories and peripherals"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Henri Robbins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372348"
+    },
+    {
+      "id": "wired-5c6a19ef94eb",
+      "title": "Jessie Diggins’ Starter Pack: Winter Olympics 2026",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/cross-country-skier-jessie-digginss-winter-olympic-starter-pack/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Jessie Diggins’ Starter Pack: Winter Olympics 2026",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / outdoor",
+          "gear / products / lifestyle",
+          "starter pack",
+          "gear",
+          "2026 winter olympics",
+          "olympics",
+          "sports",
+          "shopping"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Boutayna Chokrane"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372367"
+    },
+    {
+      "id": "wired-d9f3bab4e861",
+      "title": "Wacom MovinkPad 11 Tablet Review: A Portable Sketch Pad",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/review/wacom-movinkpad-11/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Wacom MovinkPad 11 Tablet Review: A Portable Sketch Pad",
+        "keywords": [
+          "gear",
+          "gear / reviews",
+          "gear / products / tablets",
+          "tablets",
+          "android",
+          "shopping",
+          "review",
+          "reviews",
+          "product review"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Scott Gilbertson"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372385"
+    },
+    {
+      "id": "wired-472084701199",
+      "title": "AI Industry Rivals Are Teaming Up on a Startup Accelerator",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/ai-industry-rivals-are-teaming-up-on-a-startup-accelerator/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "AI Industry Rivals Are Teaming Up on a Startup Accelerator",
+        "keywords": [
+          "business",
+          "business / artificial intelligence",
+          "artificial intelligence",
+          "startups",
+          "google",
+          "microsoft",
+          "openai",
+          "anthropic",
+          "france",
+          "mon dieu"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Joel Khalili"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372404"
+    },
+    {
+      "id": "wired-9fbc23bd33b0",
+      "title": "Mazzer Philos Review (2026): Sweet, Zero-Retention Grinds",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/review/mazzer-philos-coffee-grinder/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Mazzer Philos Review (2026): Sweet, Zero-Retention Grinds",
+        "keywords": [
+          "gear",
+          "gear / reviews",
+          "gear / products / home",
+          "gear / products / kitchen",
+          "kitchen",
+          "food and drink",
+          "review",
+          "reviews",
+          "coffee",
+          "what a grind"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Matthew Korfhage"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.372420"
+    },
+    {
+      "id": "ars-technica-2ececd983c47",
+      "title": "Once-hobbled Lumma Stealer is back with lures that are hard to resist",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "ClickFix bait, combined with advanced Castleloader malware, is installing Lumma \"at scale.\"",
+        "keywords": [
+          "biz & it",
+          "security",
+          "castleloader",
+          "clickfix",
+          "infostealer",
+          "lumma",
+          "malware"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Dan Goodin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443371"
+    },
+    {
+      "id": "ars-technica-b55ec78daa7c",
+      "title": "Byte magazine artist Robert Tinney, who illustrated the birth of PCs, dies at 78",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/02/byte-magazine-artist-robert-tinney-who-illustrated-the-birth-of-pcs-dies-at-78/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "He became one of the first to visualize personal computing by painting vivid cover art.",
+        "keywords": [
+          "tech",
+          "art",
+          "byte magazine",
+          "computer history",
+          "illustration",
+          "magazines",
+          "media",
+          "obituaries",
+          "obituary",
+          "personal computing"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Benj Edwards"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443419"
+    },
+    {
+      "id": "ars-technica-f24736c5ca5b",
+      "title": "Yes, Rocket Lab is blowing up engines. No, it's not a big deal, CEO says.",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/02/yes-rocket-lab-is-blowing-up-engines-no-its-not-a-big-deal-ceo-says/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "\"We are in the part of the program where we are doing very nasty things to the engine.\"",
+        "keywords": [
+          "space",
+          "archimedes",
+          "engine test anomaly",
+          "neutron",
+          "rocket",
+          "rocket lab",
+          "space"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Eric Berger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443453"
+    },
+    {
+      "id": "ars-technica-5101ff5b9bbe",
+      "title": "Did seabird poop fuel rise of Chincha in Peru?",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/02/did-seabird-poop-fuel-rise-of-chincha-in-peru/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Guano dramatically boosted the production of maize, and the surplus helped fuel the Chincha Kingdom’s economy.",
+        "keywords": [
+          "science",
+          "archaelogy",
+          "chincha kingdom",
+          "ecology",
+          "guano"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jennifer Ouellette"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443486"
+    },
+    {
+      "id": "ars-technica-9d545a760f9c",
+      "title": "OpenAI researcher quits over ChatGPT ads, warns of \"Facebook\" path",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Zoë Hitzig resigned on the same day OpenAI began testing ads in its chatbot.",
+        "keywords": [
+          "ai",
+          "biz & it",
+          "advertising",
+          "ai behavior",
+          "ai ethics",
+          "ai sycophancy",
+          "anthropic",
+          "chatbots",
+          "chatgpt",
+          "generative ai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Benj Edwards"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443528"
+    },
+    {
+      "id": "ars-technica-e073fd4fda69",
+      "title": "\"Windows 11 26H1\" is a special version of Windows exclusively for new Arm PCs",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/02/windows-11-26h1-is-a-special-version-of-windows-exclusively-for-new-arm-pcs/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Arm PCs have enjoyed special treatment from Microsoft for the past two years.",
+        "keywords": [
+          "tech",
+          "windows 11",
+          "windows 11 24h2",
+          "windows 11 25h2",
+          "windows 11 26h1"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Andrew Cunningham"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443557"
+    },
+    {
+      "id": "ars-technica-ca4abc5f3c38",
+      "title": "Google recovers \"deleted\" Nest video in high-profile abduction case",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/google/2026/02/google-recovers-deleted-nest-video-in-high-profile-abduction-case/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Users only get three hours of free Nest video storage, but Google can retrieve videos much later.",
+        "keywords": [
+          "google",
+          "tech",
+          "google",
+          "nest",
+          "privacy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Ryan Whitwam"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443586"
+    },
+    {
+      "id": "ars-technica-6c43ca63c73f",
+      "title": "US decides SpaceX is like an airline, exempting it from Labor Relations Act",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/02/victory-for-elon-musk-us-labor-board-abandons-authority-over-spacex/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "US labels SpaceX a common carrier by air, will regulate firm under railway law.",
+        "keywords": [
+          "policy",
+          "nlrb",
+          "spacex"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jon Brodkin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443611"
+    },
+    {
+      "id": "ars-technica-348509b041a5",
+      "title": "Apple releases iOS 26.3 with updates that mainly benefit non-Apple devices",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/02/apple-releases-ios-26-3-with-updates-that-mainly-benefit-non-apple-devices/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "It's getting a little easier to move from iOS to Android, if that's your thing.",
+        "keywords": [
+          "apple",
+          "tech",
+          "apple",
+          "ios 26",
+          "ipados 26",
+          "macos 26 tahoe",
+          "watchos 26"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Andrew Cunningham"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443641"
+    },
+    {
+      "id": "ars-technica-6f0cfda95955",
+      "title": "China showcases new Moon ship and reusable rocket in one extraordinary test",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/02/china-showcases-new-moon-ship-and-reusable-rocket-in-one-extraordinary-test/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The test marks a significant step in China's push to land humans on the Moon by 2030.",
+        "keywords": [
+          "space",
+          "china",
+          "human spaceflight",
+          "launch",
+          "long march 10",
+          "mengzhou",
+          "moon",
+          "reusable rocket",
+          "wenchang"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Stephen Clark"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443674"
+    },
+    {
+      "id": "ars-technica-3972012459bb",
+      "title": "Smart home PSA: Apple's \"new architecture\" for Home app becomes mandatory today",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/02/smart-home-psa-apples-new-architecture-for-home-app-becomes-mandatory-today/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Updated Home app is required for Matter support and some types of accessories.",
+        "keywords": [
+          "apple",
+          "tech",
+          "apple",
+          "homekit",
+          "ios",
+          "ios 16",
+          "ios 17",
+          "ios 18",
+          "ios 26",
+          "matter"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Andrew Cunningham"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443708"
+    },
+    {
+      "id": "ars-technica-54c2d5da59be",
+      "title": "What's next after the Trump administration revokes key finding on climate change?",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/02/whats-next-after-the-trump-administration-revokes-key-finding-on-climate-change/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The EPA is revoking the finding for legal, not scientific, reasons.",
+        "keywords": [
+          "science",
+          "clean air act",
+          "climate change",
+          "epa",
+          "fossil fuels",
+          "pollution",
+          "syndication",
+          "trump"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Marianne Lavelle, Inside Climate News"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443740"
+    },
+    {
+      "id": "ars-technica-333677cdf721",
+      "title": "The Feds closed air space around El Paso on Wednesday to address \"cartel\" drones",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/02/faa-shuts-down-el-paso-airspace-for-10-days-and-wont-say-why/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Violators were told they would be shot down.",
+        "keywords": [
+          "space",
+          "air travel",
+          "el paso",
+          "faa",
+          "space"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Eric Berger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443767"
+    },
+    {
+      "id": "ars-technica-e55ffed3f8c9",
+      "title": "America, it's time to think beyond leather for luxury car seats",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/features/2026/02/america-its-time-to-think-beyond-leather-for-luxury-car-seats/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Some brands are already ahead of the curve, while others leave the US in the cold.",
+        "keywords": [
+          "cars",
+          "features",
+          "car interior",
+          "leather",
+          "textiles"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jonathan M. Gitlin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443795"
+    },
+    {
+      "id": "ars-technica-07a2660b7c27",
+      "title": "FDA refuses to review Moderna's mRNA flu vaccine",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/health/2026/02/fda-refuses-to-review-modernas-mrna-flu-vaccine/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The move comes amid RFK Jr.'s relentless efforts to enact his anti-vaccine agenda.",
+        "keywords": [
+          "health",
+          "anti-vaccine",
+          "fda",
+          "flu",
+          "moderna",
+          "vaccine"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Beth Mole"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.443823"
+    },
+    {
+      "id": "carbon-brief-752cc1d6b7c0",
+      "title": "Cropped 11 February 2026: Aftershocks of US withdrawals | Biodiversity and business risks | Deep-sea mining tensions",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/cropped-11-february-2026-aftershocks-of-us-withdrawals-biodiversity-and-business-risks-deep-sea-mining-tensions/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "We handpick and explain the most important stories at the intersection of climate, land, food... The post Cropped 11 February 2026: Aftershocks of US withdrawals | Biodiversity and business risks | Deep-sea mining tensions appeared first on Carbon Brief.",
+        "keywords": [
+          "cropped",
+          "biodiversity",
+          "debriefed",
+          "deep sea",
+          "deep sea mining",
+          "deep-sea mining",
+          "ipbes",
+          "nature loss",
+          "us politics"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738693"
+    },
+    {
+      "id": "carbon-brief-bbe71cb823a0",
+      "title": "Q&A: New UK onshore wind and solar is ‘50% cheaper’ than new gas",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/qa-new-uk-onshore-wind-and-solar-is-50-cheaper-than-new-gas/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The UK government has secured a record 7.4 gigawatts (GW) of solar, onshore wind and... The post Q&#038;A: New UK onshore wind and solar is ‘50% cheaper’ than new gas appeared first on Carbon Brief.",
+        "keywords": [
+          "renewables",
+          "uk policy",
+          "ar7",
+          "cfd",
+          "contracts for difference",
+          "onshore wind",
+          "solar power"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Molly Lempriere"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738721"
+    },
+    {
+      "id": "carbon-brief-5e21fa145845",
+      "title": "IPBES chair Dr David Obura: Trump’s US exit from global nature panel ‘harms everybody’",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/ipbes-chair-dr-david-obura-trumps-us-exit-from-global-nature-panel-harms-everybody/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The Trump administration’s decision to withdraw the US from the intergovernmental science panel for nature... The post IPBES chair Dr David Obura: Trump’s US exit from global nature panel ‘harms everybody’ appeared first on Carbon Brief.",
+        "keywords": [
+          "interviews",
+          "nature",
+          "biodiversity",
+          "biodiversity loss",
+          "carbon brief interview",
+          "forests",
+          "interview",
+          "ipbes",
+          "nature loss",
+          "nature policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738747"
+    },
+    {
+      "id": "carbon-brief-145847552a61",
+      "title": "Climate change made ‘fire weather’ in Chile and Argentina three times more likely",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/climate-change-made-fire-weather-in-chile-and-argentina-three-times-more-likely/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "The hot, dry and windy weather preceding the wildfires that tore through Chile and Argentina&#160;last... The post Climate change made ‘fire weather’ in Chile and Argentina three times more likely appeared first on Carbon Brief.",
+        "keywords": [
+          "extreme weather",
+          "science",
+          "wildfires",
+          "argentina",
+          "attribution",
+          "attribution study",
+          "chile",
+          "climate change attribution",
+          "fire",
+          "south america"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738772"
+    },
+    {
+      "id": "carbon-brief-0348112e7cdc",
+      "title": "G7 ‘falling behind’ China as world’s wind and solar plans reach new high in 2025",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/g7-falling-behind-china-as-worlds-wind-and-solar-plans-reach-new-high-in-2025/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "The G7 major economies &#8220;f[e]ll notably behind China and the rest of the world” in... The post G7 ‘falling behind’ China as world’s wind and solar plans reach new high in 2025 appeared first on Carbon Brief.",
+        "keywords": [
+          "international policy",
+          "renewables",
+          "gem",
+          "global energy monitor",
+          "solar power",
+          "utility-scale solar",
+          "wind power"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Molly Lempriere"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738793"
+    },
+    {
+      "id": "carbon-brief-ccf89c83ecbf",
+      "title": "IPBES: Four key takeaways on how nature loss threatens the global economy",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/ipbes-four-key-takeaways-on-how-nature-loss-threatens-the-global-economy/",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "The &#8220;undervaluing&#8221; of nature by businesses is fuelling its decline and putting the global economy... The post IPBES: Four key takeaways on how nature loss threatens the global economy appeared first on Carbon Brief.",
+        "keywords": [
+          "nature",
+          "wildlife",
+          "biodiversity",
+          "ipbes",
+          "wildlife"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738812"
+    },
+    {
+      "id": "carbon-brief-eba9a2ac4610",
+      "title": "DeBriefed 6 February 2026: US secret climate panel ‘unlawful’ | China’s clean energy boon | Can humans reverse nature loss?",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/debriefed-6-february-2026-us-secret-climate-panel-unlawful-chinas-clean-energy-boon-can-humans-reverse-nature-loss/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Welcome to Carbon Brief’s DeBriefed.&#160;An essential guide to the week&#8217;s key developments relating to climate... The post DeBriefed 6 February 2026: US secret climate panel ‘unlawful’ | China’s clean energy boon | Can humans reverse nature loss? appeared first on Carbon Brief.",
+        "keywords": [
+          "debriefed",
+          "china energy",
+          "china energy policy",
+          "china renewable energy",
+          "clean energy",
+          "nature",
+          "nature loss",
+          "scepticism",
+          "sceptics"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738835"
+    },
+    {
+      "id": "carbon-brief-5aba8d2a757f",
+      "title": "China Briefing 5 February 2026: Clean energy’s share of economy | Record renewables | Thawing relations with UK",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/china-briefing-5-february-2026-clean-energys-share-of-economy-record-renewables-thawing-relations-with-uk/",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "Welcome to Carbon Brief’s China Briefing. China Briefing handpicks and explains the most important climate... The post China Briefing 5 February 2026: Clean energy’s share of economy | Record renewables | Thawing relations with UK appeared first on Carbon Brief.",
+        "keywords": [
+          "china briefing",
+          "china",
+          "china energy",
+          "china energy policy",
+          "china policy",
+          "china renewable energy",
+          "clean energy",
+          "renewable energy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Anika Patel"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-12T08:56:05.738858"
+    }
+  ]
+}

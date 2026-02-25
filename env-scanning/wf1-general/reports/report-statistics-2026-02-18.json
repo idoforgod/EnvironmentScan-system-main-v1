@@ -1,0 +1,49 @@
+{
+  "engine_version": "1.2.0",
+  "computed_at": "2026-02-18T21:35:00Z",
+  "source_file": "env-scanning/wf1-general/raw/daily-scan-2026-02-18.json",
+  "workflow_type": "standard",
+  "total_signals": 47,
+  "raw_distributions": {
+    "steeps": {
+      "E": 7,
+      "T": 18,
+      "S": 4,
+      "P": 11,
+      "E_Environmental": 6,
+      "s": 1
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "evolution": {
+      "new": 47,
+      "recurring": 0,
+      "strengthening": 0,
+      "weakening": 0,
+      "faded": 0,
+      "transformed": 0,
+      "active_threads": 47
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "47",
+    "DOMAIN_DISTRIBUTION": "기술(T) 18건, 정치(P) 11건, 경제(E) 7건, 환경(E) 6건, 사회(S) 4건, 정신적(s) 1건",
+    "EVOLUTION_ACTIVE_THREADS": "47",
+    "EVOLUTION_NEW_COUNT": "47",
+    "EVOLUTION_NEW_PCT": "100%",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "0%",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "0%",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "0%",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "해당 없음",
+    "EVOLUTION_TABLE_WEAKENING": "해당 없음"
+  }
+}

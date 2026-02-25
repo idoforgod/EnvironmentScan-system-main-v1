@@ -1,0 +1,3454 @@
+{
+  "metadata": {
+    "workflow": "wf2-arxiv",
+    "scan_date": "2026-02-18",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 475,
+    "top_count": 50,
+    "steeps_distribution": {
+      "T": 429,
+      "S": 21,
+      "E": 23,
+      "s": 1,
+      "P": 1
+    },
+    "ranked_at": "2026-02-18T14:01:39.755055"
+  },
+  "ranked_signals": [
+    {
+      "id": "arxiv-2602.15827v1",
+      "title": "Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15827v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "While recent advances in humanoid locomotion have achieved stable walking on varied terrains, capturing the agility and adaptivity of highly dynamic human motions remains an open challenge. In particular, agile parkour in complex environments demands not only low-level robustness, but also human-like motion expressiveness, long-horizon skill composition, and perception-driven decision-making. In this paper, we present Perceptive Humanoid Parkour (PHP), a modular framework that enables humanoid robots to autonomously perform long-horizon, vision-based parkour across challenging obstacle courses. Our approach first leverages motion matching, formulated as nearest-neighbor search in a feature space, to compose retargeted atomic human skills into long-horizon kinematic trajectories. This framework enables the flexible composition and smooth transition of complex skill chains while preserving the elegance and fluidity of dynamic human motions. Next, we train motion-tracking reinforcement learning (RL) expert policies for these composed motions, and distill them into a single depth-based, multi-skill student policy, using a combination of DAgger and RL. Crucially, the combination of perception and skill composition enables autonomous, context-aware decision-making: using only onboard depth sensing and a discrete 2D velocity command, the robot selects and executes whether to step over, climb onto, vault or roll off obstacles of varying geometries and heights. We validate our framework with extensive real-world experiments on a Unitree G1 humanoid robot, demonstrating highly dynamic parkour skills such as climbing tall obstacles up to 1.25m (96% robot height), as well as long-horizon multi-obstacle traversal with closed-loop adaptation to real-time obstacle perturbations.",
+        "keywords": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG",
+          "eess.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15827v1",
+        "authors": [
+          "Zhen Wu",
+          "Xiaoyu Huang",
+          "Lujie Yang",
+          "Yuanhang Zhang",
+          "Koushil Sreenath"
+        ],
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG",
+          "eess.SY"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Chaining Dynamic Human Skills",
+        "Perceptive Humanoid Parkour",
+        "Motion Matching While",
+        "Framework",
+        "Policy",
+        "Robot",
+        "PHP",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "P",
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.LG",
+          "eess.SY"
+        ]
+      },
+      "scoring": {
+        "impact_score": 19,
+        "cross_domain_count": 1,
+        "psst": 86.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 57
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.369547"
+    },
+    {
+      "id": "arxiv-2602.15451v1",
+      "title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15451v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Deep generative modeling to stochastically design small molecules is an emerging technology for accelerating drug discovery and development. However, one major issue in molecular generative models is their lower frequency of drug-like compounds. To resolve this problem, we developed a novel framework for optimization of deep generative models integrated with a D-Wave quantum annealing computer, where our Neural Hash Function (NHF) presented herein is used both as the regularization and binarization schemes simultaneously, of which the latter is for transformation between continuous and discrete signals of the classical and quantum neural networks, respectively, in the error evaluation (i.e., objective) function. The compounds generated via the quantum-annealing generative models exhibited higher quality in both validity and drug-likeness than those generated via the fully-classical models, and was further indicated to exceed even the training data in terms of drug-likeness features, without any restraints and conditions to deliberately induce such an optimization. These results indicated an advantage of quantum annealing to aim at a stochastic generator integrated with our novel neural network architectures, for the extended performance of feature space sampling and extraction of characteristic features in drug design.",
+        "keywords": [
+          "q-bio.QM",
+          "cs.AI",
+          "cs.LG",
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15451v1",
+        "authors": [
+          "Hayato Kunugi",
+          "Mohsen Rahmani",
+          "Yosuke Iyama",
+          "Yutaro Hirono",
+          "Akira Suma"
+        ],
+        "arxiv_categories": [
+          "q-bio.QM",
+          "cs.AI",
+          "cs.LG",
+          "quant-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Novel Extended Objective Functionals",
+        "Quantum Annealing Computer Deep",
+        "Neural Hash Function",
+        "Molecular Design",
+        "Neural Network",
+        "Training Data",
+        "Models Driven",
+        "Framework",
+        "NSF",
+        "Act",
+        "NHF",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "q-bio.QM",
+          "cs.AI",
+          "cs.LG",
+          "quant-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 18,
+        "cross_domain_count": 0,
+        "psst": 86.1,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 54
+        }
+      },
+      "collected_at": "2026-02-18T13:59:11.156849"
+    },
+    {
+      "id": "arxiv-2602.15781v1",
+      "title": "Neural Scaling Laws for Boosted Jet Tagging",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15781v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The success of Large Language Models (LLMs) has established that scaling compute, through joint increases in model capacity and dataset size, is the primary driver of performance in modern machine learning. While machine learning has long been an integral component of High Energy Physics (HEP) data analysis workflows, the compute used to train state-of-the-art HEP models remains orders of magnitude below that of industry foundation models. With scaling laws only beginning to be studied in the field, we investigate neural scaling laws for boosted jet classification using the public JetClass dataset. We derive compute optimal scaling laws and identify an effective performance limit that can be consistently approached through increased compute. We study how data repetition, common in HEP where simulation is expensive, modifies the scaling yielding a quantifiable effective dataset size gain. We then study how the scaling coefficients and asymptotic performance limits vary with the choice of input features and particle multiplicity, demonstrating that increased compute reliably drives performance toward an asymptotic limit, and that more expressive, lower-level features can raise the performance limit and improve results at fixed dataset size.",
+        "keywords": [
+          "hep-ex",
+          "cs.LG",
+          "hep-ph",
+          "physics.data-an"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15781v1",
+        "authors": [
+          "Matthias Vigl",
+          "Nicole Hartman",
+          "Michael Kagan",
+          "Lukas Heinrich"
+        ],
+        "arxiv_categories": [
+          "hep-ex",
+          "cs.LG",
+          "hep-ph",
+          "physics.data-an"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Large Language Models",
+        "High Energy Physics",
+        "Neural Scaling Laws",
+        "Machine Learning",
+        "MIT",
+        "LLM",
+        "HEP",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "hep-ex",
+          "cs.LG",
+          "hep-ph",
+          "physics.data-an"
+        ]
+      },
+      "scoring": {
+        "impact_score": 16,
+        "cross_domain_count": 0,
+        "psst": 85.2,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 48
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.374376"
+    },
+    {
+      "id": "arxiv-2602.15740v1",
+      "title": "MRC-GAT: A Meta-Relational Copula-Based Graph Attention Network for Interpretable Multimodal Alzheimer's Disease Diagnosis",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15740v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative condition necessitating early and precise diagnosis to provide prompt clinical management. Given the paramount importance of early diagnosis, recent studies have increasingly focused on computer-aided diagnostic models to enhance precision and reliability. However, most graph-based approaches still rely on fixed structural designs, which restrict their flexibility and limit generalization across heterogeneous patient data. To overcome these limitations, the Meta-Relational Copula-Based Graph Attention Network (MRC-GAT) is proposed as an efficient multimodal model for AD classification tasks. The proposed architecture, copula-based similarity alignment, relational attention, and node fusion are integrated as the core components of episodic meta-learning, such that the multimodal features, including risk factors (RF), Cognitive test scores, and MRI attributes, are first aligned via a copula-based transformation in a common statistical space and then combined by a multi-relational attention mechanism. According to evaluations performed on the TADPOLE and NACC datasets, the MRC-GAT model achieved accuracies of 96.87% and 92.31%, respectively, demonstrating state-of-the-art performance compared to existing diagnostic models. Finally, the proposed model confirms the robustness and applicability of the proposed method by providing interpretability at various stages of disease diagnosis.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "q-bio.QM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15740v1",
+        "authors": [
+          "Fatemeh Khalvandi",
+          "Saadat Izadi",
+          "Abdolah Chalechale"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "q-bio.QM"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Interpretable Multimodal Alzheimer",
+        "Based Graph Attention Network",
+        "Disease Diagnosis Alzheimer",
+        "Relational Copula",
+        "Fusion",
+        "Meta",
+        "NACC",
+        "MRC",
+        "NSF",
+        "MIT",
+        "GAT",
+        "MRI",
+        "Act",
+        "EU",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "q-bio.QM"
+        ]
+      },
+      "scoring": {
+        "impact_score": 14,
+        "cross_domain_count": 0,
+        "psst": 84.3,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 42
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.379760"
+    },
+    {
+      "id": "arxiv-2602.15600v1",
+      "title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15600v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "This article investigates the causal antecedents of conflictual language and the geometry of interaction in online threaded conversations related to climate change. We employ three annotation dimensions, inferred through LLM prompting and averaging, to capture complementary aspects of discursive conflict (such as stance: agreement vs disagreement; tone: attacking vs respectful; and emotional versus factual framing) and use data from a threaded online forum to examine how these dimensions respond to temporal, conversational, and arborescent structural features of discussions. We show that, as suggested by the literature, longer delays between successive posts in a thread are associated with replies that are, on average, more respectful, whereas longer delays relative to the parent post are associated with slightly less disagreement but more emotional (less factual) language. Second, we characterize alignment with the local conversational environment and find strong convergence both toward the average stance, tone and emotional framing of older sibling posts replying to the same parent and toward those of the parent post itself, with parent post effects generally stronger than sibling effects. We further show that early branch-level responses condition these alignment dynamics, such that parent-child stance alignment is amplified or attenuated depending on whether a branch is initiated in agreement or disagreement with the discussion's root message. These influences are largely additive for civility-related dimensions (attacking vs respectful, disagree vs agree), whereas for emotional versus factual framing there is a significant interaction: alignment with the parent's emotionality is amplified when older siblings are similarly aligned.",
+        "keywords": [
+          "cs.SI",
+          "cs.AI",
+          "econ.EM",
+          "stat.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15600v1",
+        "authors": [
+          "Carlo Santagiustina",
+          "Caterina Cruciani"
+        ],
+        "arxiv_categories": [
+          "cs.SI",
+          "cs.AI",
+          "econ.EM",
+          "stat.AP"
+        ],
+        "steeps_mapping": "S_Social"
+      },
+      "entities": [
+        "Agreement",
+        "LLM",
+        "Act"
+      ],
+      "classification": {
+        "primary_steeps": "S",
+        "steeps_full": "S_Social",
+        "secondary_steeps": "E_env",
+        "arxiv_categories": [
+          "cs.SI",
+          "cs.AI",
+          "econ.EM",
+          "stat.AP"
+        ]
+      },
+      "scoring": {
+        "impact_score": 14,
+        "cross_domain_count": 1,
+        "psst": 84.3,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 42
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.392980"
+    },
+    {
+      "id": "arxiv-2602.15727v1",
+      "title": "Spanning the Visual Analogy Space with a Weight Basis of LoRAs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15727v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Visual analogy learning enables image manipulation through demonstration rather than textual description, allowing users to specify complex transformations difficult to articulate in words. Given a triplet $\\{\\mathbf{a}$, $\\mathbf{a}'$, $\\mathbf{b}\\}$, the goal is to generate $\\mathbf{b}'$ such that $\\mathbf{a} : \\mathbf{a}' :: \\mathbf{b} : \\mathbf{b}'$. Recent methods adapt text-to-image models to this task using a single Low-Rank Adaptation (LoRA) module, but they face a fundamental limitation: attempting to capture the diverse space of visual transformations within a fixed adaptation module constrains generalization capabilities. Inspired by recent work showing that LoRAs in constrained domains span meaningful, interpolatable semantic spaces, we propose LoRWeB, a novel approach that specializes the model for each analogy task at inference time through dynamic composition of learned transformation primitives, informally, choosing a point in a \"space of LoRAs\". We introduce two key components: (1) a learnable basis of LoRA modules, to span the space of different visual transformations, and (2) a lightweight encoder that dynamically selects and weighs these basis LoRAs based on the input analogy pair. Comprehensive evaluations demonstrate our approach achieves state-of-the-art performance and significantly improves generalization to unseen visual transformations. Our findings suggest that LoRA basis decompositions are a promising direction for flexible visual manipulation. Code and data are in https://research.nvidia.com/labs/par/lorweb",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR",
+          "cs.LG",
+          "eess.IV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15727v1",
+        "authors": [
+          "Hila Manor",
+          "Rinon Gal",
+          "Haggai Maron",
+          "Tomer Michaeli",
+          "Gal Chechik"
+        ],
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR",
+          "cs.LG",
+          "eess.IV"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Visual Analogy Space",
+        "Rank Adaptation",
+        "Weight Basis",
+        "NVIDIA",
+        "Labs",
+        "NSF",
+        "MIT",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "s",
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR",
+          "cs.LG",
+          "eess.IV"
+        ]
+      },
+      "scoring": {
+        "impact_score": 13,
+        "cross_domain_count": 0,
+        "psst": 83.8,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 39
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.381569"
+    },
+    {
+      "id": "arxiv-2602.15652v1",
+      "title": "The COHERENT Experiment: 2026 Update",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15652v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The COHERENT experiment measures neutrino-induced recoils from coherent elastic neutrino-nucleus scattering (CEvNS) with multiple nuclear targets at the Spallation Neutron Source (SNS) at the Oak Ridge National Laboratory (ORNL), USA. Several successful CEvNS measurements have been achieved in recent years with tens-of-kg detector masses, with a CsI scintillating crystal, a liquid argon single-phase detector, and high-purity germanium spectrometers. For the next phase, COHERENT aims at high-statistics detection of CEvNS events for precision tests of the standard model of particle physics, and to probe new physics beyond-the-standard model. Percent-level precision can be achieved by lowering thresholds, reducing backgrounds, and by scaling up the detector masses. It goes hand in hand with benchmarking the neutrino flux from the SNS. Further detectors will measure CEvNS in additional nuclei, including lighter target nuclei such as sodium and neon, to continue to test the expected neutron-number-squared dependence of the cross section. COHERENT can furthermore study charged-current and neutral-current inelastic neutrino-nucleus cross sections on various nuclei at neutrino energies below $\\sim$50 MeV. Many of these cross sections have never been measured before, but are critical input for the interpretation of core-collapse supernova detection in large-scale neutrino experiments such as DUNE, Super-K, Hyper-K, and HALO.",
+        "keywords": [
+          "hep-ex",
+          "hep-ph",
+          "nucl-ex",
+          "physics.ins-det"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15652v1",
+        "authors": [
+          "M. Adhikari",
+          "M. Ahn",
+          "D. Amaya Matamoros",
+          "P. S. Barbeau",
+          "V. Belov"
+        ],
+        "arxiv_categories": [
+          "hep-ex",
+          "hep-ph",
+          "nucl-ex",
+          "physics.ins-det"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Oak Ridge National Laboratory",
+        "Spallation Neutron Source",
+        "Laboratory",
+        "Standard",
+        "Nuclear",
+        "ORNL",
+        "HALO",
+        "DUNE",
+        "SNS",
+        "USA",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "hep-ex",
+          "hep-ph",
+          "nucl-ex",
+          "physics.ins-det"
+        ]
+      },
+      "scoring": {
+        "impact_score": 13,
+        "cross_domain_count": 0,
+        "psst": 83.8,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 39
+        }
+      },
+      "collected_at": "2026-02-18T13:58:43.437372"
+    },
+    {
+      "id": "arxiv-2602.15551v1",
+      "title": "Some phenomenological aspects of a quantum-corrected Reissner-Nordström black hole: quasi-periodic oscillations, scalar perturbations and thermal fluctuations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15551v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "In this work, we investigate several phenomenological aspects of a covariant quantum-corrected Reissner-Nordström black hole characterized by the mass $M$, electric charge $Q$, and the quantum correction parameter $ζ$. We first study the motion of neutral test particles and derive the fundamental orbital and epicyclic frequencies, which are then employed to analyze different quasi-periodic oscillation (QPO) models. Using observational QPO data from stellar-mass, intermediate-mass, and supermassive black hole candidates, we perform a Bayesian parameter estimation through a Markov Chain Monte Carlo (MCMC) analysis and obtain constraints on the black hole parameters. The results show that the presence of the quantum correction significantly affects the location of the QPO radii and the separation between the QPO orbit and the ISCO. We then examine the scalar perturbations by deriving the Schrödinger-like radial equation and the corresponding effective potential. The influence of the parameters $Q$ and $ζ$ on the perturbation potential and stability of the spacetime is discussed. Furthermore, we compute the greybody factor and the energy emission rate in the high-frequency (geometric-optics) regime, showing how the quantum correction modifies the absorption probability and radiation spectrum. Finally, we study the effect of thermal fluctuations on the black hole entropy and obtain the logarithmic corrections to the Bekenstein-Hawking area law. We show that these corrections become important for small black holes, while for large horizon radius the standard thermodynamic behavior is recovered. Our analysis demonstrates that the quantum correction parameter leaves observable imprints on both dynamical and thermodynamical properties of the spacetime and can be constrained through QPO observations.",
+        "keywords": [
+          "gr-qc",
+          "astro-ph.HE",
+          "hep-th"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15551v1",
+        "authors": [
+          "Faizuddin Ahmed",
+          "Ahmad Al-Badawi",
+          "Mohsen Fathi"
+        ],
+        "arxiv_categories": [
+          "gr-qc",
+          "astro-ph.HE",
+          "hep-th"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Markov Chain Monte Carlo",
+        "Standard",
+        "ISCO",
+        "MCMC",
+        "EPA",
+        "QPO",
+        "Act",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "E_env",
+        "arxiv_categories": [
+          "gr-qc",
+          "astro-ph.HE",
+          "hep-th"
+        ]
+      },
+      "scoring": {
+        "impact_score": 13,
+        "cross_domain_count": 0,
+        "psst": 83.8,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 39
+        }
+      },
+      "collected_at": "2026-02-18T13:58:54.401195"
+    },
+    {
+      "id": "arxiv-2602.15524v1",
+      "title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15524v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We digitally simulate quantum many-body dynamics in emergent curved backgrounds using 80 superconducting qubits on IBM Heron processors. By engineering spatially varying couplings in the spin-$\\frac12$ XXZ chain, consistent with the low energy description of the model in terms of an inhomogeneous Tomonaga-Luttinger liquid, we realize excitations that follow geodesics of an effective metric inherited from the underlying spatial deformation. Following quenches from Néel and few-spin-flip states, we observe curved light-cone propagation, horizon-induced freezing in the local magnetization, and position-dependent oscillation frequencies set by the engineered spatial deformation. Despite strong spatial inhomogeneity, unequal-time correlators reveal ballistic quasiparticle propagation in the spin chain. These results establish large-scale digital quantum processors as a flexible platform for detailed and controlled exploration of many-body dynamics in tunable and synthetic curved spacetimes.",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.stat-mech",
+          "cond-mat.str-el"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15524v1",
+        "authors": [
+          "Brendan Rhyno",
+          "Bastien Lapierre",
+          "Smitha Vishveshwara",
+          "Khadijeh Najafi",
+          "Ramasubramanian Chitra"
+        ],
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.stat-mech",
+          "cond-mat.str-el"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "XXZ",
+        "IBM",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.stat-mech",
+          "cond-mat.str-el"
+        ]
+      },
+      "scoring": {
+        "impact_score": 13,
+        "cross_domain_count": 0,
+        "psst": 83.8,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 39
+        }
+      },
+      "collected_at": "2026-02-18T13:58:59.867902"
+    },
+    {
+      "id": "arxiv-2602.15440v1",
+      "title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15440v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Iron meteorite falls are rare compared to stony meteorites, and until recently no iron meteorite had a reliably determined pre-atmospheric orbit. This changed on 2020 November 7, when a bright fireball was observed across Sweden and neighboring regions, with optical, acoustic, and seismic detections extending up to 665 km from the trajectory. After a month-long recovery effort, a 13.8 kg iron meteorite was discovered near Ådalen, representing the first instrumentally recorded and recovered fall of its type and the first iron meteorite with a derivable heliocentric orbit; the event also exhibited the lowest terminal height measured for a well-documented fireball. We combine optical, infrasound, and seismic data to reconstruct the luminous trajectory and employ a Monte Carlo model to simulate the dark flight phase and predicted strewn field, while also investigating the plausibility of a ricochet prior to final deposition. Our analysis identifies distinct aerodynamic properties of iron meteoroids compared to stony bodies, including the influence of streamlined shapes and deep regmaglypts on drag and flight stability, underscoring the need to incorporate iron-specific parameters into entry models to constrain atmospheric dynamics and improve recovery predictions for future events.",
+        "keywords": [
+          "astro-ph.EP",
+          "astro-ph.IM",
+          "physics.geo-ph",
+          "physics.ins-det",
+          "physics.pop-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15440v1",
+        "authors": [
+          "Jarmo Moilanen",
+          "Maria Gritsevich",
+          "Jaakko Visuri"
+        ],
+        "arxiv_categories": [
+          "astro-ph.EP",
+          "astro-ph.IM",
+          "physics.geo-ph",
+          "physics.ins-det",
+          "physics.pop-ph"
+        ],
+        "steeps_mapping": "E_Environmental"
+      },
+      "entities": [
+        "Iron Meteorite",
+        "Monte Carlo",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "E",
+        "steeps_full": "E_Environmental",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "astro-ph.EP",
+          "astro-ph.IM",
+          "physics.geo-ph",
+          "physics.ins-det",
+          "physics.pop-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 12,
+        "cross_domain_count": 0,
+        "psst": 83.4,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 36
+        }
+      },
+      "collected_at": "2026-02-18T13:58:38.009210"
+    },
+    {
+      "id": "arxiv-2602.15484v1",
+      "title": "Bottleneck Transformer-Based Approach for Improved Automatic STOI Score Prediction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15484v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "In this study, we have presented a novel approach to predict the Short-Time Objective Intelligibility (STOI) metric using a bottleneck transformer architecture. Traditional methods for calculating STOI typically requires clean reference speech, which limits their applicability in the real world. To address this, numerous deep learning-based nonintrusive speech assessment models have garnered significant interest. Many studies have achieved commendable performance, but there is room for further improvement. We propose the use of bottleneck transformer, incorporating convolution blocks for learning frame-level features and a multi-head self-attention (MHSA) layer to aggregate the information. These components enable the transformer to focus on the key aspects of the input data. Our model has shown higher correlation and lower mean squared error for both seen and unseen scenarios compared to the state-of-the-art model using self-supervised learning (SSL) and spectral features as inputs.",
+        "keywords": [
+          "eess.AS",
+          "cs.LG",
+          "eess.SP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15484v1",
+        "authors": [
+          " Amartyaveer",
+          "Murali Kadambi",
+          "Chandra Mohan Sharma",
+          "Anupam Mondal",
+          "Prasanta Kumar Ghosh"
+        ],
+        "arxiv_categories": [
+          "eess.AS",
+          "cs.LG",
+          "eess.SP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Time Objective Intelligibility",
+        "Bottleneck Transformer",
+        "Score Prediction In",
+        "Improved Automatic",
+        "Based Approach",
+        "Deep Learning",
+        "Transformer",
+        "Intel",
+        "STOI",
+        "MHSA",
+        "NSF",
+        "MIT",
+        "SSL",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "eess.AS",
+          "cs.LG",
+          "eess.SP"
+        ]
+      },
+      "scoring": {
+        "impact_score": 12,
+        "cross_domain_count": 0,
+        "psst": 83.4,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 36
+        }
+      },
+      "collected_at": "2026-02-18T13:59:51.073117"
+    },
+    {
+      "id": "arxiv-2602.15339v1",
+      "title": "Benchmarking Self-Supervised Models for Cardiac Ultrasound View Classification",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15339v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Reliable interpretation of cardiac ultrasound images is essential for accurate clinical diagnosis and assessment. Self-supervised learning has shown promise in medical imaging by leveraging large unlabelled datasets to learn meaningful representations. In this study, we evaluate and compare two self-supervised learning frameworks, USF-MAE, developed by our team, and MoCo v3, on the recently introduced CACTUS dataset (37,736 images) for automated simulated cardiac view (A4C, PL, PSAV, PSMV, Random, and SC) classification. Both models used 5-fold cross-validation, enabling robust assessment of generalization performance across multiple random splits. The CACTUS dataset provides expert-annotated cardiac ultrasound images with diverse views. We adopt an identical training protocol for both models to ensure a fair comparison. Both models are configured with a learning rate of 0.0001 and a weight decay of 0.01. For each fold, we record performance metrics including ROC-AUC, accuracy, F1-score, and recall. Our results indicate that USF-MAE consistently outperforms MoCo v3 across metrics. The average testing AUC for USF-MAE is 99.99% (+/-0.01% 95% CI), compared to 99.97% (+/-0.01%) for MoCo v3. USF-MAE achieves a mean testing accuracy of 99.33% (+/-0.18%), higher than the 98.99% (+/-0.28%) reported for MoCo v3. Similar trends are observed for the F1-score and recall, with improvements statistically significant across folds (paired t-test, p=0.0048 < 0.01). This proof-of-concept analysis suggests that USF-MAE learns more discriminative features for cardiac view classification than MoCo v3 when applied to this dataset. The enhanced performance across multiple metrics highlights the potential of USF-MAE for improving automated cardiac ultrasound classification.",
+        "keywords": [
+          "eess.IV",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15339v1",
+        "authors": [
+          "Youssef Megahed",
+          "Salma I. Megahed",
+          "Robin Ducharme",
+          "Inok Lee",
+          "Adrian D. C. Chan"
+        ],
+        "arxiv_categories": [
+          "eess.IV",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Cardiac Ultrasound View Classification",
+        "Supervised Models",
+        "Benchmarking Self",
+        "Framework",
+        "Protocol",
+        "CACTUS",
+        "PSAV",
+        "PSMV",
+        "ROC",
+        "AUC",
+        "MAE",
+        "USF",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "s",
+        "arxiv_categories": [
+          "eess.IV",
+          "cs.AI",
+          "cs.CV"
+        ]
+      },
+      "scoring": {
+        "impact_score": 12,
+        "cross_domain_count": 0,
+        "psst": 83.4,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 36
+        }
+      },
+      "collected_at": "2026-02-18T13:59:51.074106"
+    },
+    {
+      "id": "arxiv-2602.15290v1",
+      "title": "Intellicise Wireless Networks Meet Agentic AI: A Security and Privacy Perspective",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15290v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Intellicise (Intelligent and Concise) wireless network is the main direction of the evolution of future mobile communication systems, a perspective now widely acknowledged across academia and industry. As a key technology within it, Agentic AI has garnered growing attention due to its advanced cognitive capabilities, enabled through continuous perception-memory-reasoning-action cycles. This paper first analyses the unique advantages that Agentic AI introduces to intellicise wireless networks. We then propose a structured taxonomy for Agentic AI-enhanced secure intellicise wireless networks. Building on this framework, we identify emerging security and privacy challenges introduced by Agentic AI and summarize targeted strategies to address these vulnerabilities. A case study further demonstrates Agentic AI's efficacy in defending against intelligent eavesdropping attacks. Finally, we outline key open research directions to guide future exploration in this field.",
+        "keywords": [
+          "cs.CR",
+          "eess.SP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15290v1",
+        "authors": [
+          "Rui Meng",
+          "Zhidi Zhang",
+          "Song Gao",
+          "Yaheng Wang",
+          "Xiaodong Xu"
+        ],
+        "arxiv_categories": [
+          "cs.CR",
+          "eess.SP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Intellicise Wireless Networks Meet",
+        "Privacy Perspective Intellicise",
+        "Framework",
+        "Intel",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.CR",
+          "eess.SP"
+        ]
+      },
+      "scoring": {
+        "impact_score": 18,
+        "cross_domain_count": 1,
+        "psst": 83.1,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 54
+        }
+      },
+      "collected_at": "2026-02-18T13:58:03.599030"
+    },
+    {
+      "id": "arxiv-2602.15817v1",
+      "title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15817v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Recent advances in deep reinforcement learning (RL) have achieved strong results on high-dimensional control tasks, but applying RL to reachability problems raises a fundamental mismatch: reachability seeks to maximize the set of states from which a system remains safe indefinitely, while RL optimizes expected returns over a user-specified distribution. This mismatch can result in policies that perform poorly on low-probability states that are still within the safe set. A natural alternative is to frame the problem as a robust optimization over a set of initial conditions that specify the initial state, dynamics and safe set, but whether this problem has a solution depends on the feasibility of the specified set, which is unknown a priori. We propose Feasibility-Guided Exploration (FGE), a method that simultaneously identifies a subset of feasible initial conditions under which a safe policy exists, and learns a policy to solve the reachability problem over this set of initial conditions. Empirical results demonstrate that FGE learns policies with over 50% more coverage than the best existing method for challenging initial conditions across tasks in the MuJoCo simulator and the Kinetix simulator with pixel observations.",
+        "keywords": [
+          "cs.LG",
+          "cs.RO",
+          "math.OC"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15817v1",
+        "authors": [
+          "Oswin So",
+          "Eric Yang Yu",
+          "Songyuan Zhang",
+          "Matthew Cleaveland",
+          "Mitchell Black"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.RO",
+          "math.OC"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Reinforcement Learning Recent",
+        "Robust Avoid Problems",
+        "Unknown Feasibility",
+        "Guided Exploration",
+        "Solving Parameter",
+        "Policy",
+        "FGE",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "P",
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.RO",
+          "math.OC"
+        ]
+      },
+      "scoring": {
+        "impact_score": 11,
+        "cross_domain_count": 1,
+        "psst": 83.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 33
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.371017"
+    },
+    {
+      "id": "arxiv-2602.15704v1",
+      "title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15704v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Learning dynamical systems through purely data-driven methods is challenging as they do not learn the underlying conservation laws that enable them to correctly generalize. Existing port-Hamiltonian neural network methods have recently been successfully applied for modeling mechanical systems. However, even though these methods are designed on power-balance principles, they usually do not consider power-preserving discretizations and often rely on Runge-Kutta numerical methods. In this work, we propose to use a second-order discrete gradient method embedded in the learning of dynamical systems with port-Hamiltonian neural networks. Numerical results are provided for three systems deliberately selected to span different ranges of dynamical behavior under control: a baseline harmonic oscillator with quadratic energy storage; a Duffing oscillator, with a non-quadratic Hamiltonian offering amplitude-dependent effects; and a self-sustained oscillator, which can stabilize in a controlled limit cycle through the incorporation of a nonlinear dissipation. We show how the use of this discrete gradient method outperforms the performance of a Runge-Kutta method of the same order. Experiments are also carried out to compare two theoretically equivalent port-Hamiltonian systems formulations and to analyze the impact of regularizing the Jacobian of port-Hamiltonian neural networks during training.",
+        "keywords": [
+          "cs.LG",
+          "eess.SY",
+          "math.DS"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15704v1",
+        "authors": [
+          "Maximino Linares",
+          "Guillaume Doras",
+          "Thomas Hélie"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "eess.SY",
+          "math.DS"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Neural Network",
+        "MIT",
+        "Act",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.LG",
+          "eess.SY",
+          "math.DS"
+        ]
+      },
+      "scoring": {
+        "impact_score": 11,
+        "cross_domain_count": 0,
+        "psst": 83.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 33
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.384581"
+    },
+    {
+      "id": "arxiv-2602.15684v1",
+      "title": "Estimating Human Muscular Fatigue in Dynamic Collaborative Robotic Tasks with Learning-Based Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15684v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Assessing human muscle fatigue is critical for optimizing performance and safety in physical human-robot interaction(pHRI). This work presents a data-driven framework to estimate fatigue in dynamic, cyclic pHRI using arm-mounted surface electromyography(sEMG). Subject-specific machine-learning regression models(Random Forest, XGBoost, and Linear Regression predict the fraction of cycles to fatigue(FCF) from three frequency-domain and one time-domain EMG features, and are benchmarked against a convolutional neural network(CNN) that ingests spectrograms of filtered EMG. Framing fatigue estimation as regression (rather than classification) captures continuous progression toward fatigue, supporting earlier detection, timely intervention, and adaptive robot control. In experiments with ten participants, a collaborative robot under admittance control guided repetitive lateral (left-right) end-effector motions until muscular fatigue. Average FCF RMSE across participants was 20.8+/-4.3% for the CNN, 23.3+/-3.8% for Random Forest, 24.8+/-4.5% for XGBoost, and 26.9+/-6.1% for Linear Regression. To probe cross-task generalization, one participant additionally performed unseen vertical (up-down) and circular repetitions; models trained only on lateral data were tested directly and largely retained accuracy, indicating robustness to changes in movement direction, arm kinematics, and muscle recruitment, while Linear Regression deteriorated. Overall, the study shows that both feature-based ML and spectrogram-based DL can estimate remaining work capacity during repetitive pHRI, with the CNN delivering the lowest error and the tree-based models close behind. The reported transfer to new motion patterns suggests potential for practical fatigue monitoring without retraining for every task, improving operator protection and enabling fatigue-aware shared autonomy, for safer fatigue-adaptive pHRI control.",
+        "keywords": [
+          "cs.RO",
+          "cs.AI",
+          "cs.HC",
+          "eess.SP",
+          "eess.SY"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15684v1",
+        "authors": [
+          "Feras Kiki",
+          "Pouya P. Niaz",
+          "Alireza Madani",
+          "Cagatay Basdogan"
+        ],
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.HC",
+          "eess.SP",
+          "eess.SY"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Dynamic Collaborative Robotic Tasks",
+        "Estimating Human Muscular Fatigue",
+        "Based Models Assessing",
+        "Linear Regression",
+        "Neural Network",
+        "Random Forest",
+        "Framework",
+        "Robot",
+        "RMSE",
+        "NSF",
+        "MIT",
+        "EMG",
+        "CNN",
+        "FCF",
+        "Act"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.AI",
+          "cs.HC",
+          "eess.SP",
+          "eess.SY"
+        ]
+      },
+      "scoring": {
+        "impact_score": 11,
+        "cross_domain_count": 0,
+        "psst": 83.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 33
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.385600"
+    },
+    {
+      "id": "arxiv-2602.15326v1",
+      "title": "SCENE OTA-FD: Self-Centering Noncoherent Estimator for Over-the-Air Federated Distillation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15326v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We propose SCENE (Self-Centering Noncoherent Estimator), a pilot-free and phase-invariant aggregation primitive for over-the-air federated distillation (OTA-FD). Each device maps its soft-label (class-probability) vector to nonnegative transmit energies under constant per-round power and constant-envelope signaling (PAPR near 1). At the server, a self-centering energy estimator removes the noise-energy offset and yields an unbiased estimate of the weighted soft-label average, with variance decaying on the order of 1/(SM) in the number of receive antennas M and repetition factor S. We also develop a pilot-free ratio-normalized variant that cancels unknown large-scale gains, provide a convergence bound consistent with coherent OTA-FD analyses, and present an overhead-based crossover comparison. SCENE targets short-coherence and hardware-constrained regimes, where avoiding per-round CSI is essential: it trades a modest noncoherent variance constant for zero uplink pilots, unbiased aggregation, and hardware-friendly transmission, and can outperform coherent designs when pilot overhead is non-negligible.",
+        "keywords": [
+          "eess.SP",
+          "cs.AI",
+          "cs.DC",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15326v1",
+        "authors": [
+          "Hao Chen",
+          "Zavareh Bozorgasl"
+        ],
+        "arxiv_categories": [
+          "eess.SP",
+          "cs.AI",
+          "cs.DC",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Centering Noncoherent Estimator",
+        "Air Federated Distillation We",
+        "SCENE",
+        "PAPR",
+        "CSI",
+        "MIT",
+        "OTA",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "E_econ",
+        "arxiv_categories": [
+          "eess.SP",
+          "cs.AI",
+          "cs.DC",
+          "cs.LG"
+        ]
+      },
+      "scoring": {
+        "impact_score": 11,
+        "cross_domain_count": 1,
+        "psst": 83.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 33
+        }
+      },
+      "collected_at": "2026-02-18T13:57:58.002314"
+    },
+    {
+      "id": "arxiv-2602.15780v1",
+      "title": "Deep Learning for Point Spread Function Modeling in Cosmology",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15780v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We present the development of a data-driven, AI-based model of the Point Spread Function (PSF) that achieves higher accuracy than the current state-of-the-art approach, \"PSF in the Full Field-of-View'' (PIFF). PIFF is widely used in leading weak-lensing surveys, including the Dark Energy Survey (DES), the Hyper Suprime-Cam (HSC) Survey, and the Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST). The PSF characterizes how a point source, such as a star, is imaged after its light traverses the atmosphere and telescope optics, effectively representing the \"blurred fingerprint'' of the entire imaging system. Accurate PSF modeling is essential for weak gravitational lensing analyses, as biases in its estimation propagate directly into cosmic shear measurements -- one of the primary cosmological probes of the expansion history of the Universe and the growth of large-scale structure for dark energy studies. To address the limitations of PIFF, which constructs PSF models independently for each CCD and therefore loses spatial coherence across the focal plane, we introduce a deep-learning-based framework for PSF reconstruction. In this approach, an autoencoder is trained on stellar images obtained with the Hyper Suprime-Cam (HSC) of the Subaru Telescope and combined with a Gaussian process to interpolate the PSF across the telescope's full field of view. This hybrid model captures systematic variations across the focal plane and achieves a reconstruction error of $3.4 \\times 10^{-6}$ compared to PIFF's $3.7 \\times 10^{-6}$, laying the foundation for integration into the LSST Science Pipelines.",
+        "keywords": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "physics.data-an"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15780v1",
+        "authors": [
+          "Dayana Andrea Henao Arbeláez",
+          "Pierre-François Léget",
+          "Andrés Alejandro Plazas Malagón"
+        ],
+        "arxiv_categories": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "physics.data-an"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Rubin Observatory Legacy Survey",
+        "Point Spread Function Modeling",
+        "Point Spread Function",
+        "Dark Energy Survey",
+        "Science Pipelines",
+        "Subaru Telescope",
+        "Hyper Suprime",
+        "Deep Learning",
+        "Cosmology We",
+        "Full Field",
+        "Framework",
+        "LSST",
+        "PIFF",
+        "PSF",
+        "DES"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "astro-ph.IM",
+          "astro-ph.CO",
+          "physics.data-an"
+        ]
+      },
+      "scoring": {
+        "impact_score": 11,
+        "cross_domain_count": 0,
+        "psst": 83.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 33
+        }
+      },
+      "collected_at": "2026-02-18T13:58:43.433501"
+    },
+    {
+      "id": "arxiv-2602.15368v1",
+      "title": "GMAIL: Generative Modality Alignment for generated Image Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15368v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Generative models have made it possible to synthesize highly realistic images, potentially providing an abundant data source for training machine learning models. Despite the advantages of these synthesizable data sources, the indiscriminate use of generated images as real images for training can even cause mode collapse due to modality discrepancies between real and synthetic domains. In this paper, we propose a novel framework for discriminative use of generated images, coined GMAIL, that explicitly treats generated images as a separate modality from real images. Instead of indiscriminately replacing real images with generated ones in the pixel space, our approach bridges the two distinct modalities in the same latent space through a multi-modal learning approach. To be specific, we first fine-tune a model exclusively on generated images using a cross-modality alignment loss and then employ this aligned model to further train various vision-language models with generated images. By aligning the two modalities, our approach effectively leverages the benefits of recent advances in generative models, thereby boosting the effectiveness of generated image learning across a range of vision-language tasks. Our framework can be easily incorporated with various vision-language models, and we demonstrate its efficacy throughout extensive experiments. For example, our framework significantly improves performance on image captioning, zero-shot image retrieval, zero-shot image classification, and long caption retrieval tasks. It also shows positive generated data scaling trends and notable enhancements in the captioning performance of the large multimodal model, LLaVA.",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "eess.IV"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15368v1",
+        "authors": [
+          "Shentong Mo",
+          "Sukmin Yun"
+        ],
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "eess.IV"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Generative Modality Alignment",
+        "Image Learning Generative",
+        "Machine Learning",
+        "Framework",
+        "GMAIL",
+        "EPA",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG",
+          "eess.IV"
+        ]
+      },
+      "scoring": {
+        "impact_score": 11,
+        "cross_domain_count": 0,
+        "psst": 83.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 33
+        }
+      },
+      "collected_at": "2026-02-18T13:59:51.073661"
+    },
+    {
+      "id": "arxiv-2602.15809v1",
+      "title": "Decision Quality Evaluation Framework at Pinterest",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15809v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Online platforms require robust systems to enforce content safety policies at scale. A critical component of these systems is the ability to evaluate the quality of moderation decisions made by both human agents and Large Language Models (LLMs). However, this evaluation is challenging due to the inherent trade-offs between cost, scale, and trustworthiness, along with the complexity of evolving policies. To address this, we present a comprehensive Decision Quality Evaluation Framework developed and deployed at Pinterest. The framework is centered on a high-trust Golden Set (GDS) curated by subject matter experts (SMEs), which serves as a ground truth benchmark. We introduce an automated intelligent sampling pipeline that uses propensity scores to efficiently expand dataset coverage. We demonstrate the framework's practical application in several key areas: benchmarking the cost-performance trade-offs of various LLM agents, establishing a rigorous methodology for data-driven prompt optimization, managing complex policy evolution, and ensuring the integrity of policy content prevalence metrics via continuous validation. The framework enables a shift from subjective assessments to a data-driven and quantitative practice for managing content safety systems.",
+        "keywords": [
+          "stat.AP",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15809v1",
+        "authors": [
+          "Yuqi Tian",
+          "Robert Paine",
+          "Attila Dobi",
+          "Kevin O'Sullivan",
+          "Aravindh Manickavasagam"
+        ],
+        "arxiv_categories": [
+          "stat.AP",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Decision Quality Evaluation Framework",
+        "Large Language Models",
+        "Pinterest Online",
+        "Golden Set",
+        "Framework",
+        "Policy",
+        "Intel",
+        "LLM",
+        "GDS",
+        "Act",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "P",
+        "arxiv_categories": [
+          "stat.AP",
+          "cs.AI"
+        ]
+      },
+      "scoring": {
+        "impact_score": 17,
+        "cross_domain_count": 2,
+        "psst": 82.7,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 51
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.372103"
+    },
+    {
+      "id": "arxiv-2602.15799v1",
+      "title": "The Geometry of Alignment Collapse: When Fine-Tuning Breaks Safety",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15799v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Fine-tuning aligned language models on benign tasks unpredictably degrades safety guardrails, even when training data contains no harmful content and developers have no adversarial intent. We show that the prevailing explanation, that fine-tuning updates should be orthogonal to safety-critical directions in high-dimensional parameter space, offers false reassurance: we show this orthogonality is structurally unstable and collapses under the dynamics of gradient descent. We then resolve this through a novel geometric analysis, proving that alignment concentrates in low-dimensional subspaces with sharp curvature, creating a brittle structure that first-order methods cannot detect or defend. While initial fine-tuning updates may indeed avoid these subspaces, the curvature of the fine-tuning loss generates second-order acceleration that systematically steers trajectories into alignment-sensitive regions. We formalize this mechanism through the Alignment Instability Condition, three geometric properties that, when jointly satisfied, lead to safety degradation. Our main result establishes a quartic scaling law: alignment loss grows with the fourth power of training time, governed by the sharpness of alignment geometry and the strength of curvature coupling between the fine-tuning task and safety-critical parameters. These results expose a structural blind spot in the current safety paradigm. The dominant approaches to safe fine-tuning address only the initial snapshot of a fundamentally dynamic problem. Alignment fragility is not a bug to be patched; it is an intrinsic geometric property of gradient descent on curved manifolds. Our results motivate the development of curvature-aware methods, and we hope will further enable a shift in alignment safety analysis from reactive red-teaming to predictive diagnostics for open-weight model deployment.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15799v1",
+        "authors": [
+          "Max Springer",
+          "Chung Peng Lee",
+          "Blossom Metevier",
+          "Jane Castleman",
+          "Bohdan Turbal"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Alignment Instability Condition",
+        "Tuning Breaks Safety Fine",
+        "Alignment Collapse",
+        "When Fine",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI"
+        ]
+      },
+      "scoring": {
+        "impact_score": 17,
+        "cross_domain_count": 0,
+        "psst": 82.7,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 51
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.372542"
+    },
+    {
+      "id": "arxiv-2602.15689v1",
+      "title": "A Content-Based Framework for Cybersecurity Refusal Decisions in Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15689v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Large language models and LLM-based agents are increasingly used for cybersecurity tasks that are inherently dual-use. Existing approaches to refusal, spanning academic policy frameworks and commercially deployed systems, often rely on broad topic-based bans or offensive-focused taxonomies. As a result, they can yield inconsistent decisions, over-restrict legitimate defenders, and behave brittlely under obfuscation or request segmentation. We argue that effective refusal requires explicitly modeling the trade-off between offensive risk and defensive benefit, rather than relying solely on intent or offensive classification. In this paper, we introduce a content-based framework for designing and auditing cyber refusal policies that makes offense-defense tradeoffs explicit. The framework characterizes requests along five dimensions: Offensive Action Contribution, Offensive Risk, Technical Complexity, Defensive Benefit, and Expected Frequency for Legitimate Users, grounded in the technical substance of the request rather than stated intent. We demonstrate that this content-grounded approach resolves inconsistencies in current frontier model behavior and allows organizations to construct tunable, risk-aware refusal policies.",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15689v1",
+        "authors": [
+          "Meirav Segal",
+          "Noa Linder",
+          "Omer Antverg",
+          "Gil Gekker",
+          "Tomer Fichman"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Cybersecurity Refusal Decisions",
+        "Offensive Action Contribution",
+        "Large Language Models Large",
+        "Technical Complexity",
+        "Expected Frequency",
+        "Defensive Benefit",
+        "Legitimate Users",
+        "Based Framework",
+        "Offensive Risk",
+        "Framework",
+        "Policy",
+        "LLM",
+        "Act",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "P",
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 2,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.385206"
+    },
+    {
+      "id": "arxiv-2602.15592v1",
+      "title": "Uni-Flow: a unified autoregressive-diffusion model for complex multiscale flows",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15592v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Spatiotemporal flows govern diverse phenomena across physics, biology, and engineering, yet modelling their multiscale dynamics remains a central challenge. Despite major advances in physics-informed machine learning, existing approaches struggle to simultaneously maintain long-term temporal evolution and resolve fine-scale structure across chaotic, turbulent, and physiological regimes. Here, we introduce Uni-Flow, a unified autoregressive-diffusion framework that explicitly separates temporal evolution from spatial refinement for modelling complex dynamical systems. The autoregressive component learns low-resolution latent dynamics that preserve large-scale structure and ensure stable long-horizon rollouts, while the diffusion component reconstructs high-resolution physical fields, recovering fine-scale features in a small number of denoising steps. We validate Uni-Flow across canonical benchmarks, including two-dimensional Kolmogorov flow, three-dimensional turbulent channel inflow generation with a quantum-informed autoregressive prior, and patient-specific simulations of aortic coarctation derived from high-fidelity lattice Boltzmann hemodynamic solvers. In the cardiovascular setting, Uni-Flow enables task-level faster than real-time inference of pulsatile hemodynamics, reconstructing high-resolution pressure fields over physiologically relevant time horizons in seconds rather than hours. By transforming high-fidelity hemodynamic simulation from an offline, HPC-bound process into a deployable surrogate, Uni-Flow establishes a pathway to faster-than-real-time modelling of complex multiscale flows, with broad implications for scientific machine learning in flow physics.",
+        "keywords": [
+          "physics.flu-dyn",
+          "cs.LG",
+          "physics.comp-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15592v1",
+        "authors": [
+          "Xiao Xue",
+          "Tianyue Yang",
+          "Mingyang Gao",
+          "Leyu Pan",
+          "Maida Wang"
+        ],
+        "arxiv_categories": [
+          "physics.flu-dyn",
+          "cs.LG",
+          "physics.comp-ph"
+        ],
+        "steeps_mapping": "E_Environmental"
+      },
+      "entities": [
+        "Machine Learning",
+        "Framework",
+        "Fusion",
+        "EPA",
+        "IoT",
+        "HPC",
+        "NSF",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "E",
+        "steeps_full": "E_Environmental",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "physics.flu-dyn",
+          "cs.LG",
+          "physics.comp-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.394098"
+    },
+    {
+      "id": "arxiv-2602.15786v1",
+      "title": "Timelike bounce hypersurfaces in charged null dust collapse",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15786v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We establish results on the dynamics of interacting charged null fluids in general relativity, specifically in the context of the bouncing continuation proposed in [Ori91]. In this model - the setting for a number of prominent case studies on black hole formation - charged massless particles may instantaneously change direction (bounce) after losing all their 4-momentum due to electrostatic repulsion. We initiate the study of timelike bounce hypersurfaces in spherical symmetry: scenarios in which an incoming beam of charged null dust changes direction along a timelike surface $\\mathcal{B}$, which is the (free) boundary of an interacting 2-dust region. We identify a novel decoupling of the equations of motion in this region. First, it is shown that every timelike curve segment $γ$ in the spherically symmetric quotient of Minkowski or Reissner-Nordström spacetimes arises as the bounce hypersurface $\\mathcal{B}$ of a charged null dust beam incident from past null infinity $\\mathcal{I}^-$. We construct a spacetime $(\\mathcal{M},g_{μν})$ describing the full trajectory of the beam, which includes gluing to Reissner-Nordström and Vaidya regions. Across $\\mathcal{B}$ the metric has regularity $g_{μν}\\in C^{2,1}$ and satisfies Einstein's equation classically, while $C^\\infty$ gluing may be achieved across all other interfaces. We also obtain examples of timelike bounce hypersurfaces terminating in a null point. Since these constructions are teleological, we secondly consider a given charged incoming beam from past null infinity. We formulate and solve a free boundary problem which represents the formation of a timelike bounce hypersurface. The result is conditional, applying only in the exterior region of a Reissner-Nordström spacetime, and subject to a technical regularity condition.",
+        "keywords": [
+          "gr-qc",
+          "math-ph",
+          "math.AP",
+          "math.DG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15786v1",
+        "authors": [
+          "David Bick"
+        ],
+        "arxiv_categories": [
+          "gr-qc",
+          "math-ph",
+          "math.AP",
+          "math.DG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Act",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "gr-qc",
+          "math-ph",
+          "math.AP",
+          "math.DG"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:25.260701"
+    },
+    {
+      "id": "arxiv-2602.15764v1",
+      "title": "Quantitative local recovery of Kerr-de Sitter parameters from high-frequency equatorial quasinormal modes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15764v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We study an inverse resonance problem for the scalar wave equation on the Kerr-de Sitter family. In a compact subextremal slow-rotation regime and at a fixed overtone index, high-frequency quasinormal modes admit semiclassical quantization and a real-analytic labeling by angular momentum indices. Using this structure, we first prove that a finite equatorial high-frequency package of quasinormal-mode frequencies determines the mass and rotation parameter $(M,a)$ (for fixed cosmological constant $Λ>0$), with a quantitative stability estimate. As a key geometric input we compute explicit second-order (in $a$) corrections to the equatorial photon-orbit invariants which control the leading real and imaginary parts of the quasinormal modes. Finally, allowing $Λ$ to vary in a compact interval, we show that adding one damping observable (the scaled imaginary part of a single equatorial mode) yields a three-parameter inverse theorem: a finite package of three independent real observables determines $(M,a,Λ)$ locally in the slow-rotation regime away from $a=0$.",
+        "keywords": [
+          "math-ph",
+          "gr-qc",
+          "math.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15764v1",
+        "authors": [
+          "Ruiliang Li"
+        ],
+        "arxiv_categories": [
+          "math-ph",
+          "gr-qc",
+          "math.AP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "MIT",
+        "Act"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "math-ph",
+          "gr-qc",
+          "math.AP"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:25.261526"
+    },
+    {
+      "id": "arxiv-2602.15442v1",
+      "title": "Virtual ultrasound machine operating in a GHz to MHz frequency range for particle-based biomedical simulations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15442v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Ultrasound-matter interactions underpin numerous biomedical and soft-matter applications, yet simulating these phenomena is challenging due to the large separation of viscous and sonic time scales. Continuum methods capture large-scale wave propagation but cannot resolve microscale interactions, while particle-based approaches offer molecular resolution but struggle with efficiency and stability at larger scales. We introduce a particle-based virtual ultrasound machine that uses a novel smoothed dissipative particle dynamics variant with an implicit pressure solver and a negative-pressure stabilization scheme, required to mimic acoustic propagation across MHz-GHz frequencies. We demonstrate its capabilities by modeling the acoustophoresis of encapsulated microbubbles, a key mechanism in ultrasound-mediated drug delivery. Beyond this application, the approach establishes a generalizable platform for simulating wave-matter interactions in soft and biological materials, opening new directions for computational studies of acoustics-driven phenomena in science and engineering.",
+        "keywords": [
+          "cond-mat.soft",
+          "cond-mat.mes-hall",
+          "physics.bio-ph",
+          "physics.comp-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15442v1",
+        "authors": [
+          "Urban Čoko",
+          "Tilen Potisk",
+          "Matej Praprotnik"
+        ],
+        "arxiv_categories": [
+          "cond-mat.soft",
+          "cond-mat.mes-hall",
+          "physics.bio-ph",
+          "physics.comp-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "EPA",
+        "Act",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cond-mat.soft",
+          "cond-mat.mes-hall",
+          "physics.bio-ph",
+          "physics.comp-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:43.440746"
+    },
+    {
+      "id": "arxiv-2602.15296v1",
+      "title": "GPS constellation search for exotic physics messengers coincident with the binary neutron star merger GW170817",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15296v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The Global Positioning System (GPS) includes a continuously operating, planet-scale network of atomic clocks that, beyond navigation and time dissemination, enables precision tests of fundamental physics. Here we use GPS carrier phase archival data to perform a retrospective search for exotic low-mass fields (ELFs) that might be emitted by the binary neutron-star merger GW170817, complementing gravitational wave and electromagnetic modalitiesnin multi-messenger astronomy. Such ultra-relativistic fields would imprint a dispersive, anti-chirp signature in clock-frequency time series, delayed with respect to the LIGO-Virgo gravitational wave detection. We construct network-median pseudo-frequency data from eighteen Rb satellite clocks referenced to a terrestrial hydrogen maser and conduct a template-bank search spanning ELF pulse duration, arrival delay, and characteristic frequency. No statistically significant signal is observed after accounting for noise statistics and template-bank trials. We derive 95\\% confidence-level lower bounds on the interaction energy scale $Λ_α$ of quadratic couplings driving variations in electromagnetic fine-structure constant. These limits improve upon existing astrophysical and gravity-test constraints across the ELF-energy range $\\approx10^{-18}$--$10^{-14}\\,\\mathrm{eV}$. This demonstrates that mature global satellite-clock networks provide an observational capability for retrospective, multi-messenger searches for new physics using decades of archival timing data.",
+        "keywords": [
+          "astro-ph.IM",
+          "astro-ph.HE",
+          "physics.atom-ph",
+          "physics.data-an",
+          "physics.ins-det"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15296v1",
+        "authors": [
+          "Arko P. Sen",
+          "Geoffrey Blewitt",
+          "Andrey Sarantsev",
+          "Paul Ries",
+          "Andrei Derevianko"
+        ],
+        "arxiv_categories": [
+          "astro-ph.IM",
+          "astro-ph.HE",
+          "physics.atom-ph",
+          "physics.data-an",
+          "physics.ins-det"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Satellite",
+        "Hydrogen",
+        "LIGO",
+        "ELF",
+        "MIT",
+        "Act",
+        "GPS",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "astro-ph.IM",
+          "astro-ph.HE",
+          "physics.atom-ph",
+          "physics.data-an",
+          "physics.ins-det"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:43.445632"
+    },
+    {
+      "id": "arxiv-2602.15825v1",
+      "title": "Hubble-Scale Tachyonic Shocks from Low-Scale Inflation -- A New Gravitational-Wave Window on Inflation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15825v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Current bounds on the tensor-to-scalar ratio imply that the energy scale of inflation may lie below the grand-unified scale. In this paper, we show that in a broad class of single-field inflation models with sufficiently small energy scales, an extremely efficient tachyonic instability develops at the end of inflation. This instability rapidly drives the system into a nonlinear regime before coherent oscillations can be established, leading to a first-order phase-transition--like phenomenon without tunneling or barrier crossing. The resulting ultra-relativistic shock fronts surrounding the bubble interiors expand to near the Hubble scale, corresponding to the most strongly enhanced tachyonic modes, and collide with one another, producing energetic inflaton particles and gravitational waves. As a result, the post-inflationary dynamics can differ significantly from the conventional high-scale inflationary scenario. Interestingly, inflation at MeV--EeV energy scales can be probed via gravitational-wave observations, including pulsar timing arrays, ground-based detectors, and future space-based experiments. Recent limits from the LIGO--KAGRA--Virgo collaboration already constrain EeV-scale inflation, while pulsar timing array results may be interpreted as evidence for gravitational waves generated by GeV-scale inflation. We also briefly discuss further implications of the resulting tachyonic shocks.",
+        "keywords": [
+          "hep-ph",
+          "astro-ph.CO",
+          "gr-qc"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15825v1",
+        "authors": [
+          "Haruto Masubuchi",
+          "Yuma Narita",
+          "Wen Yin"
+        ],
+        "arxiv_categories": [
+          "hep-ph",
+          "astro-ph.CO",
+          "gr-qc"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Scale Tachyonic Shocks",
+        "Inflation Current",
+        "New Gravitational",
+        "Scale Inflation",
+        "Wave Window",
+        "KAGRA",
+        "LIGO",
+        "Wind",
+        "MIT",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "E_econ",
+        "arxiv_categories": [
+          "hep-ph",
+          "astro-ph.CO",
+          "gr-qc"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:54.388064"
+    },
+    {
+      "id": "arxiv-2602.15527v1",
+      "title": "Cosmic topology. Part IIc. Detectability with non-standard primordial power spectrum",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15527v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Non-trivial spatial topology of the Universe can imprint potentially observable signatures on the cosmic microwave background (CMB). In this study, we investigate how deviations from the standard nearly-scale-free primordial power spectrum impact observables for the fully compact, orientable Euclidean topologies ($E_1$--$E_6$). We examine how such deviations modify the detectability of the underlying topology, depending on whether they are an intrinsic consequence of non-trivial topology or independent of it. We compute CMB temperature correlation matrices across a range of topologies, fundamental domain sizes, and observer locations for both standard and modified primordial power spectra. The impact of these modifications on the detectability of topology is quantified using the Kullback-Leibler divergence, providing an estimate of the distinguishability of non-trivial and simply-connected topologies based solely on CMB temperature observations. In addition, we employ the CatBoost machine learning algorithm to classify harmonic-space realizations of CMB temperature maps and thereby assess the observational prospects for topology detection. Signatures of non-trivial topology are encoded in the off-diagonal structure of the CMB temperature correlation matrices and are most prominent on the largest angular scales. Deviations from the simple power-law primordial spectrum at these scales can substantially alter the detectability of topology, either enhancing its characteristic CMB imprints or suppressing them below observational sensitivity. Our results demonstrate that uncertainties in the primordial power spectrum must be carefully accounted for in robust searches for cosmic topology using the CMB.",
+        "keywords": [
+          "astro-ph.CO",
+          "gr-qc",
+          "hep-ph",
+          "hep-th"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15527v1",
+        "authors": [
+          "Joline Noltmann",
+          "Andrius Tamosiunas",
+          "Deyan P. Mihaylov",
+          "Yashar Akrami",
+          "Javier Carrón Duque"
+        ],
+        "arxiv_categories": [
+          "astro-ph.CO",
+          "gr-qc",
+          "hep-ph",
+          "hep-th"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Machine Learning",
+        "Standard",
+        "CMB",
+        "Act",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "astro-ph.CO",
+          "gr-qc",
+          "hep-ph",
+          "hep-th"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:54.401920"
+    },
+    {
+      "id": "arxiv-2602.15742v1",
+      "title": "Temperley-Lieb modules and local operators for critical ADE models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15742v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We investigate critical restricted solid-on-solid models associated to Dynkin diagrams of type $A$, $D$ and $E$, with fixed, periodic and twisted periodic boundary conditions. These models are endowed with an action of the diagrams of the Temperley-Lieb category. For each model, we obtain the decomposition of the state space as a direct sum of irreducible modules over the Temperley-Lieb algebra $\\mathsf{TL}_N(β)$ or its periodic incarnation $\\mathsf{\\mathcal EPTL}_N(β)$. This allows us to recover the known conformal partition functions for these models in the continuum scaling limit. For each irreducible factor arising in the decompositions, we define an associated local operator on the lattice, which behaves like a connectivity operator. Using knowledge from the Temperley-Lieb representation theory at roots of unity, we show that these operators satisfy certain linear difference relations, which are lattice counterparts of the singular-vector relations in conformal field theory.",
+        "keywords": [
+          "math-ph",
+          "cond-mat.stat-mech",
+          "hep-th"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15742v1",
+        "authors": [
+          "Yacine Ikhlef",
+          "Alexi Morin-Duchesne"
+        ],
+        "arxiv_categories": [
+          "math-ph",
+          "cond-mat.stat-mech",
+          "hep-th"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "EPTL",
+        "ADE",
+        "MIT",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "math-ph",
+          "cond-mat.stat-mech",
+          "hep-th"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:59.861922"
+    },
+    {
+      "id": "arxiv-2602.15474v1",
+      "title": "Quantum Reservoir Computing for Statistical Classification in a Superconducting Quantum Circuit",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15474v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We analyze numerically the performance of Quantum Reservoir Computing (QRC) for statistical and financial problems. We use a reservoir composed of two superconducting islands coupled via their charge degrees of freedom. The key non-linear elements that provide the reservoir with rich and complex dynamics are the Josephson junctions that connect each island to the ground. We show that QRC implemented in this circuit can accurately classify complex probability distributions, including those with heavy tails, and identify regimes in correlated time series, such as periods of high volatility generated by standard econometric models. We find QRC to outperform some of the best classical methods when the amount of information is limited. This demonstrates its potential to be a noise-resilient quantum learning approach capable of tackling real-world problems within currently available superconducting platforms. We further discuss how to improve our QRC algorithm in real superconducting hardware to benefit from a much larger Hilbert space.",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.supr-con",
+          "q-fin.ST"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15474v1",
+        "authors": [
+          "J. J. Prieto-Garcia",
+          "A. G. del Pozo-Martín",
+          "M. Pino"
+        ],
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.supr-con",
+          "q-fin.ST"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Superconducting Quantum Circuit We",
+        "Quantum Reservoir Computing",
+        "Statistical Classification",
+        "Standard",
+        "BERT",
+        "MIT",
+        "QRC",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "quant-ph",
+          "cond-mat.supr-con",
+          "q-fin.ST"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:58:59.870398"
+    },
+    {
+      "id": "arxiv-2602.15801v1",
+      "title": "Deformed Heisenberg algebra and its Hilbert space representations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15801v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "A deformation of Heisenberg algebra induces among other consequences a loss of Hermiticity of some operators that generate this algebra. Therefore, these operators are not Hermitian, nor is the Hamiltonian operator built from them. In the present paper, we propose a position deformation of Heisenberg algebra with both maximal length and minimal momentum uncertainties. By using a pseudo-similarity transformation to the non-Hermitian operators, we prove their Hermiticity with a suitable positive-definite pseudo-metric operator. We then construct Hilbert space representations associated with these pseudo-Hermitian operators. Finally, we study the eigenvalue problem of a free particle in this deformed space and we show that this deformation curved the quantum levels allowing particles to jump from one state to another with low energy transitions.",
+        "keywords": [
+          "math-ph",
+          "hep-th",
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15801v1",
+        "authors": [
+          "Latévi M. Lawson",
+          "Ibrahim Nonkané",
+          "Kinvi Kangni"
+        ],
+        "arxiv_categories": [
+          "math-ph",
+          "hep-th",
+          "quant-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Deformed Heisenberg",
+        "BERT",
+        "NSF",
+        "MIT",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "s",
+        "arxiv_categories": [
+          "math-ph",
+          "hep-th",
+          "quant-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:59:05.648898"
+    },
+    {
+      "id": "arxiv-2602.15327v1",
+      "title": "Prescriptive Scaling Reveals the Evolution of Language Model Capabilities",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15327v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "For deploying foundation models, practitioners increasingly need prescriptive scaling laws: given a pre training compute budget, what downstream accuracy is attainable with contemporary post training practice, and how stable is that mapping as the field evolves? Using large scale observational evaluations with 5k observational and 2k newly sampled data on model performance, we estimate capability boundaries, high conditional quantiles of benchmark scores as a function of log pre training FLOPs, via smoothed quantile regression with a monotone, saturating sigmoid parameterization. We validate the temporal reliability by fitting on earlier model generations and evaluating on later releases. Across various tasks, the estimated boundaries are mostly stable, with the exception of math reasoning that exhibits a consistently advancing boundary over time. We then extend our approach to analyze task dependent saturation and to probe contamination related shifts on math reasoning tasks. Finally, we introduce an efficient algorithm that recovers near full data frontiers using roughly 20% of evaluation budget. Together, our work releases the Proteus 2k, the latest model performance evaluation dataset, and introduces a practical methodology for translating compute budgets into reliable performance expectations and for monitoring when capability boundaries shift across time.",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15327v1",
+        "authors": [
+          "Hanlin Zhang",
+          "Jikai Jin",
+          "Vasilis Syrgkanis",
+          "Sham Kakade"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "stat.ML"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Language Model Capabilities For",
+        "Prescriptive Scaling Reveals",
+        "Act",
+        "EU",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "stat.ML"
+        ]
+      },
+      "scoring": {
+        "impact_score": 10,
+        "cross_domain_count": 0,
+        "psst": 82.5,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 30
+        }
+      },
+      "collected_at": "2026-02-18T13:59:39.216074"
+    },
+    {
+      "id": "arxiv-2602.15677v1",
+      "title": "CAMEL: An ECG Language Model for Forecasting Cardiac Events",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15677v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Electrocardiograms (ECG) are electrical recordings of the heart that are critical for diagnosing cardiovascular conditions. ECG language models (ELMs) have recently emerged as a promising framework for ECG classification accompanied by report generation. However, current models cannot forecast future cardiac events despite the immense clinical value for planning earlier intervention. To address this gap, we propose CAMEL, the first ELM that is capable of inference over longer signal durations which enables its forecasting capability. Our key insight is a specialized ECG encoder which enables cross-understanding of ECG signals with text. We train CAMEL using established LLM training procedures, combining LoRA adaptation with a curriculum learning pipeline. Our curriculum includes ECG classification, metrics calculations, and multi-turn conversations to elicit reasoning. CAMEL demonstrates strong zero-shot performance across 6 tasks and 9 datasets, including ECGForecastBench, a new benchmark that we introduce for forecasting arrhythmias. CAMEL is on par with or surpasses ELMs and fully supervised baselines both in- and out-of-distribution, achieving SOTA results on ECGBench (+7.0% absolute average gain) as well as ECGForecastBench (+12.4% over fully supervised models and +21.1% over zero-shot ELMs).",
+        "keywords": [
+          "cs.LG",
+          "q-bio.QM"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15677v1",
+        "authors": [
+          "Neelay Velingker",
+          "Alaia Solko-Breslin",
+          "Mayank Keoliya",
+          "Seewon Choi",
+          "Jiayi Xin"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "q-bio.QM"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Forecasting Cardiac Events Electrocardiograms",
+        "Language Model",
+        "Framework",
+        "CAMEL",
+        "SOTA",
+        "ECG",
+        "LLM",
+        "ELM",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "s",
+        "arxiv_categories": [
+          "cs.LG",
+          "q-bio.QM"
+        ]
+      },
+      "scoring": {
+        "impact_score": 16,
+        "cross_domain_count": 0,
+        "psst": 82.2,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 48
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.386796"
+    },
+    {
+      "id": "arxiv-2602.15828v1",
+      "title": "Dex4D: Task-Agnostic Point Track Policy for Sim-to-Real Dexterous Manipulation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15828v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Learning generalist policies capable of accomplishing a plethora of everyday tasks remains an open challenge in dexterous manipulation. In particular, collecting large-scale manipulation data via real-world teleoperation is expensive and difficult to scale. While learning in simulation provides a feasible alternative, designing multiple task-specific environments and rewards for training is similarly challenging. We propose Dex4D, a framework that instead leverages simulation for learning task-agnostic dexterous skills that can be flexibly recomposed to perform diverse real-world manipulation tasks. Specifically, Dex4D learns a domain-agnostic 3D point track conditioned policy capable of manipulating any object to any desired pose. We train this 'Anypose-to-Anypose' policy in simulation across thousands of objects with diverse pose configurations, covering a broad space of robot-object interactions that can be composed at test time. At deployment, this policy can be zero-shot transferred to real-world tasks without finetuning, simply by prompting it with desired object-centric point tracks extracted from generated videos. During execution, Dex4D uses online point tracking for closed-loop perception and control. Extensive experiments in simulation and on real robots show that our method enables zero-shot deployment for diverse dexterous manipulation tasks and yields consistent improvements over prior baselines. Furthermore, we demonstrate strong generalization to novel objects, scene layouts, backgrounds, and trajectories, highlighting the robustness and scalability of the proposed framework.",
+        "keywords": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15828v1",
+        "authors": [
+          "Yuxuan Kuang",
+          "Sungjae Park",
+          "Katerina Fragkiadaki",
+          "Shubham Tulsiani"
+        ],
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Real Dexterous Manipulation Learning",
+        "Agnostic Point Track Policy",
+        "Framework",
+        "Policy",
+        "Robot",
+        "NSF",
+        "Act",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "P",
+        "arxiv_categories": [
+          "cs.RO",
+          "cs.CV",
+          "cs.LG"
+        ]
+      },
+      "scoring": {
+        "impact_score": 9,
+        "cross_domain_count": 1,
+        "psst": 82.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 27
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.368973"
+    },
+    {
+      "id": "arxiv-2602.15585v1",
+      "title": "Optimal detection of planted stars via a random energy model",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15585v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We study the problem of detecting a planted star in the Erd{ő}s--R{é}nyi random graph $G(n,m)$, formulated as a hypothesis test. We determine the scaling window for critical detection in $m$ in terms of the star size, and characterize the asymptotic total variation distance between the null and alternative hypotheses in this window. In the course of the proofs we show a condensation phase transition in the likelihood ratio that closely resembles that of the random energy model from spin glass theory.",
+        "keywords": [
+          "math.ST",
+          "cs.IT",
+          "math.PR"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15585v1",
+        "authors": [
+          "Ijay Narang",
+          "Will Perkins",
+          "Timothy L. H. Wee"
+        ],
+        "arxiv_categories": [
+          "math.ST",
+          "cs.IT",
+          "math.PR"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Wind",
+        "Act"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "math.ST",
+          "cs.IT",
+          "math.PR"
+        ]
+      },
+      "scoring": {
+        "impact_score": 9,
+        "cross_domain_count": 0,
+        "psst": 82.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 27
+        }
+      },
+      "collected_at": "2026-02-18T13:58:14.391747"
+    },
+    {
+      "id": "arxiv-2602.15627v1",
+      "title": "Fastest first-passage time for multiple searchers with finite speed",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15627v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We study analytically and numerically the mean fastest first-passage time (fFPT) to an immobile target for an ensemble of $N$ independent finite-speed random searchers driven by dichotomous noise and described by the telegrapher's equation. In stark contrast to the well-studied case of Brownian particles -- for which the mean fFPT vanishes logarithmically with $N$ -- we uncover that the mean fFPT is bounded from below by the minimal ballistic travel time, with an exponentially fast convergence to this bound as $N \\to \\infty$. This behavior reveals a dramatic efficiency advantage of physically realistic, finite-speed searchers over Brownian ones and illustrates how diffusive macroscopic models may be conceptually misleading in predicting the short-time behavior of a physical system. We extend our analysis to anomalous diffusion generated by Riemann-Liouville-type dichotomous noises and find that target detection is more efficient in the superdiffusive regime, followed by normal and then subdiffusive regimes, in agreement with physical intuition and contrary to earlier predictions.",
+        "keywords": [
+          "cond-mat.stat-mech",
+          "physics.bio-ph",
+          "physics.chem-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15627v1",
+        "authors": [
+          "Denis S. Grebenkov",
+          "Ralf Metzler",
+          "Gleb Oshanin"
+        ],
+        "arxiv_categories": [
+          "cond-mat.stat-mech",
+          "physics.bio-ph",
+          "physics.chem-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Agreement",
+        "Fusion",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cond-mat.stat-mech",
+          "physics.bio-ph",
+          "physics.chem-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 9,
+        "cross_domain_count": 0,
+        "psst": 82.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 27
+        }
+      },
+      "collected_at": "2026-02-18T13:58:48.876474"
+    },
+    {
+      "id": "arxiv-2602.15818v1",
+      "title": "Radial oscillations of pulsating neutron stars: The UCIa equation-of-state case",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15818v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Radial oscillations provide a clean dynamical test of the high-density stiffness of neutron-star equations of state. We study spherically symmetric pulsations of nonrotating relativistic stars built from cold, charge-neutral, $β$-equilibrated pure nucleonic matter described within relativistic mean-field theory. As a baseline we adopt the UCIa parameter set [Astron. Astro-phys. 689, A242 (2024)], and we implement high-density stiffening via the $σ$-cut scheme by adding a regulator potential $U_{\\rm cut}(σ)$ [Phys. Rev. C 92, no.5, 052801 (2015), Phys. Rev. C 106, no.5, 055806 (2022)]. For representative choices $f_s=0$ (no cutoff) and $f_s=0.58$ (stiffened), we solve the Tolman-Oppenheimer-Volkoff and tidal perturbation equations to obtain equilibrium sequences, mass-radius relations, and tidal deformabilities. We then derive and solve the linear general-relativistic radial pulsation equations to compute the eigenfrequencies and eigenfunctions of the fundamental and overtone modes. The $σ$-cutoff suppresses the growth of the scalar field at supranuclear density, increases the pressure, and shifts the maximum mass, radii, and $Λ_{1.4}$ accordingly, while systematically raising the radial-mode frequencies at fixed mass. Using the sign change of $ω_0^2$ as a stability criterion, we identify stiffened models that remain radially stable up to the observed $\\sim 2M_\\odot$ mass scale and are consistent with current multimessenger constraints, demonstrating how radial spectra complement static EoS tests.",
+        "keywords": [
+          "nucl-th",
+          "astro-ph.SR",
+          "gr-qc"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15818v1",
+        "authors": [
+          "G. Panotopoulos",
+          "A. Övgün",
+          "T. Iqbal",
+          "Y. Kumaran",
+          "B. K. Sharma"
+        ],
+        "arxiv_categories": [
+          "nucl-th",
+          "astro-ph.SR",
+          "gr-qc"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Nuclear",
+        "UN",
+        "EU",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "nucl-th",
+          "astro-ph.SR",
+          "gr-qc"
+        ]
+      },
+      "scoring": {
+        "impact_score": 9,
+        "cross_domain_count": 0,
+        "psst": 82.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 27
+        }
+      },
+      "collected_at": "2026-02-18T13:58:54.389055"
+    },
+    {
+      "id": "arxiv-2602.15664v1",
+      "title": "Generalized GMP Algebra for Three-Dimensional Quantum Hall Fluids of Extended Objects",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15664v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We develop a geometric framework for three-dimensional quantum Hall fluids of extended objects (quasi-strings) in the presence of a strong three-form background field associated with a bundle gerbe. In the strong-field regime, fast internal dynamics is frozen and the low-energy kinematics is governed by generalized guiding-center variables consisting of vectorial and tensorial coordinates. We show that these guiding-center variables obey a noncommutative geometry giving rise to a three-dimensional generalization of the Girvin-MacDonald-Platzman (GMP) algebra for projected density operators. Moreover, we relate this algebra to the canonical quantization of a topological BF+BB theory whose level is identified with the Dixmier-Douady invariant. Our results clarify the structure of incompressible quantum Hall-type phases and their geometric and topological features in three spatial dimensions.",
+        "keywords": [
+          "hep-th",
+          "cond-mat.mes-hall",
+          "cond-mat.str-el"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15664v1",
+        "authors": [
+          "Giandomenico Palumbo"
+        ],
+        "arxiv_categories": [
+          "hep-th",
+          "cond-mat.mes-hall",
+          "cond-mat.str-el"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Dimensional Quantum Hall Fluids",
+        "Extended Objects We",
+        "Framework",
+        "WHO",
+        "GMP",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "hep-th",
+          "cond-mat.mes-hall",
+          "cond-mat.str-el"
+        ]
+      },
+      "scoring": {
+        "impact_score": 9,
+        "cross_domain_count": 0,
+        "psst": 82.0,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 27
+        }
+      },
+      "collected_at": "2026-02-18T13:58:59.863191"
+    },
+    {
+      "id": "arxiv-2602.15763v1",
+      "title": "GLM-5: from Vibe Coding to Agentic Engineering",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15763v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We present GLM-5, a next-generation foundation model designed to transition the paradigm of vibe coding to agentic engineering. Building upon the agentic, reasoning, and coding (ARC) capabilities of its predecessor, GLM-5 adopts DSA to significantly reduce training and inference costs while maintaining long-context fidelity. To advance model alignment and autonomy, we implement a new asynchronous reinforcement learning infrastructure that drastically improves post-training efficiency by decoupling generation from training. Furthermore, we propose novel asynchronous agent RL algorithms that further improve RL quality, enabling the model to learn from complex, long-horizon interactions more effectively. Through these innovations, GLM-5 achieves state-of-the-art performance on major open benchmarks. Most critically, GLM-5 demonstrates unprecedented capability in real-world coding tasks, surpassing previous baselines in handling end-to-end software engineering challenges. Code, models, and more information are available at https://github.com/zai-org/GLM-5.",
+        "keywords": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15763v1",
+        "authors": [
+          "GLM-5 Team",
+          " :",
+          "Aohan Zeng",
+          "Xin Lv",
+          "Zhenyu Hou"
+        ],
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Agentic Engineering We",
+        "Vibe Coding",
+        "GLM-5",
+        "GLM",
+        "DSA",
+        "ARC",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.LG",
+          "cs.CL"
+        ]
+      },
+      "scoring": {
+        "impact_score": 15,
+        "cross_domain_count": 0,
+        "psst": 81.8,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 45
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.376617"
+    },
+    {
+      "id": "arxiv-2602.15423v1",
+      "title": "GaiaFlow: Semantic-Guided Diffusion Tuning for Carbon-Frugal Search",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15423v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "As the burgeoning power requirements of sophisticated neural architectures escalate, the information retrieval community has recognized ecological sustainability as a pivotal priority that necessitates a fundamental paradigm shift in model design. While contemporary neural rankers have attained unprecedented accuracy, the substantial environmental externalities associated with their computational intensity often remain overlooked in large-scale deployments. We present GaiaFlow, an innovative framework engineered to facilitate carbon-frugal search by operationalizing semantic-guided diffusion tuning. Our methodology orchestrates the convergence of retrieval-guided Langevin dynamics and a hardware-independent performance modeling strategy to optimize the trade-off between search precision and environmental preservation. By incorporating adaptive early exit protocols and precision-aware quantized inference, the proposed architecture significantly mitigates operational carbon footprints while maintaining robust retrieval quality across heterogeneous computing infrastructures. Extensive experimental evaluations demonstrate that GaiaFlow achieves a superior equilibrium between effectiveness and energy efficiency, offering a scalable and sustainable pathway for next-generation neural search systems.",
+        "keywords": [
+          "cs.IR",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15423v1",
+        "authors": [
+          "Rong Fu",
+          "Wenxin Zhang",
+          "Jia Yee Tan",
+          "Chunlei Meng",
+          "Shuo Yin"
+        ],
+        "arxiv_categories": [
+          "cs.IR",
+          "cs.LG"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Guided Diffusion Tuning",
+        "Frugal Search As",
+        "Framework",
+        "Protocol",
+        "Fusion",
+        "MIT",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "E_env",
+        "arxiv_categories": [
+          "cs.IR",
+          "cs.LG"
+        ]
+      },
+      "scoring": {
+        "impact_score": 15,
+        "cross_domain_count": 2,
+        "psst": 81.8,
+        "dimensions": {
+          "SR": 85,
+          "ES": 80,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 45
+        }
+      },
+      "collected_at": "2026-02-18T13:58:14.395102"
+    },
+    {
+      "id": "arxiv-2602.15632v1",
+      "title": "Neural-POD: A Plug-and-Play Neural Operator Framework for Infinite-Dimensional Functional Nonlinear Proper Orthogonal Decomposition",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15632v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The rapid development of AI for Science is often hindered by the \"discretization\", where learned representations remain restricted to the specific grids or resolutions used during training. We propose the Neural Proper Orthogonal Decomposition (Neural-POD), a plug-and-play neural operator framework that constructs nonlinear, orthogonal basis functions in infinite-dimensional space using neural networks. Unlike the classical Proper Orthogonal Decomposition (POD), which is limited to linear subspace approximations obtained through singular value decomposition (SVD), Neural-POD formulates basis construction as a sequence of residual minimization problems solved through neural network training. Each basis function is obtained by learning to represent the remaining structure in the data, following a process analogous to Gram--Schmidt orthogonalization. This neural formulation introduces several key advantages over classical POD: it enables optimization in arbitrary norms (e.g., $L^2$, $L^1$), learns mappings between infinite-dimensional function spaces that is resolution-invariant, generalizes effectively to unseen parameter regimes, and inherently captures nonlinear structures in complex spatiotemporal systems. The resulting basis functions are interpretable, reusable, and enabling integration into both reduced order modeling (ROM) and operator learning frameworks such as deep operator learning (DeepONet). We demonstrate the robustness of Neural-POD with different complex spatiotemporal systems, including the Burgers' and Navier-Stokes equations. We further show that Neural-POD serves as a high performance, plug-and-play bridge between classical Galerkin projection and operator learning that enables consistent integration with both projection-based reduced order models and DeepONet frameworks.",
+        "keywords": [
+          "physics.comp-ph",
+          "cs.LG",
+          "math.NA"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15632v1",
+        "authors": [
+          "Changhong Mou",
+          "Binghang Lu",
+          "Guang Lin"
+        ],
+        "arxiv_categories": [
+          "physics.comp-ph",
+          "cs.LG",
+          "math.NA"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Dimensional Functional Nonlinear Proper",
+        "Neural Proper Orthogonal Decomposition",
+        "Proper Orthogonal Decomposition",
+        "Play Neural Operator Framework",
+        "Neural Network",
+        "Framework",
+        "SVD",
+        "ROM",
+        "IoT",
+        "POD",
+        "MIT",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "s",
+        "arxiv_categories": [
+          "physics.comp-ph",
+          "cs.LG",
+          "math.NA"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.391668"
+    },
+    {
+      "id": "arxiv-2602.15568v1",
+      "title": "Scenario Approach with Post-Design Certification of User-Specified Properties",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15568v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The scenario approach is an established data-driven design framework that comes equipped with a powerful theory linking design complexity to generalization properties. In this approach, data are simultaneously used both for design and for certifying the design's reliability, without resorting to a separate test dataset. This paper takes a step further by guaranteeing additional properties, useful in post-design usage but not considered during the design phase. To this end, we introduce a two-level framework of appropriateness: baseline appropriateness, which guides the design process, and post-design appropriateness, which serves as a criterion for a posteriori evaluation. We provide distribution-free upper bounds on the risk of failing to meet the post-design appropriateness; these bounds are computable without using any additional test data. Under additional assumptions, lower bounds are also derived. As part of an effort to demonstrate the usefulness of the proposed methodology, the paper presents two practical examples in H2 and pole-placement problems. Moreover, a method is provided to infer comprehensive distributional knowledge of relevant performance indexes from the available dataset.",
+        "keywords": [
+          "stat.ME",
+          "cs.LG",
+          "eess.SY",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15568v1",
+        "authors": [
+          "Algo Carè",
+          "Marco C. Campi",
+          "Simone Garatti"
+        ],
+        "arxiv_categories": [
+          "stat.ME",
+          "cs.LG",
+          "eess.SY",
+          "stat.ML"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Design Certification",
+        "Scenario Approach",
+        "Framework",
+        "EPA",
+        "Act",
+        "AI",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "stat.ME",
+          "cs.LG",
+          "eess.SY",
+          "stat.ML"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:57:52.396046"
+    },
+    {
+      "id": "arxiv-2602.15449v1",
+      "title": "TAROT: Test-driven and Capability-adaptive Curriculum Reinforcement Fine-tuning for Code Generation with Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15449v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Large Language Models (LLMs) are changing the coding paradigm, known as vibe coding, yet synthesizing algorithmically sophisticated and robust code still remains a critical challenge. Incentivizing the deep reasoning capabilities of LLMs is essential to overcoming this hurdle. Reinforcement Fine-Tuning (RFT) has emerged as a promising strategy to address this need. However, most existing approaches overlook the heterogeneous difficulty and granularity inherent in test cases, leading to an imbalanced distribution of reward signals and consequently biased gradient updates during training. To address this, we propose Test-driven and cApability-adaptive cuRriculum reinfOrcement fine-Tuning (TAROT). TAROT systematically constructs, for each problem, a four-tier test suite (basic, intermediate, complex, edge), providing a controlled difficulty landscape for curriculum design and evaluation. Crucially, TAROT decouples curriculum progression from raw reward scores, enabling capability-conditioned evaluation and principled selection from a portfolio of curriculum policies rather than incidental test-case difficulty composition. This design fosters stable optimization and more efficient competency acquisition. Extensive experimental results reveal that the optimal curriculum for RFT in code generation is closely tied to a model's inherent capability, with less capable models achieving greater gains with an easy-to-hard progression, whereas more competent models excel under a hard-first curriculum. TAROT provides a reproducible method that adaptively tailors curriculum design to a model's capability, thereby consistently improving the functional correctness and robustness of the generated code. All code and data are released to foster reproducibility and advance community research at https://github.com/deep-diver/TAROT.",
+        "keywords": [
+          "cs.CL",
+          "cs.LG",
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15449v1",
+        "authors": [
+          "Chansung Park",
+          "Juyong Jiang",
+          "Fan Wang",
+          "Sayak Paul",
+          "Jiasi Shen"
+        ],
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.LG",
+          "cs.SE"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Curriculum Reinforcement Fine",
+        "Large Language Models Large",
+        "Reinforcement Fine",
+        "Code Generation",
+        "Language Models",
+        "TAROT",
+        "RFT",
+        "LLM",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cs.CL",
+          "cs.LG",
+          "cs.SE"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:58:03.595344"
+    },
+    {
+      "id": "arxiv-2602.15810v1",
+      "title": "Effective energy-enstrophy diffusion process and condensation bound",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15810v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "In this article we use Gaussian measure on $\\mathbb{R}^N$ to define the coefficients of an elliptic diffusion on an open cone of $\\mathbb{R}^2$. We prove the existence and uniqueness of a stationary distribution for this diffusion. In a companion article, we show that the diffusion constructed in this work is the inviscid limit of the laws of the ``enstrophy-energy'' process of a stationary $N$-dimensional Galerkin-Navier-Stokes type evolution with Brownian forcing and random stirring (the strength of which can be made to go to zero in the inviscid limit). In the present work, owing to the special properties of the coefficients constructed with the Gaussian measure, we bound the distance to $1$ of the ratio of the expected energy to the expected enstrophy (this ratio is at most $1$ with our normalization). Together with our companion article, this shows that for suitable Brownian forcings an inviscid condensation inducing an attrition of all but the lowest modes takes place.",
+        "keywords": [
+          "math.PR",
+          "math-ph",
+          "math.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15810v1",
+        "authors": [
+          "Alain-Sol Sznitman",
+          "Klaus Widmayer"
+        ],
+        "arxiv_categories": [
+          "math.PR",
+          "math-ph",
+          "math.AP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Fusion",
+        "MIT",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "math.PR",
+          "math-ph",
+          "math.AP"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:58:25.259119"
+    },
+    {
+      "id": "arxiv-2602.15805v1",
+      "title": "Inviscid limit and an effective energy-enstrophy diffusion process",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15805v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "In this article we consider a stationary $N$-dimensional Galerkin-Navier-Stokes type evolution with Brownian forcing and random stirring (of arbitrarily small strength). We show that the stationary diffusion in an open two-dimensional cone constructed in a companion article, stands as the inviscid limit of the laws of the ``enstrophy-energy'' process of the $N$-dimensional diffusion process considered here, this regardless of the strength of the stirring. With the help of the quantitative condensation bounds of the companion article, we infer quantitative inviscid condensation bounds, which for suitable forcings show an attrition of all but the lowest modes in the inviscid limit.",
+        "keywords": [
+          "math.PR",
+          "math-ph",
+          "math.AP"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15805v1",
+        "authors": [
+          "Alain-Sol Sznitman",
+          "Klaus Widmayer"
+        ],
+        "arxiv_categories": [
+          "math.PR",
+          "math-ph",
+          "math.AP"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Fusion",
+        "MIT",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "math.PR",
+          "math-ph",
+          "math.AP"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:58:25.259380"
+    },
+    {
+      "id": "arxiv-2602.15447v1",
+      "title": "Household size can explain 40% of the variance in cumulative COVID-19 incidence across Europe",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15447v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Household size impacts the spread of respiratory infectious diseases: Larger households tend to boost transmission by acquiring external infections more frequently and subsequently transmitting them back into the community. Furthermore, mandatory interventions primarily modulate contagion between households rather than within them. We developed an approach to quantify the role of household size in epidemics by separating within-household from out-household transmission, and found that household size explains 41% of the variability in cumulative COVID-19 incidence across 34 European countries (95% confidence interval: [15%, 46%]). The contribution of households to the overall dynamics can be quantified by a boost factor that increases with the effective household size, implying that countries with larger households require more stringent interventions to achieve the same levels of containment. This suggests that households constitute a structural (dis-)advantage that must be considered when designing and evaluating mitigation strategies.",
+        "keywords": [
+          "q-bio.PE",
+          "math.DS",
+          "physics.soc-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15447v1",
+        "authors": [
+          "Seba Contreras",
+          "Philipp Dönges",
+          "Maciej Filinski",
+          "Joel Wagner",
+          "Viktor Bezborodov"
+        ],
+        "arxiv_categories": [
+          "q-bio.PE",
+          "math.DS",
+          "physics.soc-ph"
+        ],
+        "steeps_mapping": "S_Social"
+      },
+      "entities": [
+        "Europe Household",
+        "COVID-19",
+        "COVID",
+        "EPA",
+        "MIT",
+        "Act",
+        "EU",
+        "UN",
+        "AI"
+      ],
+      "classification": {
+        "primary_steeps": "S",
+        "steeps_full": "S_Social",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "q-bio.PE",
+          "math.DS",
+          "physics.soc-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:58:25.270187"
+    },
+    {
+      "id": "arxiv-2602.15437v1",
+      "title": "Isotope effect in the work function of lithium",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15437v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The work functions of 7Li and 6Li metals have been measured as a function of temperature, by using photoionization of pure isolated metal nanoparticles in a beam. These data reveal a marked isotope effect in the temperature variation of these work functions. Furthermore, for both isotopes the curvature of this temperature variation is found to be significantly larger than may be ascribed purely to a change in the electron gas density. These findings enhance the characterization of lithium as a quantum material in which the interplay between electronic and ionic degrees of freedom is nontrivial, and call for a microscopic understanding beyond simple models. Additionally, the slope of the work function curves was observed to vanish in the low temperature limit, as had been predicted on the basis of the Third Law of thermodynamics.",
+        "keywords": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci",
+          "physics.atm-clus",
+          "physics.chem-ph"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15437v1",
+        "authors": [
+          "Atef A. Sheekhoon",
+          "Abdelrahman O. Haridy",
+          "Vitaly V. Kresin"
+        ],
+        "arxiv_categories": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci",
+          "physics.atm-clus",
+          "physics.chem-ph"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "Third Law",
+        "Meta",
+        "MIT",
+        "Act",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci",
+          "physics.atm-clus",
+          "physics.chem-ph"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:58:43.441112"
+    },
+    {
+      "id": "arxiv-2602.15770v1",
+      "title": "More uses for Thermal Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15770v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "We explore combinations of particle and anti-particle yields which can be used to test thermal models in a parameter free way. We also explore combinations which can be used to extract $μ_B/T$, $μ_S/T$ and $μ_Q/T$. We use experimentally measured particle-antiparticle specific ratios for proton $p$, $Λ$, and cascade $Ξ$, for $\\sqrt{s_{NN}} = $ 7.7-39 GeV from RHIC BES phase-1 to extract the $μ_{B,S,Q}/T$. These compared well with published STAR freeze-out parameters. These combinations are verified to predict a similar combination of $Ω$ and $\\overlineΩ$ yields. We also extend this idea to predict (anti-)nuclei yields at energies where they are not measured. We also update parametrizations for the $\\sqrt{s_{NN}}$ dependence of freeze-out parameters $T$ and $μ_B$, and present for the first time a similar parametrization of $μ_S$.",
+        "keywords": [
+          "hep-ph",
+          "nucl-ex",
+          "nucl-th"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15770v1",
+        "authors": [
+          "Natasha Sharma",
+          "Lokesh Kumar",
+          "Sourendu Gupta"
+        ],
+        "arxiv_categories": [
+          "hep-ph",
+          "nucl-ex",
+          "nucl-th"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "RHIC",
+        "STAR",
+        "BES",
+        "Act"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": null,
+        "arxiv_categories": [
+          "hep-ph",
+          "nucl-ex",
+          "nucl-th"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:59:05.649742"
+    },
+    {
+      "id": "arxiv-2602.15469v1",
+      "title": "A fresh look at boundary terms in Einstein-Hilbert gravity via an initial value variational principle",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15469v1",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "A key tenet of general relativity is the dynamical nature of space-time, ideally represented as an initial value problem. Here we explore the variational formulation of classical Einstein-Hilbert gravity as initial value problem by constructing its Schwinger-Keldysh-Galley (SKG) action, including a careful treatment of boundary terms. The construction is based on a doubling of degrees of freedom and independent of a foliation. The action naturally decomposes into a bulk term furnishing Einstein's equations and a boundary term, which is related to conserved quantities, such as the Komar mass. We find that since only trivial connecting conditions must be specified on boundaries, the variational action principle for gravity as an initial value problem is rendered well-posed without the need to add additional boundary terms. The SKG approach to gravity offers a novel and complementary avenue to solve for the metric of spacetime directly from the action, bypassing the governing equations.",
+        "keywords": [
+          "gr-qc",
+          "hep-ph",
+          "hep-th"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "arxiv_id": "2602.15469v1",
+        "authors": [
+          "Songmin Ha",
+          "Alexander Rothkopf"
+        ],
+        "arxiv_categories": [
+          "gr-qc",
+          "hep-ph",
+          "hep-th"
+        ],
+        "steeps_mapping": "T_Technological"
+      },
+      "entities": [
+        "BERT",
+        "SKG",
+        "Act",
+        "UN"
+      ],
+      "classification": {
+        "primary_steeps": "T",
+        "steeps_full": "T_Technological",
+        "secondary_steeps": "s",
+        "arxiv_categories": [
+          "gr-qc",
+          "hep-ph",
+          "hep-th"
+        ]
+      },
+      "scoring": {
+        "impact_score": 8,
+        "cross_domain_count": 0,
+        "psst": 81.6,
+        "dimensions": {
+          "SR": 85,
+          "ES": 95,
+          "CC": 80,
+          "TC": 100,
+          "DC": 100,
+          "IC": 24
+        }
+      },
+      "collected_at": "2026-02-18T13:59:05.657510"
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "classification_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-13",
+    "classifier": "STEEPs-6-category",
+    "total_classified": 25,
+    "steeps_distribution": {
+      "S_Social": 4,
+      "T_Technological": 8,
+      "E_Economic": 2,
+      "E_Environmental": 4,
+      "P_Political": 7,
+      "s_spiritual": 0
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "techcrunch-20260213-001",
+      "title": "AI Shifts from Scaling to Practical Implementation in 2026",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.95,
+      "cross_categories": [
+        "E"
+      ],
+      "impact_score": 8.5,
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 90,
+        "ES": 80,
+        "CC": 75,
+        "DC": 70
+      },
+      "psst_score": 82
+    },
+    {
+      "id": "sciencedaily-20260213-002",
+      "title": "Stanford Light-Based Breakthrough Could Enable Million-Qubit Quantum Computers",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.98,
+      "cross_categories": [],
+      "impact_score": 9.0,
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 88,
+        "ES": 85,
+        "CC": 80,
+        "DC": 90
+      },
+      "psst_score": 87
+    },
+    {
+      "id": "sciencedaily-20260213-003",
+      "title": "Quantum Error Correction Breakthrough: Computing While Fixing Errors Simultaneously",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.97,
+      "cross_categories": [],
+      "impact_score": 8.8,
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 85,
+        "ES": 82,
+        "CC": 78,
+        "DC": 88
+      },
+      "psst_score": 85
+    },
+    {
+      "id": "nature-20260213-004",
+      "title": "Generative AI System Analyzes Blood Cells More Accurately Than Human Experts",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.93,
+      "cross_categories": [
+        "S"
+      ],
+      "impact_score": 8.2,
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 88,
+        "ES": 78,
+        "CC": 72,
+        "DC": 80
+      },
+      "psst_score": 80
+    },
+    {
+      "id": "fedregister-20260213-005",
+      "title": "US EPA to Rescind 2009 Endangerment Finding on Greenhouse Gas Emissions",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.96,
+      "cross_categories": [
+        "E_Environmental"
+      ],
+      "impact_score": 9.5,
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 92,
+        "ES": 90,
+        "CC": 88,
+        "DC": 85
+      },
+      "psst_score": 90
+    },
+    {
+      "id": "fedregister-20260213-006",
+      "title": "H-2B Visa Program Expanded: 64,716 Additional Temporary Worker Visas for FY2026",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.92,
+      "cross_categories": [
+        "S"
+      ],
+      "impact_score": 6.5,
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 60,
+        "ES": 70,
+        "CC": 55,
+        "DC": 60
+      },
+      "psst_score": 62
+    },
+    {
+      "id": "who-20260213-007",
+      "title": "WHO Launches 2026 Appeal: $1 Billion for 36 Health Emergencies",
+      "final_category": "S",
+      "final_category_ko": "사회",
+      "confidence": 0.94,
+      "cross_categories": [
+        "P"
+      ],
+      "impact_score": 7.8,
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 72,
+        "ES": 80,
+        "CC": 70,
+        "DC": 75
+      },
+      "psst_score": 75
+    },
+    {
+      "id": "carbonbrief-20260213-008",
+      "title": "US Secret Climate Panel Ruled 'Unlawful'; All 5 Offshore Wind Projects Resume",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.95,
+      "cross_categories": [
+        "E_Environmental"
+      ],
+      "impact_score": 8.0,
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "ES": 82,
+        "CC": 75,
+        "DC": 72
+      },
+      "psst_score": 77
+    },
+    {
+      "id": "amsterdam-20260213-009",
+      "title": "Amsterdam Becomes First Capital to Ban Fossil Fuel and Meat Advertising",
+      "final_category": "E_Environmental",
+      "final_category_ko": "환경",
+      "confidence": 0.91,
+      "cross_categories": [
+        "P",
+        "S"
+      ],
+      "impact_score": 7.5,
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 80,
+        "ES": 72,
+        "CC": 68,
+        "DC": 85
+      },
+      "psst_score": 76
+    },
+    {
+      "id": "unctad-20260213-010",
+      "title": "UNCTAD: Trade Fragmentation into New Blocs as US Retreats from Trade Leadership",
+      "final_category": "E",
+      "final_category_ko": "경제",
+      "confidence": 0.96,
+      "cross_categories": [
+        "P"
+      ],
+      "impact_score": 9.0,
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "ES": 92,
+        "CC": 85,
+        "DC": 80
+      },
+      "psst_score": 87
+    },
+    {
+      "id": "bls-20260213-011",
+      "title": "US Employers Add 130,000 Jobs; Demographic Pressures Mount with Aging Workforce",
+      "final_category": "S",
+      "final_category_ko": "사회",
+      "confidence": 0.93,
+      "cross_categories": [
+        "E"
+      ],
+      "impact_score": 7.2,
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 68,
+        "ES": 75,
+        "CC": 65,
+        "DC": 70
+      },
+      "psst_score": 70
+    },
+    {
+      "id": "ilo-20260213-012",
+      "title": "ILO: Global Jobs Gap to Reach 408 Million in 2026",
+      "final_category": "S",
+      "final_category_ko": "사회",
+      "confidence": 0.95,
+      "cross_categories": [
+        "E"
+      ],
+      "impact_score": 8.0,
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 75,
+        "ES": 82,
+        "CC": 72,
+        "DC": 78
+      },
+      "psst_score": 77
+    },
+    {
+      "id": "euaiact-20260213-013",
+      "title": "EU AI Act Full Application August 2026; US States Advance Parallel AI Frameworks",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.97,
+      "cross_categories": [
+        "T",
+        "s"
+      ],
+      "impact_score": 8.8,
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 90,
+        "ES": 85,
+        "CC": 82,
+        "DC": 78
+      },
+      "psst_score": 85
+    },
+    {
+      "id": "conduent-20260213-014",
+      "title": "Conduent Breach Exposes 25M Americans; BridgePay Ransomware Disables Payment Gateway",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.94,
+      "cross_categories": [
+        "P",
+        "S"
+      ],
+      "impact_score": 8.5,
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "ES": 88,
+        "CC": 80,
+        "DC": 75
+      },
+      "psst_score": 82
+    },
+    {
+      "id": "bnef-20260213-015",
+      "title": "Global Energy Transition Investment Hits $2.3T; Renewables to Overtake Coal by 2026",
+      "final_category": "E_Environmental",
+      "final_category_ko": "환경",
+      "confidence": 0.96,
+      "cross_categories": [
+        "E"
+      ],
+      "impact_score": 9.2,
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 90,
+        "ES": 88,
+        "CC": 85,
+        "DC": 82
+      },
+      "psst_score": 87
+    },
+    {
+      "id": "ipbes-20260213-016",
+      "title": "IPBES: Biodiversity Decline Is Systemic Risk to Global Economic Stability",
+      "final_category": "E_Environmental",
+      "final_category_ko": "환경",
+      "confidence": 0.95,
+      "cross_categories": [
+        "E",
+        "S"
+      ],
+      "impact_score": 8.5,
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "ES": 88,
+        "CC": 78,
+        "DC": 80
+      },
+      "psst_score": 83
+    },
+    {
+      "id": "iran-20260213-017",
+      "title": "Iran Protests Spread to All 31 Provinces; New US Sanctions and EU Condemnation",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.97,
+      "cross_categories": [
+        "E"
+      ],
+      "impact_score": 8.8,
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "ES": 82,
+        "CC": 80,
+        "DC": 78
+      },
+      "psst_score": 83
+    },
+    {
+      "id": "crypto-20260213-018",
+      "title": "CFTC-SEC Joint Crypto Harmonization Signals Coordinated Digital Asset Regulation Era",
+      "final_category": "E",
+      "final_category_ko": "경제",
+      "confidence": 0.95,
+      "cross_categories": [
+        "P",
+        "T"
+      ],
+      "impact_score": 8.0,
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "ES": 82,
+        "CC": 75,
+        "DC": 72
+      },
+      "psst_score": 77
+    },
+    {
+      "id": "nasa-20260213-019",
+      "title": "Artemis II Lunar Flyby March 2026; Multiple New Rocket Launchers in Development",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.96,
+      "cross_categories": [],
+      "impact_score": 7.5,
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 80,
+        "ES": 70,
+        "CC": 65,
+        "DC": 78
+      },
+      "psst_score": 74
+    },
+    {
+      "id": "uspto-20260213-020",
+      "title": "USPTO SPARK Program and AI Patent Guidance Signal Pro-Innovation IP Policy Shift",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.93,
+      "cross_categories": [
+        "T"
+      ],
+      "impact_score": 7.0,
+      "psst_dimensions": {
+        "SR": 70,
+        "TC": 72,
+        "ES": 68,
+        "CC": 65,
+        "DC": 72
+      },
+      "psst_score": 69
+    },
+    {
+      "id": "wfp-20260213-021",
+      "title": "WFP: 20% Increase in Acute Food Insecurity; 60% Production in 5 Countries",
+      "final_category": "S",
+      "final_category_ko": "사회",
+      "confidence": 0.94,
+      "cross_categories": [
+        "E_Environmental",
+        "P"
+      ],
+      "impact_score": 8.5,
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 80,
+        "ES": 88,
+        "CC": 82,
+        "DC": 78
+      },
+      "psst_score": 83
+    },
+    {
+      "id": "uk-20260213-022",
+      "title": "UK Cuts Climate Finance by 22%; India Allocates $2.2B for Carbon Capture",
+      "final_category": "E_Environmental",
+      "final_category_ko": "환경",
+      "confidence": 0.93,
+      "cross_categories": [
+        "P",
+        "E"
+      ],
+      "impact_score": 7.5,
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 70,
+        "ES": 78,
+        "CC": 68,
+        "DC": 72
+      },
+      "psst_score": 73
+    },
+    {
+      "id": "deepmind-20260213-023",
+      "title": "DeepMind Launches Real-Time World Model; World Labs Releases Commercial Marble Model",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.97,
+      "cross_categories": [],
+      "impact_score": 8.8,
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 92,
+        "ES": 82,
+        "CC": 78,
+        "DC": 85
+      },
+      "psst_score": 85
+    },
+    {
+      "id": "venezuela-20260213-024",
+      "title": "US Returns to 'Maximum Pressure' Sanctions on Venezuela; Heavy Crude Exits Western Market",
+      "final_category": "P",
+      "final_category_ko": "정치",
+      "confidence": 0.95,
+      "cross_categories": [
+        "E"
+      ],
+      "impact_score": 7.8,
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 72,
+        "ES": 80,
+        "CC": 70,
+        "DC": 75
+      },
+      "psst_score": 75
+    },
+    {
+      "id": "singapore-20260213-025",
+      "title": "Singapore Expels APT UNC3886 from All Four Telecom Providers",
+      "final_category": "T",
+      "final_category_ko": "기술",
+      "confidence": 0.95,
+      "cross_categories": [
+        "P"
+      ],
+      "impact_score": 8.0,
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "ES": 75,
+        "CC": 72,
+        "DC": 82
+      },
+      "psst_score": 77
+    },
+    {
+      "id": "explore-20260213-wid-001",
+      "title": "World Inequality Report 2026: Top 10% Own 75% of Global Wealth While Bottom Half Holds Just 2%",
+      "source": {
+        "name": "World Inequality Database",
+        "type": "academic",
+        "url": "https://wid.world/news-article/world-inequality-report-2026-inequality-persist-at-a-very-extreme-level/",
+        "published_date": "2026-02-12",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The World Inequality Report 2026, edited by Lucas Chancel, Ricardo Gomez-Carrera, Rowaida Moshrif, and Thomas Piketty, reveals that global inequality persists at very extreme levels. The top 10% of the global population owns three-quarters (75%) of global wealth, while the bottom half holds only 2%. Carbon inequality mirrors wealth inequality: the poorest half accounts for only 3% of carbon emissions associated with private capital ownership, while the top 10% accounts for 77%. The report explores new dimensions including climate inequality, gender disparities, unequal access to human capital, asymmetries in the global financial system, and territorial divides reshaping democracies. It proposes a global taxation framework for multi-millionaires as a potential remedy.",
+        "keywords": [
+          "wealth inequality",
+          "carbon inequality",
+          "global taxation",
+          "Piketty",
+          "World Inequality Report 2026",
+          "economic justice"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "final_category": "E",
+      "classification_confidence": 0.96,
+      "classification_reasoning": "Flagship report on global wealth and income distribution, financial system asymmetries, and proposed taxation policy — core Economic domain with Social cross-impact.",
+      "collected_at": "2026-02-13T08:52:00Z",
+      "exploration_source": "World Inequality Database",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Economic",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "web_search + web_fetch",
+          "url_verified": true,
+          "content_freshness": "2026-02-12"
+        }
+      }
+    },
+    {
+      "id": "explore-20260213-darden-001",
+      "title": "AI Ethics Implementation Gap: 5 Years to Embed Ethics as Infrastructure Before It's Too Late",
+      "source": {
+        "name": "UVA Darden School (LaCross Institute)",
+        "type": "academic",
+        "url": "https://news.darden.virginia.edu/2026/01/22/ethics-is-the-defining-issue-for-the-future-of-ai-and-time-is-running-short/",
+        "published_date": "2026-01-22",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "UVA President Scott Beardsley warns that structural risks like bias, opacity, and concentration of power remain entrenched in AI systems despite proliferation of ethical frameworks. The next 5 years will determine whether ethics are embedded as infrastructure in AI or patched in too late at greater cost. Critical gap identified between 'AI ethics' (academic study) and 'ethical AI' (practical implementation). EU AI Act fully in force 2026 while US offers only partial guidance, creating regulatory fragmentation. Small errors scale into systemic harms when organizations rush to deploy. LaCross Institute reframes ethics as strategic advantage: ethical AI builds consumer trust, brand loyalty, and mitigates legal/regulatory risks.",
+        "keywords": [
+          "AI ethics",
+          "implementation gap",
+          "EU AI Act",
+          "bias",
+          "accountability",
+          "regulatory fragmentation",
+          "ethical infrastructure"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "final_category": "s",
+      "classification_confidence": 0.94,
+      "classification_reasoning": "Addresses fundamental values question of how society embeds ethics into AI — core spiritual/values domain (ethics, psychology, meaning of responsible technology). Political cross-impact through regulatory analysis.",
+      "collected_at": "2026-02-13T08:53:00Z",
+      "exploration_source": "UVA Darden School",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "s_spiritual"
+    },
+    {
+      "id": "explore-20260213-csr-001",
+      "title": "Synthetic Biology + AI Convergence Governance: Standards and Global Oversight Urgently Needed for 2026",
+      "source": {
+        "name": "Council on Strategic Risks",
+        "type": "policy",
+        "url": "https://councilonstrategicrisks.org/2025/12/22/2025-aixbio-wrapped-a-year-in-review-and-projections-for-2026/",
+        "published_date": "2025-12-22",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The Council on Strategic Risks' AIxBio program identifies critical governance gaps at the convergence of AI and synthetic biology. OECD framework proposes 5-pillar co-evolutionary governance: R&D promotion through biofoundries, strategic intelligence for biosecurity risk monitoring, stakeholder engagement for public trust, agile data-driven regulation (not rigid precautionary measures), and international cooperation via networks like iGEM and Global Biofoundry Alliance. Regulatory disparities persist: US/UK use risk-based frameworks for faster commercialization while South Korea applies existing LMO regulations constraining biofoundry efficiency. UK Precision Breeding Act exempts certain gene-edited organisms from traditional requirements. FY2026 NDAA includes biotech/biosecurity provisions requiring biological data be AI-ready. Scientists bear responsibility for considering institutional conditions and ensuring accountability.",
+        "keywords": [
+          "synthetic biology governance",
+          "AI-bio convergence",
+          "biosecurity",
+          "OECD framework",
+          "biofoundries",
+          "gene editing regulation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "final_category": "s",
+      "classification_confidence": 0.91,
+      "classification_reasoning": "Ethics and governance of synthetic biology — fundamental values question about creating and governing engineered life. Spiritual/values domain (bioethics, accountability for scientific power). Political and Technological cross-impacts.",
+      "collected_at": "2026-02-13T08:54:00Z",
+      "exploration_source": "Council on Strategic Risks",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "synthetic biology ethics governance"
+    },
+    {
+      "id": "explore-20260213-caixabank-001",
+      "title": "Global Economy 2026: US Tariffs Stabilize at 14.5-16% as AI Investment Nears $3 Trillion by 2030",
+      "source": {
+        "name": "CaixaBank Research",
+        "type": "blog",
+        "url": "https://www.caixabankresearch.com/en/economics-markets/activity-growth/world-economy-2026-resilience-transition-or-disruption",
+        "published_date": "2026-02-10",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "CaixaBank Research projects 2026 global growth at approximately 3% cruising speed, with sharp regional disparities: Asia 4.5%, US 1.8%, Europe 1.3%. Average US tariffs have stabilized at 14.5-16% (up from 2.5% pre-Trump), representing a structural protectionist shift. Tech firms plan nearly $3 trillion in AI-related investment by 2030 (approximately 10% of GDP), raising concerns about circular financing structures and return justification. IMF projects US public debt reaching 143% of GDP by 2030 with deficit not falling below 7%. EU-ASEAN-Canada-Australia trade links may partly offset effects of reduced US openness. Geo-economics has become an instrument of political strategy as China challenges post-WWII US-led economic order.",
+        "keywords": [
+          "global GDP forecast",
+          "trade tariffs",
+          "AI investment",
+          "US debt",
+          "geoeconomics",
+          "trade fragmentation",
+          "European economic outlook"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "final_category": "E",
+      "classification_confidence": 0.97,
+      "classification_reasoning": "Comprehensive macroeconomic analysis with GDP forecasts, tariff data, investment flows, and debt projections — core Economic domain. Political cross-impact through geoeconomics.",
+      "collected_at": "2026-02-13T08:55:00Z",
+      "exploration_source": "CaixaBank Research",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Economic"
+    },
+    {
+      "id": "explore-20260213-cmu-001",
+      "title": "CMU Study: AI Music Less Creative Than Human Compositions — Fewer Notes, Lower Originality Ratings",
+      "source": {
+        "name": "Carnegie Mellon University News",
+        "type": "academic",
+        "url": "https://www.cmu.edu/news/stories/archives/2026/january/as-ai-generated-music-advances-humans-still-lead-in-creativity-cmu-research-finds",
+        "published_date": "2026-01-28",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Carnegie Mellon University study with 140 musically trained participants found AI-generated music is significantly less creative than human compositions. Half of participants used Udio (AI music generator) while the other half composed independently. AI compositions were slower in tempo, used fewer notes, and were rated significantly less creative by independent evaluators. Researchers warn these tools are developed 'with the promise of improving creativity or having social benefit — so if they are not helping, that has important implications.' Fundamental distinction identified: humans create music from personal experiences and inspirations, creating relationships between music, artist and listener that AI cannot replicate. Industry trend: AI platforms increasingly offer stem generation, MIDI exports, and multitrack editing — shifting from autonomous creation to human-centered collaboration tools.",
+        "keywords": [
+          "AI music",
+          "creativity research",
+          "human-AI collaboration",
+          "Udio",
+          "music generation",
+          "artistic authenticity",
+          "CMU"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "final_category": "S",
+      "classification_confidence": 0.89,
+      "classification_reasoning": "Study on human creativity vs AI in music — Social domain (education, cultural production, labor implications for creative workers). Spiritual/values cross-impact (meaning and authenticity in art). Technological cross-impact (AI capabilities).",
+      "collected_at": "2026-02-13T08:56:00Z",
+      "exploration_source": "CMU News",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "music and artificial intelligence"
+    }
+  ]
+}

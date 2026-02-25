@@ -1,0 +1,144 @@
+{
+  "scan_date": "2026-02-09",
+  "workflow": "wf1-general",
+  "execution_id": "wf1-scan-2026-02-09-09-00-15-b4r7",
+  "total_signals": 58,
+  "ranking_method": "pSST_unified",
+  "signals": [
+    {
+      "rank": 1,
+      "title": "콜로라도 AI법 발효 & 연방-주 규제 충돌 -- 글로벌 AI 거버넌스 분수령",
+      "psst_score": 96,
+      "grade": "A",
+      "steeps": ["P", "T"],
+      "impact": 5.0,
+      "source_tags": ["King & Spalding", "Drata", "Built In", "White & Case", "EU AI Act Newsletter"]
+    },
+    {
+      "rank": 2,
+      "title": "글로벌 성장률 2.7% 하향 -- 무역정책이 최대 하방 리스크",
+      "psst_score": 95,
+      "grade": "A",
+      "steeps": ["E"],
+      "impact": 4.8,
+      "source_tags": ["IMF", "EY", "McKinsey", "World Bank", "Rabobank", "UN WESP", "Deloitte"]
+    },
+    {
+      "rank": 3,
+      "title": "H5N1 조류인플루엔자 팬데믹 위험 고조 -- '통제 불능' 경고",
+      "psst_score": 94,
+      "grade": "A",
+      "steeps": ["S", "E_env"],
+      "impact": 4.9,
+      "source_tags": ["BBC Science Focus", "CDC", "WHO", "CIDRAP", "NEJM"]
+    },
+    {
+      "rank": 4,
+      "title": "자율주행 연방규제 전쟁 -- 상원 청문회 Tesla/Waymo 중국 위협론",
+      "psst_score": 93,
+      "grade": "A",
+      "steeps": ["T", "P"],
+      "impact": 4.5,
+      "source_tags": ["US Senate", "US News", "Fox Business", "CBS News"]
+    },
+    {
+      "rank": 5,
+      "title": "핵융합 에너지 실용화 가속 -- WEST 20분 플라즈마 유지",
+      "psst_score": 92,
+      "grade": "A",
+      "steeps": ["T", "E_env"],
+      "impact": 4.7,
+      "source_tags": ["Popular Mechanics", "Energy Solutions", "Scientific American", "ITER"]
+    },
+    {
+      "rank": 6,
+      "title": "핵심광물 공급망 무기화 -- 중국 연쇄 수출 통제",
+      "psst_score": 91,
+      "grade": "A",
+      "steeps": ["E", "P"],
+      "impact": 4.6,
+      "source_tags": ["IEA", "InvestorNews", "USGS", "IRENA"]
+    },
+    {
+      "rank": 7,
+      "title": "CBDC/디지털 자산 규제 양극화 -- EU 디지털 유로 vs 미국 CBDC 금지",
+      "psst_score": 90,
+      "grade": "A",
+      "steeps": ["E", "P"],
+      "impact": 4.3,
+      "source_tags": ["PYMNTS", "Congress.gov", "Banking.Vision", "WEF"]
+    },
+    {
+      "rank": 8,
+      "title": "SpaceX Starship V3 3월 시험비행 -- 궤도 도킹 능력",
+      "psst_score": 89,
+      "grade": "B+",
+      "steeps": ["T"],
+      "impact": 4.2,
+      "source_tags": ["TechCrunch", "Teslarati", "NASASpaceFlight"]
+    },
+    {
+      "rank": 9,
+      "title": "EU-빅테크 규제 전쟁 2026 -- DMA/DSA 집행 강화",
+      "psst_score": 88,
+      "grade": "B+",
+      "steeps": ["P", "E"],
+      "impact": 4.1,
+      "source_tags": ["Irish Times", "TechPolicy.Press", "Euronews", "SFG Media"]
+    },
+    {
+      "rank": 10,
+      "title": "양자컴퓨팅 퀀텀 어드밴티지 원년 접근 -- 오류 보정 급진전",
+      "psst_score": 87,
+      "grade": "B+",
+      "steeps": ["T"],
+      "impact": 4.0,
+      "source_tags": ["Nature", "The Quantum Insider", "IBM", "Microsoft"]
+    },
+    {
+      "rank": 11,
+      "title": "사이버보안 위협 고도화 -- VMware ESXi 제로데이 랜섬웨어",
+      "psst_score": 86,
+      "grade": "B+",
+      "steeps": ["T", "E"],
+      "impact": 4.0,
+      "source_tags": ["CISA", "Help Net Security", "Google Cloud", "Outpost24"]
+    },
+    {
+      "rank": 12,
+      "title": "홍역 아메리카 대륙 재확산 -- PAHO 역학 경보",
+      "psst_score": 85,
+      "grade": "B+",
+      "steeps": ["S", "E_env"],
+      "impact": 3.8,
+      "source_tags": ["PAHO", "WHO", "CDC"]
+    },
+    {
+      "rank": 13,
+      "title": "글로벌 노동시장 양극화 -- ILO 2026 고용사회전망",
+      "psst_score": 84,
+      "grade": "B",
+      "steeps": ["S", "E"],
+      "impact": 3.7,
+      "source_tags": ["ILO", "ILOSTAT", "IMD", "WEF", "World Bank"]
+    },
+    {
+      "rank": 14,
+      "title": "에너지 전환 정책 불확실성 -- 미국 세제혜택 축소 vs 글로벌 재생에너지",
+      "psst_score": 83,
+      "grade": "B",
+      "steeps": ["E_env", "P", "E"],
+      "impact": 3.6,
+      "source_tags": ["IEA", "McKinsey", "NRDC", "WREC 2026"]
+    },
+    {
+      "rank": 15,
+      "title": "UN 사무총장 선출과 글로벌 거버넌스 재편",
+      "psst_score": 82,
+      "grade": "B",
+      "steeps": ["P"],
+      "impact": 3.5,
+      "source_tags": ["CFR", "The Diplomat", "CIDOB", "EY", "European Parliament"]
+    }
+  ]
+}

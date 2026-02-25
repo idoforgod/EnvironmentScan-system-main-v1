@@ -1,0 +1,38 @@
+{
+  "exploration_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-19",
+    "method": "single-agent",
+    "total_exploration_signals": 3
+  },
+  "items": [
+    {
+      "id": "explore-20260219-techcabal-001",
+      "title": "Deeptech is Africa's Next VC Frontier — GPU-as-a-Service and AI Manufacturing Tools Emerge",
+      "source": {"name": "TechCabal", "type": "blog", "url": "https://techcabal.com/2026/02/19/deeptech-is-africas-next-vc-frontier/", "published_date": "2026-02-19"},
+      "content": {"abstract": "African deeptech is shifting from consumer-focused apps to AI-driven manufacturing, language infrastructure, and GPU-as-a-Service. Companies like Udutech offer GPU compute access at lower cost; TNKR's Leonardo AI supports hardware manufacturing in resource-constrained environments. Critical talent gap in specialized engineering identified. Investors expect more science-driven African startups scaling globally.", "keywords": ["Africa", "deeptech", "AI", "GPU", "startup", "manufacturing"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-19T22:23:00+00:00",
+      "exploration_source": true
+    },
+    {
+      "id": "explore-20260219-statnews-001",
+      "title": "Brain-Computer Interfaces Coming of Age — MIND Act, Colorado Neural Data Law, and BCI Commercialization Surge",
+      "source": {"name": "STAT News / CSIS", "type": "academic", "url": "https://www.statnews.com/2025/12/26/brain-computer-interface-technology-trends-2026/", "published_date": "2026-01-12"},
+      "content": {"abstract": "BCI startups are surging in 2026 with clinical trial participation growing. Colorado and Minnesota enacted neural data privacy laws. Federal MIND Act pending FTC review. Consumer BCIs remain essentially unregulated. FDA cleared a BCI device for cortical measurement and stimulation. Key governance gap: no comprehensive federal neurotechnology regulation despite rapid commercialization.", "keywords": ["brain-computer interface", "BCI", "neurotechnology", "MIND Act", "neural data", "regulation", "FDA"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-19T22:23:00+00:00",
+      "exploration_source": true
+    },
+    {
+      "id": "explore-20260219-columbia-001",
+      "title": "AI Detects 13.4% Annual Rise in Floating Algae Blooms — Ocean Ecosystem Structural Shift Underway",
+      "source": {"name": "Columbia Climate School — State of the Planet", "type": "academic", "url": "https://news.climate.columbia.edu/2026/02/17/harnessing-ai-scientists-discover-a-rise-in-floating-algae-across-the-global-ocean/", "published_date": "2026-02-17"},
+      "content": {"abstract": "AI analysis of 20 years of satellite imagery reveals floating algae blooms are increasing worldwide. Microalgae on ocean surface increased 1% per year; macroalgae in tropical Atlantic and western Pacific increased 13.4% per year (2003-2022). Algae blooms affect ocean carbon uptake, marine biodiversity, and fishery productivity. Structural ecosystem shift potentially underway.", "keywords": ["algae blooms", "ocean ecosystem", "AI satellite", "climate", "marine biology", "carbon cycle"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-19T22:23:00+00:00",
+      "exploration_source": true
+    }
+  ],
+  "total_items": 3
+}

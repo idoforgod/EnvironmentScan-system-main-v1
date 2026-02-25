@@ -1,0 +1,290 @@
+{
+  "classification_metadata": {
+    "date": "2026-02-10",
+    "workflow": "wf3-naver",
+    "version": "2.2.1-test",
+    "total_signals": 15,
+    "steeps_distribution": {"E": 5, "T": 4, "P": 3, "S": 1, "E_Environmental": 1, "s": 1},
+    "fssf_distribution": {"Trend": 5, "Driver": 3, "Emerging Issue": 3, "Weak Signal": 2, "Precursor Event": 1, "Wild Card": 1},
+    "three_horizons_distribution": {"H1": 9, "H2": 5, "H3": 1},
+    "tipping_point_alerts": {"RED": 0, "ORANGE": 1, "YELLOW": 3, "GREEN": 11},
+    "scan_window": {
+      "start": "2026-02-09T10:56:39+00:00",
+      "end": "2026-02-10T10:56:39+00:00",
+      "lookback_hours": 24,
+      "temporal_gate_status": "PASS"
+    }
+  },
+  "signals": [
+    {
+      "id": "naver-20260210-101-001",
+      "title": "AI 반도체 시장 441조 시총 증발, 엔비디아-오픈AI 동맹 균열에 앤트로픽 신기술 충격",
+      "category": "E",
+      "fssf_type": "Wild Card",
+      "fssf_rationale": "하루 만에 441조원 시총 증발은 비선형적 시장 충격. 기존 동맹 구조의 급격한 균열은 예측 불가능한 산업 재편 신호",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "이미 발생한 시장 충격. 0-2년 내 반도체 산업 구조 재편 직접 영향",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "indicator": "Critical Slowing Down",
+        "rationale": "AI 반도체 시장의 과열-냉각 사이클이 빨라지고, 동맹 구조 균열이 시스템 불안정성 증가 신호. 441조 증발은 체제 전환의 전조 가능"
+      },
+      "impact_score": 9.0,
+      "psst": 88,
+      "source_section": "경제",
+      "keywords": ["AI반도체", "엔비디아", "오픈AI", "앤트로픽", "시총증발"]
+    },
+    {
+      "id": "naver-20260210-105-001",
+      "title": "AI 칩 부족에 2026년 스마트폰/PC/게임기 가격 급등, DDR5 메모리 품귀 현상",
+      "category": "T",
+      "fssf_type": "Trend",
+      "fssf_rationale": "AI 인프라 확장에 따른 메모리 수급 불균형은 지속적 추세. 가격 인상(6.9-8%)은 구조적 공급 부족 반영",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "현재 진행형 가격 인상. 2026년 내 소비자 직접 영향",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Flickering",
+        "rationale": "DDR5 가격 변동성이 높아지며 공급망 안정성 흔들림. 중국산 DRAM 도입 검토는 공급망 전환점 접근 신호"
+      },
+      "impact_score": 7.6,
+      "psst": 84,
+      "source_section": "IT과학",
+      "keywords": ["DDR5", "메모리 품귀", "가격급등", "스마트폰", "중국 DRAM"]
+    },
+    {
+      "id": "naver-20260210-101-002",
+      "title": "서울 부동산 신고가 속출, 전세난 심화에 정부 공급 속도전 돌입",
+      "category": "E",
+      "fssf_type": "Trend",
+      "fssf_rationale": "서울 부동산 가격 상승은 지속적 추세. 외국인 주택거래 규제 강화는 정책 대응 패턴의 반복",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "현재 진행형 가격 상승과 정책 대응. 즉시 시장 영향",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "추세 지속이나 체제 전환 임박 징후 없음"
+      },
+      "impact_score": 7.0,
+      "psst": 82,
+      "source_section": "경제",
+      "keywords": ["부동산", "전세난", "서울 신고가", "외국인 주택거래", "공급정책"]
+    },
+    {
+      "id": "naver-20260210-100-001",
+      "title": "헌법재판소 탄소중립기본법 일부 위헌 판결, 미래세대 권리 침해 인정",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "fssf_rationale": "헌재 위헌 판결은 한국 기후 거버넌스의 법적 전환점. 미래세대 권리 인정은 법체계 변화의 선행 사건",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "판결 즉시 효력이나 법제도 개편 효과는 2-7년에 걸쳐 나타남",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Critical Slowing Down",
+        "rationale": "기후 거버넌스 체제의 점진적 전환이 헌재 판결로 가속화. 법적 강제력이 정책 전환의 비가역적 분기점 형성 가능"
+      },
+      "impact_score": 8.8,
+      "psst": 90,
+      "source_section": "정치",
+      "keywords": ["헌법재판소", "탄소중립", "위헌", "미래세대", "기후정책"]
+    },
+    {
+      "id": "naver-20260210-101-003",
+      "title": "한국 경제성장률 1.9% 전망, 무역 불확실성 속 AI·디지털 전환 가속",
+      "category": "E",
+      "fssf_type": "Trend",
+      "fssf_rationale": "1.9% 성장률은 저성장 기조의 지속. AI·디지털 전환은 구조적 변화 추세",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "2026년 당해 경제 전망. 즉시 정책·투자 의사결정에 영향",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "점진적 추세 변화. 체제 전환 징후 미약"
+      },
+      "impact_score": 7.4,
+      "psst": 83,
+      "source_section": "경제",
+      "keywords": ["경제성장률", "1.9%", "AI교육", "디지털전환", "불확실성"]
+    },
+    {
+      "id": "naver-20260210-102-001",
+      "title": "인구감소지역 10개 군 농어촌 기본소득 시범 시행, 월 15만원 지급",
+      "category": "S",
+      "fssf_type": "Emerging Issue",
+      "fssf_rationale": "인구 소멸 위기 대응으로서의 기본소득은 아직 실험 단계. 성패에 따라 전국 확대 가능성 있는 부상 이슈",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "시범 시행 후 효과 검증과 확대 적용까지 2-5년 소요",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "시범 단계로 체제 전환 징후 미약. 모니터링 지속 필요"
+      },
+      "impact_score": 7.2,
+      "psst": 81,
+      "source_section": "사회",
+      "keywords": ["인구감소", "기본소득", "농어촌", "인구소멸", "시범사업"]
+    },
+    {
+      "id": "naver-20260210-104-001",
+      "title": "데이터센터 전력 병목이 AI 시대 승패 가를 핵심 변수로 부상",
+      "category": "T",
+      "fssf_type": "Driver",
+      "fssf_rationale": "전력 병목은 AI 산업 발전을 좌우하는 구조적 동인. 반도체에서 전력으로의 병목 이동은 산업 패러다임 전환 동인",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "현재 진행형 병목. 2026년 AI 시장의 승패를 직접 결정",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Critical Slowing Down",
+        "rationale": "전력 수요-공급 간극이 빠르게 확대. SMR 등 대안이 상용화되지 않으면 AI 인프라 확장 한계점 도달 가능"
+      },
+      "impact_score": 8.2,
+      "psst": 86,
+      "source_section": "세계",
+      "keywords": ["데이터센터", "전력", "AI전력", "SMR", "에너지병목"]
+    },
+    {
+      "id": "naver-20260210-100-002",
+      "title": "주담대 위험가중치 20%로 상향, 금융 27조원 규모 영향",
+      "category": "P",
+      "fssf_type": "Driver",
+      "fssf_rationale": "금융 규제 강화는 부동산-금융 시스템의 방향을 결정하는 핵심 동인. 27조원 규모 영향은 시장 구조 변화 유발",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "즉시 시행. 금융회사 자본 적립 의무 즉각 영향",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "정책적 단계적 강화. 급격한 전환보다는 점진적 조정"
+      },
+      "impact_score": 7.8,
+      "psst": 85,
+      "source_section": "정치",
+      "keywords": ["주담대", "위험가중치", "가계부채", "금융규제", "자본적립"]
+    },
+    {
+      "id": "naver-20260210-105-002",
+      "title": "재계 총수 신년사 키워드: AI, 혁신, 도전 -- 2026년 경영 방향 총정리",
+      "category": "E",
+      "fssf_type": "Trend",
+      "fssf_rationale": "재계 총수들의 AI 강조는 이미 확립된 메가트렌드 내 기업 전략 수렴 현상. 반복되는 추세",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "2026년 당해 경영 전략. 즉시 투자·채용·사업 방향에 반영",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "점진적 전략 수렴. 체제 전환 징후 없음"
+      },
+      "impact_score": 6.8,
+      "psst": 79,
+      "source_section": "IT과학",
+      "keywords": ["재계 신년사", "AI 전략", "삼성", "SK", "경영방향"]
+    },
+    {
+      "id": "naver-20260210-102-002",
+      "title": "인공지능 윤리 2026년 새 시대 과제, 디지털 기본역량교육 범위 확대",
+      "category": "s",
+      "fssf_type": "Emerging Issue",
+      "fssf_rationale": "AI 윤리의 제도화는 아직 초기 단계. 교육 범위 확대는 부상 이슈의 정책화 과정",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "교육 인프라 구축과 사회적 내재화까지 3-5년 소요",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "점진적 제도화 과정. 임계점 징후 미약"
+      },
+      "impact_score": 6.4,
+      "psst": 77,
+      "source_section": "사회",
+      "keywords": ["AI윤리", "디지털교육", "AI리터러시", "기본역량", "정부정책"]
+    },
+    {
+      "id": "naver-20260210-103-001",
+      "title": "COP30 NDC 제출 임박, 한국 기후 목표 상향 압력 증대",
+      "category": "E_Environmental",
+      "fssf_type": "Driver",
+      "fssf_rationale": "국제 기후 규범이 국내 정책 방향을 강제하는 핵심 동인. NDC 상향은 산업·에너지 전환을 가속하는 구조적 동력",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "NDC 목표 이행은 2030-2035 시점까지의 중기 과제",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "국제 압력 증대이나 즉시 임계점 도달 징후는 없음"
+      },
+      "impact_score": 7.6,
+      "psst": 84,
+      "source_section": "생활문화",
+      "keywords": ["COP30", "NDC", "기후목표", "파리협정", "녹색서울"]
+    },
+    {
+      "id": "naver-20260210-101-004",
+      "title": "모건 스탠리 2026 전망: 세계 경제를 바꿀 10가지 핵심 예측",
+      "category": "E",
+      "fssf_type": "Trend",
+      "fssf_rationale": "주요 IB의 연간 전망은 기존 추세의 종합 분석. 새로운 신호보다는 확립된 추세 확인",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "2026년 연간 전망. 단기 투자·정책 의사결정에 직접 영향",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "주류 전망으로 체제 전환 분석보다 추세 연장 관점"
+      },
+      "impact_score": 6.6,
+      "psst": 78,
+      "source_section": "경제",
+      "keywords": ["모건스탠리", "경제전망", "AI투자", "금리", "신흥국"]
+    },
+    {
+      "id": "naver-20260210-104-002",
+      "title": "미국 DDR5 품귀에 중국산 DRAM 도입 검토, 메모리 공급망 재편 신호",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "fssf_rationale": "미국 기업의 중국산 DRAM 도입 검토는 기존 공급망 패러다임에 반하는 약한 신호. CXMT의 글로벌 시장 진입은 아직 초기 단계",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "공급망 재편은 2-5년에 걸쳐 점진적으로 진행. 지정학적 리스크 변수 상존",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "초기 검토 단계. 실제 대규모 전환까지 시간 필요"
+      },
+      "impact_score": 7.8,
+      "psst": 82,
+      "source_section": "세계",
+      "keywords": ["DDR5", "중국DRAM", "CXMT", "메모리", "삼성", "SK하이닉스"]
+    },
+    {
+      "id": "naver-20260210-102-003",
+      "title": "2026년 금융제도 개편, 부동산 시장 '판' 바꿀 핵심 변화 총정리",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "fssf_rationale": "복합적 금융제도 개편은 부동산 시장의 자금 흐름을 근본적으로 변화시킬 수 있는 부상 이슈",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "2026년 즉시 시행. 부동산 시장에 당해 영향",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "제도적 점진적 강화. 급격한 전환 징후 없음"
+      },
+      "impact_score": 7.0,
+      "psst": 80,
+      "source_section": "사회",
+      "keywords": ["금융제도", "부동산규제", "DSR", "외국인거래", "주담대"]
+    },
+    {
+      "id": "naver-20260210-105-003",
+      "title": "2026 반도체 병목은 전력, SMR 원전부터 직접 발전까지 AI 전력 해법 총동원",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "fssf_rationale": "SMR 원전과 직접 발전 방식은 아직 상용화 초기. 다양한 해법의 경쟁은 패러다임 전환 초기 단계의 약한 신호",
+      "three_horizons": "H3",
+      "three_horizons_rationale": "SMR 상용화는 7년 이상 소요. 에너지 인프라의 근본적 전환은 장기 과제",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": null,
+        "rationale": "다양한 해법 경쟁 초기 단계. 지배적 솔루션 미확정"
+      },
+      "impact_score": 7.4,
+      "psst": 83,
+      "source_section": "IT과학",
+      "keywords": ["SMR", "데이터센터전력", "AI전력", "소형모듈원전", "에너지"]
+    }
+  ]
+}

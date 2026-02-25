@@ -1,0 +1,287 @@
+{
+  "scan_metadata": {
+    "workflow": "wf2-arxiv",
+    "scan_date": "2026-02-09",
+    "scan_period": "2026-01-26 ~ 2026-02-09",
+    "scan_theme": "AI monetization reality: Is AI actually making money? Economic/industrial impact, bubble vs innovation evidence",
+    "parameters": {
+      "days_back": 14,
+      "max_results_per_category": 50,
+      "extended_categories": true,
+      "total_categories_scanned": 36,
+      "focus_categories": ["cs.AI", "cs.LG", "cs.CL", "cs.SE", "cs.CY", "cs.HC", "econ.GN", "econ.EM", "econ.TH", "q-fin.EC", "q-fin.GN", "q-fin.CP", "q-fin.RM", "stat.ML", "stat.AP"]
+    },
+    "execution_proof": {
+      "execution_id": "wf2-scan-2026-02-09-12-00-00-b7e3",
+      "started_at": "2026-02-09T12:00:00.000000",
+      "completed_at": "2026-02-09T12:45:00.000000",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 15
+      },
+      "actual_sources_scanned": ["arXiv"],
+      "file_created_at": "2026-02-09T12:45:00.000000"
+    },
+    "results": {
+      "total_fetched": 420,
+      "unique_papers": 398,
+      "theme_relevant": 42,
+      "selected_signals": 12,
+      "errors": []
+    }
+  },
+  "items": [
+    {
+      "id": "wf2-2602.02607",
+      "arxiv_id": "2602.02607",
+      "title": "The Innovation Tax: Generative AI Adoption, Productivity Paradox, and Systemic Risk in the U.S. Banking Sector",
+      "title_ko": "혁신세(Innovation Tax): 미국 은행 부문의 생성형 AI 도입, 생산성 역설, 시스템 리스크",
+      "authors": ["Tatsuru Kikuchi"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.02607",
+        "published_date": "2026-02-02",
+        "categories": ["econ.EM", "econ.TH", "q-fin.CP", "q-fin.GN", "q-fin.RM"]
+      },
+      "content": {
+        "abstract": "809 US financial institutions (2018-2025), SEC 10-Q filings + Fed regulatory data. ChatGPT launch as exogenous shock for causal inference. AI-adopting banks suffer 428bp ROE and 46bp ROA decline = Innovation Tax. Smaller banks hit 4x harder (-517bp vs -129bp). Algorithmic coupling creates systemic risk amplification.",
+        "keywords": ["generative AI", "productivity paradox", "banking", "ROE", "systemic risk", "Innovation J-Curve"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-09T12:05:00.000000"
+    },
+    {
+      "id": "wf2-2602.03593",
+      "arxiv_id": "2602.03593",
+      "title": "Beyond the Commit: Developer Perspectives on Productivity with AI Coding Assistants",
+      "title_ko": "커밋 너머: AI 코딩 어시스턴트에 대한 개발자 생산성 관점",
+      "authors": ["Valerie Chen", "Jasmyn He", "Behnjamin Williams", "Jason Valentino", "Ameet Talwalkar"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.03593",
+        "published_date": "2026-02-03",
+        "categories": ["cs.SE"]
+      },
+      "content": {
+        "abstract": "BNY Mellon mixed-method study: 2,989 developer survey + 11 interviews. Multifaceted productivity measurement needed. Conflicting views on tool usefulness. 6 productivity dimensions identified. Long-term metrics (expertise, ownership) undervalued in prior research.",
+        "keywords": ["AI coding assistant", "developer productivity", "enterprise adoption", "BNY Mellon", "human-centered evaluation"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:08:00.000000"
+    },
+    {
+      "id": "wf2-2601.13597",
+      "arxiv_id": "2601.13597",
+      "title": "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development",
+      "title_ko": "AI IDE인가 자율 에이전트인가? 코딩 에이전트의 소프트웨어 개발 영향 측정",
+      "authors": ["Shyam Agarwal", "Hao He", "Bogdan Vasilescu"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.13597",
+        "published_date": "2026-01-27",
+        "categories": ["cs.SE"]
+      },
+      "content": {
+        "abstract": "Longitudinal causal study of LLM coding agents on OSS repos. Agents deliver large front-loaded velocity gains only as first AI tool. Static analysis warnings +18%, cognitive complexity +39% = agent-induced technical debt. Diminishing returns when combining multiple AI tools.",
+        "keywords": ["coding agents", "technical debt", "diminishing returns", "software quality", "causal analysis"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:10:00.000000"
+    },
+    {
+      "id": "wf2-2511.23455",
+      "arxiv_id": "2511.23455",
+      "title": "The Price of Progress: Algorithmic Efficiency and the Falling Cost of AI Inference",
+      "title_ko": "진보의 가격: 알고리즘 효율성과 AI 추론 비용의 하락",
+      "authors": ["Hans Gundlach", "Jayson Lynch", "Matthias Mertens", "Neil Thompson"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2511.23455",
+        "published_date": "2025-11-28",
+        "categories": ["cs.LG", "cs.AI", "cs.CY"]
+      },
+      "content": {
+        "abstract": "Benchmark performance costs falling 5-10x per year for frontier models across knowledge, reasoning, math, and software engineering. After controlling for hardware improvements, pure algorithmic efficiency gains ~3x annually. Recommends incorporating benchmark costs in AI evaluations.",
+        "keywords": ["inference cost", "algorithmic efficiency", "benchmark cost", "price performance", "deflationary AI"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:12:00.000000"
+    },
+    {
+      "id": "wf2-2512.20264",
+      "arxiv_id": "2512.20264",
+      "title": "The AI Scaling Wall of Diminishing Returns: Of LLMs, Electric Dogs, and General Relativity",
+      "title_ko": "AI 스케일링의 수확체감 벽: LLM, 전기 개, 일반상대성이론",
+      "authors": ["Hemant Shukla"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2512.20264",
+        "published_date": "2025-12-23",
+        "categories": ["astro-ph.IM", "physics.comp-ph"]
+      },
+      "content": {
+        "abstract": "LLMs face critical scaling bottleneck: compute grows 10-100x while accuracy barely moves. Quantifies the slowdown. Next leap will come from smarter, more efficient approaches rather than bigger models.",
+        "keywords": ["scaling wall", "diminishing returns", "compute efficiency", "LLM limitations", "paradigm shift"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:14:00.000000"
+    },
+    {
+      "id": "wf2-2601.17263",
+      "arxiv_id": "2601.17263",
+      "title": "Strategic AI in Cournot Markets",
+      "title_ko": "쿠르노 시장에서의 전략적 AI",
+      "authors": ["Sanyukta Deshpande", "Sheldon H. Jacobson"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.17263",
+        "published_date": "2026-01-24",
+        "categories": ["cs.GT"]
+      },
+      "content": {
+        "abstract": "LLMs in oligopolistic Cournot markets. LLMs grasp complex market dynamics but engage in sustained tacit collusion, driving prices up to 200% above Nash equilibrium. Regulating dominant agents via best-response enforcement disrupts collusion and restores competitive pricing.",
+        "keywords": ["algorithmic collusion", "Cournot markets", "LLM pricing", "tacit collusion", "antitrust"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-09T12:16:00.000000"
+    },
+    {
+      "id": "wf2-2404.00806",
+      "arxiv_id": "2404.00806",
+      "title": "Algorithmic Collusion by Large Language Models",
+      "title_ko": "대형 언어 모델의 알고리즘 담합",
+      "authors": ["Sara Fish", "Yannai A. Gonczarowski", "Ran I. Shorrer"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2404.00806",
+        "published_date": "2025-09-11",
+        "categories": ["econ.GN", "cs.AI", "cs.GT"]
+      },
+      "content": {
+        "abstract": "LLM pricing agents quickly and autonomously reach supracompetitive prices and profits in oligopoly settings. Minor prompt variations significantly affect pricing behavior. Price-war concerns as key factor. Extends to auction contexts. Raises regulatory challenges for AI pricing systems.",
+        "keywords": ["algorithmic collusion", "LLM pricing agents", "supracompetitive pricing", "oligopoly", "regulation"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-09T12:18:00.000000"
+    },
+    {
+      "id": "wf2-2601.06343",
+      "arxiv_id": "2601.06343",
+      "title": "Resolving the automation paradox: falling labor share, rising wages",
+      "title_ko": "자동화 역설의 해결: 노동분배율은 하락해도 임금은 상승한다",
+      "authors": ["David Autor", "B.N. Kausik"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2601.06343",
+        "published_date": "2026-01-09",
+        "categories": ["econ.GN"]
+      },
+      "content": {
+        "abstract": "Challenges conventional concerns about AI reducing wages. Declining labor share is more likely to raise wages in competitive economies. 12 industrialized nations analysis: all currently above wage-maximizing labor share level. Falling labor share contributed ~16% of US real wage growth 1954-2019.",
+        "keywords": ["automation paradox", "labor share", "wages", "AI displacement", "macroeconomics"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-09T12:20:00.000000"
+    },
+    {
+      "id": "wf2-2509.18101",
+      "arxiv_id": "2509.18101",
+      "title": "A Cost-Benefit Analysis of On-Premise Large Language Model Deployment: Breaking Even with Commercial LLM Services",
+      "title_ko": "온프레미스 LLM 배포의 비용-편익 분석: 상용 LLM 서비스와의 손익분기점",
+      "authors": ["Guanzhong Pan", "Vishal Chodnekar", "Abinas Roy", "Haibo Wang"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2509.18101",
+        "published_date": "2025-11-11",
+        "categories": ["cs.AI", "cs.LG"]
+      },
+      "content": {
+        "abstract": "Cost-benefit framework for cloud vs on-premise LLM deployment. Evaluates Qwen, Llama, Mistral. Mid-scale open-source models (120B) run on 2x A100 ($30k) with <10% accuracy loss. Derives breakeven points based on usage volume and performance requirements.",
+        "keywords": ["on-premise LLM", "cost-benefit analysis", "breakeven point", "open source AI", "enterprise deployment"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-09T12:22:00.000000"
+    },
+    {
+      "id": "wf2-2602.00751",
+      "arxiv_id": "2602.00751",
+      "title": "Engineering AI Agents for Clinical Workflows: A Case Study in Architecture, MLOps, and Governance",
+      "title_ko": "임상 워크플로우를 위한 AI 에이전트 엔지니어링: 아키텍처, MLOps, 거버넌스 사례 연구",
+      "authors": ["Claudio Lucio do Val Lopes", "Joao Marcus Pitta", "Fabiano Belem", "Gildson Alves", "Flavio Vinicius Cruzeiro Martins"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.00751",
+        "published_date": "2026-01-31",
+        "categories": ["cs.AI", "cs.SE"]
+      },
+      "content": {
+        "abstract": "Production-grade healthcare AI platform 'Maria'. Four engineering pillars for trustworthy clinical AI: Clean Architecture, event-driven architecture, autonomous agents with individual MLOps lifecycles, human-in-the-loop governance. Reference architecture for high-stakes domain AI deployment.",
+        "keywords": ["clinical AI", "healthcare", "MLOps", "governance", "production deployment"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:24:00.000000"
+    },
+    {
+      "id": "wf2-2501.18107",
+      "arxiv_id": "2501.18107",
+      "title": "Scaling Inference-Efficient Language Models",
+      "title_ko": "추론 효율적 언어 모델의 스케일링",
+      "authors": ["Song Bian", "Minghao Yan", "Shivaram Venkataraman"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2501.18107",
+        "published_date": "2025-06-07",
+        "categories": ["cs.LG", "cs.AI", "cs.CL"]
+      },
+      "content": {
+        "abstract": "Existing scaling laws fail to account for inference costs. Same-size models vary up to 3.5x in latency. Modified Chinchilla scaling laws for joint optimization of parameters, training tokens, and architecture. 63 models trained. Morph-1B: 1.8x inference latency improvement while maintaining accuracy.",
+        "keywords": ["inference efficiency", "scaling laws", "Chinchilla", "model architecture", "latency optimization"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:26:00.000000"
+    },
+    {
+      "id": "wf2-2501.12948",
+      "arxiv_id": "2501.12948",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "title_ko": "DeepSeek-R1: 강화학습을 통한 LLM 추론 능력 촉진",
+      "authors": ["DeepSeek-AI"],
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2501.12948",
+        "published_date": "2026-01-20",
+        "categories": ["cs.CL", "cs.AI", "cs.LG"]
+      },
+      "content": {
+        "abstract": "Pure RL incentivizes reasoning in LLMs. Emergent self-reflection, verification, dynamic strategy adaptation. Distilled R1-7B outperforms GPT-4o. R1-32B/70B surpass o1-mini on most benchmarks. Training cost $5.6M (2.664M H800 GPU hours) for frontier-level performance.",
+        "keywords": ["DeepSeek", "reinforcement learning", "reasoning", "model distillation", "cost efficiency", "open source"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-09T12:28:00.000000"
+    }
+  ]
+}

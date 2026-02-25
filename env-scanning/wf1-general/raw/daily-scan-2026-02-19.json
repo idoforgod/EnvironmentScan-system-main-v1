@@ -1,0 +1,132 @@
+{
+  "scan_metadata": {
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-19-11-55-00-a7f3",
+      "started_at": "2026-02-19T11:55:00Z",
+      "completed_at": "2026-02-19T12:20:00Z",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "TechCrunch", "MIT Technology Review", "Bloomberg", "CoinDesk", "The Block",
+        "Decrypt", "Yahoo Finance", "IMF Blog", "BIS Speeches", "SEC.gov",
+        "Ethereum Foundation Blog", "CryptoNews", "Brookings", "World Economic Forum"
+      ],
+      "file_created_at": "2026-02-19T12:20:00Z"
+    },
+    "special_topic": "자산 토큰화와 이더리움 가격 폭락",
+    "scan_date": "2026-02-19",
+    "workflow": "wf1-general",
+    "scan_window": {
+      "start": "2026-02-19T02:55:14Z",
+      "end": "2026-02-20T02:55:14Z"
+    }
+  },
+  "items": [
+    {
+      "id": "blog-20260219-001",
+      "title": "Ethereum RWA Market Soars 315% to $17B, Commanding 34% Market Share",
+      "source": {"name": "The Block", "type": "blog", "url": "https://www.thecoinrepublic.com/2026/02/18/ethereum-tokenization-soared-315-to-17b-market-share-hit-34/", "published_date": "2026-02-18"},
+      "content": {"abstract": "Ethereum tokenized RWA market surged 315% YoY to $17B record, 34% of all on-chain RWAs. BlackRock BUIDL $2.85B, JPMorgan $100M tokenized fund. ETH price fell 20%+ despite this growth — fundamental-price disconnect.", "keywords": ["RWA", "asset tokenization", "Ethereum", "BlackRock", "BUIDL", "institutional", "DeFi"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:00:00Z"
+    },
+    {
+      "id": "blog-20260219-002",
+      "title": "ETH Price Crashes 28% in February 2026: Liquidation Cascade Wipes $2.5B",
+      "source": {"name": "Bloomberg", "type": "blog", "url": "https://www.bloomberg.com/news/articles/2026-02-05/ether-eth-tumbles-as-crypto-selloff-intensifies", "published_date": "2026-02-05"},
+      "content": {"abstract": "ETH dropped 28% to $1,746 in February 2026. Feb 1 liquidation wiped $2.5B. ETH fell harder than BTC due to DeFi leverage unwinding, ETH ETF outflows, AI sector correction amplification.", "keywords": ["Ethereum", "ETH", "price crash", "liquidation", "DeFi", "leverage", "market selloff"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:01:00Z"
+    },
+    {
+      "id": "blog-20260219-003",
+      "title": "Trend Research $2B ETH Leveraged Bet Collapses: $686M-$869M Loss on AAVE",
+      "source": {"name": "CoinDesk", "type": "blog", "url": "https://www.coindesk.com/markets/2026/02/07/ether-s-recent-crash-below-usd2-000-leaves-usd686-million-gaping-hole-in-trading-firm-s-book", "published_date": "2026-02-07"},
+      "content": {"abstract": "Trend Research (Jack Yi) built $2B leveraged ETH long on AAVE, borrowing stablecoins against ETH collateral. ETH fell to $1,750, triggering cascading liquidation. Firm sold 332K ETH on Binance over 5 days. Losses: $686M-$869M. Classic DeFi leverage loop systemic risk exemplified.", "keywords": ["DeFi", "AAVE", "leverage", "liquidation", "Ethereum", "systemic risk", "crypto fund"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:02:00Z"
+    },
+    {
+      "id": "policy-20260219-001",
+      "title": "Kevin Warsh Fed Chair Nomination Triggers Hawkish Shock: Crypto Loses $800B",
+      "source": {"name": "CoinDesk", "type": "policy", "url": "https://www.coindesk.com/markets/2026/01/30/here-s-why-fed-contender-kevin-warsh-is-seen-as-bearish-for-bitcoin", "published_date": "2026-01-30"},
+      "content": {"abstract": "Trump nominated Kevin Warsh as Fed Chair on Jan 30, 2026. Warsh: hawkish, higher real rates, balance sheet reduction. DXY surged above 97.5, crypto market lost $800B+. BTC -7% single day, ETH -10%+. 'Warsh Shock' macro trigger for February 2026 crypto bear market.", "keywords": ["Federal Reserve", "Kevin Warsh", "monetary policy", "crypto crash", "macro", "risk-off", "hawkish"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-19T12:03:00Z"
+    },
+    {
+      "id": "policy-20260219-002",
+      "title": "SEC Issues Tokenized Securities Taxonomy: 'Project Crypto' Advances Regulatory Framework",
+      "source": {"name": "SEC.gov", "type": "policy", "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-crypto-roundtable-tokenization-051225-keynote-address-crypto-task-force-roundtable-tokenization", "published_date": "2026-01-28"},
+      "content": {"abstract": "SEC Jan 28, 2026: Tokenized securities remain securities. Classification: digital commodities (not securities), digital collectibles (not securities), tokenized securities (securities). Project Crypto (SEC-CFTC joint initiative) advances. Innovation exemption for tokenized securities trading in preparation. Formal rule proposal expected 2026.", "keywords": ["SEC", "tokenized securities", "regulatory framework", "Project Crypto", "Paul Atkins", "CFTC"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-19T12:04:00Z"
+    },
+    {
+      "id": "blog-20260219-004",
+      "title": "ETH Denver 2026: Builder Ecosystem Resilient Amid Bear Market, RWA Panel Identifies 3 Growth Drivers",
+      "source": {"name": "Decrypt", "type": "blog", "url": "https://decrypt.co/358483/eth-denver-2026-builder-energy-despite-crypto-slump", "published_date": "2026-02-19"},
+      "content": {"abstract": "ETHDenver 2026 (25K+ participants) demonstrates ecosystem builder resilience during price crash. RWA panel: 3 growth drivers identified: (1) onchain yields competitive with TradFi, (2) major asset managers lending credibility, (3) US regulatory clarity. SEC Atkins previewed innovation exemption for tokenized securities.", "keywords": ["ETHDenver", "Ethereum", "developer ecosystem", "RWA", "tokenization", "builder", "regulatory"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-19T12:05:00Z"
+    },
+    {
+      "id": "blog-20260219-005",
+      "title": "Ethereum Foundation 2026 Protocol Priorities: Scale, UX, Quantum Hardening — Rollup Roadmap Abandoned",
+      "source": {"name": "Ethereum Foundation Blog", "type": "blog", "url": "https://blog.ethereum.org/en/2026/02/18/protocol-priorities-update-2026", "published_date": "2026-02-18"},
+      "content": {"abstract": "Ethereum Foundation Feb 18 2026: 3 tracks: (1) Scale — gas limits beyond 100M, ePBS, zkEVM, statelessness; (2) Improve UX — native account abstraction (EIP-7701, EIP-8141), cross-L2 interoperability; (3) Harden L1 — post-quantum security, censorship resistance. Vitalik: rollup-centric roadmap 'no longer makes sense' — L1 now scales directly.", "keywords": ["Ethereum", "protocol roadmap", "layer-2", "scalability", "quantum resistance", "account abstraction", "EIP", "Vitalik Buterin"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-19T12:06:00Z"
+    },
+    {
+      "id": "blog-20260219-006",
+      "title": "Crypto Market Crash February 2026: AI Bubble Fears, $2T Wipeout, Bitcoin Exits Global Top-10",
+      "source": {"name": "Finance Police", "type": "blog", "url": "https://financepolice.com/bitcoin-crash-2026-2-trillion-crypto-market-wipeout-biggest-one-day-drop-since-2022-explained-triggers-and-outlook/", "published_date": "2026-02-05"},
+      "content": {"abstract": "February 2026 crypto crash: $2T total market cap wiped (peak $4.38T → $2.42T). BTC fell from $90K to $75K, exiting global top-10 assets. Primary trigger: AI sector correction (AMD -17%). Institutional risk-off rotation. $1.6B long liquidations, $3B+ Bitcoin ETF outflows in January 2026. Growing crypto-AI/tech sector correlation revealed.", "keywords": ["crypto crash", "Bitcoin", "Ethereum", "AI bubble", "tech stocks", "liquidation", "market correlation", "risk-off"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:07:00Z"
+    },
+    {
+      "id": "blog-20260219-007",
+      "title": "RWA Tokenization $24B On-Chain: 2026 Pivot from Pilots to Secondary Market Liquidity",
+      "source": {"name": "TradingView", "type": "blog", "url": "https://www.tradingview.com/news/chainwire:9379361a6094b:0-why-2026-marks-the-pivot-for-real-world-asset-tokenization-from-experimental-pilots-to-active-global-markets/", "published_date": "2026-02-15"},
+      "content": {"abstract": "Global RWA tokenization: $24B on-chain, $8.7B US Treasuries (45% of $19.4B). McKinsey: $2T by 2030. 2026 strategic pivot: from token creation to secondary market liquidity, price discovery, exit paths. BlackRock BUIDL on Uniswap marks TradFi-DeFi convergence milestone.", "keywords": ["RWA", "tokenization", "real world assets", "institutional", "secondary market", "DeFi", "Uniswap", "McKinsey"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:08:00Z"
+    },
+    {
+      "id": "blog-20260219-008",
+      "title": "BlackRock BUIDL Integrates Uniswap, Expands Multi-Chain: Ethereum Share Drops 60%",
+      "source": {"name": "The Defiant", "type": "blog", "url": "https://thedefiant.io/news/tradfi-and-fintech/blackrock-securitize-expand-buidl-market-cap-on-aptos-polygon-avalanche", "published_date": "2026-02-17"},
+      "content": {"abstract": "BlackRock BUIDL (now $2.85B AUM) integrated into Uniswap via UniswapX. Ethereum share dropped 60%; Solana, Polygon, Optimism, Arbitrum, Avalanche, Aptos grew 10x. Multi-chain tokenized institutional fund marks decisive TradFi-DeFi convergence. BUIDL paid $100M+ in dividends since inception (~4% APY).", "keywords": ["BlackRock", "BUIDL", "Uniswap", "DeFi", "institutional", "multi-chain", "Solana", "tokenized fund"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:09:00Z"
+    },
+    {
+      "id": "blog-20260219-009",
+      "title": "DeFi Collateral Risk: ETH Price Drop Creates Systemic Feedback Loop Threatening RWA-DeFi Stability",
+      "source": {"name": "The Block", "type": "blog", "url": "https://www.theblock.co/post/383120/2026-defi-outlook", "published_date": "2026-02-10"},
+      "content": {"abstract": "DeFi lending = two-thirds of $73.6B crypto-collateralized lending market. DeFi collateral stack becoming dollar-native (fixed-income aligned). BUT: sustained growth depends on rising digital asset valuations. ETH crash creates systemic feedback: falling collateral → forced liquidations → more selling → destabilizes RWA-backed DeFi. Trend Research/AAVE cascade is a live case study.", "keywords": ["DeFi", "collateral", "systemic risk", "AAVE", "Ethereum", "liquidation cascade", "RWA", "TradFi"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:10:00Z"
+    },
+    {
+      "id": "policy-20260219-003",
+      "title": "Korea RWA Tokenization: Regulatory Lag Risk as West Enters Active Market Phase",
+      "source": {"name": "KDI", "type": "policy", "url": "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000189106", "published_date": "2026-02-10"},
+      "content": {"abstract": "US SEC clarity accelerates institutional RWA globally. Korea has regulatory ambiguity on tokenized securities, limited DeFi integration pathways, fragmented fintech-crypto regulation. Pilot 조각투자 (fractional investment) programs testing commercial real estate tokenization at small scale. KDI warns Korea risks institutional RWA infrastructure gap as Western markets enter active phase.", "keywords": ["RWA", "Korea", "regulation", "KDI", "조각투자", "fractional investment", "tokenization", "regulatory lag"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-19T12:11:00Z"
+    },
+    {
+      "id": "blog-20260219-010",
+      "title": "ETH/BTC Ratio Hits Multi-Year Low: Ethereum Faces Narrative Crisis Alongside Price Crash",
+      "source": {"name": "Bitunix", "type": "blog", "url": "https://blog.bitunix.com/en/why-ethereum-crashed-in-2026-and-why-the-drop-was-more-severe-than-bitcoin/", "published_date": "2026-02-08"},
+      "content": {"abstract": "ETH underperformed BTC: -28% vs -20% in February 2026. Structural factors: (1) Higher DeFi leverage concentration (Aave loops, LSD derivatives); (2) Persistent ETH ETF outflows vs BTC ETF resilience; (3) Narrative vacuum — ETH not 'digital gold' (BTC), not dominant AI chain (Solana/others). ETH/BTC ratio at multi-year lows raises fundamental questions about Ethereum's value capture in RWA era.", "keywords": ["Ethereum", "Bitcoin", "ETH/BTC", "ETF outflows", "leverage", "narrative", "DeFi", "value capture"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-19T12:12:00Z"
+    }
+  ]
+}

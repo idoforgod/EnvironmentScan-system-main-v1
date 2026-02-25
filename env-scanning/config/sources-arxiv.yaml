@@ -1,16 +1,20 @@
 # WF2 Exclusive: arXiv Academic Deep Scanning Source Configuration
-# Version: 1.0.0
-# Last Updated: 2026-02-03
+# Version: 2.0.0
+# Last Updated: 2026-02-12
 #
 # This file is used ONLY by WF2 (arXiv dedicated workflow).
-# It contains a single source: arXiv, with extended parameters for deep scanning.
+# It contains a single source: arXiv, with FULL category coverage.
 #
-# Differences from WF1's arXiv config:
-#   - days_back: 14 (vs WF1's 7)
-#   - max_results: 50 per category (vs WF1's 20)
-#   - timeout: 60s (vs WF1's 30s)
-#   - Extended arXiv category mappings for broader academic coverage
-#   - critical: true (arXiv is the sole source; failure halts WF2)
+# v2.0.0 Changes (2026-02-12):
+#   - Expanded from 36 categories to ALL ~180 arXiv categories
+#   - Reorganized into 20 query groups by arXiv archive
+#   - Each category has explicit primary STEEPs mapping
+#   - Scanner reads query_groups directly (no more hardcoded mapping)
+#   - API-level date filtering via submittedDate parameter
+#
+# Design Principle:
+#   "arXiv 사이트의 분류항목을 빠짐없이 다 돌아다니며 스캐닝"
+#   — 모든 학문 분야의 초기 변화 시그널을 포착하기 위해 전체 카테고리를 커버한다.
 
 sources:
   - name: "arXiv"
@@ -21,68 +25,486 @@ sources:
     rate_limit: 300  # per minute (actual: 1 request per 3 seconds)
     timeout: 60  # seconds (extended for deep scanning)
     critical: true  # Sole source — failure halts WF2
-    date_filter: "last_14_days"  # Extended lookback for depth
-    max_results: 50  # papers per STEEPs category (2.5x WF1)
-    description: "arXiv deep scan — dedicated WF2 source"
+    description: "arXiv deep scan — full taxonomy coverage (v2.0.0)"
     reliability: "high"
     cost: "free"
     validation_status: "production_ready"
+    use_date_filter_in_query: true  # v2.0.0: API-level submittedDate filtering
 
-    # Extended arXiv category mappings
-    # WF2 scans more arXiv categories per STEEPs domain for comprehensive coverage
-    extended_categories:
-      S_Social:
-        - "cs.CY"        # Computers and Society
-        - "cs.HC"        # Human-Computer Interaction
-        - "econ.GN"      # General Economics
-        - "q-bio.PE"     # Populations and Evolution
-        - "cs.SI"        # Social and Information Networks
-        - "stat.OT"      # Statistics Other
+    # ================================================================
+    # QUERY GROUPS — Organized by arXiv archive for API efficiency
+    # ================================================================
+    # Each group = 1 API call. ~20 groups × 3s rate limit ≈ 60 seconds total.
+    # Papers are assigned primary STEEPs based on category_steeps_mapping below.
+    # Cross-group dedup is performed after collection.
 
-      T_Technological:
-        - "cs.AI"        # Artificial Intelligence
-        - "cs.RO"        # Robotics
-        - "cs.CL"        # Computation and Language (NLP)
-        - "cs.CV"        # Computer Vision
-        - "cs.LG"        # Machine Learning
-        - "cs.NE"        # Neural and Evolutionary Computing
-        - "cs.CR"        # Cryptography and Security
-        - "cs.DC"        # Distributed Computing
-        - "cs.SE"        # Software Engineering
-        - "quant-ph"     # Quantum Physics
-        - "cs.AR"        # Hardware Architecture
-        - "cs.ET"        # Emerging Technologies
-        - "eess.SP"      # Signal Processing
+    query_groups:
 
-      E_Economic:
-        - "econ.EM"      # Econometrics
-        - "econ.TH"      # Theoretical Economics
-        - "q-fin.EC"     # Economics (Quantitative Finance)
-        - "q-fin.GN"     # General Finance
-        - "q-fin.PM"     # Portfolio Management
-        - "q-fin.ST"     # Statistical Finance
-        - "q-fin.RM"     # Risk Management
-        - "q-fin.CP"     # Computational Finance
-        - "stat.AP"      # Statistics Applications
+      # ── Computer Science: AI & Machine Learning ──
+      - name: "cs-ai-ml"
+        categories:
+          - "cs.AI"    # Artificial Intelligence
+          - "cs.LG"    # Machine Learning
+          - "cs.NE"    # Neural and Evolutionary Computing
+          - "cs.CL"    # Computation and Language (NLP)
+          - "cs.CV"    # Computer Vision
+        max_results: 100  # Highest volume — AI/ML dominates arXiv
 
-      E_Environmental:
-        - "physics.ao-ph"  # Atmospheric and Oceanic Physics
-        - "physics.geo-ph" # Geophysics
-        - "q-bio.QM"      # Quantitative Methods (Biology)
-        - "astro-ph.EP"   # Earth and Planetary Astrophysics
-        - "physics.soc-ph" # Physics and Society
-        - "nlin.AO"       # Adaptation and Self-Organizing Systems
+      # ── Computer Science: Robotics & Systems ──
+      - name: "cs-robotics-systems"
+        categories:
+          - "cs.RO"    # Robotics
+          - "cs.SY"    # Systems and Control (alias: eess.SY)
+          - "cs.AR"    # Hardware Architecture
+          - "cs.DC"    # Distributed, Parallel Computing
+          - "cs.OS"    # Operating Systems
+          - "cs.PF"    # Performance
+          - "cs.NI"    # Networking and Internet Architecture
+          - "cs.ET"    # Emerging Technologies
+        max_results: 60
 
-      P_Political:
-        - "cs.CY"        # Computers and Society (policy implications)
-        - "econ.GN"      # General Economics (policy)
-        - "stat.ML"      # Machine Learning (governance applications)
-        - "cs.MA"        # Multiagent Systems (governance)
+      # ── Computer Science: Security, Software, Engineering ──
+      - name: "cs-security-engineering"
+        categories:
+          - "cs.CR"    # Cryptography and Security
+          - "cs.SE"    # Software Engineering
+          - "cs.PL"    # Programming Languages
+          - "cs.FL"    # Formal Languages and Automata Theory
+          - "cs.LO"    # Logic in Computer Science
+        max_results: 50
 
-      s_spiritual:
-        - "cs.AI"        # AI Ethics, value alignment
-        - "cs.CY"        # Societal implications, meaning
-        - "cs.HC"        # Human factors, wellbeing
+      # ── Computer Science: Theory & Algorithms ──
+      - name: "cs-theory"
+        categories:
+          - "cs.CC"    # Computational Complexity
+          - "cs.DS"    # Data Structures and Algorithms
+          - "cs.DM"    # Discrete Mathematics
+          - "cs.CG"    # Computational Geometry
+          - "cs.SC"    # Symbolic Computation
+          - "cs.NA"    # Numerical Analysis
+          - "cs.MS"    # Mathematical Software
+        max_results: 40
+
+      # ── Computer Science: Applications & Information ──
+      - name: "cs-applications"
+        categories:
+          - "cs.IR"    # Information Retrieval
+          - "cs.DB"    # Databases
+          - "cs.DL"    # Digital Libraries
+          - "cs.MM"    # Multimedia
+          - "cs.SD"    # Sound
+          - "cs.GR"    # Graphics
+          - "cs.CE"    # Computational Engineering
+          - "cs.IT"    # Information Theory (alias: math.IT)
+          - "cs.GL"    # General Literature
+          - "cs.OH"    # Other
+        max_results: 50
+
+      # ── Computer Science: Social & HCI ──
+      - name: "cs-social-hci"
+        categories:
+          - "cs.CY"    # Computers and Society
+          - "cs.HC"    # Human-Computer Interaction
+          - "cs.SI"    # Social and Information Networks
+          - "cs.GT"    # Computer Science and Game Theory
+          - "cs.MA"    # Multiagent Systems
+        max_results: 60
+
+      # ── Mathematics: Applied ──
+      - name: "math-applied"
+        categories:
+          - "math.OC"  # Optimization and Control
+          - "math.NA"  # Numerical Analysis
+          - "math.ST"  # Statistics Theory (alias: stat.TH)
+          - "math.PR"  # Probability
+          - "math.AP"  # Analysis of PDEs
+          - "math.DS"  # Dynamical Systems
+          - "math.CO"  # Combinatorics
+          - "math.MP"  # Mathematical Physics (alias: math-ph)
+        max_results: 50
+
+      # ── Mathematics: Pure ──
+      - name: "math-pure"
+        categories:
+          - "math.AG"  # Algebraic Geometry
+          - "math.AT"  # Algebraic Topology
+          - "math.AC"  # Commutative Algebra
+          - "math.CA"  # Classical Analysis and ODEs
+          - "math.CT"  # Category Theory
+          - "math.CV"  # Complex Variables
+          - "math.DG"  # Differential Geometry
+          - "math.FA"  # Functional Analysis
+          - "math.GM"  # General Mathematics
+          - "math.GN"  # General Topology
+          - "math.GR"  # Group Theory
+          - "math.GT"  # Geometric Topology
+          - "math.HO"  # History and Overview
+          - "math.IT"  # Information Theory
+          - "math.KT"  # K-Theory and Homology
+          - "math.LO"  # Logic
+          - "math.MG"  # Metric Geometry
+          - "math.NT"  # Number Theory
+          - "math.OA"  # Operator Algebras
+          - "math.QA"  # Quantum Algebra
+          - "math.RA"  # Rings and Algebras
+          - "math.RT"  # Representation Theory
+          - "math.SG"  # Symplectic Geometry
+          - "math.SP"  # Spectral Theory
+        max_results: 30  # Pure math: lower signal density for futures scanning
+
+      # ── Physics: Atmospheric, Oceanic, Earth ──
+      - name: "physics-earth-climate"
+        categories:
+          - "physics.ao-ph"   # Atmospheric and Oceanic Physics
+          - "physics.geo-ph"  # Geophysics
+          - "physics.flu-dyn" # Fluid Dynamics
+          - "physics.space-ph" # Space Physics
+        max_results: 50
+
+      # ── Physics: Applied & Experimental ──
+      - name: "physics-applied"
+        categories:
+          - "physics.app-ph"  # Applied Physics
+          - "physics.optics"  # Optics
+          - "physics.comp-ph" # Computational Physics
+          - "physics.ins-det" # Instrumentation and Detectors
+          - "physics.data-an" # Data Analysis, Statistics, Probability
+          - "physics.acc-ph"  # Accelerator Physics
+          - "physics.plasm-ph" # Plasma Physics
+          - "physics.atom-ph" # Atomic Physics
+          - "physics.atm-clus" # Atomic and Molecular Clusters
+          - "physics.class-ph" # Classical Physics
+        max_results: 50
+
+      # ── Physics: Life Sciences & Society ──
+      - name: "physics-life-society"
+        categories:
+          - "physics.bio-ph"  # Biological Physics
+          - "physics.med-ph"  # Medical Physics
+          - "physics.chem-ph" # Chemical Physics
+          - "physics.soc-ph"  # Physics and Society
+          - "physics.ed-ph"   # Physics Education
+          - "physics.pop-ph"  # Popular Physics
+          - "physics.hist-ph" # History and Philosophy of Physics
+          - "physics.gen-ph"  # General Physics
+        max_results: 40
+
+      # ── Astrophysics ──
+      - name: "astro-ph"
+        categories:
+          - "astro-ph.CO"  # Cosmology and Nongalactic Astrophysics
+          - "astro-ph.EP"  # Earth and Planetary Astrophysics
+          - "astro-ph.GA"  # Astrophysics of Galaxies
+          - "astro-ph.HE"  # High Energy Astrophysical Phenomena
+          - "astro-ph.IM"  # Instrumentation and Methods
+          - "astro-ph.SR"  # Solar and Stellar Astrophysics
+        max_results: 50
+
+      # ── Condensed Matter ──
+      - name: "cond-mat"
+        categories:
+          - "cond-mat.dis-nn"    # Disordered Systems and Neural Networks
+          - "cond-mat.mes-hall"  # Mesoscale and Nanoscale Physics
+          - "cond-mat.mtrl-sci"  # Materials Science
+          - "cond-mat.other"     # Other Condensed Matter
+          - "cond-mat.quant-gas" # Quantum Gases
+          - "cond-mat.soft"      # Soft Condensed Matter
+          - "cond-mat.stat-mech" # Statistical Mechanics
+          - "cond-mat.str-el"    # Strongly Correlated Electrons
+          - "cond-mat.supr-con"  # Superconductivity
+        max_results: 50
+
+      # ── High Energy & Fundamental Physics ──
+      - name: "hep-fundamental"
+        categories:
+          - "hep-ex"    # High Energy Physics - Experiment
+          - "hep-lat"   # High Energy Physics - Lattice
+          - "hep-ph"    # High Energy Physics - Phenomenology
+          - "hep-th"    # High Energy Physics - Theory
+          - "gr-qc"     # General Relativity and Quantum Cosmology
+          - "nucl-ex"   # Nuclear Experiment
+          - "nucl-th"   # Nuclear Theory
+        max_results: 50
+
+      # ── Quantum Physics ──
+      - name: "quant-ph"
+        categories:
+          - "quant-ph"  # Quantum Physics
+        max_results: 60  # High-impact area for futures
+
+      # ── Mathematical Physics ──
+      - name: "math-ph"
+        categories:
+          - "math-ph"   # Mathematical Physics
+        max_results: 30
+
+      # ── Economics ──
+      - name: "econ"
+        categories:
+          - "econ.EM"   # Econometrics
+          - "econ.GN"   # General Economics
+          - "econ.TH"   # Theoretical Economics
+        max_results: 50
+
+      # ── Quantitative Finance ──
+      - name: "q-fin"
+        categories:
+          - "q-fin.CP"  # Computational Finance
+          - "q-fin.EC"  # Economics
+          - "q-fin.GN"  # General Finance
+          - "q-fin.MF"  # Mathematical Finance
+          - "q-fin.PM"  # Portfolio Management
+          - "q-fin.PR"  # Pricing of Securities
+          - "q-fin.RM"  # Risk Management
+          - "q-fin.ST"  # Statistical Finance
+          - "q-fin.TR"  # Trading and Market Microstructure
+        max_results: 50
+
+      # ── Statistics ──
+      - name: "stat"
+        categories:
+          - "stat.AP"   # Applications
+          - "stat.CO"   # Computation
+          - "stat.ME"   # Methodology
+          - "stat.ML"   # Machine Learning
+          - "stat.OT"   # Other Statistics
+          - "stat.TH"   # Statistics Theory
+        max_results: 50
+
+      # ── Quantitative Biology ──
+      - name: "q-bio"
+        categories:
+          - "q-bio.BM"  # Biomolecules
+          - "q-bio.CB"  # Cell Behavior
+          - "q-bio.GN"  # Genomics
+          - "q-bio.MN"  # Molecular Networks
+          - "q-bio.NC"  # Neurons and Cognition
+          - "q-bio.OT"  # Other Quantitative Biology
+          - "q-bio.PE"  # Populations and Evolution
+          - "q-bio.QM"  # Quantitative Methods
+          - "q-bio.SC"  # Subcellular Processes
+          - "q-bio.TO"  # Tissues and Organs
+        max_results: 50
+
+      # ── Electrical Engineering & Systems Science ──
+      - name: "eess"
+        categories:
+          - "eess.AS"   # Audio and Speech Processing
+          - "eess.IV"   # Image and Video Processing
+          - "eess.SP"   # Signal Processing
+          - "eess.SY"   # Systems and Control
+        max_results: 50
+
+      # ── Nonlinear Sciences ──
+      - name: "nlin"
+        categories:
+          - "nlin.AO"   # Adaptation and Self-Organizing Systems
+          - "nlin.CD"   # Chaotic Dynamics
+          - "nlin.CG"   # Cellular Automata and Lattice Gases
+          - "nlin.PS"   # Pattern Formation and Solitons
+          - "nlin.SI"   # Exactly Solvable and Integrable Systems
+        max_results: 30
+
+    # ================================================================
+    # CATEGORY → PRIMARY STEEPs MAPPING
+    # ================================================================
+    # Each arXiv category maps to exactly ONE primary STEEPs for initial
+    # classification. Phase 2 (signal-classifier) refines multi-dimensional
+    # STEEPs assignments using content analysis.
+    #
+    # Mapping Principles:
+    #   T (Technological): Innovation, methods, tools, fundamental science
+    #   E (Economic): Markets, finance, trade, economic theory
+    #   E_Environmental: Climate, earth science, ecology, sustainability
+    #   S (Social): Society, demographics, HCI, social networks, education
+    #   P (Political): Policy, governance, regulation, geopolitics
+    #   s (spiritual): Ethics, values, consciousness, meaning, philosophy
+
+    category_steeps_mapping:
+      # ── Computer Science ──
+      cs.AI: "T"       # Artificial Intelligence
+      cs.AR: "T"       # Hardware Architecture
+      cs.CC: "T"       # Computational Complexity
+      cs.CE: "T"       # Computational Engineering
+      cs.CG: "T"       # Computational Geometry
+      cs.CL: "T"       # Computation and Language
+      cs.CR: "T"       # Cryptography and Security
+      cs.CV: "T"       # Computer Vision
+      cs.CY: "S"       # Computers and Society → Social (primary)
+      cs.DB: "T"       # Databases
+      cs.DC: "T"       # Distributed Computing
+      cs.DL: "T"       # Digital Libraries
+      cs.DM: "T"       # Discrete Mathematics
+      cs.DS: "T"       # Data Structures and Algorithms
+      cs.ET: "T"       # Emerging Technologies
+      cs.FL: "T"       # Formal Languages
+      cs.GL: "T"       # General Literature
+      cs.GR: "T"       # Graphics
+      cs.GT: "E"       # Game Theory → Economic (strategic interaction)
+      cs.HC: "S"       # Human-Computer Interaction → Social
+      cs.IR: "T"       # Information Retrieval
+      cs.IT: "T"       # Information Theory
+      cs.LG: "T"       # Machine Learning
+      cs.LO: "T"       # Logic in CS
+      cs.MA: "P"       # Multiagent Systems → Political (governance)
+      cs.MM: "T"       # Multimedia
+      cs.MS: "T"       # Mathematical Software
+      cs.NA: "T"       # Numerical Analysis
+      cs.NE: "T"       # Neural and Evolutionary Computing
+      cs.NI: "T"       # Networking
+      cs.OH: "T"       # Other
+      cs.OS: "T"       # Operating Systems
+      cs.PF: "T"       # Performance
+      cs.PL: "T"       # Programming Languages
+      cs.RO: "T"       # Robotics
+      cs.SC: "T"       # Symbolic Computation
+      cs.SD: "T"       # Sound
+      cs.SE: "T"       # Software Engineering
+      cs.SI: "S"       # Social and Information Networks → Social
+      cs.SY: "T"       # Systems and Control
+
+      # ── Mathematics ──
+      math.AC: "T"     # Commutative Algebra
+      math.AG: "T"     # Algebraic Geometry
+      math.AP: "T"     # Analysis of PDEs
+      math.AT: "T"     # Algebraic Topology
+      math.CA: "T"     # Classical Analysis
+      math.CO: "T"     # Combinatorics
+      math.CT: "T"     # Category Theory
+      math.CV: "T"     # Complex Variables
+      math.DG: "T"     # Differential Geometry
+      math.DS: "T"     # Dynamical Systems
+      math.FA: "T"     # Functional Analysis
+      math.GM: "T"     # General Mathematics
+      math.GN: "T"     # General Topology
+      math.GR: "T"     # Group Theory
+      math.GT: "T"     # Geometric Topology
+      math.HO: "s"     # History and Overview → spiritual (philosophy of math)
+      math.IT: "T"     # Information Theory
+      math.KT: "T"     # K-Theory
+      math.LO: "T"     # Logic
+      math.MG: "T"     # Metric Geometry
+      math.MP: "T"     # Mathematical Physics
+      math.NA: "T"     # Numerical Analysis
+      math.NT: "T"     # Number Theory
+      math.OA: "T"     # Operator Algebras
+      math.OC: "T"     # Optimization and Control
+      math.PR: "T"     # Probability
+      math.QA: "T"     # Quantum Algebra
+      math.RA: "T"     # Rings and Algebras
+      math.RT: "T"     # Representation Theory
+      math.SG: "T"     # Symplectic Geometry
+      math.SP: "T"     # Spectral Theory
+      math.ST: "T"     # Statistics Theory
+
+      # ── Physics: Earth & Climate ──
+      physics.ao-ph: "E_Environmental"   # Atmospheric and Oceanic
+      physics.geo-ph: "E_Environmental"  # Geophysics
+      physics.flu-dyn: "E_Environmental" # Fluid Dynamics (climate models)
+      physics.space-ph: "E_Environmental" # Space Physics
+
+      # ── Physics: Applied & Experimental ──
+      physics.app-ph: "T"    # Applied Physics
+      physics.optics: "T"    # Optics
+      physics.comp-ph: "T"   # Computational Physics
+      physics.ins-det: "T"   # Instrumentation
+      physics.data-an: "T"   # Data Analysis
+      physics.acc-ph: "T"    # Accelerator Physics
+      physics.plasm-ph: "T"  # Plasma Physics (fusion energy)
+      physics.atom-ph: "T"   # Atomic Physics
+      physics.atm-clus: "T"  # Atomic Clusters
+      physics.class-ph: "T"  # Classical Physics
+
+      # ── Physics: Life & Society ──
+      physics.bio-ph: "T"    # Biological Physics → T (methodology primary)
+      physics.med-ph: "S"    # Medical Physics → Social (health impact)
+      physics.chem-ph: "T"   # Chemical Physics
+      physics.soc-ph: "S"    # Physics and Society → Social
+      physics.ed-ph: "S"     # Physics Education → Social
+      physics.pop-ph: "S"    # Popular Physics → Social
+      physics.hist-ph: "s"   # History of Physics → spiritual
+      physics.gen-ph: "T"    # General Physics
+
+      # ── Astrophysics ──
+      astro-ph.CO: "T"       # Cosmology
+      astro-ph.EP: "E_Environmental" # Earth and Planetary
+      astro-ph.GA: "T"       # Galaxies
+      astro-ph.HE: "T"       # High Energy
+      astro-ph.IM: "T"       # Instrumentation
+      astro-ph.SR: "T"       # Solar and Stellar
+
+      # ── Condensed Matter ──
+      cond-mat.dis-nn: "T"    # Disordered Systems / Neural Networks
+      cond-mat.mes-hall: "T"  # Nanoscale Physics
+      cond-mat.mtrl-sci: "T"  # Materials Science
+      cond-mat.other: "T"     # Other
+      cond-mat.quant-gas: "T" # Quantum Gases
+      cond-mat.soft: "T"      # Soft Matter
+      cond-mat.stat-mech: "T" # Statistical Mechanics
+      cond-mat.str-el: "T"    # Strongly Correlated
+      cond-mat.supr-con: "T"  # Superconductivity
+
+      # ── High Energy & Fundamental ──
+      hep-ex: "T"     # HEP Experiment
+      hep-lat: "T"    # HEP Lattice
+      hep-ph: "T"     # HEP Phenomenology
+      hep-th: "T"     # HEP Theory
+      gr-qc: "T"      # General Relativity
+      nucl-ex: "T"    # Nuclear Experiment
+      nucl-th: "T"    # Nuclear Theory
+
+      # ── Quantum & Mathematical Physics ──
+      quant-ph: "T"   # Quantum Physics
+      math-ph: "T"    # Mathematical Physics
+
+      # ── Economics ──
+      econ.EM: "E"    # Econometrics
+      econ.GN: "E"    # General Economics
+      econ.TH: "E"    # Theoretical Economics
+
+      # ── Quantitative Finance ──
+      q-fin.CP: "E"   # Computational Finance
+      q-fin.EC: "E"   # Economics
+      q-fin.GN: "E"   # General Finance
+      q-fin.MF: "E"   # Mathematical Finance
+      q-fin.PM: "E"   # Portfolio Management
+      q-fin.PR: "E"   # Pricing
+      q-fin.RM: "E"   # Risk Management
+      q-fin.ST: "E"   # Statistical Finance
+      q-fin.TR: "E"   # Trading
+
+      # ── Statistics ──
+      stat.AP: "T"    # Applications
+      stat.CO: "T"    # Computation
+      stat.ME: "T"    # Methodology
+      stat.ML: "T"    # Machine Learning
+      stat.OT: "T"    # Other
+      stat.TH: "T"    # Theory
+
+      # ── Quantitative Biology ──
+      q-bio.BM: "T"   # Biomolecules
+      q-bio.CB: "T"   # Cell Behavior
+      q-bio.GN: "T"   # Genomics
+      q-bio.MN: "T"   # Molecular Networks
+      q-bio.NC: "s"   # Neurons and Cognition → spiritual (consciousness)
+      q-bio.OT: "T"   # Other
+      q-bio.PE: "S"   # Populations and Evolution → Social
+      q-bio.QM: "T"   # Quantitative Methods
+      q-bio.SC: "T"   # Subcellular
+      q-bio.TO: "T"   # Tissues and Organs
+
+      # ── Electrical Engineering ──
+      eess.AS: "T"    # Audio and Speech
+      eess.IV: "T"    # Image and Video
+      eess.SP: "T"    # Signal Processing
+      eess.SY: "T"    # Systems and Control
+
+      # ── Nonlinear Sciences ──
+      nlin.AO: "T"    # Adaptation and Self-Organizing
+      nlin.CD: "T"    # Chaotic Dynamics
+      nlin.CG: "T"    # Cellular Automata
+      nlin.PS: "T"    # Pattern Formation
+      nlin.SI: "T"    # Integrable Systems
 
     health_status: null
     last_health_check: null
@@ -90,7 +512,7 @@ sources:
     fetch_strategy: null
     consecutive_failures: 0
 
-# Retry Configuration (same as WF1 — shared philosophy)
+# Retry Configuration
 retry_policy:
   max_attempts: 3
   backoff_strategy: "exponential"

@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-24",
+  "T0": "2026-02-24T20:44:18+00:00",
+  "workflows_completed": ["wf1-general", "wf2-arxiv", "wf3-naver", "integration"],
+  "scan_windows": {
+    "wf1": {"start": "2026-02-23T20:44:18Z", "end": "2026-02-24T20:44:18Z", "hours": 24},
+    "wf2": {"start": "2026-02-22T20:44:18Z", "end": "2026-02-24T20:44:18Z", "hours": 48},
+    "wf3": {"start": "2026-02-23T20:44:18Z", "end": "2026-02-24T20:44:18Z", "hours": 24}
+  },
+  "signal_counts": {"wf1": 35, "wf2": 35, "wf3": 30, "total": 100},
+  "validation_results": {
+    "wf1_en": "PASS 18/18",
+    "wf1_ko": "PASS 17/17",
+    "wf2_en": "PASS 17/17",
+    "wf2_ko": "PASS 17/17",
+    "wf3_en": "PASS 20/20",
+    "wf3_ko": "PASS 20/20",
+    "integrated_en": "PASS 19/19",
+    "integrated_ko": "PASS 19/19"
+  },
+  "checkpoints_passed": 7,
+  "completed_at": "2026-02-24T22:30:00+00:00"
+}

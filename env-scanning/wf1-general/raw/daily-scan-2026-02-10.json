@@ -1,0 +1,385 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-02-10",
+    "workflow_id": "wf1-general",
+    "sources_config": "env-scanning/config/sources.yaml",
+    "marathon_mode": true,
+    "registry_version": "2.2.1",
+    "scan_window": {
+      "T0": "2026-02-10T13:01:55.038277+00:00",
+      "window_start": "2026-02-09T13:01:55.038277+00:00",
+      "window_end": "2026-02-10T13:01:55.038277+00:00",
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "state_file": "env-scanning/integrated/logs/scan-window-2026-02-10.json"
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-10-13-02-00-v221",
+      "started_at": "2026-02-10T13:02:00+00:00",
+      "completed_at": "2026-02-10T13:10:00+00:00",
+      "actual_api_calls": {
+        "web_search": 9,
+        "arxiv_api": 0,
+        "rss_feeds": 0
+      },
+      "actual_sources_scanned": [
+        "Google Patents", "US Federal Register", "WHO Press Releases",
+        "TechCrunch", "MIT Technology Review", "Nature News",
+        "Science Magazine", "IEEE Spectrum", "OECD Newsroom",
+        "World Bank Blogs", "UN News", "EUR-Lex Recent Acts",
+        "Brookings Institution", "World Economic Forum", "Pew Research Center",
+        "Wired", "ScienceDaily", "RMI", "ILO", "IFR"
+      ],
+      "file_created_at": "2026-02-10T13:10:00+00:00"
+    }
+  },
+  "total_items": 15,
+  "items": [
+    {
+      "id": "wf1-20260210-001",
+      "title": "Stanford Light-Trap Breakthrough Could Enable Million-Qubit Quantum Computers",
+      "source": {
+        "name": "ScienceDaily",
+        "type": "academic_news",
+        "url": "https://www.sciencedaily.com/releases/2026/02/260201223737.htm",
+        "published_date": "2026-02-09T22:37:00+00:00"
+      },
+      "content": {
+        "abstract": "Stanford researchers created miniature optical cavities that efficiently collect light from individual atoms, enabling hundreds of qubits to be read simultaneously. The approach could eventually support massive quantum networks with millions of qubits, overcoming a fundamental scalability barrier in quantum computing.",
+        "keywords": ["quantum computing", "optical cavities", "qubits", "scalability", "Stanford"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:03:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "quantum computing breakthrough 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-002",
+      "title": "China's Artificial Sun Breaks Fundamental Fusion Density Limit",
+      "source": {
+        "name": "ScienceDaily / NucNet",
+        "type": "academic_news",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260101160855.htm",
+        "published_date": "2026-02-09T16:00:00+00:00"
+      },
+      "content": {
+        "abstract": "China's EAST tokamak exceeded the Greenwald density limit, a plasma stability threshold thought unbreakable for decades. This breakthrough brings steady-state fusion significantly closer to commercial viability, with implications for energy security and climate policy worldwide.",
+        "keywords": ["nuclear fusion", "tokamak", "EAST", "plasma density", "Greenwald limit", "China"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:03:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "nuclear fusion breakthrough 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-003",
+      "title": "New START Nuclear Arms Treaty Expires: Last US-Russia Arsenal Limit Ends February 2026",
+      "source": {
+        "name": "Council on Foreign Relations",
+        "type": "policy",
+        "url": "https://www.cfr.org/articles/visualizing-2026-five-foreign-policy-trends-watch",
+        "published_date": "2026-02-09T14:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The New START treaty, the last agreement limiting US and Russian long-range nuclear arsenals, expires in February 2026 with no replacement negotiated. This creates a new era of unconstrained nuclear competition between the two largest nuclear powers, raising global proliferation risks.",
+        "keywords": ["New START", "nuclear arms", "US-Russia", "arms control", "nonproliferation"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-10T13:04:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "geopolitical developments February 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-004",
+      "title": "CRISPR Breakthrough: Gene Activation Without DNA Cutting via Epigenetic Editing",
+      "source": {
+        "name": "ScienceDaily",
+        "type": "academic_news",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm",
+        "published_date": "2026-02-09T20:28:00+00:00"
+      },
+      "content": {
+        "abstract": "Scientists demonstrate turning genes back on without cutting DNA by removing chemical tags that act as molecular anchors. This epigenetic editing approach enables gene reactivation for therapeutic purposes without permanent genomic changes, potentially revolutionizing treatments for genetic diseases.",
+        "keywords": ["CRISPR", "epigenetic editing", "gene therapy", "DNA methylation", "biotechnology"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:04:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "CRISPR gene editing breakthrough 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-005",
+      "title": "Brazil Launches Comprehensive Crypto Authorization Regime (Feb 2, 2026)",
+      "source": {
+        "name": "Cleary Gottlieb / FinTech Global",
+        "type": "policy",
+        "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update",
+        "published_date": "2026-02-10T05:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Brazil's crypto authorization regime commenced February 2, 2026, requiring AML/CFT compliance, disclosure requirements, and minimum capital between BRL 10.8M-37.2M. The US GENIUS Act creates a federal stablecoin framework with final regulations expected by July 2026. Switzerland opens crypto regulation amendments for consultation.",
+        "keywords": ["cryptocurrency", "regulation", "Brazil", "stablecoin", "GENIUS Act", "fintech"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-10T13:05:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "global crypto regulation February 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-006",
+      "title": "Europe Rebrands Energy Transition as Military and Strategic Survival Imperative",
+      "source": {
+        "name": "Lowy Institute / European Commission",
+        "type": "policy",
+        "url": "https://www.lowyinstitute.org/the-interpreter/rebranding-europe-s-energy-transition-climate-policy-survival",
+        "published_date": "2026-02-10T00:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The European Commission's 2026 work program 'Europe's Independence Moment' explicitly frames the climate transition as military and strategic survival. This fundamental reframing from environmental policy to national security could accelerate clean energy investment while creating new geopolitical alignments.",
+        "keywords": ["energy transition", "European Commission", "strategic autonomy", "climate policy", "national security"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-10T13:05:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "energy transition Europe 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-007",
+      "title": "ILO Global Employment Report: Stalled Job Quality Progress Despite Low Unemployment",
+      "source": {
+        "name": "International Labour Organization",
+        "type": "policy",
+        "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+        "published_date": "2026-02-10T08:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Global unemployment remains at 4.9% in 2026, but job quality progress has stalled. Youth unemployment at 12.4% and 260 million NEET youth signal structural labor market dysfunction. Women remain 24.2% less likely to participate in the labor force. The report warns of increasing exposure to demographic and technological risks.",
+        "keywords": ["employment", "job quality", "youth unemployment", "NEET", "labor market", "ILO"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-02-10T13:06:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "labor market workforce trends 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-008",
+      "title": "Physical AI and Humanoid Robotics Patent Surge: 15% Annual Growth in US Filings",
+      "source": {
+        "name": "International Federation of Robotics / Parola Analytics",
+        "type": "patent",
+        "url": "https://ifr.org/ifr-press-releases/news/top-5-global-robotics-trends-2026",
+        "published_date": "2026-02-10T06:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Robotic patent grants in the US grew 15.21% annually over the past decade, with Physical AI extending intelligence into autonomous real-world machines. Humanoid robots for industrial applications are expanding rapidly from automotive into warehousing and manufacturing, with NVIDIA, LG, Intel, and Chinese firms leading patent filings.",
+        "keywords": ["robotics", "patents", "Physical AI", "humanoid robots", "automation", "manufacturing"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:06:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "robotics patent trends 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-009",
+      "title": "AI Ethics Crisis: Society Underprepared for Psychological and Social Effects of AI",
+      "source": {
+        "name": "APA / AI Business Review",
+        "type": "academic_news",
+        "url": "https://www.apa.org/monitor/2026/01-02/trends-personalized-mental-health-care",
+        "published_date": "2026-02-09T15:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Ethicist Shannon Vallor warns society is underprepared for AI's psychological and social effects. While AI-powered mental health tools show remarkable accuracy, governance gaps persist in privacy, algorithmic accountability, and access equity. AI is reshaping human behavior, democracy, and reality perception with uncertain long-term consequences.",
+        "keywords": ["AI ethics", "mental health", "algorithmic accountability", "privacy", "digital wellbeing"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-02-10T13:07:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "AI ethics society psychology 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-010",
+      "title": "US-China Critical Minerals Confrontation Reshapes Global Supply Chains",
+      "source": {
+        "name": "Lazard / EY Geostrategic Outlook",
+        "type": "policy",
+        "url": "https://www.lazard.com/research-insights/top-geopolitical-trends-in-2026/",
+        "published_date": "2026-02-10T00:00:00+00:00"
+      },
+      "content": {
+        "abstract": "China's near-total control over critical minerals and rare earth elements creates key geopolitical leverage. Beijing and Washington are shaping a new bipolar framework, with critical minerals becoming the centerpiece of strategic competition. This forces allies to choose between supply chain security and economic efficiency.",
+        "keywords": ["critical minerals", "rare earth", "US-China", "supply chain", "geopolitics"],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-02-10T13:07:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "geopolitical trends critical minerals 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-011",
+      "title": "China Deployed 300+ GW Solar/Wind in 2025 — More Than Total US Renewable History",
+      "source": {
+        "name": "Yale Climate Connections / RMI",
+        "type": "policy",
+        "url": "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026/",
+        "published_date": "2026-02-09T18:00:00+00:00"
+      },
+      "content": {
+        "abstract": "China installed over 300 GW of new solar and wind capacity in 2025 alone — equivalent to 300 nuclear power plants — exceeding the total US renewable capacity built historically. China also exported $200B+ in clean energy technology, fundamentally reshaping global energy markets and manufacturing geography.",
+        "keywords": ["renewable energy", "solar power", "wind power", "China", "energy transition", "clean tech"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-10T13:08:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "climate change energy transition 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-012",
+      "title": "WEST Reactor Achieves 20-Minute Steady-State Fusion Plasma — Pulsed-to-Steady Transition",
+      "source": {
+        "name": "Popular Mechanics / Editorial GE",
+        "type": "academic_news",
+        "url": "https://www.popularmechanics.com/science/energy/a70097248/tokamak-fusion-breakthroughs-energy/",
+        "published_date": "2026-02-10T02:00:00+00:00"
+      },
+      "content": {
+        "abstract": "France's WEST reactor maintained stable high-confinement plasma for over 20 minutes, a monumental jump from seconds of stability achieved previously. Combined with $9.7 billion in private fusion investment and 50+ startups, this signals the beginning of the pulsed-to-steady-state transition critical for commercial fusion power.",
+        "keywords": ["nuclear fusion", "WEST reactor", "steady-state plasma", "France", "commercial fusion"],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-10T13:08:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "nuclear fusion advanced materials 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-013",
+      "title": "NY FAIR Act (Feb 17, 2026): Unfair Business Practices Now Explicitly Prohibited",
+      "source": {
+        "name": "FinTech Global",
+        "type": "policy",
+        "url": "https://fintech.global/2026/02/05/february-2026-payments-rules-banks-and-fintechs-cant-ignore/",
+        "published_date": "2026-02-10T05:00:00+00:00"
+      },
+      "content": {
+        "abstract": "New York's FAIR Act takes effect February 17, 2026, explicitly prohibiting unfair, deceptive or abusive acts across all business activities. This heightens regulatory risk for payments firms, fintechs, and banks around product design, pricing transparency, and consumer protection, signaling broader regulatory tightening.",
+        "keywords": ["FAIR Act", "consumer protection", "fintech regulation", "New York", "payments"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-02-10T13:09:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "fintech regulation February 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-014",
+      "title": "Corporate Greenhushing: Companies Deliberately Hide Climate Progress to Avoid Backlash",
+      "source": {
+        "name": "ESG Dive",
+        "type": "policy",
+        "url": "https://www.esgdive.com/news/esg-trends-outlook-2026/809129/",
+        "published_date": "2026-02-09T14:00:00+00:00"
+      },
+      "content": {
+        "abstract": "A growing number of companies are deliberately downplaying or concealing their climate progress through 'greenhushing' — the opposite of greenwashing. Companies fear backlash from both climate activists (for not doing enough) and anti-ESG forces (for doing too much), creating a chilling effect on climate communication transparency.",
+        "keywords": ["ESG", "greenhushing", "climate communication", "corporate sustainability", "anti-ESG"],
+        "language": "en"
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-02-10T13:09:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "ESG sustainability trends 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    },
+    {
+      "id": "wf1-20260210-015",
+      "title": "Demographic Cliff: Skills Mismatch as College Grads Surge While AI Cools White-Collar Hiring",
+      "source": {
+        "name": "ZipRecruiter / IMD / Vistage",
+        "type": "research",
+        "url": "https://www.imd.org/ibyimd/talent/workplace-trends-for-2026/",
+        "published_date": "2026-02-10T09:00:00+00:00"
+      },
+      "content": {
+        "abstract": "By 2030, 1 in 5 Americans will be 65+, creating more grandparents than grandchildren. Bachelor's degree holders surge while AI cools white-collar hiring, creating a simultaneous surplus of graduates and shortage of nurses, machinists, and carpenters. Workers with AI expertise command 56% salary premiums. 78% of businesses now use AI, up from 55% a year ago.",
+        "keywords": ["demographics", "skills mismatch", "aging population", "AI employment", "labor shortage"],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-02-10T13:10:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_query": "labor market demographic trends 2026",
+          "api_call_type": "web_search"
+        }
+      }
+    }
+  ]
+}

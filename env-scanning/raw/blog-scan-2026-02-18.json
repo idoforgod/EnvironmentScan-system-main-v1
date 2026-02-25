@@ -1,0 +1,2094 @@
+{
+  "agent_metadata": {
+    "agent_name": "blog-agent",
+    "model_used": "haiku",
+    "articles_collected": 75,
+    "sources_scanned": 13,
+    "scan_date": "2026-02-18",
+    "status": "success",
+    "execution_time": 4.61,
+    "process_id": 21796
+  },
+  "items": [
+    {
+      "id": "techcrunch-2323d5e08437",
+      "title": "Amazon halts Blue Jay robotics project after less than 6 months",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/amazon-halts-blue-jay-robotics-project-after-less-than-six-months/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Amazon halts Blue Jay robotics project after less than 6 months",
+        "keywords": [
+          "ai",
+          "robotics",
+          "amazon",
+          "warehouse robotics"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Szkutak"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681239"
+    },
+    {
+      "id": "techcrunch-45e350ad85f1",
+      "title": "Mastodon, a decentralized alternative to X, plans to target creators with new features",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/mastodon-a-decentralized-alternative-to-x-plans-to-target-creators-with-new-features/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Mastodon, a decentralized alternative to X, plans to target creators with new features",
+        "keywords": [
+          "apps",
+          "social",
+          "decentralized",
+          "fediverse",
+          "mastodon",
+          "social media"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681261"
+    },
+    {
+      "id": "techcrunch-709984f861c5",
+      "title": "Data breach at fintech giant Figure affects close to a million customers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/data-breach-at-fintech-giant-figure-affects-close-to-a-million-customers/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Data breach at fintech giant Figure affects close to a million customers",
+        "keywords": [
+          "security",
+          "cybercrime",
+          "data breach",
+          "figure technology",
+          "fintech",
+          "hackers",
+          "hacking",
+          "in brief",
+          "infosec",
+          "shinyhunters"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lorenzo Franceschi-Bicchierai"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681278"
+    },
+    {
+      "id": "techcrunch-a5ddf64a05a9",
+      "title": "World Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "World Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows",
+        "keywords": [
+          "ai",
+          "fundraising",
+          "autodesk",
+          "cad",
+          "fei-fei li",
+          "world labs",
+          "world models"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Bellan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681292"
+    },
+    {
+      "id": "techcrunch-148c2768e0a2",
+      "title": "Google debuts $499 Pixel 10a",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/google-debuts-499-pixel-10a/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Google debuts $499 Pixel 10a",
+        "keywords": [
+          "hardware",
+          "google",
+          "google pixel",
+          "pixel 10a"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681303"
+    },
+    {
+      "id": "techcrunch-5a2a76efff68",
+      "title": "Audible’s new ‘Read & Listen’ feature syncs your Kindle e-books with audiobooks",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/audibles-new-read-listen-feature-syncs-your-kindle-ebooks-with-audiobooks/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Audible’s new ‘Read & Listen’ feature syncs your Kindle e-books with audiobooks",
+        "keywords": [
+          "apps",
+          "commerce",
+          "media & entertainment",
+          "amazon",
+          "kindle",
+          "audible",
+          "ebook",
+          "reading",
+          "audiobooks"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681319"
+    },
+    {
+      "id": "techcrunch-f8ac199f9a3a",
+      "title": "X continues to bet on vertical video with its latest update",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/x-continues-to-bet-on-vertical-video-with-its-latest-update/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "X continues to bet on vertical video with its latest update",
+        "keywords": [
+          "apps",
+          "social",
+          "short form video",
+          "social media",
+          "vertical video",
+          "x"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lauren Forristal"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681331"
+    },
+    {
+      "id": "techcrunch-1087a3d6103c",
+      "title": "Snapchat+ tops 25M subscribers, driving company’s direct revenue ARR to $1B",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/snapchat-tops-25m-subscribers-driving-companys-direct-revenue-arr-to-1b/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Snapchat+ tops 25M subscribers, driving company’s direct revenue ARR to $1B",
+        "keywords": [
+          "apps",
+          "social",
+          "snap",
+          "snapchat"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681343"
+    },
+    {
+      "id": "techcrunch-97443c3e2a88",
+      "title": "Google adds music-generation capabilities to the Gemini app",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/google-adds-music-generation-capabilities-to-the-gemini-app/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Google adds music-generation capabilities to the Gemini app",
+        "keywords": [
+          "ai",
+          "apps",
+          "media & entertainment",
+          "ai music",
+          "gemini",
+          "google"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Ivan Mehta"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681354"
+    },
+    {
+      "id": "techcrunch-a54b98cef3d4",
+      "title": "Kana emerges from stealth with $15M to build flexible AI agents for marketers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/kana-emerges-from-stealth-with-15m-to-build-flexible-ai-agents-for-marketers/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Kana emerges from stealth with $15M to build flexible AI agents for marketers",
+        "keywords": [
+          "ai",
+          "commerce",
+          "startups",
+          "ai agents",
+          "exclusive",
+          "marketing",
+          "martech",
+          "mayfield",
+          "mayfield fund"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Ram Iyer"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681367"
+    },
+    {
+      "id": "techcrunch-8c3fa42d7ee5",
+      "title": "This former Microsoft PM thinks she can unseat CyberArk in 18 months",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/the-former-microsoft-pm-who-thinks-she-can-unseat-cyberark-in-18-months/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "This former Microsoft PM thinks she can unseat CyberArk in 18 months",
+        "keywords": [
+          "fundraising",
+          "security",
+          "cybersecurity startups",
+          "identity management",
+          "venice"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Connie Loizos"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681378"
+    },
+    {
+      "id": "techcrunch-6de4bc2b5c5a",
+      "title": "Microsoft says Office bug exposed customers’ confidential emails to Copilot AI",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Microsoft says Office bug exposed customers’ confidential emails to Copilot AI",
+        "keywords": [
+          "ai",
+          "security",
+          "chatbot",
+          "copilot",
+          "cybersecurity",
+          "data protection",
+          "in brief",
+          "microsoft"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Zack Whittaker"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681392"
+    },
+    {
+      "id": "techcrunch-45d872718dce",
+      "title": "OpenAI pushes into higher education as India seeks to scale AI skills",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/openai-pushes-into-higher-education-as-india-seeks-to-scale-ai-skills/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "OpenAI pushes into higher education as India seeks to scale AI skills",
+        "keywords": [
+          "ai",
+          "chatgpt edu",
+          "edtech",
+          "education",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Jagmeet Singh"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681402"
+    },
+    {
+      "id": "techcrunch-bf577b04e7f7",
+      "title": "Canva gets to $4B in revenue as LLM referral traffic rises",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/canva-gets-to-4b-in-revenue-as-llm-referral-traffic-rises/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Canva gets to $4B in revenue as LLM referral traffic rises",
+        "keywords": [
+          "apps",
+          "adobe",
+          "canva",
+          "creative suite",
+          "exclusive"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Ivan Mehta"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681413"
+    },
+    {
+      "id": "techcrunch-4f9034dfbb20",
+      "title": "India’s Sarvam wants to bring its AI models to feature phones, cars, and smart glasses",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/18/indias-sarvam-wants-to-bring-its-ai-models-to-feature-phones-cars-and-smart-glasses/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "India’s Sarvam wants to bring its AI models to feature phones, cars, and smart glasses",
+        "keywords": [
+          "ai",
+          "hardware",
+          "india ai impact summit 2026",
+          "qualcomm",
+          "sarvam"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Ivan Mehta"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.681425"
+    },
+    {
+      "id": "mit-technology-review-c646cce30b08",
+      "title": "Google DeepMind wants to know if chatbots are just virtue signaling",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Google DeepMind is calling for the moral behavior of large language models—such as what they do when called on to act as companions, therapists, medical advisors, and so on—to be scrutinized with the same kind of rigor as their ability to code or do math. As LLMs improve, people are asking them to play more&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "summary"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Will Douglas Heaven"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.887977"
+    },
+    {
+      "id": "mit-technology-review-621956efa658",
+      "title": "The Download: a blockchain enigma, and the algorithms governing our lives",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Welcome to the dark side of crypto’s permissionless dream Jean-Paul Thorbjornsen, an Australian man in his mid-30s, with a rural Catholic upbringing, is a founder of THORChain, a blockchain through which users can&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888011"
+    },
+    {
+      "id": "mit-technology-review-7f5f7455c100",
+      "title": "The robots who predict the future",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/18/1132579/robots-predict-future-book-review/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "To be human is, fundamentally, to be a forecaster. Occasionally a pretty good one. Trying to see the future, whether through the lens of past experience or the logic of cause and effect, has helped us hunt, avoid being hunted, plant crops, forge social bonds, and in general survive in a world that does not&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Bryan Gardiner"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888037"
+    },
+    {
+      "id": "mit-technology-review-3c03bd31607a",
+      "title": "Welcome to the dark side of crypto’s permissionless dream",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/18/1132587/jean-paul-thorbjornsen-dark-side-crypto-permissionless-dream/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "“We’re out of airspace now. We can do whatever we want,” Jean-Paul Thorbjornsen tells me from the pilot’s seat of his Aston Martin helicopter. As we fly over suburbs outside Melbourne, Australia, it’s becoming clear that doing whatever he wants is Thorbjornsen’s MO.&#160; Upper-middle-class homes give way to vineyards, and Thorbjornsen points out our landing&#8230;",
+        "keywords": [
+          "computing",
+          "app",
+          "features and investigations"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Jessica Klein"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888066"
+    },
+    {
+      "id": "mit-technology-review-bc6691ddb119",
+      "title": "The Download: the rise of luxury car theft, and fighting antimicrobial resistance",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/17/1133018/the-download-the-rise-of-luxury-car-theft-and-fighting-antimicrobial-resistance/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The curious case of the disappearing Lamborghinis Across the world, unsuspecting people are unwittingly becoming caught up in a new and growing type of organized criminal enterprise: vehicle transport fraud and theft. Crooks&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888091"
+    },
+    {
+      "id": "mit-technology-review-0713d5fcc3b5",
+      "title": "The curious case of the disappearing Lamborghinis",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/17/1132538/curious-case-disappearing-lambhorghinis/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "When Sam Zahr first saw the gray Rolls-Royce Dawn convertible with orange interior and orange roof, he knew he’d found a perfect addition to his fleet. “It was very appealing to our clientele,” he told me. As the director of operations at Dream Luxury Rental, he outfits customers in the Detroit area looking to ride&#8230;",
+        "keywords": [
+          "culture",
+          "app",
+          "features and investigations"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Craig Silverman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888117"
+    },
+    {
+      "id": "mit-technology-review-75ce37915741",
+      "title": "Tuning into the future of collaboration",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/16/1125881/tuning-into-the-future-of-collaboration/",
+        "published_date": "2026-02-16"
+      },
+      "content": {
+        "abstract": "When work went remote, the sound of business changed. What began as a scramble to make home offices functional has evolved into a revolution in how people hear and are heard. From education to enterprises, companies across industries have reimagined what clear, reliable communication can mean in a hybrid world. For major audio and communications&#8230;",
+        "keywords": [
+          "humans and technology",
+          "sponsored"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "MIT Technology Review Insights"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888141"
+    },
+    {
+      "id": "mit-technology-review-728ac99c648d",
+      "title": "The Download: unraveling a death threat mystery, and AI voice recreation for musicians",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/16/1133008/the-download-unraveling-a-death-threat-mystery-and-ai-voice-recreation-for-musicians/",
+        "published_date": "2026-02-16"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Hackers made death threats against this security researcher. Big mistake. In April 2024, a mysterious someone using the online handles “Waifu” and “Judische” began posting death threats on Telegram and Discord channels aimed&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888167"
+    },
+    {
+      "id": "mit-technology-review-6a4e3b2c33bd",
+      "title": "The scientist using AI to hunt for antibiotics just about everywhere",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/16/1132516/cesar-de-la-fuente-using-ai-antibiotics-hunt/",
+        "published_date": "2026-02-16"
+      },
+      "content": {
+        "abstract": "When he was just a teenager trying to decide what to do with his life, César de la Fuente compiled a list of the world’s biggest problems. He ranked them inversely by how much money governments were spending to solve them. Antimicrobial resistance topped the list.&#160; Twenty years on, the problem has not gone away.&#8230;",
+        "keywords": [
+          "biotechnology and health",
+          "app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Stephen Ornes"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888191"
+    },
+    {
+      "id": "mit-technology-review-457c543f65de",
+      "title": "Hackers made death threats against this security researcher. Big mistake.",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/02/16/1132526/allison-nixon-hackers-security-researcher/",
+        "published_date": "2026-02-16"
+      },
+      "content": {
+        "abstract": "The threats started in spring.&#160; In April 2024, a mysterious someone using the online handles “Waifu” and “Judische” began posting death threats on Telegram and Discord channels aimed at a cybersecurity researcher named Allison Nixon.&#160; “Alison [sic] Nixon is gonna get necklaced with a tire filled with gasoline soon,” wrote Waifu/Judische, both of which are&#8230;",
+        "keywords": [
+          "computing",
+          "app",
+          "features and investigations"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Kim Zetter"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:47.888217"
+    },
+    {
+      "id": "pew-research-center-00fc94b4e858",
+      "title": "Appendix E: Detailed tables",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/appendix-e-detailed-tables-national-pride/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Appendix E: Detailed tables",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241323"
+    },
+    {
+      "id": "pew-research-center-c0e6f31cd56e",
+      "title": "Appendix D: Political categorization",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/appendix-d-political-categorization-national-pride/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Appendix D: Political categorization",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241340"
+    },
+    {
+      "id": "pew-research-center-e9ef2caeeeea",
+      "title": "Appendix C: Codebook",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/appendix-c-codebook-national-pride/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Appendix C: Codebook",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241353"
+    },
+    {
+      "id": "pew-research-center-27c4c9ca69e7",
+      "title": "Appendix B: Coding methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/appendix-b-coding-methodology-national-pride/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Appendix B: Coding methodology",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241364"
+    },
+    {
+      "id": "pew-research-center-6d04f4d86048",
+      "title": "Appendix A: Survey methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/appendix-a-survey-methodology-national-pride/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Appendix A: Survey methodology",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241374"
+    },
+    {
+      "id": "pew-research-center-30472f35e859",
+      "title": "Acknowledgments",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/acknowledgments-83/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Acknowledgments",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241384"
+    },
+    {
+      "id": "pew-research-center-91e2fce11f41",
+      "title": "Where, and why, people aren’t proud of their country",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/where-and-why-people-arent-proud-of-their-country/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Where, and why, people aren’t proud of their country",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241397"
+    },
+    {
+      "id": "pew-research-center-c40d77063fa0",
+      "title": "Where in the world are people proud of their nation’s people and diversity?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/where-in-the-world-are-people-proud-of-their-nations-people-and-diversity/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Where in the world are people proud of their nation’s people and diversity?",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241409"
+    },
+    {
+      "id": "pew-research-center-09a7ad4831bb",
+      "title": "Where in the world are people proud of their nation’s politics and economy, and why?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/where-in-the-world-are-people-proud-of-their-nations-politics-and-economy-and-why/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Where in the world are people proud of their nation’s politics and economy, and why?",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241424"
+    },
+    {
+      "id": "pew-research-center-f89e872597e4",
+      "title": "Where in the world are people proud of their country’s culture and lifestyle?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/where-in-the-world-are-people-proud-of-their-countrys-culture-and-lifestyle/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Where in the world are people proud of their country’s culture and lifestyle?",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241436"
+    },
+    {
+      "id": "pew-research-center-9b3832b481d0",
+      "title": "What Makes People Proud of Their Country?",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/global/2026/02/17/what-makes-people-proud-of-their-country/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "What Makes People Proud of Their Country?",
+        "keywords": [
+          "happiness & life satisfaction",
+          "international affairs"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241447"
+    },
+    {
+      "id": "pew-research-center-457621f93e0e",
+      "title": "Appendix A: Countries with a large majority by religion",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/02/12/appendix-a-countries-with-a-large-majority-by-religion/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Appendix A: Countries with a large majority by religion",
+        "keywords": [
+          "global religious demographics",
+          "pew-templeton global religious futures project",
+          "religious characteristics of demographic groups",
+          "religious demographics",
+          "religious identity & affiliation"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241460"
+    },
+    {
+      "id": "pew-research-center-5d51a628d17a",
+      "title": "Methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/02/12/methodology-religious-diversity-around-the-world/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Methodology",
+        "keywords": [
+          "global religious demographics",
+          "pew-templeton global religious futures project",
+          "religious characteristics of demographic groups",
+          "religious demographics",
+          "religious identity & affiliation"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241473"
+    },
+    {
+      "id": "pew-research-center-d59c7e5febce",
+      "title": "Acknowledgments",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/02/12/acknowledgments-religious-diversity-around-the-world/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Acknowledgments",
+        "keywords": [
+          "global religious demographics",
+          "pew-templeton global religious futures project",
+          "religious characteristics of demographic groups",
+          "religious demographics",
+          "religious identity & affiliation"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241485"
+    },
+    {
+      "id": "pew-research-center-dd0aa488bb13",
+      "title": "Religious Diversity Around the World",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/02/12/religious-diversity-around-the-world/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Religious Diversity Around the World",
+        "keywords": [
+          "global religious demographics",
+          "pew-templeton global religious futures project",
+          "religious characteristics of demographic groups",
+          "religious demographics",
+          "religious identity & affiliation"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Jcoleman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.241498"
+    },
+    {
+      "id": "hacker-news-db81568e5f89",
+      "title": "Cosmologically Unique IDs",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://jasonfantl.com/posts/Universal-Unique-IDs/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Cosmologically Unique IDs",
+        "keywords": [
+          "cosmologically",
+          "unique",
+          "cosmologically",
+          "unique"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "jfantl"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.734941"
+    },
+    {
+      "id": "hacker-news-210f97edbbe7",
+      "title": "Activeloop (YC S18) Is Hiring Back End Engineer (Go)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://app.dover.com/apply/Activeloop/72d0b3a7-7e86-46a8-9aff-b430ffe0b97f",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Activeloop (YC S18) Is Hiring Back End Engineer (Go)",
+        "keywords": [
+          "activeloop",
+          "s18)",
+          "hiring",
+          "back",
+          "engineer",
+          "(go)",
+          "activeloop",
+          "s18)",
+          "hiring",
+          "back"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "davidbuniat"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.734971"
+    },
+    {
+      "id": "hacker-news-14054d8e9f25",
+      "title": "DNS-Persist-01: A New Model for DNS-Based Challenge Validation",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://letsencrypt.org/2026/02/18/dns-persist-01.html",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "DNS-Persist-01: A New Model for DNS-Based Challenge Validation",
+        "keywords": [
+          "dns-persist-01:",
+          "model",
+          "dns-based",
+          "challenge",
+          "validation",
+          "dns-persist-01:",
+          "model",
+          "dns-based",
+          "challenge",
+          "validation"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "todsacerdoti"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.734992"
+    },
+    {
+      "id": "hacker-news-b19f1ab8eb43",
+      "title": "The Perils of ISBN",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://rygoldstein.com/posts/perils-of-isbn",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "The Perils of ISBN",
+        "keywords": [
+          "perils",
+          "isbn",
+          "perils",
+          "isbn"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "evakhoury"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.735008"
+    },
+    {
+      "id": "hacker-news-ba062ab70e33",
+      "title": "Weave (YC W25) Is Hiring ML, Design, and Product Engineers",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://jobs.ashbyhq.com/workweave",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Weave (YC W25) Is Hiring ML, Design, and Product Engineers",
+        "keywords": [
+          "weave",
+          "w25)",
+          "hiring",
+          "design,",
+          "product",
+          "engineers",
+          "weave",
+          "w25)",
+          "hiring",
+          "design,"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "adchurch"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.735026"
+    },
+    {
+      "id": "hacker-news-ccbf448445ec",
+      "title": "Flexport Is Hiring Engineers in Amsterdam",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://flexport.com/careers",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Flexport Is Hiring Engineers in Amsterdam",
+        "keywords": [
+          "flexport",
+          "hiring",
+          "engineers",
+          "amsterdam",
+          "flexport",
+          "hiring",
+          "engineers",
+          "amsterdam"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "thedogeye"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.735044"
+    },
+    {
+      "id": "hacker-news-9fa60d93feda",
+      "title": "Tailscale Peer Relays is now generally available",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://tailscale.com/blog/peer-relays-ga",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Tailscale Peer Relays is now generally available",
+        "keywords": [
+          "tailscale",
+          "peer",
+          "relays",
+          "generally",
+          "available",
+          "tailscale",
+          "peer",
+          "relays",
+          "generally",
+          "available"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "sz4kerto"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.735061"
+    },
+    {
+      "id": "hacker-news-5b13beb2ab8a",
+      "title": "Cistercian Numbers",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.omniglot.com/language/numbers/cistercian-numbers.htm",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Cistercian Numbers",
+        "keywords": [
+          "cistercian",
+          "numbers",
+          "cistercian",
+          "numbers"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "debo_"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.735076"
+    },
+    {
+      "id": "wired-24cf4a59eafb",
+      "title": "A Vast Trove of Exposed Social Security Numbers May Put Millions at Risk of Identity Theft",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/a-mega-trove-of-exposed-social-security-numbers-underscores-critical-identity-theft-risks/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "A Vast Trove of Exposed Social Security Numbers May Put Millions at Risk of Identity Theft",
+        "keywords": [
+          "security",
+          "security / cyberattacks and hacks",
+          "security / privacy",
+          "security / security news",
+          "cybersecurity",
+          "security",
+          "databases",
+          "data privacy",
+          "privacy",
+          "scams"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Lily Hay Newman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792465"
+    },
+    {
+      "id": "wired-8f5a2c4b1a7c",
+      "title": "Ring and Kidde’s Newest Smoke Detector Is Here, and It’s Battery Powered (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/kidde-ring-new-smoke-alarm-2026/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Ring and Kidde’s Newest Smoke Detector Is Here, and It’s Battery Powered (2026)",
+        "keywords": [
+          "gear",
+          "gear / gear news and events",
+          "gear / products / smart home",
+          "gear / products / home",
+          "smart home",
+          "amazon",
+          "google",
+          "household",
+          "shopping",
+          "iot"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Nena Farrell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792515"
+    },
+    {
+      "id": "wired-2444b7acc111",
+      "title": "Burnt Hair and Soft Power: A Night Out With Evie Magazine",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/burnt-hair-and-soft-power-a-night-out-with-evie-magazine/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Burnt Hair and Soft Power: A Night Out With Evie Magazine",
+        "keywords": [
+          "politics",
+          "politics / politics news",
+          "inner loop",
+          "politics",
+          "women",
+          "social media",
+          "elections",
+          "republicans"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Leah Feiger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792538"
+    },
+    {
+      "id": "wired-87a8e4456b50",
+      "title": "The Best Google Pixel Phones of 2026, Tested and Reviewed",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/best-google-pixel-phone/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "The Best Google Pixel Phones of 2026, Tested and Reviewed",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / phones",
+          "shopping",
+          "buying guides",
+          "phones",
+          "pixel",
+          "android",
+          "google",
+          "smartphones"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Julian Chokkattu"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792560"
+    },
+    {
+      "id": "wired-591033a6b6c3",
+      "title": "Big Tech Says Generative AI Will Save the Planet. It Doesn’t Offer Much Proof",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/big-tech-says-generative-ai-will-save-the-planet-it-doesnt-offer-much-proof/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Big Tech Says Generative AI Will Save the Planet. It Doesn’t Offer Much Proof",
+        "keywords": [
+          "science",
+          "science / environment",
+          "climate change",
+          "google",
+          "climate",
+          "artificial intelligence",
+          "environment",
+          "energy",
+          "generative ai",
+          "hot air"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Taft"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792587"
+    },
+    {
+      "id": "wired-ee43f7feaf31",
+      "title": "The Google Pixel 10a Is Barely Different From the Pixel 9a",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/google-pixel-10a/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "The Google Pixel 10a Is Barely Different From the Pixel 9a",
+        "keywords": [
+          "gear",
+          "gear / gear news and events",
+          "gear / products / phones",
+          "shopping",
+          "google",
+          "pixel",
+          "android",
+          "phones",
+          "smartphones",
+          "same old"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Julian Chokkattu"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792608"
+    },
+    {
+      "id": "wired-e784ac045c81",
+      "title": "Why Olympic Choreographer Benoît Richaud Went Viral Just for Changing Jackets",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/why-olympic-choreographer-benoit-richaud-went-viral-just-for-changing-jackets/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Why Olympic Choreographer Benoît Richaud Went Viral Just for Changing Jackets",
+        "keywords": [
+          "culture",
+          "culture / digital culture",
+          "2026 winter olympics",
+          "olympics",
+          "sports",
+          "training",
+          "digital culture",
+          "viral"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Daniele Polidoro"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792627"
+    },
+    {
+      "id": "wired-3a83283cc01c",
+      "title": "The Best Smart Rings, Tested and Reviewed (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/gallery/best-smart-rings/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "The Best Smart Rings, Tested and Reviewed (2026)",
+        "keywords": [
+          "gear",
+          "gear / buying guides",
+          "gear / products / health and fitness",
+          "shopping",
+          "buying guides",
+          "wearables",
+          "samsung",
+          "fitness trackers",
+          "sleep",
+          "health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Simon Hill, Adrienne So"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792649"
+    },
+    {
+      "id": "wired-8b385d7222aa",
+      "title": "Are Mushroom Supplements Worth Taking? (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/the-wired-guide-to-mushroom-supplements/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Are Mushroom Supplements Worth Taking? (2026)",
+        "keywords": [
+          "gear",
+          "gear / how to and advice",
+          "gear / products / health and fitness",
+          "gear / products / lifestyle",
+          "gear / trends",
+          "trends",
+          "health",
+          "nutrition",
+          "shopping",
+          "food and drink"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Boutayna Chokrane"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792670"
+    },
+    {
+      "id": "wired-93973a518a21",
+      "title": "Dell XPS 14 Review (2026): This Laptop Marks an Incredible Comeback",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/review/dell-xps-14-2026/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Dell XPS 14 Review (2026): This Laptop Marks an Incredible Comeback",
+        "keywords": [
+          "gear",
+          "gear / products",
+          "gear / products / computers",
+          "gear / reviews",
+          "laptops",
+          "laptop",
+          "review",
+          "reviews",
+          "shopping",
+          "computers"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Luke Larsen"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.792692"
+    },
+    {
+      "id": "ars-technica-834fa514d487",
+      "title": "FDA reverses surprise rejection of Moderna's mRNA flu vaccine",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/health/2026/02/fda-does-u-turn-will-review-modernas-mrna-flu-shot-after-shocking-rejection/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Trump admin's vaccine chief overruled FDA scientists to initially reject the shot.",
+        "keywords": [
+          "health",
+          "anti-vaccine",
+          "fda",
+          "moderna",
+          "robert f kennedy jr",
+          "vinay prasad"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Beth Mole"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847714"
+    },
+    {
+      "id": "ars-technica-772f766b7dd6",
+      "title": "Record scratch—Google's Lyria 3 AI music model is coming to Gemini today",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/google/2026/02/gemini-can-now-generate-ai-music-for-you-no-lyrics-required/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "With a simple prompt, you can generate 30 seconds of something like music.",
+        "keywords": [
+          "ai",
+          "google",
+          "artificial intelligence",
+          "generative ai",
+          "google"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Ryan Whitwam"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847740"
+    },
+    {
+      "id": "ars-technica-17874883c6d2",
+      "title": "Google's Pixel 10a arrives on March 5 for $499 with specs and design of yesteryear",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/02/googles-pixel-10a-arrives-on-march-5-for-499-with-specs-and-design-of-yesteryear/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Google's new budget phone is here, but don't expect a big upgrade.",
+        "keywords": [
+          "google",
+          "tech",
+          "android",
+          "google",
+          "pixel 10a",
+          "smartphones"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Ryan Whitwam"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847760"
+    },
+    {
+      "id": "ars-technica-d54f52be1a6e",
+      "title": "X-rays reveal kingfisher feather structure in unprecedented detail",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/02/what-the-chinese-art-of-tian-tsui-has-to-do-with-kingfishers/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Synchrotron radiation imaging revealed a porous, almost sponge-like nanostructure to create bright hues",
+        "keywords": [
+          "science",
+          "animals",
+          "kingfishers",
+          "nanostructure",
+          "photonic crystals",
+          "scanning electron microscopy",
+          "structural color"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jennifer Ouellette"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847780"
+    },
+    {
+      "id": "ars-technica-e8ed7154572d",
+      "title": "Inside the DHS forum where ICE agents trash talk one another",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/02/inside-the-dhs-forum-where-ice-agents-trash-talk-one-another/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Forum members have discussed their discomfort with mass deportation efforts.",
+        "keywords": [
+          "policy",
+          "dhs",
+          "forums",
+          "ice",
+          "syndication"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Vittoria Elliott, wired.com"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847797"
+    },
+    {
+      "id": "ars-technica-2cb166247aa0",
+      "title": "Hallucinogen DMT an effective antidepressant in small clinical trial",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/health/2026/02/hallucinogen-dmt-an-effective-antidepressant-in-small-clinical-trial/",
+        "published_date": "2026-02-18"
+      },
+      "content": {
+        "abstract": "Effectiveness appears to correlate with self-described mystical experience.",
+        "keywords": [
+          "health",
+          "antidepressant",
+          "clinical trial",
+          "depression",
+          "dmt",
+          "hallucinogen",
+          "psychedelic"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "John Timmer"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847815"
+    },
+    {
+      "id": "ars-technica-f90f6c272906",
+      "title": "GameHub will give Mac owners another imperfect way to play Windows games",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gaming/2026/02/gamehub-will-give-mac-owners-another-imperfect-way-to-play-windows-games/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "GameHub's existing Windows emulator on Android has its fair share of issues.",
+        "keywords": [
+          "apple",
+          "gaming",
+          "emulation",
+          "mac",
+          "macintosh",
+          "proton",
+          "steam",
+          "steamos",
+          "valvew",
+          "windows"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Kyle Orland"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847834"
+    },
+    {
+      "id": "ars-technica-4514dbd840e9",
+      "title": "Password managers' promise that they can't see your vaults isn't always true",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Contrary to what password managers say, a server compromise can mean game over.",
+        "keywords": [
+          "biz & it",
+          "features",
+          "security",
+          "end to end encryption",
+          "password managers",
+          "zero knowledge"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Dan Goodin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847851"
+    },
+    {
+      "id": "ars-technica-41c4c7c20697",
+      "title": "Stephen Colbert says CBS forbid interview of Democrat because of FCC threat",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/02/stephen-colbert-says-cbs-forbid-interview-of-democrat-because-of-fcc-threat/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Colbert: \"I want to assure you this decision is for purely financial reasons.\"",
+        "keywords": [
+          "policy",
+          "brendan carr",
+          "equal time rule",
+          "fcc",
+          "stephen colbert"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jon Brodkin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847867"
+    },
+    {
+      "id": "ars-technica-071477d3e502",
+      "title": "Most VMware users still \"actively reducing their VMware footprint,\" survey finds",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "Broadcom's \"strategy was never to keep every customer,\" CloudBolt report says.",
+        "keywords": [
+          "biz & it",
+          "broadcom",
+          "vmware"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Scharon Harding"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:50.847882"
+    },
+    {
+      "id": "carbon-brief-174ee469c51d",
+      "title": "Chris Stark: The economics of clean energy ‘just get better and better’",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/chris-stark-the-economics-of-clean-energy-just-get-better-and-better/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "The economics of clean energy “just get better and better”, leaving opponents of the transition... The post Chris Stark: The economics of clean energy ‘just get better and better’ appeared first on Carbon Brief.",
+        "keywords": [
+          "interviews",
+          "renewables",
+          "uk policy",
+          "2030",
+          "carbon brief interview",
+          "clean power",
+          "interview",
+          "net-zero",
+          "net-zero strategy",
+          "policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Simon Evans"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:51.062497"
+    },
+    {
+      "id": "carbon-brief-39f006c809e3",
+      "title": "Guest post: The challenges in projecting future global sea levels",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/guest-post-the-challenges-in-projecting-future-global-sea-levels/",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "It is well understood that human-caused climate change is causing sea levels to rise around... The post Guest post: The challenges in projecting future global sea levels appeared first on Carbon Brief.",
+        "keywords": [
+          "science",
+          "sea level rise",
+          "antartica",
+          "glaciers",
+          "sea ice",
+          "sea levels"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:51.062526"
+    },
+    {
+      "id": "carbon-brief-6eeb52af6e79",
+      "title": "Q&A: What does Trump’s repeal of US ‘endangerment finding’ mean for climate action?",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/qa-what-does-trumps-repeal-of-us-endangerment-finding-mean-for-climate-action/",
+        "published_date": "2026-02-16"
+      },
+      "content": {
+        "abstract": "On 12 February, US president Donald Trump revoked the &#8220;endangerment finding&#8221;, the bedrock of federal... The post Q&amp;A: What does Trump’s repeal of US ‘endangerment finding’ mean for climate action? appeared first on Carbon Brief.",
+        "keywords": [
+          "policy",
+          "us policy",
+          "donald trump",
+          "endangerment finding",
+          "us policy",
+          "us pollution regulations"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:51.062552"
+    },
+    {
+      "id": "carbon-brief-113540a36dae",
+      "title": "DeBriefed 13 February 2026: Trump repeals landmark ‘endangerment finding’ | China’s emissions flatlining | UK’s ‘relentless rain’",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/debriefed-13-february-2026-trump-repeals-landmark-endangerment-finding-chinas-emissions-flatlining-uks-relentless-rain/",
+        "published_date": "2026-02-13"
+      },
+      "content": {
+        "abstract": "Welcome to Carbon Brief’s DeBriefed.&#160;An essential guide to the week&#8217;s key developments relating to climate... The post DeBriefed 13 February 2026: Trump repeals landmark ‘endangerment finding’ | China’s emissions flatlining | UK’s ‘relentless rain’ appeared first on Carbon Brief.",
+        "keywords": [
+          "debriefed",
+          "coral bleaching",
+          "donald trump",
+          "endangerment finding",
+          "shropshire",
+          "us policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Alice Vernat-Davies"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:51.062579"
+    },
+    {
+      "id": "carbon-brief-7d74c5e42722",
+      "title": "Analysis: Trump has overseen larger coal decline than any other US president",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/analysis-trump-has-overseen-more-coal-retirements-than-any-other-us-president/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Donald Trump has overseen a larger fall in coal-fired power capacity than any other US... The post Analysis: Trump has overseen larger coal decline than any other US president appeared first on Carbon Brief.",
+        "keywords": [
+          "coal",
+          "emissions",
+          "energy",
+          "policy",
+          "us policy",
+          "coal retirement",
+          "coal-fired power plants",
+          "donald trump",
+          "fossil fuel",
+          "trump"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Simon Evans"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:51.062603"
+    },
+    {
+      "id": "carbon-brief-3b0235fc9df3",
+      "title": "Analysis: China’s CO2 emissions have now been ‘flat or falling’ for 21 months",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-21-months/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "China’s carbon dioxide (CO2) emissions fell by 1% in the final quarter of 2025, likely... The post Analysis: China’s CO2 emissions have now been ‘flat or falling’ for 21 months appeared first on Carbon Brief.",
+        "keywords": [
+          "china energy",
+          "china policy",
+          "emissions",
+          "energy",
+          "renewables",
+          "carbon emissions",
+          "chemicals",
+          "china",
+          "china policy",
+          "construction"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Lauri Myllyvirta"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:51.062629"
+    },
+    {
+      "id": "ai-ethics-brief-ec711150d5b2",
+      "title": "The AI Ethics Brief #184: What Deserves Your Attention",
+      "source": {
+        "name": "AI Ethics Brief",
+        "type": "blog",
+        "url": "https://brief.montrealethics.ai/p/the-ai-ethics-brief-184-what-deserves",
+        "published_date": "2026-02-17"
+      },
+      "content": {
+        "abstract": "On critical ignoring, Claude's constitution, and why attention is the scarcest resource in AI.",
+        "keywords": [
+          "ethics",
+          "brief",
+          "#184:",
+          "what",
+          "deserves",
+          "your",
+          "attention",
+          "critical",
+          "ignoring,",
+          "claude's"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://brief.montrealethics.ai/feed",
+        "author": "Montreal AI Ethics Institute"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-18T19:01:52.208365"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "classification_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-12",
+    "total_signals": 30,
+    "steeps_distribution": {
+      "T_Technological": 11,
+      "P_Political": 6,
+      "E_Economic": 2,
+      "E_Environmental": 5,
+      "S_Social": 5,
+      "s_spiritual": 2
+    },
+    "exploration_merge": {
+      "exploration_signals_added": 6,
+      "pre_merge_total": 25,
+      "post_merge_total": 30,
+      "merge_status": "SUCCESS",
+      "merged_at": "2026-02-12T09:14:49Z"
+    },
+    "deduplication": {
+      "total_before": 31,
+      "duplicates_removed": 0,
+      "total_after": 31,
+      "method": "4-stage cascade (URL, string, semantic, entity)"
+    }
+  },
+  "signals": [
+    {
+      "id": "wf1-20260212-001",
+      "title": "Microsoft Majorana 1 Topological Quantum Chip Unveiled",
+      "final_category": "T",
+      "subcategory": "Quantum Computing",
+      "confidence": 0.96
+    },
+    {
+      "id": "wf1-20260212-002",
+      "title": "Gold Breaches $5,000 Amid Fed Pivot Expectations",
+      "final_category": "E",
+      "subcategory": "Monetary Policy / Commodities",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-003",
+      "title": "Geoeconomic Confrontation Named World's Top Risk 2026",
+      "final_category": "P",
+      "subcategory": "Geopolitics / Economic Security",
+      "confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-004",
+      "title": "US Jobs Report: Structural Labor Market Challenges",
+      "final_category": "S",
+      "subcategory": "Labor Market / Demographics",
+      "confidence": 0.94
+    },
+    {
+      "id": "wf1-20260212-005",
+      "title": "EPA Eliminates Clean Air Act Endangerment Finding",
+      "final_category": "E_Environmental",
+      "subcategory": "Climate Policy / Regulation",
+      "confidence": 0.98
+    },
+    {
+      "id": "wf1-20260212-006",
+      "title": "New START Nuclear Treaty Expires",
+      "final_category": "P",
+      "subcategory": "Arms Control / Nuclear Security",
+      "confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-007",
+      "title": "Cerebras Raises $1B at $23B for AI Chip Alternative",
+      "final_category": "T",
+      "subcategory": "AI Infrastructure / Semiconductor",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-008",
+      "title": "WHO: 40% of Cancer Cases Preventable",
+      "final_category": "S",
+      "subcategory": "Public Health / Disease Prevention",
+      "confidence": 0.93
+    },
+    {
+      "id": "wf1-20260212-009",
+      "title": "China Clean Energy Drives 1/3 of GDP Growth; Solar/Wind Surpasses Coal",
+      "final_category": "E_Environmental",
+      "subcategory": "Energy Transition / China",
+      "confidence": 0.96
+    },
+    {
+      "id": "wf1-20260212-010",
+      "title": "Baby KJ: First Personalized CRISPR Gene-Editing Treatment",
+      "final_category": "T",
+      "subcategory": "Biotechnology / Gene Editing",
+      "confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-011",
+      "title": "US Federal Judge Rules Secret Climate Panel 'Unlawful'",
+      "final_category": "P",
+      "subcategory": "Climate Policy / Judicial",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-012",
+      "title": "Stanford Optical Cavities Enable Scalable Quantum Networking",
+      "final_category": "T",
+      "subcategory": "Quantum Computing / Networking",
+      "confidence": 0.96
+    },
+    {
+      "id": "wf1-20260212-013",
+      "title": "Global CBDC Race: Russia, Brazil, EU Digital Currencies",
+      "final_category": "E",
+      "subcategory": "Digital Finance / Central Banking",
+      "confidence": 0.94
+    },
+    {
+      "id": "wf1-20260212-014",
+      "title": "EU Targets Meta Over AI Assistants on WhatsApp (DMA)",
+      "final_category": "P",
+      "subcategory": "Platform Regulation / AI Governance",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-015",
+      "title": "Sodium-Ion Batteries: Cheaper Alternative to Lithium",
+      "final_category": "T",
+      "subcategory": "Energy Technology / Batteries",
+      "confidence": 0.97
+    },
+    {
+      "id": "wf1-20260212-016",
+      "title": "Artemis II Moon Mission Delayed to March",
+      "final_category": "T",
+      "subcategory": "Space Technology",
+      "confidence": 0.93
+    },
+    {
+      "id": "wf1-20260212-017",
+      "title": "AI Trustworthiness Shifts to Operational Necessity",
+      "final_category": "s",
+      "subcategory": "AI Ethics / Values",
+      "confidence": 0.92
+    },
+    {
+      "id": "wf1-20260212-018",
+      "title": "Mechanistic Interpretability: 2026 Breakthrough Technology",
+      "final_category": "T",
+      "subcategory": "AI Safety / Interpretability",
+      "confidence": 0.96
+    },
+    {
+      "id": "wf1-20260212-019",
+      "title": "AI-Assisted Engineers Learn 25% Less",
+      "final_category": "s",
+      "subcategory": "Human-AI Interaction / Learning",
+      "confidence": 0.94
+    },
+    {
+      "id": "wf1-20260212-020",
+      "title": "Global Energy Storage to Exceed 100GW in 2026",
+      "final_category": "E_Environmental",
+      "subcategory": "Energy Storage / Transition",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-021",
+      "title": "Jimmy Lai Sentenced to 20 Years (Hong Kong)",
+      "final_category": "P",
+      "subcategory": "Press Freedom / Geopolitics",
+      "confidence": 0.96
+    },
+    {
+      "id": "wf1-20260212-022",
+      "title": "~800 New Deep-Sea Species Found Before Mining",
+      "final_category": "E_Environmental",
+      "subcategory": "Biodiversity / Deep-Sea Mining",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-023",
+      "title": "H-2B Visa Expanded: +64,716 for FY2026",
+      "final_category": "S",
+      "subcategory": "Immigration / Labor",
+      "confidence": 0.93
+    },
+    {
+      "id": "wf1-20260212-024",
+      "title": "Portugal Center-Left Defeats Far-Right in Runoff",
+      "final_category": "P",
+      "subcategory": "Elections / European Politics",
+      "confidence": 0.95
+    },
+    {
+      "id": "wf1-20260212-025",
+      "title": "US Patent Applications Drop 9%; Cell Tech Surges",
+      "final_category": "T",
+      "subcategory": "Innovation / Patents",
+      "confidence": 0.92
+    },
+    {
+      "id": "explore-20260212-ilo-001",
+      "title": "ILO: Global Jobs Gap Reaches 408 Million in 2026 Despite Stable Unemployment",
+      "source": {
+        "name": "International Labour Organization",
+        "type": "policy",
+        "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "ILO Employment and Social Trends 2026 report reveals global jobs gap (people wanting paid work but unable to access it) projected at 408 million. Official unemployment at 4.9% (186M) masks structural exclusion: 300M in extreme poverty, 2.1B in informal employment. Women 24.2% less likely to participate in labor force. 260M youth (20%) not in employment, education, or training. Employment growth diverging by income level: 0.5% in upper-middle vs 3.1% in low-income countries.",
+        "keywords": [
+          "jobs gap",
+          "informal employment",
+          "labor force participation",
+          "youth unemployment",
+          "gender disparity",
+          "ILO"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "final_category": "S",
+      "classification_confidence": 0.96,
+      "classification_reasoning": "ILO flagship report on global employment and social trends directly addresses demographic, labor, and social inequality issues -- core Social domain.",
+      "collected_at": "2026-02-12T09:15:00Z",
+      "exploration_source": "International Labour Organization",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "S_Social"
+    },
+    {
+      "id": "explore-20260212-sd-001",
+      "title": "Climate Models Missing Key Ocean Player: Plankton Shallow Dissolution Underestimated",
+      "source": {
+        "name": "ScienceDaily",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/02/260208011024.htm",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Marine plankton building calcium carbonate shells play outsized role in regulating Earth's climate, but largely missing from climate models. Much calcium carbonate produced by plankton does not sink to ocean floor but dissolves in upper ocean ('shallow dissolution'). This process is underrepresented in climate forecasting models, potentially skewing carbon cycle projections.",
+        "keywords": [
+          "climate models",
+          "marine plankton",
+          "carbon cycle",
+          "shallow dissolution",
+          "ocean chemistry"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "final_category": "E_Environmental",
+      "classification_confidence": 0.95,
+      "classification_reasoning": "Climate modeling gap involving marine biology -- Environmental domain. Scientific finding with implications for climate prediction accuracy.",
+      "collected_at": "2026-02-12T09:16:00Z",
+      "exploration_source": "ScienceDaily",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "ocean biology discoveries RSS"
+    },
+    {
+      "id": "explore-20260212-lt-001",
+      "title": "FDA Clears First Human Trial of Epigenetic Reprogramming Anti-Aging Therapy",
+      "source": {
+        "name": "Longevity Technology",
+        "type": "blog",
+        "url": "https://longevity.technology/news/fda-clears-first-human-trial-of-epigenetic-reprogramming-therapy/",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "FDA approved first-ever human clinical trial of epigenetic reprogramming therapy (Life Biosciences' ER-100). Uses three Yamanaka factors (OSK) to reset age-associated epigenetic markers while preserving cell identity. Targets age-related eye diseases (glaucoma, NAION). Excludes c-Myc to lower tumor risk. Cofounded by Harvard's David Sinclair. Phase 1 enrollment starting Feb 2026. Historic milestone: first translation of partial cellular rejuvenation from lab to human patients.",
+        "keywords": [
+          "epigenetic reprogramming",
+          "anti-aging",
+          "gene therapy",
+          "Yamanaka factors",
+          "FDA clinical trial",
+          "longevity"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "final_category": "T",
+      "classification_confidence": 0.94,
+      "classification_reasoning": "Biotechnology breakthrough -- first human trial of anti-aging gene therapy. Technological domain with spiritual/ethical implications.",
+      "collected_at": "2026-02-12T09:17:00Z",
+      "exploration_source": "Longevity Technology",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "longevity science breakthroughs"
+    },
+    {
+      "id": "explore-20260212-sd-002",
+      "title": "Deep-Sea Chiton Named by Public Vote: 8,000 Submissions for Rare Species",
+      "source": {
+        "name": "ScienceDaily",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/02/260207232242.htm",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Newly identified deep-sea chiton named Ferreiraella populi through public naming competition with 8,000+ submissions. Campaign began after science YouTuber Ze Frank featured the rare creature. Represents growing citizen science engagement and public interest in deep-sea biodiversity, coinciding with debates over seabed mining in the Clarion-Clipperton Zone.",
+        "keywords": [
+          "citizen science",
+          "deep-sea species",
+          "biodiversity",
+          "public engagement",
+          "marine taxonomy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "final_category": "S",
+      "classification_confidence": 0.88,
+      "classification_reasoning": "Citizen science and public engagement in biodiversity -- Social domain (cultural, educational dimension of science-society relationship).",
+      "collected_at": "2026-02-12T09:18:00Z",
+      "exploration_source": "ScienceDaily",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "ocean biology discoveries RSS"
+    },
+    {
+      "id": "explore-20260212-nasa-001",
+      "title": "NASA Perseverance Achieves AI-Driven Autonomous Navigation: 450m Without Human Input",
+      "source": {
+        "name": "Space.com",
+        "type": "blog",
+        "url": "https://www.space.com",
+        "published_date": "2026-02-11",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "NASA used AI to generate waypoints for Perseverance rover's route on two separate days, with the rover driving over 450 meters autonomously without human input. Represents significant step toward greater autonomy for planetary exploration rovers, reducing Earth-to-Mars communication delays from decision-making loop.",
+        "keywords": [
+          "autonomous navigation",
+          "Mars rover",
+          "AI",
+          "Perseverance",
+          "planetary exploration"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "final_category": "T",
+      "classification_confidence": 0.95,
+      "classification_reasoning": "AI-driven autonomous space exploration technology -- Technological domain combining AI and space exploration frontiers.",
+      "collected_at": "2026-02-12T09:19:00Z",
+      "exploration_source": "Space.com",
+      "discovery_method": "frontier_random",
+      "frontier_keyword": "space exploration breakthroughs feed"
+    }
+  ]
+}

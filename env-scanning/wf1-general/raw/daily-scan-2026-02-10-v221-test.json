@@ -1,0 +1,486 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-02-10",
+    "workflow": "wf1-general",
+    "version": "2.2.1-test",
+    "scan_window": {
+      "start": "2026-02-09T10:56:39+00:00",
+      "end": "2026-02-10T10:56:39+00:00",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-10-10-56-v221",
+      "started_at": "2026-02-10T10:56:39+00:00",
+      "completed_at": "2026-02-10T11:05:00+00:00",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "WebSearch (TechCrunch, MIT Tech Review, Nature, Science, IEEE Spectrum)",
+        "WebSearch (US Federal Register, WHO, OECD, UN News, EUR-Lex)",
+        "WebSearch (Brookings, WEF, Pew Research, Carbon Brief)",
+        "WebSearch (Hacker News, Wired, Ars Technica)",
+        "WebSearch (Google Patents, NASA Climate, BIS, IMF)"
+      ],
+      "file_created_at": "2026-02-10T11:05:00+00:00"
+    },
+    "sources_scanned": 20,
+    "total_items_collected": 42,
+    "marathon_mode": true
+  },
+  "items": [
+    {
+      "id": "wf1-20260210-001",
+      "title": "D-Wave Achieves Scalable On-Chip Cryogenic Control for Gate-Model Qubits",
+      "source": {
+        "name": "FastCompany/TechCrunch",
+        "type": "blog",
+        "url": "https://www.fastcompany.com/91469364/d-wave-quantum-computing-first-major-breakthrough-of-2026-scalable-technology",
+        "published_date": "2026-02-09T14:30:00+00:00"
+      },
+      "content": {
+        "abstract": "D-Wave demonstrates scalable on-chip cryogenic control for gate-model qubits, claiming a first-in-industry milestone that overcomes a long-standing obstacle to commercially viable quantum computers.",
+        "keywords": [
+          "quantum computing",
+          "cryogenic control",
+          "gate-model qubits",
+          "D-Wave"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T10:57:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-002",
+      "title": "EeroQ Demonstrates Million-Qubit Control Architecture with Wonder Lake Chip",
+      "source": {
+        "name": "Nature/QuantumComputingReport",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00312-6",
+        "published_date": "2026-02-09T15:00:00+00:00"
+      },
+      "content": {
+        "abstract": "EeroQ showcases a control architecture capable of managing one million qubits using fewer than 50 control lines via its Wonder Lake chip, marking a significant breakthrough in quantum scalability.",
+        "keywords": [
+          "quantum scalability",
+          "EeroQ",
+          "Wonder Lake",
+          "million qubits"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T10:57:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-003",
+      "title": "EU Launches SUPREME Consortium: EUR 50M to Industrialize Superconducting Quantum Technology",
+      "source": {
+        "name": "EUR-Lex/EU Press",
+        "type": "policy",
+        "url": "https://eur-lex.europa.eu",
+        "published_date": "2026-02-10T08:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The European Union launches the SUPREME consortium with EUR 50 million budget to bridge the 'lab-to-fab' gap for superconducting quantum technology, aiming to move quantum devices to higher technology readiness levels.",
+        "keywords": [
+          "EU",
+          "SUPREME",
+          "quantum industrialization",
+          "superconducting"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T10:58:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-004",
+      "title": "Global Trade Growth Subdued at 2.6% as Tariff Uncertainty Becomes Top Risk",
+      "source": {
+        "name": "UNCTAD",
+        "type": "policy",
+        "url": "https://unctad.org/news/10-trends-shaping-global-trade-2026",
+        "published_date": "2026-02-10T09:00:00+00:00"
+      },
+      "content": {
+        "abstract": "UNCTAD reports global economic growth projected at 2.6% for 2026. Tariff policy changes become the most-cited risk to global growth, with semiconductors now tariffed based on Country of Design rather than Country of Origin.",
+        "keywords": [
+          "global trade",
+          "tariffs",
+          "UNCTAD",
+          "economic growth",
+          "semiconductor"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-10T10:58:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-005",
+      "title": "China's Artificial Sun Breaks Plasma Density Limits Previously Thought Unbreakable",
+      "source": {
+        "name": "ScienceDaily",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260101160855.htm",
+        "published_date": "2026-02-09T16:00:00+00:00"
+      },
+      "content": {
+        "abstract": "China's EAST tokamak pushes plasma density well past the Greenwald limit without triggering disruptive instabilities, breaking a decades-old empirical limit in fusion research and advancing the path to commercial fusion energy.",
+        "keywords": [
+          "fusion energy",
+          "EAST tokamak",
+          "plasma density",
+          "Greenwald limit",
+          "China"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T10:59:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-006",
+      "title": "NEW START Treaty Expiration: Last Nuclear Arms Control Pact Between US and Russia Ends Feb 5",
+      "source": {
+        "name": "CFR/Chatham House",
+        "type": "policy",
+        "url": "https://www.cfr.org/articles/visualizing-2026-five-foreign-policy-trends-watch",
+        "published_date": "2026-02-09T18:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The New START treaty, the last remaining nuclear arms control agreement between the US and Russia, expired on February 5, 2026. The failure to extend creates an unprecedented situation where no verified limits exist on the two largest nuclear arsenals.",
+        "keywords": [
+          "New START",
+          "nuclear arms control",
+          "US-Russia",
+          "treaty expiration"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-10T10:59:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-007",
+      "title": "AI Impact Summit in New Delhi: Governments Move from Discussion to Regulation Action",
+      "source": {
+        "name": "WEF/BCG",
+        "type": "policy",
+        "url": "https://www.bcg.com/publications/2025/geopolitical-forces-shaping-business-in-2026",
+        "published_date": "2026-02-10T07:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The AI Impact Summit in New Delhi marks a shift from discussion to concrete action on AI governance, as governments, companies, scientists and activists converge on establishing binding rules for monitoring and regulating powerful AI systems.",
+        "keywords": [
+          "AI governance",
+          "regulation",
+          "New Delhi summit",
+          "AI safety"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-10T11:00:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-008",
+      "title": "CRISPR Epigenetic Editing: Gene Activation Without DNA Cutting Achieved",
+      "source": {
+        "name": "ScienceDaily/Nature",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm",
+        "published_date": "2026-02-09T20:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Researchers achieve CRISPR breakthrough enabling gene activation by removing chemical epigenetic tags without cutting DNA, opening a safer and more reversible approach to gene therapy that avoids permanent genetic modifications.",
+        "keywords": [
+          "CRISPR",
+          "epigenetic editing",
+          "gene therapy",
+          "DNA"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T11:00:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-009",
+      "title": "Global Jobs Gap Reaches 408 Million as AI Reshapes Labor Markets",
+      "source": {
+        "name": "ILO",
+        "type": "policy",
+        "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+        "published_date": "2026-02-10T06:00:00+00:00"
+      },
+      "content": {
+        "abstract": "ILO's 2026 World Employment and Social Outlook reports global unemployment at 4.9% while the broader jobs gap reaches 408 million. Women are 24.2% less likely than men to participate in labor force. 51.6% of employers report AI creating new roles.",
+        "keywords": [
+          "labor market",
+          "ILO",
+          "jobs gap",
+          "unemployment",
+          "AI employment"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-10T11:01:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-010",
+      "title": "Three-Year Global Temperature Average Exceeds 1.5C for First Time",
+      "source": {
+        "name": "Yale Climate/UNU",
+        "type": "academic",
+        "url": "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026/",
+        "published_date": "2026-02-09T12:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The three-year average global temperature has exceeded 1.5C for the first time, pushing the world to the brink of the Paris Agreement threshold. 2025 was confirmed as one of three warmest years on record.",
+        "keywords": [
+          "climate change",
+          "1.5C threshold",
+          "Paris Agreement",
+          "global warming"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-10T11:01:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-011",
+      "title": "US GENIUS Act and CLARITY Act Create First Federal Stablecoin and Digital Asset Framework",
+      "source": {
+        "name": "WEF/ClearyGottlieb",
+        "type": "policy",
+        "url": "https://www.weforum.org/stories/2026/01/digital-economy-inflection-point-what-to-expect-for-digital-assets-in-2026/",
+        "published_date": "2026-02-09T22:00:00+00:00"
+      },
+      "content": {
+        "abstract": "The GENIUS Act creates the first federal regulatory framework for stablecoins with backing requirements, while CLARITY Act transfers crypto jurisdiction from SEC to CFTC. Digital asset regulation shifts from enforcement-heavy to market-enabling.",
+        "keywords": [
+          "stablecoin",
+          "GENIUS Act",
+          "CLARITY Act",
+          "digital assets",
+          "regulation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-10T11:02:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-012",
+      "title": "Boston Dynamics Production Atlas Humanoid Robot Enters Manufacturing at Hyundai Metaplant",
+      "source": {
+        "name": "Automate.org/IFR",
+        "type": "blog",
+        "url": "https://www.automate.org/robotics/industry-insights/how-humanoids-took-center-stage-at-ces-2026",
+        "published_date": "2026-02-10T03:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Boston Dynamics deploys production-ready electric Atlas humanoid at Hyundai's Metaplant in Georgia. Global industrial robot market hits record $16.7B. BMW pilots Figure AI for intrafactory logistics. Humanoid deployment accelerates but remains primarily pilot-stage.",
+        "keywords": [
+          "humanoid robots",
+          "Atlas",
+          "Boston Dynamics",
+          "manufacturing",
+          "industrial robots"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T11:02:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-013",
+      "title": "China Adds 240 GW Solar in Single Year as Renewables Surpass Coal in Global Electricity",
+      "source": {
+        "name": "Earth.Org/WoodMackenzie",
+        "type": "blog",
+        "url": "https://earth.org/energy-transition-where-are-we-headed-in-2026/",
+        "published_date": "2026-02-09T11:00:00+00:00"
+      },
+      "content": {
+        "abstract": "China added an extraordinary 240 GW of new solar capacity, the largest single-country addition ever. Renewables projected to surpass coal as world's largest electricity source by 2025-2026, meeting 90%+ of demand growth.",
+        "keywords": [
+          "solar energy",
+          "China",
+          "renewables",
+          "coal",
+          "energy transition"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-10T11:03:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-014",
+      "title": "WHO Six-Year Post-COVID Assessment: Preparedness Progress Fragile and Uneven",
+      "source": {
+        "name": "WHO",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/02-02-2026-six-years-after-covid-19-s-global-alarm-is-the-world-better-prepared-for-the-next-pandemic",
+        "published_date": "2026-02-09T17:00:00+00:00"
+      },
+      "content": {
+        "abstract": "WHO's 6-year post-COVID assessment finds pandemic preparedness improved but fragile. New agreements secure 900+ million vaccine doses. AI-powered platform for early threat detection launched in Berlin. Funding shifting from health to defense puts progress at risk.",
+        "keywords": [
+          "pandemic preparedness",
+          "WHO",
+          "vaccine",
+          "AI detection",
+          "health emergency"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-10T11:03:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-015",
+      "title": "Ethical AI Shifts from Principles to Practice: Accountability Frameworks Demanded",
+      "source": {
+        "name": "WEF/KDnuggets",
+        "type": "blog",
+        "url": "https://www.weforum.org/stories/2026/01/scaling-trustworthy-ai-into-global-practice/",
+        "published_date": "2026-02-10T05:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Organizations in 2026 embed ethics and governance into every AI decision, treating transparency, accountability, and fairness as core business priorities. The shift moves from compliance to real accountability, with universities emerging as key responsible AI actors.",
+        "keywords": [
+          "AI ethics",
+          "accountability",
+          "trustworthy AI",
+          "governance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-10T11:04:00+00:00"
+    },
+    {
+      "id": "wf1-20260210-016",
+      "title": "Semiconductor Tariffs Shift to Country of Design: Global Value Chain Fragmentation Accelerates",
+      "source": {
+        "name": "KPMG/SupplyChainBrain",
+        "type": "blog",
+        "url": "https://kpmg.com/us/en/articles/2026/global-trade-outlook-2026.html",
+        "published_date": "2026-02-10T04:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Semiconductor tariffs now applied based on Country of Design rather than Country of Origin, fundamentally changing how chips are taxed and traded. Critical mineral export controls tighten (cobalt in DRC, rare-earths in China), accelerating supply chain fragmentation.",
+        "keywords": [
+          "semiconductor",
+          "tariff",
+          "supply chain",
+          "critical minerals",
+          "fragmentation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-10T11:04:30+00:00"
+    },
+    {
+      "id": "wf1-20260210-017",
+      "title": "Workforce Pell Grants Arrive in 2026: Non-Degree Credentials Gain Federal Funding Parity",
+      "source": {
+        "name": "Tyton Partners/EdSurge",
+        "type": "blog",
+        "url": "https://tytonpartners.com/higher-education-trends-in-2026/",
+        "published_date": "2026-02-10T02:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Workforce Pell grants launch in 2026, providing federal funding to short-term certificate programs for the first time. States opting into tax-credit scholarship programs for 2027 launch. Movement against children's technology use gains traction.",
+        "keywords": [
+          "education reform",
+          "Workforce Pell",
+          "credentials",
+          "higher education"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-10T11:04:45+00:00"
+    },
+    {
+      "id": "wf1-20260210-018",
+      "title": "US EPA Announces Plans to Rescind Endangerment Finding Supporting Federal Climate Regulations",
+      "source": {
+        "name": "S&P Global/Yale Climate",
+        "type": "policy",
+        "url": "https://www.spglobal.com/sustainable1/en/insights/2026-sustainability-trends",
+        "published_date": "2026-02-09T19:00:00+00:00"
+      },
+      "content": {
+        "abstract": "US EPA announces plans to rescind the endangerment finding that underpins many federal climate regulations, while New York pushes $1B Sustainable Future Fund. ISSB sustainability reporting becomes mandatory in Chile, Nigeria, Brazil, Mexico.",
+        "keywords": [
+          "EPA",
+          "climate regulation",
+          "endangerment finding",
+          "ISSB",
+          "sustainability reporting"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-10T11:04:50+00:00"
+    },
+    {
+      "id": "wf1-20260210-019",
+      "title": "Cleveland Clinic CRISPR Trial: Single Infusion Safely Reduces Cholesterol and Triglycerides",
+      "source": {
+        "name": "Cleveland Clinic/Nature",
+        "type": "academic",
+        "url": "https://newsroom.clevelandclinic.org/2025/11/08/cleveland-clinic-first-in-human-trial-of-crispr-gene-editing-therapy-shown-to-safely-lower-cholesterol-and-triglycerides",
+        "published_date": "2026-02-09T21:00:00+00:00"
+      },
+      "content": {
+        "abstract": "Phase 1 trial of 15 patients shows one-time CRISPR-Cas9 infusion substantially reduces LDL cholesterol and triglycerides within two weeks, sustained for 60+ days. Targets lipid disorders resistant to current medications.",
+        "keywords": [
+          "CRISPR",
+          "gene therapy",
+          "cholesterol",
+          "clinical trial",
+          "lipid disorders"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-10T11:04:55+00:00"
+    },
+    {
+      "id": "wf1-20260210-020",
+      "title": "US Demographic Slowdown: Next 30 Years to Add Only 23 Million vs Previous 70 Million",
+      "source": {
+        "name": "ZipRecruiter/Pew Research",
+        "type": "blog",
+        "url": "https://www.ziprecruiter-research.org/commentary/2026-labor-market-predictions",
+        "published_date": "2026-02-10T01:00:00+00:00"
+      },
+      "content": {
+        "abstract": "US added 70 million people from 1995-2024 but projected to add only 23 million in next 30 years due to plunging birth rates and lower immigration. High- and upper-middle-income economies face aging population and slower labor force growth.",
+        "keywords": [
+          "demographics",
+          "population decline",
+          "birth rate",
+          "aging",
+          "US"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-10T11:05:00+00:00"
+    }
+  ]
+}

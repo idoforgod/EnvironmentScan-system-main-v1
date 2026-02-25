@@ -26,7 +26,7 @@ import random
 import sys
 import time
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urljoin
@@ -735,6 +735,23 @@ def main():
         action="store_true",
         help="Print crawl stats as JSON to stdout after completion",
     )
+    # ── Temporal Consistency (v2.2.0) ──
+    parser.add_argument(
+        "--lookback-hours", type=int, default=24,
+        help="Scan window lookback in hours (default: 24)",
+    )
+    parser.add_argument(
+        "--scan-window-start",
+        help="Explicit scan window start (ISO8601, from orchestrator T₀ - lookback)",
+    )
+    parser.add_argument(
+        "--scan-window-end",
+        help="Explicit scan window end (ISO8601, from orchestrator T₀)",
+    )
+    parser.add_argument(
+        "--scan-tolerance-min", type=int, default=30,
+        help="Tolerance in minutes for temporal filtering (default: 30)",
+    )
     args = parser.parse_args()
 
     # Load config
@@ -762,6 +779,62 @@ def main():
 
     # Execute crawl
     result = crawler.crawl_all()
+
+    # ── TC-003: Post-collection temporal filter (v2.2.0) ──
+    if args.scan_window_start and args.scan_window_end:
+        window_start = datetime.fromisoformat(args.scan_window_start)
+        window_end = datetime.fromisoformat(args.scan_window_end)
+    else:
+        window_end = datetime.now(timezone.utc)
+        window_start = window_end - timedelta(hours=args.lookback_hours)
+
+    tolerance = timedelta(minutes=args.scan_tolerance_min)
+    effective_start = window_start - tolerance
+    tc_removed = 0
+    tc_kept_items = []
+
+    for item in result.get("items", []):
+        pub_raw = item.get("metadata", {}).get("pub_time_raw", "")
+        pub_date_str = item.get("source", {}).get("published_date", "")
+        # Naver articles have pub_time_raw which may include time info
+        # If not parseable, keep the signal (fail-open for crawled data)
+        keep = True
+        try:
+            if pub_raw and any(c.isdigit() for c in pub_raw):
+                # Try to parse Korean-format time like "2026.02.10. 오전 9:30"
+                # For now, rely on published_date (date-level)
+                pass
+            if pub_date_str:
+                if 'T' in pub_date_str:
+                    pub_dt = datetime.fromisoformat(pub_date_str.replace('Z', '+00:00'))
+                    pub_dt = pub_dt.replace(tzinfo=None)
+                else:
+                    pub_dt = datetime.strptime(pub_date_str[:10], '%Y-%m-%d')
+                # Normalize window to naive if needed
+                ws = effective_start.replace(tzinfo=None) if effective_start.tzinfo else effective_start
+                we = window_end.replace(tzinfo=None) if window_end.tzinfo else window_end
+                if pub_dt < ws or pub_dt > we:
+                    keep = False
+        except (ValueError, TypeError):
+            pass  # Unparseable → keep
+
+        if keep:
+            tc_kept_items.append(item)
+        else:
+            tc_removed += 1
+            logger.info(f"TC-003 filtered: {item.get('id', '?')} (pub: {pub_date_str})")
+
+    if tc_removed > 0:
+        logger.info(f"TC-003: {tc_removed} signals removed, {len(tc_kept_items)} within window")
+        result["items"] = tc_kept_items
+        result["scan_metadata"]["total_items"] = len(tc_kept_items)
+        result["scan_metadata"]["tc_filter"] = {
+            "window_start": str(window_start),
+            "window_end": str(window_end),
+            "tolerance_minutes": args.scan_tolerance_min,
+            "removed_count": tc_removed,
+            "remaining_count": len(tc_kept_items),
+        }
 
     # Write output
     output_path = Path(args.output)

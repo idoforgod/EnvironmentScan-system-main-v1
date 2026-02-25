@@ -1,0 +1,202 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-10",
+    "workflow_id": "wf1-general",
+    "registry_version": "2.2.1",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 15,
+    "weights": {
+      "impact": 0.40,
+      "probability": 0.30,
+      "urgency": 0.20,
+      "novelty": 0.10
+    },
+    "scan_window": {
+      "T0": "2026-02-10T13:01:55.038277+00:00",
+      "window_start": "2026-02-09T13:01:55.038277+00:00",
+      "window_end": "2026-02-10T13:01:55.038277+00:00"
+    }
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "wf1-20260210-003",
+      "title": "New START Nuclear Arms Treaty Expires: Last US-Russia Arsenal Limit Ends February 2026",
+      "category": "P_Political",
+      "impact_score": 9.5,
+      "priority_score": 9.3,
+      "psst_score": 92,
+      "psst_grade": "A",
+      "urgency": "critical",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 2,
+      "id": "wf1-20260210-002",
+      "title": "China's Artificial Sun Breaks Fundamental Fusion Density Limit",
+      "category": "T_Technological",
+      "impact_score": 9.2,
+      "priority_score": 9.0,
+      "psst_score": 90,
+      "psst_grade": "A",
+      "urgency": "high",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 3,
+      "id": "wf1-20260210-011",
+      "title": "China Deployed 300+ GW Solar/Wind in 2025 -- Exceeding Total US Renewable History",
+      "category": "E_Environmental",
+      "impact_score": 9.0,
+      "priority_score": 8.9,
+      "psst_score": 89,
+      "psst_grade": "B",
+      "urgency": "high",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 4,
+      "id": "wf1-20260210-010",
+      "title": "US-China Critical Minerals Confrontation Reshapes Global Supply Chains",
+      "category": "P_Political",
+      "impact_score": 8.9,
+      "priority_score": 8.8,
+      "psst_score": 88,
+      "psst_grade": "B",
+      "urgency": "high",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 5,
+      "id": "wf1-20260210-004",
+      "title": "CRISPR Breakthrough: Gene Activation Without DNA Cutting via Epigenetic Editing",
+      "category": "T_Technological",
+      "impact_score": 8.8,
+      "priority_score": 8.7,
+      "psst_score": 87,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 6,
+      "id": "wf1-20260210-006",
+      "title": "Europe Rebrands Energy Transition as Military and Strategic Survival Imperative",
+      "category": "E_Environmental",
+      "impact_score": 8.7,
+      "priority_score": 8.6,
+      "psst_score": 86,
+      "psst_grade": "B",
+      "urgency": "high",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 7,
+      "id": "wf1-20260210-012",
+      "title": "WEST Reactor Achieves 20-Minute Steady-State Fusion Plasma",
+      "category": "T_Technological",
+      "impact_score": 8.6,
+      "priority_score": 8.5,
+      "psst_score": 85,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 8,
+      "id": "wf1-20260210-001",
+      "title": "Stanford Light-Trap Breakthrough Could Enable Million-Qubit Quantum Computers",
+      "category": "T_Technological",
+      "impact_score": 8.5,
+      "priority_score": 8.4,
+      "psst_score": 84,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 9,
+      "id": "wf1-20260210-008",
+      "title": "Physical AI and Humanoid Robotics Patent Surge: 15% Annual Growth",
+      "category": "T_Technological",
+      "impact_score": 8.3,
+      "priority_score": 8.2,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 10,
+      "id": "wf1-20260210-015",
+      "title": "Demographic Cliff: Skills Mismatch as AI Cools White-Collar Hiring",
+      "category": "S_Social",
+      "impact_score": 8.2,
+      "priority_score": 8.1,
+      "psst_score": 81,
+      "psst_grade": "B",
+      "urgency": "high",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 11,
+      "id": "wf1-20260210-009",
+      "title": "AI Ethics Crisis: Society Underprepared for Psychological Effects of AI",
+      "category": "s_spiritual",
+      "impact_score": 8.0,
+      "priority_score": 7.9,
+      "psst_score": 79,
+      "psst_grade": "C",
+      "urgency": "medium",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 12,
+      "id": "wf1-20260210-007",
+      "title": "ILO Global Employment Report: Stalled Job Quality Despite Low Unemployment",
+      "category": "S_Social",
+      "impact_score": 7.8,
+      "priority_score": 7.7,
+      "psst_score": 77,
+      "psst_grade": "C",
+      "urgency": "medium",
+      "signal_maturity": "mature"
+    },
+    {
+      "rank": 13,
+      "id": "wf1-20260210-014",
+      "title": "Corporate Greenhushing: Companies Hide Climate Progress to Avoid Backlash",
+      "category": "s_spiritual",
+      "impact_score": 7.5,
+      "priority_score": 7.4,
+      "psst_score": 74,
+      "psst_grade": "C",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 14,
+      "id": "wf1-20260210-005",
+      "title": "Brazil Launches Comprehensive Crypto Authorization Regime",
+      "category": "E_Economic",
+      "impact_score": 7.2,
+      "priority_score": 7.1,
+      "psst_score": 71,
+      "psst_grade": "C",
+      "urgency": "medium",
+      "signal_maturity": "developing"
+    },
+    {
+      "rank": 15,
+      "id": "wf1-20260210-013",
+      "title": "NY FAIR Act: Unfair Business Practices Explicitly Prohibited (Feb 17)",
+      "category": "E_Economic",
+      "impact_score": 6.8,
+      "priority_score": 6.7,
+      "psst_score": 67,
+      "psst_grade": "C",
+      "urgency": "medium",
+      "signal_maturity": "developing"
+    }
+  ]
+}

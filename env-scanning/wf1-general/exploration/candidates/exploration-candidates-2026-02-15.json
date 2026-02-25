@@ -1,0 +1,119 @@
+{
+  "date": "2026-02-15",
+  "generated_at": "2026-02-15T02:48:30.185494+00:00",
+  "viable_count": 5,
+  "non_viable_count": 0,
+  "total_exploration_signals": 43,
+  "viable_candidates": [
+    {
+      "name": "Inside Climate News",
+      "url": "https://insideclimatenews.org/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "discovery_query": "environmental sustainability climate change independent news",
+      "scan_status": "viable",
+      "signal_count": 10,
+      "quality_score": 0.79,
+      "score_breakdown": {
+        "signal_yield": 1.0,
+        "uniqueness": 1.0,
+        "reliability": 0.3
+      }
+    },
+    {
+      "name": "Mongabay",
+      "url": "https://news.mongabay.com/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "discovery_query": "conservation environment Latin America sustainability",
+      "scan_status": "viable",
+      "signal_count": 10,
+      "quality_score": 0.79,
+      "score_breakdown": {
+        "signal_yield": 1.0,
+        "uniqueness": 1.0,
+        "reliability": 0.3
+      }
+    },
+    {
+      "name": "STAT News",
+      "url": "https://www.statnews.com/feed/",
+      "type": "news",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "S_Social",
+      "discovery_query": "health neurotechnology brain-computer interface policy",
+      "scan_status": "viable",
+      "signal_count": 10,
+      "quality_score": 0.79,
+      "score_breakdown": {
+        "signal_yield": 1.0,
+        "uniqueness": 1.0,
+        "reliability": 0.3
+      }
+    },
+    {
+      "name": "KDnuggets",
+      "url": "https://www.kdnuggets.com/feed",
+      "type": "blog",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "discovery_query": "AI ethics governance neurotechnology",
+      "frontier_keyword": "neurotechnology policy",
+      "scan_status": "viable",
+      "signal_count": 10,
+      "quality_score": 0.79,
+      "score_breakdown": {
+        "signal_yield": 1.0,
+        "uniqueness": 1.0,
+        "reliability": 0.3
+      }
+    },
+    {
+      "name": "DigitalFoodLab",
+      "url": "https://digitalfoodlab.com/feed/",
+      "type": "blog",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "discovery_query": "food systems innovation",
+      "frontier_keyword": "food systems innovation",
+      "scan_status": "viable",
+      "signal_count": 3,
+      "quality_score": 0.58,
+      "score_breakdown": {
+        "signal_yield": 0.3,
+        "uniqueness": 1.0,
+        "reliability": 0.3
+      }
+    }
+  ],
+  "non_viable_candidates": [],
+  "scan_results": {
+    "Inside Climate News": {
+      "signal_count": 10,
+      "url": "https://insideclimatenews.org/feed/",
+      "status": "scanned"
+    },
+    "Mongabay": {
+      "signal_count": 10,
+      "url": "https://news.mongabay.com/feed/",
+      "status": "scanned"
+    },
+    "STAT News": {
+      "signal_count": 10,
+      "url": "https://www.statnews.com/feed/",
+      "status": "scanned"
+    },
+    "DigitalFoodLab": {
+      "signal_count": 3,
+      "url": "https://digitalfoodlab.com/feed/",
+      "status": "scanned"
+    },
+    "KDnuggets": {
+      "signal_count": 10,
+      "url": "https://www.kdnuggets.com/feed",
+      "status": "scanned"
+    }
+  }
+}

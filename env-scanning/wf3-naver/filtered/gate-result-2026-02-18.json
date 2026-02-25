@@ -1,0 +1,102 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "1.0.0",
+  "checked_at": "2026-02-18T23:26:26.284114+00:00",
+  "workflow": "wf3-naver",
+  "signals_file": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/wf3-naver/raw/daily-crawl-2026-02-18.json",
+  "previous_file": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/wf3-naver/context/previous-signals.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "0 definite duplicate(s) removed. 9 uncertain signal(s) flagged for LLM review. 261 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 270,
+    "definite_new": 261,
+    "definite_duplicates": 0,
+    "uncertain": 9,
+    "pass_through": 270
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 0
+  },
+  "duplicates": [],
+  "uncertain_signals": [
+    {
+      "signal_id": "naver-20260218-100-007",
+      "signal_title": "민주당 “전체 상임위 비상입법체제 전환”…설 연휴 끝, 민생·개혁입법 드라이브 건다",
+      "matched_signal_id": "naver-20260215-TOP-006",
+      "matched_title": "다주택자 양도세 중과 -- 이재명 정부 부동산 정책 전면 드라이브",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260218-101-052",
+      "signal_title": "삼성전자, 'KBIS 2026' 참가… AI·럭셔리 빌트인 가전 전시",
+      "matched_signal_id": "naver-20260213-TOP-001",
+      "matched_title": "코스피 사상 최초 5,500 돌파 -- 삼성전자 6.4% 폭등, 외국인 3조원 순매수",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260218-101-078",
+      "signal_title": "엔비디아, HBM4 투트랙 전략 짜나…최상위 성능중심·차상위 보완 유력",
+      "matched_signal_id": "naver-20260212-TOP-007",
+      "matched_title": "마이크론 HBM4 양산",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260218-101-091",
+      "signal_title": "\"'헤지펀드 전설' 마이크론 250% 확대\"…투자 소식에 주가 뛰었다",
+      "matched_signal_id": "naver-20260212-TOP-007",
+      "matched_title": "마이크론 HBM4 양산",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260218-104-182",
+      "signal_title": "젤렌스키 \"제네바 회담 어려웠다…러, 협상 늦추려 해\"",
+      "matched_signal_id": "naver-20260213-TOP-012",
+      "matched_title": "우크라이나 전쟁 종전 협상 교착 -- 젤렌스키 5월 대선 압박·러시아 공습 지속",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260218-104-192",
+      "signal_title": "“미국 대 이란 군사작전 임박···대규모 전쟁에 가까워져”",
+      "matched_signal_id": "naver-20260215-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란산 원유 대중국 판매 차단 합의 -- 이란 정권교체 수주 내 군사작전 대비",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260218-104-198",
+      "signal_title": "사우디, 머스크의 xAI에 4조 투자…\"꿩도 매도 잡았다\"",
+      "matched_signal_id": "naver-20260206-104-025",
+      "matched_title": "머스크의 스페이스X '메가딜' -- 우주AI 데이터센터 구축",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260218-104-202",
+      "signal_title": "마이크론 5.30% 급등, 반도체지수 0.96% 상승(종합)",
+      "matched_signal_id": "naver-20260212-TOP-007",
+      "matched_title": "마이크론 HBM4 양산",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260218-105-230",
+      "signal_title": "앤트로픽, 신규 AI모델 '소네트4.6' 출시…\"코딩·엑셀 강화\"",
+      "matched_signal_id": "naver-20260216-TOP-002",
+      "matched_title": "미 국방부 앤트로픽 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화",
+      "stage": "B_topic",
+      "score": 0.5
+    }
+  ]
+}

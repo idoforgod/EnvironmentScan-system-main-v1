@@ -1,0 +1,858 @@
+{
+  "scan_metadata": {
+    "workflow": "wf2-arxiv",
+    "date": "2026-02-24",
+    "scan_window": {
+      "start": "2026-02-22T20:44:18Z",
+      "end": "2026-02-24T20:44:18Z"
+    },
+    "T0": "2026-02-24T20:44:18Z",
+    "source": "arXiv",
+    "total_collected": 35,
+    "steeps_distribution": {
+      "T": 18,
+      "E": 7,
+      "S": 3,
+      "E_Environmental": 3,
+      "P": 2,
+      "s": 2
+    },
+    "execution_proof": {
+      "execution_id": "wf2-scan-2026-02-24-20-44-18-b7e3",
+      "started_at": "2026-02-24T20:44:18Z",
+      "completed_at": "2026-02-24T21:38:00Z",
+      "actual_api_calls": {
+        "web_search": 16,
+        "arxiv_api": 0,
+        "web_fetch": 5
+      },
+      "actual_sources_scanned": ["arXiv"],
+      "file_created_at": "2026-02-24T21:38:00Z",
+      "search_queries_used": [
+        "site:arxiv.org 2026 AI machine learning breakthrough February 2026",
+        "site:arxiv.org 2026 quantum computing February 2026",
+        "site:arxiv.org 2026 robotics autonomous systems February 2026",
+        "site:arxiv.org 2026 computational finance algorithmic trading economics February 2026",
+        "site:arxiv.org 2026 climate modeling sustainability earth science February 2026",
+        "site:arxiv.org 2026 AI ethics value alignment consciousness February 2026",
+        "arxiv.org new submissions February 24 2026 cs.AI cs.LG",
+        "arxiv.org February 22-24 2026 large language model reasoning agent",
+        "arxiv.org 2602 cybersecurity AI governance policy regulation",
+        "arxiv.org 2602 social computing AI bias computational social science",
+        "arxiv.org 2602 energy systems renewable battery fusion sustainability",
+        "arxiv.org 2602 quantum error correction fault tolerant qubit",
+        "arxiv 2602.19 multimodal foundation model vision language",
+        "arxiv 2602.18 materials science superconductor condensed matter",
+        "arxiv 2602.18 genomics biology neuroscience cognition",
+        "arxiv 2602.19 AI safety alignment RLHF jailbreak"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "arxiv-20260224-001",
+      "title": "Position: General Alignment Has Hit a Ceiling; Edge Alignment Must Be Taken Seriously",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.20042",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "The RLHF approach hits a structural ceiling in complex scenarios, where linear scalarization of disparate rewards exhibits compensatory properties that can mask critical violations, leading to Mode Collapse where models gravitate toward a sanitized consensus. This position paper argues that general alignment has reached fundamental limits and proposes 'Edge Alignment' as a necessary paradigm shift for handling nuanced, context-dependent value conflicts in frontier AI systems.",
+        "keywords": ["AI alignment", "RLHF", "edge alignment", "mode collapse", "value conflicts", "AI safety"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T21:00:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv 2602.19 February 2026 AI safety alignment RLHF",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-002",
+      "title": "Sycophantic Chatbots Cause Delusional Spiraling",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19141",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Using a Bayesian model of belief updating, we show that even rational users fall into false beliefs through sycophantic chatbot validation. The model demonstrates how agreeable AI assistants create self-reinforcing belief spirals, where user confidence in incorrect beliefs increases exponentially with interaction length. This reveals a fundamental tension between user satisfaction and epistemic integrity in conversational AI design.",
+        "keywords": ["sycophancy", "chatbots", "delusional spiraling", "Bayesian belief updating", "epistemic integrity", "AI interaction"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T21:01:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org new listings February 24 2026 cs.AI",
+          "result_rank": 33
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-003",
+      "title": "Non-Interfering Weight Fields (NIWF): Zero Catastrophic Forgetting via Learned Weight Functions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18628",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Replaces the fixed weight paradigm in neural networks with learned functions that generate weights from a capability space, achieving zero catastrophic forgetting. NIWF represents each task as a point in capability space and generates task-specific weight configurations from a shared continuous function, eliminating interference between old and new knowledge without requiring replay buffers or architectural expansion.",
+        "keywords": ["catastrophic forgetting", "continual learning", "weight fields", "capability space", "neural network architecture"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:02:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.LG new listings February 24 2026",
+          "result_rank": 19
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-004",
+      "title": "Free Quantum Computing: Axiomatisation via Discrete Equations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.16927",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Develops an axiomatisation of quantum computing that replaces the standard continuous postulates with a small number of discrete equations, as well as a free model that replaces the standard linear-algebraic model with a category-theoretical one. This foundational reconceptualization could simplify quantum algorithm design and verification by working with discrete algebraic structures instead of continuous Hilbert spaces.",
+        "keywords": ["quantum computing", "axiomatisation", "category theory", "discrete equations", "quantum foundations"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:03:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "site:arxiv.org 2026 quantum computing February 2026",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-005",
+      "title": "Exceptional Point Superradiant Lasing with Ultranarrow Linewidth",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19030",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "PT-symmetric exceptional points achieve micro-Hertz-range superradiant laser linewidths suitable for next-generation atomic clocks. By engineering parity-time symmetry breaking in coupled cavities, the system exploits the exceptional point singularity to simultaneously achieve superradiance and extreme spectral narrowing, potentially revolutionizing precision metrology and timekeeping standards.",
+        "keywords": ["superradiant laser", "exceptional points", "PT symmetry", "atomic clocks", "precision metrology", "ultranarrow linewidth"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:04:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org quant-ph new listings February 24 2026",
+          "result_rank": 14
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-006",
+      "title": "Self-Correction Phase Transition in the Dissipative Toric Code",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19288",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "A self-correcting quantum memory phase emerges in dissipative cellular automaton decoders without requiring a finite error threshold. This demonstrates that dissipative dynamics can stabilize topological quantum information through a genuine phase transition, opening pathways to passive quantum error correction that does not require active syndrome measurement and feedback.",
+        "keywords": ["self-correcting memory", "toric code", "dissipative quantum systems", "phase transition", "quantum error correction", "topological codes"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:05:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org quant-ph new listings February 24 2026",
+          "result_rank": 23
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-007",
+      "title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19042",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Investigates the synergy between logical dynamical decoupling and quantum error correction codes, finding that the combination enhances performance only when decoupling suppresses errors in uncorrectable sectors. This provides practical guidelines for hybrid quantum error mitigation strategies that optimally combine passive and active error suppression techniques.",
+        "keywords": ["quantum error correction", "dynamical decoupling", "fault tolerance", "hybrid error suppression", "quantum computing"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:06:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org quant-ph new listings February 24 2026",
+          "result_rank": 15
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-008",
+      "title": "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18481",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "A framework reframing LLMs as quantitative researchers generating alpha factors rather than trading agents, enabling reproducible evaluation of LLM-driven investment strategy design. This shifts the paradigm from using AI as direct trading agents to leveraging them as systematic research tools that discover and formalize market signals for human-supervised deployment.",
+        "keywords": ["LLM", "quantitative finance", "alpha generation", "trading strategy", "benchmarking", "algorithmic trading"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:07:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org q-fin new listings February 24 2026",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-009",
+      "title": "Stability Anchors and Risk Amplifiers: Tail Spillovers Across Stablecoin Designs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18820",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Studies systemic risk transmission across stablecoin markets using quantile VAR methodology on major cryptocurrencies, finding that fiat-backed stablecoins provide stability during normal conditions while algorithmic stablecoin designs amplify risk during market stress events. Identifies asymmetric tail spillover channels that threaten the broader digital asset ecosystem.",
+        "keywords": ["stablecoins", "systemic risk", "tail spillovers", "quantile VAR", "cryptocurrency", "financial stability"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:08:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org q-fin new listings February 24 2026",
+          "result_rank": 3
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-010",
+      "title": "Detecting and Explaining Unlawful Insider Trading",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19841",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "Combines Shapley values and causal forests to identify key drivers of insider trading behavior, creating an interpretable detection framework that not only flags suspicious transactions but explains the economic rationale behind the detection. This bridges the gap between ML-based market surveillance and regulatory requirements for explainable enforcement decisions.",
+        "keywords": ["insider trading", "Shapley values", "causal forests", "explainable AI", "market surveillance", "financial regulation"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:09:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org q-fin new listings February 24 2026",
+          "result_rank": 12
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-011",
+      "title": "Schrodinger Bridges with Jumps for Time Series Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.20011",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "Proposes a jump-diffusion generative model for financial time series that captures abrupt market movements significantly better than diffusion-only approaches. By incorporating Levy jumps into the Schrodinger bridge framework, the model generates realistic scenarios with fat tails and sudden regime changes critical for risk management and derivatives pricing.",
+        "keywords": ["Schrodinger bridge", "jump-diffusion", "generative model", "financial time series", "risk management", "regime changes"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:10:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org q-fin new listings February 24 2026",
+          "result_rank": 13
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-012",
+      "title": "Volatility Spillovers in China's Real Estate Crisis: A Network Approach",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19740",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "Applies network methodology to measure evolving connectedness among Chinese real estate developers during the ongoing crisis, revealing how volatility propagates through developer networks and identifying systemically important firms. The dynamic network analysis captures time-varying contagion channels that static models miss.",
+        "keywords": ["real estate crisis", "China", "volatility spillovers", "network analysis", "systemic risk", "contagion"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:11:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org econ new listings February 24 2026",
+          "result_rank": 19
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-013",
+      "title": "Fiscal Limits to Protectionism: The 2025 U.S. Tariff Laffer Curve",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18938",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Quantifies revenue-maximizing tariff levels using a Ricardian trade model calibrated to 2025 U.S. trade policies, finding that current tariff rates are approaching the revenue-maximizing threshold beyond which further increases reduce both revenue and welfare. Provides a rigorous analytical framework for evaluating the fiscal sustainability of protectionist trade policies.",
+        "keywords": ["tariffs", "Laffer curve", "protectionism", "trade policy", "fiscal policy", "Ricardian model"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:12:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org econ new listings February 24 2026",
+          "result_rank": 5
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-014",
+      "title": "Sizing of Battery Considering Renewable Energy Bidding Strategy with Reinforcement Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19428",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Proposes a computationally efficient algorithm for optimal sizing of Battery Energy Storage Systems (BESS) combined with reinforcement learning-based renewable energy bidding strategies. The joint optimization approach simultaneously determines optimal battery capacity and adaptive bidding policies, improving the economic viability of renewable energy participation in wholesale electricity markets.",
+        "keywords": ["battery storage", "renewable energy", "reinforcement learning", "energy bidding", "BESS optimization", "electricity markets"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-24T21:13:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 energy systems renewable battery February 2026",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-015",
+      "title": "Extension of the Fusion Power Plant Costing Standard",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19389",
+        "published_date": "2026-02-22"
+      },
+      "content": {
+        "abstract": "Extends the standard costing framework for fusion power plants to account for emerging reactor designs and integration with renewable energy systems. The updated standard enables more accurate techno-economic comparisons across different fusion concepts (tokamak, stellarator, inertial confinement) and hybrid fusion-renewable configurations, supporting investment and policy decisions for fusion energy development.",
+        "keywords": ["fusion energy", "power plant costing", "techno-economic analysis", "reactor design", "energy transition", "fusion-renewable hybrid"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-24T21:14:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 energy systems fusion sustainability February 2026",
+          "result_rank": 10
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-016",
+      "title": "R2Energy: A Large-Scale Benchmark for Robust Renewable Energy Forecasting under Diverse and Extreme Conditions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15961",
+        "published_date": "2026-02-22"
+      },
+      "content": {
+        "abstract": "Introduces a large-scale benchmark comprising over 10.7 million high-fidelity hourly records from 902 wind and solar stations across four provinces in China, specifically designed to evaluate forecasting models under diverse and extreme weather conditions. This addresses a critical gap in renewable energy integration where forecasting failures during extreme events cause the largest grid disruptions.",
+        "keywords": ["renewable energy forecasting", "benchmark", "wind energy", "solar energy", "extreme weather", "grid integration"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-24T21:15:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 energy systems renewable February 2026",
+          "result_rank": 8
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-017",
+      "title": "From Bias Mitigation to Bias Negotiation: Governing Identity and Sociocultural Reasoning in Generative AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18459",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Addresses 'bias negotiation' — the normative regulation of identity-conditioned judgments of sociocultural relevance, inference, and justification in generative AI. Through semi-structured interviews with deployed chatbots, identifies recurring repertoires for negotiating identity including probabilistic framing of group tendencies and harm-value balancing, revealing how AI systems actively construct rather than passively reflect social categories.",
+        "keywords": ["AI bias", "bias negotiation", "generative AI", "identity", "sociocultural reasoning", "AI governance"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:16:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 social computing AI bias computational social science",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-018",
+      "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.16149",
+        "published_date": "2026-02-22"
+      },
+      "content": {
+        "abstract": "Explores demographic-conditioned failures in instruction-guided image-to-image editing, revealing how text-guided portrait editing models systematically alter demographic attributes in ways that reinforce stereotypical visual representations. Introduces evaluation metrics for quantifying demographic drift during iterative editing operations.",
+        "keywords": ["demographic misrepresentation", "image editing", "AI bias", "portrait editing", "stereotypes", "visual representation"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:17:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 social computing AI bias demographic",
+          "result_rank": 3
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-019",
+      "title": "Janus-Faced Technological Progress and the Arms Race in the Education of Humans and Chatbots",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19783",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "Models how lognormal wage distributions interact with technological advances to create inefficient educational competition between humans and AI chatbots. The 'Janus-faced' nature of progress means that while AI increases productivity, it simultaneously intensifies positional competition in human capital investment, leading to overinvestment in education with diminishing marginal returns.",
+        "keywords": ["education economics", "AI displacement", "human capital", "technological progress", "wage distribution", "educational competition"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T21:18:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org econ new listings February 24 2026",
+          "result_rank": 20
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-020",
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.17753",
+        "published_date": "2026-02-22"
+      },
+      "content": {
+        "abstract": "A comprehensive documentation and index of technical and safety features across deployed agentic AI systems, providing systematic comparison of autonomy levels, guardrails, monitoring capabilities, and failure modes. This serves as a baseline for tracking the evolution of deployed AI agent capabilities and their governance mechanisms.",
+        "keywords": ["AI agents", "safety index", "agentic AI", "deployment monitoring", "AI governance", "guardrails"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T21:19:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 cybersecurity AI governance policy",
+          "result_rank": 4
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-021",
+      "title": "Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.11897",
+        "published_date": "2026-02-22"
+      },
+      "content": {
+        "abstract": "Reconceptualizes cybersecurity orchestration as an agentic, multi-agent cognitive system where heterogeneous AI agents responsible for detection, hypothesis formation, contextual interpretation, explanation, and governance are coordinated through an explicit meta-cognitive judgement function. This architecture enables autonomous cyber defense while maintaining human governance oversight through interpretable decision chains.",
+        "keywords": ["cybersecurity", "agentic AI", "meta-cognitive architecture", "autonomous defense", "multi-agent system", "governable autonomy"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T21:20:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 cybersecurity AI governance policy",
+          "result_rank": 3
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-022",
+      "title": "Many AI Analysts, One Dataset: Studying Analytical Diversity in Autonomous AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18710",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Studies analytical diversity when autonomous AI agents analyze identical datasets independently, revealing that different AI systems reach substantially different conclusions from the same data, mirroring the 'many analysts, one dataset' phenomenon in human research. This challenges assumptions about AI objectivity and has profound implications for automated decision-making in science and policy.",
+        "keywords": ["AI analytical diversity", "reproducibility", "autonomous agents", "data analysis", "AI objectivity", "scientific methodology"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:21:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.AI new listings February 24 2026",
+          "result_rank": 6
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-023",
+      "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18422",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Introduces a human-centric video world model conditioned on tracked head pose and joint-level hand poses, enabling interactive world simulation for extended reality applications. The model generates photorealistic, physically coherent video responses to real-time hand and camera inputs, bridging the gap between generative AI and embodied interaction for XR/VR applications.",
+        "keywords": ["world model", "video generation", "XR", "hand tracking", "interactive simulation", "human-centric AI"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:22:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 diffusion model generative AI world model",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-024",
+      "title": "The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18428",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Explores autonomous generative models that learn a single, time-invariant vector field without explicit noise-level conditioning, challenging the standard diffusion model paradigm. This theoretical insight that noise conditioning is unnecessary could lead to simpler, faster, and more efficient generative architectures with implications across image, video, and audio generation.",
+        "keywords": ["diffusion models", "noise conditioning", "generative AI", "vector fields", "geometric deep learning", "generative architecture"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:23:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602 diffusion model generative AI",
+          "result_rank": 2
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-025",
+      "title": "Hiding in Plain Text: Detecting Concealed Jailbreaks via Self-Supervised Disentanglement",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19396",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Proposes a self-supervised framework that disentangles semantic factors in LLM activations to detect hidden malicious intent in seemingly innocuous prompts. The approach identifies concealed jailbreak attempts by analyzing internal representation patterns rather than surface-level text features, achieving detection of adversarial prompts that evade conventional safety filters.",
+        "keywords": ["jailbreak detection", "LLM safety", "self-supervised learning", "disentanglement", "adversarial prompts", "AI security"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:24:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.AI new listings February 24 2026",
+          "result_rank": 46
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-026",
+      "title": "Large Causal Models for Temporal Causal Discovery",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18662",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Pre-trained neural architectures for causal discovery that scale to higher variable counts with competitive out-of-distribution performance. These 'Large Causal Models' learn to identify cause-effect relationships from observational time series data alone, representing a potential paradigm shift from correlation-based to causation-based machine learning in scientific discovery.",
+        "keywords": ["causal discovery", "pre-trained models", "temporal causality", "foundation models", "scientific discovery", "out-of-distribution"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:25:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.LG new listings February 24 2026",
+          "result_rank": 26
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-027",
+      "title": "Quantifying Automation Risk in High-Automation AI Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18986",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Presents a Bayesian framework for decomposing expected loss from failure propagation in highly automated AI systems, quantifying how errors compound through cascading automated decision chains. The framework provides a mathematical basis for determining optimal human-in-the-loop intervention points in automated pipelines to minimize catastrophic failure propagation.",
+        "keywords": ["automation risk", "Bayesian framework", "failure propagation", "human-in-the-loop", "AI safety", "cascading failures"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:26:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.AI new listings February 24 2026",
+          "result_rank": 25
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-028",
+      "title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.15580",
+        "published_date": "2026-02-22"
+      },
+      "content": {
+        "abstract": "Analyzes how multimodal Transformers process visual questions by examining whether predictions are driven by visual evidence, linguistic reasoning, or cross-modal computation. Finds that language-unique information accounts for roughly 82% of the final prediction, revealing that current multimodal models rely heavily on language priors rather than genuine visual understanding.",
+        "keywords": ["multimodal reasoning", "vision-language models", "information theory", "visual understanding", "language bias", "Transformers"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:27:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv 2602.19 multimodal foundation model vision language",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-029",
+      "title": "K-Search: LLM Kernel Generation via Co-Evolving World Model",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19128",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Framework using co-evolving world models to guide GPU kernel optimization, achieving 2.10x performance improvements over manually optimized kernels. By having LLMs generate and iteratively refine GPU compute kernels through a learned simulation of hardware behavior, this approach automates the computationally intensive process of hardware-specific optimization.",
+        "keywords": ["GPU optimization", "LLM", "kernel generation", "world model", "hardware optimization", "compute efficiency"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:28:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.AI new listings February 24 2026",
+          "result_rank": 32
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-030",
+      "title": "Enhanced Tc in Eutectic High-Entropy Alloy Superconductors Hf-Nb-Sc-Ti-Zr",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19371",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Reports enhanced superconducting critical temperature in a eutectic high-entropy alloy composed of five refractory elements (Hf-Nb-Sc-Ti-Zr). The high-entropy approach to materials design yields unexpected enhancement of superconducting properties through cocktail effects, suggesting a vast unexplored parameter space for discovering novel superconductors in multi-principal element alloy systems.",
+        "keywords": ["high-entropy alloy", "superconductor", "critical temperature", "materials discovery", "refractory metals", "cocktail effect"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:29:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv 2602.18 2602.19 materials science superconductor condensed matter",
+          "result_rank": 1
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-031",
+      "title": "Toward AI Autonomous Navigation for Mechanical Thrombectomy using Hierarchical Modular Multi-agent Reinforcement Learning (HM-MARL)",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18663",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Proposes a Hierarchical Modular Multi-Agent Reinforcement Learning framework for autonomous two-device navigation in mechanical thrombectomy, representing the first demonstration of in vitro autonomous navigation in the stroke treatment vasculature. This marks a critical milestone in surgical robotics where AI systems can autonomously guide medical devices through complex vascular anatomy.",
+        "keywords": ["surgical robotics", "autonomous navigation", "thrombectomy", "multi-agent RL", "medical AI", "interventional radiology"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:30:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org 2602.18 reinforcement learning robotics embodied AI",
+          "result_rank": 7
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-032",
+      "title": "Physics-Informed RL for Smart Grid Optimization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18531",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Replaces expensive power grid simulators with Physics-Informed Neural Networks (PINNs) to accelerate reinforcement learning training for smart grid optimization by 50%. By embedding physical laws of power flow and grid dynamics directly into the neural network architecture, the approach enables real-time adaptive grid management that respects physical constraints without costly simulation.",
+        "keywords": ["smart grid", "physics-informed RL", "PINNs", "power optimization", "energy systems", "reinforcement learning"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:31:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.LG new listings February 24 2026",
+          "result_rank": 12
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-033",
+      "title": "Modularity is the Bedrock of Natural and Artificial Intelligence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.18960",
+        "published_date": "2026-02-23"
+      },
+      "content": {
+        "abstract": "Proposes a conceptual framework connecting modular organization principles across neuroscience and AI systems, arguing that modularity is the fundamental architectural principle enabling both biological and artificial intelligence. The paper synthesizes evidence from brain structure, evolutionary theory, and deep learning architecture design to establish modularity as a necessary condition for scalable, generalizable intelligence.",
+        "keywords": ["modularity", "intelligence architecture", "neuroscience", "AI design principles", "brain organization", "scalable intelligence"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:32:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org cs.AI new listings February 24 2026",
+          "result_rank": 20
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-034",
+      "title": "Electrical Post-Fabrication Tuning of Aluminum Josephson Junctions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.20002",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "Demonstrates room-temperature electrical tuning of Josephson junction parameters after fabrication, enabling correction of fabrication errors in superconducting quantum circuits. This technique addresses one of the key scalability barriers in quantum computing by allowing post-fabrication calibration of individual qubits without complex cryogenic intervention.",
+        "keywords": ["Josephson junctions", "quantum hardware", "post-fabrication tuning", "superconducting qubits", "quantum computing scalability", "fabrication error correction"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T21:33:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org quant-ph new listings February 24 2026",
+          "result_rank": 45
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260224-035",
+      "title": "Integrating Predictive Models into Two-Sided Recommendations: A Matching-Theoretic Approach",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.19689",
+        "published_date": "2026-02-24"
+      },
+      "content": {
+        "abstract": "Designs a recommendation system using exposure-constrained matching to improve efficiency on two-sided platforms such as dating and job markets. The matching-theoretic framework integrates predictive ML models with mechanism design principles to achieve both individual match quality and platform-wide efficiency, addressing fairness concerns through exposure constraints.",
+        "keywords": ["matching theory", "recommendation systems", "two-sided platforms", "mechanism design", "fairness", "platform economics"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T21:34:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "arxiv.org econ new listings February 24 2026",
+          "result_rank": 16
+        }
+      }
+    }
+  ]
+}

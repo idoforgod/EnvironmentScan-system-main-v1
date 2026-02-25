@@ -1,0 +1,833 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-12",
+    "workflow": "wf3-naver",
+    "source": "NaverNews",
+    "total_classified": 15,
+    "classification_timestamp": "2026-02-12T02:44:11.511232+00:00"
+  },
+  "classification_stats": {
+    "steeps_distribution": {
+      "E": 3,
+      "T": 6,
+      "P": 5,
+      "Ec": 1
+    },
+    "fssf_distribution": {
+      "Trend": 3,
+      "Discontinuity": 1,
+      "Driver": 2,
+      "Emerging Issue": 3,
+      "Megatrend": 1,
+      "Precursor Event": 2,
+      "Weak Signal": 2,
+      "Wild Card": 1
+    },
+    "three_horizons_distribution": {
+      "H1": 10,
+      "H3": 1,
+      "H2": 4
+    },
+    "uncertainty_distribution": {
+      "Low": 4,
+      "High": 5,
+      "Medium": 6
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "naver-20260212-TOP-003",
+      "original_id": "naver-20260212-101-030",
+      "title": "코스피 사상 첫 5500 돌파",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/101",
+        "section": "경제",
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "코스피가 장중 사상 처음으로 5500선을 돌파. 반도체, 금융, 2차전지 등 골고루 강세. AI 반도체 슈퍼사이클과 K-방산 호황, 국내 기업 실적 호조가 동력. 한국 자본시장의 구조적 전환 신호.",
+        "keywords": [
+          "코스피",
+          "5500",
+          "사상최고",
+          "반도체",
+          "2차전지",
+          "금융"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "steeps_rationale": "한국 자본시장 역대 최고치 경신은 경제 구조 변화의 핵심 지표",
+      "fssf_type": "Trend",
+      "fssf_rationale": "한국 증시의 구조적 상승 추세 확인 — AI/반도체 중심 산업 전환의 시장 반영",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "즉각적 시장 이벤트이나, 구조적 변화를 반영",
+      "uncertainty": "Low",
+      "impact_score": 9.0,
+      "probability": 1.0,
+      "urgency": "URGENT",
+      "novelty_score": 8,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 100,
+        "DC": 100,
+        "ES": 95,
+        "CC": 90,
+        "IC": 90
+      },
+      "psst_score": 9.2,
+      "priority_score": 9.2,
+      "urgency_tag": "URGENT"
+    },
+    {
+      "id": "naver-20260212-TOP-013",
+      "original_id": "naver-20260212-104-036",
+      "title": "손정의, 오픈AI에 94조원 '올인'... 실적발표 앞두고 우려 커진 'AI 사랑'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "손정의 소프트뱅크 회장이 오픈AI에 94조원(650억 달러) 투자를 결정. AI에 대한 '올인' 전략이 실적 발표를 앞두고 투자자 우려 증폭. 단일 기업 역대 최대 AI 투자로 AI 산업의 과잉투자 논란 재점화.",
+        "keywords": [
+          "손정의",
+          "오픈AI",
+          "94조원",
+          "AI투자",
+          "소프트뱅크",
+          "과잉투자"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "steeps_rationale": "단일 기업 역대 최대 AI 투자는 AI 산업 자본 흐름의 극단적 집중을 보여줌",
+      "fssf_type": "Discontinuity",
+      "fssf_rationale": "94조원 단일 투자는 AI 투자 규모의 비연속적 도약으로, 기존 투자 패턴과의 단절을 시사",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "투자 결정은 즉각적이나 효과는 H2까지 확장",
+      "uncertainty": "High",
+      "impact_score": 9.0,
+      "probability": 0.9,
+      "urgency": "URGENT",
+      "novelty_score": 9,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 70,
+        "TC": 100,
+        "DC": 90,
+        "ES": 85,
+        "CC": 80,
+        "IC": 90
+      },
+      "psst_score": 8.5,
+      "priority_score": 9.0,
+      "urgency_tag": "URGENT"
+    },
+    {
+      "id": "naver-20260212-TOP-011",
+      "original_id": "naver-20260212-104-034",
+      "title": "딥시크 'V4' 춘제에 공개되나... '저비용 혁신 있을 것'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "딥시크(DeepSeek)가 춘절 시즌에 V4 모델 공개를 예고. 저비용 AI 혁신이 예상됨. 이전 V3에서 비용 95% 절감을 달성한 딥시크가 또 한번의 파괴적 혁신을 예고하며 글로벌 AI 경쟁 구도에 충격파 전망.",
+        "keywords": [
+          "딥시크",
+          "DeepSeek V4",
+          "저비용AI",
+          "중국AI",
+          "파괴적혁신"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "steeps_rationale": "AI 모델의 비용 파괴적 혁신은 기술 생태계 전체를 재편할 잠재력",
+      "fssf_type": "Driver",
+      "fssf_rationale": "딥시크의 저비용 혁신은 AI 민주화와 빅테크 수익 모델 위협의 구조적 동인",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "춘절 공개 예정 — 수주 내 시장 영향 예상",
+      "uncertainty": "Medium",
+      "impact_score": 9.0,
+      "probability": 0.75,
+      "urgency": "URGENT",
+      "novelty_score": 9,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 60,
+        "TC": 100,
+        "DC": 85,
+        "ES": 70,
+        "CC": 80,
+        "IC": 90
+      },
+      "psst_score": 7.92,
+      "priority_score": 8.55,
+      "urgency_tag": "URGENT"
+    },
+    {
+      "id": "naver-20260212-TOP-004",
+      "original_id": "naver-20260212-105-014",
+      "title": "카카오, 구글과 온디바이스 AI 협력 발표... 오픈AI와는 B2C '투트랙'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/105",
+        "section": "IT과학",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "카카오가 구글과 온디바이스 AI 파트너십 확대를 전격 발표. 오픈AI와도 B2C 투트랙 전략. AI 글래스에 카카오톡 탑재, 클라우드 협업까지 확장. 매출 8조원 돌파 역대 최대 실적과 함께 'AI 수익화 원년' 선언.",
+        "keywords": [
+          "카카오",
+          "구글",
+          "온디바이스AI",
+          "오픈AI",
+          "투트랙",
+          "AI글래스"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "steeps_rationale": "한국 대표 플랫폼 기업의 글로벌 AI 동맹 전략은 기술 생태계 재편의 핵심",
+      "fssf_type": "Emerging Issue",
+      "fssf_rationale": "플랫폼 기업의 복수 AI 파트너 '투트랙' 전략은 AI 산업의 다극화와 종속성 회피라는 새로운 이슈를 제기",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "즉각적 사업 전략 변화이며, 2026년 내 제품 출시 예정",
+      "uncertainty": "Medium",
+      "impact_score": 8.5,
+      "probability": 0.9,
+      "urgency": "WATCH",
+      "novelty_score": 8,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 100,
+        "DC": 85,
+        "ES": 80,
+        "CC": 85,
+        "IC": 85
+      },
+      "psst_score": 8.22,
+      "priority_score": 8.1,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-014",
+      "original_id": "naver-20260212-104-040",
+      "title": "뮌헨 안보보고서 '미국, 전후 국제질서 파괴... 자유세계 리더 포기'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "뮌헨안보회의 보고서가 미국이 전후 국제질서를 파괴하고 자유세계 리더십을 포기하고 있다고 진단. 트럼프 2기 외교정책이 국제 자유주의 질서의 근본을 흔들고 있다는 공식 경고.",
+        "keywords": [
+          "뮌헨안보회의",
+          "국제질서",
+          "미국리더십",
+          "자유주의질서",
+          "트럼프"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "steeps_rationale": "전후 국제질서의 해체 경고는 글로벌 거버넌스의 근본적 전환 신호",
+      "fssf_type": "Megatrend",
+      "fssf_rationale": "미국 주도 국제질서의 퇴조는 다극화 메가트렌드의 가속화 신호",
+      "three_horizons": "H3",
+      "three_horizons_rationale": "국제질서 재편은 10년 이상의 장기 과정이나, 현재 전환기의 가속 신호",
+      "uncertainty": "Medium",
+      "impact_score": 9.5,
+      "probability": 0.8,
+      "urgency": "WATCH",
+      "novelty_score": 7,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 100,
+        "DC": 85,
+        "ES": 80,
+        "CC": 85,
+        "IC": 95
+      },
+      "psst_score": 8.68,
+      "priority_score": 8.1,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-007",
+      "original_id": "naver-20260212-101-015",
+      "title": "마이크론 'HBM4 대량 양산, 고객 출하'... 엔비디아 탈락설 일축",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/101",
+        "section": "경제,IT과학",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "마이크론이 HBM4 대량 양산 및 고객 출하를 공식 확인. 엔비디아 탈락설 일축. 삼성-SK-마이크론 3사 HBM4 경쟁 본격화. AI 반도체 공급망에서의 메모리 주도권 쟁탈전 가속.",
+        "keywords": [
+          "마이크론",
+          "HBM4",
+          "엔비디아",
+          "AI반도체",
+          "삼성",
+          "SK하이닉스"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "steeps_rationale": "AI 반도체 핵심 부품(HBM) 경쟁은 글로벌 기술 패권의 핵심 전장",
+      "fssf_type": "Trend",
+      "fssf_rationale": "HBM 경쟁의 심화는 AI 인프라 투자 확대라는 메가트렌드의 구체적 발현",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "이미 양산/출하 단계 — 즉각적 시장 영향",
+      "uncertainty": "Low",
+      "impact_score": 8.5,
+      "probability": 0.95,
+      "urgency": "WATCH",
+      "novelty_score": 6,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 100,
+        "DC": 85,
+        "ES": 90,
+        "CC": 90,
+        "IC": 85
+      },
+      "psst_score": 8.7,
+      "priority_score": 8.05,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-008",
+      "original_id": "naver-20260212-104-001",
+      "title": "트럼프, 네타냐후와 이란 핵협상 논의... '합의 선호하지만 군사옵션 배제 안해'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "트럼프가 네타냐후와 이란 핵 협상을 논의하면서 군사옵션 배제를 거부. 이란은 농축 권리 포기 불가 입장. 이스라엘은 농축 중단 및 미사일 제한 강경 요구. 가자지구 휴전도 위태. 중동 지정학적 긴장 고조.",
+        "keywords": [
+          "트럼프",
+          "이란핵",
+          "네타냐후",
+          "군사옵션",
+          "가자지구",
+          "중동"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "steeps_rationale": "미국-이란-이스라엘 삼각 갈등은 글로벌 지정학의 핵심 축",
+      "fssf_type": "Emerging Issue",
+      "fssf_rationale": "군사옵션과 외교의 병행은 새로운 위기 국면 진입의 이슈",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "즉각적 외교안보 위기 가능성",
+      "uncertainty": "High",
+      "impact_score": 9.0,
+      "probability": 0.6,
+      "urgency": "URGENT",
+      "novelty_score": 6,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 100,
+        "DC": 85,
+        "ES": 80,
+        "CC": 85,
+        "IC": 90
+      },
+      "psst_score": 8.6,
+      "priority_score": 7.8,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-009",
+      "original_id": "naver-20260212-100-004",
+      "title": "외교부, 美대표단 방한 대비... '핵잠팀' 신설",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/100",
+        "section": "정치",
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "외교부와 국방부가 각각 핵잠수함 관련 팀을 산하에 신설. 한미 조인트 팩트시트(JFS) 안보 분야 협상을 위한 미국 대표단 이달 말 방한 대비. 한국의 핵잠수함 도입 논의가 정부 조직 차원으로 본격화.",
+        "keywords": [
+          "핵잠수함",
+          "외교부",
+          "국방부",
+          "한미안보",
+          "핵전력"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "steeps_rationale": "한국의 핵잠수함 도입 추진은 동북아 안보 구조의 근본적 변화 신호",
+      "fssf_type": "Precursor Event",
+      "fssf_rationale": "정부 조직 신설은 대형 정책 변화의 전조 사건",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "핵잠수함 도입은 5-10년 장기 프로젝트이나 의사결정은 H1에서 진행",
+      "uncertainty": "Medium",
+      "impact_score": 9.0,
+      "probability": 0.7,
+      "urgency": "WATCH",
+      "novelty_score": 9,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 100,
+        "DC": 100,
+        "ES": 75,
+        "CC": 80,
+        "IC": 90
+      },
+      "psst_score": 8.65,
+      "priority_score": 7.8,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-002",
+      "original_id": "naver-20260212-101-006",
+      "title": "미국 1월 고용 13만명 '깜짝' 증가... 실업률 4.3%로 하락",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/101",
+        "section": "경제",
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "미국 1월 비농업 고용이 13만명 증가하며 예상치 상회. 실업률 4.3%로 하락. 통계수정으로 작년 한해 고용 18만명 상향. '해고도 채용도 없는 경제' 현실화. 연준 금리인하 기대에 영향.",
+        "keywords": [
+          "미국고용",
+          "실업률",
+          "연준",
+          "금리",
+          "노동시장"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "steeps_rationale": "글로벌 기축통화국 미국의 고용지표는 세계 경제 방향성의 핵심 선행지표",
+      "fssf_type": "Trend",
+      "fssf_rationale": "'해고도 채용도 없는 경제'라는 새로운 노동시장 패턴이 구조화되는 추세",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "즉각적 금융시장 및 통화정책 영향",
+      "uncertainty": "Low",
+      "impact_score": 8.0,
+      "probability": 0.95,
+      "urgency": "WATCH",
+      "novelty_score": 5,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 100,
+        "DC": 85,
+        "ES": 90,
+        "CC": 90,
+        "IC": 80
+      },
+      "psst_score": 8.72,
+      "priority_score": 7.75,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-010",
+      "original_id": "naver-20260212-105-008",
+      "title": "'개인정보 유출사고' 디올-티파니-루이비통에 과징금 360억원",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/105",
+        "section": "IT과학",
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "550만명 개인정보 유출. 루이비통 213억원, 디올 122억원, 티파니 24억원 과징금 부과. 3사 모두 SaaS 고객관리 시스템 보안조치 미흡. 글로벌 럭셔리 브랜드의 디지털 전환 과정 보안 취약성 노출.",
+        "keywords": [
+          "개인정보유출",
+          "과징금",
+          "루이비통",
+          "디올",
+          "SaaS보안"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "steeps_rationale": "SaaS 기반 고객관리 시스템의 보안 취약성은 디지털 전환의 구조적 리스크",
+      "fssf_type": "Precursor Event",
+      "fssf_rationale": "글로벌 브랜드 대상 대규모 과징금은 데이터 보호 규제 강화의 전조",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "즉각적 규제 영향 및 기업 보안 투자 촉진",
+      "uncertainty": "Low",
+      "impact_score": 7.5,
+      "probability": 0.95,
+      "urgency": "WATCH",
+      "novelty_score": 7,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 100,
+        "DC": 90,
+        "ES": 90,
+        "CC": 85,
+        "IC": 75
+      },
+      "psst_score": 8.65,
+      "priority_score": 7.75,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-005",
+      "original_id": "naver-20260212-104-002",
+      "title": "트럼프, 석탄발전 부활 시동... 국방부에 석탄발전소 전력계약 지시",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "트럼프가 석탄발전소 6곳 개선에 2500억원 투입 계획 지시. AI 데이터센터 전력수요 급증과 요금 상승에 대응. 에너지 전환(탈탄소)의 역행 가능성과 AI 전력 딜레마를 동시에 부각.",
+        "keywords": [
+          "트럼프",
+          "석탄발전",
+          "에너지정책",
+          "AI전력수요",
+          "탈탄소역행"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "Ec",
+      "steeps_rationale": "기후/에너지 정책의 역행은 글로벌 탈탄소 흐름에 대한 근본적 도전",
+      "fssf_type": "Driver",
+      "fssf_rationale": "미국의 에너지 정책 방향 전환은 글로벌 기후 및 에너지 시장의 구조적 동인",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "정책 효과는 2-5년에 걸쳐 발현, 장기 기후 목표에 대한 영향",
+      "uncertainty": "Medium",
+      "impact_score": 8.5,
+      "probability": 0.8,
+      "urgency": "WATCH",
+      "novelty_score": 7,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 100,
+        "DC": 90,
+        "ES": 85,
+        "CC": 85,
+        "IC": 85
+      },
+      "psst_score": 8.6,
+      "priority_score": 7.7,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-012",
+      "original_id": "naver-20260212-104-008",
+      "title": "우크라전 벌써 4년... '5월 평화협정 국민투표-대선 동시 실시 검토'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "뉴스1"
+      },
+      "content": {
+        "abstract": "우크라이나가 트럼프 행정부 압박 아래 러시아와의 평화협정 국민투표와 대선을 동시 검토. 벌써 4년째 전쟁. 5월 평화협정 시나리오가 구체화되며 전후 국제질서 재편 가능성 부상.",
+        "keywords": [
+          "우크라이나전쟁",
+          "평화협정",
+          "국민투표",
+          "트럼프",
+          "전후질서"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "steeps_rationale": "우크라 전후 질서 재편은 글로벌 안보-경제 패러다임 전환의 핵심",
+      "fssf_type": "Emerging Issue",
+      "fssf_rationale": "평화협정 국민투표+대선 동시 실시 검토는 전쟁 종결의 새로운 경로를 제시하는 이머징 이슈",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "5월 실시 검토 — 수개월 내 결정 예상",
+      "uncertainty": "High",
+      "impact_score": 9.0,
+      "probability": 0.5,
+      "urgency": "URGENT",
+      "novelty_score": 8,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 70,
+        "TC": 100,
+        "DC": 90,
+        "ES": 70,
+        "CC": 80,
+        "IC": 90
+      },
+      "psst_score": 8.2,
+      "priority_score": 7.7,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-001",
+      "original_id": "naver-20260212-105-007",
+      "title": "애플, 차세대 시리 또 연기하나... '테스트 중 문제 발생'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/105",
+        "section": "IT과학",
+        "press": "블룸버그 인용"
+      },
+      "content": {
+        "abstract": "애플이 3월 출시 예정 iOS 26.4에 포함하려던 차세대 시리가 내부 테스트 과정에서 문제 발생. 5월 iOS 26.5 또는 9월 iOS 27로 연기 가능성. AI 비서 시장 경쟁에서 뒤처지는 애플의 전략적 위기 시사.",
+        "keywords": [
+          "애플",
+          "시리",
+          "AI비서",
+          "iOS",
+          "연기"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "steeps_rationale": "글로벌 AI 비서 기술 경쟁에서 애플의 기술적 한계 노출",
+      "fssf_type": "Weak Signal",
+      "fssf_rationale": "빅테크 AI 비서 경쟁에서 기술적 한계가 지속적으로 드러나는 것은 AI 발전의 비선형성과 예상치 못한 장벽을 시사하는 약한 신호",
+      "three_horizons": "H1",
+      "three_horizons_rationale": "2026년 내 직접적 영향 — iOS 업데이트 지연은 즉각적 시장 영향",
+      "uncertainty": "Medium",
+      "impact_score": 7.5,
+      "probability": 0.85,
+      "urgency": "WATCH",
+      "novelty_score": 7,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 100,
+        "DC": 100,
+        "ES": 70,
+        "CC": 85,
+        "IC": 75
+      },
+      "psst_score": 8.1,
+      "priority_score": 7.45,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-015",
+      "original_id": "naver-20260212-105-042",
+      "title": "1조원 자금 수혈한 앱트로닉... 휴머노이드 로봇 '아폴로'로 공장 바꾼다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/105",
+        "section": "IT과학",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "앱트로닉이 1조원 규모 자금 수혈을 받고 휴머노이드 로봇 '아폴로'로 공장 자동화 시장 공략. 로봇이 실제 산업 현장에 투입되는 상용화 단계 진입 신호. 노동 대체 가속화 전망.",
+        "keywords": [
+          "휴머노이드로봇",
+          "앱트로닉",
+          "아폴로",
+          "공장자동화",
+          "1조원투자",
+          "노동대체"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "steeps_rationale": "휴머노이드 로봇의 산업 현장 투입은 노동-기술 패러다임 전환의 핵심",
+      "fssf_type": "Weak Signal",
+      "fssf_rationale": "휴머노이드 로봇 상용화 투자 급증은 아직 초기 단계이나 거대한 변화의 약한 신호",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "상용화는 2-5년 내 본격화 예상",
+      "uncertainty": "High",
+      "impact_score": 8.5,
+      "probability": 0.65,
+      "urgency": "WATCH",
+      "novelty_score": 9,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 100,
+        "DC": 95,
+        "ES": 70,
+        "CC": 80,
+        "IC": 85
+      },
+      "psst_score": 8.1,
+      "priority_score": 7.45,
+      "urgency_tag": "WATCH"
+    },
+    {
+      "id": "naver-20260212-TOP-006",
+      "original_id": "naver-20260212-104-012",
+      "title": "중국이 대만 치면 한국도 초토화?... 'GDP 23% 증발' 최악 시나리오",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/section/104",
+        "section": "세계",
+        "press": "다수 매체"
+      },
+      "content": {
+        "abstract": "대만 유사시 한국 GDP 23% 증발 시나리오 분석. 반도체 공급망 단절, 해상 교통로 차단, 미중 갈등 확전 시 한국 경제 직격탄. 지정학적 리스크의 경제적 정량화가 주목.",
+        "keywords": [
+          "대만유사시",
+          "한국GDP",
+          "지정학리스크",
+          "반도체공급망",
+          "미중갈등"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "steeps_rationale": "지정학적 시나리오의 경제적 영향 정량화는 국가 안보-경제 교차 영역",
+      "fssf_type": "Wild Card",
+      "fssf_rationale": "대만 유사시 시나리오는 발생 확률은 낮으나 실현 시 파급력이 극대인 와일드카드",
+      "three_horizons": "H2",
+      "three_horizons_rationale": "2-7년 내 현실화 가능성이 있으며 장기 전략 수립의 핵심 변수",
+      "uncertainty": "High",
+      "impact_score": 9.5,
+      "probability": 0.25,
+      "urgency": "WATCH",
+      "novelty_score": 7,
+      "published_date": "2026-02-12",
+      "psst_dimensions": {
+        "SR": 70,
+        "TC": 100,
+        "DC": 85,
+        "ES": 75,
+        "CC": 80,
+        "IC": 95
+      },
+      "psst_score": 8.3,
+      "priority_score": 6.45,
+      "urgency_tag": "WATCH"
+    }
+  ],
+  "cross_impacts": [
+    {
+      "from": "TOP-003",
+      "to": "TOP-007",
+      "type": "reinforcing",
+      "strength": "strong",
+      "rationale": "코스피 5500 돌파의 핵심 동력이 반도체(HBM) 슈퍼사이클"
+    },
+    {
+      "from": "TOP-011",
+      "to": "TOP-004",
+      "type": "reinforcing",
+      "strength": "strong",
+      "rationale": "딥시크 V4 저비용 혁신은 카카오의 AI 투트랙 전략 가속화 동인"
+    },
+    {
+      "from": "TOP-013",
+      "to": "TOP-011",
+      "type": "opposing",
+      "strength": "strong",
+      "rationale": "손정의 94조원 올인 vs 딥시크 저비용 혁신 — AI 투자의 양극화"
+    },
+    {
+      "from": "TOP-005",
+      "to": "TOP-007",
+      "type": "indirect",
+      "strength": "moderate",
+      "rationale": "석탄발전 부활은 AI 데이터센터 전력 문제 해결의 일환이나 HBM 생산과도 연결"
+    },
+    {
+      "from": "TOP-006",
+      "to": "TOP-003",
+      "type": "opposing",
+      "strength": "strong",
+      "rationale": "대만 유사시 시나리오는 코스피 상승 추세의 최대 하방 리스크"
+    },
+    {
+      "from": "TOP-014",
+      "to": "TOP-008",
+      "type": "reinforcing",
+      "strength": "strong",
+      "rationale": "미국 국제질서 리더십 포기가 이란 핵 위기 심화의 구조적 배경"
+    },
+    {
+      "from": "TOP-012",
+      "to": "TOP-014",
+      "type": "reinforcing",
+      "strength": "strong",
+      "rationale": "우크라 평화협정 시나리오는 전후 국제질서 재편과 직결"
+    },
+    {
+      "from": "TOP-015",
+      "to": "TOP-002",
+      "type": "opposing",
+      "strength": "moderate",
+      "rationale": "휴머노이드 로봇 상용화가 '해고없는 경제'의 구조적 변화 촉진"
+    },
+    {
+      "from": "TOP-009",
+      "to": "TOP-008",
+      "type": "reinforcing",
+      "strength": "moderate",
+      "rationale": "한국 핵잠팀 신설은 중동-동아시아 안보 연계의 한국판 대응"
+    },
+    {
+      "from": "TOP-010",
+      "to": "TOP-004",
+      "type": "reinforcing",
+      "strength": "moderate",
+      "rationale": "SaaS 보안 과징금은 AI 서비스의 보안 투자 촉진 — 카카오 AI 전략에도 영향"
+    }
+  ],
+  "tipping_points": [
+    {
+      "signal_id": "TOP-003",
+      "indicator": "코스피 5500 돌파",
+      "pattern": "Critical Slowing Down",
+      "evidence": "코스피가 4000, 4500, 5000, 5500을 연속 돌파하며 가속 상승. 그러나 거래량 대비 상승폭 감소 패턴이 관찰되면 임계점 접근 가능",
+      "alert_level": "YELLOW",
+      "rationale": "역사적 신고가 경신은 시장 과열의 잠재적 전조이나, 아직 구조적 상승의 근거(반도체/AI)가 견고"
+    },
+    {
+      "signal_id": "TOP-013",
+      "indicator": "AI 투자 규모 비연속적 도약 (94조원)",
+      "pattern": "Flickering",
+      "evidence": "AI 투자에 대한 낙관론(94조원 올인)과 비관론(수익성 우려, 환멸의 골짜기)이 동시 출현 — 시장 심리 진동",
+      "alert_level": "ORANGE",
+      "rationale": "극단적 투자 결정과 동시에 수익화 우려 심화는 AI 투자 버블의 임계점 접근 신호"
+    },
+    {
+      "signal_id": "TOP-014",
+      "indicator": "미국 주도 국제질서 퇴조",
+      "pattern": "Critical Slowing Down",
+      "evidence": "뮌헨안보회의 공식 보고서에서 '자유세계 리더 포기'를 명시 — 기존 질서의 회복 탄력성이 약화되는 임계 지연 신호",
+      "alert_level": "YELLOW",
+      "rationale": "공식 국제 안보 포럼에서 질서 붕괴를 공식 인정한 것은 시스템 전환의 임계점 접근"
+    }
+  ]
+}

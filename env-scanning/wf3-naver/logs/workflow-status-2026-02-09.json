@@ -1,0 +1,66 @@
+{
+  "workflow_id": "wf3-naver",
+  "date": "2026-02-09",
+  "scan_theme": "AI는 실제 돈을 벌고 있을까? -- AI 수익화의 실체와 경제/산업적 변화",
+  "status": "completed_pending_approval",
+  "execution_id": "wf3-crawl-2026-02-09-23-16-34-9fe8",
+  "phases": {
+    "phase1_research": {
+      "status": "completed",
+      "steps": {
+        "1.1_load_archive": "completed -- loaded 15 signals from database.json",
+        "1.2_naver_crawling": "completed -- 267 articles from 6 sections",
+        "1.3_deduplication": "completed -- 267 unique articles (no duplicates)",
+        "1.4_human_checkpoint": "skipped -- confidence > 0.9"
+      },
+      "pipeline_gate_1": "PASSED"
+    },
+    "phase2_planning": {
+      "status": "completed",
+      "steps": {
+        "2.1_signal_classification": "completed -- FSSF 8-type + Three Horizons + Uncertainty applied",
+        "2.2_impact_analysis": "completed -- cross-impact + tipping point + anomaly detection",
+        "2.3_priority_ranking": "completed -- 15 signals ranked by pSST",
+        "2.5_human_checkpoint": "REQUIRED -- awaiting review"
+      },
+      "pipeline_gate_2": "PASSED"
+    },
+    "phase3_implementation": {
+      "status": "completed_pending_approval",
+      "steps": {
+        "3.1_database_update": "completed -- 30 signals in database (15 old + 15 new)",
+        "3.2_report_generation": "completed -- environmental-scan-2026-02-09.md",
+        "3.3_archive": "completed -- archive/2026/02/ and snapshots/",
+        "3.4_human_checkpoint": "REQUIRED -- awaiting approval"
+      },
+      "pipeline_gate_3": "PENDING_APPROVAL"
+    }
+  },
+  "outputs": {
+    "raw_data": "env-scanning/wf3-naver/raw/daily-crawl-2026-02-09.json",
+    "priority_ranked": "env-scanning/wf3-naver/analysis/priority-ranked-2026-02-09.json",
+    "report": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-09.md",
+    "archive": "env-scanning/wf3-naver/reports/archive/2026/02/environmental-scan-2026-02-09.md",
+    "database": "env-scanning/wf3-naver/signals/database.json",
+    "snapshot": "env-scanning/wf3-naver/signals/snapshots/database-2026-02-09.json"
+  },
+  "stats": {
+    "total_raw_articles": 267,
+    "total_new_signals": 15,
+    "total_signals_in_db": 30,
+    "fssf_distribution": {
+      "Discontinuity": 1,
+      "Driver": 2,
+      "Emerging Issue": 3,
+      "Trend": 3,
+      "Weak Signal": 3,
+      "Megatrend": 1,
+      "Precursor Event": 2,
+      "Wild Card": 0
+    },
+    "horizon_distribution": {"H1": 9, "H2": 5, "H3": 1},
+    "steeps_distribution": {"T": 8, "E": 4, "P": 1, "S": 2},
+    "tipping_point_alerts": {"ORANGE": 1, "YELLOW": 2, "GREEN": 12},
+    "anomalies_detected": 3
+  }
+}

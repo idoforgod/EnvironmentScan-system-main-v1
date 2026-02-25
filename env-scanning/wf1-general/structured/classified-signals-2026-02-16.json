@@ -1,0 +1,43 @@
+{
+  "classification_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-02-16",
+    "classifier_version": "2.0.0",
+    "total_classified": 25,
+    "steeps_distribution": {
+      "S": 3,
+      "T": 9,
+      "E": 3,
+      "E_Environmental": 4,
+      "P": 4,
+      "s": 2
+    }
+  },
+  "signals": [
+    {"id": "wf1-20260216-001", "title": "US EPA to Rescind Endangerment Finding for Greenhouse Gas Emissions", "primary_category": "P", "secondary_categories": ["E_Environmental"], "confidence": 0.95},
+    {"id": "wf1-20260216-002", "title": "Stanford Miniature Light Trap Breakthrough Could Enable Million-Qubit Quantum Computers", "primary_category": "T", "secondary_categories": ["E"], "confidence": 0.92},
+    {"id": "wf1-20260216-003", "title": "New START Nuclear Treaty Expires: US-Russia Without Arms Control for First Time in 50 Years", "primary_category": "P", "secondary_categories": ["S"], "confidence": 0.97},
+    {"id": "wf1-20260216-004", "title": "Global Solar+Wind Capacity to Reach 4,000 GW in 2026, Overtaking Coal+Gas", "primary_category": "E_Environmental", "secondary_categories": ["E", "T"], "confidence": 0.94},
+    {"id": "wf1-20260216-005", "title": "Edelman 2026 Trust Barometer: Society Slides from Grievance into Insularity", "primary_category": "s", "secondary_categories": ["S"], "confidence": 0.91},
+    {"id": "wf1-20260216-006", "title": "NIST Awards $3.19M for Quantum, Semiconductor, and Biotech R&D", "primary_category": "T", "secondary_categories": ["P", "E"], "confidence": 0.88},
+    {"id": "wf1-20260216-007", "title": "WHO Warns: Humanitarian Health Funding Below 2016 Levels, Only 1/3 of Targets Reached", "primary_category": "S", "secondary_categories": ["P", "E"], "confidence": 0.93},
+    {"id": "wf1-20260216-008", "title": "Deepfake-as-a-Service Explodes: Over 30% of Corporate Impersonation Attacks Now AI-Powered", "primary_category": "T", "secondary_categories": ["E", "P"], "confidence": 0.94},
+    {"id": "wf1-20260216-009", "title": "US Wave of State Tech Laws: AI, Privacy, Crypto Protections, Right to Repair Take Effect 2026", "primary_category": "P", "secondary_categories": ["T"], "confidence": 0.96},
+    {"id": "wf1-20260216-010", "title": "Global Jobs Gap Projected to Reach 408 Million in 2026 Despite Stable Headline Employment", "primary_category": "S", "secondary_categories": ["E"], "confidence": 0.92},
+    {"id": "wf1-20260216-011", "title": "Physical AI Reaches Inflection Point: Humanoid Robots Enter Manufacturing Production", "primary_category": "T", "secondary_categories": ["E", "S"], "confidence": 0.93},
+    {"id": "wf1-20260216-012", "title": "EU Bans Destruction of Unsold Clothes Under Ecodesign Regulation", "primary_category": "E_Environmental", "secondary_categories": ["P", "E"], "confidence": 0.95},
+    {"id": "wf1-20260216-013", "title": "Global Trade Tariffs Surge: UNCTAD Reports Protectionism Reshaping World Commerce", "primary_category": "E", "secondary_categories": ["P"], "confidence": 0.94},
+    {"id": "wf1-20260216-014", "title": "NASA Perseverance Rover Makes History: First AI-Planned Mars Routes", "primary_category": "T", "secondary_categories": [], "confidence": 0.96},
+    {"id": "wf1-20260216-015", "title": "UK Data Protection Overhaul: Data Use and Access Act Provisions Take Effect February 2026", "primary_category": "P", "secondary_categories": ["T", "S"], "confidence": 0.93},
+    {"id": "wf1-20260216-016", "title": "Greenland Records Warmest January Ever: Warming 4x Faster Than Global Average", "primary_category": "E_Environmental", "secondary_categories": [], "confidence": 0.97},
+    {"id": "wf1-20260216-017", "title": "SEC Approves DTC Pilot for Tokenized Securities on Blockchain", "primary_category": "E", "secondary_categories": ["T", "P"], "confidence": 0.91},
+    {"id": "wf1-20260216-018", "title": "Amsterdam and Florence Ban Fossil Fuel and Meat Advertisements", "primary_category": "E_Environmental", "secondary_categories": ["P", "s"], "confidence": 0.90},
+    {"id": "wf1-20260216-019", "title": "Stanford AI Predicts Disease Risk from Single Night of Sleep Data", "primary_category": "T", "secondary_categories": ["S"], "confidence": 0.93},
+    {"id": "wf1-20260216-020", "title": "Harvard Data Breach: 115K Records Exposed via ShinyHunters Deepfake Voice Phishing", "primary_category": "T", "secondary_categories": ["S", "P"], "confidence": 0.95},
+    {"id": "wf1-20260216-021", "title": "Neuromorphic Computers Solve Complex Physics Equations Previously Requiring Supercomputers", "primary_category": "T", "secondary_categories": [], "confidence": 0.91},
+    {"id": "wf1-20260216-022", "title": "US-China Competition Intensifies: Six Middle East Conflicts in Tier I/II Priority", "primary_category": "P", "secondary_categories": ["E"], "confidence": 0.94},
+    {"id": "wf1-20260216-023", "title": "US Battery Storage to Add 20 GW in 2026; Lithium-Ion Costs Could Drop 30-56% by 2035", "primary_category": "T", "secondary_categories": ["E_Environmental", "E"], "confidence": 0.92},
+    {"id": "wf1-20260216-024", "title": "AI Ethics: Shannon Vallor Warns Society Underprepared for Psychological Effects of AI Interaction", "primary_category": "s", "secondary_categories": ["T", "S"], "confidence": 0.89},
+    {"id": "wf1-20260216-025", "title": "D-Wave Announces First Major Quantum Computing Breakthrough of 2026: Scalable Technology", "primary_category": "T", "secondary_categories": ["E"], "confidence": 0.90}
+  ]
+}

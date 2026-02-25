@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-02-12T23:55:09.247642+00:00",
+  "scans": [
+    {
+      "date": "2026-02-13",
+      "timestamp": "2026-02-12T23:55:09.247646+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 5,
+      "viable_count": 4,
+      "signals_collected": 5,
+      "gaps_analyzed": [
+        "s_spiritual",
+        "E_Economic",
+        "S_Social"
+      ],
+      "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-02-15",
+      "timestamp": "2026-02-15T02:50:08.157944+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 5,
+      "viable_count": 5,
+      "signals_collected": 8,
+      "gaps_analyzed": [
+        "E_Environmental",
+        "E_Economic",
+        "s_spiritual",
+        "S_Social"
+      ],
+      "candidates": [
+        {
+          "name": "Inside Climate News",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "environmental sustainability climate change independent news"
+        },
+        {
+          "name": "Mongabay",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "conservation environment Latin America sustainability"
+        },
+        {
+          "name": "STAT News",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "health neurotechnology brain-computer interface policy"
+        },
+        {
+          "name": "DigitalFoodLab",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "food systems innovation"
+        },
+        {
+          "name": "KDnuggets",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "AI ethics governance neurotechnology"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "timestamp": "2026-02-15T21:22:03.028385+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 0,
+      "viable_count": 0,
+      "signals_collected": 0,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-02-17",
+      "timestamp": "2026-02-17T23:25:50.001174+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 0,
+      "viable_count": 0,
+      "signals_collected": 0,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-02-18",
+      "timestamp": "2026-02-18T21:55:07.679501+00:00",
+      "method_used": "single-agent",
+      "candidates_discovered": 0,
+      "viable_count": 0,
+      "signals_collected": 0,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
+    }
+  ],
+  "approved": [],
+  "discarded": [],
+  "deferred": [],
+  "learning": {
+    "last_update": "2026-02-15T02:50:08.576488+00:00",
+    "scans_analyzed": 1,
+    "keyword_successes": {
+      "environmental sustainability climate change independent news": 1,
+      "conservation environment Latin America sustainability": 1,
+      "health neurotechnology brain-computer interface policy": 1,
+      "food systems innovation": 1,
+      "AI ethics governance neurotechnology": 1
+    }
+  }
+}

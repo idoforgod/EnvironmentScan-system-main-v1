@@ -1,0 +1,69 @@
+{
+  "sie_id": "wf1-sie-2026-02-19",
+  "workflow": "wf1-general",
+  "date": "2026-02-19",
+  "ran_at": "2026-02-20T03:43:00+00:00",
+  "version": "1.0.0",
+  "history_window": 5,
+  "prior_runs_available": 9,
+  "min_evidence_met": true,
+
+  "analysis_results": {
+    "threshold_tuning": {
+      "status": "no_change_needed",
+      "observation": "STEEPs distribution: P=8, T=5, S=2, E_Econ=2, E_Env=2, s=1. Political category is over-represented (40%) — within acceptable range per core-invariants (max 50%), but trending up vs. 5-run average of 32%. Monitor next 2 runs.",
+      "recommendation": "No adjustment — insufficient consecutive-run evidence (need 3). Continue monitoring P-category weighting.",
+      "auto_applied": false
+    },
+    "agent_performance": {
+      "status": "minor_observation",
+      "observation": "Phase 2 classification step took longer than average due to political signal density. No retries required today. Validation passed 17/17 on first attempt.",
+      "recommendation": "No timeout adjustment needed. First-pass validation success rate: 100% (3 consecutive runs).",
+      "auto_applied": false
+    },
+    "classification_quality": {
+      "status": "minor_observation",
+      "observation": "P_Political dominance (8/20 = 40%) reflects genuine geopolitical concentration in today's signals (Iran, EU AI Act, US NIST, India summit, China minerals, Europe digital sovereignty). Not a classification bias — confirmed by source diversity. No correction needed.",
+      "recommendation": "If P-category exceeds 50% in next run, investigate prompt drift.",
+      "auto_applied": false
+    },
+    "workflow_efficiency": {
+      "status": "nominal",
+      "observation": "3-phase pipeline completed without gate failures. No bottlenecks detected. Phase 1→2→3 transition times within target.",
+      "recommendation": "Maintain current configuration.",
+      "auto_applied": false
+    },
+    "hallucination_tracking": {
+      "status": "nominal",
+      "observation": "0 fabricated signal IDs detected. All signal IDs follow wf1-{YYYYMMDD}-{NNN} format. URL validity not machine-checked (no automated URL scanner), but all sources are established outlets (Reuters, Nature, IMF, WEF). Date anomaly rate: 0% — all signals within 24h scan window.",
+      "recommendation": "No tightening needed.",
+      "auto_applied": false
+    },
+    "source_exploration": {
+      "status": "nominal",
+      "observation": "No exploration run today. Existing source set (sources.yaml) covered geopolitical, economic, tech, and environmental signals adequately. Coverage gap: health/pandemic signals weak (only 1 WHO signal). Consider exploring public health outlets in next exploration cycle.",
+      "recommendation": "Queue health source exploration for next cycle — MINOR proposal.",
+      "auto_applied": false
+    },
+    "source_health": {
+      "status": "nominal",
+      "observation": "No source failures reported today. All WF1 sources (Reuters, Nature, arXiv excluded, IMF, WEF blogs) responded normally.",
+      "recommendation": "No action needed.",
+      "auto_applied": false
+    }
+  },
+
+  "auto_applied_changes": [],
+  "major_proposals": [],
+  "minor_proposals": [
+    {
+      "id": "wf1-sie-2026-02-19-m001",
+      "area": "source_exploration",
+      "description": "Queue public health source exploration (WHO, Lancet public blogs) for next exploration cycle to reduce pandemic/health signal gap",
+      "evidence": "1/20 signals today from health domain vs. 5-run average of 2.1/20",
+      "status": "queued",
+      "requires_user_approval": false
+    }
+  ],
+  "summary": "WF1 SIE 2026-02-19: 7개 분석 영역 모두 정상. 자동 적용 변경 0건. 마이너 제안 1건 (공중보건 소스 탐색 예약). P-카테고리 비중 모니터링 필요 (40%, 3연속 시 임계값 조정 검토)."
+}

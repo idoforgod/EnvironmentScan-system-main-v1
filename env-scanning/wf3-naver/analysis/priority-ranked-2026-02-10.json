@@ -1,0 +1,25 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-10",
+    "workflow_id": "wf3-naver",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 15
+  },
+  "priority_ranked": [
+    { "rank": 1, "id": "naver-20260210-100-001", "title": "트럼프 한국 관세 25% 위협", "category": "E", "psst_score": 91, "impact_score": 9.5, "fssf_type": "Discontinuity", "horizon": "H1" },
+    { "rank": 2, "id": "naver-20260210-105-002", "title": "삼성전자 시총 1000조 HBM4 양산", "category": "T", "psst_score": 90, "impact_score": 9.2, "fssf_type": "Trend", "horizon": "H1" },
+    { "rank": 3, "id": "naver-20260210-103-013", "title": "출산율 0.68 역대 최저 인구비상사태", "category": "S", "psst_score": 90, "impact_score": 9.0, "fssf_type": "Weak Signal", "horizon": "H3" },
+    { "rank": 4, "id": "naver-20260210-100-005", "title": "대통령 체포영장 정국 불안", "category": "P", "psst_score": 89, "impact_score": 8.8, "fssf_type": "Wild Card", "horizon": "H1" },
+    { "rank": 5, "id": "naver-20260210-104-009", "title": "미중 관세전쟁 수출 1.3% 급락 전망", "category": "E", "psst_score": 88, "impact_score": 8.8, "fssf_type": "Trend", "horizon": "H1" },
+    { "rank": 6, "id": "naver-20260210-101-003", "title": "에너지 대전환 원년 12차 전기본", "category": "E_Environmental", "psst_score": 88, "impact_score": 8.5, "fssf_type": "Driver", "horizon": "H2" },
+    { "rank": 7, "id": "naver-20260210-104-014", "title": "New START 만료 후 핵군비 증강", "category": "P", "psst_score": 88, "impact_score": 8.5, "fssf_type": "Driver", "horizon": "H2" },
+    { "rank": 8, "id": "naver-20260210-102-004", "title": "청년 주거난 무주택 205만", "category": "S", "psst_score": 87, "impact_score": 8.5, "fssf_type": "Emerging Issue", "horizon": "H1" },
+    { "rank": 9, "id": "naver-20260210-101-007", "title": "중국 대외무역법 전면 개정", "category": "E", "psst_score": 87, "impact_score": 8.3, "fssf_type": "Emerging Issue", "horizon": "H1" },
+    { "rank": 10, "id": "naver-20260210-102-008", "title": "청년 쉬었음 인구 사상 최대", "category": "S", "psst_score": 86, "impact_score": 8.2, "fssf_type": "Weak Signal", "horizon": "H1" },
+    { "rank": 11, "id": "naver-20260210-105-012", "title": "네이버 하이퍼클로바X 기업용 에이전트", "category": "T", "psst_score": 86, "impact_score": 8.0, "fssf_type": "Emerging Issue", "horizon": "H1" },
+    { "rank": 12, "id": "naver-20260210-105-006", "title": "과기부 ICT R&D 1.68조 확정", "category": "T", "psst_score": 85, "impact_score": 7.8, "fssf_type": "Driver", "horizon": "H2" },
+    { "rank": 13, "id": "naver-20260210-101-015", "title": "한국은행 기준금리 동결 딜레마", "category": "E", "psst_score": 85, "impact_score": 7.8, "fssf_type": "Trend", "horizon": "H1" },
+    { "rank": 14, "id": "naver-20260210-105-010", "title": "인도 AI Summit 글로벌사우스 거버넌스", "category": "P", "psst_score": 84, "impact_score": 7.5, "fssf_type": "Emerging Issue", "horizon": "H2" },
+    { "rank": 15, "id": "naver-20260210-101-011", "title": "기준중위소득 역대 최대 인상", "category": "S", "psst_score": 82, "impact_score": 7.2, "fssf_type": "Precursor Event", "horizon": "H1" }
+  ]
+}

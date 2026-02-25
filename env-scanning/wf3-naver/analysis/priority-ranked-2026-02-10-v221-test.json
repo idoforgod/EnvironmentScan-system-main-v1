@@ -1,0 +1,41 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-10",
+    "workflow": "wf3-naver",
+    "version": "2.2.1-test",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 15,
+    "scan_window": {
+      "start": "2026-02-09T10:56:39+00:00",
+      "end": "2026-02-10T10:56:39+00:00",
+      "lookback_hours": 24,
+      "temporal_gate_status": "PASS"
+    },
+    "scoring_weights": {
+      "impact": 0.40,
+      "probability": 0.30,
+      "urgency": 0.20,
+      "novelty": 0.10
+    },
+    "fssf_enabled": true,
+    "three_horizons_enabled": true,
+    "tipping_point_enabled": true
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "naver-20260210-100-001", "title": "헌법재판소 탄소중립기본법 일부 위헌 판결, 미래세대 권리 침해 인정", "category": "P", "fssf_type": "Precursor Event", "three_horizons": "H2", "tipping_alert": "YELLOW", "psst": 90, "impact": 8.8, "priority_score": 92.0},
+    {"rank": 2, "id": "naver-20260210-101-001", "title": "AI 반도체 시장 441조 시총 증발, 엔비디아-오픈AI 동맹 균열에 앤트로픽 신기술 충격", "category": "E", "fssf_type": "Wild Card", "three_horizons": "H1", "tipping_alert": "ORANGE", "psst": 88, "impact": 9.0, "priority_score": 91.5},
+    {"rank": 3, "id": "naver-20260210-104-001", "title": "데이터센터 전력 병목이 AI 시대 승패 가를 핵심 변수로 부상", "category": "T", "fssf_type": "Driver", "three_horizons": "H1", "tipping_alert": "YELLOW", "psst": 86, "impact": 8.2, "priority_score": 87.8},
+    {"rank": 4, "id": "naver-20260210-100-002", "title": "주담대 위험가중치 20%로 상향, 금융 27조원 규모 영향", "category": "P", "fssf_type": "Driver", "three_horizons": "H1", "tipping_alert": "GREEN", "psst": 85, "impact": 7.8, "priority_score": 86.2},
+    {"rank": 5, "id": "naver-20260210-105-001", "title": "AI 칩 부족에 2026년 스마트폰/PC/게임기 가격 급등, DDR5 메모리 품귀 현상", "category": "T", "fssf_type": "Trend", "three_horizons": "H1", "tipping_alert": "YELLOW", "psst": 84, "impact": 7.6, "priority_score": 85.0},
+    {"rank": 6, "id": "naver-20260210-103-001", "title": "COP30 NDC 제출 임박, 한국 기후 목표 상향 압력 증대", "category": "E_Environmental", "fssf_type": "Driver", "three_horizons": "H2", "tipping_alert": "GREEN", "psst": 84, "impact": 7.6, "priority_score": 84.5},
+    {"rank": 7, "id": "naver-20260210-101-003", "title": "한국 경제성장률 1.9% 전망, 무역 불확실성 속 AI·디지털 전환 가속", "category": "E", "fssf_type": "Trend", "three_horizons": "H1", "tipping_alert": "GREEN", "psst": 83, "impact": 7.4, "priority_score": 83.8},
+    {"rank": 8, "id": "naver-20260210-105-003", "title": "2026 반도체 병목은 전력, SMR 원전부터 직접 발전까지 AI 전력 해법 총동원", "category": "T", "fssf_type": "Weak Signal", "three_horizons": "H3", "tipping_alert": "GREEN", "psst": 83, "impact": 7.4, "priority_score": 83.2},
+    {"rank": 9, "id": "naver-20260210-104-002", "title": "미국 DDR5 품귀에 중국산 DRAM 도입 검토, 메모리 공급망 재편 신호", "category": "T", "fssf_type": "Weak Signal", "three_horizons": "H2", "tipping_alert": "GREEN", "psst": 82, "impact": 7.8, "priority_score": 82.6},
+    {"rank": 10, "id": "naver-20260210-101-002", "title": "서울 부동산 신고가 속출, 전세난 심화에 정부 공급 속도전 돌입", "category": "E", "fssf_type": "Trend", "three_horizons": "H1", "tipping_alert": "GREEN", "psst": 82, "impact": 7.0, "priority_score": 82.0},
+    {"rank": 11, "id": "naver-20260210-102-001", "title": "인구감소지역 10개 군 농어촌 기본소득 시범 시행, 월 15만원 지급", "category": "S", "fssf_type": "Emerging Issue", "three_horizons": "H2", "tipping_alert": "GREEN", "psst": 81, "impact": 7.2, "priority_score": 81.4},
+    {"rank": 12, "id": "naver-20260210-102-003", "title": "2026년 금융제도 개편, 부동산 시장 '판' 바꿀 핵심 변화 총정리", "category": "P", "fssf_type": "Emerging Issue", "three_horizons": "H1", "tipping_alert": "GREEN", "psst": 80, "impact": 7.0, "priority_score": 80.5},
+    {"rank": 13, "id": "naver-20260210-105-002", "title": "재계 총수 신년사 키워드: AI, 혁신, 도전 -- 2026년 경영 방향 총정리", "category": "E", "fssf_type": "Trend", "three_horizons": "H1", "tipping_alert": "GREEN", "psst": 79, "impact": 6.8, "priority_score": 79.2},
+    {"rank": 14, "id": "naver-20260210-101-004", "title": "모건 스탠리 2026 전망: 세계 경제를 바꿀 10가지 핵심 예측", "category": "E", "fssf_type": "Trend", "three_horizons": "H1", "tipping_alert": "GREEN", "psst": 78, "impact": 6.6, "priority_score": 78.0},
+    {"rank": 15, "id": "naver-20260210-102-002", "title": "인공지능 윤리 2026년 새 시대 과제, 디지털 기본역량교육 범위 확대", "category": "s", "fssf_type": "Emerging Issue", "three_horizons": "H2", "tipping_alert": "GREEN", "psst": 77, "impact": 6.4, "priority_score": 77.0}
+  ]
+}

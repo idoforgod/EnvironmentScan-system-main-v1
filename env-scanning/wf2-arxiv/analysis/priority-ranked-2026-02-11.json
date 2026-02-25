@@ -1,0 +1,25 @@
+{
+  "ranking_metadata": {
+    "workflow_id": "wf2-arxiv",
+    "date": "2026-02-11",
+    "total_ranked": 15,
+    "ranking_method": "pSST_unified"
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "arxiv-20260211-001", "title": "Generative Video Drift Resolution: Stable Video Infinity", "category": "T", "psst_score": 88, "impact_score": 8.8, "priority_score": 8.7},
+    {"rank": 2, "id": "arxiv-20260211-002", "title": "AI Capability Growth: Exponential vs Linear Competing Hypothesis", "category": "T", "psst_score": 87, "impact_score": 8.5, "priority_score": 8.5},
+    {"rank": 3, "id": "arxiv-20260211-003", "title": "Multi-Agent LLM Robotic Autonomy Framework", "category": "T", "psst_score": 86, "impact_score": 8.3, "priority_score": 8.3},
+    {"rank": 4, "id": "arxiv-20260211-004", "title": "Quantum Error Correction via Neural Networks", "category": "T", "psst_score": 85, "impact_score": 8.2, "priority_score": 8.2},
+    {"rank": 5, "id": "arxiv-20260211-005", "title": "CryptoFair-FL: Privacy-Preserving Federated Learning with Fairness", "category": "T", "psst_score": 84, "impact_score": 8.0, "priority_score": 8.0},
+    {"rank": 6, "id": "arxiv-20260211-006", "title": "Generative ML for Climate Simulation Ensemble Boosting", "category": "E_Environmental", "psst_score": 84, "impact_score": 7.8, "priority_score": 7.9},
+    {"rank": 7, "id": "arxiv-20260211-007", "title": "Agentic Reasoning for LLMs: Architecture Taxonomy", "category": "T", "psst_score": 83, "impact_score": 7.8, "priority_score": 7.8},
+    {"rank": 8, "id": "arxiv-20260211-008", "title": "Early Fault-Tolerant Quantum Computing: CS Challenges", "category": "T", "psst_score": 83, "impact_score": 7.5, "priority_score": 7.7},
+    {"rank": 9, "id": "arxiv-20260211-009", "title": "Quantum Computing for Climate Modelling Opportunities", "category": "E_Environmental", "psst_score": 82, "impact_score": 7.5, "priority_score": 7.6},
+    {"rank": 10, "id": "arxiv-20260211-010", "title": "Distributed Multi-Agent LLM for Social Robot Navigation", "category": "T", "psst_score": 81, "impact_score": 7.3, "priority_score": 7.5},
+    {"rank": 11, "id": "arxiv-20260211-011", "title": "Non-Parametric PPO for LLM Agent Procedural Memory", "category": "T", "psst_score": 80, "impact_score": 7.2, "priority_score": 7.3},
+    {"rank": 12, "id": "arxiv-20260211-012", "title": "Quantum-Resilient Cryptography for IoT Edge Security", "category": "T", "psst_score": 79, "impact_score": 7.0, "priority_score": 7.1},
+    {"rank": 13, "id": "arxiv-20260211-013", "title": "Efficient RL Post-Training for Large Reasoning Models", "category": "T", "psst_score": 78, "impact_score": 7.0, "priority_score": 7.0},
+    {"rank": 14, "id": "arxiv-20260211-014", "title": "LLM Poker Reasoning: Game-Theoretic Agentic Tool Use", "category": "T", "psst_score": 77, "impact_score": 6.8, "priority_score": 6.8},
+    {"rank": 15, "id": "arxiv-20260211-015", "title": "DC-MBQC: Distributed Compilation for Measurement-Based QC", "category": "T", "psst_score": 76, "impact_score": 6.5, "priority_score": 6.6}
+  ]
+}

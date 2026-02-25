@@ -1,0 +1,40 @@
+{
+  "engine_version": "1.2.0",
+  "computed_at": "2026-02-15T02:54:39Z",
+  "source_file": "env-scanning/wf1-general/structured/classified-signals-2026-02-15.json",
+  "workflow_type": "standard",
+  "total_signals": 53,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 3,
+      "s": 0
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "53",
+    "DOMAIN_DISTRIBUTION": "환경(E) 3건",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "해당 없음",
+    "EVOLUTION_TABLE_WEAKENING": "해당 없음"
+  }
+}

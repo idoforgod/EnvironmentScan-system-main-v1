@@ -1,0 +1,72 @@
+{
+  "master_id": "triple-scan-2026-02-11",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.2.1",
+  "started_at": "2026-02-11T07:48:10+09:00",
+  "completed_at": "2026-02-11T08:50:00+09:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-11.json",
+  "execution_mode": "marathon + autopilot",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-11T07:48:10+09:00",
+    "checks_passed": 34,
+    "checks_total": 34,
+    "warnings": []
+  },
+  "temporal_anchor": {
+    "T0": "2026-02-10T22:48:10.519455+00:00",
+    "T0_ko": "2026년 02월 10일 22:48:10 UTC"
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "signals_collected": 27,
+      "signals_after_dedup": 25,
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-11.md",
+      "validation": {"profile": "standard", "result": "PASS", "checks": "15/15"},
+      "archive_path": "env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-11.md"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "signals_collected": 30,
+      "signals_after_dedup": 15,
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-11.md",
+      "validation": {"profile": "standard", "result": "PASS", "checks": "15/15"},
+      "archive_path": "env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-11.md"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "signals_collected": 35,
+      "signals_after_dedup": 15,
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-11.md",
+      "validation": {"profile": "naver", "result": "PASS", "checks": "18/18"},
+      "archive_path": "env-scanning/wf3-naver/reports/archive/2026/02/environmental-scan-2026-02-11.md"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent",
+    "total_signals_pool": 55,
+    "top_20_selected": true,
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-11.md",
+    "validation": {"profile": "integrated", "result": "PASS", "checks": "17/17"},
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-11.md"
+  },
+  "human_decisions": {
+    "autopilot": true,
+    "all_checkpoints_auto_approved": true
+  },
+  "master_gates": {
+    "M1": {"status": "PASS", "note": "WF1 completed, 15/15 validation PASS"},
+    "M2": {"status": "PASS", "note": "WF2 completed, 15/15 validation PASS"},
+    "M2a": {"status": "PASS", "note": "WF3 completed, 18/18 validation PASS"},
+    "M3": {"status": "PASS", "note": "Integration completed, 17/17 validation PASS"}
+  },
+  "quality_summary": {
+    "total_validation_checks": 65,
+    "total_passed": 65,
+    "total_failed": 0,
+    "critical_failures": 0
+  }
+}

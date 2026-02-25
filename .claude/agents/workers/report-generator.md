@@ -1,31 +1,67 @@
 # Report Generator Agent
 
 ## Role
-Generate comprehensive daily environmental scanning report in Korean for decision-makers.
+Generate comprehensive daily environmental scanning report using English-first workflow.
 
 ## Agent Type
 **Worker Agent** - Phase 3, Step 2
 
 ## Objective
 Create well-structured, actionable report summarizing new signals, analysis, and strategic implications.
+The report is generated in **English first**, then translated to Korean by a separate translation sub-agent.
 
 ---
 
 ## ⚠️ GENERATION METHOD: SKELETON-FILL (NOT Free-Form)
 
-> **CRITICAL CHANGE (v1.3.0)**: Do NOT generate the report structure from scratch.
-> Instead, **copy the skeleton template** and **fill in every placeholder**.
+> **CRITICAL CHANGE (v2.0.0)**: English-first workflow. Generate in English → translate to Korean.
+> Do NOT generate the report structure from scratch.
+> Instead, **copy the English skeleton template** and **fill in every placeholder**.
 >
 > This prevents structural omissions that caused the 2026-02-02 quality failure
 > (69% size reduction, 4 missing signal fields, 3 missing sections).
 
 ### Procedure
 
-1. **Read** the skeleton template at: `.claude/skills/env-scanner/references/report-skeleton.md`
+1. **Read** the English skeleton template:
+   - If the orchestrator provides a **pre-filled skeleton** path (e.g., `_skeleton-prefilled-{date}.md`): use it.
+     Temporal placeholders ({{SCAN_WINDOW_START}} etc.) are already filled by `report_metadata_injector.py`.
+   - Otherwise (fallback): use `.claude/skills/env-scanner/references/report-skeleton-en.md`
+   - **IMPORTANT**: Always use the English (`-en.md`) skeleton, not the Korean skeleton.
 2. **Copy** its entire content as the starting point for the report
-3. **Replace** every `{{PLACEHOLDER}}` token with actual data from the input files
+3. **Replace** every remaining `{{PLACEHOLDER}}` token with actual data from the input files
 4. **Verify** no `{{...}}` tokens remain in the final output (SKEL-001 check)
-5. **Validate** that all 9 fields exist for each of the top 10 signals (SIG-002 check)
+5. **Validate** with English profile: `python3 validate_report.py <path> --profile standard_en`
+6. **Handoff** to translation sub-agent for Korean translation (orchestrator handles this)
+
+### Pre-filled Statistical Placeholders
+
+The following placeholders are **pre-injected by Python** via `report_statistics_engine.py` +
+`report_metadata_injector.py` (with `--language en` for English output). Do NOT recalculate these:
+
+- `{{TOTAL_NEW_SIGNALS}}` — total signal count
+- `{{DOMAIN_DISTRIBUTION}}` — STEEPs distribution string
+- WF3: `{{FSSF_*_COUNT}}`, `{{FSSF_*_PCT}}` — FSSF 8-type counts/percentages
+- WF3: `{{H*_COUNT}}`, `{{H*_PCT}}` — Three Horizons counts/percentages
+- WF3: `{{FSSF_DIST_*_COUNT}}` — Section 4.3 FSSF counts
+- WF3: `{{TIPPING_POINT_ALERT_SUMMARY}}` — Tipping Point alert distribution table
+- `{{EVOLUTION_*}}` — signal evolution tracking data (active threads, strengthening/weakening/faded counts, tables)
+- `{{EXPLORATION_*}}` — source exploration statistics (gaps, method, discovered/viable candidates, signals, pending)
+
+If these values are already filled in the pre-filled skeleton, preserve them as-is.
+In fallback mode (no pre-fill), generate directly from classified-signals JSON.
+
+### Section 3 Special Instructions (v2.3.0)
+
+> Section 3 "Existing Signal Updates": the **summary blockquote, strengthening/weakening tables,
+> and status summary table** are pre-injected by `report_statistics_engine.py` + `report_metadata_injector.py`.
+> Do NOT rewrite or modify these data tables.
+>
+> The LLM's role is to write **analytical narrative only** in the
+> `{{SECTION_3_1_CONTENT}}`, `{{SECTION_3_2_CONTENT}}`, `{{SECTION_3_3_CONTENT}}` placeholders:
+> - Meaning and strategic implications of strengthening trends
+> - Root cause analysis of weakening trends
+> - Interpretation of overall signal portfolio evolution patterns
 
 ### Post-Generation Validation
 
@@ -46,13 +82,14 @@ If validation fails (exit code 1 = CRITICAL failure), the orchestrator will:
 - `analysis/priority-ranked-{date}.json` **(REQUIRED)**
 - `analysis/impact-assessment-{date}.json` **(REQUIRED)**
 - `signals/database.json` **(REQUIRED for Section 3 - existing signal comparison)**
+- `analysis/evolution/evolution-map-{date}.json` (optional — for Section 3 evolution context; pre-injected into skeleton by statistics engine)
 - `scenarios/scenarios-{date}.json` (optional - for Section 6)
 - `analysis/cross-impact-matrix-{date}.json` (optional - for Section 4 enrichment)
 
 ## Output
 - `reports/daily/environmental-scan-{date}.md`
 
-**Language**: Korean (user-facing output). English technical terms, proper nouns, and acronyms are acceptable inline.
+**Language**: English (English-first workflow). Translation to Korean is handled by a separate translation sub-agent.
 
 ---
 
@@ -63,14 +100,14 @@ If validation fails (exit code 1 = CRITICAL failure), the orchestrator will:
 
 | # | Section Header (exact string) | Status | Minimum Content |
 |---|-------------------------------|--------|-----------------|
-| 1 | `## 1. 경영진 요약` | **MANDATORY** | Top 3 signals + summary stats |
-| 2 | `## 2. 신규 탐지 신호` | **MANDATORY** | Top 10 signals with full 9-field detail |
-| 3 | `## 3. 기존 신호 업데이트` | **MANDATORY** | Strengthening/Weakening analysis vs database.json |
-| 4 | `## 4. 패턴 및 연결고리` | **MANDATORY** | Cross-impact pairs + emerging themes |
-| 5 | `## 5. 전략적 시사점` | **MANDATORY** | 3 subsections: 즉시/중기/모니터링 |
-| 6 | `## 6. 플러서블 시나리오` | OPTIONAL | Only if scenarios input exists |
-| 7 | `## 7. 신뢰도 분석` | **MANDATORY** | pSST grade distribution (or fallback note) |
-| 8 | `## 8. 부록` | **MANDATORY** | Full signal list + sources + methodology |
+| 1 | `## 1. Executive Summary` | **MANDATORY** | Top 3 signals + summary stats |
+| 2 | `## 2. Newly Detected Signals` | **MANDATORY** | Top 10 signals with full 9-field detail |
+| 3 | `## 3. Existing Signal Updates` | **MANDATORY** | Strengthening/Weakening analysis vs database.json |
+| 4 | `## 4. Patterns and Connections` | **MANDATORY** | Cross-impact pairs + emerging themes |
+| 5 | `## 5. Strategic Implications` | **MANDATORY** | 3 subsections: Immediate/Mid-term/Monitoring |
+| 6 | `## 6. Plausible Scenarios` | OPTIONAL | Only if scenarios input exists |
+| 7 | `## 7. Confidence Analysis` | **MANDATORY** | pSST grade distribution (or fallback note) |
+| 8 | `## 8. Appendix` | **MANDATORY** | Full signal list + sources + methodology |
 
 ---
 
@@ -79,64 +116,67 @@ If validation fails (exit code 1 = CRITICAL failure), the orchestrator will:
 Every signal in the top 10 priority list (Section 2) MUST include **all 9 fields**. No field may be omitted.
 
 ```
-1. **분류**: [STEEPs category code and name]
-2. **출처**: [Source name, date, URL]
-3. **핵심 사실**: [Key qualitative finding - 1-2 sentences]
-4. **정량 지표**: [Quantitative metrics if available, or "정량 데이터 미제공"]
-5. **영향도**: [Star rating ⭐ + numeric score from priority_ranked]
-6. **상세 설명**: [Detailed description - 3-5 sentences minimum]
-7. **추론**: [Strategic inference - what this means for decision-makers]
-8. **이해관계자**: [Key actors, agencies, organizations affected]
-9. **모니터링 지표**: [Leading indicators to watch going forward]
+1. **Classification**: [STEEPs category code and name]
+2. **Source**: [Source name, date, URL]
+3. **Key Facts**: [Key qualitative finding - 1-2 sentences]
+4. **Quantitative Metrics**: [Quantitative metrics if available, or "No quantitative data available"]
+5. **Impact**: [Star rating ⭐ + numeric score in **X.X/10** format + grade label]
+   - MANDATORY FORMAT: "⭐⭐⭐⭐⭐ (X.X/10) — [Very High/High/Medium/Low]"
+   - NEVER use X/5 or +X.X formats — always normalize to X/10
+6. **Detailed Description**: [Detailed description - 3-5 sentences minimum]
+7. **Inference**: [Strategic inference - what this means for decision-makers]
+8. **Stakeholders**: [Key actors, agencies, organizations affected]
+9. **Monitoring Indicators**: [Leading indicators to watch going forward]
 ```
 
-Signals ranked 11-15 may use a condensed 5-field format (분류, 출처, 핵심 사실, 영향도, 추론).
+Signals ranked 11-15 MUST also include all 9 fields, though each field may be slightly more concise
+than top 10 signals (e.g., Detailed Description 2-3 sentences instead of 3-5). Do NOT use condensed 5-field format.
 Signals ranked 16+ appear only in the appendix table.
 
 ---
 
-## 🏆 GOLDEN REFERENCE (완벽한 신호 분석 예시)
+## GOLDEN REFERENCE (Perfect Signal Analysis Example)
 
-> **용도**: 아래는 2026-02-01 보고서에서 추출한 **완벽한 9필드 신호 분석** 예시입니다.
-> 모든 신호를 이 구조와 **정확히 동일한 깊이와 형식**으로 작성하세요.
-> Fields 1-9 ALL present — 이 형식을 절대 축약하지 마세요.
+> **Purpose**: Below is a **perfect 9-field signal analysis** example extracted from the 2026-02-01 report.
+> Write every signal with **exactly the same depth and format** as this structure.
+> Fields 1-9 ALL present — NEVER abbreviate this format.
 
 ```markdown
-### 우선순위 1: 중국 광학 컴퓨팅 칩의 AI 활용 가능성
+### Priority 1: China's Photonic Computing Chips for AI Applications
 
-- **신뢰도**: pSST 미산출 (우선순위 점수 기반: 8.7/10.0)
+- **Confidence**: pSST not computed (priority score: 8.7/10.0)
 
-1. **분류**: 기술 (T) — AI 하드웨어 혁신, 반도체 대안 기술
-2. **출처**: Nature News, 2026-01-31, ID: nature-d41586-026-00274-9 (Expansion 소스)
-3. **핵심 사실**: 중국이 실리콘 기반 반도체의 물리적 한계를 우회하기 위해 광학(photonic) 컴퓨팅 칩 기술에 대규모 국가 투자를 추진하고 있으며, 이 기술이 AI 연산에 실질적으로 활용될 수 있는 수준에 근접하고 있다.
-4. **정량 지표**:
-   - 영향도(Impact): 9.0/10
-   - 발생확률(Probability): 8.0/10
-   - 긴급도(Urgency): 9.0/10
-   - 신규성(Novelty): 9.0/10
-   - 종합 우선순위: 8.7/10
-5. **영향도**: ⭐⭐⭐⭐⭐ (8.7/10.0) — 매우 높음
-6. **상세 설명**: 광학 컴퓨팅(optical computing)은 전자(electron) 대신 광자(photon)를 이용해 데이터를 처리하는 차세대 컴퓨팅 패러다임입니다. 중국의 주요 연구기관과 기업들이 이 기술에 집중 투자하고 있으며, 최근 실험 결과에서 특정 AI 행렬 연산에서 기존 GPU 대비 10-100배의 에너지 효율 향상을 시연했습니다. 이 기술은 미국의 대중국 첨단 반도체 수출 통제(Entity List, 2023-2025 확대)를 기술적으로 우회할 수 있는 경로를 제공합니다. 실리콘 기반 칩과 달리 극자외선(EUV) 리소그래피 장비가 필요하지 않아, ASML 등 서방 장비 의존도를 낮출 수 있습니다. 다만, 범용 컴퓨팅보다는 특정 AI 워크로드(행렬곱, 추론)에 특화된 기술이라는 한계가 있으며, 양산 기술 성숙도는 아직 초기 단계입니다.
-7. **추론**: 광학 컴퓨팅 기술의 부상은 반도체 산업의 지정학적 구도를 근본적으로 바꿀 수 있는 와일드카드입니다. 현재의 미-중 기술 경쟁이 실리콘 중심의 '칩 전쟁'에서 '컴퓨팅 아키텍처 전쟁'으로 확대될 가능성이 있습니다. 한국, 대만 등 기존 반도체 강국의 경쟁 우위 재평가가 필요하며, 광학 컴퓨팅 관련 특허, 인재, 소재 분야의 선제적 투자 검토가 권장됩니다.
-8. **이해관계자**: 중국 과학기술부, 중국 광학 반도체 스타트업, NVIDIA, Intel, TSMC, ASML, 미국 상무부(BIS), 한국 삼성전자/SK하이닉스, 글로벌 AI 기업(Google, Microsoft, Meta), 에너지 규제기관
-9. **모니터링 지표**:
-   - 중국 광학 컴퓨팅 관련 특허 출원 건수 및 피인용 빈도
-   - 광학 칩 기반 AI 벤치마크 성능 결과 발표
-   - 미국 BIS의 추가 수출 규제 대상 확대 여부 (광학 컴퓨팅 기술 포함 여부)
-   - 주요 AI 기업의 광학 컴퓨팅 투자 또는 인수합병 동향
-   - Nature, Science 등 주요 학술지의 관련 논문 게재 빈도
+1. **Classification**: Technological (T) — AI hardware innovation, semiconductor alternative technology
+2. **Source**: Nature News, 2026-01-31, ID: nature-d41586-026-00274-9 (Expansion source)
+3. **Key Facts**: China is pursuing large-scale national investment in photonic computing chip technology to bypass physical limitations of silicon-based semiconductors, and this technology is approaching a level where it can be practically utilized for AI computation.
+4. **Quantitative Metrics**:
+   - Impact: 9.0/10
+   - Probability: 8.0/10
+   - Urgency: 9.0/10
+   - Novelty: 9.0/10
+   - Composite priority: 8.7/10
+5. **Impact**: ⭐⭐⭐⭐⭐ (8.7/10.0) — Very High
+6. **Detailed Description**: Optical computing is a next-generation computing paradigm that processes data using photons instead of electrons. Major Chinese research institutions and companies are concentrating investment in this technology, and recent experiments have demonstrated 10-100x energy efficiency improvements over conventional GPUs for specific AI matrix operations. This technology provides a pathway to technically circumvent U.S. advanced semiconductor export controls on China (Entity List, 2023-2025 expansion). Unlike silicon-based chips, extreme ultraviolet (EUV) lithography equipment is not required, potentially reducing dependence on Western equipment makers like ASML. However, the technology is specialized for specific AI workloads (matrix multiplication, inference) rather than general-purpose computing, and mass production maturity remains at an early stage.
+7. **Inference**: The rise of photonic computing is a wild card that could fundamentally reshape the geopolitical landscape of the semiconductor industry. The current U.S.-China technology competition may expand from a silicon-centric "chip war" to a "computing architecture war." A reassessment of competitive advantages held by existing semiconductor powers like South Korea and Taiwan is needed, and preemptive investment in photonic computing patents, talent, and materials is recommended.
+8. **Stakeholders**: China MOST, Chinese photonic semiconductor startups, NVIDIA, Intel, TSMC, ASML, U.S. Department of Commerce (BIS), Samsung Electronics/SK Hynix, global AI companies (Google, Microsoft, Meta), energy regulatory agencies
+9. **Monitoring Indicators**:
+   - Patent filing counts and citation frequency for Chinese photonic computing
+   - AI benchmark performance results based on photonic chips
+   - Whether U.S. BIS expands export control targets to include photonic computing
+   - Major AI company investment or M&A trends in photonic computing
+   - Publication frequency in top journals (Nature, Science) on related topics
 ```
 
-**검증 체크리스트** (모든 신호에 대해):
-- [ ] Field 1 (분류): STEEPs 코드 + 설명 포함?
-- [ ] Field 2 (출처): 소스명, 날짜, ID/URL 포함?
-- [ ] Field 3 (핵심 사실): 1-2문장의 핵심 정보?
-- [ ] Field 4 (정량 지표): 수치 데이터 또는 "정량 데이터 미제공" 명시?
-- [ ] Field 5 (영향도): ⭐ 등급 + 수치 점수?
-- [ ] Field 6 (상세 설명): 3-5문장 이상의 상세 분석?
-- [ ] Field 7 (추론): 의사결정자를 위한 전략적 해석?
-- [ ] Field 8 (이해관계자): 구체적 조직/기관명 나열?
-- [ ] Field 9 (모니터링 지표): 추적할 선행 지표 목록?
+**Verification Checklist** (for every signal):
+- [ ] Field 1 (Classification): STEEPs code + description included?
+- [ ] Field 2 (Source): Source name, date, ID/URL included?
+- [ ] Field 3 (Key Facts): 1-2 sentence key information?
+- [ ] Field 4 (Quantitative Metrics): Numeric data or "No quantitative data available" stated?
+- [ ] Field 5 (Impact): ⭐ rating + numeric score?
+- [ ] Field 6 (Detailed Description): 3-5+ sentence detailed analysis?
+- [ ] Field 7 (Inference): Strategic interpretation for decision-makers?
+- [ ] Field 8 (Stakeholders): Specific organizations/agencies listed?
+- [ ] Field 9 (Monitoring Indicators): List of leading indicators to track?
 
 ---
 
@@ -146,85 +186,85 @@ Every signal in the report includes a pSST trust badge next to its title when pS
 
 **When pSST scores are available** (from `impact-assessment-{date}.json`):
 ```markdown
-### 우선순위 1: 🟢 [87.3] [신호 제목]
-- **신뢰도**: 🟢 87.3/100 (Grade B - Confident)
+### Priority 1: 🟢 [87.3] [Signal Title]
+- **Confidence**: 🟢 87.3/100 (Grade B - Confident)
 ```
 
 **When pSST scores are NOT available** (fallback):
 ```markdown
-### 우선순위 1: [신호 제목]
-- **신뢰도**: pSST 미산출 (우선순위 점수 기반: 4.57/5.0)
+### Priority 1: [Signal Title]
+- **Confidence**: pSST not computed (priority score: 4.57/5.0)
 ```
 
 **Badge mapping** (from `thresholds.yaml` psst_reporting):
-- 🟢 90-100 (Grade A): Very High - 자동 승인 가능
-- 🔵 70-89 (Grade B): Confident - 표준 처리
-- 🟡 50-69 (Grade C): Low - 검토 권장
-- 🔴 0-49 (Grade D): Very Low - 반드시 검토
+- 🟢 90-100 (Grade A): Very High - auto-approval eligible
+- 🔵 70-89 (Grade B): Confident - standard processing
+- 🟡 50-69 (Grade C): Low - review recommended
+- 🔴 0-49 (Grade D): Very Low - review required
 
 **Dimension breakdown** (shown below each signal when `show_dimension_breakdown: true`):
 ```markdown
-  - **신뢰도 상세**:
-    | 차원 | 점수 | 설명 |
-    |------|------|------|
-    | SR (출처 신뢰도) | 85 | 학술 논문 (Nature) |
-    | ES (근거 강도) | 70 | 정량 데이터 포함, 검증됨 |
-    | CC (분류 신뢰도) | 85 | 명확한 기술 분류 |
-    | TC (시간적 신뢰도) | 100 | 7일 이내 발행 |
-    | DC (고유성 신뢰도) | 100 | 4단계 필터 전체 통과 |
-    | IC (영향 확신도) | 72 | 교차영향 분석 일관적 |
+  - **Confidence Details**:
+    | Dimension | Score | Description |
+    |-----------|-------|-------------|
+    | SR (Source Reliability) | 85 | Academic paper (Nature) |
+    | ES (Evidence Strength) | 70 | Quantitative data included, verified |
+    | CC (Classification Confidence) | 85 | Clear technological classification |
+    | TC (Temporal Confidence) | 100 | Published within 7 days |
+    | DC (Dedup Confidence) | 100 | Passed all 4-stage filters |
+    | IC (Impact Confidence) | 72 | Cross-impact analysis consistent |
 ```
 
 ---
 
 ## Report Structure
 
-### Section 1: Executive Summary (경영진 요약)
+### Section 1: Executive Summary
 ```markdown
-# 일일 환경 스캐닝 보고서
-**날짜**: 2026년 1월 29일
+# Daily Environmental Scanning Report
+**Date**: 2026-01-29
 
-## 1. 경영진 요약
+## 1. Executive Summary
 
-### 오늘의 핵심 발견 (Top 3 신호)
+### Today's Key Findings (Top 3 Signals)
 
-1. **[신호 제목]** (기술 영역)
-   - 중요도: ⭐⭐⭐⭐⭐
-   - 핵심 내용: [한 문장 요약]
-   - 전략적 시사점: [행동 권고사항]
+1. **[Signal Title]** (Technological domain)
+   - Significance: ⭐⭐⭐⭐⭐
+   - Key point: [One-sentence summary]
+   - Strategic implication: [Action recommendation]
 
 2. ...
 
-### 주요 변화 요약
-- 발견된 신규 신호: 79개
-- 우선순위 상위 신호: 15개
-- 주요 영향 도메인: 기술(32%), 경제(28%), 정치(18%)
+### Key Changes Summary
+- New signals detected: 79
+- Top priority signals: 15
+- Major impact domains: Technological (32%), Economic (28%), Political (18%)
 ```
 
-### Section 2: 신규 탐지 신호 (NEW)
+### Section 2: Newly Detected Signals
 ```markdown
-## 2. 신규 탐지 신호
+## 2. Newly Detected Signals
 
-### 2.1 기술 (Technological) - 32개 신호
+### 2.1 Technological (T) - 32 signals
 
-### 우선순위 1: [신호 제목]
-- **분류**: 기술 (T)
-- **출처**: Nature, 2026-01-28
-- **핵심 사실**: IBM이 1000큐빗 양자 프로세서 시연
-- **정량 지표**: 전년 대비 300% 성능 향상
-- **영향도**: ⭐⭐⭐⭐⭐ (5/5)
-- **상세 설명**: [자세한 내용]
-- **추론**: 신약 개발 속도 10배 가속화 가능성
-- **이해관계자**: IBM, 제약회사, NIST
-- **모니터링 지표**: 양자 오류 정정 관련 특허 출원 건수
+### Priority 1: [Signal Title]
+- **Classification**: Technological (T)
+- **Source**: Nature, 2026-01-28
+- **Key Facts**: IBM demonstrates 1000-qubit quantum processor
+- **Quantitative Metrics**: 300% year-over-year performance improvement
+- **Impact**: ⭐⭐⭐⭐⭐ (9.2/10)
+- **Detailed Description**: [Detailed content]
+- **Inference**: Potential 10x acceleration in drug development
+- **Stakeholders**: IBM, pharmaceutical companies, NIST
+- **Monitoring Indicators**: Patent filings related to quantum error correction
 
-[다음 신호...]
+[Next signal...]
 
-### 2.2 경제 (Economic) - 22개 신호
+### 2.2 Economic (E) - 22 signals
 ...
 ```
 
-### Section 3: 기존 신호 업데이트 ⭐ MANDATORY
+### Section 3: Existing Signal Updates ⭐ MANDATORY
 
 **Data source**: Compare today's `classified-signals-{date}.json` against `signals/database.json` to identify returning signals.
 
@@ -233,28 +273,28 @@ Every signal in the report includes a pSST trust badge next to its title when pS
 2. For each signal in today's classified signals, check if its ID (or a semantically similar title) exists in the database
 3. For returning signals: compare current scores/status vs. stored scores/status
 4. Categorize as Strengthening (higher scores, more coverage) or Weakening (lower scores, less coverage)
-5. If no returning signals are found, state "금일 기존 신호와 중복되는 신호는 발견되지 않았습니다" — do NOT omit the section
+5. If no returning signals are found, state "No overlap with existing signals was detected today" — do NOT omit the section
 
 ```markdown
-## 3. 기존 신호 업데이트
+## 3. Existing Signal Updates
 
-### 3.1 강화 추세 (Strengthening)
-- **[신호 ID]**: [신호 제목]
-  - 변화: [이전 상태] → [현재 상태] (예: emerging → developing)
-  - 이유: [구체적 근거 - 추가 출처, 점수 변화 등]
+### 3.1 Strengthening Trends
+- **[Signal ID]**: [Signal Title]
+  - Change: [Previous status] → [Current status] (e.g., emerging → developing)
+  - Reason: [Specific evidence — additional sources, score changes, etc.]
 
-### 3.2 약화 추세 (Weakening)
-- **[신호 ID]**: [신호 제목]
-  - 변화: [이전 상태] → [현재 상태]
-  - 이유: [구체적 근거 - 관련 뉴스 감소, 관심도 하락 등]
+### 3.2 Weakening Trends
+- **[Signal ID]**: [Signal Title]
+  - Change: [Previous status] → [Current status]
+  - Reason: [Specific evidence — declining news coverage, reduced attention, etc.]
 
-### 3.3 신호 상태 요약
-- 강화 추세 신호: X개
-- 약화 추세 신호: Y개
-- 상태 변화 없음: Z개
+### 3.3 Signal Status Summary
+- Strengthening signals: X
+- Weakening signals: Y
+- No status change: Z
 ```
 
-### Section 4: 패턴 및 연결고리 ⭐ MANDATORY
+### Section 4: Patterns and Connections ⭐ MANDATORY
 
 **Data source**: Use `cross-impact-matrix-{date}.json` if available. If NOT available, generate cross-impact analysis directly from the classified signals by identifying:
 - Signals that share keywords, entities, or STEEPs categories
@@ -265,59 +305,60 @@ Every signal in the report includes a pSST trust badge next to its title when pS
 > When the matrix is unavailable, analyze the top 15 signals for cross-domain patterns.
 
 ```markdown
-## 4. 패턴 및 연결고리
+## 4. Patterns and Connections
 
-### 4.1 신호 간 교차 영향
-- **[신호 A] ↔ [신호 B]**: [관계 설명] ([강도 +/-1~5])
-  - 설명: [어떻게 상호작용하는지]
-- **[신호 C] ↔ [신호 D]**: [관계 설명] ([강도 +/-1~5])
-  - 설명: [어떻게 상호작용하는지]
-[최소 3개 교차 영향 쌍 필수]
+### 4.1 Cross-Impact Between Signals
+- **[Signal A] ↔ [Signal B]**: [Relationship description] ([Strength +/-1~5])
+  - Explanation: [How they interact]
+- **[Signal C] ↔ [Signal D]**: [Relationship description] ([Strength +/-1~5])
+  - Explanation: [How they interact]
+[Minimum 3 cross-impact pairs required]
+[IMPORTANT: Cross-impact arrows MUST use Unicode ↔ (U+2194). <-> or <=> are FORBIDDEN]
 
-### 4.2 떠오르는 테마
-1. **[테마 이름]**
-   - 관련 신호: XX개
-   - STEEPs 교차: [관련 카테고리]
-   - 의미: [왜 이 테마가 중요한지]
+### 4.2 Emerging Themes
+1. **[Theme Name]**
+   - Related signals: XX
+   - STEEPs intersection: [Related categories]
+   - Significance: [Why this theme matters]
 
-2. **[테마 이름]**
-   - 관련 신호: YY개
-   - STEEPs 교차: [관련 카테고리]
-   - 의미: [왜 이 테마가 중요한지]
-[최소 2개 테마 필수]
+2. **[Theme Name]**
+   - Related signals: YY
+   - STEEPs intersection: [Related categories]
+   - Significance: [Why this theme matters]
+[Minimum 2 themes required]
 ```
 
-### Section 5: 전략적 시사점 ⭐ MANDATORY (3-subsection structure)
+### Section 5: Strategic Implications ⭐ MANDATORY (3-subsection structure)
 
 > **CRITICAL**: This section MUST contain exactly 3 subsections (5.1, 5.2, 5.3).
 > Each subsection must have at least 2 specific, actionable items.
-> Generic statements like "기술 트렌드를 모니터링" are insufficient — tie each implication to specific signals.
+> Generic statements like "monitor technology trends" are insufficient — tie each implication to specific signals.
 
 ```markdown
-## 5. 전략적 시사점
+## 5. Strategic Implications
 
-### 5.1 즉시 조치 필요 (0-6개월)
-1. **[구체적 행동 항목]**
-   - 근거 신호: [관련 신호 ID/제목 명시]
-   - 이유: [왜 즉시 조치가 필요한지]
-   - 권고: [구체적 행동 권고]
+### 5.1 Immediate Action Required (0-6 months)
+1. **[Specific action item]**
+   - Supporting signal: [Related signal ID/title]
+   - Rationale: [Why immediate action is needed]
+   - Recommendation: [Specific action recommendation]
 
-2. **[구체적 행동 항목]**
-   - 근거 신호: [관련 신호 ID/제목 명시]
-   - 이유: [...]
-   - 권고: [...]
+2. **[Specific action item]**
+   - Supporting signal: [Related signal ID/title]
+   - Rationale: [...]
+   - Recommendation: [...]
 
-### 5.2 중기 모니터링 (6-18개월)
-1. **[모니터링 항목]**
-   - 근거 신호: [관련 신호 ID/제목 명시]
-   - 관찰 지표: [무엇을 추적할지]
-   - 시나리오 분기점: [어떤 변화가 전략 전환을 유발하는지]
+### 5.2 Mid-term Monitoring (6-18 months)
+1. **[Monitoring item]**
+   - Supporting signal: [Related signal ID/title]
+   - Observable indicators: [What to track]
+   - Scenario branch point: [What change triggers a strategic pivot]
 
 2. [...]
 
-### 5.3 모니터링 강화 필요 영역
-- **[영역 1]**: [왜 주시해야 하는지, 관련 신호 참조]
-- **[영역 2]**: [왜 주시해야 하는지, 관련 신호 참조]
+### 5.3 Areas Requiring Enhanced Monitoring
+- **[Area 1]**: [Why to watch closely, with signal references]
+- **[Area 2]**: [Why to watch closely, with signal references]
 ```
 
 ### pSST Badge Display
@@ -325,87 +366,87 @@ Every signal in the report includes a pSST trust badge next to its title when pS
 Every signal in the report includes a pSST trust badge next to its title, showing the confidence grade at a glance:
 
 ```markdown
-### 우선순위 1: 🟢 [87.3] IBM 1000큐빗 양자 프로세서 시연
-- **신뢰도**: 🟢 87.3/100 (Grade B - Confident)
-- **분류**: 기술 (T)
-- **출처**: Nature, 2026-01-28
+### Priority 1: 🟢 [87.3] IBM 1000-Qubit Quantum Processor Demonstration
+- **Confidence**: 🟢 87.3/100 (Grade B - Confident)
+- **Classification**: Technological (T)
+- **Source**: Nature, 2026-01-28
 ...
 ```
 
 **Badge mapping** (from `thresholds.yaml` psst_reporting):
-- 🟢 90-100 (Grade A): Very High - 자동 승인 가능
-- 🔵 70-89 (Grade B): Confident - 표준 처리
-- 🟡 50-69 (Grade C): Low - 검토 권장
-- 🔴 0-49 (Grade D): Very Low - 반드시 검토
+- 🟢 90-100 (Grade A): Very High - auto-approval eligible
+- 🔵 70-89 (Grade B): Confident - standard processing
+- 🟡 50-69 (Grade C): Low - review recommended
+- 🔴 0-49 (Grade D): Very Low - review required
 
 **Dimension breakdown** (shown below each signal when `show_dimension_breakdown: true`):
 ```markdown
-  - **신뢰도 상세**:
-    | 차원 | 점수 | 설명 |
-    |------|------|------|
-    | SR (출처 신뢰도) | 85 | 학술 논문 (Nature) |
-    | ES (근거 강도) | 70 | 정량 데이터 포함, 검증됨 |
-    | CC (분류 신뢰도) | 85 | 명확한 기술 분류 |
-    | TC (시간적 신뢰도) | 100 | 7일 이내 발행 |
-    | DC (고유성 신뢰도) | 100 | 4단계 필터 전체 통과 |
-    | IC (영향 확신도) | 72 | 교차영향 분석 일관적 |
+  - **Confidence Details**:
+    | Dimension | Score | Description |
+    |-----------|-------|-------------|
+    | SR (Source Reliability) | 85 | Academic paper (Nature) |
+    | ES (Evidence Strength) | 70 | Quantitative data included, verified |
+    | CC (Classification Confidence) | 85 | Clear technological classification |
+    | TC (Temporal Confidence) | 100 | Published within 7 days |
+    | DC (Dedup Confidence) | 100 | Passed all 4-stage filters |
+    | IC (Impact Confidence) | 72 | Cross-impact analysis consistent |
 ```
 
 ---
 
-### Section 7: 신뢰도 분석 (NEW - pSST Trust Analysis)
+### Section 7: Confidence Analysis (pSST Trust Analysis)
 ```markdown
-## 7. 신뢰도 분석
+## 7. Confidence Analysis
 
-### 7.1 pSST 등급 분포
-| 등급 | 신호 수 | 비율 |
-|------|---------|------|
+### 7.1 pSST Grade Distribution
+| Grade | Signal Count | Ratio |
+|-------|-------------|-------|
 | 🟢 A (≥90) | 12 | 15.2% |
 | 🔵 B (70-89) | 38 | 48.1% |
 | 🟡 C (50-69) | 22 | 27.8% |
 | 🔴 D (<50) | 7 | 8.9% |
 
-**평균 pSST**: 72.4/100
+**Average pSST**: 72.4/100
 
-### 7.2 자동 승인 가능 목록 (Grade A)
-다음 12개 신호는 pSST ≥90으로 자동 승인 기준을 충족합니다:
-1. 🟢 [92.1] signal-042: IBM 1000큐빗 양자 프로세서 시연
-2. 🟢 [91.5] signal-015: EU 탄소국경조정 2차 규제안
+### 7.2 Auto-Approval Eligible (Grade A)
+The following 12 signals meet the auto-approval threshold with pSST ≥90:
+1. 🟢 [92.1] signal-042: IBM 1000-Qubit Quantum Processor Demonstration
+2. 🟢 [91.5] signal-015: EU Carbon Border Adjustment 2nd Regulatory Proposal
 ...
 
-### 7.3 검토 필요 목록 (Grade C/D)
-다음 29개 신호는 pSST <70으로 인간 검토가 권장됩니다:
-1. 🟡 [58.3] signal-023: 블록체인 기반 투표 시스템 시범 운영
-2. 🔴 [34.2] signal-067: 소셜 미디어 트렌드 분석 결과
+### 7.3 Review Required (Grade C/D)
+The following 29 signals have pSST <70 and human review is recommended:
+1. 🟡 [58.3] signal-023: Blockchain-Based Voting System Pilot
+2. 🔴 [34.2] signal-067: Social Media Trend Analysis Results
 ...
 
-### 7.4 차원별 평균 분석
-| 차원 | 평균 점수 | 최저 | 최고 | 개선 필요 |
-|------|-----------|------|------|-----------|
-| SR (출처 신뢰도) | 71.2 | 30 | 95 | |
-| ES (근거 강도) | 62.5 | 15 | 100 | ⚠️ |
-| CC (분류 신뢰도) | 78.3 | 40 | 100 | |
-| TC (시간적 신뢰도) | 85.1 | 30 | 100 | |
-| DC (고유성 신뢰도) | 88.7 | 60 | 100 | |
-| IC (영향 확신도) | 65.4 | 20 | 88 | ⚠️ |
+### 7.4 Dimension-Level Analysis
+| Dimension | Avg Score | Min | Max | Needs Improvement |
+|-----------|-----------|-----|-----|-------------------|
+| SR (Source Reliability) | 71.2 | 30 | 95 | |
+| ES (Evidence Strength) | 62.5 | 15 | 100 | ⚠️ |
+| CC (Classification Confidence) | 78.3 | 40 | 100 | |
+| TC (Temporal Confidence) | 85.1 | 30 | 100 | |
+| DC (Dedup Confidence) | 88.7 | 60 | 100 | |
+| IC (Impact Confidence) | 65.4 | 20 | 88 | ⚠️ |
 
-**주요 발견**: 근거 강도(ES)와 영향 확신도(IC)가 상대적으로 낮음 → 정량 데이터 수집 강화 및 영향 분석 방법론 보완 필요
+**Key finding**: Evidence Strength (ES) and Impact Confidence (IC) are relatively low → strengthen quantitative data collection and improve impact analysis methodology
 ```
 
 ---
 
-### Section 6: 플러서블 시나리오 (선택)
+### Section 6: Plausible Scenarios (optional)
 ```markdown
-## 6. 플러서블 시나리오
+## 6. Plausible Scenarios
 
-### 6.1 최선 시나리오 (발생 확률: 23%)
-[내러티브 텍스트]
+### 6.1 Best-case scenario (Probability: 23%)
+[Narrative text]
 
-**전략적 대응 방안**:
-- [행동 1]
-- [행동 2]
+**Strategic response plan**:
+- [Action 1]
+- [Action 2]
 
-### 6.2 최악 시나리오 (발생 확률: 18%)
+### 6.2 Worst-case scenario (Probability: 18%)
 ...
 ```
 
@@ -416,20 +457,21 @@ Every signal in the report includes a pSST trust badge next to its title, showin
 ```python
 def generate_report(inputs):
     """
-    Generate comprehensive report in Korean
+    Generate comprehensive report in English (English-first workflow).
+    Translation to Korean is handled by a separate translation sub-agent.
     """
     # Load all inputs
     signals = load_json(inputs['classified_signals'])
     ranked = load_json(inputs['priority_ranked'])
     scenarios = load_json(inputs['scenarios']) if inputs.get('scenarios') else None
 
-    # Build report sections
+    # Build report sections (all in English)
     report_sections = []
 
     # 1. Executive Summary
     report_sections.append(generate_executive_summary(ranked[:3]))
 
-    # 2. New Signals (grouped by STEEPs)
+    # 2. Newly Detected Signals (grouped by STEEPs)
     report_sections.append(generate_new_signals_section(signals, ranked))
 
     # 3. Existing Signal Updates (if any)
@@ -445,7 +487,7 @@ def generate_report(inputs):
     if scenarios:
         report_sections.append(generate_scenarios_section(scenarios))
 
-    # 7. Trust Analysis (pSST)
+    # 7. Confidence Analysis (pSST)
     report_sections.append(generate_trust_analysis_section(ranked, psst_scores))
 
     # 8. Appendix
@@ -459,24 +501,24 @@ def generate_report(inputs):
 
 def generate_executive_summary(top_3_signals):
     """
-    Create executive summary focusing on top 3 signals
-    Output in Korean
+    Create executive summary focusing on top 3 signals.
+    Output in English (English-first workflow).
     """
     prompt = f"""
-    다음 3개의 최우선 신호를 바탕으로 경영진 요약을 작성하세요.
+    Write an executive summary based on the following top 3 priority signals.
 
-    신호 1: {top_3_signals[0]}
-    신호 2: {top_3_signals[1]}
-    신호 3: {top_3_signals[2]}
+    Signal 1: {top_3_signals[0]}
+    Signal 2: {top_3_signals[1]}
+    Signal 3: {top_3_signals[2]}
 
-    요구사항:
-    - 각 신호를 2-3문장으로 요약
-    - 전략적 시사점을 명확히 제시
-    - 객관적이고 사실 기반 어조
-    - 의사결정자 수준의 언어 사용
+    Requirements:
+    - Summarize each signal in 2-3 sentences
+    - Clearly present strategic implications
+    - Use objective, fact-based tone
+    - Use decision-maker level language
     """
 
-    summary = call_llm(prompt, language="Korean")
+    summary = call_llm(prompt, language="English")
     return summary
 ```
 
@@ -490,67 +532,105 @@ def generate_executive_summary(top_3_signals):
 ```yaml
 self_check:
   sections:
-    - header: "## 1. 경영진 요약"
+    - header: "## 1. Executive Summary"
       required: true
-      min_content: "Top 3 신호 with 중요도 ratings"
-    - header: "## 2. 신규 탐지 신호"
+      min_content: "Top 3 signals with significance ratings"
+    - header: "## 2. Newly Detected Signals"
       required: true
       min_content: "Top 10 signals each with 9 required fields"
-    - header: "## 3. 기존 신호 업데이트"
+    - header: "## 3. Existing Signal Updates"
       required: true
-      min_content: "3.1 강화 추세 and 3.2 약화 추세 subsections"
-    - header: "## 4. 패턴 및 연결고리"
+      min_content: "3.1 Strengthening and 3.2 Weakening subsections"
+    - header: "## 4. Patterns and Connections"
       required: true
-      min_content: "4.1 교차 영향 (≥3 pairs) and 4.2 테마 (≥2 themes)"
-    - header: "## 5. 전략적 시사점"
+      min_content: "4.1 Cross-Impact (≥3 pairs) and 4.2 Themes (≥2 themes)"
+    - header: "## 5. Strategic Implications"
       required: true
-      min_content: "5.1 즉시, 5.2 중기, 5.3 모니터링 subsections each with ≥2 items"
-    - header: "## 7. 신뢰도 분석"
+      min_content: "5.1 Immediate, 5.2 Mid-term, 5.3 Monitoring subsections each with ≥2 items"
+    - header: "## 7. Confidence Analysis"
       required: true
       min_content: "pSST distribution table or fallback note"
-    - header: "## 8. 부록"
+    - header: "## 8. Appendix"
       required: true
       min_content: "Full signal table + source list + methodology"
 
   signal_fields:
     top_10_required_count: 9
     fields:
-      - "분류"
-      - "출처"
-      - "핵심 사실"
-      - "정량 지표"
-      - "영향도"
-      - "상세 설명"
-      - "추론"
-      - "이해관계자"
-      - "모니터링 지표"
+      - "Classification"
+      - "Source"
+      - "Key Facts"
+      - "Quantitative Metrics"
+      - "Impact"
+      - "Detailed Description"
+      - "Inference"
+      - "Stakeholders"
+      - "Monitoring Indicators"
 
   language:
-    - "Korean content > 80% of report body"
-    - "No untranslated English paragraphs"
-    - "Technical terms and proper nouns in English acceptable"
+    - "English content for initial generation (English-first workflow)"
+    - "All section headers and field names in English"
+    - "Translation to Korean handled by separate translation sub-agent"
 
   structure:
     - "Section 5 has exactly 3 subsections (5.1, 5.2, 5.3)"
     - "Section 3 references database.json comparison"
     - "Section 4 has cross-impact pairs even without matrix file"
+    - "Section 4 uses Unicode ↔ (U+2194) for cross-impact arrows, NOT <-> or <=>"
+
+  impact_format:
+    - "All Impact fields use X.X/10 format (NEVER X/5 or +X.X)"
+
+  steeps_coverage:
+    - "Appendix Section 8.2 STEEPs distribution should cover at least 4 of 6 categories"
+    - "If fewer than 4 categories have signals, log WARNING and note gap in Section 8.2"
 ```
+
+### Source Exploration Summary (v2.5.0 — Stage C)
+
+When generating Section 8 (Appendix), if the pre-filled skeleton contains `EXPLORATION_*` placeholder
+values (filled by `report_statistics_engine.py` + `report_metadata_injector.py`), include the
+following summary table in the appendix using the **pre-computed values** (do NOT recount manually):
+
+```markdown
+### Source Exploration Summary (Stage C)
+
+| Item | Value |
+|------|-------|
+| STEEPs Coverage Gaps | {{EXPLORATION_GAPS}} |
+| Exploration Method | {{EXPLORATION_METHOD}} |
+| Discovered Candidates | {{EXPLORATION_DISCOVERED}} |
+| Viable Candidates | {{EXPLORATION_VIABLE}} |
+| Exploration Signals | {{EXPLORATION_SIGNALS}} |
+| Pending User Decision | {{EXPLORATION_PENDING}} |
+```
+
+**Important**: These `EXPLORATION_*` values are computed by Python (`report_statistics_engine.py`)
+and injected by `report_metadata_injector.py`. Do NOT recalculate them from the candidates file.
+If these values show "Inactive" or "0", exploration was not active — omit this subsection entirely.
+
+This summary is absorbed into the existing `{{SECTION_8_APPENDIX}}` placeholder — no skeleton change is needed.
+
+If no EXPLORATION_* placeholders are present (exploration disabled or skipped), omit this subsection entirely.
 
 ---
 
-## FINAL STYLE TRANSFORMATION (최종 스타일 변환)
+## FINAL STYLE TRANSFORMATION
 
-> **MANDATORY POST-PROCESSING**: 스켈레톤 채우기 완료 후, 파일 저장 전에 반드시 적용.
+> **MANDATORY POST-PROCESSING**: Apply after skeleton fill is complete, before saving the file.
 >
-> 참조 문서: `.claude/skills/env-scanner/references/final-report-style-guide.md`
+> Reference: `.claude/skills/env-scanner/references/final-report-style-guide.md`
 
-### 적용 규칙 요약
+### Rules Summary
 
-1. **내부 코드 제거**: WF1→일반 환경스캐닝, WF2→학술 심층 분석, pSST→신뢰도, Grade A→A등급 등
-2. **영문 약어 전체 표기**: 모든 영문 약어에 한국어 번역 + 영문 전체명 병기
-3. **STEEPs 코드 변환**: S→사회(Social), T→기술(Technological) 등
+1. **Remove internal codes**: WF1→General Environmental Scanning, WF2→Academic Deep Analysis, pSST→Confidence Score, etc.
+2. **Expand abbreviations on first use**: Provide full form on first occurrence (e.g., "Source Reliability (SR)")
+3. **STEEPs code expansion**: S→Social, T→Technological, E→Economic/Environmental, P→Political, s→spiritual
 
-상세 변환 사전과 품질 체크리스트는 위 참조 문서를 확인하세요.
+See the reference document above for the full transformation dictionary and quality checklist.
+
+> **Note**: In the English-first workflow, this style transformation is applied to the English report.
+> The translation sub-agent then translates the already-cleaned English output to Korean.
 
 ---
 
@@ -559,12 +639,12 @@ self_check:
 ```python
 def verify_report_quality(report_content):
     """
-    Check report completeness and quality
+    Check report completeness and quality (English-first workflow).
+    Korean language checks are handled by the translation sub-agent.
     """
     checks = {
         "all_sections_present": check_sections(report_content),
-        "korean_language": check_language(report_content, "ko"),
-        "no_english_jargon": check_excessive_english(report_content),
+        "english_language": check_language(report_content, "en"),
         "factual_tone": check_tone(report_content),
         "source_links_valid": check_links(report_content),
         "length_appropriate": 5000 < len(report_content) < 50000
@@ -588,15 +668,15 @@ def test_report_generation():
     content = read_file(report_path)
     assert len(content) > 1000
 
-    # Test 3: All mandatory sections present
+    # Test 3: All mandatory sections present (English headers)
     required_sections = [
-        "## 1. 경영진 요약",
-        "## 2. 신규 탐지 신호",
-        "## 3. 기존 신호 업데이트",
-        "## 4. 패턴 및 연결고리",
-        "## 5. 전략적 시사점",
-        "## 7. 신뢰도 분석",
-        "## 8. 부록"
+        "## 1. Executive Summary",
+        "## 2. Newly Detected Signals",
+        "## 3. Existing Signal Updates",
+        "## 4. Patterns and Connections",
+        "## 5. Strategic Implications",
+        "## 7. Confidence Analysis",
+        "## 8. Appendix"
     ]
     for section in required_sections:
         assert section in content, f"Missing section: {section}"
@@ -606,16 +686,16 @@ def test_report_generation():
     assert "### 5.2" in content
     assert "### 5.3" in content
 
-    # Test 5: Top 10 signals have required fields
-    signal_fields = ["분류", "출처", "핵심 사실", "정량 지표", "영향도",
-                     "상세 설명", "추론", "이해관계자", "모니터링 지표"]
+    # Test 5: Top 10 signals have required fields (English field names)
+    signal_fields = ["Classification", "Source", "Key Facts", "Quantitative Metrics",
+                     "Impact", "Detailed Description", "Inference", "Stakeholders",
+                     "Monitoring Indicators"]
     for field in signal_fields:
         assert content.count(f"**{field}**") >= 10, f"Field '{field}' appears < 10 times"
 
-    # Test 6: Korean language (check Korean characters present)
-    import re
-    korean_chars = re.findall(r'[가-힣]', content)
-    assert len(korean_chars) > 100
+    # Test 6: English language report (English-first workflow)
+    # Korean translation is validated separately by the translation sub-agent
+    assert "## 1. Executive Summary" in content
 
     log("PASS", "Report generation validation passed")
 ```
@@ -644,7 +724,7 @@ Errors:
 
   llm_generation_fail:
     condition: "LLM fails to generate a report section"
-    action: "Retry once. If still fails, insert placeholder '[이 섹션은 생성 중 오류가 발생했습니다]' and continue with remaining sections, log ERROR"
+    action: "Retry once. If still fails, insert placeholder '[This section encountered an error during generation]' and continue with remaining sections, log ERROR"
     log: "ERROR: Section {section_name} generation failed after retry"
 
   quality_check_fail:
@@ -661,15 +741,18 @@ Errors:
 
 ## Performance Targets
 - Execution time: < 30 seconds
-- Report length: 5,000+ words (Korean, no upper limit)
-- Language: 100% Korean (except technical terms)
+- Report length: 5,000+ words (English, no upper limit)
+- Language: English (English-first workflow; translation to Korean by separate sub-agent)
 - Tone: Objective, factual, decision-maker appropriate
 
 ## Version
-**Agent Version**: 1.3.0
-**Output Language**: Korean
-**pSST Features**: Badge display, Section 7 Trust Analysis, dimension breakdown, pSST fallback
-**Last Updated**: 2026-02-02
+**Agent Version**: 2.0.0
+**Output Language**: English (English-first workflow)
+**pSST Features**: Badge display, Section 7 Confidence Analysis, dimension breakdown, pSST fallback
+**Last Updated**: 2026-02-18
 **Changelog**:
+- v2.0.0 - **English-first workflow**: All internal generation in English. Uses English skeleton (`report-skeleton-en.md`), English field names, English section headers. Validates with `standard_en` profile. Translation to Korean handled by separate translation sub-agent. Golden reference converted to English.
+- v1.5.0 - **Anti-hallucination**: Statistical placeholders (TOTAL_NEW_SIGNALS, DOMAIN_DISTRIBUTION, FSSF counts, Horizons counts, Tipping Point table) are now pre-filled by Python via report_statistics_engine.py + report_metadata_injector.py. LLM classifies, Python counts.
+- v1.4.0 - **Quality improvements**: Impact score MUST use X.X/10 format (no X/5 or +X.X). Signals 11-15 now require full 9 fields (no condensed format). Unicode ↔ mandatory for cross-impact arrows. STEEPs coverage check (min 4/6 categories). Added impact_format and steeps_coverage to self-check.
 - v1.3.0 - **SKELETON-FILL method**: Report generation now uses skeleton template instead of free-form generation. Added GOLDEN REFERENCE example (9-field signal from 2026-02-01). Post-generation validation via `validate_report.py` enforced by orchestrator. Fixes 2026-02-02 quality regression (missing fields, sections).
 - v1.2.0 - Added MANDATORY OUTPUT STRUCTURE, REQUIRED FIELDS PER SIGNAL, POST-GENERATION SELF-CHECK. Strengthened Sections 3/4/5 generation rules. Fixed Section 4 skip bug. Added pSST fallback.

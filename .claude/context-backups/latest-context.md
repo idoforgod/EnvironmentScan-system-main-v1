@@ -1,191 +1,440 @@
-# Claude Code Context Backup
-**Project**: /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v1
-**Timestamp**: 2026-02-04 14:47:28
-**Event**: manual-save
+# Claude Code Context Summary
+**Project**: /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3
+**Generated**: 2026-02-15 15:35:29
+**Version**: 2.0.0 (SOT-bound)
 
-## ⚠️ CONTEXT PRESERVATION NOTICE
-This file was auto-generated to prevent context loss during token compression.
-When Claude Code resumes, it should read this file to restore working memory.
+---
 
-## Current Working State
+## Implementation State
 
-### Active Tasks
-<!-- List current tasks, their status, and next steps -->
-- Task tracking should be added here during workflow
+(No task-state.json found — task state will be captured when TaskCreate/TaskUpdate is used)
 
-### Recent Work Summary
-<!-- Auto-populated by Stop hook with recent activities -->
+---
 
-### Key Decisions & Context
-<!-- Important decisions, architectural choices, and context -->
+## Workflow Execution State
 
-### Files Modified Recently
+**SOT Version**: 2.5.0
+
+**Master**: dual-scan-2026-02-06 | Status: **completed**
+**Completed**: 2026-02-06T12:00:00+09:00
+**SOT Validation**: PASS
+
+| Workflow | Status | Signals | Validation |
+|----------|--------|---------|------------|
+| wf1-general | completed | 52 | 14/14 PASS |
+| wf2-arxiv | completed | 35 |  |
+| integrated | completed | 87 | - |
+
+**Master Gates**: M1: passed | M2: passed | M3: passed
+
+**Human Approvals**: wf1_step_2_5: approved | wf1_step_3_4: approved | wf2_step_2_5: approved | wf2_step_3_4: approved | integrated_final: approved
+
+**Current Phase**: 4 | **Step**: 4.2_finalization_completed | **Status**: completed
+
+**Completed Steps** (26):
+- 0.1_read_sot
+- 0.2_validate_registry
+- 0.2.5_temporal_anchor
+- 0.3_init_master_state
+- 1.1_wf1_precheck
+- 1.2_wf1_execute
+- 1.3_wf1_completion
+- M1_gate_passed
+- 2.1_wf2_precheck
+- 2.2_wf2_execute
+- 2.3_wf2_completion
+- M2_gate_passed
+- 2a.1_wf3_precheck
+- 2a.2_wf3_execute
+- 2a.3_wf3_completion
+- M2a_gate_passed
+- 3.1_integration_precheck
+- 3.1.3_evolution_statistics
+- 3.1.5_skeleton_prefill
+- 3.2b_single_agent_integration
+- 3.3_validate_integrated
+- 3.4_human_approval
+- 3.5_archive
+- M3_gate_passed
+- 4.1_update_master_status
+- 4.2_finalization_completed
+
+---
+
+## Git Repository Status
+
+**Branch**: `main`
+
+**Modified Files**:
+```
+ M .DS_Store
+ M .claude/agents/arxiv-scan-orchestrator.md
+ M .claude/agents/env-scan-orchestrator.md
+ M .claude/agents/master-orchestrator.md
+ M .claude/agents/naver-scan-orchestrator.md
+ M .claude/agents/protocols/orchestrator-protocol.md
+ M .claude/agents/workers/multi-source-scanner.md
+ M .claude/agents/workers/report-generator.md
+ M .claude/agents/workers/report-merger.md
+ M .claude/agents/workers/self-improvement-analyzer.md
+ M .claude/commands/env-scan/run.md
+ D .claude/context-backups/context-backup-20260203_085404.md
+ D .claude/context-backups/context-backup-20260203_093158.md
+ D .claude/context-backups/context-backup-20260203_094222.md
+ D .claude/context-backups/context-backup-20260203_100831.md
+ D .claude/context-backups/context-backup-20260203_104924.md
+ D .claude/context-backups/context-backup-20260203_105121.md
+ D .claude/context-backups/context-backup-20260203_105131.md
+ D .claude/context-backups/context-backup-20260203_105152.md
+ D .claude/context-backups/context-backup-20260204_074754.md
+ D .claude/context-backups/context-backup-20260204_144728.md
+ M .claude/context-backups/latest-context.md
+ M .claude/context-backups/work-log.jsonl
+ M .claude/skills/env-scanner/SKILL.md
+ M .claude/skills/env-scanner/references/integrated-report-skeleton.md
+ M .claude/skills/env-scanner/references/naver-report-skeleton.md
+ M .claude/skills/env-scanner/references/report-format.md
+ M .claude/skills/env-scanner/references/report-skeleton.md
+ M .claude/skills/env-scanner/references/weekly-report-skeleton.md
+ M .claude/skills/longform-journalism/references/content-mapping-rules.md
+ D USER_GUIDE.md
+ M WORKFLOW-ARCHITECTURE-AND-PHILOSOPHY.md
+ M env-scanning/.DS_Store
+ M env-scanning/config/core-invariants.yaml
+ M env-scanning/config/self-improvement-config.yaml
+ M env-scanning/config/sources-arxiv.yaml
+ M env-scanning/config/sources.yaml
+ M env-scanning/config/workflow-registry.yaml
+ M env-scanning/core/__pycache__/__init__.cpython-314.pyc
+ M env-scanning/core/lazy_report_generator.py
+ M env-scanning/core/naver_crawler.py
+ M env-scanning/integrated/.DS_Store
+ M env-scanning/integrated/reports/.DS_Store
+ M env-scanning/integrated/reports/daily/integrated-scan-2026-02-06.md
+ M env-scanning/logs/workflow-status.json
+ M env-scanning/scanners/__pycache__/arxiv_scanner.cpython-314.pyc
+ M env-scanning/scanners/__pycache__/base_scanner.cpython-314.pyc
+ M env-scanning/scanners/__pycache__/rss_scanner.cpython-314.pyc
+ M env-scanning/scanners/arxiv_scanner.py
+ M env-scanning/scanners/base_scanner.py
+ M env-scanning/scanners/rss_scanner.py
+ M env-scanning/scripts/__pycache__/validate_report.cpython-314.pyc
+ M env-scanning/scripts/validate_registry.py
+ M env-scanning/scripts/validate_report.py
+ M env-scanning/task_graph.json
+ M env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-06.md
+ M env-scanning/wf1-general/signals/database.json
+ M env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-06.md
+ M env-scanning/wf2-arxiv/signals/database.json
+ M env-scanning/wf3-naver/signals/database.json
+ M tests/integration/__pycache__/test_phase3_reporting.cpython-314-pytest-9.0.2.pyc
+ M tests/unit/__pycache__/test_validate_report.cpython-314-pytest-9.0.2.pyc
+ M tests/unit/test_validate_report.py
+?? .claude/agents/exploration-orchestrator.md
+?? .claude/agents/workers/discovery-alpha.md
+?? .claude/agents/workers/discovery-beta.md
+?? .claude/agents/workers/discovery-evaluator.md
+?? .claude/agents/workers/source-explorer.md
+?? .claude/context-backups/context-backup-20260213_093617.md
+?? .claude/context-backups/context-backup-20260213_094125.md
+?? .claude/context-backups/context-backup-20260213_100608.md
+?? .claude/context-backups/context-backup-20260213_100633.md
+?? .claude/context-backups/context-backup-20260213_102817.md
+?? .claude/context-backups/context-backup-20260215_120328.md
+?? .claude/context-backups/context-backup-20260215_131233.md
+?? .claude/context-backups/context-backup-20260215_140308.md
+?? .claude/context-backups/context-backup-20260215_151541.md
+?? .claude/context-backups/context-backup-20260215_153100.md
+?? AGENTS.md
+?? CLAUDE.md
+?? GEMINI.md
+?? USER-MANUAL.md
+?? env-scanning/config/exploration-frontiers.yaml
+?? env-scanning/core/__pycache__/exploration_gate.cpython-314.pyc
+?? env-scanning/core/__pycache__/exploration_merge_gate.cpython-314.pyc
+?? env-scanning/core/__pycache__/frontier_selector.cpython-314.pyc
+?? env-scanning/core/__pycache__/naver_crawler.cpython-314.pyc
+?? env-scanning/core/__pycache__/naver_signal_processor.cpython-314.pyc
+?? env-scanning/core/__pycache__/report_metadata_injector.cpython-314.pyc
+?? env-scanning/core/__pycache__/report_statistics_engine.cpython-314.pyc
+?? env-scanning/core/__pycache__/signal_evolution_tracker.cpython-314.pyc
+?? env-scanning/core/__pycache__/source_explorer.cpython-314.pyc
+?? env-scanning/core/__pycache__/temporal_anchor.cpython-314.pyc
+?? env-scanning/core/__pycache__/temporal_gate.cpython-314.pyc
+?? env-scanning/core/__pycache__/timeline_map_generator.cpython-314.pyc
+?? env-scanning/core/exploration_gate.py
+?? env-scanning/core/exploration_merge_gate.py
+?? env-scanning/core/frontier_selector.py
+?? env-scanning/core/report_metadata_injector.py
+?? env-scanning/core/report_statistics_engine.py
+?? env-scanning/core/signal_evolution_tracker.py
+?? env-scanning/core/source_explorer.py
+?? env-scanning/core/temporal_anchor.py
+?? env-scanning/core/temporal_gate.py
+?? env-scanning/core/timeline_map_generator.py
+?? env-scanning/integrated/analysis/
+?? env-scanning/integrated/logs/master-status-2026-02-10-v221-test.json
+?? env-scanning/integrated/logs/master-status-2026-02-10.json
+?? env-scanning/integrated/logs/master-status-2026-02-11.json
+?? env-scanning/integrated/logs/master-status-2026-02-12.json
+?? env-scanning/integrated/logs/master-status-2026-02-13.json
+?? env-scanning/integrated/logs/master-status-2026-02-15.json
+?? env-scanning/integrated/logs/scan-window-2026-02-10-v221-test.json
+?? env-scanning/integrated/logs/scan-window-2026-02-10.json
+?? env-scanning/integrated/logs/scan-window-2026-02-11.json
+?? env-scanning/integrated/logs/scan-window-2026-02-12.json
+?? env-scanning/integrated/logs/scan-window-2026-02-13.json
+?? env-scanning/integrated/logs/scan-window-2026-02-15.json
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-07.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-09.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-10-v221-test.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-10.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-11.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-12.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-13.md
+?? env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-15.md
+?? env-scanning/integrated/reports/daily/.DS_Store
+?? env-scanning/integrated/reports/daily/_skeleton-prefilled-2026-02-15.md
+?? env-scanning/integrated/reports/daily/endangerment-finding-investment-analysis-2026-02-13-ko.docx
+?? env-scanning/integrated/reports/daily/endangerment-finding-investment-analysis-2026-02-13.docx
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-07.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-09.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-10-v221-test.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-10.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-11.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-12.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-13.md
+?? env-scanning/integrated/reports/daily/integrated-scan-2026-02-15.md
+?? "env-scanning/integrated/reports/daily/integrated-scan-\354\236\245\355\216\270\354\240\200\353\204\220\353\246\254\354\246\230-2026-02-09.md"
+?? "env-scanning/integrated/reports/daily/integrated-scan-\354\236\245\355\216\270\354\240\200\353\204\220\353\246\254\354\246\230-2026-02-10.md"
+?? "env-scanning/integrated/reports/daily/integrated-scan-\354\236\245\355\216\270\354\240\200\353\204\220\353\246\254\354\246\230-2026-02-11.md"
+?? env-scanning/integrated/reports/daily/timeline-map-2026-02-06-to-02-11.md
+?? env-scanning/integrated/reports/skeleton-prepared-2026-02-10-v221-test.md
+?? env-scanning/integrated/weekly/reports/archive/2026/weekly-scan-2026-W07.md
+?? env-scanning/integrated/weekly/reports/weekly-scan-2026-W07.md
+?? env-scanning/raw/arxiv-scan-2026-02-09.json
+?? env-scanning/raw/arxiv-scan-2026-02-10.json
+?? env-scanning/raw/arxiv-scan-2026-02-11.json
+?? env-scanning/raw/arxiv-scan-2026-02-12.json
+?? env-scanning/raw/blog-scan-2026-02-09.json
+?? env-scanning/raw/blog-scan-2026-02-10.json
+?? env-scanning/raw/blog-scan-2026-02-11.json
+?? env-scanning/raw/blog-scan-2026-02-12.json
+?? env-scanning/raw/daily-scan-2026-02-09-ko-fallback.json
+?? env-scanning/raw/daily-scan-2026-02-09-ko.json
+?? env-scanning/raw/daily-scan-2026-02-09.json
+?? env-scanning/raw/daily-scan-2026-02-10-ko-fallback.json
+?? env-scanning/raw/daily-scan-2026-02-10-ko.json
+?? env-scanning/raw/daily-scan-2026-02-10.json
+?? env-scanning/raw/daily-scan-2026-02-11-ko-fallback.json
+?? env-scanning/raw/daily-scan-2026-02-11-ko.json
+?? env-scanning/raw/daily-scan-2026-02-11.json
+?? env-scanning/raw/daily-scan-2026-02-12-ko-fallback.json
+?? env-scanning/raw/daily-scan-2026-02-12-ko.json
+?? env-scanning/raw/daily-scan-2026-02-12.json
+?? env-scanning/raw/patent-scan-2026-02-09.json
+?? env-scanning/raw/patent-scan-2026-02-10.json
+?? env-scanning/raw/patent-scan-2026-02-11.json
+?? env-scanning/raw/patent-scan-2026-02-12.json
+?? env-scanning/raw/policy-scan-2026-02-09.json
+?? env-scanning/raw/policy-scan-2026-02-10.json
+?? env-scanning/raw/policy-scan-2026-02-11.json
+?? env-scanning/raw/policy-scan-2026-02-12.json
+?? env-scanning/scripts/__pycache__/validate_registry.cpython-314.pyc
+?? env-scanning/scripts/run_arxiv_scan.py
+?? env-scanning/structured/classified-signals-2026-02-09-ko.json
+?? env-scanning/structured/classified-signals-2026-02-09.json
+?? env-scanning/structured/classified-signals-2026-02-10-ko.json
+?? env-scanning/structured/classified-signals-2026-02-10.json
+?? env-scanning/structured/classified-signals-2026-02-11-ko.json
+?? env-scanning/structured/classified-signals-2026-02-11.json
+?? env-scanning/structured/classified-signals-2026-02-12-ko.json
+?? env-scanning/structured/classified-signals-2026-02-12.json
+?? env-scanning/wf1-general/analysis/impact-assessment-2026-02-12.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-09.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-10-v221-test.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-10.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-11.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-12.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-13.json
+?? env-scanning/wf1-general/analysis/priority-ranked-2026-02-15.json
+?? env-scanning/wf1-general/analysis/sie-analysis-2026-02-13.json
+?? env-scanning/wf1-general/exploration/
+?? env-scanning/wf1-general/filtered/new-signals-2026-02-12.json
+?? env-scanning/wf1-general/logs/temporal-gate-result-2026-02-12.json
+?? env-scanning/wf1-general/raw/daily-scan-2026-02-10-v221-test.json
+?? env-scanning/wf1-general/raw/daily-scan-2026-02-10.json
+?? env-scanning/wf1-general/raw/daily-scan-2026-02-11.json
+?? env-scanning/wf1-general/raw/daily-scan-2026-02-12.json
+?? env-scanning/wf1-general/raw/daily-scan-2026-02-13.json
+?? env-scanning/wf1-general/raw/daily-scan-2026-02-15.json
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-07.md
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-10-v221-test.md
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-10.md
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-11.md
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-12.md
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-13.md
+?? env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-15.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-07.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-09.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-10-v221-test.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-10.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-11.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-12.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-13.md
+?? env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-15.md
+?? env-scanning/wf1-general/reports/report-statistics-2026-02-12.json
+?? env-scanning/wf1-general/reports/report-statistics-2026-02-15.json
+?? env-scanning/wf1-general/reports/skeleton-prepared-2026-02-10-v221-test.md
+?? env-scanning/wf1-general/reports/skeleton-prepared-2026-02-10.md
+?? env-scanning/wf1-general/reports/skeleton-prepared-2026-02-11.md
+?? env-scanning/wf1-general/reports/skeleton-prepared-2026-02-12.md
+?? env-scanning/wf1-general/reports/skeleton-prepared-2026-02-15.md
+?? env-scanning/wf1-general/signals/snapshots/database-2026-02-10.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-02-12-pre-update.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-02-12.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-02-15-post-exploration.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-02-15-pre-update.json
+?? env-scanning/wf1-general/signals/snapshots/database-2026-02-15.json
+?? env-scanning/wf1-general/structured/classified-signals-2026-02-10-v221-test.json
+?? env-scanning/wf1-general/structured/classified-signals-2026-02-10.json
+?? env-scanning/wf1-general/structured/classified-signals-2026-02-11.json
+?? env-scanning/wf1-general/structured/classified-signals-2026-02-12.json
+?? env-scanning/wf1-general/structured/classified-signals-2026-02-13.json
+?? env-scanning/wf1-general/structured/classified-signals-2026-02-15.json
+?? env-scanning/wf2-arxiv/analysis/evolution/
+?? env-scanning/wf2-arxiv/analysis/impact-assessment-2026-02-12.json
+?? env-scanning/wf2-arxiv/analysis/impact-assessment-2026-02-15.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-07.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-09.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-10-v221-test.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-10.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-11.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-12.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-13.json
+?? env-scanning/wf2-arxiv/analysis/priority-ranked-2026-02-15.json
+?? env-scanning/wf2-arxiv/analysis/sie-analysis-2026-02-13.json
+?? env-scanning/wf2-arxiv/context/
+?? env-scanning/wf2-arxiv/filtered/
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-07.json
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-09.json
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-10-v221-test.json
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-10.json
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-11.json
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-12.json
+?? env-scanning/wf2-arxiv/raw/daily-scan-2026-02-15.json
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-07.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-09.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-10-v221-test.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-10.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-11.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-12.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-13.md
+?? env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-15.md
+?? env-scanning/wf2-arxiv/reports/daily/_skeleton-prefilled-2026-02-15.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-07.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-09.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-10-v221-test.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-10.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-11.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-12.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-13.md
+?? env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-15.md
+?? env-scanning/wf2-arxiv/reports/report-statistics-2026-02-15.json
+?? env-scanning/wf2-arxiv/reports/skeleton-prepared-2026-02-10-v221-test.md
+?? env-scanning/wf2-arxiv/reports/skeleton-prepared-2026-02-10.md
+?? env-scanning/wf2-arxiv/signals/evolution-index-backup-2026-02-15.json
+?? env-scanning/wf2-arxiv/signals/evolution-index.json
+?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-10.json
+?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-12.json
+?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-13-pre-update.json
+?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-13.json
+?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-15-pre-update.json
+?? env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-15.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-02-10-v221-test.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-02-10.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-02-11.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-02-12.json
+?? env-scanning/wf2-arxiv/structured/classified-signals-2026-02-15.json
+?? env-scanning/wf3-naver/analysis/
+?? env-scanning/wf3-naver/context/
+?? env-scanning/wf3-naver/filtered/
+?? env-scanning/wf3-naver/logs/
+?? env-scanning/wf3-naver/raw/
+?? env-scanning/wf3-naver/reports/
+?? env-scanning/wf3-naver/signals/evolution-index-backup-2026-02-15.json
+?? env-scanning/wf3-naver/signals/evolution-index.json
+?? env-scanning/wf3-naver/signals/snapshots/
+?? env-scanning/wf3-naver/structured/
+?? health/
+?? logs/
+?? tests/unit/__pycache__/test_exploration_gate.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_exploration_merge_gate.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_frontier_selector.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_report_statistics_engine.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_signal_evolution_tracker.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_source_explorer.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_temporal_modules.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/__pycache__/test_timeline_map_generator.cpython-314-pytest-9.0.2.pyc
+?? tests/unit/test_exploration_gate.py
+?? tests/unit/test_exploration_merge_gate.py
+?? tests/unit/test_frontier_selector.py
+?? tests/unit/test_report_statistics_engine.py
+?? tests/unit/test_signal_evolution_tracker.py
+?? tests/unit/test_source_explorer.py
+?? tests/unit/test_temporal_modules.py
+?? tests/unit/test_timeline_map_generator.py
 
 ```
-Desktop/AIagentsAutomation/SAMgame-system-main/.omc/continuation-count.json
-Desktop/AIagentsAutomation/SAMgame-system-main/.omc/state/subagent-tracking.json
-Desktop/ENVscanning-system-main/.claude/agents/archive-loader.md
-Desktop/ENVscanning-system-main/.claude/agents/archive-notifier.md
-Desktop/ENVscanning-system-main/.claude/agents/brand-logo-finder.md
-Desktop/ENVscanning-system-main/.claude/agents/db-updater.md
-Desktop/ENVscanning-system-main/.claude/agents/dedup-filter.md
-Desktop/ENVscanning-system-main/.claude/agents/impact-analyzer.md
-Desktop/ENVscanning-system-main/.claude/agents/multi-source-scanner.md
-Desktop/ENVscanning-system-main/.claude/agents/priority-ranker.md
-Desktop/ENVscanning-system-main/.claude/agents/report-generator.md
-Desktop/ENVscanning-system-main/.claude/agents/signal-classifier.md
-Desktop/ENVscanning-system-main/.claude/commands/env-scan/approve.md
-Desktop/ENVscanning-system-main/.claude/commands/env-scan/review-analysis.md
-Desktop/ENVscanning-system-main/.claude/commands/env-scan/review-filter.md
-Desktop/ENVscanning-system-main/.claude/commands/env-scan/revision.md
-Desktop/ENVscanning-system-main/.claude/commands/env-scan/run.md
-Desktop/ENVscanning-system-main/.claude/commands/env-scan/status.md
-Desktop/ENVscanning-system-main/.claude/skills/env-scanner/SKILL.md
-Desktop/ENVscanning-system-main/.claude/skills/env-scanner/references/report-format.md
-Desktop/ENVscanning-system-main/.claude/skills/env-scanner/references/signal-template.md
-Desktop/ENVscanning-system-main/.claude/skills/env-scanner/references/steep-framework.md
-Desktop/ENVscanning-system-main/.claude/skills/env-scanner/scripts/generate_sample_data.py
-Desktop/ENVscanning-system-main/.claude/skills/env-scanner/scripts/init_scanning.py
-Desktop/ENVscanning-system-main/.claude/skills/hook-creator/SKILL.md
-Desktop/ENVscanning-system-main/.claude/skills/hook-creator/references/examples.md
-Desktop/ENVscanning-system-main/.claude/skills/hook-creator/references/hook-events.md
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/LICENSE.txt
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/SKILL.md
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/references/output-patterns.md
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/references/workflows.md
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/scripts/init_skill.py
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/scripts/package_skill.py
-Desktop/ENVscanning-system-main/.claude/skills/skill-creator/scripts/quick_validate.py
-Desktop/ENVscanning-system-main/.claude/skills/slash-command-creator/SKILL.md
-Desktop/ENVscanning-system-main/.claude/skills/slash-command-creator/references/examples.md
-Desktop/ENVscanning-system-main/.claude/skills/slash-command-creator/references/frontmatter.md
-Desktop/ENVscanning-system-main/.claude/skills/slash-command-creator/scripts/init_command.py
-Desktop/ENVscanning-system-main/.claude/skills/subagent-creator/SKILL.md
-Desktop/ENVscanning-system-main/.claude/skills/subagent-creator/assets/subagent-template.md
-Desktop/ENVscanning-system-main/.claude/skills/subagent-creator/references/available-tools.md
-Desktop/ENVscanning-system-main/.claude/skills/subagent-creator/references/examples.md
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/README.md
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/SKILL.md
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/references/data-schema.md
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/scripts/collect_videos.py
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/scripts/fetch_transcript.py
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/scripts/fetch_videos.py
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/scripts/register_channel.py
-Desktop/ENVscanning-system-main/.claude/skills/youtube-collector/scripts/setup_api_key.py
-Desktop/ENVscanning-system-main/.github/workflows/ci.yml
-Desktop/ENVscanning-system-main/.pre-commit-config.yaml
-Desktop/ENVscanning-system-main/.python-version
-Desktop/ENVscanning-system-main/.vscode/settings.json
-Desktop/ENVscanning-system-main/docs/cc/hooks.md
-Desktop/ENVscanning-system-main/docs/cc/slash-commands.md
-Desktop/ENVscanning-system-main/docs/cc/sub-agent.md
-Desktop/ENVscanning-system-main/env-scanning/analysis/impact-assessment-2026-01-09.json
-Desktop/ENVscanning-system-main/env-scanning/analysis/impact-assessment-2026-01-10.json
-Desktop/ENVscanning-system-main/env-scanning/analysis/priority-ranked-2026-01-09.json
-Desktop/ENVscanning-system-main/env-scanning/analysis/priority-ranked-2026-01-10.json
-Desktop/ENVscanning-system-main/env-scanning/config/domains.yaml
-Desktop/ENVscanning-system-main/env-scanning/config/sources.yaml
-Desktop/ENVscanning-system-main/env-scanning/config/thresholds.yaml
-Desktop/ENVscanning-system-main/env-scanning/context/.gitkeep
-Desktop/ENVscanning-system-main/env-scanning/context/previous-signals.json
-Desktop/ENVscanning-system-main/env-scanning/filtered/new-signals-2026-01-09.json
-Desktop/ENVscanning-system-main/env-scanning/logs/daily-summary-2026-01-09.log
-Desktop/ENVscanning-system-main/env-scanning/logs/duplicates-removed-2026-01-09.log
-Desktop/ENVscanning-system-main/env-scanning/logs/launchd-stderr.log
-Desktop/ENVscanning-system-main/env-scanning/logs/launchd-stdout.log
-Desktop/ENVscanning-system-main/env-scanning/logs/scan-2026-01-10.log
-Desktop/ENVscanning-system-main/env-scanning/logs/workflow-status.json
-Desktop/ENVscanning-system-main/env-scanning/raw/daily-scan-2026-01-09.json
-Desktop/ENVscanning-system-main/env-scanning/reports/archive/2026/01/environmental-scan-2026-01-09.md
-Desktop/ENVscanning-system-main/env-scanning/reports/archive/2026/01/environmental-scan-2026-01-10.docx
-Desktop/ENVscanning-system-main/env-scanning/reports/daily/environmental-scan-2026-01-09.docx
-Desktop/ENVscanning-system-main/env-scanning/reports/daily/environmental-scan-2026-01-09.md
-Desktop/ENVscanning-system-main/env-scanning/reports/daily/environmental-scan-2026-01-10.docx
-Desktop/ENVscanning-system-main/env-scanning/reports/daily/environmental-scan-2026-01-10.md
-Desktop/ENVscanning-system-main/env-scanning/scripts/run-daily-scan.sh
-Desktop/ENVscanning-system-main/env-scanning/scripts/schedule-manager.sh
-Desktop/ENVscanning-system-main/env-scanning/signals/database.json
-Desktop/ENVscanning-system-main/env-scanning/signals/snapshots/database-2026-01-09.json
-Desktop/ENVscanning-system-main/env-scanning/structured/classified-signals-2026-01-09.json
-Desktop/ENVscanning-system-main/env-scanning/structured/classified-signals-2026-01-10.json
-Desktop/ENVscanning-system-main/prompt/crystalize-prompt.md
-Desktop/ENVscanning-system-main/prompt/design-pipeline.md
-Desktop/ENVscanning-system-main/prompt/environmental-scanning-workflow.md
-Desktop/ENVscanning-system-main/pyproject.toml
-Desktop/cys-1-1-blog/.cursorignore
-Desktop/cys-1-1-blog/.gitignore
-Desktop/cys-1-1-blog/.ruler/AGENTS.md
-Desktop/cys-1-1-blog/.ruler/ruler.toml
-Desktop/cys-1-1-blog/.ruler/supabase.md
-Desktop/cys-1-1-blog/.vscode/settings.json
-Desktop/cys-1-1-blog/README.md
-Desktop/cys-1-1-blog/components.json
-Desktop/cys-1-1-blog/eslint.config.mjs
-Desktop/cys-1-1-blog/middleware.ts
-Desktop/cys-1-1-blog/next.config.ts
-Desktop/cys-1-1-blog/package-lock.json
-Desktop/cys-1-1-blog/package.json
-Desktop/cys-1-1-blog/postcss.config.mjs
-Desktop/cys-1-1-blog/public/easynext.png
-Desktop/cys-1-1-blog/src/app/(protected)/dashboard/page.tsx
-Desktop/cys-1-1-blog/src/app/(protected)/layout.tsx
-Desktop/cys-1-1-blog/src/app/api/[[...hono]]/route.ts
-Desktop/cys-1-1-blog/src/app/example/page.tsx
-Desktop/cys-1-1-blog/src/app/favicon.ico
-Desktop/cys-1-1-blog/src/app/globals.css
-Desktop/cys-1-1-blog/src/app/layout.tsx
-Desktop/cys-1-1-blog/src/app/login/page.tsx
-Desktop/cys-1-1-blog/src/app/page.tsx
-Desktop/cys-1-1-blog/src/app/providers.tsx
-Desktop/cys-1-1-blog/src/app/signup/page.tsx
-Desktop/cys-1-1-blog/src/backend/config/index.ts
-Desktop/cys-1-1-blog/src/backend/hono/app.ts
-Desktop/cys-1-1-blog/src/backend/hono/context.ts
-Desktop/cys-1-1-blog/src/backend/http/response.ts
-Desktop/cys-1-1-blog/src/backend/middleware/context.ts
-Desktop/cys-1-1-blog/src/backend/middleware/error.ts
-Desktop/cys-1-1-blog/src/backend/middleware/supabase.ts
-Desktop/cys-1-1-blog/src/backend/supabase/client.ts
-Desktop/cys-1-1-blog/src/components/ui/accordion.tsx
-Desktop/cys-1-1-blog/src/components/ui/avatar.tsx
-Desktop/cys-1-1-blog/src/components/ui/badge.tsx
-Desktop/cys-1-1-blog/src/components/ui/button.tsx
-Desktop/cys-1-1-blog/src/components/ui/card.tsx
-Desktop/cys-1-1-blog/src/components/ui/checkbox.tsx
-Desktop/cys-1-1-blog/src/components/ui/dropdown-menu.tsx
-Desktop/cys-1-1-blog/src/components/ui/file-upload.tsx
-Desktop/cys-1-1-blog/src/components/ui/form.tsx
-Desktop/cys-1-1-blog/src/components/ui/input.tsx
-Desktop/cys-1-1-blog/src/components/ui/label.tsx
-Desktop/cys-1-1-blog/src/components/ui/select.tsx
-Desktop/cys-1-1-blog/src/components/ui/separator.tsx
-Desktop/cys-1-1-blog/src/components/ui/sheet.tsx
-Desktop/cys-1-1-blog/src/components/ui/textarea.tsx
-Desktop/cys-1-1-blog/src/components/ui/toast.tsx
-Desktop/cys-1-1-blog/src/components/ui/toaster.tsx
-Desktop/cys-1-1-blog/src/constants/auth.ts
-Desktop/cys-1-1-blog/src/constants/env.ts
-Desktop/cys-1-1-blog/src/features/auth/context/current-user-context.tsx
-Desktop/cys-1-1-blog/src/features/auth/hooks/useCurrentUser.ts
-Desktop/cys-1-1-blog/src/features/auth/server/load-current-user.ts
-Desktop/cys-1-1-blog/src/features/auth/types.ts
-Desktop/cys-1-1-blog/src/features/example/backend/error.ts
-Desktop/cys-1-1-blog/src/features/example/backend/route.ts
-Desktop/cys-1-1-blog/src/features/example/backend/schema.ts
-Desktop/cys-1-1-blog/src/features/example/backend/service.ts
-Desktop/cys-1-1-blog/src/features/example/components/example-status.tsx
-Desktop/cys-1-1-blog/src/features/example/hooks/useExampleQuery.ts
-Desktop/cys-1-1-blog/src/features/example/lib/dto.ts
-Desktop/cys-1-1-blog/src/hooks/use-toast.ts
-Desktop/cys-1-1-blog/src/lib/remote/api-client.ts
-Desktop/cys-1-1-blog/src/lib/supabase/browser-client.ts
-Desktop/cys-1-1-blog/src/lib/supabase/client.ts
-Desktop/cys-1-1-blog/src/lib/supabase/server-client.ts
-Desktop/cys-1-1-blog/src/lib/supabase/server.ts
-Desktop/cys-1-1-blog/src/lib/supabase/types.ts
-Desktop/cys-1-1-blog/src/lib/utils.ts
-Desktop/cys-1-1-blog/supabase/migrations/0001_create_example_table.sql
-Desktop/cys-1-1-blog/tsconfig.json
+
+**Recent Commits**:
+```
+2254172 Add standard signal format and signal processor for WF3
+1f4052b Add WF3 (Naver News Environmental Scanning) infrastructure
+473e286 Add weekly meta-analysis (2026-W06) and daily scans (Feb 5-6)
+92b86fc first commit-version1-dualmode-all
+d88b283 first commit-version1-dualmode
 ```
 
-### Project Structure Context
+---
+
+## Recent Activities
+
+| Time | Tool | Activity |
+|------|------|----------|
+| 02-15 15:20 | Bash | Ran: ls /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/wf1-general/analysis/evolution |
+| 02-15 15:20 | Bash | Ran: ls -la /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/wf1-general/analysis/evolu |
+| 02-15 15:20 | Bash | Ran: ls /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/wf1-general/analysis/priority- |
+| 02-15 15:21 | Bash | Ran: python3 env-scanning/core/signal_evolution_tracker.py cross-correlate \
+  --registry env-scanning/config/workflow-r |
+| 02-15 15:21 | Bash | Ran: python3 env-scanning/core/report_statistics_engine.py \
+  --workflow-type integrated \
+  --evolution-maps \
+    env |
+| 02-15 15:31 | Write | Wrote env-scanning/integrated/reports/daily/integrated-scan-2026-02-15.md |
+| 02-15 15:32 | Bash | Ran: python3 env-scanning/scripts/validate_report.py env-scanning/integrated/reports/daily/integrated-scan-2026-02-15.md |
+| 02-15 15:32 | Bash | Ran: wc -w /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/integrated/reports/daily/in |
+| 02-15 15:33 | Task | Task: Integration merge WF1+WF2+WF3 | Execute the Integration step for the 2026-02-15 triple scan. All three workflows a |
+| 02-15 15:34 | Bash | Ran: mkdir -p /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/integrated/reports/archi |
+| 02-15 15:34 | Bash | Ran: cp /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/integrated/reports/daily/integ |
+| 02-15 15:34 | Write | Wrote env-scanning/integrated/logs/master-status-2026-02-15.json |
+| 02-15 15:34 | Write | Wrote env-scanning/logs/workflow-status.json |
+| 02-15 15:34 | Bash | Ran: ls -la /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v3/env-scanning/integrated/reports/archive |
+| 02-15 15:35 | Task | Task: Finalize integration and archive | The user has APPROVED the integrated report (7th/7 human checkpoint). Finalize  |
+
+---
+
+## Restoration Instructions
+
+**For Claude Code**: When you read this file after /clear or compression:
+
+1. **Read Implementation State** above — understand what task was in progress
+2. **Read Workflow Execution State** — understand scan status
+3. **Check Git Status** — understand file changes
+4. **Review Recent Activities** — understand what tools were used
+5. **Read task-state.json** for detailed task breakdown if available
+6. **Continue from the in-progress task** — do not restart completed work
+
+---
+
+**Auto-generated by**: Context Preservation System v2.0.0 (SOT-bound)

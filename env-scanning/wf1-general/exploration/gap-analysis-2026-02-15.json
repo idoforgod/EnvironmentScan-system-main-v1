@@ -1,0 +1,80 @@
+{
+  "category_distribution": {
+    "T_Technological": 0.4222222222222222,
+    "P_Political": 0.2222222222222222,
+    "S_Social": 0.13333333333333333,
+    "E_Economic": 0.13333333333333333,
+    "E_Environmental": 0.08888888888888889
+  },
+  "gaps": [
+    "E_Economic",
+    "s_spiritual",
+    "E_Environmental",
+    "S_Social"
+  ],
+  "gap_keywords": {
+    "E_Economic": [
+      "GDP growth",
+      "recession",
+      "inflation",
+      "supply chain",
+      "fintech",
+      "cryptocurrency",
+      "platform economy",
+      "gig work",
+      "trade war",
+      "protectionism",
+      "globalization",
+      "deglobalization",
+      "business model"
+    ],
+    "s_spiritual": [
+      "AI ethics",
+      "bioethics",
+      "data ethics",
+      "meaning crisis",
+      "existential anxiety",
+      "public psychology",
+      "collective emotion",
+      "social trust",
+      "value shift",
+      "worldview change",
+      "spiritual awakening",
+      "secularization",
+      "religious trend",
+      "post-humanism",
+      "transhumanism"
+    ],
+    "E_Environmental": [
+      "climate change",
+      "global warming",
+      "carbon neutral",
+      "net zero",
+      "renewable energy",
+      "solar power",
+      "wind energy",
+      "biodiversity loss",
+      "extinction",
+      "water scarcity",
+      "drought",
+      "extreme weather",
+      "circular economy",
+      "sustainability"
+    ],
+    "S_Social": [
+      "demographic shift",
+      "aging population",
+      "migration",
+      "urbanization",
+      "education reform",
+      "labor market",
+      "gig economy",
+      "remote work",
+      "social movement",
+      "inequality",
+      "generational gap",
+      "cultural change"
+    ]
+  },
+  "total_signals": 45
+}

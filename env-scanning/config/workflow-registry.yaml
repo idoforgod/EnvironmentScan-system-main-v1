@@ -1,11 +1,11 @@
 # ================================================================
 # WORKFLOW REGISTRY — Source of Truth (SOT)
 # ================================================================
-# Version: 2.0.0
-# Last Updated: 2026-02-06
+# Version: 2.2.1
+# Last Updated: 2026-02-10
 #
 # This file is the SINGLE authoritative definition of the
-# Triple Environmental Scanning System.
+# Quadruple Environmental Scanning System.
 #
 # RULES:
 #   1. master-orchestrator MUST read this file at startup
@@ -16,24 +16,126 @@
 #   6. Validation failure with severity HALT stops the workflow entirely
 #
 # INDEPENDENCE GUARANTEE:
-#   - WF1 does not know WF2 or WF3 exists
-#   - WF2 does not know WF1 or WF3 exists
-#   - WF3 does not know WF1 or WF2 exists
+#   - WF1 does not know WF2, WF3, or WF4 exists
+#   - WF2 does not know WF1, WF3, or WF4 exists
+#   - WF3 does not know WF1, WF2, or WF4 exists
+#   - WF4 does not know WF1, WF2, or WF3 exists
 #   - Any workflow can be deleted without affecting the others
 #   - No workflow reads or writes another's data during execution
 #   - Each produces a complete, independently valid final report
 # ================================================================
 
 system:
-  name: "Triple Environmental Scanning System"
-  version: "2.0.0"
+  name: "Quadruple Environmental Scanning System"
+  version: "2.5.0"
   created: "2026-02-03"
 
   # ── Execution Mode ──
   execution:
-    mode: "sequential"  # wf1 completes → wf2 completes → wf3 completes → merge
+    mode: "sequential"  # wf1 completes → wf2 completes → wf3 completes → wf4 completes → merge
     master_orchestrator: ".claude/agents/master-orchestrator.md"
     protocol: ".claude/agents/protocols/orchestrator-protocol.md"
+
+  # ── Temporal Consistency (v2.2.0, 2026-02-10) ──
+  # 모든 일일 스캐닝의 시간적 범위를 제어하는 글로벌 설정.
+  # 마스터 오케스트레이터가 T₀(실행 시작 시점)를 기록하고,
+  # 모든 워크플로우에 동일한 기준점을 전달한다.
+  temporal_consistency:
+    enabled: true
+    anchor: "master_start_time"        # T₀ = 마스터 오케스트레이터 실행 시작 시점
+    window_calculation: "T0_minus_lookback"  # scan_start = T₀ - lookback_hours
+    per_workflow_override: true         # 워크플로우별 lookback_hours 오버라이드 허용
+    post_collection_filter: true       # 수집 후 프로그래매틱 필터링 강제
+    default_lookback_hours: 24         # 기본 룩백: 24시간 (만 하루)
+    default_tolerance_minutes: 30      # 기본 오차 허용: ±30분
+    default_enforce: "strict"          # strict = 범위 외 시그널 제거, lenient = 경고만
+    # ── Python 강제 모듈 (v2.2.1: 할루시네이션 원천봉쇄) ──
+    # 이 스크립트들은 LLM 지시문을 대체하여 결정론적 연산을 보장한다.
+    # T₀ 생성, 윈도우 산술, 파이프라인 게이트, 메타데이터 삽입 모두 Python이 수행.
+    anchor_script: "env-scanning/core/temporal_anchor.py"
+    gate_script: "env-scanning/core/temporal_gate.py"
+    metadata_injector_script: "env-scanning/core/report_metadata_injector.py"
+    statistics_engine_script: "env-scanning/core/report_statistics_engine.py"
+    state_file_pattern: "{integration_output_root}/logs/scan-window-{date}.json"
+
+  # ── Dedup Gate (v2.6.0→v2.9.0, 2026-02-24) ──
+  # Cross-scan duplicate detection: deterministic Python pre-filter that catches
+  # topic-level duplicates BEFORE the LLM dedup-filter agent processes signals.
+  # 4-stage cascade: Stage A (URL) → Stage B (Topic Fingerprint) → Stage C
+  # (Jaro-Winkler title similarity) → Stage D (entity overlap).
+  # The LLM agent handles only uncertain signals.
+  dedup_gate:
+    enabled: true
+    gate_script: "env-scanning/core/dedup_gate.py"
+    previous_signals_source: "database_snapshot"  # "database_snapshot" = pre-update DB snapshot
+    lookback_days: 30                    # How far back to compare previous signals (days)
+    thresholds:
+      url_exact: 1.0                     # Stage A: normalized URL exact match
+      topic_fingerprint_definite: 0.60   # Stage B: ≥ this → definite_duplicate (removed)
+      topic_fingerprint_uncertain: 0.30  # Stage B: ≥ this → uncertain (flagged for LLM)
+      title_similarity_definite: 0.90    # Stage C: Jaro-Winkler ≥ this → definite_duplicate
+      title_similarity_uncertain: 0.80   # Stage C: Jaro-Winkler ≥ this → uncertain
+      entity_overlap_definite: 0.85      # Stage D: entity Jaccard ≥ this → definite_duplicate
+      entity_overlap_uncertain: 0.70     # Stage D: entity Jaccard ≥ this → uncertain
+    enforce: "strict"                    # strict = remove definite dupes; lenient = log only
+
+  # ── Signal Evolution Tracking (v2.3.0, 2026-02-11) ──
+  # Cross-day signal matching: tracks how signals evolve across daily scans.
+  # Produces evolution states (NEW/RECURRING/STRENGTHENING/WEAKENING/FADED/TRANSFORMED)
+  # and timeline metrics (velocity, direction, expansion).
+  signal_evolution:
+    enabled: true
+    tracker_script: "env-scanning/core/signal_evolution_tracker.py"
+    matching:
+      title_similarity_threshold: 0.80     # Jaro-Winkler threshold for title matching
+      semantic_similarity_threshold: 0.70  # Keyword similarity threshold
+      high_confidence_threshold: 0.85      # Combined score for HIGH confidence
+    lifecycle:
+      fade_threshold_days: 3               # Days without appearance → FADED
+      max_thread_age_days: 90              # Maximum thread tracking duration
+      min_appearances_for_velocity: 2      # Minimum appearances to compute velocity
+    state_detection:
+      strengthening_psst_delta: 5          # pSST increase threshold for STRENGTHENING
+      weakening_psst_delta: -5             # pSST decrease threshold for WEAKENING
+    cross_workflow_correlation:
+      enabled: true
+      output_path: "integrated/analysis/evolution/"
+      matching:
+        title_similarity_threshold: 0.75     # Lower than intra-WF (0.80) — cross-WF expression differences
+        semantic_similarity_threshold: 0.65  # Lower than intra-WF (0.70) — same reason
+        high_confidence_threshold: 0.80      # Combined score for HIGH confidence (v1.3.0 L2 fix)
+        category_filter_enabled: true        # Pre-filter by STEEPs category (v1.3.0 L2 fix)
+
+    # ── Timeline Map Generation (v2.4.0, 2026-02-11) ──
+    # Generates a Korean markdown timeline map showing signal evolution
+    # across themes, pSST trajectories, and cross-WF correlations.
+    timeline_map:
+      enabled: true
+      generator_script: "env-scanning/core/timeline_map_generator.py"
+      output_filename_pattern: "timeline-map-{date}.md"
+      lookback_days: 7          # Evolution history window (days)
+      min_signals_for_theme: 2  # Minimum signals to include a theme cluster
+      top_n_psst: 10            # Number of top-pSST signals to highlight
+
+  # ── Bilingual System (v2.8.0, English-First Workflow) ──
+  # All AI work is performed in English. Korean output is produced by
+  # a deterministic translation sub-agent validated by Python.
+  # "계산은 Python이, 판단은 LLM이" — Python handles structural integrity,
+  # LLM handles semantic translation quality.
+  bilingual:
+    enabled: true
+    internal_language: "en"   # AI processing language
+    external_language: "ko"   # User-facing report language
+    resolver_script: "env-scanning/core/bilingual_resolver.py"
+    skeleton_mirror_script: "env-scanning/core/skeleton_mirror.py"
+    translation_validator_script: "env-scanning/core/translation_validator.py"
+    # English skeleton paths (generated by skeleton_mirror.py --all)
+    skeletons_en:
+      report_skeleton: ".claude/skills/env-scanner/references/report-skeleton-en.md"
+      naver_report_skeleton: ".claude/skills/env-scanner/references/naver-report-skeleton-en.md"
+      multiglobal_news_report_skeleton: ".claude/skills/env-scanner/references/multiglobal-news-report-skeleton-en.md"
+      integrated_report_skeleton: ".claude/skills/env-scanner/references/integrated-report-skeleton-en.md"
+      weekly_report_skeleton: ".claude/skills/env-scanner/references/weekly-report-skeleton-en.md"
 
   # ── Shared Invariants (read-only reference, never modified at runtime) ──
   # All workflows reference these same files to guarantee philosophical consistency.
@@ -68,6 +170,11 @@ system:
     - ".claude/agents/workers/archive-notifier.md"
     - ".claude/agents/workers/translation-agent.md"
     - ".claude/agents/workers/self-improvement-analyzer.md"
+    - ".claude/agents/exploration-orchestrator.md"
+    - ".claude/agents/workers/discovery-alpha.md"
+    - ".claude/agents/workers/discovery-beta.md"
+    - ".claude/agents/workers/discovery-evaluator.md"
+    - ".claude/agents/workers/source-explorer.md"
 
   # ── SIE Policy ──
   sie_policy: "independent"
@@ -76,7 +183,7 @@ system:
   # Modifying shared configs requires MAJOR change approval from user.
 
   # ── Total Human Checkpoints ──
-  checkpoints_total: 7
+  checkpoints_total: 9
   checkpoints_detail:
     wf1_analysis_review: "required"   # WF1 Step 2.5
     wf1_report_approval: "required"   # WF1 Step 3.4
@@ -84,6 +191,8 @@ system:
     wf2_report_approval: "required"   # WF2 Step 3.4
     wf3_analysis_review: "required"   # WF3 Step 2.5
     wf3_report_approval: "required"   # WF3 Step 3.4
+    wf4_analysis_review: "required"   # WF4 Step 2.5
+    wf4_report_approval: "required"   # WF4 Step 3.4
     integrated_approval: "required"   # Integrated report final approval
 
 # ================================================================
@@ -121,10 +230,37 @@ workflows:
       health: "health/"
       calibration: "calibration/"
       self_improvement: "self-improvement/"
+      evolution_index: "signals/evolution-index.json"
+      evolution_maps: "analysis/evolution/"
+      exploration: "exploration/"
+      exploration_candidates: "exploration/candidates/"
+      exploration_history: "exploration/history/"
 
     parameters:
       marathon_mode: true
       base_only_flag: false
+
+      # ── Source Exploration (v2.5.0) ──
+      source_exploration:
+        enabled: true
+        enforcement: "mandatory"            # "mandatory" | "optional" — mandatory = validate_report.py CRITICAL, optional = ERROR
+        exploration_method: "agent-team"    # "agent-team" | "single-agent"
+        max_candidates_per_scan: 5          # Max candidate sources to test per scan
+        max_test_signals_per_candidate: 10  # Max signals collected per candidate test
+        time_budget_minutes: 40             # Stage C time upper bound (doubled from 20 on 2026-02-19)
+        coverage_gap_threshold: 0.15        # STEEPs < 15% → "gap"
+        min_signals_for_viable: 2           # Min 2 signals for viable source
+        auto_promotion_scans: 5             # 5 consecutive successes → propose promotion
+        candidate_retention_days: 30        # Keep undecided candidates for 30 days
+        frontiers_config: "env-scanning/config/exploration-frontiers.yaml"
+        gate_script: "env-scanning/core/exploration_gate.py"  # Programmatic enforcement (v2.5.1)
+        frontier_selector_script: "env-scanning/core/frontier_selector.py"  # VP-5 depends on this (SOT-050)
+
+      scan_window:
+        lookback_hours: 24         # 만 24시간 — 일일 스캐닝의 절대 기준
+        tolerance_minutes: 30      # 게시 시간 파싱 오차 허용 (±30분)
+        enforce: "strict"          # strict = 범위 외 시그널 제거
+        post_filter: true          # 수집 후 프로그래매틱 필터링 실행
 
     checkpoints:
       step_1_4: "optional"
@@ -159,12 +295,20 @@ workflows:
       reports_archive: "reports/archive/"
       context: "context/"
       logs: "logs/"
+      evolution_index: "signals/evolution-index.json"
+      evolution_maps: "analysis/evolution/"
 
     parameters:
-      days_back: 14
+      days_back: 14  # DEPRECATED — use scan_window.lookback_hours instead
       max_results_per_category: 50
       arxiv_extended_categories: true
       marathon_mode: false  # Single source, marathon not needed
+      scan_window:
+        lookback_hours: 48         # arXiv: 48시간 (게시 지연 감안)
+        tolerance_minutes: 60      # 학술 논문은 시간대 불명확
+        enforce: "strict"          # strict = 범위 외 시그널 제거
+        post_filter: true          # 수집 후 프로그래매틱 필터링 실행
+        exception_reason: "arXiv batch posting delay (daily at ~20:00 EST, 1-2 day submission-to-posting lag)"
 
     checkpoints:
       step_1_4: "optional"
@@ -200,6 +344,8 @@ workflows:
       context: "context/"
       logs: "logs/"
       health: "health/"
+      evolution_index: "signals/evolution-index.json"
+      evolution_maps: "analysis/evolution/"
 
     parameters:
       fssf_classification: true       # FSSF 8-type signal taxonomy
@@ -207,6 +353,11 @@ workflows:
       tipping_point_detection: true   # Critical Slowing Down, Flickering detection
       anomaly_detection: true         # Statistical + Structural anomaly detection
       marathon_mode: false            # Single source, marathon not needed
+      scan_window:
+        lookback_hours: 24         # 만 24시간 — 일일 스캐닝의 절대 기준
+        tolerance_minutes: 30      # 게시 시간 파싱 오차 허용 (±30분)
+        enforce: "strict"          # strict = 범위 외 시그널 제거
+        post_filter: true          # 수집 후 프로그래매틱 필터링 실행
 
     checkpoints:
       step_1_4: "optional"
@@ -214,6 +365,56 @@ workflows:
       step_3_4: "required"
 
     validate_profile: "naver"
+
+  # ────────────────────────────────────────────
+  # WF4: Multi&Global-News Environmental Scanning
+  # ────────────────────────────────────────────
+  wf4-multiglobal-news:
+    name: "Multi&Global-News Environmental Scanning"
+    name_ko: "멀티글로벌 뉴스 환경스캐닝"
+    description: "Direct crawling of 43 global news sites with FSSF classification, Three Horizons tagging, Tipping Point detection, and multilingual translation"
+    enabled: true
+    execution_order: 4
+
+    orchestrator: ".claude/agents/multiglobal-news-scan-orchestrator.md"
+    sources_config: "env-scanning/config/sources-multiglobal-news.yaml"
+    exclusive_sources: ["MultiGlobalNews"]  # This workflow scans ONLY the 43 direct news sites
+
+    data_root: "env-scanning/wf4-multiglobal-news"
+    paths:
+      raw: "raw/"
+      structured: "structured/"
+      filtered: "filtered/"
+      analysis: "analysis/"
+      signals_db: "signals/database.json"
+      signals_snapshots: "signals/snapshots/"
+      reports_daily: "reports/daily/"
+      reports_archive: "reports/archive/"
+      context: "context/"
+      logs: "logs/"
+      health: "health/"
+      evolution_index: "signals/evolution-index.json"
+      evolution_maps: "analysis/evolution/"
+
+    parameters:
+      fssf_classification: true       # FSSF 8-type signal taxonomy
+      three_horizons_tagging: true    # H1/H2/H3 time horizon classification
+      tipping_point_detection: true   # Critical Slowing Down, Flickering detection
+      anomaly_detection: true         # Statistical + Structural anomaly detection
+      translation_enabled: true       # Multilingual→EN + EN→KO translation pipeline
+      marathon_mode: false            # Single orchestrated crawl, marathon not needed
+      scan_window:
+        lookback_hours: 24         # 만 24시간 — 일일 스캐닝의 절대 기준
+        tolerance_minutes: 30      # 게시 시간 파싱 오차 허용 (±30분)
+        enforce: "strict"          # strict = 범위 외 시그널 제거
+        post_filter: true          # 수집 후 프로그래매틱 필터링 실행
+
+    checkpoints:
+      step_1_4: "optional"
+      step_2_5: "required"
+      step_3_4: "required"
+
+    validate_profile: "multiglobal-news"
 
 # ================================================================
 # INTEGRATION DEFINITION
@@ -233,13 +434,22 @@ integration:
   # No feedback loop — integrated output does NOT feed back into individual workflows.
   merge_scope: "reports_only"
 
+  # ── Integration Method ──
+  # "agent-team": Use Agent Teams for collaborative multi-perspective integration
+  #               (5 teammates: WF1 analyst, WF2 analyst, WF3 analyst, WF4 analyst, synthesizer)
+  #               Enables inter-agent discussion for deeper cross-workflow analysis.
+  # "single-agent": Use traditional single report-merger subagent (legacy, fallback)
+  #
+  # If agent-team fails at runtime, master-orchestrator auto-falls back to single-agent.
+  integration_method: "agent-team"
+
   merge_strategy:
     # No source overlap between WF1, WF2, and WF3, so no signal dedup needed at merge.
     # Merger combines signals from all three reports and re-ranks by pSST.
     signal_dedup: false
     ranking_method: "pSST_unified"
     integrated_top_signals: 20
-    cross_workflow_analysis: true  # Analyze WF1↔WF2↔WF3 signal interactions
+    cross_workflow_analysis: true  # Analyze WF1↔WF2↔WF3↔WF4 signal interactions
 
   integrated_skeleton: ".claude/skills/env-scanner/references/integrated-report-skeleton.md"
   validate_profile: "integrated"
@@ -252,7 +462,7 @@ integration:
   # ────────────────────────────────────────────
   # 주간 메타분석: 7일간 일일 스캔 결과를 거시적으로 재분석.
   # 새로운 소스 스캐닝 없음. 내부 축적 데이터 읽기 전용 접근.
-  # 기존 일일 스캔(WF1→WF2→Merge)과 완전히 독립적으로 실행.
+  # 기존 일일 스캔(WF1→WF2→WF3→Merge)과 완전히 독립적으로 실행.
   weekly:
     enabled: true
     description: "주간 메타분석 - 7일간 일일 스캔 결과의 거시적 패턴 분석"
@@ -268,19 +478,23 @@ integration:
       wf1_reports: "wf1-general/reports/daily/"
       wf2_reports: "wf2-arxiv/reports/daily/"
       wf3_reports: "wf3-naver/reports/daily/"
+      wf4_reports: "wf4-multiglobal-news/reports/daily/"
       integrated_reports: "integrated/reports/daily/"
       wf1_signals_db: "wf1-general/signals/database.json"
       wf2_signals_db: "wf2-arxiv/signals/database.json"
       wf3_signals_db: "wf3-naver/signals/database.json"
+      wf4_signals_db: "wf4-multiglobal-news/signals/database.json"
       wf1_ranked: "wf1-general/analysis/"
       wf2_ranked: "wf2-arxiv/analysis/"
       wf3_ranked: "wf3-naver/analysis/"
+      wf4_ranked: "wf4-multiglobal-news/analysis/"
       integrated_rankings: "integrated/"
 
     access_policy:
       wf1_data: "READ_ONLY"
       wf2_data: "READ_ONLY"
       wf3_data: "READ_ONLY"
+      wf4_data: "READ_ONLY"
       integrated_daily: "READ_ONLY"
       weekly_output: "READ_WRITE"
 
@@ -448,6 +662,194 @@ startup_validation:
       description: "WF3 sources_config file must exist"
       severity: "HALT"
       condition: "workflows.wf3-naver.enabled == true"
+
+    # ── Cross-Platform System Prompt Validation ──
+    - id: "SOT-024"
+      check: "canonical_system_prompt_exists"
+      description: "Canonical system prompt file (AGENTS.md) must exist"
+      severity: "HALT"
+
+    - id: "SOT-025"
+      check: "agents_md_contains_required_references"
+      description: "AGENTS.md must reference all required SOT files"
+      severity: "HALT"
+
+    - id: "SOT-026"
+      check: "agents_md_contains_immutable_keywords"
+      description: "AGENTS.md must contain all required immutable rule keywords"
+      severity: "HALT"
+
+    - id: "SOT-026b"
+      check: "agents_md_tier1_values_match_core_invariants"
+      description: "AGENTS.md Tier 1 values must match core-invariants.yaml structurally"
+      severity: "HALT"
+
+    - id: "SOT-027"
+      check: "tool_specific_prompt_files_exist"
+      description: "Tool-specific system prompt files (CLAUDE.md, GEMINI.md) should exist"
+      severity: "WARN"
+
+    - id: "SOT-028"
+      check: "tool_specific_files_import_canonical"
+      description: "Tool-specific files must @import the canonical file"
+      severity: "WARN"
+
+    - id: "SOT-029"
+      check: "integration_method_valid"
+      description: "integration.integration_method must be 'agent-team' or 'single-agent'"
+      severity: "HALT"
+
+    # ── Temporal Consistency Validation (v2.2.0) ──
+    - id: "SOT-030"
+      check: "scan_window_valid"
+      description: "Each enabled workflow must have scan_window with valid lookback_hours [1,168] and enforce in {strict, lenient}"
+      severity: "HALT"
+
+    - id: "SOT-031"
+      check: "temporal_consistency_section_exists"
+      description: "system.temporal_consistency section must exist with required fields"
+      severity: "HALT"
+
+    - id: "SOT-032"
+      check: "temporal_python_scripts_exist"
+      description: "temporal_consistency Python enforcement scripts (anchor, gate, injector, statistics) must exist"
+      severity: "HALT"
+
+    # ── Signal Evolution Validation (v2.3.0) ──
+    - id: "SOT-034"
+      check: "signal_evolution_section_valid"
+      description: "system.signal_evolution section exists with valid thresholds and tracker_script exists"
+      severity: "HALT"
+      condition: "system.signal_evolution.enabled == true"
+
+    - id: "SOT-035"
+      check: "evolution_paths_exist_in_enabled_workflows"
+      description: "Each enabled workflow must have evolution_index and evolution_maps paths"
+      severity: "CREATE"
+      condition: "system.signal_evolution.enabled == true"
+
+    # ── Timeline Map Validation (v2.4.0) ──
+    - id: "SOT-036"
+      check: "timeline_map_configuration_valid"
+      description: "system.signal_evolution.timeline_map settings are valid (optional, supplementary output)"
+      severity: "WARN"
+      condition: "system.signal_evolution.timeline_map exists"
+
+    # ── Source Exploration Validation (v2.5.0) ──
+    - id: "SOT-037"
+      check: "exploration_config_valid"
+      description: "source_exploration parameters valid if enabled"
+      severity: "HALT"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+
+    - id: "SOT-038"
+      check: "exploration_paths_exist"
+      description: "WF1 exploration directories exist (create if missing)"
+      severity: "CREATE"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+
+    - id: "SOT-039"
+      check: "exploration_agents_exist"
+      description: "Exploration orchestrator and worker agent files must exist"
+      severity: "HALT"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+
+    - id: "SOT-040"
+      check: "exploration_frontiers_config_exists"
+      description: "exploration-frontiers.yaml must exist if exploration enabled"
+      severity: "HALT"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+
+    - id: "SOT-041"
+      check: "exploration_gate_script_exists"
+      description: "exploration gate_script Python file must exist if exploration enabled"
+      severity: "HALT"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+
+    # ── Dedup Index Freshness (v2.6.0) ──
+    - id: "SOT-042"
+      check: "dedup_index_freshness"
+      description: "Dedup index (previous-signals.json) must be recent (<48h) for enabled workflows"
+      severity: "WARN"
+
+    # ── STEEPs Source Coverage (v2.7.0) ──
+    - id: "SOT-043"
+      check: "steeps_source_base_coverage"
+      description: "All 6 STEEPs categories must have at least 1 enabled source with matching steeps_focus"
+      severity: "WARN"
+
+    # ── Dedup Gate Validation (v2.6.0→v2.9.0) ──
+    - id: "SOT-044"
+      check: "dedup_gate_section_valid"
+      description: "system.dedup_gate section exists with required fields (enabled, gate_script, thresholds [A/B/C/D], lookback_days, enforce)"
+      severity: "HALT"
+    - id: "SOT-045"
+      check: "dedup_gate_script_exists"
+      description: "Dedup gate Python script referenced in SOT must exist on disk"
+      severity: "HALT"
+
+    # ── Bilingual System Validation (v2.8.0) ──
+    - id: "SOT-046"
+      check: "bilingual_section_valid"
+      description: "system.bilingual section exists with required fields (enabled, internal_language, external_language)"
+      severity: "HALT"
+      condition: "system.bilingual.enabled == true"
+
+    - id: "SOT-047"
+      check: "bilingual_scripts_exist"
+      description: "Bilingual Python scripts (skeleton_mirror, translation_validator) must exist"
+      severity: "HALT"
+      condition: "system.bilingual.enabled == true"
+
+    - id: "SOT-048"
+      check: "bilingual_en_skeletons_exist"
+      description: "All English skeleton files referenced in system.bilingual.skeletons_en must exist"
+      severity: "HALT"
+      condition: "system.bilingual.enabled == true"
+
+    - id: "SOT-049"
+      check: "bilingual_en_profiles_implemented"
+      description: "All EN validate_profiles derived by bilingual_resolver ({base}_en) must exist in validate_report.py PROFILES"
+      severity: "HALT"
+      condition: "system.bilingual.enabled == true and system.bilingual.internal_language == en"
+
+    # ── Source Exploration Frontier Selector (v2.5.2) ──
+    - id: "SOT-050"
+      check: "frontier_selector_script_exists"
+      description: "frontier_selector.py must exist — VP-5 (exploration_gate.py verify) depends on the file it creates"
+      severity: "HALT"
+      condition: "workflows.wf1-general.parameters.source_exploration.enabled == true"
+
+    # ── WF4 Multi&Global-News Validation (v2.10.0) ──
+    - id: "SOT-051"
+      check: "wf4_multiglobal_source_exclusive"
+      description: "MultiGlobalNews source must be enabled in WF4 sources config"
+      severity: "HALT"
+      condition: "workflows.wf4-multiglobal-news.enabled == true"
+
+    - id: "SOT-052"
+      check: "wf4_orchestrator_exists"
+      description: "WF4 orchestrator file must exist"
+      severity: "HALT"
+      condition: "workflows.wf4-multiglobal-news.enabled == true"
+
+    - id: "SOT-053"
+      check: "wf4_data_root_exists"
+      description: "WF4 data_root directory exists (create subdirs if missing)"
+      severity: "CREATE"
+      condition: "workflows.wf4-multiglobal-news.enabled == true"
+
+    - id: "SOT-054"
+      check: "wf4_sources_config_exists"
+      description: "WF4 sources_config file must exist"
+      severity: "HALT"
+      condition: "workflows.wf4-multiglobal-news.enabled == true"
+
+    # ── Profile Validity Validation (v2.2.1) ──
+    - id: "SOT-033"
+      check: "validate_profile_values_implemented"
+      description: "All validate_profile values in enabled workflows must map to implemented profiles in validate_report.py"
+      severity: "HALT"
 
 # ================================================================
 # EXECUTION INTEGRITY (v1.0.0)
@@ -629,3 +1031,75 @@ execution_integrity:
         min_daily_scans: 5
         lookback_days: 7
         on_insufficient: "경고 표시 후 사용자 확인 요청"
+
+# ================================================================
+# CROSS-PLATFORM SYSTEM PROMPTS
+# ================================================================
+# This section defines the system prompt files that instruct AI CLI
+# tools to follow this workflow's methodology. These files are part
+# of the SOT ecosystem and are validated by validate_registry.py.
+#
+# Architecture:
+#   AGENTS.md (canonical router) ← Tier 1 immutable rules inline
+#       │                           + Tier 2 SOT file references
+#       ├── CLAUDE.md (@import AGENTS.md + Claude Code specifics)
+#       └── GEMINI.md (@import AGENTS.md + Gemini CLI specifics)
+#
+# AGENTS.md is read natively by: Codex CLI, GitHub Copilot, Cursor, Cline
+# CLAUDE.md is read by: Claude Code
+# GEMINI.md is read by: Gemini CLI
+#
+# RULES:
+#   1. AGENTS.md MUST exist — it is the canonical methodology router
+#   2. AGENTS.md MUST reference all required_references files
+#   3. AGENTS.md MUST inline all required_inline_sections from core-invariants
+#   4. Tool-specific files MUST @import AGENTS.md (not duplicate content)
+#   5. Mutable parameters are NEVER copied into AGENTS.md — only referenced
+# ================================================================
+
+system_prompts:
+  # ── Canonical Router Document ──
+  canonical: "AGENTS.md"
+  description: "Cross-platform methodology router read by all AI CLI tools"
+
+  # ── Tool-Specific Wrappers ──
+  tool_specific:
+    claude_code:
+      file: "CLAUDE.md"
+      import_target: "AGENTS.md"
+    gemini_cli:
+      file: "GEMINI.md"
+      import_target: "AGENTS.md"
+
+  # ── Tier 1: Immutable Rules Source ──
+  # These rules are inlined in AGENTS.md because they are immutable (never drift).
+  # SOT-026 validates that AGENTS.md contains matching keywords.
+  immutable_source: "env-scanning/config/core-invariants.yaml"
+  required_inline_sections:
+    - id: "steeps_categories"
+      keywords: ["STEEPs", "Social", "Technological", "Economic", "Environmental", "Political", "spiritual"]
+    - id: "workflow_phases"
+      keywords: ["Phase 1", "Phase 2", "Phase 3", "Research", "Planning", "Implementation"]
+    - id: "vev_protocol"
+      keywords: ["VEV", "Verify-Execute-Verify", "PRE-VERIFY", "POST-VERIFY"]
+    - id: "workflow_independence"
+      keywords: ["WF1", "WF2", "WF3", "WF4", "independent"]
+    - id: "bilingual_protocol"
+      keywords: ["bilingual", "internal", "external", "en", "ko"]
+    - id: "database_atomicity"
+      keywords: ["atomic", "snapshot", "restore"]
+    - id: "skeleton_fill"
+      keywords: ["skeleton", "template"]
+    - id: "quality_defense"
+      keywords: ["4-Layer", "validate_report"]
+    - id: "temporal_consistency"
+      keywords: ["Temporal Consistency", "scan window", "lookback_hours", "T₀"]
+
+  # ── Tier 2: Required References ──
+  # AGENTS.md MUST contain these file paths as text (routing the AI to real SOT).
+  # SOT-025 validates their presence.
+  required_references:
+    - "env-scanning/config/workflow-registry.yaml"
+    - "env-scanning/config/core-invariants.yaml"
+    - "env-scanning/scripts/validate_report.py"
+    - "env-scanning/scripts/validate_registry.py"

@@ -1,0 +1,66 @@
+{
+  "workflow": "wf3-naver",
+  "date": "2026-02-06",
+  "status": "completed",
+  "execution_id": "wf3-crawl-2026-02-06-07-57-39-a7bd",
+  "mode": "standalone",
+  "autopilot": true,
+  "phases": {
+    "phase_0_validation": {
+      "status": "completed",
+      "checks_passed": 21,
+      "checks_total": 21,
+      "halt_failures": 0
+    },
+    "phase_1_crawl": {
+      "status": "completed",
+      "total_articles": 267,
+      "sections_crawled": 6,
+      "sections_failed": 0,
+      "blocks_encountered": 0,
+      "execution_time_seconds": 1005.8,
+      "snr_ratio": 1.0
+    },
+    "phase_2_analysis": {
+      "status": "completed",
+      "unique_signals_classified": 265,
+      "top_ranked_signals": 15,
+      "fssf_distribution": {
+        "Weak Signal": 42,
+        "Emerging Issue": 78,
+        "Trend": 89,
+        "Megatrend": 12,
+        "Driver": 18,
+        "Wild Card": 8,
+        "Discontinuity": 5,
+        "Precursor Event": 13
+      },
+      "three_horizons": {"H1": 198, "H2": 52, "H3": 15},
+      "tipping_point_status": "GREEN",
+      "anomalies_detected": 0,
+      "checkpoint_2_5": "auto-approved (autopilot)"
+    },
+    "phase_3_output": {
+      "status": "completed",
+      "report_generated": "reports/daily/environmental-scan-2026-02-06.md",
+      "database_updated": true,
+      "database_signals": 15,
+      "archived": "reports/archive/2026/02/environmental-scan-2026-02-06.md",
+      "alerts_dispatched": 0,
+      "tipping_point_file": "analysis/tipping-point-indicators-2026-02-06.json",
+      "checkpoint_3_4": "auto-approved (autopilot)"
+    }
+  },
+  "output_files": [
+    "raw/daily-crawl-2026-02-06.json",
+    "structured/classified-signals-2026-02-06.json",
+    "analysis/fssf-hints-2026-02-06.json",
+    "analysis/tipping-point-indicators-2026-02-06.json",
+    "analysis/anomaly-detection-2026-02-06.json",
+    "reports/daily/environmental-scan-2026-02-06.md",
+    "reports/archive/2026/02/environmental-scan-2026-02-06.md",
+    "signals/database.json",
+    "logs/alerts-2026-02-06.json",
+    "logs/workflow-status-2026-02-06.json"
+  ]
+}

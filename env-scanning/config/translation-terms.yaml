@@ -412,9 +412,58 @@ style_guide:
 # VERSION INFORMATION
 # ============================================================================
 
+# ============================================================================
+# SKELETON HEADERS — EN↔KO section header mappings for skeleton_mirror.py
+# ============================================================================
+# These mappings define the exact header translations used in report skeletons.
+# Used by: skeleton_mirror.py, translation_validator.py, validate_report.py
+# Order: longest-first to prevent substring collisions during replacement.
+
+skeleton_headers:
+  # Section headers (## N.)
+  "경영진 요약": "Executive Summary"
+  "신규 탐지 신호": "Newly Detected Signals"
+  "기존 신호 업데이트": "Existing Signal Updates"
+  "패턴 및 연결고리": "Patterns and Connections"
+  "전략적 시사점": "Strategic Implications"
+  "시나리오 분석": "Plausible Scenarios"
+  "신뢰도 분석": "Confidence Analysis"
+  "부록": "Appendix"
+
+  # Weekly section headers
+  "주간 추세 분석": "Weekly Trend Analysis"
+  "신호 수렴 분석": "Signal Convergence Analysis"
+  "신호 진화 타임라인": "Signal Evolution Timeline"
+  "시스템 성능 리뷰": "System Performance Review"
+
+  # Signal field labels (9 fields)
+  "분류": "Classification"
+  "출처": "Source"
+  "핵심 사실": "Key Facts"
+  "정량 지표": "Quantitative Metrics"
+  "영향도": "Impact"
+  "상세 설명": "Detailed Description"
+  "추론": "Inference"
+  "이해관계자": "Stakeholders"
+  "모니터링 지표": "Monitoring Indicators"
+
+  # Signal block headers
+  "우선순위": "Priority"
+  "통합 우선순위": "Integrated Priority"
+  "신뢰도": "Confidence"
+
+  # Subsection headers
+  "오늘의 핵심 발견": "Today's Key Findings"
+  "주요 변화 요약": "Key Changes Summary"
+  "신호 간 교차 영향": "Cross-Impact Between Signals"
+  "떠오르는 테마": "Emerging Themes"
+  "강화 추세": "Strengthening Trends"
+  "약화 추세": "Weakening Trends"
+  "신호 상태 요약": "Signal Status Summary"
+
 metadata:
-  version: "1.0.0"
-  last_updated: "2026-01-30"
+  version: "1.1.0"
+  last_updated: "2026-02-18"
   compatible_with: "translation-agent v1.0+"
   maintained_by: "Environmental Scanning System"
 

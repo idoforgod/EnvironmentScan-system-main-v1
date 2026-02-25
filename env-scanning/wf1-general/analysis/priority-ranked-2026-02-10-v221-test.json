@@ -1,0 +1,37 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-10",
+    "workflow": "wf1-general",
+    "version": "2.2.1-test",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 20,
+    "scan_window": {
+      "start": "2026-02-09T10:56:39+00:00",
+      "end": "2026-02-10T10:56:39+00:00",
+      "lookback_hours": 24,
+      "temporal_gate_status": "PASS"
+    }
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "wf1-20260210-006", "title": "NEW START Treaty Expiration: Last Nuclear Arms Control Pact Between US and Russia Ends Feb 5", "category": "P", "psst": 91, "impact": 9.5, "priority_score": 94.2},
+    {"rank": 2, "id": "wf1-20260210-010", "title": "Three-Year Global Temperature Average Exceeds 1.5C for First Time", "category": "E_Environmental", "psst": 89, "impact": 9.2, "priority_score": 92.1},
+    {"rank": 3, "id": "wf1-20260210-005", "title": "China's Artificial Sun Breaks Plasma Density Limits Previously Thought Unbreakable", "category": "T", "psst": 88, "impact": 9.0, "priority_score": 90.5},
+    {"rank": 4, "id": "wf1-20260210-008", "title": "CRISPR Epigenetic Editing: Gene Activation Without DNA Cutting Achieved", "category": "T", "psst": 87, "impact": 8.8, "priority_score": 89.3},
+    {"rank": 5, "id": "wf1-20260210-004", "title": "Global Trade Growth Subdued at 2.6% as Tariff Uncertainty Becomes Top Risk", "category": "E", "psst": 86, "impact": 8.5, "priority_score": 88.7},
+    {"rank": 6, "id": "wf1-20260210-007", "title": "AI Impact Summit in New Delhi: Governments Move from Discussion to Regulation Action", "category": "P", "psst": 85, "impact": 8.3, "priority_score": 87.2},
+    {"rank": 7, "id": "wf1-20260210-009", "title": "Global Jobs Gap Reaches 408 Million as AI Reshapes Labor Markets", "category": "S", "psst": 84, "impact": 8.2, "priority_score": 86.1},
+    {"rank": 8, "id": "wf1-20260210-002", "title": "EeroQ Demonstrates Million-Qubit Control Architecture with Wonder Lake Chip", "category": "T", "psst": 83, "impact": 8.0, "priority_score": 85.0},
+    {"rank": 9, "id": "wf1-20260210-016", "title": "Semiconductor Tariffs Shift to Country of Design: Global Value Chain Fragmentation Accelerates", "category": "E", "psst": 82, "impact": 8.0, "priority_score": 84.5},
+    {"rank": 10, "id": "wf1-20260210-001", "title": "D-Wave Achieves Scalable On-Chip Cryogenic Control for Gate-Model Qubits", "category": "T", "psst": 81, "impact": 7.8, "priority_score": 83.2},
+    {"rank": 11, "id": "wf1-20260210-013", "title": "China Adds 240 GW Solar in Single Year as Renewables Surpass Coal in Global Electricity", "category": "E_Environmental", "psst": 80, "impact": 8.0, "priority_score": 82.8},
+    {"rank": 12, "id": "wf1-20260210-018", "title": "US EPA Announces Plans to Rescind Endangerment Finding Supporting Federal Climate Regulations", "category": "P", "psst": 79, "impact": 8.5, "priority_score": 81.5},
+    {"rank": 13, "id": "wf1-20260210-011", "title": "US GENIUS Act and CLARITY Act Create First Federal Stablecoin and Digital Asset Framework", "category": "E", "psst": 78, "impact": 7.5, "priority_score": 80.3},
+    {"rank": 14, "id": "wf1-20260210-019", "title": "Cleveland Clinic CRISPR Trial: Single Infusion Safely Reduces Cholesterol and Triglycerides", "category": "T", "psst": 77, "impact": 7.5, "priority_score": 79.1},
+    {"rank": 15, "id": "wf1-20260210-003", "title": "EU Launches SUPREME Consortium: EUR 50M to Industrialize Superconducting Quantum Technology", "category": "T", "psst": 76, "impact": 7.0, "priority_score": 78.0},
+    {"rank": 16, "id": "wf1-20260210-012", "title": "Boston Dynamics Production Atlas Humanoid Robot Enters Manufacturing at Hyundai Metaplant", "category": "T", "psst": 75, "impact": 7.2, "priority_score": 77.2},
+    {"rank": 17, "id": "wf1-20260210-014", "title": "WHO Six-Year Post-COVID Assessment: Preparedness Progress Fragile and Uneven", "category": "S", "psst": 74, "impact": 7.0, "priority_score": 76.5},
+    {"rank": 18, "id": "wf1-20260210-020", "title": "US Demographic Slowdown: Next 30 Years to Add Only 23 Million vs Previous 70 Million", "category": "S", "psst": 73, "impact": 7.5, "priority_score": 75.3},
+    {"rank": 19, "id": "wf1-20260210-017", "title": "Workforce Pell Grants Arrive in 2026: Non-Degree Credentials Gain Federal Funding Parity", "category": "S", "psst": 72, "impact": 6.5, "priority_score": 74.0},
+    {"rank": 20, "id": "wf1-20260210-015", "title": "Ethical AI Shifts from Principles to Practice: Accountability Frameworks Demanded", "category": "s", "psst": 71, "impact": 6.8, "priority_score": 73.2}
+  ]
+}

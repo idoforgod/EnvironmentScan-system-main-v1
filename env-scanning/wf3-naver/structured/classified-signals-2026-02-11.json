@@ -1,0 +1,202 @@
+{
+  "classification_metadata": {
+    "workflow_id": "wf3-naver",
+    "date": "2026-02-11",
+    "total_signals": 35,
+    "after_dedup": 15,
+    "steeps_distribution": {"P": 4, "E": 4, "T": 3, "S": 2, "E_Environmental": 1, "s": 1},
+    "fssf_distribution": {
+      "Weak Signal": 2,
+      "Emerging Issue": 3,
+      "Trend": 3,
+      "Megatrend": 2,
+      "Driver": 2,
+      "Wild Card": 1,
+      "Discontinuity": 1,
+      "Precursor Event": 1
+    },
+    "three_horizons_distribution": {"H1": 8, "H2": 5, "H3": 2}
+  },
+  "signals": [
+    {
+      "id": "naver-20260211-100-001",
+      "title": "트럼프, 철강·알루미늄 25% 관세 확정 — 한국 포함 전면 적용",
+      "section": "정치_100",
+      "final_category": "P",
+      "sub_category": "Trade_Policy",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point_alert": "YELLOW",
+      "confidence": 0.95,
+      "source_press": "서울신문"
+    },
+    {
+      "id": "naver-20260211-101-001",
+      "title": "TSMC 무관세 물량 빅테크 배분 — 반도체 관세 정책 2라운드 예고",
+      "section": "경제_101",
+      "final_category": "E",
+      "sub_category": "Trade_Semiconductor",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point_alert": "ORANGE",
+      "confidence": 0.94,
+      "source_press": "파이낸셜타임스/뉴스1"
+    },
+    {
+      "id": "naver-20260211-102-001",
+      "title": "의대 정원 5년간 3,300명 증원 확정 — 2027학년도 490명 시작",
+      "section": "사회_102",
+      "final_category": "S",
+      "sub_category": "Healthcare_Education",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.93,
+      "source_press": "정책브리핑"
+    },
+    {
+      "id": "naver-20260211-105-001",
+      "title": "가트너 '2026년 말 기업 앱 40% AI 에이전트 탑재' 전망",
+      "section": "IT과학_105",
+      "final_category": "T",
+      "sub_category": "AI_Agent",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.93,
+      "source_press": "SK텔레콤 뉴스룸"
+    },
+    {
+      "id": "naver-20260211-100-002",
+      "title": "공공부문 AI 도입 가속 — 행안부 'AI 민주정부' 실현 선언",
+      "section": "정치_100",
+      "final_category": "P",
+      "sub_category": "AI_Governance",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.91,
+      "source_press": "정책브리핑"
+    },
+    {
+      "id": "naver-20260211-101-002",
+      "title": "대형마트 새벽배송 허용 — 유통업계 판도 변화 (CJ대한통운 +16.7%)",
+      "section": "경제_101",
+      "final_category": "E",
+      "sub_category": "Retail_Regulation",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "tipping_point_alert": "YELLOW",
+      "confidence": 0.90,
+      "source_press": "한국경제"
+    },
+    {
+      "id": "naver-20260211-102-002",
+      "title": "주 4.5일제 시범 도입 — 정부 324억 원 예산 편성",
+      "section": "사회_102",
+      "final_category": "S",
+      "sub_category": "Labor_Policy",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.89,
+      "source_press": "이로운넷"
+    },
+    {
+      "id": "naver-20260211-104-001",
+      "title": "트럼프, 온실가스 '위해성 판단' 폐지 추진 — 글로벌 기후 규제 후퇴",
+      "section": "세계_104",
+      "final_category": "E_Environmental",
+      "sub_category": "Climate_Regulation",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H2",
+      "tipping_point_alert": "ORANGE",
+      "confidence": 0.92,
+      "source_press": "경향신문"
+    },
+    {
+      "id": "naver-20260211-105-002",
+      "title": "구글 TPU 아이언우드 출시 — 엔비디아 GPU 독점 도전",
+      "section": "IT과학_105",
+      "final_category": "T",
+      "sub_category": "AI_Chip",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.90,
+      "source_press": "중앙이코노미뉴스"
+    },
+    {
+      "id": "naver-20260211-101-003",
+      "title": "한국 수출 7,094억 달러 역대 최대 — 반도체·IT 19.9% 증가",
+      "section": "경제_101",
+      "final_category": "E",
+      "sub_category": "Export_Record",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.91,
+      "source_press": "중앙이코노미뉴스"
+    },
+    {
+      "id": "naver-20260211-104-002",
+      "title": "북한 무인기 침투 — 통일부 '깊은 유감' 공식 표명",
+      "section": "세계_104",
+      "final_category": "P",
+      "sub_category": "Inter_Korean",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "tipping_point_alert": "YELLOW",
+      "confidence": 0.88,
+      "source_press": "경향신문"
+    },
+    {
+      "id": "naver-20260211-101-004",
+      "title": "외국인 주택 거래 규제 강화 — 2년 실거주·체류자격 확인 의무화",
+      "section": "경제_101",
+      "final_category": "E",
+      "sub_category": "Housing_Policy",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.87,
+      "source_press": "한국경제"
+    },
+    {
+      "id": "naver-20260211-105-003",
+      "title": "한국 AI 유망기업 100선 발표 — AIIA 산업생태계 지도 구축",
+      "section": "IT과학_105",
+      "final_category": "T",
+      "sub_category": "AI_Ecosystem",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.86,
+      "source_press": "뉴스N연합"
+    },
+    {
+      "id": "naver-20260211-103-001",
+      "title": "농촌 기본소득 시범 지급 개시 — 2월 말 15만 원 월 지급",
+      "section": "생활문화_103",
+      "final_category": "s",
+      "sub_category": "Basic_Income",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.85,
+      "source_press": "정책브리핑"
+    },
+    {
+      "id": "naver-20260211-100-003",
+      "title": "산업안전 제재 강화 — 사망사고 반복 기업 영업정지·과징금 예고",
+      "section": "정치_100",
+      "final_category": "P",
+      "sub_category": "Industrial_Safety",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "tipping_point_alert": "GREEN",
+      "confidence": 0.84,
+      "source_press": "Lexology"
+    }
+  ]
+}

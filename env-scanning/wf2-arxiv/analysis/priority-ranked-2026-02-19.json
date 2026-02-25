@@ -1,0 +1,91 @@
+{
+  "ranking_metadata": {
+    "workflow_id": "wf2-arxiv",
+    "date": "2026-02-19",
+    "scan_window": "2026-02-17T22:31 ~ 2026-02-19T22:31 UTC (48h)",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 20,
+    "papers_scanned": 724,
+    "steeps_distribution": {
+      "T_Technological": 13,
+      "E_Environmental": 2,
+      "E_Economic": 2,
+      "S_Social": 2,
+      "s_spiritual": 1,
+      "P_Political": 0
+    },
+    "early_academic_signals": [
+      "Policy Compiler for Secure Agentic Systems (wf2-20260219-001) — AI agent security architecture NOT yet in mainstream media",
+      "ASPEN Brain Decoding (wf2-20260219-007) — Universal neural interface tech 2-3 yrs ahead of mainstream awareness",
+      "Southern Ocean Flux Variability (wf2-20260219-011) — Academic confirmation of climate model gaps mentioned in WF1 Signal 10",
+      "Perovskite Solar Efficiency Path (wf2-20260219-013) — 15% lead-free solar efficiency academically validated",
+      "Biodiversity Extinction Indices (wf2-20260219-019) — Quantitative framework for climate-linked extinction not yet in policy discourse"
+    ],
+    "cross_impact_pairs": [
+      {
+        "pair": ["wf2-20260219-001", "wf2-20260219-015"],
+        "relationship": "reinforcing",
+        "strength": "strong",
+        "description": "Policy Compiler for agentic security and recursive jailbreak detection both address the same AI agent attack surface — converging on a formal-methods approach to agent security"
+      },
+      {
+        "pair": ["wf2-20260219-004", "wf2-20260219-008"],
+        "relationship": "reinforcing",
+        "strength": "strong",
+        "description": "Humanoid loco-manipulation and dexterous canonical representations are converging toward a unified manipulation foundation — robotic labor displacement acceleration"
+      },
+      {
+        "pair": ["wf2-20260219-004", "wf2-20260219-009"],
+        "relationship": "reinforcing",
+        "strength": "strong",
+        "description": "EgoScale billion-frame dataset provides the data foundation that humanoid end-effector control papers require — data-model co-evolution in robotics"
+      },
+      {
+        "pair": ["wf2-20260219-002", "wf2-20260219-011"],
+        "relationship": "reinforcing",
+        "strength": "moderate",
+        "description": "Agent-based carbon budget modeling and Southern Ocean flux variability both reveal the same insight: current climate transition models underestimate non-linear dynamics"
+      },
+      {
+        "pair": ["wf2-20260219-010", "wf2-20260219-016"],
+        "relationship": "reinforcing",
+        "strength": "moderate",
+        "description": "Stablecoin depeg stress modeling and stablecoin design theory both point to same regulatory gap: no academic consensus on stable digital money architecture"
+      },
+      {
+        "pair": ["wf2-20260219-007", "wf2-20260219-014"],
+        "relationship": "reinforcing",
+        "strength": "moderate",
+        "description": "Cross-subject brain decoding (ASPEN) and adaptive P300 BCI training represent two different approaches to the same problem: universal neural interfaces without per-user calibration"
+      },
+      {
+        "pair": ["wf2-20260219-006", "wf2-20260219-003"],
+        "relationship": "tension",
+        "strength": "moderate",
+        "description": "Foundation model reasoning degradation under distribution shift (Why Thinking Hurts) contradicts the optimistic deployment trajectory of agentic AI in medical settings — capability-deployment gap"
+      }
+    ]
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "wf2-20260219-001", "title": "Policy Compiler for Secure Agentic Systems", "pSST": 91, "category": "cs.CR"},
+    {"rank": 2, "id": "wf2-20260219-002", "title": "Agent-Based Macroeconomics for UK Carbon Budget", "pSST": 89, "category": "econ.GN"},
+    {"rank": 3, "id": "wf2-20260219-003", "title": "Agentic AI and Medical Morality", "pSST": 88, "category": "cs.CY"},
+    {"rank": 4, "id": "wf2-20260219-004", "title": "Humanoid End-Effector Visual Loco-Manipulation", "pSST": 87, "category": "cs.RO"},
+    {"rank": 5, "id": "wf2-20260219-005", "title": "RL for Quantum State Preparation on NISQ Hardware", "pSST": 86, "category": "quant-ph"},
+    {"rank": 6, "id": "wf2-20260219-006", "title": "Why Thinking Hurts: Foundation Model Reasoning Shift", "pSST": 85, "category": "cs.LG"},
+    {"rank": 7, "id": "wf2-20260219-007", "title": "ASPEN: Cross-Subject Brain Decoding", "pSST": 84, "category": "eess.SP"},
+    {"rank": 8, "id": "wf2-20260219-008", "title": "Canonical Representations for Dexterous Manipulation", "pSST": 83, "category": "cs.RO"},
+    {"rank": 9, "id": "wf2-20260219-009", "title": "EgoScale: Dexterous Manipulation at Billion-Frame Scale", "pSST": 82, "category": "cs.RO"},
+    {"rank": 10, "id": "wf2-20260219-010", "title": "Stablecoin Depeg Stress via Multi-Agent Simulation", "pSST": 81, "category": "q-fin.RM"},
+    {"rank": 11, "id": "wf2-20260219-011", "title": "Southern Ocean Flux: Climate Sensitivity Implications", "pSST": 80, "category": "physics.ao-ph"},
+    {"rank": 12, "id": "wf2-20260219-012", "title": "Bias Spillover in LLM Alignment", "pSST": 79, "category": "cs.CY"},
+    {"rank": 13, "id": "wf2-20260219-013", "title": "Perovskite Solar Cell Simulation: Path to 15% Efficiency", "pSST": 78, "category": "cond-mat.mtrl-sci"},
+    {"rank": 14, "id": "wf2-20260219-014", "title": "Adaptive BCI Training with Minimum Calibration", "pSST": 77, "category": "eess.SP"},
+    {"rank": 15, "id": "wf2-20260219-015", "title": "Recursive LLM Defense for Agentic Jailbreaks", "pSST": 76, "category": "cs.CR"},
+    {"rank": 16, "id": "wf2-20260219-016", "title": "Stablecoin Design via Price Windows: Theory", "pSST": 75, "category": "q-fin.GN"},
+    {"rank": 17, "id": "wf2-20260219-017", "title": "LLM-Assistance in Biology Education: Democratization vs. Deception", "pSST": 74, "category": "cs.HC"},
+    {"rank": 18, "id": "wf2-20260219-018", "title": "VIGOR: Humanoid Fall Safety and Recovery", "pSST": 73, "category": "cs.RO"},
+    {"rank": 19, "id": "wf2-20260219-019", "title": "Biodiversity Extinction Indices Under Climate Scenarios", "pSST": 72, "category": "q-bio.PE"},
+    {"rank": 20, "id": "wf2-20260219-020", "title": "Quantum Side-Channel Leakage: Security Implications", "pSST": 71, "category": "quant-ph"}
+  ]
+}

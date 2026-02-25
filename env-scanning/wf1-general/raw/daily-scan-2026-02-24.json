@@ -1,0 +1,315 @@
+{
+  "scan_metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-02-24",
+    "scan_window": {
+      "start": "2026-02-23T20:44:18+00:00",
+      "end": "2026-02-24T20:44:18+00:00",
+      "lookback_hours": 24
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-24-20-44-18-b7c3",
+      "started_at": "2026-02-24T20:44:18+00:00",
+      "completed_at": "2026-02-24T20:55:00+00:00",
+      "actual_api_calls": {
+        "web_search": 10,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "TechCrunch", "MIT Technology Review", "US Federal Register", "WHO Press Releases",
+        "Nature News", "Science Magazine", "IEEE Spectrum", "OECD Newsroom",
+        "World Bank Blogs", "UN News", "EUR-Lex Recent Acts", "Brookings Institution",
+        "World Economic Forum", "Pew Research Center", "Hacker News", "Wired",
+        "Ars Technica", "NASA Climate Change", "Carbon Brief", "IMF Blog",
+        "BIS Speeches", "The Conversation - Ethics", "Psychology Today", "Aeon Magazine",
+        "AI Ethics Brief", "PubMed Central", "Google Patents"
+      ],
+      "file_created_at": "2026-02-24T20:55:00+00:00"
+    },
+    "total_items_collected": 35,
+    "sources_scanned": 27,
+    "sources_failed": 0
+  },
+  "items": [
+    {
+      "id": "websearch-20260224-001",
+      "title": "Triplet Superconductor Discovery Opens Path to Zero-Power Quantum Computing",
+      "source": {"name": "ScienceDaily", "type": "academic", "url": "https://www.sciencedaily.com/releases/2026/02/260221000252.htm", "published_date": "2026-02-21"},
+      "content": {"abstract": "Researchers have found signs of a rare triplet superconductor material that could send both electricity and spin signals with zero energy loss, potentially enabling ultra-fast quantum computers running on almost no power.", "keywords": ["quantum computing", "superconductor", "triplet pairing", "energy efficiency", "materials science"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:45:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-002",
+      "title": "IBM Declares 2026 as Year of Quantum Advantage Over Classical Computers",
+      "source": {"name": "WebSearch", "type": "blog", "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "IBM has publicly stated that 2026 will mark the first time a quantum computer will outperform a classical computer, unlocking breakthroughs in drug development, materials science, financial optimization.", "keywords": ["quantum advantage", "IBM", "classical computing", "drug discovery", "materials science"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:45:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-003",
+      "title": "Tesla Plans 50,000 Optimus Humanoid Robots at $20K-$30K Price Point in 2026",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://www.webpronews.com/2026-tech-innovations-ai-robotics-and-quantum-breakthroughs/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Humanoid robots entering commercial availability with Tesla planning 50,000 Optimus units in 2026 at $20,000-30,000 per unit, marking a paradigm shift in manufacturing, logistics, and healthcare.", "keywords": ["Tesla", "Optimus", "humanoid robots", "commercial robotics", "manufacturing"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:45:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-004",
+      "title": "UNEP State of Finance for Nature 2026: $30 Spent Destroying Nature for Every $1 Invested",
+      "source": {"name": "UN News", "type": "policy", "url": "https://unu.edu/ehs/article/5-things-watch-climate-and-environment-2026", "published_date": "2026-02-23"},
+      "content": {"abstract": "New UNEP report reveals for every dollar invested in nature, another 30 is spent destroying it. Report calls for fundamental change in global financing of Nature-based Solutions and phase out of harmful investments.", "keywords": ["UNEP", "nature finance", "nature-based solutions", "biodiversity", "sustainable finance"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-24T20:46:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-005",
+      "title": "Planet Conclusively Expected to Breach 1.5°C Barrier Within 3-5 Years",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026/", "published_date": "2026-02-23"},
+      "content": {"abstract": "Scientists expect the planet to conclusively breach the 1.5°C warming barrier within 3-5 years, marking a critical threshold crossing for climate action and adaptation strategies.", "keywords": ["1.5 degrees", "climate threshold", "Paris Agreement", "global warming", "adaptation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-24T20:46:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-006",
+      "title": "EU Carbon Border Adjustment Mechanism (CBAM) Begins Imposing Costs on Carbon-Intensive Imports",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://www.spglobal.com/sustainable1/en/insights/2026-sustainability-trends", "published_date": "2026-02-24"},
+      "content": {"abstract": "EU Carbon Border Adjustment Mechanism now imposing costs on imports based on carbon intensity from January 1, 2026, reshaping global trade patterns and incentivizing decarbonization of supply chains.", "keywords": ["CBAM", "carbon border", "EU regulation", "trade", "decarbonization"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:46:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-007",
+      "title": "Global Output Projected to Slow to 2.7% in 2026 Below Pre-Pandemic Average",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://unctad.org/publication/world-economic-situation-and-prospects-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "World output projected to slow to 2.7% in 2026 (below pre-pandemic 3.2% average). Advanced nations face slow growth while emerging markets benefit from reforms. Inflation and trade policy risks affect all regions.", "keywords": ["global GDP", "economic slowdown", "UNCTAD", "trade risks", "inflation"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:47:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-008",
+      "title": "Agentic AI in Banking: Systems Moving from Assistance to Transactional Authority",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org/stories/2026/02/banking-enters-the-agentic-era-and-other-finance-news-to-know/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Banking industry moving from AI 'assistance' to 'transactional authority', with systems integrated as semi-autonomous 'digital co-workers' settling routine trades and managing compliance under human oversight.", "keywords": ["agentic AI", "banking", "fintech", "autonomous trading", "compliance"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:47:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-009",
+      "title": "New START Nuclear Treaty Expires: US-Russia Without Bilateral Arms Control for First Time in 50+ Years",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.cfr.org/articles/visualizing-2026-five-foreign-policy-trends-watch", "published_date": "2026-02-24"},
+      "content": {"abstract": "New START nuclear arms treaty between Russia and US expired in February 2026, leaving both countries without bilateral arms control for the first time in more than 50 years.", "keywords": ["New START", "nuclear treaty", "arms control", "Russia", "geopolitics"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:48:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-010",
+      "title": "Global Political Risk Reaches Historic Tipping Point at 41.1% — Coface Index",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.coface.com/news-economy-and-insights/3-political-and-social-risks-to-watch-out-for-in-2026", "published_date": "2026-02-23"},
+      "content": {"abstract": "Global political risk index reaches historic high of 41.1%. Domestic politics playing outsized role in foreign policy, adding unprecedented uncertainty and volatility to geopolitical outlook.", "keywords": ["political risk", "Coface", "geopolitics", "instability", "foreign policy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:48:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-011",
+      "title": "DHS Overhauls H-1B Visa Selection: Prioritizing Higher-Skilled and Higher-Paid Workers Over Lottery",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.uscis.gov/newsroom/news-releases/dhs-changes-process-for-awarding-h-1b-work-visas-to-better-protect-american-workers", "published_date": "2026-02-24"},
+      "content": {"abstract": "DHS amending H-1B regulations to replace random lottery with skill-based selection prioritizing higher-skilled and higher-paid aliens, effective Feb 27, 2026 for FY 2027 registration.", "keywords": ["H-1B visa", "immigration", "skilled workers", "DHS", "labor policy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:48:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-012",
+      "title": "WHO Warns Global Health Systems 'At Risk' as International Aid Funding Cuts Bite",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://news.un.org/en/story/2026/02/1166869", "published_date": "2026-02-23"},
+      "content": {"abstract": "WHO warns that cuts to international aid and persistent funding gaps are undermining global health system as pandemic risks, drug-resistant infections and fragile health services increase.", "keywords": ["WHO", "global health", "funding cuts", "pandemic", "antimicrobial resistance"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T20:49:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-013",
+      "title": "WHO Pandemic Agreement: Fifth INB Meeting Concludes Productive Discussions on Key Annex",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/17-02-2026-global-commitment-on-display-as-countries-negotiate-key-annex-to-the-pandemic-agreement", "published_date": "2026-02-17"},
+      "content": {"abstract": "Fifth meeting of Intergovernmental Working Group on WHO Pandemic Agreement concluded after productive discussions Feb 9-14, 2026. IHR amendments strengthening national capacities entered force September 2025.", "keywords": ["pandemic agreement", "WHO", "IHR", "global health governance", "pandemic preparedness"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:49:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-014",
+      "title": "Microsoft Blueprint for Verifying Real vs AI-Generated Content Online",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/", "published_date": "2026-02-19"},
+      "content": {"abstract": "Microsoft's AI safety team evaluates methods for documenting digital manipulation and recommends technical standards for AI companies and social media platforms. Prompted by California AI Transparency Act taking effect August 2026.", "keywords": ["Microsoft", "AI safety", "deepfakes", "content verification", "AI transparency"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:50:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-015",
+      "title": "DeepSeek R1 Open-Source Reasoning Model Reshapes AI Landscape from China",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Chinese open-source models reshaping AI landscape. DeepSeek released R1 reasoning model, demonstrating what a small Chinese firm could achieve with limited resources, challenging Western AI dominance assumptions.", "keywords": ["DeepSeek", "open-source AI", "reasoning model", "China AI", "competition"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:50:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-016",
+      "title": "US Nonfarm Payrolls Rose Only 130K in January — Health Care Drives Hiring",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.bls.gov/news.release/empsit.nr0.htm", "published_date": "2026-02-24"},
+      "content": {"abstract": "US nonfarm payroll employment rose by only 130,000 in January 2026, unemployment at 4.3%. Health care and social assistance drive hiring while federal government and financial activities shed jobs.", "keywords": ["jobs report", "employment", "healthcare", "unemployment", "labor market"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T20:50:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-017",
+      "title": "ILO: Global Unemployment Holds at 4.9% but Gender Gap Persists at 24.2%",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "Global unemployment projected to remain at 4.9% in 2026. Women account for only 2/5 of global employment, 24.2% less likely than men to participate in labour force. AI adoption dampens demand in multiple fields.", "keywords": ["ILO", "unemployment", "gender gap", "AI displacement", "labor force"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T20:51:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-018",
+      "title": "The 'Soul Gap': AI Mirrors Human Cognition, Triggering Civilizational Identity Crisis",
+      "source": {"name": "The Conversation - Ethics", "type": "academic", "url": "https://techstartups.com/2025/11/26/top-50-ai-predictions-for-2026/", "published_date": "2026-02-24"},
+      "content": {"abstract": "By late 2026, a new idea enters cultural consciousness: the 'Soul Gap' — the difference between AI and human spiritual depth. As AI mirrors cognitive functions, humanity confronts what makes humans special, triggering identity crisis.", "keywords": ["Soul Gap", "AI consciousness", "identity crisis", "spirituality", "meaning"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T20:51:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-019",
+      "title": "AI Ethics Governance 2026: Autonomy Thresholds and Algorithmic Accountability on Legislative Agenda",
+      "source": {"name": "AI Ethics Brief", "type": "blog", "url": "https://www.kdnuggets.com/emerging-trends-in-ai-ethics-and-governance-for-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "Legislators in 2026 considering autonomy thresholds and levels of human oversight required for AI. Entry-level recruitment falling 35% due to AI, raising ethical questions about employer retraining responsibilities.", "keywords": ["AI ethics", "governance", "autonomy", "algorithmic accountability", "job displacement"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T20:51:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-020",
+      "title": "El Mencho Killing Sparks Cartel Succession Crisis Ahead of Mexico World Cup",
+      "source": {"name": "WebSearch", "type": "blog", "url": "https://www.cnn.com/world/live-news/mexico-el-mencho-killed-travel-chaos-02-23-26-intl-hnk", "published_date": "2026-02-23"},
+      "content": {"abstract": "Mexican army killed CJNG cartel leader Nemesio 'El Mencho' Oseguera, sparking fears of new violence wave and cartel succession battles as Jalisco prepares to host 2026 World Cup events.", "keywords": ["Mexico", "cartel", "El Mencho", "security", "World Cup"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:52:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-021",
+      "title": "Real-World Asset Tokenization Pivots from Pilots to Active Global Markets in 2026",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.tradingview.com/news/chainwire:9379361a6094b:0-why-2026-marks-the-pivot-for-real-world-asset-tokenization-from-experimental-pilots-to-active-global-markets/", "published_date": "2026-02-24"},
+      "content": {"abstract": "RWA tokenization moving from experimental pilots to active global markets. NYSE unveiling blockchain-based 24/7 trading, BlackRock and JP Morgan moving from pilots to production-scale tokenized products.", "keywords": ["tokenization", "RWA", "NYSE", "BlackRock", "blockchain"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:52:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-022",
+      "title": "USPTO Proposes Dramatic Restrictions on Patent Challenges Through Inter Partes Review",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://federalnewsnetwork.com/commentary/2026/01/uspto-proposes-dramatic-restrictions-on-patent-challenges-through-inter-partes-review/", "published_date": "2026-02-24"},
+      "content": {"abstract": "USPTO proposes dramatic restrictions on inter partes review patent challenges, potentially strengthening patent holders' positions and reshaping innovation competition landscape.", "keywords": ["USPTO", "patent reform", "inter partes review", "IP protection", "innovation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:52:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-023",
+      "title": "STRM.BIO Patent: Non-Viral Gene Delivery Using Megakaryocyte-Derived Extracellular Vesicles",
+      "source": {"name": "Google Patents", "type": "patent", "url": "https://www.swansonreed.com/massachusetts-patent-of-the-month-february-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "STRM.BIO Inc receives US Patent 12,521,449 for non-viral gene delivery system using megakaryocyte-derived extracellular vesicles (mEVs) for Fanconi Anemia treatment, solving the 'delivery dilemma' in gene therapy.", "keywords": ["gene therapy", "extracellular vesicles", "patent", "Fanconi Anemia", "non-viral delivery"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:53:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-024",
+      "title": "Underpriced Climate Risks Threaten Global Economy — WEF Warning",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org/stories/2026/02/underpriced-climate-risks-threaten-global-economy-climate-nature-news/", "published_date": "2026-02-24"},
+      "content": {"abstract": "World Economic Forum warns that underpriced climate risks threaten the global economy, calling for systemic repricing of climate-related financial risks across markets and asset classes.", "keywords": ["climate risk", "financial stability", "WEF", "asset repricing", "systemic risk"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:53:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-025",
+      "title": "US Tariff Powers Under Supreme Court Review: Legal Challenge to Executive Trade Authority",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.lazard.com/research-insights/top-geopolitical-trends-in-2026/", "published_date": "2026-02-24"},
+      "content": {"abstract": "US Supreme Court to rule on legality and scope of executive tariff powers in 2026, potentially reshaping the constitutional framework for trade policy.", "keywords": ["Supreme Court", "tariffs", "trade policy", "executive power", "constitutional law"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:53:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-026",
+      "title": "West African States Reignite Shared Currency (ECO) Talks Across ECOWAS",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://odi.org/en/insights/macroeconomic-outlook-five-economic-shifts-to-watch-in-2026/", "published_date": "2026-02-23"},
+      "content": {"abstract": "West African states reignite talks of shared currency (ECO) across ECOWAS member states, aiming to promote trade by eliminating transaction costs from currency differences.", "keywords": ["ECOWAS", "ECO currency", "monetary union", "West Africa", "trade"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:54:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-027",
+      "title": "Youth Mental Health Crisis 2026: Technology Use Profoundly Reshaping Brain Development",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://uncnews.unc.edu/2026/01/07/unc-experts-share-2026-trend-predictions/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Youth mental health commanding national attention in 2026 as technology use including social media and AI profoundly shapes emotional development, brain development, sleep patterns and overall well-being.", "keywords": ["youth mental health", "social media", "brain development", "screen time", "well-being"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-24T20:54:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-028",
+      "title": "Clean Energy Technology Markets Could Reach $640 Billion/Year by 2030",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://unctad.org/news/10-trends-shaping-global-trade-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "Environmental priorities increasingly shaping global trade as climate commitments move into implementation. Clean-energy technology markets could reach $640 billion annually by 2030.", "keywords": ["clean energy", "green tech", "trade", "energy transition", "market size"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-24T20:54:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-029",
+      "title": "AI Truth Crisis: Influence Survives Exposure, Doubt Easily Weaponized",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/", "published_date": "2026-02-02"},
+      "content": {"abstract": "Truth decay era: AI content dupes and erodes societal trust. Influence survives exposure, doubt easily weaponized, establishing truth no longer serves as reset button in information ecosystem.", "keywords": ["AI truth", "misinformation", "deepfakes", "trust decay", "information ecosystem"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T20:54:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-030",
+      "title": "Seton Hall 'Ethics & Values in the Era of AI' Seminar Draws Cross-Sector Dialogue",
+      "source": {"name": "The Conversation - Ethics", "type": "academic", "url": "https://blogs.shu.edu/chesterton/2026/02/10/ethics-values-in-the-era-of-ai-a-2-day-seminar/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Two-day seminar at Seton Hall University on Ethics and Values in the Era of AI brought together students, educators, professionals and community partners for cross-sector dialogue on ethical, social and economic AI implications.", "keywords": ["AI ethics", "education", "values", "cross-sector", "seminar"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-24T20:54:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-031",
+      "title": "Life Biosciences Begins Human Trials of Cellular Reprogramming Technology for Blindness",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.technologyreview.com/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Life Biosciences will trial potent cellular reprogramming technology on human volunteers to treat blindness, representing a major step in age-reversal and regenerative medicine.", "keywords": ["cellular reprogramming", "blindness", "clinical trial", "regenerative medicine", "age reversal"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:55:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-032",
+      "title": "Generative Coding Named MIT Technology Review 2026 Breakthrough Technology",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Generative coding recognized as one of MIT Technology Review's 10 Breakthrough Technologies for 2026, reflecting AI's transformation of software engineering practice.", "keywords": ["generative coding", "AI coding", "software engineering", "breakthrough technology", "developer tools"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-24T20:55:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-033",
+      "title": "SEC Clarity Act 2026: Standardizing Digital Commodity Definitions and Registration Requirements",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.bdo.com/insights/industries/fintech/trends-in-tokenization-reimagining-real-world-assets", "published_date": "2026-02-24"},
+      "content": {"abstract": "The Clarity Act expected in 2026 standardizes definition of digital commodities and codifies broker/dealer registration. SEC adopting more collaborative posture, removing crypto from special risk category.", "keywords": ["Clarity Act", "SEC", "digital commodities", "crypto regulation", "broker registration"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:55:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-034",
+      "title": "IPBES Assessment Offers 100 Actions for Measuring and Reducing Impacts on Nature",
+      "source": {"name": "UN News", "type": "policy", "url": "https://unu.edu/ehs/article/5-things-watch-climate-and-environment-2026", "published_date": "2026-02-24"},
+      "content": {"abstract": "New IPBES assessment offers 100 actionable measures for businesses, governments, and civil society to measure and reduce impacts on nature across all sectors.", "keywords": ["IPBES", "biodiversity", "nature impact", "business", "policy framework"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-24T20:55:00+00:00"
+    },
+    {
+      "id": "websearch-20260224-035",
+      "title": "Ukraine War Enters Fourth Year with No Prospect of Resolution",
+      "source": {"name": "WebSearch", "type": "blog", "url": "https://www.cidob.org/en/publications/world-2026-ten-issues-will-shape-international-agenda", "published_date": "2026-02-24"},
+      "content": {"abstract": "Russia-Ukraine war entering fourth year with no real prospect of resolution despite diplomatic efforts. Sudan conflict displaces 12 million. European and American mediation efforts continue.", "keywords": ["Ukraine", "Russia", "war", "Sudan", "displacement", "diplomacy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-24T20:55:00+00:00"
+    }
+  ]
+}

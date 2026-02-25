@@ -56,7 +56,7 @@ def identify_impacts(signal):
 ### SubStep 2.2.2: Cross-Impact Matrix (OPTIMIZED with Hierarchical Clustering)
 
 **🚀 OPTIMIZATION**: O(N²) → O(N log N) using hierarchical clustering
-**Performance**: 98% reduction in LLM calls, 95% faster execution
+**Performance**: 95% reduction in LLM calls, 90% faster execution (batch_size=5 for accuracy)
 
 ```python
 def build_cross_impact_matrix(signals):
@@ -68,10 +68,10 @@ def build_cross_impact_matrix(signals):
     1. Group by STEEPs category (O(N))
     2. Detailed analysis within groups (O(N/k))
     3. Representative analysis between groups (O(k²))
-    4. Batch processing (10 pairs per LLM call)
+    4. Batch processing (5 pairs per LLM call — smaller batches for richer context)
 
     Before: 100 signals = 10,000 LLM calls = 100s
-    After:  100 signals = 200-300 LLM calls = 2-3s
+    After:  100 signals = 400-500 LLM calls = 4-5s
     """
 
     log("INFO", f"Building cross-impact matrix for {len(signals)} signals (OPTIMIZED)")
@@ -161,7 +161,7 @@ def group_by_category(signals):
 def analyze_intra_group_batched(group_signals):
     """
     Analyze cross-impacts within same category
-    Use batching: 10 pairs per LLM call for efficiency
+    Use batching: 5 pairs per LLM call for quality+efficiency balance
 
     Returns: List of {signal_a, signal_b, influence_score}
     """
@@ -173,8 +173,8 @@ def analyze_intra_group_batched(group_signals):
         for j in range(i+1, n):  # Only upper triangle (avoid duplicates)
             pairs.append((group_signals[i], group_signals[j]))
 
-    # Batch process
-    batch_size = 10
+    # Batch process (5 pairs per call — smaller batches improve LLM accuracy)
+    batch_size = 5
     results = []
 
     for i in range(0, len(pairs), batch_size):
@@ -196,7 +196,7 @@ def assess_cross_impact_batch(signal_pairs):
     if len(signal_pairs) == 0:
         return []
 
-    # Build batch prompt
+    # Build batch prompt (includes abstract+keywords for richer context)
     prompt = f"""
 Analyze cross-impacts for the following {len(signal_pairs)} signal pairs.
 For each pair, rate how the first signal influences the second's likelihood.
@@ -207,9 +207,19 @@ Signal Pairs:
 """
 
     for idx, (sig_a, sig_b) in enumerate(signal_pairs, 1):
+        # Include abstract and keywords for deeper analysis context
+        a_abstract = sig_a.get('content', {}).get('abstract', sig_a.get('description', ''))[:200]
+        a_keywords = ', '.join(sig_a.get('content', {}).get('keywords', [])[:5])
+        b_abstract = sig_b.get('content', {}).get('abstract', sig_b.get('description', ''))[:200]
+        b_keywords = ', '.join(sig_b.get('content', {}).get('keywords', [])[:5])
+
         prompt += f"""
 {idx}. A: {sig_a['title']} ({sig_a['final_category']})
+      Abstract: {a_abstract}
+      Keywords: {a_keywords}
    B: {sig_b['title']} ({sig_b['final_category']})
+      Abstract: {b_abstract}
+      Keywords: {b_keywords}
 """
 
     prompt += """
@@ -272,7 +282,7 @@ def analyze_inter_group_batched(representatives):
 
     Example: 6 categories × 3 reps = 18 signals
     Cross-category pairs: (6×5)/2 × (3×3) = 135 pairs
-    With batching (10 per call): 14 LLM calls
+    With batching (5 per call): 27 LLM calls
     """
     pairs = []
 
@@ -287,8 +297,8 @@ def analyze_inter_group_batched(representatives):
 
     log("INFO", f"Analyzing {len(pairs)} cross-category representative pairs")
 
-    # Batch process
-    batch_size = 10
+    # Batch process (5 pairs per call for accuracy with abstract+keywords context)
+    batch_size = 5
     results = []
 
     for i in range(0, len(pairs), batch_size):
@@ -349,7 +359,7 @@ def estimate_calls(groups):
     for category, signals in groups.items():
         n = len(signals)
         pairs = (n * (n-1)) // 2  # Combinations
-        batches = (pairs + 9) // 10  # Ceiling division for batch_size=10
+        batches = (pairs + 4) // 5  # Ceiling division for batch_size=5
         intra_calls += batches
 
     # Inter-group: 6 categories, 3 reps each
@@ -361,7 +371,7 @@ def estimate_calls(groups):
         for j in range(i+1, num_categories):
             cross_category_pairs += reps_per_category * reps_per_category
 
-    inter_calls = (cross_category_pairs + 9) // 10
+    inter_calls = (cross_category_pairs + 4) // 5
 
     return intra_calls + inter_calls
 
@@ -380,19 +390,19 @@ def estimate_calls_for_n(n):
     """Estimate calls for N signals"""
     # Assume 6 categories, roughly equal distribution
     avg_per_category = n // 6
-    intra = 6 * (((avg_per_category * (avg_per_category-1))//2 + 9) // 10)
-    inter = ((6 * 5 // 2) * 9 + 9) // 10  # 6 categories, 3 reps
+    intra = 6 * (((avg_per_category * (avg_per_category-1))//2 + 4) // 5)
+    inter = ((6 * 5 // 2) * 9 + 4) // 5  # 6 categories, 3 reps
     return intra + inter
 ```
 
 **Performance Comparison**:
 
-| Signals | Naive N×N | Optimized | Reduction |
-|---------|-----------|-----------|-----------|
-| 50 | 2,500 | 100 | 96% |
-| 100 | 10,000 | 250 | 97.5% |
-| 200 | 40,000 | 600 | 98.5% |
-| 500 | 250,000 | 2,000 | 99.2% |
+| Signals | Naive N×N | Optimized (batch=5) | Reduction |
+|---------|-----------|---------------------|-----------|
+| 50 | 2,500 | 200 | 92% |
+| 100 | 10,000 | 500 | 95% |
+| 200 | 40,000 | 1,200 | 97% |
+| 500 | 250,000 | 4,000 | 98.4% |
 
 ### SubStep 2.2.3: Bayesian Network
 
@@ -613,7 +623,10 @@ Errors:
 - Bayesian inference: < 20 seconds
 
 ## Version
-**Agent Version**: 1.1.0
+**Agent Version**: 1.2.0
 **Methodology**: Probabilistic Cross-Impact Analysis + Bayesian Network
 **pSST Dimensions**: IC (Impact Confidence)
-**Last Updated**: 2026-01-30
+**Last Updated**: 2026-02-18
+**Changelog**:
+- v1.2.0 — Reduced batch_size from 10 to 5 for improved LLM accuracy. Added abstract+keywords context to cross-impact prompts for richer semantic analysis. Updated performance estimates.
+- v1.1.0 — Initial hierarchical clustering optimization with pSST IC dimension.

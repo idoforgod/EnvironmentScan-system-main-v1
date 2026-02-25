@@ -1,0 +1,172 @@
+{
+  "classification_metadata": {
+    "date": "2026-02-10",
+    "workflow_id": "wf2-arxiv",
+    "version": "2.2.1",
+    "total_classified": 15,
+    "steeps_distribution": {
+      "T": 7,
+      "P": 2,
+      "s": 2,
+      "S": 1,
+      "E": 1,
+      "E_Environmental": 2
+    },
+    "temporal_consistency": {
+      "anchor_timestamp": "2026-02-10T13:01:55.038277+00:00",
+      "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-02-10.json"
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "wf2-20260210-001",
+      "title": "Multi-Head Attention Is a Multi-Player Game",
+      "final_category": "T",
+      "category_confidence": 0.95,
+      "subcategories": ["transformer architecture", "game theory", "efficiency"],
+      "impact_score": 7.0,
+      "cross_impact": ["E_Economic:AI_compute_cost_reduction", "s_spiritual:AI_interpretability"],
+      "signal_maturity": "emerging"
+    },
+    {
+      "id": "wf2-20260210-002",
+      "title": "Persuasion Propagation in LLM Agents",
+      "final_category": "s",
+      "category_confidence": 0.91,
+      "subcategories": ["AI ethics", "social influence", "information manipulation"],
+      "impact_score": 9.0,
+      "cross_impact": ["P_Political:information_warfare", "S_Social:public_opinion_manipulation"],
+      "signal_maturity": "weak_signal"
+    },
+    {
+      "id": "wf2-20260210-003",
+      "title": "Grounding Generative Planners in Verifiable Logic",
+      "final_category": "T",
+      "category_confidence": 0.94,
+      "subcategories": ["embodied AI", "formal verification", "neuro-symbolic", "robotics"],
+      "impact_score": 8.5,
+      "cross_impact": ["P_Political:AI_regulation_compliance", "E_Economic:autonomous_systems_market"],
+      "signal_maturity": "trend"
+    },
+    {
+      "id": "wf2-20260210-004",
+      "title": "Sublinear Time Quantum Algorithm for Attention Approximation",
+      "final_category": "T",
+      "category_confidence": 0.97,
+      "subcategories": ["quantum computing", "AI acceleration", "transformer inference"],
+      "impact_score": 9.5,
+      "cross_impact": ["E_Economic:quantum_computing_market", "T_Technological:AI_scaling"],
+      "signal_maturity": "weak_signal"
+    },
+    {
+      "id": "wf2-20260210-005",
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning",
+      "final_category": "T",
+      "category_confidence": 0.93,
+      "subcategories": ["LLM reliability", "reinforcement learning", "confidence calibration"],
+      "impact_score": 8.0,
+      "cross_impact": ["s_spiritual:AI_trustworthiness", "E_Economic:enterprise_AI_adoption"],
+      "signal_maturity": "emerging"
+    },
+    {
+      "id": "wf2-20260210-006",
+      "title": "Why LoRA Resists Label Noise",
+      "final_category": "T",
+      "category_confidence": 0.92,
+      "subcategories": ["parameter-efficient fine-tuning", "noise robustness", "theoretical ML"],
+      "impact_score": 7.5,
+      "cross_impact": ["E_Economic:ML_deployment_cost", "T_Technological:edge_AI"],
+      "signal_maturity": "emerging"
+    },
+    {
+      "id": "wf2-20260210-007",
+      "title": "ALIGN: Aligned Delegation for Multi-Agent LLM Reasoning",
+      "final_category": "T",
+      "category_confidence": 0.94,
+      "subcategories": ["multi-agent systems", "alignment", "formal guarantees"],
+      "impact_score": 8.0,
+      "cross_impact": ["P_Political:AI_governance", "s_spiritual:AI_alignment"],
+      "signal_maturity": "emerging"
+    },
+    {
+      "id": "wf2-20260210-008",
+      "title": "Quantum Circuit-Based Learning Models: Bridging QC and ML",
+      "final_category": "T",
+      "category_confidence": 0.96,
+      "subcategories": ["quantum ML", "NISQ", "quantum advantage"],
+      "impact_score": 8.5,
+      "cross_impact": ["E_Economic:quantum_industry", "T_Technological:drug_discovery"],
+      "signal_maturity": "trend"
+    },
+    {
+      "id": "wf2-20260210-009",
+      "title": "Self-Guard: Defending Large Reasoning Models via Self-Reflection",
+      "final_category": "s",
+      "category_confidence": 0.89,
+      "subcategories": ["AI safety", "jailbreak defense", "reasoning security"],
+      "impact_score": 8.5,
+      "cross_impact": ["P_Political:AI_regulation", "T_Technological:LLM_deployment_safety"],
+      "signal_maturity": "emerging"
+    },
+    {
+      "id": "wf2-20260210-010",
+      "title": "Post-Quantum Cryptography for 6G V2X Communication",
+      "final_category": "T",
+      "category_confidence": 0.93,
+      "subcategories": ["PQC", "6G", "autonomous vehicles", "real-time security"],
+      "impact_score": 8.0,
+      "cross_impact": ["P_Political:telecom_regulation", "E_Economic:autonomous_vehicle_market"],
+      "signal_maturity": "emerging"
+    },
+    {
+      "id": "wf2-20260210-011",
+      "title": "Privacy-Stability-Generalization Equivalence in Quantum Learning",
+      "final_category": "P",
+      "category_confidence": 0.85,
+      "subcategories": ["quantum privacy", "differential privacy", "AI governance"],
+      "impact_score": 7.5,
+      "cross_impact": ["T_Technological:quantum_ML", "s_spiritual:data_privacy_ethics"],
+      "signal_maturity": "weak_signal"
+    },
+    {
+      "id": "wf2-20260210-012",
+      "title": "Climate Stress in Financial Networks: Core-Periphery Dynamics",
+      "final_category": "E",
+      "category_confidence": 0.90,
+      "subcategories": ["financial networks", "climate risk", "systemic risk"],
+      "impact_score": 9.0,
+      "cross_impact": ["E_Environmental:decarbonization", "P_Political:banking_regulation"],
+      "signal_maturity": "trend"
+    },
+    {
+      "id": "wf2-20260210-013",
+      "title": "AI Mental Well-Being Support: Therapeutic Boundaries",
+      "final_category": "S",
+      "category_confidence": 0.92,
+      "subcategories": ["AI therapy", "mental health", "parasocial attachment"],
+      "impact_score": 8.5,
+      "cross_impact": ["s_spiritual:human_meaning_AI", "P_Political:health_regulation"],
+      "signal_maturity": "trend"
+    },
+    {
+      "id": "wf2-20260210-014",
+      "title": "EV Adoption: Social Norms vs Financial Incentives Across 15 Countries",
+      "final_category": "E_Environmental",
+      "category_confidence": 0.88,
+      "subcategories": ["EV policy", "behavioral economics", "climate action"],
+      "impact_score": 8.0,
+      "cross_impact": ["E_Economic:EV_market", "P_Political:climate_policy"],
+      "signal_maturity": "trend"
+    },
+    {
+      "id": "wf2-20260210-015",
+      "title": "Agentic AI Security Framework: Behavioral Integrity",
+      "final_category": "P",
+      "category_confidence": 0.87,
+      "subcategories": ["AI regulation", "NIST", "agentic AI security", "compliance"],
+      "impact_score": 8.5,
+      "cross_impact": ["T_Technological:agentic_AI", "s_spiritual:AI_ethics"],
+      "signal_maturity": "emerging"
+    }
+  ]
+}

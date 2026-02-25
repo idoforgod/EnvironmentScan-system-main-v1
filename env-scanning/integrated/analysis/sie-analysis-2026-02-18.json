@@ -1,0 +1,401 @@
+{
+  "sie_analysis": {
+    "version": "1.0.0",
+    "analysis_date": "2026-02-18",
+    "analysis_timestamp": "2026-02-19T00:10:00+09:00",
+    "analyzer": "self-improvement-analyzer v1.0.0",
+    "scope": "integrated (WF1 + WF2 + WF3 + Integration)",
+    "prior_sie_runs": 2,
+    "prior_sie_dates": ["2026-02-13 (WF1)", "2026-02-13 (WF2)"],
+    "history_window_analyzed": ["2026-02-12", "2026-02-13", "2026-02-15", "2026-02-16", "2026-02-17", "2026-02-18"]
+  },
+
+  "status": "completed",
+  "applied_count": 0,
+  "proposed_count": 3,
+  "blocked_count": 0,
+
+  "preconditions": {
+    "self_improvement_enabled": true,
+    "core_invariants_loaded": true,
+    "min_workflow_history_met": true,
+    "min_history_count": 6,
+    "min_required": 3,
+    "safety_limits": {
+      "max_minor_changes_per_cycle": 3,
+      "max_threshold_delta_percent": 10,
+      "min_evidence_sample_size": 10
+    }
+  },
+
+  "area_1_threshold_tuning": {
+    "status": "analyzed",
+    "dedup_gate_assessment": {
+      "note": "Dedup gate (v2.6.0) is brand new as of 2026-02-18. Insufficient history to tune.",
+      "current_thresholds": {
+        "url_exact": 1.0,
+        "topic_fingerprint_definite": 0.60,
+        "topic_fingerprint_uncertain": 0.30
+      },
+      "observation": "First day of operation. Need at least 3 runs with dedup gate metrics (false positive/negative rates, uncertain bucket size) before any threshold tuning is appropriate.",
+      "action": "DEFER -- establishing baseline. Will begin tracking definite_duplicate_count, uncertain_count, and human_correction_count from this scan forward."
+    },
+    "dedup_cascade_thresholds": {
+      "current": {
+        "stage_2_string_similarity": 0.90,
+        "stage_3_semantic_similarity": 0.80,
+        "stage_4_entity_matching": 0.85
+      },
+      "assessment": "No evidence of systematic false positives or false negatives in recent scans. WF1 consistently producing 25-53 signals per day suggests the cascade is not over-filtering. No tuning recommended at this time."
+    }
+  },
+
+  "area_2_agent_performance": {
+    "status": "analyzed",
+    "workflow_execution_summary": {
+      "wf1": {
+        "signals_produced": 47,
+        "sources_scanned": 27,
+        "validation_result": "19/19 PASS",
+        "retry_count": 0,
+        "quality_note": "High signal yield. 27 sources scanned is the highest observed in recent history."
+      },
+      "wf2": {
+        "signals_produced": 15,
+        "papers_scanned": 475,
+        "validation_result": "19/19 PASS",
+        "retry_count": 0,
+        "quality_note": "Normal operation. 475 papers is consistent with recent history (517 on 02-17, 568 on 02-16, 583 on 02-15)."
+      },
+      "wf3": {
+        "signals_produced": 15,
+        "articles_crawled": 270,
+        "validation_result": "19/19 PASS",
+        "retry_count": 0,
+        "quality_note": "Consistent output. All 8 FSSF types represented for the first time in recent scans -- excellent classification diversity."
+      },
+      "integration": {
+        "method_used": "single-agent",
+        "top_signals_merged": 20,
+        "source_distribution": {"WF1": 9, "WF2": 3, "WF3": 8},
+        "validation_result": "19/19 PASS",
+        "quality_note": "Balanced cross-workflow representation. WF3 contributing 8 signals to top-20 is the highest observed."
+      }
+    },
+    "all_gates_passed": true,
+    "total_human_checkpoints_executed": 7,
+    "all_human_approvals": true,
+    "action": "No performance issues detected. No tuning needed."
+  },
+
+  "area_3_classification_quality": {
+    "status": "analyzed",
+    "steeps_distribution_trends": {
+      "wf1_history": {
+        "2026-02-12": {"T": 11, "P": 6, "E": 2, "Ev": 5, "S": 5, "s": 2, "total": 30, "T_ratio": 0.367},
+        "2026-02-13": {"T": 8, "P": 7, "E": 2, "Ev": 4, "S": 4, "s": 0, "total": 25, "T_ratio": 0.320},
+        "2026-02-15": {"T": 22, "P": 10, "E": 6, "Ev": 8, "S": 7, "s": 1, "total": 53, "T_ratio": 0.415},
+        "2026-02-16": {"T": 9, "P": 4, "E": 3, "Ev": 4, "S": 3, "s": 2, "total": 25, "T_ratio": 0.360},
+        "2026-02-17": {"T": 10, "P": 7, "E": 3, "Ev": 3, "S": 1, "s": 1, "total": 25, "T_ratio": 0.400},
+        "2026-02-18": {"T": 19, "P": 10, "E": 7, "Ev": 6, "S": 4, "s": 1, "total": 47, "T_ratio": 0.404}
+      },
+      "wf1_analysis": {
+        "T_dominance_persistent": true,
+        "T_ratio_mean": 0.378,
+        "T_ratio_range": [0.320, 0.415],
+        "s_spiritual_consistently_lowest": true,
+        "s_ratio_mean": 0.025,
+        "s_zero_count_in_6_runs": 1,
+        "observation": "T (Technological) consistently captures 32-42% of signals. This is structurally expected given the AI/quantum revolution cycle and source composition (tech blogs dominate). s (spiritual) is persistently the weakest category (0-4% ratio), appearing 0 times on 2026-02-13.",
+        "improvement_trend": "s_spiritual improved from 0 (Feb-13) to 1-2 signals consistently. Source exploration helped."
+      },
+      "wf2_steeps": {
+        "note": "WF2 (arXiv) T_Technological dominance is structural and expected (90%+ of arXiv papers are cs/eess/math). Non-T signals are limited by source nature. No tuning applicable.",
+        "2026-02-18_top_15": {"T": 14, "E": 1, "S": 1, "s": 1, "P": 1},
+        "2026-02-17_all": {"T": 429, "S": 21, "E": 23, "s": 1, "P": 1}
+      },
+      "wf3_steeps": {
+        "2026-02-18": {"S": 2, "T": 5, "E": 3, "Ev": 1, "P": 3, "s": 1},
+        "2026-02-17": {"S": 3, "T": 4, "E": 1, "Ec": 1, "P": 5, "s": 1},
+        "wf3_analysis": "WF3 shows the most balanced STEEPs distribution across all workflows, with 6/6 categories represented on both days. P and T alternate as top categories depending on news cycle."
+      },
+      "skew_index_wf1_feb18": {
+        "method": "variance of category ratios from uniform (0.167)",
+        "value": 0.0147,
+        "comparison_feb13": 0.073,
+        "improvement": "Skew index decreased, indicating better balance. However, the larger sample size (47 vs 25-30) contributes to this -- more signals naturally spread better."
+      }
+    },
+    "fssf_quality_wf3": {
+      "2026-02-18": {
+        "all_8_types_found": true,
+        "types": ["Weak Signal", "Emerging Issue", "Trend", "Megatrend", "Driver", "Wild Card", "Discontinuity", "Precursor Event"],
+        "assessment": "EXCELLENT -- first time in recent scans that all 8 FSSF types are represented in a single scan. This indicates strong classification granularity."
+      },
+      "three_horizons_distribution": {
+        "H1_ratio": 0.533,
+        "H2_ratio": 0.333,
+        "H3_ratio": 0.133,
+        "assessment": "Slightly H1-heavy (53%) which is expected for news-based scanning. H3 (long-term) signals are the rarest, which is normal."
+      }
+    },
+    "action": "No parameter changes recommended. Classification quality is stable and improving."
+  },
+
+  "area_4_psst_score_analysis": {
+    "status": "analyzed",
+    "known_weakness": "W2 -- pSST score compression in 80-89 range",
+    "wf1_psst_trends": {
+      "2026-02-12": {"top_signal_psst": "N/A (ranking format differs)", "note": "Priority-ranked file uses different format"},
+      "2026-02-13": {"top_15_range": [77, 90], "mean": 83.4, "std_dev": 3.72, "in_80_89_pct": 0.80},
+      "2026-02-15": {"top_signal_psst": 94, "note": "Higher ceiling than Feb-13"},
+      "2026-02-16": {"top_15_range": [74, 96], "mean": 85.2, "std_dev": 5.48, "in_80_89_pct": 0.52},
+      "2026-02-17": {"top_signal_psst": 94, "note": "From ranking metadata"},
+      "2026-02-18": {"top_15_range": [83, 94], "mean": 87.7, "std_dev": 3.40, "in_80_89_pct": 0.60}
+    },
+    "compression_assessment": {
+      "feb_13_baseline": "80% clustered in 80-89 (SEVERE compression)",
+      "feb_16_status": "52% in 80-89 range, range expanded to 22 points (SIGNIFICANTLY IMPROVED)",
+      "feb_18_status": "60% in 80-89 range, range is 11 points (83-94). MODERATE compression.",
+      "trend": "IMPROVING but not fully resolved. Feb-16 showed best spread (range=22, std=5.48). Feb-18 narrowed back (range=11, std=3.40).",
+      "structural_note": "Score compression is partially structural: when a day has genuinely high-impact events (RSA-2048 quantum break, New START expiry, error-corrected quantum computer), many signals legitimately cluster in the HIGH tier. The compression is a feature, not entirely a bug."
+    },
+    "psst_weight_analysis": {
+      "current_weights": {"SR": 0.20, "ES": 0.20, "CC": 0.15, "TC": 0.15, "DC": 0.15, "IC": 0.15},
+      "sum_check": 1.0,
+      "observation": "SR and ES dominate at 20% each. For academic/policy sources (high SR), the floor is already high. Differentiating within the 80-89 band would require increasing DC (Distinctiveness) or IC (Impact) weight, which penalize similar/mainstream signals more.",
+      "prior_suggestion_from_feb13": "Increase SR from 0.20 to 0.22 -- was deferred for insufficient history.",
+      "current_assessment": "With 6 runs of history, the evidence shows compression is MODERATELY persistent but IMPROVING over time. The Feb-16 result (std=5.48) demonstrates the system CAN produce good spread when event diversity is high. The weight change suggested in Feb-13 (SR +0.02) would increase the floor for high-reliability sources, potentially WORSENING compression for academic/policy-heavy days.",
+      "revised_suggestion": "Instead of SR increase, consider increasing DC weight from 0.15 to 0.17 (and decreasing SR from 0.20 to 0.18) to reward signal distinctiveness more. This would spread scores by differentiating truly novel signals from well-known topics that multiple sources cover.",
+      "action": "PROPOSE as MAJOR -- weight rebalancing affects scoring behavior across all workflows and needs user review."
+    }
+  },
+
+  "area_5_hallucination_tracking": {
+    "status": "analyzed",
+    "observations": {
+      "validation_pass_rate": "100% across all 4 reports (WF1: 19/19, WF2: 19/19, WF3: 19/19, Integrated: 19/19)",
+      "retry_count": 0,
+      "unfilled_placeholders": 0,
+      "signal_id_format_violations": 0,
+      "url_validity_issues": "Not detected in validation",
+      "date_anomalies": "Not detected",
+      "fabrication_indicators": "None detected"
+    },
+    "assessment": "CLEAN -- no hallucination or fabrication indicators detected. All reports passed programmatic validation on first attempt with zero retries.",
+    "action": "No changes needed. Verification strictness is appropriate."
+  },
+
+  "area_6_source_exploration_tracking": {
+    "status": "analyzed",
+    "exploration_history_summary": {
+      "total_scans_recorded": 5,
+      "scans_with_candidates": 2,
+      "scans_zero_candidates": 3,
+      "dates_with_candidates": ["2026-02-13", "2026-02-15"],
+      "dates_zero": ["2026-02-16", "2026-02-17", "2026-02-18"]
+    },
+    "candidate_performance": {
+      "feb_13": {"candidates": 5, "viable": 4, "signals": 5},
+      "feb_15": {"candidates": 5, "viable": 5, "signals": 8, "sources": ["Inside Climate News", "Mongabay", "STAT News", "DigitalFoodLab", "KDnuggets"]}
+    },
+    "zero_candidate_streak": {
+      "count": 3,
+      "dates": ["2026-02-16", "2026-02-17", "2026-02-18"],
+      "concern_level": "MODERATE",
+      "analysis": "Three consecutive scans with 0 candidates discovered and 0 signals collected. All recorded by 'exploration_gate.py (safety net)', suggesting the exploration phase is triggering but not finding new sources. Possible causes: (1) STEEPs gaps have narrowed enough that coverage_gap_threshold (0.15) is no longer triggering gap-directed search, (2) exploration agent timeout or failure, (3) all viable sources already discovered.",
+      "recommendation": "Monitor for 2 more scans. If the zero streak reaches 5, consider lowering coverage_gap_threshold from 0.15 to 0.10 (within MINOR bounds: current=0.15, min=0.05, max_delta=0.05)."
+    },
+    "promotion_candidates": {
+      "status": "No sources have reached auto_promotion_scans threshold (5 consecutive successes)",
+      "closest_candidates": ["Inside Climate News (2 successful scans)", "Mongabay (2 successful scans)"],
+      "note": "Both candidates appeared in Feb-13 and Feb-15. Zero exploration activity since then means no additional data points to evaluate."
+    },
+    "action": "DEFER threshold change. Observation period extended. Will reassess at 5-scan zero streak."
+  },
+
+  "area_7_source_health": {
+    "status": "analyzed",
+    "observation": "No health-history.jsonl file found for analysis. Source health tracking data is not yet being collected.",
+    "wf1_sources_scanned": 27,
+    "wf2_papers_scanned": 475,
+    "wf3_articles_crawled": 270,
+    "all_sources_functional": "Inferred from successful scan completion -- no errors reported in master status.",
+    "action": "No issues detected. Source health monitoring infrastructure should be established in future releases."
+  },
+
+  "cross_workflow_metrics": {
+    "signal_yield_comparison": {
+      "wf1": {"signals": 47, "sources": 27, "yield_per_source": 1.74},
+      "wf2": {"signals_top15": 15, "papers_total": 475, "selectivity_rate": 0.032},
+      "wf3": {"signals": 15, "articles": 270, "selectivity_rate": 0.056}
+    },
+    "integrated_signal_distribution": {
+      "wf1_in_top20": 9,
+      "wf2_in_top20": 3,
+      "wf3_in_top20": 8,
+      "balance_assessment": "GOOD -- WF1 and WF3 are well-balanced (9 vs 8). WF2 at 3 is lower but expected given arXiv's T-dominance and the broader diversity offered by WF1/WF3.",
+      "trend": "WF3 contribution increased from historical average. Tipping point alerts (RED: 1, ORANGE: 1) from WF3 add unique value to integrated analysis."
+    },
+    "validation_consistency": {
+      "all_workflows_first_pass": true,
+      "total_checks_passed": "76/76 across all 4 reports",
+      "assessment": "EXCELLENT -- zero validation failures, zero retries. The 4-layer quality defense system is functioning as designed."
+    }
+  },
+
+  "known_weaknesses_status": {
+    "W1_impact_scale_inconsistency": {
+      "status": "RESOLVED",
+      "evidence": "All WF1 signals use X/10 format. WF2 and WF3 follow their respective formats consistently.",
+      "since": "2026-02-09"
+    },
+    "W2_psst_score_compression": {
+      "status": "PARTIALLY_PERSISTENT",
+      "current_state": "60% of WF1 top-15 in 80-89 range (improvement from 80% on Feb-13). Range=11, std=3.40.",
+      "trend": "IMPROVING but variable. Best result was Feb-16 (std=5.48, 52% in 80-89).",
+      "proposal": "See area_4 -- weight rebalancing proposal (DC up, SR down) as MAJOR proposal."
+    },
+    "W3_cross_analysis_formulaic": {
+      "status": "IMPROVED",
+      "evidence": "WF1 Feb-18 cross-impact pairs show non-obvious connections (quantum crypto break -> HKMA urgency, policy-market decoupling). Integration merges cross-workflow interactions."
+    },
+    "W4_reasoning_too_shallow": {
+      "status": "IMPROVED",
+      "evidence": "All signals in WF1 top-15 contain substantive rationale with quantitative anchoring and cross-signal references."
+    },
+    "W5_steeps_category_imbalance": {
+      "status": "IMPROVED",
+      "evidence": "WF1: 6/6 categories represented. WF3: 6/6 represented. s_spiritual consistently present at 1+ signals.",
+      "remaining_concern": "s_spiritual still at 2% of total WF1 signals (1/47). Exploration pipeline inactive for 3 consecutive scans."
+    },
+    "W6_unicode_arrow": {
+      "status": "RESOLVED",
+      "since": "2026-02-09"
+    },
+    "W7_signals_11_15_condensed": {
+      "status": "RESOLVED",
+      "since": "2026-02-09"
+    },
+    "W8_report_length_disparity": {
+      "status": "NOT_ASSESSED",
+      "note": "Low priority. Would require reading full reports to compare word counts."
+    }
+  },
+
+  "proposals": [
+    {
+      "id": "SIE-2026-02-18-001",
+      "category": "psst_weight_rebalancing",
+      "severity": "MAJOR",
+      "title": "pSST Dimension Weight Rebalancing: Increase DC, Decrease SR",
+      "description": "Rebalance pSST dimension weights to address persistent score compression (W2). Increase Distinctiveness Confidence (DC) from 0.15 to 0.17 and decrease Source Reliability (SR) from 0.20 to 0.18. Sum remains 1.0.",
+      "current_values": {"SR": 0.20, "ES": 0.20, "CC": 0.15, "TC": 0.15, "DC": 0.15, "IC": 0.15},
+      "proposed_values": {"SR": 0.18, "ES": 0.20, "CC": 0.15, "TC": 0.15, "DC": 0.17, "IC": 0.15},
+      "rationale": "Higher DC weight rewards signal distinctiveness, spreading scores by differentiating truly novel signals from well-covered mainstream topics. Lower SR slightly reduces the floor for high-reliability sources that compress the 80-89 band. The delta of 0.02 is within max_delta_per_cycle (0.03). Sum constraint preserved.",
+      "evidence": {
+        "compression_trend": "60% of top-15 in 80-89 range (improving from 80% baseline but still persistent)",
+        "std_dev_trend": [3.72, 5.48, 3.40],
+        "std_dev_dates": ["2026-02-13", "2026-02-16", "2026-02-18"],
+        "sample_size": 6
+      },
+      "bounds_check": {
+        "SR_new_0.18": "within [0.10, 0.35], delta=0.02 <= max_delta 0.03",
+        "DC_new_0.17": "within [0.05, 0.30], delta=0.02 <= max_delta 0.03",
+        "sum": "0.18+0.20+0.15+0.15+0.17+0.15 = 1.00"
+      },
+      "target_file": "config/thresholds.yaml",
+      "target_paths": ["psst_scoring.dimension_weights.SR", "psst_scoring.dimension_weights.DC"],
+      "action": "REQUIRES_USER_APPROVAL",
+      "reason_major": "Shared config (thresholds.yaml) modification. SIE policy: shared configs not modifiable without user approval. Weight rebalancing affects scoring behavior across ALL workflows."
+    },
+    {
+      "id": "SIE-2026-02-18-002",
+      "category": "exploration_effectiveness",
+      "severity": "MAJOR",
+      "title": "Source Exploration: Investigate 3-Scan Zero-Candidate Streak",
+      "description": "Source exploration has produced 0 candidates and 0 signals for 3 consecutive scans (Feb 16, 17, 18). All entries logged by 'exploration_gate.py (safety net)' suggesting the exploration phase triggers but fails to discover new sources.",
+      "recommended_actions": [
+        "Verify exploration agent is receiving STEEPs gap data correctly",
+        "Check if coverage_gap_threshold (0.15) is still being triggered -- with 47 signals on Feb-18, gaps may have narrowed below threshold",
+        "If streak reaches 5, consider lowering coverage_gap_threshold from 0.15 to 0.10",
+        "Review exploration-frontiers.yaml keyword effectiveness"
+      ],
+      "evidence": {
+        "zero_streak": 3,
+        "dates": ["2026-02-16", "2026-02-17", "2026-02-18"],
+        "last_successful": "2026-02-15 (5 candidates, 5 viable, 8 signals)",
+        "s_spiritual_ratio_feb18": "1/47 = 0.021 (below gap threshold of 0.15)"
+      },
+      "action": "REQUIRES_USER_INVESTIGATION",
+      "reason_major": "Potential exploration pipeline degradation. Investigation needed before parameter changes."
+    },
+    {
+      "id": "SIE-2026-02-18-003",
+      "category": "wf3_fssf_quality",
+      "severity": "MINOR",
+      "title": "WF3 FSSF Classification Achievement: All 8 Types Represented",
+      "description": "Positive observation: WF3 scan on 2026-02-18 achieved all 8 FSSF types in a single scan for the first time in recent history. This indicates excellent classification granularity and signal diversity from Naver News sources.",
+      "evidence": {
+        "fssf_types": ["Weak Signal", "Wild Card", "Discontinuity", "Driver", "Emerging Issue", "Precursor Event", "Trend", "Megatrend"],
+        "prior_max_types_per_scan": 7,
+        "tipping_point_alerts": {"RED": 1, "ORANGE": 1, "YELLOW": 5}
+      },
+      "action": "OBSERVATION_ONLY",
+      "note": "No parameter change needed. This is a positive trend to track and maintain."
+    }
+  ],
+
+  "applied_changes": [],
+
+  "deferred_suggestions": [
+    {
+      "parameter": "source_exploration.coverage_gap_threshold",
+      "current_value": 0.15,
+      "suggested_value": 0.10,
+      "delta": -0.05,
+      "within_minor_bounds": true,
+      "reason_for_deferral": "Zero-candidate streak is only 3 scans. Wait for 5-scan threshold before acting. Also need to investigate if the issue is threshold-related or an exploration agent problem.",
+      "trigger_condition": "Apply if zero streak reaches 5 AND s_spiritual remains below 5%"
+    },
+    {
+      "parameter": "dedup_gate.thresholds.topic_fingerprint_definite",
+      "current_value": 0.60,
+      "note": "Brand new (v2.6.0, first day). Need baseline metrics before any tuning. Defer for minimum 5 scans.",
+      "reason_for_deferral": "Insufficient history. First operational day."
+    }
+  ],
+
+  "overall_assessment": {
+    "quality_grade": "A",
+    "summary": "The 2026-02-18 scan represents one of the strongest operational days in system history. All 3 workflows completed successfully with zero validation failures and zero retries. WF1 produced 47 signals (highest recent count) with 6/6 STEEPs coverage. WF2 processed 475 papers consistently. WF3 achieved all 8 FSSF types for the first time. Integration balanced WF1 (9) and WF3 (8) representation well. The new dedup gate (v2.6.0) operated without issues on its first day. The only persistent concern is pSST score compression (W2, moderate) and the source exploration zero-candidate streak (3 scans).",
+    "strengths": [
+      "76/76 validation checks passed across all reports (100%)",
+      "Zero retries -- all reports generated correctly on first attempt",
+      "WF3 FSSF: all 8 types represented (first time in history)",
+      "WF1: 47 signals from 27 sources -- highest recent yield",
+      "Integration: balanced WF1/WF3 contribution (9/8) with meaningful WF2 representation (3)",
+      "All 7 human checkpoints executed and approved",
+      "Dedup gate v2.6.0 operational without errors on first day"
+    ],
+    "areas_for_improvement": [
+      "pSST score compression persists (60% in 80-89, std=3.40) -- weight rebalancing proposal pending",
+      "Source exploration inactive for 3 consecutive scans -- investigation recommended",
+      "s_spiritual category at 2.1% of WF1 signals (1/47) -- persistently weakest category",
+      "WF2 STEEPs balance inherently limited by arXiv source composition -- structural, not fixable by SIE"
+    ]
+  },
+
+  "meta": {
+    "auto_changes_applied": 0,
+    "proposals_requiring_approval": 2,
+    "observations_logged": 1,
+    "deferred_suggestions": 2,
+    "next_sie_run": "2026-02-19 or next daily scan",
+    "tracking_items": [
+      "Dedup gate false positive/negative rates (new metric, baseline being established)",
+      "Source exploration zero-candidate streak (currently 3, threshold for action: 5)",
+      "pSST score compression std_dev trend (target: consistently > 4.0)"
+    ]
+  }
+}

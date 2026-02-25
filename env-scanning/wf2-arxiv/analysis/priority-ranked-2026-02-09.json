@@ -1,0 +1,335 @@
+{
+  "scan_metadata": {
+    "workflow": "wf2-arxiv",
+    "date": "2026-02-09",
+    "scan_period": "2026-01-26 ~ 2026-02-09",
+    "scan_theme": "AI monetization reality: Is AI actually making money?",
+    "total_signals": 12,
+    "ranking_method": "pSST_unified",
+    "pSST_dimensions": {
+      "SR": "Source Reliability",
+      "TC": "Temporal Currency",
+      "DC": "Deduplication Confidence",
+      "ES": "Environmental Significance",
+      "CC": "Cross-domain Connectivity",
+      "IC": "Impact Criticality"
+    }
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "wf2-2602.02607",
+      "title_ko": "혁신세(Innovation Tax): 미국 은행 부문의 생성형 AI 도입, 생산성 역설, 시스템 리스크",
+      "title_en": "The Innovation Tax: Generative AI Adoption, Productivity Paradox, and Systemic Risk in the U.S. Banking Sector",
+      "arxiv_id": "2602.02607",
+      "url": "https://arxiv.org/abs/2602.02607",
+      "steeps": "E_Economic",
+      "secondary_steeps": ["P_Political"],
+      "pSST_score": 95,
+      "pSST_grade": "A",
+      "pSST_breakdown": {
+        "SR": 9.5,
+        "TC": 10.0,
+        "DC": 9.5,
+        "ES": 9.8,
+        "CC": 9.5,
+        "IC": 9.7
+      },
+      "theme_relevance": "DIRECT - AI adoption ROI failure의 가장 체계적 실증 연구. 809개 금융기관 데이터로 AI가 '돈을 잃게 하고 있다'는 증거 제시.",
+      "key_finding": "AI 도입 은행의 ROE 428bp 하락 (소규모 은행 -517bp). 'Innovation J-Curve': 현재는 비용 단계, 수익은 미래.",
+      "significance": 10
+    },
+    {
+      "rank": 2,
+      "id": "wf2-2501.12948",
+      "title_ko": "DeepSeek-R1: 강화학습을 통한 LLM 추론 능력 촉진",
+      "title_en": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "arxiv_id": "2501.12948",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["E_Economic"],
+      "pSST_score": 94,
+      "pSST_grade": "A",
+      "pSST_breakdown": {
+        "SR": 9.5,
+        "TC": 9.5,
+        "DC": 9.0,
+        "ES": 9.8,
+        "CC": 9.8,
+        "IC": 9.8
+      },
+      "theme_relevance": "DIRECT - $5.6M으로 프론티어급 성능 달성은 AI 경제학의 근본적 전환점. '더 많은 돈 = 더 좋은 AI' 공식을 파괴.",
+      "key_finding": "학습 비용 $5.6M으로 GPT-4o 능가. 7B 증류 모델이 수십억 달러 투자된 프론티어 모델 성능 달성.",
+      "significance": 10
+    },
+    {
+      "rank": 3,
+      "id": "wf2-2511.23455",
+      "title_ko": "진보의 가격: 알고리즘 효율성과 AI 추론 비용의 하락",
+      "title_en": "The Price of Progress: Algorithmic Efficiency and the Falling Cost of AI Inference",
+      "arxiv_id": "2511.23455",
+      "url": "https://arxiv.org/abs/2511.23455",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["E_Economic"],
+      "pSST_score": 93,
+      "pSST_grade": "A",
+      "pSST_breakdown": {
+        "SR": 9.5,
+        "TC": 9.0,
+        "DC": 9.5,
+        "ES": 9.5,
+        "CC": 9.5,
+        "IC": 9.5
+      },
+      "theme_relevance": "DIRECT - AI 추론 비용이 연간 5~10배 하락한다는 정량적 증거는 AI 수익성 전망의 핵심 변수.",
+      "key_finding": "벤치마크 성능 달성 비용 연간 5~10배 하락. 순수 알고리즘 효율성 향상은 연간 ~3배.",
+      "significance": 9
+    },
+    {
+      "rank": 4,
+      "id": "wf2-2601.13597",
+      "title_ko": "AI IDE인가 자율 에이전트인가? 코딩 에이전트의 소프트웨어 개발 영향 측정",
+      "title_en": "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents on Software Development",
+      "arxiv_id": "2601.13597",
+      "url": "https://arxiv.org/abs/2601.13597",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["E_Economic"],
+      "pSST_score": 92,
+      "pSST_grade": "A",
+      "pSST_breakdown": {
+        "SR": 9.5,
+        "TC": 9.5,
+        "DC": 9.0,
+        "ES": 9.5,
+        "CC": 9.0,
+        "IC": 9.5
+      },
+      "theme_relevance": "DIRECT - AI 코딩 도구의 실제 ROI를 인과적으로 측정. 속도 향상 + 기술 부채라는 숨겨진 비용 발견.",
+      "key_finding": "첫 AI 도구로 사용 시에만 큰 속도 향상. 정적 분석 경고 +18%, 인지 복잡성 +39% = 숨겨진 기술 부채.",
+      "significance": 9
+    },
+    {
+      "rank": 5,
+      "id": "wf2-2602.03593",
+      "title_ko": "커밋 너머: AI 코딩 어시스턴트에 대한 개발자 생산성 관점",
+      "title_en": "Beyond the Commit: Developer Perspectives on Productivity with AI Coding Assistants",
+      "arxiv_id": "2602.03593",
+      "url": "https://arxiv.org/abs/2602.03593",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["S_Social", "E_Economic"],
+      "pSST_score": 91,
+      "pSST_grade": "A",
+      "pSST_breakdown": {
+        "SR": 9.5,
+        "TC": 10.0,
+        "DC": 9.0,
+        "ES": 9.0,
+        "CC": 9.0,
+        "IC": 9.0
+      },
+      "theme_relevance": "DIRECT - BNY Mellon 2,989명 대규모 실증. AI 코딩 도구 유용성에 대한 개발자의 상반된 평가가 ROI 측정의 근본적 어려움을 시사.",
+      "key_finding": "도구 유용성에 대한 상반된 견해 공존. 장기적 전문성/작업 주인의식 저하 우려.",
+      "significance": 9
+    },
+    {
+      "rank": 6,
+      "id": "wf2-2601.06343",
+      "title_ko": "자동화 역설의 해결: 노동분배율은 하락해도 임금은 상승한다",
+      "title_en": "Resolving the automation paradox: falling labor share, rising wages",
+      "arxiv_id": "2601.06343",
+      "url": "https://arxiv.org/abs/2601.06343",
+      "steeps": "E_Economic",
+      "secondary_steeps": ["S_Social", "P_Political"],
+      "pSST_score": 90,
+      "pSST_grade": "A",
+      "pSST_breakdown": {
+        "SR": 9.5,
+        "TC": 9.0,
+        "DC": 8.5,
+        "ES": 9.5,
+        "CC": 9.5,
+        "IC": 9.0
+      },
+      "theme_relevance": "DIRECT - David Autor(MIT)의 자동화-임금 관계에 대한 반직관적 발견. AI가 노동시장에 미치는 실제 경제적 영향의 핵심 이론적 프레임.",
+      "key_finding": "노동분배율 하락이 오히려 임금 상승으로 이어질 수 있음. 12개 선진국에서 확인. 미국 실질임금 상승의 16%가 이 메커니즘.",
+      "significance": 9
+    },
+    {
+      "rank": 7,
+      "id": "wf2-2512.20264",
+      "title_ko": "AI 스케일링의 수확체감 벽: LLM, 전기 개, 일반상대성이론",
+      "title_en": "The AI Scaling Wall of Diminishing Returns",
+      "arxiv_id": "2512.20264",
+      "url": "https://arxiv.org/abs/2512.20264",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["E_Economic"],
+      "pSST_score": 89,
+      "pSST_grade": "B+",
+      "pSST_breakdown": {
+        "SR": 8.5,
+        "TC": 9.0,
+        "DC": 9.0,
+        "ES": 9.5,
+        "CC": 9.0,
+        "IC": 9.0
+      },
+      "theme_relevance": "DIRECT - '돈을 더 쓰면 더 좋아지는가?'에 대한 직접적 학술 답변. 컴퓨팅 10~100배 투입에 정확도 거의 불변.",
+      "key_finding": "컴퓨트 10~100배 증가에도 정확도 거의 정체. 더 큰 모델이 아닌 더 스마트한 접근법이 필요.",
+      "significance": 9
+    },
+    {
+      "rank": 8,
+      "id": "wf2-2509.18101",
+      "title_ko": "온프레미스 LLM 배포의 비용-편익 분석: 상용 LLM 서비스와의 손익분기점",
+      "title_en": "A Cost-Benefit Analysis of On-Premise LLM Deployment",
+      "arxiv_id": "2509.18101",
+      "url": "https://arxiv.org/abs/2509.18101",
+      "steeps": "E_Economic",
+      "secondary_steeps": ["T_Technological"],
+      "pSST_score": 88,
+      "pSST_grade": "B+",
+      "pSST_breakdown": {
+        "SR": 9.0,
+        "TC": 8.5,
+        "DC": 9.0,
+        "ES": 9.0,
+        "CC": 8.5,
+        "IC": 9.0
+      },
+      "theme_relevance": "DIRECT - 기업 AI 배포의 실제 비용 구조를 정량적으로 분석. 오픈소스 대 상용 서비스의 손익분기점 제시.",
+      "key_finding": "120B급 오픈소스 모델이 A100 2대($30k)로 10% 미만 정확도 손실로 운영 가능. 사용량 기반 손익분기점 도출.",
+      "significance": 8
+    },
+    {
+      "rank": 9,
+      "id": "wf2-2404.00806",
+      "title_ko": "대형 언어 모델의 알고리즘 담합",
+      "title_en": "Algorithmic Collusion by Large Language Models",
+      "arxiv_id": "2404.00806",
+      "url": "https://arxiv.org/abs/2404.00806",
+      "steeps": "E_Economic",
+      "secondary_steeps": ["P_Political"],
+      "pSST_score": 87,
+      "pSST_grade": "B+",
+      "pSST_breakdown": {
+        "SR": 9.0,
+        "TC": 8.0,
+        "DC": 8.5,
+        "ES": 9.5,
+        "CC": 9.0,
+        "IC": 9.0
+      },
+      "theme_relevance": "DIRECT - AI 기반 가격 에이전트가 자율적으로 초경쟁적 가격 담합에 도달. AI가 '돈을 버는 방식'의 어두운 면.",
+      "key_finding": "LLM 가격 에이전트가 과점 환경에서 자율적으로 담합적 가격에 수렴. 프롬프트 문구 변이가 가격 행동에 유의미한 영향.",
+      "significance": 8
+    },
+    {
+      "rank": 10,
+      "id": "wf2-2601.17263",
+      "title_ko": "쿠르노 시장에서의 전략적 AI",
+      "title_en": "Strategic AI in Cournot Markets",
+      "arxiv_id": "2601.17263",
+      "url": "https://arxiv.org/abs/2601.17263",
+      "steeps": "P_Political",
+      "secondary_steeps": ["E_Economic"],
+      "pSST_score": 86,
+      "pSST_grade": "B+",
+      "pSST_breakdown": {
+        "SR": 9.0,
+        "TC": 9.0,
+        "DC": 8.0,
+        "ES": 9.0,
+        "CC": 8.5,
+        "IC": 8.5
+      },
+      "theme_relevance": "DIRECT - AI가 시장에서 가격을 200% 이상 올리는 담합 행위의 실증. AI 수익화의 규제적 함의.",
+      "key_finding": "LLM 에이전트가 나쉬 균형 대비 최대 200% 높은 가격으로 묵시적 담합. 규제 개입으로 담합 와해 가능.",
+      "significance": 8
+    },
+    {
+      "rank": 11,
+      "id": "wf2-2602.00751",
+      "title_ko": "임상 워크플로우를 위한 AI 에이전트 엔지니어링",
+      "title_en": "Engineering AI Agents for Clinical Workflows",
+      "arxiv_id": "2602.00751",
+      "url": "https://arxiv.org/abs/2602.00751",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["S_Social"],
+      "pSST_score": 85,
+      "pSST_grade": "B+",
+      "pSST_breakdown": {
+        "SR": 9.0,
+        "TC": 9.5,
+        "DC": 8.5,
+        "ES": 8.5,
+        "CC": 8.0,
+        "IC": 8.5
+      },
+      "theme_relevance": "INDIRECT - 의료 AI의 실제 프로덕션 배포 사례. AI가 '실제로 작동하는' 고위험 도메인의 참조 아키텍처.",
+      "key_finding": "프로덕션급 의료 AI 'Maria' 플랫폼. 4가지 엔지니어링 기둥: 클린 아키텍처, 이벤트 기반, 개별 MLOps, 인간-인-더-루프.",
+      "significance": 8
+    },
+    {
+      "rank": 12,
+      "id": "wf2-2501.18107",
+      "title_ko": "추론 효율적 언어 모델의 스케일링",
+      "title_en": "Scaling Inference-Efficient Language Models",
+      "arxiv_id": "2501.18107",
+      "url": "https://arxiv.org/abs/2501.18107",
+      "steeps": "T_Technological",
+      "secondary_steeps": ["E_Economic"],
+      "pSST_score": 84,
+      "pSST_grade": "B",
+      "pSST_breakdown": {
+        "SR": 9.0,
+        "TC": 8.0,
+        "DC": 8.5,
+        "ES": 8.5,
+        "CC": 8.5,
+        "IC": 8.5
+      },
+      "theme_relevance": "DIRECT - 추론 비용을 스케일링 법칙에 통합한 선구적 연구. 같은 크기 모델 간 3.5배 비용 차이는 AI 경제학의 핵심 변수.",
+      "key_finding": "동일 크기 모델 간 추론 지연 최대 3.5배 차이. Chinchilla 법칙을 수정한 아키텍처-비용 동시 최적화. Morph-1B: 1.8배 효율 개선.",
+      "significance": 8
+    }
+  ],
+  "domain_distribution": {
+    "T_Technological": 7,
+    "E_Economic": 4,
+    "P_Political": 1,
+    "S_Social": 0,
+    "E_Environmental": 0,
+    "s_spiritual": 0
+  },
+  "theme_analysis": {
+    "central_question": "AI는 실제 돈을 벌고 있는가?",
+    "academic_verdict": "현재는 아니지만 구조적 전환점이 임박",
+    "key_evidence_clusters": [
+      {
+        "cluster": "AI ROI 실패의 실증적 증거",
+        "signals": ["wf2-2602.02607"],
+        "finding": "미국 은행 부문에서 AI 도입이 ROE를 428bp 하락시키는 '혁신세' 현상. 그러나 이는 'Innovation J-Curve'의 투자 단계일 수 있음."
+      },
+      {
+        "cluster": "효율성 혁명: 돈이 덜 들어도 AI가 가능해짐",
+        "signals": ["wf2-2501.12948", "wf2-2511.23455", "wf2-2501.18107"],
+        "finding": "DeepSeek-R1이 $5.6M으로 수십억 달러 모델 성능 달성. 추론 비용 연 5~10배 하락. 이는 AI 수익성의 근본적 전환점."
+      },
+      {
+        "cluster": "스케일링의 한계: 더 많은 돈이 더 좋은 AI를 보장하지 않음",
+        "signals": ["wf2-2512.20264"],
+        "finding": "컴퓨트 10~100배 증가에도 정확도 정체. $470B BigTech CapEx의 수확체감 우려에 학술적 근거 제공."
+      },
+      {
+        "cluster": "AI 코딩 도구: 숨겨진 비용이 있는 생산성",
+        "signals": ["wf2-2601.13597", "wf2-2602.03593"],
+        "finding": "속도 향상은 실재하나 기술 부채(+39% 복잡성), 전문성 저하 등 숨겨진 비용이 ROI를 침식."
+      },
+      {
+        "cluster": "AI가 시장을 왜곡하는 새로운 방식",
+        "signals": ["wf2-2404.00806", "wf2-2601.17263"],
+        "finding": "LLM 가격 에이전트가 자율적으로 담합에 도달. AI는 '돈을 버는' 것이 아니라 '시장을 왜곡하는' 방식으로도 작동."
+      }
+    ]
+  }
+}

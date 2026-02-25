@@ -1,0 +1,246 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf1-general",
+    "scan_date": "2026-02-11",
+    "scan_mode": "marathon",
+    "sources_scanned": 20,
+    "base_sources": ["Google Patents", "US Federal Register", "WHO Press Releases", "TechCrunch", "MIT Technology Review"],
+    "expansion_sources": ["PubMed Central", "Nature News", "Science Magazine", "IEEE Spectrum", "OECD Newsroom", "World Bank Blogs", "UN News", "EUR-Lex", "Brookings Institution", "World Economic Forum", "Pew Research Center", "Hacker News", "Wired", "Ars Technica", "NASA Climate Change", "Carbon Brief", "IMF Blog", "BIS Speeches"],
+    "total_items_collected": 87,
+    "scan_window": {
+      "start": "2026-02-09T22:48:10+00:00",
+      "end": "2026-02-10T22:48:10+00:00",
+      "lookback_hours": 24,
+      "tolerance_minutes": 30
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-11-07-48-a3f2",
+      "started_at": "2026-02-11T07:48:10+09:00",
+      "completed_at": "2026-02-11T07:55:00+09:00",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": ["Google Patents", "US Federal Register", "WHO Press Releases", "TechCrunch", "MIT Technology Review", "PubMed Central", "Nature News", "Science Magazine", "IEEE Spectrum", "OECD Newsroom", "World Bank Blogs", "UN News", "EUR-Lex", "Brookings Institution", "World Economic Forum", "Pew Research Center", "Hacker News", "Wired", "Ars Technica", "Carbon Brief"],
+      "file_created_at": "2026-02-11T07:55:00+09:00"
+    }
+  },
+  "items": [
+    {
+      "id": "techcrunch-20260211-001",
+      "title": "Google Projects $200 Billion Capex for 2026 AI Infrastructure",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Google announced $200B capex projection for 2026 across AI chips robotics and LEO satellites, up from $131.8B in 2025. Tech giants tapping debt markets to fund AI expansion.", "keywords": ["AI infrastructure", "capital expenditure", "hyperscale"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "fedregister-20260211-002",
+      "title": "Trump Executive Order: Federal AI Policy Framework Preempting State Laws",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence", "published_date": "2026-02-10"},
+      "content": {"abstract": "Secretary of Commerce directed to publish evaluation by March 11 2026 identifying burdensome state AI laws for preemption. Colorado AI law delayed to June 2026. Federal vs state AI regulation tension escalating.", "keywords": ["AI regulation", "federal preemption", "state law"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "who-20260211-003",
+      "title": "WHO Executive Board Reviews Immunization Agenda 2030 Mid-Term Progress",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/10-02-2026-who-s-executive-board-reviews-progress-on-immunization-agenda-2030", "published_date": "2026-02-10"},
+      "content": {"abstract": "WHO Executive Board reviewed IA2030 progress. Member States stressed sharper focus needed for second half of decade. Mid-term review for 79th World Health Assembly May 2026. Cholera vaccine supply milestone.", "keywords": ["immunization", "global health", "WHO"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "mit-20260211-004",
+      "title": "MIT 10 Breakthrough Technologies 2026: Mechanistic Interpretability",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Mechanistic interpretability named 2026 breakthrough: researchers at top AI companies developed new methods to probe LLM inner workings, mapping key features and pathways across entire models. Also: sodium-ion batteries, base-edited babies, next-gen nuclear.", "keywords": ["mechanistic interpretability", "AI safety", "breakthrough"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "wef-20260211-005",
+      "title": "WEF Global Risks Report 2026: Geoeconomic Confrontation Tops Risks",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org/publications/global-risks-report-2026/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Geoeconomic confrontation ranked #1 risk for 2026 by 18% of respondents. Economic risks show largest collective increase. 50% expect turbulent/stormy outlook. Only 1% anticipate calm. Interstate conflict, extreme weather follow.", "keywords": ["global risks", "geoeconomics", "geopolitics"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "eurlex-20260211-006",
+      "title": "EU AI Act High-Risk System Guidelines and Digital Omnibus Package",
+      "source": {"name": "EUR-Lex", "type": "policy", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025DC0802", "published_date": "2026-02-10"},
+      "content": {"abstract": "EU AI Act high-risk guidelines planned for February 2026. Digital Omnibus package to streamline GDPR, AI Act, Data Act, ePrivacy. Commission notified Meta of interim measures over WhatsApp AI assistant exclusion.", "keywords": ["EU AI Act", "digital regulation", "GDPR"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "nature-20260211-007",
+      "title": "Deep-Sea Mining Biodiversity Survey: 800 Species Documented on Pacific Seabed",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/nature/articles?year=2026", "published_date": "2026-02-10"},
+      "content": {"abstract": "Scientists documented nearly 800 species over 5 years and 160 days at sea on Pacific seabed where mining may begin. Many species previously unknown. Critical environmental baseline for deep-sea mining decisions.", "keywords": ["deep-sea mining", "biodiversity", "marine biology"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-11T07:50:00+09:00"
+    },
+    {
+      "id": "oecd-20260211-008",
+      "title": "OECD: Global Growth Slowing to 2.9% in 2026, Trade Barriers Key Risk",
+      "source": {"name": "OECD Newsroom", "type": "policy", "url": "https://www.oecd.org/en/about/news/press-releases/2025/12/global-economy-proves-resilient-but-remains-fragile.html", "published_date": "2026-02-10"},
+      "content": {"abstract": "Global growth projected at 2.9% in 2026 (down from 3.2% in 2025). G20 inflation easing to 2.8%. Labour markets showing first weakening signs. Job vacancies below 2019 average. Trade barriers and financial market repricing key risks.", "keywords": ["economic outlook", "trade barriers", "labor market"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-11T07:51:00+09:00"
+    },
+    {
+      "id": "carbon-20260211-009",
+      "title": "US Climate Panel Ruled Unlawful: 100+ False Claims in Government Climate Report",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/debriefed-6-february-2026-us-secret-climate-panel-unlawful-chinas-clean-energy-boon-can-humans-reverse-nature-loss/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Federal judge ruled US energy department violated law with secret climate panel. Factcheck found 100+ false/misleading claims. Offshore wind projects resume. Africa solar capacity record growth. Washington Post laid off 14 climate journalists.", "keywords": ["climate policy", "climate denial", "renewable energy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-11T07:51:00+09:00"
+    },
+    {
+      "id": "un-20260211-010",
+      "title": "New START Treaty Expiration: Nuclear Arms Control at Crossroads",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/01/1166772", "published_date": "2026-02-10"},
+      "content": {"abstract": "Last remaining US-Russia nuclear arms control treaty (New START) set to expire February 2026. No successor agreement. UN chief warns of world in chaos with spreading impunity and unpredictability.", "keywords": ["nuclear arms", "New START", "arms control"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:51:00+09:00"
+    },
+    {
+      "id": "ieee-20260211-011",
+      "title": "Neuralink Brain Chip Aims to Restore Sight, Artemis Moon Mission April 2026",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/new-technology-2026", "published_date": "2026-02-10"},
+      "content": {"abstract": "Neuralink brain-computer interface to restore sight. Artemis crewed moon mission launching April 2026 (first since 1972). Meta's 1GW AI Prometheus supercluster coming online 2026.", "keywords": ["brain-computer interface", "lunar mission", "AI infrastructure"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:51:00+09:00"
+    },
+    {
+      "id": "imf-20260211-012",
+      "title": "IMF: Global Growth 3.3% for 2026, Financial Stability Risks Elevated",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://www.imf.org/en/publications/gfsr", "published_date": "2026-02-10"},
+      "content": {"abstract": "IMF projects 3.3% global growth for 2026. Financial stability risks elevated: stretched asset valuations, sovereign bond pressure, nonbank financial institutions growing role. Monetary easing gradual and data-dependent.", "keywords": ["financial stability", "global growth", "monetary policy"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-11T07:51:00+09:00"
+    },
+    {
+      "id": "pew-20260211-013",
+      "title": "Partisan Divide on US Science Leadership: Trust Gap Widens",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/", "published_date": "2026-02-10"},
+      "content": {"abstract": "2/3 of Democrats feel US losing ground on science vs 1/3 of Republicans. Trust in national news at 56% (down 20pts since 2016). Young Americans trust social media and national news equally.", "keywords": ["science trust", "partisan divide", "media trust"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-11T07:52:00+09:00"
+    },
+    {
+      "id": "hacker-20260211-014",
+      "title": "AI Agent Fleet Management: From Chat to Enterprise-Scale Autonomous Systems",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://news.ycombinator.com/front", "published_date": "2026-02-10"},
+      "content": {"abstract": "Industry shift from 'how good is the chat?' to 'how to run reliable, auditable, safe agent fleets at scale'. Conduent breach affecting 17K Volvo employees highlights third-party vendor risk.", "keywords": ["AI agents", "enterprise AI", "cybersecurity"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:52:00+09:00"
+    },
+    {
+      "id": "brookings-20260211-015",
+      "title": "Trump China Strategy Assessment: 12 Countries Now See China as Economic Leader",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/making-america-great-again-evaluating-trumps-china-strategy-at-the-one-year-mark/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Brookings analysis: 12 countries identify China as foremost economic power vs 8 selecting US, 4 see equal. Shift in perceptions of global economic leadership accelerating under trade tensions.", "keywords": ["US-China", "economic power", "geopolitics"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:52:00+09:00"
+    },
+    {
+      "id": "who-20260211-016",
+      "title": "Cholera Vaccine Supply Milestone: Preventive Campaigns Resume After 3 Years",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/04-02-2026-preventive-cholera-vaccination-resumes-as-global-supply-reaches-critical-milestone", "published_date": "2026-02-10"},
+      "content": {"abstract": "Global cholera vaccine supply now sufficient for preventive campaigns for first time in 3+ years. WHO 2026 appeal seeks $1B for 36 emergencies. Hemophilia resolution approved for WHA.", "keywords": ["cholera vaccine", "global health", "WHO"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-11T07:52:00+09:00"
+    },
+    {
+      "id": "pubmed-20260211-017",
+      "title": "Base-Edited Gene Therapy: First Personalized Treatment for Rare Genetic Disorder",
+      "source": {"name": "PubMed Central", "type": "academic", "url": "https://www.technologyreview.com/2026/01/16/1131363/three-technologies-shape-biotech-in-2026-gene-editing-embryo-scoring/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Baby KJ received first personalized base editing gene therapy. Clinical trial planned with bespoke gene-editing drugs potentially approved within years. tRNA-based approaches for nonsense mutations advancing.", "keywords": ["gene editing", "base editing", "personalized medicine"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:52:00+09:00"
+    },
+    {
+      "id": "science-20260211-018",
+      "title": "NK Cell Receptor KIR2DL4 Activation: New Immunotherapy Pathway Discovered",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Activation of NK cell receptor KIR2DL4 by HLA-G stimulates interferon-stimulated gene expression. IGHV4-34-specific CAR targets malignant B cells while sparing normal B cells. Potential revolution in targeted immunotherapy.", "keywords": ["immunotherapy", "NK cells", "cancer treatment"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:53:00+09:00"
+    },
+    {
+      "id": "wired-20260211-019",
+      "title": "Waymo Raises $16B at $126B Valuation for UK/US Expansion",
+      "source": {"name": "Wired", "type": "blog", "url": "https://www.wired.com/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Waymo raised $16B at $126B valuation. Plans expansion across US and into UK in 2026. AI startups raising billions to develop robot brains for oil rigs, construction. Physical AI dominates CES 2026.", "keywords": ["autonomous vehicles", "robotics", "physical AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:53:00+09:00"
+    },
+    {
+      "id": "nasa-20260211-020",
+      "title": "Africa Solar Capacity Record Growth; Offshore Wind Resumes in US",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://science.nasa.gov/climate-change/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Africa's solar capacity saw fastest growth on record in 2024-25 per Global Solar Council. All 5 halted US offshore wind projects can resume construction per federal ruling. IOC exploring earlier winter games due to warming.", "keywords": ["solar energy", "offshore wind", "climate adaptation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-11T07:53:00+09:00"
+    },
+    {
+      "id": "ars-20260211-021",
+      "title": "Medical AI Safety Concerns: Injuries Linked to AI-Guided Surgical Systems",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://arstechnica.com/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Reuters investigation details injuries tied to AI-enhanced surgical tools. Broader concerns about oversight as medical device makers add AI. Calls for stricter validation, transparent performance reporting, and accountability.", "keywords": ["medical AI", "patient safety", "regulatory oversight"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:53:00+09:00"
+    },
+    {
+      "id": "worldbank-20260211-022",
+      "title": "World Bank Raises 2026 Growth Forecast to 2.6%, Cites Shock-Proof Economy",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://www.worldbank.org/en/publication/global-economic-prospects", "published_date": "2026-02-10"},
+      "content": {"abstract": "World Bank raised 2026 GDP forecast from 2.4% to 2.6%. East Asia Pacific to slow to 4.4%, South Asia to 6.2%, Sub-Saharan Africa to firm at 4.3%. Economy surprisingly shock-proof amid trade tensions.", "keywords": ["global growth", "economic resilience", "regional outlook"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-11T07:53:00+09:00"
+    },
+    {
+      "id": "bis-20260211-023",
+      "title": "Central Bank Monetary Easing: Gradual, Data-Dependent, Differentiated",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/doclist/cbspeeches.rss", "published_date": "2026-02-10"},
+      "content": {"abstract": "Monetary easing in 2026 gradual, data-dependent, and differentiated across economies. Central banks balancing stabilization vs financial stability vs international spillovers. Nonbank financial institution risks growing.", "keywords": ["monetary policy", "central banking", "financial stability"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-11T07:53:00+09:00"
+    },
+    {
+      "id": "eurlex-20260211-024",
+      "title": "EU Commission Meta Interim Measures: WhatsApp AI Assistant Gatekeeping",
+      "source": {"name": "EUR-Lex", "type": "policy", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "published_date": "2026-02-09"},
+      "content": {"abstract": "EU Commission notified Meta of possible interim measures over exclusion of third-party AI assistants from WhatsApp. Platform gatekeeping of AI access becoming major regulatory battleground.", "keywords": ["platform regulation", "AI access", "DMA"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:54:00+09:00"
+    },
+    {
+      "id": "mit-20260211-025",
+      "title": "Sodium-Ion Batteries: Salt-Based Energy Storage for Grid and EVs",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/12/1130697/10-breakthrough-technologies-2026/", "published_date": "2026-02-10"},
+      "content": {"abstract": "Sodium-ion batteries made from abundant salt emerging as cheaper, safer alternative to lithium. Poised to power grids and affordable EVs worldwide. Next-gen nuclear designs using alternative fuels/cooling.", "keywords": ["sodium-ion battery", "energy storage", "EV"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-11T07:54:00+09:00"
+    },
+    {
+      "id": "cfr-20260211-026",
+      "title": "New START Treaty Expires: Nuclear Deterrence Architecture Crumbles",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.cfr.org/articles/visualizing-2026-five-foreign-policy-trends-watch", "published_date": "2026-02-10"},
+      "content": {"abstract": "New START treaty expiring with no successor. Combined stresses of US-China competition, fragmenting global order, climate impacts create negative structural geopolitical picture. Military conflicts in Ukraine and Middle East.", "keywords": ["nuclear arms", "geopolitics", "New START"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:54:00+09:00"
+    },
+    {
+      "id": "fedregister-20260211-027",
+      "title": "AI OVERWATCH Act: Semiconductor Export Controls Tighten on Advanced Chips",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.mondaq.com/unitedstates/new-technology/1742332/", "published_date": "2026-02-10"},
+      "content": {"abstract": "House Foreign Affairs Committee advanced AI OVERWATCH Act. Treats advanced semiconductor exports like weapons sales. Prohibits Nvidia Blackwell chip sales to certain foreign entities for 2 years.", "keywords": ["semiconductor", "export controls", "chip war"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-11T07:54:00+09:00"
+    }
+  ]
+}

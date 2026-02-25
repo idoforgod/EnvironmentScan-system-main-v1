@@ -1,0 +1,25 @@
+{
+  "gate_id": "temporal_gate.py",
+  "gate_version": "1.0.0",
+  "checked_at": "2026-02-15T06:01:33.288110+00:00",
+  "workflow": "wf3-naver",
+  "signals_file": "env-scanning/wf3-naver/filtered/new-signals-2026-02-15.json",
+  "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-02-15.json",
+  "gate_status": "PASS",
+  "gate_message": "All 264 signals within window.",
+  "statistics": {
+    "total_signals": 264,
+    "within_window": 264,
+    "outside_window": 0,
+    "unparseable_dates": 0
+  },
+  "window": {
+    "effective_start": "2026-02-14T01:28:05.078794",
+    "window_end": "2026-02-15T01:58:05.078794",
+    "lookback_hours": 24,
+    "tolerance_minutes": 30,
+    "enforce": "strict"
+  },
+  "violations": [],
+  "unparseable": []
+}

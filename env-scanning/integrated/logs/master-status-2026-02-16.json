@@ -1,0 +1,65 @@
+{
+  "master_id": "triple-scan-2026-02-16",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "awaiting_final_approval",
+  "registry_version": "2.5.0",
+  "started_at": "2026-02-15T21:48:54.373787+00:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-16.json",
+  "sot_validation": {
+    "status": "WARN",
+    "timestamp": "2026-02-15T21:48:54+00:00",
+    "passed": 42,
+    "total": 43,
+    "warnings": ["SOT-042: wf1-general dedup index is 309h old (>48h)"]
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-16.md",
+      "signal_count": 25,
+      "completed_at": "2026-02-16T00:00:00+00:00"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-16.md",
+      "signal_count": 15,
+      "completed_at": "2026-02-16T00:00:00+00:00"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-16.md",
+      "signal_count": 15,
+      "completed_at": "2026-02-16T00:00:00+00:00"
+    }
+  },
+  "integration_result": {
+    "status": "awaiting_approval",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-16.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-16.md",
+    "integration_method": "single-agent (fallback)",
+    "validation": {
+      "status": "PASS",
+      "passed": 18,
+      "total": 18,
+      "critical_failures": 0,
+      "error_failures": 0
+    },
+    "top_signals": 20,
+    "total_input_signals": 55
+  },
+  "human_decisions": {
+    "wf1_step_2_5": { "decision": "approved", "timestamp": "2026-02-16" },
+    "wf1_step_3_4": { "decision": "approved", "timestamp": "2026-02-16" },
+    "wf2_step_2_5": { "decision": "approved", "timestamp": "2026-02-16" },
+    "wf2_step_3_4": { "decision": "approved", "timestamp": "2026-02-16" },
+    "wf3_step_2_5": { "decision": "approved", "timestamp": "2026-02-16" },
+    "wf3_step_3_4": { "decision": "approved", "timestamp": "2026-02-16" },
+    "integrated_final": { "decision": "pending" }
+  },
+  "master_gates": {
+    "M1": { "status": "PASS", "timestamp": "2026-02-16" },
+    "M2": { "status": "PASS", "timestamp": "2026-02-16" },
+    "M2a": { "status": "PASS", "timestamp": "2026-02-16" },
+    "M3": { "status": "pending" }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "master_id": "triple-scan-2026-02-13",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.5.0",
+  "started_at": "2026-02-12T23:33:37Z",
+  "completed_at": "2026-02-13T00:40:00Z",
+  "execution_mode": "autopilot",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-13.json",
+  "anchor_timestamp": "2026-02-13T00:39:44+00:00",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-12T23:33:37Z",
+    "checks_passed": 42,
+    "checks_total": 42,
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-13.md",
+      "archive_path": "env-scanning/wf1-general/reports/archive/2026/02/environmental-scan-2026-02-13.md",
+      "report_size_bytes": 71431,
+      "signals_collected": 30,
+      "signals_reported": 15,
+      "exploration_signals": 5,
+      "validation": "17/17 PASS",
+      "sie_grade": "A- (91/100)",
+      "top_signal": "EPA Endangerment Finding Repeal (pSST 90)"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-13.md",
+      "archive_path": "env-scanning/wf2-arxiv/reports/archive/2026/02/environmental-scan-2026-02-13.md",
+      "report_size_bytes": 67454,
+      "signals_collected": 15,
+      "signals_reported": 15,
+      "validation": "16/16 PASS",
+      "sie_grade": "A- (91/100)",
+      "scanner_version": "v2.0.0",
+      "top_signal": "AMOC State Tracking Failure (pSST 93.5)"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-13.md",
+      "archive_path": "env-scanning/wf3-naver/reports/archive/2026/02/environmental-scan-2026-02-13.md",
+      "report_size_bytes": 67542,
+      "articles_crawled": 270,
+      "sections_crawled": 6,
+      "signals_reported": 15,
+      "fssf_types_covered": 7,
+      "tipping_points": 4,
+      "validation": "19/19 PASS",
+      "sie_grade": "A- (91/100)",
+      "top_signal": "KOSPI 5,500 사상 최초 돌파 (pSST 93.5)"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-13.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-13.md",
+    "report_size_bytes": 65717,
+    "total_signal_pool": 45,
+    "signals_reported": 20,
+    "wf_distribution": {"WF1": 4, "WF2": 10, "WF3": 6},
+    "validation": "18/18 PASS",
+    "top_signal": "AMOC Tracking Failure / KOSPI 5,500 (pSST 93.5 tie)"
+  },
+  "human_decisions": {
+    "mode": "autopilot — all checkpoints bypassed per user authorization"
+  },
+  "master_gates": {
+    "M1": { "status": "passed", "note": "WF1 completed, 17/17 PASS" },
+    "M2": { "status": "passed", "note": "WF2 completed, 16/16 PASS" },
+    "M2a": { "status": "passed", "note": "WF3 completed, 19/19 PASS" },
+    "M3": { "status": "passed", "note": "Integration completed, 18/18 PASS" }
+  },
+  "total_validation_checks": "70/70 PASS",
+  "total_reports": 4,
+  "total_report_bytes": 272144,
+  "sie_analysis": {
+    "wf1": "A- (91/100) — W1/W4/W6/W7 FIXED, W2 PARTIALLY, baseline established",
+    "wf2": "A- (91/100) — 16/16 PASS, pSST spread 8.5pt, first baseline",
+    "wf3": "A- (91/100) — 19/19 PASS, W5 REGRESSED (4/6 STEEPs), first baseline"
+  },
+  "unified_top5": [
+    {"rank": 1, "signal": "AMOC State Tracking Failure", "source": "WF2", "psst": 93.5},
+    {"rank": 2, "signal": "KOSPI 5,500 사상 최초 돌파", "source": "WF3", "psst": 93.5},
+    {"rank": 3, "signal": "Step 3.5 Flash (11B Active Params)", "source": "WF2", "psst": 92.0},
+    {"rank": 4, "signal": "큐비트 자유 복제 실험적 입증", "source": "WF2", "psst": 91.5},
+    {"rank": 5, "signal": "이상민 내란 1심 징역 7년", "source": "WF3", "psst": 91.0}
+  ],
+  "notes": [
+    "Integration agent hit max_output_tokens (32000) — report written directly by main agent in 2 tool calls",
+    "All 3 SIE analyses completed independently — first baselines established for WF2 and WF3",
+    "Autopilot mode: all 7 human checkpoints bypassed per user authorization"
+  ]
+}

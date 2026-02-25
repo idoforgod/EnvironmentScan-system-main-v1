@@ -1,0 +1,241 @@
+{
+  "ranking_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-02-17",
+    "method": "pSST_unified",
+    "total_ranked": 25,
+    "ranking_weights": {
+      "impact": 0.40,
+      "probability": 0.30,
+      "urgency": 0.20,
+      "novelty": 0.10
+    }
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "wf1-20260217-002",
+      "title": "Trump EPA rescinds 2009 endangerment finding, dismantling legal basis for federal climate regulation",
+      "steeps": "P",
+      "psst": 94,
+      "impact_score": 9.5,
+      "impact_rationale": "Removes legal foundation for decades of US climate regulation. Unprecedented rollback affecting global climate governance framework. Cascading effects on state-level policies and international negotiations."
+    },
+    {
+      "rank": 2,
+      "id": "wf1-20260217-004",
+      "title": "New START nuclear treaty set to expire February 2026, no replacement in sight",
+      "steeps": "P",
+      "psst": 93,
+      "impact_score": 9.5,
+      "impact_rationale": "Expiry of last remaining nuclear arms control framework between US and Russia. Removes final constraint on nuclear arsenal expansion. Existential-level strategic stability risk."
+    },
+    {
+      "rank": 3,
+      "id": "wf1-20260217-006",
+      "title": "Global solar + wind capacity to reach 4,000 GW in 2026, overtaking coal and gas for first time",
+      "steeps": "E_Environmental",
+      "psst": 92,
+      "impact_score": 9.0,
+      "impact_rationale": "Historic inflection point in global energy system. First time renewable capacity exceeds fossil fuel capacity. Signals irreversible energy transition trajectory."
+    },
+    {
+      "rank": 4,
+      "id": "wf1-20260217-009",
+      "title": "Global growth slows to 2.7% in 2026; US recession probability at 35% says JP Morgan",
+      "steeps": "E",
+      "psst": 91,
+      "impact_score": 8.5,
+      "impact_rationale": "Below pre-pandemic growth with elevated recession risk. Tariff barriers disrupting global supply chains. Divergent performance between developed and emerging markets."
+    },
+    {
+      "rank": 5,
+      "id": "wf1-20260217-008",
+      "title": "Deepfake-as-a-Service surge: AI identity fraud involved in 30% of corporate impersonation attacks",
+      "steeps": "T",
+      "psst": 90,
+      "impact_score": 8.5,
+      "impact_rationale": "Industrialization of AI fraud capabilities. Triple-digit growth in financial losses. Fundamental threat to identity verification systems and trust infrastructure."
+    },
+    {
+      "rank": 6,
+      "id": "wf1-20260217-001",
+      "title": "India AI Impact Summit: Adani pledges $100B for renewable AI data centers by 2035",
+      "steeps": "T",
+      "psst": 89,
+      "impact_score": 8.5,
+      "impact_rationale": "Massive infrastructure investment reshaping global AI compute landscape. India positioning as major AI hub. Convergence of AI infrastructure and renewable energy investment."
+    },
+    {
+      "rank": 7,
+      "id": "wf1-20260217-019",
+      "title": "US-China summit series: four meetings planned for 2026 as de-risking framework takes shape",
+      "steeps": "P",
+      "psst": 88,
+      "impact_score": 8.0,
+      "impact_rationale": "Shift from zero-sum confrontation to managed competition. New bipolar framework emerging. Global industrial strategy playbook being exported."
+    },
+    {
+      "rank": 8,
+      "id": "wf1-20260217-010",
+      "title": "High Seas Treaty enters into force January 2026, covering two-thirds of world's ocean",
+      "steeps": "E_Environmental",
+      "psst": 87,
+      "impact_score": 8.0,
+      "impact_rationale": "Historic governance milestone for 90% of Earth's habitat by volume. Tension with Japan's deep-sea rare earth extraction. Establishes framework for ocean biodiversity protection."
+    },
+    {
+      "rank": 9,
+      "id": "wf1-20260217-007",
+      "title": "US GENIUS Act: comprehensive stablecoin regulation rules due by July 2026",
+      "steeps": "E",
+      "psst": 86,
+      "impact_score": 8.0,
+      "impact_rationale": "First comprehensive digital asset regulatory framework in major economy. Stablecoin regulation moving from theory to practice. Reshapes global fintech and crypto landscape."
+    },
+    {
+      "rank": 10,
+      "id": "wf1-20260217-016",
+      "title": "One-third of teens prefer AI chatbots over humans for emotional support; toddler AI buddies emerge",
+      "steeps": "s",
+      "psst": 86,
+      "impact_score": 8.0,
+      "impact_rationale": "Fundamental shift in human social-emotional development patterns. AI companionship for children without guardrails. Association with teen mental health crisis."
+    },
+    {
+      "rank": 11,
+      "id": "wf1-20260217-011",
+      "title": "Tesla plans 50,000 Optimus humanoid robots at $20-30K; commercial availability begins",
+      "steeps": "T",
+      "psst": 85,
+      "impact_score": 7.5,
+      "impact_rationale": "Commercial humanoid robotics entering market at consumer-accessible price. Labor market disruption potential. AI agent frameworks maturing from experimental to strategic."
+    },
+    {
+      "rank": 12,
+      "id": "wf1-20260217-003",
+      "title": "MIT Technology Review 2026 Breakthroughs: sodium-ion batteries top the list",
+      "steeps": "T",
+      "psst": 85,
+      "impact_score": 7.5,
+      "impact_rationale": "Sodium-ion as cheaper safer alternative to lithium disrupts battery supply chains. Base-edited babies mark precision medicine milestone. Multiple breakthrough technologies converging."
+    },
+    {
+      "rank": 13,
+      "id": "wf1-20260217-018",
+      "title": "IPBES: all business sectors must respond to biodiversity loss; global soil moisture declining",
+      "steeps": "E_Environmental",
+      "psst": 84,
+      "impact_score": 7.5,
+      "impact_rationale": "Biodiversity loss becomes universal business risk per IPBES. Soil moisture decline threatens food security. Ocean darkening signals fundamental marine ecosystem change."
+    },
+    {
+      "rank": 14,
+      "id": "wf1-20260217-014",
+      "title": "Hydrogen economy at make-or-break point: 2 Mtpa poised for FID in 2026",
+      "steeps": "T",
+      "psst": 83,
+      "impact_score": 7.5,
+      "impact_rationale": "Critical year for hydrogen investment decisions. Nuclear-hydrogen integration strategy emerging. Sixfold production growth projected to 2030."
+    },
+    {
+      "rank": 15,
+      "id": "wf1-20260217-025",
+      "title": "Middle East instability intensifies: possible Lebanon civil war, Yemen escalation in 2026",
+      "steeps": "P",
+      "psst": 83,
+      "impact_score": 7.5,
+      "impact_rationale": "Multiple conflict scenarios converging. Europe's internal divisions deepening. Defense spending fatigue creating political strain."
+    },
+    {
+      "rank": 16,
+      "id": "wf1-20260217-012",
+      "title": "EU bans destruction of unsold clothes; Amsterdam and Florence ban fossil fuel advertising",
+      "steeps": "P",
+      "psst": 82,
+      "impact_score": 7.0,
+      "impact_rationale": "EU circular economy regulation advancing. City-level climate action outpacing national policy. Climate litigation trend spreading to new jurisdictions."
+    },
+    {
+      "rank": 17,
+      "id": "wf1-20260217-017",
+      "title": "SpaceX to compete in Pentagon autonomous drone program, expanding defense footprint",
+      "steeps": "T",
+      "psst": 81,
+      "impact_score": 7.0,
+      "impact_rationale": "Blurring of commercial space and defense sectors. AI-enabled autonomous military systems proliferating. Multi-robot coordination advancing toward deployment."
+    },
+    {
+      "rank": 18,
+      "id": "wf1-20260217-024",
+      "title": "Mechanistic interpretability: mapping AI model inner workings becomes 2026 breakthrough",
+      "steeps": "T",
+      "psst": 80,
+      "impact_score": 7.0,
+      "impact_rationale": "Progress toward AI transparency and safety. Moving beyond black-box treatment of neural networks. Foundation for AI governance and regulation."
+    },
+    {
+      "rank": 19,
+      "id": "wf1-20260217-023",
+      "title": "UNCTAD: 10 trends shaping global trade; tariffs rise sharply led by US industrial objectives",
+      "steeps": "E",
+      "psst": 80,
+      "impact_score": 7.0,
+      "impact_rationale": "Trade fragmentation accelerating. US tariffs disrupting supply chains. Uneven impact across sectors and trading partners."
+    },
+    {
+      "rank": 20,
+      "id": "wf1-20260217-013",
+      "title": "Executive Order 14386: Strengthening US defense with coal power generation fleet",
+      "steeps": "P",
+      "psst": 79,
+      "impact_score": 7.0,
+      "impact_rationale": "Policy tension: coal support alongside global renewable transition. Defense infrastructure tied to fossil fuels. Counter-signal to climate action momentum."
+    },
+    {
+      "rank": 21,
+      "id": "wf1-20260217-005",
+      "title": "WHO 2026 appeal: $1 billion for 36 emergencies as humanitarian financing contracts",
+      "steeps": "S",
+      "psst": 78,
+      "impact_score": 6.5,
+      "impact_rationale": "Growing gap between humanitarian need and available funding. 14 Grade 3 emergencies. Climate-health nexus intensifying."
+    },
+    {
+      "rank": 22,
+      "id": "wf1-20260217-020",
+      "title": "EU nuclear revival: 81.2 GW capacity target by 2040 as SMR projects advance toward construction",
+      "steeps": "T",
+      "psst": 78,
+      "impact_score": 6.5,
+      "impact_rationale": "Major European policy reversal on nuclear energy. SMR pipeline advancing. Energy security concerns overriding previous phase-out commitments."
+    },
+    {
+      "rank": 23,
+      "id": "wf1-20260217-022",
+      "title": "WHO Pandemic Agreement 5th IGWG meeting: pathogen access and benefit-sharing negotiations continue",
+      "steeps": "P",
+      "psst": 77,
+      "impact_score": 6.5,
+      "impact_rationale": "Pandemic preparedness framework progressing. WHO governance reform underway. Financial sustainability of global health institutions at stake."
+    },
+    {
+      "rank": 24,
+      "id": "wf1-20260217-015",
+      "title": "Refinity validates breakthrough plastic waste conversion technology with DuoZone reactor",
+      "steeps": "T",
+      "psst": 76,
+      "impact_score": 6.0,
+      "impact_rationale": "Addresses difficult-to-recycle plastics. Patent-protected innovation. Moving toward commercial demonstration scale."
+    },
+    {
+      "rank": 25,
+      "id": "wf1-20260217-021",
+      "title": "Apple teases globally synchronized March 4 launch across New York, London, Shanghai",
+      "steeps": "T",
+      "psst": 72,
+      "impact_score": 5.5,
+      "impact_rationale": "Reflects global product launch strategy evolution. Lower structural impact but high market attention."
+    }
+  ]
+}

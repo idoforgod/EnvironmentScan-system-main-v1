@@ -1,0 +1,145 @@
+{
+  "ranking_metadata": {
+    "workflow_id": "wf1-general",
+    "date": "2026-02-13",
+    "method": "pSST_unified",
+    "total_ranked": 25
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "fedregister-20260213-005",
+      "title": "US EPA to Rescind 2009 Endangerment Finding on Greenhouse Gas Emissions",
+      "category": "P",
+      "psst_score": 90,
+      "impact_score": 9.5,
+      "rationale": "Rescinding the legal foundation for all federal climate regulation represents a paradigm-shifting policy reversal with global ripple effects on climate governance, international agreements, and energy markets."
+    },
+    {
+      "rank": 2,
+      "id": "sciencedaily-20260213-002",
+      "title": "Stanford Light-Based Breakthrough Could Enable Million-Qubit Quantum Computers",
+      "category": "T",
+      "psst_score": 87,
+      "impact_score": 9.0,
+      "rationale": "Practical path to million-qubit quantum systems would transform drug discovery, materials science, cryptography, and logistics optimization across multiple industries."
+    },
+    {
+      "rank": 3,
+      "id": "unctad-20260213-010",
+      "title": "UNCTAD: Trade Fragmentation into New Blocs as US Retreats",
+      "category": "E",
+      "psst_score": 87,
+      "impact_score": 9.0,
+      "rationale": "Structural fragmentation of the global trading system into competing blocs represents a fundamental shift in the post-WWII economic order, affecting supply chains, investment flows, and geopolitical alliances."
+    },
+    {
+      "rank": 4,
+      "id": "bnef-20260213-015",
+      "title": "Global Energy Transition Investment Hits $2.3T; Renewables to Overtake Coal",
+      "category": "E_Environmental",
+      "psst_score": 87,
+      "impact_score": 9.2,
+      "rationale": "Renewables overtaking coal as the largest power generation source marks a historical inflection point in the global energy system, with cascading effects on geopolitics, employment, and climate trajectories."
+    },
+    {
+      "rank": 5,
+      "id": "sciencedaily-20260213-003",
+      "title": "Quantum Error Correction Breakthrough: Computing While Fixing Errors",
+      "category": "T",
+      "psst_score": 85,
+      "impact_score": 8.8,
+      "rationale": "Solving the error correction bottleneck while maintaining computation is a prerequisite for commercially viable quantum computing."
+    },
+    {
+      "rank": 6,
+      "id": "euaiact-20260213-013",
+      "title": "EU AI Act Full Application August 2026; US States Advance Parallel Frameworks",
+      "category": "P",
+      "psst_score": 85,
+      "impact_score": 8.8,
+      "rationale": "The world's most comprehensive AI regulation becoming fully applicable creates a 'Brussels Effect' benchmark for global AI governance."
+    },
+    {
+      "rank": 7,
+      "id": "deepmind-20260213-023",
+      "title": "DeepMind Launches Real-Time World Model; World Labs Releases Marble",
+      "category": "T",
+      "psst_score": 85,
+      "impact_score": 8.8,
+      "rationale": "World models represent the next frontier in AI capabilities, enabling physical reasoning and simulation that could accelerate robotics and autonomous systems."
+    },
+    {
+      "rank": 8,
+      "id": "ipbes-20260213-016",
+      "title": "IPBES: Biodiversity Decline Is Systemic Risk to Global Economic Stability",
+      "category": "E_Environmental",
+      "psst_score": 83,
+      "impact_score": 8.5,
+      "rationale": "Reframing biodiversity loss as systemic economic risk (not just environmental issue) could trigger financial regulatory action and investment portfolio reassessment."
+    },
+    {
+      "rank": 9,
+      "id": "iran-20260213-017",
+      "title": "Iran Protests Spread to All 31 Provinces; New US Sanctions",
+      "category": "P",
+      "psst_score": 83,
+      "impact_score": 8.8,
+      "rationale": "Nationwide protests with internet blackout represent potential regime instability with implications for Middle East geopolitics, energy markets, and nuclear proliferation."
+    },
+    {
+      "rank": 10,
+      "id": "wfp-20260213-021",
+      "title": "WFP: 20% Increase in Acute Food Insecurity; 60% Production in 5 Countries",
+      "category": "S",
+      "psst_score": 83,
+      "impact_score": 8.5,
+      "rationale": "Rising food insecurity combined with extreme geographic concentration of food production creates cascading vulnerability to climate shocks, conflict, and trade disruptions."
+    },
+    {
+      "rank": 11,
+      "id": "techcrunch-20260213-001",
+      "title": "AI Shifts from Scaling to Practical Implementation",
+      "category": "T",
+      "psst_score": 82,
+      "impact_score": 8.5,
+      "rationale": "Industry-wide pivot from scale-focused AI development to practical deployment signals maturation of the AI market."
+    },
+    {
+      "rank": 12,
+      "id": "conduent-20260213-014",
+      "title": "Conduent Breach Exposes 25M Americans; BridgePay Ransomware",
+      "category": "T",
+      "psst_score": 82,
+      "impact_score": 8.5,
+      "rationale": "Scale of government contractor breach (25M SSN/health records) and payment infrastructure attack (forcing cash-only) highlight critical infrastructure vulnerability."
+    },
+    {
+      "rank": 13,
+      "id": "nature-20260213-004",
+      "title": "AI Analyzes Blood Cells More Accurately Than Human Experts",
+      "category": "T",
+      "psst_score": 80,
+      "impact_score": 8.2,
+      "rationale": "AI surpassing human expert accuracy in medical diagnostics accelerates the path to AI-augmented healthcare."
+    },
+    {
+      "rank": 14,
+      "id": "carbonbrief-20260213-008",
+      "title": "US Secret Climate Panel Ruled Unlawful; 5 Offshore Wind Projects Resume",
+      "category": "P",
+      "psst_score": 77,
+      "impact_score": 8.0,
+      "rationale": "Judicial checks on executive climate policy overreach, combined with offshore wind construction resumption, indicate resilience of energy transition despite political headwinds."
+    },
+    {
+      "rank": 15,
+      "id": "ilo-20260213-012",
+      "title": "ILO: Global Jobs Gap to Reach 408 Million in 2026",
+      "category": "S",
+      "psst_score": 77,
+      "impact_score": 8.0,
+      "rationale": "408M global jobs gap underscores structural employment challenges that compound with automation and demographic shifts."
+    }
+  ]
+}

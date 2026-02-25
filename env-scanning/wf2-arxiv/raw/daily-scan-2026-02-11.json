@@ -1,0 +1,26 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf2-arxiv",
+    "scan_date": "2026-02-11",
+    "sources_scanned": 1,
+    "source": "arXiv",
+    "total_items_collected": 45,
+    "after_dedup": 30,
+    "categories_scanned": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.CR", "cs.RO", "cs.MA", "quant-ph", "stat.ML", "physics.comp-ph", "q-bio", "econ.GN"],
+    "scan_window": {
+      "start": "2026-02-08T22:48:10+00:00",
+      "end": "2026-02-10T22:48:10+00:00",
+      "lookback_hours": 48,
+      "tolerance_minutes": 60
+    },
+    "execution_proof": {
+      "execution_id": "wf2-scan-2026-02-11-07-58-b4c1",
+      "started_at": "2026-02-11T07:58:00+09:00",
+      "completed_at": "2026-02-11T08:05:00+09:00",
+      "actual_api_calls": {"web_search": 5, "arxiv_api": 0},
+      "actual_sources_scanned": ["arXiv"],
+      "file_created_at": "2026-02-11T08:05:00+09:00"
+    }
+  },
+  "items_summary": "45 papers collected across 12 arXiv categories, 30 unique after dedup. Top areas: LLM reasoning, multi-agent systems, quantum error correction, generative video, climate ML, privacy-preserving FL, embodied AI."
+}

@@ -1,0 +1,27 @@
+{
+  "classification_metadata": {
+    "date": "2026-02-10",
+    "workflow_id": "wf3-naver",
+    "total_classified": 15,
+    "steeps_distribution": { "E": 4, "T": 3, "S": 3, "P": 3, "E_Environmental": 1, "s": 1 },
+    "fssf_distribution": { "Emerging Issue": 4, "Trend": 3, "Driver": 3, "Weak Signal": 2, "Discontinuity": 1, "Wild Card": 1, "Precursor Event": 1 },
+    "three_horizons": { "H1": 10, "H2": 4, "H3": 1 }
+  },
+  "classified_signals": [
+    { "id": "naver-20260210-100-001", "title": "트럼프 한국 관세 25% 위협", "final_category": "E", "fssf_type": "Discontinuity", "horizon": "H1", "psst_score": 91, "tipping_point": { "alert_level": "ORANGE", "pattern": "Critical Slowing Down" } },
+    { "id": "naver-20260210-105-002", "title": "삼성전자 시총 1000조 HBM4 양산", "final_category": "T", "fssf_type": "Trend", "horizon": "H1", "psst_score": 90, "tipping_point": { "alert_level": "GREEN" } },
+    { "id": "naver-20260210-101-003", "title": "에너지 대전환 원년 12차 전기본", "final_category": "E_Environmental", "fssf_type": "Driver", "horizon": "H2", "psst_score": 88, "tipping_point": { "alert_level": "YELLOW", "pattern": "Regime Shift" } },
+    { "id": "naver-20260210-102-004", "title": "청년 주거난 무주택 205만", "final_category": "S", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 87, "tipping_point": { "alert_level": "ORANGE", "pattern": "Flickering" } },
+    { "id": "naver-20260210-100-005", "title": "대통령 체포영장 정국 불안", "final_category": "P", "fssf_type": "Wild Card", "horizon": "H1", "psst_score": 89, "tipping_point": { "alert_level": "ORANGE", "pattern": "Critical Slowing Down" } },
+    { "id": "naver-20260210-105-006", "title": "과기부 ICT R&D 1.68조", "final_category": "T", "fssf_type": "Driver", "horizon": "H2", "psst_score": 85, "tipping_point": { "alert_level": "GREEN" } },
+    { "id": "naver-20260210-101-007", "title": "중국 대외무역법 전면 개정", "final_category": "E", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 87, "tipping_point": { "alert_level": "YELLOW" } },
+    { "id": "naver-20260210-102-008", "title": "청년 쉬었음 인구 사상 최대", "final_category": "S", "fssf_type": "Weak Signal", "horizon": "H1", "psst_score": 86, "tipping_point": { "alert_level": "YELLOW", "pattern": "Flickering" } },
+    { "id": "naver-20260210-104-009", "title": "미중 관세전쟁 수출 1.3% 급락", "final_category": "E", "fssf_type": "Trend", "horizon": "H1", "psst_score": 88, "tipping_point": { "alert_level": "ORANGE" } },
+    { "id": "naver-20260210-105-010", "title": "인도 AI Summit 글로벌사우스", "final_category": "P", "fssf_type": "Emerging Issue", "horizon": "H2", "psst_score": 84, "tipping_point": { "alert_level": "GREEN" } },
+    { "id": "naver-20260210-101-011", "title": "기준중위소득 역대 최대 인상", "final_category": "S", "fssf_type": "Precursor Event", "horizon": "H1", "psst_score": 82, "tipping_point": { "alert_level": "GREEN" } },
+    { "id": "naver-20260210-105-012", "title": "네이버 하이퍼클로바X 기업용 에이전트", "final_category": "T", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 86, "tipping_point": { "alert_level": "GREEN" } },
+    { "id": "naver-20260210-103-013", "title": "출산율 0.68 역대 최저", "final_category": "S", "fssf_type": "Weak Signal", "horizon": "H3", "psst_score": 90, "tipping_point": { "alert_level": "RED", "pattern": "Critical Slowing Down" } },
+    { "id": "naver-20260210-104-014", "title": "New START 만료 후 핵군비 증강", "final_category": "P", "fssf_type": "Driver", "horizon": "H2", "psst_score": 88, "tipping_point": { "alert_level": "ORANGE" } },
+    { "id": "naver-20260210-101-015", "title": "한국은행 기준금리 동결 딜레마", "final_category": "E", "fssf_type": "Trend", "horizon": "H1", "psst_score": 85, "tipping_point": { "alert_level": "YELLOW" } }
+  ]
+}

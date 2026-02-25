@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "scan_date": "2026-02-18",
+  "workflow": "wf1-general",
+  "classification_method": "STEEPs_6_category",
+  "total_classified": 47,
+  "category_distribution": {
+    "T_Technological": 19,
+    "P_Political": 10,
+    "E_Economic": 7,
+    "E_Environmental": 6,
+    "S_Social": 4,
+    "s_spiritual": 1
+  },
+  "signals": []
+}

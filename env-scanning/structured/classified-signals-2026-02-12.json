@@ -1,0 +1,25 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-12",
+    "classification": "STEEPs",
+    "total_items": 10
+  },
+  "items": [
+    {
+      "id": 1,
+      "signal": "AI Breakthrough in Language Models",
+      "steep_category": "Technology",
+      "likelihood": "High",
+      "impact": "High",
+      "time_horizon": "Near-term (1-2 years)"
+    },
+    {
+      "id": 2,
+      "signal": "Climate Policy Updates",
+      "steep_category": "Environment",
+      "likelihood": "Medium",
+      "impact": "High",
+      "time_horizon": "Mid-term (3-5 years)"
+    }
+  ]
+}

@@ -139,15 +139,26 @@ def merge_signals(database_signals, archive_signals):
 ```
 
 ### Step 4: Build Indexes (OPTIMIZED with Persistent Caching)
-```python
-def build_indexes_optimized(signals, use_cache=True):
-    """
-    PHASE 2 OPTIMIZATION: Use persistent index cache for 50% speedup.
 
-    Indexes are cached and updated incrementally instead of rebuilt daily.
+> **⚠ DEPRECATION NOTICE (v2.6.0)**: Persistent caching via `index-cache.json`
+> is **deprecated**. The orchestrator now deletes `context/index-cache.json` and
+> `context/previous-signals.json` before each invocation to prevent stale cache
+> from causing duplicate signals to bypass dedup filters. The `use_cache=False`
+> path (legacy rebuild) is now the **effective default**. The caching code below
+> is retained for reference but will not execute under normal operation.
+
+```python
+def build_indexes_optimized(signals, use_cache=False):
+    """
+    Build signal indexes for dedup filtering.
+
+    NOTE (v2.6.0): use_cache defaults to False. The orchestrator deletes
+    index-cache.json before invocation, so even if True, the cache will
+    not exist and a full rebuild occurs. This is intentional — the 3-second
+    rebuild cost is negligible compared to the risk of stale dedup indexes.
     """
     if not use_cache:
-        # Legacy mode: rebuild from scratch
+        # Default mode (v2.6.0+): rebuild from scratch every run
         return build_indexes_legacy(signals)
 
     from core.index_cache_manager import IndexCacheManager
@@ -467,7 +478,8 @@ The output format is identical to original archive-loader. Deduplication-filter 
 ---
 
 ## Version
-- **Agent Version**: 1.0.0
-- **Compatible with**: Enhanced Environmental Scanning Workflow v1.0
-- **Last Updated**: 2026-01-30
+- **Agent Version**: 1.1.0
+- **Compatible with**: Enhanced Environmental Scanning Workflow v2.6.0
+- **Last Updated**: 2026-02-16
 - **Memory Optimization**: Enabled (optional)
+- **Persistent Cache**: Deprecated (v2.6.0) — orchestrator forces full rebuild each run

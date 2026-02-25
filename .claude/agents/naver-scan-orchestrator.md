@@ -32,13 +32,28 @@ exclusive_sources: ["NaverNews"]
 - `data_root`: Provided by master (SOT: `workflows.wf3-naver.data_root`)
 - `sources_config`: Provided by master (SOT: `workflows.wf3-naver.sources_config`)
 - `validate_profile`: Provided by master (SOT: `workflows.wf3-naver.validate_profile`)
+- `execution_mode`: `"standalone"` (default) or `"integrated"` (triple scan). Controls top-level task creation.
 - `parameters`: Crawl config, FSSF, Three Horizons, Tipping Point, Anomaly Detection flags
+- `scan_window_state_file`: temporal_anchor.py가 생성한 JSON 경로 (v2.2.1 — 단일 시간 권위)
+- `scan_window_workflow`: `"wf3-naver"` — state file 내 이 WF의 키
+- `temporal_gate_script`: `env-scanning/core/temporal_gate.py`
+- `metadata_injector_script`: `env-scanning/core/report_metadata_injector.py`
+- `statistics_engine_script`: `env-scanning/core/report_statistics_engine.py`
+- `report_skeleton`: Provided by master (from `shared_invariants`, bilingual-resolved)
+- `bilingual_config_file`: Bilingual routing config JSON (from bilingual_resolver.py)
+- `bilingual_language`: `"en"` or `"ko"` — language for `--language` flags on Python scripts
+
+> **⚠️ TEMPORAL DATA AUTHORITY (v2.2.1)**: 모든 시간 관련 값(T₀, window_start, window_end,
+> lookback_hours 등)은 `scan_window_state_file`에서 읽어야 한다. 이 파일은 `temporal_anchor.py`가
+> SOT를 직접 읽어 Python `datetime` 연산으로 생성한 것이다. 수동 계산 금지.
 
 ## Core Execution Pattern
 
 1. Receive parameters from master-orchestrator
 2. Initialize `{data_root}/logs/workflow-status.json`
 3. Create Task Management hierarchy (see TASK_MANAGEMENT_EXECUTION_GUIDE.md)
+   - If `execution_mode == "integrated"`: **Skip top-level wrapper task**. Create ONLY phase-level tasks (Phase 1/2/3). The master-orchestrator already created the WF3-level tracking task.
+   - If `execution_mode == "standalone"` (default): Create full hierarchy including top-level wrapper task.
 4. Initialize Verification Report at `{data_root}/logs/verification-report-{date}.json`
 5. Execute Phase 1 → Phase 2 → Phase 3 sequentially
 6. Apply VEV (Verify-Execute-Verify) protocol per step (from shared protocol)
@@ -46,6 +61,30 @@ exclusive_sources: ["NaverNews"]
 8. Pause at human checkpoints (Step 2.5 required, Step 3.4 required)
 
 ## Phase 1: Research (Collection + Preprocessing)
+
+### Step 1.0.5: Read Temporal Parameters from State File
+
+> **v2.2.1**: `scan_window_state_file`에서 이 WF의 시간 파라미터를 추출한다.
+> 이 값들을 Step 1.2 naver_crawler.py 호출 시 `--scan-window-start`/`--scan-window-end`로 전달한다.
+
+```bash
+cat {scan_window_state_file}   # JSON 읽기
+```
+
+**JSON 구조에서 추출할 값**:
+```yaml
+# {scan_window_state_file} → workflows.{scan_window_workflow} 키 참조
+WF_WINDOW_START:  workflows.wf3-naver.window_start      # ISO8601 (예: "2026-02-09T09:00:00+00:00")
+WF_WINDOW_END:    workflows.wf3-naver.window_end        # ISO8601 (예: "2026-02-10T09:00:00+00:00")
+WF_LOOKBACK:      workflows.wf3-naver.lookback_hours     # 정수 (예: 24)
+WF_TOLERANCE:     workflows.wf3-naver.tolerance_minutes  # 정수 (예: 30)
+```
+
+**사용처**:
+- Step 1.2 크롤러 호출: `python3 env-scanning/core/naver_crawler.py ... --scan-window-start {WF_WINDOW_START} --scan-window-end {WF_WINDOW_END} --scan-tolerance-min {WF_TOLERANCE}`
+- Pipeline Gate 1: `temporal_gate.py`가 state file을 직접 읽으므로 별도 전달 불필요
+
+**주의**: 이 값들을 직접 계산하지 말 것. state file에서 읽기만 할 것.
 
 ### Step 1.1: Load Archive
 - **Worker**: archive-loader (shared)
@@ -66,11 +105,21 @@ exclusive_sources: ["NaverNews"]
 - **On-Block**: CrawlDefender auto-handles with 7-strategy cascade
 - **pSST**: Compute SR + TC dimensions
 
-### Step 1.3: Deduplication Filter
-- **Worker**: deduplication-filter (shared)
-- **Input**: `{data_root}/raw/daily-crawl-{date}.json` + `{data_root}/context/previous-signals.json`
+### Step 1.3: Deduplication Filter (2-Phase: Python Gate → LLM)
+- **Phase A**: Run `dedup_gate.py` deterministically (SOT: `system.dedup_gate`)
+  ```bash
+  PREV_FILE="{data_root}/signals/snapshots/database-{date}-pre-update.json"
+  python3 {dedup_gate_script} \
+    --signals {data_root}/raw/daily-crawl-{date}.json \
+    --previous $PREV_FILE \
+    --workflow {workflow_name} \
+    --output {data_root}/filtered/gate-result-{date}.json \
+    --enforce {dedup_enforce}
+  ```
+- **Phase B**: `@deduplication-filter` processes **uncertain** signals only
+- **Input**: `{data_root}/filtered/gate-filtered-{date}.json` (Phase A output)
 - **Output**: `{data_root}/filtered/new-signals-{date}.json`
-- **Method**: 4-stage cascade (URL → String → Semantic → Entity)
+- **Worker**: deduplication-filter (shared)
 - **pSST**: Compute DC dimension
 
 ### Step 1.4: Human Checkpoint (Optional)
@@ -85,6 +134,20 @@ Checks:
   - crawl_stats_valid: "total_articles > 0, section_stats populated"
   - psst_dimensions_phase1: "SR, TC exist for all signals"
   - psst_dimensions_dc: "DC exists for non-duplicate signals"
+  - temporal_boundary_check: |
+      TC-003: MANDATORY Python enforcement — temporal_gate.py validates every signal:
+
+      python3 {temporal_gate_script} \
+        --signals {data_root}/filtered/new-signals-{date}.json \
+        --scan-window {scan_window_state_file} \
+        --workflow {scan_window_workflow} \
+        --output {data_root}/filtered/new-signals-{date}.json
+
+      Naver news articles have precise pub_time — strict enforcement.
+      The script reads window boundaries from scan_window_state_file
+      and checks each signal's published_date programmatically.
+      No LLM datetime arithmetic involved.
+      Exit code 0 = proceed, 1 = HALT (no signals remain).
 On_fail: trace_back and re_execute_failing_step (max 1 retry)
 ```
 
@@ -148,12 +211,70 @@ On_fail: trace_back and re_execute_failing_step (max 1 retry)
 - **Backup**: `{data_root}/signals/snapshots/database-{date}.json`
 - **CRITICAL**: Atomic update with backup/restore capability
 
+### Step 3.1b: Signal Evolution Tracking (v2.3.0)
+
+> **Purpose**: 오늘 시그널을 히스토리 DB와 비교하여 cross-day evolution을 추적한다.
+> DB 업데이트 이전에 실행해야 오늘 시그널이 자기 자신과 매칭되지 않는다.
+
+**Read SOT** `system.signal_evolution.enabled`:
+- If `true`: Execute evolution tracker
+- If `false`: Skip (statistics engine handles graceful degradation)
+
+```bash
+python3 env-scanning/core/signal_evolution_tracker.py track \
+  --registry env-scanning/config/workflow-registry.yaml \
+  --input {data_root}/structured/classified-signals-{date}.json \
+  --db {data_root}/signals/database.json \
+  --index {data_root}/signals/evolution-index.json \
+  --workflow {workflow_name} \
+  --priority-ranked {data_root}/analysis/priority-ranked-{date}.json \
+  --output {data_root}/analysis/evolution/evolution-map-{date}.json
+```
+
+> **⚠️ SOT Direct Reading (v2.3.1)**: All evolution thresholds are read DIRECTLY from the registry by Python. Do NOT pass numeric threshold arguments.
+>
+> **`--priority-ranked` (v1.3.0 L3 fix)**: Back-fills pSST scores from Step 2.3 output.
+
+- **On failure**: Log warning, continue without evolution data. Do NOT halt workflow.
+
 ### Step 3.2: Report Generation
+
+**Step A.0: Statistical Placeholder Computation (Python — 결정론적)**
+
+> v2.2.2: 통계 플레이스홀더(FSSF 분포, Horizons 분포, Tipping Point 테이블 등)를 Python이 계산한다.
+> "LLM이 분류하고, Python이 센다" — 통계 할루시네이션 원천 차단.
+
+```bash
+python3 {statistics_engine_script} \
+  --input {data_root}/structured/classified-signals-{date}.json \
+  --workflow-type naver \
+  --evolution-map {data_root}/analysis/evolution/evolution-map-{date}.json \
+  --language {bilingual_language} \
+  --output {data_root}/reports/report-statistics-{date}.json
+```
+
+**Step A: Temporal + Statistical Metadata Injection (Python — 결정론적)**
+
+> v2.2.1+: 시간 + 통계 플레이스홀더를 Python이 채운다. LLM은 분석 콘텐츠만 채운다.
+
+```bash
+python3 {metadata_injector_script} \
+  --skeleton {report_skeleton} \
+  --scan-window {scan_window_state_file} \
+  --statistics {data_root}/reports/report-statistics-{date}.json \
+  --workflow {scan_window_workflow} \
+  --language {bilingual_language} \
+  --output {data_root}/reports/daily/_skeleton-prefilled-{date}.md
+```
+
+**Step B: Report Generation (LLM)**
+
 - **Worker**: report-generator (shared)
 - **Input**: All analysis files from `{data_root}/analysis/` + `{data_root}/structured/`
+- **Skeleton**: `{data_root}/reports/daily/_skeleton-prefilled-{date}.md` (**⚠️ pre-filled, NOT raw template**)
 - **Output**: `{data_root}/reports/daily/environmental-scan-{date}.md`
-- **Skeleton**: naver-report-skeleton.md (WF3 specific, includes FSSF + Three Horizons + Tipping Point sections)
-- **Validation**: `validate_report.py --profile naver`
+- **Original skeleton**: `{report_skeleton}` (WF3 specific, includes FSSF + Three Horizons + Tipping Point sections)
+- **Validation**: `validate_report.py --profile {validate_profile}`
 - **4-Layer Defense**: L1 Skeleton, L2 Validation, L3 Retry, L4 Golden Reference
 
 ### Step 3.3: Archive + Alert
@@ -227,6 +348,6 @@ On_still_insufficient:
 ## Version
 - **Orchestrator Version**: 1.0.0
 - **SOT Version**: 2.0.0
-- **Protocol Version**: 2.2.0
-- **Compatible with**: Triple Workflow System v2.0.0
-- **Last Updated**: 2026-02-06
+- **Protocol Version**: 2.2.1
+- **Compatible with**: Triple Workflow System v2.2.1
+- **Last Updated**: 2026-02-10

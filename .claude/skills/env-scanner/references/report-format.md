@@ -32,6 +32,7 @@ Environmental scanning reports must follow this standardized format in **Korean 
 
 **Content**:
 - Title and date
+- **스캔 시간 범위** (v2.2.0 필수): T₀ 기준 시작~종료 시점, lookback_hours 명시
 - Top 3 high-priority signals (2-3 sentences each)
 - Overall summary statistics
 - Immediate action items (if any)
@@ -79,26 +80,45 @@ Environmental scanning reports must follow this standardized format in **Korean 
 
 ### 3. Existing Signal Updates (기존 신호 업데이트)
 
-**Purpose**: Track evolution of previously detected signals
+**Purpose**: Track evolution of previously detected signals using programmatic evolution data
 
 **Content**:
-- Signals showing strengthening trends
-- Signals showing weakening trends
-- Status changes (emerging → developing → mature)
+- Evolution summary blockquote (pre-filled by Python: active threads, strengthening/weakening/faded counts)
+- Signals showing strengthening trends (with pre-filled evolution table)
+- Signals showing weakening trends (with pre-filled evolution table)
+- Signal state summary table (pre-filled: NEW/RECURRING/STRENGTHENING/WEAKENING/FADED counts)
+
+**Pre-filled vs LLM**: `{{EVOLUTION_*}}` placeholders are filled by Python (report_statistics_engine.py → report_metadata_injector.py). `{{SECTION_3_*_CONTENT}}` placeholders are filled by the LLM with analytical narrative.
 
 **Format**:
 ```markdown
 ## 3. 기존 신호 업데이트
 
+> 활성 추적 스레드: {{EVOLUTION_ACTIVE_THREADS}}개 | 강화: {{EVOLUTION_STRENGTHENING_COUNT}}개 | 약화: {{EVOLUTION_WEAKENING_COUNT}}개 | 소멸: {{EVOLUTION_FADED_COUNT}}개
+
 ### 3.1 강화 추세 (Strengthening)
-- **[Signal ID]**: [Title]
-  - 변화: [What changed]
-  - 이유: [Why strengthening]
+
+{{EVOLUTION_TABLE_STRENGTHENING}}
+
+{{SECTION_3_1_CONTENT}}
 
 ### 3.2 약화 추세 (Weakening)
-- **[Signal ID]**: [Title]
-  - 변화: [What changed]
-  - 이유: [Why weakening]
+
+{{EVOLUTION_TABLE_WEAKENING}}
+
+{{SECTION_3_2_CONTENT}}
+
+### 3.3 신호 상태 요약
+
+| 상태 | 수 | 비율 |
+|------|---|------|
+| 신규 | {{EVOLUTION_NEW_COUNT}} | {{EVOLUTION_NEW_PCT}} |
+| 강화 | {{EVOLUTION_STRENGTHENING_COUNT}} | {{EVOLUTION_STRENGTHENING_PCT}} |
+| 반복 등장 | {{EVOLUTION_RECURRING_COUNT}} | {{EVOLUTION_RECURRING_PCT}} |
+| 약화 | {{EVOLUTION_WEAKENING_COUNT}} | {{EVOLUTION_WEAKENING_PCT}} |
+| 소멸 | {{EVOLUTION_FADED_COUNT}} | {{EVOLUTION_FADED_PCT}} |
+
+{{SECTION_3_3_CONTENT}}
 ```
 
 ---
@@ -156,7 +176,7 @@ Environmental scanning reports must follow this standardized format in **Korean 
 
 ---
 
-### 6. Plausible Scenarios (플러서블 시나리오) ⚙️ OPTIONAL
+### 6. Plausible Scenarios(개연성 있는 시나리오) ⚙️ OPTIONAL
 
 **Purpose**: Present alternative future pathways (if Step 7.5 activated)
 
@@ -168,7 +188,7 @@ Environmental scanning reports must follow this standardized format in **Korean 
 
 **Format**:
 ```markdown
-## 6. 플러서블 시나리오
+## 6. Plausible Scenarios(개연성 있는 시나리오)
 
 ### 6.1 최선 시나리오 (발생 확률: XX%)
 [Narrative: 300-500 words]
@@ -323,7 +343,7 @@ validation:
     - header: "## 5. 전략적 시사점"
       critical: true
       min_words: 300
-    - header: "## 6. 플러서블 시나리오"
+    - header: "## 6. Plausible Scenarios(개연성 있는 시나리오)"
       critical: false  # Optional - only if scenarios input exists
       min_words: 0
     - header: "## 7. 신뢰도 분석"

@@ -1,13 +1,30 @@
 # Deduplication Filter Agent
 
 ## Role
-Filter out duplicate signals using multi-stage cascade approach, ensuring only genuinely new signals proceed to analysis phase.
+Apply semantic and entity-level judgment to **uncertain** signals that the
+deterministic Python gate (`dedup_gate.py`) could not confidently classify.
+
+**v2.9.0 Architecture Change**: This agent is now the SECOND phase of a
+2-phase dedup pipeline:
+1. **Phase A** (Python gate): `dedup_gate.py` deterministically removes
+   duplicates via 4-stage cascade:
+   - Stage A: URL exact match
+   - Stage B: Topic Fingerprint overlap coefficient
+   - Stage C: Jaro-Winkler title similarity
+   - Stage D: Entity name Jaccard overlap
+   SOT parameters: `system.dedup_gate.thresholds.*`, `system.dedup_gate.lookback_days`
+2. **Phase B** (THIS agent): Handles uncertain signals flagged by the gate
+   using semantic reasoning and contextual judgment.
+
+Signals marked `definite_new` by the gate pass through without LLM review.
+Signals marked `definite_duplicate` by the gate are already removed.
 
 ## Agent Type
-**Worker Agent** - Phase 1, Step 3
+**Worker Agent** - Phase 1, Step 3 (Phase B)
 
 ## Objective
-Apply 4-stage cascade filtering to remove duplicates with >95% accuracy while maintaining 30% processing time reduction compared to baseline.
+Apply semantic and entity-level filtering to gate-uncertain signals with >95%
+accuracy. Combine with gate results to produce the final filtered signal set.
 
 ---
 
@@ -16,7 +33,17 @@ Apply 4-stage cascade filtering to remove duplicates with >95% accuracy while ma
 ### Required Files
 ```yaml
 inputs:
-  raw_scan:
+  # v2.6.0: Input is now gate-filtered, not raw scan
+  gate_filtered:
+    path: "filtered/gate-filtered-{date}.json"
+    from: "dedup_gate.py (Phase A)"
+    contains:
+      definite_new: [signals that passed gate — include in output as-is]
+      uncertain: [signals needing LLM semantic judgment]
+      gate_metadata: {statistics about gate processing}
+
+  # Fallback: if gate-filtered file doesn't exist, use raw scan (pre-v2.6.0 compat)
+  raw_scan_fallback:
     path: "raw/daily-scan-{date}.json"
     from: "@multi-source-scanner"
 

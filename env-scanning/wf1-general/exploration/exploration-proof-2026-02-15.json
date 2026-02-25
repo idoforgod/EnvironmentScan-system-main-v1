@@ -1,0 +1,21 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.0.0",
+  "command": "post",
+  "recorded_at": "2026-02-15T02:51:05.619676+00:00",
+  "date": "2026-02-15",
+  "gate_decision": "MUST_RUN",
+  "execution_status": "executed",
+  "method_used": "single-agent",
+  "results": {
+    "candidates_discovered": 5,
+    "viable_count": 5,
+    "signals_collected": 8,
+    "gaps_analyzed": []
+  },
+  "files": {
+    "decision": "env-scanning/wf1-general/exploration/gate-decision-2026-02-15.json",
+    "candidates": "env-scanning/wf1-general/exploration/candidates/exploration-candidates-2026-02-15.json",
+    "signals": "env-scanning/wf1-general/exploration/exploration-signals-2026-02-15.json"
+  }
+}

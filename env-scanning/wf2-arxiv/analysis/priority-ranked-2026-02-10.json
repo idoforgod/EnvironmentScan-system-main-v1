@@ -1,0 +1,201 @@
+{
+  "ranking_metadata": {
+    "date": "2026-02-10",
+    "workflow_id": "wf2-arxiv",
+    "version": "2.2.1",
+    "ranking_method": "pSST_unified",
+    "total_ranked": 15,
+    "weights": {
+      "impact": 0.40,
+      "probability": 0.30,
+      "urgency": 0.20,
+      "novelty": 0.10
+    },
+    "temporal_consistency": {
+      "anchor_timestamp": "2026-02-10T13:01:55.038277+00:00",
+      "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-02-10.json"
+    }
+  },
+  "priority_ranked": [
+    {
+      "rank": 1,
+      "id": "wf2-20260210-004",
+      "title": "Sublinear Time Quantum Algorithm for Attention Approximation",
+      "category": "T",
+      "impact_score": 9.5,
+      "priority_score": 9.2,
+      "psst_score": 91,
+      "psst_grade": "A",
+      "urgency": "high",
+      "signal_maturity": "weak_signal"
+    },
+    {
+      "rank": 2,
+      "id": "wf2-20260210-002",
+      "title": "Persuasion Propagation in LLM Agents",
+      "category": "s",
+      "impact_score": 9.0,
+      "priority_score": 9.0,
+      "psst_score": 90,
+      "psst_grade": "A",
+      "urgency": "critical",
+      "signal_maturity": "weak_signal"
+    },
+    {
+      "rank": 3,
+      "id": "wf2-20260210-012",
+      "title": "Climate Stress in Financial Networks: Core-Periphery Dynamics",
+      "category": "E",
+      "impact_score": 9.0,
+      "priority_score": 8.8,
+      "psst_score": 89,
+      "psst_grade": "B+",
+      "urgency": "high",
+      "signal_maturity": "trend"
+    },
+    {
+      "rank": 4,
+      "id": "wf2-20260210-003",
+      "title": "Grounding Generative Planners in Verifiable Logic",
+      "category": "T",
+      "impact_score": 8.5,
+      "priority_score": 8.6,
+      "psst_score": 88,
+      "psst_grade": "B+",
+      "urgency": "medium",
+      "signal_maturity": "trend"
+    },
+    {
+      "rank": 5,
+      "id": "wf2-20260210-013",
+      "title": "AI Mental Well-Being Support: Therapeutic Boundaries",
+      "category": "S",
+      "impact_score": 8.5,
+      "priority_score": 8.5,
+      "psst_score": 87,
+      "psst_grade": "B+",
+      "urgency": "high",
+      "signal_maturity": "trend"
+    },
+    {
+      "rank": 6,
+      "id": "wf2-20260210-009",
+      "title": "Self-Guard: Defending Large Reasoning Models via Self-Reflection",
+      "category": "s",
+      "impact_score": 8.5,
+      "priority_score": 8.4,
+      "psst_score": 86,
+      "psst_grade": "B+",
+      "urgency": "high",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 7,
+      "id": "wf2-20260210-015",
+      "title": "Agentic AI Security Framework: Behavioral Integrity",
+      "category": "P",
+      "impact_score": 8.5,
+      "priority_score": 8.3,
+      "psst_score": 85,
+      "psst_grade": "B",
+      "urgency": "high",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 8,
+      "id": "wf2-20260210-008",
+      "title": "Quantum Circuit-Based Learning Models: Bridging QC and ML",
+      "category": "T",
+      "impact_score": 8.5,
+      "priority_score": 8.2,
+      "psst_score": 84,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "trend"
+    },
+    {
+      "rank": 9,
+      "id": "wf2-20260210-005",
+      "title": "CARE-RFT: Confidence-Anchored Reinforcement Finetuning",
+      "category": "T",
+      "impact_score": 8.0,
+      "priority_score": 8.0,
+      "psst_score": 82,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 10,
+      "id": "wf2-20260210-014",
+      "title": "EV Adoption: Social Norms vs Financial Incentives Across 15 Countries",
+      "category": "E_Environmental",
+      "impact_score": 8.0,
+      "priority_score": 7.9,
+      "psst_score": 81,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "trend"
+    },
+    {
+      "rank": 11,
+      "id": "wf2-20260210-010",
+      "title": "Post-Quantum Cryptography for 6G V2X Communication",
+      "category": "T",
+      "impact_score": 8.0,
+      "priority_score": 7.8,
+      "psst_score": 80,
+      "psst_grade": "B",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 12,
+      "id": "wf2-20260210-007",
+      "title": "ALIGN: Aligned Delegation for Multi-Agent LLM Reasoning",
+      "category": "T",
+      "impact_score": 8.0,
+      "priority_score": 7.7,
+      "psst_score": 79,
+      "psst_grade": "B-",
+      "urgency": "medium",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 13,
+      "id": "wf2-20260210-006",
+      "title": "Why LoRA Resists Label Noise",
+      "category": "T",
+      "impact_score": 7.5,
+      "priority_score": 7.5,
+      "psst_score": 77,
+      "psst_grade": "B-",
+      "urgency": "low",
+      "signal_maturity": "emerging"
+    },
+    {
+      "rank": 14,
+      "id": "wf2-20260210-011",
+      "title": "Privacy-Stability-Generalization Equivalence in Quantum Learning",
+      "category": "P",
+      "impact_score": 7.5,
+      "priority_score": 7.3,
+      "psst_score": 75,
+      "psst_grade": "B-",
+      "urgency": "low",
+      "signal_maturity": "weak_signal"
+    },
+    {
+      "rank": 15,
+      "id": "wf2-20260210-001",
+      "title": "Multi-Head Attention Is a Multi-Player Game",
+      "category": "T",
+      "impact_score": 7.0,
+      "priority_score": 7.1,
+      "psst_score": 73,
+      "psst_grade": "C+",
+      "urgency": "low",
+      "signal_maturity": "emerging"
+    }
+  ]
+}

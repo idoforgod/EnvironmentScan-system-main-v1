@@ -1,0 +1,101 @@
+{
+  "master_id": "triple-scan-2026-02-18",
+  "system_name": "Triple Environmental Scanning System",
+  "status": "completed",
+  "completed_at": "2026-02-19T00:05:18+00:00",
+  "registry_version": "2.5.0",
+  "started_at": "2026-02-18T21:13:00+09:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-18.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-18T21:13:00+09:00",
+    "passed": 44,
+    "total": 44,
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-18.md",
+      "validation": "19/19 PASS (standard)",
+      "approved_at": "2026-02-18T22:30:00+09:00",
+      "signals_count": 47,
+      "sources_scanned": 27,
+      "steeps_distribution": {"T": 19, "P": 10, "E": 7, "E_Environmental": 6, "S": 4, "s": 1}
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-18.md",
+      "validation": "19/19 PASS (standard)",
+      "approved_at": "2026-02-18T23:15:00+09:00",
+      "signals_count": 15,
+      "papers_scanned": 475,
+      "steeps_distribution": {"T": 14, "E": 1, "S": 1, "s": 1, "P": 1}
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-18.md",
+      "validation": "19/19 PASS (naver)",
+      "approved_at": "2026-02-18T23:45:00+09:00",
+      "signals_count": 15,
+      "articles_crawled": 270,
+      "steeps_distribution": {"T": 5, "P": 3, "E": 3, "E_Environmental": 2, "S": 1, "s": 1},
+      "fssf_distribution": {
+        "Weak Signal": 2,
+        "Wild Card": 2,
+        "Discontinuity": 1,
+        "Driver": 2,
+        "Emerging Issue": 2,
+        "Precursor Event": 2,
+        "Trend": 2,
+        "Megatrend": 2
+      },
+      "tipping_alerts": {"RED": 1, "ORANGE": 1, "YELLOW": 5, "GREEN": 8},
+      "three_horizons": {"H1": "53%", "H2": "33%", "H3": "13%"}
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-18.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-18.md",
+    "validation": "19/19 PASS (integrated)",
+    "total_signals_across_workflows": 77,
+    "integrated_top_signals": 20,
+    "signal_source_distribution": {"WF1": 9, "WF2": 3, "WF3": 8}
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {"decision": "approved", "timestamp": "2026-02-18T22:00:00+09:00"},
+    "wf1_step_3_4": {"decision": "approved", "timestamp": "2026-02-18T22:30:00+09:00"},
+    "wf2_step_2_5": {"decision": "approved", "timestamp": "2026-02-18T23:00:00+09:00"},
+    "wf2_step_3_4": {"decision": "approved", "timestamp": "2026-02-18T23:15:00+09:00"},
+    "wf3_step_2_5": {"decision": "approved", "timestamp": "2026-02-18T23:30:00+09:00"},
+    "wf3_step_3_4": {"decision": "approved", "timestamp": "2026-02-18T23:45:00+09:00"},
+    "integrated_final": {"decision": "approved", "timestamp": "2026-02-19T00:05:00+09:00"}
+  },
+  "master_gates": {
+    "M1": {"status": "PASS", "timestamp": "2026-02-18T22:30:00+09:00"},
+    "M2": {"status": "PASS", "timestamp": "2026-02-18T23:15:00+09:00"},
+    "M2a": {"status": "PASS", "timestamp": "2026-02-18T23:45:00+09:00"},
+    "M3": {"status": "PASS", "timestamp": "2026-02-19T00:05:18+00:00"}
+  },
+  "self_improvement": {
+    "status": "completed",
+    "analysis_file": "env-scanning/integrated/analysis/sie-analysis-2026-02-18.json",
+    "quality_grade": "A",
+    "auto_changes_applied": 0,
+    "proposals_pending_approval": 2,
+    "key_proposals": [
+      "SIE-001: pSST weight rebalance (DC 0.15→0.17, SR 0.20→0.18)",
+      "SIE-002: Investigate source exploration 3-scan zero streak"
+    ]
+  },
+  "new_capability": {
+    "dedup_gate_v260": {
+      "status": "operational",
+      "first_day": true,
+      "module": "env-scanning/core/dedup_gate.py",
+      "unit_tests": "34/34 PASS"
+    }
+  }
+}

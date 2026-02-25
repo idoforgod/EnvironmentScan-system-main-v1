@@ -1,0 +1,1413 @@
+{
+  "scan_metadata": {
+    "date": "2026-02-15",
+    "workflow": "wf1-general",
+    "scan_window": {
+      "start": "2026-02-14T01:58:05+00:00",
+      "end": "2026-02-15T01:58:05+00:00",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "sources_scanned": [
+      "Google Patents",
+      "US Federal Register",
+      "WHO Press Releases",
+      "TechCrunch",
+      "MIT Technology Review",
+      "PubMed Central",
+      "Nature News",
+      "Science Magazine",
+      "IEEE Spectrum",
+      "OECD Newsroom",
+      "World Bank Blogs",
+      "UN News",
+      "EUR-Lex Recent Acts",
+      "Brookings Institution",
+      "World Economic Forum",
+      "Pew Research Center",
+      "Hacker News",
+      "Wired",
+      "Ars Technica",
+      "NASA Climate Change",
+      "Carbon Brief",
+      "IMF Blog",
+      "BIS Speeches"
+    ],
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-02-15-01-58-05-a7b3",
+      "started_at": "2026-02-15T01:58:05+00:00",
+      "completed_at": "2026-02-15T02:15:00+00:00",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "Google Patents",
+        "US Federal Register",
+        "WHO Press Releases",
+        "TechCrunch",
+        "MIT Technology Review",
+        "PubMed Central",
+        "Nature News",
+        "Science Magazine",
+        "IEEE Spectrum",
+        "OECD Newsroom",
+        "World Bank Blogs",
+        "UN News",
+        "EUR-Lex Recent Acts",
+        "Brookings Institution",
+        "World Economic Forum",
+        "Pew Research Center",
+        "Hacker News",
+        "Wired",
+        "Ars Technica",
+        "NASA Climate Change",
+        "Carbon Brief",
+        "IMF Blog",
+        "BIS Speeches"
+      ],
+      "file_created_at": "2026-02-15T02:15:00+00:00"
+    }
+  },
+  "total_items": 45,
+  "items": [
+    {
+      "id": "techcrunch-20260215-001",
+      "title": "Anthropic closes in on $20B round at $350B valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/09/anthropic-closes-in-on-20b-round/",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Anthropic is in the final stages of raising $20 billion in new capital at a valuation of $350 billion, with investor demand leading the company to raise twice the funding it set out to obtain. The AI safety company's massive round signals continued explosive growth in foundational AI investment.",
+        "keywords": [
+          "AI",
+          "artificial intelligence",
+          "investment",
+          "valuation",
+          "Anthropic"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "techcrunch-20260215-002",
+      "title": "Runway AI video startup raises $315M at $5.3B valuation for world models",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "AI video-generation startup Runway has raised a $315 million Series E round, nearly doubling its valuation to $5.3 billion. The fresh funds will allow Runway to pre-train the next generation of world models, signaling the rapid maturation of generative AI in visual content creation.",
+        "keywords": [
+          "AI",
+          "world models",
+          "video generation",
+          "investment",
+          "generative AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "techcrunch-20260215-003",
+      "title": "Modal Labs AI inference startup in talks to raise at $2.5B valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "Modal Labs, specializing in AI inference infrastructure, is in talks to raise at a valuation of about $2.5 billion, more than doubling from $1.1 billion less than five months ago. AI inference infrastructure is becoming a critical bottleneck as deployed AI models scale.",
+        "keywords": [
+          "AI infrastructure",
+          "inference",
+          "cloud computing",
+          "investment"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "cisco-20260215-004",
+      "title": "Cisco launches breakthrough innovations for the AI era including Silicon One G300",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m02/cisco-launches-breakthrough-innovations-for-the-ai-era.html",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "At Cisco Live Conference in Amsterdam, Cisco unveiled Silicon One G300 102.4 Tbps switching silicon, offering 33% increase in network utilization and 28% improvement in job completion time for AI workloads. This addresses critical AI infrastructure bottlenecks.",
+        "keywords": [
+          "networking",
+          "AI infrastructure",
+          "Cisco",
+          "silicon",
+          "data center"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "mittr-20260215-005",
+      "title": "MIT Technology Review 10 Breakthrough Technologies 2026: Sodium-ion batteries",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/12/1130697/10-breakthrough-technologies-2026/",
+        "published_date": "2026-01-12"
+      },
+      "content": {
+        "abstract": "Sodium-ion batteries made from abundant materials like salt emerge as cheaper, safer alternative to lithium-ion for grid-scale storage and affordable EVs. This could reshape the energy storage market by reducing reliance on scarce lithium resources.",
+        "keywords": [
+          "battery technology",
+          "sodium-ion",
+          "energy storage",
+          "EV",
+          "green technology"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "mittr-20260215-006",
+      "title": "Mechanistic interpretability: Understanding what AI models actually know",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
+        "published_date": "2026-01-12"
+      },
+      "content": {
+        "abstract": "Mechanistic interpretability aims to map key features and pathways across entire AI models. Anthropic built a microscope to peer inside its Claude model, tracing model reasoning from prompt to response. This breakthrough addresses the black box problem in AI governance.",
+        "keywords": [
+          "AI interpretability",
+          "mechanistic interpretability",
+          "AI safety",
+          "Anthropic",
+          "explainable AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "mittr-20260215-007",
+      "title": "Personalized gene-editing treatments: Baby KJ becomes first recipient",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/01/12/1130697/10-breakthrough-technologies-2026/",
+        "published_date": "2026-01-12"
+      },
+      "content": {
+        "abstract": "Baby KJ became the first person to receive a personalized gene-editing treatment. Clinical trials are now planned, with bespoke gene-editing drugs potentially approved within the next few years. This represents a paradigm shift in precision medicine.",
+        "keywords": [
+          "gene editing",
+          "CRISPR",
+          "precision medicine",
+          "biotech",
+          "personalized medicine"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:00:00+00:00"
+    },
+    {
+      "id": "fedreg-20260215-008",
+      "title": "H-1B visa weighted selection rule replacing random lottery effective February 27",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.fisherphillips.com/en/news-insights/dhs-releases-final-h-1b-weighted-selection-rule.html",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "DHS released final H-1B weighted selection rule replacing the random lottery with a wage-weighted system, effective February 27, 2026. Higher-wage positions receive priority in the selection process, fundamentally changing skilled immigration pathways.",
+        "keywords": [
+          "immigration policy",
+          "H-1B visa",
+          "labor market",
+          "regulation",
+          "skilled workers"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:01:00+00:00"
+    },
+    {
+      "id": "fedreg-20260215-009",
+      "title": "H-2B visa program: 64,716 additional visas authorized for FY2026",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02131/exercise-of-time-limited-authority-to-increase-the-fiscal-year-2026-numerical-limitation-for-the",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "DHS authorized up to 64,716 additional H-2B temporary nonagricultural worker visas for American businesses suffering impending irreparable harm, distributed in three allocations based on employment start dates through fiscal year end.",
+        "keywords": [
+          "immigration",
+          "labor shortage",
+          "temporary workers",
+          "regulation",
+          "workforce"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:01:00+00:00"
+    },
+    {
+      "id": "who-20260215-010",
+      "title": "WHO pandemic preparedness: Six years after COVID-19 assessment",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/02-02-2026-six-years-after-covid-19-s-global-alarm-is-the-world-better-prepared-for-the-next-pandemic",
+        "published_date": "2026-02-02"
+      },
+      "content": {
+        "abstract": "WHO's assessment six years after COVID-19 PHEIC declaration finds the world is better prepared in many ways but progress is fragile and uneven. Meaningful steps have been taken to strengthen preparedness, but more needs to be done.",
+        "keywords": [
+          "pandemic preparedness",
+          "WHO",
+          "public health",
+          "COVID-19",
+          "global health"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T02:02:00+00:00"
+    },
+    {
+      "id": "who-20260215-011",
+      "title": "WHO launches $1 billion 2026 appeal for 36 emergencies worldwide",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings",
+        "published_date": "2026-02-03"
+      },
+      "content": {
+        "abstract": "WHO launched its 2026 appeal seeking nearly US$1 billion to respond to 36 emergencies worldwide, including 14 Grade 3 emergencies requiring the highest organizational response. Growing number of emergencies strains global health system.",
+        "keywords": [
+          "global health",
+          "emergency response",
+          "WHO",
+          "humanitarian",
+          "funding"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T02:02:00+00:00"
+    },
+    {
+      "id": "who-20260215-012",
+      "title": "Global health systems at risk as international funding cuts intensify",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/en/story/2026/02/1166869",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "WHO warned that cuts to international aid and persistent funding gaps are undermining the global health system, as the risk from pandemics, drug-resistant infections and fragile health services are on the rise.",
+        "keywords": [
+          "global health",
+          "funding cuts",
+          "WHO",
+          "health systems",
+          "aid"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T02:02:00+00:00"
+    },
+    {
+      "id": "epa-20260215-013",
+      "title": "Trump EPA revokes CO2 endangerment finding — largest deregulation in US history",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.npr.org/2026/02/11/nx-s1-5678273/trump-epa-climate-change-endangerment",
+        "published_date": "2026-02-11"
+      },
+      "content": {
+        "abstract": "EPA Administrator Lee Zeldin finalized the rescission of the 2009 endangerment finding that determined greenhouse gases endanger public health. Called the 'single largest act of deregulation in US history,' this eliminates the central legal basis for federal climate action, including vehicle emissions rules.",
+        "keywords": [
+          "climate policy",
+          "EPA",
+          "endangerment finding",
+          "deregulation",
+          "greenhouse gas"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:03:00+00:00"
+    },
+    {
+      "id": "climate-20260215-014",
+      "title": "China's clean energy drove one-third of economic growth in 2025",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/debriefed-6-february-2026-us-secret-climate-panel-unlawful-chinas-clean-energy-boon-can-humans-reverse-nature-loss/",
+        "published_date": "2026-02-06"
+      },
+      "content": {
+        "abstract": "Solar power, EVs, and other clean-energy technologies drove more than a third of China's economic growth in 2025. Clean-energy sectors contributed a record 15.4 trillion yuan ($2.1 trillion), or 11.4% of China's GDP, demonstrating the economic viability of green transition.",
+        "keywords": [
+          "clean energy",
+          "China",
+          "economic growth",
+          "solar power",
+          "green transition"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T02:03:00+00:00"
+    },
+    {
+      "id": "climate-20260215-015",
+      "title": "Greenland records warmest January on record: 4x faster warming than global average",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://earth.org/this-week-in-climate-news-february-2026-week-1/",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "Greenland recorded its warmest January on record with average temperatures in Nuuk reaching +0.2C compared to the 1991-2020 average of -7.7C. Climate researchers note Greenland is warming about four times faster than the global average, accelerating ice sheet melt.",
+        "keywords": [
+          "climate change",
+          "Arctic warming",
+          "Greenland",
+          "ice melt",
+          "temperature records"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T02:03:00+00:00"
+    },
+    {
+      "id": "un-20260215-016",
+      "title": "UN declares dawn of global water bankruptcy amid chronic groundwater depletion",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://unu.edu/ehs/article/5-things-watch-climate-and-environment-2026",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "A UN report declared the dawn of an era of global water bankruptcy amid chronic groundwater depletion, water overallocation, land degradation, deforestation, and pollution compounded by global heating. This represents a critical sustainability threshold.",
+        "keywords": [
+          "water crisis",
+          "groundwater depletion",
+          "sustainability",
+          "UN",
+          "environmental"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T02:04:00+00:00"
+    },
+    {
+      "id": "ieee-20260215-017",
+      "title": "Neuralink Blindsight brain implant to begin human testing for vision restoration in 2026",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/new-technology-2026",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "Neuralink plans to test its newest and most powerful brain-computer interface implant, Blindsight, aimed at restoring partial sight to fully blind patients. This represents a major milestone in direct neural interface technology for sensory restoration.",
+        "keywords": [
+          "brain-computer interface",
+          "Neuralink",
+          "neural implant",
+          "vision restoration",
+          "neurotechnology"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:04:00+00:00"
+    },
+    {
+      "id": "ieee-20260215-018",
+      "title": "First deuterium-tritium fusion fuel cycle demonstration planned for late 2026",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/new-technology-2026",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "The first-ever project to demonstrate the deuterium-tritium fuel cycle — the most viable route to practical fusion energy — plans to be operational by late 2026. This milestone could accelerate the timeline for commercial fusion power.",
+        "keywords": [
+          "fusion energy",
+          "deuterium-tritium",
+          "clean energy",
+          "nuclear fusion",
+          "energy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:04:00+00:00"
+    },
+    {
+      "id": "ieee-20260215-019",
+      "title": "Tensor to release SAE Level 4 autonomous vehicle to consumers in H2 2026",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/tech-in-2026",
+        "published_date": "2026-01-10"
+      },
+      "content": {
+        "abstract": "Automotive startup Tensor plans to release its SAE Level 4 car to consumers in H2 2026 — the car can safely travel without a person in the driver's seat. This represents a significant leap toward full autonomous driving commercialization.",
+        "keywords": [
+          "autonomous vehicles",
+          "self-driving",
+          "Level 4",
+          "transportation",
+          "automotive"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:04:00+00:00"
+    },
+    {
+      "id": "oecd-20260215-020",
+      "title": "OECD projects global GDP growth cooling to 2.9% in 2026 amid fragilities",
+      "source": {
+        "name": "OECD Newsroom",
+        "type": "policy",
+        "url": "https://www.oecd.org/en/about/news/press-releases/2025/12/global-economy-proves-resilient-but-remains-fragile.html",
+        "published_date": "2025-12-01"
+      },
+      "content": {
+        "abstract": "Global GDP growth is projected to ease from 3.2% in 2025 to 2.9% in 2026. Labour markets show first signs of weakening despite OECD unemployment steady at 4.9%. Key risks include further trade barriers and sharp repricing in financial markets.",
+        "keywords": [
+          "GDP growth",
+          "economic outlook",
+          "OECD",
+          "labor market",
+          "trade barriers"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T02:05:00+00:00"
+    },
+    {
+      "id": "imf-20260215-021",
+      "title": "IMF: Global growth steady at 3.3% but risks tilted to downside",
+      "source": {
+        "name": "IMF Blog",
+        "type": "policy",
+        "url": "https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026",
+        "published_date": "2026-01-19"
+      },
+      "content": {
+        "abstract": "IMF projects global growth at 3.3% for 2026, revised slightly up but risks remain tilted to downside including renewed trade frictions, tighter financial conditions, elevated fiscal vulnerabilities, rising geopolitical tensions, and climate shocks.",
+        "keywords": [
+          "IMF",
+          "global growth",
+          "economic forecast",
+          "trade frictions",
+          "fiscal policy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T02:05:00+00:00"
+    },
+    {
+      "id": "unctad-20260215-022",
+      "title": "Global economy slows to 2.7% growth as trade tensions and fiscal strains intensify",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://unctad.org/publication/world-economic-situation-and-prospects-2026",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "UNCTAD World Economic Situation and Prospects 2026 projects global economy slowing to 2.7%, below 2025 levels and pre-pandemic average. Digital services account for 62% of services sold but least developed countries hold just 0.16% of global digital services trade.",
+        "keywords": [
+          "global economy",
+          "trade",
+          "digital divide",
+          "developing countries",
+          "UNCTAD"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T02:05:00+00:00"
+    },
+    {
+      "id": "geopolitics-20260215-023",
+      "title": "Geoeconomic confrontation identified as world's top threat by global leaders",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "blog",
+        "url": "https://www.aljazeera.com/news/2026/1/14/geoeconomic-confrontation-worlds-top-threat-global-leaders-say",
+        "published_date": "2026-01-14"
+      },
+      "content": {
+        "abstract": "18% of surveyed global leaders identified geoeconomic confrontation — use of trade, investment, sanctions, and industrial policy as strategic weapons — as the most likely trigger of a global crisis. Governments increasingly pursue economic sovereignty through de-risking and onshoring.",
+        "keywords": [
+          "geoeconomics",
+          "trade war",
+          "sanctions",
+          "economic sovereignty",
+          "deglobalization"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:06:00+00:00"
+    },
+    {
+      "id": "security-20260215-024",
+      "title": "Last US-Russia nuclear arms control treaty set to expire amid rising tensions",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "blog",
+        "url": "https://www.cfr.org/reports/conflicts-watch-2026",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "The last remaining arms control treaty limiting nuclear weapons between the US and Russia is set to expire, coinciding with intensified infrastructure attacks in the Ukraine war and Middle East instability with six conflicts involving Israel.",
+        "keywords": [
+          "nuclear arms control",
+          "US-Russia relations",
+          "geopolitics",
+          "Ukraine war",
+          "Middle East"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:06:00+00:00"
+    },
+    {
+      "id": "eu-20260215-025",
+      "title": "EU AI Act implementation delayed: Digital Omnibus defers high-risk obligations to December 2027",
+      "source": {
+        "name": "EUR-Lex Recent Acts",
+        "type": "policy",
+        "url": "https://www.klgates.com/EU-and-Luxembourg-Update-on-the-European-Harmonised-Rules-on-Artificial-IntelligenceRecent-Developments-1-20-2026",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "European Commission's Digital Omnibus package proposes delaying EU AI Act high-risk system obligations by up to 16 months to December 2027. The delay is part of the EU's simplification agenda amid growing US-EU tensions over AI regulation approaches.",
+        "keywords": [
+          "EU AI Act",
+          "regulation",
+          "artificial intelligence",
+          "digital policy",
+          "governance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:06:00+00:00"
+    },
+    {
+      "id": "pew-20260215-026",
+      "title": "Americans' views of economy remain negative one year into Trump's second term",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/politics/2026/02/04/a-year-into-trumps-second-term-americans-views-of-the-economy-remain-negative/",
+        "published_date": "2026-02-04"
+      },
+      "content": {
+        "abstract": "Most Americans continue to hold negative views of the US economy, as has been the case for the last six years, despite economic indicators. This persistent sentiment gap signals potential social and political instability.",
+        "keywords": [
+          "public opinion",
+          "economy",
+          "sentiment",
+          "US politics",
+          "economic perception"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T02:07:00+00:00"
+    },
+    {
+      "id": "nature-20260215-027",
+      "title": "Protein DMTF1 identified for rejuvenating aging brain cells and neural regeneration",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/news",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "A newly identified protein DMTF1 may hold the key to rejuvenating aging brain cells. Boosting this protein can restore the ability of neural stem cells to regenerate even when age-related damage has set in, opening new pathways for neurodegenerative disease treatment.",
+        "keywords": [
+          "neuroscience",
+          "aging",
+          "brain regeneration",
+          "protein",
+          "neural stem cells"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:07:00+00:00"
+    },
+    {
+      "id": "nature-20260215-028",
+      "title": "Menopause linked to significant changes in brain structure, mental health, and sleep",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/news",
+        "published_date": "2026-02-08"
+      },
+      "content": {
+        "abstract": "A major study reveals menopause is linked to changes in brain structure, mental health, and sleep patterns. Brain scans revealed grey matter loss in areas tied to memory and emotional regulation, with significant implications for women's health policy.",
+        "keywords": [
+          "menopause",
+          "brain health",
+          "neuroscience",
+          "women's health",
+          "aging"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T02:07:00+00:00"
+    },
+    {
+      "id": "coral-20260215-029",
+      "title": "Over half of world's coral reefs damaged: $9.8 trillion annual ecosystem value at risk",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/news",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "More than half of the world's coral reefs suffered damage during marine heatwaves. Coral reefs, worth an estimated $9.8 trillion per year to humanity, face existential threat from ocean warming, with cascading impacts on marine biodiversity and coastal economies.",
+        "keywords": [
+          "coral reefs",
+          "marine ecosystem",
+          "ocean warming",
+          "biodiversity",
+          "climate impact"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T02:07:00+00:00"
+    },
+    {
+      "id": "nvidia-20260215-030",
+      "title": "NVIDIA Rubin extreme-codesigned AI platform enters full production at CES 2026",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/",
+        "published_date": "2026-01-10"
+      },
+      "content": {
+        "abstract": "NVIDIA unveiled Rubin, its first extreme-codesigned six-chip AI platform now in full production, along with Alpamayo open reasoning model for autonomous vehicle development. This signals the next generation of AI hardware scaling.",
+        "keywords": [
+          "NVIDIA",
+          "AI hardware",
+          "GPU",
+          "AI platform",
+          "autonomous vehicles"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:08:00+00:00"
+    },
+    {
+      "id": "cyber-20260215-031",
+      "title": "North Korea UNC2970 using Google Gemini AI for cyber reconnaissance and OSINT",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://thehackernews.com/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Google observed North Korea-linked threat actor UNC2970 using generative AI model Gemini to conduct reconnaissance, synthesize OSINT, and profile high-value targets to support campaign planning. This represents a new dimension of AI-powered state-sponsored cyber warfare.",
+        "keywords": [
+          "cybersecurity",
+          "North Korea",
+          "AI warfare",
+          "OSINT",
+          "threat intelligence"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:08:00+00:00"
+    },
+    {
+      "id": "security-20260215-032",
+      "title": "Passwordless authentication reaches inflection point: Apple, Google, Microsoft push passkeys",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://thehackernews.com/expert-insights/2026/02/9-identity-security-predictions-for-2026.html",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "The push to eliminate passwords reaches an inflection point in 2026 with widespread adoption of passkeys backed by Apple, Google, and Microsoft, making passwordless MFA the default user experience. AI-driven identity governance becomes standard.",
+        "keywords": [
+          "identity security",
+          "passkeys",
+          "authentication",
+          "cybersecurity",
+          "digital identity"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:08:00+00:00"
+    },
+    {
+      "id": "patent-20260215-033",
+      "title": "US patent applications decrease 9% after reaching record high; Asia holds 60% of global patents",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://www.digital-science.com/blog/2026/01/ifi-claims-2025-patent-rankings/",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "US patent applications decreased dramatically by 9% one year after reaching record high. Meanwhile, Asia now accounts for 60% of global patent filings, up from 48% in 2016, signaling a long-term shift in innovation geography from West to East.",
+        "keywords": [
+          "patents",
+          "innovation geography",
+          "intellectual property",
+          "US-Asia shift",
+          "R&D"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T02:09:00+00:00"
+    },
+    {
+      "id": "patent-20260215-034",
+      "title": "Brain-computer interface patents surge: Neuralink, Synchron, Blackrock Neurotech lead",
+      "source": {
+        "name": "Google Patents",
+        "type": "patent",
+        "url": "https://iamip.com/ip-trends-in-2026-from-filing-to-foresight/",
+        "published_date": "2026-02-01"
+      },
+      "content": {
+        "abstract": "BCI patent activity surges with clinical progress from Neuralink, Synchron, Blackrock Neurotech, and Paradromics advancing implantable devices for speech restoration, motor control, and neuroprosthetics. BCIs are transforming neurotechnology.",
+        "keywords": [
+          "brain-computer interface",
+          "BCI",
+          "patents",
+          "neurotechnology",
+          "medical devices"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:09:00+00:00"
+    },
+    {
+      "id": "quantum-20260215-035",
+      "title": "IBM: 2026 marks first time quantum computer outperforms classical computer",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026",
+        "published_date": "2026-01-20"
+      },
+      "content": {
+        "abstract": "IBM has publicly stated that 2026 will mark the first time a quantum computer will be able to outperform a classical computer. Silicon Quantum Computing demonstrated an 11-qubit atom processor with gate fidelities up to 99.99%.",
+        "keywords": [
+          "quantum computing",
+          "quantum advantage",
+          "IBM",
+          "quantum supremacy",
+          "computing"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:09:00+00:00"
+    },
+    {
+      "id": "quantum-20260215-036",
+      "title": "Infleqtion achieves 99.93% neutral-atom qubit readout fidelity for quantum error correction",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://thequantuminsider.com/2025/12/30/tqis-expert-predictions-on-quantum-technology-in-2026/",
+        "published_date": "2026-01-10"
+      },
+      "content": {
+        "abstract": "Infleqtion and University of Wisconsin-Madison achieved record-breaking 99.93% readout fidelity for neutral-atom qubits, providing a path to fast mid-circuit measurements required for quantum error correction — a critical milestone for practical quantum computing.",
+        "keywords": [
+          "quantum computing",
+          "error correction",
+          "neutral atoms",
+          "qubits",
+          "fidelity"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:09:00+00:00"
+    },
+    {
+      "id": "ev-20260215-037",
+      "title": "All-EV marketplace Ever secures $31M Series A backed by Eclipse",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/02/12/eclipse-backs-all-ev-marketplace-ever-in-31m-funding-round/",
+        "published_date": "2026-02-12"
+      },
+      "content": {
+        "abstract": "Ever secured $31M Series A for its all-EV marketplace, backed by Eclipse, Ibex Investors, Lifeline Ventures, and JIMCO (Saudi Jameel family). Platform model for EV sales signals growing maturity of the electric vehicle secondary market.",
+        "keywords": [
+          "EV marketplace",
+          "electric vehicles",
+          "investment",
+          "clean transportation",
+          "startup"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-15T02:10:00+00:00"
+    },
+    {
+      "id": "climate-20260215-038",
+      "title": "Amsterdam and Florence ban fossil fuel and meat advertisements",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.wemeanbusinesscoalition.org/blog/signals-of-change-february-2026/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "Amsterdam's city council passed a legally binding ban on ads for fossil fuels and meat products, becoming the first capital city to fully prohibit such ads. Florence also approved similar bans. This signals growing municipal-level climate governance.",
+        "keywords": [
+          "advertising ban",
+          "fossil fuels",
+          "climate policy",
+          "Amsterdam",
+          "urban governance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:10:00+00:00"
+    },
+    {
+      "id": "sbti-20260215-039",
+      "title": "Science Based Targets initiative validates climate targets for 10,000 companies",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.wemeanbusinesscoalition.org/blog/signals-of-change-february-2026/",
+        "published_date": "2026-02-10"
+      },
+      "content": {
+        "abstract": "SBTi has now validated climate targets for 10,000 companies worldwide. Microsoft signed a 12-year deal for 2.85 million tonnes of carbon removals, while Salesforce backed $5 million in early-stage purchases across 19 suppliers.",
+        "keywords": [
+          "climate targets",
+          "SBTi",
+          "carbon removal",
+          "corporate sustainability",
+          "net zero"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-15T02:10:00+00:00"
+    },
+    {
+      "id": "legal-20260215-040",
+      "title": "Swedish youth file landmark legal challenge against government climate targets",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://earth.org/this-week-in-climate-news-february-2026-week-1/",
+        "published_date": "2026-02-07"
+      },
+      "content": {
+        "abstract": "Young activists launched a high-stakes legal challenge against the Swedish government, alleging climate targets violate international law. The Aurora organization argues Sweden is not doing its 'fair share' to limit warming to 1.5C, building on global climate litigation trend.",
+        "keywords": [
+          "climate litigation",
+          "youth activism",
+          "Sweden",
+          "international law",
+          "climate policy"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:10:00+00:00"
+    },
+    {
+      "id": "biotech-20260215-041",
+      "title": "Precision genome editing with CRISPR advancing xenotransplantation outcomes",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00188-6",
+        "published_date": "2026-01-28"
+      },
+      "content": {
+        "abstract": "CRISPR-Cas9 genome editing is eliminating sources of rejection in xenotransplantation. Combined with next-generation immunosuppressants, patient outcomes are dramatically improving, opening the door to animal-to-human organ transplants at scale.",
+        "keywords": [
+          "CRISPR",
+          "xenotransplantation",
+          "gene editing",
+          "organ transplant",
+          "biotech"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:11:00+00:00"
+    },
+    {
+      "id": "robot-20260215-042",
+      "title": "MIT develops robot 'Relevance' framework: 90% accuracy predicting human intent",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.startus-insights.com/innovators-guide/breakthrough-technologies/",
+        "published_date": "2026-02-05"
+      },
+      "content": {
+        "abstract": "MIT researchers developed a 'Relevance' framework allowing robots to filter sensory data and identify objects most pertinent to human objectives, achieving up to 90% accuracy in predicting human intent. This advances human-robot collaboration significantly.",
+        "keywords": [
+          "robotics",
+          "human-robot interaction",
+          "AI",
+          "MIT",
+          "intent prediction"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:11:00+00:00"
+    },
+    {
+      "id": "labor-20260215-043",
+      "title": "Demographic workforce crisis: US-born labor force projected to shrink over next decade",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.epi.org/publication/the-u-s-born-labor-force-will-shrink-over-the-next-decade-achieving-historically-normal-gdp-growth-rates-will-be-impossible-unless-immigration-flows-are-sustained/",
+        "published_date": "2026-01-15"
+      },
+      "content": {
+        "abstract": "The US-born labor force will shrink over the next decade, making historically normal GDP growth rates impossible unless immigration flows are sustained. Workers age 55+ now represent 24% of the US workforce, up from 10% in 1994.",
+        "keywords": [
+          "demographics",
+          "labor shortage",
+          "aging workforce",
+          "immigration",
+          "GDP growth"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-15T02:11:00+00:00"
+    },
+    {
+      "id": "wipo-20260215-044",
+      "title": "WIPO Innovation Capabilities Outlook 2026: Global innovation geography shifting",
+      "source": {
+        "name": "World Bank Blogs",
+        "type": "policy",
+        "url": "https://www.wipo.int/en/web/economics/w/news/2026/innovation-capabilities-outlook-2026-new-wipo-report-shows-countries-innovation-related-strengths",
+        "published_date": "2026-02-01"
+      },
+      "content": {
+        "abstract": "WIPO's Innovation Capabilities Outlook 2026 reveals shifting global innovation geography with Asia commanding 60% of global patent filings. Physical AI, robotics, and BCI emerge as fastest-growing patent domains.",
+        "keywords": [
+          "innovation",
+          "WIPO",
+          "patents",
+          "global shift",
+          "technology geography"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-15T02:12:00+00:00"
+    },
+    {
+      "id": "pandemic-20260215-045",
+      "title": "WHO Pandemic Agreement IGWG meeting: Pathogen access and benefit sharing negotiations",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/05-12-2025-countries-to-reconvene-sooner-to-accelerate-progress-on-who-pathogen-access-and-benefit-sharing-system-negotiations",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Intergovernmental Working Group meeting on WHO Pandemic Agreement held February 9-14, 2026, focusing on pathogen access and benefit sharing system negotiations. Countries aim to accelerate progress on global pandemic preparedness framework.",
+        "keywords": [
+          "pandemic agreement",
+          "WHO",
+          "pathogen sharing",
+          "global governance",
+          "public health"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-15T02:12:00+00:00"
+    },
+    {
+      "id": "explore-20260215-icn-001",
+      "title": "Maine Lakes: Shorter Ice Seasons Signal Water Quality Crisis and Cultural Loss",
+      "source": {
+        "name": "Inside Climate News",
+        "type": "news",
+        "url": "https://insideclimatenews.org/news/14022026/maine-shorter-ice-season-water-quality/",
+        "published_date": "2026-02-14",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Maine lakes are experiencing dramatically shorter ice seasons due to climate change, with direct impacts on water quality and loss of winter recreational traditions. Shorter ice cover periods allow more algal blooms, threatening drinking water supplies and ecosystem health. The cultural dimension of ice skating and winter lake traditions adds a social dimension to the environmental impact.",
+        "keywords": [
+          "climate change",
+          "water quality",
+          "ice season",
+          "Maine",
+          "algal blooms",
+          "cultural loss"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "final_category": "E_Environmental",
+      "classification_confidence": 0.93,
+      "classification_reasoning": "Direct climate change impact on water ecosystems and ice cover -- core Environmental domain with Social cross-impact through cultural tradition loss.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "Inside Climate News",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-14"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-icn-002",
+      "title": "NYC Chief Climate Officer Signals Urban Climate Governance Paradigm Shift",
+      "source": {
+        "name": "Inside Climate News",
+        "type": "news",
+        "url": "https://insideclimatenews.org/news/14022026/new-york-city-chief-climate-officer/",
+        "published_date": "2026-02-14",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "New York City Mayor Zohran Mamdani appoints Louise Yeung as chief climate officer, signaling a shift toward integrating climate resilience into all city operations. Yeung brings decade of experience in flood infrastructure, climate-resilient tunnels, and aligning financial investments with climate goals. This appointment represents a broader trend of cities creating dedicated executive-level climate positions.",
+        "keywords": [
+          "urban climate governance",
+          "chief climate officer",
+          "NYC",
+          "climate resilience",
+          "infrastructure adaptation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P_Political",
+      "final_category": "P_Political",
+      "classification_confidence": 0.88,
+      "classification_reasoning": "Governance and institutional innovation at city level for climate -- Political domain (institutional change) with Environmental cross-impact.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "Inside Climate News",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-14"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-mongabay-001",
+      "title": "Environmental Reporting Must Outlast the News Cycle: Africa Biodiversity Journalism Gap",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/short-article/2026/02/when-environmental-reporting-has-to-outlast-the-news-cycle/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "In parts of Africa most affected by biodiversity loss and climate stress, slow-moving ecological change, fragmented governance, and contested evidence make it difficult to translate environmental signals into journalism that travels beyond borders. The signals are often local, technical, and politically inconvenient, yet they shape global understanding of environmental futures.",
+        "keywords": [
+          "environmental journalism",
+          "Africa",
+          "biodiversity loss",
+          "climate stress",
+          "information gap"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "final_category": "E_Environmental",
+      "classification_confidence": 0.9,
+      "classification_reasoning": "Environmental journalism infrastructure for biodiversity and climate monitoring in Africa -- Environmental domain with Social/Political cross-impact.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "Mongabay",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-13"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-mongabay-002",
+      "title": "Storm Nils: Deadly Floods in France as Extreme Weather Events Accelerate",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/short-article/2026/02/storm-aftermath-leaves-2-dead-in-france-flood-alerts-to-remain-saturday/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Storm Nils caused 2 deaths in France with continued flooding in the southwest. Government spokesperson confirmed the casualties and ongoing flood alerts. The storm represents the increasing frequency and severity of extreme weather events in Western Europe, consistent with climate change projections for the region.",
+        "keywords": [
+          "extreme weather",
+          "flooding",
+          "France",
+          "Storm Nils",
+          "climate impact",
+          "Europe"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "final_category": "E_Environmental",
+      "classification_confidence": 0.92,
+      "classification_reasoning": "Extreme weather event with fatalities -- core Environmental domain, directly linked to climate change acceleration patterns.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "Mongabay",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "E_Environmental",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-13"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-stat-001",
+      "title": "AAP Challenges Kennedy HHS Unlawful Vaccine Policy Changes in Federal Court",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/rfk-jr-vaccine-lawsuit-pediatricians-challenge-acip-policy-changes/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The American Academy of Pediatrics (AAP) argued in a packed Boston federal courtroom that Robert F. Kennedy Jr.s HHS made unlawful changes to vaccine advisory committee (ACIP) policies. The judge did not rule from the bench, indicating the significance and complexity of the case. This represents a major institutional conflict between medical establishment and political appointees over public health governance.",
+        "keywords": [
+          "vaccine policy",
+          "AAP",
+          "HHS",
+          "Kennedy",
+          "public health",
+          "federal court",
+          "institutional conflict"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S_Social",
+      "final_category": "S_Social",
+      "classification_confidence": 0.89,
+      "classification_reasoning": "Public health governance conflict affecting population health policy -- Social domain (public health, demographics) with Political cross-impact through institutional/legal challenge.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "STAT News",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "S_Social",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-13"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-stat-002",
+      "title": "FDA Rejects Disc Medicine Rare Disease Therapy: Regulatory Scrutiny Signal",
+      "source": {
+        "name": "STAT News",
+        "type": "news",
+        "url": "https://www.statnews.com/2026/02/13/disc-medicine-fda-decision/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "The FDA rejected a rare disease therapy from Disc Medicine, an early recipient of the commissioners priority review voucher. This decision signals continued regulatory caution in the rare disease therapeutic space despite expedited review pathways, with implications for biotechnology investment and patient access.",
+        "keywords": [
+          "FDA",
+          "rare disease",
+          "biotechnology",
+          "drug approval",
+          "regulatory",
+          "Disc Medicine"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "final_category": "T_Technological",
+      "classification_confidence": 0.85,
+      "classification_reasoning": "Biotechnology regulatory decision -- Technological domain (biotech innovation) with Political cross-impact (regulatory framework).",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "STAT News",
+      "discovery_method": "gap_directed",
+      "gap_targeted": "S_Social",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-13"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-dfl-001",
+      "title": "AgriFoodTech Trends 2026: AI Reshaping Entire Food System Innovation Pipeline",
+      "source": {
+        "name": "DigitalFoodLab",
+        "type": "blog",
+        "url": "https://digitalfoodlab.com/webinar-agrifoodtech-trends-2026/",
+        "published_date": "2026-02-13",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "DigitalFoodLabs annual FoodTech trends report and webinar highlights how AI is shifting from experimental add-on to essential infrastructure in the food system, reshaping how the entire industry thinks, reacts, and innovates. Key trends include digital tools expanding food safety adoption, regulatory pressures reshaping the innovation pipeline, and AI moving from pilot to practice across agriculture and food production.",
+        "keywords": [
+          "AgriFoodTech",
+          "food innovation",
+          "AI in agriculture",
+          "food system",
+          "food safety",
+          "2026 trends"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "final_category": "T_Technological",
+      "classification_confidence": 0.87,
+      "classification_reasoning": "Technology convergence in food systems -- Technological domain (AI, digital transformation in agriculture) with Economic/Environmental cross-impact.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "DigitalFoodLab",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "frontier_keyword": "food systems innovation",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-13"
+        }
+      }
+    },
+    {
+      "id": "explore-20260215-dfl-002",
+      "title": "Food Industry Losing Control of Its Future: 4 Warning Signals",
+      "source": {
+        "name": "DigitalFoodLab",
+        "type": "blog",
+        "url": "https://digitalfoodlab.com/four-signals-on-why-the-food-industry-maybe-loosing-the-control-of-its-future/",
+        "published_date": "2026-02-09",
+        "tier": "exploration"
+      },
+      "content": {
+        "abstract": "Four uncomfortable data signals suggest the food industry may be losing control of its future trajectory. The analysis covers diverse topics including market share shifts, technology adoption gaps, regulatory pressure, and changing consumer behavior that together paint a picture of an industry at an inflection point.",
+        "keywords": [
+          "food industry disruption",
+          "market signals",
+          "industry transformation",
+          "weak signals",
+          "future trends"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E_Economic",
+      "final_category": "E_Economic",
+      "classification_confidence": 0.86,
+      "classification_reasoning": "Industry-level economic transformation signals in food sector -- Economic domain (market disruption, business model change) with Technological cross-impact.",
+      "collected_at": "2026-02-15T02:48:00Z",
+      "exploration_source": "DigitalFoodLab",
+      "discovery_method": "random",
+      "gap_targeted": null,
+      "frontier_keyword": "food systems innovation",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_scan",
+          "url_verified": true,
+          "content_freshness": "2026-02-09"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "classification_metadata": {
+    "workflow_id": "wf2-arxiv",
+    "date": "2026-02-11",
+    "total_signals": 30,
+    "after_dedup": 15,
+    "steeps_distribution": {"T": 13, "E_Environmental": 2}
+  },
+  "signals": [
+    {"id": "arxiv-20260211-001", "final_category": "T", "sub_category": "Generative_AI", "confidence": 0.94},
+    {"id": "arxiv-20260211-002", "final_category": "T", "sub_category": "AI_Scaling", "confidence": 0.92},
+    {"id": "arxiv-20260211-003", "final_category": "T", "sub_category": "Multi_Agent", "confidence": 0.93},
+    {"id": "arxiv-20260211-004", "final_category": "T", "sub_category": "Quantum_Computing", "confidence": 0.91},
+    {"id": "arxiv-20260211-005", "final_category": "T", "sub_category": "Privacy_Security", "confidence": 0.90},
+    {"id": "arxiv-20260211-006", "final_category": "E_Environmental", "sub_category": "Climate_ML", "confidence": 0.89},
+    {"id": "arxiv-20260211-007", "final_category": "T", "sub_category": "AI_Agents", "confidence": 0.91},
+    {"id": "arxiv-20260211-008", "final_category": "T", "sub_category": "Quantum_Computing", "confidence": 0.88},
+    {"id": "arxiv-20260211-009", "final_category": "E_Environmental", "sub_category": "Climate_QC", "confidence": 0.87},
+    {"id": "arxiv-20260211-010", "final_category": "T", "sub_category": "Social_Robotics", "confidence": 0.89},
+    {"id": "arxiv-20260211-011", "final_category": "T", "sub_category": "RL_Agents", "confidence": 0.88},
+    {"id": "arxiv-20260211-012", "final_category": "T", "sub_category": "Quantum_Security", "confidence": 0.87},
+    {"id": "arxiv-20260211-013", "final_category": "T", "sub_category": "LLM_Training", "confidence": 0.86},
+    {"id": "arxiv-20260211-014", "final_category": "T", "sub_category": "Game_Theory_AI", "confidence": 0.85},
+    {"id": "arxiv-20260211-015", "final_category": "T", "sub_category": "Quantum_Compilation", "confidence": 0.84}
+  ]
+}

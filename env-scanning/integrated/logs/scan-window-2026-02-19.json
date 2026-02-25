@@ -1,0 +1,59 @@
+{
+  "generator": "temporal_anchor.py",
+  "generator_version": "1.1.0",
+  "generated_at": "2026-02-20T03:05:06.438173+00:00",
+  "anchor_timestamp": "2026-02-20T03:05:06.437919+00:00",
+  "anchor_date": "2026-02-20",
+  "anchor_time_ko": "2026년 02월 20일 03:05:06 UTC",
+  "anchor_time_en": "February 20, 2026 03:05:06 UTC",
+  "temporal_consistency_enabled": true,
+  "default_lookback_hours": 24,
+  "default_tolerance_minutes": 30,
+  "default_enforce": "strict",
+  "workflows": {
+    "wf1-general": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-02-19T03:05:06.437919+00:00",
+      "window_end": "2026-02-20T03:05:06.437919+00:00",
+      "effective_start": "2026-02-19T02:35:06.437919+00:00",
+      "window_start_ko": "2026년 02월 19일 03:05 UTC",
+      "window_end_ko": "2026년 02월 20일 03:05 UTC",
+      "window_start_en": "February 19, 2026 03:05 UTC",
+      "window_end_en": "February 20, 2026 03:05 UTC",
+      "window_start_date": "2026-02-19",
+      "window_end_date": "2026-02-20"
+    },
+    "wf2-arxiv": {
+      "lookback_hours": 48,
+      "tolerance_minutes": 60,
+      "enforce": "strict",
+      "window_start": "2026-02-18T03:05:06.437919+00:00",
+      "window_end": "2026-02-20T03:05:06.437919+00:00",
+      "effective_start": "2026-02-18T02:05:06.437919+00:00",
+      "window_start_ko": "2026년 02월 18일 03:05 UTC",
+      "window_end_ko": "2026년 02월 20일 03:05 UTC",
+      "window_start_en": "February 18, 2026 03:05 UTC",
+      "window_end_en": "February 20, 2026 03:05 UTC",
+      "window_start_date": "2026-02-18",
+      "window_end_date": "2026-02-20"
+    },
+    "wf3-naver": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-02-19T03:05:06.437919+00:00",
+      "window_end": "2026-02-20T03:05:06.437919+00:00",
+      "effective_start": "2026-02-19T02:35:06.437919+00:00",
+      "window_start_ko": "2026년 02월 19일 03:05 UTC",
+      "window_end_ko": "2026년 02월 20일 03:05 UTC",
+      "window_start_en": "February 19, 2026 03:05 UTC",
+      "window_end_en": "February 20, 2026 03:05 UTC",
+      "window_start_date": "2026-02-19",
+      "window_end_date": "2026-02-20"
+    }
+  },
+  "registry_path": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/config/workflow-registry.yaml",
+  "registry_version": "2.5.0"
+}

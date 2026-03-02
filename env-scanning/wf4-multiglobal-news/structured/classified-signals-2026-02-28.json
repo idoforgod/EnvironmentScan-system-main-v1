@@ -1,0 +1,61 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf4-multiglobal-news",
+  "classification_method": "STEEPs_6_category + FSSF_8_type + Three_Horizons",
+  "total_signals": 42,
+  "after_dedup": 22,
+  "duplicates_removed": 4,
+  "dedup_details": [
+    {"removed": "news-20260228-wapo-002", "kept": "news-20260228-cnn-001", "reason": "Same topic: Khamenei death reports"},
+    {"removed": "news-20260228-bbc-001", "kept": "news-20260228-wapo-001", "reason": "Same topic: US-Israel Iran operation"},
+    {"removed": "news-20260228-reuters-001", "kept": "news-20260228-alj-001", "reason": "Same topic: Iran retaliation on Gulf states"},
+    {"removed": "news-20260228-ft-001", "kept": "news-20260228-cnbc-001", "reason": "Same topic: oil price surge and market crash"}
+  ],
+  "category_distribution": {
+    "P_Political": 9,
+    "E_Economic": 6,
+    "T_Technological": 4,
+    "E_Environmental": 2,
+    "S_Social": 1,
+    "s_spiritual": 0
+  },
+  "fssf_distribution": {
+    "Wild Card": 2,
+    "Discontinuity": 2,
+    "Driver": 4,
+    "Emerging Issue": 4,
+    "Trend": 6,
+    "Megatrend": 2,
+    "Weak Signal": 1,
+    "Precursor Event": 1
+  },
+  "horizon_distribution": {
+    "H1": 14,
+    "H2": 6,
+    "H3": 2
+  },
+  "signals": [
+    {"id": "news-20260228-cnn-001", "title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike", "category": "P_Political", "fssf_type": "Wild Card", "horizon": "H1", "psst_score": 97, "impact_level": "CRITICAL", "priority_rank": 1},
+    {"id": "news-20260228-wapo-001", "title": "US-Israel Launch Operation Shield of Judah — 200 Jets, 500+ Targets in Iran", "category": "P_Political", "fssf_type": "Wild Card", "horizon": "H1", "psst_score": 96, "impact_level": "CRITICAL", "priority_rank": 2},
+    {"id": "news-20260228-alj-001", "title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases", "category": "P_Political", "fssf_type": "Discontinuity", "horizon": "H1", "psst_score": 95, "impact_level": "CRITICAL", "priority_rank": 3},
+    {"id": "news-20260228-cnbc-001", "title": "Global Markets in Turmoil — Oil Past $120, Stocks Plunge, Gold Record High", "category": "E_Economic", "fssf_type": "Discontinuity", "horizon": "H1", "psst_score": 93, "impact_level": "CRITICAL", "priority_rank": 4},
+    {"id": "news-20260228-alj-002", "title": "Eight Nations Close Airspace — 14,000 Flights Disrupted by Iran War", "category": "E_Economic", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 88, "impact_level": "HIGH", "priority_rank": 5},
+    {"id": "news-20260228-alma-001", "title": "Second Iran War Day 1 Analysis — 200+ Killed, 24 of 31 Provinces Hit", "category": "P_Political", "fssf_type": "Driver", "horizon": "H1", "psst_score": 87, "impact_level": "HIGH", "priority_rank": 6},
+    {"id": "news-20260228-jpt-001", "title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit", "category": "P_Political", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 85, "impact_level": "HIGH", "priority_rank": 7},
+    {"id": "news-20260228-jpt-002", "title": "China Ousts Nine Military Lawmakers — Xi's Defense Purge Widens", "category": "P_Political", "fssf_type": "Driver", "horizon": "H1", "psst_score": 83, "impact_level": "HIGH", "priority_rank": 8},
+    {"id": "news-20260228-cgtn-001", "title": "China Urges Vigilance as Japan Signals Defense Policy Shift", "category": "P_Political", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 81, "impact_level": "HIGH", "priority_rank": 9},
+    {"id": "news-20260228-tsmc-001", "title": "TSMC Record Revenue $12.7B — AI Chip Demand Drives 37% YoY Growth", "category": "T_Technological", "fssf_type": "Trend", "horizon": "H2", "psst_score": 80, "impact_level": "HIGH", "priority_rank": 10},
+    {"id": "news-20260228-kedg-001", "title": "Korea Exports Jump 44.4% YoY — Semiconductor Demand Surge", "category": "E_Economic", "fssf_type": "Trend", "horizon": "H1", "psst_score": 78, "impact_level": "MEDIUM", "priority_rank": 11},
+    {"id": "news-20260228-europ-001", "title": "EU Fit for 90 Package — Binding 90% Emissions Cut by 2040", "category": "E_Environmental", "fssf_type": "Driver", "horizon": "H2", "psst_score": 77, "impact_level": "MEDIUM", "priority_rank": 12},
+    {"id": "news-20260228-scmp-001", "title": "China Masking Drone Flights in Potential Taiwan Invasion Rehearsal", "category": "P_Political", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 76, "impact_level": "MEDIUM", "priority_rank": 13},
+    {"id": "news-20260228-bok-001", "title": "Bank of Korea Holds Rate at 2.5% — 9-Month Pause Amid Recovery", "category": "E_Economic", "fssf_type": "Trend", "horizon": "H1", "psst_score": 75, "impact_level": "MEDIUM", "priority_rank": 14},
+    {"id": "news-20260228-deloitte-001", "title": "Semiconductor Industry Tracking Toward $1T — HBM Key Bottleneck", "category": "T_Technological", "fssf_type": "Megatrend", "horizon": "H2", "psst_score": 74, "impact_level": "MEDIUM", "priority_rank": 15},
+    {"id": "news-20260228-etnews-001", "title": "HBM4/HBF Competition Intensifies — Samsung vs SK Memory Hegemony", "category": "T_Technological", "fssf_type": "Driver", "horizon": "H2", "psst_score": 73, "impact_level": "MEDIUM", "priority_rank": 16},
+    {"id": "news-20260228-europ-002", "title": "EU Climate Advisory Board Warns — Inadequate Preparation for Accelerating Impacts", "category": "E_Environmental", "fssf_type": "Trend", "horizon": "H2", "psst_score": 72, "impact_level": "MEDIUM", "priority_rank": 17},
+    {"id": "news-20260228-bloter-001", "title": "Agentic AI Adoption Accelerates — 59.3% of Enterprises Prioritize", "category": "T_Technological", "fssf_type": "Trend", "horizon": "H2", "psst_score": 71, "impact_level": "MEDIUM", "priority_rank": 18},
+    {"id": "news-20260228-chosun-001", "title": "Korean Companies Activate Middle East Business Contingency Plans", "category": "E_Economic", "fssf_type": "Trend", "horizon": "H1", "psst_score": 70, "impact_level": "MEDIUM", "priority_rank": 19},
+    {"id": "news-20260228-hankyung-001", "title": "Supreme Court Expansion Raises Corporate Law Uncertainty", "category": "P_Political", "fssf_type": "Precursor Event", "horizon": "H1", "psst_score": 69, "impact_level": "MEDIUM", "priority_rank": 20},
+    {"id": "news-20260228-mk-001", "title": "Semiconductor Export Boom Meets Iran Risk — Q1 Outlook Uncertain", "category": "E_Economic", "fssf_type": "Weak Signal", "horizon": "H1", "psst_score": 68, "impact_level": "MEDIUM", "priority_rank": 21},
+    {"id": "news-20260228-hani-001", "title": "Multi-Front Islamic World Crisis — Pakistan-Afghan War Compounds Iran Conflict", "category": "P_Political", "fssf_type": "Megatrend", "horizon": "H1", "psst_score": 67, "impact_level": "MEDIUM", "priority_rank": 22}
+  ]
+}

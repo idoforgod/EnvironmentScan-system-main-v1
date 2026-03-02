@@ -1,0 +1,16 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.0.0",
+  "command": "decide",
+  "recorded_at": "2026-02-27T18:45:00.000000+00:00",
+  "date": "2026-02-27",
+  "decision": "MUST_RUN",
+  "reason": "Regular daily exploration cycle — gaps identified in E_Economic and s_spiritual categories",
+  "days_since_last_exploration": 1,
+  "exploration_history_entries": 12,
+  "coverage_gaps": ["E_Economic", "s_spiritual"],
+  "threshold_config": {
+    "max_days_without_exploration": 3,
+    "min_coverage_categories": 6
+  }
+}

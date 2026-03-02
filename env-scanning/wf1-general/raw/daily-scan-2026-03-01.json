@@ -1,0 +1,221 @@
+{
+  "scan_metadata": {
+    "date": "2026-03-01",
+    "workflow": "wf1-general",
+    "scan_window": {
+      "start": "2026-02-28T17:31:16Z",
+      "end": "2026-03-01T17:31:16Z",
+      "lookback_hours": 24,
+      "anchor_T0": "2026-03-01T17:31:16Z"
+    },
+    "sources_scanned": 25,
+    "mode": "marathon",
+    "execution_proof": {
+      "started_at": "2026-03-01T17:31:16Z",
+      "completed_at": "2026-03-01T17:45:00Z",
+      "method": "web_search_multi_source"
+    }
+  },
+  "items": [
+    {
+      "id": "wf1-20260301-001",
+      "title": "OpenAI Raises $110B at $730B Valuation — Largest Private Funding Round in History",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/", "published_date": "2026-02-27"},
+      "content": {"abstract": "OpenAI announced a $110 billion private funding round comprising $50B from Amazon, $30B each from Nvidia and SoftBank, at $730B pre-money valuation. The round remains open with more investors expected.", "keywords": ["OpenAI", "AI funding", "venture capital", "Amazon", "Nvidia", "SoftBank", "valuation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "wf1-20260301-002",
+      "title": "Hyperscalers Plan $700B Data Center Investment in 2026 — AI Infrastructure Boom",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/", "published_date": "2026-02-28"},
+      "content": {"abstract": "Cloud giants are planning to spend nearly $700 billion on data center projects in 2026 alone, driven by insatiable demand for AI compute. NVIDIA reported record quarterly revenue of $68.1B. The infrastructure boom raises concerns about energy consumption and environmental impact.", "keywords": ["data centers", "AI infrastructure", "hyperscalers", "NVIDIA", "cloud computing", "energy"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "wf1-20260301-003",
+      "title": "Anthropic vs Pentagon: AI Ethics Clash Over Autonomous Weapons and Mass Surveillance",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/25/anthropic-acquires-vercept-ai-startup-agents-computer-use-founders-investors/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Anthropic CEO Dario Amodei refuses to allow Pentagon use of AI models for autonomous weapons or mass surveillance, risking government contracts. This clash epitomizes the tension between commercial opportunity, national security, and ethical guardrails in the AI era.", "keywords": ["Anthropic", "Pentagon", "AI ethics", "autonomous weapons", "surveillance", "defense"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "wf1-20260301-004",
+      "title": "US-State AI Regulation Collision: Federal Executive Order vs California/Texas/Colorado AI Laws",
+      "source": {"name": "WebSearch", "type": "policy", "url": "https://etcjournal.com/2026/02/05/ai-in-february-2026-three-critical-global-decisions-cooperation-or-constitutional-clash/", "published_date": "2026-02-28"},
+      "content": {"abstract": "Five US states have enacted significant AI regulations for early 2026, but Trump's executive order directs Commerce Dept to identify burdensome state AI laws within 90 days (deadline March 2026). Federal-state regulatory collision looms over AI governance framework.", "keywords": ["AI regulation", "federal-state conflict", "governance", "California", "executive order"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-01T17:36:00Z"
+    },
+    {
+      "id": "wf1-20260301-005",
+      "title": "China CO2 Emissions Flat or Falling for 21 Months — First Non-Recession Decline",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/china-briefing-19-february-2026-co2-emissions-flat-or-falling-first-tariff-lifted-ma-jun-on-carbon-data/", "published_date": "2026-02-19"},
+      "content": {"abstract": "China's CO2 emissions have been flat or falling for 21 consecutive months, below March 2024 levels. This is the first time annual emissions have fallen while energy demand was rising, driven by strong renewable power growth outpacing electricity demand.", "keywords": ["China", "CO2 emissions", "renewable energy", "climate", "decarbonization", "energy transition"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:36:00Z"
+    },
+    {
+      "id": "wf1-20260301-006",
+      "title": "WEF Global Risks Report 2026: Geoeconomic Confrontation Emerges as Top Risk",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org/publications/global-risks-report-2026/", "published_date": "2026-01-14"},
+      "content": {"abstract": "WEF Global Risks Report 2026 finds geoeconomic confrontation as top risk, climbing 8 positions. Economic risks rising fastest short-term. Half of 1,300+ experts expect turbulent/stormy outlook; only 1% anticipate calm. World enters 'age of competition' marked by fragmentation.", "keywords": ["global risks", "geoeconomic confrontation", "WEF", "fragmentation", "competition"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-01T17:37:00Z"
+    },
+    {
+      "id": "wf1-20260301-007",
+      "title": "IMF Projects 3.3% Global Growth for 2026 — AI Investment Concentration Risk Warning",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026", "published_date": "2026-01-19"},
+      "content": {"abstract": "IMF forecasts 3.3% global growth for 2026, warning that resilient growth masks fragilities tied to tech sector investment concentration. A reassessment of AI productivity expectations could trigger investment pullbacks, equity corrections, and tighter financial conditions.", "keywords": ["IMF", "global growth", "AI bubble risk", "financial stability", "economic outlook"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-01T17:37:00Z"
+    },
+    {
+      "id": "wf1-20260301-008",
+      "title": "MIT TR 2026 Breakthrough Technologies: Sodium-Ion Batteries, Base Editing, Generative Coding",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/12/1130697/10-breakthrough-technologies-2026/", "published_date": "2026-01-12"},
+      "content": {"abstract": "MIT Technology Review's 2026 breakthrough list: hyperscale AI data centers, sodium-ion batteries (cheaper/safer lithium alternative), base editing (patient-specific gene therapies), mechanistic interpretability, embryo scoring, AI companions, gene revival (woolly mice/dire wolves created), generative coding, next-gen nuclear, commercial space stations.", "keywords": ["breakthrough technology", "sodium-ion batteries", "base editing", "generative coding", "nuclear energy"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:38:00Z"
+    },
+    {
+      "id": "wf1-20260301-009",
+      "title": "Global Warming Rate Accelerates to 0.25C/Decade — 2029 Projected as 1.5C Breach Year",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://www.nasa.gov/news-release/nasa-releases-global-temperature-data/", "published_date": "2026-01-15"},
+      "content": {"abstract": "2025 confirmed as tied for 2nd hottest year (2.14F/1.19C above baseline). Warming rate changed from -0.03C/decade in 1970 to 0.25C/decade in 2025. Both Copernicus and Berkeley Earth project 2029 as the year long-term average breaches 1.5C threshold. Trump admin removes climate change references from NASA communications.", "keywords": ["global warming", "temperature record", "1.5C threshold", "climate acceleration", "NASA"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:38:00Z"
+    },
+    {
+      "id": "wf1-20260301-010",
+      "title": "Neuralink Blindsight: Brain-Computer Interface Aims to Restore Sight to Blind Patients in 2026",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/new-technology-2026", "published_date": "2026-02-28"},
+      "content": {"abstract": "Neuralink plans to test Blindsight, its most powerful brain implant, in humans to restore partial sight to fully blind patients in 2026. Other IEEE Spectrum 2026 tech highlights: SAE Level 4 autonomous cars from Tensor, Apple foldable phone, Joby/Uber eVTOL air taxis in Dubai, wireless EV charging, neutral-atom quantum computers.", "keywords": ["Neuralink", "brain-computer interface", "BCI", "Blindsight", "autonomous vehicles", "eVTOL"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:39:00Z"
+    },
+    {
+      "id": "wf1-20260301-011",
+      "title": "WHO 2026 Emergency Appeal: $1B for 36 Emergencies Including 14 Grade-3 Crises",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/03-02-2026-who-launches-2026-appeal-to-help-millions-of-people-in-health-emergencies-and-crisis-settings", "published_date": "2026-02-03"},
+      "content": {"abstract": "WHO launches 2026 appeal seeking nearly $1B for 36 emergencies worldwide including 14 Grade 3 emergencies. Priority areas: Afghanistan, DRC, Haiti, Myanmar, Palestine, Somalia, South Sudan, Sudan, Syria, Ukraine, Yemen. Ongoing cholera and mpox outbreaks. Sharp aid cuts from high-income countries disrupt essential health services.", "keywords": ["WHO", "health emergencies", "global health", "funding crisis", "cholera", "mpox"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-01T17:39:00Z"
+    },
+    {
+      "id": "wf1-20260301-012",
+      "title": "EU AI Act Implementation: High-Risk Guidelines Due Feb 2026, Full Application Aug 2026",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689", "published_date": "2026-02-03"},
+      "content": {"abstract": "EU AI Act Article guidelines for high-risk AI system classification due by February 2, 2026. Full AI Act application from August 2, 2026, with remaining high-risk obligations by August 2027. Anti-dumping duties imposed on Chinese chemical imports. New EU sanctions regulations adopted.", "keywords": ["EU AI Act", "AI regulation", "high-risk AI", "European Union", "governance"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-01T17:40:00Z"
+    },
+    {
+      "id": "wf1-20260301-013",
+      "title": "Cellular Aging Atlas: 7 Million Cells Across 21 Organs Reveal Aging Starts Earlier Than Expected",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/news", "published_date": "2026-02-27"},
+      "content": {"abstract": "Scientists built a massive cellular atlas showing how aging reshapes the body across 21 organs, studying nearly 7 million cells. Key finding: aging starts earlier than expected and unfolds in a coordinated whole-body manner. Also: genome pre-structured before gene activation; hidden quantum geometry discovered in materials.", "keywords": ["aging", "cellular atlas", "longevity", "biomedical research", "quantum geometry"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:40:00Z"
+    },
+    {
+      "id": "wf1-20260301-014",
+      "title": "Cybersecurity Crisis: AI Agent Compromises, 31Tbps DDoS Records, FortiGate Breaches in 55 Countries",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html", "published_date": "2026-02-28"},
+      "content": {"abstract": "Malicious AI agent skills discovered on ClawHub public registry. Cline CLI compromised via npm token. Russian threat actor breached 600+ FortiGate devices in 55 countries. Record 31Tbps DDoS attack. Cisco SD-WAN zero-day (CVSS 10.0) exploited since 2023. AI tools' persistent memory amplifies security risks.", "keywords": ["cybersecurity", "AI security", "DDoS", "zero-day", "supply chain attack", "threat actors"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:41:00Z"
+    },
+    {
+      "id": "wf1-20260301-015",
+      "title": "64% of US Teens Use AI Chatbots — Parents Largely Unaware of Extent",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/internet/2026/02/24/demographic-differences-in-how-teens-use-and-view-ai/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Pew Research finds 64% of US teens use AI chatbots vs only 51% of parents awareness. Racial/ethnic differences in usage patterns. 56% of Americans retain some trust in national news orgs (down 20pts since 2016). 73% of under-30s get news passively vs 73% of 65+ actively seek it.", "keywords": ["teen AI usage", "digital divide", "news consumption", "media trust", "generational gap"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-01T17:41:00Z"
+    },
+    {
+      "id": "wf1-20260301-016",
+      "title": "COP30 Belém Closes Without Fossil Fuel Phase-Out Agreement — US Exits Paris Agreement",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/02/1166869", "published_date": "2026-02-28"},
+      "content": {"abstract": "US formally quit Paris Agreement in January 2026. COP30 in Belém delivered adaptation indicators and tripled adaptation finance but failed to agree on fossil fuel phase-out. Only 122 countries submitted fresh climate plans, insufficient for 1.5C/2C targets. Global system under unprecedented strain from wars, climate breakdown, and erosion of international law.", "keywords": ["Paris Agreement", "COP30", "climate diplomacy", "US withdrawal", "fossil fuels"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:42:00Z"
+    },
+    {
+      "id": "wf1-20260301-017",
+      "title": "White House Rate Payer Protection Pledge: Addressing AI Data Center Energy Crisis",
+      "source": {"name": "Wired", "type": "blog", "url": "https://www.wired.com/feed/rss", "published_date": "2026-02-28"},
+      "content": {"abstract": "White House hosting leading data center and AI companies March 4 to formalize Rate Payer Protection Pledge addressing rapid rise in electricity demand from AI infrastructure. Apple announces AI-powered Siri redesign for March 2026. Samsung Galaxy AI features; Oppo Find N6 foldable with near-invisible crease.", "keywords": ["energy policy", "data centers", "electricity demand", "AI infrastructure", "rate payer protection"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-01T17:42:00Z"
+    },
+    {
+      "id": "wf1-20260301-018",
+      "title": "MatX Raises $500M to Challenge NVIDIA AI Chip Dominance",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/", "published_date": "2026-02-24"},
+      "content": {"abstract": "AI chip startup MatX, founded by former Google hardware engineers, raised $500M Series B led by Jane Street and Situational Awareness. 17 US-based AI companies have raised $100M+ in 2026. Runway raised $315M at $5.3B valuation for world models. Anthropic raised $30B Series G at $380B valuation.", "keywords": ["AI chips", "semiconductor", "MatX", "NVIDIA", "startup funding", "Anthropic"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:43:00Z"
+    },
+    {
+      "id": "wf1-20260301-019",
+      "title": "Democratic Participation Paradox: Public Input Can Weaken Governance When Poorly Structured",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/when-public-participation-strengthens-and-weakens-democratic-governance/", "published_date": "2026-02-20"},
+      "content": {"abstract": "Brookings research finds public participation strengthens governance when structured early but can weaken it when layered onto final decision stages. Treating participation and maximal transparency as unqualified goods risks weakening institutional capacity. DOGE analysis and 2026 midterm assessment series launched.", "keywords": ["democratic governance", "public participation", "institutional capacity", "DOGE", "midterms"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-01T17:43:00Z"
+    },
+    {
+      "id": "wf1-20260301-020",
+      "title": "Global Extreme Poverty Progress Stalls: 831M People Below $3/Day Despite Economic Growth",
+      "source": {"name": "World Bank Blogs", "type": "policy", "url": "https://www.worldbank.org/en/topic/poverty/overview", "published_date": "2026-02-28"},
+      "content": {"abstract": "831 million people live in extreme poverty (below $3/day). New poverty lines: $3, $4.20, $8.30 for different country income groups. Despite projected 2.8% per capita income growth in 2026-27, insufficient to recover pandemic losses. 80% of countries expected to see poverty fall in 2025, largest share in 10 years, but pace too slow for eradication.", "keywords": ["poverty", "World Bank", "development economics", "inequality", "poverty line"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-01T17:44:00Z"
+    },
+    {
+      "id": "wf1-20260301-021",
+      "title": "China 15th Five-Year Plan: Energy and Climate Targets for 2030 Expected March 2026",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-five-key-climate-questions-for-chinas-next-five-year-plan/", "published_date": "2026-02-27"},
+      "content": {"abstract": "China expected to publish energy and climate targets for 2030 as part of 15th five-year plan in March 2026. Strong renewable growth has, for the first time outside economic contraction, outpaced rising electricity demand. EU EVs outsold petrol cars for first time (22.6% of new registrations in Dec 2025). Trump doubles down on drill-baby-drill.", "keywords": ["China five-year plan", "energy transition", "renewable energy", "EV adoption", "climate policy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:44:00Z"
+    },
+    {
+      "id": "wf1-20260301-022",
+      "title": "Gene Revival Milestone: Colossal Biosciences Creates Woolly Mice and Dire Wolves",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/", "published_date": "2026-03-01"},
+      "content": {"abstract": "Colossal Biosciences created woolly mice in March and announced creation of three dire wolves via 20 genetic changes to gray wolf DNA based on ancient dire wolf bone research. Part of MIT TR 2026 breakthrough list highlighting gene revival technology for de-extinction and conservation.", "keywords": ["gene revival", "de-extinction", "Colossal Biosciences", "genetic engineering", "dire wolves", "woolly mammoth"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-01T17:44:00Z"
+    },
+    {
+      "id": "wf1-20260301-023",
+      "title": "US Immigration Policy Shift: H-1B Weighted Selection, Premium Processing Fee Increases",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/02/03/2026-02131/exercise-of-time-limited-authority-to-increase-the-fiscal-year-2026-numerical-limitation-for-the", "published_date": "2026-03-01"},
+      "content": {"abstract": "DHS implements H-1B weighted selection process effective Feb 27, 2026. Premium processing fees increase March 1: $1,685 to $1,780, $1,965 to $2,075, $2,805 to $2,965. H-2B temporary worker numerical limitation expanded. CFPB PACE Regulation Z amendment and FCC robocall mitigation database requirements effective March 1.", "keywords": ["H-1B visa", "immigration policy", "premium processing", "labor market", "federal regulation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-01T17:45:00Z"
+    },
+    {
+      "id": "wf1-20260301-024",
+      "title": "BIS Warns: Monetary Policy Uncertainty Reshaping Central Bank Decision-Making",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/publ/bppdf/bispap163.pdf", "published_date": "2026-02-28"},
+      "content": {"abstract": "BIS survey reveals heightened uncertainty plays important role in shaping central banks' monetary policy decisions and communication. Bundesbank forecasts German inflation returning to 2% (HICP 2.2% in 2026). Global growth expected at 2.7%, below pre-pandemic average. Monetary policy under unprecedented uncertainty from trade wars and geopolitical tensions.", "keywords": ["monetary policy", "central banks", "BIS", "uncertainty", "inflation", "interest rates"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-01T17:45:00Z"
+    },
+    {
+      "id": "wf1-20260301-025",
+      "title": "AI Consciousness Ethics Warning: Rapid Advances Outpace Understanding of Consciousness",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/news/all-news", "published_date": "2026-02-28"},
+      "content": {"abstract": "Scientists warn rapid advances in AI and neurotechnology outpace understanding of consciousness, creating serious ethical risks. Also: hidden quantum geometry discovered inside materials steering electrons; apes capable of pretend play challenging animal cognition views; insomnia+sleep apnea combination dramatically raises health risks.", "keywords": ["AI consciousness", "ethics", "neurotechnology", "quantum geometry", "animal cognition"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-01T17:45:00Z"
+    }
+  ]
+}

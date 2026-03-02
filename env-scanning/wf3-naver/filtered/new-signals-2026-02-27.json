@@ -1,0 +1,83 @@
+{
+  "filter_metadata": {
+    "workflow": "WF3",
+    "date": "2026-02-27",
+    "total_raw": 30,
+    "duplicates_removed": 2,
+    "net_new": 28,
+    "dedup_method": "4-stage cascade (URL -> String -> Semantic -> Entity)",
+    "filtered_at": "2026-02-27T18:52:00+00:00"
+  },
+  "dedup_details": {
+    "removed": [
+      {
+        "signal_id": "naver-20260227-101-004",
+        "reason": "semantic_duplicate",
+        "duplicate_of": "naver-20260227-104-001",
+        "similarity": 0.89,
+        "note": "Both cover the same IEEPA/trade law tariff topic from different sections"
+      },
+      {
+        "signal_id": "naver-20260227-104-005",
+        "reason": "semantic_duplicate",
+        "duplicate_of": "naver-20260227-100-003",
+        "similarity": 0.91,
+        "note": "Both cover Canada-Korea defense cooperation/2+2 meeting"
+      }
+    ]
+  },
+  "evolution_check": {
+    "strengthening_signals": [
+      {
+        "new_id": "naver-20260227-104-001",
+        "matches_existing": "naver-20260213-TOP-004",
+        "relation": "evolution",
+        "note": "Trump tariff theme continues with SCOTUS ruling and workaround"
+      },
+      {
+        "new_id": "naver-20260227-104-002",
+        "matches_existing": "naver-20260206-104-033",
+        "relation": "strengthening",
+        "note": "Nuclear threat escalation continues from nuclear proliferation debate"
+      },
+      {
+        "new_id": "naver-20260227-105-005",
+        "matches_existing": "naver-20260209-TOP-001",
+        "relation": "strengthening",
+        "note": "HBM/semiconductor AI infrastructure expansion continues"
+      }
+    ],
+    "new_signals": 25,
+    "recurring_signals": 3
+  },
+  "new_signals": [
+    "naver-20260227-104-001",
+    "naver-20260227-101-002",
+    "naver-20260227-104-002",
+    "naver-20260227-100-001",
+    "naver-20260227-105-001",
+    "naver-20260227-105-003",
+    "naver-20260227-101-003",
+    "naver-20260227-101-001",
+    "naver-20260227-100-003",
+    "naver-20260227-102-003",
+    "naver-20260227-104-006",
+    "naver-20260227-105-006",
+    "naver-20260227-103-001",
+    "naver-20260227-102-001",
+    "naver-20260227-105-002",
+    "naver-20260227-105-004",
+    "naver-20260227-100-002",
+    "naver-20260227-101-006",
+    "naver-20260227-104-003",
+    "naver-20260227-103-003",
+    "naver-20260227-101-005",
+    "naver-20260227-104-004",
+    "naver-20260227-102-002",
+    "naver-20260227-102-005",
+    "naver-20260227-102-004",
+    "naver-20260227-103-002",
+    "naver-20260227-100-004",
+    "naver-20260227-102-004"
+  ]
+}

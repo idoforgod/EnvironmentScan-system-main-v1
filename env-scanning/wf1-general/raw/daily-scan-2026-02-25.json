@@ -1,0 +1,367 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-02-25",
+    "scan_type": "daily_marathon",
+    "workflow": "wf1-general",
+    "anchor_timestamp": "2026-02-25T16:45:07.050921+00:00",
+    "scan_window": {
+      "start": "2026-02-24T16:45:07+00:00",
+      "end": "2026-02-25T16:45:07+00:00",
+      "lookback_hours": 24,
+      "enforce": "strict"
+    },
+    "sources_scanned": [
+      "TechCrunch", "MIT Technology Review", "Nature", "IEEE Spectrum",
+      "Hacker News", "WHO Press Releases", "UN News", "Brookings Institution",
+      "Pew Research Center", "Carbon Brief", "AIP Science Policy"
+    ],
+    "sources_failed": ["World Bank Blogs", "PubMed Central", "Wired", "IMF Blog", "Ars Technica", "NASA Climate"],
+    "total_raw_signals": 75,
+    "execution_proof": {
+      "started_at": "2026-02-25T16:45:07+00:00",
+      "sources_attempted": 17,
+      "sources_succeeded": 11,
+      "sources_failed": 6,
+      "signals_collected": 75,
+      "method": "rss_feed_scanning"
+    }
+  },
+  "items": [
+    {
+      "id": "tc-20260225-001",
+      "title": "Jira's Latest Update Allows AI Agents and Humans to Work Side by Side",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/25/jiras-latest-update-allows-ai-agents-and-humans-to-work-side-by-side/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Atlassian enables AI agent task management in Jira alongside human workers, marking a significant step in human-AI workplace collaboration.", "keywords": ["AI agents", "Jira", "Atlassian", "workplace", "automation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-002",
+      "title": "About 12% of US Teens Turn to AI for Emotional Support or Advice",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/25/about-12-of-u-s-teens-turn-to-ai-for-emotional-support-or-advice/", "published_date": "2026-02-25"},
+      "content": {"abstract": "12% of US teens use AI chatbots for emotional support, raising concerns among mental health professionals about AI's unsuitability for therapeutic guidance.", "keywords": ["AI", "mental health", "teens", "emotional support", "ChatGPT"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-003",
+      "title": "Self-Driving Tech Startup Wayve Raises $1.2B from Nvidia, Uber, and Three Automakers",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/", "published_date": "2026-02-24"},
+      "content": {"abstract": "UK autonomous driving company Wayve secures $1.2 billion from Nvidia, Uber and three automakers for its end-to-end AI approach to self-driving.", "keywords": ["autonomous vehicles", "Wayve", "Nvidia", "Uber", "self-driving", "funding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-004",
+      "title": "Nvidia Challenger AI Chip Startup MatX Raised $500M",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/", "published_date": "2026-02-24"},
+      "content": {"abstract": "AI chip startup MatX, founded by former Google TPU engineers, raises $500M to challenge Nvidia's GPU dominance with specialized AI hardware.", "keywords": ["AI chips", "MatX", "Nvidia", "GPU", "semiconductors", "funding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-005",
+      "title": "Stripe Is Reportedly Eyeing Deal to Buy Some or All of PayPal",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Payment giant Stripe exploring acquisition of PayPal, potentially creating a dominant digital payments platform and reshaping fintech industry.", "keywords": ["Stripe", "PayPal", "fintech", "M&A", "digital payments"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-006",
+      "title": "US Tells Diplomats to Lobby Against Foreign Data Sovereignty Laws",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Trump administration instructs US diplomats to actively oppose foreign data sovereignty regulations, prioritizing American tech companies' global data access.", "keywords": ["data sovereignty", "diplomacy", "tech policy", "regulation", "US foreign policy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-007",
+      "title": "Apple Rolls Out Age Verification Tools Worldwide",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/apple-rolls-out-age-verification-tools-worldwide-to-comply-with-growing-web-of-child-safety-laws/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Apple deploys global age-verification mechanisms to comply with emerging child safety regulations, setting new industry standards.", "keywords": ["Apple", "age verification", "child safety", "regulation", "privacy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-008",
+      "title": "Google's New 1.9GW Clean Energy Deal Includes Massive 100-Hour Battery",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/googles-new-1-9gw-clean-energy-deal-includes-massive-100-hour-battery/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Google commits to 1.9GW clean energy deal featuring Form Energy's 100-hour iron-air batteries for data center operations, a breakthrough in long-duration energy storage.", "keywords": ["Google", "clean energy", "iron-air battery", "100-hour storage", "data centers", "Form Energy"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-009",
+      "title": "India AI Boom Pushes Firms to Trade Near-Term Revenue for Users",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/india-ai-boom-pushes-firms-to-trade-near-term-revenue-for-users/", "published_date": "2026-02-24"},
+      "content": {"abstract": "AI providers including ChatGPT and Gemini prioritize user acquisition over revenue in India, signaling a new phase in global AI market expansion.", "keywords": ["India", "AI market", "user acquisition", "ChatGPT", "Gemini", "emerging markets"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-010",
+      "title": "Former L3Harris Trenchant Boss Jailed for Selling Hacking Tools to Russian Broker",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/former-l3harris-trenchant-boss-jailed-for-selling-hacking-tools-to-russian-broker/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Former L3Harris executive sentenced to 7 years for stealing and selling hacking tools to Russian entities, highlighting national security risks in defense tech.", "keywords": ["cybersecurity", "L3Harris", "hacking tools", "Russia", "national security", "espionage"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "tc-20260225-011",
+      "title": "Spanish Soonicorn Multiverse Computing Releases Free Compressed AI Model",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/02/24/spanish-soonicorn-multiverse-computing-releases-free-compressed-ai-model/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Multiverse Computing releases free HyperNova 60B compressed model claiming superior performance to Mistral, advancing democratized AI access.", "keywords": ["AI models", "compression", "Multiverse Computing", "open source", "HyperNova"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:50:00+00:00"
+    },
+    {
+      "id": "mtr-20260225-001",
+      "title": "Just Pull a String to Turn Tile Patterns into 3D Structures",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/24/1132074/just-pull-a-string-to-turn-these-tile-patterns-into-useful-3d-structures/", "published_date": "2026-02-24"},
+      "content": {"abstract": "MIT algorithm enables flat tile patterns to transform into 3D structures via single-string actuation for deployable medical devices and emergency shelters.", "keywords": ["MIT", "deployable structures", "metamaterials", "medical devices", "algorithm"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:55:00+00:00"
+    },
+    {
+      "id": "mtr-20260225-002",
+      "title": "A New Way to Rejuvenate the Immune System",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/24/1132080/a-new-way-to-rejuvenate-the-immune-system/", "published_date": "2026-02-24"},
+      "content": {"abstract": "MIT/Broad Institute researchers program liver cells via mRNA nanoparticles to produce T-cell stimulating signals, helping aged mice respond to vaccines and cancer treatment.", "keywords": ["immune rejuvenation", "mRNA", "nanoparticles", "aging", "vaccines", "MIT"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:55:00+00:00"
+    },
+    {
+      "id": "mtr-20260225-003",
+      "title": "AI-Designed Proteins May Help Spot Cancer",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/24/1132083/a-i-designed-proteins-may-help-spot-cancer/", "published_date": "2026-02-24"},
+      "content": {"abstract": "MIT/Microsoft use AI to design peptides detecting cancer enzymes in circulation, enabling early cancer detection through urine tests.", "keywords": ["AI proteins", "cancer detection", "peptides", "early diagnosis", "Microsoft", "MIT"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:55:00+00:00"
+    },
+    {
+      "id": "mtr-20260225-004",
+      "title": "A Retinal Reboot for Amblyopia",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/02/24/1132077/a-retinal-reboot-for-amblyopia/", "published_date": "2026-02-24"},
+      "content": {"abstract": "MIT neuroscientist discovers that temporarily anesthetizing an amblyopic eye's retina restores neural connections, potentially treating lazy eye in adults.", "keywords": ["amblyopia", "neuroscience", "retina", "vision restoration", "MIT"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T16:55:00+00:00"
+    },
+    {
+      "id": "nat-20260225-001",
+      "title": "Hydrofluorocarbon Electrolytes for Energy-Dense and Low-Temperature Batteries",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10210-6", "published_date": "2026-02-25"},
+      "content": {"abstract": "Novel hydrofluorocarbon electrolytes enable lithium-metal batteries with high energy density capable of operating at extreme low temperatures.", "keywords": ["battery technology", "electrolytes", "lithium-metal", "energy storage", "low temperature"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-002",
+      "title": "Rewiring an E3 Ligase Enhances Cold Resilience and Phosphate Use in Maize",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10142-1", "published_date": "2026-02-25"},
+      "content": {"abstract": "Genetic engineering of NLA enzyme improves cold tolerance and phosphate uptake in maize with field-tested yield improvements.", "keywords": ["crop engineering", "maize", "cold tolerance", "food security", "genetic engineering"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-003",
+      "title": "Field-Free Full Switching of Chiral Antiferromagnetic Order",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10175-6", "published_date": "2026-02-25"},
+      "content": {"abstract": "Mn3Sn homo-junction achieves efficient field-free switching of antiferromagnetic materials for energy-efficient magnetic memory devices.", "keywords": ["antiferromagnetic", "memory devices", "spintronics", "energy efficiency", "computing"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-004",
+      "title": "Human Hippocampal Neurogenesis in Adulthood, Ageing and Alzheimer's Disease",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10169-4", "published_date": "2026-02-25"},
+      "content": {"abstract": "Multiomic single-cell sequencing identifies distinct neurogenesis signatures distinguishing cognitive preservation from decline in aging brains.", "keywords": ["neurogenesis", "Alzheimer's", "aging", "brain", "cognitive decline", "single-cell"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-005",
+      "title": "Coral Microbiomes as Reservoirs of Unknown Genomic and Biosynthetic Diversity",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10159-6", "published_date": "2026-02-25"},
+      "content": {"abstract": "Analysis of 820 coral colonies across Pacific reefs reveals vast molecular diversity in microbial communities, emphasizing reef conservation importance.", "keywords": ["coral", "microbiome", "biodiversity", "marine biology", "conservation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-006",
+      "title": "Pancreatic-Targeted Lipid Nanoparticles Based on Organ Capsule Filtration",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10158-7", "published_date": "2026-02-25"},
+      "content": {"abstract": "Novel lipid nanoparticles enable precise therapeutic nucleic acid delivery to pancreatic tissue for pancreatic disease treatment.", "keywords": ["nanoparticles", "pancreas", "drug delivery", "RNA therapeutics", "precision medicine"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-007",
+      "title": "OR7A10 GPCR Engineering Boosts CAR-NK Therapy Against Solid Tumours",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10149-8", "published_date": "2026-02-25"},
+      "content": {"abstract": "Gene boosters enhance CAR construct expression for scalable CAR-NK cell therapies targeting solid tumors.", "keywords": ["CAR-NK", "immunotherapy", "cancer", "cell therapy", "solid tumors"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "nat-20260225-008",
+      "title": "Cavity-Altered Superconductivity",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-025-10062-6", "published_date": "2026-02-25"},
+      "content": {"abstract": "New platform using hexagonal boron nitride with molecular superconductors achieves cavity-altered materials with enhanced magnetic properties.", "keywords": ["superconductivity", "quantum materials", "cavity QED", "condensed matter"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:00:00+00:00"
+    },
+    {
+      "id": "ieee-20260225-001",
+      "title": "AI Is Acing Math Exams Faster Than Scientists Write Them",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-math-benchmarks", "published_date": "2026-02-25"},
+      "content": {"abstract": "AI models solving math benchmarks at accelerating rates, with Frontier Math expected to saturate within two years as AI reasoning advances.", "keywords": ["AI", "mathematics", "benchmarks", "reasoning", "frontier math"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:05:00+00:00"
+    },
+    {
+      "id": "ieee-20260225-002",
+      "title": "Blood Pressure Monitoring via Smartwatch Radio Signals",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch", "published_date": "2026-02-24"},
+      "content": {"abstract": "UT Austin demonstrates non-contact blood pressure monitoring using reflected radio signals, avoiding skin-tone bias and enabling smartwatch integration within two years.", "keywords": ["health monitoring", "smartwatch", "blood pressure", "wearables", "radio signals"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:05:00+00:00"
+    },
+    {
+      "id": "ieee-20260225-003",
+      "title": "AI Data Centers Turn to High-Temperature Superconductors",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-data-centers-hts-superconductors", "published_date": "2026-02-21"},
+      "content": {"abstract": "Major cloud providers adopting superconductor cables for AI data centers, with Microsoft investing $75M in Veir's rare-earth conductor technology.", "keywords": ["superconductors", "data centers", "AI infrastructure", "Microsoft", "energy efficiency"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:05:00+00:00"
+    },
+    {
+      "id": "ieee-20260225-004",
+      "title": "The Age-Verification Trap: Privacy Paradox",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/age-verification", "published_date": "2026-02-23"},
+      "content": {"abstract": "Age-verification enforcement creates surveillance infrastructure conflicting with data-protection regulations, presenting a fundamental privacy paradox.", "keywords": ["age verification", "privacy", "surveillance", "regulation", "data protection"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:05:00+00:00"
+    },
+    {
+      "id": "hn-20260225-001",
+      "title": "Danish Government Agency to Ditch Microsoft Software",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://therecord.media/denmark-digital-agency-microsoft-digital-independence", "published_date": "2026-02-25"},
+      "content": {"abstract": "Denmark's government agency announces exit from Microsoft products, signaling growing European digital independence movement.", "keywords": ["digital sovereignty", "Denmark", "Microsoft", "open source", "government IT"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:10:00+00:00"
+    },
+    {
+      "id": "hn-20260225-002",
+      "title": "Apple Accelerates US Manufacturing with Mac Mini Production in Houston",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Apple opens new Houston facility for Mac mini production, accelerating reshoring of technology manufacturing to the United States.", "keywords": ["Apple", "manufacturing", "reshoring", "Houston", "supply chain"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-25T17:10:00+00:00"
+    },
+    {
+      "id": "hn-20260225-003",
+      "title": "Mercury 2: Fast Reasoning LLM Powered by Diffusion",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2", "published_date": "2026-02-25"},
+      "content": {"abstract": "Inception Labs introduces Mercury 2, a fast reasoning LLM using novel diffusion architecture rather than traditional autoregressive approach.", "keywords": ["LLM", "diffusion", "reasoning", "AI architecture", "Inception Labs"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:10:00+00:00"
+    },
+    {
+      "id": "hn-20260225-004",
+      "title": "Moonshine Open-Weights STT Models — Higher Accuracy Than Whisper Large v3",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://github.com/moonshine-ai/moonshine", "published_date": "2026-02-25"},
+      "content": {"abstract": "Open-weight speech recognition models surpass OpenAI Whisper Large v3 in accuracy, advancing open-source AI capabilities.", "keywords": ["speech recognition", "open source", "Whisper", "STT", "AI models"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-25T17:10:00+00:00"
+    },
+    {
+      "id": "who-20260225-001",
+      "title": "Attacks on Ukraine's Health Care Increased by 20% in 2025",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/23-02-2026-attacks-on-ukraine-s-health-care-increased-by-20-in-2025", "published_date": "2026-02-23"},
+      "content": {"abstract": "WHO documents 2,881 healthcare attacks since 2022, with medical warehouse attacks tripling. 72% of Ukrainians experience anxiety/depression.", "keywords": ["Ukraine", "healthcare attacks", "WHO", "mental health", "conflict"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:15:00+00:00"
+    },
+    {
+      "id": "un-20260225-001",
+      "title": "Organized Crime and Poor Regulation Drive Toxic Pollution Threat",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/02/1167033", "published_date": "2026-02-25"},
+      "content": {"abstract": "UN experts warn that illegal waste trafficking could surge due to weak regulation and criminal networks across continents.", "keywords": ["toxic waste", "organized crime", "regulation", "pollution", "UN"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-25T17:15:00+00:00"
+    },
+    {
+      "id": "un-20260225-002",
+      "title": "Ukraine: Diplomatic Tools Essential as Invasion Enters Fifth Year",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/02/1167032", "published_date": "2026-02-24"},
+      "content": {"abstract": "Senior UN official urges Security Council to use every diplomatic tool as Russia's invasion of Ukraine completes four years.", "keywords": ["Ukraine", "Russia", "diplomacy", "Security Council", "UN"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:15:00+00:00"
+    },
+    {
+      "id": "un-20260225-003",
+      "title": "Somalia's Hunger Crisis Doubles to 6.5 Million",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/02/1167026", "published_date": "2026-02-24"},
+      "content": {"abstract": "Acute food insecurity in Somalia doubles year-over-year to 6.5 million due to drought, conflict, and rising food prices.", "keywords": ["Somalia", "food insecurity", "hunger", "drought", "humanitarian crisis"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-25T17:15:00+00:00"
+    },
+    {
+      "id": "un-20260225-004",
+      "title": "Ukraine Reconstruction Costs $588 Billion Over Decade",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/02/1167016", "published_date": "2026-02-23"},
+      "content": {"abstract": "Reconstruction needs nearly triple Ukraine's GDP as housing, energy, and infrastructure face continuous attacks, totaling $588 billion.", "keywords": ["Ukraine", "reconstruction", "infrastructure", "economic damage"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-25T17:15:00+00:00"
+    },
+    {
+      "id": "brk-20260225-001",
+      "title": "Brookings Experts on the Supreme Court's Tariff Decision",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/brookings-experts-on-the-supreme-courts-tariff-decision/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Multi-expert analysis of Supreme Court ruling on tariff authority with implications for trade policy and executive power.", "keywords": ["Supreme Court", "tariffs", "trade policy", "executive power", "legal"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:20:00+00:00"
+    },
+    {
+      "id": "cb-20260225-001",
+      "title": "Food Inflation Strikes, El Nino Looms, Biodiversity Talks Stagnate",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/cropped-25-february-2026-food-inflation-strikes-el-nino-looms-biodiversity-talks-stagnate/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Mediterranean storms threaten European food prices (Spain loses 20% production). 60% chance La Nina shifting to El Nino by spring, potentially making 2026-2027 warmest on record.", "keywords": ["El Nino", "food inflation", "climate", "biodiversity", "extreme weather"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-25T17:25:00+00:00"
+    },
+    {
+      "id": "aip-20260225-001",
+      "title": "NSF Director Nomination: Jim O'Neill from Thiel Foundation",
+      "source": {"name": "AIP Science Policy", "type": "policy", "url": "https://www.aip.org/fyi/the-week-of-feb-23-2026", "published_date": "2026-02-25"},
+      "content": {"abstract": "Trump administration plans to nominate Jim O'Neill (former HHS, Thiel Foundation) as NSF director, emphasizing 'science over ideology'.", "keywords": ["NSF", "science policy", "Trump", "research funding", "Jim O'Neill"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:30:00+00:00"
+    },
+    {
+      "id": "aip-20260225-002",
+      "title": "NIST Foreign Researcher Three-Year Limit Policy",
+      "source": {"name": "AIP Science Policy", "type": "policy", "url": "https://www.aip.org/fyi/the-week-of-feb-23-2026", "published_date": "2026-02-25"},
+      "content": {"abstract": "NIST implements three-year limit on international graduate students and postdocs, raising concerns about preventing foreign doctoral completion.", "keywords": ["NIST", "research security", "foreign researchers", "science policy", "immigration"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:30:00+00:00"
+    },
+    {
+      "id": "aip-20260225-003",
+      "title": "NIST Launches AI Agent Standards Initiative",
+      "source": {"name": "AIP Science Policy", "type": "policy", "url": "https://www.aip.org/fyi/the-week-of-feb-23-2026", "published_date": "2026-02-25"},
+      "content": {"abstract": "NIST launches AI Agent Standards Initiative with NSF to develop industry-led AI agent protocols and standards.", "keywords": ["NIST", "AI standards", "AI agents", "regulation", "NSF"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-25T17:30:00+00:00"
+    },
+    {
+      "id": "pew-20260225-001",
+      "title": "Black Americans' Family Network Extends Beyond Blood Ties",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/race-and-ethnicity/2026/02/25/for-many-black-americans-family-extends-beyond-birth-and-legal-ties/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Research reveals broader definitions of family among Black Americans with extensive emotional and financial support networks beyond biological relatives.", "keywords": ["family structures", "Black Americans", "social networks", "demographics"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-25T17:35:00+00:00"
+    }
+  ]
+}

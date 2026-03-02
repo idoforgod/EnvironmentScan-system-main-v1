@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-27",
+    "classification_method": "STEEPs framework with arXiv category mapping + content analysis",
+    "total_signals": 35,
+    "steeps_distribution": {
+      "T": 22,
+      "S": 2,
+      "E": 1,
+      "E_Environmental": 3,
+      "P": 2,
+      "s": 5
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "arxiv-20260227-001",
+      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P", "s"],
+      "classification_reasoning": "Primary: Technological innovation in AI safety infrastructure. Secondary: Policy implications for AI governance; ethical considerations for autonomous agent reliability."
+    },
+    {
+      "id": "arxiv-20260227-002",
+      "title": "A Mathematical Theory of Agency and Intelligence",
+      "primary_steeps": "T",
+      "secondary_steeps": ["s"],
+      "classification_reasoning": "Primary: Foundational theoretical contribution to AI/cognitive science. Secondary: Philosophical implications for understanding intelligence and consciousness."
+    },
+    {
+      "id": "arxiv-20260227-003",
+      "title": "Training Agents to Self-Report Misbehavior",
+      "primary_steeps": "s",
+      "secondary_steeps": ["T", "P"],
+      "classification_reasoning": "Primary: Ethics and values in AI alignment. Secondary: Technical approach to safety; governance implications for AI oversight."
+    },
+    {
+      "id": "arxiv-20260227-004",
+      "title": "Deep Sequence Modeling with Quantum Dynamics: Language as a Wave Function",
+      "primary_steeps": "T",
+      "secondary_steeps": [],
+      "classification_reasoning": "Primary: Novel computational paradigm merging quantum physics with NLP. Purely technological innovation."
+    },
+    {
+      "id": "arxiv-20260227-005",
+      "title": "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials",
+      "primary_steeps": "T",
+      "secondary_steeps": ["E_Environmental"],
+      "classification_reasoning": "Primary: Foundation model innovation for computational chemistry. Secondary: Implications for sustainable materials discovery."
+    },
+    {
+      "id": "arxiv-20260227-006",
+      "title": "Sustainable LLM Inference using Context-Aware Model Switching",
+      "primary_steeps": "T",
+      "secondary_steeps": ["E_Environmental"],
+      "classification_reasoning": "Primary: Technical optimization for LLM inference. Secondary: Environmental impact through energy reduction in AI compute."
+    },
+    {
+      "id": "arxiv-20260227-007",
+      "title": "The Road to Useful Quantum Computers",
+      "primary_steeps": "T",
+      "secondary_steeps": ["E", "P"],
+      "classification_reasoning": "Primary: Comprehensive quantum computing technology roadmap. Secondary: Economic implications for quantum industry; policy implications for national quantum strategies."
+    },
+    {
+      "id": "arxiv-20260227-008",
+      "title": "Memory-Dominated Quantum Criticality as a Universal Route to High-Temperature Superconductivity",
+      "primary_steeps": "T",
+      "secondary_steeps": ["E_Environmental", "E"],
+      "classification_reasoning": "Primary: Fundamental physics breakthrough in superconductivity theory. Secondary: Environmental implications for lossless energy transmission; economic impact of room-temperature superconductors."
+    },
+    {
+      "id": "arxiv-20260227-009",
+      "title": "FIRE: A Comprehensive Benchmark for Financial Intelligence and Reasoning Evaluation",
+      "primary_steeps": "E",
+      "secondary_steeps": ["T"],
+      "classification_reasoning": "Primary: Financial AI evaluation benchmark with economic impact. Secondary: Technical contribution to LLM evaluation methodology."
+    },
+    {
+      "id": "arxiv-20260227-010",
+      "title": "Epistemic Filtering and Collective Hallucination: A Jury Theorem for Confidence-Calibrated Agents",
+      "primary_steeps": "s",
+      "secondary_steeps": ["T"],
+      "classification_reasoning": "Primary: Epistemological and ethical analysis of AI collective decision-making. Secondary: Technical analysis of multi-agent hallucination."
+    },
+    {
+      "id": "arxiv-20260227-011",
+      "title": "Towards Autonomous Memory Agents",
+      "primary_steeps": "T",
+      "secondary_steeps": ["s"],
+      "classification_reasoning": "Primary: Technical innovation in AI agent architecture. Secondary: Implications for artificial consciousness and persistent identity."
+    },
+    {
+      "id": "arxiv-20260227-012",
+      "title": "Analysis of LLMs Against Prompt Injection and Jailbreak Attacks",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P"],
+      "classification_reasoning": "Primary: Cybersecurity technical analysis. Secondary: Regulatory implications for AI deployment safety."
+    },
+    {
+      "id": "arxiv-20260227-013",
+      "title": "CQSA: Byzantine-robust Clustered Quantum Secure Aggregation in Federated Learning",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P"],
+      "classification_reasoning": "Primary: Quantum-classical hybrid security innovation. Secondary: Policy implications for data privacy and distributed systems governance."
+    },
+    {
+      "id": "arxiv-20260227-014",
+      "title": "Global River Forecasting with a Topology-Informed AI Foundation Model",
+      "primary_steeps": "E_Environmental",
+      "secondary_steeps": ["T", "S"],
+      "classification_reasoning": "Primary: Environmental monitoring and climate adaptation. Secondary: Technical AI innovation; social impact on flood-vulnerable communities."
+    },
+    {
+      "id": "arxiv-20260227-015",
+      "title": "Patient-Centered, Graph-Augmented AI-Enabled Passive Surveillance for Early Stroke Risk Detection",
+      "primary_steeps": "S",
+      "secondary_steeps": ["T"],
+      "classification_reasoning": "Primary: Social/health impact for high-risk populations. Secondary: Technical innovation in medical AI."
+    },
+    {
+      "id": "arxiv-20260227-016",
+      "title": "Improving Spatial Allocation for Energy System Coupling with Graph Neural Networks",
+      "primary_steeps": "E_Environmental",
+      "secondary_steeps": ["T", "E"],
+      "classification_reasoning": "Primary: Environmental impact through renewable energy integration. Secondary: Technical GNN innovation; economic implications for energy markets."
+    },
+    {
+      "id": "arxiv-20260227-017",
+      "title": "AviaSafe: A Physics-Informed Data-Driven Model for Aviation Safety-Critical Cloud Forecasts",
+      "primary_steeps": "E_Environmental",
+      "secondary_steeps": ["T", "S"],
+      "classification_reasoning": "Primary: Atmospheric science and environmental monitoring. Secondary: Technical physics-informed ML; social impact on aviation safety."
+    },
+    {
+      "id": "arxiv-20260227-018",
+      "title": "Mirroring the Mind: Distilling Human-Like Metacognitive Strategies into Large Language Models",
+      "primary_steeps": "s",
+      "secondary_steeps": ["T"],
+      "classification_reasoning": "Primary: Philosophical intersection of human cognition and AI. Secondary: Technical contribution to LLM capability enhancement."
+    },
+    {
+      "id": "arxiv-20260227-019",
+      "title": "ArchAgent: Agentic AI-driven Computer Architecture Discovery",
+      "primary_steeps": "T",
+      "secondary_steeps": [],
+      "classification_reasoning": "Primary: Hardware-software co-design automation. Purely technological innovation in AI-driven engineering."
+    },
+    {
+      "id": "arxiv-20260227-020",
+      "title": "Fundamental Limits on QBER and Distance in Quantum Key Distribution",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P"],
+      "classification_reasoning": "Primary: Theoretical physics and quantum information. Secondary: Policy implications for quantum-secure communication standards."
+    },
+    {
+      "id": "arxiv-20260227-021",
+      "title": "CourtGuard: A Model-Agnostic Framework for Zero-Shot Policy Adaptation in LLM Safety",
+      "primary_steeps": "P",
+      "secondary_steeps": ["T", "s"],
+      "classification_reasoning": "Primary: AI governance and policy enforcement. Secondary: Technical framework; ethical implications for AI regulation."
+    },
+    {
+      "id": "arxiv-20260227-022",
+      "title": "Orthogonal Weight Modification Enhances Learning Scalability without Gradient Backpropagation",
+      "primary_steeps": "T",
+      "secondary_steeps": [],
+      "classification_reasoning": "Primary: Fundamental ML training paradigm shift. Purely technological breakthrough."
+    },
+    {
+      "id": "arxiv-20260227-023",
+      "title": "To Deceive is to Teach? Forging Perceptual Robustness via Adversarial Reinforcement Learning",
+      "primary_steeps": "T",
+      "secondary_steeps": ["s"],
+      "classification_reasoning": "Primary: Adversarial ML methodology. Secondary: Philosophical implications of deception in learning."
+    },
+    {
+      "id": "arxiv-20260227-024",
+      "title": "Cybersecurity Data Extraction from Common Crawl",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P"],
+      "classification_reasoning": "Primary: Cybersecurity data engineering. Secondary: Policy implications for threat intelligence."
+    },
+    {
+      "id": "arxiv-20260227-025",
+      "title": "Self-Purification Mitigates Backdoors in Multimodal Diffusion Language Models",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P"],
+      "classification_reasoning": "Primary: AI security defense mechanism. Secondary: Regulatory relevance for model safety certification."
+    },
+    {
+      "id": "arxiv-20260227-026",
+      "title": "HubScan: Detecting Hubness Poisoning in Retrieval-Augmented Generation Systems",
+      "primary_steeps": "T",
+      "secondary_steeps": ["P"],
+      "classification_reasoning": "Primary: RAG system security. Secondary: Policy implications for enterprise AI deployment."
+    },
+    {
+      "id": "arxiv-20260227-027",
+      "title": "CWM: Contrastive World Models for Action Feasibility Learning in Embodied Agent Pipelines",
+      "primary_steeps": "T",
+      "secondary_steeps": [],
+      "classification_reasoning": "Primary: Robotics and embodied AI. Purely technological contribution."
+    },
+    {
+      "id": "arxiv-20260227-028",
+      "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+      "primary_steeps": "S",
+      "secondary_steeps": ["T"],
+      "classification_reasoning": "Primary: Social impact on urban mobility and transportation. Secondary: Technical benchmarking contribution."
+    },
+    {
+      "id": "arxiv-20260227-029",
+      "title": "Entropy-Controlled Flow Matching",
+      "primary_steeps": "T",
+      "secondary_steeps": [],
+      "classification_reasoning": "Primary: Generative modeling methodology. Purely technical innovation."
+    },
+    {
+      "id": "arxiv-20260227-030",
+      "title": "Support Tokens, Stability Margins, and a New Foundation for Robust LLMs",
+      "primary_steeps": "T",
+      "secondary_steeps": ["s"],
+      "classification_reasoning": "Primary: LLM robustness theory. Secondary: Implications for trustworthy AI."
+    },
+    {
+      "id": "arxiv-20260227-031",
+      "title": "Stochastic Neural Networks for Quantum Devices",
+      "primary_steeps": "T",
+      "secondary_steeps": [],
+      "classification_reasoning": "Primary: Quantum-classical hybrid computing. Purely technological."
+    },
+    {
+      "id": "arxiv-20260227-032",
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "primary_steeps": "P",
+      "secondary_steeps": ["T", "s"],
+      "classification_reasoning": "Primary: AI governance documentation and policy framework. Secondary: Technical inventory; ethical safety assessment."
+    },
+    {
+      "id": "arxiv-20260227-033",
+      "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+      "primary_steeps": "s",
+      "secondary_steeps": ["T", "P"],
+      "classification_reasoning": "Primary: Ethics of AI safety evaluation integrity. Secondary: Technical dataset analysis; policy implications for safety standards."
+    },
+    {
+      "id": "arxiv-20260227-034",
+      "title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning",
+      "primary_steeps": "T",
+      "secondary_steeps": ["E_Environmental"],
+      "classification_reasoning": "Primary: ML efficiency innovation. Secondary: Environmental benefit through compute reduction."
+    },
+    {
+      "id": "arxiv-20260227-035",
+      "title": "Manifold of Failure: Behavioral Attraction Basins in Language Models",
+      "primary_steeps": "T",
+      "secondary_steeps": ["s"],
+      "classification_reasoning": "Primary: LLM behavior analysis methodology. Secondary: Implications for understanding AI reliability and trust."
+    }
+  ]
+}

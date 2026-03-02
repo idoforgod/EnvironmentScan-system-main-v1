@@ -1,0 +1,882 @@
+{
+  "workflow": "wf2-arxiv",
+  "date": "2026-02-25",
+  "assessment_summary": {
+    "total_signals_analyzed": 540,
+    "high_impact_count": 1,
+    "medium_impact_count": 399,
+    "low_impact_count": 140
+  },
+  "top_15_signals": [
+    {
+      "id": "arxiv-20260225-csCL-224",
+      "title": "Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.19948v1",
+        "published_date": "2026-02-23T15:17:18Z"
+      },
+      "content": {
+        "abstract": "Large Language Models (LLMs) are increasingly utilized for mental health support; however, current safety benchmarks often fail to detect the complex, longitudinal risks inherent in therapeutic dialogue. We introduce an evaluation framework that pairs AI psychotherapists with simulated patient agents equipped with dynamic cognitive-affective models and assesses therapy session simulations against a comprehensive quality of care and risk ontology. We apply this framework to a high-impact test case, Alcohol Use Disorder, evaluating six AI agents (including ChatGPT, Gemini, and Character.AI) agai",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC",
+          "cs.MA"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.CL",
+        "all_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.HC",
+          "cs.MA"
+        ]
+      },
+      "authors": [
+        "Ian Steenstra",
+        "Paola Pedrelli",
+        "Weiyan Shi",
+        "Stacy Marsella",
+        "Timothy W. Bickmore"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587716",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.CY",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587716",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.723,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.85,
+          "DC": 1.0,
+          "ES": 0.44,
+          "CC": 0.95,
+          "IC": 0.6
+        }
+      },
+      "priority_rank": 1
+    },
+    {
+      "id": "arxiv-20260225-csHC-062",
+      "title": "\"Are You Sure?\": An Empirical Study of Human Perception Vulnerability in LLM-Driven Agentic Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.21127v1",
+        "published_date": "2026-02-24T17:23:11Z"
+      },
+      "content": {
+        "abstract": "Large language model (LLM) agents are rapidly becoming trusted copilots in high-stakes domains like software development and healthcare. However, this deepening trust introduces a novel attack surface: Agent-Mediated Deception (AMD), where compromised agents are weaponized against their human users. While extensive research focuses on agent-centric threats, human susceptibility to deception by a compromised agent remains unexplored. We present the first large-scale empirical study with 303 participants to measure human susceptibility to AMD. This is based on HAT-Lab (Human-Agent Trust Laborato",
+        "keywords": [
+          "cs.HC",
+          "cs.AI",
+          "cs.CR",
+          "cs.SI"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "S",
+        "steeps_name": "Social",
+        "arxiv_category": "cs.HC",
+        "all_categories": [
+          "cs.HC",
+          "cs.AI",
+          "cs.CR",
+          "cs.SI"
+        ]
+      },
+      "authors": [
+        "Xinfeng Li",
+        "Shenyu Dai",
+        "Kelong Zheng",
+        "Yue Xiao",
+        "Gelei Deng"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587317",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.AI",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587318",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.686,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.94,
+          "ES": 0.44,
+          "CC": 0.8,
+          "IC": 0.52
+        }
+      },
+      "priority_rank": 2
+    },
+    {
+      "id": "arxiv-20260225-csAI-060",
+      "title": "A Benchmark for Deep Information Synthesis",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.21143v1",
+        "published_date": "2026-02-24T17:43:32Z"
+      },
+      "content": {
+        "abstract": "Large language model (LLM)-based agents are increasingly used to solve complex tasks involving tool use, such as web browsing, code execution, and data analysis. However, current evaluation benchmarks do not adequately assess their ability to solve real-world tasks that require synthesizing information from multiple sources and inferring insights beyond simple fact retrieval. To address this, we introduce DEEPSYNTH, a novel benchmark designed to evaluate agents on realistic, time-consuming problems that combine information gathering, synthesis, and structured reasoning to produce insights. DEE",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "cs.IR",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.AI",
+        "all_categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.IR",
+          "cs.LG"
+        ]
+      },
+      "authors": [
+        "Debjit Paul",
+        "Daniel Murphy",
+        "Milan Gritta",
+        "Ronald Cardenas",
+        "Victor Prokhorov"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587312",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.AI",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587313",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.675,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.94,
+          "ES": 0.51,
+          "CC": 0.8,
+          "IC": 0.44
+        }
+      },
+      "priority_rank": 3
+    },
+    {
+      "id": "arxiv-20260225-statML-380",
+      "title": "Standard Transformers Achieve the Minimax Rate in Nonparametric Regression with $C^{s,λ}$ Targets",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.20555v1",
+        "published_date": "2026-02-24T05:14:01Z"
+      },
+      "content": {
+        "abstract": "The tremendous success of Transformer models in fields such as large language models and computer vision necessitates a rigorous theoretical investigation. To the best of our knowledge, this paper is the first work proving that standard Transformers can approximate Hölder functions $ C^{s,λ}\\left([0,1]^{d\\times n}\\right) $$ (s\\in\\mathbb{N}_{\\geq0},0<λ\\leq1) $ under the $L^t$ distance ($t \\in [1, \\infty]$) with arbitrary precision. Building upon this approximation result, we demonstrate that standard Transformers achieve the minimax optimal rate in nonparametric regression for Hölder target fun",
+        "keywords": [
+          "stat.ML",
+          "cs.IT",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "stat.ML",
+        "all_categories": [
+          "stat.ML",
+          "cs.IT",
+          "cs.LG"
+        ]
+      },
+      "authors": [
+        "Yanming Lai",
+        "Defeng Sun"
+      ],
+      "collected_at": "2026-02-25T09:24:08.588185",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "stat.ML",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.588186",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.651,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.88,
+          "ES": 0.65,
+          "CC": 0.65,
+          "IC": 0.36
+        }
+      },
+      "priority_rank": 4
+    },
+    {
+      "id": "arxiv-20260225-csCV-070",
+      "title": "VAUQ: Vision-Aware Uncertainty Quantification for LVLM Self-Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.21054v1",
+        "published_date": "2026-02-24T16:11:14Z"
+      },
+      "content": {
+        "abstract": "Large Vision-Language Models (LVLMs) frequently hallucinate, limiting their safe deployment in real-world applications. Existing LLM self-evaluation methods rely on a model's ability to estimate the correctness of its own outputs, which can improve deployment reliability; however, they depend heavily on language priors and are therefore ill-suited for evaluating vision-conditioned predictions. We propose VAUQ, a vision-aware uncertainty quantification framework for LVLM self-evaluation that explicitly measures how strongly a model's output depends on visual evidence. VAUQ introduces the Image-",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.CV",
+        "all_categories": [
+          "cs.CV",
+          "cs.AI",
+          "cs.CL"
+        ]
+      },
+      "authors": [
+        "Seongheon Park",
+        "Changdae Oh",
+        "Hyeong Kyu Choi",
+        "Xuefeng Du",
+        "Sharon Li"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587337",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.AI",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587337",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.647,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.88,
+          "ES": 0.51,
+          "CC": 0.65,
+          "IC": 0.44
+        }
+      },
+      "priority_rank": 5
+    },
+    {
+      "id": "arxiv-20260225-csCV-171",
+      "title": "Le-DETR: Revisiting Real-Time Detection Transformer with Efficient Encoder Design",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.21010v1",
+        "published_date": "2026-02-24T15:29:55Z"
+      },
+      "content": {
+        "abstract": "Real-time object detection is crucial for real-world applications as it requires high accuracy with low latency. While Detection Transformers (DETR) have demonstrated significant performance improvements, current real-time DETR models are challenging to reproduce from scratch due to excessive pre-training overheads on the backbone, constraining research advancements by hindering the exploration of novel backbone architectures. In this paper, we want to show that by using general good design, it is possible to have \\textbf{high performance} with \\textbf{low pre-training cost}. After a thorough ",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.CV",
+        "all_categories": [
+          "cs.CV"
+        ]
+      },
+      "authors": [
+        "Jiannan Huang",
+        "Aditya Kane",
+        "Fengzhe Zhou",
+        "Yunchao Wei",
+        "Humphrey Shi"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587587",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.CV",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587587",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.642,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.76,
+          "ES": 0.65,
+          "CC": 0.35,
+          "IC": 0.52
+        }
+      },
+      "priority_rank": 6
+    },
+    {
+      "id": "arxiv-20260225-csLG-053",
+      "title": "Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.21198v1",
+        "published_date": "2026-02-24T18:55:18Z"
+      },
+      "content": {
+        "abstract": "Embodied LLMs endow robots with high-level task reasoning, but they cannot reflect on what went wrong or why, turning deployment into a sequence of independent trials where mistakes repeat rather than accumulate into experience. Drawing upon human reflective practitioners, we introduce Reflective Test-Time Planning, which integrates two modes of reflection: \\textit{reflection-in-action}, where the agent uses test-time scaling to generate and score multiple candidate actions using internal reflections before execution; and \\textit{reflection-on-action}, which uses test-time training to update b",
+        "keywords": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CV",
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.LG",
+        "all_categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CV",
+          "cs.RO"
+        ]
+      },
+      "authors": [
+        "Yining Hong",
+        "Huang Huang",
+        "Manling Li",
+        "Li Fei-Fei",
+        "Jiajun Wu"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587295",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.AI",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587296",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.638,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 1.0,
+          "ES": 0.3,
+          "CC": 0.95,
+          "IC": 0.36
+        }
+      },
+      "priority_rank": 7
+    },
+    {
+      "id": "arxiv-20260225-condma-022",
+      "title": "Efficient two-color Floquet control of the RKKY interaction in altermagnets",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.20862v1",
+        "published_date": "2026-02-24T13:06:46Z"
+      },
+      "content": {
+        "abstract": "Magnetic impurities in real materials can mask the intrinsic spin-dependent properties of hosts. They interact indirectly through the Ruderman-Kittel-Kasuya-Yosida (RKKY) mechanism, which limits the use of isolated impurity spins in applications such as qubits and spintronics. Suppressing the RKKY interaction would therefore enable access to the host's unperturbed behavior while simultaneously isolating impurity spins for functional use. Although single-color laser driving can suppress the RKKY interaction, it typically requires strong fields that may be impractical or destabilizing. To overco",
+        "keywords": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci",
+          "cond-mat.str-el",
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cond-mat.mes-hall",
+        "all_categories": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci",
+          "cond-mat.str-el",
+          "quant-ph"
+        ]
+      },
+      "authors": [
+        "Mohsen Yarmohammadi",
+        "Pei-Hao Fu",
+        "James K. Freericks"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587216",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "quant-ph",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587217",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.634,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.94,
+          "ES": 0.3,
+          "CC": 0.8,
+          "IC": 0.44
+        }
+      },
+      "priority_rank": 8
+    },
+    {
+      "id": "arxiv-20260225-csAR-400",
+      "title": "CORVET: A CORDIC-Powered, Resource-Frugal Mixed-Precision Vector Processing Engine for High-Throughput AIoT applications",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.19268v1",
+        "published_date": "2026-02-22T16:51:17Z"
+      },
+      "content": {
+        "abstract": "This brief presents a runtime-adaptive, performance-enhanced vector engine featuring a low-resource, iterative CORDIC-based MAC unit for edge AI acceleration. The proposed design enables dynamic reconfiguration between approximate and accurate modes, exploiting the latency-accuracy trade-off for a wide range of workloads. Its resource-efficient approach further enables up to 4x throughput improvement within the same hardware resources by leveraging vectorised, time-multiplexed execution and flexible precision scaling. With a time-multiplexed multi-AF block and a lightweight pooling and normali",
+        "keywords": [
+          "cs.AR",
+          "cs.AI",
+          "cs.CV",
+          "cs.NE",
+          "eess.IV"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.AR",
+        "all_categories": [
+          "cs.AR",
+          "cs.AI",
+          "cs.CV",
+          "cs.NE",
+          "eess.IV"
+        ]
+      },
+      "authors": [
+        "Sonu Kumar",
+        "Mohd Faisal Khan",
+        "Mukul Lokhande",
+        "Santosh Kumar Vishvakarma"
+      ],
+      "collected_at": "2026-02-25T09:24:08.588234",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "eess.IV",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.588235",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.629,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.7,
+          "DC": 1.0,
+          "ES": 0.44,
+          "CC": 0.95,
+          "IC": 0.36
+        }
+      },
+      "priority_rank": 9
+    },
+    {
+      "id": "arxiv-20260225-csCR-193",
+      "title": "OptiLeak: Efficient Prompt Reconstruction via Reinforcement Learning in Multi-tenant LLM Services",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.20595v1",
+        "published_date": "2026-02-24T06:35:22Z"
+      },
+      "content": {
+        "abstract": "Multi-tenant LLM serving frameworks widely adopt shared Key-Value caches to enhance efficiency. However, this creates side-channel vulnerabilities enabling prompt leakage attacks. Prior studies identified these attack surfaces yet focused on expanding attack vectors rather than optimizing attack performance, reporting impractically high attack costs that underestimate the true privacy risk. We propose OptiLeak, a reinforcement learning-enhanced framework that maximizes prompt reconstruction efficiency through two-stage fine-tuning. Our key insight is that domain-specific ``hard tokens'' -- ter",
+        "keywords": [
+          "cs.CR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.CR",
+        "all_categories": [
+          "cs.CR",
+          "cs.AI"
+        ]
+      },
+      "authors": [
+        "Longxiang Wang",
+        "Xiang Zheng",
+        "Xuhao Zhang",
+        "Yao Zhang",
+        "Ye Wu"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587640",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.CR",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587641",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.625,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.82,
+          "ES": 0.3,
+          "CC": 0.5,
+          "IC": 0.6
+        }
+      },
+      "priority_rank": 10
+    },
+    {
+      "id": "arxiv-20260225-quantp-511",
+      "title": "AI Agents for Variational Quantum Circuit Design",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.19387v1",
+        "published_date": "2026-02-22T23:41:22Z"
+      },
+      "content": {
+        "abstract": "Variational quantum circuits (VQCs) constitute a central building block of near-term quantum machine learning (QML), yet the principled design of expressive and trainable architectures remains a major open challenge. The VQC design space grows combinatorially with the number of qubits, layers, entanglement structures, and gate parameterizations, rendering manual circuit construction inefficient and often suboptimal. We introduce an autonomous agent-based framework for VQC architecture search that integrates high-level reasoning with a quantum simulation environment. The agent proposes candidat",
+        "keywords": [
+          "quant-ph",
+          "cs.ET",
+          "hep-ex",
+          "hep-lat",
+          "hep-ph"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "quant-ph",
+        "all_categories": [
+          "quant-ph",
+          "cs.ET",
+          "hep-ex",
+          "hep-lat",
+          "hep-ph"
+        ]
+      },
+      "authors": [
+        "Marco Knipfer",
+        "Alexander Roman",
+        "Konstantin T. Matchev",
+        "Katia Matcheva",
+        "Sergei Gleyzer"
+      ],
+      "collected_at": "2026-02-25T09:24:08.588506",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.ET",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.588507",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.625,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.7,
+          "DC": 1.0,
+          "ES": 0.3,
+          "CC": 0.95,
+          "IC": 0.44
+        }
+      },
+      "priority_rank": 11
+    },
+    {
+      "id": "arxiv-20260225-csCL-195",
+      "title": "Personal Information Parroting in Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.20580v1",
+        "published_date": "2026-02-24T06:02:03Z"
+      },
+      "content": {
+        "abstract": "Modern language models (LM) are trained on large scrapes of the Web, containing millions of personal information (PI) instances, many of which LMs memorize, increasing privacy risks. In this work, we develop the regexes and rules (R&R) detector suite to detect email addresses, phone numbers, and IP addresses, which outperforms the best regex-based PI detectors. On a manually curated set of 483 instances of PI, we measure memorization: finding that 13.6% are parroted verbatim by the Pythia-6.9b model, i.e., when the model is prompted with the tokens that precede the PI in the original document,",
+        "keywords": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.CL",
+        "all_categories": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CR",
+          "cs.LG"
+        ]
+      },
+      "authors": [
+        "Nishant Subramani",
+        "Kshitish Ghate",
+        "Mona Diab"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587645",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.CR",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587646",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.624,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.94,
+          "ES": 0.37,
+          "CC": 0.8,
+          "IC": 0.36
+        }
+      },
+      "priority_rank": 12
+    },
+    {
+      "id": "arxiv-20260225-csSE-209",
+      "title": "An LLM-driven Scenario Generation Pipeline Using an Extended Scenic DSL for Autonomous Driving Safety Validation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.20644v1",
+        "published_date": "2026-02-24T07:44:26Z"
+      },
+      "content": {
+        "abstract": "Real-world crash reports, which combine textual summaries and sketches, are valuable for scenario-based testing of autonomous driving systems (ADS). However, current methods cannot effectively translate this multimodal data into precise, executable simulation scenarios, hindering the scalability of ADS safety validation. In this work, we propose a scalable and verifiable pipeline that uses a large language model (GPT-4o mini) and a probabilistic intermediate representation (an Extended Scenic domain-specific language) to automatically extract semantic scenario configurations from crash reports",
+        "keywords": [
+          "cs.SE"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.SE",
+        "all_categories": [
+          "cs.SE"
+        ]
+      },
+      "authors": [
+        "Fida Khandaker Safa",
+        "Yupeng Jiang",
+        "Xi Zheng"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587680",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.SE",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587680",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.62,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.76,
+          "ES": 0.3,
+          "CC": 0.35,
+          "IC": 0.68
+        }
+      },
+      "priority_rank": 13
+    },
+    {
+      "id": "arxiv-20260225-csAI-068",
+      "title": "Motivation is Something You Need",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.21064v1",
+        "published_date": "2026-02-24T16:26:52Z"
+      },
+      "content": {
+        "abstract": "This work introduces a novel training paradigm that draws from affective neuroscience. Inspired by the interplay of emotions and cognition in the human brain and more specifically the SEEKING motivational state, we design a dual-model framework where a smaller base model is trained continuously, while a larger motivated model is activated intermittently during predefined \"motivation conditions\". The framework mimics the emotional state of high curiosity and anticipation of reward in which broader brain regions are recruited to enhance cognitive performance. Exploiting scalable architectures wh",
+        "keywords": [
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.AI",
+        "all_categories": [
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
+        ]
+      },
+      "authors": [
+        "Mehdi Acheli",
+        "Walid Gaaloul"
+      ],
+      "collected_at": "2026-02-25T09:24:08.587332",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.AI",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.587332",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.619,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.95,
+          "DC": 0.88,
+          "ES": 0.37,
+          "CC": 0.65,
+          "IC": 0.44
+        }
+      },
+      "priority_rank": 14
+    },
+    {
+      "id": "arxiv-20260225-csET-514",
+      "title": "Metasurfaces-Integrated Wireless Neural Networks for Lightweight Over-The-Air Edge Inference",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "http://arxiv.org/abs/2602.19312v1",
+        "published_date": "2026-02-22T19:23:49Z"
+      },
+      "content": {
+        "abstract": "The upcoming sixth Generation (6G) of wireless networks envisions ultra-low latency and energy efficient Edge Inference (EI) for diverse Internet of Things (IoT) applications. However, traditional digital hardware for machine learning is power intensive, motivating the need for alternative computation paradigms. Over-The-Air (OTA) computation is regarded as an emerging transformative approach assigning the wireless channel to actively perform computational tasks. This article introduces the concept of Metasurfaces-Integrated Neural Networks (MINNs), a physical-layer-enabled deep learning frame",
+        "keywords": [
+          "cs.ET",
+          "cs.LG",
+          "eess.SP"
+        ],
+        "language": "en"
+      },
+      "classification": {
+        "steeps_primary": "T",
+        "steeps_name": "Technological",
+        "arxiv_category": "cs.ET",
+        "all_categories": [
+          "cs.ET",
+          "cs.LG",
+          "eess.SP"
+        ]
+      },
+      "authors": [
+        "Kyriakos Stylianopoulos",
+        "Mario Edoardo Pandolfo",
+        "Paolo Di Lorenzo",
+        "George C. Alexandropoulos"
+      ],
+      "collected_at": "2026-02-25T09:24:08.588513",
+      "scan_metadata": {
+        "workflow": "wf2-arxiv",
+        "query_group": "cs.ET",
+        "execution_proof": {
+          "step": "2.1-classification",
+          "timestamp": "2026-02-25T09:24:08.588514",
+          "method": "category-steeps-mapping"
+        }
+      },
+      "psst": {
+        "total": 0.616,
+        "dimensions": {
+          "SR": 0.85,
+          "TC": 0.7,
+          "DC": 0.88,
+          "ES": 0.3,
+          "CC": 0.65,
+          "IC": 0.6
+        }
+      },
+      "priority_rank": 15
+    }
+  ]
+}

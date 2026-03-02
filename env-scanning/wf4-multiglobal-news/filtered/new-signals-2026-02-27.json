@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "workflow": "WF4",
+    "scan_date": "2026-02-27",
+    "filter_timestamp": "2026-02-27T12:15:00+00:00",
+    "total_raw_signals": 35,
+    "total_new_signals": 30,
+    "duplicates_removed": 5,
+    "dedup_method": "4-stage cascade (URL, String, Semantic, Entity)"
+  },
+  "dedup_log": {
+    "url_match": 0,
+    "string_match": 1,
+    "semantic_match": 3,
+    "entity_match": 1,
+    "total_removed": 5,
+    "removed_signals": [
+      {"id": "news-20260227-tariff-impact-035", "reason": "semantic_match", "merged_with": "news-20260227-trump-002", "similarity": 0.87},
+      {"id": "news-20260227-us-airforce-034", "reason": "entity_match", "merged_with": "news-20260227-china-pla-022", "similarity": 0.82},
+      {"id": "news-20260227-eu-renew-028", "reason": "semantic_match", "merged_with": "news-20260227-saf-018", "similarity": 0.75},
+      {"id": "news-20260227-iceland-027", "reason": "semantic_match", "merged_with": "news-20260227-ukraine-008", "similarity": 0.71},
+      {"id": "news-20260227-uganda-032", "reason": "string_match", "merged_with": "database_existing_signal", "similarity": 0.68}
+    ]
+  },
+  "new_signals": [
+    "news-20260227-scotus-001",
+    "news-20260227-trump-002",
+    "news-20260227-iran-003",
+    "news-20260227-nk-004",
+    "news-20260227-china-005",
+    "news-20260227-japan-006",
+    "news-20260227-quantum-007",
+    "news-20260227-ukraine-008",
+    "news-20260227-denmark-009",
+    "news-20260227-samsung-010",
+    "news-20260227-pakistan-011",
+    "news-20260227-us-laser-012",
+    "news-20260227-argentina-013",
+    "news-20260227-africa-014",
+    "news-20260227-lobito-015",
+    "news-20260227-eu-tariff-016",
+    "news-20260227-ocean-017",
+    "news-20260227-saf-018",
+    "news-20260227-eu-abort-019",
+    "news-20260227-ai-agents-020",
+    "news-20260227-world-models-021",
+    "news-20260227-china-pla-022",
+    "news-20260227-samsung-spy-023",
+    "news-20260227-openai-kr-024",
+    "news-20260227-nigeria-025",
+    "news-20260227-somalia-026",
+    "news-20260227-carbon-030",
+    "news-20260227-gaza-031",
+    "news-20260227-physical-ai-033",
+    "news-20260227-latam-growth-029"
+  ]
+}

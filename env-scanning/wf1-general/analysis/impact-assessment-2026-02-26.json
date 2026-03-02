@@ -1,0 +1,46 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf1-general",
+  "analysis_metadata": {
+    "signals_collected": 47,
+    "duplicates_removed": 3,
+    "signals_analyzed": 44,
+    "anchor_timestamp": "2026-02-26T21:36:28.195056+00:00"
+  },
+  "steeps_distribution": {
+    "T_Technological": 18,
+    "E_Economic": 7,
+    "E_Environmental": 4,
+    "P_Political": 9,
+    "S_Social": 4,
+    "s_spiritual": 3
+  },
+  "steeps_balance_assessment": "T-heavy (40.9%); P strong (20.5%); E moderate (15.9%); E_Env adequate (9.1%); S low (9.1%); s low (6.8%). T dominance reflects major technology announcements (NVIDIA earnings, quantum breakthroughs, CRISPR). Political signals elevated due to trade war/Supreme Court rulings and UN human rights council.",
+  "cross_impact_matrix": {
+    "high_interactions": [
+      {"signal_pair": ["tc-20260226-001", "tc-20260226-002"], "interaction": "NVIDIA AI compute surge directly drives AI data center energy demand, triggering policy response (Rate Payer Pledge)"},
+      {"signal_pair": ["usfr-20260226-008", "trade-20260226-018"], "interaction": "Supreme Court IEEPA ruling and tariff restructuring creating cascading trade reordering globally"},
+      {"signal_pair": ["cb-20260226-010", "nasa-20260226-025"], "interaction": "EU 3°C warning amplified by NASA warming acceleration data — convergent environmental crisis signals"},
+      {"signal_pair": ["nat-20260226-006", "maj-20260226-031"], "interaction": "Triplet superconductor and Majorana qubit breakthroughs mutually reinforce quantum computing viability"},
+      {"signal_pair": ["crispr-20260226-015", "cancer-20260226-047"], "interaction": "CRISPR antibiotic resistance tool and CAR-T mass production reflect parallel biotech paradigm shifts"},
+      {"signal_pair": ["eth-20260226-020", "eu-20260226-023"], "interaction": "UNESCO neurotechnology standards and EU AI Act enforcement represent coordinated global AI governance wave"}
+    ]
+  },
+  "priority_ranking": [
+    {"rank": 1, "id": "usfr-20260226-008", "title": "US Supreme Court Strikes Down IEEPA Tariff Authority", "psst": 88, "grade": "B", "category": "P", "impact": 95, "probability": 100, "urgency": 95, "novelty": 85},
+    {"rank": 2, "id": "tc-20260226-001", "title": "NVIDIA Records $68.1B Quarterly Revenue (73% Growth)", "psst": 86, "grade": "B", "category": "T", "impact": 90, "probability": 100, "urgency": 80, "novelty": 70},
+    {"rank": 3, "id": "cb-20260226-010", "title": "EU 3°C Warning / Food Inflation / El Nino Looms", "psst": 84, "grade": "B", "category": "E_Environmental", "impact": 95, "probability": 85, "urgency": 90, "novelty": 75},
+    {"rank": 4, "id": "nat-20260226-006", "title": "Triplet Superconductor Discovery for Quantum Computing", "psst": 82, "grade": "B", "category": "T", "impact": 90, "probability": 65, "urgency": 60, "novelty": 95},
+    {"rank": 5, "id": "crispr-20260226-015", "title": "CRISPR Gene-Drive Strips Antibiotic Resistance", "psst": 81, "grade": "B", "category": "T", "impact": 90, "probability": 70, "urgency": 75, "novelty": 90},
+    {"rank": 6, "id": "tc-20260226-002", "title": "White House AI Data Center Rate Payer Protection Pledge", "psst": 80, "grade": "B", "category": "P", "impact": 85, "probability": 95, "urgency": 85, "novelty": 80},
+    {"rank": 7, "id": "un-20260226-009", "title": "UN Chief: Human Rights Under Full-Scale Attack", "psst": 79, "grade": "B", "category": "P", "impact": 85, "probability": 90, "urgency": 80, "novelty": 65},
+    {"rank": 8, "id": "eth-20260226-020", "title": "UNESCO First International Neurotechnology Standards", "psst": 78, "grade": "B", "category": "s", "impact": 85, "probability": 80, "urgency": 70, "novelty": 90},
+    {"rank": 9, "id": "who-20260226-007", "title": "WHO: Global Health Systems At Risk from Funding Cuts", "psst": 77, "grade": "B", "category": "S", "impact": 85, "probability": 90, "urgency": 85, "novelty": 60},
+    {"rank": 10, "id": "cancer-20260226-047", "title": "China Mass-Production of CAR-T Cells from Cord Blood", "psst": 76, "grade": "B", "category": "T", "impact": 85, "probability": 60, "urgency": 55, "novelty": 95},
+    {"rank": 11, "id": "imf-20260226-011", "title": "IMF: Global Growth 3.3% — Tech Investment Offsets Trade", "psst": 75, "grade": "B", "category": "E", "impact": 80, "probability": 85, "urgency": 70, "novelty": 55},
+    {"rank": 12, "id": "trade-20260226-018", "title": "Global Trade Reordering: Allies Forge Ahead Without US", "psst": 74, "grade": "B", "category": "E", "impact": 85, "probability": 80, "urgency": 75, "novelty": 70},
+    {"rank": 13, "id": "nasa-20260226-025", "title": "Climate Warming Rate Accelerated to 0.25°C Per Decade", "psst": 73, "grade": "B", "category": "E_Environmental", "impact": 90, "probability": 90, "urgency": 85, "novelty": 55},
+    {"rank": 14, "id": "eu-20260226-023", "title": "EU AI Act High-Risk Implementation Guidelines Due", "psst": 72, "grade": "B", "category": "P", "impact": 80, "probability": 95, "urgency": 80, "novelty": 65},
+    {"rank": 15, "id": "eth-20260226-021", "title": "AI Employment Impact: Admin Hiring Down 35%", "psst": 71, "grade": "B", "category": "s", "impact": 80, "probability": 85, "urgency": 75, "novelty": 70}
+  ]
+}

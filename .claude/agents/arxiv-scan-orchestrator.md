@@ -308,8 +308,28 @@ python3 {metadata_injector_script} \
 - **Skeleton**: `{data_root}/reports/daily/_skeleton-prefilled-{date}.md` (**⚠️ pre-filled, NOT raw template**)
 - **Output**: `{data_root}/reports/daily/environmental-scan-{date}.md`
 - **Worker**: report-generator (shared)
-- **Validation**: `validate_report.py --profile {validate_profile}` (profile-based checks)
-- **4-Layer Defense**: L1 Skeleton, L2 Validation, L3 Retry, L4 Golden Reference
+
+**Step C: Quality Defense (L2a → L2b → L3)**
+
+> v2.3.0: 3-layer quality defense. "계산은 Python이, 판단은 LLM이."
+
+1. **L2a — Structural Validation**: `validate_report.py --profile {validate_profile} --json`
+   - Exit 0/2: proceed to L2b
+   - Exit 1 (CRITICAL): trigger retry (targeted fix → full regen → human escalation)
+
+2. **L2b — Cross-Reference Quality**: `validate_report_quality.py {report} {ranked_json} --language {bilingual_language} --json > {data_root}/logs/qc-results-{date}.json`
+   - Exit 0/2: proceed to L3
+   - Exit 1 (CRITICAL): trigger retry with remedy guidance from JSON output
+
+3. **L3 — Semantic Depth Review**: Invoke `@quality-reviewer` sub-agent
+   - Input: report_path, ranked_path, qc_results_path=`{data_root}/logs/qc-results-{date}.json`, golden_reference, date, data_root
+   - Output: `{data_root}/logs/quality-review-{date}.json`
+   - must_fix_count = 0 → proceed to Step 3.3
+   - must_fix_count 1–5 → targeted retry (max 2)
+   - must_fix_count > 5 → human escalation
+
+**Retry**: L2a/L2b CRITICAL → targeted fix (retry 1) → full regen (retry 2) → human escalation.
+Total retry budget: max 2 retries across all layers.
 
 ### Step 3.3: Archive
 - **Source**: `{data_root}/reports/daily/environmental-scan-{date}.md`
@@ -323,6 +343,7 @@ python3 {metadata_injector_script} \
 
 ### Pipeline Gate 3
 - All checks per protocol, paths relative to `{data_root}`
+- Includes `quality_review_completed` check: L2b passed + L3 grade ≥ C; OR human approved with quality warning
 
 ### Step 3.6: Self-Improvement Engine
 - **Scope**: WF2 metrics only (execution time, signal count, dedup rate, etc.)

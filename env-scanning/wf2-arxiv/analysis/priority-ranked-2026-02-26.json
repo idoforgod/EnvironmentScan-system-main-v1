@@ -1,0 +1,177 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf2-arxiv",
+  "ranking_metadata": {
+    "method": "pSST_unified",
+    "total_signals_ranked": 15,
+    "total_signals_available": 30,
+    "anchor_timestamp": "2026-02-26T21:36:37+00:00"
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-20260226-001",
+      "title": "Computing with many encoded logical qubits beyond break-even",
+      "category": "T",
+      "psst": 87,
+      "impact": "9.0/10",
+      "probability": 75,
+      "urgency": 70,
+      "novelty": 95
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-20260226-012",
+      "title": "One Brain, Omni Modalities: Unified Non-Invasive Brain Decoding with LLMs",
+      "category": "T",
+      "psst": 85,
+      "impact": "9.0/10",
+      "probability": 60,
+      "urgency": 55,
+      "novelty": 95
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-20260226-008",
+      "title": "The economic alignment problem of artificial intelligence",
+      "category": "E",
+      "psst": 84,
+      "impact": "8.5/10",
+      "probability": 80,
+      "urgency": 75,
+      "novelty": 85
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-20260226-005",
+      "title": "Provable Safe LLM Alignment via Optimistic Primal-Dual",
+      "category": "T",
+      "psst": 83,
+      "impact": "8.5/10",
+      "probability": 70,
+      "urgency": 80,
+      "novelty": 85
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260226-004",
+      "title": "Discovering new photovoltaics using optimal transport theory",
+      "category": "E_Environmental",
+      "psst": 82,
+      "impact": "8.5/10",
+      "probability": 55,
+      "urgency": 50,
+      "novelty": 95
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-20260226-006",
+      "title": "Cultural Marker Erasure Across World Englishes in LLMs",
+      "category": "s",
+      "psst": 81,
+      "impact": "8.0/10",
+      "probability": 90,
+      "urgency": 70,
+      "novelty": 85
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-20260226-003",
+      "title": "Self-stabilized high-dimensional QKD on metropolitan free-space link",
+      "category": "T",
+      "psst": 80,
+      "impact": "8.5/10",
+      "probability": 65,
+      "urgency": 55,
+      "novelty": 90
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260226-027",
+      "title": "Off-The-Shelf Models Defeat Image Protection Schemes",
+      "category": "s",
+      "psst": 79,
+      "impact": "8.0/10",
+      "probability": 95,
+      "urgency": 80,
+      "novelty": 80
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-20260226-016",
+      "title": "SWE-Protege: Small LMs as Software Engineering Agents",
+      "category": "T",
+      "psst": 78,
+      "impact": "8.0/10",
+      "probability": 75,
+      "urgency": 70,
+      "novelty": 85
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-20260226-011",
+      "title": "Runaway electron generation in ITER mitigated disruptions",
+      "category": "T",
+      "psst": 77,
+      "impact": "8.0/10",
+      "probability": 60,
+      "urgency": 55,
+      "novelty": 80
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-20260226-009",
+      "title": "Governance of Intimacy: Policy Analysis of Romantic AI Platforms",
+      "category": "P",
+      "psst": 76,
+      "impact": "7.5/10",
+      "probability": 85,
+      "urgency": 75,
+      "novelty": 85
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-20260226-017",
+      "title": "Foundation Models for Full-Stack Transfer in Robotics",
+      "category": "T",
+      "psst": 75,
+      "impact": "8.0/10",
+      "probability": 65,
+      "urgency": 60,
+      "novelty": 80
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-20260226-029",
+      "title": "Plant disease spread via high-resolution human mobility networks",
+      "category": "E_Environmental",
+      "psst": 74,
+      "impact": "7.5/10",
+      "probability": 75,
+      "urgency": 65,
+      "novelty": 80
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-20260226-015",
+      "title": "BEDCrypt: Privacy-preserving genomic analytics with HE",
+      "category": "T",
+      "psst": 73,
+      "impact": "7.5/10",
+      "probability": 70,
+      "urgency": 60,
+      "novelty": 80
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-20260226-013",
+      "title": "Modelling the ISEW: Beyond GDP policy modeling",
+      "category": "E",
+      "psst": 72,
+      "impact": "7.5/10",
+      "probability": 65,
+      "urgency": 55,
+      "novelty": 75
+    }
+  ]
+}

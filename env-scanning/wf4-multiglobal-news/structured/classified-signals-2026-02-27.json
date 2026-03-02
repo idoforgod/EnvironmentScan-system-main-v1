@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "workflow": "WF4",
+    "scan_date": "2026-02-27",
+    "classification_timestamp": "2026-02-27T12:00:00+00:00",
+    "total_signals": 35,
+    "classification_method": "STEEPs + FSSF + Three Horizons + Tipping Point"
+  },
+  "steeps_distribution": {
+    "S": {"count": 2, "percentage": "5.7%", "signals": ["news-20260227-denmark-009", "news-20260227-eu-abort-019"]},
+    "T": {"count": 8, "percentage": "22.9%", "signals": ["news-20260227-china-005", "news-20260227-quantum-007", "news-20260227-samsung-010", "news-20260227-ai-agents-020", "news-20260227-world-models-021", "news-20260227-samsung-spy-023", "news-20260227-openai-kr-024", "news-20260227-physical-ai-033"]},
+    "E": {"count": 8, "percentage": "22.9%", "signals": ["news-20260227-trump-002", "news-20260227-argentina-013", "news-20260227-africa-014", "news-20260227-lobito-015", "news-20260227-eu-tariff-016", "news-20260227-nigeria-025", "news-20260227-latam-growth-029", "news-20260227-tariff-impact-035"]},
+    "E_Environmental": {"count": 4, "percentage": "11.4%", "signals": ["news-20260227-ocean-017", "news-20260227-saf-018", "news-20260227-eu-renew-028", "news-20260227-carbon-030"]},
+    "P": {"count": 12, "percentage": "34.3%", "signals": ["news-20260227-scotus-001", "news-20260227-iran-003", "news-20260227-nk-004", "news-20260227-japan-006", "news-20260227-ukraine-008", "news-20260227-pakistan-011", "news-20260227-us-laser-012", "news-20260227-china-pla-022", "news-20260227-somalia-026", "news-20260227-iceland-027", "news-20260227-gaza-031", "news-20260227-uganda-032"]},
+    "s": {"count": 1, "percentage": "2.9%", "signals": ["news-20260227-us-airforce-034"]}
+  },
+  "fssf_classification": {
+    "Weak Signal": {
+      "count": 5,
+      "percentage": "14.3%",
+      "signals": [
+        {"id": "news-20260227-world-models-021", "rationale": "World models emerging as new AI paradigm, not yet mainstream adoption"},
+        {"id": "news-20260227-iceland-027", "rationale": "Iceland EU referendum unexpected, could signal broader Nordic integration trend"},
+        {"id": "news-20260227-physical-ai-033", "rationale": "On-body AI inference normalizing slowly, early stage of ambient computing paradigm"},
+        {"id": "news-20260227-lobito-015", "rationale": "African corridor infrastructure competing with BRI, early-stage geopolitical shift"},
+        {"id": "news-20260227-somalia-026", "rationale": "East African border reopening signals emerging stability pattern"}
+      ]
+    },
+    "Emerging Issue": {
+      "count": 6,
+      "percentage": "17.1%",
+      "signals": [
+        {"id": "news-20260227-ai-agents-020", "rationale": "AI agent democratization gaining traction but not yet fully established"},
+        {"id": "news-20260227-samsung-spy-023", "rationale": "Semiconductor espionage pattern intensifying across Korea-China axis"},
+        {"id": "news-20260227-carbon-030", "rationale": "Carbon market harmonization advancing but not yet global standard"},
+        {"id": "news-20260227-eu-abort-019", "rationale": "EU citizens initiative on reproductive rights gaining momentum"},
+        {"id": "news-20260227-nigeria-025", "rationale": "African value-added commodity strategy emerging pattern"},
+        {"id": "news-20260227-us-airforce-034", "rationale": "Military espionage between US-China deepening with active-duty personnel"}
+      ]
+    },
+    "Trend": {
+      "count": 7,
+      "percentage": "20.0%",
+      "signals": [
+        {"id": "news-20260227-china-005", "rationale": "China AI industrial policy is a well-established trend accelerating"},
+        {"id": "news-20260227-samsung-010", "rationale": "Smartphone AI integration is a clear ongoing trend"},
+        {"id": "news-20260227-saf-018", "rationale": "Sustainable aviation fuel adoption is a growing trend"},
+        {"id": "news-20260227-eu-renew-028", "rationale": "EU renewable energy overtaking fossil fuels — structural trend confirmed"},
+        {"id": "news-20260227-latam-growth-029", "rationale": "Latin America moderate growth is a multi-year pattern"},
+        {"id": "news-20260227-africa-014", "rationale": "South Africa fiscal improvement is an ongoing recovery trend"},
+        {"id": "news-20260227-openai-kr-024", "rationale": "AI data center buildout in Korea follows global trend"}
+      ]
+    },
+    "Megatrend": {
+      "count": 2,
+      "percentage": "5.7%",
+      "signals": [
+        {"id": "news-20260227-quantum-007", "rationale": "Quantum computing reaching advantage milestone — multi-decade transformation"},
+        {"id": "news-20260227-ocean-017", "rationale": "Global ocean governance framework — part of planetary-scale sustainability megatrend"}
+      ]
+    },
+    "Driver": {
+      "count": 5,
+      "percentage": "14.3%",
+      "signals": [
+        {"id": "news-20260227-scotus-001", "rationale": "Supreme Court ruling fundamentally restructures US trade authority — key driver"},
+        {"id": "news-20260227-trump-002", "rationale": "New tariff mechanism drives global trade realignment"},
+        {"id": "news-20260227-eu-tariff-016", "rationale": "EU tariff escalation drives transatlantic economic restructuring"},
+        {"id": "news-20260227-tariff-impact-035", "rationale": "Consumer cost impact drives political pressure on trade policy"},
+        {"id": "news-20260227-japan-006", "rationale": "Japan's political shift drives regional security architecture changes"}
+      ]
+    },
+    "Wild Card": {
+      "count": 3,
+      "percentage": "8.6%",
+      "signals": [
+        {"id": "news-20260227-us-laser-012", "rationale": "Military laser shooting down domestic agency drone — unprecedented domestic DEW use"},
+        {"id": "news-20260227-pakistan-011", "rationale": "Pakistan-Taliban open conflict could destabilize Central Asia rapidly"},
+        {"id": "news-20260227-nk-004", "rationale": "50+ warhead nuclear arsenal declaration with ICBM capability and Seoul hostility"}
+      ]
+    },
+    "Discontinuity": {
+      "count": 3,
+      "percentage": "8.6%",
+      "signals": [
+        {"id": "news-20260227-iran-003", "rationale": "IAEA unable to verify Iran nuclear status post-war — verification regime breakdown"},
+        {"id": "news-20260227-china-pla-022", "rationale": "PLA purge + US military espionage arrest — dual discontinuity in mil-to-mil relations"},
+        {"id": "news-20260227-gaza-031", "rationale": "Ongoing Gaza conflict defies resolution, humanitarian crisis continues"}
+      ]
+    },
+    "Precursor Event": {
+      "count": 4,
+      "percentage": "11.4%",
+      "signals": [
+        {"id": "news-20260227-ukraine-008", "rationale": "EU accession demand with specific date is a precursor to enlargement acceleration"},
+        {"id": "news-20260227-argentina-013", "rationale": "Milei labor reform vote could trigger broader LatAm reform wave"},
+        {"id": "news-20260227-denmark-009", "rationale": "First EU country eliminating MTCT — precursor to broader public health success"},
+        {"id": "news-20260227-uganda-032", "rationale": "Museveni confirmation — precursor event for governance challenges in Africa"}
+      ]
+    }
+  },
+  "three_horizons": {
+    "H1": {
+      "timeframe": "0-2 years",
+      "count": 19,
+      "percentage": "54.3%",
+      "signals": ["news-20260227-scotus-001", "news-20260227-trump-002", "news-20260227-iran-003", "news-20260227-nk-004", "news-20260227-japan-006", "news-20260227-ukraine-008", "news-20260227-samsung-010", "news-20260227-pakistan-011", "news-20260227-us-laser-012", "news-20260227-argentina-013", "news-20260227-eu-tariff-016", "news-20260227-eu-abort-019", "news-20260227-china-pla-022", "news-20260227-samsung-spy-023", "news-20260227-openai-kr-024", "news-20260227-gaza-031", "news-20260227-uganda-032", "news-20260227-us-airforce-034", "news-20260227-tariff-impact-035"]
+    },
+    "H2": {
+      "timeframe": "2-7 years",
+      "count": 11,
+      "percentage": "31.4%",
+      "signals": ["news-20260227-china-005", "news-20260227-denmark-009", "news-20260227-africa-014", "news-20260227-lobito-015", "news-20260227-saf-018", "news-20260227-ai-agents-020", "news-20260227-nigeria-025", "news-20260227-somalia-026", "news-20260227-iceland-027", "news-20260227-latam-growth-029", "news-20260227-carbon-030"]
+    },
+    "H3": {
+      "timeframe": "7+ years",
+      "count": 5,
+      "percentage": "14.3%",
+      "signals": ["news-20260227-quantum-007", "news-20260227-ocean-017", "news-20260227-world-models-021", "news-20260227-eu-renew-028", "news-20260227-physical-ai-033"]
+    }
+  },
+  "tipping_point_detection": {
+    "RED": {
+      "count": 0,
+      "signals": []
+    },
+    "ORANGE": {
+      "count": 3,
+      "signals": [
+        {"id": "news-20260227-scotus-001", "indicator": "Constitutional trade authority restructuring", "evidence": "6-3 SCOTUS ruling + immediate executive workaround = institutional friction accelerating"},
+        {"id": "news-20260227-iran-003", "indicator": "Nuclear verification regime breakdown", "evidence": "IAEA cannot verify enrichment status at bombed facilities; negotiation demands escalate"},
+        {"id": "news-20260227-nk-004", "indicator": "Nuclear arsenal permanence declaration", "evidence": "50+ warheads + ICBM capability + rejection of denuclearization + Seoul as 'most hostile'"}
+      ]
+    },
+    "YELLOW": {
+      "count": 5,
+      "signals": [
+        {"id": "news-20260227-pakistan-011", "indicator": "State-to-non-state actor conflict escalation", "evidence": "Pakistan defense minister declares patience exhausted; open conflict emerges"},
+        {"id": "news-20260227-samsung-spy-023", "indicator": "Semiconductor technology leakage pattern", "evidence": "10 arrested, trillions Won in losses, Supreme Court raising criminal stakes"},
+        {"id": "news-20260227-trump-002", "indicator": "Trade policy legal framework instability", "evidence": "Rapid pivot from IEEPA to Section 122 — legal basis shifting beneath active tariffs"},
+        {"id": "news-20260227-china-pla-022", "indicator": "US-China military trust collapse", "evidence": "Dual events: PLA purge + US military espionage arrest in same news cycle"},
+        {"id": "news-20260227-us-laser-012", "indicator": "Domestic directed energy weapon deployment", "evidence": "Military laser used against civilian agency drone — unprecedented domestic use"}
+      ]
+    },
+    "GREEN": {
+      "count": 27,
+      "signals": "All remaining signals"
+    }
+  }
+}

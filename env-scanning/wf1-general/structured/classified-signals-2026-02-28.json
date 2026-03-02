@@ -1,0 +1,248 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf1-general",
+  "classification_method": "STEEPs_6_category",
+  "total_signals": 28,
+  "after_dedup": 25,
+  "duplicates_removed": 3,
+  "dedup_details": [
+    {"removed": "hn-20260228-004", "duplicate_of": "unnews-20260228-001", "reason": "Same topic: US-Israel Iran attack"},
+    {"removed": "websearch-20260228-002", "duplicate_of": "websearch-20260228-001", "reason": "Same source, overlapping content about market impact and AI restructuring"},
+    {"removed": "techcrunch-20260228-004", "duplicate_of": "techcrunch-20260228-003", "reason": "Same topic cluster: Pentagon AI contracts (Anthropic/OpenAI)"}
+  ],
+  "category_distribution": {
+    "S_Social": 3,
+    "T_Technological": 10,
+    "E_Economic": 4,
+    "E_Environmental": 1,
+    "P_Political": 5,
+    "s_spiritual": 2
+  },
+  "signals": [
+    {
+      "id": "techcrunch-20260228-001",
+      "title": "OpenAI raises $110B in one of the largest private funding rounds in history",
+      "category": "E_Economic",
+      "subcategories": ["T_Technological"],
+      "psst_score": 82,
+      "impact_level": "CRITICAL",
+      "priority_rank": 1
+    },
+    {
+      "id": "unnews-20260228-001",
+      "title": "US-Israel launch major attack on Iran — Supreme Leader reportedly killed",
+      "category": "P_Political",
+      "subcategories": ["E_Economic", "E_Environmental"],
+      "psst_score": 95,
+      "impact_level": "CRITICAL",
+      "priority_rank": 2
+    },
+    {
+      "id": "techcrunch-20260228-002",
+      "title": "ChatGPT reaches 900M weekly active users",
+      "category": "T_Technological",
+      "subcategories": ["S_Social", "E_Economic"],
+      "psst_score": 85,
+      "impact_level": "CRITICAL",
+      "priority_rank": 3
+    },
+    {
+      "id": "techcrunch-20260228-003",
+      "title": "Pentagon designates Anthropic as supply-chain risk — first-ever for US company",
+      "category": "P_Political",
+      "subcategories": ["T_Technological", "s_spiritual"],
+      "psst_score": 88,
+      "impact_level": "CRITICAL",
+      "priority_rank": 4
+    },
+    {
+      "id": "techcrunch-20260228-005",
+      "title": "China's humanoid robot industry dominates with 87-90% global market share",
+      "category": "T_Technological",
+      "subcategories": ["E_Economic", "P_Political"],
+      "psst_score": 80,
+      "impact_level": "HIGH",
+      "priority_rank": 5
+    },
+    {
+      "id": "techcrunch-20260228-007",
+      "title": "$3 trillion AI data center build-out reshapes infrastructure investment",
+      "category": "E_Economic",
+      "subcategories": ["T_Technological", "E_Environmental"],
+      "psst_score": 78,
+      "impact_level": "HIGH",
+      "priority_rank": 6
+    },
+    {
+      "id": "science-20260228-002",
+      "title": "Single-dose sleeping sickness drug gets EMA approval, raising eradication hopes",
+      "category": "T_Technological",
+      "subcategories": ["S_Social"],
+      "psst_score": 82,
+      "impact_level": "HIGH",
+      "priority_rank": 7
+    },
+    {
+      "id": "websearch-20260228-001",
+      "title": "Global markets brace for extreme volatility from Iran crisis — oil up 5-10%",
+      "category": "E_Economic",
+      "subcategories": ["P_Political"],
+      "psst_score": 85,
+      "impact_level": "HIGH",
+      "priority_rank": 8
+    },
+    {
+      "id": "science-20260228-001",
+      "title": "How will we know if AI is smart enough to do science?",
+      "category": "T_Technological",
+      "subcategories": ["s_spiritual"],
+      "psst_score": 75,
+      "impact_level": "HIGH",
+      "priority_rank": 9
+    },
+    {
+      "id": "techcrunch-20260228-006",
+      "title": "AI music generator Suno hits 2M subscribers and $300M ARR",
+      "category": "T_Technological",
+      "subcategories": ["E_Economic", "S_Social"],
+      "psst_score": 72,
+      "impact_level": "MEDIUM",
+      "priority_rank": 10
+    },
+    {
+      "id": "nature-20260228-001",
+      "title": "White House stalls release of approved US science budgets",
+      "category": "P_Political",
+      "subcategories": ["T_Technological"],
+      "psst_score": 78,
+      "impact_level": "HIGH",
+      "priority_rank": 11
+    },
+    {
+      "id": "carbonbrief-20260228-001",
+      "title": "Modi-Lula rare-earth pact signals Global South resource diplomacy",
+      "category": "E_Environmental",
+      "subcategories": ["P_Political", "E_Economic"],
+      "psst_score": 73,
+      "impact_level": "MEDIUM",
+      "priority_rank": 12
+    },
+    {
+      "id": "techcrunch-20260228-008",
+      "title": "India blocks developer platform Supabase — tech sovereignty expansion",
+      "category": "P_Political",
+      "subcategories": ["T_Technological"],
+      "psst_score": 68,
+      "impact_level": "MEDIUM",
+      "priority_rank": 13
+    },
+    {
+      "id": "unnews-20260228-002",
+      "title": "UN unveils bold overhaul of humanitarian system (UN80 Initiative)",
+      "category": "P_Political",
+      "subcategories": ["S_Social"],
+      "psst_score": 70,
+      "impact_level": "MEDIUM",
+      "priority_rank": 14
+    },
+    {
+      "id": "mittr-20260228-001",
+      "title": "AI rewires how professional Go players think — human-AI cognitive augmentation",
+      "category": "T_Technological",
+      "subcategories": ["s_spiritual", "S_Social"],
+      "psst_score": 72,
+      "impact_level": "MEDIUM",
+      "priority_rank": 15
+    },
+    {
+      "id": "who-20260228-001",
+      "title": "WHO releases influenza vaccine composition for 2026-2027 season",
+      "category": "S_Social",
+      "subcategories": ["T_Technological"],
+      "psst_score": 68,
+      "impact_level": "MEDIUM",
+      "priority_rank": 16
+    },
+    {
+      "id": "unnews-20260228-003",
+      "title": "UN Secretary-General criticizes international failure on safe migration",
+      "category": "S_Social",
+      "subcategories": ["P_Political"],
+      "psst_score": 65,
+      "impact_level": "MEDIUM",
+      "priority_rank": 17
+    },
+    {
+      "id": "science-20260228-003",
+      "title": "Suspended SBIR/STTR programs derail gene therapy and medical device development",
+      "category": "P_Political",
+      "subcategories": ["T_Technological"],
+      "psst_score": 72,
+      "impact_level": "MEDIUM",
+      "priority_rank": 18
+    },
+    {
+      "id": "techcrunch-20260228-009",
+      "title": "Brain-monitoring technology receives $54M investment",
+      "category": "T_Technological",
+      "subcategories": ["S_Social"],
+      "psst_score": 65,
+      "impact_level": "MEDIUM",
+      "priority_rank": 19
+    },
+    {
+      "id": "hn-20260228-001",
+      "title": "AI industry critique: 'The whole thing was a scam' (Gary Marcus)",
+      "category": "s_spiritual",
+      "subcategories": ["T_Technological", "E_Economic"],
+      "psst_score": 60,
+      "impact_level": "MEDIUM",
+      "priority_rank": 20
+    },
+    {
+      "id": "ieee-20260228-001",
+      "title": "AR technology expanding into classrooms and hospitals",
+      "category": "T_Technological",
+      "subcategories": ["S_Social"],
+      "psst_score": 62,
+      "impact_level": "LOW",
+      "priority_rank": 21
+    },
+    {
+      "id": "aeon-20260228-001",
+      "title": "Psychopathy concept debunked — 'zombie idea' in psychology",
+      "category": "s_spiritual",
+      "subcategories": ["S_Social"],
+      "psst_score": 58,
+      "impact_level": "LOW",
+      "priority_rank": 22
+    },
+    {
+      "id": "nature-20260228-002",
+      "title": "Selfish gene investigation — unusual sex ratio in Utah family",
+      "category": "T_Technological",
+      "subcategories": [],
+      "psst_score": 60,
+      "impact_level": "LOW",
+      "priority_rank": 23
+    },
+    {
+      "id": "hn-20260228-002",
+      "title": "Historical analysis: Recurring attempts to eliminate programmers",
+      "category": "T_Technological",
+      "subcategories": ["s_spiritual"],
+      "psst_score": 55,
+      "impact_level": "LOW",
+      "priority_rank": 24
+    },
+    {
+      "id": "hn-20260228-003",
+      "title": "98% reduction in MCP output for AI context window optimization",
+      "category": "T_Technological",
+      "subcategories": [],
+      "psst_score": 58,
+      "impact_level": "LOW",
+      "priority_rank": 25
+    }
+  ]
+}

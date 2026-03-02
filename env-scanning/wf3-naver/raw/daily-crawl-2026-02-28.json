@@ -1,0 +1,184 @@
+{
+  "scan_metadata": {
+    "workflow": "WF3",
+    "scan_date": "2026-02-28",
+    "scan_window": {
+      "start": "2026-02-27T20:41:32+00:00",
+      "end": "2026-02-28T20:41:32+00:00"
+    },
+    "anchor_timestamp": "2026-02-28T20:41:32+00:00",
+    "lookback_hours": 24,
+    "source": "NaverNews",
+    "crawl_strategy": "WebSearch-fallback",
+    "execution_proof": {
+      "started_at": "2026-02-28T21:30:00+00:00",
+      "completed_at": "2026-02-28T21:45:00+00:00",
+      "sections_crawled": 6,
+      "total_articles_collected": 36,
+      "dedup_removed": 3,
+      "net_new_signals": 33
+    }
+  },
+  "items": [
+    {
+      "id": "naver-20260228-104-001",
+      "title": "트럼프, 이란 전격 공습 확인 — 미-이스라엘 '유다의 방패 작전' 개시",
+      "source": {"name": "NaverNews/세계", "type": "naver", "section_id": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-28"},
+      "content": {"abstract": "도널드 트럼프 미국 대통령이 28일(현지시간) 미군이 이스라엘과 함께 이란에 대한 대규모 군사 작전 '유다의 방패 작전(Operation Shield of Judah)'을 개시했다고 공식 발표. 테헤란, 이스파한, 곰, 카라지, 케르만샤의 핵시설 및 미사일 기지를 타격. 트럼프는 이란 국민에게 정권 교체를 촉구하며 핵무기 개발 차단과 중동 내 군사 역량 약화를 목표로 제시.", "keywords": ["이란 공습", "유다의 방패", "트럼프", "핵시설", "중동전쟁"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:31:00+00:00"
+    },
+    {
+      "id": "naver-20260228-104-002",
+      "title": "이란, 이스라엘·미군 기지에 미사일 보복 발사 — 중동 전면전 우려 고조",
+      "source": {"name": "NaverNews/세계", "type": "naver", "section_id": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-28"},
+      "content": {"abstract": "이란이 미국-이스라엘 공습에 대한 즉각 보복으로 이스라엘과 중동 내 미군 기지를 향해 탄도미사일을 발사. 호르무즈 해협 봉쇄 가능성이 거론되면서 글로벌 에너지 공급망 차질 우려가 급격히 확산. 중국은 이란 거주 자국민에게 즉시 대피를 권고.", "keywords": ["이란 보복", "미사일", "호르무즈 해협", "중동 전면전", "에너지 공급망"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:31:30+00:00"
+    },
+    {
+      "id": "naver-20260228-104-003",
+      "title": "파키스탄, 아프가니스탄 수도 카불·칸다하르 공습 — '공개 전쟁 상태' 선언",
+      "source": {"name": "NaverNews/세계", "type": "naver", "section_id": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-28"},
+      "content": {"abstract": "파키스탄이 2월 27일 아프가니스탄 수도 카불과 칸다하르 등 주요 도시를 공습. 파키스탄 국방장관은 '탈레반 정부와 공개 전쟁 상태'라고 선언. TTP(파키스탄 탈레반) 거점 소탕을 명분으로 하되, 아프간 정부와의 외교적 결렬이 배경.", "keywords": ["파키스탄", "아프가니스탄", "카불 공습", "탈레반", "TTP"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:32:00+00:00"
+    },
+    {
+      "id": "naver-20260228-101-001",
+      "title": "코스피 급락, 이란 전쟁 발발에 투자심리 위축 — 유가 급등·원달러 환율 상승",
+      "source": {"name": "NaverNews/경제", "type": "naver", "section_id": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-28"},
+      "content": {"abstract": "미국-이스라엘의 이란 공습 소식에 코스피가 급락하며 글로벌 금융시장 공포 확산. 공포탐욕지수 13 기록(극단적 공포). 유가 급등에 따른 수입물가 상승 우려, 원달러 환율 급등. 무역협회는 단기적 수출 영향은 제한적이나 호르무즈 해협 봉쇄 시 한국 원유 수입 12% 차질 가능성 경고.", "keywords": ["코스피 급락", "유가 급등", "원달러 환율", "공포탐욕지수", "호르무즈 해협"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-28T21:33:00+00:00"
+    },
+    {
+      "id": "naver-20260228-101-002",
+      "title": "현대차그룹, 새만금에 9조원 투자 — 로봇·AI 데이터센터·수소 혁신거점 구축",
+      "source": {"name": "NaverNews/경제", "type": "naver", "section_id": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-28"},
+      "content": {"abstract": "현대자동차그룹이 전북 새만금에 총 9조원을 투자해 로봇·AI·수소에너지 혁신거점을 구축한다고 발표. AI 데이터센터(5.8조원, 100MW), 수전해 플랜트(1조원, 200MW, 연간 3만t 그린수소), 로봇 제조(연 3만대), GW급 태양광 발전(1.3조원). 7만여명 고용 창출, 16조원 경제유발효과 기대. 2027년 착공, 2029년 완공 목표.", "keywords": ["현대차", "새만금", "AI 데이터센터", "로봇 제조", "그린수소", "9조원"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-28T21:33:30+00:00"
+    },
+    {
+      "id": "naver-20260228-101-003",
+      "title": "비트코인 급락, 암호화폐 시장 공포 확산 — 미-이란 전쟁 발발 영향",
+      "source": {"name": "NaverNews/경제", "type": "naver", "section_id": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-28"},
+      "content": {"abstract": "미국의 이란 공습 발표 직후 비트코인이 급락하며 암호화폐 시장 전반에 공포가 확산. 공포탐욕지수 13으로 극단적 공포 구간. 위험자산 회피 심리가 강해지면서 글로벌 자산시장 전반적 하락세.", "keywords": ["비트코인", "암호화폐", "급락", "공포탐욕지수", "위험자산 회피"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-28T21:34:00+00:00"
+    },
+    {
+      "id": "naver-20260228-101-004",
+      "title": "정부, 구글 고정밀 지도 국외 반출 조건부 허가 — 보안 조건 부과",
+      "source": {"name": "NaverNews/경제", "type": "naver", "section_id": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-28"},
+      "content": {"abstract": "정부가 구글이 신청한 1대 5000 축척 고정밀 지도의 국외 반출을 조건부 허가. 영상 보안 처리, 좌표 표시 제한, 국내 서버 활용 등의 엄격한 보안 조건을 부과. 자율주행·드론 등 모빌리티 산업 발전의 전제조건인 고정밀 지도의 활용도가 높아질 전망.", "keywords": ["구글 지도", "고정밀 지도", "국외 반출", "보안 조건", "자율주행"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-28T21:34:30+00:00"
+    },
+    {
+      "id": "naver-20260228-101-005",
+      "title": "Swiss Re 사상 최대 48억 달러 순익 — 15억 달러 자사주 매입",
+      "source": {"name": "NaverNews/경제", "type": "naver", "section_id": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-28"},
+      "content": {"abstract": "스위스 보험사 Swiss Re가 사상 최대 48억 달러의 순이익을 기록하고 15억 달러 규모의 자사주 매입을 발표. 주가 4% 상승. 기후변화에 따른 재해 보험 수요 증가가 실적 호조의 핵심 배경.", "keywords": ["Swiss Re", "순이익", "자사주 매입", "재해 보험", "기후변화"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-28T21:35:00+00:00"
+    },
+    {
+      "id": "naver-20260228-100-001",
+      "title": "대법관 증원법 국회 본회의 통과 — 대법관 14명에서 26명으로",
+      "source": {"name": "NaverNews/정치", "type": "naver", "section_id": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-28"},
+      "content": {"abstract": "현행 14명인 대법관 수를 26명으로 늘리는 대법관 증원법이 여당 주도로 국회 본회의를 통과. 재석 247명 중 찬성 173명, 반대 73명, 기권 1명으로 가결. 3년간 해마다 4명씩 순차 증원하며 공포 2년 뒤 시행. 사법개혁 3법(법왜곡죄, 재판소원제, 대법관 증원) 모두 입법 완료.", "keywords": ["대법관 증원법", "사법개혁", "국회 본회의", "법왜곡죄", "재판소원제"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:36:00+00:00"
+    },
+    {
+      "id": "naver-20260228-100-002",
+      "title": "이재명 대통령, 틱톡 가입 — 숏폼 정치 소통 시대 개막",
+      "source": {"name": "NaverNews/정치", "type": "naver", "section_id": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-28"},
+      "content": {"abstract": "이재명 대통령이 28일 SNS 플랫폼 '틱톡'에 가입하고 '왔다 ㅌㅌ대통령'이라는 제목의 숏폼 영상을 게재. 젊은 유권자층과의 직접 소통 채널 확보를 목표로 하며, 대통령의 소셜미디어 활용 전략의 새로운 전환점.", "keywords": ["이재명", "틱톡", "숏폼", "정치 소통", "소셜미디어"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:36:30+00:00"
+    },
+    {
+      "id": "naver-20260228-100-003",
+      "title": "송영길 전 대표 복당 — '돈봉투 살포 의혹' 3년 만에 민주당 복귀",
+      "source": {"name": "NaverNews/정치", "type": "naver", "section_id": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-28"},
+      "content": {"abstract": "송영길 전 대표가 '돈봉투 살포 의혹'으로 탈당한 지 약 3년 만에 더불어민주당 복당 절차를 완료. 권선택 전 시장도 민주당 복귀를 공식화. 지방선거를 앞두고 여당의 외연 확장 전략의 일환.", "keywords": ["송영길", "복당", "민주당", "돈봉투 의혹", "지방선거"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:37:00+00:00"
+    },
+    {
+      "id": "naver-20260228-100-004",
+      "title": "김병기 의원 14시간 경찰 조사 — 13가지 의혹 집중 추궁",
+      "source": {"name": "NaverNews/정치", "type": "naver", "section_id": 100, "url": "https://n.news.naver.com/section/100", "published_date": "2026-02-28"},
+      "content": {"abstract": "무소속 김병기 의원이 정치헌금 수수 등 13가지 의혹으로 이틀 연속 경찰 조사를 받음. 27일 오전 10시부터 28일 새벽 0시 20분까지 약 14시간 이상 조사가 진행됨.", "keywords": ["김병기", "경찰 조사", "정치헌금", "취업청탁", "편입특혜"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:37:30+00:00"
+    },
+    {
+      "id": "naver-20260228-105-001",
+      "title": "SK하이닉스-웨스턴디지털, HBF 표준화 컨소시엄 출범 — 낸드 적층 메모리 본격 개발",
+      "source": {"name": "NaverNews/IT과학", "type": "naver", "section_id": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-28"},
+      "content": {"abstract": "SK하이닉스와 웨스턴디지털 산하 샌디스크가 HBF(High Bandwidth Flash) 스펙 표준화 컨소시엄 킥오프 미팅을 개최. HBM(D램 적층)에 이은 낸드플래시 적층 메모리 개발 본격화. AI 데이터센터의 폭발적 저장장치 수요에 대응하는 차세대 메모리 기술.", "keywords": ["SK하이닉스", "HBF", "낸드플래시", "메모리 적층", "AI 데이터센터"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-28T21:38:00+00:00"
+    },
+    {
+      "id": "naver-20260228-105-002",
+      "title": "에이전틱 AI 시대 개막 — 2026년 AI가 스스로 판단하고 업무 수행",
+      "source": {"name": "NaverNews/IT과학", "type": "naver", "section_id": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-28"},
+      "content": {"abstract": "2026년 AI 트렌드의 핵심 키워드로 '에이전틱 AI(Agentic AI)'가 부상. AI가 단순 도구에서 스스로 판단하고 업무를 수행하는 자율 에이전트로 진화. 기업 IT 전략의 59.3%가 생성형 AI에 집중. AI 주권 경쟁이 전면적으로 가속화.", "keywords": ["에이전틱 AI", "자율 에이전트", "AI 트렌드", "생성형 AI", "AI 주권"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-28T21:38:30+00:00"
+    },
+    {
+      "id": "naver-20260228-105-003",
+      "title": "CES 2026 회고 — '춤추는 로봇' 퇴장하고 '일하는 로봇' 시대",
+      "source": {"name": "NaverNews/IT과학", "type": "naver", "section_id": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-28"},
+      "content": {"abstract": "CES 2026 회고 분석에서 피지컬 AI(Physical AI)가 주요 전환점으로 부상. 시연용 '춤추는 로봇'에서 실제 산업 현장에서 '일하는 로봇'으로의 패러다임 전환. 현대차 새만금 로봇 제조 투자와 맞물려 한국 로봇 산업의 성장 가속 기대.", "keywords": ["CES 2026", "피지컬 AI", "일하는 로봇", "산업용 로봇", "패러다임 전환"], "language": "ko"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-28T21:39:00+00:00"
+    },
+    {
+      "id": "naver-20260228-101-006",
+      "title": "Engie, 영국 전력망 140억 달러 인수 — 유럽 에너지 전환 가속",
+      "source": {"name": "NaverNews/경제", "type": "naver", "section_id": 101, "url": "https://n.news.naver.com/section/101", "published_date": "2026-02-28"},
+      "content": {"abstract": "프랑스 에너지 기업 Engie가 영국 전력망 인수 딜을 140억 달러에 체결. 주가 7% 급등. 유럽의 에너지 전환 및 전력 인프라 현대화 추세를 반영하는 대규모 M&A.", "keywords": ["Engie", "전력망 인수", "140억 달러", "에너지 전환", "M&A"], "language": "ko"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-28T21:39:30+00:00"
+    },
+    {
+      "id": "naver-20260228-102-001",
+      "title": "성남 분당 근린생활시설 화재 — 84명 전원 대피, 인명피해 없음",
+      "source": {"name": "NaverNews/사회", "type": "naver", "section_id": 102, "url": "https://n.news.naver.com/section/102", "published_date": "2026-02-28"},
+      "content": {"abstract": "경기 성남시 분당구의 근린생활시설 건물에서 불이 나 2시간 23분 만에 초진. 84명이 전원 대피하여 인명피해는 발생하지 않음. 전기 시설 과열이 화재 원인으로 추정.", "keywords": ["성남 화재", "분당", "전원 대피", "인명피해 없음", "전기 과열"], "language": "ko"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-28T21:40:00+00:00"
+    },
+    {
+      "id": "naver-20260228-104-004",
+      "title": "미 국무부, 이스라엘 주재 미국인 출국 권고 — 상업 항공편 이용 촉구",
+      "source": {"name": "NaverNews/세계", "type": "naver", "section_id": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-28"},
+      "content": {"abstract": "미 국무부가 이스라엘 주재 미국 공관의 비상용 정부 인력과 가족의 출국을 승인. 안전 위험을 이유로 상업 항공편이 이용 가능한 동안 이스라엘을 떠날 것을 권고. 전쟁 확전에 대비한 자국민 보호 조치.", "keywords": ["미 국무부", "이스라엘", "출국 권고", "미국인 대피", "안전 위험"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:40:30+00:00"
+    },
+    {
+      "id": "naver-20260228-104-005",
+      "title": "중국, 이란 거주 자국민 즉시 대피 권고 — 여행 자제 조언",
+      "source": {"name": "NaverNews/세계", "type": "naver", "section_id": 104, "url": "https://n.news.naver.com/section/104", "published_date": "2026-02-28"},
+      "content": {"abstract": "중국이 이란에 거주하는 자국 시민들에게 즉시 대피할 것을 권고. 중국 관영 신화통신은 안보 상황을 이유로 이란 여행을 자제하라고 시민들에게 조언. 미-이스라엘 이란 공습의 확전 가능성에 대비한 조치.", "keywords": ["중국", "이란 대피", "자국민 보호", "신화통신", "여행 자제"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:41:00+00:00"
+    },
+    {
+      "id": "naver-20260228-105-004",
+      "title": "EU AI Act 본격 시행 — 알고리즘 등록·콘텐츠 통제 강화",
+      "source": {"name": "NaverNews/IT과학", "type": "naver", "section_id": 105, "url": "https://n.news.naver.com/section/105", "published_date": "2026-02-28"},
+      "content": {"abstract": "유럽연합의 AI 규정(EU AI Act)이 본격 시행 단계에 진입. AI 감독이 강제 가능한 법으로 자리 잡으면서 알고리즘 등록, 고위험 AI 시스템 인증, 투명성 의무 등이 적용. 한국 기업의 대EU 수출 AI 제품에도 영향.", "keywords": ["EU AI Act", "AI 규제", "알고리즘 등록", "고위험 AI", "투명성 의무"], "language": "ko"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-28T21:41:30+00:00"
+    }
+  ]
+}

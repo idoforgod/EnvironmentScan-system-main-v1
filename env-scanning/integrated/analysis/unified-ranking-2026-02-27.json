@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-27",
+    "anchor_time": "2026-02-27T18:34:45+00:00",
+    "scan_window": {
+      "start": "2026-02-26T18:34:45+00:00",
+      "end": "2026-02-27T18:34:45+00:00"
+    },
+    "ranking_method": "unified_pSST_normalized",
+    "normalization": {
+      "wf1": "0-100 scale (no change)",
+      "wf2": "0-100 scale (no change)",
+      "wf3": "0-10 scale (multiplied by 10)",
+      "wf4": "0-10 scale (multiplied by 10)"
+    },
+    "cross_workflow_dedup": {
+      "merged_signals": [
+        {
+          "merged_title": "US Supreme Court IEEPA Tariff Ruling / Section 122 Workaround",
+          "sources": ["WF3:naver-20260227-104-001", "WF4:news-20260227-scotus-001", "WF4:news-20260227-trump-002"],
+          "strategy": "highest_score_retained",
+          "final_score": 94
+        },
+        {
+          "merged_title": "North Korea Nuclear Threat Escalation — Kim Jong Un Warns of 'Complete Destruction'",
+          "sources": ["WF3:naver-20260227-104-002", "WF4:news-20260227-nk-004"],
+          "strategy": "highest_score_retained_with_boost",
+          "final_score": 91
+        }
+      ],
+      "total_raw_signals": 128,
+      "after_dedup": 124,
+      "duplicates_removed": 4
+    },
+    "workflow_contributions": {
+      "wf1": {"total": 35, "in_top20": 6},
+      "wf2": {"total": 35, "in_top20": 5},
+      "wf3": {"total": 28, "in_top20": 5},
+      "wf4": {"total": 30, "in_top20": 4}
+    },
+    "generated_at": "2026-02-27T19:30:00+00:00"
+  },
+  "unified_ranking": [
+    {
+      "integrated_rank": 1,
+      "title": "US Supreme Court IEEPA Tariff Ruling / Section 122 Workaround",
+      "normalized_psst": 94,
+      "origin": "[WF3][WF4]",
+      "original_scores": {"wf3": 9.4, "wf4": 9.4},
+      "steeps": "P",
+      "fssf": "Discontinuity",
+      "horizon": "H1",
+      "signal_ids": ["naver-20260227-104-001", "news-20260227-scotus-001", "news-20260227-trump-002"]
+    },
+    {
+      "integrated_rank": 2,
+      "title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months — Record Collapse",
+      "normalized_psst": 92,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 92},
+      "steeps": "E_Environmental",
+      "signal_ids": ["nature-20260227-001"]
+    },
+    {
+      "integrated_rank": 3,
+      "title": "Korea-UAE $65 Billion Defense-Nuclear-AI Mega-Deal Finalized",
+      "normalized_psst": 92,
+      "origin": "[WF3]",
+      "original_scores": {"wf3": 9.2},
+      "steeps": "E",
+      "fssf": "Discontinuity",
+      "horizon": "H1",
+      "signal_ids": ["naver-20260227-101-002"]
+    },
+    {
+      "integrated_rank": 4,
+      "title": "North Korea Nuclear Threat Escalation — Kim Jong Un Warns of 'Complete Destruction'",
+      "normalized_psst": 91,
+      "origin": "[WF3][WF4]",
+      "original_scores": {"wf3": 9.1, "wf4": 8.8},
+      "steeps": "P",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "signal_ids": ["naver-20260227-104-002", "news-20260227-nk-004"]
+    },
+    {
+      "integrated_rank": 5,
+      "title": "China's CO2 Emissions 'Flat or Falling' as Clean Energy Surpasses Coal Capacity",
+      "normalized_psst": 90,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 90},
+      "steeps": "E_Environmental",
+      "signal_ids": ["carbon-20260227-001"]
+    },
+    {
+      "integrated_rank": 6,
+      "title": "IAEA Cannot Verify Iran Nuclear Suspension — Enrichment Status Unknown",
+      "normalized_psst": 90,
+      "origin": "[WF4]",
+      "original_scores": {"wf4": 9.0},
+      "steeps": "P",
+      "fssf": "Discontinuity",
+      "horizon": "H1",
+      "signal_ids": ["news-20260227-iran-003"]
+    },
+    {
+      "integrated_rank": 7,
+      "title": "Yoon Insurrection Life Sentence — Appeals Trial Begins",
+      "normalized_psst": 90,
+      "origin": "[WF3]",
+      "original_scores": {"wf3": 9.0},
+      "steeps": "P",
+      "fssf": "Precursor Event",
+      "horizon": "H1",
+      "signal_ids": ["naver-20260227-100-001"]
+    },
+    {
+      "integrated_rank": 8,
+      "title": "i-SMR Standard Design Approval Application — Korean SMR Commercialization",
+      "normalized_psst": 89,
+      "origin": "[WF3]",
+      "original_scores": {"wf3": 8.9},
+      "steeps": "T",
+      "fssf": "Discontinuity",
+      "horizon": "H2",
+      "signal_ids": ["naver-20260227-105-001"]
+    },
+    {
+      "integrated_rank": 9,
+      "title": "Training Agents to Self-Report Misbehavior",
+      "normalized_psst": 88,
+      "origin": "[WF2]",
+      "original_scores": {"wf2": 88},
+      "steeps": "s",
+      "signal_ids": ["arxiv-20260227-003"]
+    },
+    {
+      "integrated_rank": 10,
+      "title": "NRC Proposes Regulatory Framework for Fusion Machines",
+      "normalized_psst": 88,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 88},
+      "steeps": "P",
+      "signal_ids": ["fed-20260227-001"]
+    },
+    {
+      "integrated_rank": 11,
+      "title": "SKT 500B AI Model 'A.X K1' Receives Global Acclaim",
+      "normalized_psst": 88,
+      "origin": "[WF3]",
+      "original_scores": {"wf3": 8.8},
+      "steeps": "T",
+      "fssf": "Discontinuity",
+      "horizon": "H2",
+      "signal_ids": ["naver-20260227-105-003"]
+    },
+    {
+      "integrated_rank": 12,
+      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement",
+      "normalized_psst": 87,
+      "origin": "[WF2]",
+      "original_scores": {"wf2": 87},
+      "steeps": "T",
+      "signal_ids": ["arxiv-20260227-001"]
+    },
+    {
+      "integrated_rank": 13,
+      "title": "Coupang Q4 Operating Profit Down 97% — 33.7M Data Breach Aftermath",
+      "normalized_psst": 87,
+      "origin": "[WF3]",
+      "original_scores": {"wf3": 8.7},
+      "steeps": "E",
+      "fssf": "Driver",
+      "horizon": "H1",
+      "signal_ids": ["naver-20260227-101-003"]
+    },
+    {
+      "integrated_rank": 14,
+      "title": "EU Climate Advisory Board Urges Countries to Prepare for 3C Warming",
+      "normalized_psst": 86,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 86},
+      "steeps": "E_Environmental",
+      "signal_ids": ["carbon-20260227-003"]
+    },
+    {
+      "integrated_rank": 15,
+      "title": "First Deuterium-Tritium Fusion Fuel Cycle Demonstration Planned for Late 2026",
+      "normalized_psst": 86,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 86},
+      "steeps": "T",
+      "signal_ids": ["ieee-20260227-002"]
+    },
+    {
+      "integrated_rank": 16,
+      "title": "China Positions AI as Core of 15th Five-Year Plan",
+      "normalized_psst": 85,
+      "origin": "[WF4]",
+      "original_scores": {"wf4": 8.5},
+      "steeps": "T",
+      "fssf": "Trend",
+      "horizon": "H2",
+      "signal_ids": ["news-20260227-china-005"]
+    },
+    {
+      "integrated_rank": 17,
+      "title": "Memory-Dominated Quantum Criticality as a Universal Route to High-Temperature Superconductivity",
+      "normalized_psst": 85,
+      "origin": "[WF2]",
+      "original_scores": {"wf2": 85},
+      "steeps": "T",
+      "signal_ids": ["arxiv-20260227-008"]
+    },
+    {
+      "integrated_rank": 18,
+      "title": "In Vivo CAR-T Therapy Eliminates Ex Vivo Steps — Scalable Cancer Treatment",
+      "normalized_psst": 85,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 85},
+      "steeps": "T",
+      "signal_ids": ["pubmed-20260227-001"]
+    },
+    {
+      "integrated_rank": 19,
+      "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+      "normalized_psst": 84,
+      "origin": "[WF2]",
+      "original_scores": {"wf2": 84},
+      "steeps": "s",
+      "signal_ids": ["arxiv-20260227-033"]
+    },
+    {
+      "integrated_rank": 20,
+      "title": "AI Governance Shifts from Principles to Enforceable Technical Requirements",
+      "normalized_psst": 84,
+      "origin": "[WF1]",
+      "original_scores": {"wf1": 84},
+      "steeps": "s",
+      "signal_ids": ["ethics-20260227-001"]
+    }
+  ]
+}

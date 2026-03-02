@@ -1,0 +1,33 @@
+{
+  "scan_date": "2026-02-27",
+  "workflow": "wf1-general",
+  "total_assessed": 35,
+  "cross_impact_pairs": 8,
+  "cross_impact_matrix": [
+    {"signal_a": "carbon-20260227-001", "signal_b": "fed-20260227-001", "relationship": "reinforcing", "strength": "strong", "description": "China's clean energy surge creates competitive pressure that reinforces US fusion regulatory urgency"},
+    {"signal_a": "tech-20260227-001", "signal_b": "ieee-20260227-003", "relationship": "reinforcing", "strength": "strong", "description": "Meta-Google TPU deal drives data center infrastructure innovation including RF-over-fiber"},
+    {"signal_a": "ethics-20260227-001", "signal_b": "tech-20260227-002", "relationship": "reinforcing", "strength": "moderate", "description": "EU AI Act enforcement drives US bipartisan AI standards proposal"},
+    {"signal_a": "nature-20260227-001", "signal_b": "carbon-20260227-003", "relationship": "reinforcing", "strength": "strong", "description": "Antarctic glacier collapse validates EU 3C warming preparation warning"},
+    {"signal_a": "brookings-20260227-001", "signal_b": "fed-20260227-002", "relationship": "opposing", "strength": "moderate", "description": "Pro-worker AI agenda tension with H-1B weighted selection favoring high-wage workers"},
+    {"signal_a": "pubmed-20260227-001", "signal_b": "pubmed-20260227-002", "relationship": "reinforcing", "strength": "moderate", "description": "Both represent pharmaceutical paradigm shifts reducing treatment barriers"},
+    {"signal_a": "imf-20260227-001", "signal_b": "oecd-20260227-001", "relationship": "divergent", "strength": "moderate", "description": "IMF optimism (3.3%) vs OECD caution (2.9%) on 2026 growth reflects methodology differences"},
+    {"signal_a": "un-20260227-001", "signal_b": "carbon-20260227-002", "relationship": "reinforcing", "strength": "strong", "description": "Paris Agreement carbon credits operationalize policies proven effective by carbon reduction study"}
+  ],
+  "impact_scores": {
+    "tech-20260227-001": {"impact": 85, "probability": 95, "urgency": 90, "novelty": 70},
+    "nature-20260227-001": {"impact": 95, "probability": 100, "urgency": 95, "novelty": 85},
+    "carbon-20260227-001": {"impact": 95, "probability": 90, "urgency": 85, "novelty": 90},
+    "fed-20260227-001": {"impact": 90, "probability": 80, "urgency": 75, "novelty": 95},
+    "un-20260227-001": {"impact": 80, "probability": 100, "urgency": 70, "novelty": 80},
+    "ethics-20260227-001": {"impact": 85, "probability": 95, "urgency": 90, "novelty": 75},
+    "ieee-20260227-001": {"impact": 85, "probability": 70, "urgency": 80, "novelty": 90},
+    "ieee-20260227-002": {"impact": 90, "probability": 75, "urgency": 70, "novelty": 95},
+    "pubmed-20260227-001": {"impact": 90, "probability": 80, "urgency": 75, "novelty": 95},
+    "brookings-20260227-001": {"impact": 80, "probability": 85, "urgency": 80, "novelty": 70},
+    "carbon-20260227-003": {"impact": 90, "probability": 85, "urgency": 95, "novelty": 80},
+    "psych-20260227-001": {"impact": 75, "probability": 90, "urgency": 80, "novelty": 70},
+    "wef-20260227-001": {"impact": 85, "probability": 90, "urgency": 85, "novelty": 60},
+    "tech-20260227-002": {"impact": 80, "probability": 85, "urgency": 75, "novelty": 65},
+    "imf-20260227-001": {"impact": 80, "probability": 85, "urgency": 75, "novelty": 65}
+  }
+}

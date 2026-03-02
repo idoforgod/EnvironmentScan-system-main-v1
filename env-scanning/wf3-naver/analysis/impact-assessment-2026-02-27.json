@@ -1,0 +1,139 @@
+{
+  "assessment_metadata": {
+    "workflow": "WF3",
+    "date": "2026-02-27",
+    "total_signals_analyzed": 28,
+    "cross_impacts_identified": 12,
+    "assessed_at": "2026-02-27T19:00:00+00:00"
+  },
+  "cross_impact_matrix": [
+    {
+      "signal_a": "naver-20260227-104-001",
+      "signal_b": "naver-20260227-101-001",
+      "relation": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "strong",
+      "description": "IEEPA tariff ruling increases trade uncertainty -> BOK rate hold to stabilize economy. BOK steady rates support exporters facing tariff shocks."
+    },
+    {
+      "signal_a": "naver-20260227-104-001",
+      "signal_b": "naver-20260227-101-002",
+      "relation": "counterbalancing",
+      "direction": "bidirectional",
+      "strength": "moderate",
+      "description": "US tariff chaos drives Korea to diversify trade partners -> UAE mega-deal as alternative market. UAE deal partially offsets US trade risk."
+    },
+    {
+      "signal_a": "naver-20260227-105-001",
+      "signal_b": "naver-20260227-104-006",
+      "relation": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "strong",
+      "description": "i-SMR commercialization and energy transition roadmap are mutually reinforcing components of Korea's energy strategy."
+    },
+    {
+      "signal_a": "naver-20260227-105-003",
+      "signal_b": "naver-20260227-105-006",
+      "relation": "reinforcing",
+      "direction": "unidirectional",
+      "strength": "strong",
+      "description": "SKT A.X K1 model is a direct manifestation of the AI sovereignty competition trend."
+    },
+    {
+      "signal_a": "naver-20260227-101-003",
+      "signal_b": "naver-20260227-103-003",
+      "relation": "reinforcing",
+      "direction": "unidirectional",
+      "strength": "strong",
+      "description": "Coupang data breach expanding internationally (Taiwan) amplifies domestic financial/legal impact."
+    },
+    {
+      "signal_a": "naver-20260227-104-002",
+      "signal_b": "naver-20260227-100-003",
+      "relation": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "moderate",
+      "description": "North Korean military threats drive Korea-Canada defense cooperation urgency."
+    },
+    {
+      "signal_a": "naver-20260227-102-003",
+      "signal_b": "naver-20260227-102-001",
+      "relation": "reinforcing",
+      "direction": "unidirectional",
+      "strength": "moderate",
+      "description": "Japan's demographic crisis parallels Korea's lone-death system launch -- both reflect East Asian population structural crisis."
+    },
+    {
+      "signal_a": "naver-20260227-105-001",
+      "signal_b": "naver-20260227-101-006",
+      "relation": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "strong",
+      "description": "i-SMR design approval drives investor interest in energy stocks (Doosan Enerbility)."
+    },
+    {
+      "signal_a": "naver-20260227-100-001",
+      "signal_b": "naver-20260227-100-002",
+      "relation": "contextual",
+      "direction": "unidirectional",
+      "strength": "moderate",
+      "description": "Post-insurrection trial verdict shapes political landscape ahead of June 3 local elections."
+    },
+    {
+      "signal_a": "naver-20260227-105-004",
+      "signal_b": "naver-20260227-105-003",
+      "relation": "reinforcing",
+      "direction": "unidirectional",
+      "strength": "moderate",
+      "description": "Government ICT R&D budget 1.6T KRW supports development of models like A.X K1."
+    },
+    {
+      "signal_a": "naver-20260227-104-001",
+      "signal_b": "naver-20260227-101-005",
+      "relation": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "strong",
+      "description": "IMF criticism of Trump tariffs reinforces the systemic impact of the IEEPA ruling fallout."
+    },
+    {
+      "signal_a": "naver-20260227-101-002",
+      "signal_b": "naver-20260227-100-003",
+      "relation": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "moderate",
+      "description": "UAE and Canada defense deals together represent K-defense's global expansion strategy."
+    }
+  ],
+  "emerging_themes": [
+    {
+      "theme": "Global Trade Order Restructuring",
+      "signals": ["naver-20260227-104-001", "naver-20260227-101-005", "naver-20260227-101-001"],
+      "description": "US Supreme Court IEEPA ruling, Trump's trade law workaround, and IMF criticism collectively signal a fundamental restructuring of the global trade order."
+    },
+    {
+      "theme": "K-Defense Global Expansion",
+      "signals": ["naver-20260227-101-002", "naver-20260227-100-003", "naver-20260227-104-005"],
+      "description": "UAE 650B deal + Canada submarine bid + Korea-Canada defense agreement = K-defense entering a new era of multi-region arms exports."
+    },
+    {
+      "theme": "AI Sovereignty and National Champions",
+      "signals": ["naver-20260227-105-003", "naver-20260227-105-006", "naver-20260227-105-004"],
+      "description": "SKT A.X K1, ICT R&D 1.6T budget, and national AI strategy reflect Korea's push for AI sovereignty."
+    },
+    {
+      "theme": "Energy Transition Triple Axis",
+      "signals": ["naver-20260227-105-001", "naver-20260227-104-006", "naver-20260227-101-006"],
+      "description": "i-SMR + Renewables 100GW + Investor capital inflow = Korea's energy transition gaining concrete momentum."
+    },
+    {
+      "theme": "Korean Peninsula Security Escalation",
+      "signals": ["naver-20260227-104-002", "naver-20260227-102-005"],
+      "description": "Kim Jong Un's nuclear threat escalation vs. peace process hopes create a volatile security paradox."
+    },
+    {
+      "theme": "Data Privacy Crisis and Platform Economy Risk",
+      "signals": ["naver-20260227-101-003", "naver-20260227-103-003"],
+      "description": "Coupang's 33.7M data breach and its international expansion demonstrate systemic risks in platform economies."
+    }
+  ]
+}

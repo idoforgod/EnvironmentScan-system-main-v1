@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "workflow": "WF4",
+    "scan_date": "2026-02-25",
+    "analysis_type": "priority_ranking",
+    "total_classified": 480
+  },
+  "top_15_signals": [
+    {
+      "rank": 1,
+      "id": "news-20260225-nytimes-007",
+      "title": "Surgeon General Pick Is Pressed on Vaccines and Pesticides in Hearing",
+      "source": "The New York Times",
+      "language": "en",
+      "steeps": "T",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 88,
+      "tipping": "YELLOW",
+      "abstract": "Dr. Casey Means, a wellness influencer and critic of mainstream medicine, is appearing before a Senate committee."
+    },
+    {
+      "rank": 2,
+      "id": "news-20260225-wsj-002",
+      "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "source": "The Wall Street Journal",
+      "language": "en",
+      "steeps": "T",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 88,
+      "tipping": "YELLOW",
+      "abstract": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in."
+    },
+    {
+      "rank": 3,
+      "id": "news-20260225-wsj-009",
+      "title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
+      "source": "The Wall Street Journal",
+      "language": "en",
+      "steeps": "S",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 88,
+      "tipping": "YELLOW",
+      "abstract": "The dictator, eager to shut out the influence of Hollywood and K-pop, has been exalting a “shock brigade” of 300,000 teens and 20-somethings drafted into flood reconstruction."
+    },
+    {
+      "rank": 4,
+      "id": "news-20260225-politico-008",
+      "title": "Why Graham Platner’s meteoric rise is so unexpected",
+      "source": "Politico",
+      "language": "en",
+      "steeps": "P",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 88,
+      "tipping": "YELLOW",
+      "abstract": "The progressive oysterman is finding traction in a state that has a long track record of electing senators perceived as moderates."
+    },
+    {
+      "rank": 5,
+      "id": "news-20260225-bbc-001",
+      "title": "'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud",
+      "source": "BBC News",
+      "language": "en",
+      "steeps": "T",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 88,
+      "tipping": "YELLOW",
+      "abstract": "Culiacán in northern Mexico has seen a surge in violence as rival factions of the Sinaloa cartel battle for control."
+    },
+    {
+      "rank": 6,
+      "id": "news-20260225-apnews-008",
+      "title": "Northeast US digs out from brutal storm that disrupted flights and canceled school",
+      "source": "Associated Press",
+      "language": "en",
+      "steeps": "T",
+      "fssf": "Discontinuity",
+      "horizon": "H1",
+      "psst": 88,
+      "tipping": "YELLOW",
+      "abstract": "A pedestrian walks along 42nd Street near Bryant Park during a snow storm, Monday, Feb. 23, 2026, in New York. (AP Photo/Seth Wenig)2026-02-24T05:34:22Z\n                                        NEW YOR"
+    },
+    {
+      "rank": 7,
+      "id": "news-20260225-khan-010",
+      "title": "“불길 속 구조처럼, 헌혈도 생명 구하는 일”",
+      "source": "경향신문",
+      "language": "ko",
+      "steeps": "S",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 87,
+      "tipping": "RED",
+      "abstract": "전북 119특수대응단, 혈액 수급 ‘주의’ 단계 속 ‘릴레이 헌혈’전북소방본부 119특수대응단 대원들이 혈액 수급 안정화를 위한 ‘생명 나눔 헌혈 릴레이’에 동참한 뒤 대한적십자사 관계자들과 함께 기념 촬영을 하고 있다. 전북소방본부 제공재난 현장의 최전선에 서온 전북소방본부 119특수대응단 대원들이 이번에는 구조 장비 대신 팔을 내밀었다. 화재와 붕괴 속"
+    },
+    {
+      "rank": 8,
+      "id": "news-20260225-khan-015",
+      "title": "정부, 석유화학 재편에 2조원 이상 쏜다",
+      "source": "경향신문",
+      "language": "ko",
+      "steeps": "E",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 87,
+      "tipping": "YELLOW",
+      "abstract": "롯데케미칼 대산공장, HD현대케미칼과 합병·통합 운영 골자‘대산 1호 프로젝트’ 승인…NCC 가동 중단, ‘지원 패키지’ 제공중국·중동발 공급과잉 위기에 대응하기 위한 석유화학산업 재편 계획 ‘대산 1호 프로젝트’가 본격 가동한다. 기업의 자구노력을 강조하며 드러나지 않던 정부 지원책도 모습을 드러냈다.산업통상부는 25일 정부서울청사에서 열린 산업경제장관회"
+    },
+    {
+      "rank": 9,
+      "id": "news-20260225-mt-006",
+      "title": "&#039;못 해 먹겠다&#039; 손흥민 떠난 토트넘 충격 폭로, &#039;부임 32일 만에&#039; 수석코치 사임 &quot;구단은 남아달라 했지만...&quot;",
+      "source": "머니투데이",
+      "language": "ko",
+      "steeps": "E",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 85,
+      "tipping": "YELLOW",
+      "abstract": " 토트넘 홋스퍼의 내부 분열이 걷잡을 수 없는 수준으로 치닫고 있다. 에이스이자 정신적 지주였던 손흥민(34)이 로스앤젤레스FC로 떠난 지 불과 반 년 만에 성적 부진에 따른 감독 경질에 이어 잔류 요청을 받았던 수석코치까지 부임 32일 만에 팀을 박차고 나가는 초유의 사태가 벌어졌다. 영국 매체 &#039;데일리 메일&#039;은 25일(한국시간) &qu"
+    },
+    {
+      "rank": 10,
+      "id": "news-20260225-mt-007",
+      "title": "&quot;다리 절단은 피했다&quot; 스키 GOAT 기적 회복→호날두도 리스펙 &quot;전설은 항상 다시 일어난다&quot;",
+      "source": "머니투데이",
+      "language": "ko",
+      "steeps": "S",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 85,
+      "tipping": "YELLOW",
+      "abstract": " 끔찍한 추락 사고로 다리 절단 위기까지 겪었던 스키 전설이 마침내 병원을 퇴원하며 지지해준 팬들과 동료들에게 감사 인사를 전했다. 특히 축구계 슈퍼스타 크리스티아누 호날두(알 나스르)를 비롯한 세계적인 스포츠 스타들이 본의 투혼에 경의를 표하며 응원 메시지를 보냈다. 영국 매체 &#039;데일리 메일&#039;은 25일(한국시간) &quot;호날두가 다리"
+    },
+    {
+      "rank": 11,
+      "id": "news-20260225-scmp-014",
+      "title": "ByteDance valuation said to hit record US$550 billion in proposed equity sale",
+      "source": "South China Morning Post",
+      "language": "en",
+      "steeps": "T",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 85,
+      "tipping": "YELLOW",
+      "abstract": "US private equity firm General Atlantic is selling an equity stake in TikTok owner ByteDance in a deal that raises its valuation of the private Chinese company to US$550 billion, Reuters reported on W"
+    },
+    {
+      "rank": 12,
+      "id": "news-20260225-nknews-009",
+      "title": "A voice from beyond: How radio inspired a North Korean soldier to escape",
+      "source": "NK News",
+      "language": "en",
+      "steeps": "T",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 85,
+      "tipping": "YELLOW",
+      "abstract": "Kang Min-kook was a truck driver in the North Korean army when he tuned the radio and discovered, to his surprise, that it could pick up messages from the outside world. Years later, he now credits th"
+    },
+    {
+      "rank": 13,
+      "id": "news-20260225-mt-010",
+      "title": "&quot;예쁘니까 무죄&quot; 댓글·팔로워 폭주…&#039;모텔 연쇄살인범 SNS&#039; 비공개 전환",
+      "source": "머니투데이",
+      "language": "ko",
+      "steeps": "P",
+      "fssf": "Discontinuity",
+      "horizon": "H1",
+      "psst": 83,
+      "tipping": "YELLOW",
+      "abstract": " &#039;강북 모텔 연쇄살인 사건&#039; 피의자로 구속 송치된 20대 김모씨의 SNS(소셜미디어) 계정이 비공개로 전환됐다. 25일 뉴시스에 따르면 김씨의 것으로 알려진 SNS 인스타그램 계정은 25일 오후 12시를 전후해 공개에서 비공개로 변경된 것으로 추정된다. 이는 김씨가 긴급체포된지 2주만이며, 구속 상태로 검찰에 넘겨진 지 6일 만이다. 이"
+    },
+    {
+      "rank": 14,
+      "id": "news-20260225-etnews-001",
+      "title": "美 초등학교 교감의 이중생활… “밤에는 성매매 알선”",
+      "source": "전자신문",
+      "language": "ko",
+      "steeps": "S",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 83,
+      "tipping": "YELLOW",
+      "abstract": "미국의 한 초등학교 교감이 온라인 성인 배우의 성매매를 알선한 혐의로 경찰에 체포돼 현지 사회에 충격을 주고 있다. 24일(현지시간) 미국 뉴욕타임스(NYT) 등에 따르면 연방 검찰은 퀸즈 코로나 지역에 있는 초등학교 PS 16의 교감인 본드 응(47)을 강압적인 성매"
+    },
+    {
+      "rank": 15,
+      "id": "news-20260225-aitimes-015",
+      "title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "source": "AI타임스",
+      "language": "ko",
+      "steeps": "T",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "psst": 83,
+      "tipping": "YELLOW",
+      "abstract": "구글이 기존 ‘AI 포 사이언스 펀드’에 이어, 차세대 과학적 발견을 가속하기 위해 3000만달러(약 430억원) 규모의 글로벌 공모전 ‘구글닷오알지 임팩트 챌린지: 과학을 위한 AI’를 개최한다고 25일 밝혔다. 이번 공모전은 인류가 직면한 중대 과제를 해결하고 노벨상 수준의 획기적인 성과를 달성하는 것이 목표다. 연구진, 비영리 단체 및 사회적 기업이 "
+    }
+  ],
+  "distributions": {
+    "steeps": {
+      "S": 92,
+      "E": 40,
+      "P": 75,
+      "s": 4,
+      "T": 268,
+      "E(Environmental)": 1
+    },
+    "fssf": {
+      "Emerging Issue": 419,
+      "Weak Signal": 17,
+      "Megatrend": 5,
+      "Trend": 9,
+      "Wild Card": 21,
+      "Discontinuity": 7,
+      "Driver": 1,
+      "Precursor Event": 1
+    },
+    "horizon": {
+      "H1": 466,
+      "H2": 4,
+      "H3": 10
+    },
+    "tipping_point": {
+      "GREEN": 442,
+      "YELLOW": 35,
+      "ORANGE": 1,
+      "RED": 2
+    }
+  }
+}

@@ -3,13 +3,13 @@
 ## Purpose
 
 This file defines the shared execution protocol used by ALL workflow orchestrators
-(env-scan-orchestrator, arxiv-scan-orchestrator, naver-scan-orchestrator). It is the single source of truth
+(env-scan-orchestrator, arxiv-scan-orchestrator, naver-scan-orchestrator, multiglobal-news-scan-orchestrator). It is the single source of truth
 for VEV, Pipeline Gates, Retry logic, and Verification Report structure.
 
 **Referenced by**: All workflow orchestrators via `system.execution.protocol` in workflow-registry.yaml.
 
-**Version**: 2.2.1
-**Last Updated**: 2026-02-10
+**Version**: 2.3.0
+**Last Updated**: 2026-03-01
 
 ---
 
@@ -144,6 +144,13 @@ Pipeline_Gate_3:  # Phase 3 completion
   checks:
     - database_updated: "new signals count in DB = classified signals count"
     - report_complete: "report file exists with all required sections"
+    - quality_review_completed: |
+        NORMAL PATH: logs/quality-review-{date}.json exists
+          AND summary.recommendation != "escalate_to_human"
+          AND summary.overall_grade in [A, B, C]
+        ESCALATION PATH: If retry exhausted and human approved with warning banner
+          (step_3_4 decision = "approved_with_quality_warning"),
+          this check passes with WARN status. Human oversight supersedes gate.
     - archive_stored: "archive/{year}/{month}/ contains report copies"
     - snapshot_created: "signals/snapshots/database-{date}.json exists"
     - psst_all_dimensions_complete: "all 6 pSST dimensions exist for every ranked signal"
@@ -216,6 +223,8 @@ file operations use paths relative to this root:
 {data_root}/context/previous-signals.json
 {data_root}/logs/workflow-status.json
 {data_root}/logs/verification-report-{date}.json
+{data_root}/logs/qc-results-{date}.json
+{data_root}/logs/quality-review-{date}.json
 ```
 
 Worker agents receive the full resolved path (data_root + relative path) as
@@ -249,20 +258,38 @@ human_checkpoints:
 
 ---
 
-## 7. Report Quality 4-Layer Defense
+## 7. Report Quality Defense (4-Layer)
 
-This defense is IMMUTABLE per core-invariants.yaml:
+The 4-layer defense structure is defined in core-invariants.yaml. Layers L2 and L3 have been
+expanded with sub-layers for deeper cross-reference and semantic validation.
 
 ```
-L1: Skeleton-Fill Method — use report-skeleton.md template
-L2: Programmatic Validation — validate_report.py (14 checks)
-L3: Progressive Escalation Retry — 3 stages (targeted → full regen → human)
-L4: Golden Reference — 9-field signal example in report-generator.md
+L1:  Skeleton-Fill Method    — report-skeleton template enforces structure
+L2a: Structural Validation   — validate_report.py (15–20 checks, profile-dependent)
+L2b: Cross-Reference Quality — validate_report_quality.py (13 QC checks)
+L3:  Semantic Depth Review   — quality-reviewer.md (LLM sub-agent, 3-pass review)
+L4:  Golden Reference        — 9-field signal example in report-generator.md
 ```
+
+**Progressive Retry** is the recovery mechanism applied when any layer fails:
+- L2a CRITICAL → targeted fix (retry 1) → full regen (retry 2) → human escalation
+- L2b CRITICAL → targeted fix using remedy field (retry 1) → full regen (retry 2) → human escalation
+- L3 must_fix 1–5 → pass must_fix items to report-generator for targeted retry (max 2 retries)
+- L3 must_fix > 5 → escalate to human review immediately
+- L3 grade D → human escalation
+
+**Execution order within Step 3.2 of every workflow**:
+1. Generate report (L1 + L4 enforced by report-generator)
+2. Run `validate_report.py` (L2a)
+3. If L2a PASS or WARN: Run `validate_report_quality.py` (L2b)
+4. If L2b PASS or WARN: Invoke `quality-reviewer` sub-agent (L3)
+5. If L3 grade ≥ C: Proceed to translation
+6. On any CRITICAL failure: trigger progressive retry
 
 ---
 
 ## Version History
+- v2.3.0 (2026-03-01): Expanded Report Quality Defense to 4-layer with L2a/L2b/L3 sub-layers. Added quality_review_completed to Pipeline Gate 3. Added multiglobal-news-scan-orchestrator to scope.
 - v2.2.1 (2026-02-10): Added naver-scan-orchestrator to scope. Added temporal_boundary_check (TC-003) to Pipeline Gate 1. Updated version strings.
 - v2.2.0 (2026-02-03): Extracted from env-scan-orchestrator.md as shared protocol
 - v2.2.0 (2026-02-02): Original VEV protocol in env-scan-orchestrator.md

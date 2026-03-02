@@ -1,0 +1,129 @@
+{
+  "scan_date": "2026-02-27",
+  "workflow": "wf1-general",
+  "classification_method": "steeps_6_category",
+  "total_signals": 38,
+  "post_dedup_signals": 35,
+  "duplicates_removed": 3,
+  "dedup_details": {
+    "stage_a_url_exact": 1,
+    "stage_b_topic_fingerprint": 1,
+    "stage_c_title_similarity": 1,
+    "stage_d_entity_overlap": 0,
+    "removed_ids": ["fed-20260227-003", "nasa-20260227-002", "wired-20260227-002"]
+  },
+  "category_distribution": {
+    "T_Technological": {
+      "count": 14,
+      "percentage": "40.0%",
+      "signals": ["tech-20260227-001", "tech-20260227-003", "nature-20260227-002", "nature-20260227-003", "nature-20260227-004", "ieee-20260227-001", "ieee-20260227-002", "ieee-20260227-003", "pubmed-20260227-001", "pubmed-20260227-002", "wired-20260227-001", "science-20260227-001", "science-20260227-002"]
+    },
+    "E_Environmental": {
+      "count": 8,
+      "percentage": "22.9%",
+      "signals": ["nature-20260227-001", "un-20260227-001", "carbon-20260227-001", "carbon-20260227-002", "carbon-20260227-003", "nasa-20260227-001", "oecd-20260227-001"]
+    },
+    "P_Political": {
+      "count": 7,
+      "percentage": "20.0%",
+      "signals": ["fed-20260227-001", "fed-20260227-002", "tech-20260227-002", "un-20260227-002", "un-20260227-003", "brookings-20260227-002", "wef-20260227-001"]
+    },
+    "E_Economic": {
+      "count": 2,
+      "percentage": "5.7%",
+      "signals": ["imf-20260227-001", "bis-20260227-001"]
+    },
+    "S_Social": {
+      "count": 3,
+      "percentage": "8.6%",
+      "signals": ["who-20260227-001", "pew-20260227-001", "brookings-20260227-001"]
+    },
+    "s_spiritual": {
+      "count": 2,
+      "percentage": "5.7%",
+      "signals": ["ethics-20260227-001", "psych-20260227-001"]
+    }
+  },
+  "signals": [
+    {
+      "id": "tech-20260227-001",
+      "title": "Meta Signs Multi-Year Deal to Rent Google TPU AI Chips",
+      "category": "T",
+      "category_confidence": 0.95,
+      "subcategories": ["AI infrastructure", "compute economics", "vendor diversification"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "nature-20260227-001",
+      "title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months",
+      "category": "E",
+      "category_confidence": 0.98,
+      "subcategories": ["ice loss", "sea level rise", "climate tipping point"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "carbon-20260227-001",
+      "title": "China's CO2 Emissions Flat or Falling as Clean Energy Surpasses Coal",
+      "category": "E",
+      "category_confidence": 0.96,
+      "subcategories": ["energy transition", "emissions peak", "China"],
+      "signal_status": "strengthening"
+    },
+    {
+      "id": "fed-20260227-001",
+      "title": "NRC Proposes Regulatory Framework for Fusion Machines",
+      "category": "P",
+      "category_confidence": 0.92,
+      "subcategories": ["fusion regulation", "clean energy policy", "nuclear"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "un-20260227-001",
+      "title": "UN Approves First Carbon Credits Under Paris Agreement",
+      "category": "E",
+      "category_confidence": 0.94,
+      "subcategories": ["carbon markets", "Paris Agreement", "international cooperation"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "ethics-20260227-001",
+      "title": "AI Governance Shifts to Enforceable Technical Requirements",
+      "category": "s",
+      "category_confidence": 0.91,
+      "subcategories": ["AI ethics", "governance", "enforcement", "EU AI Act"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "ieee-20260227-001",
+      "title": "Tensor Plans SAE Level 4 Autonomous Car Release in H2 2026",
+      "category": "T",
+      "category_confidence": 0.97,
+      "subcategories": ["autonomous vehicles", "Level 4", "consumer release"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "ieee-20260227-002",
+      "title": "First D-T Fusion Fuel Cycle Demonstration Planned Late 2026",
+      "category": "T",
+      "category_confidence": 0.96,
+      "subcategories": ["fusion energy", "demonstration", "fuel cycle"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "pubmed-20260227-001",
+      "title": "In Vivo CAR-T Therapy: Scalable Cancer Treatment Without Ex Vivo Steps",
+      "category": "T",
+      "category_confidence": 0.95,
+      "subcategories": ["cancer therapy", "immunotherapy", "scalability"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "brookings-20260227-001",
+      "title": "Building Pro-Worker AI: Acemoglu, Autor, Johnson",
+      "category": "S",
+      "category_confidence": 0.88,
+      "subcategories": ["AI labor impact", "worker augmentation", "inequality"],
+      "signal_status": "developing"
+    }
+  ]
+}

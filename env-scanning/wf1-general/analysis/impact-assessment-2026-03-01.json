@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "date": "2026-03-01",
+    "workflow": "wf1-general",
+    "phase": "2.2-2.3",
+    "scoring_weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10}
+  },
+  "priority_ranked": [
+    {"rank": 1, "id": "wf1-20260301-001", "title": "OpenAI Raises $110B at $730B Valuation", "psst": 82, "impact": 95, "probability": 95, "urgency": 90, "novelty": 75, "weighted_score": 91.5, "grade": "B"},
+    {"rank": 2, "id": "wf1-20260301-002", "title": "Hyperscalers Plan $700B Data Center Investment", "psst": 80, "impact": 92, "probability": 90, "urgency": 88, "novelty": 70, "weighted_score": 88.6, "grade": "B"},
+    {"rank": 3, "id": "wf1-20260301-005", "title": "China CO2 Flat/Falling 21 Months", "psst": 85, "impact": 90, "probability": 88, "urgency": 85, "novelty": 82, "weighted_score": 87.7, "grade": "B"},
+    {"rank": 4, "id": "wf1-20260301-009", "title": "Global Warming Rate 0.25C/Decade — 2029 Breach", "psst": 88, "impact": 95, "probability": 85, "urgency": 80, "novelty": 78, "weighted_score": 87.3, "grade": "B"},
+    {"rank": 5, "id": "wf1-20260301-004", "title": "US Federal-State AI Regulation Collision", "psst": 78, "impact": 88, "probability": 85, "urgency": 92, "novelty": 80, "weighted_score": 87.2, "grade": "B"},
+    {"rank": 6, "id": "wf1-20260301-003", "title": "Anthropic vs Pentagon AI Ethics Standoff", "psst": 76, "impact": 85, "probability": 90, "urgency": 88, "novelty": 85, "weighted_score": 87.1, "grade": "B"},
+    {"rank": 7, "id": "wf1-20260301-006", "title": "WEF: Geoeconomic Confrontation Top Risk", "psst": 82, "impact": 88, "probability": 82, "urgency": 80, "novelty": 72, "weighted_score": 83.0, "grade": "B"},
+    {"rank": 8, "id": "wf1-20260301-014", "title": "AI Agent Cybersecurity Crisis", "psst": 75, "impact": 85, "probability": 88, "urgency": 90, "novelty": 78, "weighted_score": 86.2, "grade": "B"},
+    {"rank": 9, "id": "wf1-20260301-007", "title": "IMF: AI Investment Concentration Risk", "psst": 83, "impact": 85, "probability": 80, "urgency": 78, "novelty": 70, "weighted_score": 81.0, "grade": "B"},
+    {"rank": 10, "id": "wf1-20260301-008", "title": "MIT TR Breakthroughs: Sodium-Ion, Base Editing", "psst": 80, "impact": 82, "probability": 78, "urgency": 72, "novelty": 88, "weighted_score": 79.6, "grade": "B"},
+    {"rank": 11, "id": "wf1-20260301-016", "title": "COP30 Fails on Fossil Fuel Phase-Out", "psst": 82, "impact": 88, "probability": 85, "urgency": 75, "novelty": 60, "weighted_score": 81.5, "grade": "B"},
+    {"rank": 12, "id": "wf1-20260301-012", "title": "EU AI Act Implementation Timeline", "psst": 80, "impact": 82, "probability": 90, "urgency": 80, "novelty": 65, "weighted_score": 82.3, "grade": "B"},
+    {"rank": 13, "id": "wf1-20260301-015", "title": "64% US Teens Use AI Chatbots", "psst": 78, "impact": 78, "probability": 95, "urgency": 75, "novelty": 82, "weighted_score": 82.1, "grade": "B"},
+    {"rank": 14, "id": "wf1-20260301-021", "title": "China 15th Five-Year Plan Energy Targets", "psst": 79, "impact": 85, "probability": 80, "urgency": 82, "novelty": 72, "weighted_score": 81.2, "grade": "B"},
+    {"rank": 15, "id": "wf1-20260301-010", "title": "Neuralink Blindsight Brain-Computer Interface", "psst": 72, "impact": 80, "probability": 65, "urgency": 70, "novelty": 90, "weighted_score": 74.5, "grade": "B"}
+  ]
+}

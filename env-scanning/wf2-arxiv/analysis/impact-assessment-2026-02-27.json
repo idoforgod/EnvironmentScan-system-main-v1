@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-27",
+    "analysis_method": "Cross-Impact Analysis with STEEPs framework",
+    "total_signals_analyzed": 35,
+    "top_interactions": 12
+  },
+  "cross_impact_matrix": [
+    {
+      "interaction": "Agent Behavioral Contracts ↔ Training Agents to Self-Report Misbehavior",
+      "signal_a": "arxiv-20260227-001",
+      "signal_b": "arxiv-20260227-003",
+      "impact_type": "reinforcing",
+      "impact_strength": "high",
+      "description": "Formal behavioral contracts provide the specification framework that self-reporting agents need for trustworthy autonomous operation. Together they form a complete AI safety stack: specification + monitoring."
+    },
+    {
+      "interaction": "Road to Useful Quantum Computers ↔ Fundamental Limits on QKD",
+      "signal_a": "arxiv-20260227-007",
+      "signal_b": "arxiv-20260227-020",
+      "impact_type": "reinforcing",
+      "impact_strength": "high",
+      "description": "Progress toward fault-tolerant quantum computers directly threatens classical cryptography while QKD limits define the boundaries of quantum-safe communication. These jointly define the quantum security landscape."
+    },
+    {
+      "interaction": "Memory-Dominated Quantum Criticality ↔ Stochastic Neural Networks for Quantum Devices",
+      "signal_a": "arxiv-20260227-008",
+      "signal_b": "arxiv-20260227-031",
+      "impact_type": "enabling",
+      "impact_strength": "medium",
+      "description": "Understanding quantum criticality could inform the design of quantum neural network architectures optimized for emergent quantum computing hardware."
+    },
+    {
+      "interaction": "Sustainable LLM Inference ↔ AutoQRA Efficient Fine-Tuning",
+      "signal_a": "arxiv-20260227-006",
+      "signal_b": "arxiv-20260227-034",
+      "impact_type": "reinforcing",
+      "impact_strength": "high",
+      "description": "Both papers address the sustainability crisis in AI compute. Context-aware switching reduces inference cost; joint quantization-LoRA reduces training cost. Together, they reduce the total cost of the AI lifecycle."
+    },
+    {
+      "interaction": "CourtGuard Zero-Shot Safety ↔ AI Agent Index",
+      "signal_a": "arxiv-20260227-021",
+      "signal_b": "arxiv-20260227-032",
+      "impact_type": "reinforcing",
+      "impact_strength": "high",
+      "description": "The AI Agent Index documents current safety gaps; CourtGuard proposes a solution for rapid policy adaptation. Together they define the governance-technology interface for AI safety."
+    },
+    {
+      "interaction": "Intent Laundering ↔ Epistemic Filtering and Collective Hallucination",
+      "signal_a": "arxiv-20260227-033",
+      "signal_b": "arxiv-20260227-010",
+      "impact_type": "reinforcing",
+      "impact_strength": "medium",
+      "description": "Both reveal fundamental limitations in AI evaluation and collective AI reasoning. Safety datasets that don't reflect reality combined with collective hallucination in multi-agent systems suggest a systemic trust crisis in AI evaluation."
+    },
+    {
+      "interaction": "HubScan RAG Poisoning ↔ Self-Purification for Backdoors",
+      "signal_a": "arxiv-20260227-026",
+      "signal_b": "arxiv-20260227-025",
+      "impact_type": "reinforcing",
+      "impact_strength": "high",
+      "description": "Both address adversarial attacks on foundation model systems: HubScan detects retrieval-level attacks, self-purification removes model-level backdoors. Together they form a defense-in-depth for AI systems."
+    },
+    {
+      "interaction": "Global River Forecasting ↔ Energy System Coupling with GNNs",
+      "signal_a": "arxiv-20260227-014",
+      "signal_b": "arxiv-20260227-016",
+      "impact_type": "reinforcing",
+      "impact_strength": "medium",
+      "description": "Both use graph-based AI for environmental infrastructure modeling. River forecasting enables hydropower optimization; energy coupling improves grid resilience. Together they advance climate adaptation through AI."
+    },
+    {
+      "interaction": "Mathematical Theory of Agency ↔ Mirroring the Mind Metacognition",
+      "signal_a": "arxiv-20260227-002",
+      "signal_b": "arxiv-20260227-018",
+      "impact_type": "enabling",
+      "impact_strength": "medium",
+      "description": "Formal theory of agency provides the mathematical framework within which metacognitive strategies can be rigorously understood and evaluated."
+    },
+    {
+      "interaction": "Manifold of Failure ↔ Support Tokens for Robust LLMs",
+      "signal_a": "arxiv-20260227-035",
+      "signal_b": "arxiv-20260227-030",
+      "impact_type": "reinforcing",
+      "impact_strength": "high",
+      "description": "Characterizing failure manifolds identifies WHERE LLMs fail; support tokens provide a mechanism for HOW to make them robust. Together they form a complete diagnosis-treatment framework for LLM reliability."
+    },
+    {
+      "interaction": "LLM Prompt Injection Analysis ↔ Cybersecurity Data from Common Crawl",
+      "signal_a": "arxiv-20260227-012",
+      "signal_b": "arxiv-20260227-024",
+      "impact_type": "enabling",
+      "impact_strength": "medium",
+      "description": "Large-scale cybersecurity data extraction enables more comprehensive analysis of LLM attack vectors by providing real-world attack pattern datasets."
+    },
+    {
+      "interaction": "Quantum Dynamics for Language ↔ Orthogonal Weight Modification",
+      "signal_a": "arxiv-20260227-004",
+      "signal_b": "arxiv-20260227-022",
+      "impact_type": "enabling",
+      "impact_strength": "low",
+      "description": "Both propose alternative paradigms to standard neural network training. Quantum-inspired sequence modeling and backpropagation-free optimization may converge toward fundamentally new computational approaches."
+    }
+  ],
+  "thematic_clusters": [
+    {
+      "theme": "AI Agent Safety & Governance",
+      "signals": ["arxiv-20260227-001", "arxiv-20260227-003", "arxiv-20260227-021", "arxiv-20260227-032", "arxiv-20260227-033"],
+      "steeps_coverage": ["T", "P", "s"],
+      "significance": "Critical cluster indicating rapid maturation of the AI agent safety ecosystem from documentation through formal specification to adaptive governance."
+    },
+    {
+      "theme": "LLM Robustness & Security",
+      "signals": ["arxiv-20260227-012", "arxiv-20260227-025", "arxiv-20260227-026", "arxiv-20260227-030", "arxiv-20260227-035"],
+      "steeps_coverage": ["T", "P"],
+      "significance": "Comprehensive defense research addressing attack surfaces across the LLM stack: prompt injection, backdoors, RAG poisoning, and behavioral failure modes."
+    },
+    {
+      "theme": "Quantum Computing Frontier",
+      "signals": ["arxiv-20260227-004", "arxiv-20260227-007", "arxiv-20260227-008", "arxiv-20260227-013", "arxiv-20260227-020", "arxiv-20260227-031"],
+      "steeps_coverage": ["T", "P"],
+      "significance": "Convergence of quantum computing roadmaps, quantum-classical hybrid methods, and fundamental physics breakthroughs suggesting acceleration toward practical quantum applications."
+    },
+    {
+      "theme": "AI for Climate & Environment",
+      "signals": ["arxiv-20260227-014", "arxiv-20260227-016", "arxiv-20260227-017"],
+      "steeps_coverage": ["E_Environmental", "T"],
+      "significance": "Graph-based and physics-informed AI models applied to environmental monitoring and energy systems, advancing climate adaptation capabilities."
+    },
+    {
+      "theme": "Sustainable & Efficient AI",
+      "signals": ["arxiv-20260227-006", "arxiv-20260227-022", "arxiv-20260227-034"],
+      "steeps_coverage": ["T", "E_Environmental"],
+      "significance": "Growing research momentum toward reducing AI's computational and environmental footprint through novel optimization paradigms."
+    },
+    {
+      "theme": "AI Cognition & Epistemology",
+      "signals": ["arxiv-20260227-002", "arxiv-20260227-010", "arxiv-20260227-018"],
+      "steeps_coverage": ["s", "T"],
+      "significance": "Deepening theoretical understanding of AI reasoning, metacognition, and collective epistemic behavior — foundational for trustworthy AI."
+    }
+  ]
+}

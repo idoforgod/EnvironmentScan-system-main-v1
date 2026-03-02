@@ -1,0 +1,897 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-27",
+    "scanner_version": "3.0.0",
+    "scan_window": {
+      "start": "2026-02-26T18:34:45+00:00",
+      "end": "2026-02-27T18:34:45+00:00",
+      "lookback_hours": 24,
+      "tolerance_minutes": 30
+    },
+    "total_scanned": 35,
+    "query_groups_covered": 12,
+    "categories_covered": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.CR", "cs.RO", "stat.ML", "quant-ph", "q-bio", "econ", "q-fin", "cond-mat.supr-con", "physics.ao-ph"],
+    "execution_proof": {
+      "timestamp": "2026-02-27T18:34:45+00:00",
+      "method": "web_search_arxiv_listings",
+      "sources_queried": ["arxiv.org/list/cs.AI/new", "arxiv.org/list/cs.LG/new", "arxiv.org/list/quant-ph/new", "arxiv.org/list/cs.CR/new", "web_search_supplementary"]
+    }
+  },
+  "items": [
+    {
+      "id": "arxiv-20260227-001",
+      "arxiv_id": "2602.22302",
+      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22302",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes a formal framework for specifying and enforcing behavioral contracts for autonomous AI agents at runtime, addressing reliability and safety in agentic AI systems through contract-based design.",
+        "keywords": ["AI agents", "formal verification", "behavioral contracts", "runtime enforcement", "autonomous systems"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-002",
+      "arxiv_id": "2602.22519",
+      "title": "A Mathematical Theory of Agency and Intelligence",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22519",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Develops a unified mathematical framework for understanding agency and intelligence, providing formal foundations that bridge cognitive science and artificial intelligence theory.",
+        "keywords": ["mathematical theory", "agency", "intelligence", "cognitive science", "formal foundations"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-003",
+      "arxiv_id": "2602.22303",
+      "title": "Training Agents to Self-Report Misbehavior",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22303",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces methods for training AI agents to accurately self-report their own misbehavior, contributing to AI safety through transparent self-monitoring mechanisms.",
+        "keywords": ["AI safety", "self-reporting", "agent misbehavior", "transparency", "alignment"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-004",
+      "arxiv_id": "2602.22255",
+      "title": "Deep Sequence Modeling with Quantum Dynamics: Language as a Wave Function",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22255",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes modeling language sequences using quantum dynamics, treating language as a wave function to capture superposition of meanings and enable quantum-inspired deep sequence models.",
+        "keywords": ["quantum dynamics", "language modeling", "wave function", "sequence modeling", "quantum NLP"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-005",
+      "arxiv_id": "2602.22251",
+      "title": "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22251",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces Zatom-1, a multimodal flow-based foundation model for generating and reasoning about 3D molecular and materials structures, bridging computational chemistry with generative AI.",
+        "keywords": ["foundation model", "molecules", "materials science", "3D generation", "flow matching"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-006",
+      "arxiv_id": "2602.22261",
+      "title": "Sustainable LLM Inference using Context-Aware Model Switching",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22261",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes a context-aware model switching framework for sustainable LLM inference that dynamically selects between different-sized models based on query complexity, significantly reducing energy consumption without sacrificing output quality.",
+        "keywords": ["sustainable AI", "LLM inference", "model switching", "energy efficiency", "green AI"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-007",
+      "arxiv_id": "2602.22540",
+      "title": "The Road to Useful Quantum Computers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22540",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "A comprehensive roadmap paper assessing current barriers and milestones toward practical, fault-tolerant quantum computing, covering hardware architectures, error correction strategies, and application domains where quantum advantage is most imminent.",
+        "keywords": ["quantum computing", "roadmap", "fault tolerance", "quantum advantage", "error correction"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/quant-ph/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-008",
+      "arxiv_id": "2602.22626",
+      "title": "Memory-Dominated Quantum Criticality as a Universal Route to High-Temperature Superconductivity",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22626",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Establishes dynamical spectral organization as a fundamental principle of quantum critical matter and identifies memory-dominated criticality as a generic route to high-temperature superconductivity, potentially unlocking new material design strategies.",
+        "keywords": ["high-temperature superconductivity", "quantum criticality", "memory effects", "materials design", "condensed matter"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "web_search_cond-mat.supr-con",
+          "collection_method": "web_search",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-009",
+      "arxiv_id": "2602.22273",
+      "title": "FIRE: A Comprehensive Benchmark for Financial Intelligence and Reasoning Evaluation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22273",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces FIRE, a comprehensive benchmark for evaluating financial intelligence and reasoning capabilities in language models, covering financial analysis, risk assessment, and market prediction tasks.",
+        "keywords": ["financial AI", "benchmark", "reasoning evaluation", "LLM evaluation", "financial intelligence"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-010",
+      "arxiv_id": "2602.22413",
+      "title": "Epistemic Filtering and Collective Hallucination: A Jury Theorem for Confidence-Calibrated Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22413",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Analyzes collective hallucination in multi-agent AI systems through a jury theorem framework, showing how confidence calibration affects epistemic filtering and collective decision-making reliability.",
+        "keywords": ["collective hallucination", "jury theorem", "confidence calibration", "multi-agent systems", "epistemic filtering"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-011",
+      "arxiv_id": "2602.22406",
+      "title": "Towards Autonomous Memory Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22406",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes architectures and mechanisms for AI agents with autonomous memory management capabilities, enabling persistent knowledge accumulation, retrieval, and adaptive memory consolidation.",
+        "keywords": ["autonomous agents", "memory systems", "knowledge management", "persistent memory", "agent architecture"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-012",
+      "arxiv_id": "2602.22242",
+      "title": "Analysis of LLMs Against Prompt Injection and Jailbreak Attacks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22242",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Systematic analysis of large language models' vulnerabilities to prompt injection and jailbreak attacks, evaluating defense mechanisms and proposing improved robustness strategies for deployed systems.",
+        "keywords": ["LLM security", "prompt injection", "jailbreak attacks", "adversarial attacks", "AI robustness"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.CR/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-013",
+      "arxiv_id": "2602.22269",
+      "title": "CQSA: Byzantine-robust Clustered Quantum Secure Aggregation in Federated Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22269",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes CQSA, a quantum-secure aggregation protocol for federated learning that provides Byzantine fault tolerance through clustered quantum key distribution, combining post-quantum security with distributed ML.",
+        "keywords": ["quantum security", "federated learning", "Byzantine fault tolerance", "secure aggregation", "post-quantum cryptography"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-014",
+      "arxiv_id": "2602.22293",
+      "title": "Global River Forecasting with a Topology-Informed AI Foundation Model",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22293",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Presents a topology-informed AI foundation model for global river flow forecasting that incorporates hydrological network structure, achieving superior prediction accuracy for flood risk assessment and water resource management worldwide.",
+        "keywords": ["river forecasting", "foundation model", "topology-informed", "climate", "water resources", "flood prediction"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-015",
+      "arxiv_id": "2602.22228",
+      "title": "Patient-Centered, Graph-Augmented AI-Enabled Passive Surveillance for Early Stroke Risk Detection in High-Risk Individuals",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22228",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Develops a graph-augmented AI system for passive surveillance of stroke risk in high-risk populations, enabling early detection through patient-centered graph neural network analysis of clinical data.",
+        "keywords": ["healthcare AI", "stroke detection", "graph neural networks", "passive surveillance", "early warning"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-016",
+      "arxiv_id": "2602.22249",
+      "title": "Improving Spatial Allocation for Energy System Coupling with Graph Neural Networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22249",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Uses graph neural networks to optimize spatial allocation in coupled energy systems, improving renewable energy integration and grid efficiency through learned spatial representations of energy infrastructure.",
+        "keywords": ["energy systems", "graph neural networks", "spatial allocation", "renewable energy", "grid optimization"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-017",
+      "arxiv_id": "2602.22298",
+      "title": "AviaSafe: A Physics-Informed Data-Driven Model for Aviation Safety-Critical Cloud Forecasts",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22298",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces AviaSafe, a physics-informed machine learning model for predicting safety-critical cloud formations in aviation, combining atmospheric physics with data-driven approaches for improved flight safety.",
+        "keywords": ["aviation safety", "cloud forecasting", "physics-informed ML", "atmospheric science", "safety-critical AI"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-018",
+      "arxiv_id": "2602.22508",
+      "title": "Mirroring the Mind: Distilling Human-Like Metacognitive Strategies into Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22508",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes methods for distilling human metacognitive strategies into LLMs, enabling models to monitor and regulate their own reasoning processes in ways analogous to human metacognition.",
+        "keywords": ["metacognition", "LLM reasoning", "knowledge distillation", "cognitive strategies", "self-monitoring"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-019",
+      "arxiv_id": "2602.22425",
+      "title": "ArchAgent: Agentic AI-driven Computer Architecture Discovery",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22425",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces ArchAgent, an AI agent system that autonomously discovers and optimizes computer architectures, using agentic exploration to navigate the design space of hardware configurations.",
+        "keywords": ["computer architecture", "AI-driven design", "agentic AI", "hardware optimization", "architecture search"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-020",
+      "arxiv_id": "2602.22319",
+      "title": "Fundamental Limits on QBER and Distance in Quantum Key Distribution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22319",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Establishes fundamental theoretical limits on Quantum Bit Error Rate (QBER) and achievable distances in quantum key distribution protocols, providing definitive bounds for practical quantum communication systems.",
+        "keywords": ["quantum key distribution", "QBER", "quantum communication", "fundamental limits", "quantum cryptography"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/quant-ph/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-021",
+      "arxiv_id": "2602.22557",
+      "title": "CourtGuard: A Model-Agnostic Framework for Zero-Shot Policy Adaptation in LLM Safety",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22557",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Presents CourtGuard, a model-agnostic framework that enables zero-shot safety policy adaptation for LLMs, allowing rapid deployment of new safety guidelines without retraining.",
+        "keywords": ["LLM safety", "zero-shot adaptation", "safety policies", "model-agnostic", "guardrails"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-022",
+      "arxiv_id": "2602.22259",
+      "title": "Orthogonal Weight Modification Enhances Learning Scalability and Convergence Efficiency without Gradient Backpropagation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22259",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes orthogonal weight modification as an alternative to gradient backpropagation for neural network training, achieving competitive learning performance with improved scalability and convergence efficiency.",
+        "keywords": ["backpropagation-free", "orthogonal weights", "training efficiency", "neural network optimization", "scalability"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-023",
+      "arxiv_id": "2602.22227",
+      "title": "To Deceive is to Teach? Forging Perceptual Robustness via Adversarial Reinforcement Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22227",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Investigates how adversarial training through reinforcement learning can forge perceptual robustness in AI models, showing that deceptive training signals paradoxically improve model reliability.",
+        "keywords": ["adversarial RL", "perceptual robustness", "adversarial training", "reinforcement learning", "model reliability"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-024",
+      "arxiv_id": "2602.22218",
+      "title": "Cybersecurity Data Extraction from Common Crawl",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22218",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Develops methods for large-scale cybersecurity data extraction from Common Crawl web archives, enabling automated threat intelligence gathering and vulnerability pattern recognition.",
+        "keywords": ["cybersecurity", "data extraction", "Common Crawl", "threat intelligence", "web scraping"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.CR/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-025",
+      "arxiv_id": "2602.22246",
+      "title": "Self-Purification Mitigates Backdoors in Multimodal Diffusion Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22246",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes a self-purification mechanism that effectively removes backdoor attacks from multimodal diffusion language models without requiring access to clean data or knowledge of the attack vector.",
+        "keywords": ["backdoor attacks", "multimodal models", "diffusion models", "self-purification", "adversarial defense"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.CR/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-026",
+      "arxiv_id": "2602.22427",
+      "title": "HubScan: Detecting Hubness Poisoning in Retrieval-Augmented Generation Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22427",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces HubScan, a detection framework for hubness poisoning attacks in RAG systems where adversarial embeddings become disproportionately retrieved, compromising knowledge base integrity.",
+        "keywords": ["RAG security", "hubness poisoning", "retrieval-augmented generation", "embedding attacks", "detection"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.CR/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-027",
+      "arxiv_id": "2602.22452",
+      "title": "CWM: Contrastive World Models for Action Feasibility Learning in Embodied Agent Pipelines",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22452",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes Contrastive World Models that learn action feasibility in embodied AI environments through contrastive representation learning, enabling agents to predict which actions are possible before execution.",
+        "keywords": ["world models", "embodied AI", "action feasibility", "contrastive learning", "robotics"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-028",
+      "arxiv_id": "2602.22638",
+      "title": "MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22638",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces MobilityBench, a comprehensive benchmark for evaluating AI agents' route-planning capabilities in complex real-world mobility scenarios including multimodal transport and urban navigation.",
+        "keywords": ["mobility", "route planning", "benchmark", "AI agents", "urban transportation"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.AI/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-029",
+      "arxiv_id": "2602.22265",
+      "title": "Entropy-Controlled Flow Matching",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22265",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes entropy-controlled flow matching, a novel generative modeling framework that provides explicit control over the entropy of generated distributions, improving sample diversity and mode coverage.",
+        "keywords": ["flow matching", "generative models", "entropy control", "sample diversity", "distribution modeling"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-030",
+      "arxiv_id": "2602.22271",
+      "title": "Support Tokens, Stability Margins, and a New Foundation for Robust LLMs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22271",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Introduces the concept of support tokens and stability margins as a new theoretical foundation for understanding and improving the robustness of large language models against adversarial and distributional perturbations.",
+        "keywords": ["LLM robustness", "support tokens", "stability margins", "theoretical foundations", "adversarial robustness"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-031",
+      "arxiv_id": "2602.22241",
+      "title": "Stochastic Neural Networks for Quantum Devices",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22241",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Develops methods for expressing and optimizing stochastic neural networks as quantum circuits, combining stochastic neurons into quantum neural network architectures suitable for NISQ-era devices.",
+        "keywords": ["quantum neural networks", "stochastic networks", "NISQ", "quantum circuits", "quantum machine learning"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/quant-ph/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-032",
+      "arxiv_id": "2602.17753",
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.17753",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Presents the 2025 AI Agent Index documenting origins, design, capabilities, ecosystem, and safety features of 30 state-of-the-art AI agents, providing the first systematic inventory of deployed agentic AI systems.",
+        "keywords": ["AI agents index", "safety features", "agentic AI", "systematic documentation", "deployed systems"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "web_search_ai_safety",
+          "collection_method": "web_search",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-033",
+      "arxiv_id": "2602.16729",
+      "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.16729",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Conducts a systematic study revealing that widely-used AI safety datasets do not faithfully reflect real-world attacks due to overuse of unrealistic triggering cues, undermining the reliability of safety evaluations.",
+        "keywords": ["AI safety datasets", "intent laundering", "evaluation reliability", "safety benchmarks", "adversarial attacks"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "web_search_ai_safety",
+          "collection_method": "web_search",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-034",
+      "arxiv_id": "2602.22268",
+      "title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters for Efficient LLM Fine-Tuning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22268",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Proposes AutoQRA for jointly optimizing mixed-precision quantization and low-rank adapters in LLM fine-tuning, achieving significant memory reduction while maintaining model performance.",
+        "keywords": ["quantization", "LoRA", "LLM fine-tuning", "memory efficiency", "model compression"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    },
+    {
+      "id": "arxiv-20260227-035",
+      "arxiv_id": "2602.22291",
+      "title": "Manifold of Failure: Behavioral Attraction Basins in Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22291",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Identifies and characterizes behavioral attraction basins in language models — regions in input space that lead to systematic failure modes — providing a geometric framework for understanding LLM failure patterns.",
+        "keywords": ["LLM failures", "attraction basins", "manifold theory", "failure modes", "model behavior analysis"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:34:45+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "source": "arxiv.org/list/cs.LG/new",
+          "collection_method": "web_fetch_listing",
+          "timestamp": "2026-02-27T18:34:45+00:00"
+        }
+      }
+    }
+  ]
+}

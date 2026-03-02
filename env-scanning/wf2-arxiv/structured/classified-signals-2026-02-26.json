@@ -1,0 +1,442 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf2-arxiv",
+  "classification_method": "steeps_primary_with_content_analysis",
+  "total_classified": 30,
+  "distribution": {
+    "T": 20,
+    "E_Environmental": 2,
+    "s": 2,
+    "E": 2,
+    "P": 2,
+    "S": 2
+  },
+  "signals": [
+    {
+      "id": "arxiv-20260226-001",
+      "title": "Computing with many encoded logical qubits beyond break-even",
+      "category": "T",
+      "sub_domain": "quantum error correction",
+      "keywords": [
+        "quantum error correction",
+        "logical qubits",
+        "break-even",
+        "high-rate codes"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22211",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-002",
+      "title": "Hybrid Consensus with Quantum Sybil Resistance",
+      "category": "T",
+      "sub_domain": "quantum consensus",
+      "keywords": [
+        "quantum consensus",
+        "Sybil resistance",
+        "blockchain",
+        "quantum cryptography"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22195",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-003",
+      "title": "Self-stabilized high-dimensional quantum key distribution on a metropolitan free-space link",
+      "category": "T",
+      "sub_domain": "quantum key distribution",
+      "keywords": [
+        "quantum key distribution",
+        "free-space QKD",
+        "high-dimensional encoding",
+        "metropolitan network"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22102",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-004",
+      "title": "Discovering new photovoltaics using optimal transport theory",
+      "category": "E_Environmental",
+      "sub_domain": "photovoltaics",
+      "keywords": [
+        "photovoltaics",
+        "optimal transport",
+        "materials discovery",
+        "solar cells"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22036",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-005",
+      "title": "Provable Last-Iterate Convergence for Multi-Objective Safe LLM Alignment via Optimistic Primal-Dual",
+      "category": "T",
+      "sub_domain": "RLHF",
+      "keywords": [
+        "RLHF",
+        "LLM alignment",
+        "safety",
+        "multi-objective optimization"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22146",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-006",
+      "title": "When AI Writes, Whose Voice Remains? Quantifying Cultural Marker Erasure Across World English Varieties in LLMs",
+      "category": "s",
+      "sub_domain": "LLM bias",
+      "keywords": [
+        "LLM bias",
+        "cultural erasure",
+        "linguistic diversity",
+        "World Englishes"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22145",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-007",
+      "title": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+      "category": "T",
+      "sub_domain": "GUI agents",
+      "keywords": [
+        "GUI agents",
+        "autonomous agents",
+        "reinforcement learning",
+        "computer use"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22190",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-008",
+      "title": "The economic alignment problem of artificial intelligence",
+      "category": "E",
+      "sub_domain": "AI alignment",
+      "keywords": [
+        "AI alignment",
+        "economic growth",
+        "welfare economics",
+        "systemic risk"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21843",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-009",
+      "title": "The Governance of Intimacy: A Preliminary Policy Analysis of Romantic AI Platforms",
+      "category": "P",
+      "sub_domain": "romantic AI",
+      "keywords": [
+        "romantic AI",
+        "AI governance",
+        "privacy",
+        "data protection",
+        "intimate technology"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22000",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-010",
+      "title": "Reimagining Data Work: Participatory Annotation Workshops as Feminist Practice",
+      "category": "S",
+      "sub_domain": "data labor",
+      "keywords": [
+        "data labor",
+        "AI ethics",
+        "annotation",
+        "feminist HCI"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22196",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-011",
+      "title": "Runaway electron generation in ITER mitigated disruptions with improved physics models",
+      "category": "T",
+      "sub_domain": "ITER",
+      "keywords": [
+        "ITER",
+        "fusion energy",
+        "runaway electrons",
+        "plasma disruptions"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22177",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-012",
+      "title": "One Brain, Omni Modalities: Towards Unified Non-Invasive Brain Decoding with Large Language Models",
+      "category": "T",
+      "sub_domain": "brain-computer interface",
+      "keywords": [
+        "brain-computer interface",
+        "neural decoding",
+        "LLM",
+        "EEG",
+        "fMRI",
+        "neurotechnology"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21522",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-013",
+      "title": "Modelling the Index of Sustainable Economic Welfare (ISEW) and its response to policies",
+      "category": "E",
+      "sub_domain": "sustainable welfare",
+      "keywords": [
+        "sustainable welfare",
+        "beyond GDP",
+        "economic indicators",
+        "policy modeling"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21971",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-014",
+      "title": "Stream Neural Networks: Epoch-Free Learning with Persistent Temporal State",
+      "category": "T",
+      "sub_domain": "continual learning",
+      "keywords": [
+        "continual learning",
+        "stream processing",
+        "neural architecture",
+        "online learning"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22152",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-015",
+      "title": "BEDCrypt: Privacy-preserving interval analytics with homomorphic encryption for genomics",
+      "category": "T",
+      "sub_domain": "genomic privacy",
+      "keywords": [
+        "genomic privacy",
+        "homomorphic encryption",
+        "bioinformatics",
+        "data security"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21994",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-016",
+      "title": "SWE-Protege: Learning to Selectively Collaborate With an Expert Unlocks Small LMs as Software Engineering Agents",
+      "category": "T",
+      "sub_domain": "software engineering agents",
+      "keywords": [
+        "software engineering agents",
+        "small language models",
+        "collaborative AI",
+        "code generation"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22124",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-017",
+      "title": "Are Foundation Models the Route to Full-Stack Transfer in Robotics?",
+      "category": "T",
+      "sub_domain": "foundation models",
+      "keywords": [
+        "foundation models",
+        "robotics",
+        "transfer learning",
+        "VLA models"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22001",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-018",
+      "title": "DySCO: Dynamic Attention-Scaling Decoding for Long-Context LMs",
+      "category": "T",
+      "sub_domain": "long context",
+      "keywords": [
+        "long context",
+        "attention mechanism",
+        "LLM inference",
+        "reasoning"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22175",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-019",
+      "title": "Generalisation of RLHF under Reward Shift and Clipped KL Regularisation",
+      "category": "T",
+      "sub_domain": "RLHF",
+      "keywords": [
+        "RLHF",
+        "reward shift",
+        "LLM alignment",
+        "generalization"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21765",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-020",
+      "title": "Hierarchical LLM-Based Multi-Agent Framework with Prompt Optimization for Multi-Robot Task Planning",
+      "category": "T",
+      "sub_domain": "multi-robot",
+      "keywords": [
+        "multi-robot",
+        "LLM agents",
+        "task planning",
+        "prompt optimization"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21670",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-021",
+      "title": "Enabling End-to-End APT Emulation in Industrial Environments: SIMPLE-ICS Testbed",
+      "category": "T",
+      "sub_domain": "ICS security",
+      "keywords": [
+        "ICS security",
+        "APT emulation",
+        "OT security",
+        "industrial cybersecurity"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22082",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-022",
+      "title": "Academic collaborations and movements towards successful careers in physics",
+      "category": "S",
+      "sub_domain": "academic careers",
+      "keywords": [
+        "academic careers",
+        "collaboration networks",
+        "physics workforce",
+        "career trajectories"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22031",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-023",
+      "title": "Can ranked-choice voting elect the least popular candidate?",
+      "category": "P",
+      "sub_domain": "ranked-choice voting",
+      "keywords": [
+        "ranked-choice voting",
+        "electoral systems",
+        "voting theory",
+        "democracy"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21504",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-024",
+      "title": "Extending Sequence Length is Not All You Need: Multimodal Signals for Gene Expression Prediction",
+      "category": "T",
+      "sub_domain": "gene expression",
+      "keywords": [
+        "gene expression",
+        "genomics",
+        "multimodal ML",
+        "epigenomics"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21550",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-025",
+      "title": "Phase-Dependent Excitonic Light Harvesting and Photovoltaic Limits in Monolayer Y2TeO2 MOenes",
+      "category": "T",
+      "sub_domain": "2D materials",
+      "keywords": [
+        "2D materials",
+        "photovoltaics",
+        "MOenes",
+        "excitonic",
+        "light harvesting"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22112",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-026",
+      "title": "Secure Semantic Communications via AI Defenses: Fundamentals, Solutions, and Future Directions",
+      "category": "T",
+      "sub_domain": "semantic communications",
+      "keywords": [
+        "semantic communications",
+        "AI security",
+        "6G",
+        "communication security"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22134",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-027",
+      "title": "Off-The-Shelf Image-to-Image Models Are All You Need To Defeat Image Protection Schemes",
+      "category": "s",
+      "sub_domain": "image protection",
+      "keywords": [
+        "image protection",
+        "generative AI",
+        "adversarial attacks",
+        "deepfakes",
+        "copyright protection"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22197",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-028",
+      "title": "Loss Mechanisms in High-coherence Multimode Mechanical Resonators Coupled to Superconducting Circuits",
+      "category": "T",
+      "sub_domain": "quantum acoustodynamics",
+      "keywords": [
+        "quantum acoustodynamics",
+        "superconducting circuits",
+        "quantum memory",
+        "phonon lifetime"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.22117",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-029",
+      "title": "Modeling plant disease spread via high-resolution human mobility networks",
+      "category": "E_Environmental",
+      "sub_domain": "plant disease",
+      "keywords": [
+        "plant disease",
+        "mobility networks",
+        "biosecurity",
+        "epidemiology",
+        "food security"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21491",
+      "published_date": "2026-02-25"
+    },
+    {
+      "id": "arxiv-20260226-030",
+      "title": "Noise-adaptive hybrid quantum convolutional neural networks based on depth-stratified feature extraction",
+      "category": "T",
+      "sub_domain": "quantum ML",
+      "keywords": [
+        "quantum ML",
+        "noise adaptation",
+        "QCNN",
+        "NISQ"
+      ],
+      "source_url": "https://arxiv.org/abs/2602.21953",
+      "published_date": "2026-02-25"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "workflow": "WF4",
+    "scan_date": "2026-02-27",
+    "ranking_timestamp": "2026-02-27T13:30:00+00:00",
+    "method": "pSST (priority Signal Scoring Table)",
+    "scoring_weights": {
+      "novelty": 0.20,
+      "impact_scope": 0.25,
+      "urgency": 0.20,
+      "credibility": 0.15,
+      "cross_impact": 0.10,
+      "fssf_priority": 0.10
+    },
+    "total_ranked": 30
+  },
+  "priority_ranking": [
+    {
+      "rank": 1,
+      "signal_id": "news-20260227-scotus-001",
+      "title": "US Supreme Court Strikes Down IEEPA Tariff Authority in Landmark 6-3 Ruling",
+      "composite_score": 9.4,
+      "scores": {"novelty": 10, "impact_scope": 10, "urgency": 10, "credibility": 10, "cross_impact": 9, "fssf_priority": 7},
+      "steeps": "P",
+      "fssf": "Driver",
+      "horizon": "H1",
+      "tipping_point": "ORANGE"
+    },
+    {
+      "rank": 2,
+      "signal_id": "news-20260227-trump-002",
+      "title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "composite_score": 9.2,
+      "scores": {"novelty": 9, "impact_scope": 10, "urgency": 10, "credibility": 9, "cross_impact": 9, "fssf_priority": 7},
+      "steeps": "E",
+      "fssf": "Driver",
+      "horizon": "H1",
+      "tipping_point": "YELLOW"
+    },
+    {
+      "rank": 3,
+      "signal_id": "news-20260227-iran-003",
+      "title": "IAEA Cannot Verify Iran Nuclear Suspension — Enrichment Status Unknown",
+      "composite_score": 9.0,
+      "scores": {"novelty": 8, "impact_scope": 9, "urgency": 10, "credibility": 10, "cross_impact": 8, "fssf_priority": 9},
+      "steeps": "P",
+      "fssf": "Discontinuity",
+      "horizon": "H1",
+      "tipping_point": "ORANGE"
+    },
+    {
+      "rank": 4,
+      "signal_id": "news-20260227-nk-004",
+      "title": "North Korea 9th Party Congress: Kim Declares Nuclear Status 'Irreversible'",
+      "composite_score": 8.8,
+      "scores": {"novelty": 7, "impact_scope": 9, "urgency": 9, "credibility": 9, "cross_impact": 8, "fssf_priority": 9},
+      "steeps": "P",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "tipping_point": "ORANGE"
+    },
+    {
+      "rank": 5,
+      "signal_id": "news-20260227-china-005",
+      "title": "China Positions AI as Core of 15th Five-Year Plan",
+      "composite_score": 8.5,
+      "scores": {"novelty": 7, "impact_scope": 9, "urgency": 7, "credibility": 9, "cross_impact": 9, "fssf_priority": 7},
+      "steeps": "T",
+      "fssf": "Trend",
+      "horizon": "H2",
+      "tipping_point": "GREEN"
+    },
+    {
+      "rank": 6,
+      "signal_id": "news-20260227-quantum-007",
+      "title": "IBM Declares 2026 as Year of Quantum Advantage",
+      "composite_score": 8.3,
+      "scores": {"novelty": 9, "impact_scope": 8, "urgency": 6, "credibility": 8, "cross_impact": 8, "fssf_priority": 9},
+      "steeps": "T",
+      "fssf": "Megatrend",
+      "horizon": "H3",
+      "tipping_point": "GREEN"
+    },
+    {
+      "rank": 7,
+      "signal_id": "news-20260227-samsung-spy-023",
+      "title": "Ten Former Samsung Employees Arrested for DRAM Espionage to China",
+      "composite_score": 8.1,
+      "scores": {"novelty": 8, "impact_scope": 8, "urgency": 8, "credibility": 9, "cross_impact": 8, "fssf_priority": 6},
+      "steeps": "T",
+      "fssf": "Emerging Issue",
+      "horizon": "H1",
+      "tipping_point": "YELLOW"
+    },
+    {
+      "rank": 8,
+      "signal_id": "news-20260227-japan-006",
+      "title": "Japan PM Takaichi's 'Japan First' Party Wins Supermajority",
+      "composite_score": 7.9,
+      "scores": {"novelty": 8, "impact_scope": 8, "urgency": 7, "credibility": 9, "cross_impact": 8, "fssf_priority": 7},
+      "steeps": "P",
+      "fssf": "Driver",
+      "horizon": "H1",
+      "tipping_point": "GREEN"
+    },
+    {
+      "rank": 9,
+      "signal_id": "news-20260227-ukraine-008",
+      "title": "Zelensky Demands Clear EU Accession Date — Proposes 2027",
+      "composite_score": 7.7,
+      "scores": {"novelty": 7, "impact_scope": 8, "urgency": 8, "credibility": 8, "cross_impact": 7, "fssf_priority": 7},
+      "steeps": "P",
+      "fssf": "Precursor Event",
+      "horizon": "H1",
+      "tipping_point": "GREEN"
+    },
+    {
+      "rank": 10,
+      "signal_id": "news-20260227-pakistan-011",
+      "title": "Pakistan-Taliban Tensions Escalate into Open Conflict",
+      "composite_score": 7.6,
+      "scores": {"novelty": 7, "impact_scope": 7, "urgency": 9, "credibility": 8, "cross_impact": 6, "fssf_priority": 9},
+      "steeps": "P",
+      "fssf": "Wild Card",
+      "horizon": "H1",
+      "tipping_point": "YELLOW"
+    },
+    {
+      "rank": 11,
+      "signal_id": "news-20260227-ocean-017",
+      "title": "High Seas Treaty Enters Into Force",
+      "composite_score": 7.5,
+      "steeps": "E_Environmental",
+      "fssf": "Megatrend",
+      "horizon": "H3"
+    },
+    {
+      "rank": 12,
+      "signal_id": "news-20260227-ai-agents-020",
+      "title": "AI Agent Democratization Accelerates",
+      "composite_score": 7.4,
+      "steeps": "T",
+      "fssf": "Emerging Issue",
+      "horizon": "H2"
+    },
+    {
+      "rank": 13,
+      "signal_id": "news-20260227-eu-tariff-016",
+      "title": "Trump Pushes 15-20% Minimum Tariff on All EU Goods",
+      "composite_score": 7.3,
+      "steeps": "E",
+      "fssf": "Driver",
+      "horizon": "H1"
+    },
+    {
+      "rank": 14,
+      "signal_id": "news-20260227-china-pla-022",
+      "title": "China NPC Removes 9 PLA Deputies, US Arrests Major for Training PLAAF",
+      "composite_score": 7.2,
+      "steeps": "P",
+      "fssf": "Discontinuity",
+      "horizon": "H1"
+    },
+    {
+      "rank": 15,
+      "signal_id": "news-20260227-samsung-010",
+      "title": "Samsung Galaxy S26 Unveils AI-Driven Workflow Takeover",
+      "composite_score": 7.0,
+      "steeps": "T",
+      "fssf": "Trend",
+      "horizon": "H1"
+    },
+    {
+      "rank": 16,
+      "signal_id": "news-20260227-us-laser-012",
+      "title": "US Military Uses Laser to Shoot Down Border Patrol Drone",
+      "composite_score": 6.9,
+      "steeps": "P",
+      "fssf": "Wild Card",
+      "horizon": "H1"
+    },
+    {
+      "rank": 17,
+      "signal_id": "news-20260227-world-models-021",
+      "title": "World Models Era Begins — World Labs Launches Marble",
+      "composite_score": 6.8,
+      "steeps": "T",
+      "fssf": "Weak Signal",
+      "horizon": "H3"
+    },
+    {
+      "rank": 18,
+      "signal_id": "news-20260227-openai-kr-024",
+      "title": "OpenAI, Samsung and SK Build AI Data Centres in Korea",
+      "composite_score": 6.7,
+      "steeps": "T",
+      "fssf": "Trend",
+      "horizon": "H1"
+    },
+    {
+      "rank": 19,
+      "signal_id": "news-20260227-saf-018",
+      "title": "Sustainable Aviation Fuel Surpasses 500K Tonnes CO2 Abated",
+      "composite_score": 6.6,
+      "steeps": "E_Environmental",
+      "fssf": "Trend",
+      "horizon": "H2"
+    },
+    {
+      "rank": 20,
+      "signal_id": "news-20260227-lobito-015",
+      "title": "Lobito Corridor Fast-Tracked by Zambia, Angola, DRC",
+      "composite_score": 6.5,
+      "steeps": "E",
+      "fssf": "Weak Signal",
+      "horizon": "H2"
+    },
+    {
+      "rank": 21,
+      "signal_id": "news-20260227-argentina-013",
+      "title": "Argentina Senate Weighs Milei's Labor Overhaul",
+      "composite_score": 6.4,
+      "steeps": "E",
+      "fssf": "Precursor Event",
+      "horizon": "H1"
+    },
+    {
+      "rank": 22,
+      "signal_id": "news-20260227-africa-014",
+      "title": "South Africa Debt Peaks After 17 Years",
+      "composite_score": 6.3,
+      "steeps": "E",
+      "fssf": "Trend",
+      "horizon": "H2"
+    },
+    {
+      "rank": 23,
+      "signal_id": "news-20260227-denmark-009",
+      "title": "Denmark Eliminates Mother-to-Child HIV/Syphilis Transmission",
+      "composite_score": 6.2,
+      "steeps": "S",
+      "fssf": "Precursor Event",
+      "horizon": "H2"
+    },
+    {
+      "rank": 24,
+      "signal_id": "news-20260227-eu-abort-019",
+      "title": "EU 'My Voice My Choice' Gathers 1.1M Signatures",
+      "composite_score": 6.1,
+      "steeps": "S",
+      "fssf": "Emerging Issue",
+      "horizon": "H1"
+    },
+    {
+      "rank": 25,
+      "signal_id": "news-20260227-carbon-030",
+      "title": "Global Carbon Markets Advance — GHG Protocol Scope 2 Updates",
+      "composite_score": 6.0,
+      "steeps": "E_Environmental",
+      "fssf": "Emerging Issue",
+      "horizon": "H2"
+    },
+    {
+      "rank": 26,
+      "signal_id": "news-20260227-physical-ai-033",
+      "title": "Physical AI Goes Mainstream — Smart Glasses, Health Rings",
+      "composite_score": 5.9,
+      "steeps": "T",
+      "fssf": "Weak Signal",
+      "horizon": "H3"
+    },
+    {
+      "rank": 27,
+      "signal_id": "news-20260227-gaza-031",
+      "title": "Israel Supreme Court Allows Aid Groups in Gaza",
+      "composite_score": 5.8,
+      "steeps": "P",
+      "fssf": "Discontinuity",
+      "horizon": "H1"
+    },
+    {
+      "rank": 28,
+      "signal_id": "news-20260227-nigeria-025",
+      "title": "Nigeria Extends Raw Shea Nut Export Ban",
+      "composite_score": 5.6,
+      "steeps": "E",
+      "fssf": "Emerging Issue",
+      "horizon": "H2"
+    },
+    {
+      "rank": 29,
+      "signal_id": "news-20260227-somalia-026",
+      "title": "Somalia-Kenya Border Crossings to Reopen",
+      "composite_score": 5.5,
+      "steeps": "P",
+      "fssf": "Weak Signal",
+      "horizon": "H2"
+    },
+    {
+      "rank": 30,
+      "signal_id": "news-20260227-latam-growth-029",
+      "title": "Latin America ~2.3% Growth Continues",
+      "composite_score": 5.3,
+      "steeps": "E",
+      "fssf": "Trend",
+      "horizon": "H2"
+    }
+  ]
+}

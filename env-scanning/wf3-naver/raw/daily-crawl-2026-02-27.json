@@ -1,0 +1,564 @@
+{
+  "scan_metadata": {
+    "workflow": "WF3",
+    "scan_date": "2026-02-27",
+    "scan_window": {
+      "start": "2026-02-26T18:34:45+00:00",
+      "end": "2026-02-27T18:34:45+00:00"
+    },
+    "anchor_timestamp": "2026-02-27T18:34:45+00:00",
+    "lookback_hours": 24,
+    "source": "NaverNews",
+    "crawl_strategy": "WebSearch-fallback",
+    "execution_proof": {
+      "started_at": "2026-02-27T18:34:45+00:00",
+      "completed_at": "2026-02-27T18:50:00+00:00",
+      "sections_crawled": 6,
+      "total_articles_collected": 32,
+      "dedup_removed": 2,
+      "net_new_signals": 30
+    }
+  },
+  "items": [
+    {
+      "id": "naver-20260227-100-001",
+      "title": "윤석열 내란 1심 무기징역 항소심 돌입 -- 검찰·피고 양측 항소",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "section_id": 100,
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "12.3 비상계엄 내란 사건으로 1심에서 무기징역을 선고받은 윤석열 전 대통령이 항소했으며, 조은석 특검팀도 항소장을 제출. 항소심은 윤석열 전 대통령 측의 사실오인 주장과 특검 측의 양형부당 주장이 쟁점이 될 전망.",
+        "keywords": ["윤석열", "내란", "무기징역", "항소심", "비상계엄"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:00+00:00"
+    },
+    {
+      "id": "naver-20260227-100-002",
+      "title": "6·3 지방선거 공천 가속 -- 더불어민주당 강원도지사 우상호 단수공천",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "section_id": 100,
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "더불어민주당이 6·3 지방선거를 앞두고 강원도지사 후보로 우상호 전 청와대 정무수석을 단수 공천. 각 정당 공천 경쟁이 본격화되면서 예비후보 등록이 활발히 진행 중.",
+        "keywords": ["지방선거", "공천", "더불어민주당", "우상호", "강원도지사"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:05+00:00"
+    },
+    {
+      "id": "naver-20260227-100-003",
+      "title": "한-캐나다 외교·국방 2+2 장관회의 -- 잠수함 사업 협력 본격화",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "section_id": 100,
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "안규백 국방장관과 조현 외교장관이 캐나다 오타와에서 2+2 장관회의를 개최. 최대 60조원 규모 캐나다 초계잠수함 프로젝트(CPSP) 수주를 위한 전방위 외교 전개. 한화오션·HD현대중공업 컨소시엄과 독일 TKMS 간 최종 2파전.",
+        "keywords": ["한캐나다", "2+2 장관회의", "잠수함", "CPSP", "방산수출"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:10+00:00"
+    },
+    {
+      "id": "naver-20260227-100-004",
+      "title": "김병기 의원 취업청탁·편입특혜 의혹 -- 경찰 연이틀 피의자 소환",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "section_id": 100,
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "김병기 무소속 의원이 차남의 취업 청탁과 편입 특혜 의혹, 공천헌금과 배우자 법인카드 유용 의혹으로 연이틀 경찰에 피의자 신분으로 출석.",
+        "keywords": ["김병기", "취업청탁", "편입특혜", "의원비리"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:15+00:00"
+    },
+    {
+      "id": "naver-20260227-101-001",
+      "title": "한국은행 기준금리 2.5% 동결 -- 6회 연속, 완화 사이클 장기 중단",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "한국은행이 기준금리를 2.5%로 6회 연속 동결. 만장일치 결정으로 반도체 부문 성장과 안정적 인플레이션에 대한 자신감을 반영. 2026년 GDP 성장률 2.0%, 평균 인플레이션 2.2% 전망.",
+        "keywords": ["기준금리", "한국은행", "동결", "통화정책", "인플레이션"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:36:00+00:00"
+    },
+    {
+      "id": "naver-20260227-101-002",
+      "title": "UAE 방산·원전·AI 650억달러 협력 타결 -- K-방산 중동 교두보 확보",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "이재명 대통령 전략경제특사단이 UAE와 방산 350억달러, 투자 협력 300억달러 등 총 650억달러 규모 전방위 사업협력 타결. 한화에어로스페이스·LIG넥스원 등 K-방산 기업의 UAE 국방 인프라 참여 본격화. KF-21 중동 수출 기대감 고조.",
+        "keywords": ["UAE", "방산수출", "650억달러", "K-방산", "KF-21"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:36:05+00:00"
+    },
+    {
+      "id": "naver-20260227-101-003",
+      "title": "쿠팡 4분기 영업이익 97% 급감 -- 3370만 개인정보 유출 후폭풍",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "쿠팡이 3370만건 대규모 개인정보 유출 사태 영향으로 4분기 영업이익이 전년 동기 대비 97% 급감한 115억원 기록. 김범석 의장이 첫 육성 사과. 개인정보보호위원회 역대 최대 과징금 부과 검토 중. 미국 투자자들 수십억 달러 손실 주장하며 집단소송.",
+        "keywords": ["쿠팡", "개인정보유출", "영업이익", "과징금", "집단소송"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:36:10+00:00"
+    },
+    {
+      "id": "naver-20260227-101-004",
+      "title": "미 무역대표부 국가별 차등관세 시사 -- 15% 우회관세 추가 인상 전망",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "미 대법원의 IEEPA 관세 위법 판결 이후, 트럼프 행정부가 무역법 122조 기반 10% 임시관세를 15%로 인상. USTR 대표는 국가별 차등관세 검토 시사. 무역법 301조·무역확장법 232조 추가 적용 가능성. 한국 기업 불확실성 가중.",
+        "keywords": ["관세", "IEEPA", "트럼프", "무역법", "차등관세"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:36:15+00:00"
+    },
+    {
+      "id": "naver-20260227-101-005",
+      "title": "IMF '트럼프 관세가 미국 성장 저해' -- 정책 전환 촉구",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "IMF가 트럼프 행정부의 관세 정책이 미국 경제 성장을 저해하고 있다며 정책 변경을 촉구. 글로벌 무역 불확실성이 각국 기업 투자와 소비자 심리에 부정적 영향.",
+        "keywords": ["IMF", "관세", "경제성장", "무역불확실성"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:36:20+00:00"
+    },
+    {
+      "id": "naver-20260227-102-001",
+      "title": "고독사위기대응시스템 개통 -- 1인가구 위기 조기발굴 착수",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "보건복지부와 한국사회보장정보원이 고독사 위험군을 조기 발굴하고 상담·위험군 판정·사례관리를 지원하는 고독사위기대응시스템을 2월 27일 개통. 급증하는 1인 가구와 고독사 문제에 대한 정부 차원의 체계적 대응.",
+        "keywords": ["고독사", "위기대응시스템", "1인가구", "사회안전망"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:37:00+00:00"
+    },
+    {
+      "id": "naver-20260227-102-002",
+      "title": "김포 골드라인 혼잡도 현장점검 -- 국무총리 직접 출퇴근 실태 확인",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "김민석 국무총리가 김포 골드라인 출퇴근 시간대 혼잡도를 현장 점검. 수도권 교통 인프라 부족 문제와 GTX·신규 노선 확충 논의 본격화.",
+        "keywords": ["김포골드라인", "교통혼잡", "국무총리", "수도권교통"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:37:05+00:00"
+    },
+    {
+      "id": "naver-20260227-102-003",
+      "title": "일본 출생아 70만5000명 -- 10년 연속 최저, 추계보다 17년 빨라",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "일본 2025년 출생아 수가 70만5809명으로 10년 연속 역대 최저치 경신. 정부 추계(2042년)보다 17년 앞당겨진 인구위기. 한국도 합계출산율 0.72명으로 세계 최저 수준이어서 동아시아 저출산 위기 심화.",
+        "keywords": ["일본출산율", "저출산", "인구위기", "동아시아"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:37:10+00:00"
+    },
+    {
+      "id": "naver-20260227-102-004",
+      "title": "수산자원관리기본계획(2026-2030) 수립 시행 -- 향후 5년 수산정책 방향 제시",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "해양수산부가 제4차 수산자원관리기본계획(2026~2030)을 수립하여 시행. 기후변화에 따른 어종 변화 대응과 지속가능한 수산자원 관리 정책 본격 추진.",
+        "keywords": ["수산자원", "기본계획", "해양수산부", "기후변화"],
+        "language": "ko"
+      },
+      "preliminary_category": "Ec",
+      "collected_at": "2026-02-27T18:37:15+00:00"
+    },
+    {
+      "id": "naver-20260227-103-001",
+      "title": "3월 1일부터 반려동물 동반 음식점·카페 합법화 -- 위생·안전 기준 공식화",
+      "source": {
+        "name": "NaverNews/생활문화",
+        "type": "naver",
+        "section_id": 103,
+        "url": "https://n.news.naver.com/section/103",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "식품위생법 시행규칙 개정으로 3월 1일부터 위생·안전 기준을 충족한 음식점·카페·제과점에서 예방접종 완료 반려동물(개·고양이) 동반 출입 허용. 칸막이·울타리 설치, 전용 의자·케이지 구비 등 시설요건 충족 필요. 위반 시 영업정지 처분 가능.",
+        "keywords": ["반려동물", "음식점", "동반출입", "식품위생법", "펫프렌들리"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:38:00+00:00"
+    },
+    {
+      "id": "naver-20260227-103-002",
+      "title": "마을기업의 날 제정 대국민 공모 -- 행안부 법정기념일 날짜·의미 공모",
+      "source": {
+        "name": "NaverNews/생활문화",
+        "type": "naver",
+        "section_id": 103,
+        "url": "https://n.news.naver.com/section/103",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "행정안전부가 법정기념일인 '마을기업의 날'의 날짜와 의미를 국민이 직접 정하는 대국민 공모를 진행. 지역공동체 활성화와 사회적 경제 확산 기대.",
+        "keywords": ["마을기업", "법정기념일", "대국민공모", "지역공동체"],
+        "language": "ko"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:38:05+00:00"
+    },
+    {
+      "id": "naver-20260227-104-001",
+      "title": "미 대법원 IEEPA 관세 위법 판결 후 무역법 122조 우회 -- 글로벌 통상질서 혼란",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "미 연방대법원이 IEEPA 기반 상호관세를 6대3으로 위법 판결했으나, 트럼프 행정부가 무역법 122조 기반 10→15% 우회관세를 즉각 시행. 최대 150일간(7월 24일까지) 유효. 글로벌 통상질서에 전례 없는 혼란. 한국 등 무역 협정국에 불확실성 고조.",
+        "keywords": ["대법원", "IEEPA", "관세", "무역법122조", "통상질서"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:39:00+00:00"
+    },
+    {
+      "id": "naver-20260227-104-002",
+      "title": "김정은 '한국 완전 파괴 가능' 경고 -- 50기 핵탑재 미사일 배치·순항미사일 시험",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "김정은이 제9차 당대회에서 절대 지도력 재확인 후, 50대 핵탑재 가능 단거리 미사일 발사차량 배치(2/18)와 장거리 탐지회피형 순항미사일 시험(2/24)을 연쇄 실시. 이재명 정부의 유화 자세를 '서투른 기만극'으로 비판하며 선제공격 가능성 시사.",
+        "keywords": ["김정은", "핵미사일", "선제공격", "순항미사일", "당대회"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:39:05+00:00"
+    },
+    {
+      "id": "naver-20260227-104-003",
+      "title": "미국인 영국 시민권 신청 역대 최다 -- 트럼프 2기 정치적 이민 가속",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "미국인의 영국 시민권 신청이 역대 최다를 기록. 트럼프 2기 정치·사회 환경 변화에 따른 고소득·고학력층의 '정치적 이민' 현상 가속화.",
+        "keywords": ["미국이민", "영국시민권", "정치적이민", "트럼프"],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:39:10+00:00"
+    },
+    {
+      "id": "naver-20260227-104-004",
+      "title": "미 국무부 이스라엘 주재 대사관 직원 부분 철수 권고",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "미국 국무부가 이스라엘 주재 미국 대사관 직원들의 부분적 철수를 권고. 중동 정세 불안정 심화와 이스라엘-하마스 갈등 장기화에 따른 안전 조치.",
+        "keywords": ["이스라엘", "대사관", "철수", "중동정세"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:39:15+00:00"
+    },
+    {
+      "id": "naver-20260227-104-005",
+      "title": "캐나다-한국 방위 협정 체결 -- 군사 협력·공동 훈련·방산 협력 확대",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "한국과 캐나다가 공식 방위 협정을 체결. 양국 군사 협력 강화, 공동 훈련 확대, 방산 기술 협력 등 포괄적 안보 파트너십 구축. 60조원 규모 잠수함 사업과 연계.",
+        "keywords": ["한캐나다", "방위협정", "군사협력", "방산"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:39:20+00:00"
+    },
+    {
+      "id": "naver-20260227-105-001",
+      "title": "i-SMR 표준설계 인가 신청 -- 순수 국내기술 소형모듈원전 상용화 시동",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "혁신형소형모듈원자로(i-SMR) 기술개발사업단이 원자력안전위원회에 순수 국내 기술로 개발 중인 i-SMR의 표준설계 인가를 공식 신청. 2028년 설계인가 목표, 2030년 글로벌 시장 진출 추진. AI 데이터센터 전력 수요 급증에 따른 차세대 에너지원으로 부상.",
+        "keywords": ["i-SMR", "소형모듈원자로", "표준설계인가", "원자력", "에너지"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:40:00+00:00"
+    },
+    {
+      "id": "naver-20260227-105-002",
+      "title": "한·일 ICT·AI·6G 협력 강화 -- 제2차 ICT 정책포럼 개최",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "과학기술정보통신부가 일본 총무성과 제2차 한·일 ICT 정책포럼 개최. AI·6G 등 첨단기술 분야 양국 협력 확대 합의. 국가과학기술자문회의에서 논의.",
+        "keywords": ["한일협력", "ICT", "6G", "AI", "정책포럼"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:40:05+00:00"
+    },
+    {
+      "id": "naver-20260227-105-003",
+      "title": "SKT 500B 초거대 AI 모델 'A.X K1' 국내외 호평 -- 글로벌 3강 출사표",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "SKT 정예팀이 공개한 국내 최초 519B 파라미터 초거대 AI 모델 'A.X K1'이 국내외 호평. 수학 벤치마크(AIME25) 89.8점으로 DeepSeek-V3.1(88.4점) 상회. 1000 GPU로 10조 토큰 학습. 오픈소스 공개 예정. 연내 조 단위 파라미터 모델 확장 계획.",
+        "keywords": ["SKT", "A.X K1", "초거대AI", "오픈소스", "500B"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:40:10+00:00"
+    },
+    {
+      "id": "naver-20260227-105-004",
+      "title": "ICT R&D 예산 1.6조 확정 -- AI 반도체·6G 투자 강화",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "과기정통부가 2026년 ICT R&D 예산 1.6조원을 확정. AI 반도체, 6G, 양자컴퓨팅 등 핵심 기술 분야에 집중 투자. AI 주권 경쟁 본격화 대응.",
+        "keywords": ["ICT", "R&D", "예산", "AI반도체", "6G"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:40:15+00:00"
+    },
+    {
+      "id": "naver-20260227-105-005",
+      "title": "2026년 반도체 산업 AI 인프라 확장 -- HBM 수요 폭증·NAND 고단화 가속",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "2026년 반도체 산업이 AI 인프라 확장 → 서버 DRAM·HBM 수요 폭증 → NAND 고단화 → 소부장 실적 레버리지 확대의 구조적 변화 국면. 두산에너빌리티 등 에너지·조선주에 외국인 집중 매수.",
+        "keywords": ["반도체", "HBM", "AI인프라", "NAND", "소부장"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:40:20+00:00"
+    },
+    {
+      "id": "naver-20260227-104-006",
+      "title": "에너지 대전환 2026 원년 선포 -- 재생에너지 100GW 목표 로드맵",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "section_id": 104,
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "한국 정부가 2026년을 에너지 대전환 원년으로 선포하고 재생에너지 100GW 달성 로드맵 발표. SMR·재생에너지·수소경제 3축 에너지 전략 본격 추진.",
+        "keywords": ["에너지대전환", "재생에너지", "100GW", "수소경제", "SMR"],
+        "language": "ko"
+      },
+      "preliminary_category": "Ec",
+      "collected_at": "2026-02-27T18:39:25+00:00"
+    },
+    {
+      "id": "naver-20260227-102-005",
+      "title": "정동영 장관 영국 전 총리 면담 -- 미중 정상회담 계기 한반도 평화 기대",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "section_id": 102,
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "정동영 통일부 장관이 영국 전 총리와 면담. 미중 정상회담을 계기로 한반도 평화 프로세스 재개에 대한 기대감 표명. 국제사회의 한반도 비핵화 지지 확보 노력.",
+        "keywords": ["한반도평화", "미중정상회담", "통일부", "비핵화"],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:37:20+00:00"
+    },
+    {
+      "id": "naver-20260227-101-006",
+      "title": "두산에너빌리티 외국인 1502억 순매수 -- SMR·원전주 글로벌 자금 유입",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "section_id": 101,
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "두산에너빌리티에 외국인이 주간 1502억원 순매수 기록. SMR 상용화 기대와 AI 데이터센터 전력 수요 증가로 원전·에너지 관련주에 글로벌 투자금 대거 유입.",
+        "keywords": ["두산에너빌리티", "외국인매수", "SMR", "원전주"],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:36:25+00:00"
+    },
+    {
+      "id": "naver-20260227-105-006",
+      "title": "AI 주권 경쟁 전면 가속 -- 2026 국가 AI 전략 경쟁 원년",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "section_id": 105,
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "2026년 국가 간 AI 주권 경쟁이 전면 가속화. 각국이 자국 데이터·인프라 기반 독자 AI 생태계 구축에 나서면서, 미국·중국·한국·EU 간 기술 패권 경쟁 심화. SKT A.X K1 등 자주 AI 모델 등장이 상징적.",
+        "keywords": ["AI주권", "기술패권", "국가전략", "AI생태계"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:40:25+00:00"
+    },
+    {
+      "id": "naver-20260227-103-003",
+      "title": "쿠팡 개인정보 대만까지 확산 -- 대만 법적처분 예고",
+      "source": {
+        "name": "NaverNews/생활문화",
+        "type": "naver",
+        "section_id": 103,
+        "url": "https://n.news.naver.com/section/103",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "쿠팡 개인정보 유출 사태가 대만으로 확산. 대만 당국이 법적 처분을 예고하며 국제적 개인정보 보호 이슈로 확대. DB 백업키가 동일했던 것이 유출 원인으로 지목.",
+        "keywords": ["쿠팡", "개인정보유출", "대만", "국제화", "데이터보호"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:38:10+00:00"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "date": "2026-03-01",
+    "workflow": "wf1-general",
+    "phase": "2.1-classification",
+    "total_signals": 25,
+    "steeps_distribution": {
+      "T_Technological": 9,
+      "P_Political": 6,
+      "E_Environmental": 4,
+      "E_Economic": 2,
+      "S_Social": 3,
+      "s_spiritual": 2
+    }
+  },
+  "classified_signals": [
+    {"id": "wf1-20260301-001", "primary_category": "T", "secondary_categories": ["E"], "confidence": 0.95, "keywords_matched": ["AI", "funding", "venture capital"]},
+    {"id": "wf1-20260301-002", "primary_category": "T", "secondary_categories": ["E_Environmental", "E"], "confidence": 0.92, "keywords_matched": ["data centers", "AI infrastructure", "energy"]},
+    {"id": "wf1-20260301-003", "primary_category": "s", "secondary_categories": ["P", "T"], "confidence": 0.88, "keywords_matched": ["AI ethics", "autonomous weapons", "values"]},
+    {"id": "wf1-20260301-004", "primary_category": "P", "secondary_categories": ["T"], "confidence": 0.93, "keywords_matched": ["regulation", "governance", "AI regulation"]},
+    {"id": "wf1-20260301-005", "primary_category": "E_Environmental", "secondary_categories": ["T", "E"], "confidence": 0.96, "keywords_matched": ["CO2 emissions", "renewable energy", "decarbonization"]},
+    {"id": "wf1-20260301-006", "primary_category": "P", "secondary_categories": ["E", "S"], "confidence": 0.91, "keywords_matched": ["geopolitics", "global risks", "fragmentation"]},
+    {"id": "wf1-20260301-007", "primary_category": "E", "secondary_categories": ["T", "P"], "confidence": 0.94, "keywords_matched": ["GDP growth", "financial stability", "inflation"]},
+    {"id": "wf1-20260301-008", "primary_category": "T", "secondary_categories": ["E_Environmental", "S"], "confidence": 0.97, "keywords_matched": ["breakthrough technology", "innovation", "biotechnology"]},
+    {"id": "wf1-20260301-009", "primary_category": "E_Environmental", "secondary_categories": ["P", "S"], "confidence": 0.98, "keywords_matched": ["global warming", "climate change", "temperature"]},
+    {"id": "wf1-20260301-010", "primary_category": "T", "secondary_categories": ["S"], "confidence": 0.90, "keywords_matched": ["brain-computer interface", "neurotechnology", "robotics"]},
+    {"id": "wf1-20260301-011", "primary_category": "S", "secondary_categories": ["P", "E"], "confidence": 0.89, "keywords_matched": ["health emergencies", "public health", "humanitarian"]},
+    {"id": "wf1-20260301-012", "primary_category": "P", "secondary_categories": ["T"], "confidence": 0.95, "keywords_matched": ["EU AI Act", "regulation", "governance"]},
+    {"id": "wf1-20260301-013", "primary_category": "T", "secondary_categories": ["S"], "confidence": 0.93, "keywords_matched": ["aging", "biomedical research", "cellular atlas"]},
+    {"id": "wf1-20260301-014", "primary_category": "T", "secondary_categories": ["P"], "confidence": 0.91, "keywords_matched": ["cybersecurity", "AI security", "zero-day"]},
+    {"id": "wf1-20260301-015", "primary_category": "S", "secondary_categories": ["T"], "confidence": 0.94, "keywords_matched": ["teen AI usage", "digital divide", "generational gap"]},
+    {"id": "wf1-20260301-016", "primary_category": "E_Environmental", "secondary_categories": ["P"], "confidence": 0.96, "keywords_matched": ["Paris Agreement", "climate diplomacy", "COP30"]},
+    {"id": "wf1-20260301-017", "primary_category": "P", "secondary_categories": ["T", "E_Environmental"], "confidence": 0.88, "keywords_matched": ["energy policy", "data centers", "electricity"]},
+    {"id": "wf1-20260301-018", "primary_category": "T", "secondary_categories": ["E"], "confidence": 0.92, "keywords_matched": ["AI chips", "semiconductor", "startup funding"]},
+    {"id": "wf1-20260301-019", "primary_category": "P", "secondary_categories": ["S"], "confidence": 0.87, "keywords_matched": ["governance", "democracy", "participation"]},
+    {"id": "wf1-20260301-020", "primary_category": "S", "secondary_categories": ["E"], "confidence": 0.93, "keywords_matched": ["poverty", "inequality", "development"]},
+    {"id": "wf1-20260301-021", "primary_category": "E_Environmental", "secondary_categories": ["P", "E"], "confidence": 0.95, "keywords_matched": ["energy transition", "renewable energy", "climate policy"]},
+    {"id": "wf1-20260301-022", "primary_category": "T", "secondary_categories": ["E_Environmental", "s"], "confidence": 0.89, "keywords_matched": ["genetic engineering", "de-extinction", "biotechnology"]},
+    {"id": "wf1-20260301-023", "primary_category": "P", "secondary_categories": ["S", "E"], "confidence": 0.90, "keywords_matched": ["immigration policy", "labor market", "regulation"]},
+    {"id": "wf1-20260301-024", "primary_category": "E", "secondary_categories": ["P"], "confidence": 0.91, "keywords_matched": ["monetary policy", "inflation", "central banks"]},
+    {"id": "wf1-20260301-025", "primary_category": "s", "secondary_categories": ["T", "S"], "confidence": 0.86, "keywords_matched": ["AI consciousness", "ethics", "values"]}
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "scan_date": "2026-02-27",
+  "workflow": "wf1-general",
+  "ranking_method": "pSST_weighted",
+  "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10},
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "nature-20260227-001",
+      "title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months — Record Collapse",
+      "category": "E_Environmental",
+      "priority_score": 95.5,
+      "psst_grade": "A",
+      "psst_score": 92,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 2,
+      "id": "carbon-20260227-001",
+      "title": "China's CO2 Emissions 'Flat or Falling' as Clean Energy Surpasses Coal Capacity",
+      "category": "E_Environmental",
+      "priority_score": 91.0,
+      "psst_grade": "A",
+      "psst_score": 90,
+      "signal_status": "strengthening"
+    },
+    {
+      "rank": 3,
+      "id": "carbon-20260227-003",
+      "title": "EU Climate Advisory Board Urges Countries to Prepare for 3C Warming",
+      "category": "E_Environmental",
+      "priority_score": 89.5,
+      "psst_grade": "B",
+      "psst_score": 86,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 4,
+      "id": "fed-20260227-001",
+      "title": "NRC Proposes Regulatory Framework for Fusion Machines",
+      "category": "P_Political",
+      "priority_score": 87.5,
+      "psst_grade": "B",
+      "psst_score": 88,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 5,
+      "id": "tech-20260227-001",
+      "title": "Meta Signs Multi-Year Deal to Rent Google TPU AI Chips",
+      "category": "T_Technological",
+      "priority_score": 87.0,
+      "psst_grade": "B",
+      "psst_score": 82,
+      "signal_status": "developing"
+    },
+    {
+      "rank": 6,
+      "id": "pubmed-20260227-001",
+      "title": "In Vivo CAR-T Therapy Eliminates Ex Vivo Steps — Scalable Cancer Treatment",
+      "category": "T_Technological",
+      "priority_score": 86.5,
+      "psst_grade": "B",
+      "psst_score": 85,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 7,
+      "id": "ethics-20260227-001",
+      "title": "AI Governance Shifts from Principles to Enforceable Technical Requirements",
+      "category": "s_spiritual",
+      "priority_score": 86.0,
+      "psst_grade": "B",
+      "psst_score": 84,
+      "signal_status": "developing"
+    },
+    {
+      "rank": 8,
+      "id": "ieee-20260227-002",
+      "title": "First Deuterium-Tritium Fusion Fuel Cycle Demonstration Planned for Late 2026",
+      "category": "T_Technological",
+      "priority_score": 84.0,
+      "psst_grade": "B",
+      "psst_score": 86,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 9,
+      "id": "ieee-20260227-001",
+      "title": "Tensor Plans SAE Level 4 Autonomous Car Release in H2 2026",
+      "category": "T_Technological",
+      "priority_score": 82.5,
+      "psst_grade": "B",
+      "psst_score": 80,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 10,
+      "id": "wef-20260227-001",
+      "title": "WEF Global Risks 2026: Geoeconomic Confrontation Tops Short-Term Risks",
+      "category": "P_Political",
+      "priority_score": 82.0,
+      "psst_grade": "B",
+      "psst_score": 82,
+      "signal_status": "developing"
+    },
+    {
+      "rank": 11,
+      "id": "un-20260227-001",
+      "title": "UN Approves First Carbon Credits Under Paris Agreement Market",
+      "category": "E_Environmental",
+      "priority_score": 81.0,
+      "psst_grade": "B",
+      "psst_score": 83,
+      "signal_status": "emerging"
+    },
+    {
+      "rank": 12,
+      "id": "brookings-20260227-001",
+      "title": "Building Pro-Worker AI: Acemoglu, Autor, Johnson",
+      "category": "S_Social",
+      "priority_score": 80.0,
+      "psst_grade": "B",
+      "psst_score": 78,
+      "signal_status": "developing"
+    },
+    {
+      "rank": 13,
+      "id": "tech-20260227-002",
+      "title": "US Senators Reintroduce Bipartisan AI Standards Proposal",
+      "category": "P_Political",
+      "priority_score": 78.0,
+      "psst_grade": "B",
+      "psst_score": 76,
+      "signal_status": "developing"
+    },
+    {
+      "rank": 14,
+      "id": "imf-20260227-001",
+      "title": "IMF Raises Global Growth Forecast to 3.3% — Tech-Driven Boom Offsets Tariffs",
+      "category": "E_Economic",
+      "priority_score": 77.5,
+      "psst_grade": "B",
+      "psst_score": 80,
+      "signal_status": "developing"
+    },
+    {
+      "rank": 15,
+      "id": "psych-20260227-001",
+      "title": "APA Identifies 9 Psychology Trends: Quiet Burnout, Meaning Crisis",
+      "category": "s_spiritual",
+      "priority_score": 77.0,
+      "psst_grade": "B",
+      "psst_score": 74,
+      "signal_status": "developing"
+    }
+  ]
+}

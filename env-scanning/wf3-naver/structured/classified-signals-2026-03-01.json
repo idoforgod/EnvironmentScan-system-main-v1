@@ -1,0 +1,28 @@
+{
+  "scan_date": "2026-03-01",
+  "workflow": "wf3-naver",
+  "total_signals": 18,
+  "steeps_distribution": {"P": 6, "E": 4, "T": 4, "S": 3, "E_Environmental": 0, "s": 1},
+  "fssf_distribution": {"Wild Card": 2, "Driver": 4, "Emerging Issue": 3, "Trend": 4, "Precursor Event": 3, "Weak Signal": 1, "Megatrend": 1, "Discontinuity": 0},
+  "three_horizons": {"H1": 10, "H2": 6, "H3": 2},
+  "signals": [
+    {"id": "naver-20260301-104-001", "title": "미국-이스라엘 이란 공습, 하메네이 사망", "primary_category": "P_Political", "fssf_type": "Wild Card", "three_horizons": "H1", "confidence": 0.95},
+    {"id": "naver-20260301-104-002", "title": "이란 보복공격, 걸프 확전", "primary_category": "P_Political", "fssf_type": "Wild Card", "three_horizons": "H1", "confidence": 0.94},
+    {"id": "naver-20260301-101-001", "title": "코스피 6300 돌파", "primary_category": "E_Economic", "fssf_type": "Trend", "three_horizons": "H1", "confidence": 0.92},
+    {"id": "naver-20260301-101-002", "title": "현대차 새만금 9조원 투자", "primary_category": "E_Economic", "fssf_type": "Driver", "three_horizons": "H2", "confidence": 0.91},
+    {"id": "naver-20260301-104-003", "title": "중국 미국-이란 전쟁 공개 비판", "primary_category": "P_Political", "fssf_type": "Precursor Event", "three_horizons": "H1", "confidence": 0.90},
+    {"id": "naver-20260301-101-003", "title": "반도체 수출 1880억달러 역대 최대", "primary_category": "E_Economic", "fssf_type": "Trend", "three_horizons": "H1", "confidence": 0.89},
+    {"id": "naver-20260301-102-002", "title": "정부 AI 10조원 투입", "primary_category": "T_Technological", "fssf_type": "Driver", "three_horizons": "H1", "confidence": 0.88},
+    {"id": "naver-20260301-105-002", "title": "K-AI 반도체 양산 원년", "primary_category": "T_Technological", "fssf_type": "Emerging Issue", "three_horizons": "H2", "confidence": 0.87},
+    {"id": "naver-20260301-102-001", "title": "스타트업 중심 사회 선언", "primary_category": "S_Social", "fssf_type": "Driver", "three_horizons": "H2", "confidence": 0.86},
+    {"id": "naver-20260301-105-001", "title": "스페이스X 상장 추진", "primary_category": "T_Technological", "fssf_type": "Precursor Event", "three_horizons": "H1", "confidence": 0.85},
+    {"id": "naver-20260301-102-003", "title": "중국 첨단 제조업 한국 추월", "primary_category": "E_Economic", "fssf_type": "Emerging Issue", "three_horizons": "H2", "confidence": 0.84},
+    {"id": "naver-20260301-105-003", "title": "양자 산업화 원년 선언", "primary_category": "T_Technological", "fssf_type": "Weak Signal", "three_horizons": "H3", "confidence": 0.83},
+    {"id": "naver-20260301-100-001", "title": "3·1절 기념사 남북 미래", "primary_category": "P_Political", "fssf_type": "Precursor Event", "three_horizons": "H2", "confidence": 0.82},
+    {"id": "naver-20260301-100-002", "title": "재외국민 국민투표권 보장", "primary_category": "P_Political", "fssf_type": "Trend", "three_horizons": "H1", "confidence": 0.80},
+    {"id": "naver-20260301-101-004", "title": "KDI 경제성장률 1.9% 전망", "primary_category": "E_Economic", "fssf_type": "Trend", "three_horizons": "H1", "confidence": 0.79},
+    {"id": "naver-20260301-100-003", "title": "대전충남 행정통합 논쟁", "primary_category": "P_Political", "fssf_type": "Emerging Issue", "three_horizons": "H2", "confidence": 0.78},
+    {"id": "naver-20260301-103-001", "title": "개기월식 관측 행사", "primary_category": "S_Social", "fssf_type": "Megatrend", "three_horizons": "H3", "confidence": 0.72},
+    {"id": "naver-20260301-103-002", "title": "여성 독립운동가 다국어 영상", "primary_category": "S_Social", "fssf_type": "Driver", "three_horizons": "H1", "confidence": 0.70}
+  ]
+}

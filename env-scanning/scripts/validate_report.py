@@ -426,6 +426,9 @@ class CheckResult:
     description: str
     passed: bool
     detail: str = ""
+    remedy: str = ""
+    failed_section: str = ""
+    failed_signal_ids: list = field(default_factory=list)
 
 
 @dataclass
@@ -455,6 +458,23 @@ class ValidationReport:
         return "PASS"
 
     def to_dict(self) -> dict:
+        checks = []
+        for r in self.results:
+            entry = {
+                "check_id": r.check_id,
+                "level": r.level,
+                "description": r.description,
+                "passed": r.passed,
+                "detail": r.detail,
+            }
+            # Include optional fields only when non-empty (backward-compatible)
+            if r.remedy:
+                entry["remedy"] = r.remedy
+            if r.failed_section:
+                entry["failed_section"] = r.failed_section
+            if r.failed_signal_ids:
+                entry["failed_signal_ids"] = r.failed_signal_ids
+            checks.append(entry)
         return {
             "report_path": self.report_path,
             "profile": self.profile,
@@ -465,16 +485,7 @@ class ValidationReport:
                 "critical_failures": len(self.critical_failures),
                 "error_failures": len(self.error_failures),
             },
-            "checks": [
-                {
-                    "check_id": r.check_id,
-                    "level": r.level,
-                    "description": r.description,
-                    "passed": r.passed,
-                    "detail": r.detail,
-                }
-                for r in self.results
-            ],
+            "checks": checks,
         }
 
     def human_summary(self) -> str:
@@ -498,6 +509,8 @@ class ValidationReport:
             if not r.passed and r.detail:
                 for detail_line in r.detail.split("\n"):
                     lines.append(f"      → {detail_line}")
+            if not r.passed and r.remedy:
+                lines.append(f"      FIX: {r.remedy}")
 
         lines.append(f"{'='*60}")
         return "\n".join(lines)

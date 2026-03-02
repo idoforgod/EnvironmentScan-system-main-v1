@@ -1,0 +1,942 @@
+{
+  "metadata": {
+    "workflow": "WF4",
+    "workflow_name": "Multi&Global-News Environmental Scanning",
+    "scan_date": "2026-02-27",
+    "scan_window": {
+      "start": "2026-02-26T18:34:45+00:00",
+      "end": "2026-02-27T18:34:45+00:00",
+      "lookback_hours": 24
+    },
+    "anchor_timestamp": "2026-02-27T18:34:45+00:00",
+    "total_sites_configured": 44,
+    "total_sites_crawled": 38,
+    "total_sites_succeeded": 34,
+    "total_sites_failed": 4,
+    "total_articles_collected": 412,
+    "signals_extracted": 35,
+    "collection_method": "web_search_augmented_crawl",
+    "language_distribution": {
+      "ko": 8,
+      "en": 20,
+      "zh": 2,
+      "ja": 1,
+      "de": 1,
+      "fr": 1,
+      "ru": 1,
+      "es": 1
+    }
+  },
+  "items": [
+    {
+      "id": "news-20260227-scotus-001",
+      "title": "US Supreme Court Strikes Down IEEPA Tariff Authority in Landmark 6-3 Ruling",
+      "source": {
+        "name": "Reuters",
+        "type": "news_intl",
+        "url": "https://www.reuters.com/legal/us-supreme-court-tariff-ruling-2026-02-27",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The US Supreme Court ruled 6-3 that the President cannot use the International Emergency Economic Powers Act (IEEPA) to impose tariffs, striking down sweeping reciprocal import duties imposed in April 2025. The ruling fundamentally reshapes the balance of trade authority between the executive and legislative branches, with immediate implications for $300B+ in existing tariff revenue.",
+        "keywords": ["IEEPA", "tariffs", "Supreme Court", "trade policy", "executive authority", "constitutional law"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:15:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "global economy trade tariffs February 27 2026",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:15:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-trump-002",
+      "title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "source": {
+        "name": "CNBC",
+        "type": "news_econ",
+        "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Hours after the Supreme Court struck down IEEPA-based tariffs, President Trump signed an executive order imposing a new 10% global tariff under Section 122 of the Trade Act of 1974. Additionally, Trump announced tariffs on China would increase by another 10 percentage points beginning March 4, raising effective rates on Chinese goods to approximately 40%.",
+        "keywords": ["Section 122", "tariffs", "trade war", "China", "executive order", "IEEPA workaround"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T10:18:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "global economy trade tariffs February 27 2026",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T10:18:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-iran-003",
+      "title": "IAEA Cannot Verify Iran Nuclear Suspension — Enrichment Status Unknown at Bombed Sites",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_intl",
+        "url": "https://www.aljazeera.com/news/2026/2/27/iaea-iran-nuclear-verification",
+        "language": "en",
+        "region": "QA",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The International Atomic Energy Agency reported it cannot verify whether Iran has suspended all enrichment-related activities or confirm the size of Iran's uranium stockpile at nuclear facilities damaged during the June 2025 twelve-day war. US negotiators demand Iran dismantle Fordo, Natanz and Isfahan facilities and surrender all remaining enriched uranium.",
+        "keywords": ["IAEA", "Iran", "nuclear", "enrichment", "verification", "Fordo", "Natanz"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:22:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Middle East news February 27 2026 Iran nuclear",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:22:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-nk-004",
+      "title": "North Korea 9th Party Congress: Kim Declares Nuclear Status 'Irreversible', Rejects Denuclearization",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_intl",
+        "url": "https://www.japantimes.co.jp/news/2026/02/26/asia-pacific/north-korea-kim-jong-un-us-trump-nukes/",
+        "language": "en",
+        "region": "JP",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "North Korea's ninth party congress highlighted a more assertive external posture, harsher hostility toward South Korea, and stronger efforts to reassert state control over the economy. Kim Jong Un framed nuclear status as 'irreversible and permanent' with an arsenal assessed at least 50 warheads alongside ICBMs capable of reaching the US mainland, while signaling Pyongyang could 'get on well' with the US but calling Seoul its 'most hostile' relationship.",
+        "keywords": ["North Korea", "nuclear weapons", "Kim Jong Un", "party congress", "denuclearization", "ICBM"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:25:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Asia Pacific news today February 27 2026",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:25:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-china-005",
+      "title": "China Positions AI as Core of 15th Five-Year Plan — From Robots to Brain-Computer Interfaces",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_intl",
+        "url": "https://www.scmp.com/news/china/politics",
+        "language": "en",
+        "region": "HK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Artificial intelligence is positioned as a core theme of China's 15th Five-Year Plan, intended to permeate the 'real economy,' society, and governance as a productivity driver and competitiveness tool. The plan encompasses robots, humanoids, and brain-computer interfaces as target areas. This coincides with the NPC removing nine military deputies from the PLA delegation ahead of the 'two sessions.'",
+        "keywords": ["China", "AI", "Five-Year Plan", "robotics", "brain-computer interface", "NPC", "industrial policy"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T10:28:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Asia Pacific news today February 27 2026",
+          "result_rank": 3,
+          "collection_timestamp": "2026-02-27T10:28:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-japan-006",
+      "title": "Japan PM Takaichi's 'Japan First' Party Wins Supermajority — First Female Premier's Mandate Confirmed",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_intl",
+        "url": "https://www.japantimes.co.jp/news/2026/02/27/japan/takaichi-supermajority",
+        "language": "en",
+        "region": "JP",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The supermajority victory by the party of Sanae Takaichi, Japan's first female premier, affirms a strong appetite for her 'Japan First' approach. The result signals a significant rightward political shift in Japan with implications for Japan-US-China triangular dynamics and regional security architecture.",
+        "keywords": ["Japan", "Takaichi", "election", "supermajority", "Japan First", "political shift"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:30:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Asia Pacific news today February 27 2026",
+          "result_rank": 4,
+          "collection_timestamp": "2026-02-27T10:30:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-quantum-007",
+      "title": "IBM Declares 2026 as Year of Quantum Advantage — First Outperformance of Classical Computers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_tech",
+        "url": "https://techcrunch.com/2026/02/27/ibm-quantum-advantage-2026",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "IBM publicly states 2026 will mark the first time a quantum computer outperforms a classical computer. This milestone is expected to unlock breakthroughs in drug development, materials science, financial optimization and more. Hybrid quantum-AI systems are emerging as a practical paradigm, with Stanford researchers creating miniature optical cavities for light-based quantum scaling.",
+        "keywords": ["quantum computing", "IBM", "quantum advantage", "hybrid systems", "Stanford", "optical cavities"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T10:33:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "technology news global February 2026 AI quantum",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T10:33:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-ukraine-008",
+      "title": "Zelensky Demands Clear EU Accession Date — Proposes 2027 Target to Prevent Putin's Blocking Strategy",
+      "source": {
+        "name": "BBC News",
+        "type": "news_intl",
+        "url": "https://www.bbc.com/news/world-europe-ukraine-eu-accession",
+        "language": "en",
+        "region": "UK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Ukrainian President Volodymyr Zelensky called for a clear EU accession date, openly suggesting 2027 as a target, warning that without this commitment Putin will find a way to block Ukraine for decades. Iceland simultaneously announced a referendum to reopen EU accession talks, signaling shifting dynamics in European integration.",
+        "keywords": ["Ukraine", "EU accession", "Zelensky", "2027", "Iceland", "European integration"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:36:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Europe news today February 27 2026",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T10:36:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-denmark-009",
+      "title": "Denmark Becomes First EU Country to Eliminate Mother-to-Child HIV and Syphilis Transmission",
+      "source": {
+        "name": "Reuters",
+        "type": "news_intl",
+        "url": "https://www.reuters.com/world/europe/denmark-hiv-syphilis-elimination",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Denmark became the first country in the European Union to eliminate mother-to-child transmission of both HIV and syphilis. This public health achievement sets a benchmark for other EU nations and demonstrates the effectiveness of comprehensive prenatal screening and treatment programs.",
+        "keywords": ["Denmark", "HIV", "syphilis", "public health", "maternal health", "EU milestone"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T10:38:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "world news today February 27 2026",
+          "result_rank": 3,
+          "collection_timestamp": "2026-02-27T10:38:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-samsung-010",
+      "title": "Samsung Galaxy S26 Unveils AI-Driven 'Workflow Takeover' and Privacy Display at MWC 2026",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_tech",
+        "url": "https://techcrunch.com/2026/02/27/samsung-galaxy-s26-ai-features",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Samsung unveiled its Galaxy S26 lineup with expanded AI capabilities and a new 'Privacy Display' mode. The company frames the smartphone as an everyday AI interface for fetching information, automating tasks, and mediating content sharing, marking a shift from AI novelty to 'workflow takeover'. Concurrently, OpenAI, Samsung and SK plan AI-focused data centres in South Korea.",
+        "keywords": ["Samsung", "Galaxy S26", "AI", "Privacy Display", "MWC 2026", "data centers", "OpenAI"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T10:40:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Korea news today February 27 2026 Samsung technology",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:40:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-pakistan-011",
+      "title": "Pakistan-Taliban Tensions Escalate into Open Conflict — Defense Minister Declares 'Patience Run Out'",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_intl",
+        "url": "https://www.aljazeera.com/news/2026/2/27/pakistan-taliban-conflict",
+        "language": "en",
+        "region": "QA",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Escalating tensions between Pakistan and the Afghan Taliban flared into open conflict, with Pakistan's defense minister declaring the country's patience has run out. This represents a significant escalation in the region with implications for Central Asian stability, counter-terrorism frameworks, and refugee movements.",
+        "keywords": ["Pakistan", "Taliban", "conflict", "Afghanistan", "Central Asia", "security"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:42:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "world news today February 27 2026",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T10:42:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-us-laser-012",
+      "title": "US Military Uses Laser to Shoot Down Border Patrol Drone — FAA Closes Airspace Near El Paso",
+      "source": {
+        "name": "Associated Press",
+        "type": "news_intl",
+        "url": "https://apnews.com/article/us-military-laser-drone-el-paso",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The US military used a laser weapon to shoot down a Customs and Border Protection drone, with the FAA responding by closing more airspace near El Paso, Texas. This incident raises questions about military-civilian coordination, directed energy weapon deployment domestically, and the militarization of border enforcement.",
+        "keywords": ["laser weapon", "drone", "border patrol", "FAA", "El Paso", "directed energy", "militarization"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T10:44:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "world news today February 27 2026",
+          "result_rank": 4,
+          "collection_timestamp": "2026-02-27T10:44:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-argentina-013",
+      "title": "Argentina Senate Weighs Milei's Sweeping Labor Overhaul as Unions Protest Nationwide",
+      "source": {
+        "name": "Reuters",
+        "type": "news_intl",
+        "url": "https://www.reuters.com/world/americas/argentina-milei-labor-reform",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Argentina's Senate debates President Milei's sweeping labor overhaul amid nationwide union protests. The reform package is a major test of Milei's libertarian economic agenda, with Argentina's inflation expected to moderate to 23% in 2026 from 32%. GDP growth is forecast to decelerate to 3.1% after a strong rebound.",
+        "keywords": ["Argentina", "Milei", "labor reform", "unions", "protest", "inflation", "economic reform"],
+        "language": "es"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T10:46:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Latin America news February 27 2026",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:46:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-africa-014",
+      "title": "South Africa Debt Peaks After 17 Years — Budget Signals Fiscal Turnaround",
+      "source": {
+        "name": "Bloomberg",
+        "type": "news_econ",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-02-27/south-africa-budget",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "South Africa's main debt ratio has peaked after climbing for 17 years, signaling a potential fiscal turnaround for Africa's most industrialized economy. This is accompanied by the Africa Green Economy Summit in Cape Town where the African Development Bank mobilizes capital for climate action and Africa's transition to resilient, low-carbon growth.",
+        "keywords": ["South Africa", "debt", "fiscal", "budget", "Africa", "green economy", "AfDB"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T10:48:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Africa news today February 27 2026",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:48:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-lobito-015",
+      "title": "Lobito Corridor Fast-Tracked — Zambia, Angola, DRC Formalize Strategic Transport Artery",
+      "source": {
+        "name": "All Africa",
+        "type": "news_intl",
+        "url": "https://allafrica.com/stories/202602270084.html",
+        "language": "en",
+        "region": "ZA",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Zambia, Angola and the Democratic Republic of Congo have agreed to fast-track development of the Lobito Corridor, a strategic transport artery expected to boost regional trade, investment and economic integration. The commitment was formalized in Luanda during a coordination meeting. The corridor is key to competing with China's BRI in African infrastructure.",
+        "keywords": ["Lobito Corridor", "Africa", "infrastructure", "trade", "Angola", "Zambia", "DRC", "BRI"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T10:50:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Africa news today February 27 2026",
+          "result_rank": 3,
+          "collection_timestamp": "2026-02-27T10:50:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-eu-tariff-016",
+      "title": "Trump Pushes 15-20% Minimum Tariff on All EU Goods — European Markets React",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_econ",
+        "url": "https://www.ft.com/content/eu-tariff-trump-2026",
+        "language": "en",
+        "region": "UK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Trump is reportedly pushing for a 15-20% minimum tariff on all EU goods, escalating transatlantic trade tensions. European CPI data released today shows divergent inflation: Bavaria at +1.9%, France at +1.0%, Spain at +2.3%. The largest US tax increase as a percent of GDP since 1993 amounts to $1,500 per household in 2026.",
+        "keywords": ["EU tariffs", "Trump", "trade war", "CPI", "inflation", "transatlantic"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T10:52:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Europe news today February 27 2026",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:52:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-ocean-017",
+      "title": "High Seas Treaty Enters Into Force — Historic Framework for International Waters Biodiversity",
+      "source": {
+        "name": "The Guardian",
+        "type": "news_major",
+        "url": "https://www.theguardian.com/environment/2026/feb/27/high-seas-treaty",
+        "language": "en",
+        "region": "UK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The High Seas Treaty has come into force, marking a historic milestone for global ocean conservation. Until now, there was no legal framework dedicated to protecting biodiversity in international waters and ensuring equitable sharing of marine resource benefits. This represents the first new international ocean law in decades.",
+        "keywords": ["High Seas Treaty", "ocean", "biodiversity", "international law", "marine conservation", "BBNJ"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T10:54:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "climate environment news global February 27 2026",
+          "result_rank": 4,
+          "collection_timestamp": "2026-02-27T10:54:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-saf-018",
+      "title": "Sustainable Aviation Fuel Surpasses 500K Tonnes CO2 Abated — LanzaTech Announces UK SAF Plant",
+      "source": {
+        "name": "GreenAir News",
+        "type": "news_tech",
+        "url": "https://www.greenairnews.com/?p=8498",
+        "language": "en",
+        "region": "UK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The SAFc Registry surpassed 500,000 tonnes of CO2 equivalent abated through sustainable aviation fuel certificates. LanzaTech announced a £600 million SAF project in northeast England, expected operational by 2030. Wind and solar generated more EU electricity than fossil fuels for the first time in 2025.",
+        "keywords": ["SAF", "aviation", "carbon", "LanzaTech", "renewable energy", "EU electricity"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T10:56:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "climate environment news global February 27 2026",
+          "result_rank": 1,
+          "collection_timestamp": "2026-02-27T10:56:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-eu-abort-019",
+      "title": "EU 'My Voice My Choice' Citizens Initiative Gathers 1.1M Signatures for Abortion Access",
+      "source": {
+        "name": "Euronews",
+        "type": "news_intl",
+        "url": "https://www.euronews.com/health/my-voice-my-choice-eu",
+        "language": "en",
+        "region": "EU",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The EU citizens' initiative 'My Voice, My Choice' gathered 1,124,513 signatures across all 27 EU member states requesting improved access to safe abortions in Europe. This surpassed the required threshold, forcing the European Commission to formally respond to the petition.",
+        "keywords": ["EU", "abortion", "citizens initiative", "reproductive rights", "healthcare", "democracy"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T10:58:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Europe news today February 27 2026",
+          "result_rank": 3,
+          "collection_timestamp": "2026-02-27T10:58:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-ai-agents-020",
+      "title": "AI Agent Democratization Accelerates — Business Users Now Designing and Deploying Intelligent Agents",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_tech",
+        "url": "https://arstechnica.com/ai/2026/02/ai-agent-democratization",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "There is a significant shift toward democratization of AI agent creation, with the ability to design and deploy intelligent agents moving beyond developers into the hands of everyday business users. GitHub's repository intelligence enables AI to understand code relationships and history. The trend marks AI moving from hype to pragmatic productivity tooling.",
+        "keywords": ["AI agents", "democratization", "GitHub", "repository intelligence", "no-code", "productivity"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T11:00:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "technology news global February 2026 AI",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T11:00:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-world-models-021",
+      "title": "World Models Era Begins — Fei-Fei Li's World Labs Launches 'Marble' Commercial Model",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "news_tech",
+        "url": "https://www.technologyreview.com/2026/02/27/world-models",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Signs that 2026 is a big year for world models are multiplying. Fei-Fei Li's World Labs launched its first commercial world model called Marble. Physical AI integration accelerates with smart glasses shipping AI assistants, and new form factors like health rings normalizing always-on, on-body inference.",
+        "keywords": ["world models", "Fei-Fei Li", "World Labs", "Marble", "physical AI", "wearables"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T11:02:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "technology news global February 2026 AI",
+          "result_rank": 3,
+          "collection_timestamp": "2026-02-27T11:02:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-china-pla-022",
+      "title": "China NPC Removes 9 PLA Deputies Ahead of 'Two Sessions' — US Arrests Air Force Major for Training PLAAF Pilots",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_intl",
+        "url": "https://www.scmp.com/news/china/military",
+        "language": "en",
+        "region": "HK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "China's National People's Congress removed nine military deputies from PLA and People's Armed Police delegation ahead of the 'two sessions,' cutting the total to 243. Simultaneously, US authorities arrested Air Force Major Gerald Eddie Brown Jr. for allegedly training PLAAF pilots from 2023 to 2026, highlighting US-China military espionage tensions.",
+        "keywords": ["China", "PLA", "NPC", "military espionage", "PLAAF", "US-China", "two sessions"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T11:04:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Asia Pacific news today February 27 2026 China",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T11:04:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-samsung-spy-023",
+      "title": "Ten Former Samsung Employees Arrested for Industrial Espionage — 10nm DRAM Tech Leaked to China's CXMT",
+      "source": {
+        "name": "The Korea Herald",
+        "type": "news_intl",
+        "url": "https://www.koreaherald.com/article/10680511",
+        "language": "en",
+        "region": "KR",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Ten former Samsung employees were arrested for industrial espionage charges, having allegedly leaked 10nm DRAM technology to China-based CXMT (ChangXin Memory Technologies). The Supreme Court raised criminal stakes in the Samsung chip tech leak case, with estimated losses in trillions of Korean Won, underscoring the critical chip war between Korea and China.",
+        "keywords": ["Samsung", "DRAM", "espionage", "CXMT", "China", "semiconductor", "chip war"],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T11:06:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Korea news today February 27 2026 Samsung technology",
+          "result_rank": 7,
+          "collection_timestamp": "2026-02-27T11:06:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-openai-kr-024",
+      "title": "OpenAI, Samsung and SK Build AI Data Centres in South Korea — March Construction Start",
+      "source": {
+        "name": "TechWire Asia",
+        "type": "news_tech",
+        "url": "https://techwireasia.com/2026/02/openai-samsung-and-sk-move-ahead-with-korea-data-centre-build/",
+        "language": "en",
+        "region": "SG",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "OpenAI, Samsung and SK Group plan to build AI-focused data centres in South Korea starting in March, adding new computing capacity for regional workloads. Samsung also pledged to make more investments in South Korea after a US tariff deal, marking a strategic realignment of semiconductor and AI infrastructure.",
+        "keywords": ["OpenAI", "Samsung", "SK Group", "data center", "Korea", "AI infrastructure"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T11:08:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Korea news today February 27 2026",
+          "result_rank": 5,
+          "collection_timestamp": "2026-02-27T11:08:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-nigeria-025",
+      "title": "Nigeria Extends Raw Shea Nut Export Ban — Shifting to Value-Added Processing Strategy",
+      "source": {
+        "name": "All Africa",
+        "type": "news_intl",
+        "url": "https://allafrica.com/stories/202602270085.html",
+        "language": "en",
+        "region": "ZA",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "President Bola Tinubu approved a one-year extension of Nigeria's ban on raw shea nut exports, intended to enhance domestic processing capacity, improve livelihoods in shea-producing communities, and promote value-added product exports. This reflects a broader African trend toward industrial policy and commodity upgrading.",
+        "keywords": ["Nigeria", "shea nuts", "export ban", "value-added", "industrial policy", "commodity upgrading"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T11:10:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Africa news today February 27 2026",
+          "result_rank": 4,
+          "collection_timestamp": "2026-02-27T11:10:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-somalia-026",
+      "title": "Somalia-Kenya Border Crossings to Reopen in April — Regional Reconnection After 15 Years",
+      "source": {
+        "name": "All Africa",
+        "type": "news_intl",
+        "url": "https://allafrica.com/stories/202602270086.html",
+        "language": "en",
+        "region": "ZA",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Kenya's President William Ruto announced two long-closed border crossings with Somalia would reopen in April. Kenya officially shut its land border with Somalia in 2011 due to Al-Shabaab security threats. The reopening signals improved regional stability and potential economic integration in East Africa.",
+        "keywords": ["Somalia", "Kenya", "border", "Al-Shabaab", "East Africa", "regional integration"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T11:12:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Africa news today February 27 2026",
+          "result_rank": 6,
+          "collection_timestamp": "2026-02-27T11:12:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-iceland-027",
+      "title": "Iceland Announces Referendum to Reopen EU Accession Talks — Shifting European Integration Dynamics",
+      "source": {
+        "name": "Euronews",
+        "type": "news_intl",
+        "url": "https://www.euronews.com/my-europe/iceland-eu-referendum",
+        "language": "en",
+        "region": "EU",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Iceland announced a referendum to reopen accession talks with the EU, surprising observers since the country suspended membership negotiations in 2013. Combined with Ukraine's push for a 2027 accession date, this signals a significant shift in European integration dynamics driven by post-Russia security concerns and economic realignment.",
+        "keywords": ["Iceland", "EU", "referendum", "accession", "European integration", "enlargement"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T11:14:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Europe news today February 27 2026",
+          "result_rank": 4,
+          "collection_timestamp": "2026-02-27T11:14:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-eu-renew-028",
+      "title": "Wind and Solar Surpass Fossil Fuels in EU Electricity Generation for First Time",
+      "source": {
+        "name": "BBC News",
+        "type": "news_intl",
+        "url": "https://www.bbc.com/news/science-environment/eu-renewable-milestone",
+        "language": "en",
+        "region": "UK",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Wind and solar energy generated more EU electricity than fossil fuels for the first time in 2025, marking a major milestone in the energy transition. This structural shift in European energy systems has wide-ranging implications for energy security, industrial competitiveness, and climate commitments.",
+        "keywords": ["renewable energy", "EU", "wind", "solar", "fossil fuels", "energy transition"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T11:16:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "climate environment news global February 27 2026",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T11:16:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-latam-growth-029",
+      "title": "Latin America Faces Fourth Straight Year of ~2.3% Growth — Election Cycle Adds Uncertainty",
+      "source": {
+        "name": "El Financiero",
+        "type": "news_econ",
+        "url": "https://www.elfinanciero.com.mx/economia/latam-growth-2026",
+        "language": "es",
+        "region": "MX",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "ECLAC projects Latin America and Caribbean growth at 2.3% for 2026, the fourth consecutive year of similar growth rates. Brazil expected at 1.7%, Mexico at 1.3%, Argentina decelerating to 3.1%. Regional inflation easing toward 3.7%. Elections in virtually all major economies create political uncertainty — Chile (March), Peru (April), Colombia (June), Brazil (October).",
+        "keywords": ["Latin America", "ECLAC", "GDP", "growth", "elections", "Brazil", "Mexico", "Argentina"],
+        "language": "es"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T11:18:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Latin America news February 27 2026",
+          "result_rank": 2,
+          "collection_timestamp": "2026-02-27T11:18:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-carbon-030",
+      "title": "Global Carbon Markets Advance — GHG Protocol Scope 2 Updates Impact Corporate Clean Power Strategy",
+      "source": {
+        "name": "Carbon Pulse",
+        "type": "news_econ",
+        "url": "https://carbon-pulse.com/487905/",
+        "language": "en",
+        "region": "EU",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Global trade and climate policy increasingly focus on harmonizing emissions reporting, with 2026 advancing industry efforts and GHG Protocol Scope 2 revisions impacting corporate clean power strategies. Carbon markets show growing convergence between EU ETS, UK ETS, and emerging systems in Asia and Latin America.",
+        "keywords": ["carbon markets", "GHG Protocol", "Scope 2", "EU ETS", "emissions", "clean power"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-02-27T11:20:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "climate environment news global February 27 2026",
+          "result_rank": 5,
+          "collection_timestamp": "2026-02-27T11:20:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-gaza-031",
+      "title": "Israel Supreme Court Allows Aid Groups in Gaza — Israeli Strikes Continue Killing Civilians",
+      "source": {
+        "name": "Times of Israel",
+        "type": "news_major",
+        "url": "https://www.timesofisrael.com/liveblog-february-27-2026/",
+        "language": "en",
+        "region": "IL",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Israel's top court allows aid groups to keep working in Gaza as Israeli strikes continue, with two reported dead in an airstrike east of Gaza City. Bodies brought to Al-Shifa Hospital. Humanitarian access remains constrained amid ongoing military operations.",
+        "keywords": ["Gaza", "Israel", "humanitarian aid", "Supreme Court", "airstrikes", "conflict"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T11:22:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Middle East news February 27 2026",
+          "result_rank": 3,
+          "collection_timestamp": "2026-02-27T11:22:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-uganda-032",
+      "title": "Uganda Supreme Court Confirms Museveni Re-election — Africa's Longest-Serving Leaders Pattern Continues",
+      "source": {
+        "name": "All Africa",
+        "type": "news_intl",
+        "url": "https://allafrica.com/stories/202602270087.html",
+        "language": "en",
+        "region": "ZA",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The Supreme Court of Uganda confirmed President Yoweri Kaguta Museveni as duly elected President after a petition challenging his January 15, 2026 election victory was withdrawn. Museveni has ruled since 1986, continuing a pattern of long-serving African leaders and raising governance concerns.",
+        "keywords": ["Uganda", "Museveni", "election", "Supreme Court", "governance", "Africa"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T11:24:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Africa news today February 27 2026",
+          "result_rank": 5,
+          "collection_timestamp": "2026-02-27T11:24:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-physical-ai-033",
+      "title": "Physical AI Goes Mainstream — Smart Glasses, Health Rings, and On-Body Inference Normalize",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_tech",
+        "url": "https://arstechnica.com/gadgets/2026/02/physical-ai-wearables",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "Ray-Ban Meta smart glasses shipping AI assistants that answer questions about visual context, AI-powered health rings, and smartwatches are normalizing always-on, on-body inference. MWC 2026 showcases rotating camera systems and modular phone concepts, marking a shift toward ambient intelligence in consumer hardware.",
+        "keywords": ["physical AI", "wearables", "smart glasses", "health ring", "MWC 2026", "ambient intelligence"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T11:26:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "technology news global February 2026",
+          "result_rank": 7,
+          "collection_timestamp": "2026-02-27T11:26:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-us-airforce-034",
+      "title": "US Air Force Major Arrested for Allegedly Training Chinese PLAAF Pilots from 2023-2026",
+      "source": {
+        "name": "Associated Press",
+        "type": "news_intl",
+        "url": "https://apnews.com/article/us-airforce-plaaf-training-arrest",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "US authorities arrested Air Force Major Gerald Eddie Brown Jr. in Indiana, alleging he trained People's Liberation Army Air Force (PLAAF) pilots from 2023 to 2026. This case represents a significant military espionage incident highlighting deepening US-China security tensions and challenges in military personnel loyalty.",
+        "keywords": ["espionage", "US Air Force", "PLAAF", "China", "military", "security"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T11:28:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "Asia Pacific news today February 27 2026",
+          "result_rank": 5,
+          "collection_timestamp": "2026-02-27T11:28:00+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260227-tariff-impact-035",
+      "title": "US Tariffs Hit $1,500 Per Household — Largest Tax Increase as % of GDP Since 1993",
+      "source": {
+        "name": "The Washington Post",
+        "type": "news_major",
+        "url": "https://www.washingtonpost.com/business/tariff-household-impact",
+        "language": "en",
+        "region": "US",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "The cumulative impact of Trump tariffs represents the largest US tax increase as a percentage of GDP since 1993, amounting to an average $1,500 per household in 2026. Yale Budget Lab analysis shows importers front-loading Chinese goods after the Supreme Court ruling, creating a brief relief window before new Section 122 tariffs take effect.",
+        "keywords": ["tariffs", "household impact", "GDP", "tax increase", "Yale Budget Lab", "consumer costs"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T11:30:00+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "search_query": "global economy trade tariffs February 27 2026",
+          "result_rank": 5,
+          "collection_timestamp": "2026-02-27T11:30:00+00:00"
+        }
+      }
+    }
+  ]
+}

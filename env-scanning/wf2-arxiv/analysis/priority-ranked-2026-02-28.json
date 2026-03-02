@@ -1,0 +1,18 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf2-arxiv",
+  "ranking_method": "pSST_weighted",
+  "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10},
+  "top_10": [
+    {"rank": 1, "id": "arxiv-2602-22750v1", "title": "The Inference Bottleneck: Antitrust and Neutrality Duties in the Age of Cognitive AI Infrastructure", "psst": 88, "category": "P", "impact": "CRITICAL"},
+    {"rank": 2, "id": "arxiv-2602-23329v1", "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks", "psst": 85, "category": "T", "impact": "CRITICAL"},
+    {"rank": 3, "id": "arxiv-2602-23330v1", "title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Strategy", "psst": 82, "category": "E", "impact": "HIGH"},
+    {"rank": 4, "id": "arxiv-2602-23363v1", "title": "MediX-R1: Open Ended Medical Reinforcement Learning", "psst": 80, "category": "T", "impact": "HIGH"},
+    {"rank": 5, "id": "arxiv-2602-23331v1", "title": "Utilizing LLMs for Industrial Process Automation", "psst": 78, "category": "T", "impact": "HIGH"},
+    {"rank": 6, "id": "arxiv-2602-23259v1", "title": "Risk-Aware World Model Predictive Control for Autonomous Driving", "psst": 78, "category": "T", "impact": "HIGH"},
+    {"rank": 7, "id": "arxiv-2602-23254v1", "title": "Quantum Confocal Microscopy in Fock Space with 19 dB Metrological Gain", "psst": 77, "category": "T", "impact": "HIGH"},
+    {"rank": 8, "id": "arxiv-2602-22523v1", "title": "Cognitive Models and AI Algorithms for Language Agents", "psst": 76, "category": "T", "impact": "HIGH"},
+    {"rank": 9, "id": "arxiv-2602-23335v1", "title": "Understanding Usage and Engagement in AI-Powered Scientific Research Tools", "psst": 75, "category": "S", "impact": "HIGH"},
+    {"rank": 10, "id": "arxiv-2602-23262v1", "title": "Decomposing Private Image Generation via Coarse-to-Fine Wavelet Modeling", "psst": 74, "category": "T", "impact": "HIGH"}
+  ]
+}

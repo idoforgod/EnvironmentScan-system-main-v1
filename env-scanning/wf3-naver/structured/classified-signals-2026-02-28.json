@@ -1,0 +1,55 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf3-naver",
+  "classification_method": "STEEPs_6_category + FSSF_8_type + Three_Horizons",
+  "total_signals": 36,
+  "after_dedup": 20,
+  "duplicates_removed": 3,
+  "dedup_details": [
+    {"removed": "naver-20260228-101-003", "kept": "naver-20260228-101-001", "reason": "Same topic: financial market reaction to Iran war"},
+    {"removed": "naver-20260228-104-004", "kept": "naver-20260228-104-002", "reason": "Same topic: Middle East evacuation warnings"},
+    {"removed": "naver-20260228-104-005", "kept": "naver-20260228-104-002", "reason": "Same topic: Middle East evacuation warnings"}
+  ],
+  "category_distribution": {
+    "P_Political": 7,
+    "E_Economic": 5,
+    "T_Technological": 4,
+    "S_Social": 2,
+    "E_Environmental": 1,
+    "s_spiritual": 1
+  },
+  "fssf_distribution": {
+    "Wild Card": 2,
+    "Discontinuity": 1,
+    "Driver": 4,
+    "Emerging Issue": 3,
+    "Trend": 6,
+    "Megatrend": 2,
+    "Weak Signal": 1,
+    "Precursor Event": 1
+  },
+  "horizon_distribution": {
+    "H1": 12,
+    "H2": 6,
+    "H3": 2
+  },
+  "signals": [
+    {"id": "naver-20260228-104-001", "title": "트럼프, 이란 전격 공습 확인 — 미-이스라엘 '유다의 방패 작전' 개시", "category": "P_Political", "fssf_type": "Wild Card", "horizon": "H1", "psst_score": 96, "impact_level": "CRITICAL", "priority_rank": 1},
+    {"id": "naver-20260228-104-002", "title": "이란, 이스라엘·미군 기지에 미사일 보복 — 중동 전면전 우려", "category": "P_Political", "fssf_type": "Wild Card", "horizon": "H1", "psst_score": 95, "impact_level": "CRITICAL", "priority_rank": 2},
+    {"id": "naver-20260228-101-001", "title": "코스피 급락, 이란 전쟁 발발 — 유가 급등·원달러 환율 상승", "category": "E_Economic", "fssf_type": "Discontinuity", "horizon": "H1", "psst_score": 92, "impact_level": "CRITICAL", "priority_rank": 3},
+    {"id": "naver-20260228-100-001", "title": "대법관 증원법 국회 본회의 통과 — 14명에서 26명으로", "category": "P_Political", "fssf_type": "Driver", "horizon": "H1", "psst_score": 88, "impact_level": "HIGH", "priority_rank": 4},
+    {"id": "naver-20260228-101-002", "title": "현대차그룹 새만금 9조원 투자 — 로봇·AI·수소 거점", "category": "E_Economic", "fssf_type": "Driver", "horizon": "H2", "psst_score": 87, "impact_level": "HIGH", "priority_rank": 5},
+    {"id": "naver-20260228-104-003", "title": "파키스탄 아프간 공습 — '공개 전쟁 상태' 선언", "category": "P_Political", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 85, "impact_level": "HIGH", "priority_rank": 6},
+    {"id": "naver-20260228-105-001", "title": "SK하이닉스-웨스턴디지털 HBF 표준화 컨소시엄 출범", "category": "T_Technological", "fssf_type": "Driver", "horizon": "H2", "psst_score": 83, "impact_level": "HIGH", "priority_rank": 7},
+    {"id": "naver-20260228-105-004", "title": "EU AI Act 본격 시행 — AI 규제 강화", "category": "P_Political", "fssf_type": "Trend", "horizon": "H1", "psst_score": 82, "impact_level": "HIGH", "priority_rank": 8},
+    {"id": "naver-20260228-101-004", "title": "구글 고정밀 지도 국외 반출 조건부 허가", "category": "T_Technological", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 80, "impact_level": "HIGH", "priority_rank": 9},
+    {"id": "naver-20260228-105-002", "title": "에이전틱 AI 시대 개막 — 자율 에이전트로 진화", "category": "T_Technological", "fssf_type": "Trend", "horizon": "H2", "psst_score": 79, "impact_level": "HIGH", "priority_rank": 10},
+    {"id": "naver-20260228-101-006", "title": "Engie 영국 전력망 140억 달러 인수", "category": "E_Economic", "fssf_type": "Trend", "horizon": "H1", "psst_score": 76, "impact_level": "MEDIUM", "priority_rank": 11},
+    {"id": "naver-20260228-100-002", "title": "이재명 대통령 틱톡 가입", "category": "P_Political", "fssf_type": "Weak Signal", "horizon": "H1", "psst_score": 73, "impact_level": "MEDIUM", "priority_rank": 12},
+    {"id": "naver-20260228-105-003", "title": "CES 2026 — '일하는 로봇' 시대", "category": "T_Technological", "fssf_type": "Trend", "horizon": "H2", "psst_score": 72, "impact_level": "MEDIUM", "priority_rank": 13},
+    {"id": "naver-20260228-101-005", "title": "Swiss Re 사상 최대 순익 48억 달러", "category": "E_Economic", "fssf_type": "Trend", "horizon": "H1", "psst_score": 71, "impact_level": "MEDIUM", "priority_rank": 14},
+    {"id": "naver-20260228-100-003", "title": "송영길 전 대표 복당", "category": "P_Political", "fssf_type": "Precursor Event", "horizon": "H1", "psst_score": 68, "impact_level": "MEDIUM", "priority_rank": 15},
+    {"id": "naver-20260228-100-004", "title": "김병기 의원 14시간 경찰 조사", "category": "P_Political", "fssf_type": "Trend", "horizon": "H1", "psst_score": 65, "impact_level": "MEDIUM", "priority_rank": 16},
+    {"id": "naver-20260228-102-001", "title": "성남 분당 근린생활시설 화재", "category": "S_Social", "fssf_type": "Emerging Issue", "horizon": "H1", "psst_score": 60, "impact_level": "LOW", "priority_rank": 17}
+  ]
+}

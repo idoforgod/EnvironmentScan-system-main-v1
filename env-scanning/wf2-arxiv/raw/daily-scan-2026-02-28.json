@@ -1,0 +1,1229 @@
+{
+  "scan_date": "2026-02-28",
+  "T0": "2026-02-28T20:41:32Z",
+  "scan_window": {
+    "start": "2026-02-26T20:41:32Z",
+    "end": "2026-02-28T20:41:32Z"
+  },
+  "workflow": "wf2-arxiv",
+  "total_items_collected": 55,
+  "items": [
+    {
+      "id": "arxiv-2602-23363v1",
+      "title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23363v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "We introduce MediX-R1, an open-ended Reinforcement Learning (RL) framework for medical multimodal large language models (MLLMs) that enables clinically grounded, free-form answers beyond multiple-choice formats. MediX-R1 fine-tunes a baseline vision-language backbone with Group Based RL and a composite reward tailored for medical reasoning: an LLM-based accuracy reward that judges semantic correctness with a strict YES/NO decision, a medical embedding-based semantic reward to capture paraphrases",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23361v1",
+      "title": "VGG-T$^3$: Offline Feed-Forward 3D Reconstruction at Scale",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23361v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "We present a scalable 3D reconstruction model that addresses a critical limitation in offline feed-forward methods: their computational and memory requirements grow quadratically w.r.t. the number of input images. Our approach is built on the key insight that this bottleneck stems from the varying-length Key-Value (KV) space representation of scene geometry, which we distill into a fixed-size Multi-Layer Perceptron (MLP) via test-time training. VGG-T$^3$ (Visual Geometry Grounded Test Time Train",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23360v1",
+      "title": "Model Agreement via Anchoring",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23360v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Numerous lines of aim to control $\\textit{model disagreement}$ -- the extent to which two machine learning models disagree in their predictions. We adopt a simple and standard notion of model disagreement in real-valued prediction problems, namely the expected squared difference in predictions between two models trained on independent samples, without any coordination of the training processes. We would like to be able to drive disagreement to zero with some natural parameter(s) of the training ",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23359v1",
+      "title": "SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23359v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "We identify occlusion reasoning as a fundamental yet overlooked aspect for 3D layout-conditioned generation. It is essential for synthesizing partially occluded objects with depth-consistent geometry and scale. While existing methods can generate realistic scenes that follow input layouts, they often fail to model precise inter-object occlusions. We propose SeeThrough3D, a model for 3D layout conditioned generation that explicitly models occlusions. We introduce an occlusion-aware 3D scene repre",
+        "keywords": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23358v1",
+      "title": "A Dataset is Worth 1 MB",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23358v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "A dataset server must often distribute the same large payload to many clients, incurring massive communication costs. Since clients frequently operate on diverse hardware and software frameworks, transmitting a pre-trained model is often infeasible; instead, agents require raw data to train their own task-specific models locally. While dataset distillation attempts to compress training signals, current methods struggle to scale to high-resolution data and rarely achieve sufficiently small files.",
+        "keywords": [
+          "cs.LG",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23357v1",
+      "title": "Sensor Generalization for Adaptive Sensing in Event-based Object Detection via Joint Distribution Training",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23357v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Bio-inspired event cameras have recently attracted significant research due to their asynchronous and low-latency capabilities. These features provide a high dynamic range and significantly reduce motion blur. However, because of the novelty in the nature of their output signals, there is a gap in the variability of available data and a lack of extensive analysis of the parameters characterizing their signals. This paper addresses these issues by providing readers with an in-depth understanding ",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23353v1",
+      "title": "SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23353v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "The Platonic Representation Hypothesis posits that neural networks trained on different modalities converge toward a shared statistical model of the world. Recent work exploits this convergence by aligning frozen pretrained vision and language models with lightweight alignment layers, but typically relies on contrastive losses and millions of paired samples. In this work, we ask whether meaningful alignment can be achieved with substantially less supervision. We introduce a semi-supervised setti",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23351v1",
+      "title": "Scale Can't Overcome Pragmatics: The Impact of Reporting Bias on Vision-Language Reasoning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23351v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "The lack of reasoning capabilities in Vision-Language Models (VLMs) has remained at the forefront of research discourse. We posit that this behavior stems from a reporting bias in their training data. That is, how people communicate about visual content by default omits tacit information needed to supervise some types of reasoning; e.g., \"at the game today!\" is a more likely caption than \"a photo of 37 people standing behind a field\". We investigate the data underlying the popular VLMs OpenCLIP,",
+        "keywords": [
+          "cs.CL",
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23349v1",
+      "title": "FlashOptim: Optimizers for Memory Efficient Training",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23349v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Standard mixed-precision training of neural networks requires many bytes of accelerator memory for each model parameter. These bytes reflect not just the parameter itself, but also its gradient and one or more optimizer state variables. With each of these values typically requiring 4 bytes, training even a 7 billion parameter model can be impractical for researchers with less than 100GB of accelerator memory.\n  We introduce FlashOptim, a suite of optimizations that reduces per-parameter memory b",
+        "keywords": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23341v1",
+      "title": "Mean Estimation from Coarse Data: Characterizations and Efficient Algorithms",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23341v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Coarse data arise when learners observe only partial information about samples; namely, a set containing the sample rather than its exact value. This occurs naturally through measurement rounding, sensor limitations, and lag in economic systems. We study Gaussian mean estimation from coarse data, where each true sample $x$ is drawn from a $d$-dimensional Gaussian distribution with identity covariance, but is revealed only through the set of a partition containing $x$. When the coarse samples, ro",
+        "keywords": [
+          "cs.LG",
+          "cs.DS",
+          "math.ST",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.DS",
+        "math.ST",
+        "stat.ML"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23339v1",
+      "title": "Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23339v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Open-vocabulary segmentation (OVS) extends the zero-shot recognition capabilities of vision-language models (VLMs) to pixel-level prediction, enabling segmentation of arbitrary categories specified by text prompts. Despite recent progress, OVS lags behind fully supervised approaches due to two challenges: the coarse image-level supervision used to train VLMs and the semantic ambiguity of natural language. We address these limitations by introducing a few-shot setting that augments textual prompt",
+        "keywords": [
+          "cs.CV"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23336v1",
+      "title": "Differentiable Zero-One Loss via Hypersimplex Projections",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23336v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Recent advances in machine learning have emphasized the integration of structured optimization components into end-to-end differentiable models, enabling richer inductive biases and tighter alignment with task-specific objectives. In this work, we introduce a novel differentiable approximation to the zero-one loss-long considered the gold standard for classification performance, yet incompatible with gradient-based optimization due to its non-differentiability. Our method constructs a smooth, or",
+        "keywords": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23335v1",
+      "title": "Understanding Usage and Engagement in AI-Powered Scientific Research Tools: The Asta Interaction Dataset",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23335v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "AI-powered scientific research tools are rapidly being integrated into research workflows, yet the field lacks a clear lens into how researchers use these systems in real-world settings. We present and analyze the Asta Interaction Dataset, a large-scale resource comprising over 200,000 user queries and interaction logs from two deployed tools (a literature discovery interface and a scientific question-answering interface) within an LLM-powered retrieval-augmented generation platform. Using this ",
+        "keywords": [
+          "cs.HC",
+          "cs.AI",
+          "cs.IR"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.IR"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23334v1",
+      "title": "Bitwise Systolic Array Architecture for Runtime-Reconfigurable Multi-precision Quantized Multiplication on Hardware Accelerators",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23334v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Neural network accelerators have been widely applied to edge devices for complex tasks like object tracking, image recognition, etc. Previous works have explored the quantization technologies in related lightweight accelerator designs to reduce hardware resource consumption. However, low precision leads to high accuracy loss in inference. Therefore, mixed-precision quantization becomes an alternative solution by applying different precision in different layers to trade off resource consumption a",
+        "keywords": [
+          "cs.AR",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.AR",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23331v1",
+      "title": "Utilizing LLMs for Industrial Process Automation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23331v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "A growing number of publications address the best practices to use Large Language Models (LLMs) for software engineering in recent years. However, most of this work focuses on widely-used general purpose programming languages like Python due to their widespread usage training data. The utility of LLMs for software within the industrial process automation domain, with highly-specialized languages that are typically only used in proprietary contexts, remains underexplored. This research aims to ut",
+        "keywords": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23330v1",
+      "title": "Toward Expert Investment Teams:A Multi-Agent LLM System with Fine-Grained Trading Tasks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23330v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "The advancement of large language models (LLMs) has accelerated the development of autonomous financial trading systems. While mainstream approaches deploy multi-agent systems mimicking analyst and manager roles, they often rely on abstract instructions that overlook the intricacies of real-world workflows, which can lead to degraded inference performance and less transparent decision-making. Therefore, we propose a multi-agent LLM trading framework that explicitly decomposes investment analysis",
+        "keywords": [
+          "cs.AI",
+          "q-fin.TR"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.AI",
+        "q-fin.TR"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23329v1",
+      "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23329v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) perform increasingly well on biology benchmarks, but it remains unclear whether they uplift novice users -- i.e., enable humans to perform better than with internet-only resources. This uncertainty is central to understanding both scientific acceleration and dual-use risk. We conducted a multi-model, multi-benchmark human uplift study comparing novices with LLM access versus internet-only access across eight biosecurity-relevant task sets. Participants worked on comp",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "cs.CR",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR",
+        "cs.CY",
+        "cs.HC"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23321v1",
+      "title": "Deep ensemble graph neural networks for probabilistic cosmic-ray direction and energy reconstruction in autonomous radio arrays",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23321v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Using advanced machine learning techniques, we developed a method for reconstructing precisely the arrival direction and energy of ultra-high-energy cosmic rays from the voltage traces they induced on ground-based radio detector arrays.\n  In our approach, triggered antennas are represented as a graph structure, which serves as input for a graph neural network (GNN). By incorporating physical knowledge into both the GNN architecture and the input data, we improve the precision and reduce the requ",
+        "keywords": [
+          "astro-ph.IM",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "astro-ph.IM",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23320v1",
+      "title": "ParamMem: Augmenting Language Agents with Parametric Reflective Memory",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23320v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Self-reflection enables language agents to iteratively refine solutions, yet often produces repetitive outputs that limit reasoning performance. Recent studies have attempted to address this limitation through various approaches, among which increasing reflective diversity has shown promise. Our empirical analysis reveals a strong positive correlation between reflective diversity and task success, further motivating the need for diverse reflection signals. We introduce ParamMem, a parametric mem",
+        "keywords": [
+          "cs.LG",
+          "cs.MA"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23318v1",
+      "title": "Generalized Rapid Action Value Estimation in Memory-Constrained Environments",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23318v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Generalized Rapid Action Value Estimation (GRAVE) has been shown to be a strong variant within the Monte-Carlo Tree Search (MCTS) family of algorithms for General Game Playing (GGP). However, its reliance on storing additional win/visit statistics at each node makes its use impractical in memory-constrained environments, thereby limiting its applicability in practice. In this paper, we introduce the GRAVE2, GRAVER and GRAVER2 algorithms, which extend GRAVE through two-level search, node recyclin",
+        "keywords": [
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23331v1",
+      "title": "Utilizing LLMs for Industrial Process Automation",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23331v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "A growing number of publications address the best practices to use Large Language Models (LLMs) for software engineering in recent years. However, most of this work focuses on widely-used general purpose programming languages like Python due to their widespread usage training data. The utility of LLMs for software within the industrial process automation domain, with highly-specialized languages that are typically only used in proprietary contexts, remains underexplored. This research aims to ut",
+        "keywords": [
+          "cs.SE",
+          "cs.AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23329v1",
+      "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23329v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Large language models (LLMs) perform increasingly well on biology benchmarks, but it remains unclear whether they uplift novice users -- i.e., enable humans to perform better than with internet-only resources. This uncertainty is central to understanding both scientific acceleration and dual-use risk. We conducted a multi-model, multi-benchmark human uplift study comparing novices with LLM access versus internet-only access across eight biosecurity-relevant task sets. Participants worked on comp",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "cs.CR",
+          "cs.CY",
+          "cs.HC"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR",
+        "cs.CY",
+        "cs.HC"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23312v1",
+      "title": "Evaluating Zero-Shot and One-Shot Adaptation of Small Language Models in Leader-Follower Interaction",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23312v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Leader-follower interaction is an important paradigm in human-robot interaction (HRI). Yet, assigning roles in real time remains challenging for resource-constrained mobile and assistive robots. While large language models (LLMs) have shown promise for natural communication, their size and latency limit on-device deployment. Small language models (SLMs) offer a potential alternative, but their effectiveness for role classification in HRI has not been systematically evaluated. In this paper, we p",
+        "keywords": [
+          "cs.HC",
+          "cs.AI",
+          "cs.LG",
+          "cs.RO",
+          "eess.SY"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO",
+        "eess.SY"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23287v1",
+      "title": "Interface-Aware Trajectory Reconstruction of Limited Demonstrations for Robot Learning",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23287v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Assistive robots offer agency to humans with severe motor impairments. Often, these users control high-DoF robots through low-dimensional interfaces, such as using a 1-D sip-and-puff interface to operate a 6-DoF robotic arm. This mismatch results in having access to only a subset of control dimensions at a given time, imposing unintended and artificial constraints on robot motion. As a result, interface-limited demonstrations embed suboptimal motions that reflect interface restrictions rather th",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23283v1",
+      "title": "Simple Models, Real Swimming: Digital Twins for Tendon-Driven Underwater Robots",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23283v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Mimicking the graceful motion of swimming animals remains a core challenge in soft robotics due to the complexity of fluid-structure interaction and the difficulty of controlling soft, biomimetic bodies. Existing modeling approaches are often computationally expensive and impractical for complex control or reinforcement learning needed for realistic motions to emerge in robotic systems. In this work, we present a tendon-driven fish robot modeled in an efficient underwater swimmer environment usi",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23280v1",
+      "title": "Physics Informed Viscous Value Representations",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23280v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Offline goal-conditioned reinforcement learning (GCRL) learns goal-conditioned policies from static pre-collected datasets. However, accurate value estimation remains a challenge due to the limited coverage of the state-action space. Recent physics-informed approaches have sought to address this by imposing physical and geometric constraints on the value function through regularization defined over first-order partial differential equations (PDEs), such as the Eikonal equation. However, these fo",
+        "keywords": [
+          "cs.LG",
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23262v1",
+      "title": "Decomposing Private Image Generation via Coarse-to-Fine Wavelet Modeling",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23262v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Generative models trained on sensitive image datasets risk memorizing and reproducing individual training examples, making strong privacy guarantees essential. While differential privacy (DP) provides a principled framework for such guarantees, standard DP finetuning (e.g., with DP-SGD) often results in severe degradation of image quality, particularly in high-frequency textures, due to the indiscriminate addition of noise across all model parameters. In this work, we propose a spectral DP frame",
+        "keywords": [
+          "cs.CV",
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23261v1",
+      "title": "Strengthening security and noise resistance in one-way quantum key distribution protocols through hypercube-based quantum walks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23261v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Quantum Key Distribution (QKD) is a foundational cryptographic protocol that ensures information-theoretic security. However, classical protocols such as BB84, though favored for their simplicity, offer limited resistance to eavesdropping, and perform poorly under realistic noise conditions. Recent research has explored the use of discrete-time Quantum Walks (QWs) to enhance QKD schemes. In this work, we specifically focus on a one-way QKD protocol, where security depends exclusively on the unde",
+        "keywords": [
+          "cs.CR"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CR"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23259v1",
+      "title": "Risk-Aware World Model Predictive Control for Generalizable End-to-End Autonomous Driving",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23259v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "With advances in imitation learning (IL) and large-scale driving datasets, end-to-end autonomous driving (E2E-AD) has made great progress recently. Currently, IL-based methods have become a mainstream paradigm: models rely on standard driving behaviors given by experts, and learn to minimize the discrepancy between their actions and expert actions. However, this objective of \"only driving like the expert\" suffers from limited generalization: when encountering rare or unseen long-tail scenarios o",
+        "keywords": [
+          "cs.CV",
+          "cs.AI",
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23253v1",
+      "title": "SPARR: Simulation-based Policies with Asymmetric Real-world Residuals for Assembly",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23253v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Robotic assembly presents a long-standing challenge due to its requirement for precise, contact-rich manipulation. While simulation-based learning has enabled the development of robust assembly policies, their performance often degrades when deployed in real-world settings due to the sim-to-real gap. Conversely, real-world reinforcement learning (RL) methods avoid the sim-to-real gap, but rely heavily on human supervision and lack generalization ability to environmental changes. In this work, we",
+        "keywords": [
+          "cs.RO"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.RO"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23347v1",
+      "title": "Temporal metamaterials with passive switching as impedance-matched absorbers",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23347v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Recent experiments on temporal reflection in transmission line metamaterials and theoretical treatments of dispersive time-varying media have unearthed the fundamental role of modulation mechanisms on the interface conditions, underpinning the introduction of passive photonic time crystals with stable momentum band gaps. Drawing from these concepts, it is shown that temporal metamaterials with simultaneous passive permittivity and permeability switching exhibit wideband absorption with impedance",
+        "keywords": [
+          "physics.optics",
+          "physics.app-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "physics.optics",
+        "physics.app-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23332v1",
+      "title": "Butterfly Echo Protocol for Axis-Agnostic Heisenberg-Limited Metrology",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23332v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "The extreme sensitivity of chaotic systems to external perturbations makes them natural candidates for sensing applications. We propose a single-shot echo-based protocol for estimating small rotations about an unknown axis that leverages random symmetric probe states prepared via chaotic dynamics. In contrast to previous protocols for this axis-agnostic rotation sensing problem that depend on difficult-to-prepare anticoherent states, the random probe states used in our protocol can be prepared v",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23319v1",
+      "title": "Analogue many-body gravitating quantum systems with a network of dipolar Bose-Einstein condensates",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23319v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Operational probes of the interface between quantum mechanics and general relativity in the Newtonian regime -- via mass-energy equivalence in clocks or spatial superpositions in interferometers -- share a common description in terms of an effective qubit-qubit Ising coupling. Here we generalize both paradigms to interacting $(N+1)$-level effective qudits made of atomic ensembles with particle number, $N$. The many-body enhancement boosts the signal-to-noise and increases the effective interacti",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.quant-gas",
+          "gr-qc"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph",
+        "cond-mat.quant-gas",
+        "gr-qc"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23307v1",
+      "title": "Copy-cup Gates in Tensor Products of Group Algebra Codes",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23307v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "We determine conditions on classical group algebra codes so that they have pre-orientation for cup products and copy-cup gates. This defines quantum codes that have constant-depth $\\operatorname{CZ}$ and $\\operatorname{CCZ}$ gates constructed via tensor products of classical group algebra codes, including hypergraph and balanced products. We show that determining the conditions relies on solving the perfect matching problem in graph theory. Conditions are fully determined for the 2- and 3-copy-c",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23304v1",
+      "title": "Efficient evaluation of fundamental sensitivity limits and full counting statistics for continuously monitored Gaussian quantum systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23304v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Generalized master equations (GMEs) -- time-local but generally neither trace-preserving nor Hermiticity-preserving -- are convenient tools to compute properties of the environment of an open or continuously monitored quantum system. A two-sided master equation yields the fidelity and quantum Fisher information (QFI) of environment states, thereby setting fundamental limits for hypothesis testing and parameter estimation under continuous monitoring. For unmonitored noise or inefficient detection",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23298v1",
+      "title": "Electromechanical Switching and Momentum-Selective Transport in Geometry-Defined Blue Phosphorus Homojunctions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23298v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Developing intrinsic homojunctions without chemical heterogeneity remains a key challenge in future two - dimensional devices. Here, we report a geometry - defined metal--semiconductor--metal homojunction in bilayer blue phosphorus (BlueP) created by a localized bubble corrugation, without chemical doping or foreign - material interfaces. First - principles calculations show that enlarging the interlayer separation in the metallic A\\(_1\\)B\\(_1\\) - stacked BlueP bilayer opens a band gap, enabling",
+        "keywords": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci",
+          "physics.app-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23254v1",
+      "title": "Quantum Confocal Microscopy in Fock Space with a 19 dB Metrological Gain",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23254v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Quantum metrology promises measurement precision beyond classical limits by exploiting large-scale quantum states, yet realizing this advantage faces two fundamental challenges: the deterministic preparation of non-trivial quantum probes and the efficient extraction of metrological information in high-dimensional Hilbert spaces. Here, we introduce quantum confocal microscopy in Fock space that simultaneously resolves both challenges. Drawing a direct analogy between classical wave optics and qua",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23238v1",
+      "title": "Gaussian mode coupling of spectrally broadband photons from bulk spontaneous parametric down-conversion: A spatial-spectral mode analysis of fiber coupling",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23238v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Photon sources based on spontaneous parametric down-conversion (SPDC) are central to experimental quantum optics and quantum technologies. Their performance is commonly quantified by three metrics: pair-collection probability, heralding efficiency, and spectral purity. In bulk-crystal SPDC, these metrics are known to be mutually constrained, yet the physical origin of the resulting trade-offs is often obscured. We show that these trade-offs originate from the frequency-dependent population of di",
+        "keywords": [
+          "quant-ph"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23237v1",
+      "title": "Polarization-selective quantum cooperative response in dual-species atom arrays",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23237v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Atom arrays have emerged as a powerful platform for quantum light-matter interfaces, yet single-species arrays are constrained by in-plane symmetry, restricting polarization control. Here we investigate the cooperative optical response of dual-species subwavelength atom arrays, in which intrinsic polarizability difference breaks in-plane symmetry. By engineering the lattice spacing and detunings, the arrays exhibit polarization-dependent subradiant modes, enabling complete reflection of specific",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.quant-gas",
+          "physics.atom-ph",
+          "physics.optics"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph",
+        "cond-mat.quant-gas",
+        "physics.atom-ph",
+        "physics.optics"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23226v1",
+      "title": "Quantum diffusion for a quantum particle with a correlated Gaussian noise",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23226v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "We investigate the diffusive behavior of a quantum particle driven by a correlated Gaussian noise. We derive the analytical solution of the joint probability density function and obtain explicit expressions for the mean square momentum and the mean square displacement.",
+        "keywords": [
+          "quant-ph",
+          "cond-mat.stat-mech"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "quant-ph",
+        "cond-mat.stat-mech"
+      ]
+    },
+    {
+      "id": "arxiv-2602-22750v1",
+      "title": "The Inference Bottleneck: Antitrust and Neutrality Duties in the Age of Cognitive Infrastructure",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22750v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "As generative AI commercializes, competitive advantage is shifting from one-time model training toward continuous inference, distribution, and routing. At the frontier, large-scale inference can function as cognitive infrastructure: a bottleneck input that downstream applications rely on to compete, controlled by firms that often compete downstream through integrated assistants, productivity suites, and developer tooling. Foreclosure risk is not limited to price. It can be executed through non-p",
+        "keywords": [
+          "cs.CY",
+          "econ.GN"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CY",
+        "econ.GN"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23274v1",
+      "title": "Exploiting network topology in brain-scale simulations of spiking neural networks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23274v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Simulation code for conventional supercomputers serves as a reference for neuromorphic computing systems. The present bottleneck of distributed large-scale spiking neuronal network simulations is the communication between compute nodes. Communication speed seems limited by the interconnect between the nodes and the software library orchestrating the data transfer. Profiling reveals, however, that the variability of the time required by the compute nodes between communication calls is large. The ",
+        "keywords": [
+          "cs.DC",
+          "q-bio.NC"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.DC",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23202v1",
+      "title": "Collective Dynamics in Spiking Neural Networks Beyond Dale's Principle",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23202v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Dale's Principle has historically guided neuroscience research as a valuable rule of thumb, namely that all synapses on each neuron release the same set of neurotransmitters. Most existing Spiking Neuron Network models share this dichotomous assumption that neurons are either excitatory or inhibitory; however, recent experimental evidence points towards co-release mechanisms that violate this assumption. Here, we introduce a minimal model of \"Bilingual\" neurons violating Dale's principle that ca",
+        "keywords": [
+          "q-bio.NC",
+          "cond-mat.dis-nn"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "q-bio.NC",
+        "cond-mat.dis-nn"
+      ]
+    },
+    {
+      "id": "arxiv-2602-22895v1",
+      "title": "SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding Through Trivialization",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22895v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Implementations of symmetric positive definite (SPD) matrix-based neural networks for neural decoding remain fragmented across research codebases and Python packages. Existing implementations often employ ad hoc handling of manifold constraints and non-unified training setups, which hinders reproducibility and integration into modern deep-learning workflows. To address this gap, we introduce SPD Learn, a unified and modular Python package for geometric deep learning with SPD matrices. SPD Learn ",
+        "keywords": [
+          "q-bio.NC",
+          "cs.LG"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "q-bio.NC",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "arxiv-2602-22523v1",
+      "title": "Cognitive Models and AI Algorithms Provide Templates for Designing Language Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.22523v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "While contemporary large language models (LLMs) are increasingly capable in isolation, there are still many difficult problems that lie beyond the abilities of a single LLM. For such tasks, there is still uncertainty about how best to take many LLMs as parts and combine them into a greater whole. This position paper argues that potential blueprints for designing such modular language agents can be found in the existing literature on cognitive models and artificial intelligence (AI) algorithms. T",
+        "keywords": [
+          "cs.AI",
+          "cs.CL",
+          "q-bio.NC"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.AI",
+        "cs.CL",
+        "q-bio.NC"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23341v1",
+      "title": "Mean Estimation from Coarse Data: Characterizations and Efficient Algorithms",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23341v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Coarse data arise when learners observe only partial information about samples; namely, a set containing the sample rather than its exact value. This occurs naturally through measurement rounding, sensor limitations, and lag in economic systems. We study Gaussian mean estimation from coarse data, where each true sample $x$ is drawn from a $d$-dimensional Gaussian distribution with identity covariance, but is revealed only through the set of a partition containing $x$. When the coarse samples, ro",
+        "keywords": [
+          "cs.LG",
+          "cs.DS",
+          "math.ST",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "cs.DS",
+        "math.ST",
+        "stat.ML"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23336v1",
+      "title": "Differentiable Zero-One Loss via Hypersimplex Projections",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23336v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Recent advances in machine learning have emphasized the integration of structured optimization components into end-to-end differentiable models, enabling richer inductive biases and tighter alignment with task-specific objectives. In this work, we introduce a novel differentiable approximation to the zero-one loss-long considered the gold standard for classification performance, yet incompatible with gradient-based optimization due to its non-differentiability. Our method constructs a smooth, or",
+        "keywords": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23323v1",
+      "title": "Modeling Large-Scale Adversarial Swarm Engagements using Optimal Control",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23323v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "We investigate the optimal control of large-scale autonomous systems under explicitly adversarial conditions, incorporating the probabilistic destruction of agents over time. In many such systems, adversarial interactions arise as different agents or groups compete against one another. A crucial yet often overlooked factor in existing theoretical and modeling frameworks is the random attrition of agents during operation. Effective modeling and control strategies must therefore account for both a",
+        "keywords": [
+          "math.OC"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "math.OC"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23260v1",
+      "title": "Efficient Interior-Point Methods for Hyperbolic Programming via Straight-Line Programs",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23260v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Hyperbolic (HB) programming generalizes many popular convex optimization problems, including semidefinite and second-order cone programming. Despite substantial theoretical progress on HB programming, efficient computational tools for solving large-scale hyperbolic programs remain limited. This paper presents DDS 3.0, a new release of the Domain-Driven Solver, which provides an efficient interior-point implementation tailored for hyperbolic programming. A key innovation lies in a new straight-li",
+        "keywords": [
+          "math.OC"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "math.OC"
+      ]
+    },
+    {
+      "id": "arxiv-2602-23197v1",
+      "title": "Fine-Tuning Without Forgetting In-Context Learning: A Theoretical Analysis of Linear Attention Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.23197v1",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "Transformer-based large language models exhibit in-context learning, enabling adaptation to downstream tasks via few-shot prompting with demonstrations. In practice, such models are often fine-tuned to improve zero-shot performance on downstream tasks, allowing them to solve tasks without examples and thereby reducing inference costs. However, fine-tuning can degrade in-context learning, limiting the performance of fine-tuned models on tasks not seen during fine-tuning. Using linear attention mo",
+        "keywords": [
+          "cs.CL",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-02-28T21:10:00Z",
+      "arxiv_categories": [
+        "cs.CL",
+        "cs.LG",
+        "stat.ML"
+      ]
+    }
+  ],
+  "scan_metadata": {
+    "execution_proof": {
+      "started_at": "2026-02-28T21:10:00Z",
+      "completed_at": "2026-02-28T21:12:00Z",
+      "anchor_T0": "2026-02-28T20:41:32Z"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf4-multiglobal-news",
+  "assessment_method": "cross_impact_matrix",
+  "total_assessed": 22,
+  "critical_count": 4,
+  "high_count": 6,
+  "medium_count": 12,
+  "low_count": 0,
+  "key_clusters": [
+    {"theme": "Second Iran War — military operations and escalation", "signals": ["news-20260228-cnn-001", "news-20260228-wapo-001", "news-20260228-alj-001", "news-20260228-alma-001"], "cross_impact": "CRITICAL"},
+    {"theme": "Global financial and logistics disruption from Iran war", "signals": ["news-20260228-cnbc-001", "news-20260228-alj-002", "news-20260228-chosun-001", "news-20260228-mk-001"], "cross_impact": "CRITICAL"},
+    {"theme": "Indo-Pacific security competition", "signals": ["news-20260228-jpt-001", "news-20260228-jpt-002", "news-20260228-cgtn-001", "news-20260228-scmp-001"], "cross_impact": "HIGH"},
+    {"theme": "AI and semiconductor industry evolution", "signals": ["news-20260228-tsmc-001", "news-20260228-deloitte-001", "news-20260228-etnews-001", "news-20260228-bloter-001"], "cross_impact": "HIGH"},
+    {"theme": "Climate and energy transition under geopolitical stress", "signals": ["news-20260228-europ-001", "news-20260228-europ-002"], "cross_impact": "MEDIUM"}
+  ],
+  "tipping_point_indicators": {
+    "RED": 2,
+    "ORANGE": 1,
+    "YELLOW": 2,
+    "GREEN": 17,
+    "details": [
+      {"signal": "news-20260228-cnn-001", "level": "RED", "reason": "Supreme leader assassination — regime decapitation crossing irreversible tipping point"},
+      {"signal": "news-20260228-alj-001", "level": "RED", "reason": "Iran retaliation on 5 Gulf states — conflict expanded beyond bilateral to regional"},
+      {"signal": "news-20260228-cnbc-001", "level": "ORANGE", "reason": "Oil past $120, markets in extreme fear — approaching financial crisis tipping point"},
+      {"signal": "news-20260228-jpt-001", "level": "YELLOW", "reason": "Taiwan arms delay for Xi diplomacy — potential shift in US Taiwan commitment signals"},
+      {"signal": "news-20260228-scmp-001", "level": "YELLOW", "reason": "China drone gray-zone escalation — potential Taiwan rehearsal approaching threshold"}
+    ]
+  }
+}

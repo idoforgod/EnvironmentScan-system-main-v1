@@ -1,0 +1,915 @@
+{
+  "assessment_metadata": {
+    "workflow": "wf3-naver",
+    "date": "2026-02-25",
+    "total_signals": 15,
+    "assessment_method": "cross-impact analysis with FSSF + Three Horizons framework"
+  },
+  "cross_impact_matrix": [
+    {
+      "signal_a": "naver-20260225-105-001",
+      "signal_b": "naver-20260225-101-001",
+      "relationship": "reinforcing",
+      "strength": 0.8,
+      "description": "SK Hynix mega-investment drives semiconductor sector valuation, directly fueling KOSPI 6000 rally"
+    },
+    {
+      "signal_a": "naver-20260225-104-001",
+      "signal_b": "naver-20260225-101-001",
+      "relationship": "opposing",
+      "strength": 0.7,
+      "description": "US tariff escalation threatens export-dependent Korean economy, creating downside risk for KOSPI"
+    },
+    {
+      "signal_a": "naver-20260225-101-002",
+      "signal_b": "naver-20260225-105-001",
+      "relationship": "reinforcing",
+      "strength": 0.9,
+      "description": "AMD-Meta deal increases HBM demand, directly benefiting SK Hynix investment thesis"
+    },
+    {
+      "signal_a": "naver-20260225-104-001",
+      "signal_b": "naver-20260225-104-004",
+      "relationship": "reinforcing",
+      "strength": 0.8,
+      "description": "US protectionism driving European nations toward China, reshaping global alliance architecture"
+    },
+    {
+      "signal_a": "naver-20260225-104-002",
+      "signal_b": "naver-20260225-104-001",
+      "relationship": "reinforcing",
+      "strength": 0.6,
+      "description": "US-Korea military friction compounds trade tension, suggesting broader alliance stress"
+    }
+  ],
+  "pattern_analysis": {
+    "dominant_pattern": "Technology-driven economic transformation with geopolitical disruption",
+    "emerging_themes": [
+      "AI/semiconductor investment acceleration driving Korean economic surge",
+      "US trade protectionism creating multi-front pressure on Korean economy",
+      "Corporate governance revolution transforming Korean capitalism",
+      "Geopolitical realignment as European allies pivot toward China",
+      "Humanoid robotics ecosystem formation as next tech frontier"
+    ],
+    "anomalies": [
+      {
+        "type": "structural",
+        "signal": "naver-20260225-105-003",
+        "description": "Naver (Korea's largest tech platform) shutting down consumer generative AI signals potential capability gap vs global competitors",
+        "severity": "moderate"
+      },
+      {
+        "type": "statistical",
+        "signal": "naver-20260225-104-003",
+        "description": "101 Chinese military officers purged — unprecedented scale suggesting systemic instability",
+        "severity": "high"
+      }
+    ]
+  },
+  "signals_with_impact": [
+    {
+      "id": "naver-20260225-105-001",
+      "title": "SK Hynix Invests 21.6 Trillion Won in Yongin Cluster Phase 1 Fab",
+      "title_ko": "SK하이닉스, 용인 클러스터 1기 팹에 21.6조 투자 의결",
+      "category": "T",
+      "steeps_category": "Technological",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "uncertainty": "Low",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "Sustained semiconductor investment trajectory",
+        "evidence": "Cumulative 31 trillion won investment in single facility cluster"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "SK Hynix has approved 21.6 trillion won in additional investment for its Yongin semiconductor cluster Phase 1 fab, bringing total investment to 31 trillion won. This positions Korea as a global AI/HBM chip manufacturing hub, responding to surging customer demand for advanced memory solutions.",
+        "keywords": [
+          "SK하이닉스",
+          "용인",
+          "반도체",
+          "HBM",
+          "AI칩",
+          "투자"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "SK Hynix approved 21.6 trillion won additional investment for Yongin Phase 1 fab, total 31 trillion won committed",
+        "quantitative_metrics": "21.6 trillion KRW additional investment; 31 trillion KRW total; targets HBM and advanced memory production",
+        "impact_score": 4.5,
+        "impact_description": "Massive semiconductor capital expenditure signals Korea's strategic commitment to AI chip manufacturing dominance. This single facility investment exceeds many countries' total semiconductor budgets.",
+        "inference": "Korea is doubling down on semiconductor manufacturing as AI demand creates unprecedented memory chip requirements. SK Hynix is racing to secure production capacity before competitors, indicating the AI infrastructure buildout is entering a critical acceleration phase.",
+        "stakeholders": "SK Hynix, Samsung Electronics, TSMC, Nvidia, global AI companies, Korean semiconductor workforce, Yongin local government",
+        "monitoring_indicators": "HBM production capacity ramp timeline, competitor responses (Samsung/Micron), AI chip demand growth rate, facility construction progress"
+      },
+      "priority_score": 9.2,
+      "psst_scores": {
+        "SR": 9,
+        "TC": 8,
+        "DC": 9,
+        "ES": 8,
+        "CC": 9,
+        "IC": 9
+      },
+      "psst_total": 87,
+      "priority_rank": 1,
+      "urgency_tag": "URGENT",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-101-001",
+      "title": "KOSPI Reaches Historic 6000: Korean Stock Market Sets New Record",
+      "title_ko": "K-증시 또 새역사, 코스피 '꿈의 6000' 깃발 꽂았다",
+      "category": "E",
+      "steeps_category": "Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Critical Slowing Down: market euphoria indicators rising while real economy diverges",
+        "evidence": "100 million stock accounts opened; savings-to-stocks rotation accelerating; analysts divided on sustainability"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "경제",
+        "section_id": 101,
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "KOSPI has broken through the 6000 milestone, shattering four thousand-point barriers within a single year. Stock accounts have reached 100 million, with massive retail investor participation. Analysts are divided between bullish 7000-8000 targets and caution about overheating.",
+        "keywords": [
+          "코스피",
+          "6000",
+          "주식시장",
+          "개인투자자",
+          "증시"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "KOSPI pierced 6000 level; 100M stock accounts reached; 4 thousand-point levels broken in one year",
+        "quantitative_metrics": "KOSPI 6000+; 100 million stock accounts; 4 major milestones in 12 months; President Lee's ETF return exceeds 150%",
+        "impact_score": 4.0,
+        "impact_description": "Historic stock market milestone signals massive wealth effect and financial system transformation. The savings-to-stocks rotation represents a structural shift in Korean household asset allocation.",
+        "inference": "The unprecedented market rally is driven by semiconductor/AI sector strength and corporate governance reforms (self-share cancellation mandates). However, YELLOW tipping point alert due to divergence between market euphoria and cautious real economy indicators.",
+        "stakeholders": "Retail investors (100M accounts), National Pension Service, securities firms, Korean government, corporate boards",
+        "monitoring_indicators": "KOSPI sustainability above 6000, foreign investor flow direction, National Pension fund allocation limits, margin trading volumes, savings rate changes"
+      },
+      "priority_score": 8.8,
+      "psst_scores": {
+        "SR": 9,
+        "TC": 7,
+        "DC": 8,
+        "ES": 9,
+        "CC": 8,
+        "IC": 9
+      },
+      "psst_total": 83,
+      "priority_rank": 2,
+      "urgency_tag": "URGENT",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-104-001",
+      "title": "US Plans Global Tariff Increase to 15%: Trade Tensions Escalate",
+      "title_ko": "백악관 당국자 '글로벌 관세 15%로 올리는 작업 진행중'",
+      "category": "E",
+      "steeps_category": "Economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "uncertainty": "High",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "indicator": "Flickering: tariff announcements oscillating between escalation and negotiation signals",
+        "evidence": "USTR says 15% for some countries; Trump hints at even higher; Super 301 investigation possibility for Korea"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "White House officials confirmed work on raising global tariffs from 10% to 15%, with some countries potentially facing even higher rates. Trump's 108-minute congressional address emphasized tariffs will become 'more powerful.' Korea faces potential Super 301 trade investigation.",
+        "keywords": [
+          "관세",
+          "트럼프",
+          "무역",
+          "301조",
+          "글로벌관세"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "US raising global baseline tariff to 15%; Super 301 investigation possible for Korea; Trump promises tariffs will intensify",
+        "quantitative_metrics": "10% to 15% global tariff increase; 108-minute congressional address; Super 301 trade investigation threat",
+        "impact_score": -4.5,
+        "impact_description": "Escalating US trade protectionism directly threatens Korea's export-dependent economy. Super 301 investigation would mark a dramatic escalation in US-Korea trade friction.",
+        "inference": "The US is systematically raising trade barriers globally while simultaneously targeting specific allies. Korea's semiconductor and auto exports are particularly vulnerable. The oscillation between escalation and negotiation signals (Flickering pattern) suggests a tipping point in global trade architecture.",
+        "stakeholders": "Korean exporters, semiconductor industry, auto manufacturers, Korean government trade negotiators, WTO, global supply chains",
+        "monitoring_indicators": "Super 301 investigation announcement, Korea-specific tariff rates, semiconductor export controls, bilateral trade negotiation outcomes"
+      },
+      "priority_score": 9.0,
+      "psst_scores": {
+        "SR": 9,
+        "TC": 9,
+        "DC": 8,
+        "ES": 9,
+        "CC": 9,
+        "IC": 9
+      },
+      "psst_total": 88,
+      "priority_rank": 3,
+      "urgency_tag": "URGENT",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-101-002",
+      "title": "AMD Signs $60 Billion AI Chip Supply Deal with Meta",
+      "title_ko": "'엔비디아 의존도 낮춰라'…AMD, 메타와 600억달러 규모 AI칩 공급 계약",
+      "category": "T",
+      "steeps_category": "Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "AI chip market bifurcation accelerating",
+        "evidence": "$60B contract represents largest non-Nvidia AI chip deal; signals structural market shift"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "경제",
+        "section_id": 101,
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "AMD has signed a $60 billion AI chip supply contract with Meta, the largest non-Nvidia AI chip deal to date. This signals Big Tech's strategic move to diversify away from Nvidia dominance in AI accelerators.",
+        "keywords": [
+          "AMD",
+          "메타",
+          "AI칩",
+          "엔비디아",
+          "반도체"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "AMD-Meta $60 billion AI chip supply agreement; largest non-Nvidia AI chip deal; strategic diversification",
+        "quantitative_metrics": "$60 billion contract value; targets Nvidia dependency reduction; follows Meta's existing Nvidia partnership",
+        "impact_score": 3.5,
+        "impact_description": "The AI chip market is entering a diversification phase. This mega-deal breaks Nvidia's near-monopoly and creates multi-sourcing dynamics that will reshape the entire semiconductor value chain.",
+        "inference": "Big Tech companies are systematically reducing single-vendor dependency for AI infrastructure. This creates opportunities for Korean chip makers (SK Hynix HBM for both platforms) while signaling AI investment will continue scaling.",
+        "stakeholders": "AMD, Meta, Nvidia, SK Hynix, Samsung Electronics, AI startups, data center operators",
+        "monitoring_indicators": "AMD market share growth, Nvidia earnings impact, HBM demand from both platforms, custom chip development programs"
+      },
+      "priority_score": 8.5,
+      "psst_scores": {
+        "SR": 8,
+        "TC": 9,
+        "DC": 8,
+        "ES": 8,
+        "CC": 8,
+        "IC": 8
+      },
+      "psst_total": 82,
+      "priority_rank": 4,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-105-002",
+      "title": "Korea Launches K-Moonshot: AI-Driven 8 Major Science Technology Fields",
+      "title_ko": "과학기술 AI 총동원…8대 분야 K-문샷 가동",
+      "category": "T",
+      "steeps_category": "Technological",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "National R&D strategy pivot toward AI-first approach",
+        "evidence": "8 strategic fields; AI integration mandate; 10 trillion KRW AI budget debate"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Korea has launched the K-Moonshot program mobilizing AI across 8 major science and technology fields. Experts argue the 10 trillion won AI budget is insufficient given the pace of global change. This represents a national-level strategic pivot to AI-first R&D.",
+        "keywords": [
+          "K-문샷",
+          "AI",
+          "과학기술",
+          "국가전략",
+          "R&D"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "K-Moonshot program launched across 8 strategic science fields with AI integration; 10 trillion KRW AI budget debated as insufficient",
+        "quantitative_metrics": "8 strategic fields; 10 trillion KRW AI budget; experts say 'insufficient compared to global pace'",
+        "impact_score": 3.5,
+        "impact_description": "National R&D strategy reorientation toward AI-first approach across all science domains. Signals Korea's recognition that AI competitiveness determines future national power.",
+        "inference": "Korea is positioning AI as the foundational layer across all strategic technology domains. The budget adequacy debate suggests pressure to dramatically increase AI investment, potentially reshaping national R&D priorities for decades.",
+        "stakeholders": "Korean government R&D agencies, universities, tech companies, AI researchers, competing nations (US, China, EU)",
+        "monitoring_indicators": "K-Moonshot funding allocation, AI talent pipeline, industry-academic collaboration metrics, international competitiveness rankings"
+      },
+      "priority_score": 8.2,
+      "psst_scores": {
+        "SR": 8,
+        "TC": 8,
+        "DC": 7,
+        "ES": 9,
+        "CC": 8,
+        "IC": 8
+      },
+      "psst_total": 80,
+      "priority_rank": 5,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-100-001",
+      "title": "Mandatory Self-Share Cancellation Drives KOSPI Rally: Corporate Governance Reform",
+      "title_ko": "자사주 소각 의무화로 주가 상승, 주주 이익 강화 법안 추진",
+      "category": "E",
+      "steeps_category": "Economic",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "Corporate governance paradigm shift in Korea",
+        "evidence": "President pushes for faster legislation; next target: inheritance/gift tax reform; conglomerates anxious"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "정치",
+        "section_id": 100,
+        "url": "https://news.naver.com/section/100",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "President Lee urged faster legislation for mandatory self-share cancellation to prevent stock price suppression. The ruling party is pursuing follow-up legislation targeting inheritance and gift tax reform. This has fueled the KOSPI rally while creating anxiety among conglomerates.",
+        "keywords": [
+          "자사주소각",
+          "의무화",
+          "주주",
+          "상법",
+          "기업지배구조"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "President Lee urges acceleration of mandatory self-share cancellation legislation; next legislative target is inheritance/gift tax reform",
+        "quantitative_metrics": "KOSPI 6000 directly attributed to governance reform expectations; conglomerate market caps affected",
+        "impact_score": 3.5,
+        "impact_description": "Fundamental restructuring of Korean corporate governance, ending decades of chaebol-friendly stock suppression practices. This is the most significant shareholder rights reform since the 1997 IMF crisis.",
+        "inference": "Korea is rapidly transitioning from a chaebol-controlled corporate governance model to a shareholder-value model. The speed and political will behind these reforms suggest irreversible structural change in Korean capitalism.",
+        "stakeholders": "Chaebol founding families, retail shareholders, institutional investors, National Assembly, corporate boards",
+        "monitoring_indicators": "Commercial Code amendment passage, inheritance tax reform timeline, chaebol ownership structure changes, foreign investment inflows"
+      },
+      "priority_score": 8.0,
+      "psst_scores": {
+        "SR": 8,
+        "TC": 7,
+        "DC": 7,
+        "ES": 8,
+        "CC": 8,
+        "IC": 8
+      },
+      "psst_total": 77,
+      "priority_rank": 6,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-101-003",
+      "title": "Petrochemical Industry Restructuring: HD Hyundai-Lotte Daesan Project Approved",
+      "title_ko": "석유화학 구조개편 '1호' 승인… HD현대·롯데, 대산 공장 합친다",
+      "category": "E",
+      "steeps_category": "Economic",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H2",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "First domino in massive petrochemical restructuring",
+        "evidence": "Government approves first-ever petrochemical consolidation; 2.1 trillion+ KRW government support; Lotte Chemical shutting 1.1M ton NCC"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "경제",
+        "section_id": 101,
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "The Korean government approved the first-ever petrochemical industry restructuring project, merging HD Hyundai and Lotte Chemical's Daesan operations into a new entity. Government commits 2.1+ trillion won in support. Lotte Chemical will shut down its 1.1 million ton NCC facility.",
+        "keywords": [
+          "석유화학",
+          "구조개편",
+          "대산",
+          "HD현대",
+          "롯데케미칼",
+          "NCC"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "Korea approves first petrochemical industry restructuring; HD Hyundai-Lotte joint entity at Daesan; 2.1 trillion+ KRW government support",
+        "quantitative_metrics": "2.1+ trillion KRW government support; 1.1M ton NCC shutdown; 4,300 billion KRW from KDB",
+        "impact_score": 3.0,
+        "impact_description": "First structural reorganization of Korea's petrochemical sector signals the beginning of a broader industrial transition away from legacy heavy industry toward high-value manufacturing.",
+        "inference": "This is a precursor event for large-scale industrial restructuring across multiple sectors. The government's willingness to fund consolidation suggests acceptance that overcapacity in traditional industries must be addressed proactively.",
+        "stakeholders": "HD Hyundai, Lotte Chemical, Daesan complex workers, Korea Development Bank, petrochemical industry, energy transition planners",
+        "monitoring_indicators": "Additional restructuring approvals, employment impact, new entity performance, government support utilization"
+      },
+      "priority_score": 7.8,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 7,
+        "DC": 7,
+        "ES": 8,
+        "CC": 8,
+        "IC": 8
+      },
+      "psst_total": 75,
+      "priority_rank": 7,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-104-002",
+      "title": "US-Korea Military Alliance Friction Over West Sea Exercises",
+      "title_ko": "한미, 서해 훈련 두고 불협화음…브런슨 '사과 안했다'",
+      "category": "P",
+      "steeps_category": "Political",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "uncertainty": "High",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Unprecedented public discord between US and Korean military leadership",
+        "evidence": "US forces deny apology; Korean side claims consultations; FTX exercise schedule dispute"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Rare public discord between US and Korean military over West Sea training exercises. USFK spokesperson denied issuing an apology while Korean officials claimed consultations were ongoing. The FTX (combined exercise) schedule from March 9-19 remains contentious.",
+        "keywords": [
+          "한미동맹",
+          "서해훈련",
+          "브런슨",
+          "불협화음",
+          "연합연습"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "US-Korea military discord over West Sea exercises; USFK denies apology; Korea says consultations underway",
+        "quantitative_metrics": "FTX exercise March 9-19 schedule; combined defense exercises at issue",
+        "impact_score": -3.5,
+        "impact_description": "Public military alliance friction is extremely rare and signals deeper strategic misalignment. This could indicate shifting US priorities under Trump administration affecting Northeast Asian security architecture.",
+        "inference": "The public nature of this discord is a weak signal of potentially significant alliance restructuring. Under Trump's transactional foreign policy, even core alliances face renegotiation pressure. This deserves close monitoring for escalation.",
+        "stakeholders": "Korean military, USFK, US Indo-Pacific Command, Korean public, North Korea (observing), Japan",
+        "monitoring_indicators": "FTX exercise execution, alliance coordination meetings, troop rotation plans, burden-sharing negotiations"
+      },
+      "priority_score": 7.5,
+      "psst_scores": {
+        "SR": 8,
+        "TC": 8,
+        "DC": 6,
+        "ES": 7,
+        "CC": 7,
+        "IC": 8
+      },
+      "psst_total": 73,
+      "priority_rank": 8,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-104-003",
+      "title": "China Military Purge: 101 Senior Officers Purged Since 2022",
+      "title_ko": "'2022년 이후 중국 고위장성 101명 숙청·실종'",
+      "category": "P",
+      "steeps_category": "Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H2",
+      "uncertainty": "High",
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "indicator": "Critical Slowing Down in Chinese military command stability",
+        "evidence": "101 officers purged; 62 in 2024 alone; half of military command affected"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "CSIS reports that 101 senior Chinese military officers have been purged or disappeared since 2022, with 62 in the past year alone. Nearly half of China's military command structure has been affected, raising questions about PLA operational readiness and internal stability.",
+        "keywords": [
+          "중국",
+          "군",
+          "숙청",
+          "장성",
+          "시진핑",
+          "PLA"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "101 Chinese senior military officers purged/disappeared since 2022; 62 in 2024; half of command structure affected",
+        "quantitative_metrics": "101 officers purged since 2022; 62 in past year; approximately 50% of senior military command affected",
+        "impact_score": -4.0,
+        "impact_description": "Unprecedented scale of Chinese military purges threatens PLA institutional coherence and readiness. This Wild Card signal has major implications for regional security, Taiwan Strait stability, and global power balance.",
+        "inference": "The accelerating purge rate suggests either deepening corruption exposure or Xi's intensifying political consolidation. Either way, the PLA's operational capability during this transition period is uncertain, creating a paradoxical risk: weakened military deterrence could either reduce or increase conflict risk.",
+        "stakeholders": "Chinese military, Xi Jinping, US Indo-Pacific Command, Taiwan, Korea, Japan, ASEAN",
+        "monitoring_indicators": "PLA exercise frequency, new officer appointments, Taiwan Strait military activity, defense spending adjustments"
+      },
+      "priority_score": 7.5,
+      "psst_scores": {
+        "SR": 8,
+        "TC": 7,
+        "DC": 7,
+        "ES": 7,
+        "CC": 8,
+        "IC": 8
+      },
+      "psst_total": 75,
+      "priority_rank": 9,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-105-003",
+      "title": "Naver Shuts Down ClovaX and Cue: Generative AI Experiment Ends",
+      "title_ko": "네이버, 생성형 AI 실험 마침표…클로바X·큐 4월 종료",
+      "category": "T",
+      "steeps_category": "Technological",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Korean tech giant retreating from generative AI consumer race",
+        "evidence": "ClovaX and Cue services terminating April 2026; strategic pivot away from ChatGPT-competitor model"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Naver announces termination of its generative AI services ClovaX and Cue by April 2026, marking the end of Korea's largest tech company's direct-to-consumer generative AI experiment. Naver CEO emphasized shifting focus to enterprise AI and platform integration.",
+        "keywords": [
+          "네이버",
+          "클로바X",
+          "큐",
+          "생성형AI",
+          "종료"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "Naver shutting down ClovaX and Cue generative AI services by April 2026; pivoting to enterprise/platform AI",
+        "quantitative_metrics": "2 major AI services discontinued; April 2026 shutdown timeline",
+        "impact_score": -2.5,
+        "impact_description": "Korea's largest tech platform abandoning consumer generative AI signals the difficulty of competing with US/Chinese AI giants. This has implications for Korean AI sovereignty and the global concentration of AI capabilities.",
+        "inference": "This weak signal suggests the consumer generative AI market is consolidating globally around a few dominant players (OpenAI, Google, etc.). Korean companies may need to specialize in niche applications rather than compete head-to-head. This could reshape Korea's AI strategy.",
+        "stakeholders": "Naver, Korean AI ecosystem, ClovaX users, enterprise AI customers, Korean government AI strategy",
+        "monitoring_indicators": "Naver enterprise AI revenue, alternative Korean AI chatbot services, HyperCLOVA model updates, Samsung AI consumer strategy"
+      },
+      "priority_score": 7.3,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 8,
+        "DC": 7,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      },
+      "psst_total": 72,
+      "priority_rank": 10,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-105-004",
+      "title": "Samsung Leads Korea Robot Industry Association: Humanoid Ecosystem Push",
+      "title_ko": "K로봇 리더에 삼성 오준호 단장… 휴머노이드 생태계 키운다",
+      "category": "T",
+      "steeps_category": "Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "Korean humanoid robotics ecosystem formation",
+        "evidence": "Samsung leading industry association; firefighting robots committed; dexterity challenges acknowledged"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Samsung's robotics division head has been appointed to lead Korea's AI/Robot Industry Association, signaling a major push to build a domestic humanoid robotics ecosystem. Hyundai pledged 100 unmanned firefighting robots. Articles note that fine motor skills (egg grasping) remain harder than locomotion.",
+        "keywords": [
+          "삼성",
+          "로봇",
+          "휴머노이드",
+          "AI",
+          "소방로봇"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "Samsung appointed to lead Korean AI/Robot Industry Association; Hyundai commits 100 firefighting robots; humanoid dexterity challenges highlighted",
+        "quantitative_metrics": "100 unmanned firefighting robots pledged; Samsung leading industry-wide coordination",
+        "impact_score": 3.0,
+        "impact_description": "Korea is positioning to compete in the global humanoid robotics race alongside Tesla, Figure, and Chinese players. The Samsung-led coordination signals serious national commitment.",
+        "inference": "The humanoid robotics sector is entering a critical formation phase. Korea's approach (industry association coordination rather than single-company moonshot) may provide advantages in ecosystem development. The dexterity challenge discussion suggests honest assessment of technical barriers.",
+        "stakeholders": "Samsung, Hyundai, Korean robotics startups, manufacturing sector, firefighters/emergency services, labor unions",
+        "monitoring_indicators": "Humanoid prototype demonstrations, commercial deployment timelines, patent filings, international competitiveness benchmarks"
+      },
+      "priority_score": 7.0,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 8,
+        "DC": 6,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      },
+      "psst_total": 70,
+      "priority_rank": 11,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-100-002",
+      "title": "Judicial Reform 3-Act Package: Court Chiefs Express 'Serious Regret'",
+      "title_ko": "법원장들, 사법개혁 3법에 '심각한 유감… 검찰만도 못한 취급'",
+      "category": "P",
+      "steeps_category": "Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty": "Medium",
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "indicator": "Institutional clash between legislature and judiciary intensifying",
+        "evidence": "All court chiefs publicly condemn legislation; 'law distortion crime' modified but contentious; filibuster conflicts"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "정치",
+        "section_id": 100,
+        "url": "https://news.naver.com/section/100",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Court chiefs across Korea have publicly expressed 'serious regret' over the ruling party's judicial reform 3-act package, including the controversial 'law distortion crime.' The judiciary warns this will be 'recorded in history as a retreat from rule of law.' Internal party disputes over constitutional concerns led to last-minute modifications.",
+        "keywords": [
+          "사법개혁",
+          "법왜곡죄",
+          "법원장",
+          "법치주의",
+          "입법"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "All Korean court chiefs publicly condemn judicial reform legislation; law distortion crime modified amid constitutional concerns",
+        "quantitative_metrics": "3-act legislative package; nationwide court chief protests; last-minute modifications to constitutional concerns",
+        "impact_score": -3.0,
+        "impact_description": "Unprecedented institutional clash between legislative and judicial branches threatens separation of powers. This could fundamentally alter the balance of power in Korean governance.",
+        "inference": "The judiciary's unusually public and unified opposition signals a potential constitutional crisis. The ruling party's internal divisions suggest the legislation faces legitimacy challenges even if passed. This trend toward judicial-legislative confrontation has accelerated under the Lee administration.",
+        "stakeholders": "Korean judiciary, National Assembly, legal profession, civil society, constitutional scholars",
+        "monitoring_indicators": "Constitutional Court challenges, judicial independence indices, international legal community reactions, public opinion polls"
+      },
+      "priority_score": 7.0,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 7,
+        "DC": 6,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      },
+      "psst_total": 68,
+      "priority_rank": 12,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-104-004",
+      "title": "Germany's Merz Deepens Ties with China: European Alignment Shifts",
+      "title_ko": "英·佛·캐나다 이어 메르츠 獨 총리도 中 손잡았다",
+      "category": "P",
+      "steeps_category": "Political",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty": "High",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "European pivot toward China amid US protectionism",
+        "evidence": "UK, France, Canada, now Germany engaging China; Xi says 'new dimension' in relations"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "세계",
+        "section_id": 104,
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Following UK, France, and Canada, Germany's new Chancellor Merz has deepened ties with China. Xi Jinping declared 'China-Germany relations to a new dimension.' This signals a broader European strategic realignment amid escalating US trade protectionism.",
+        "keywords": [
+          "독일",
+          "메르츠",
+          "중국",
+          "시진핑",
+          "유럽",
+          "무역"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "Germany joins UK, France, Canada in deepening China ties; Xi declares 'new dimension' in relations; European realignment accelerating",
+        "quantitative_metrics": "4 major Western nations (UK, France, Canada, Germany) engaging China simultaneously",
+        "impact_score": 3.0,
+        "impact_description": "The Western democratic bloc is fragmenting under US protectionism pressure, with major allies pivoting toward China. This could reshape the global geopolitical order and affect Korea's strategic positioning.",
+        "inference": "A weak signal of fundamental geopolitical realignment: European nations are hedging against US unreliability under Trump by deepening economic ties with China. Korea faces an increasingly complex triangulation challenge between its US alliance and Chinese economic relationship.",
+        "stakeholders": "European governments, China, US, Korea, global trade systems, NATO",
+        "monitoring_indicators": "EU-China trade volumes, European de-risking policy changes, bilateral investment treaties, diplomatic meeting frequency"
+      },
+      "priority_score": 6.8,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 7,
+        "DC": 6,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      },
+      "psst_total": 68,
+      "priority_rank": 13,
+      "urgency_tag": "WATCH",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-102-001",
+      "title": "Emergency Room Reform: Priority Admission System for Severe Patients",
+      "title_ko": "응급실 뺑뺑이 없게… 중증환자 '우선수용병원' 즉시 보낸다",
+      "category": "S",
+      "steeps_category": "Social",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty": "Low",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "Healthcare system structural reform after ER crisis",
+        "evidence": "Priority admission hospital system; Jeonnam pilot program; ambulance dispatch reform"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "사회",
+        "section_id": 102,
+        "url": "https://news.naver.com/section/102",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Korea is implementing a priority admission hospital system to eliminate emergency room patient shuffling. Under the new system, ambulances will directly transport severe patients to designated priority hospitals. Jeonnam province begins pilot operations.",
+        "keywords": [
+          "응급실",
+          "뺑뺑이",
+          "중증환자",
+          "우선수용",
+          "의료개혁"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "New priority admission hospital system to eliminate ER patient rejection; Jeonnam pilot program; ambulance protocol reform",
+        "quantitative_metrics": "National pilot program launch; Jeonnam first implementation region",
+        "impact_score": 2.5,
+        "impact_description": "Direct response to Korea's chronic emergency room crisis. This structural reform addresses a systemic healthcare failure that has caused preventable deaths.",
+        "inference": "The healthcare system is adapting through institutional redesign rather than just resource addition. This emerging issue reflects broader tensions between healthcare demand growth and system capacity, exacerbated by the medical workforce crisis.",
+        "stakeholders": "Emergency patients, hospitals, ambulance services, medical professionals, local governments, Health Ministry",
+        "monitoring_indicators": "ER wait times, patient transfer rejection rates, pilot program outcomes, national rollout timeline"
+      },
+      "priority_score": 6.5,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 6,
+        "DC": 6,
+        "ES": 7,
+        "CC": 7,
+        "IC": 6
+      },
+      "psst_total": 65,
+      "priority_rank": 14,
+      "urgency_tag": "ARCHIVE",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    },
+    {
+      "id": "naver-20260225-105-005",
+      "title": "Global AI Chip Race: India Emerges as Dark Horse in Three-Way Competition",
+      "title_ko": "글로벌 AI '3등 경쟁' 치열… 다크호스로 떠오른 인도",
+      "category": "T",
+      "steeps_category": "Technological",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty": "High",
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "indicator": "AI geopolitical competition expanding beyond US-China duopoly",
+        "evidence": "India positioning as third AI power; chip fabrication investment; talent pool advantage"
+      },
+      "source": {
+        "name": "NaverNews",
+        "type": "crawl",
+        "section": "IT과학",
+        "section_id": 105,
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "The global AI competition is intensifying beyond the US-China duopoly, with India emerging as a serious dark horse. India's combination of massive talent pool, growing chip fabrication investment, and strategic positioning between US and China creates a unique competitive advantage.",
+        "keywords": [
+          "AI",
+          "인도",
+          "경쟁",
+          "반도체",
+          "글로벌"
+        ],
+        "language": "ko"
+      },
+      "analysis": {
+        "key_fact": "India positioning as third global AI power; leveraging talent pool, chip investment, and US-China strategic positioning",
+        "quantitative_metrics": "Global AI competition expanding from 2-way to 3-way race",
+        "impact_score": 2.5,
+        "impact_description": "The AI geopolitical landscape is evolving from bipolar (US vs China) to multipolar competition. India's emergence could reshape global AI supply chains and talent flows.",
+        "inference": "A weak signal of structural change in global technology competition. Korea must monitor India's rise as both competitor and potential partner, as the AI industry's geographic distribution will determine future economic power distribution.",
+        "stakeholders": "Indian tech industry, Korean tech companies, US/China AI leaders, global talent market, international AI governance",
+        "monitoring_indicators": "Indian AI investment volumes, talent migration patterns, chip fab construction timelines, US-India tech cooperation depth"
+      },
+      "priority_score": 6.3,
+      "psst_scores": {
+        "SR": 7,
+        "TC": 7,
+        "DC": 6,
+        "ES": 6,
+        "CC": 6,
+        "IC": 7
+      },
+      "psst_total": 65,
+      "priority_rank": 15,
+      "urgency_tag": "ARCHIVE",
+      "collected_at": "2026-02-25T09:56:15+09:00"
+    }
+  ]
+}

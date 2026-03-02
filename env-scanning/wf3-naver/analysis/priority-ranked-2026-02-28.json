@@ -1,0 +1,18 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf3-naver",
+  "ranking_method": "pSST_weighted",
+  "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10},
+  "top_10": [
+    {"rank": 1, "id": "naver-20260228-104-001", "title": "트럼프, 이란 전격 공습 확인 — 미-이스라엘 '유다의 방패 작전' 개시", "psst": 96, "category": "P", "fssf": "Wild Card", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 2, "id": "naver-20260228-104-002", "title": "이란, 이스라엘·미군 기지에 미사일 보복 — 중동 전면전 우려", "psst": 95, "category": "P", "fssf": "Wild Card", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 3, "id": "naver-20260228-101-001", "title": "코스피 급락, 이란 전쟁 발발 — 유가 급등·원달러 환율 상승", "psst": 92, "category": "E", "fssf": "Discontinuity", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 4, "id": "naver-20260228-100-001", "title": "대법관 증원법 국회 본회의 통과 — 14명에서 26명으로", "psst": 88, "category": "P", "fssf": "Driver", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 5, "id": "naver-20260228-101-002", "title": "현대차그룹 새만금 9조원 투자 — 로봇·AI·수소 거점", "psst": 87, "category": "E", "fssf": "Driver", "horizon": "H2", "impact": "HIGH"},
+    {"rank": 6, "id": "naver-20260228-104-003", "title": "파키스탄 아프간 공습 — '공개 전쟁 상태' 선언", "psst": 85, "category": "P", "fssf": "Emerging Issue", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 7, "id": "naver-20260228-105-001", "title": "SK하이닉스-웨스턴디지털 HBF 표준화 컨소시엄 출범", "psst": 83, "category": "T", "fssf": "Driver", "horizon": "H2", "impact": "HIGH"},
+    {"rank": 8, "id": "naver-20260228-105-004", "title": "EU AI Act 본격 시행 — AI 규제 강화", "psst": 82, "category": "P", "fssf": "Trend", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 9, "id": "naver-20260228-101-004", "title": "구글 고정밀 지도 국외 반출 조건부 허가", "psst": 80, "category": "T", "fssf": "Emerging Issue", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 10, "id": "naver-20260228-105-002", "title": "에이전틱 AI 시대 개막 — 자율 에이전트로 진화", "psst": 79, "category": "T", "fssf": "Trend", "horizon": "H2", "impact": "HIGH"}
+  ]
+}

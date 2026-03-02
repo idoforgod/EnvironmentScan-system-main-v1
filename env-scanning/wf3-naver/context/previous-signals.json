@@ -1,8 +1,5 @@
 {
-  "source": "wf3-naver/signals/database.json",
-  "loaded_at": "2026-02-18T21:14:00+00:00",
-  "signal_count": 105,
-  "signals": [
+  "items": [
     {
       "id": "naver-20260206-105-006",
       "title": "오픈AI, 에이전트형 코딩 모델 'GPT-5.3-코덱스' 출시",
@@ -16,7 +13,12 @@
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
       "status": "weakening",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/366/0001064048",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/366/0001064048",
       "related_signals": [
         "naver-20260209-TOP-005",
@@ -37,7 +39,12 @@
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
       "status": "weakening",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/366/0001064101",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/366/0001064101",
       "url": "https://n.news.naver.com/mnews/article/366/0001064101"
     },
@@ -53,8 +60,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-12",
       "occurrence_count": 3,
-      "status": "strengthening",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/008/0005247891",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/008/0005247891",
       "related_signals": [
         "naver-20260212-TOP-009"
@@ -73,8 +85,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-12",
       "occurrence_count": 3,
-      "status": "strengthening",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/009/0005494123",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/009/0005494123",
       "related_signals": [
         "naver-20260212-TOP-003"
@@ -94,7 +111,12 @@
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
       "status": "weakening",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/366/0001064061",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/366/0001064061",
       "url": "https://n.news.naver.com/mnews/article/366/0001064061"
     },
@@ -110,8 +132,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/정치",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/016/0002490678",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/016/0002490678",
       "url": "https://n.news.naver.com/mnews/article/016/0002490678"
     },
@@ -127,8 +154,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-09",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/008/0005247798",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/008/0005247798",
       "related_signals": [
         "naver-20260209-TOP-001",
@@ -148,8 +180,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/001/0015888335",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/001/0015888335",
       "url": "https://n.news.naver.com/mnews/article/001/0015888335"
     },
@@ -165,8 +202,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/001/0015888450",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/001/0015888450",
       "url": "https://n.news.naver.com/mnews/article/001/0015888450"
     },
@@ -182,8 +224,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/009/0005494200",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/009/0005494200",
       "url": "https://n.news.naver.com/mnews/article/009/0005494200"
     },
@@ -199,8 +246,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/정치",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/001/0015888234",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/001/0015888234",
       "url": "https://n.news.naver.com/mnews/article/001/0015888234"
     },
@@ -216,8 +268,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-09",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/001/0015888290",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/001/0015888290",
       "related_signals": [
         "naver-20260209-TOP-001",
@@ -237,8 +294,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/025/0003468901",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/025/0003468901",
       "url": "https://n.news.naver.com/mnews/article/025/0003468901"
     },
@@ -254,8 +316,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/008/0005247810",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/008/0005247810",
       "url": "https://n.news.naver.com/mnews/article/008/0005247810"
     },
@@ -271,8 +338,13 @@
       "first_seen": "2026-02-06",
       "last_seen": "2026-02-06",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/008/0005247820",
+        "published_date": "2026-02-06"
+      },
       "source_url": "https://n.news.naver.com/mnews/article/008/0005247820",
       "url": "https://n.news.naver.com/mnews/article/008/0005247820"
     },
@@ -289,7 +361,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 3,
       "status": "strengthening",
-      "source": "NaverNews/경제,IT과학",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -310,8 +387,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-12",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -331,8 +413,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-12",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/경제,IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -352,8 +439,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/경제,IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/101"
@@ -370,8 +462,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-12",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/경제,세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -391,8 +488,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/경제,IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/101"
@@ -409,8 +511,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-12",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/IT과학,세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -431,7 +538,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 2,
       "status": "strengthening",
-      "source": "NaverNews/사회",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/102",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -451,8 +563,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/정치,IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/100"
@@ -469,8 +586,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -487,8 +609,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/경제,IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/101"
@@ -505,8 +632,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-12",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/IT과학,생활문화",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학,생활문화",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -526,8 +658,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -544,8 +681,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/사회",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/102",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/102"
@@ -562,8 +704,13 @@
       "first_seen": "2026-02-09",
       "last_seen": "2026-02-09",
       "occurrence_count": 1,
-      "status": "active",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-09"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "ARCHIVE",
       "url": "https://n.news.naver.com/section/105"
@@ -580,8 +727,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-13",
       "occurrence_count": 2,
-      "status": "strengthening",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/101"
@@ -598,8 +750,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/경제,세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/101"
@@ -616,8 +773,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학,세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -634,8 +796,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -653,7 +820,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 2,
       "status": "strengthening",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -674,7 +846,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 2,
       "status": "strengthening",
-      "source": "NaverNews/IT과학,경제",
+      "source": {
+        "name": "NaverNews/IT과학,경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -695,7 +872,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 2,
       "status": "strengthening",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -715,8 +897,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/정치",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/100"
@@ -733,8 +920,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/경제,세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/101"
@@ -751,8 +943,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/101"
@@ -769,8 +966,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/세계,생활문화",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계,생활문화",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -787,8 +989,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/104"
@@ -805,8 +1012,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -823,8 +1035,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -841,8 +1058,13 @@
       "first_seen": "2026-02-12",
       "last_seen": "2026-02-12",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-12"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -859,8 +1081,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -881,8 +1108,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/정치",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/100"
@@ -899,8 +1131,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -921,8 +1158,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -939,8 +1181,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -960,8 +1207,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/사회",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/102",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/102"
@@ -979,7 +1231,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 2,
       "status": "strengthening",
-      "source": "NaverNews/정치",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "URGENT",
       "related_signals": [
@@ -999,8 +1256,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/105"
@@ -1017,8 +1279,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/정치",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -1038,8 +1305,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/경제",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/101"
@@ -1056,8 +1328,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/IT과학",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -1074,8 +1351,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/세계",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -1096,7 +1378,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 2,
       "status": "strengthening",
-      "source": "NaverNews/경제",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "related_signals": [
@@ -1116,8 +1403,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/생활문화",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/생활문화",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/103",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/103",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/103"
@@ -1134,8 +1426,13 @@
       "first_seen": "2026-02-13",
       "last_seen": "2026-02-13",
       "occurrence_count": 1,
-      "status": "new",
-      "source": "NaverNews/정치",
+      "status": "weakening",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-13"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/100"
@@ -1153,7 +1450,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -1171,7 +1473,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -1189,7 +1496,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,정치",
+      "source": {
+        "name": "NaverNews/경제,정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/101"
@@ -1207,7 +1519,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,IT과학",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/105"
@@ -1225,7 +1542,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/105"
@@ -1243,7 +1565,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치,경제",
+      "source": {
+        "name": "NaverNews/정치,경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/100"
@@ -1261,7 +1588,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -1279,7 +1611,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -1297,7 +1634,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치,세계",
+      "source": {
+        "name": "NaverNews/정치,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/100"
@@ -1315,7 +1657,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/101"
@@ -1333,7 +1680,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "URGENT",
       "url": "https://n.news.naver.com/section/104"
@@ -1351,7 +1703,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/104"
@@ -1369,7 +1726,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -1387,7 +1749,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,세계",
+      "source": {
+        "name": "NaverNews/경제,세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/101"
@@ -1405,7 +1772,12 @@
       "last_seen": "2026-02-15",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-15"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "urgency_tag": "WATCH",
       "url": "https://n.news.naver.com/section/105"
@@ -1423,7 +1795,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/104"
@@ -1441,7 +1818,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/104"
@@ -1459,7 +1841,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,IT과학",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/101"
@@ -1477,7 +1864,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치,경제",
+      "source": {
+        "name": "NaverNews/정치,경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/100"
@@ -1495,7 +1887,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/104"
@@ -1513,7 +1910,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/105"
@@ -1531,7 +1933,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치,사회",
+      "source": {
+        "name": "NaverNews/정치,사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/100"
@@ -1549,7 +1956,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치,경제",
+      "source": {
+        "name": "NaverNews/정치,경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/100"
@@ -1567,7 +1979,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/100"
@@ -1585,7 +2002,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,정치",
+      "source": {
+        "name": "NaverNews/경제,정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/101"
@@ -1603,7 +2025,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/101"
@@ -1621,7 +2048,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,IT과학",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/101"
@@ -1639,7 +2071,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/104"
@@ -1657,7 +2094,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계,경제",
+      "source": {
+        "name": "NaverNews/세계,경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/104"
@@ -1675,7 +2117,12 @@
       "last_seen": "2026-02-16",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학,경제",
+      "source": {
+        "name": "NaverNews/IT과학,경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-16"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/105"
@@ -1693,7 +2140,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [
         "naver-20260216-TOP-001",
@@ -1714,7 +2166,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [
         "naver-20260216-TOP-007",
@@ -1735,7 +2192,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제,IT과학",
+      "source": {
+        "name": "NaverNews/경제,IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "related_signals": [
         "naver-20260216-TOP-003",
@@ -1756,7 +2218,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/101"
@@ -1774,7 +2241,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [
         "naver-20260216-TOP-009",
@@ -1795,7 +2267,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/정치",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/100",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/100",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/100"
@@ -1813,7 +2290,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "related_signals": [
         "naver-20260209-TOP-003"
@@ -1833,7 +2315,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/사회",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/102",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/102",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/102"
@@ -1851,7 +2338,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/IT과학",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/105",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/105",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/105"
@@ -1869,7 +2361,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [
         "naver-20260216-TOP-010"
@@ -1889,7 +2386,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [
         "naver-20260216-TOP-013"
@@ -1909,7 +2411,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/경제",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/101",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/101",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/101"
@@ -1927,7 +2434,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/생활문화",
+      "source": {
+        "name": "NaverNews/생활문화",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/103",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/103",
       "related_signals": [
         "naver-20260213-TOP-006"
@@ -1947,7 +2459,12 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/세계",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/104",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/104",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/104"
@@ -1965,10 +2482,1045 @@
       "last_seen": "2026-02-17",
       "occurrence_count": 1,
       "status": "new",
-      "source": "NaverNews/생활문화,사회",
+      "source": {
+        "name": "NaverNews/생활문화,사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/section/103",
+        "published_date": "2026-02-17"
+      },
       "source_url": "https://n.news.naver.com/section/103",
       "related_signals": [],
       "url": "https://n.news.naver.com/section/103"
+    },
+    {
+      "id": "naver-20260218-TOP-002",
+      "title": "시댄스(Sidence) 출시 1주 -- 할리우드 저작권 체계 뒤흔든 중국발 AI 동영상 생성",
+      "category": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 9.3,
+      "impact_score": 9.0,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/028/0002861005",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/028/0002861005",
+      "url": "https://n.news.naver.com/mnews/article/028/0002861005"
+    },
+    {
+      "id": "naver-20260218-TOP-001",
+      "title": "미-이란 전면전 임박 징후 증가 -- 악시오스 '수주 내 군사행동 90%'",
+      "category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst_score": 9.0,
+      "impact_score": 9.5,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/421/0008779002",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/421/0008779002",
+      "url": "https://n.news.naver.com/mnews/article/421/0008779002"
+    },
+    {
+      "id": "naver-20260218-TOP-003",
+      "title": "페로브스카이트 대량생산 기술 확보 -- 韓 연구진 0도 합성법으로 초격차",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "psst_score": 8.5,
+      "impact_score": 8.5,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/016/0002601832",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/016/0002601832",
+      "url": "https://n.news.naver.com/mnews/article/016/0002601832"
+    },
+    {
+      "id": "naver-20260218-TOP-004",
+      "title": "FOMC 의사록 -- 금리 인상 시나리오 부활, '인플레이션 상회시 인상 필요'",
+      "category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 8.5,
+      "impact_score": 9.0,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/018/0006220200",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/018/0006220200",
+      "url": "https://n.news.naver.com/mnews/article/018/0006220200"
+    },
+    {
+      "id": "naver-20260218-TOP-006",
+      "title": "대북 무인기 침투 4건 확인 -- 정동영 9·19 비행금지구역 복원, 김여정 '군사 경고'",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 8.4,
+      "impact_score": 8.0,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/018/0006220336",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/018/0006220336",
+      "url": "https://n.news.naver.com/mnews/article/018/0006220336"
+    },
+    {
+      "id": "naver-20260218-TOP-005",
+      "title": "GPU 26만장 韓 상륙 시작 -- 삼성·SK·현대차·네이버 '깐부 약속' 이행",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 8.2,
+      "impact_score": 8.5,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/016/0002601900",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/016/0002601900",
+      "url": "https://n.news.naver.com/mnews/article/016/0002601900"
+    },
+    {
+      "id": "naver-20260218-TOP-007",
+      "title": "애플·구글 스마트 안경 출격 -- 빅테크 'AI 착용 디바이스' 전쟁 개막",
+      "category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "psst_score": 8.1,
+      "impact_score": 8.0,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/009/0005638400",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/009/0005638400",
+      "url": "https://n.news.naver.com/mnews/article/009/0005638400"
+    },
+    {
+      "id": "naver-20260218-TOP-009",
+      "title": "사우디, 머스크 xAI에 4조원 투자 -- 中東 AI 패권 + 美 안보기업 지분 확보",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 8.0,
+      "impact_score": 8.0,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/003/0012613322",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/003/0012613322",
+      "url": "https://n.news.naver.com/mnews/article/003/0012613322"
+    },
+    {
+      "id": "naver-20260218-TOP-010",
+      "title": "큇GPT(QuitGPT) 70만명 동참 -- AI 기업 정치 연루에 대한 시민 저항 확산",
+      "category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "psst_score": 8.0,
+      "impact_score": 7.5,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/015/0005129200",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/015/0005129200",
+      "url": "https://n.news.naver.com/mnews/article/015/0005129200"
+    },
+    {
+      "id": "naver-20260218-TOP-013",
+      "title": "글로벌 청소년 SNS 규제 확산 -- 유럽 '16금' 법제화, 머스크 '폭군' 반발",
+      "category": "S",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 7.9,
+      "impact_score": 8.0,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/015/0005129300",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/015/0005129300",
+      "url": "https://n.news.naver.com/mnews/article/015/0005129300"
+    },
+    {
+      "id": "naver-20260218-TOP-014",
+      "title": "트럼프·일본 52조원 대미투자 합의 발표 -- '다음은 한국' 압박 시작",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 7.9,
+      "impact_score": 8.0,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/214/0001455301",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/214/0001455301",
+      "url": "https://n.news.naver.com/mnews/article/214/0001455301"
+    },
+    {
+      "id": "naver-20260218-TOP-008",
+      "title": "한국 2030년 GDP 대비 부채 60% 돌파 전망 -- 재정 완충 능력 약화 경고",
+      "category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "psst_score": 7.6,
+      "impact_score": 8.5,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/015/0005129301",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/015/0005129301",
+      "url": "https://n.news.naver.com/mnews/article/015/0005129301"
+    },
+    {
+      "id": "naver-20260218-TOP-011",
+      "title": "K-방산 빅4 영업익 4.6조 사상 최대 -- 올해 6조 돌파 전망",
+      "category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "psst_score": 7.2,
+      "impact_score": 7.5,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/011/0004570001",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/011/0004570001",
+      "url": "https://n.news.naver.com/mnews/article/011/0004570001"
+    },
+    {
+      "id": "naver-20260218-TOP-012",
+      "title": "전공의 최장 연속근무 36시간→24시간 단축 -- 수련환경 개혁 시동",
+      "category": "S",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 7.2,
+      "impact_score": 7.0,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/056/0011937001",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/056/0011937001",
+      "url": "https://n.news.naver.com/mnews/article/056/0011937001"
+    },
+    {
+      "id": "naver-20260218-TOP-015",
+      "title": "졸업생 10명 이하 학교 1,863곳 -- 학령인구 급감으로 학교 소멸 위기 심화",
+      "category": "Ev",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "psst_score": 7.2,
+      "impact_score": 8.0,
+      "priority": "WATCH",
+      "first_seen": "2026-02-18",
+      "last_seen": "2026-02-18",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://n.news.naver.com/mnews/article/001/0015310001",
+        "published_date": "2026-02-18"
+      },
+      "source_url": "https://n.news.naver.com/mnews/article/001/0015310001",
+      "url": "https://n.news.naver.com/mnews/article/001/0015310001"
+    },
+    {
+      "id": "naver-20260219-104-001",
+      "title": "트럼프 '10일내 이란 공격 결정' — 국제유가 4.6% 급등, 밴스 '이란 레드라인 불응' 확인",
+      "category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst_score": 9.3,
+      "impact_score": 9.5,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/104",
+      "related_signals": [],
+      "tipping_point": "ORANGE",
+      "url": "https://news.naver.com/section/104"
+    },
+    {
+      "id": "naver-20260219-101-002",
+      "title": "코스피 5600선 돌파, '4300 신중론' 공존 — 코스닥 매수 사이드카 발동(올해 2번째)",
+      "category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 8.9,
+      "impact_score": 8.8,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/101",
+      "related_signals": [],
+      "tipping_point": "YELLOW",
+      "url": "https://news.naver.com/section/101"
+    },
+    {
+      "id": "naver-20260219-105-003",
+      "title": "메타·애플·오픈AI 'AI 디바이스' 3파전 — 메타 '말리부2' 스마트워치, 눈·귀·손목 통합 AI 디바이스 경쟁 격화",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 8.8,
+      "impact_score": 8.5,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/105",
+      "related_signals": [],
+      "tipping_point": "YELLOW",
+      "url": "https://news.naver.com/section/105"
+    },
+    {
+      "id": "naver-20260219-100-004",
+      "title": "북한 핵탑재 가능 방사포 공개 — 한반도 전역 사정권 신형 무기 위협",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 8.7,
+      "impact_score": 9.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/정치",
+        "type": "naver",
+        "url": "https://news.naver.com/section/100",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/100",
+      "related_signals": [],
+      "tipping_point": "YELLOW",
+      "url": "https://news.naver.com/section/100"
+    },
+    {
+      "id": "naver-20260219-105-005",
+      "title": "AI 영상도 '차이나쇼크' — 음성 딜레이·환각 없이 1분만에 영상 생성, 중국 AI영상 기술 급성장",
+      "category": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 8.6,
+      "impact_score": 8.5,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/105",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/105"
+    },
+    {
+      "id": "naver-20260219-101-006",
+      "title": "美 뉴욕주 로보택시 허용법안 철회 — 웨이모 확장 계획 타격, 자율주행 규제 역풍",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 8.5,
+      "impact_score": 8.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/101",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/101"
+    },
+    {
+      "id": "naver-20260219-105-007",
+      "title": "삼성·한화 '하이브리드 본더' 개발 — ASML 협력사와 동맹, 반도체 후공정 패키징 선도 경쟁",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 8.4,
+      "impact_score": 8.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/105",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/105"
+    },
+    {
+      "id": "naver-20260219-105-008",
+      "title": "과기정통부, 2035년까지 핵융합 초전도체 기술 확보 추진 — 국가 핵융합 로드맵 발표",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 8.2,
+      "impact_score": 7.8,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/105",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/105"
+    },
+    {
+      "id": "naver-20260219-101-009",
+      "title": "자동차 1월 수출 60.7억 달러, 친환경차 42% 비중 — 전기차·하이브리드 수출 비중 사상 최대",
+      "category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "psst_score": 8.1,
+      "impact_score": 7.5,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/101",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/101"
+    },
+    {
+      "id": "naver-20260219-104-010",
+      "title": "미 전문가 '일본 선제적 대미투자, 한국에 부담' — 트럼프 관세 압박 속 한일 경쟁 구도 심화",
+      "category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 8.0,
+      "impact_score": 7.5,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/104",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/104"
+    },
+    {
+      "id": "naver-20260219-102-011",
+      "title": "법원 '계엄 선포, 국회 권한 침해 목적이면 내란죄' — 윤석열 무기징역 선고 기준 해석",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 7.8,
+      "impact_score": 8.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://news.naver.com/section/102",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/102",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/102"
+    },
+    {
+      "id": "naver-20260219-105-012",
+      "title": "트릴리온랩스 '트리 21B 씽크' 공개 — AI 글로벌 톱30 등재, 한국 AI 스타트업 글로벌 경쟁력 입증",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 7.7,
+      "impact_score": 7.5,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT과학",
+        "type": "naver",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/105",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/105"
+    },
+    {
+      "id": "naver-20260219-101-013",
+      "title": "코픽스 5개월 만에 소폭 하락 — 변동형 주택담보대출 금리 인하 신호, 부동산 시장 영향",
+      "category": "E",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 7.6,
+      "impact_score": 7.0,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/경제",
+        "type": "naver",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/101",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/101"
+    },
+    {
+      "id": "naver-20260219-102-014",
+      "title": "'등골브레이커 된 교복' — 대통령 발언 8일 만에 정부 합동 대책회의, 교복 가격 규제 논의",
+      "category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 7.4,
+      "impact_score": 6.5,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/사회",
+        "type": "naver",
+        "url": "https://news.naver.com/section/102",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/102",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/102"
+    },
+    {
+      "id": "naver-20260219-104-015",
+      "title": "이란 원자력청장 '어느 나라도 핵 농축 권리 박탈 못해' — 핵협상 결렬 신호, 이란 핵개발 지속 의지",
+      "category": "P",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H2",
+      "psst_score": 7.3,
+      "impact_score": 8.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-19",
+      "last_seen": "2026-02-19",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/세계",
+        "type": "naver",
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-02-19"
+      },
+      "source_url": "https://news.naver.com/section/104",
+      "related_signals": [],
+      "tipping_point": "GREEN",
+      "url": "https://news.naver.com/section/104"
+    },
+    {
+      "id": "naver-20260224-100-001",
+      "title": "US Supreme Court Rules Trump Reciprocal Tariffs Unlawful Under IEEPA",
+      "category": "P",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 92,
+      "impact_score": 9.2,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Politics",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "RED",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-100-003",
+      "title": "US-Iran Military Confrontation Risk at Peak",
+      "category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst_score": 91,
+      "impact_score": 9.5,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/World",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "RED",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-101-001",
+      "title": "Samsung/SK Hynix Begin World-First HBM4 Mass Production",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 89,
+      "impact_score": 9.0,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Economy",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "YELLOW",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-101-003",
+      "title": "AMD-Meta $60B AI Chip Deal Disrupts NVIDIA Monopoly",
+      "category": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 87,
+      "impact_score": 8.8,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Economy",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "ORANGE",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-102-001",
+      "title": "Korea Enters Super-Aged Society: 65+ Exceeds 20%",
+      "category": "S",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H2",
+      "psst_score": 86,
+      "impact_score": 9.0,
+      "priority": "CRITICAL",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Society",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "ORANGE",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-102-003",
+      "title": "Coupang Data Breach: 33.67 Million Accounts Compromised",
+      "category": "T",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 85,
+      "impact_score": 8.5,
+      "priority": "HIGH",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Society",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "ORANGE",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-105-002",
+      "title": "Agentic AI Year: Korean Enterprises Navigate Paradigm Shift",
+      "category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 84,
+      "impact_score": 8.3,
+      "priority": "HIGH",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT_Science",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "YELLOW",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-100-002",
+      "title": "Korea-Brazil Strategic Partnership Elevation",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "psst_score": 82,
+      "impact_score": 7.8,
+      "priority": "HIGH",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Politics",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "GREEN",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-103-001",
+      "title": "Next-Gen Distributed Power Grid Plan Accelerates Energy Transition",
+      "category": "E_env",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 81,
+      "impact_score": 8.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Life_Culture",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "YELLOW",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-102-004",
+      "title": "Former President Yoon Life Sentence: Constitutional Accountability",
+      "category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst_score": 80,
+      "impact_score": 8.0,
+      "priority": "HIGH",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Society",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "YELLOW",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-105-003",
+      "title": "AI-Quantum Computing Convergence in Drug Discovery",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "psst_score": 79,
+      "impact_score": 8.0,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT_Science",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "GREEN",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-101-007",
+      "title": "OPCON Transfer Roadmap Finalized by April 2026",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 78,
+      "impact_score": 7.8,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/Politics",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "YELLOW",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-105-006",
+      "title": "AI Ethics and Safety Basic Act Enforcement Begins",
+      "category": "s",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 77,
+      "impact_score": 7.5,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT_Science",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "GREEN",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-105-005",
+      "title": "1.68 Trillion KRW ICT R&D Budget: NPU and 6G Focus",
+      "category": "T",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "psst_score": 76,
+      "impact_score": 7.5,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/IT_Science",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "GREEN",
+      "url": ""
+    },
+    {
+      "id": "naver-20260224-103-002",
+      "title": "Japan Economic Security Diplomacy Under Takaichi",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "psst_score": 75,
+      "impact_score": 7.5,
+      "priority": "MEDIUM",
+      "first_seen": "2026-02-24",
+      "last_seen": "2026-02-24",
+      "occurrence_count": 1,
+      "status": "new",
+      "source": {
+        "name": "NaverNews/World",
+        "type": "naver",
+        "url": "",
+        "published_date": "2026-02-24"
+      },
+      "tipping_point": "YELLOW",
+      "url": ""
     }
-  ]
+  ],
+  "metadata": {
+    "last_updated": "2026-02-18",
+    "total_signals": 120,
+    "scan_count": 6,
+    "workflow": "wf3-naver",
+    "version": "1.0.0",
+    "scan_theme": "설 명절의 모순 -- 제네바 핵 협상 진전과 군사 증강의 이중 트랙, 반도체 수출 사상 최대와 GDP 마이너스의 역설",
+    "last_scan_date": "2026-02-17"
+  },
+  "total_signals": 150
 }

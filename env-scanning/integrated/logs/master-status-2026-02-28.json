@@ -1,0 +1,81 @@
+{
+  "master_id": "quadruple-scan-2026-02-28",
+  "system_name": "Quadruple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "3.0.0",
+  "started_at": "2026-02-28T20:41:32Z",
+  "completed_at": "2026-02-28T23:45:00Z",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-02-28.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-02-28T20:41:40Z",
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-28.md",
+      "report_path_ko": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-02-28-ko.md",
+      "signal_count": 25,
+      "completed_at": "2026-02-28T21:30:00Z",
+      "verification_summary": {"passed": 18, "warned": 1, "failed": 0}
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-28.md",
+      "report_path_ko": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-28-ko.md",
+      "signal_count": 15,
+      "completed_at": "2026-02-28T22:00:00Z",
+      "verification_summary": {"passed": 18, "warned": 1, "failed": 0}
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-28.md",
+      "report_path_ko": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-28-ko.md",
+      "signal_count": 17,
+      "completed_at": "2026-02-28T22:30:00Z",
+      "verification_summary": {"passed": 18, "warned": 1, "failed": 0}
+    },
+    "wf4-multiglobal-news": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-02-28.md",
+      "report_path_ko": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-02-28-ko.md",
+      "signal_count": 22,
+      "completed_at": "2026-02-28T23:00:00Z",
+      "verification_summary": {"passed": 18, "warned": 1, "failed": 0}
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent",
+    "report_path_en": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-28.md",
+    "report_path_ko": "env-scanning/integrated/reports/daily/integrated-scan-2026-02-28-ko.md",
+    "archive_path_en": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-28.md",
+    "archive_path_ko": "env-scanning/integrated/reports/archive/2026/02/integrated-scan-2026-02-28-ko.md",
+    "unified_ranking": "env-scanning/integrated/analysis/unified-ranking-2026-02-28.json",
+    "total_raw_signals": 79,
+    "deduped_signals": 59,
+    "top_signals": 20,
+    "completed_at": "2026-02-28T23:45:00Z",
+    "verification_summary_en": {"passed": 18, "warned": 1, "failed": 0},
+    "verification_summary_ko": {"passed": 18, "warned": 1, "failed": 0}
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {"decision": "auto-approved", "timestamp": "2026-02-28T21:10:00Z", "mode": "autopilot"},
+    "wf1_step_3_4": {"decision": "auto-approved", "timestamp": "2026-02-28T21:30:00Z", "mode": "autopilot"},
+    "wf2_step_2_5": {"decision": "auto-approved", "timestamp": "2026-02-28T21:45:00Z", "mode": "autopilot"},
+    "wf2_step_3_4": {"decision": "auto-approved", "timestamp": "2026-02-28T22:00:00Z", "mode": "autopilot"},
+    "wf3_step_2_5": {"decision": "auto-approved", "timestamp": "2026-02-28T22:15:00Z", "mode": "autopilot"},
+    "wf3_step_3_4": {"decision": "auto-approved", "timestamp": "2026-02-28T22:30:00Z", "mode": "autopilot"},
+    "wf4_step_2_5": {"decision": "auto-approved", "timestamp": "2026-02-28T22:45:00Z", "mode": "autopilot"},
+    "wf4_step_3_4": {"decision": "auto-approved", "timestamp": "2026-02-28T23:00:00Z", "mode": "autopilot"},
+    "integrated_final": {"decision": "auto-approved", "timestamp": "2026-02-28T23:45:00Z", "mode": "autopilot"}
+  },
+  "master_gates": {
+    "M1": {"status": "PASS", "timestamp": "2026-02-28T21:30:00Z"},
+    "M2": {"status": "PASS", "timestamp": "2026-02-28T22:00:00Z"},
+    "M2a": {"status": "PASS", "timestamp": "2026-02-28T22:30:00Z"},
+    "M2b": {"status": "PASS", "timestamp": "2026-02-28T23:00:00Z"},
+    "M3": {"status": "PASS", "timestamp": "2026-02-28T23:45:00Z"}
+  }
+}

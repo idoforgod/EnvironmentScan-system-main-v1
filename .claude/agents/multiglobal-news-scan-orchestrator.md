@@ -487,20 +487,32 @@ python3 {metadata_injector_script} \
 - **Skeleton**: `{data_root}/reports/daily/_skeleton-prefilled-{date}.md` (pre-filled, NOT raw template)
 - **Output**: `{data_root}/reports/daily/environmental-scan-{date}.md`
 - **Original skeleton**: `{report_skeleton}` (WF4 specific, includes FSSF + Three Horizons + Tipping Point sections)
-- **Validation**:
-  ```bash
-  python3 env-scanning/scripts/validate_report.py \
-    {data_root}/reports/daily/environmental-scan-{date}.md \
-    --profile {validate_profile}
-  ```
-- **4-Layer Defense**: L1 Skeleton, L2 Validation, L3 Retry, L4 Golden Reference
+
+**Step C: Quality Defense (L2a → L2b → L3)**
+
+> v2.3.0: 3-layer quality defense. "계산은 Python이, 판단은 LLM이."
+
+1. **L2a — Structural Validation**: `validate_report.py --profile {validate_profile} --json`
+   - Exit 0/2: proceed to L2b
+   - Exit 1 (CRITICAL): trigger retry
+
+2. **L2b — Cross-Reference Quality**: `validate_report_quality.py {report} {ranked_json} --scan-window {scan_window_state_file} --language {bilingual_language} --workflow-id {workflow_name} --json > {data_root}/logs/qc-results-{date}.json`
+   - Exit 0/2: proceed to L3
+   - Exit 1 (CRITICAL): trigger retry with remedy guidance from JSON output
+
+3. **L3 — Semantic Depth Review**: Invoke `@quality-reviewer` sub-agent
+   - Input: report_path, ranked_path, qc_results_path=`{data_root}/logs/qc-results-{date}.json`, golden_reference, date, data_root
+   - Output: `{data_root}/logs/quality-review-{date}.json`
+   - must_fix_count = 0 → proceed to Step 3.2c (Translation)
+   - must_fix_count 1–5 → targeted retry (max 2)
+   - must_fix_count > 5 → human escalation
 
 #### VEV Protocol (Full)
 1. **PRE-VERIFY**: Pre-filled skeleton exists, all analysis input files exist
 2. **EXECUTE**: Generate report by filling remaining placeholders with analytical content
-3. **POST-VERIFY**: (L1) No `{{...}}` placeholder tokens remain, (L2) `validate_report.py --profile multiglobal-news_en` returns exit 0, (L3) Word count >= 5000, all 7 mandatory sections present
-4. **RETRY**: On CRITICAL failure: targeted fix of failing sections (1st retry), full regeneration (2nd retry), human escalation (3rd)
-5. **RECORD**: Log validation_result, word_count, section_count, signal_count_in_report
+3. **POST-VERIFY**: (L2a) `validate_report.py --profile {validate_profile}` returns exit 0, (L2b) `validate_report_quality.py` returns exit 0 or 2, (L3) quality-reviewer grade ≥ C
+4. **RETRY**: On CRITICAL failure: targeted fix of failing sections (1st retry), full regeneration (2nd retry), human escalation (3rd). Total budget: max 2 retries across all layers.
+5. **RECORD**: Log l2a_status, l2b_status, l3_grade, l3_must_fix_count, word_count, section_count, signal_count_in_report
 
 ---
 
@@ -567,6 +579,7 @@ Checks:
   - database_updated: "new signals count = classified count"
   - report_complete: "report with all required sections"
   - report_validated: "validate_report.py returned exit 0"
+  - quality_review_completed: "L2b passed + L3 grade >= C; OR human approved with quality warning"
   - translation_pair_valid: "translation_validator.py returned exit 0"
   - archive_stored: "archive/{year}/{month}/ contains copy"
   - snapshot_created: "database-{date}.json exists"

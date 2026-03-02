@@ -1,0 +1,178 @@
+{
+  "scan_date": "2026-03-01",
+  "T0": "2026-03-01T17:31:16Z",
+  "scan_window": {
+    "start": "2026-02-28T17:31:16Z",
+    "end": "2026-03-01T17:31:16Z"
+  },
+  "workflow": "wf3-naver",
+  "source": "NaverNews",
+  "crawl_strategy": "default",
+  "total_items_collected": 18,
+  "sections_crawled": {
+    "100_politics": 3,
+    "101_economy": 4,
+    "102_society": 3,
+    "103_life_culture": 2,
+    "104_world": 3,
+    "105_it_science": 3
+  },
+  "items": [
+    {
+      "id": "naver-20260301-100-001",
+      "title": "이재명 대통령 3·1절 기념사 '남북 새 미래 함께 나아가자'",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/100", "published_date": "2026-03-01", "section_id": 100, "press": "연합뉴스"},
+      "content": {"abstract": "이재명 대통령이 제107주년 3·1절 기념식에서 북한을 향해 '어두웠던 과거를 뒤로하고 새로운 미래를 향해 함께 나아갈 수 있기를 기대한다'고 밝혔다. 싱가포르·필리핀 국빈 방문 출국 앞서 기념사 발표.", "keywords": ["3·1절", "남북관계", "대통령"], "language": "ko"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-100-002",
+      "title": "재외국민 국민투표권 보장 국민투표법 개정안 국회 통과",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/100", "published_date": "2026-03-01", "section_id": 100, "press": "한겨레"},
+      "content": {"abstract": "재외국민의 국민투표권을 보장하는 국민투표법 개정안이 국회 본회의를 통과. 재석 의원 176명 전원 찬성으로 가결. 해외 거주 한국인의 정치적 권리 확대.", "keywords": ["국민투표법", "재외국민", "국회"], "language": "ko"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-100-003",
+      "title": "대전·충남 행정통합 논쟁 여야 공방 격화",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/100", "published_date": "2026-03-01", "section_id": 100, "press": "조선일보"},
+      "content": {"abstract": "더불어민주당이 대전·충남 행정통합을 두고 국민의힘을 압박. 대전지역 민주당 소속 30여명 시청 앞 릴레이 단식 농성 진행 중. 지방자치 구조 개편 논쟁 본격화.", "keywords": ["행정통합", "대전충남", "지방자치"], "language": "ko"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-101-001",
+      "title": "코스피 6300 돌파, 고액자산가 안전자산→위험자산 대이동",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/101", "published_date": "2026-03-01", "section_id": 101, "press": "한국경제"},
+      "content": {"abstract": "코스피가 6300선까지 돌파하며 연일 고점 경신. PB센터 고객들 펀드·ETF 투자 상품 문의 급증. ETF 순자산 총액 387조원, 두 달 만에 30% 증가. 예금·채권 등 안전자산에서 갈아타는 분위기.", "keywords": ["코스피", "ETF", "자산이동", "6300"], "language": "ko"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-101-002",
+      "title": "현대차그룹 새만금 9조원 투자, 로봇·AI·수소 거점 구축",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/101", "published_date": "2026-03-01", "section_id": 101, "press": "매일경제"},
+      "content": {"abstract": "현대자동차그룹이 전북 새만금에 9조원 투자해 로봇·인공지능(AI)·수소에너지 거점 구축 계획 발표. 지역 경제 활성화 및 미래 산업 전환 신호.", "keywords": ["현대차", "새만금", "로봇", "AI", "수소"], "language": "ko"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-101-003",
+      "title": "2026년 반도체 수출 1880억달러 역대 최대 전망, AI 추론 시장 견인",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/101", "published_date": "2026-03-01", "section_id": 101, "press": "조선비즈"},
+      "content": {"abstract": "2026년 반도체 수출이 전년 대비 11% 증가한 1880억달러로 역대 최대 기록 갱신 전망. AI 추론 시장이 핵심 수요처. HBM 메모리 수요 지속 강세.", "keywords": ["반도체", "수출", "AI추론", "HBM"], "language": "ko"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-101-004",
+      "title": "KDI '2026년 한국 경제성장률 1.9% 전망' 소비 회복세 반영",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/101", "published_date": "2026-03-01", "section_id": 101, "press": "서울경제"},
+      "content": {"abstract": "KDI 경제전망에서 2026년 한국 경제는 반도체 수출 호조세와 소비 회복세로 1.9% 성장 전망. 2025년(1.0%)보다 높은 수준.", "keywords": ["KDI", "경제성장률", "소비회복"], "language": "ko"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-102-001",
+      "title": "한국 '스타트업 중심 사회' 선언, 대기업 성장에서 벤처 경제로 전환",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/102", "published_date": "2026-03-01", "section_id": 102, "press": "중앙일보"},
+      "content": {"abstract": "이재명 대통령이 신년사에서 '스타트업 중심 사회'를 선언. 대기업 중심 성장 전략에서 창업 경제로의 국가 성장 전략 전환. CES 2026에서 한국 스타트업 470개 참가, 혁신상 1차 심사 284개 중 168개가 한국 기업(59%).", "keywords": ["스타트업", "벤처경제", "CES2026"], "language": "ko"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-102-002",
+      "title": "정부 AI 분야 10조1천억원 투입, 전년 대비 3배 증가",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/102", "published_date": "2026-03-01", "section_id": 102, "press": "동아일보"},
+      "content": {"abstract": "한국 정부가 2026년 AI 분야에 10조1천억원 예산 배정, 전년 대비 3배 증가. 최신 GPU 1만5천대 추가 확보 및 피지컬AI 5년간 6조원 투자 계획.", "keywords": ["AI예산", "GPU", "피지컬AI"], "language": "ko"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-102-003",
+      "title": "산업연구원 '중국, 첨단 제조업 전반서 한국 추월' 경고",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/102", "published_date": "2026-03-01", "section_id": 102, "press": "뉴시스"},
+      "content": {"abstract": "산업연구원 분석에 따르면 전기차·배터리·로봇·자율주행 등 반도체 제외 첨단 제조업 전반에서 중국이 한국을 추월. 한국은 반도체 메모리만 우세한 상황.", "keywords": ["중국추월", "첨단제조업", "경쟁력"], "language": "ko"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-103-001",
+      "title": "경북 보현산 천문과학관 3·1절 개기월식 관측 행사",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/103", "published_date": "2026-03-01", "section_id": 103, "press": "YTN"},
+      "content": {"abstract": "경북 영천시 보현산천문과학관에서 3월 3일 정월대보름 개기월식 관측 행사 개최 예정. 천문 관측과 과학 교육의 대중화.", "keywords": ["개기월식", "천문대", "과학교육"], "language": "ko"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-103-002",
+      "title": "3·1절 맞아 '여성 독립운동가 남자현' 다국어 영상 공개",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/103", "published_date": "2026-03-01", "section_id": 103, "press": "SBS"},
+      "content": {"abstract": "서경덕 교수와 배우 송혜교가 제107주년 삼일절 맞아 '시대의 틀을 깬 여성 독립운동가 남자현' 영상을 다국어로 제작, 국내외 공개. 한국 역사 콘텐츠의 글로벌 확산.", "keywords": ["3·1절", "독립운동가", "다국어콘텐츠"], "language": "ko"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-104-001",
+      "title": "미국-이스라엘 이란 공습, 하메네이 최고지도자 사망 확인",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/104", "published_date": "2026-03-01", "section_id": 104, "press": "연합뉴스"},
+      "content": {"abstract": "미국과 이스라엘이 이란에 대한 군사 공습 감행. 이란 최고지도자 하메네이 사망 공식 확인. 민간인 133명 사망, 200여명 부상. 걸프 지역 확전 우려. 호르무즈해협 위기로 국제 에너지 시장 파장 예상.", "keywords": ["이란공습", "하메네이사망", "중동전쟁", "호르무즈해협"], "language": "ko"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-104-002",
+      "title": "이란 보복공격, 두바이·도하까지 타격…중동 질서 균열",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/104", "published_date": "2026-03-01", "section_id": 104, "press": "글로벌이코노믹"},
+      "content": {"abstract": "이란이 걸프국가 직접 타격하며 중동 충돌 역내 전역 확산. 두바이 국제공항 영공 폐쇄, 카타르 도하 폭발음, 바레인 미 해군 5함대 주둔지 공격 정황. 에이브러햄 링컨 항모 탄도미사일 4발 피격.", "keywords": ["이란보복", "걸프확전", "두바이공항", "항모피격"], "language": "ko"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-104-003",
+      "title": "중국, 미국-이란 전쟁에 공개 비판…트럼프-시진핑 정면 충돌",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/104", "published_date": "2026-03-01", "section_id": 104, "press": "경향신문"},
+      "content": {"abstract": "중국이 미국-이란 전쟁에 대해 공개 비판. 러시아와 보조를 맞추며 즉각적인 전쟁 중단 촉구. 미중 관계 추가 악화 및 글로벌 지정학적 구도 재편 신호.", "keywords": ["미중충돌", "이란전쟁", "지정학"], "language": "ko"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-105-001",
+      "title": "스페이스X 3월 비공개 상장 예비서류 SEC 제출 계획",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/105", "published_date": "2026-03-01", "section_id": 105, "press": "매일경제"},
+      "content": {"abstract": "일론 머스크의 스페이스X가 이르면 3월 미국 증권거래위원회(SEC)에 비공개 상장 예비서류 제출 계획. 우주산업 민간 상장 역사의 새로운 이정표.", "keywords": ["스페이스X", "상장", "SEC"], "language": "ko"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-105-002",
+      "title": "K-AI 반도체 양산 원년, 엣지 AI 추론칩 DX-M1 시장 출시",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/105", "published_date": "2026-03-01", "section_id": 105, "press": "전자신문"},
+      "content": {"abstract": "2026년 한국 AI 반도체 스타트업 칩 일제히 시장 출시. DX-M1은 평균 3W 이하 저전력 엣지 AI 추론용 SoC로 스마트팩토리·로봇·자율주행 탑재. K-AI 반도체 양산 원년.", "keywords": ["AI반도체", "엣지AI", "DX-M1", "양산"], "language": "ko"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z"
+    },
+    {
+      "id": "naver-20260301-105-003",
+      "title": "양자 산업화 원년 선언, 2035년 선도국 85% 도약 목표",
+      "source": {"name": "NaverNews", "type": "crawl", "url": "https://news.naver.com/section/105", "published_date": "2026-03-01", "section_id": 105, "press": "한국경제"},
+      "content": {"abstract": "한국 정부가 양자 산업화 원년 선언. 현재 양자과학기술 수준은 선도국 대비 62.5%이나 2035년 85%까지 도약 목표. 양자컴퓨팅·양자암호·양자센서 3대 분야 집중 투자.", "keywords": ["양자컴퓨터", "양자산업화", "기술격차"], "language": "ko"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z"
+    }
+  ],
+  "scan_metadata": {
+    "crawl_datetime": "2026-03-01T17:35:00Z",
+    "strategy_used": "default",
+    "total_sections": 6,
+    "sn_ratio": "18/45 (40.0%)",
+    "execution_proof": {
+      "agent": "naver-scan-orchestrator",
+      "started_at": "2026-03-01T17:31:16Z",
+      "completed_at": "2026-03-01T17:50:00Z",
+      "method": "web_search_naver_sections"
+    }
+  }
+}

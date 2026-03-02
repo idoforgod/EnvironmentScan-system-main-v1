@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "workflow": "WF4",
+    "scan_date": "2026-02-27",
+    "assessment_timestamp": "2026-02-27T13:00:00+00:00",
+    "method": "Cross-Impact Analysis with STEEPs + FSSF + Three Horizons"
+  },
+  "cross_impact_matrix": [
+    {
+      "signal_pair": ["news-20260227-scotus-001", "news-20260227-trump-002"],
+      "relationship": "direct_causal",
+      "direction": "bidirectional",
+      "strength": "very_high",
+      "description": "SCOTUS ruling directly caused Trump's Section 122 pivot. The constitutional battle over trade authority creates a feedback loop between judicial, executive, and legislative branches. Together they represent a tectonic shift in US trade policy architecture."
+    },
+    {
+      "signal_pair": ["news-20260227-trump-002", "news-20260227-eu-tariff-016"],
+      "relationship": "cascading",
+      "direction": "US_to_EU",
+      "strength": "high",
+      "description": "New US tariff mechanism cascades to EU through proposed 15-20% minimum tariff. EU CPI divergence (Bavaria +1.9%, France +1.0%, Spain +2.3%) complicates unified European response."
+    },
+    {
+      "signal_pair": ["news-20260227-samsung-spy-023", "news-20260227-china-005"],
+      "relationship": "reinforcing",
+      "direction": "bidirectional",
+      "strength": "high",
+      "description": "China's AI-centered Five-Year Plan creates incentive for technology acquisition; Samsung DRAM espionage arrests illustrate the semiconductor cold war escalating. Korea caught between US and China."
+    },
+    {
+      "signal_pair": ["news-20260227-iran-003", "news-20260227-nk-004"],
+      "relationship": "parallel",
+      "direction": "independent",
+      "strength": "medium",
+      "description": "Both represent nuclear proliferation challenges: Iran's verification gap and NK's 50-warhead declaration. Both reject international verification/denuclearization frameworks, weakening global nonproliferation regime."
+    },
+    {
+      "signal_pair": ["news-20260227-quantum-007", "news-20260227-ai-agents-020"],
+      "relationship": "synergistic",
+      "direction": "convergent",
+      "strength": "high",
+      "description": "Quantum advantage milestone and AI agent democratization represent convergent technological acceleration. Hybrid quantum-AI systems could amplify the democratization of sophisticated computational capabilities."
+    },
+    {
+      "signal_pair": ["news-20260227-ocean-017", "news-20260227-saf-018"],
+      "relationship": "thematic_cluster",
+      "direction": "convergent",
+      "strength": "medium",
+      "description": "High Seas Treaty and SAF milestones both represent institutional/industrial sustainability transitions. They form a coherent cluster with EU renewable overtaking fossil fuels."
+    },
+    {
+      "signal_pair": ["news-20260227-japan-006", "news-20260227-nk-004"],
+      "relationship": "tension",
+      "direction": "bidirectional",
+      "strength": "high",
+      "description": "Japan's 'Japan First' supermajority and NK's nuclear hardline create a dangerous tension in Northeast Asian security architecture. Japan may accelerate defense spending and security posture changes."
+    },
+    {
+      "signal_pair": ["news-20260227-ukraine-008", "news-20260227-scotus-001"],
+      "relationship": "indirect",
+      "direction": "US_policy_influence",
+      "strength": "medium",
+      "description": "US trade authority upheaval may shift political attention from European security commitments. Ukraine's EU accession push gains urgency as US reliability questions grow."
+    },
+    {
+      "signal_pair": ["news-20260227-africa-014", "news-20260227-lobito-015"],
+      "relationship": "reinforcing",
+      "direction": "convergent",
+      "strength": "high",
+      "description": "South Africa's fiscal turnaround and Lobito Corridor fast-tracking represent an emerging African economic infrastructure narrative, competing with China's BRI and attracting Western development capital."
+    },
+    {
+      "signal_pair": ["news-20260227-openai-kr-024", "news-20260227-samsung-spy-023"],
+      "relationship": "tension",
+      "direction": "opposing_forces",
+      "strength": "medium",
+      "description": "Korea attracting AI investment (OpenAI/Samsung/SK data centers) while suffering semiconductor espionage losses. Dual forces of technology attraction and technology leakage define Korea's tech security dilemma."
+    }
+  ],
+  "emerging_themes": [
+    {
+      "theme": "US Trade Authority Constitutional Crisis",
+      "signals": ["news-20260227-scotus-001", "news-20260227-trump-002", "news-20260227-eu-tariff-016"],
+      "impact": "CRITICAL",
+      "description": "The SCOTUS-Trump-Section 122 sequence represents a constitutional restructuring of US trade policy. This affects every trading nation and creates legal uncertainty in global commerce."
+    },
+    {
+      "theme": "Global Nuclear Governance Erosion",
+      "signals": ["news-20260227-iran-003", "news-20260227-nk-004"],
+      "impact": "CRITICAL",
+      "description": "Both Iran and North Korea are operating outside international verification frameworks. The dual challenge to nonproliferation norms represents a systemic risk to global security architecture."
+    },
+    {
+      "theme": "AI Paradigm Transition: From Models to Agents and Physical AI",
+      "signals": ["news-20260227-quantum-007", "news-20260227-ai-agents-020", "news-20260227-world-models-021", "news-20260227-samsung-010", "news-20260227-physical-ai-033", "news-20260227-china-005"],
+      "impact": "HIGH",
+      "description": "Multiple signals converge on AI's transition from large language models to agentic, physical, and quantum-enhanced systems. China embedding AI in national planning, Samsung in consumer devices, and quantum computing reaching advantage milestone."
+    },
+    {
+      "theme": "Semiconductor Security and Technology Espionage",
+      "signals": ["news-20260227-samsung-spy-023", "news-20260227-china-pla-022", "news-20260227-openai-kr-024"],
+      "impact": "HIGH",
+      "description": "The semiconductor cold war intensifies with espionage arrests, military technology leaks, and concurrent tech investment. Korea occupies a critical node in this competition."
+    },
+    {
+      "theme": "European Integration Acceleration",
+      "signals": ["news-20260227-ukraine-008", "news-20260227-eu-abort-019", "news-20260227-denmark-009"],
+      "impact": "MEDIUM",
+      "description": "Ukraine pushing for 2027 accession, Iceland referendum, and citizens initiatives suggest EU enlargement and deepening are accelerating in response to security and values-driven pressures."
+    },
+    {
+      "theme": "African Economic Renaissance Signals",
+      "signals": ["news-20260227-africa-014", "news-20260227-lobito-015", "news-20260227-nigeria-025", "news-20260227-somalia-026"],
+      "impact": "MEDIUM",
+      "description": "Multiple African signals point to economic recovery, infrastructure investment, value-added policy, and regional integration — an emerging narrative of continental economic agency."
+    }
+  ]
+}

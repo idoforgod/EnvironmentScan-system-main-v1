@@ -1,0 +1,18 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf1-general",
+  "ranking_method": "pSST_weighted",
+  "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10},
+  "top_10": [
+    {"rank": 1, "id": "unnews-20260228-001", "title": "US-Israel launch major attack on Iran", "psst": 95, "category": "P", "impact": "CRITICAL"},
+    {"rank": 2, "id": "techcrunch-20260228-003", "title": "Pentagon designates Anthropic as supply-chain risk", "psst": 88, "category": "P", "impact": "CRITICAL"},
+    {"rank": 3, "id": "techcrunch-20260228-002", "title": "ChatGPT reaches 900M weekly active users", "psst": 85, "category": "T", "impact": "CRITICAL"},
+    {"rank": 4, "id": "websearch-20260228-001", "title": "Global markets brace for Iran crisis impact", "psst": 85, "category": "E", "impact": "HIGH"},
+    {"rank": 5, "id": "techcrunch-20260228-001", "title": "OpenAI raises $110B — largest private funding ever", "psst": 82, "category": "E", "impact": "CRITICAL"},
+    {"rank": 6, "id": "science-20260228-002", "title": "Sleeping sickness single-dose drug approved by EMA", "psst": 82, "category": "T", "impact": "HIGH"},
+    {"rank": 7, "id": "techcrunch-20260228-005", "title": "China dominates humanoid robot market (87-90%)", "psst": 80, "category": "T", "impact": "HIGH"},
+    {"rank": 8, "id": "techcrunch-20260228-007", "title": "$3T AI data center buildout", "psst": 78, "category": "E", "impact": "HIGH"},
+    {"rank": 9, "id": "nature-20260228-001", "title": "White House stalls US science budgets", "psst": 78, "category": "P", "impact": "HIGH"},
+    {"rank": 10, "id": "science-20260228-001", "title": "Can AI do science? Benchmark question", "psst": 75, "category": "T", "impact": "HIGH"}
+  ]
+}

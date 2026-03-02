@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-27",
+    "deduplication_method": "4-stage cascade: URL exact match → topic fingerprint → Jaro-Winkler title similarity → entity overlap",
+    "total_raw": 35,
+    "duplicates_removed": 0,
+    "new_signals": 35,
+    "dedup_details": {
+      "stage_a_url_matches": 0,
+      "stage_b_topic_matches": 0,
+      "stage_c_title_matches": 0,
+      "stage_d_entity_matches": 0,
+      "database_signals_compared": 225,
+      "comparison_window_days": 30
+    }
+  },
+  "new_signal_ids": [
+    "arxiv-20260227-001", "arxiv-20260227-002", "arxiv-20260227-003", "arxiv-20260227-004",
+    "arxiv-20260227-005", "arxiv-20260227-006", "arxiv-20260227-007", "arxiv-20260227-008",
+    "arxiv-20260227-009", "arxiv-20260227-010", "arxiv-20260227-011", "arxiv-20260227-012",
+    "arxiv-20260227-013", "arxiv-20260227-014", "arxiv-20260227-015", "arxiv-20260227-016",
+    "arxiv-20260227-017", "arxiv-20260227-018", "arxiv-20260227-019", "arxiv-20260227-020",
+    "arxiv-20260227-021", "arxiv-20260227-022", "arxiv-20260227-023", "arxiv-20260227-024",
+    "arxiv-20260227-025", "arxiv-20260227-026", "arxiv-20260227-027", "arxiv-20260227-028",
+    "arxiv-20260227-029", "arxiv-20260227-030", "arxiv-20260227-031", "arxiv-20260227-032",
+    "arxiv-20260227-033", "arxiv-20260227-034", "arxiv-20260227-035"
+  ]
+}

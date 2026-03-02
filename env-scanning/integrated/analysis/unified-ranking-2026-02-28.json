@@ -1,0 +1,43 @@
+{
+  "scan_date": "2026-02-28",
+  "ranking_method": "pSST_unified",
+  "weights": {"impact": 0.40, "probability": 0.30, "urgency": 0.20, "novelty": 0.10},
+  "total_raw_signals": 79,
+  "after_dedup": 59,
+  "top_20": [
+    {"rank": 1, "id": "news-20260228-cnn-001", "title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike", "psst": 97, "category": "P", "origin": "WF4", "fssf": "Wild Card", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 2, "id": "multi-wf-iran-op", "title": "US-Israel Launch Operation Shield of Judah", "psst": 96, "category": "P", "origin": "WF1+WF3+WF4", "fssf": "Wild Card", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 3, "id": "multi-wf-iran-retaliation", "title": "Iran Retaliates with Missile Strikes on Gulf States", "psst": 95, "category": "P", "origin": "WF3+WF4", "fssf": "Discontinuity", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 4, "id": "multi-wf-financial-crisis", "title": "Global Financial Markets Crisis — Oil Past $120", "psst": 93, "category": "E", "origin": "WF1+WF3+WF4", "fssf": "Discontinuity", "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 5, "id": "news-20260228-alj-002", "title": "Eight Nations Close Airspace — 14,000 Flights Disrupted", "psst": 88, "category": "E", "origin": "WF4", "fssf": "Emerging Issue", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 6, "id": "techcrunch-20260228-003", "title": "Pentagon Designates Anthropic as Supply-Chain Risk", "psst": 88, "category": "P", "origin": "WF1", "fssf": null, "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 7, "id": "naver-20260228-100-001", "title": "Supreme Court Expansion 14 to 26 Justices", "psst": 88, "category": "P", "origin": "WF3", "fssf": "Driver", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 8, "id": "arxiv-2602-22750v1", "title": "AI Inference Bottleneck Antitrust Framework", "psst": 88, "category": "P/E", "origin": "WF2", "fssf": null, "horizon": "H2", "impact": "CRITICAL"},
+    {"rank": 9, "id": "naver-20260228-101-002", "title": "Hyundai Motor 9T Won Saemangeum Investment", "psst": 87, "category": "E/T", "origin": "WF3", "fssf": "Driver", "horizon": "H2", "impact": "HIGH"},
+    {"rank": 10, "id": "techcrunch-20260228-001", "title": "OpenAI Raises $110B — Largest Private Funding", "psst": 85, "category": "E", "origin": "WF1", "fssf": null, "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 11, "id": "techcrunch-20260228-002", "title": "ChatGPT Reaches 900M Weekly Active Users", "psst": 85, "category": "T", "origin": "WF1", "fssf": null, "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 12, "id": "arxiv-2602-23329v1", "title": "LLM Dual-Use Biology — Novice Uplift Demonstrated", "psst": 85, "category": "T/P", "origin": "WF2", "fssf": null, "horizon": "H1", "impact": "CRITICAL"},
+    {"rank": 13, "id": "naver-20260228-104-003", "title": "Pakistan Airstrikes on Kabul/Kandahar — Open War", "psst": 85, "category": "P", "origin": "WF3", "fssf": "Emerging Issue", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 14, "id": "news-20260228-jpt-001", "title": "Trump Delays Taiwan Arms Sale for Beijing Visit", "psst": 85, "category": "P", "origin": "WF4", "fssf": "Emerging Issue", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 15, "id": "naver-20260228-105-001", "title": "SK hynix-Western Digital HBF Consortium", "psst": 83, "category": "T", "origin": "WF3", "fssf": "Driver", "horizon": "H2", "impact": "HIGH"},
+    {"rank": 16, "id": "news-20260228-jpt-002", "title": "China Ousts Nine Military Lawmakers — Xi Purge", "psst": 83, "category": "P", "origin": "WF4", "fssf": "Driver", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 17, "id": "arxiv-2602-23330v1", "title": "Multi-Agent LLM Autonomous Trading System", "psst": 82, "category": "E/T", "origin": "WF2", "fssf": null, "horizon": "H2", "impact": "HIGH"},
+    {"rank": 18, "id": "naver-20260228-105-004", "title": "EU AI Act Full Enforcement Phase", "psst": 82, "category": "P/T", "origin": "WF3", "fssf": "Trend", "horizon": "H1", "impact": "HIGH"},
+    {"rank": 19, "id": "news-20260228-tsmc-001", "title": "TSMC Record Revenue $12.7B — AI Chip Demand", "psst": 80, "category": "T/E", "origin": "WF4", "fssf": "Trend", "horizon": "H2", "impact": "HIGH"},
+    {"rank": 20, "id": "techcrunch-20260228-007", "title": "$3 Trillion AI Data Center Buildout", "psst": 78, "category": "E/T", "origin": "WF1", "fssf": null, "horizon": "H2", "impact": "HIGH"}
+  ],
+  "workflow_contributions": {
+    "wf1": {"signals_in_top_20": 6, "exclusive": 3, "merged": 3},
+    "wf2": {"signals_in_top_20": 3, "exclusive": 3, "merged": 0},
+    "wf3": {"signals_in_top_20": 6, "exclusive": 4, "merged": 2},
+    "wf4": {"signals_in_top_20": 5, "exclusive": 4, "merged": 1}
+  },
+  "steeps_distribution": {
+    "S_Social": 0,
+    "T_Technological": 10,
+    "E_Economic": 11,
+    "E_Environmental": 0,
+    "P_Political": 12,
+    "s_spiritual": 1
+  }
+}

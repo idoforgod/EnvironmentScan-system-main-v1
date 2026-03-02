@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "date": "2026-03-01",
+    "type": "unified_ranking",
+    "system_version": "2.5.0",
+    "anchor_time_T0": "2026-03-01T17:31:16+00:00",
+    "total_signals": 64,
+    "top_20_selected": 20,
+    "methodology": "pSST unified scoring with cross-workflow corroboration bonus"
+  },
+  "rankings": [
+    { "rank": 1, "signal": "Iran War Day 2: Khamenei Dead, Gulf-Wide Strikes", "workflows": ["WF3", "WF4"], "pSST": 97, "steeps": "P", "priority": "CRITICAL" },
+    { "rank": 2, "signal": "OpenAI $110B Record Funding", "workflows": ["WF1"], "pSST": 92, "steeps": "E,T", "priority": "CRITICAL" },
+    { "rank": 3, "signal": "KOSPI 6,300 V-Shape Recovery", "workflows": ["WF3"], "pSST": 90, "steeps": "E", "priority": "HIGH" },
+    { "rank": 4, "signal": "AGI Economics — Verification Bandwidth", "workflows": ["WF2"], "pSST": 85, "steeps": "E,T", "priority": "HIGH" },
+    { "rank": 5, "signal": "EU Energy Policy Blitz — Nuclear SMR + AI-Energy", "workflows": ["WF4"], "pSST": 85, "steeps": "E_env,T", "priority": "HIGH" },
+    { "rank": 6, "signal": "US Data Centers $700B Investment", "workflows": ["WF1"], "pSST": 91, "steeps": "T,E", "priority": "HIGH" },
+    { "rank": 7, "signal": "China-US Confrontation Over Iran", "workflows": ["WF3", "WF4"], "pSST": 89, "steeps": "P", "priority": "HIGH" },
+    { "rank": 8, "signal": "Hyundai KRW 9T Saemangeum Investment", "workflows": ["WF3"], "pSST": 85, "steeps": "E,T", "priority": "HIGH" },
+    { "rank": 9, "signal": "Quantum Utility Gap Analysis", "workflows": ["WF2"], "pSST": 82, "steeps": "T", "priority": "MEDIUM" },
+    { "rank": 10, "signal": "Korean Semiconductor Exports $188B", "workflows": ["WF3"], "pSST": 84, "steeps": "E,T", "priority": "MEDIUM" },
+    { "rank": 11, "signal": "China Deflation Risk", "workflows": ["WF4"], "pSST": 82, "steeps": "E", "priority": "MEDIUM" },
+    { "rank": 12, "signal": "Korean AI KRW 10.1T Budget", "workflows": ["WF3"], "pSST": 83, "steeps": "T,E", "priority": "MEDIUM" },
+    { "rank": 13, "signal": "Russia-China Joint Ceasefire Demand", "workflows": ["WF4"], "pSST": 80, "steeps": "P", "priority": "MEDIUM" },
+    { "rank": 14, "signal": "Quantum Attacks on Nuclear Cybersecurity", "workflows": ["WF2"], "pSST": 78, "steeps": "T,P,s", "priority": "MEDIUM" },
+    { "rank": 15, "signal": "China CO2 Flat 21 Months", "workflows": ["WF1"], "pSST": 79, "steeps": "E_env", "priority": "MEDIUM" },
+    { "rank": 16, "signal": "K-AI Chip Mass Production DX-M1", "workflows": ["WF3"], "pSST": 82, "steeps": "T", "priority": "MEDIUM" },
+    { "rank": 17, "signal": "Japan Defense Budget 9T Yen", "workflows": ["WF4"], "pSST": 78, "steeps": "P", "priority": "MEDIUM" },
+    { "rank": 18, "signal": "Korea Startup-Centered Society", "workflows": ["WF3"], "pSST": 80, "steeps": "S,E", "priority": "MEDIUM" },
+    { "rank": 19, "signal": "SE Asia Manufacturing Surge", "workflows": ["WF4"], "pSST": 72, "steeps": "E", "priority": "LOW" },
+    { "rank": 20, "signal": "EU AI Act Enforcement", "workflows": ["WF1"], "pSST": 76, "steeps": "P,s", "priority": "LOW" }
+  ],
+  "steeps_distribution": {
+    "P_Political": 14,
+    "T_Technological": 12,
+    "E_Economic": 11,
+    "E_Environmental": 5,
+    "S_Social": 4,
+    "s_spiritual": 2
+  },
+  "workflow_contribution": {
+    "WF1": { "signals_contributed": 15, "top_20_signals": 4 },
+    "WF2": { "signals_contributed": 15, "top_20_signals": 3 },
+    "WF3": { "signals_contributed": 18, "top_20_signals": 8 },
+    "WF4": { "signals_contributed": 16, "top_20_signals": 7 }
+  },
+  "cross_workflow_signals": [
+    { "signal": "Iran War", "workflows": ["WF3", "WF4"], "corroboration_bonus": 5 },
+    { "signal": "China-US Confrontation", "workflows": ["WF3", "WF4"], "corroboration_bonus": 5 }
+  ]
+}

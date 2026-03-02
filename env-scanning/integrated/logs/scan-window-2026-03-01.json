@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "date": "2026-03-01",
+    "type": "scan_window",
+    "system_version": "2.5.0"
+  },
+  "temporal_anchor": {
+    "T0": "2026-03-01T17:31:16+00:00",
+    "scan_window_start": "2026-02-28T17:31:16+00:00",
+    "scan_window_end": "2026-03-01T17:31:16+00:00"
+  },
+  "per_workflow_windows": {
+    "WF1": { "lookback_hours": 24, "start": "2026-02-28T17:31:16+00:00", "end": "2026-03-01T17:31:16+00:00" },
+    "WF2": { "lookback_hours": 48, "start": "2026-02-27T17:31:16+00:00", "end": "2026-03-01T17:31:16+00:00" },
+    "WF3": { "lookback_hours": 24, "start": "2026-02-28T17:31:16+00:00", "end": "2026-03-01T17:31:16+00:00" },
+    "WF4": { "lookback_hours": 24, "start": "2026-02-28T17:31:16+00:00", "end": "2026-03-01T17:31:16+00:00" }
+  },
+  "execution_log": {
+    "WF1": { "status": "completed", "validation": "18/18 PASS", "signals": 15 },
+    "WF2": { "status": "completed", "validation": "16/16 PASS", "signals": 15 },
+    "WF3": { "status": "completed", "validation": "20/20 PASS", "signals": 18 },
+    "WF4": { "status": "completed", "validation": "20/20 PASS", "signals": 16 },
+    "integration": { "status": "completed", "validation": "19/19 PASS", "signals": 20 }
+  },
+  "total_signals_collected": 64,
+  "total_signals_integrated": 20,
+  "deduplication_clusters": 3
+}

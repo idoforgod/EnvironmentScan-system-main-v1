@@ -1,0 +1,29 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf3-naver",
+  "assessment_method": "cross_impact_matrix",
+  "total_assessed": 17,
+  "critical_count": 3,
+  "high_count": 7,
+  "medium_count": 6,
+  "low_count": 1,
+  "key_clusters": [
+    {"theme": "Middle East military escalation", "signals": ["naver-20260228-104-001", "naver-20260228-104-002", "naver-20260228-104-003"], "cross_impact": "CRITICAL"},
+    {"theme": "Financial market shock from geopolitical conflict", "signals": ["naver-20260228-101-001"], "cross_impact": "CRITICAL"},
+    {"theme": "Korean industrial mega-investment", "signals": ["naver-20260228-101-002", "naver-20260228-105-001"], "cross_impact": "HIGH"},
+    {"theme": "Korean domestic political reform", "signals": ["naver-20260228-100-001"], "cross_impact": "HIGH"},
+    {"theme": "AI governance and technology regulation", "signals": ["naver-20260228-105-004", "naver-20260228-101-004", "naver-20260228-105-002"], "cross_impact": "HIGH"}
+  ],
+  "tipping_point_indicators": {
+    "RED": 1,
+    "ORANGE": 1,
+    "YELLOW": 2,
+    "GREEN": 13,
+    "details": [
+      {"signal": "naver-20260228-104-001", "level": "RED", "reason": "Full-scale US-Israel-Iran military conflict — critical tipping point crossed"},
+      {"signal": "naver-20260228-101-001", "level": "ORANGE", "reason": "Global financial contagion risk from Hormuz Strait closure scenario"},
+      {"signal": "naver-20260228-100-001", "level": "YELLOW", "reason": "Structural change to Korean judicial system"},
+      {"signal": "naver-20260228-104-003", "level": "YELLOW", "reason": "Pakistan-Afghanistan conflict — potential regional escalation"}
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf1-general",
+  "ranking_metadata": {
+    "method": "pSST_unified",
+    "total_signals_ranked": 15,
+    "total_signals_available": 44,
+    "anchor_timestamp": "2026-02-26T21:36:28.195056+00:00"
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "usfr-20260226-008", "title": "US Supreme Court Strikes Down IEEPA Tariff Authority", "category": "P", "psst": 88, "impact": "9.5/10", "probability": 100, "urgency": 95, "novelty": 85},
+    {"rank": 2, "id": "tc-20260226-001", "title": "NVIDIA Records $68.1B Quarterly Revenue (73% Growth)", "category": "T", "psst": 86, "impact": "9.0/10", "probability": 100, "urgency": 80, "novelty": 70},
+    {"rank": 3, "id": "cb-20260226-010", "title": "EU 3C Climate Warning / Food Inflation / El Nino Looms", "category": "E_Environmental", "psst": 84, "impact": "9.5/10", "probability": 85, "urgency": 90, "novelty": 75},
+    {"rank": 4, "id": "nat-20260226-006", "title": "Triplet Superconductor Discovery for Quantum Computing", "category": "T", "psst": 82, "impact": "9.0/10", "probability": 65, "urgency": 60, "novelty": 95},
+    {"rank": 5, "id": "crispr-20260226-015", "title": "CRISPR Gene-Drive Strips Antibiotic Resistance", "category": "T", "psst": 81, "impact": "9.0/10", "probability": 70, "urgency": 75, "novelty": 90},
+    {"rank": 6, "id": "tc-20260226-002", "title": "White House AI Data Center Rate Payer Protection Pledge", "category": "P", "psst": 80, "impact": "8.5/10", "probability": 95, "urgency": 85, "novelty": 80},
+    {"rank": 7, "id": "un-20260226-009", "title": "UN Chief: Human Rights Under Full-Scale Attack", "category": "P", "psst": 79, "impact": "8.5/10", "probability": 90, "urgency": 80, "novelty": 65},
+    {"rank": 8, "id": "eth-20260226-020", "title": "UNESCO First International Neurotechnology Standards", "category": "s", "psst": 78, "impact": "8.5/10", "probability": 80, "urgency": 70, "novelty": 90},
+    {"rank": 9, "id": "who-20260226-007", "title": "WHO: Global Health Systems At Risk from Funding Cuts", "category": "S", "psst": 77, "impact": "8.5/10", "probability": 90, "urgency": 85, "novelty": 60},
+    {"rank": 10, "id": "cancer-20260226-047", "title": "China Mass-Production of CAR-T Cells from Cord Blood", "category": "T", "psst": 76, "impact": "8.5/10", "probability": 60, "urgency": 55, "novelty": 95},
+    {"rank": 11, "id": "imf-20260226-011", "title": "IMF: Global Growth 3.3% — Tech Investment Offsets Trade", "category": "E", "psst": 75, "impact": "8.0/10", "probability": 85, "urgency": 70, "novelty": 55},
+    {"rank": 12, "id": "trade-20260226-018", "title": "Global Trade Reordering: Allies Forge Ahead Without US", "category": "E", "psst": 74, "impact": "8.5/10", "probability": 80, "urgency": 75, "novelty": 70},
+    {"rank": 13, "id": "nasa-20260226-025", "title": "Climate Warming Rate Accelerated to 0.25C Per Decade", "category": "E_Environmental", "psst": 73, "impact": "9.0/10", "probability": 90, "urgency": 85, "novelty": 55},
+    {"rank": 14, "id": "eu-20260226-023", "title": "EU AI Act High-Risk Implementation Guidelines Due", "category": "P", "psst": 72, "impact": "8.0/10", "probability": 95, "urgency": 80, "novelty": 65},
+    {"rank": 15, "id": "eth-20260226-021", "title": "AI Employment Impact: Admin Hiring Down 35%", "category": "s", "psst": 71, "impact": "8.0/10", "probability": 85, "urgency": 75, "novelty": 70}
+  ]
+}

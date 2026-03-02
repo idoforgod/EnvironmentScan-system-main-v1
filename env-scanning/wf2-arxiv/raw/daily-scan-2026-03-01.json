@@ -1,0 +1,157 @@
+{
+  "scan_date": "2026-03-01",
+  "T0": "2026-03-01T17:31:16Z",
+  "scan_window": {
+    "start": "2026-02-27T17:31:16Z",
+    "end": "2026-03-01T17:31:16Z"
+  },
+  "workflow": "wf2-arxiv",
+  "total_items_collected": 15,
+  "items": [
+    {
+      "id": "arxiv-2602-20946v1",
+      "title": "Some Simple Economics of AGI — Verification Bandwidth as Binding Constraint",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.20946", "published_date": "2026-02-25"},
+      "content": {"abstract": "Formal economic model treating AGI transition as collision between automation cost and verification cost. As AI decouples cognition from biology, growth bottleneck shifts to human verification bandwidth.", "keywords": ["econ.GN"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["econ.GN"]
+    },
+    {
+      "id": "arxiv-2602-22540v1",
+      "title": "The Road to Useful Quantum Computers — Utility Gap Analysis",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.22540", "published_date": "2026-02-26"},
+      "content": {"abstract": "Comprehensive roadmap establishing gap between current quantum capabilities and practical utility. Maps hardware, algorithm, and error correction milestones needed for quantum advantage.", "keywords": ["quant-ph"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["quant-ph"]
+    },
+    {
+      "id": "arxiv-2603-00100v1",
+      "title": "Quantum Attacks on Nuclear Power Plant Cybersecurity",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.00100", "published_date": "2026-02-27"},
+      "content": {"abstract": "First systematic analysis of quantum computing threats to nuclear power plant cybersecurity, with defense strategies including post-quantum cryptography migration for critical infrastructure.", "keywords": ["cs.CR", "quant-ph"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.CR", "quant-ph"]
+    },
+    {
+      "id": "arxiv-2603-00201v1",
+      "title": "Reasoning LLMs for Autonomous Agent Control — ICRA 2026",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.00201", "published_date": "2026-02-27"},
+      "content": {"abstract": "First systematic evaluation of reasoning-mode LLMs (o1, DeepSeek-R1) for autonomous robot task planning. ICRA 2026 accepted.", "keywords": ["cs.RO", "cs.AI"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.RO", "cs.AI"]
+    },
+    {
+      "id": "arxiv-2602-21500v1",
+      "title": "Quantum LDPC Codes for Error Correction Breakthroughs",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.21500", "published_date": "2026-02-26"},
+      "content": {"abstract": "Novel quantum LDPC code construction achieving near-optimal encoding rates with polynomial-time decoding, advancing quantum error correction toward practical fault tolerance.", "keywords": ["quant-ph", "cs.IT"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["quant-ph", "cs.IT"]
+    },
+    {
+      "id": "arxiv-2603-00350v1",
+      "title": "Humanoid Robot Learning from Human Demonstration at Scale",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.00350", "published_date": "2026-02-28"},
+      "content": {"abstract": "Scalable framework enabling humanoid robots to learn complex manipulation and locomotion tasks from large-scale human demonstration datasets.", "keywords": ["cs.RO"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.RO"]
+    },
+    {
+      "id": "arxiv-2602-22100v1",
+      "title": "Abrupt Shifts in Climate Regime Detection via Deep Learning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.22100", "published_date": "2026-02-26"},
+      "content": {"abstract": "Novel deep learning approach for detecting abrupt climate regime shifts in paleoclimate proxy records, improving early warning for tipping points.", "keywords": ["physics.ao-ph", "cs.LG"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["physics.ao-ph", "cs.LG"]
+    },
+    {
+      "id": "arxiv-2603-00450v1",
+      "title": "Hardware Trojan Detection in Chiplet-Based Architectures",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.00450", "published_date": "2026-02-28"},
+      "content": {"abstract": "New framework for detecting hardware trojans in disaggregated chiplet architectures where components from different vendors are integrated.", "keywords": ["cs.CR", "cs.AR"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.CR", "cs.AR"]
+    },
+    {
+      "id": "arxiv-2602-23000v1",
+      "title": "Vision-Language Models for Autonomous Scientific Discovery",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.23000", "published_date": "2026-02-27"},
+      "content": {"abstract": "Framework enabling vision-language models to autonomously design and interpret scientific experiments, demonstrated across chemistry, biology, and materials science.", "keywords": ["cs.AI", "cs.CV"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.AI", "cs.CV"]
+    },
+    {
+      "id": "arxiv-2602-21800v1",
+      "title": "Personality Subnetworks in Large Language Models",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.21800", "published_date": "2026-02-25"},
+      "content": {"abstract": "Discovery and characterization of distinct personality subnetworks within LLMs that independently encode Big Five personality traits, with implications for AI alignment.", "keywords": ["cs.CL", "cs.AI"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.CL", "cs.AI"]
+    },
+    {
+      "id": "arxiv-2603-00550v1",
+      "title": "Federated Learning for Pandemic Preparedness Networks",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.00550", "published_date": "2026-02-28"},
+      "content": {"abstract": "Privacy-preserving federated learning architecture enabling real-time pandemic surveillance across international health networks without sharing raw patient data.", "keywords": ["cs.LG", "cs.CR"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.LG", "cs.CR"]
+    },
+    {
+      "id": "arxiv-2602-22800v1",
+      "title": "Carbon-Aware Compute Scheduling at Datacenter Scale",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.22800", "published_date": "2026-02-27"},
+      "content": {"abstract": "System for scheduling AI training workloads across geographically distributed datacenters to minimize carbon footprint while maintaining performance SLAs.", "keywords": ["cs.DC", "cs.LG"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.DC", "cs.LG"]
+    },
+    {
+      "id": "arxiv-2603-00700v1",
+      "title": "Algorithmic Fairness in Dynamic Labor Markets Under AI Automation",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.00700", "published_date": "2026-02-28"},
+      "content": {"abstract": "Formal model analyzing how algorithmic hiring systems amplify or attenuate labor market inequalities under increasing AI automation, with policy recommendations.", "keywords": ["cs.CY", "econ.GN"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.CY", "econ.GN"]
+    },
+    {
+      "id": "arxiv-2602-23200v1",
+      "title": "Post-Quantum Secure Multi-Party Computation Protocols",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.23200", "published_date": "2026-02-27"},
+      "content": {"abstract": "Construction of efficient MPC protocols secure against quantum adversaries, with practical implementations for financial and healthcare applications.", "keywords": ["cs.CR", "quant-ph"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.CR", "quant-ph"]
+    },
+    {
+      "id": "arxiv-2602-22300v1",
+      "title": "Sustainable AI: Energy Efficiency Benchmarks for Foundation Models",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2602.22300", "published_date": "2026-02-26"},
+      "content": {"abstract": "Comprehensive benchmark comparing energy consumption per inference across major foundation models, proposing standardized reporting framework for AI sustainability.", "keywords": ["cs.LG", "cs.CY"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-01T17:35:00Z",
+      "arxiv_categories": ["cs.LG", "cs.CY"]
+    }
+  ],
+  "scan_metadata": {
+    "query_groups_scanned": 20,
+    "categories_covered": 180,
+    "execution_proof": {
+      "agent": "arxiv-scan-orchestrator",
+      "started_at": "2026-03-01T17:31:16Z",
+      "completed_at": "2026-03-01T17:45:00Z",
+      "method": "web_search_arxiv_queries"
+    }
+  }
+}

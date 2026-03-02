@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "scan_date": "2026-02-27",
+    "ranking_method": "pSST (Impact 40%, Probability 30%, Urgency 20%, Novelty 10%)",
+    "total_ranked": 35,
+    "top_15_selected_for_report": true
+  },
+  "priority_ranking": [
+    {
+      "rank": 1,
+      "id": "arxiv-20260227-003",
+      "title": "Training Agents to Self-Report Misbehavior",
+      "psst_score": 88,
+      "impact": 92,
+      "probability": 85,
+      "urgency": 90,
+      "novelty": 80,
+      "rationale": "Directly addresses the critical challenge of AI alignment in deployed agentic systems. Self-reporting mechanisms represent a paradigm shift in AI safety monitoring, moving from external oversight to internal transparency."
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-20260227-001",
+      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents",
+      "psst_score": 87,
+      "impact": 90,
+      "probability": 85,
+      "urgency": 88,
+      "novelty": 82,
+      "rationale": "Formal behavioral contracts are essential infrastructure for reliable autonomous AI. This addresses the most pressing gap in agentic AI deployment: runtime safety guarantees."
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-20260227-008",
+      "title": "Memory-Dominated Quantum Criticality as a Universal Route to High-Temperature Superconductivity",
+      "psst_score": 85,
+      "impact": 95,
+      "probability": 70,
+      "urgency": 80,
+      "novelty": 95,
+      "rationale": "A universal route to high-Tc superconductivity would be transformative for energy, computing, and transportation. Highest novelty score in this scan."
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-20260227-033",
+      "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+      "psst_score": 84,
+      "impact": 88,
+      "probability": 90,
+      "urgency": 85,
+      "novelty": 65,
+      "rationale": "Exposes fundamental flaws in AI safety evaluation infrastructure. High probability and urgency because affected datasets are already in wide use."
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260227-007",
+      "title": "The Road to Useful Quantum Computers",
+      "psst_score": 83,
+      "impact": 90,
+      "probability": 80,
+      "urgency": 75,
+      "novelty": 78,
+      "rationale": "Comprehensive roadmap from leading researchers. Defines milestones toward practical quantum computing with economic and security implications."
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-20260227-014",
+      "title": "Global River Forecasting with a Topology-Informed AI Foundation Model",
+      "psst_score": 82,
+      "impact": 88,
+      "probability": 82,
+      "urgency": 82,
+      "novelty": 70,
+      "rationale": "Climate adaptation through AI. Global-scale river forecasting addresses immediate threats from flooding and water scarcity affecting billions."
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-20260227-032",
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "psst_score": 81,
+      "impact": 85,
+      "probability": 88,
+      "urgency": 80,
+      "novelty": 60,
+      "rationale": "First systematic inventory of deployed agentic AI systems. High probability as it documents existing reality rather than proposing new technology."
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260227-006",
+      "title": "Sustainable LLM Inference using Context-Aware Model Switching",
+      "psst_score": 80,
+      "impact": 82,
+      "probability": 85,
+      "urgency": 80,
+      "novelty": 68,
+      "rationale": "Addresses the growing energy crisis of AI inference. Practical solution with immediate deployment potential for reducing AI's environmental footprint."
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-20260227-021",
+      "title": "CourtGuard: A Model-Agnostic Framework for Zero-Shot Policy Adaptation in LLM Safety",
+      "psst_score": 79,
+      "impact": 83,
+      "probability": 80,
+      "urgency": 82,
+      "novelty": 65,
+      "rationale": "Addresses the critical gap between evolving AI regulations and deployed models. Zero-shot adaptation enables real-time compliance without retraining."
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-20260227-022",
+      "title": "Orthogonal Weight Modification Enhances Learning Scalability without Gradient Backpropagation",
+      "psst_score": 78,
+      "impact": 82,
+      "probability": 70,
+      "urgency": 65,
+      "novelty": 95,
+      "rationale": "Fundamentally challenges the backpropagation paradigm that has dominated deep learning for decades. Very high novelty but uncertain path to practical impact."
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-20260227-026",
+      "title": "HubScan: Detecting Hubness Poisoning in RAG Systems",
+      "psst_score": 77,
+      "impact": 80,
+      "probability": 82,
+      "urgency": 78,
+      "novelty": 62,
+      "rationale": "RAG systems are becoming the default architecture for enterprise AI. Hubness poisoning is a newly identified attack vector requiring immediate attention."
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-20260227-018",
+      "title": "Mirroring the Mind: Distilling Human-Like Metacognitive Strategies into LLMs",
+      "psst_score": 76,
+      "impact": 78,
+      "probability": 75,
+      "urgency": 70,
+      "novelty": 82,
+      "rationale": "Metacognition is a key missing capability in current LLMs. Bridging this gap could unlock more reliable and self-aware AI reasoning."
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-20260227-010",
+      "title": "Epistemic Filtering and Collective Hallucination: A Jury Theorem for Confidence-Calibrated Agents",
+      "psst_score": 75,
+      "impact": 78,
+      "probability": 75,
+      "urgency": 72,
+      "novelty": 75,
+      "rationale": "Multi-agent hallucination is an emerging risk as agentic AI systems proliferate. Jury theorem framework provides theoretical tools to understand and mitigate it."
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-20260227-005",
+      "title": "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials",
+      "psst_score": 74,
+      "impact": 80,
+      "probability": 72,
+      "urgency": 65,
+      "novelty": 78,
+      "rationale": "Foundation models for materials science could accelerate drug discovery and sustainable materials development, with broad long-term impact."
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-20260227-015",
+      "title": "Patient-Centered, Graph-Augmented AI for Early Stroke Risk Detection",
+      "psst_score": 73,
+      "impact": 80,
+      "probability": 75,
+      "urgency": 72,
+      "novelty": 58,
+      "rationale": "Stroke is a leading cause of death and disability. Early passive detection in high-risk populations could save lives at scale."
+    },
+    {
+      "rank": 16,
+      "id": "arxiv-20260227-035",
+      "title": "Manifold of Failure: Behavioral Attraction Basins in Language Models",
+      "psst_score": 72,
+      "impact": 75,
+      "probability": 72,
+      "urgency": 68,
+      "novelty": 75
+    },
+    {
+      "rank": 17,
+      "id": "arxiv-20260227-013",
+      "title": "CQSA: Byzantine-robust Quantum Secure Aggregation in Federated Learning",
+      "psst_score": 71,
+      "impact": 75,
+      "probability": 70,
+      "urgency": 65,
+      "novelty": 75
+    },
+    {
+      "rank": 18,
+      "id": "arxiv-20260227-030",
+      "title": "Support Tokens, Stability Margins, and a New Foundation for Robust LLMs",
+      "psst_score": 71,
+      "impact": 74,
+      "probability": 72,
+      "urgency": 68,
+      "novelty": 68
+    },
+    {
+      "rank": 19,
+      "id": "arxiv-20260227-004",
+      "title": "Deep Sequence Modeling with Quantum Dynamics: Language as a Wave Function",
+      "psst_score": 70,
+      "impact": 72,
+      "probability": 60,
+      "urgency": 60,
+      "novelty": 92
+    },
+    {
+      "rank": 20,
+      "id": "arxiv-20260227-025",
+      "title": "Self-Purification Mitigates Backdoors in Multimodal Diffusion Language Models",
+      "psst_score": 70,
+      "impact": 74,
+      "probability": 72,
+      "urgency": 70,
+      "novelty": 55
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-20260227-016",
+      "title": "Improving Spatial Allocation for Energy System Coupling with Graph Neural Networks",
+      "psst_score": 69,
+      "impact": 72,
+      "probability": 70,
+      "urgency": 68,
+      "novelty": 60
+    },
+    {
+      "rank": 22,
+      "id": "arxiv-20260227-009",
+      "title": "FIRE: Financial Intelligence and Reasoning Evaluation",
+      "psst_score": 68,
+      "impact": 70,
+      "probability": 75,
+      "urgency": 62,
+      "novelty": 58
+    },
+    {
+      "rank": 23,
+      "id": "arxiv-20260227-011",
+      "title": "Towards Autonomous Memory Agents",
+      "psst_score": 68,
+      "impact": 72,
+      "probability": 68,
+      "urgency": 65,
+      "novelty": 65
+    },
+    {
+      "rank": 24,
+      "id": "arxiv-20260227-012",
+      "title": "Analysis of LLMs Against Prompt Injection and Jailbreak Attacks",
+      "psst_score": 67,
+      "impact": 70,
+      "probability": 72,
+      "urgency": 68,
+      "novelty": 50
+    },
+    {
+      "rank": 25,
+      "id": "arxiv-20260227-034",
+      "title": "AutoQRA: Joint Optimization of Mixed-Precision Quantization and Low-rank Adapters",
+      "psst_score": 67,
+      "impact": 68,
+      "probability": 72,
+      "urgency": 65,
+      "novelty": 58
+    },
+    {
+      "rank": 26,
+      "id": "arxiv-20260227-020",
+      "title": "Fundamental Limits on QBER and Distance in QKD",
+      "psst_score": 66,
+      "impact": 72,
+      "probability": 68,
+      "urgency": 55,
+      "novelty": 70
+    },
+    {
+      "rank": 27,
+      "id": "arxiv-20260227-017",
+      "title": "AviaSafe: Physics-Informed Model for Aviation Safety-Critical Cloud Forecasts",
+      "psst_score": 65,
+      "impact": 68,
+      "probability": 70,
+      "urgency": 62,
+      "novelty": 55
+    },
+    {
+      "rank": 28,
+      "id": "arxiv-20260227-019",
+      "title": "ArchAgent: Agentic AI-driven Computer Architecture Discovery",
+      "psst_score": 65,
+      "impact": 68,
+      "probability": 65,
+      "urgency": 58,
+      "novelty": 72
+    },
+    {
+      "rank": 29,
+      "id": "arxiv-20260227-002",
+      "title": "A Mathematical Theory of Agency and Intelligence",
+      "psst_score": 64,
+      "impact": 70,
+      "probability": 55,
+      "urgency": 55,
+      "novelty": 82
+    },
+    {
+      "rank": 30,
+      "id": "arxiv-20260227-024",
+      "title": "Cybersecurity Data Extraction from Common Crawl",
+      "psst_score": 63,
+      "impact": 65,
+      "probability": 68,
+      "urgency": 62,
+      "novelty": 52
+    },
+    {
+      "rank": 31,
+      "id": "arxiv-20260227-027",
+      "title": "CWM: Contrastive World Models for Action Feasibility",
+      "psst_score": 62,
+      "impact": 65,
+      "probability": 65,
+      "urgency": 55,
+      "novelty": 62
+    },
+    {
+      "rank": 32,
+      "id": "arxiv-20260227-023",
+      "title": "To Deceive is to Teach? Adversarial Reinforcement Learning",
+      "psst_score": 61,
+      "impact": 62,
+      "probability": 65,
+      "urgency": 55,
+      "novelty": 60
+    },
+    {
+      "rank": 33,
+      "id": "arxiv-20260227-031",
+      "title": "Stochastic Neural Networks for Quantum Devices",
+      "psst_score": 60,
+      "impact": 62,
+      "probability": 58,
+      "urgency": 52,
+      "novelty": 72
+    },
+    {
+      "rank": 34,
+      "id": "arxiv-20260227-028",
+      "title": "MobilityBench: Evaluating Route-Planning Agents",
+      "psst_score": 58,
+      "impact": 60,
+      "probability": 62,
+      "urgency": 55,
+      "novelty": 50
+    },
+    {
+      "rank": 35,
+      "id": "arxiv-20260227-029",
+      "title": "Entropy-Controlled Flow Matching",
+      "psst_score": 57,
+      "impact": 58,
+      "probability": 62,
+      "urgency": 48,
+      "novelty": 60
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf1-general",
+  "total_signals_analyzed": 25,
+  "critical_signals": 4,
+  "high_signals": 5,
+  "medium_signals": 11,
+  "low_signals": 5,
+  "cross_impact_highlights": [
+    {
+      "cluster": "AI_Industry_Paradigm_Shift",
+      "signals": ["techcrunch-20260228-001", "techcrunch-20260228-002", "techcrunch-20260228-003", "techcrunch-20260228-007"],
+      "description": "OpenAI $110B funding + 900M users + Pentagon deal + $3T data center buildout form a reinforcing cluster: AI is transitioning from experimental to critical infrastructure status, while simultaneously splitting along ethical fault lines (Anthropic blacklisted for safety stance).",
+      "combined_impact": "CRITICAL"
+    },
+    {
+      "cluster": "Middle_East_Geopolitical_Crisis",
+      "signals": ["unnews-20260228-001", "websearch-20260228-001"],
+      "description": "US-Israel attack on Iran with reported killing of Supreme Leader Khamenei represents the most significant military escalation in decades. Expected oil price spike (5-10%), global equity decline, and potential regional war involving Gulf states. Iranian retaliation already targeting US military bases.",
+      "combined_impact": "CRITICAL"
+    },
+    {
+      "cluster": "AI_Safety_Governance_Split",
+      "signals": ["techcrunch-20260228-003", "hn-20260228-001", "science-20260228-001"],
+      "description": "Pentagon designating Anthropic as supply-chain risk for refusing to remove safety guardrails creates unprecedented precedent: government coercing AI companies on safety policy. Combined with critiques of AI hype cycle and questions about AI scientific capability.",
+      "combined_impact": "HIGH"
+    },
+    {
+      "cluster": "China_Tech_Competition",
+      "signals": ["techcrunch-20260228-005", "carbonbrief-20260228-001"],
+      "description": "China's 87-90% domination of humanoid robot market + India-Brazil rare earth pact signals intensifying technology competition and resource diplomacy reshaping supply chains.",
+      "combined_impact": "HIGH"
+    }
+  ]
+}

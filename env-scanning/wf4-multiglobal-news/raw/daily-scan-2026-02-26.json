@@ -1,0 +1,4339 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf4-multiglobal-news",
+  "scan_window": {
+    "start": "2026-02-25T21:36:37+00:00",
+    "end": "2026-02-26T21:36:37+00:00",
+    "lookback_hours": 24,
+    "T0": "2026-02-26T21:36:37+00:00"
+  },
+  "total_raw_articles": 162,
+  "total_after_dedup": 161,
+  "sources_attempted": 29,
+  "sources_succeeded": 23,
+  "region_distribution": {
+    "UK": 14,
+    "US": 46,
+    "QA": 8,
+    "KR": 49,
+    "FR": 8,
+    "JP": 6,
+    "HK": 6,
+    "RU": 6,
+    "IL": 6,
+    "SA": 6,
+    "CA": 6
+  },
+  "language_distribution": {
+    "en": 104,
+    "ko": 43,
+    "fr": 8,
+    "ru": 6
+  },
+  "feed_results": {
+    "bbc": {
+      "status": "success",
+      "articles": 8
+    },
+    "reuters": {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "nytimes": {
+      "status": "success",
+      "articles": 8
+    },
+    "aljazeera": {
+      "status": "success",
+      "articles": 8
+    },
+    "techcrunch": {
+      "status": "success",
+      "articles": 8
+    },
+    "arstechnica": {
+      "status": "success",
+      "articles": 8
+    },
+    "politico": {
+      "status": "success",
+      "articles": 8
+    },
+    "washingtonpost": {
+      "status": "success",
+      "articles": 8
+    },
+    "chosun": {
+      "status": "success",
+      "articles": 8
+    },
+    "hani": {
+      "status": "success",
+      "articles": 8
+    },
+    "donga": {
+      "status": "success",
+      "articles": 8
+    },
+    "mk": {
+      "status": "success",
+      "articles": 8
+    },
+    "nikkei": {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "lemonde": {
+      "status": "success",
+      "articles": 8
+    },
+    "koreaherald": {
+      "status": "failed",
+      "error": "mismatched tag: line 51, column 2"
+    },
+    "japantimes": {
+      "status": "success",
+      "articles": 6
+    },
+    "scmp": {
+      "status": "success",
+      "articles": 6
+    },
+    "ft": {
+      "status": "success",
+      "articles": 6
+    },
+    "khan": {
+      "status": "success",
+      "articles": 6
+    },
+    "zdnet_kr": {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "etnews": {
+      "status": "success",
+      "articles": 6
+    },
+    "bloter": {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sedaily": {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "rt": {
+      "status": "success",
+      "articles": 6
+    },
+    "timesofisrael": {
+      "status": "success",
+      "articles": 6
+    },
+    "arabnews": {
+      "status": "success",
+      "articles": 6
+    },
+    "globeandmail": {
+      "status": "success",
+      "articles": 6
+    },
+    "hankyung": {
+      "status": "success",
+      "articles": 6
+    },
+    "wsj": {
+      "status": "success",
+      "articles": 6
+    }
+  },
+  "items": [
+    {
+      "id": "news-20260226-bbc-001",
+      "title": "How Ghislaine Maxwell brought Bill Clinton into Epstein's orbit",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/cp85jdqdyq7o?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 22:14:56 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Documents in the Epstein files reveal how Maxwell nurtured the connection between the two men after Clinton left the White House.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992081",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992086"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-002",
+      "title": "Chris Mason: Gorton and Denton by-election could be a three-way tussle",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/cvg3qg20544o?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 22:01:46 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Plenty think it could be a three-way tussle between Labour, Reform and the Greens, the BBC's political editor writes.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992097",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992098"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-003",
+      "title": "Spain to check Gibraltar arrivals under post-Brexit deal",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/cgjz1x5e1xyo?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 17:45:33 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Arrivals at the Rock's airport would have to show their passport twice under a new UK-EU treaty.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992103",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992104"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-004",
+      "title": "MoD launches review into whether Epstein used RAF bases",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 20:52:51 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Records and emails will be reviewed to determine whether the convicted sex offender used military bases when visiting the UK.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992108",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992109"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-005",
+      "title": "Soham murderer Ian Huntley treated for serious head injuries after prison workshop attack",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/c1mjx1grj3yo?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 17:15:14 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "The 52-year-old is serving a life sentence after being convicted of murdering schoolgirls Holly Wells and Jessica Chapman.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992120",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992120"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-006",
+      "title": "Tracey Emin says her artwork My Bed would be 'tidy, clean and boring' if she made it today",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/c8jxm2n9lm1o?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 15:07:39 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Her Turner Prize-nominated messy bed caused a stir in the late 1990s and is now going back on display.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992130",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992130"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-007",
+      "title": "American citizen among those killed in Cuba boat shooting, US official says",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/c80j3rlp904o?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 22:50:24 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Cuba has accused those on board of planning \"an infiltration with terrorist aims” and firing first.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992138",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992139"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-bbc-008",
+      "title": "Woman angry at lack of prosecution after she fell from window fleeing triple killer",
+      "source": {
+        "name": "BBC News",
+        "type": "news_direct",
+        "url": "https://www.bbc.com/news/articles/clyg1rx15qqo?at_medium=RSS&at_campaign=rss",
+        "published_date": "Thu, 26 Feb 2026 19:42:53 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "A former neighbour of Valdo Calocane was told he could have killed her, years before the attacks.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992148",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "bbc",
+          "timestamp": "2026-02-26T14:52:55.992149"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-009",
+      "title": "Justice Department Exposed Cooperating Witnesses in Epstein Files",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/nyregion/epstein-cooperating-witnesses-redaction-error.html",
+        "published_date": "Thu, 26 Feb 2026 21:03:13 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The disclosure is the latest example of how the urgent push to release the files led to the government publicizing information it would normally keep under wraps.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992158",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992159"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-010",
+      "title": "How a Close Associate of Epstein’s Found Career Redemption in Japan",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/business/jeffrey-epstein-joichi-ito-japan.html",
+        "published_date": "Thu, 26 Feb 2026 19:46:34 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Top Japanese officials are backing a tech and entrepreneurship initiative led by Joichi Ito, whose involvement with Jeffrey Epstein may endanger efforts to get the project off the ground.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992164",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992165"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-011",
+      "title": "World Economic Forum Chief Resigns Over Epstein Ties",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/business/world-economic-forum-davos-epstein-brende.html",
+        "published_date": "Thu, 26 Feb 2026 19:07:41 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Borge Brende, a former foreign minister of Norway, had maintained contact with the convicted sex offender.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992169",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992170"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-012",
+      "title": "Trump Declared Victory in Minneapolis. But What Did He Accomplish?",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/us/politics/trump-minneapolis-ice-immigration.html",
+        "published_date": "Thu, 26 Feb 2026 21:39:29 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The Trump administration came under fire for an operation that turned lethal and politically toxic. But the show of force may also have had a bigger purpose: to serve as a warning.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992177",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992178"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-013",
+      "title": "Columbia Student Arrested by ICE in a University Building Is Released",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/nyregion/columbia-university-ice-student.html",
+        "published_date": "Thu, 26 Feb 2026 21:29:13 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Federal officials had misrepresented themselves to gain access, according to the university. Mayor Zohran Mamdani said President Trump had told him the student would be let go.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992183",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992183"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-014",
+      "title": "Denver Mayor Bars ICE From City Property and Orders Protection for Protesters",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/us/denver-mayor-ice-defiance.html",
+        "published_date": "Thu, 26 Feb 2026 20:24:00 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Mayor Mike Johnston’s order is a defiant shift from his measured stance and risks drawing attention to Greater Denver after President Trump during the campaign promised a “bloody story” there.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992189",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992189"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-015",
+      "title": "ICE Car Chase Leads to Crash Involving Children, Newark Mayor Says",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/nyregion/ice-car-crash-newark-baraka.html",
+        "published_date": "Thu, 26 Feb 2026 22:06:56 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The crash happened on Wednesday morning, Mayor Ras Baraka said, as federal immigration agents were pursuing a man who had been issued a final order of removal by a judge in 2017.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992194",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992194"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-nytimes-016",
+      "title": "Mamdani and Trump Discuss Housing at ‘Productive’ Meeting in Washington",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/2026/02/26/nyregion/mamdani-trump-meeting.html",
+        "published_date": "Thu, 26 Feb 2026 22:29:25 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Mayor Zohran Mamdani also brought President Trump a list of people who had been detained by ICE, including a Columbia student detained on Thursday who was released after the meeting.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992200",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "nytimes",
+          "timestamp": "2026-02-26T14:52:55.992200"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-017",
+      "title": "Israeli attacks on Lebanon’s Bekaa Valley kill Syrian teenager",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/2/26/israeli-attacks-on-lebanons-bekaa-valley-kill-syrian-teenager?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 21:44:04 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "One killed and 29 others wounded in latest Israeli attack in violation of ceasefire.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992213",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992213"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-018",
+      "title": "Family of UN rapporteur Albanese sues Trump administration over sanctions",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/2/26/family-of-un-rapporteur-albanese-sues-trump-administration-over-sanctions?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 21:25:46 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Albanese, a supporter of Palestinian rights, has faced US sanctions since July over her criticism of Israel.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992219",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992220"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-019",
+      "title": "Columbia University says US immigration agents lied to detain student",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/2/26/columbia-university-says-us-immigration-agents-lied-to-detain-student?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 21:02:06 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Administrators say agents &#039;made misrepresentations&#039;, claimed missing person search to detain woman at school building.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992224",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992225"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-020",
+      "title": "Iranian foreign minister says US, Iran moving closer to deal",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/2/26/iranian-foreign-minister-says-us-iran-moving-closer-to-deal?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 20:57:13 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Iranian Foreign Minister Abbas Araghchi says the US and Iran have moved closer to reaching an agreement.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992233",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992234"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-021",
+      "title": "Columbia University students protest ICE arrest at university housing",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/2/26/columbia-university-students-protest-ice-arrest-at-university?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 20:54:03 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Protesters gathered at Columbia University after Department of Homeland Security agents detained a student on campus.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992238",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992238"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-022",
+      "title": "US-Iran talks conclude with claims of progress but few details",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/2/26/us-iran-talks-conclude-claims-progress-few-details?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 20:22:55 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Technical discussions to continue in Vienna, but unclear whether differences can be resolved to avoid war.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992242",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992243"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-023",
+      "title": "US government asks Supreme Court to allow deportation of Syrian migrants",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/2/26/us-government-asks-supreme-court-to-allow-deportation-of-syrian-migrants?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 20:22:04 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Trump has pushed to strip migrants of Temporary Protected Status, arguing that their countries are no longer unsafe.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992248",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992249"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-aljazeera-024",
+      "title": "Kenyan man charged with duping people to fight for Russia in Ukraine war",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_direct",
+        "url": "https://www.aljazeera.com/news/2026/2/26/kenyan-man-charged-with-duping-people-to-fight-for-russia-in-ukraine-war?traffic_source=rss",
+        "published_date": "Thu, 26 Feb 2026 20:14:52 +0000",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Kenya&#039;s director of public prosecutions office says Festus Omwamba is accused of human trafficking.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992253",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "aljazeera",
+          "timestamp": "2026-02-26T14:52:55.992253"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-025",
+      "title": "PayPal might not be looking to sell itself, report",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/paypal-might-not-be-looking-to-sell-itself-report/",
+        "published_date": "Thu, 26 Feb 2026 22:23:42 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "PayPal may not be in talks to be acquired, sources have told Semafor, after a previous news report that Stripe was sniffing around.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992262",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992263"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-026",
+      "title": "Google paid startup Form Energy $1B for its massive 100-hour battery",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
+        "published_date": "Thu, 26 Feb 2026 21:04:23 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The deal paves the way for Form Energy to raise a new funding round before potentially going public next year.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992266",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992267"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-027",
+      "title": "So, we’re getting Prada Meta AI glasses, right?",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/so-were-getting-prada-meta-ai-glasses-right/",
+        "published_date": "Thu, 26 Feb 2026 20:11:55 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Mark Zuckerberg was at Prada's fashion week event in Milan, leaving everyone to wonder if we're getting Meta AI glasses under the Prada brand.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992270",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992271"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-028",
+      "title": "Sophia Space raises $10M seed to demo novel space computers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/sophia-space-raises-10m-seed-to-demo-novel-space-computers/",
+        "published_date": "Thu, 26 Feb 2026 19:55:20 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The company's modular computer tiles offer a new vision for space data centers.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992274",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992275"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-029",
+      "title": "Memory shortage could cause the biggest dip in smartphone shipments in over a decade",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/memory-shortage-could-cause-the-biggest-smartphone-shipments-dip-in-over-a-decade/",
+        "published_date": "Thu, 26 Feb 2026 19:43:51 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "IDC says phone makers will ship only 1.12 billion smartphones as compared to 1.26 billion last year.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992283",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992284"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-030",
+      "title": "Mistral AI inks a deal with global consulting giant Accenture",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
+        "published_date": "Thu, 26 Feb 2026 19:17:27 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Mistral AI lands a partnership with Accenture, the consultant that has also recently announced partnerships with rivals OpenAI and Anthropic.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992286",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992287"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-031",
+      "title": "Threads is testing a shortcut to quickly start DM conversations",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/threads-is-testing-a-shortcut-to-quickly-start-dm-conversations/",
+        "published_date": "Thu, 26 Feb 2026 17:58:53 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Users who are part of the test can type \"DM me\" or \"Message me\" in a post or reply to automatically generate a hyperlink that invites others to start a private conversation with them.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992297",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992298"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-techcrunch-032",
+      "title": "Read AI launches an email-based ‘digital twin’ to help you with schedules and answers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
+        "published_date": "Thu, 26 Feb 2026 17:00:00 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Read AI is launching Ada, which can reply with your availability and extract answers from the company knowledge base and the web.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992301",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "techcrunch",
+          "timestamp": "2026-02-26T14:52:55.992301"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-033",
+      "title": "xAI spent $7M building wall that barely muffles annoying power plant noise",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/tech-policy/2026/02/pops-whines-and-roars-xai-accused-of-torturing-neighbors-of-noisy-power-plant/",
+        "published_date": "Thu, 26 Feb 2026 22:19:39 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "“Temu sound wall” not enough to quell fury over xAI’s power plant.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992304",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992305"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-034",
+      "title": "The physics of squeaking sneakers",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/science/2026/02/the-physics-of-squeaking-sneakers/",
+        "published_date": "Thu, 26 Feb 2026 21:48:37 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Geometry of tread patterns determines frequency, so blocks were designed to play Star Wars music.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992314",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992315"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-035",
+      "title": "Google reveals Nano Banana 2 AI image model, coming to Gemini today",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/ai/2026/02/google-releases-nano-banana-2-ai-image-generator-promises-pro-results-with-flash-speed/",
+        "published_date": "Thu, 26 Feb 2026 17:12:10 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Google's new image model replaces the previous versions immediately.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992318",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992318"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-036",
+      "title": "Ford is recalling 4.3 million trucks and SUVs to fix a towing software bug",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/cars/2026/02/ford-is-recalling-4-3-million-trucks-and-suvs-to-fix-a-towing-software-bug/",
+        "published_date": "Thu, 26 Feb 2026 16:53:50 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "An OTA update will be pushed out in a few weeks; owners can also go to a dealership.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992322",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992322"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-037",
+      "title": "New AirSnitch attack breaks Wi-Fi encryption in homes, offices, and enterprises",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/",
+        "published_date": "Thu, 26 Feb 2026 15:45:18 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "That guest network you set up for your neighbors may not be as secure as you think.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992326",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992327"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-038",
+      "title": "New York sues Valve for enabling \"illegal gambling\" with loot boxes",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/gaming/2026/02/new-york-sues-valve-for-enabling-illegal-gambling-with-loot-boxes/",
+        "published_date": "Thu, 26 Feb 2026 14:57:36 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The ability to resell Steam items for real value is key to the state's case.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992334",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992335"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-039",
+      "title": "A non-public document reveals that science may not be prioritized on next Mars mission",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/space/2026/02/a-non-public-document-reveals-that-science-may-not-be-prioritized-on-next-mars-mission/",
+        "published_date": "Thu, 26 Feb 2026 14:44:25 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "For some reason, NASA chose not to publicly release its Mars orbiter objectives.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992343",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992344"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arstechnica-040",
+      "title": "15 state attorneys general sue RFK Jr. over \"anti-science\" vaccine policy",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_direct",
+        "url": "https://arstechnica.com/health/2026/02/15-state-attorneys-general-sue-rfk-jr-over-anti-science-vaccine-policy/",
+        "published_date": "Thu, 26 Feb 2026 14:14:55 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Trump administration’s reduced vaccine schedule “throws science out the window.”",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992351",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arstechnica",
+          "timestamp": "2026-02-26T14:52:55.992499"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-041",
+      "title": "Mike Johnson to attend Turning Point event with far-right global leaders",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/26/mike-johnson-turning-point-event-00801762",
+        "published_date": "Thu, 26 Feb 2026 15:15:45 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Alternative für Deutschland politician Markus Frohnmaier is among the announced guests at the Alliance of Sovereign Nations conference next week in Washington.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992505",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992506"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-042",
+      "title": "Trump is surprisingly aligned with Democrats on this issue",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/26/data-centers-trump-democrats-midterms-00800687",
+        "published_date": "Thu, 26 Feb 2026 12:00:00 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The president and Democratic governors are racing to regulate an industry they’ve long championed as voter backlash to the rising energy costs associated with powering the server hubs grows.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992516",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992517"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-043",
+      "title": "Many younger Black men are apathetic about Trump’s policies, survey finds",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/live-updates/2026/02/26/congress/trump-black-men-voters-midterms-survey-00800622",
+        "published_date": "Thu, 26 Feb 2026 10:59:02 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992523",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992524"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-044",
+      "title": "Republicans are freaking out over Texas Senate race",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/26/republicans-alarm-grows-about-holding-texas-senate-seat-00799856",
+        "published_date": "Thu, 26 Feb 2026 04:45:00 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Texas Attorney General Ken Paxton is the man to beat ahead of Tuesday’s primary — and could put Senate Republicans’ majority at risk",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992539",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992540"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-045",
+      "title": "The SOTU moment that Republicans hope saves the midterms",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/26/trump-sotu-republicans-immigration-campaigns-00799449",
+        "published_date": "Thu, 26 Feb 2026 04:45:00 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Americans have soured on the White House’s immigration enforcement tactics, but the president’s speech has the GOP strategizing on how to regain momentum on a favorite issue.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992545",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992545"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-046",
+      "title": "DHS official promises election officials that ICE will not be at polling places",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/25/dhs-ice-polling-places-00799613",
+        "published_date": "Wed, 25 Feb 2026 19:06:33 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "“Any suggestion that ICE is going to be present at polling places is simply disinformation,” said Heather Honey, a DHS official focused on elections.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992551",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992551"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-047",
+      "title": "Abigail Spanberger gave Democrats’ response to Trump. But she didn’t have the stage to herself.",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/25/state-of-the-union-democrats-response-split-00797336",
+        "published_date": "Wed, 25 Feb 2026 00:02:49 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Democratic groups staging counterprogramming events offered a snapshot of a party divided over how best to approach the midterms.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992556",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992557"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-politico-048",
+      "title": "‘A really really big decision’: The court cases looming over the midterms",
+      "source": {
+        "name": "Politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/24/2026-midterms-redistricting-legal-battle-house-majority-00793515",
+        "published_date": "Tue, 24 Feb 2026 05:45:00 EST",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "High-stakes legal cases that could determine the majority loom in nearly a dozen states, with just months to go until the November election.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992566",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "politico",
+          "timestamp": "2026-02-26T14:52:55.992567"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-049",
+      "title": "U.S., Iran wrap round of talks as Trump weighs diplomacy against strikes",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/world/2026/02/26/iran-nuclear-talks-trump-strikes-geneva-oman/",
+        "published_date": "Thu, 26 Feb 2026 22:21:29 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The latest round of talks unfolded against the backdrop of the largest U.S. military buildup in the Middle East since the 2003 Iraq invasion.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992571",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992572"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-050",
+      "title": "Journalists slain at record level in 2025, majority by Israel, watchdog says",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/world/2026/02/26/journalists-killed-2025-cpj-israel-gaza-drones/",
+        "published_date": "Thu, 26 Feb 2026 21:50:32 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "An increasing number of journalists were killed by drones, the Committee to Protect Journalists said. The IDF said it “strongly rejects” the group’s findings.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992576",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992577"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-051",
+      "title": "The Epstein files have brought a wave of resignations and investigations",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/politics/2026/02/17/epstein-files-resignations-investigations/",
+        "published_date": "Thu, 26 Feb 2026 19:48:03 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "A number of prominent figures have stepped down or are facing investigations after their communications with Jeffrey Epstein and his former longtime companion, Ghislaine Maxwell, were released last month.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992582",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992582"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-052",
+      "title": "Cubans attempted to infiltrate island on U.S. speedboat, Havana says",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/world/2026/02/25/cuba-us-boat-shooting/",
+        "published_date": "Thu, 26 Feb 2026 16:47:25 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The crew of the Florida-registered vessel opened fire on border agents, Cuba’s Interior Ministry said. Cuban forces returned fire, killing four.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992587",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992588"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-053",
+      "title": "Iran, U.S. resume nuclear negotiations as Trump’s war clock ticks down",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/national-security/2026/02/25/iran-us-nuclear-negotiations-geneva/",
+        "published_date": "Thu, 26 Feb 2026 13:12:24 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Tehran is expected to deliver a new proposal on nuclear enrichment in Geneva as the United States continues to amass military forces in the Middle East.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992597",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992598"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-054",
+      "title": "An emboldened Kim flaunts nuclear ambitions while leaving room for U.S. talks",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/world/2026/02/26/north-korea-kim-nuclear-weapons-trump/",
+        "published_date": "Thu, 26 Feb 2026 11:27:01 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Offering “peaceful coexistence or eternal confrontation,” North Korea’s leader said he would only restart talks if the U.S. ends “hostile” policies and accepts Pyongyang’s nuclear status.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992603",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992604"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-055",
+      "title": "Rubio visits the Caribbean as Trump’s Iran gambit nears tipping point",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/national-security/2026/02/25/rubio-iran-caribbean/",
+        "published_date": "Thu, 26 Feb 2026 00:25:59 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Marco Rubio attended a regional summit to emphasize the Trump administration’s focus on the Western Hemisphere even as the prospect of conflict in the Middle East looms.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.992614",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992615"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-washingtonpost-056",
+      "title": "Antonio Tejero, leader of failed 1981 coup in Spain, dies at 93",
+      "source": {
+        "name": "Washington Post",
+        "type": "news_direct",
+        "url": "https://www.washingtonpost.com/obituaries/2026/02/25/antonio-tejero-dead-spain-coup/",
+        "published_date": "Wed, 25 Feb 2026 21:13:04 +0000",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The revolt inspired fear that Francoist fascism had returned. Mr. Tejero died the same day the Spanish government declassified documents related to the coup.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992618",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "washingtonpost",
+          "timestamp": "2026-02-26T14:52:55.992619"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-057",
+      "title": "“강남 집은 위험자산”이라던 이한주, 갭투자로 60억대 청담동 아파트 보유",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/politics/goverment/2026/02/27/STBQG2R47NFILGA5LAEG4TXXWY/",
+        "published_date": "Thu, 26 Feb 2026 15:48:00 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992627",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992627"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-058",
+      "title": "정지선, 장기 근속 직원에 차량·명품 선물 \"요즘 MZ는 숙취로 결근해\"('옥문아들')",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/02/27/ME4DGNRUMQ2DEODDGU3TINZTGI/",
+        "published_date": "Thu, 26 Feb 2026 22:20:00 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992636",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992636"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-059",
+      "title": "한가인, 욕조 열었더니 귀뚜라미 100마리가… 브라이언 경악한 '충격'의 반려동물 ('자유부인')",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/02/27/MQ4DQOJQGZSTGYTEMJSGKMJYGE/",
+        "published_date": "Thu, 26 Feb 2026 22:46:00 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "[OSEN=박근희 기자] 배우 한가인의 욕실에서 정체불명의 반려동물과 100여 마리의 귀뚜라미가 포착됐다.26일 오후 유튜브 채널 &lsquo;자유부인 한가인&rsquo;에는 &lsquo;여배우 집이라곤 믿을 수 없는 한가인 집 대청소하러 온 청소광 브라이언 (연정훈 방 최초공개)&rsquo;이라는 제목의 영상이 게재됐다.&nbsp;브라이언은 한가인의 욕실",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992652",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992653"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-060",
+      "title": "‘아메리칸 드림’ 일군 83세… 58년 만에 만학 꿈도 이뤘다",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/national/people/2026/02/27/OBBO7VG6EVGUVDRPQQB3GPRRXQ/",
+        "published_date": "Thu, 26 Feb 2026 15:41:00 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992659",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992660"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-061",
+      "title": "[속보] 김범석 쿠팡Inc 의장 “개인정보 유출 사태 다시 한번 사과”",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/economy/market_trend/2026/02/27/G44TOZRQMU2WIYRTGUYWEYJTGU/",
+        "published_date": "Thu, 26 Feb 2026 22:41:04 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "김범석 쿠팡Inc 의장은 27일 지난해 4분기 및 연간 실적 발표 컨퍼런스콜에서 “지난해 발생한 개인정보 유출 사태에 대해 다시 한번 사과한다”고 밝혔다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992670",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992671"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-062",
+      "title": "랄랄, 9일 금주해서 3kg 뺐는데…결국 야식 못 참고 술까지 마셨다",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/entertainments/broadcast/2026/02/27/GZSGKMRZMQ2DGZRSMI3TMZRWMY/",
+        "published_date": "Thu, 26 Feb 2026 22:41:00 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "[OSEN=강서정 기자] 크리에이터 랄랄이 9일 동안 금주를 해서 3kg를 뺐는데 도루묵이 됐다.&nbsp;랄랄은 지난 26일 &ldquo;곱창, 회에 소주가 너무 땡겨 생을 마감하기 직전&rdquo;이라고 힘든 다이어트 심경을 털어놓았다.&nbsp;하지만 곧 물회와 회, 고등어 구이 등을 배달시킨 걸 인증하더니 &ldquo;인생의 의미&rdquo;라며 맛",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992686",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992687"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-063",
+      "title": "\"반갑다, K리그\" 인천과 서울 '경인 더비' 포문→명예회복 울산, '빅2' 전북과 대전의 첫 무대…대장정 스타트, 개막 라운드 키포인트",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/sports/football/2026/02/27/MMZDMMBXMNRWKZBVGY4TIODGGE/",
+        "published_date": "Thu, 26 Feb 2026 22:40:48 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "[스포츠조선 김성원 기자]원점에서, 새 휘슬이 울린다. 승부의 세계는 냉정하다. 시계가 첫 걸음을 옮기는 순간 운명이 춤을 춘다. 우승, 아시아챔피언스리그(ACL) 티켓, 파이널A, 1부 잔류 등 각 팀의 눈높이는 다르다. 하지만 어느 팀이든 전장에 나서면 양보는 없다. 그래야 마지막에 웃을 수 있다. 2026년 K리그가 드디어 시작된다. '하나은행 K리그",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992703",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992704"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-chosun-064",
+      "title": "한화, NPB 다승왕→56승 베테랑→1라운더 신인 등판한 닛폰햄 잡았다…김경문 감독 \"까다로운 투수들 상대로 좋은 경기\" [오!쎈 오키나와]",
+      "source": {
+        "name": "조선일보",
+        "type": "news_direct",
+        "url": "https://www.chosun.com/sports/baseball/2026/02/27/GI2GMYRWGY2DGMZUG5QTKZJUMU/",
+        "published_date": "Thu, 26 Feb 2026 22:40:00 +0000",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "[OSEN=오키나와(일본), 조은혜 기자]&nbsp;한화 이글스가 NPB(일본프로야구) 닛폰햄 파이터스와의 맞대결에서 승리하며 연습경기 2연승을 달성했다. 김경문 감독도 경기 내용에 만족스러움을 표했다.김경문 감독이 이끄는 한화는 26일 일본 오키나와 나고시영구장에서 열린 닛폰햄과의 연습경기에서 3-1로 승리했다. WBC(월드베이스볼클래식) 국가대표팀, 지",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992720",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "chosun",
+          "timestamp": "2026-02-26T14:52:55.992720"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-065",
+      "title": "트럼프 행정부, 관세 환급 막기 ‘침대 축구’ 전략 쓰나",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/international/america/1246852.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-26T14:52:55.992725",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992726"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-066",
+      "title": "“M&A 제안 때 이사회가 무시 못 하게 공시 의무화”",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1246851.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992732",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992733"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-067",
+      "title": "백악관 “트럼프, 김정은과 전제조건 없이 대화 열려 있어”",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/international/america/1246850.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992739",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992739"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-068",
+      "title": "삶 너머, 할아버지의 찬란한 소풍길 [.txt]",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/culture/book/1246849.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992745",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992746"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-069",
+      "title": "왜 부자는 수돗물을 마시고 가난한 사람이 병생수 마실까 [.txt]",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/culture/book/1246848.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992752",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992753"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-070",
+      "title": "방탕-각성-회심까지 음양 조화 ‘태극’ 닮은 고백록 [.txt]",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/culture/book/1246847.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992759",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992760"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-071",
+      "title": "44년째 ‘화양연화’, 전설은 진행중 [.txt]",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/culture/book/1246846.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992766",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992767"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hani-072",
+      "title": "들숨과 날숨으로 이어진, 지구적 연대 [.txt]",
+      "source": {
+        "name": "한겨레",
+        "type": "news_direct",
+        "url": "https://www.hani.co.kr/arti/culture/book/1246845.html",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992772",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hani",
+          "timestamp": "2026-02-26T14:52:55.992773"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-073",
+      "title": "‘6평 사무실 논란’ 원지, 3개월만 복귀 “다시 여행길”",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Entertainment/article/all/20260227/133434134/1",
+        "published_date": "Fri, 27 Feb 2026 07:47:33 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "직원 처우 논란에 휩싸연던 여행 유튜버 원지가 약 3개월 만에 활동을 재개했다.원지는 26일 자신의 유튜브 채널 ‘원지의 하루’에 ‘네팔에 온 이유’라는 제목의 영상을 업로드했다. 그가 콘텐츠를 올린 건 약 3개월 만이다.원지는 앞선 논란을 고려한 듯 “안녕하세요 여러분. 잘 지내셨나요! 저는 그동안 스스로를 돌아보는 시간을 보내고 다시 여행길에 오르기 시작했다”고 설명했다.이어 “앞으로도 즐거운 여행 영상으로 찾아뵐게요! 늘 건강하시고 행복한 하루 되시고요”라고 본격적인 활동 재개를 예고했다.원지는 자신의 유튜브 채널 활동과 함께 ENA 여행 예능물 ‘지구마불 세계여행’ 등을 통해 인기를 누렸다.하지만 지난해 11월 유튜브 채널에 ‘6평 사무실 구함’이라는 제목의 영상을 업로드했다 논란에 휩싸였다. 지하 2층에 있는 창문 없는 규모의 사무실에서 3명의 직원이 근무하는 모습이 담겨 ‘직원 처우 논란’이 불거졌다.원지는 비판이 쏟아지자 “환기의 중요성을 누구보다 강조했었는",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992800",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992801"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-074",
+      "title": "[속보]김범석, 개인정보 유출에 “사과”…첫 육성 입장 발표",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Economy/article/all/20260227/133434123/1",
+        "published_date": "Fri, 27 Feb 2026 07:42:46 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "김범석, 개인정보 유출에 “사과”…첫 육성 입장 발표(동아일보)",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992810",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992811"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-075",
+      "title": "점심값 1만원 훌쩍…‘3000원 한 끼’ 편의점으로 몰린다 [요즘소비]",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Economy/article/all/20260226/133430865/2",
+        "published_date": "Fri, 27 Feb 2026 07:30:00 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "서울 외식비 상승으로 김밥·삼겹살 가격이 오르자 소비자들이 2000~5000원대 편의점 간편식으로 몰리고 있다. CU·GS25·세븐일레븐은 가성비 도시락과 한 끼 상품을 확대하며 수요 공략에 나섰다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992822",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992823"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-076",
+      "title": "스티븐 호킹, 엡스타인 파티서 양옆에 비키니女…유족 “간병인들”",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Inter/article/all/20260227/133434086/2",
+        "published_date": "Fri, 27 Feb 2026 07:13:00 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "미국 억만장자 성범죄자 제프리 엡스타인 사건과 관련한 수사 기록이 대거 공개되면서 각계 저명 인사들의 이름이 다시 거론되는 가운데, 영국의 세계적인 이론물리학자 스티븐 호킹이 엡스타인의 파티에서 비키니 차림의 여성들과 찍은 사진이 공개돼 논란이 되고 있다.24일(현지시간) ‘데일리메일’ 등에 따르면, 미 법무부가 최근 공개한 이른바 ‘엡스타인 파일’에는 호킹이 2006년 3월 미국령 버진아일랜드 세인트토머스에서 열린 과학 심포지엄에 참석했을 당시 촬영된 사진이 포함됐다. 행사는 세인트토머스의 5성급 호텔에서 열렸으며, 엡스타인이 후원·주최한 것으로 전해졌다. 이는 엡스타인이 성매매 알선 혐의로 처음 기소되기 약 5개월 전이다.공개된 사진에는 휠체어를 탄 호킹이 바비큐 행사에서 비키니 차림의 여성 두 명과 함께 있는 모습이 담겼다. 여성들은 과일 칵테일로 보이는 음료를 들고 있었으며, 미 법무부는 공개 여성들의 얼굴을 가렸다. 미 법무부는 “피해자와 그 가족 보호를 위해 필요한",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992848",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992849"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-077",
+      "title": "“5시간 마셨다” 양동이 커피 열풍?…대용량 공식 흔들리는 美",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Inter/article/all/20260226/133429313/3",
+        "published_date": "Fri, 27 Feb 2026 07:00:00 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "던킨이 48온스짜리 ‘양동이 커피’를 선보이자 SNS가 들썩였다. 대용량을 상징하는 제품에 소비자들이 열광하며 일부 매장에서는 조기 품절이 이어졌다. 그러나 이런 화제와 달리, 미국 외식업계 전반의 흐름은 ‘무조건 크게’에서 벗어나고 있다는 분석이 나온다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992865",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992865"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-078",
+      "title": "60대 정신질환자 흉기 들고 태백 시내 배회…경찰이 덮쳐 잡았다",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Society/article/all/20260227/133434019/2",
+        "published_date": "Fri, 27 Feb 2026 06:15:00 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "강원 태백 시내에서 흉기를 들고 거리를 돌아다니며 소란을 피운 남성이 경찰에 붙잡혔다.강원 태백경찰서는 공공장소 흉기 소지 혐의로 60대 남성 A 씨를 검거했다고 26일 밝혔다.A 씨는 지난 달 8일 태백시 황지동 시내 일대에서 흉기를 들고 소란을 피우며 불안감을 조성한 혐의를 받는다.당시 A 씨는 흉기를 든 채로 시내를 배회하던 그는 신고를 받고 출동한 경찰관에게 흉기로 위협을 하다 이들을 향해 흉기를 던지기도 했다.경찰은 A 씨에게 흉기가 없는 틈을 타 A 씨에게 달려가 그를 제압하고 현행범으로 체포했다.A 씨는 평소 정신질환을 앓고 있는 것으로 파악돼 응급 입원 조처됐다.경찰은 조만간 사건을 검찰에 송치할 예정이다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992885",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992886"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-079",
+      "title": "美·이란 회담 종료…“핵협상 상당한 진전, 내주 빈에서 기술적 회담”",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Inter/article/all/20260227/133434015/1",
+        "published_date": "Fri, 27 Feb 2026 06:02:00 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "26일(현지 시간) 미국과 이란의 3차 간접 핵 협상을 중재한 오만은 “상당한 진전이 있었다”면서 내주 실무 회담이 열릴 것이라고 밝혔다.바드르 빈 하마드 알부사이디 오만 외무장관은 이날 스위스 제네바에서 3차 회담이 끝난 뒤 소셜미디어 엑스(X)를 통해 “미국과 이란 간 협상에서 상당한 진전을 이룬 뒤 회담을 마무리했다”며 “각국 수도에서의 협의를 거친 뒤 곧 협상을 재개할 것”이라고 밝혔다. 이어 “기술적 차원의 논의는 다음 주 (오스트리아) 빈에서 열릴 예정”이라며 “협상단과 국제원자력기구(IAEA), 회담을 주최한 스위스 정부의 노고에 감사한다”고 덧붙였다.이란 측 대표단을 이끈 아바스 아라그치 외무장관은 이번 회담을 “미국과의 가장 진지한 대화였다”고 평가하면서 “우리는 제재 해제에 대한 요구와 해제 절차를 명확히 제시했다”고 설명했다. 그는 “양측 모두 자국 정부와 협의가 필요한 상태”라며 “(기술적) 협상은 월요일(3월 2일)부터 빈에서 재개될 예정”이라고 말했다",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992894",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992895"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-donga-080",
+      "title": "강남-서초 집값, 100주만에 꺾여",
+      "source": {
+        "name": "동아일보",
+        "type": "news_direct",
+        "url": "https://www.donga.com/news/Economy/article/all/20260227/133433749/2",
+        "published_date": "Fri, 27 Feb 2026 04:30:00 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "정부가 5월 9일로 다주택자 양도소득세 중과 유예를 종료하겠다는 방침을 공식화한 지 약 한 달 만에 서울 강남 3구(강남, 서초, 송파구) 아파트값이 일제히 하락세로 돌아섰다. 강남과 서초구 아파트값이 하락한 것은 한국부동산원 조사 기준 2024년 3월 둘째 주 이후 100주 만이다. 이재명 대통령이 소셜미디어 등을 통해 다주택자들에게 매물을 내놓으라고 강하게 압박하면서 실제 고가 주택이 많은 지역을 중심으로 양도세 중과 전 집을 처분하려는 다주택자 매물이 쌓이고 하락 거래가 이어진 영향으로 풀이된다. 한국부동산원이 26일 발표한 주간아파트가격동향에 따르면 이달 넷째 주(23일 기준) 강남 3구와 용산구 아파트값이 하락했다. 강남구 아파트값은 전주 0.01%에서 ―0.06%로 하락 전환했다. 2024년 3월 둘째 주 이후 1년 11개월 만이다. 25개 구 중 하락 폭이 가장 크다. 송파구(―0.03%), 서초구(―0.02%), 용산구(―0.01%), 경기 과천시(―0.10%) 등도",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992920",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "donga",
+          "timestamp": "2026-02-26T14:52:55.992921"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-081",
+      "title": "[속보] 김범석, 개인정보 유출에 “사과”…첫 육성 입장 발표",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/economy/11974133",
+        "published_date": "Fri, 27 Feb 2026 07:42:44 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "김범석 쿠팡Inc 의장이 지난해 발생한 대규모 고객 개인정보 유출 사고에 대해 처음으로 육성입장을 발표했다. 김 의장은 27일(한국시간) 진행된 지난해 4분기 및 연간 실적 발표 ..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992932",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992933"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-082",
+      "title": "“외도한 적 없어…끝까지 간다” 유키스 동호, 전처 형사고소 예고",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/society/11974132",
+        "published_date": "Fri, 27 Feb 2026 07:42:23 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "그룹 유키스 출신 동호가 전처 A씨에 대한 법적 대응을 예고했다. 동호는 지난 26일 SNS에 글을 올리며 “외도한 사실이 없고, 면접교섭·양육비 미지급·학대 주장도 모두 허위”라..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992943",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992944"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-083",
+      "title": "갤럭시S26 사면 AI에이전트 따라온다…택시호출·음식배달 한방에 끝",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/it/11974127",
+        "published_date": "Fri, 27 Feb 2026 07:40:20 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "갤럭시 언팩 기자간담회 AI 모델 상향평준화 접어들어 디바이스 역량이 핵심 승부처 노태문 “AI를 기본 인프라로” 통신 3사, 오늘부터 사전예약“인공지능(AI) 경쟁은 결국 디바이..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992946",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992947"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-084",
+      "title": "“우리 훌륭한 영부인”…아내 치켜세운 트럼프, 멜라니아 ‘파격 행보’",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/world/11974125",
+        "published_date": "Fri, 27 Feb 2026 07:35:40 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "뉴욕 유엔본부서 열리는 안보리 회의 주재 현 퍼스트레이디로는 이번이 처음도널드 트럼프 미국 대통령의 부인 멜라니아 여사가 다음주 뉴욕 유엔본부에서 열리는 안전보장이사회 회의를 주재..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992958",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992959"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-085",
+      "title": "“직접 사인도 받았다더라”…배우 임주환, 쿠팡물류센터 목격담 확산",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/society/11974119",
+        "published_date": "Fri, 27 Feb 2026 07:24:37 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "배우 임주환이 쿠팡 물류센터에서 근무하는 모습이 목격됐다는 이야기가 온라인을 통해 확산했다. 최근 온라인커뮤니티와 SNS에는 임주환을 이천 지역 물류센터에서 봤다는 목격담이 올라왔..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992969",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992970"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-086",
+      "title": "김정은, 금수산태양궁전 참배...당 지도부와 결속 다져",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/politics/11974103",
+        "published_date": "Fri, 27 Feb 2026 07:14:27 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "제9차 당대회‘를 마무리한 김정은 북한 국무위원장이 선대 지도자들의 시신이 안치된 금수산태양궁전을 참배했다. 조선중앙통신은 27일 김 위원장이 이번 당대회를 통해 새로 선출된 당중..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.992980",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992981"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-mk-087",
+      "title": "“무역·관세 위험 보다 더 위협적”...美 CEO들이 꼽은 산업 최대 위험 요인은",
+      "source": {
+        "name": "매일경제",
+        "type": "news_direct",
+        "url": "https://www.mk.co.kr/news/business/11974091",
+        "published_date": "Fri, 27 Feb 2026 07:04:13 +09:00",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "미국 대기업 최고경영자(CEO)들이 우려하는 산업 최대 위험 요인은 인공지능(AI)인 것으로 나타났다. AI를 조사 대상에 편입한 2024년 이래 처음이다. 미국 경제조사단체 컨퍼..",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992985",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "mk",
+          "timestamp": "2026-02-26T14:52:55.992986"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-088",
+      "title": "Ukraine : « La guerre pourrait encore durer des années et, paradoxalement, le temps joue contre le Kremlin »",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/international/article/2026/02/26/guerre-en-ukraine-l-issue-de-ce-conflit-est-encore-loin-d-etre-evidente_6668303_3210.html",
+        "published_date": "Thu, 26 Feb 2026 05:45:02 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "Le chercheur Dimitri Minic estime dans un entretien au « Monde » qu’« il ne faut pas enterrer l’Ukraine trop vite », même si le rapport de force est actuellement favorable à la Russie.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992991",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.992992"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-089",
+      "title": "EN DIRECT, Césars 2026 : Laurent Lafitte sacré meilleur acteur pour son rôle dans « La Femme la plus riche du monde »",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/culture/live/2026/02/26/en-direct-cesars-2026-jim-carrey-recoit-un-cesar-d-honneur-vimala-pons-sacree-meilleure-actrice-dans-un-second-role_6668415_3246.html",
+        "published_date": "Thu, 26 Feb 2026 23:12:15 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "La cérémonie du cinéma français se tient jeudi. Nadia Melliti et Théodore Pellerin ont remporté les prix de meilleurs espoirs, Pierre Lottin et Vimala Pons ceux de meilleurs acteurs dans des seconds rôles.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.992998",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.992999"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-090",
+      "title": "Catherine Pégard, ancienne présidente du château de Versailles et proche d’Emmanuel Macron, remplace Rachida Dati au ministère de la culture",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/culture/article/2026/02/26/catherine-pegard-ancienne-presidente-du-chateau-de-versailles-et-proche-d-emmanuel-macron-remplace-rachida-dati-au-ministere-de-la-culture_6668413_3246.html",
+        "published_date": "Thu, 26 Feb 2026 18:29:01 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "A 71 ans, l’ancienne journaliste devenue conseillère du président Nicolas Sarkozy a su, grâce à sa discrétion et à son entregent, se rendre indispensable. La nouvelle locataire de la Rue de Valois devra gérer plusieurs chantiers d’importance, dont le projet Louvre Renaissance et la réforme de l’audiovisuel public.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993006",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.993007"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-091",
+      "title": "« La reconstitution des capacités balistiques de l’Iran apparaît plus préoccupante qu’une relance rapide du nucléaire »",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/international/article/2026/02/26/la-reconstitution-des-capacites-balistiques-de-l-iran-apparait-plus-preoccupante-qu-une-relance-rapide-du-nucleaire_6668416_3210.html",
+        "published_date": "Thu, 26 Feb 2026 18:30:01 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "Dans un entretien au « Monde », la chercheuse Nicole Grajewski analyse l’état des capacités militaires de Téhéran huit mois après les frappes israélo-américaines de juin 2025.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993013",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.993013"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-092",
+      "title": "L’Afghanistan affirme avoir lancé des « attaques massives » au Pakistan, en réponse à des bombardements",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/international/article/2026/02/26/l-afghanistan-affirme-avoir-lance-des-attaques-massives-sur-le-pakistan-en-reponse-a-des-bombardements_6668424_3210.html",
+        "published_date": "Thu, 26 Feb 2026 19:02:23 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "Ces attaques surviennent quelques jours après des échanges de tirs entre forces afghanes et pakistanaises le long de leur frontière, chaque camp en rejetant la responsabilité sur l’autre.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993019",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.993020"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-093",
+      "title": "Dans l’automobile, les constructeurs français affichent des pertes financières record",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/economie/article/2026/02/26/dans-l-automobile-les-constructeurs-francais-affichent-des-pertes-financieres-record_6668420_3234.html",
+        "published_date": "Thu, 26 Feb 2026 18:51:29 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "En 2025, les résultats nets déficitaires cumulés de Stellantis, Renault et Forvia ont dépassé 35 milliards d’euros. Ils reflètent la phase de transformation à hauts risques que traverse le secteur, bousculé par le stop-and-go des politiques d’électrification de la mobilité.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993026",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.993027"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-094",
+      "title": "La SNCF engrange de copieux profits grâce à une fréquentation record",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/economie/article/2026/02/26/la-sncf-engrange-de-copieux-profits-grace-a-une-frequentation-record_6668429_3234.html",
+        "published_date": "Thu, 26 Feb 2026 20:12:02 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "La société ferroviaire a dégagé un bénéfice net de 1,8 milliard d’euros en 2025, en hausse de 16 %, tiré par les performances financières du TGV.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993032",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.993033"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-lemonde-095",
+      "title": "Amiante dans des jouets pour enfants : la répression des fraudes appelle à suspendre la vente de tous ceux « à base de sable »",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_direct",
+        "url": "https://www.lemonde.fr/economie/article/2026/02/26/amiante-dans-des-jouets-pour-enfants-la-repression-des-fraudes-appelle-a-suspendre-la-vente-de-tous-ceux-a-base-de-sable_6668433_3234.html",
+        "published_date": "Thu, 26 Feb 2026 21:02:37 +0100",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "« Les produits concernés sont par exemple des jouets contenant du sable coloré pour des activités créatives, du sable à modeler aussi appelé “sable magique” », précise la DGCCRF.",
+        "keywords": [],
+        "language": "fr"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993052",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "lemonde",
+          "timestamp": "2026-02-26T14:52:55.993054"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-japantimes-096",
+      "title": "Chinese influence operations target Japan poll and Trump: U.S. foundation",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/news/2026/02/26/world/chinese-influence-operation-target/",
+        "published_date": "Thu, 26 Feb 2026 20:21:00 +0900",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "The 35 accounts pushed corruption allegations and portrayed Takaichi as illegitimate and militaristic.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993058",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "japantimes",
+          "timestamp": "2026-02-26T14:52:55.993058"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-japantimes-097",
+      "title": "Child victims of social media crimes in Japan hit 10-year high",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/news/2026/02/26/japan/crime-legal/child-victims-social-media-high/",
+        "published_date": "Thu, 26 Feb 2026 19:19:00 +0900",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "As the age of victims is believed to be decreasing, the National Police Agency plans to monitor social media posts and issue warnings.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993068",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "japantimes",
+          "timestamp": "2026-02-26T14:52:55.993069"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-japantimes-098",
+      "title": "Japan sees interest payments doubling by 2029 as BOJ hikes rate",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/business/2026/02/26/interest-payment-double-2029/",
+        "published_date": "Thu, 26 Feb 2026 18:50:00 +0900",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Interest payments are projected at ¥21.6 trillion ($139 billion) in the year starting April 2029, up from the current year’s budgeted ¥10.5 trillion.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993083",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "japantimes",
+          "timestamp": "2026-02-26T14:52:55.993084"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-japantimes-099",
+      "title": "Riku Miura and Ryuichi Kihara vow to remain together after Olympic triumph",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/olympics/2026/02/26/miura-kihara-skating-future/",
+        "published_date": "Thu, 26 Feb 2026 18:30:00 +0900",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Of the 24 medals Japan won, a record for the nation at a Winter Games, the gold for Miura and Kihara was arguably the most memorable.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993088",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "japantimes",
+          "timestamp": "2026-02-26T14:52:55.993088"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-japantimes-100",
+      "title": "Consumption tax panel kicks off without two opposition parties",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/news/2026/02/26/japan/politics/consumption-tax-panel/",
+        "published_date": "Thu, 26 Feb 2026 18:27:00 +0900",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Prime Minister Sanae Takaichi had hoped to use the panel to achieve consensus across parties on how to lift the tax for two years.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993092",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "japantimes",
+          "timestamp": "2026-02-26T14:52:55.993093"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-japantimes-101",
+      "title": "Number of births in Japan falls to record low for 10th straight year",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/news/2026/02/26/japan/society/japan-birth-record-low/",
+        "published_date": "Thu, 26 Feb 2026 18:10:00 +0900",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "The data for how many babies were born in 2025 marks the lowest level since comparable records began in 1899, despite government efforts to reverse the trend.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993097",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "japantimes",
+          "timestamp": "2026-02-26T14:52:55.993098"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-scmp-102",
+      "title": "US presses Syria to shift from Chinese telecoms systems, cites threat to national security",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/news/world/middle-east/article/3344793/us-presses-syria-shift-chinese-telecoms-systems-cites-threat-national-security?utm_source=rss_feed",
+        "published_date": "Thu, 26 Feb 2026 22:42:08 +0000",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "The United States has warned Syria against relying on Chinese technology in its telecommunications sector, arguing it conflicts with US interests and threatens US national security, according to three sources familiar with the matter.\nThe message was conveyed during an unreported meeting between a US State Department team and Syrian Communications Minister Abdulsalam Haykal in San Francisco on Tuesday. Washington has been ‌coordinating closely with Damascus since 2024, when Syria’s now President",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993105",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "scmp",
+          "timestamp": "2026-02-26T14:52:55.993106"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-scmp-103",
+      "title": "Former US Air Force fighter pilot accused of secretly training Chinese military",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/news/china/military/article/3344792/former-us-air-force-fighter-pilot-accused-secretly-training-chinese-military?utm_source=rss_feed",
+        "published_date": "Thu, 26 Feb 2026 22:19:03 +0000",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "A former fighter pilot in the United States Air Force, once entrusted with flying some of America’s most advanced combat aircraft, has been arrested for allegedly training pilots from China’s People’s Liberation Army Air Force (PLAAF) without authorisation, the US Department of Justice said.\nIn a press release on Wednesday, the Department of Justice (DOJ) alleged that 65-year-old Gerald Eddie Brown Jr., also known by his call sign “Runner”, was taken into custody in Jeffersonville, Indiana,...",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993113",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "scmp",
+          "timestamp": "2026-02-26T14:52:55.993114"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-scmp-104",
+      "title": "China shifts cadre-appraisal metrics away from pure GDP growth, resetting mindsets",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/economy/china-economy/article/3344723/china-shifts-cadre-appraisal-metrics-away-pure-gdp-growth-resetting-mindsets?utm_source=rss_feed",
+        "published_date": "Thu, 26 Feb 2026 22:00:09 +0000",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "Ahead of China’s annual legislative meetings – typically a window into Beijing’s top-level policy agenda – this is the first entry in a series examining the complex economic recalibration driving China’s growth philosophy and its wide-ranging implications for local governments, financial investors and private enterprises.\nBeijing’s forceful campaign to instil a “correct” understanding of tenure performance among party cadres may signal Chinese leaders’ determination to downplay headline growth..",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993122",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "scmp",
+          "timestamp": "2026-02-26T14:52:55.993123"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-scmp-105",
+      "title": "Canada cannot replace US with China, Carney’s Conservative rival warns",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3344791/china-cannot-replace-us-carneys-conservative-rival-warns?utm_source=rss_feed",
+        "published_date": "Thu, 26 Feb 2026 21:56:02 +0000",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "Canadian Conservative Leader Pierre Poilievre said China cannot serve as a substitute for the US, rebuking Prime Minister Mark Carney’s recent outreach to the Asian superpower amid strained ties with the Trump administration.\nIn a speech to business leaders on Thursday, Poilievre outlined his vision for the country’s relationship with the US and how his party would approach the trade war differently from the Carney government.\n“Canada’s prosperity and security are inseparable from a stable...",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993131",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "scmp",
+          "timestamp": "2026-02-26T14:52:55.993131"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-scmp-106",
+      "title": "At 250, the US should promote its values in Asia, not spectacle",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/opinion/world-opinion/article/3344465/250-us-should-promote-its-values-asia-not-spectacle?utm_source=rss_feed",
+        "published_date": "Thu, 26 Feb 2026 21:30:06 +0000",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "In his farewell address, then US president Ronald Reagan advocated for the United States to do “a better job of getting across that America is freedom: freedom of speech, freedom of religion, freedom of enterprise. And freedom is special and rare”. The Trump administration should follow Reagan’s advice as it designs global celebrations for the country’s 250th anniversary.\nThe US should showcase its founding principles of equality, pluralism, freedom of speech and religious liberty. It should...",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.993148",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "scmp",
+          "timestamp": "2026-02-26T14:52:55.993149"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-scmp-107",
+      "title": "New nuclear control agreement should include US, Russia and China: Rubio",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3344790/new-nuclear-control-agreement-should-include-us-russia-and-china-rubio?utm_source=rss_feed",
+        "published_date": "Thu, 26 Feb 2026 20:37:52 +0000",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "Washington will keep pushing China to join a trilateral nuclear control deal with the US and Russia, but can’t compel it to do so, Secretary of State Marco Rubio said, citing “strategic stability” in China-US relations ahead of US President Donald Trump’s visit to China in April, despite long-term “irritants”.\n“We think ultimately, in the 21st century, for there to be a true arms control agreement, it has to involve China,” Rubio said during a press conference at a meeting of the Caribbean...",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993157",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "scmp",
+          "timestamp": "2026-02-26T14:52:55.993157"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-ft-108",
+      "title": "Wall Street turns to complex trades to dodge AI ‘implosions’",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_direct",
+        "url": "https://www.ft.com/content/dede31ed-6b85-4e12-b9c9-3bfbd4449d75",
+        "published_date": "Thu, 26 Feb 2026 14:26:13 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Investment banks hawk complex hedging strategies as ‘whack-a-mole’ sell-off rips through US stocks",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993161",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "ft",
+          "timestamp": "2026-02-26T14:52:55.993161"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-ft-109",
+      "title": "Tech stocks dip as Nvidia results fail to quell AI spending fears",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_direct",
+        "url": "https://www.ft.com/content/62e713ad-ffdc-4898-8492-481815d1aff0",
+        "published_date": "Thu, 26 Feb 2026 21:58:38 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Results from chip group gave Wall Street indices an early knock but ‘progress’ in US-Iran talks aid afternoon recovery",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993164",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "ft",
+          "timestamp": "2026-02-26T14:52:55.993165"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-ft-110",
+      "title": "How Blue Owl’s battles sparked a chill for private credit",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_direct",
+        "url": "https://www.ft.com/content/f2deb825-86d3-4b5d-805b-aee77e0b8384",
+        "published_date": "Thu, 26 Feb 2026 05:00:29 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Strains at the company’s first retail-focused fund have sent a chill through the broader sector",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993170",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "ft",
+          "timestamp": "2026-02-26T14:52:55.993170"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-ft-111",
+      "title": "It’s payback time for Trump’s tariff fiasco",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_direct",
+        "url": "https://www.ft.com/content/57d9ad35-2334-40a4-a263-8ba2da771462",
+        "published_date": "Thu, 26 Feb 2026 11:00:05 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "The administration handing out refunds to Chinese companies will be a terrible look",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-02-26T14:52:55.993176",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "ft",
+          "timestamp": "2026-02-26T14:52:55.993177"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-ft-112",
+      "title": "Supreme Court ruling on tariffs unleashes more than 900 legal challenges",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_direct",
+        "url": "https://www.ft.com/content/365d5cee-1b3a-4765-8b32-44468851e7e4",
+        "published_date": "Thu, 26 Feb 2026 10:00:03 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Claims for refunds soar after judges rule against Trump administration",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993181",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "ft",
+          "timestamp": "2026-02-26T14:52:55.993181"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-ft-113",
+      "title": "US and Iran make ‘progress’ in nuclear talks, mediator says",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_direct",
+        "url": "https://www.ft.com/content/fb27e869-54de-4dea-8d4a-da6d73a5421b",
+        "published_date": "Thu, 26 Feb 2026 20:44:15 GMT",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Oman’s foreign minister says the two countries are set to meet again following round of negotiations in Geneva",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993187",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "ft",
+          "timestamp": "2026-02-26T14:52:55.993188"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-khan-114",
+      "title": "쿠팡Inc “개인정보유출, 4분기 실적 부정적 영향…올해 회복세”",
+      "source": {
+        "name": "경향신문",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602270748001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "연합뉴스쿠팡Inc는 지난해 말 발생한 대규모 개인정보유출 사고로 12월에 부정적 영향을 받았지만 올들어 회복세를 보이고 있다고 27일 밝혔다.쿠팡Inc는 이날 공시한 지난 4분기 실적에서 개인정보유출 사고 발생 사실을 언급하면서 “이번 데이터 사고(data incident)는 2025년 4분기 매출 성장률과 활성 고객 수, 와우(WOW) 멤버십, 그리고 1···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993203",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "khan",
+          "timestamp": "2026-02-26T14:52:55.993203"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-khan-115",
+      "title": "경찰, ‘13개 의혹’ 김병기 재소환",
+      "source": {
+        "name": "경향신문",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602270747001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "뇌물수수와 직권남용, 위계에 의한 업무방해 등 혐의를 받는 무소속 김병기 의원이 26일 마포구 서울경찰청 공공범죄수사대에 피의자 신분으로 출석하며 취재진 질문에 답하고 있다. 문재원 기자경찰이 정치헌금 수수를 비롯해 13개 의혹을 받는 김병기 무소속 의원(전 더불어민주당 원내대표)를 전날에 이어 두 번째로 소환한다.서울경찰청 공공범죄수사대는 27일 오전 김···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.993213",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "khan",
+          "timestamp": "2026-02-26T14:52:55.993214"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-khan-116",
+      "title": "뉴욕증시, 엔비디아 급락에 혼조 마감",
+      "source": {
+        "name": "경향신문",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602270744001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "미국 뉴욕증시가 최대 기술주 엔비디아 주가의 급락으로 혼조로 마감했다.26일(현지 시간) 뉴욕증권거래소(NYSE)에서 다우존스30산업평균지수는 17.36포인트(0.04%) 오른 4만9499.51에 거래를 마감했다. 스탠더드앤드푸어스(S&amp;P) 500지수는 전 거래일 대비 37.27포인트(0.54%) 내린 6908.86, 기술주 중심의 나스닥지수는 전 ···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993219",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "khan",
+          "timestamp": "2026-02-26T14:52:55.993220"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-khan-117",
+      "title": "미·이란 3차 핵협상 “상당한 진전”···다음주 빈에서 후속 협상",
+      "source": {
+        "name": "경향신문",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602270742001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "스티브 윗코프 백악관 중동특사가 26일(현지시간) 스위스 제네바에서 열린 미국과 이란 간 핵  협상에 참석하기 위해 호텔에 도착하고 있다. AFP연합뉴스미국과 이란이 26일(현지시간) 스위스 제네바에서 재개한 핵협상 3차 회담에서 “상당한 진전이 있었다”고 중재 역할을 한 바드르 알부사이디 오만 외무장관이 밝혔다.알부사이디 장관은 이날 오후 엑스를 통해 회···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993234",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "khan",
+          "timestamp": "2026-02-26T14:52:55.993235"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-khan-118",
+      "title": "한동훈 “백의종군하라고? 윤석열이 계엄하며 보수 망칠 때 그분들은 뭘 했나”",
+      "source": {
+        "name": "경향신문",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602270740001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "김석기 ‘선거 도우라’ 요구 일축25일 오후 대구 중구 교동을 찾은 한동훈 전 국민의힘 대표가 거리를 살펴보고 있다. 연합뉴스국민의힘에서 제명된 한동훈 전 대표가 26일 자신에게 지방선거 백의종군을 요구하는 주장에 대해 “그들은 지금까지 어떤 희생을 했느냐”고 밝혔다.한 전 대표는 이날 페이스북에서 “윤석열 전 대통령에게 무기징역이 선고된 것을 보고도 기자···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.993246",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "khan",
+          "timestamp": "2026-02-26T14:52:55.993246"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-khan-119",
+      "title": "낮 최고 ‘15도’ 포근한 봄날씨…전국 곳곳 빗방울",
+      "source": {
+        "name": "경향신문",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602270731001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "서울 중구 청계천을 찾은 시민들이 가벼운 옷차림으로 산책을 하고 있다. 권도현 기자금요일인 27일 전국이 대체로 포근한 가운데 남부 지방과 제주도, 강원 영동에 비가 내리겠다.전국이 대체로 흐리다가 수도권은 오전부터, 중부 지방은 오후부터 차차 맑아지겠다.오전까지 전라권과 경북권 남부, 경남에는 비가 내리다 그치겠다. 제주도와 부산, 울산은 비가 더 내리다···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993261",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "khan",
+          "timestamp": "2026-02-26T14:52:55.993261"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-etnews-120",
+      "title": "정부, 구글에 고정밀지도 반출 허가 '가닥'…산업계·학계, 우려 현실화 조짐에 “개탄”",
+      "source": {
+        "name": "전자신문",
+        "type": "news_direct",
+        "url": "https://www.etnews.com/20260227000009",
+        "published_date": "Fri, 27 Feb 2026 06:00:00 +0900",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "정부가 구글이 신청한 고정밀지도의 국외 반출을 허가하는 쪽으로 가닥을 잡은 것으로 파악됐다. 산업계와 학계는 고정밀지도 국외 반출로 인한 막대한 경제적 손실, 산업 생태계 위축 등 우려가 현실화할 조짐에 개탄스럽다는 반응이다. 27일 관가와 정보기술(IT) 업계에 따르",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993267",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "etnews",
+          "timestamp": "2026-02-26T14:52:55.993267"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-etnews-121",
+      "title": "사무용 의자로 2시간 질주… 'F1 의자' 레이싱 대회 화제",
+      "source": {
+        "name": "전자신문",
+        "type": "news_direct",
+        "url": "https://www.etnews.com/20260226000241",
+        "published_date": "Fri, 27 Feb 2026 06:00:00 +0900",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "사무용 의자를 타고 F1처럼 경쟁하는 이색 레이스가 화제입니다. 일본에서 시작된 '이수-1 그랑프리(ISU-1 GP)'는 3명이 한 팀을 이뤄 2시간 동안 사무용 의자를 타고 달리는 내구 경기입니다. 선수는 반드시 앉은 상태에서 뒤로 발을 굴리면서 이동해야 하며, 일어",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993280",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "etnews",
+          "timestamp": "2026-02-26T14:52:55.993280"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-etnews-122",
+      "title": "“닭만 한 공룡, 원래부터 작았다?”… 900g 초소형 공룡 화석 발견",
+      "source": {
+        "name": "전자신문",
+        "type": "news_direct",
+        "url": "https://www.etnews.com/20260226000428",
+        "published_date": "Thu, 26 Feb 2026 22:30:00 +0900",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "아르헨티나에서 생전 닭만큼 작았을 것으로 추정되는 9000만 년 전 공룡의 온전한 화석이 확인됐다. 25일(현지시간) 미국 과학매체 피즈닷오알지에 따르면 미네소타 대학교의 피터 마코비키 교수가 이끄는 연구팀은 9000만 년 전 중생대 백악기에 서식한 '알나셰트리 세로폴",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993293",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "etnews",
+          "timestamp": "2026-02-26T14:52:55.993294"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-etnews-123",
+      "title": "중국인 관광객의 배신?…춘절에 가장 많이 찾은 나라, 한국이 아니었다",
+      "source": {
+        "name": "전자신문",
+        "type": "news_direct",
+        "url": "https://www.etnews.com/20260226000494",
+        "published_date": "Thu, 26 Feb 2026 20:37:27 +0900",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "올해 춘절(중국 설) 연휴 기간 해외로 떠난 중국인 관광객들이 가장 많이 찾은 여행지는 태국으로 나타났다. 한국이 2위를 기록한 반면, 일본 방문객은 절반 수준으로 급감했다. 26일 사우스차이나모닝포스트(SCMP) 등 외신에 따르면, 이번 춘절 연휴 해외여행 목적지 1",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993306",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "etnews",
+          "timestamp": "2026-02-26T14:52:55.993307"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-etnews-124",
+      "title": "땀에 젖은 옷, 바로 세탁기에 넣으면…세균 번식에 악취만 되살아난다",
+      "source": {
+        "name": "전자신문",
+        "type": "news_direct",
+        "url": "https://www.etnews.com/20260226000493",
+        "published_date": "Thu, 26 Feb 2026 20:35:19 +0900",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "운동복을 세탁 전에 통풍시키지 않으면 세탁 후에도 냄새가 남을 수 있다는 전문가 지적이 나왔다. 위생을 위해 운동 직후 바로 세탁기에 넣는 행동이 오히려 역효과를 낼 수 있다는 설명이다. 영국 소비자 단체 위치의 수석 연구원 레베카 제이크먼은 최근 데일리메일과의 인터뷰",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993319",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "etnews",
+          "timestamp": "2026-02-26T14:52:55.993320"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-etnews-125",
+      "title": "현대차, 2029년 아틀라스 15만대 생산",
+      "source": {
+        "name": "전자신문",
+        "type": "news_direct",
+        "url": "https://www.etnews.com/20260226000381",
+        "published_date": "Thu, 26 Feb 2026 18:16:06 +0900",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "현대자동차그룹이 휴머노이드 로봇 '아틀라스' 생산량 확대를 위한 공급망 구축에 돌입했다. 초기 연간 3만5000대 수준으로 생산, 시장에 안착한 후 2029년에는 15만대까지 늘려 휴머노이드 주도권을 선점한다는 구상이다. 26일 업계에 따르면 현대차그룹 로봇 계열사 보",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993324",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "etnews",
+          "timestamp": "2026-02-26T14:52:55.993325"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-rt-126",
+      "title": "US and Iran make ‘significant progress’ in talks – mediator",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_direct",
+        "url": "https://www.rt.com/news/633101-iran-us-geneva-talks/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 26 Feb 2026 22:28:04 +0000",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": " The latest round of negotiations over Tehran’s nuclear program in Geneva was described by Iranian officials as the “most serious” yet Read Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.993335",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "rt",
+          "timestamp": "2026-02-26T14:52:55.993336"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-rt-127",
+      "title": "Hillary Clinton’s lawyers halt Epstein Congress inquiry",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_direct",
+        "url": "https://www.rt.com/news/633100-hillary-clinton-epstein-inquiry-photo/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 26 Feb 2026 21:52:51 +0000",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": " Ex-US Secretary of State Hillary Clinton briefly interrupted a House Epstein inquiry after a photo of her was posted online Read Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.993345",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "rt",
+          "timestamp": "2026-02-26T14:52:55.993346"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-rt-128",
+      "title": "Ukraine nukes plot aimed at derailing peace talks – Alexander McKay",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_direct",
+        "url": "https://www.rt.com/russia/633099-ukraine-nukes-peace-talks/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 26 Feb 2026 21:21:33 +0000",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": " France and London are seeking to prolong the Ukraine conflict but are unlikely to actually give nukes to Kiev, Alexander McKay believes Read Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993351",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "rt",
+          "timestamp": "2026-02-26T14:52:55.993351"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-rt-129",
+      "title": "Nukes for Ukraine would be ‘playing with fire’ – ex-US judge (VIDEO)",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_direct",
+        "url": "https://www.rt.com/news/633096-ukraine-nukes-france-uk-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 26 Feb 2026 21:11:47 +0000",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": " An attempt by the UK and France to give Ukraine nuclear weapons would be very risky, ex-US judge Andrew Napolitano has told RT Read Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993356",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "rt",
+          "timestamp": "2026-02-26T14:52:55.993357"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-rt-130",
+      "title": "Fyodor Lukyanov: After Ukraine, the world stops pretending",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_direct",
+        "url": "https://www.rt.com/russia/633097-fyodor-lukyanov-ukraine-shift/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 26 Feb 2026 20:18:25 +0000",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": " The Ukraine conflict hasn’t changed the world, just exposed what was already breaking Read Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993361",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "rt",
+          "timestamp": "2026-02-26T14:52:55.993362"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-rt-131",
+      "title": "Alleged nuclear plot highlights Western Europe’s ‘desperation’ – analyst (VIDEO)",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_direct",
+        "url": "https://www.rt.com/news/633087-thomas-penn-franco-british-nuke-plot-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_date": "Thu, 26 Feb 2026 19:44:54 +0000",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": " An alleged Franco-British plot to give nukes to Ukraine betrays Europe’s desperation to stay relevant, RT Contributor Thomas Penn has said Read Full Article at RT.com",
+        "keywords": [],
+        "language": "ru"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993367",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "rt",
+          "timestamp": "2026-02-26T14:52:55.993368"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-timesofisrael-132",
+      "title": "Under scrutiny, Hillary Clinton demands Trump be called to testify about Epstein ties",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_direct",
+        "url": "https://www.timesofisrael.com/under-scrutiny-hillary-clinton-demands-trump-be-called-to-testify-about-epstein-ties/",
+        "published_date": "Thu, 26 Feb 2026 22:19:46 +0000",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Former US secretary of state tells GOP-led panel probing her and Bill Clinton's ties to the late sex offender that she never recalls encountering him, never went to his island\nThe post Under scrutiny, Hillary Clinton demands Trump be called to testify about Epstein ties appeared first on The Times of Israel.\n",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-02-26T14:52:55.993376",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "timesofisrael",
+          "timestamp": "2026-02-26T14:52:55.993377"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-timesofisrael-133",
+      "title": "US, Iran said to agree to further talks next week, as mediator claims progress",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_direct",
+        "url": "https://www.timesofisrael.com/us-iran-said-to-agree-to-further-talks-next-week-as-mediator-claims-progress/",
+        "published_date": "Thu, 26 Feb 2026 21:23:45 +0000",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Contradictory reports emerge on whether sides any closer to agreement; report says Witkoff, Kushner demanded Tehran dismantle all nuclear sites and turn over enriched uranium\nThe post US, Iran said to agree to further talks next week, as mediator claims progress appeared first on The Times of Israel.\n",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993382",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "timesofisrael",
+          "timestamp": "2026-02-26T14:52:55.993383"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-timesofisrael-134",
+      "title": "Progressive Jews sound alarm over bill cementing Orthodox control of Western Wall",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_direct",
+        "url": "https://www.timesofisrael.com/progressive-jews-sound-alarm-over-bill-cementing-orthodox-control-of-western-wall/",
+        "published_date": "Thu, 26 Feb 2026 21:09:37 +0000",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Diaspora leaders warn criminalizing non-Orthodox prayer at the Wall will exclude many from Judaism's holiest site, violating World Zionist Organization resolutions\nThe post Progressive Jews sound alarm over bill cementing Orthodox control of Western Wall appeared first on The Times of Israel.\n",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993388",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "timesofisrael",
+          "timestamp": "2026-02-26T14:52:55.993389"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-timesofisrael-135",
+      "title": "Gaza envelope hosts Darom BaLev for 2nd year as anemones carpet south",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_direct",
+        "url": "https://www.timesofisrael.com/gaza-envelope-hosts-darom-balev-for-2nd-year-as-anemones-carpet-south/",
+        "published_date": "Thu, 26 Feb 2026 20:33:55 +0000",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Annual festival returns to the region and semi-normalcy, though organizers aren't quite ready to call it Darom Adom again\nThe post Gaza envelope hosts Darom BaLev for 2nd year as anemones carpet south appeared first on The Times of Israel.\n",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993393",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "timesofisrael",
+          "timestamp": "2026-02-26T14:52:55.993394"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-timesofisrael-136",
+      "title": "IDF strikes Hezbollah military compounds in eastern Lebanon; teenager said killed",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_direct",
+        "url": "https://www.timesofisrael.com/idf-strikes-hezbollah-military-compounds-in-eastern-lebanon-teenager-said-killed/",
+        "published_date": "Thu, 26 Feb 2026 20:04:13 +0000",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Military says strikes targeted eight sites belonging to terror group's elite Radwan Force; Lebanese health ministry reports 29 people injured, Syrian teen killed\nThe post IDF strikes Hezbollah military compounds in eastern Lebanon; teenager said killed appeared first on The Times of Israel.\n",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993400",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "timesofisrael",
+          "timestamp": "2026-02-26T14:52:55.993400"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-timesofisrael-137",
+      "title": "Shin Bet chief rejects conspiracy theories of Israeli collaborators on October 7",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_direct",
+        "url": "https://www.timesofisrael.com/shin-bet-chief-rejects-conspiracy-theories-of-israeli-collaborators-on-october-7/",
+        "published_date": "Thu, 26 Feb 2026 19:18:27 +0000",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Zini tells security agency's leadership there was no betrayal or cooperation with the enemy, as Netanyahu remains publicly silent on pervasive, baseless claims\nThe post Shin Bet chief rejects conspiracy theories of Israeli collaborators on October 7 appeared first on The Times of Israel.\n",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993405",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "timesofisrael",
+          "timestamp": "2026-02-26T14:52:55.993406"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arabnews-138",
+      "title": "Slain son of former Libya ruler Qaddafi to be buried near capital",
+      "source": {
+        "name": "Arab News",
+        "type": "news_direct",
+        "url": "https://www.arabnews.com/node/2631867/middle-east",
+        "published_date": "Thu, 05 Feb 2026 05:02:28 +03",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "TRIPOLI: The slain son of former Libyan ruler Muammar Qaddafi will be buried in a town south of the capital that remains loyal to the family, relatives said Thursday.\n\tSeif Al-Islam Qaddafi, once seen by some as Libya’s heir apparent, was shot dead on Tuesday in the northwestern city of Zintan.\n\tThe burial will be held on Friday in the town of Bani Walid some 175 kilometers south of Tripoli, two of his brothers said.\n\t“The date and location of his burial have been decided by mutual agreement amo",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993413",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arabnews",
+          "timestamp": "2026-02-26T14:52:55.993414"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arabnews-139",
+      "title": "Russia expels German diplomat in tit-for-tat move",
+      "source": {
+        "name": "Arab News",
+        "type": "news_direct",
+        "url": "https://www.arabnews.com/node/2631866/world",
+        "published_date": "Thu, 05 Feb 2026 04:02:16 +03",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "MOSCOW: Russia said Thursday it was expelling a German diplomat after Berlin last month threw out a Russian official it accused of being a spy handler.\n\tThe foreign ministry said it had issued a “note declaring a diplomatic employee of the German Embassy in Moscow persona non grata” in what was a “symmetrical response.”\n\tMoscow also rejected Germany’s accusations of espionage as “baseless” and accused Berlin of whipping up “a spirit of spy mania.”",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993421",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arabnews",
+          "timestamp": "2026-02-26T14:52:55.993422"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arabnews-140",
+      "title": "Germany’s Merz promises arms cooperation as he seeks more Qatari energy",
+      "source": {
+        "name": "Arab News",
+        "type": "news_direct",
+        "url": "https://www.arabnews.com/node/2631865/middle-east",
+        "published_date": "Thu, 05 Feb 2026 04:02:04 +03",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "DOHA: German Chancellor Friedrich Merz pledged to take a less-restrictive stance on arms exports to Gulf states during a trip to Qatar on Thursday, as Europe’s largest economy looks to build deeper economic ties and diversify its energy sources.\n\tMerz is on a campaign to sell Germany as a good country to do business with as US tariff policies prompt countries to seek more trade deals elsewhere.\n\tHe already has trips to Brazil, India and South Africa under his belt, with a trip to China set for ⁠",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993430",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arabnews",
+          "timestamp": "2026-02-26T14:52:55.993431"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arabnews-141",
+      "title": "US, Russia close in on deal to extend New START nuclear arms treaty, Axios reports",
+      "source": {
+        "name": "Arab News",
+        "type": "news_direct",
+        "url": "https://www.arabnews.com/node/2631864/world",
+        "published_date": "Thu, 05 Feb 2026 04:02:22 +03",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "WASHINGTON: The United States and Russia are closing in on a deal to observe the New START nuclear arms control treaty beyond its expiration on Thursday, Axios reported, citing three sources familiar with ⁠the talks.\n\tThe New START treaty, which set limits on each side’s missiles, launchers and strategic warheads, is the last in a series of nuclear agreements ⁠dating back more than half a century to the Cold War.\n\tAxios said that negotiations had been taking place over the past 24 hours in Abu D",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993439",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arabnews",
+          "timestamp": "2026-02-26T14:52:55.993440"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arabnews-142",
+      "title": "Closing Bell: Saudi main market ends week in red at 11,189",
+      "source": {
+        "name": "Arab News",
+        "type": "news_direct",
+        "url": "https://www.arabnews.com/node/2631863/business-economy",
+        "published_date": "Thu, 05 Feb 2026 04:02:11 +03",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "RIYADH: Saudi Arabia’s Tadawul All Share Index closed lower at the end of the trading week on Thursday, falling 1.34 percent, or 152.54 points, to finish at 11,188.73. \n\n\tThe benchmark index opened at 11,320.52 and trended lower throughout the session, finishing well below its previous close of 11,341.27.  \n\n\tMarket breadth was sharply negative, with only 28 gainers compared with 236 decliners. Trading activity saw a volume of 239 million shares exchanged, with total turnover reaching SR5.5 bill",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993447",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arabnews",
+          "timestamp": "2026-02-26T14:52:55.993448"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-arabnews-143",
+      "title": "Machado says Venezuelan elections could happen this year, Politico reports",
+      "source": {
+        "name": "Arab News",
+        "type": "news_direct",
+        "url": "https://www.arabnews.com/node/2631861/world",
+        "published_date": "Thu, 05 Feb 2026 04:02:44 +03",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "WASHINGTON: Venezuelan opposition leader Maria Corina Machado said she believed elections could be held in her country later this year, speaking to Politico in an interview released on Thursday.\n\t“We believe that a real transferring process with manual voting … could be done in nine to 10 months,” Machado said. “But, well, that depends when you start.”",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993455",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "arabnews",
+          "timestamp": "2026-02-26T14:52:55.993455"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-globeandmail-144",
+      "title": "U.S. women’s hockey team to celebrate gold medal victory in July with Flavor Flav",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_direct",
+        "url": "https://www.theglobeandmail.com/sports/hockey/article-us-womens-hockey-team-to-celebrate-gold-medal-victory-in-july-with/",
+        "published_date": "Thu, 26 Feb 2026 22:42:02 +0000",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "Hip-hop star a longtime supporter of women’s sports",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993467",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "globeandmail",
+          "timestamp": "2026-02-26T14:52:55.993468"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-globeandmail-145",
+      "title": "U.S., Iran wrap up nuclear talks with no deal as military threat looms",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_direct",
+        "url": "https://www.theglobeandmail.com/world/article-us-iran-nuclear-talks/",
+        "published_date": "Thu, 26 Feb 2026 11:23:35 +0000",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "Trump wants a deal to constrain Iran’s nuclear program. If talks fail, uncertainty hangs over the timing of any possible U.S. attack",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993472",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "globeandmail",
+          "timestamp": "2026-02-26T14:52:55.993473"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-globeandmail-146",
+      "title": "U.S., Iran wrap up nuclear talks with no deal as risk of war looms",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_direct",
+        "url": "https://www.theglobeandmail.com/world/video-us-iran-wrap-up-nuclear-talks-with-no-deal-as-risk-of-war-looms/",
+        "published_date": "Thu, 26 Feb 2026 22:18:38 +0000",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "Iran and the United States held hours of indirect negotiations over Tehran’s nuclear program but walked away without a deal. That left the danger of another Mideast war on the table Thursday as the U.S. has gathered a massive fleet of aircraft and warships in the region.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993479",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "globeandmail",
+          "timestamp": "2026-02-26T14:52:55.993480"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-globeandmail-147",
+      "title": "U.S., Ukraine discuss postwar reconstruction as Russia attacks power grid",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_direct",
+        "url": "https://www.theglobeandmail.com/world/article-us-ukraine-war-talks-russia-strikes/",
+        "published_date": "Thu, 26 Feb 2026 11:36:05 +0000",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "Kyiv hopes to attract about US$800-billion of public and private funds over the next 10 years to rebuild the country",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993483",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "globeandmail",
+          "timestamp": "2026-02-26T14:52:55.993484"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-globeandmail-148",
+      "title": "Hillary Clinton says she has no information on Epstein’s crimes and doesn’t recall meeting him",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_direct",
+        "url": "https://www.theglobeandmail.com/world/article-hillary-clinton-testifying-house-investigation-jeffrey-epstein/",
+        "published_date": "Thu, 26 Feb 2026 12:49:57 +0000",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "Deposition briefly paused after Rep. Lauren Boebert sent photo to conservative influencer who posted it on social media",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993499",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "globeandmail",
+          "timestamp": "2026-02-26T14:52:55.993500"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-globeandmail-149",
+      "title": "Melania Trump to chair meeting of UN Security Council, White House says",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_direct",
+        "url": "https://www.theglobeandmail.com/world/article-melania-trump-un-security-council/",
+        "published_date": "Thu, 26 Feb 2026 18:41:57 +0000",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "U.S. President Donald Trump has been a vocal critic of the United Nations since his first White House term",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993503",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "globeandmail",
+          "timestamp": "2026-02-26T14:52:55.993504"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hankyung-150",
+      "title": "유키스 출신 동호 \"외도한 적 없다\"…전처 형사고소 예정",
+      "source": {
+        "name": "한국경제",
+        "type": "news_direct",
+        "url": "https://www.hankyung.com/article/2026022784107",
+        "published_date": "Fri, 27 Feb 2026 06:48:13 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993512",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hankyung",
+          "timestamp": "2026-02-26T14:52:55.993513"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hankyung-151",
+      "title": "[속보] 쿠팡, 지난해 매출 49조원⋯전년비 14%↑",
+      "source": {
+        "name": "한국경제",
+        "type": "news_direct",
+        "url": "https://www.hankyung.com/article/202602278400g",
+        "published_date": "Fri, 27 Feb 2026 06:44:45 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993520",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hankyung",
+          "timestamp": "2026-02-26T14:52:55.993520"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hankyung-152",
+      "title": "美·이란 3차 회담 종료…\"상당한 진전, 내주 빈에서 후속 논의\"",
+      "source": {
+        "name": "한국경제",
+        "type": "news_direct",
+        "url": "https://www.hankyung.com/article/2026022784207",
+        "published_date": "Fri, 27 Feb 2026 06:43:59 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993527",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hankyung",
+          "timestamp": "2026-02-26T14:52:55.993527"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hankyung-153",
+      "title": "李대통령 \"투자·투기용 1주택도 보유보다 매각이 유리하게 할 것\"",
+      "source": {
+        "name": "한국경제",
+        "type": "news_direct",
+        "url": "https://www.hankyung.com/article/2026022784137",
+        "published_date": "Fri, 27 Feb 2026 06:37:01 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993534",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hankyung",
+          "timestamp": "2026-02-26T14:52:55.993535"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hankyung-154",
+      "title": "'육천피'인데 내 종목만 안 오른다?…\"OOO에 기회있다\" [분석+]",
+      "source": {
+        "name": "한국경제",
+        "type": "news_direct",
+        "url": "https://www.hankyung.com/article/2026022679496",
+        "published_date": "Fri, 27 Feb 2026 06:30:05 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993542",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hankyung",
+          "timestamp": "2026-02-26T14:52:55.993543"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-hankyung-155",
+      "title": "[속보] 쿠팡Inc \"개인정보유출, 12월 부정적 영향…1분기 회복세\"",
+      "source": {
+        "name": "한국경제",
+        "type": "news_direct",
+        "url": "https://www.hankyung.com/article/202602278412g",
+        "published_date": "Fri, 27 Feb 2026 06:27:49 +0900",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993551",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "hankyung",
+          "timestamp": "2026-02-26T14:52:55.993551"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-wsj-156",
+      "title": "Palestinians Stream Back to Northern Gaza on Foot",
+      "source": {
+        "name": "Wall Street Journal",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+        "published_date": "Mon, 27 Jan 2025 14:23:00 -0500",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Israel allowed displaced Gazans to begin crossing a military zone that bisects the enclave after a deadlock over hostage releases was broken.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993560",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "wsj",
+          "timestamp": "2026-02-26T14:52:55.993561"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-wsj-157",
+      "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "source": {
+        "name": "Wall Street Journal",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+        "published_date": "Mon, 27 Jan 2025 12:32:00 -0500",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993565",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "wsj",
+          "timestamp": "2026-02-26T14:52:55.993566"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-wsj-158",
+      "title": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+      "source": {
+        "name": "Wall Street Journal",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
+        "published_date": "Mon, 27 Jan 2025 12:12:00 -0500",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Some of the women were held alone for extended periods and spent eight months in tunnels, an Israeli medical official said.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993570",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "wsj",
+          "timestamp": "2026-02-26T14:52:55.993571"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-wsj-159",
+      "title": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
+      "source": {
+        "name": "Wall Street Journal",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/suspected-sabotage-of-deep-sea-cable-triggers-first-nato-led-response-337119ba",
+        "published_date": "Mon, 27 Jan 2025 11:22:00 -0500",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The alliance mounted its first coordinated response to a suspected sabotage campaign against critical infrastructure after another cable was severed in the Baltic Sea.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993575",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "wsj",
+          "timestamp": "2026-02-26T14:52:55.993576"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-wsj-160",
+      "title": "Rwanda-Backed Rebels Enter Congo's Safe-Haven City",
+      "source": {
+        "name": "Wall Street Journal",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
+        "published_date": "Mon, 27 Jan 2025 10:07:00 -0500",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Residents of Goma reported gunfire and shelling after rebels overran Congolese troops. U.N. officials estimated that more than one million displaced people were now inside the city.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-02-26T14:52:55.993586",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "wsj",
+          "timestamp": "2026-02-26T14:52:55.993586"
+        }
+      }
+    },
+    {
+      "id": "news-20260226-wsj-161",
+      "title": "Cocaine-Funded Gangs Shake Colombia Years After Peace Pact",
+      "source": {
+        "name": "Wall Street Journal",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/cocaine-funded-gangs-shake-colombia-years-after-peace-pact-a45a28da",
+        "published_date": "Mon, 27 Jan 2025 07:00:00 -0500",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Attacks by powerful militias against civilians reflect the state’s inaction eight years after a peace accord removed a powerful rebel group from the field.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-02-26T14:52:55.993591",
+      "scan_metadata": {
+        "execution_proof": {
+          "method": "rss_feed",
+          "source_site": "wsj",
+          "timestamp": "2026-02-26T14:52:55.993592"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf2-arxiv",
+  "assessment_method": "cross_impact_matrix",
+  "total_assessed": 15,
+  "critical_count": 2,
+  "high_count": 8,
+  "medium_count": 5,
+  "key_clusters": [
+    {"theme": "LLM dual-use and biosecurity", "signals": ["arxiv-2602-23329v1"], "cross_impact": "HIGH"},
+    {"theme": "AI regulatory economics", "signals": ["arxiv-2602-22750v1"], "cross_impact": "CRITICAL"},
+    {"theme": "AI in finance", "signals": ["arxiv-2602-23330v1"], "cross_impact": "HIGH"},
+    {"theme": "Medical AI advancement", "signals": ["arxiv-2602-23363v1"], "cross_impact": "HIGH"},
+    {"theme": "Industrial AI automation", "signals": ["arxiv-2602-23331v1"], "cross_impact": "HIGH"}
+  ]
+}

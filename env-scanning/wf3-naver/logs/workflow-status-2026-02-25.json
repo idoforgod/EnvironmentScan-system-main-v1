@@ -1,0 +1,41 @@
+{
+  "workflow": "wf3-naver",
+  "date": "2026-02-25",
+  "status": "COMPLETED",
+  "completed_at": "2026-02-25T10:21:36.274421",
+  "phases": {
+    "phase1": {
+      "status": "completed",
+      "articles_collected": 267,
+      "sections": 6,
+      "dedup_result": "267 new (0 duplicates)"
+    },
+    "phase2": {
+      "status": "completed",
+      "signals_classified": 15,
+      "fssf_types": 7,
+      "tipping_points": {
+        "ORANGE": 2,
+        "YELLOW": 6,
+        "GREEN": 7
+      }
+    },
+    "phase3": {
+      "status": "completed",
+      "report_en_validated": "20/20 PASS",
+      "report_ko_validated": "20/20 PASS",
+      "db_updated": true,
+      "db_total": 165
+    }
+  },
+  "output_files": {
+    "raw_crawl": "env-scanning/wf3-naver/raw/daily-crawl-2026-02-25.json",
+    "classified_signals": "env-scanning/wf3-naver/structured/classified-signals-2026-02-25.json",
+    "impact_assessment": "env-scanning/wf3-naver/analysis/impact-assessment-2026-02-25.json",
+    "priority_ranked": "env-scanning/wf3-naver/analysis/priority-ranked-2026-02-25.json",
+    "report_en": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-25.md",
+    "report_ko": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-02-25-ko.md",
+    "database": "env-scanning/wf3-naver/signals/database.json",
+    "snapshot": "env-scanning/wf3-naver/signals/snapshots/database-2026-02-25.json"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "scan_date": "2026-02-28",
+  "workflow": "wf2-arxiv",
+  "classification_method": "STEEPs_6_category",
+  "total_signals": 50,
+  "after_dedup": 15,
+  "duplicates_removed": 0,
+  "dedup_details": [],
+  "category_distribution": {
+    "S_Social": 1,
+    "T_Technological": 9,
+    "E_Economic": 2,
+    "E_Environmental": 0,
+    "P_Political": 2,
+    "s_spiritual": 1
+  },
+  "signals": [
+    {"id": "arxiv-2602-22750v1", "title": "The Inference Bottleneck: Antitrust and Neutrality Duties in the Age of Cognitive AI Infrastructure", "category": "P_Political", "subcategories": ["E_Economic", "T_Technological"], "psst_score": 88, "impact_level": "CRITICAL", "priority_rank": 1},
+    {"id": "arxiv-2602-23329v1", "title": "LLM Novice Uplift on Dual-Use, In Silico Biology Tasks", "category": "T_Technological", "subcategories": ["P_Political", "s_spiritual"], "psst_score": 85, "impact_level": "CRITICAL", "priority_rank": 2},
+    {"id": "arxiv-2602-23330v1", "title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Strategy Orchestration", "category": "E_Economic", "subcategories": ["T_Technological"], "psst_score": 82, "impact_level": "HIGH", "priority_rank": 3},
+    {"id": "arxiv-2602-23363v1", "title": "MediX-R1: Open Ended Medical Reinforcement Learning", "category": "T_Technological", "subcategories": ["S_Social"], "psst_score": 80, "impact_level": "HIGH", "priority_rank": 4},
+    {"id": "arxiv-2602-23331v1", "title": "Utilizing LLMs for Industrial Process Automation", "category": "T_Technological", "subcategories": ["E_Economic"], "psst_score": 78, "impact_level": "HIGH", "priority_rank": 5},
+    {"id": "arxiv-2602-23259v1", "title": "Risk-Aware World Model Predictive Control for End-to-End Autonomous Driving", "category": "T_Technological", "subcategories": ["S_Social"], "psst_score": 78, "impact_level": "HIGH", "priority_rank": 6},
+    {"id": "arxiv-2602-23254v1", "title": "Quantum Confocal Microscopy in Fock Space with a 19 dB Metrological Gain", "category": "T_Technological", "subcategories": [], "psst_score": 77, "impact_level": "HIGH", "priority_rank": 7},
+    {"id": "arxiv-2602-22523v1", "title": "Cognitive Models and AI Algorithms Provide Templates for Designing Language Agents", "category": "T_Technological", "subcategories": ["s_spiritual"], "psst_score": 76, "impact_level": "HIGH", "priority_rank": 8},
+    {"id": "arxiv-2602-23335v1", "title": "Understanding Usage and Engagement in AI-Powered Scientific Research Tools", "category": "S_Social", "subcategories": ["T_Technological"], "psst_score": 75, "impact_level": "HIGH", "priority_rank": 9},
+    {"id": "arxiv-2602-23262v1", "title": "Decomposing Private Image Generation via Coarse-to-Fine Wavelet Modeling", "category": "T_Technological", "subcategories": ["P_Political"], "psst_score": 74, "impact_level": "HIGH", "priority_rank": 10},
+    {"id": "arxiv-2602-23323v1", "title": "Modeling Large-Scale Adversarial Swarm Engagements using Optimal Control", "category": "P_Political", "subcategories": ["T_Technological"], "psst_score": 73, "impact_level": "MEDIUM", "priority_rank": 11},
+    {"id": "arxiv-2602-23261v1", "title": "Strengthening security and noise resistance in one-way quantum key distribution", "category": "T_Technological", "subcategories": ["P_Political"], "psst_score": 72, "impact_level": "MEDIUM", "priority_rank": 12},
+    {"id": "arxiv-2602-23287v1", "title": "Interface-Aware Trajectory Reconstruction for Robot Learning from Limited Demonstrations", "category": "T_Technological", "subcategories": ["E_Economic"], "psst_score": 70, "impact_level": "MEDIUM", "priority_rank": 13},
+    {"id": "arxiv-2602-23349v1", "title": "FlashOptim: Optimizers for Memory Efficient Training", "category": "T_Technological", "subcategories": [], "psst_score": 68, "impact_level": "MEDIUM", "priority_rank": 14},
+    {"id": "arxiv-2602-23197v1", "title": "Fine-Tuning Without Forgetting In-Context Learning: A Theoretical Analysis", "category": "T_Technological", "subcategories": ["s_spiritual"], "psst_score": 65, "impact_level": "MEDIUM", "priority_rank": 15}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scan_date": "2026-03-01",
+  "workflow": "wf2-arxiv",
+  "total_signals": 15,
+  "steeps_distribution": {"T": 9, "E_Environmental": 3, "S": 2, "s": 1, "E": 0, "P": 0},
+  "signals": [
+    {"id": "arxiv-2602-20946v1", "title": "Economics of AGI — Verification Bandwidth", "primary_category": "E_Economic", "secondary_categories": ["T_Technological"], "confidence": 0.92, "keywords_matched": ["AGI", "economics", "verification"]},
+    {"id": "arxiv-2602-22540v1", "title": "Road to Useful Quantum Computers", "primary_category": "T_Technological", "secondary_categories": [], "confidence": 0.90, "keywords_matched": ["quantum computing", "roadmap"]},
+    {"id": "arxiv-2603-00100v1", "title": "Quantum Attacks on Nuclear Infrastructure", "primary_category": "T_Technological", "secondary_categories": ["P_Political"], "confidence": 0.88, "keywords_matched": ["quantum", "cybersecurity", "nuclear"]},
+    {"id": "arxiv-2603-00201v1", "title": "Reasoning LLMs for Robot Control", "primary_category": "T_Technological", "secondary_categories": [], "confidence": 0.87, "keywords_matched": ["LLM", "robotics", "reasoning"]},
+    {"id": "arxiv-2602-21500v1", "title": "Quantum LDPC Error Correction", "primary_category": "T_Technological", "secondary_categories": [], "confidence": 0.85, "keywords_matched": ["quantum", "error correction", "LDPC"]},
+    {"id": "arxiv-2603-00350v1", "title": "Humanoid Robot Learning at Scale", "primary_category": "T_Technological", "secondary_categories": ["S_Social"], "confidence": 0.85, "keywords_matched": ["humanoid", "robotics", "learning"]},
+    {"id": "arxiv-2602-22100v1", "title": "Climate Regime Shift Detection", "primary_category": "E_Environmental", "secondary_categories": ["T_Technological"], "confidence": 0.84, "keywords_matched": ["climate", "tipping point", "deep learning"]},
+    {"id": "arxiv-2603-00450v1", "title": "Hardware Trojan Detection in Chiplets", "primary_category": "T_Technological", "secondary_categories": [], "confidence": 0.82, "keywords_matched": ["hardware security", "chiplet"]},
+    {"id": "arxiv-2602-23000v1", "title": "VLMs for Autonomous Scientific Discovery", "primary_category": "T_Technological", "secondary_categories": [], "confidence": 0.86, "keywords_matched": ["vision-language", "scientific discovery"]},
+    {"id": "arxiv-2602-21800v1", "title": "Personality Subnetworks in LLMs", "primary_category": "s_spiritual", "secondary_categories": ["T_Technological"], "confidence": 0.83, "keywords_matched": ["personality", "LLM", "AI alignment"]},
+    {"id": "arxiv-2603-00550v1", "title": "Federated Learning for Pandemic Preparedness", "primary_category": "S_Social", "secondary_categories": ["T_Technological"], "confidence": 0.81, "keywords_matched": ["federated learning", "pandemic", "privacy"]},
+    {"id": "arxiv-2602-22800v1", "title": "Carbon-Aware Compute Scheduling", "primary_category": "E_Environmental", "secondary_categories": ["T_Technological"], "confidence": 0.80, "keywords_matched": ["carbon", "datacenter", "scheduling"]},
+    {"id": "arxiv-2603-00700v1", "title": "Algorithmic Fairness in AI Labor Markets", "primary_category": "S_Social", "secondary_categories": ["E_Economic"], "confidence": 0.79, "keywords_matched": ["fairness", "labor market", "AI automation"]},
+    {"id": "arxiv-2602-23200v1", "title": "Post-Quantum MPC Protocols", "primary_category": "T_Technological", "secondary_categories": [], "confidence": 0.78, "keywords_matched": ["post-quantum", "MPC", "cryptography"]},
+    {"id": "arxiv-2602-22300v1", "title": "Sustainable AI Energy Benchmarks", "primary_category": "E_Environmental", "secondary_categories": ["T_Technological"], "confidence": 0.77, "keywords_matched": ["sustainability", "AI", "energy"]}
+  ]
+}

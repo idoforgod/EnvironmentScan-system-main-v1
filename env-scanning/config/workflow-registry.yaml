@@ -170,6 +170,7 @@ system:
     - ".claude/agents/workers/archive-notifier.md"
     - ".claude/agents/workers/translation-agent.md"
     - ".claude/agents/workers/self-improvement-analyzer.md"
+    - ".claude/agents/workers/quality-reviewer.md"
     - ".claude/agents/exploration-orchestrator.md"
     - ".claude/agents/workers/discovery-alpha.md"
     - ".claude/agents/workers/discovery-beta.md"
@@ -851,6 +852,12 @@ startup_validation:
       description: "All validate_profile values in enabled workflows must map to implemented profiles in validate_report.py"
       severity: "HALT"
 
+    # ── Quality Defense Script Validation (v2.3.0) ──
+    - id: "SOT-055"
+      check: "quality_defense_scripts_exist"
+      description: "All quality defense scripts (validate_report_quality.py, quality-reviewer.md) must exist"
+      severity: "HALT"
+
 # ================================================================
 # EXECUTION INTEGRITY (v1.0.0)
 # ================================================================
@@ -1091,7 +1098,7 @@ system_prompts:
     - id: "skeleton_fill"
       keywords: ["skeleton", "template"]
     - id: "quality_defense"
-      keywords: ["4-Layer", "validate_report"]
+      keywords: ["Quality Defense", "validate_report", "validate_report_quality"]
     - id: "temporal_consistency"
       keywords: ["Temporal Consistency", "scan window", "lookback_hours", "T₀"]
 

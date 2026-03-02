@@ -1,0 +1,589 @@
+{
+  "selected": [
+    {
+      "rank": 1,
+      "id": "news-20260225-nknews-003",
+      "title": "New Zealand sanctions North Korean military firms, targeting support for Russia",
+      "source": {
+        "name": "NK News",
+        "short_name": "nknews",
+        "type": "news_direct",
+        "url": "https://www.nknews.org/2026/02/new-zealand-sanctions-north-korean-military-firms-targeting-support-for-russia/",
+        "published_date": "Wed, 25 Feb 2026 07:07:28 +0000",
+        "language": "en",
+        "region": "KR",
+        "group": "EN-한반도"
+      },
+      "content": {
+        "abstract": "New Zealand has slapped new sanctions on two North Korean military firms, part of a broader effort alongside allies to stem support for Russia’s military on the fourth anniversary of the Ukraine war. These new sanctions target Moscow’s allies like North Korea, Belarus and Iran, Foreign Minister Winston Peters said in a release on Tuesday.  [&#8230;]",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:58.752152+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.nknews.org/feed/",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:58.752152+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "P",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 75,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "news-20260225-apnews-003",
+      "title": "Supreme Court ruling against Trump’s tariffs is unlikely to mean an end to trade policy chaos",
+      "source": {
+        "name": "Associated Press",
+        "short_name": "apnews",
+        "type": "news_direct",
+        "url": "https://apnews.com/article/trump-tariffs-supreme-court-refunds-imports-a90ebe598b888832c68ca5ab03a88521",
+        "published_date": "Tue, 24 Feb 2026 07:53:02 +0000",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "Containers are stored in a cargo terminal in Frankfurt, Germany, Monday, Feb. 23, 2026. (AP Photo/Michael Probst)2026-02-24T05:01:05Z\n                                        WASHINGTON (AP) — The Supreme Court’s stunning rebuke of President Donald Trump’s most sweeping tariffs means he can’t conjure up new import taxes on a whim anymore.But the justices’ ruling on Friday is nonetheless unlikely to ease the uncertainty over Trump’s trade policy that has paralyzed businesses over the past year. “I",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:41:52.369523+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "fallback_rss",
+          "rss_url": "https://feedx.net/rss/ap.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:41:52.369524+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "E",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 80,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "news-20260225-apnews-005",
+      "title": "FACT FOCUS: A look at Trump’s false and misleading claims ahead of the State of the Union",
+      "source": {
+        "name": "Associated Press",
+        "short_name": "apnews",
+        "type": "news_direct",
+        "url": "https://apnews.com/article/fact-check-trump-state-of-union-87b184f7a38e65fa97d27c05ba2497fa",
+        "published_date": "Tue, 24 Feb 2026 07:53:02 +0000",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "President Donald Trump speaks during an event to announce new tariffs in the Rose Garden at the White House, April 2, 2025, in Washington. (AP Photo/Mark Schiefelbein, File)2026-02-24T05:10:39Z\n                                        President Donald Trump will deliver the first State of the Union address of his second term on Tuesday. Priorities for the Republican’s administration have centered largely on the economy, immigration, crime, energy and national security.Trump has spent the last yea",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:41:52.369612+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "fallback_rss",
+          "rss_url": "https://feedx.net/rss/ap.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:41:52.369613+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 80,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 4,
+      "id": "news-20260225-wsj-002",
+      "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "source": {
+        "name": "The Wall Street Journal",
+        "short_name": "wsj",
+        "type": "news_direct",
+        "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+        "published_date": "Mon, 27 Jan 2025 12:32:00 -0500",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:33.393454+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:33.393457+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Wild Card",
+        "horizon": "H1",
+        "psst_score": 88,
+        "tipping_point": "YELLOW",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 5,
+      "id": "news-20260225-nytimes-007",
+      "title": "Surgeon General Pick Is Pressed on Vaccines and Pesticides in Hearing",
+      "source": {
+        "name": "The New York Times",
+        "short_name": "nytimes",
+        "type": "news_direct",
+        "url": "https://www.nytimes.com/live/2026/02/25/us/trump-news#section-106046249",
+        "published_date": "Wed, 25 Feb 2026 17:32:58 +0000",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "Dr. Casey Means, a wellness influencer and critic of mainstream medicine, is appearing before a Senate committee.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:20.120455+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:20.120457+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Wild Card",
+        "horizon": "H1",
+        "psst_score": 88,
+        "tipping_point": "YELLOW",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 6,
+      "id": "news-20260225-aitimes-015",
+      "title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "source": {
+        "name": "AI타임스",
+        "short_name": "aitimes",
+        "type": "news_direct",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=207259",
+        "published_date": "2026-02-25 17:35:00",
+        "language": "ko",
+        "region": "KR",
+        "group": "KR-기술"
+      },
+      "content": {
+        "abstract": "구글이 기존 ‘AI 포 사이언스 펀드’에 이어, 차세대 과학적 발견을 가속하기 위해 3000만달러(약 430억원) 규모의 글로벌 공모전 ‘구글닷오알지 임팩트 챌린지: 과학을 위한 AI’를 개최한다고 25일 밝혔다. 이번 공모전은 인류가 직면한 중대 과제를 해결하고 노벨상 수준의 획기적인 성과를 달성하는 것이 목표다. 연구진, 비영리 단체 및 사회적 기업이 대상으로 , ▲보건 및 생명과학 ▲위기 대응 복원력 ▲환경 과학 분야 등의 혁신적 프로젝트를 모색한다.선정 조직에는 혁신 기술 연구를 위한 자금 지원과 ‘구글닷오알지 액셀러레이터’",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:13.815080+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.aitimes.com/rss/allArticle.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:13.815082+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Wild Card",
+        "horizon": "H1",
+        "psst_score": 83,
+        "tipping_point": "YELLOW",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 7,
+      "id": "news-20260225-straitstimes-009",
+      "title": "Rubio begins talks with Caribbean leaders amid Cuba worries",
+      "source": {
+        "name": "The Straits Times",
+        "short_name": "straitstimes",
+        "type": "news_direct",
+        "url": "https://www.straitstimes.com/world/rubio-begins-talks-with-caribbean-leaders-amid-cuba-worries",
+        "published_date": "Thu, 26 Feb 2026 00:52:29 +0800",
+        "language": "en",
+        "region": "SG",
+        "group": "EN-아시아"
+      },
+      "content": {
+        "abstract": "BASSETERRE, Saint Kitts and Nevis, Feb 25 - U.S. Secretary of State Marco Rubio arrived in the Caribbean on Wednesday and began talks with leaders in the region who are warning that a growing humanitarian crisis in Cuba could destabilize their region.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:52.855823+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.straitstimes.com/news/world/rss.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:52.855824+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Wild Card",
+        "horizon": "H1",
+        "psst_score": 83,
+        "tipping_point": "YELLOW",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 8,
+      "id": "news-20260225-nknews-007",
+      "title": "ROK envoy urges North Korea to comply with nuclear treaty, return to talks",
+      "source": {
+        "name": "NK News",
+        "short_name": "nknews",
+        "type": "news_direct",
+        "url": "https://www.nknews.org/2026/02/rok-envoy-urges-north-korea-to-comply-with-nuclear-treaty-return-to-talks/",
+        "published_date": "Tue, 24 Feb 2026 06:38:37 +0000",
+        "language": "en",
+        "region": "KR",
+        "group": "EN-한반도"
+      },
+      "content": {
+        "abstract": "Seoul’s nuclear envoy urged North Korea to comply with the landmark international treaty constraining nuclear development and return to dialogue on Monday, reiterating the South’s commitment to peace and denuclearization. Vice Minister for Diplomatic Strategy and Intelligence Jeong Yeon-doo made the call for Pyongyang to abide by the Nuclear Non-Proliferation Treaty (NPT) and U.N. Security [&#8230;]",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:58.752170+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.nknews.org/feed/",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:58.752171+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "P",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 75,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 9,
+      "id": "news-20260225-bloomberg-005",
+      "title": "Nvidia Earnings Loom as Risk Factor for AI-Obsessed Stock Market - Bloomberg.com",
+      "source": {
+        "name": "Bloomberg",
+        "short_name": "bloomberg",
+        "type": "news_direct",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUHE2WXhqV29sdVBnQy1IN08xaVdHVVhla3h5bmdKb25qVU1UNEVxTHFvbWMtcjJlYk1EUkRpY19yUXN6WjJ5c3FDOEYyeFVaU1BiRnNRYkY5Z0YyV3RaMktkaFA5aFRBdUNrWDZ3NzZHQ1pLX2xWemVGTFdySVh0NENmNE1WQXptWnRwc05sSXlIZkI3bG9xSFp0dUl3YWNLOXIycldneU1iY0xYS0RCNWM2Z1JlUQ?oc=5",
+        "published_date": "Wed, 25 Feb 2026 15:00:01 GMT",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "Nvidia Earnings Loom as Risk Factor for AI-Obsessed Stock Market&nbsp;&nbsp;Bloomberg.com",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:42:05.460033+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "fallback_rss",
+          "rss_url": "https://news.google.com/rss/search?q=site:bloomberg.com&hl=en-US&gl=US&ceid=US:en",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:42:05.460034+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 75,
+        "tipping_point": "YELLOW",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 10,
+      "id": "news-20260225-scmp-012",
+      "title": "How Saudi diplomacy is thwarting Trump’s desire for war with Iran",
+      "source": {
+        "name": "South China Morning Post",
+        "short_name": "scmp",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/opinion/world-opinion/article/3344333/how-saudi-diplomacy-thwarting-trumps-desire-war-iran?utm_source=rss_feed",
+        "published_date": "Wed, 25 Feb 2026 12:30:07 +0000",
+        "language": "en",
+        "region": "HK",
+        "group": "EN-아시아"
+      },
+      "content": {
+        "abstract": "The new year is not off to a good start. In January, US president Donald Trump ordered the abduction of Venezuelan President Nicolas Maduro and now there is a massive US military build-up in the Middle East, apparently aimed at Iran. One aircraft carrier strike group has arrived in the region, with another one on the way.\nHowever, there does appear to be a silver lining to the stand-off. Unlike last year, when US bombers struck Iranian nuclear facilities during the conflict between Iran and...",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:51.250276+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.scmp.com/rss/91/feed",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:51.250277+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "P",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 75,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 11,
+      "id": "news-20260225-techcrunch-015",
+      "title": "Nvidia challenger AI chip startup MatX raised $500M",
+      "source": {
+        "name": "TechCrunch",
+        "short_name": "techcrunch",
+        "type": "news_direct",
+        "url": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+        "published_date": "Wed, 25 Feb 2026 00:45:47 +0000",
+        "language": "en",
+        "region": "US",
+        "group": "EN-기술"
+      },
+      "content": {
+        "abstract": "The startup was founded by former Google TPU engineers in 2023.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:41:02.602865+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://techcrunch.com/feed/",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:41:02.602867+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 70,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 12,
+      "id": "news-20260225-khan-015",
+      "title": "정부, 석유화학 재편에 2조원 이상 쏜다",
+      "source": {
+        "name": "경향신문",
+        "short_name": "khan",
+        "type": "news_direct",
+        "url": "https://www.khan.co.kr/article/202602252053005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "2026-02-25T20:53:00+09:00",
+        "language": "ko",
+        "region": "KR",
+        "group": "KR-종합"
+      },
+      "content": {
+        "abstract": "롯데케미칼 대산공장, HD현대케미칼과 합병·통합 운영 골자‘대산 1호 프로젝트’ 승인…NCC 가동 중단, ‘지원 패키지’ 제공중국·중동발 공급과잉 위기에 대응하기 위한 석유화학산업 재편 계획 ‘대산 1호 프로젝트’가 본격 가동한다. 기업의 자구노력을 강조하며 드러나지 않던 정부 지원책도 모습을 드러냈다.산업통상부는 25일 정부서울청사에서 열린 산업경제장관회···",
+        "keywords": [],
+        "language": "ko"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:39:53.469506+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.khan.co.kr/rss/rssdata/total_news.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:39:53.469507+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "E",
+        "fssf_type": "Wild Card",
+        "horizon": "H1",
+        "psst_score": 87,
+        "tipping_point": "YELLOW",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 13,
+      "id": "news-20260225-politico-006",
+      "title": "Noem restricts disaster aid over shutdown that targets ICE",
+      "source": {
+        "name": "Politico",
+        "short_name": "politico",
+        "type": "news_direct",
+        "url": "https://www.politico.com/news/2026/02/22/noem-restricts-disaster-aid-ice-budget-shutdown-00792447",
+        "published_date": "Sun, 22 Feb 2026 16:11:21 EST",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "The Federal Emergency Management Agency will stop paying for nonemergency activities.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:38.973534+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://rss.politico.com/politics-news.xml",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:38.973535+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 75,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 14,
+      "id": "news-20260225-japantimes-011",
+      "title": "Former BOJ chief Kuroda calls for rate hikes and tighter fiscal policy",
+      "source": {
+        "name": "The Japan Times",
+        "short_name": "japantimes",
+        "type": "news_direct",
+        "url": "https://www.japantimes.co.jp/business/2026/02/25/economy/ex-boj-governor-haruhiko-kuroda-rate-hikes/",
+        "published_date": "Wed, 25 Feb 2026 16:16:00 +0900",
+        "language": "en",
+        "region": "JP",
+        "group": "EN-아시아"
+      },
+      "content": {
+        "abstract": "Former Bank of Japan Gov. Haruhiko Kuroda has warned that Prime Minister Sanae Takaichi's spending plans could stoke an inflationary upswing.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:54.887627+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.japantimes.co.jp/feed/",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:54.887629+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "P",
+        "fssf_type": "Emerging Issue",
+        "horizon": "H1",
+        "psst_score": 73,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    },
+    {
+      "rank": 15,
+      "id": "news-20260225-scmp-004",
+      "title": "Hong Kong’s virtual asset sector considered for taxation under policy review",
+      "source": {
+        "name": "South China Morning Post",
+        "short_name": "scmp",
+        "type": "news_direct",
+        "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344648/hong-kongs-virtual-asset-sector-considered-taxation-under-policy-review?utm_source=rss_feed",
+        "published_date": "Wed, 25 Feb 2026 15:12:25 +0000",
+        "language": "en",
+        "region": "HK",
+        "group": "EN-아시아"
+      },
+      "content": {
+        "abstract": "A new government committee tasked with reviewing Hong Kong’s tax policies will consider updating them to allow for levies on the virtual asset sector and selected emerging industries, while providing incentives to attract business and investment, the South China Morning Post has learned.\nThe SCMP learned of the development on Wednesday as experts called for Financial Secretary Paul Chan Mo-po to regard the new Advisory Committee on Tax Policy, which he will chair, as an opportunity to conduct a.",
+        "keywords": [],
+        "language": "en"
+      },
+      "preliminary_category": "",
+      "collected_at": "2026-02-25T17:40:51.250187+00:00",
+      "scan_metadata": {
+        "execution_proof": {
+          "crawler": "news_direct_crawler",
+          "strategy": "rss_first",
+          "rss_url": "https://www.scmp.com/rss/91/feed",
+          "http_status": 200,
+          "timestamp": "2026-02-25T17:40:51.250189+00:00"
+        }
+      },
+      "classification": {
+        "steeps": "T",
+        "fssf_type": "Weak Signal",
+        "horizon": "H1",
+        "psst_score": 80,
+        "tipping_point": "GREEN",
+        "uncertainty": "Medium"
+      }
+    }
+  ]
+}

@@ -207,14 +207,15 @@ core_invariants:
         description: "Each workflow runs its own SIE; shared configs not modifiable by SIE"
         enforcement: "workflow-registry.yaml sie_policy: independent"
 
-  # --- Report Quality 4-Layer Defense (v1.3.0, 2026-02-02) ---
+  # --- Report Quality Defense (v1.3.0 origin, v2.3.0 expanded) ---
   report_quality_defense:
     description: >
-      4-layer defense system ensuring report quality consistency.
-      Introduced after the 2026-02-02 regression where LLM non-determinism
+      Multi-layer defense system ensuring report quality consistency.
+      Originated after the 2026-02-02 regression where LLM non-determinism
       caused 4/9 signal fields, 3/8 sections, and 69% content to be silently
-      dropped. This defense is IMMUTABLE — every layer must execute on every
-      report generation cycle. Disabling or bypassing any layer is forbidden.
+      dropped. Expanded in v2.3.0 with cross-reference quality (L2b) and
+      semantic depth review (L3). Every layer must execute on every report
+      generation cycle. Disabling or bypassing any layer is forbidden.
     immutable: true
     incident_reference: "2026-02-02 report regression (22KB vs 71KB)"
 
@@ -230,17 +231,18 @@ core_invariants:
         enforcement: "report-generator.md GENERATION METHOD section"
         artifact: "references/report-skeleton.md"
 
-      - id: "L2_VALIDATION"
-        name: "Programmatic Validation (validate_report.py)"
+      - id: "L2A_STRUCTURAL_VALIDATION"
+        name: "Structural Validation (validate_report.py)"
         description: >
           Every generated report MUST be validated by validate_report.py
-          BEFORE proceeding to archiving or approval. The script performs
-          14 checks across FILE, SEC, SIG, S5, S3, S4, QUAL, SKEL categories.
+          BEFORE proceeding to L2b. The script performs 15-20 checks
+          (profile-dependent) across FILE, SEC, SIG, S5, S3, S4, QUAL,
+          SKEL, EXPLO categories.
           Exit codes: 0=PASS, 1=FAIL(CRITICAL), 2=WARN(ERROR-only).
           Skipping validation is FORBIDDEN.
         enforcement: "orchestrator Step 3.2 POST-VERIFY"
         artifact: "scripts/validate_report.py"
-        checks_count: 14
+        checks_count_range: "15-20 (profile-dependent)"
         critical_checks:
           - "FILE-001: Report file exists"
           - "FILE-002: File size >= 1KB"
@@ -250,20 +252,36 @@ core_invariants:
           - "S5-001: Section 5 has 5.1/5.2/5.3 subsections"
           - "SKEL-001: No unfilled {{PLACEHOLDER}} tokens"
 
-      - id: "L3_AUTO_RETRY"
-        name: "Progressive Escalation Retry"
+      - id: "L2B_CROSS_REFERENCE_QUALITY"
+        name: "Cross-Reference Quality (validate_report_quality.py)"
         description: >
-          On CRITICAL validation failure, the orchestrator MUST execute
-          a 3-stage retry protocol. It must NOT silently accept a failed
-          report. The retry budget (max 2 retries) is enforced by VEV.
-        enforcement: "orchestrator Step 3.2 POST-VERIFY retry block"
-        stages:
-          - stage: 1
-            action: "Targeted Fix — pass violation list to report-generator"
-          - stage: 2
-            action: "Full Skeleton Regen — pass template + violations + golden reference"
-          - stage: 3
-            action: "Human Escalation — warning banner + E3200 error at Step 3.4"
+          After L2a passes, validate_report_quality.py cross-checks the
+          report against analysis JSON files (priority-ranked, scan-window).
+          13 deterministic QC checks verify data consistency that L2a cannot
+          detect: priority ordering, executive summary match, pSST badge
+          accuracy, source date window, cross-impact reference traceability,
+          field depth, STEEPs classification, intra-report duplicates,
+          quantitative grounding, vague language detection, cross-signal
+          synthesis, time horizon keywords, and action verb presence.
+          Exit codes: 0=PASS, 1=FAIL(CRITICAL), 2=WARN(ERROR-only).
+        enforcement: "orchestrator Step 3.2 Quality Defense Step C"
+        artifact: "scripts/validate_report_quality.py"
+        checks_count: 13
+        principle: "계산은 Python이, 판단은 LLM이 — deterministic checks only"
+
+      - id: "L3_SEMANTIC_REVIEW"
+        name: "Semantic Depth Review (quality-reviewer.md)"
+        description: >
+          After L2b passes, the quality-reviewer LLM sub-agent evaluates
+          analytical depth, strategic grounding, and overall coherence —
+          aspects requiring judgment, not computation. 3-pass protocol:
+          (1) Analytical Depth, (2) Strategic Grounding, (3) Overall Coherence.
+          Also reviews QC-007 flags from L2b for false positive determination.
+          Gate: must_fix_count 0 → proceed, 1-5 → retry, >5 → human escalation.
+        enforcement: "orchestrator Step 3.2 Quality Defense Step C"
+        artifact: "workers/quality-reviewer.md"
+        output: "logs/quality-review-{date}.json"
+        principle: "계산은 Python이, 판단은 LLM이 — semantic judgment only"
 
       - id: "L4_GOLDEN_REFERENCE"
         name: "Golden Reference Example"
@@ -286,6 +304,21 @@ core_invariants:
           - "추론"
           - "이해관계자"
           - "모니터링 지표"
+
+    # Recovery mechanism (applies across all defense layers)
+    progressive_retry:
+      description: >
+        On CRITICAL failure at any layer (L2a, L2b, or L3), the orchestrator
+        MUST execute a progressive retry protocol. It must NOT silently
+        accept a failed report. Total retry budget: max 2 across all layers.
+      enforcement: "orchestrator Step 3.2 RETRY section"
+      stages:
+        - stage: 1
+          action: "Targeted Fix — pass violation/remedy list to report-generator"
+        - stage: 2
+          action: "Full Skeleton Regen — pass template + violations + golden reference"
+        - stage: 3
+          action: "Human Escalation — warning banner + E3200 error at Step 3.4"
 
     # Minimum quality thresholds enforced by L2_VALIDATION
     quality_thresholds:

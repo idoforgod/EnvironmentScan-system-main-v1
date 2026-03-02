@@ -1,0 +1,22 @@
+{
+  "scan_date": "2026-03-01",
+  "workflow": "wf2-arxiv",
+  "total_assessed": 15,
+  "priority_ranked": [
+    {"id": "arxiv-2602-20946v1", "title": "Economics of AGI — Verification Bandwidth", "psst": 85, "impact": 95, "probability": 80, "urgency": 75, "novelty": 95, "weighted_score": 88.0, "grade": "A"},
+    {"id": "arxiv-2602-22540v1", "title": "Road to Useful Quantum Computers", "psst": 82, "impact": 85, "probability": 85, "urgency": 70, "novelty": 80, "weighted_score": 82.0, "grade": "B+"},
+    {"id": "arxiv-2603-00100v1", "title": "Quantum Attacks on Nuclear Infrastructure", "psst": 78, "impact": 90, "probability": 60, "urgency": 80, "novelty": 85, "weighted_score": 79.0, "grade": "B"},
+    {"id": "arxiv-2603-00201v1", "title": "Reasoning LLMs for Robot Control", "psst": 76, "impact": 80, "probability": 75, "urgency": 65, "novelty": 80, "weighted_score": 76.0, "grade": "B"},
+    {"id": "arxiv-2602-21500v1", "title": "Quantum LDPC Error Correction", "psst": 74, "impact": 75, "probability": 70, "urgency": 60, "novelty": 85, "weighted_score": 73.0, "grade": "B"},
+    {"id": "arxiv-2603-00350v1", "title": "Humanoid Robot Learning at Scale", "psst": 73, "impact": 80, "probability": 65, "urgency": 60, "novelty": 80, "weighted_score": 72.5, "grade": "B"},
+    {"id": "arxiv-2602-22100v1", "title": "Climate Regime Shift Detection", "psst": 72, "impact": 85, "probability": 60, "urgency": 70, "novelty": 75, "weighted_score": 73.5, "grade": "B"},
+    {"id": "arxiv-2603-00450v1", "title": "Hardware Trojan Detection in Chiplets", "psst": 70, "impact": 70, "probability": 70, "urgency": 65, "novelty": 75, "weighted_score": 70.0, "grade": "B-"},
+    {"id": "arxiv-2602-23000v1", "title": "VLMs for Autonomous Scientific Discovery", "psst": 75, "impact": 85, "probability": 60, "urgency": 55, "novelty": 90, "weighted_score": 73.5, "grade": "B"},
+    {"id": "arxiv-2602-21800v1", "title": "Personality Subnetworks in LLMs", "psst": 71, "impact": 75, "probability": 55, "urgency": 50, "novelty": 90, "weighted_score": 68.5, "grade": "B-"},
+    {"id": "arxiv-2603-00550v1", "title": "Federated Learning for Pandemic Preparedness", "psst": 68, "impact": 75, "probability": 65, "urgency": 55, "novelty": 70, "weighted_score": 68.0, "grade": "B-"},
+    {"id": "arxiv-2602-22800v1", "title": "Carbon-Aware Compute Scheduling", "psst": 67, "impact": 70, "probability": 70, "urgency": 60, "novelty": 65, "weighted_score": 67.5, "grade": "C+"},
+    {"id": "arxiv-2603-00700v1", "title": "Algorithmic Fairness in AI Labor Markets", "psst": 66, "impact": 75, "probability": 60, "urgency": 55, "novelty": 70, "weighted_score": 66.5, "grade": "C+"},
+    {"id": "arxiv-2602-23200v1", "title": "Post-Quantum MPC Protocols", "psst": 65, "impact": 65, "probability": 65, "urgency": 55, "novelty": 70, "weighted_score": 64.0, "grade": "C+"},
+    {"id": "arxiv-2602-22300v1", "title": "Sustainable AI Energy Benchmarks", "psst": 64, "impact": 65, "probability": 70, "urgency": 60, "novelty": 60, "weighted_score": 64.5, "grade": "C+"}
+  ]
+}

@@ -205,6 +205,7 @@ Pipeline_Gate_3:  # Phase 3 completion (before final metrics)
   checks:
     - database_updated: "new signals count in DB = classified signals count"
     - report_complete: "EN + KR report files exist with all 7 sections (including Section 7: Trust Analysis)"
+    - quality_review_completed: "L2b passed + L3 grade >= C; OR human approved with quality warning"
     - archive_stored: "archive/{year}/{month}/ contains report copies"
     - snapshot_created: "signals/snapshots/database-{date}.json exists"
     - psst_all_dimensions_complete: "all 6 pSST dimensions (SR,ES,CC,TC,DC,IC) exist for every ranked signal"
@@ -529,7 +530,7 @@ Phase 3: Implementation (id: phase3, blockedBy: [phase2])
 ├── 3.1b: Update signals database (blockedBy: [3.1a])
 ├── 3.1c: Verify database integrity (blockedBy: [3.1b])
 ├── 3.2a: Generate EN report (blockedBy: [3.1c])
-├── 3.2b: Quality check EN report (blockedBy: [3.2a])
+├── 3.2b: Quality check EN report — L2a+L2b+L3 (blockedBy: [3.2a])
 ├── 3.2c: Translate report to KR (blockedBy: [3.2b])
 ├── 3.2d: Verify KR translation quality (blockedBy: [3.2c])
 ├── 3.2e: Generate pSST trust analysis (blockedBy: [3.2a])
@@ -903,9 +904,9 @@ NOTE: Step 2.4 (Scenario Building) is conditional - create only when complexity 
     Then use TaskUpdate: addBlockedBy: [task3_1c_id]
 
 35. Use TaskCreate tool:
-    - subject: "3.2b: Quality check EN report"
-    - description: "Verify report structure, signal coverage, citation accuracy"
-    - activeForm: "Checking report quality"
+    - subject: "3.2b: Quality check EN report (L2a+L2b+L3)"
+    - description: "L2a: validate_report.py structural checks → L2b: validate_report_quality.py cross-reference QC → L3: quality-reviewer semantic depth review"
+    - activeForm: "Checking report quality (L2a→L2b→L3)"
     Store as "task3_2b_id"
     Then use TaskUpdate: addBlockedBy: [task3_2a_id]
 
@@ -3392,9 +3393,9 @@ python3 env-scanning/scripts/validate_report.py \
 
 | Exit Code | Status | Action |
 |-----------|--------|--------|
-| 0 | PASS | All 14 checks passed → proceed to Step 3.2b |
+| 0 | PASS | All checks passed → proceed to Step 4 (L2b Cross-Reference Quality) |
 | 1 | FAIL | CRITICAL checks failed → trigger RETRY (see ④ below) |
-| 2 | WARN | ERROR-level issues only → log warnings, proceed with caution |
+| 2 | WARN | ERROR-level issues only → log warnings, proceed to Step 4 (L2b) with caution |
 
 **Step 3: Map validator checks to VEV layers**
 
@@ -3432,6 +3433,74 @@ Additional Manual Checks (not in validator):
   - check: "STEEPs category distribution mentioned in report"
     on_fail: WARN
 ```
+
+**Step 4: Cross-Reference Quality Validation (L2b — Python 결정론적)**
+
+> v2.3.0: validate_report_quality.py가 보고서와 분석 JSON 간 교차 참조 정합성을 검증한다.
+> "계산은 Python이, 판단은 LLM이" — L2b는 계산, L3는 판단.
+
+**Pre-condition**: validate_report.py (L2a) must return exit code 0 or 2 (PASS or WARN).
+If L2a returns exit code 1 (CRITICAL), skip L2b and go directly to ④ RETRY.
+
+```bash
+python3 env-scanning/scripts/validate_report_quality.py \
+  {data_root}/reports/daily/environmental-scan-{date}.md \
+  {data_root}/analysis/priority-ranked-{date}.json \
+  --scan-window {scan_window_state_file} \
+  --language {bilingual_language} \
+  --workflow-id {workflow_name} \
+  --json \
+  > {data_root}/logs/qc-results-{date}.json
+```
+
+> **stdout redirect**: `--json` 출력을 `qc-results-{date}.json`에 저장한다.
+> 이 파일은 L3 quality-reviewer의 `qc_results_path` 입력으로 사용된다.
+
+| Exit Code | Status | Action |
+|-----------|--------|--------|
+| 0 | PASS | All 13 QC checks passed → proceed to L3 Semantic Review |
+| 1 | FAIL | CRITICAL checks failed (e.g., QC-003 pSST badge mismatch) → trigger ④ RETRY with remedy guidance |
+| 2 | WARN | Non-critical issues only (e.g., QC-007 STEEPs content) → log warnings, proceed to L3 |
+
+> **Remedy guidance**: When `--json` output includes `remedy` fields, pass these to the report-generator
+> during retry to enable targeted fixes. The `failed_signal_ids` field identifies exactly which
+> signal blocks need correction.
+
+**Step 5: Semantic Depth Review (L3 — LLM 의미론적 검토)**
+
+> v2.3.0: quality-reviewer sub-agent가 보고서의 분석 깊이, 전략적 근거, 전체 일관성을 평가한다.
+> Python이 잡지 못하는 "판단"이 필요한 품질 차원을 검증.
+
+**Pre-condition**: validate_report_quality.py (L2b) must return exit code 0 or 2.
+If L2b returns exit code 1 (CRITICAL), skip L3 and go directly to ④ RETRY.
+
+**Invoke**: Sub-agent with `@quality-reviewer` worker agent
+
+```yaml
+Agent: quality-reviewer
+Input:
+  report_path: {data_root}/reports/daily/environmental-scan-{date}.md
+  ranked_path: {data_root}/analysis/priority-ranked-{date}.json
+  qc_results_path: {data_root}/logs/qc-results-{date}.json
+  golden_reference: {Golden Reference example from report-generator.md}
+  date: {date}
+  data_root: {data_root}
+Output:
+  {data_root}/logs/quality-review-{date}.json
+```
+
+**Gate Logic** (from quality-reviewer output):
+
+| must_fix_count | Action |
+|----------------|--------|
+| 0 | Proceed to Step 3.2b (Translation) |
+| 1–5 | Pass must_fix items to report-generator for targeted retry (max 2 retries) |
+| > 5 | Escalate to human review immediately |
+
+> **IMPORTANT**: L3 retry is SEPARATE from L2a/L2b retry. If L3 triggers a targeted retry,
+> re-run report-generator with must_fix items → re-run validate_report.py (L2a) → re-run
+> validate_report_quality.py (L2b) → re-review ONLY fixed sections with quality-reviewer (L3).
+> Total retry budget across all layers: max 2 retries.
 
 #### ④ RETRY (실패 시 — 3단계 점진적 강화)
 
@@ -3487,10 +3556,16 @@ additional_data:
   report_path: "reports/daily/environmental-scan-{date}.md"
   word_count: {count}
   validation_result:
-    overall_status: "PASS|WARN|FAIL"
-    checks_passed: {count}
-    checks_failed: {count}
-    critical_failures: [{check_ids}]
+    l2a_status: "PASS|WARN|FAIL"
+    l2a_checks_passed: {count}
+    l2a_checks_failed: {count}
+    l2a_critical_failures: [{check_ids}]
+    l2b_status: "PASS|WARN|FAIL|SKIPPED"
+    l2b_qc_passed: {count}
+    l2b_qc_failed: {count}
+    l3_status: "PASS|WARN|FAIL|SKIPPED"
+    l3_grade: "A|B|C|D|N/A"
+    l3_must_fix_count: {count}
     retries_used: {0|1|2}
 ```
 
@@ -3853,12 +3928,22 @@ Pipeline_Gate_3_Checks:
     purpose: "Recovery point available"
     on_fail: WARN (create snapshot now if missing)
 
-  5_all_steps_verified:
+  5_quality_review_completed:
+    check: |
+      NORMAL: logs/quality-review-{date}.json exists
+        AND summary.recommendation != 'escalate_to_human'
+        AND summary.overall_grade in ['A','B','C']
+      ESCALATION: If step_3_4 decision = 'approved_with_quality_warning',
+        pass with WARN (human oversight supersedes gate)
+    purpose: "Cross-reference and semantic quality gate passed"
+    on_fail: WARN (quality review may have been skipped or failed — log for human awareness)
+
+  6_all_steps_verified:
     check: "Core steps (1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3) have verification records; conditional steps (1.5, 2.4) have VERIFIED or SKIPPED; human checkpoints (1.4, 2.5, 3.4) have verification records"
     purpose: "Complete verification trail"
     on_fail: WARN (log which steps lack verification — conditional steps marked SKIPPED are acceptable)
 
-  6_human_approvals_complete:
+  7_human_approvals_complete:
     check: "Step 2.5 and Step 3.4 approval decisions recorded"
     purpose: "Human oversight verification"
     on_fail: WARN
@@ -4498,6 +4583,7 @@ The following are now enforced via Pipeline Gates:
 **Pipeline Gate 3** (Phase 3 completion):
 - Database update verification
 - Report completeness (EN + KR)
+- Quality review completed (L2b + L3 grade ≥ C)
 - Archive storage verification
 - Snapshot creation
 - Complete verification trail

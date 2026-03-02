@@ -1,0 +1,23 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.0.0",
+  "command": "post",
+  "recorded_at": "2026-02-28T21:00:00.000000+00:00",
+  "date": "2026-02-28",
+  "gate_decision": "SKIP",
+  "execution_status": "skipped",
+  "method_used": "autopilot",
+  "reason": "Autopilot mode — exploration stage skipped to maintain pipeline velocity",
+  "results": {
+    "candidates_discovered": 0,
+    "viable_count": 0,
+    "signals_collected": 0,
+    "gaps_analyzed": ["E_Environmental", "S_Social", "s_spiritual"]
+  },
+  "files": {
+    "decision": null,
+    "candidates": null,
+    "signals": null,
+    "frontier_selection": null
+  }
+}

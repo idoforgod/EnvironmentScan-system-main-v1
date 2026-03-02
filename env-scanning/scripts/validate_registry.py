@@ -1423,6 +1423,23 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         "; ".join(invalid_profiles) if invalid_profiles else ""
     ))
 
+    # ── SOT-055: Quality defense scripts exist ──
+    # "Unvalidated SOT Is Not SOT" — all quality defense artifacts referenced by
+    # orchestrators and core-invariants.yaml must exist at startup.
+    quality_scripts = [
+        ("validate_report_quality.py", "env-scanning/scripts/validate_report_quality.py"),
+    ]
+    missing_quality = []
+    for name, rel_path in quality_scripts:
+        if not _file_exists(project_root, rel_path):
+            missing_quality.append(f"{name}: {rel_path}")
+    vr.results.append(CheckResult(
+        "SOT-055", "HALT",
+        "All quality defense scripts (validate_report_quality.py) must exist",
+        len(missing_quality) == 0,
+        f"Missing: {missing_quality}" if missing_quality else ""
+    ))
+
     return vr
 
 

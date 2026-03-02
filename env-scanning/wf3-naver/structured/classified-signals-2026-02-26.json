@@ -1,0 +1,605 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf3-naver",
+  "classification_method": "steeps_fssf_three_horizons",
+  "total_classified": 24,
+  "distribution": {
+    "P": 6,
+    "E": 6,
+    "T": 7,
+    "S": 3,
+    "s": 2
+  },
+  "fssf_distribution": {
+    "Wild Card": 2,
+    "Emerging Issue": 3,
+    "Driver": 3,
+    "Weak Signal": 3,
+    "Trend": 7,
+    "Megatrend": 2,
+    "Precursor Event": 3,
+    "Discontinuity": 1
+  },
+  "three_horizons_distribution": {
+    "H1": 20,
+    "H2": 4
+  },
+  "signals": [
+    {
+      "id": "naver-20260226-100-001",
+      "title": "김정은 \"美 적대정책 철회하면 좋게 지내지 못할 이유 없어…韓, 동족 범주에서 배제\"",
+      "category": "P",
+      "sub_domain": "North Korea policy shift",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "keywords": [
+        "김정은",
+        "남북관계",
+        "적대정책",
+        "동족 배제",
+        "외교"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/003/0013789394",
+      "published_date": "2026-02-26",
+      "press": "뉴시스",
+      "section": "정치",
+      "impact": "9.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "id": "naver-20260226-100-002",
+      "title": "백악관 \"트럼프, 김정은과 전제조건 없는 대화에 열려있다\"",
+      "category": "P",
+      "sub_domain": "US-DPRK diplomacy",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "keywords": [
+        "트럼프",
+        "김정은",
+        "미북관계",
+        "외교",
+        "전제조건 없는 대화"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/016/0002605893",
+      "published_date": "2026-02-26",
+      "press": "헤럴드경제",
+      "section": "정치",
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-100-003",
+      "title": "UAE 강훈식 실장 방문, 650억불 경제패키지…방산 협력만 350억불",
+      "category": "P",
+      "sub_domain": "defense diplomacy",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "keywords": [
+        "UAE",
+        "방산",
+        "경제협력",
+        "650억불",
+        "중동외교"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/008/0005323065",
+      "published_date": "2026-02-26",
+      "press": "머니투데이",
+      "section": "정치",
+      "impact": "8.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-104-001",
+      "title": "러시아 \"돈바스 내놓고 나토 나가\"…선 넘는 요구에 우크라전 종전협상 난망",
+      "category": "P",
+      "sub_domain": "Ukraine peace process",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "keywords": [
+        "러시아",
+        "우크라이나",
+        "종전협상",
+        "돈바스",
+        "NATO"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/028/0002793451",
+      "published_date": "2026-02-26",
+      "press": "한겨레",
+      "section": "세계",
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": true,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-104-002",
+      "title": "오만 \"미·이란 핵협상 상당한 진전…내주 빈에서 기술적 회담\"",
+      "category": "P",
+      "sub_domain": "Iran nuclear deal",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "keywords": [
+        "이란",
+        "핵협상",
+        "미국",
+        "오만",
+        "중재"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/003/0013791559",
+      "published_date": "2026-02-26",
+      "press": "뉴시스",
+      "section": "세계",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-104-003",
+      "title": "美 무역대표부 국가별 차등관세 시사...트럼프 '글로벌 관세'도 법적 논란",
+      "category": "P",
+      "sub_domain": "US trade policy",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "keywords": [
+        "트럼프",
+        "관세",
+        "무역전쟁",
+        "글로벌 공급망",
+        "차등관세"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/081/0003621202",
+      "published_date": "2026-02-26",
+      "press": "서울신문",
+      "section": "세계",
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "id": "naver-20260226-101-001",
+      "title": "한국은행, 기준금리 연 2.5% '6연속 동결'…반도체 호조에 성장률 1.8→2%",
+      "category": "E",
+      "sub_domain": "monetary policy",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "keywords": [
+        "기준금리",
+        "한국은행",
+        "동결",
+        "반도체",
+        "성장률"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/056/0012131526",
+      "published_date": "2026-02-26",
+      "press": "KBS",
+      "section": "경제",
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-101-002",
+      "title": "삼성전자 시총 1조달러 돌파…TSMC는 2조달러",
+      "category": "E",
+      "sub_domain": "semiconductor industry",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "keywords": [
+        "삼성전자",
+        "TSMC",
+        "반도체",
+        "시가총액",
+        "1조달러"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/449/0000336425",
+      "published_date": "2026-02-26",
+      "press": "채널A",
+      "section": "경제",
+      "impact": "8.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-101-003",
+      "title": "산업용 전기료 인상 효과…한전, 작년 영업익 13.5조 최대",
+      "category": "E",
+      "sub_domain": "energy economics",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "keywords": [
+        "한전",
+        "전기료",
+        "영업이익",
+        "에너지",
+        "산업용"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/009/0005642757",
+      "published_date": "2026-02-26",
+      "press": "매일경제",
+      "section": "경제",
+      "impact": "7.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-101-004",
+      "title": "쿠팡 Inc, 작년 영업이익 6790억·매출 49조…플랫폼 경제 질적 전환",
+      "category": "E",
+      "sub_domain": "platform economy",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "keywords": [
+        "쿠팡",
+        "매출",
+        "영업이익",
+        "플랫폼",
+        "이커머스"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/421/0008796864",
+      "published_date": "2026-02-26",
+      "press": "뉴스1",
+      "section": "경제",
+      "impact": "7.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-101-005",
+      "title": "\"집 팔지도 못하고 대출도 막혀\"…청량리8구역 등 위기 사업장 속출",
+      "category": "E",
+      "sub_domain": "real estate crisis",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "keywords": [
+        "부동산",
+        "재개발",
+        "위기",
+        "대출",
+        "사업장"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/009/0005642664",
+      "published_date": "2026-02-26",
+      "press": "매일경제",
+      "section": "경제",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": true,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-101-006",
+      "title": "TSMC 질주에 대만 증시 거래액 사상 첫 1조 대만달러 돌파",
+      "category": "E",
+      "sub_domain": "semiconductor market",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "keywords": [
+        "TSMC",
+        "대만",
+        "반도체",
+        "증시",
+        "글로벌 공급망"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/030/0003402445",
+      "published_date": "2026-02-26",
+      "press": "전자신문",
+      "section": "IT과학",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-105-001",
+      "title": "갤럭시 AI, 더 강해졌다…노태문 \"구글과 협력 확대\"",
+      "category": "T",
+      "sub_domain": "on-device AI",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "keywords": [
+        "갤럭시",
+        "AI",
+        "구글",
+        "온디바이스",
+        "삼성"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/215/0001243201",
+      "published_date": "2026-02-26",
+      "press": "한국경제TV",
+      "section": "IT과학",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-105-002",
+      "title": "갤럭시 S26 프라이버시 디스플레이…외신 \"애플이 베껴야 할 기능\"",
+      "category": "T",
+      "sub_domain": "privacy technology",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "keywords": [
+        "프라이버시",
+        "디스플레이",
+        "갤럭시",
+        "개인정보",
+        "기술혁신"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/138/0002219022",
+      "published_date": "2026-02-26",
+      "press": "디지털데일리",
+      "section": "IT과학",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-105-003",
+      "title": "네이버·카카오 AI는 정말 생활을 바꿀까…국내 AI 플랫폼 전환점",
+      "category": "T",
+      "sub_domain": "AI platforms",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "keywords": [
+        "네이버",
+        "카카오",
+        "AI",
+        "플랫폼",
+        "생활변화"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/029/0003012963",
+      "published_date": "2026-02-26",
+      "press": "디지털타임스",
+      "section": "IT과학",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-105-004",
+      "title": "정부 \"독파모 AI 개발 저작물 활용, 형사책임 면제 방안 검토\"",
+      "category": "T",
+      "sub_domain": "AI regulation",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "keywords": [
+        "AI",
+        "저작권",
+        "형사면제",
+        "규제",
+        "정부정책"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/016/0002605486",
+      "published_date": "2026-02-26",
+      "press": "헤럴드경제",
+      "section": "IT과학",
+      "impact": "9.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "id": "naver-20260226-105-005",
+      "title": "美 트럼프 행정부 '반도체 관세 15%' 재추진…글로벌 공급망 요동",
+      "category": "T",
+      "sub_domain": "semiconductor trade",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "keywords": [
+        "반도체",
+        "관세",
+        "트럼프",
+        "공급망",
+        "CHIPS Act"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/138/0002219021",
+      "published_date": "2026-02-26",
+      "press": "디지털데일리",
+      "section": "IT과학",
+      "impact": "9.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "id": "naver-20260226-105-006",
+      "title": "스스로 판단하는 AI 스마트폰…갤S26 울트라 가격 최대 41만8000원 인상",
+      "category": "T",
+      "sub_domain": "AI device pricing",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "keywords": [
+        "갤럭시S26",
+        "AI폰",
+        "가격인상",
+        "프리미엄",
+        "소비자"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/009/0005642274",
+      "published_date": "2026-02-26",
+      "press": "매일경제",
+      "section": "IT과학",
+      "impact": "6.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-105-007",
+      "title": "KAIST 이사회 새 총장 선임안 '부결'…재공모 추진",
+      "category": "T",
+      "sub_domain": "science governance",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "keywords": [
+        "KAIST",
+        "총장",
+        "부결",
+        "과학기술",
+        "거버넌스"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/056/0012132176",
+      "published_date": "2026-02-26",
+      "press": "KBS",
+      "section": "IT과학",
+      "impact": "6.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-102-001",
+      "title": "비싸고 불편한 정장 교복 '단계적 폐지'...생활복, 체육복도 상한가 정한다",
+      "category": "S",
+      "sub_domain": "education reform",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "keywords": [
+        "교복",
+        "폐지",
+        "교육",
+        "생활복",
+        "상한가"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000480438",
+      "published_date": "2026-02-26",
+      "press": "JTBC",
+      "section": "사회",
+      "impact": "6.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-102-002",
+      "title": "3·1절 앞두고 유관순 조롱 AI 영상 확산 논란…AI 딥페이크 윤리 문제 부각",
+      "category": "S",
+      "sub_domain": "AI ethics deepfake",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "keywords": [
+        "AI",
+        "딥페이크",
+        "유관순",
+        "윤리",
+        "역사왜곡"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/014/0005483125",
+      "published_date": "2026-02-26",
+      "press": "파이낸셜뉴스",
+      "section": "사회",
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "id": "naver-20260226-102-003",
+      "title": "국내 1위 병원 된 삼성서울병원, 글로벌 26위로 '껑충'…한국 의료 위상 변화",
+      "category": "S",
+      "sub_domain": "healthcare excellence",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "keywords": [
+        "삼성서울병원",
+        "글로벌 병원",
+        "의료",
+        "뉴스위크",
+        "순위"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/014/0005483071",
+      "published_date": "2026-02-26",
+      "press": "파이낸셜뉴스",
+      "section": "사회",
+      "impact": "6.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-103-001",
+      "title": "박찬욱, 이번엔 상 주러 칸 간다… 한국인 최초 심사위원장 위촉",
+      "category": "s",
+      "sub_domain": "cultural influence",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "keywords": [
+        "박찬욱",
+        "칸영화제",
+        "심사위원장",
+        "한국문화",
+        "소프트파워"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/366/0001144653",
+      "published_date": "2026-02-26",
+      "press": "조선비즈",
+      "section": "생활문화",
+      "impact": "7.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "id": "naver-20260226-103-002",
+      "title": "'유아 3명 사망' 분유 원료 중국산 밝혀져…'초비상' EU 검역 강화",
+      "category": "s",
+      "sub_domain": "food safety",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "keywords": [
+        "분유",
+        "중국산",
+        "식품안전",
+        "EU",
+        "검역"
+      ],
+      "source_url": "https://n.news.naver.com/mnews/article/029/0003012905",
+      "published_date": "2026-02-26",
+      "press": "디지털타임스",
+      "section": "세계",
+      "impact": "8.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    }
+  ]
+}

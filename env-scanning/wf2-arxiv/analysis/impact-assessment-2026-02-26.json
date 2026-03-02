@@ -1,0 +1,53 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf2-arxiv",
+  "total_assessed": 30,
+  "steeps_distribution": {
+    "T": 20,
+    "E_Environmental": 2,
+    "s": 2,
+    "E": 2,
+    "P": 2,
+    "S": 2
+  },
+  "cross_impact_clusters": [
+    {
+      "name": "Quantum Computing Maturation",
+      "signals": [
+        "arxiv-20260226-001",
+        "arxiv-20260226-002",
+        "arxiv-20260226-003",
+        "arxiv-20260226-028",
+        "arxiv-20260226-030"
+      ],
+      "impact": "9.0/10"
+    },
+    {
+      "name": "LLM Safety and Alignment",
+      "signals": [
+        "arxiv-20260226-005",
+        "arxiv-20260226-006",
+        "arxiv-20260226-019"
+      ],
+      "impact": "8.5/10"
+    },
+    {
+      "name": "AI Agent Autonomy",
+      "signals": [
+        "arxiv-20260226-007",
+        "arxiv-20260226-016",
+        "arxiv-20260226-017",
+        "arxiv-20260226-020"
+      ],
+      "impact": "8.0/10"
+    },
+    {
+      "name": "Neurotech and Brain Interfaces",
+      "signals": [
+        "arxiv-20260226-012",
+        "arxiv-20260226-024"
+      ],
+      "impact": "8.5/10"
+    }
+  ]
+}

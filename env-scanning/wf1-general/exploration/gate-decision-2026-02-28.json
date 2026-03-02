@@ -1,0 +1,14 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.0.0",
+  "command": "decide",
+  "recorded_at": "2026-02-28T21:00:00.000000+00:00",
+  "date": "2026-02-28",
+  "decision": "SKIP",
+  "reason": "Autopilot mode — exploration stage skipped",
+  "gap_analysis": {
+    "weak_categories": ["E_Environmental"],
+    "coverage_ratio": 0.83,
+    "action": "no_exploration"
+  }
+}

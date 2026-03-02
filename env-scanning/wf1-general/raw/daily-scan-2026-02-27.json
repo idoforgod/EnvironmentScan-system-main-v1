@@ -1,0 +1,320 @@
+{
+  "scan_date": "2026-02-27",
+  "workflow": "wf1-general",
+  "scan_window": {
+    "start": "2026-02-26T18:34:45+00:00",
+    "end": "2026-02-27T18:34:45+00:00",
+    "lookback_hours": 24,
+    "enforce": "strict"
+  },
+  "scan_metadata": {
+    "execution_proof": {
+      "started_at": "2026-02-27T18:34:45+00:00",
+      "anchor_timestamp": "2026-02-27T18:34:45+00:00",
+      "sources_scanned": 24,
+      "sources_succeeded": 22,
+      "sources_failed": 2,
+      "total_raw_items": 38,
+      "method": "web_search_augmented",
+      "marathon_mode": true
+    }
+  },
+  "items": [
+    {
+      "id": "fed-20260227-001",
+      "title": "NRC Proposes Regulatory Framework for Fusion Machines",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/02/26/2026-03865/regulatory-framework-for-fusion-machines", "published_date": "2026-02-26"},
+      "content": {"abstract": "The US Nuclear Regulatory Commission proposes to amend its regulations to augment the existing byproduct material framework to be inclusive of fusion machines, with technology-inclusive requirements. This represents the first dedicated regulatory pathway for commercial fusion energy in the US.", "keywords": ["fusion energy", "regulation", "NRC", "nuclear", "clean energy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:00+00:00"
+    },
+    {
+      "id": "fed-20260227-002",
+      "title": "H-1B Weighted Selection Process Final Rule Effective Feb 27",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2025/12/29/2025-23853/weighted-selection-process-for-registrants-and-petitioners-seeking-to-file-cap-subject-h-1b", "published_date": "2026-02-27"},
+      "content": {"abstract": "DHS final rule replaces the random H-1B cap lottery with a weighted selection process favoring higher wage levels for the FY2027 registration season. This fundamentally restructures how skilled foreign workers access US labor market.", "keywords": ["immigration", "H-1B", "labor", "workforce", "regulation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:00+00:00"
+    },
+    {
+      "id": "fed-20260227-003",
+      "title": "Private Health Insurance Transparency in Coverage - Comment Period Extension",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/02/25/2026-03798/private-health-insurance-transparency-in-coverage-extension-of-comment-period", "published_date": "2026-02-25"},
+      "content": {"abstract": "Extension of public comment period for transparency requirements in private health insurance coverage, signaling ongoing regulatory development in healthcare price transparency.", "keywords": ["healthcare", "transparency", "insurance", "regulation"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:35:00+00:00"
+    },
+    {
+      "id": "tech-20260227-001",
+      "title": "Meta Signs Multi-Year Deal to Rent Google TPU AI Chips",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/", "published_date": "2026-02-27"},
+      "content": {"abstract": "Meta has signed a multi-year agreement to rent Google's in-house AI chips (TPUs) to train and run new AI models. This signals that demand for Nvidia-class compute remains tight, and chip strategy has become about supply assurance, software tooling, and negotiating leverage across multiple vendors.", "keywords": ["Meta", "Google", "TPU", "AI chips", "compute infrastructure", "Nvidia"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:36:00+00:00"
+    },
+    {
+      "id": "tech-20260227-002",
+      "title": "US Senators Reintroduce Bipartisan AI Standards Proposal",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/", "published_date": "2026-02-27"},
+      "content": {"abstract": "US senators have reintroduced a bipartisan proposal to strengthen American leadership in AI by supporting voluntary standards, benchmarks, and transparency guidelines, and by creating national lab testbeds for AI and related frontier technologies.", "keywords": ["AI regulation", "standards", "bipartisan", "policy", "testbeds"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:36:00+00:00"
+    },
+    {
+      "id": "tech-20260227-003",
+      "title": "MWC 2026: Phone Makers Push Radical Hardware Innovation as AI Features Plateau",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/", "published_date": "2026-02-27"},
+      "content": {"abstract": "Ahead of Mobile World Congress 2026, device makers are preparing ambitious phone concepts—rotating camera systems, modular add-ons, and mechanical experiments—as global smartphone growth stagnates and AI features alone no longer drive purchases.", "keywords": ["MWC", "smartphones", "hardware innovation", "modular design", "Samsung"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:36:00+00:00"
+    },
+    {
+      "id": "nature-20260227-001",
+      "title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months — Record Collapse",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/news", "published_date": "2026-02-27"},
+      "content": {"abstract": "Antarctica's Hektoria Glacier retreated eight kilometers in just two months, with nearly half of it collapsing in record time, driven by a flat, underwater bedrock surface. This represents unprecedented speed of ice loss.", "keywords": ["Antarctica", "glacier", "climate change", "ice collapse", "sea level"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:37:00+00:00"
+    },
+    {
+      "id": "nature-20260227-002",
+      "title": "Engineers Build Nighttime Energy Generator Tapping Cold of Outer Space",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/news", "published_date": "2026-02-27"},
+      "content": {"abstract": "Engineers at UC Davis have built a device that creates power at night by tapping into the cold of outer space. This innovative approach to energy generation could complement solar panels, creating 24/7 renewable energy systems.", "keywords": ["energy", "radiative cooling", "renewable", "night power", "innovation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:37:00+00:00"
+    },
+    {
+      "id": "nature-20260227-003",
+      "title": "New Methods to Shape Quantum Light: High-Dimensional Photon States",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/news", "published_date": "2026-02-27"},
+      "content": {"abstract": "Researchers have discovered new ways to shape quantum light, creating high-dimensional states that can carry much more information per photon. This advances quantum communication and computing capabilities.", "keywords": ["quantum", "photonics", "information", "quantum computing", "communication"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:37:00+00:00"
+    },
+    {
+      "id": "nature-20260227-004",
+      "title": "Seven Technologies to Watch in 2026: Quantum Computing to mRNA Therapeutics",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00188-6", "published_date": "2026-02-26"},
+      "content": {"abstract": "Nature identifies seven key technologies to watch in 2026 including quantum computing advancements, mRNA therapeutics expansion, ultra-small pores rivaling biological ion channels, and exercise mechanisms for brain protection.", "keywords": ["quantum computing", "mRNA", "technology forecast", "brain health", "nanopores"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:37:00+00:00"
+    },
+    {
+      "id": "who-20260227-001",
+      "title": "PAHO Director Analyzes 2026 Health Landscape of the Americas",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.paho.org/en/news/26-2-2026-paho-director-analyzes-2026-health-landscape-americas-post-pandemic-progress-and", "published_date": "2026-02-26"},
+      "content": {"abstract": "PAHO Director Dr. Jarbas Barbosa presented overview of three years in office, analyzing health achievement and challenges in the Americas. Topics include post-pandemic progress, persistent challenges including dengue resurgence, and health system preparedness.", "keywords": ["PAHO", "health", "Americas", "pandemic", "dengue", "health systems"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:37:00+00:00"
+    },
+    {
+      "id": "un-20260227-001",
+      "title": "UN Approves First Carbon Credits Under Paris Agreement Market Mechanism",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.aljazeera.com/news/2026/2/26/un-approves-first-carbon-credits-under-paris-agreement-market-mechanism", "published_date": "2026-02-26"},
+      "content": {"abstract": "The UN has approved the first credits under a carbon market established by the Paris climate accord. The initiative involves a clean cooking project in Myanmar distributing efficient cookstoves, with credits counting towards South Korea and Myanmar climate targets.", "keywords": ["carbon credits", "Paris Agreement", "carbon market", "climate", "Myanmar", "South Korea"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:38:00+00:00"
+    },
+    {
+      "id": "un-20260227-002",
+      "title": "South Sudan Driven Toward Full-Scale War and Mass Atrocity Crimes — UN Inquiry",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.ohchr.org/en/press-releases/2026/02/un-inquiry-finds-south-sudans-political-and-military-leaders-are-driving", "published_date": "2026-02-27"},
+      "content": {"abstract": "UN inquiry finds South Sudan's political and military leaders are systematically dismantling the 2018 Revitalized Peace agreement, undermining governance and security safeguards, and exposing civilians to grave risks of renewed armed conflict and mass atrocity crimes.", "keywords": ["South Sudan", "conflict", "peace agreement", "atrocity", "governance"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:38:00+00:00"
+    },
+    {
+      "id": "un-20260227-003",
+      "title": "UN Creates New Scientific AI Advisory Panel",
+      "source": {"name": "UN News", "type": "policy", "url": "https://www.nature.com/articles/d41586-026-00542-8", "published_date": "2026-02-26"},
+      "content": {"abstract": "The United Nations has established a new scientific AI advisory panel to provide independent, evidence-based guidance on AI risks and opportunities. The panel aims to bridge the gap between AI research and global governance.", "keywords": ["UN", "AI", "advisory panel", "governance", "international"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:38:00+00:00"
+    },
+    {
+      "id": "oecd-20260227-001",
+      "title": "OECD Economic Survey of Mexico 2026: Growth Amid Tariff Uncertainty",
+      "source": {"name": "OECD Newsroom", "type": "policy", "url": "https://www.oecd.org/en/about/news/media-advisories/2026/02/oecd-economic-survey-of-mexico-2026-launches-on-thursday-26-february-2026.html", "published_date": "2026-02-26"},
+      "content": {"abstract": "OECD launched its Economic Survey of Mexico analyzing the economy amid global tariff uncertainty. OECD projects global GDP growth slowing from 3.2% in 2025 to 2.9% in 2026 as higher effective tariff rates take fuller effect.", "keywords": ["OECD", "Mexico", "GDP", "tariffs", "global economy", "slowdown"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:39:00+00:00"
+    },
+    {
+      "id": "carbon-20260227-001",
+      "title": "China's CO2 Emissions 'Flat or Falling' as Clean Energy Surpasses Coal Capacity",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/china-briefing-19-february-2026-co2-emissions-flat-or-falling-first-tariff-lifted-ma-jun-on-carbon-data/", "published_date": "2026-02-26"},
+      "content": {"abstract": "China's CO2 emissions have been flat or falling for almost two years—the first time annual emissions may have fallen when energy demand was rising. Wind and solar capacity has outranked coal for the first time in history. Solar alone may outpace coal in 2026.", "keywords": ["China", "CO2", "emissions", "solar", "wind", "coal", "clean energy"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:39:00+00:00"
+    },
+    {
+      "id": "carbon-20260227-002",
+      "title": "Targeted Climate Policies Cut 3 Billion Tonnes CO2 in 2022 — Landmark Study",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://phys.org/news/2026-02-climate-policies-successfully-carbon.html", "published_date": "2026-02-26"},
+      "content": {"abstract": "Countries with stricter and better-targeted climate policies cut carbon emissions faster, according to a major study using 3,900+ policies from 43 economies since 2000. More than 3 billion tonnes of CO2 were avoided in 2022 alone—equal to the EU's annual emissions.", "keywords": ["climate policy", "emissions reduction", "CO2", "policy effectiveness"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:39:00+00:00"
+    },
+    {
+      "id": "carbon-20260227-003",
+      "title": "EU Climate Advisory Board Urges Countries to Prepare for 3C Warming",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/debriefed-20-february-2026-eus-3c-warning-endangerment-repeals-impact-on-us-emissions-tree-invasion-fuelled-south-americas-fires/", "published_date": "2026-02-26"},
+      "content": {"abstract": "The EU's climate advisory board has urged countries to prepare for 3C of global warming, a stark warning that current policies may be insufficient. This signals a potential paradigm shift from mitigation to adaptation planning in climate policy.", "keywords": ["EU", "climate", "3C warming", "adaptation", "policy"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:39:00+00:00"
+    },
+    {
+      "id": "imf-20260227-001",
+      "title": "IMF Raises Global Growth Forecast to 3.3% for 2026 — Tech-Driven Boom Offsets Tariffs",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://www.imf.org/en/blogs/articles/2026/01/19/global-economy-shakes-off-tariff-shock-amid-tech-driven-boom", "published_date": "2026-02-26"},
+      "content": {"abstract": "The IMF has improved global economic growth forecast for 2026 to 3.3%, 0.2pp above October estimate. Growth shows resilience despite trade disruptions, with headwinds from tariff changes offset by rapid technology-related investment including AI. Global inflation expected to decline from 4.1% to 3.8%.", "keywords": ["IMF", "GDP", "growth", "AI investment", "tariffs", "inflation"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:40:00+00:00"
+    },
+    {
+      "id": "brookings-20260227-001",
+      "title": "Building Pro-Worker AI: Acemoglu, Autor, and Johnson on Labor-Friendly Technology",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Daron Acemoglu, David Autor, and Simon Johnson (all MIT/Nobel laureates) address how to build artificial intelligence that augments rather than replaces workers. This reflects growing academic and policy focus on AI's distributional impacts.", "keywords": ["AI", "labor", "workers", "inequality", "economic policy", "Acemoglu"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:40:00+00:00"
+    },
+    {
+      "id": "brookings-20260227-002",
+      "title": "Chip Export Controls May Be Right If Superintelligence Isn't Imminent",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Analysis argues the Trump administration may be correct to loosen advanced chip export controls if superintelligence is not imminent. This challenges assumptions of AI existential risk timeline and highlights tension between national security and economic competitiveness.", "keywords": ["chip exports", "AI", "superintelligence", "national security", "trade policy"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:40:00+00:00"
+    },
+    {
+      "id": "wef-20260227-001",
+      "title": "WEF Global Risks Report 2026: Geoeconomic Confrontation Tops Short-Term Risks",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org/publications/global-risks-report-2026/", "published_date": "2026-02-26"},
+      "content": {"abstract": "WEF's 2026 Global Risks Report finds geoeconomic confrontation and state-based armed conflict top the 2-year risks outlook. Environmental risks dominate long-term (10-year) outlook. Economic risks (downturn, inflation, asset bubbles) rose sharply. 50% of respondents expect 2026 to be turbulent or stormy.", "keywords": ["global risks", "geoeconomics", "conflict", "environmental", "economic downturn", "WEF"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:40:00+00:00"
+    },
+    {
+      "id": "pew-20260227-001",
+      "title": "Pew Research: Family Caregiving Burden in America — New Survey of 8,750 Adults",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-methodology/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Pew Research Center releases comprehensive survey on family caregiving patterns among 8,750 US adults. The study examines economic burden of unpaid caregiving with an oversample of non-Hispanic Asian adults, highlighting demographic shifts in care responsibilities.", "keywords": ["caregiving", "demographics", "family", "aging", "social trends"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-02-27T18:41:00+00:00"
+    },
+    {
+      "id": "ieee-20260227-001",
+      "title": "Tensor Plans SAE Level 4 Autonomous Car Release in H2 2026",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/tech-in-2026", "published_date": "2026-02-26"},
+      "content": {"abstract": "Automotive startup Tensor plans to release its SAE Level 4 autonomous vehicle to consumers in H2 2026—meaning the car can safely travel without a person in the driver's seat. This represents a major milestone in consumer autonomous driving.", "keywords": ["autonomous vehicles", "Level 4", "self-driving", "Tesla competitor", "transportation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:41:00+00:00"
+    },
+    {
+      "id": "ieee-20260227-002",
+      "title": "First Deuterium-Tritium Fusion Fuel Cycle Demonstration Planned for Late 2026",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/new-technology-2026", "published_date": "2026-02-26"},
+      "content": {"abstract": "The first-ever project to demonstrate the complete deuterium-tritium fuel cycle plans to be operational by late 2026, running through the entire D-T fuel process including discharge, purification, and resupply. This is a critical step toward commercial fusion energy.", "keywords": ["fusion", "deuterium-tritium", "energy", "clean energy", "nuclear"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:41:00+00:00"
+    },
+    {
+      "id": "ieee-20260227-003",
+      "title": "RF Over Fiber: New Era in Data Center Efficiency",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/rf-over-fiber", "published_date": "2026-02-26"},
+      "content": {"abstract": "RF and terahertz over fiber technology offers longer reach and lower power consumption, transforming data centers by overcoming copper's physical limits. This addresses growing energy demands of AI infrastructure.", "keywords": ["data centers", "fiber optics", "RF", "energy efficiency", "infrastructure"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:41:00+00:00"
+    },
+    {
+      "id": "pubmed-20260227-001",
+      "title": "In Vivo CAR-T Therapy Eliminates Ex Vivo Steps — Scalable Cancer Treatment",
+      "source": {"name": "PubMed Central", "type": "academic", "url": "https://pubmed.ncbi.nlm.nih.gov/", "published_date": "2026-02-26"},
+      "content": {"abstract": "In vivo CAR-T therapy eliminates ex vivo steps entirely, offering dramatically improved scalability, lower cost, and faster treatment times for cancer patients. This represents a paradigm shift from current cell therapy manufacturing.", "keywords": ["CAR-T", "cancer", "immunotherapy", "in vivo", "cell therapy", "scalability"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:42:00+00:00"
+    },
+    {
+      "id": "pubmed-20260227-002",
+      "title": "Suzetrigine: First Selective NaV1.8 Pain Drug — 31,000x Pathway Selectivity",
+      "source": {"name": "PubMed Central", "type": "academic", "url": "https://pubmed.ncbi.nlm.nih.gov/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Suzetrigine is the first in a new class of drugs selectively blocking NaV1.8 sodium channels found exclusively in peripheral pain-sensing neurons, achieving over 31,000-fold selectivity for pain pathways while sparing other tissues. Represents first new non-opioid pain mechanism in decades.", "keywords": ["pain", "NaV1.8", "non-opioid", "pharmaceutical", "neuroscience"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:42:00+00:00"
+    },
+    {
+      "id": "bis-20260227-001",
+      "title": "Bundesbank: Future-Proofing Europe's Financial System — Stablecoin and wCBDC Risks",
+      "source": {"name": "BIS Speeches", "type": "policy", "url": "https://www.bis.org/review/r260218h.pdf", "published_date": "2026-02-26"},
+      "content": {"abstract": "Burkhard Balz of Deutsche Bundesbank warns stablecoins create liquidity risks, operational risks, and risks of runs. Discusses wholesale CBDC as part of Europe's financial system sovereignty strategy. Highlights tension between fintech innovation and financial stability.", "keywords": ["stablecoins", "CBDC", "financial stability", "fintech", "Europe", "regulation"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:42:00+00:00"
+    },
+    {
+      "id": "ethics-20260227-001",
+      "title": "AI Governance Shifts from Principles to Enforceable Technical Requirements",
+      "source": {"name": "The Conversation - Ethics", "type": "academic", "url": "https://www.kdnuggets.com/emerging-trends-in-ai-ethics-and-governance-for-2026", "published_date": "2026-02-26"},
+      "content": {"abstract": "The most significant shift in AI ethics this year is transition from high-level ethical principles to enforceable technical requirements. EU AI Act's High-Risk requirements become fully enforceable August 2, 2026. Multi-agent liability frameworks emerging as key governance challenge.", "keywords": ["AI ethics", "governance", "EU AI Act", "enforcement", "multi-agent liability"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:43:00+00:00"
+    },
+    {
+      "id": "psych-20260227-001",
+      "title": "APA Identifies 9 Psychology Trends for 2026: Quiet Burnout, Meaning Crisis, AI Therapy",
+      "source": {"name": "Psychology Today", "type": "blog", "url": "https://www.apa.org/monitor/2026/01-02/nine-trends-to-watch", "published_date": "2026-02-26"},
+      "content": {"abstract": "American Psychological Association identifies 9 trends for 2026 including 'quiet burnout' epidemic among adults, meaning crisis amid uncertainty, values clarification in therapy, and growing use of AI in mental health services. Reflects deepening societal psychological strain.", "keywords": ["psychology", "burnout", "meaning crisis", "mental health", "AI therapy", "values"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-02-27T18:43:00+00:00"
+    },
+    {
+      "id": "wired-20260227-001",
+      "title": "Critical Vulnerability in Claude Code: AI Runs Hacker Commands from Project Files",
+      "source": {"name": "Wired", "type": "blog", "url": "https://thehackernews.com/", "published_date": "2026-02-27"},
+      "content": {"abstract": "Security researchers disclosed multiple vulnerabilities in AI coding assistant Claude Code that could result in remote code execution and theft of API credentials. Exploits use configuration mechanisms like Hooks, MCP servers, and environment variables to execute arbitrary shell commands.", "keywords": ["cybersecurity", "AI security", "Claude Code", "vulnerability", "RCE"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:43:00+00:00"
+    },
+    {
+      "id": "wired-20260227-002",
+      "title": "Europol Targets Teenage Ransomware Network in International Operation",
+      "source": {"name": "Ars Technica", "type": "blog", "url": "https://arstechnica.com/", "published_date": "2026-02-27"},
+      "content": {"abstract": "International law enforcement operation led by Europol targets a network of teenagers and young adults involved in ransomware attacks, extortion and other crimes. This signals evolution of cybercrime demographics and recruitment patterns.", "keywords": ["ransomware", "cybercrime", "Europol", "youth crime", "law enforcement"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-02-27T18:43:00+00:00"
+    },
+    {
+      "id": "nasa-20260227-001",
+      "title": "Global Warming Rate Accelerates to 0.25C Per Decade — NASA Data Analysis",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://www.washingtonpost.com/climate-environment/interactive/2026/climate-change-temperature-rate-accelerating/", "published_date": "2026-02-26"},
+      "content": {"abstract": "The rate of global warming has accelerated from -0.03C/decade in 1970 to 0.25C/decade in 2025, according to NASA temperature data analysis. Despite US cold snaps, rest of world sees unusually warm temperatures. Nuuk, Greenland saw January temps 20F above average.", "keywords": ["warming rate", "acceleration", "temperature", "NASA", "climate"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:44:00+00:00"
+    },
+    {
+      "id": "nasa-20260227-002",
+      "title": "Two Next-Generation Earth Monitoring Satellite Missions Announced",
+      "source": {"name": "NASA Climate Change", "type": "policy", "url": "https://www.nasa.gov/2026-news-releases/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Two new satellite missions will help NASA better understand Earth and improve capabilities to foresee environmental events and mitigate disasters. This represents continued investment in climate monitoring infrastructure.", "keywords": ["satellites", "Earth observation", "NASA", "climate monitoring", "disasters"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-02-27T18:44:00+00:00"
+    },
+    {
+      "id": "science-20260227-001",
+      "title": "Physicists Prove Doubted Particle Interaction with AI-Assisted Mathematics",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/news", "published_date": "2026-02-26"},
+      "content": {"abstract": "Physicists combined human acumen and AI-assisted math to show that a previously doubted particle interaction is possible after all. This demonstrates AI's growing role as a mathematical co-pilot in theoretical physics.", "keywords": ["physics", "AI mathematics", "particle interaction", "theoretical physics"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:44:00+00:00"
+    },
+    {
+      "id": "science-20260227-002",
+      "title": "Immune-Stimulating Cocktail Shields Against Diverse Bacterial and Viral Infections",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/news", "published_date": "2026-02-26"},
+      "content": {"abstract": "An immune-stimulating cocktail could shield against diverse bacterial and viral infections. This broad-spectrum approach represents a potential paradigm shift in infectious disease prevention beyond pathogen-specific vaccines.", "keywords": ["immunity", "broad-spectrum", "infection", "vaccine alternative", "therapeutics"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-02-27T18:44:00+00:00"
+    }
+  ]
+}

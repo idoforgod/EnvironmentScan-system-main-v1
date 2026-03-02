@@ -1,0 +1,222 @@
+{
+  "scan_date": "2026-02-26",
+  "workflow": "wf3-naver",
+  "ranking_metadata": {
+    "method": "pSST_unified_fssf_weighted",
+    "total_signals_ranked": 15,
+    "total_signals_available": 24,
+    "anchor_timestamp": "2026-02-26T21:36:37+00:00"
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260226-100-001",
+      "title": "김정은 \"美 적대정책 철회하면 좋게 지내지 못할 이유 없어…韓, 동족 범주에서 배제\"",
+      "category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst": 92,
+      "impact": "9.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260226-105-005",
+      "title": "美 트럼프 행정부 '반도체 관세 15%' 재추진…글로벌 공급망 요동",
+      "category": "T",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst": 92,
+      "impact": "9.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260226-105-004",
+      "title": "정부 \"독파모 AI 개발 저작물 활용, 형사책임 면제 방안 검토\"",
+      "category": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst": 91,
+      "impact": "9.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260226-104-001",
+      "title": "러시아 \"돈바스 내놓고 나토 나가\"…선 넘는 요구에 우크라전 종전협상 난망",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst": 85,
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": true,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260226-104-003",
+      "title": "美 무역대표부 국가별 차등관세 시사...트럼프 '글로벌 관세'도 법적 논란",
+      "category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst": 84,
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260226-100-002",
+      "title": "백악관 \"트럼프, 김정은과 전제조건 없는 대화에 열려있다\"",
+      "category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst": 80,
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260226-103-002",
+      "title": "'유아 3명 사망' 분유 원료 중국산 밝혀져…'초비상' EU 검역 강화",
+      "category": "s",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst": 79,
+      "impact": "8.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260226-102-002",
+      "title": "3·1절 앞두고 유관순 조롱 AI 영상 확산 논란…AI 딥페이크 윤리 문제 부각",
+      "category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst": 78,
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": true
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260226-104-002",
+      "title": "오만 \"미·이란 핵협상 상당한 진전…내주 빈에서 기술적 회담\"",
+      "category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "psst": 76,
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260226-101-001",
+      "title": "한국은행, 기준금리 연 2.5% '6연속 동결'…반도체 호조에 성장률 1.8→2%",
+      "category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "psst": 76,
+      "impact": "8.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260226-105-002",
+      "title": "갤럭시 S26 프라이버시 디스플레이…외신 \"애플이 베껴야 할 기능\"",
+      "category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "psst": 76,
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260226-100-003",
+      "title": "UAE 강훈식 실장 방문, 650억불 경제패키지…방산 협력만 350억불",
+      "category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst": 75,
+      "impact": "8.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260226-101-005",
+      "title": "\"집 팔지도 못하고 대출도 막혀\"…청량리8구역 등 위기 사업장 속출",
+      "category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "psst": 75,
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": true,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260226-105-003",
+      "title": "네이버·카카오 AI는 정말 생활을 바꿀까…국내 AI 플랫폼 전환점",
+      "category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst": 72,
+      "impact": "7.5/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260226-101-002",
+      "title": "삼성전자 시총 1조달러 돌파…TSMC는 2조달러",
+      "category": "E",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "psst": 71,
+      "impact": "8.0/10",
+      "tipping_indicators": {
+        "critical_slowing_down": false,
+        "flickering": false
+      }
+    }
+  ]
+}

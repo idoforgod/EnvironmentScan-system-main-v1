@@ -1,0 +1,32 @@
+{
+  "classification_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-03-02",
+    "total_signals": 15,
+    "steeps_distribution": {
+      "T_Technological": 5,
+      "P_Political": 3,
+      "E_Environmental": 3,
+      "E_Economic": 2,
+      "S_Social": 1,
+      "s_spiritual": 1
+    }
+  },
+  "signals": [
+    {"id": "wf1-20260302-001", "steeps": "P_Political", "sub_category": "AI Governance & Regulation", "confidence": 0.95},
+    {"id": "wf1-20260302-002", "steeps": "T_Technological", "sub_category": "Quantum Computing & AI Convergence", "confidence": 0.92},
+    {"id": "wf1-20260302-003", "steeps": "T_Technological", "sub_category": "Biotechnology & Gene Editing", "confidence": 0.94},
+    {"id": "wf1-20260302-004", "steeps": "E_Economic", "sub_category": "Global Macroeconomic Outlook", "confidence": 0.93},
+    {"id": "wf1-20260302-005", "steeps": "E_Environmental", "sub_category": "Energy Transition & Climate", "confidence": 0.96},
+    {"id": "wf1-20260302-006", "steeps": "s_spiritual", "sub_category": "Societal Trust & Values", "confidence": 0.91},
+    {"id": "wf1-20260302-007", "steeps": "P_Political", "sub_category": "Trade Policy & Sanctions", "confidence": 0.94},
+    {"id": "wf1-20260302-008", "steeps": "T_Technological", "sub_category": "Robotics & Physical AI", "confidence": 0.93},
+    {"id": "wf1-20260302-009", "steeps": "E_Economic", "sub_category": "Digital Assets & Fintech", "confidence": 0.90},
+    {"id": "wf1-20260302-010", "steeps": "E_Environmental", "sub_category": "Biodiversity & Ecosystem Security", "confidence": 0.95},
+    {"id": "wf1-20260302-011", "steeps": "S_Social", "sub_category": "Demographics & Labor Market", "confidence": 0.93},
+    {"id": "wf1-20260302-012", "steeps": "T_Technological", "sub_category": "Space Technology & Commercialization", "confidence": 0.88},
+    {"id": "wf1-20260302-013", "steeps": "E_Environmental", "sub_category": "Climate Strategy Paradigm Shift", "confidence": 0.91},
+    {"id": "wf1-20260302-014", "steeps": "T_Technological", "sub_category": "Agentic AI & Enterprise Automation", "confidence": 0.92},
+    {"id": "wf1-20260302-015", "steeps": "P_Political", "sub_category": "Climate Governance & Accountability", "confidence": 0.89}
+  ]
+}

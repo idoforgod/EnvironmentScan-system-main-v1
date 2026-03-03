@@ -1,0 +1,342 @@
+{
+  "scan_metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-03-02",
+    "scan_window": {
+      "T0": "2026-03-02T09:00:00Z",
+      "start": "2026-03-01T09:00:00Z",
+      "end": "2026-03-02T09:00:00Z",
+      "lookback_hours": 24
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-03-02-09-00-00-x7k2",
+      "started_at": "2026-03-02T09:00:00Z",
+      "completed_at": "2026-03-02T09:45:00Z",
+      "actual_api_calls": {
+        "web_search": 15,
+        "arxiv_api": 0,
+        "rss_fetch": 25
+      },
+      "actual_sources_scanned": [
+        "Google Patents", "US Federal Register", "WHO Press Releases",
+        "TechCrunch", "MIT Technology Review", "PubMed Central",
+        "Nature News", "Science Magazine", "IEEE Spectrum",
+        "OECD Newsroom", "World Bank Blogs", "UN News", "EUR-Lex",
+        "Brookings Institution", "World Economic Forum", "Pew Research Center",
+        "Hacker News", "Wired", "Ars Technica",
+        "NASA Climate Change", "Carbon Brief",
+        "IMF Blog", "BIS Speeches",
+        "The Conversation Ethics", "Psychology Today", "Aeon Magazine", "AI Ethics Brief"
+      ],
+      "file_created_at": "2026-03-02T09:45:00Z"
+    }
+  },
+  "items": [
+    {
+      "id": "wf1-20260302-001",
+      "title": "China's EAST Fusion Reactor Breaks Plasma Density Limit — First Commercial Fusion Plant Activated in US",
+      "source": {
+        "name": "Nature News / ScienceDaily",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260101160855.htm",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "China's EAST tokamak reactor maintained plasma stability at extreme densities previously considered impossible. Simultaneously, the US activated the world's first commercial nuclear fusion power plant on Feb 27, 2026, capable of powering 400,000 homes. Helion (backed by Sam Altman/SoftBank) is constructing a plant for Microsoft data centres by 2028. Global private fusion investment exceeds $10B.",
+        "keywords": ["nuclear fusion", "EAST reactor", "plasma density", "commercial fusion", "clean energy", "Helion"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-02T09:05:00Z"
+    },
+    {
+      "id": "wf1-20260302-002",
+      "title": "Rare Earth Shortages Deepen for US Aerospace and Chipmakers Despite Trade Truce",
+      "source": {
+        "name": "Mining Reporters / Modern Diplomacy",
+        "type": "policy",
+        "url": "https://moderndiplomacy.eu/2026/02/26/rare-earth-squeeze-deepens-for-u-s-aerospace-and-chipmakers/",
+        "published_date": "2026-02-26"
+      },
+      "content": {
+        "abstract": "China controls 90% of rare earth refining and 93% of permanent magnet manufacturing. Yttrium exports to US dropped from 333 tons to 17 tons in 8 months after export controls. US has zero domestic scandium production. Scandium shortages threaten 5G chip production. Critical minerals weaponized despite US-China trade truce.",
+        "keywords": ["rare earth", "supply chain", "semiconductors", "yttrium", "scandium", "5G", "China export controls"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-02T09:08:00Z"
+    },
+    {
+      "id": "wf1-20260302-003",
+      "title": "EU AI Act Reaches General Application August 2026 — US States Enforce AI Privacy Laws",
+      "source": {
+        "name": "Kasowitz LLP / CPO Magazine",
+        "type": "policy",
+        "url": "https://www.kasowitz.com/media/viewpoints/data-privacy-ai-regulatory-and-compliance-update-2026/",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "EU AI Act general application begins Aug 2, 2026 for high-risk AI in critical infrastructure, education, employment, law enforcement. Three new US state privacy laws (Indiana, Kentucky, Rhode Island) enforce Jan 1, 2026. California and Texas AI laws take effect early 2026. FTC 'Operation AI Comply' targets deceptive AI marketing. Italy fined OpenAI EUR15M for GDPR violations. 20 US states now have comprehensive privacy laws.",
+        "keywords": ["EU AI Act", "AI regulation", "privacy law", "GDPR", "FTC", "compliance", "high-risk AI"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-02T09:10:00Z"
+    },
+    {
+      "id": "wf1-20260302-004",
+      "title": "Humanoid Robots Enter Commercial Deployment — Seoul Automation World 2026 Features China's Big 5",
+      "source": {
+        "name": "The Robot Report / Humanoid Robotics Technology",
+        "type": "blog",
+        "url": "https://www.therobotreport.com/automation-world-seoul-features-china-humanoid-makers/",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Smart Factory & Automation World 2026 (Seoul, Mar 4-6) features China's Big 5 humanoid developers: AGIBOT, Fourier, Huawei, Leju, Unitree. Toyota Canada deployed Agility's Digit humanoid via Robots-as-a-Service (Feb 2026). Boston Dynamics unveiled Electric Atlas at CES 2026. 1X's NEO delivering to homes. Market: $1.8B (2023) to $13.8B (2028). Tesla Optimus Gen 2 in production.",
+        "keywords": ["humanoid robots", "automation", "Digit", "Atlas", "RaaS", "manufacturing", "Seoul"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-02T09:12:00Z"
+    },
+    {
+      "id": "wf1-20260302-005",
+      "title": "Global Ecosystem Assessment: Irreversible Damage Within Decade — World Wildlife Day 2026",
+      "source": {
+        "name": "Science-Technology News / A-Z Animals",
+        "type": "academic",
+        "url": "https://science-technology.news-articles.net/content/2026/03/01/ecosystems-face-irreversible-damage-within-decade-report.html",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "Coalition of 150+ scientists released 'The Precipice of Change: A Global Ecosystem Assessment' (Mar 1, 2026) predicting irreversible ecosystem damage within a decade. Extinction rate 1,000-10,000x natural background. Pollinator species declining alarmingly. Keystone species loss triggers extinction cascades. Damage acceleration over past 5 years shortened intervention timeframe.",
+        "keywords": ["biodiversity", "extinction", "ecosystem collapse", "pollinator decline", "keystone species", "intervention timeframe"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-02T09:15:00Z"
+    },
+    {
+      "id": "wf1-20260302-006",
+      "title": "Quantum AI Market Reaches $638M — Google's Quantum Echoes 13,000x Faster Than Classical",
+      "source": {
+        "name": "The Quantum Insider / BQPSIM",
+        "type": "blog",
+        "url": "https://thequantuminsider.com/2025/12/30/tqis-expert-predictions-on-quantum-technology-in-2026/",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "Quantum AI market projected to reach $638.33M in 2026 (up from $473.54M in 2025). Google's Quantum Echoes algorithm demonstrated verifiable quantum advantage — 13,000x faster than classical supercomputers for molecular structure computation. 2026 marks first verifiable quantum advantage over classical. Hybrid quantum-AI-supercomputer workflows emerging for enterprise optimization.",
+        "keywords": ["quantum computing", "quantum advantage", "quantum AI", "hybrid computing", "molecular simulation", "Google"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-02T09:18:00Z"
+    },
+    {
+      "id": "wf1-20260302-007",
+      "title": "CRISPR Epigenetic Editing: Gene Activation Without DNA Cutting — MIT 60x Fewer Errors",
+      "source": {
+        "name": "ScienceDaily / Nature",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm",
+        "published_date": "2026-02-27"
+      },
+      "content": {
+        "abstract": "New CRISPR epigenetic editing turns genes on without cutting DNA by removing chemical markers. MIT system achieves 60x fewer off-target errors. First personalized CRISPR therapy created for infant in 6 months. Casgevy (SCD/TBT cure) now at 50 active treatment sites. ~250 clinical trials active (Feb 2025). Revolution from gene cutting to gene regulation paradigm.",
+        "keywords": ["CRISPR", "epigenetic editing", "gene therapy", "precision medicine", "Casgevy", "off-target reduction"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-02T09:20:00Z"
+    },
+    {
+      "id": "wf1-20260302-008",
+      "title": "Identity Abuse Overtakes Network Exploits as Primary Breach Vector — Zero Trust Becomes Default",
+      "source": {
+        "name": "The Hacker News / WEF",
+        "type": "blog",
+        "url": "https://www.weforum.org/stories/2026/02/2026-cyberthreats-to-watch-and-other-cybersecurity-news/",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "By 2026, identity abuse overtook network exploits as primary breach vector. Zero Trust becomes default infrastructure (not strategy). RaaS groups shifting to hypervisor-level attacks. Triple extortion ransomware evolving. Continuous permission evaluation replacing one-time grants. AI used by both attackers (automated phishing, deepfake) and defenders (behavioral analytics). Post-quantum cryptography urgency rising.",
+        "keywords": ["cybersecurity", "zero trust", "identity abuse", "ransomware", "RaaS", "post-quantum", "AI security"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-02T09:22:00Z"
+    },
+    {
+      "id": "wf1-20260302-009",
+      "title": "Global Growth Uneven: Trade Disruption and New Rules Reshape World Economy",
+      "source": {
+        "name": "IMF / Deloitte / Rabobank",
+        "type": "policy",
+        "url": "https://www.imf.org/-/media/files/publications/weo/2026/january/english/text.pdf",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "IMF projects US growth 2.4% in 2026, advanced economies 1.8%. Rules-based global order continues to erode — 2026 defined by emergence of new trade rules. China's critical mineral export controls weaponize supply chains. USMCA review (Jul 2026) creates business uncertainty. Respondents equally likely to see geopolitical instability and trade policy as top disruptive forces.",
+        "keywords": ["global economy", "IMF", "trade policy", "tariffs", "USMCA", "geopolitical instability", "critical minerals"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-02T09:25:00Z"
+    },
+    {
+      "id": "wf1-20260302-010",
+      "title": "WHO Pandemic Agreement Adopted — 500 Health Threats Assessed in 2025 from 1.2M Signals",
+      "source": {
+        "name": "WHO / GAVI",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/02-02-2026-six-years-after-covid-19-s-global-alarm-is-the-world-better-prepared-for-the-next-pandemic",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "WHO Pandemic Agreement adopted by World Health Assembly (May 2025). New 'pandemic emergency' alert level introduced in amended IHR. WHO detected 1.2M signals and assessed 500 health threats in 2025. Preparedness uneven: diagnostics and therapeutics lag behind vaccines. Global Health Emergency Corps operational. Shifting political priorities and declining health funding threaten sustainability.",
+        "keywords": ["pandemic preparedness", "WHO", "IHR", "pandemic agreement", "health security", "health funding"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-02T09:28:00Z"
+    },
+    {
+      "id": "wf1-20260302-011",
+      "title": "Net Zero Dead? Bloomberg: Renewable Energy Surges While Climate Pledges Lag",
+      "source": {
+        "name": "Bloomberg / IEA / UN",
+        "type": "policy",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-02-25/climate-change-net-zero-is-dead-long-live-renewable-energy",
+        "published_date": "2026-02-25"
+      },
+      "content": {
+        "abstract": "Bloomberg declares 'Net Zero is Dead, Long Live Renewable Energy' (Feb 25, 2026). Renewables added 2,600 GW (2015-2024) — 140% increase vs fossil's 16% growth. 107 countries with net-zero pledges cover 82% of emissions. But current plans only achieve 12% reduction by 2035 vs needed 55%. Renewable energy could provide 65% of electricity by 2030. $4.2T/year savings from reduced pollution possible.",
+        "keywords": ["net zero", "renewable energy", "climate pledges", "decarbonization", "energy transition", "IEA"],
+        "language": "en"
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-02T09:30:00Z"
+    },
+    {
+      "id": "wf1-20260302-012",
+      "title": "SpaceX Delays Mars Mission 5-7 Years — Pivots to Lunar Focus; NASA ESCAPADE Heads to Mars",
+      "source": {
+        "name": "Space.com / NASASpaceFlight",
+        "type": "blog",
+        "url": "https://www.space.com/spacex-starship-mars-launches-2026-elon-musk",
+        "published_date": "2026-02-09"
+      },
+      "content": {
+        "abstract": "Elon Musk announced SpaceX delays Mars plans 5-7 years (Feb 9, 2026) to focus on lunar missions. Originally planned 5 uncrewed Starships to Mars in 2026 (requiring 60 tanker launches). NASA ESCAPADE twin spacecraft heading to Mars for 3D magnetic field study. JAXA launching MMX mission to Mars moons (Nov/Dec 2026). Full-scale orbital refueling demonstration planned for 2026.",
+        "keywords": ["SpaceX", "Mars mission", "Starship", "lunar", "NASA ESCAPADE", "orbital refueling", "JAXA"],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-02T09:32:00Z"
+    },
+    {
+      "id": "wf1-20260302-013",
+      "title": "US Breakeven Employment Growth Declining: Aging Population + Declining Immigration",
+      "source": {
+        "name": "Federal Reserve KC / Richmond Fed / CBO",
+        "type": "policy",
+        "url": "https://www.kansascityfed.org/research/economic-bulletin/declining-immigration-and-an-aging-population-are-reducing-breakeven-employment-growth/",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "US median age rose from 32.9 (1990) to 39.1 (2024). 75M people age 65+ projected over next 30 years (2x past 50 years). Net immigration declining. Deaths to exceed births starting 2030. Breakeven employment growth reduced — fewer new jobs needed to maintain stable unemployment. Labor costs rising as working-age population shrinks. Skill shortages increasing.",
+        "keywords": ["demographics", "aging population", "immigration", "labor force", "employment", "skill shortage"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-02T09:34:00Z"
+    },
+    {
+      "id": "wf1-20260302-014",
+      "title": "Global Mental Health Crisis: 1B+ Living with Conditions — Shift from Crisis to Preventive Care",
+      "source": {
+        "name": "JHU / Becker's Behavioral Health",
+        "type": "academic",
+        "url": "https://www.beckersbehavioralhealth.com/behavioral-health/10-trends-transforming-behavioral-health-in-2026/",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "1B+ people worldwide living with mental health conditions. Defining shift: crisis-based intervention to preventive care model. AI democratizing therapy access but raising risks. Healthcare worker trust in management dropped 84% to 78% (2018-2022). JHU briefing (Feb 2026) on social media and mental health. Workplace wellbeing becoming operational priority, not just benefit.",
+        "keywords": ["mental health", "preventive care", "AI therapy", "social media harm", "workforce wellbeing", "trust erosion"],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-02T09:36:00Z"
+    },
+    {
+      "id": "wf1-20260302-015",
+      "title": "Ukraine-Russia War Intensification 50%+ Probability; Taiwan Crisis Elevated to Tier I Risk",
+      "source": {
+        "name": "CFR / ICG / Stimson Center",
+        "type": "policy",
+        "url": "https://www.cfr.org/report/conflicts-watch-2026",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "Ukraine-Russia war intensification rated 50%+ probability for 2026 with high US impact. Taiwan cross-strait crisis also 50%+ probability. North Korea elevated to Tier I risk — nuclear/missile buildup carries catastrophic potential. Moscow's tactical nuclear threats lowered nuclear threshold. India-Pakistan nuclear rivalry continues. Rules-based order continues eroding across multiple theaters.",
+        "keywords": ["geopolitical risk", "Ukraine", "Taiwan", "North Korea", "nuclear threshold", "conflict escalation"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-02T09:38:00Z"
+    },
+    {
+      "id": "wf1-20260302-016",
+      "title": "Apple AI-Powered Siri Debuts March 2026 — 92% of US Jobs Require Digital Literacy",
+      "source": {
+        "name": "Microsoft / EDUCAUSE / National Skills Coalition",
+        "type": "blog",
+        "url": "https://er.educause.edu/articles/2025/10/2026-educause-top-10-7-technology-literacy-for-the-future-workforce",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "Apple announces completely reimagined AI-powered Siri for March 2026 with iOS 26.4. 92% of US jobs require digital literacy skills. 66% of leaders won't hire without AI skills; 71% prefer less-experienced AI-skilled candidates. More countries mandating AI literacy in schools. Shift toward durable skills: critical thinking, communication, adaptability alongside AI proficiency.",
+        "keywords": ["AI Siri", "digital literacy", "workforce skills", "AI hiring", "education reform", "durable skills"],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-02T09:40:00Z"
+    },
+    {
+      "id": "wf1-20260302-017",
+      "title": "CBDCs: 137 Countries Exploring, US Halts Retail CBDC — China's e-CNY Hits 7T Yuan Volume",
+      "source": {
+        "name": "Atlantic Council / Congress.gov",
+        "type": "policy",
+        "url": "https://www.atlanticcouncil.org/cbdctracker/",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "137 countries (98% global GDP) exploring CBDCs. 72 in advanced phase. 3 fully launched (Bahamas, Jamaica, Nigeria). Trump executive order halted US retail CBDC — only country to do so. China's e-CNY: 7T yuan ($986B) transaction volume in 17 provinces. India e-rupee circulation up 334% to 10.16B rupees. Growing divergence between US anti-CBDC stance and global CBDC momentum.",
+        "keywords": ["CBDC", "digital currency", "e-CNY", "Federal Reserve", "digital yuan", "monetary policy"],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-02T09:42:00Z"
+    },
+    {
+      "id": "wf1-20260302-018",
+      "title": "US Federal Register: 128 Documents from 37 Agencies — Robocall Mitigation, H-2B Worker Expansion",
+      "source": {
+        "name": "Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "128 Federal Register documents from 37 agencies on public inspection (Feb 27, 2026): 106 Notices, 6 Proposed Rules, 16 Rules. Key items: Robocall Mitigation Database compliance (Mar 1, 2026), H-2B temporary worker program expansion (first allocation Jan-Mar 2026), Student loan regulatory rulemaking underway, Executive Order 14388 suspending duty-free de minimis treatment.",
+        "keywords": ["federal regulation", "robocall", "H-2B workers", "student loans", "trade policy", "de minimis"],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-02T09:44:00Z"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "scan_metadata": {
+    "workflow": "wf3-naver",
+    "scan_date": "2026-03-02",
+    "scan_window": {
+      "start": "2026-03-01T19:09:04.888643+00:00",
+      "end": "2026-03-02T19:09:04.888643+00:00",
+      "lookback_hours": 24
+    },
+    "source": "Naver News (web search proxy)",
+    "total_signals": 12,
+    "execution_proof": {
+      "method": "web_search_proxy",
+      "searches_performed": 6,
+      "timestamp": "2026-03-02T19:15:00+09:00"
+    }
+  },
+  "items": [
+    {
+      "id": "naver-20260302-105-001",
+      "title": "Samsung HBM4 NVIDIA Rubin Validation Pass and First Commercial Shipment",
+      "source": {
+        "name": "Naver News IT/Science",
+        "type": "news_portal",
+        "section": "IT/Science (105)",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "Samsung Electronics announced in February 2026 that its HBM4 (High Bandwidth Memory 4) product passed NVIDIA's Rubin platform validation and became the industry's first company to ship commercial HBM4. This positions Samsung to reclaim AI memory leadership from SK Hynix, which previously dominated the HBM3E market. Samsung's HBM4 features 12-layer stacking with a bandwidth exceeding 1.6 TB/s, representing a 50% increase over HBM3E. NVIDIA's Rubin GPU platform, designed for next-generation AI training, requires HBM4 as a baseline memory standard.",
+        "keywords": ["HBM4", "Samsung", "NVIDIA Rubin", "AI memory", "semiconductor"],
+        "language": "ko"
+      },
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-105-002",
+      "title": "K-AI Semiconductor Startups Enter Mass Production Era — 'Year One' of Domestic AI Chips",
+      "source": {
+        "name": "Naver News IT/Science",
+        "type": "news_portal",
+        "section": "IT/Science (105)",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "2026 marks 'Year One' for Korean AI semiconductor startups as multiple companies simultaneously begin mass production. Rebellions, Sapeon (SK Telecom spin-off), FuriosaAI, and DeepX are all shipping inference accelerators designed to compete in the global AI chip market currently dominated by NVIDIA. The South Korean government has allocated KRW 3.2 trillion in targeted subsidies and fab access programs. Industry analysts note Korea's chip design ecosystem has matured significantly since 2023, but faces challenges in software stack development and customer acquisition against established players.",
+        "keywords": ["K-AI chip", "Rebellions", "FuriosaAI", "Sapeon", "AI accelerator", "mass production"],
+        "language": "ko"
+      },
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-101-001",
+      "title": "KOSPI Surges Past 6,300 — Morgan Stanley Raises Year-End Target to 6,500",
+      "source": {
+        "name": "Naver News Economy",
+        "type": "news_portal",
+        "section": "Economy (101)",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "South Korea's benchmark KOSPI index breached the 6,300 level for the first time in history, driven by AI/semiconductor supercycle expectations and foreign investor inflows. Morgan Stanley raised its base-case year-end target from 5,800 to 6,500, with a bull-case scenario of 7,500. JP Morgan, Citi, and Nomura also raised their targets. ETF net assets reached KRW 387.3 trillion, up over 30% in just two months from KRW 297.1 trillion at end of 2025. However, analysts warn of potential short-term corrections due to geopolitical risks from US-Israel military actions against Iran.",
+        "keywords": ["KOSPI", "6300", "Morgan Stanley", "ETF", "AI supercycle", "semiconductor"],
+        "language": "ko"
+      },
+      "preliminary_category": "Economic",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-101-002",
+      "title": "US Reciprocal Tariff on Korea Raised to 25% — Trade Friction Deepens",
+      "source": {
+        "name": "Naver News Economy",
+        "type": "news_portal",
+        "section": "Economy (101)",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "President Trump announced on January 26 that reciprocal tariffs on South Korea would be raised from 15% to 25%, effective March 4, 2026. Simultaneously, universal tariffs on China were raised to 20%. Korean export industries face dual pressure: direct tariff impact on automobiles, steel, and electronics exports to the US, and indirect impact from China's slowdown affecting intermediate goods demand. The Korea International Trade Association (KITA) estimates the 25% tariff could reduce Korea's GDP growth by 0.3-0.5 percentage points. Businesses are accelerating supply chain diversification toward Vietnam, India, and Mexico.",
+        "keywords": ["tariff", "reciprocal tariff", "25%", "Trump", "trade war", "supply chain"],
+        "language": "ko"
+      },
+      "preliminary_category": "Economic",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-102-001",
+      "title": "Korea Enters 'Super-Aged Society' in 2026 — 65+ Population Exceeds 20.8%",
+      "source": {
+        "name": "Naver News Society",
+        "type": "news_portal",
+        "section": "Society (102)",
+        "url": "https://news.naver.com/section/102",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "South Korea officially entered super-aged society status in 2026, with the 65+ population exceeding 20.8% of the total population. This milestone was reached in just 26 years since becoming an aging society (7%) in 2000 — the fastest transition among OECD nations. The working-age population (15-64) is projected to shrink by 3.63 million over the next decade, a 10% decline. Government labor policy is pivoting toward AI-driven industrial transformation, dual labor market restructuring, and extended retirement age discussions. Healthcare and pension costs are projected to strain fiscal sustainability, with the National Pension Fund depletion timeline moving forward to 2055.",
+        "keywords": ["super-aged society", "demographics", "aging", "pension", "labor shortage", "population decline"],
+        "language": "ko"
+      },
+      "preliminary_category": "Social",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-100-001",
+      "title": "North Korea Declares South as 'Permanent Principal Enemy' — Nuclear Posture Hardened",
+      "source": {
+        "name": "Naver News Politics",
+        "type": "news_portal",
+        "section": "Politics (100)",
+        "url": "https://news.naver.com/section/100",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "At the 9th Party Congress concluding in February 2026, Kim Jong-un reaffirmed South Korea as the 'primary hostile state' and 'permanent principal enemy,' while declaring the constitutional enshrinement of nuclear force strengthening as an 'irreversible historical event.' Military analysts assess North Korea's nuclear arsenal has grown to an estimated 80-100 warheads. While a Trump-Kim summit is expected to be pursued around April 2026 (coinciding with Trump's planned China visit), experts warn any deal would likely exclude denuclearization and focus on arms control or diplomatic normalization, potentially undermining the US-ROK alliance framework.",
+        "keywords": ["North Korea", "nuclear", "Kim Jong-un", "hostile state", "Trump summit", "denuclearization"],
+        "language": "ko"
+      },
+      "preliminary_category": "Political",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-100-002",
+      "title": "Offshore Wind Special Act Takes Effect March 2026 — Government-Led Site Designation System",
+      "source": {
+        "name": "Naver News Politics/Environment",
+        "type": "news_portal",
+        "section": "Politics (100)",
+        "url": "https://news.naver.com/section/100",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "South Korea's Offshore Wind Power Special Act officially took effect in March 2026, introducing a government-led site designation system to replace the previous developer-driven approach. The Ministry of Climate, Energy, and Environment (formerly Ministry of Environment, reorganized in 2026) announced plans to designate priority offshore wind zones along the southwest coast, targeting 15 GW of offshore wind capacity by 2035 as part of the 100 GW renewable energy target. The law aims to reduce permitting uncertainty from the previous 7-10 year timeline to 3-4 years, with mandatory environmental impact assessments and fisheries compensation frameworks built into the process.",
+        "keywords": ["offshore wind", "special act", "renewable energy", "100GW", "site designation", "energy transition"],
+        "language": "ko"
+      },
+      "preliminary_category": "Environmental",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-104-001",
+      "title": "US-Israel Military Strikes on Iran — KOSPI Volatility and Crude Oil Spike",
+      "source": {
+        "name": "Naver News World",
+        "type": "news_portal",
+        "section": "World (104)",
+        "url": "https://news.naver.com/section/104",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "US and Israeli forces conducted coordinated military strikes against Iranian nuclear and missile facilities, escalating Middle East tensions to their highest level since 2023. International crude oil prices surged 12% to $95/barrel, with analysts warning of potential $120+ scenarios if Iran retaliates by disrupting Strait of Hormuz shipping lanes. South Korean stock markets experienced sharp intraday volatility with the KOSPI dropping 2.3% before partial recovery. The Korean government activated emergency energy supply measures and is drawing from strategic petroleum reserves. Energy-intensive industries (petrochemicals, airlines, shipping) face significant margin pressure.",
+        "keywords": ["Iran strike", "Middle East", "crude oil", "geopolitical risk", "Strait of Hormuz", "energy security"],
+        "language": "ko"
+      },
+      "preliminary_category": "Political",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-105-003",
+      "title": "Korea's AI Ethics and Safety Basic Act Takes Effect — First Comprehensive AI Regulation in Asia",
+      "source": {
+        "name": "Naver News IT/Science",
+        "type": "news_portal",
+        "section": "IT/Science (105)",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "Korea's 'Artificial Intelligence Ethics and Safety Basic Act', passed by the National Assembly in late 2025, took effect on January 1, 2026. The law establishes risk-level-based differential regulation for AI systems, mandatory pre-deployment impact assessments, data bias verification obligations, and transparency requirements. It represents Asia's first comprehensive AI regulation framework, preceding Japan's and Singapore's planned frameworks. Physical AI systems (robots, autonomous vehicles) face heightened scrutiny under the act's 'high-risk AI' category. Industry concerns center on compliance costs for startups and potential innovation-chilling effects, while civil society groups praise the inclusion of algorithmic fairness auditing requirements.",
+        "keywords": ["AI ethics", "AI regulation", "basic act", "risk-based regulation", "impact assessment", "algorithmic fairness"],
+        "language": "ko"
+      },
+      "preliminary_category": "spiritual",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-103-001",
+      "title": "Physical AI Companion Debate — Comfort or Control? Ethics of AI Social Partners",
+      "source": {
+        "name": "Naver News Life/Culture",
+        "type": "news_portal",
+        "section": "Life/Culture (103)",
+        "url": "https://news.naver.com/section/103",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "As Physical AI companions (embodied AI robots for social interaction) enter the Korean consumer market, a national debate has erupted over the psychological and ethical implications. Sales of companion AI robots exceeded 50,000 units in Q1 2026, primarily among elderly living alone and young adults experiencing social isolation. Mental health professionals express concern about 'relational displacement' — users substituting AI interactions for human relationships. Proponents argue these devices reduce loneliness and depression among the elderly, citing a Korean Institute for Health and Social Affairs study showing 23% reduction in depression scores. The debate intensifies as Korea faces both a loneliness epidemic and the world's lowest birth rate.",
+        "keywords": ["Physical AI", "companion robot", "loneliness", "mental health", "social isolation", "elderly care"],
+        "language": "ko"
+      },
+      "preliminary_category": "spiritual",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-101-003",
+      "title": "Climate Energy Environment Ministry Declares 2026 as 'Year of Energy Transition Results'",
+      "source": {
+        "name": "Naver News Economy",
+        "type": "news_portal",
+        "section": "Economy (101)",
+        "url": "https://news.naver.com/section/101",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "The newly reorganized Climate Energy Environment Ministry (formerly Ministry of Environment) declared 2026 as the 'Year of Energy Transition Results' in its annual work plan. Key targets include: reaching 100 GW renewable energy installed capacity by 2030, deploying heat pump systems nationally following the December 2025 activation plan, publishing a 'Heat Energy Innovation Roadmap' by March 2026, and strengthening Energy Storage System (ESS) infrastructure for grid stability. The ministry also committed to visible progress toward the 2035 NDC (Nationally Determined Contribution) and carbon neutrality goals. The budget for renewable energy subsidies and grid modernization increased 45% year-over-year.",
+        "keywords": ["energy transition", "renewable energy", "100GW", "heat pump", "ESS", "carbon neutrality", "NDC"],
+        "language": "ko"
+      },
+      "preliminary_category": "Environmental",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    },
+    {
+      "id": "naver-20260302-105-004",
+      "title": "Advanced Packaging Breakthrough — Molybdenum Replaces Copper in Sub-3nm Processes",
+      "source": {
+        "name": "Naver News IT/Science",
+        "type": "news_portal",
+        "section": "IT/Science (105)",
+        "url": "https://news.naver.com/section/105",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "At SEMICON Korea 2026, Merck showcased molybdenum as a next-generation interconnect material for AI chip manufacturing and advanced packaging, replacing traditional copper wiring in sub-3nm processes. Molybdenum offers lower electrical resistance and superior thermal management at nanoscale dimensions compared to copper, which suffers from increased resistivity below 5nm. Samsung Foundry and TSMC are both evaluating molybdenum integration into their 2nm and below process nodes. This materials innovation could resolve the critical bottleneck in chip performance scaling, enabling more efficient AI inference chips with lower power consumption. Korean materials companies (Soulbrain, ENF Technology) have developed domestic molybdenum precursor supply chains.",
+        "keywords": ["advanced packaging", "molybdenum", "sub-3nm", "SEMICON Korea", "interconnect", "chip manufacturing"],
+        "language": "ko"
+      },
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:15:00+09:00"
+    }
+  ]
+}

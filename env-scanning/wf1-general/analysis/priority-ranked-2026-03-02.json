@@ -1,0 +1,25 @@
+{
+  "ranking_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-03-02",
+    "method": "pSST_weighted",
+    "total_ranked": 15
+  },
+  "ranked_signals": [
+    {"rank": 1, "id": "wf1-20260302-001", "title": "EU AI Act Full Enforcement Approaching August 2026", "steeps": "P_Political", "psst_score": 92, "impact": "9.2/10", "novelty": 0.85, "urgency": 0.95, "cross_impact": 0.90},
+    {"rank": 2, "id": "wf1-20260302-005", "title": "China CO2 Emissions Plateau — Renewables to Surpass Coal", "steeps": "E_Environmental", "psst_score": 91, "impact": "9.1/10", "novelty": 0.88, "urgency": 0.90, "cross_impact": 0.92},
+    {"rank": 3, "id": "wf1-20260302-002", "title": "Quantum-AI Convergence Reaching Inflection Point", "steeps": "T_Technological", "psst_score": 89, "impact": "8.9/10", "novelty": 0.92, "urgency": 0.80, "cross_impact": 0.88},
+    {"rank": 4, "id": "wf1-20260302-006", "title": "2026 Edelman Trust Barometer: Society Slides Into Insularity", "steeps": "s_spiritual", "psst_score": 88, "impact": "8.8/10", "novelty": 0.86, "urgency": 0.88, "cross_impact": 0.85},
+    {"rank": 5, "id": "wf1-20260302-003", "title": "CRISPR Non-Cutting Gene Activation and Antibiotic Resistance Breakthrough", "steeps": "T_Technological", "psst_score": 87, "impact": "8.7/10", "novelty": 0.94, "urgency": 0.75, "cross_impact": 0.82},
+    {"rank": 6, "id": "wf1-20260302-007", "title": "US Reciprocal Tariffs Face Supreme Court Challenge", "steeps": "P_Political", "psst_score": 86, "impact": "8.6/10", "novelty": 0.78, "urgency": 0.93, "cross_impact": 0.88},
+    {"rank": 7, "id": "wf1-20260302-010", "title": "UK Government: Biodiversity Loss Is a National Security Threat", "steeps": "E_Environmental", "psst_score": 85, "impact": "8.5/10", "novelty": 0.82, "urgency": 0.85, "cross_impact": 0.86},
+    {"rank": 8, "id": "wf1-20260302-008", "title": "Physical AI Reaches Inflection Point — Lights-Out Operations", "steeps": "T_Technological", "psst_score": 84, "impact": "8.4/10", "novelty": 0.88, "urgency": 0.80, "cross_impact": 0.84},
+    {"rank": 9, "id": "wf1-20260302-004", "title": "Global Economy Forecast 2.7-2.8% Growth — Recession Risk 30-35%", "steeps": "E_Economic", "psst_score": 83, "impact": "8.3/10", "novelty": 0.72, "urgency": 0.88, "cross_impact": 0.90},
+    {"rank": 10, "id": "wf1-20260302-011", "title": "US Labor Force Shrinkage Accelerating", "steeps": "S_Social", "psst_score": 82, "impact": "8.2/10", "novelty": 0.76, "urgency": 0.85, "cross_impact": 0.84},
+    {"rank": 11, "id": "wf1-20260302-014", "title": "Agentic AI Transforms Enterprise Operations", "steeps": "T_Technological", "psst_score": 81, "impact": "8.1/10", "novelty": 0.85, "urgency": 0.78, "cross_impact": 0.80},
+    {"rank": 12, "id": "wf1-20260302-009", "title": "Stablecoin Banking Charters Granted — Crypto Institutional Era", "steeps": "E_Economic", "psst_score": 80, "impact": "8.0/10", "novelty": 0.82, "urgency": 0.76, "cross_impact": 0.78},
+    {"rank": 13, "id": "wf1-20260302-013", "title": "Net Zero Declared Dead as Strategic Frame", "steeps": "E_Environmental", "psst_score": 79, "impact": "7.9/10", "novelty": 0.80, "urgency": 0.74, "cross_impact": 0.82},
+    {"rank": 14, "id": "wf1-20260302-012", "title": "Commercial Space Market to Reach $1.08T by 2035", "steeps": "T_Technological", "psst_score": 77, "impact": "7.7/10", "novelty": 0.78, "urgency": 0.70, "cross_impact": 0.76},
+    {"rank": 15, "id": "wf1-20260302-015", "title": "Climate Performance Index 2026: Only 1 G20 Nation Rated High", "steeps": "P_Political", "psst_score": 76, "impact": "7.6/10", "novelty": 0.70, "urgency": 0.78, "cross_impact": 0.80}
+  ]
+}

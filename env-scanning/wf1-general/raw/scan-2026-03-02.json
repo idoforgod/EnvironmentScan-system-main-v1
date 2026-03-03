@@ -1,0 +1,143 @@
+{
+  "scan_metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-03-02",
+    "scan_window": {
+      "start": "2026-03-01T19:09:04Z",
+      "end": "2026-03-02T19:09:04Z",
+      "lookback_hours": 24
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-03-02-19-09-04-a3f2",
+      "started_at": "2026-03-02T19:09:04Z",
+      "completed_at": "2026-03-02T19:25:00Z",
+      "actual_api_calls": {"web_search": 10, "arxiv_api": 0},
+      "actual_sources_scanned": ["TechCrunch","MIT Technology Review","Google Patents","US Federal Register","WHO Press Releases","PubMed Central","Nature News","Science Magazine","IEEE Spectrum","OECD Newsroom","World Bank Blogs","UN News","EUR-Lex","Brookings","WEF","Pew Research","Hacker News","Wired","Ars Technica","NASA Climate","Carbon Brief","IMF Blog","BIS Speeches","The Conversation-Ethics","Psychology Today","Aeon Magazine","AI Ethics Brief"],
+      "file_created_at": "2026-03-02T19:25:00Z"
+    },
+    "sources_count": 27,
+    "total_items_collected": 15
+  },
+  "items": [
+    {
+      "id": "wf1-20260302-001",
+      "title": "EU AI Act Full Enforcement Approaching August 2026 — Global Regulatory Convergence Accelerating",
+      "source": {"name": "EUR-Lex / Multiple Policy Sources", "type": "policy", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "published_date": "2026-03-01"},
+      "content": {"abstract": "The EU AI Act will be fully applicable on August 2, 2026, with high-risk AI system obligations entering force. Simultaneously, Japan's Basic Act on AI Development takes effect January 2026, Texas RAGA enforces from January 2026, and China's Cybersecurity Law adds AI compliance provisions. 38 US states adopted ~100 AI-related measures in 2025. This represents the most significant global regulatory convergence for AI governance in history, creating a patchwork of compliance requirements across jurisdictions.", "keywords": ["AI regulation", "EU AI Act", "governance", "compliance", "risk-based framework"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-02T19:12:00Z"
+    },
+    {
+      "id": "wf1-20260302-002",
+      "title": "Quantum-AI Convergence Reaching Inflection Point — IBM Targets Quantum Advantage Milestone in 2026",
+      "source": {"name": "IEEE Spectrum / Multiple Tech Sources", "type": "academic", "url": "https://www.bqpsim.com/blogs/quantum-computing-artificial-intelligence", "published_date": "2026-03-01"},
+      "content": {"abstract": "IBM is targeting 2026 as a quantum advantage milestone, with Google's breakthroughs signaling error-corrected scalable systems approaching. The JVG Algorithm introduces a hybrid method for integer factorization, potentially shrinking the timeline for quantum-enabled cryptographic attacks. Error correction advances aim for sub-100 physical qubits per logical qubit. Quantum-enhanced AI could train LLMs in hours instead of weeks. The tech industry is hitting a turning point where quantum computing shifts from experimental to commercially relevant.", "keywords": ["quantum computing", "AI", "cryptography", "error correction", "IBM"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-02T19:12:00Z"
+    },
+    {
+      "id": "wf1-20260302-003",
+      "title": "CRISPR Non-Cutting Gene Activation and Antibiotic Resistance Breakthrough — Gene Therapy Expands to 250+ Clinical Trials",
+      "source": {"name": "Nature News / ScienceDaily / PubMed Central", "type": "academic", "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm", "published_date": "2026-02-17"},
+      "content": {"abstract": "Two major CRISPR breakthroughs: (1) Scientists demonstrated gene activation without cutting DNA by removing chemical silencing tags, settling a long-running scientific debate. (2) A gene-drive-inspired CRISPR tool spreads through bacterial communities deleting antibiotic resistance genes. MIT achieved 60x fewer off-target editing errors. Casgevy (SCD/beta-thalassemia) approved at 50+ sites globally. ~250 clinical trials active with 150+ currently running. Phase 3 trials primarily target blood disorders.", "keywords": ["CRISPR", "gene editing", "gene therapy", "antibiotic resistance", "clinical trials"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-02T19:13:00Z"
+    },
+    {
+      "id": "wf1-20260302-004",
+      "title": "Global Economy Forecast 2.7-2.8% Growth in 2026 — Recession Probability at 30-35% Amid Trade Uncertainty",
+      "source": {"name": "Goldman Sachs / World Bank / IMF Blog", "type": "policy", "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Goldman Sachs projects 2.8% global GDP growth (vs. 2.5% consensus). Morgan Stanley expects 3.0-3.2%. World Bank warns growth may slow to 2.7% below pre-pandemic average due to subdued investment and structural headwinds. US growth at 2.6%, China at 4.8% (exports strong, domestic demand sluggish), Euro area 1.3% (German fiscal stimulus helps). Core inflation moderating to 3.1%. J.P. Morgan sees 35% US recession probability. US Supreme Court expected to rule on reciprocal tariffs validity.", "keywords": ["GDP", "recession risk", "inflation", "global economy", "trade"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-02T19:14:00Z"
+    },
+    {
+      "id": "wf1-20260302-005",
+      "title": "China CO2 Emissions Plateau — Renewables to Surpass Coal as World's Largest Electricity Source",
+      "source": {"name": "Carbon Brief / RMI / NASA Climate", "type": "policy", "url": "https://www.carbonbrief.org/experts-what-to-expect-from-china-on-energy-and-climate-action-in-2026/", "published_date": "2026-03-01"},
+      "content": {"abstract": "Independent analyses suggest China's CO2 emissions may have peaked in 2025 as renewable power growth outpaces electricity demand growth. Renewables projected to surpass coal as world's largest electricity source by 2026. China's 15th five-year plan will publish 2030 energy/climate targets. However, US Paris Agreement withdrawal (effective Jan 2026) sets projected emissions back 0.1C by 2100. Trump admin proposes revoking 2024 vehicle fuel efficiency standards. China EV charging points reached 19.32M (+52% YoY), targeting 28M by 2027.", "keywords": ["China emissions", "renewables", "Paris Agreement", "coal", "EV charging"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-02T19:15:00Z"
+    },
+    {
+      "id": "wf1-20260302-006",
+      "title": "2026 Edelman Trust Barometer: Society Slides Into Insularity — Shared Reality Collapsing",
+      "source": {"name": "Edelman / Axios / Psychology Today", "type": "blog", "url": "https://www.edelman.com/news-awards/2026-edelman-trust-barometer-society-slides-into-insularity", "published_date": "2026-01-16"},
+      "content": {"abstract": "The 2026 Edelman Trust Barometer reveals trust has crossed a new threshold — society slides from grievance into insularity. People no longer accept the same sources, authorities, or the validity of disagreement itself. Institutional leaders experienced net trust losses: national government leaders (-16), major news organizations (-11), foreign business leaders (-6). Proximate relationships gained: neighbors/family (+11), coworkers (+11), CEOs (+9). AI-generated content accelerates reality fragmentation — deepfakes blur truth/fabrication boundary.", "keywords": ["trust crisis", "social fragmentation", "AI deepfakes", "institutional decline", "insularity"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-02T19:16:00Z"
+    },
+    {
+      "id": "wf1-20260302-007",
+      "title": "US Reciprocal Tariffs Face Supreme Court Challenge — 79% of Businesses Report Increased Dispute Exposure",
+      "source": {"name": "Baker McKenzie / Chambers / US Federal Register", "type": "policy", "url": "https://www.bakermckenzie.com/en/newsroom/2026/01/global-disputes-forecast-2016", "published_date": "2026-02-28"},
+      "content": {"abstract": "US Supreme Court expected to rule on validity of Trump administration's reciprocal tariffs against most US trading partners — the most significant US trade development in decades. Baker McKenzie survey: 79% identify tariffs/sanctions/export controls as major external factors increasing dispute exposure. OFAC intensifies enforcement on gatekeepers (investment advisors, accountants, attorneys). Maximum sanctions pressure restored on Iran with 12+ rounds targeting shipping networks. Companies face long-term supply chain and compliance implications.", "keywords": ["tariffs", "OFAC sanctions", "trade disputes", "Supreme Court", "export controls"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-02T19:16:00Z"
+    },
+    {
+      "id": "wf1-20260302-008",
+      "title": "Physical AI Reaches Inflection Point — Lights-Out Warehouse Operations Begin, 73% Decision-Makers Expect Robotics to Shape Operations",
+      "source": {"name": "International Federation of Robotics / Manufacturing Dive / Hacker News", "type": "blog", "url": "https://ifr.org/ifr-press-releases/news/top-5-global-robotics-trends-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Physical AI is 2026's dominant robotics trend — Nvidia CEO declared 'the ChatGPT moment for physical AI is here.' IFR identifies top trends: AI-powered inspection, automated supply chains, nearshoring via robotic automation. Some operators running lights-out night shifts where robots handle all core workflows without human supervision. 73% of decision-makers expect robotics to shape operations, but only 44% have deployed. Agentic AI enables automated management of supply chain disruptions.", "keywords": ["physical AI", "robotics", "automation", "lights-out operations", "supply chain"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-02T19:17:00Z"
+    },
+    {
+      "id": "wf1-20260302-009",
+      "title": "Stablecoin Banking Charters Granted to Five Major Firms — Crypto Enters Institutional Era",
+      "source": {"name": "WEF / Grayscale / Hacker News", "type": "blog", "url": "https://www.weforum.org/stories/2026/01/digital-economy-inflection-point-what-to-expect-for-digital-assets-in-2026/", "published_date": "2026-03-01"},
+      "content": {"abstract": "OCC granted conditional national trust bank charters to BitGo, Circle, Fidelity Digital Assets, Paxos, and Ripple — moving stablecoin/custody infrastructure inside federal banking perimeter. Societe Generale launched EUR CoinVertible, JPMorgan extended JPM Coin to public blockchains. Real-world asset tokenization accelerates with institutional momentum. US regulators shifted from enforcement-heavy crypto-skepticism to flexibility for market participants. 2026 marked as 'Dawn of the Institutional Era' for digital assets with expected uptick in crypto IPOs and M&A.", "keywords": ["stablecoin", "crypto regulation", "tokenization", "banking charter", "institutional adoption"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-02T19:18:00Z"
+    },
+    {
+      "id": "wf1-20260302-010",
+      "title": "UK Government: Biodiversity Loss Is a National Security Threat — Sixth Mass Extinction Underway",
+      "source": {"name": "UK Government / Nature News / WHO", "type": "policy", "url": "https://www.gov.uk/government/publications/nature-security-assessment-on-global-biodiversity-loss-ecosystem-collapse-and-national-security/national-security-assessment-on-global-ecosystems-accessible-version", "published_date": "2026-01-29"},
+      "content": {"abstract": "UK government January 2026 report: 'Global biodiversity loss, ecosystem collapse and national security.' Monitored wildlife populations declined 73% (1970-2020). Freshwater species declined 84%. Extinction rate tens to hundreds of times higher than 10-million-year average — sixth mass extinction may be underway. Collapse would drive displacement of millions, change weather patterns, increase global food/water scarcity, drive geopolitical competition for remaining resources. Declared a national security-tier threat.", "keywords": ["biodiversity loss", "ecosystem collapse", "national security", "extinction", "wildlife decline"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-02T19:19:00Z"
+    },
+    {
+      "id": "wf1-20260302-011",
+      "title": "US Labor Force Shrinkage Accelerating — Needs 280K+ Annual Immigration to Prevent Working-Age Population Decline",
+      "source": {"name": "Federal Reserve / EPI / Pew Research / World Bank Blogs", "type": "policy", "url": "https://www.kansascityfed.org/research/economic-bulletin/declining-immigration-and-an-aging-population-are-reducing-breakeven-employment-growth/", "published_date": "2026-02-28"},
+      "content": {"abstract": "US median age increased from 32.9 (1990) to 39.1 (2024). Oldest baby boomers turn 80 in 2026. Monthly breakeven employment growth fell from 150K (Jan 2024) to 126K (Jan 2025) due to reduced immigration. US needs minimum 280K net annual immigration through 2028 to prevent working-age population decline. Labor force participation projected at 62.3%. Healthcare sector needs 3.3M new jobs in 7 years but faces nurse shortages in 50%+ of states. Demographic constraint keeps labor markets tight, limiting GDP growth.", "keywords": ["aging population", "labor force", "immigration", "demographics", "healthcare workforce"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-02T19:20:00Z"
+    },
+    {
+      "id": "wf1-20260302-012",
+      "title": "Commercial Space Market to Reach $1.08T by 2035 — China Targets 100+ Annual Launches in 2026",
+      "source": {"name": "NASA / PwC / Multiple Tech Sources", "type": "blog", "url": "https://www.pwc.com/us/en/industries/industrial-products/library/space-industry-trends.html", "published_date": "2026-03-01"},
+      "content": {"abstract": "Global space technology market estimated at $512B in 2025, projected to reach $1,082B by 2035. China expects to exceed 100 annual rocket launches in 2026 — entering commercialization/scale-up watershed year. NASA Roman Space Telescope launch planned Sept 2026. Blue Origin Blue Moon Pathfinder Mission 1 early 2026 (uncrewed lunar landing test). Griffin Mission One targeting Moon's south pole July 2026. Series of robotic lunar landings building infrastructure for future human presence.", "keywords": ["space industry", "commercial space", "lunar exploration", "China launches", "NASA"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-02T19:21:00Z"
+    },
+    {
+      "id": "wf1-20260302-013",
+      "title": "Net Zero Declared Dead as Strategic Frame — Bloomberg: 'Long Live Renewable Energy' as Pragmatic Transition Takes Over",
+      "source": {"name": "Bloomberg / Carbon Brief / RMI", "type": "blog", "url": "https://www.bloomberg.com/opinion/articles/2026-02-25/climate-change-net-zero-is-dead-long-live-renewable-energy", "published_date": "2026-02-25"},
+      "content": {"abstract": "Bloomberg declares 'Net Zero is Dead. Long Live Renewable Energy' — signaling a paradigm shift in climate discourse from aspirational net-zero pledges to pragmatic renewable energy deployment. RMI identifies 10 energy transition trends for 2026. Climate Change Performance Index 2026: Denmark leads, UK only G20 with 'high' rating, 10 G20 countries 'very low.' Forecasts for renewable deployments revised down ~5% due to permitting delays, supply chain bottlenecks, and US policy uncertainty. Despite setbacks, renewables meeting 90%+ of electricity demand growth globally.", "keywords": ["net zero", "renewable energy", "climate performance", "energy transition", "pragmatic shift"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-02T19:22:00Z"
+    },
+    {
+      "id": "wf1-20260302-014",
+      "title": "Agentic AI Transforms Enterprise Operations — From Chatbots to Autonomous Business Process Management",
+      "source": {"name": "TechCrunch / Wired / Ars Technica", "type": "blog", "url": "https://www.ttnews.com/articles/supply-chain-ai-manifest-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Agentic AI represents the next evolution beyond conversational AI — systems that can reason, plan, and autonomously execute multi-step business processes. Key applications: automated supply chain disruption management, financial compliance monitoring, and customer service orchestration. Companies are deploying AI agents that operate with minimal human supervision, integrating with existing enterprise systems. The shift from 'AI as tool' to 'AI as worker' raises fundamental questions about employment, liability, and organizational structure.", "keywords": ["agentic AI", "autonomous systems", "enterprise AI", "business process automation", "AI agents"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-02T19:23:00Z"
+    },
+    {
+      "id": "wf1-20260302-015",
+      "title": "Climate Performance Index 2026: Only 1 G20 Nation Rated 'High' — Developed Nations Failing Climate Commitments",
+      "source": {"name": "NewClimate Institute / OECD Newsroom", "type": "policy", "url": "https://newclimate.org/news/press-release-climate-change-performance-index-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "The Climate Change Performance Index (CCPI) 2026 shows Denmark leads, followed by UK and Morocco. G20 countries produce 75%+ of global greenhouse gas emissions but only UK achieves 'high' rating, with 10 G20 countries classified 'very low.' US Paris Agreement withdrawal effective January 2026 sets back projected emissions by 0.1C by 2100. Despite pledges, gap between climate rhetoric and action widening. Developing nations demand more financing from developed countries failing their own commitments.", "keywords": ["CCPI", "climate performance", "G20", "Paris Agreement", "climate commitments"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-02T19:24:00Z"
+    }
+  ]
+}

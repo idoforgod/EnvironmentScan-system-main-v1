@@ -1,0 +1,161 @@
+{
+  "ranking_metadata": {
+    "workflow": "wf3-naver",
+    "date": "2026-03-02",
+    "method": "pSST_unified",
+    "total_ranked": 12,
+    "scoring_weights": {
+      "novelty": 0.20,
+      "impact": 0.30,
+      "confidence": 0.15,
+      "timeliness": 0.15,
+      "strategic_relevance": 0.20
+    }
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260302-104-001",
+      "title": "US-Israel Military Strikes on Iran — KOSPI Volatility and Oil Spike",
+      "pSST_score": 93,
+      "impact_score": 9.2,
+      "steeps": "Political",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "tipping_alert": "ORANGE",
+      "rationale": "Multi-domain cascade risk: energy security, market volatility, geopolitical realignment — highest urgency signal"
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260302-101-002",
+      "title": "US Reciprocal Tariff on Korea Raised to 25%",
+      "pSST_score": 91,
+      "impact_score": 8.8,
+      "steeps": "Economic",
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "tipping_alert": "ORANGE",
+      "rationale": "Direct GDP impact 0.3-0.5pp; structural trade relationship shift; supply chain restructuring catalyst"
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260302-102-001",
+      "title": "Korea Enters Super-Aged Society — 65+ Exceeds 20.8%",
+      "pSST_score": 90,
+      "impact_score": 9.0,
+      "steeps": "Social",
+      "fssf_type": "Megatrend",
+      "horizon": "H2",
+      "tipping_alert": "ORANGE",
+      "rationale": "Irreversible demographic threshold crossed; cascading effects on labor, pension, healthcare, fiscal policy"
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260302-105-001",
+      "title": "Samsung HBM4 NVIDIA Rubin Validation Pass and First Commercial Shipment",
+      "pSST_score": 88,
+      "impact_score": 8.5,
+      "steeps": "Technological",
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "tipping_alert": "GREEN",
+      "rationale": "Reclaims AI memory leadership; immediate revenue and market share implications for Korea's semiconductor sector"
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260302-100-001",
+      "title": "North Korea Declares South as Permanent Principal Enemy — Nuclear Posture Hardened",
+      "pSST_score": 87,
+      "impact_score": 8.3,
+      "steeps": "Political",
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "tipping_alert": "YELLOW",
+      "rationale": "Constitutional nuclear enshrinement; potential Trump-Kim summit implications; alliance framework risk"
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260302-101-001",
+      "title": "KOSPI Surges Past 6,300 — Morgan Stanley Raises Target to 6,500",
+      "pSST_score": 85,
+      "impact_score": 7.8,
+      "steeps": "Economic",
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "tipping_alert": "YELLOW",
+      "rationale": "Historic highs driven by AI supercycle but bubble risk from rapid ETF asset growth"
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260302-105-003",
+      "title": "Korea AI Ethics and Safety Basic Act Takes Effect",
+      "pSST_score": 83,
+      "impact_score": 7.5,
+      "steeps": "spiritual",
+      "fssf_type": "Precursor Event",
+      "horizon": "H2",
+      "tipping_alert": "GREEN",
+      "rationale": "Asia's first comprehensive AI regulation; sets precedent for regional governance frameworks"
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260302-105-002",
+      "title": "K-AI Semiconductor Startups Enter Mass Production Era",
+      "pSST_score": 82,
+      "impact_score": 7.2,
+      "steeps": "Technological",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "tipping_alert": "GREEN",
+      "rationale": "Ecosystem maturation milestone; KRW 3.2T government support; competitiveness challenge ahead"
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260302-101-003",
+      "title": "Climate Energy Environment Ministry — Year of Energy Transition Results",
+      "pSST_score": 80,
+      "impact_score": 7.0,
+      "steeps": "Environmental",
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "tipping_alert": "GREEN",
+      "rationale": "Comprehensive energy policy framework with 100GW target; budget increase 45% YoY signals commitment"
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260302-100-002",
+      "title": "Offshore Wind Special Act Takes Effect — Government-Led Site Designation",
+      "pSST_score": 78,
+      "impact_score": 6.8,
+      "steeps": "Environmental",
+      "fssf_type": "Precursor Event",
+      "horizon": "H2",
+      "tipping_alert": "GREEN",
+      "rationale": "Regulatory enabler reducing permitting from 7-10 to 3-4 years; 15GW offshore wind target by 2035"
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260302-103-001",
+      "title": "Physical AI Companion Debate — Comfort or Control?",
+      "pSST_score": 76,
+      "impact_score": 6.5,
+      "steeps": "spiritual",
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "tipping_alert": "GREEN",
+      "rationale": "Early signal of fundamental societal shift in human-AI relationships; intersects with demographic crisis"
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260302-105-004",
+      "title": "Advanced Packaging Breakthrough — Molybdenum in Sub-3nm",
+      "pSST_score": 74,
+      "impact_score": 6.2,
+      "steeps": "Technological",
+      "fssf_type": "Weak Signal",
+      "horizon": "H2",
+      "tipping_alert": "GREEN",
+      "rationale": "Materials innovation could resolve chip scaling bottleneck; domestic supply chain advantage for Korea"
+    }
+  ]
+}

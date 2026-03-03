@@ -1,0 +1,95 @@
+{
+  "master_id": "quadruple-scan-2026-03-02",
+  "system_name": "Quadruple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.5.0",
+  "started_at": "2026-03-02T19:09:04.888643+00:00",
+  "completed_at": "2026-03-02T20:45:00+00:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-02.json",
+  "bilingual_config_file": "env-scanning/integrated/logs/bilingual-config-2026-03-02.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-03-02T19:09:00+00:00",
+    "results": "55/56 PASS, 0 HALT, 1 WARN (stale dedup indices)",
+    "warnings": ["DEDUP-002: Some dedup index files are stale"]
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-02.md",
+      "signal_count": 15,
+      "completed_at": "2026-03-02T19:25:00+00:00",
+      "validation": "18/18 PASS",
+      "human_approvals": {
+        "step_2_5": "approved (autopilot)",
+        "step_3_4": "approved (autopilot)"
+      }
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-02.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-02T19:40:00+00:00",
+      "validation": "15/17 PASS, 2 WARN (accepted)",
+      "human_approvals": {
+        "step_2_5": "approved (autopilot)",
+        "step_3_4": "approved (autopilot)"
+      }
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-02.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-02T20:05:00+00:00",
+      "validation": "20/20 PASS",
+      "human_approvals": {
+        "step_2_5": "approved (autopilot)",
+        "step_3_4": "approved (autopilot)"
+      }
+    },
+    "wf4-multiglobal-news": {
+      "status": "completed",
+      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-02.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-02T20:25:00+00:00",
+      "validation": "20/20 PASS",
+      "human_approvals": {
+        "step_2_5": "approved (autopilot)",
+        "step_3_4": "approved (autopilot)"
+      }
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent (context-constrained session fallback)",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-02.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-02.md",
+    "total_signals_pool": 51,
+    "top_signals_selected": 20,
+    "cross_workflow_reinforcements": 7,
+    "cross_workflow_tensions": 4,
+    "naver_exclusive_signals": 5,
+    "wf4_exclusive_signals": 4,
+    "academic_early_signals": 4,
+    "validation": "19/19 PASS",
+    "completed_at": "2026-03-02T20:45:00+00:00"
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {"decision": "approved", "mode": "autopilot"},
+    "wf1_step_3_4": {"decision": "approved", "mode": "autopilot"},
+    "wf2_step_2_5": {"decision": "approved", "mode": "autopilot"},
+    "wf2_step_3_4": {"decision": "approved", "mode": "autopilot"},
+    "wf3_step_2_5": {"decision": "approved", "mode": "autopilot"},
+    "wf3_step_3_4": {"decision": "approved", "mode": "autopilot"},
+    "wf4_step_2_5": {"decision": "approved", "mode": "autopilot"},
+    "wf4_step_3_4": {"decision": "approved", "mode": "autopilot"},
+    "integrated_final": {"decision": "approved", "mode": "autopilot"}
+  },
+  "master_gates": {
+    "M1": {"status": "PASS"},
+    "M2": {"status": "PASS"},
+    "M2a": {"status": "PASS"},
+    "M2b": {"status": "PASS"},
+    "M3": {"status": "PASS"}
+  }
+}

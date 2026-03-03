@@ -1,0 +1,17 @@
+{
+  "classification_metadata": {"workflow": "wf4-multiglobal-news", "date": "2026-03-02", "classifier": "steeps_fssf_three_horizons", "total_signals": 12},
+  "signals": [
+    {"id": "news-20260302-reuters-001", "title": "US-Israeli Strikes on Iran — Global Oil Spike", "steeps_category": "Political", "fssf_type": "Wild Card", "three_horizons": "H1", "uncertainty_level": "Very High", "tipping_point": {"detected": true, "alert_level": "ORANGE"}},
+    {"id": "news-20260302-euronews-001", "title": "Iran War Ignites Green Transition Calls", "steeps_category": "Environmental", "fssf_type": "Driver", "three_horizons": "H2", "uncertainty_level": "Medium", "tipping_point": {"detected": false, "alert_level": "GREEN"}},
+    {"id": "news-20260302-nvidia-001", "title": "NVIDIA Physical AI Models — Robotics ChatGPT Moment", "steeps_category": "Technological", "fssf_type": "Emerging Issue", "three_horizons": "H1", "uncertainty_level": "Medium", "tipping_point": {"detected": false, "alert_level": "GREEN"}},
+    {"id": "news-20260302-cgtn-001", "title": "China Zero-Tariff for 53 African Nations", "steeps_category": "Economic", "fssf_type": "Driver", "three_horizons": "H2", "uncertainty_level": "Medium", "tipping_point": {"detected": true, "alert_level": "YELLOW"}},
+    {"id": "news-20260302-secweek-001", "title": "JVG Quantum Algorithm Threatens RSA Encryption", "steeps_category": "Technological", "fssf_type": "Wild Card", "three_horizons": "H2", "uncertainty_level": "High", "tipping_point": {"detected": true, "alert_level": "ORANGE"}},
+    {"id": "news-20260302-techcrunch-001", "title": "AI Hype to Pragmatism — Enterprise Adoption", "steeps_category": "Technological", "fssf_type": "Trend", "three_horizons": "H1", "uncertainty_level": "Low", "tipping_point": {"detected": false, "alert_level": "GREEN"}},
+    {"id": "news-20260302-stimson-001", "title": "Stimson Top 10 Global Risks — Cascading Crises", "steeps_category": "Political", "fssf_type": "Megatrend", "three_horizons": "H1", "uncertainty_level": "High", "tipping_point": {"detected": true, "alert_level": "ORANGE"}},
+    {"id": "news-20260302-wef-001", "title": "WEF Quantum Security Warning", "steeps_category": "Technological", "fssf_type": "Precursor Event", "three_horizons": "H2", "uncertainty_level": "Medium", "tipping_point": {"detected": false, "alert_level": "GREEN"}},
+    {"id": "news-20260302-atlantic-001", "title": "Middle East 2026 — Gaza and Iran Conflict Deepens", "steeps_category": "Political", "fssf_type": "Driver", "three_horizons": "H1", "uncertainty_level": "Very High", "tipping_point": {"detected": true, "alert_level": "ORANGE"}},
+    {"id": "news-20260302-ibm-001", "title": "IBM: Agentic AI and AI Factories Transform Enterprise", "steeps_category": "Technological", "fssf_type": "Trend", "three_horizons": "H1", "uncertainty_level": "Low", "tipping_point": {"detected": false, "alert_level": "GREEN"}},
+    {"id": "news-20260302-columbia-001", "title": "Columbia: Iran Conflict Could Restructure Gulf Oil Markets", "steeps_category": "Economic", "fssf_type": "Weak Signal", "three_horizons": "H2", "uncertainty_level": "High", "tipping_point": {"detected": true, "alert_level": "ORANGE"}},
+    {"id": "news-20260302-newlines-001", "title": "New Lines: Polycrisis Deepens, AI Governance Gaps", "steeps_category": "Political", "fssf_type": "Megatrend", "three_horizons": "H2", "uncertainty_level": "High", "tipping_point": {"detected": true, "alert_level": "YELLOW"}}
+  ]
+}

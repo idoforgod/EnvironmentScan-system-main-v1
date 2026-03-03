@@ -1,0 +1,195 @@
+{
+  "classification_metadata": {
+    "workflow": "wf3-naver",
+    "date": "2026-03-02",
+    "classifier": "steeps_fssf_three_horizons",
+    "total_signals": 12
+  },
+  "signals": [
+    {
+      "id": "naver-20260302-105-001",
+      "title": "Samsung HBM4 NVIDIA Rubin Validation Pass and First Commercial Shipment",
+      "steeps_category": "Technological",
+      "steeps_confidence": 0.95,
+      "fssf_type": "Trend",
+      "fssf_confidence": 0.88,
+      "three_horizons": "H1",
+      "horizon_rationale": "HBM4 is already in commercial production and shipment — immediate 0-2 year impact",
+      "uncertainty_level": "Low",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    },
+    {
+      "id": "naver-20260302-105-002",
+      "title": "K-AI Semiconductor Startups Enter Mass Production Era",
+      "steeps_category": "Technological",
+      "steeps_confidence": 0.92,
+      "fssf_type": "Emerging Issue",
+      "fssf_confidence": 0.85,
+      "three_horizons": "H1",
+      "horizon_rationale": "Multiple startups shipping products now — H1 transition from R&D to market",
+      "uncertainty_level": "Medium",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    },
+    {
+      "id": "naver-20260302-101-001",
+      "title": "KOSPI Surges Past 6,300 — Morgan Stanley Raises Year-End Target to 6,500",
+      "steeps_category": "Economic",
+      "steeps_confidence": 0.96,
+      "fssf_type": "Trend",
+      "fssf_confidence": 0.90,
+      "three_horizons": "H1",
+      "horizon_rationale": "Current market movement with near-term dynamics — 0-2 year horizon",
+      "uncertainty_level": "Medium",
+      "tipping_point": {
+        "detected": true,
+        "alert_level": "YELLOW",
+        "indicator": "ETF assets surging 30% in 2 months; potential bubble formation if AI supercycle expectations disappoint"
+      }
+    },
+    {
+      "id": "naver-20260302-101-002",
+      "title": "US Reciprocal Tariff on Korea Raised to 25%",
+      "steeps_category": "Economic",
+      "steeps_confidence": 0.93,
+      "fssf_type": "Driver",
+      "fssf_confidence": 0.91,
+      "three_horizons": "H1",
+      "horizon_rationale": "Immediate policy change effective March 4, 2026 — direct impact within months",
+      "uncertainty_level": "Medium",
+      "tipping_point": {
+        "detected": true,
+        "alert_level": "ORANGE",
+        "indicator": "25% tariff represents critical escalation threshold; GDP impact 0.3-0.5pp; supply chain restructuring acceleration"
+      }
+    },
+    {
+      "id": "naver-20260302-102-001",
+      "title": "Korea Enters Super-Aged Society — 65+ Exceeds 20.8%",
+      "steeps_category": "Social",
+      "steeps_confidence": 0.97,
+      "fssf_type": "Megatrend",
+      "fssf_confidence": 0.95,
+      "three_horizons": "H2",
+      "horizon_rationale": "Structural demographic shift with 2-7 year transition implications for labor, pension, healthcare",
+      "uncertainty_level": "Low",
+      "tipping_point": {
+        "detected": true,
+        "alert_level": "ORANGE",
+        "indicator": "20% threshold crossed — irreversible demographic transition; 3.63M working-age population decline projected; pension fund depletion timeline advancing"
+      }
+    },
+    {
+      "id": "naver-20260302-100-001",
+      "title": "North Korea Declares South as Permanent Principal Enemy — Nuclear Posture Hardened",
+      "steeps_category": "Political",
+      "steeps_confidence": 0.95,
+      "fssf_type": "Driver",
+      "fssf_confidence": 0.88,
+      "three_horizons": "H1",
+      "horizon_rationale": "Immediate security posture change with near-term summit diplomacy implications",
+      "uncertainty_level": "High",
+      "tipping_point": {
+        "detected": true,
+        "alert_level": "YELLOW",
+        "indicator": "Constitutional enshrinement of nuclear posture represents point of no return; 80-100 warhead estimate crosses quantitative threshold"
+      }
+    },
+    {
+      "id": "naver-20260302-100-002",
+      "title": "Offshore Wind Special Act Takes Effect — Government-Led Site Designation",
+      "steeps_category": "Environmental",
+      "steeps_confidence": 0.91,
+      "fssf_type": "Precursor Event",
+      "fssf_confidence": 0.86,
+      "three_horizons": "H2",
+      "horizon_rationale": "Regulatory framework enabling 2-7 year deployment cycles for offshore wind infrastructure",
+      "uncertainty_level": "Medium",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    },
+    {
+      "id": "naver-20260302-104-001",
+      "title": "US-Israel Military Strikes on Iran — KOSPI Volatility and Oil Spike",
+      "steeps_category": "Political",
+      "steeps_confidence": 0.94,
+      "fssf_type": "Wild Card",
+      "fssf_confidence": 0.92,
+      "three_horizons": "H1",
+      "horizon_rationale": "Immediate crisis with acute near-term impact on markets and energy security",
+      "uncertainty_level": "Very High",
+      "tipping_point": {
+        "detected": true,
+        "alert_level": "ORANGE",
+        "indicator": "Strait of Hormuz disruption risk; oil at $95 with $120+ potential; cross-domain cascade to energy, economy, security"
+      }
+    },
+    {
+      "id": "naver-20260302-105-003",
+      "title": "Korea AI Ethics and Safety Basic Act Takes Effect",
+      "steeps_category": "spiritual",
+      "steeps_confidence": 0.89,
+      "fssf_type": "Precursor Event",
+      "fssf_confidence": 0.87,
+      "three_horizons": "H2",
+      "horizon_rationale": "New regulatory framework with 2-5 year maturation period for implementation and enforcement",
+      "uncertainty_level": "Medium",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    },
+    {
+      "id": "naver-20260302-103-001",
+      "title": "Physical AI Companion Debate — Comfort or Control?",
+      "steeps_category": "spiritual",
+      "steeps_confidence": 0.90,
+      "fssf_type": "Weak Signal",
+      "fssf_confidence": 0.83,
+      "three_horizons": "H3",
+      "horizon_rationale": "Fundamental questions about human-AI relationships emerging — 7+ year societal transformation",
+      "uncertainty_level": "High",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    },
+    {
+      "id": "naver-20260302-101-003",
+      "title": "Climate Energy Environment Ministry — 2026 Year of Energy Transition Results",
+      "steeps_category": "Environmental",
+      "steeps_confidence": 0.93,
+      "fssf_type": "Trend",
+      "fssf_confidence": 0.89,
+      "three_horizons": "H2",
+      "horizon_rationale": "Policy roadmap targeting 2030 goals — H2 transitional horizon",
+      "uncertainty_level": "Medium",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    },
+    {
+      "id": "naver-20260302-105-004",
+      "title": "Advanced Packaging Breakthrough — Molybdenum Replaces Copper in Sub-3nm",
+      "steeps_category": "Technological",
+      "steeps_confidence": 0.94,
+      "fssf_type": "Weak Signal",
+      "fssf_confidence": 0.80,
+      "three_horizons": "H2",
+      "horizon_rationale": "Early-stage material innovation — 2-5 years to full production integration",
+      "uncertainty_level": "High",
+      "tipping_point": {
+        "detected": false,
+        "alert_level": "GREEN"
+      }
+    }
+  ]
+}

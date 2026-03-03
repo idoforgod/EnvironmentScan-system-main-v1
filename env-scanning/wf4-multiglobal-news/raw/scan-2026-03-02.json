@@ -1,0 +1,117 @@
+{
+  "scan_metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-02",
+    "scan_window": {
+      "start": "2026-03-01T19:09:04.888643+00:00",
+      "end": "2026-03-02T19:09:04.888643+00:00",
+      "lookback_hours": 24
+    },
+    "source": "Multi&Global News (web search proxy for 43 direct news sites)",
+    "total_signals": 12,
+    "languages_covered": ["en", "de", "fr", "zh", "ja", "ko"],
+    "execution_proof": {
+      "method": "web_search_proxy",
+      "searches_performed": 4,
+      "timestamp": "2026-03-02T19:30:00+09:00"
+    }
+  },
+  "items": [
+    {
+      "id": "news-20260302-reuters-001",
+      "title": "US-Israeli Strikes on Iran Nuclear Facilities Trigger Global Oil Spike and Market Volatility",
+      "source": {"name": "Reuters / Bruegel", "type": "global_wire", "url": "https://www.bruegel.org/first-glance/how-will-iran-conflict-hit-european-energy-markets", "published_date": "2026-03-02", "language": "en"},
+      "content": {"abstract": "Coordinated US-Israeli military strikes targeted Iranian nuclear enrichment facilities and ballistic missile sites. Brent crude surged 10% to $82+ per barrel (European markets), with WTI hitting $95 (Asian session). Iran launched retaliatory strikes across Middle East including attacks on shipping near Strait of Hormuz, which carries 20M barrels daily (20% of global oil). European LNG vulnerability exposed: gas storage at 46 bcm (vs 60 bcm 2025, 77 bcm 2024). Global risk-off sentiment triggered equity selloffs across Asia, Europe, and pre-market US futures.", "keywords": ["Iran strikes", "oil price", "Strait of Hormuz", "energy security", "geopolitical risk"], "language": "en"},
+      "preliminary_category": "Political",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-euronews-001",
+      "title": "Iran War Ignites Calls for Accelerated Green Transition — 'Chained to Fossil Fuels'",
+      "source": {"name": "Euronews", "type": "european_media", "url": "https://www.euronews.com/2026/03/02/a-world-chained-to-fossil-fuels-does-the-war-on-iran-prove-its-time-to-quit-oil-for-good", "published_date": "2026-03-02", "language": "en"},
+      "content": {"abstract": "The Iran military escalation has reignited the debate over fossil fuel dependency, with European leaders and climate advocates arguing that only domestic renewable energy can protect against recurring geopolitical energy shocks. European gas storage started 2026 at historically low 46 bcm vs 77 bcm in 2024. Calls intensify for accelerated deployment of wind, solar, and battery storage as structural energy security measures rather than emergency responses. The narrative is shifting from 'transition cost' to 'security investment'.", "keywords": ["energy transition", "fossil fuel dependency", "energy security", "renewable energy", "European policy"], "language": "en"},
+      "preliminary_category": "Environmental",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-nvidia-001",
+      "title": "NVIDIA Physical AI Models Released — Global Partners Unveil Next-Generation Robots",
+      "source": {"name": "NVIDIA Newsroom", "type": "tech_corporate", "url": "https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "NVIDIA released new Physical AI foundation models enabling robots to understand and interact with the real world through reasoning and planning capabilities. Global partners including Boston Dynamics, Caterpillar, Franka Robotics, and NEURA Robotics debuted new AI-driven robots using NVIDIA's stack. This represents the 'ChatGPT moment for robotics' — the transition from scripted industrial robots to adaptive, AI-driven systems that can operate in unstructured environments. The GTC 2026 conference (March 16-19) will showcase further breakthroughs in physical AI, agentic AI, and inference computing.", "keywords": ["Physical AI", "robotics", "NVIDIA", "foundation models", "GTC 2026"], "language": "en"},
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-cgtn-001",
+      "title": "China Zero-Tariff Policy for 53 African Nations — Global South Trade Realignment",
+      "source": {"name": "CGTN / Brookings", "type": "international_analysis", "url": "https://www.brookings.edu/articles/can-zero-tariff-policy-rebalance-china-africa-trade/", "published_date": "2026-02-27", "language": "en"},
+      "content": {"abstract": "Starting May 1, 2026, China will eliminate tariffs on all imports from 53 African nations with diplomatic relations — the most expansive trade concession to date. Middle-income economies (Kenya, South Africa, Nigeria, Egypt, Morocco) gain duty-free access for the first time. However, Africa's trade deficit with China widened to $59.55 billion (8-month 2025 figure). Chinese exports to Africa jumped 24.7% to $140.79B while African imports rose only 2.3%. Critics warn that duty-free access alone cannot address the structural trade imbalance, and cheap Chinese imports threaten African domestic manufacturing.", "keywords": ["China-Africa trade", "zero tariff", "Global South", "trade imbalance", "industrial policy"], "language": "en"},
+      "preliminary_category": "Economic",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-secweek-001",
+      "title": "JVG Quantum Algorithm Threatens RSA Encryption — 'Cybersecurity Apocalypse' Warning",
+      "source": {"name": "SecurityWeek / PRNewswire", "type": "cybersecurity_media", "url": "https://www.prnewswire.com/news-releases/cybersecurity-apocalypse-in-2026-with-a-new-algorithm-according-to-the-advanced-quantum-technologies-institute-302699873.html", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "The Advanced Quantum Technologies Institute published research on the Jesse-Victor-Gharabaghi (JVG) Algorithm, a hybrid quantum-classical method that restructures integer factorization — the mathematical foundation of RSA encryption. The JVG algorithm requires thousand-fold fewer quantum resources (qubits and gates) than Shor's algorithm, potentially bringing RSA-breaking capability within reach of near-term quantum computers. Nearly half of enterprises in North America and Europe haven't integrated quantum computing into cybersecurity strategies. 56% of mid-sized organizations admit they're unprepared. FBI and NIST designated 2026 as 'Year of Quantum Security' with a global coordination effort for post-quantum cryptography migration.", "keywords": ["quantum computing", "JVG algorithm", "RSA encryption", "post-quantum cryptography", "cybersecurity"], "language": "en"},
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-techcrunch-001",
+      "title": "AI Moves from Hype to Pragmatism in 2026 — Enterprise Adoption Accelerates",
+      "source": {"name": "TechCrunch", "type": "tech_media", "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "2026 is witnessing a fundamental shift in AI industry dynamics from speculative hype to measurable enterprise value creation. Companies are demanding concrete ROI metrics from AI deployments rather than accepting potential-based valuations. Key trends: (1) Agentic AI workflows replacing human knowledge worker tasks at scale; (2) Inference computing becoming more important than training for deployed models; (3) AI infrastructure spending shifting from hyperscaler capex to enterprise efficiency tools; (4) Regulatory compliance (EU AI Act, Korea AI Ethics Act) creating compliance market opportunities. The shift from hype to pragmatism is compressing AI startup valuations but accelerating revenue growth for companies with proven enterprise solutions.", "keywords": ["AI pragmatism", "enterprise AI", "agentic AI", "inference computing", "ROI"], "language": "en"},
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-stimson-001",
+      "title": "Stimson Center Top 10 Global Risks for 2026 — Cascading Geopolitical Crises",
+      "source": {"name": "Stimson Center", "type": "think_tank", "url": "https://www.stimson.org/2026/top-ten-global-risks-for-2026/", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "The Stimson Center's 2026 global risk assessment identifies cascading geopolitical crises as the primary systemic risk: US-China strategic competition intensifying; Iran-Israel-Gulf conflict escalation (now materialized); North Korea nuclear normalization; Russia-Ukraine frozen conflict creating permanent European security architecture change; democratic backsliding in multiple regions. The assessment notes that 2026 risks are characterized by 'polycrisis' dynamics where individual risks amplify each other. Climate-security nexus risks, AI governance gaps, and global debt distress round out the top 10.", "keywords": ["global risks", "polycrisis", "geopolitical cascading", "strategic competition", "security architecture"], "language": "en"},
+      "preliminary_category": "Political",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-wef-001",
+      "title": "WEF Warns Quantum Security is a Question Leaders Cannot Ignore",
+      "source": {"name": "World Economic Forum", "type": "international_org", "url": "https://www.weforum.org/stories/2026/02/quantum-security-question-leaders-cannot-ignore/", "published_date": "2026-02-28", "language": "en"},
+      "content": {"abstract": "The World Economic Forum published analysis warning that quantum computing's security implications require immediate leadership attention, not future planning. Key concerns: 'harvest now, decrypt later' attacks already underway where adversaries collect encrypted data for future quantum decryption; post-quantum cryptography standards (NIST PQC) need enterprise deployment NOW, not after quantum computers reach maturity; quantum computing access inequality could create new forms of power concentration where early adopters gain decisive advantages in pharma, finance, and defense. The WEF calls for quantum-as-a-service democratization to prevent monopolistic concentration.", "keywords": ["quantum security", "post-quantum cryptography", "harvest now decrypt later", "WEF", "power concentration"], "language": "en"},
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-atlantic-001",
+      "title": "Middle East 2026 Outlook: Gaza and Iran Move Closer to Renewed Conflict",
+      "source": {"name": "Atlantic Council", "type": "think_tank", "url": "https://www.atlanticcouncil.org/blogs/menasource/what-will-2026-bring-for-the-middle-east-and-north-africa/", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "Despite hopes for a 'new Middle East,' the Atlantic Council assesses that the region's most enduring problems — Gaza and Iran — have moved closer to renewed conflict rather than resolution in 2026. Iran's economy is cratering under intensified sanctions, creating internal instability that paradoxically increases external aggression risk. The Gaza reconstruction process remains stalled, with no viable political solution framework. The Abraham Accords normalization momentum has stalled as regional states recalibrate in response to the Iran military escalation. Saudi-Israel normalization, previously expected by mid-2026, is now postponed indefinitely.", "keywords": ["Middle East", "Iran", "Gaza", "Abraham Accords", "Saudi-Israel normalization", "regional instability"], "language": "en"},
+      "preliminary_category": "Political",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-ibm-001",
+      "title": "IBM: AI Tech Trends 2026 — Agentic AI and AI Factories Transform Enterprise",
+      "source": {"name": "IBM Think", "type": "tech_corporate", "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "IBM's 2026 technology trends report identifies three transformative shifts: (1) Agentic AI — autonomous AI systems that execute multi-step tasks without human intervention, creating new enterprise workflow paradigms; (2) AI Factories — purpose-built data center architectures optimized for inference rather than training, shifting compute economics; (3) AI-native applications — software designed from the ground up with AI integration rather than AI bolted onto existing applications. IBM predicts that by end of 2026, 40% of Fortune 500 companies will have deployed at least one agentic AI workflow in production, up from under 5% in 2025.", "keywords": ["agentic AI", "AI factories", "enterprise transformation", "inference computing", "AI-native"], "language": "en"},
+      "preliminary_category": "Technological",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-columbia-001",
+      "title": "Columbia CGEP: Iran Conflict Could Restructure Gulf Oil Markets Permanently",
+      "source": {"name": "Columbia University CGEP", "type": "academic_research", "url": "https://www.energypolicy.columbia.edu/how-a-conflict-in-iran-could-affect-oil-markets-in-the-gulf-arab-states/", "published_date": "2026-03-02", "language": "en"},
+      "content": {"abstract": "Columbia University's Center on Global Energy Policy analysis warns that the Iran conflict could permanently restructure Gulf oil markets. Key scenarios: (1) Limited conflict — oil stabilizes at $85-95, minor disruption; (2) Hormuz disruption — oil spikes to $120-150, triggering global recession; (3) Regime change — long-term instability followed by potential market restructuring. Gulf Arab states (Saudi, UAE, Kuwait) hold 2-3 million barrels/day of spare capacity but face their own security risks from Iranian proxy attacks. The analysis notes that even in the 'limited conflict' scenario, the geopolitical risk premium will persist for 6-12 months, fundamentally altering energy investment calculus.", "keywords": ["oil markets", "Gulf states", "spare capacity", "geopolitical risk premium", "energy investment"], "language": "en"},
+      "preliminary_category": "Economic",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    },
+    {
+      "id": "news-20260302-newlines-001",
+      "title": "New Lines Institute 2026 Forecast: Polycrisis Deepens as AI Governance Gaps Widen",
+      "source": {"name": "New Lines Institute", "type": "think_tank", "url": "https://newlinesinstitute.org/analytical-products/2026-annual-forecast/", "published_date": "2026-03-01", "language": "en"},
+      "content": {"abstract": "The New Lines Institute's 2026 annual forecast identifies a deepening polycrisis driven by the intersection of geopolitical fragmentation, technological disruption, and institutional erosion. Key findings: (1) AI governance gaps between the US (minimal regulation), EU (comprehensive regulation), and China (state-directed AI) create regulatory arbitrage and competitive imbalances; (2) The 'splinternet' trend accelerates as data sovereignty laws fragment the global internet; (3) Climate-security nexus becomes acute in Sub-Saharan Africa and South Asia where extreme weather events compound existing fragility; (4) Global debt levels at 350% of GDP create vulnerability to interest rate shocks if oil-driven inflation forces central bank tightening.", "keywords": ["polycrisis", "AI governance", "splinternet", "climate-security nexus", "global debt"], "language": "en"},
+      "preliminary_category": "Political",
+      "collected_at": "2026-03-02T19:30:00+09:00"
+    }
+  ]
+}

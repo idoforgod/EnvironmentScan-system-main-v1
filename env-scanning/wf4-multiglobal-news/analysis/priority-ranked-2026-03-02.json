@@ -1,0 +1,17 @@
+{
+  "ranking_metadata": {"workflow": "wf4-multiglobal-news", "date": "2026-03-02", "method": "pSST_unified", "total_ranked": 12},
+  "ranked_signals": [
+    {"rank": 1, "id": "news-20260302-reuters-001", "title": "US-Israeli Strikes on Iran — Global Oil Spike", "pSST_score": 95, "impact_score": 9.5, "steeps": "Political", "fssf_type": "Wild Card", "horizon": "H1", "tipping_alert": "ORANGE"},
+    {"rank": 2, "id": "news-20260302-secweek-001", "title": "JVG Quantum Algorithm Threatens RSA Encryption", "pSST_score": 92, "impact_score": 9.0, "steeps": "Technological", "fssf_type": "Wild Card", "horizon": "H2", "tipping_alert": "ORANGE"},
+    {"rank": 3, "id": "news-20260302-stimson-001", "title": "Stimson Top 10 Global Risks — Cascading Crises", "pSST_score": 90, "impact_score": 8.8, "steeps": "Political", "fssf_type": "Megatrend", "horizon": "H1", "tipping_alert": "ORANGE"},
+    {"rank": 4, "id": "news-20260302-nvidia-001", "title": "NVIDIA Physical AI — Robotics ChatGPT Moment", "pSST_score": 89, "impact_score": 8.6, "steeps": "Technological", "fssf_type": "Emerging Issue", "horizon": "H1", "tipping_alert": "GREEN"},
+    {"rank": 5, "id": "news-20260302-cgtn-001", "title": "China Zero-Tariff for 53 African Nations", "pSST_score": 87, "impact_score": 8.2, "steeps": "Economic", "fssf_type": "Driver", "horizon": "H2", "tipping_alert": "YELLOW"},
+    {"rank": 6, "id": "news-20260302-atlantic-001", "title": "Middle East 2026 — Gaza and Iran Conflict", "pSST_score": 86, "impact_score": 8.0, "steeps": "Political", "fssf_type": "Driver", "horizon": "H1", "tipping_alert": "ORANGE"},
+    {"rank": 7, "id": "news-20260302-euronews-001", "title": "Iran War Ignites Green Transition Calls", "pSST_score": 84, "impact_score": 7.8, "steeps": "Environmental", "fssf_type": "Driver", "horizon": "H2", "tipping_alert": "GREEN"},
+    {"rank": 8, "id": "news-20260302-columbia-001", "title": "Columbia: Gulf Oil Market Restructuring Risk", "pSST_score": 83, "impact_score": 7.5, "steeps": "Economic", "fssf_type": "Weak Signal", "horizon": "H2", "tipping_alert": "ORANGE"},
+    {"rank": 9, "id": "news-20260302-ibm-001", "title": "IBM: Agentic AI and AI Factories", "pSST_score": 81, "impact_score": 7.2, "steeps": "Technological", "fssf_type": "Trend", "horizon": "H1", "tipping_alert": "GREEN"},
+    {"rank": 10, "id": "news-20260302-techcrunch-001", "title": "AI Hype to Pragmatism — Enterprise Adoption", "pSST_score": 79, "impact_score": 7.0, "steeps": "Technological", "fssf_type": "Trend", "horizon": "H1", "tipping_alert": "GREEN"},
+    {"rank": 11, "id": "news-20260302-wef-001", "title": "WEF Quantum Security Warning", "pSST_score": 77, "impact_score": 6.8, "steeps": "Technological", "fssf_type": "Precursor Event", "horizon": "H2", "tipping_alert": "GREEN"},
+    {"rank": 12, "id": "news-20260302-newlines-001", "title": "Polycrisis Deepens, AI Governance Gaps", "pSST_score": 76, "impact_score": 6.5, "steeps": "Political", "fssf_type": "Megatrend", "horizon": "H2", "tipping_alert": "YELLOW"}
+  ]
+}

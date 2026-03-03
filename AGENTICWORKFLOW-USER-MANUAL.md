@@ -2,7 +2,7 @@
 
 > **Quadruple Environmental Scanning System** | Quick Reference (English)
 >
-> Version: 5.0 | Last Updated: 2026-02-24
+> Version: 6.0 | Last Updated: 2026-03-02
 
 This document is the concise English-language companion to `USER-MANUAL.md`. For the full Korean operational guide, refer to that document.
 
@@ -31,11 +31,12 @@ claude
 
 The system will automatically:
 1. Validate SOT (55 rules)
-2. WF1: Scan 25+ sources -> analyze -> generate report
-3. WF2: Scan arXiv 42 categories -> analyze -> generate report
-4. WF3: Crawl Naver News 6 sections -> FSSF classify -> generate report
-5. WF4: Crawl 43 global news sites (11 languages) -> FSSF classify -> generate report
-6. Integration: Merge 4 reports via Agent-Teams (5 members) -> pSST unified ranking
+2. WF1: Scan 25+ sources → classify+impact (LLM @phase2-analyst) → rank (Python priority_score_calculator.py) → generate report
+3. WF2: Scan arXiv 42 categories → classify+impact (LLM) → rank (Python) → generate report
+4. WF3: Crawl Naver News 6 sections → STEEPs+FSSF classify (LLM) → rank (Python) → generate report
+5. WF4: Crawl 43 global news sites (11 languages) → STEEPs+FSSF classify (LLM) → rank (Python) → generate report
+6. Each report passes 4-layer quality defense (L1→L2a→L2b→L3) before human review
+7. Integration: Merge 4 reports via Agent-Teams (5 members) → pSST unified ranking
 
 ---
 
@@ -69,28 +70,32 @@ The system will automatically:
     |
     +-- WF1: General Environmental Scanning
     |   Phase 1: 25+ source scan -> 4-stage dedup
-    |   Phase 2: STEEPs classify -> impact analysis -> pSST ranking
+    |   Phase 2: @phase2-analyst [Steps 2.1+2.2: STEEPs+impact] -> priority_score_calculator.py [Step 2.3: Python]
+    |     -> L1→L2a→L2b→L3 quality defense
     |     -> [REQUIRED] /env-scan:review-analysis
     |   Phase 3: DB update -> report generation
     |     -> [REQUIRED] /env-scan:approve
     |
     +-- WF2: arXiv Academic Deep Scanning
-    |   Phase 1: arXiv 42 categories (14-day, 50/category)
-    |   Phase 2: STEEPs classify -> impact -> ranking
+    |   Phase 1: arXiv 42 categories (48h lookback, 50/category)
+    |   Phase 2: @phase2-analyst [Steps 2.1+2.2] -> priority_score_calculator.py [Step 2.3]
+    |     -> L1→L2a→L2b→L3 quality defense
     |     -> [REQUIRED] /env-scan:review-analysis
     |   Phase 3: DB update -> report
     |     -> [REQUIRED] /env-scan:approve
     |
     +-- WF3: Naver News Scanning
     |   Phase 1: 6 sections crawl -> dedup
-    |   Phase 2: STEEPs + FSSF classify -> Tipping Point -> ranking
+    |   Phase 2: @phase2-analyst [STEEPs+FSSF+impact] -> priority_score_calculator.py -> Tipping Point detection
+    |     -> L1→L2a→L2b→L3 quality defense
     |     -> [REQUIRED] /env-scan:review-analysis
     |   Phase 3: DB update -> report
     |     -> [REQUIRED] /env-scan:approve
     |
     +-- WF4: Multi&Global-News Scanning
     |   Phase 1: 43 sites crawl (11 languages) -> translate -> dedup
-    |   Phase 2: STEEPs + FSSF classify -> Tipping Point -> ranking
+    |   Phase 2: @phase2-analyst [STEEPs+FSSF+impact] -> priority_score_calculator.py -> Tipping Point detection
+    |     -> L1→L2a→L2b→L3 quality defense
     |     -> [REQUIRED] /env-scan:review-analysis
     |   Phase 3: DB update -> report
     |     -> [REQUIRED] /env-scan:approve
@@ -265,10 +270,15 @@ python3 env-scanning/scripts/validate_registry.py
 ### Report Validation Failure
 
 ```bash
+# L2a: Structural validation (15-20 checks)
 python3 env-scanning/scripts/validate_report.py <report-file-path>
+
+# L2b: Cross-reference QC (13 checks: QC-001~013)
+python3 env-scanning/scripts/validate_report_quality.py <report-file-path>
 ```
 
 System auto-retries up to 2 times with progressive escalation on CRITICAL failures.
+L3 (quality-reviewer.md LLM) runs after L2a+L2b pass; failures also trigger retry.
 
 ### WF3 Naver Block
 
@@ -325,6 +335,6 @@ All collected data (raw/, structured/) is persisted to disk and never lost.
 
 ---
 
-**Document Version**: 5.0
-**Last Updated**: 2026-02-24
-**System Version**: Quadruple Workflow System v2.5.0
+**Document Version**: 6.0
+**Last Updated**: 2026-03-02
+**System Version**: Quadruple Workflow System v2.5.0 (Python 원천봉쇄 + 4-Layer Quality Defense)

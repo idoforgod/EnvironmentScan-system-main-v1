@@ -18,7 +18,8 @@ master-orchestrator.md                    ← Top-level entry point
 ├── multiglobal-news-scan-orchestrator.md ← WF4 (Multi&Global-News)
 └── workers/
     ├── report-merger.md                  ← Integration
-    └── (25+ worker agents)               ← Shared + WF-specific workers
+    ├── phase2-analyst.md                 ← Unified LLM agent (Steps 2.1+2.2)
+    └── (34 worker agents total)          ← Shared + WF-specific workers
 ```
 
 Agent definitions live in `.claude/agents/`. Worker agents live in `.claude/agents/workers/`. These define detailed per-step behaviors that extend the methodology in AGENTS.md.

@@ -32,6 +32,9 @@ Each workflow is fully independent -- it cannot see or access any other workflow
 - **FSSF 8-Type Classification** (WF3/WF4): Weak Signal, Wild Card, Discontinuity, Driver, Emerging Issue, Precursor Event, Trend, Megatrend
 - **Three Horizons** (WF3/WF4): H1 (0-2yr), H2 (2-7yr), H3 (7yr+)
 - **Tipping Point Detection** (WF3/WF4): Critical Slowing Down and Flickering pattern analysis
+- **Python 원천봉쇄**: "계산은 Python이, 판단은 LLM이" — deterministic scoring, dedup, temporal filtering all Python-enforced
+- **Unified Phase 2 Agent**: `phase2-analyst.md` handles Steps 2.1+2.2 (LLM); Step 2.3 delegated to `priority_score_calculator.py` (Python)
+- **4-Layer Quality Defense**: L1 (Skeleton-Fill) → L2a (structural 15–20 checks) → L2b (13 QC checks) → L3 (LLM semantic review) → L4 (Golden Reference)
 - **Impact Analysis**: Probabilistic Cross-Impact Matrix + Bayesian Network
 - **Expert Validation**: Real-Time AI Delphi for high-volume signals (optional)
 - **Scenario Generation**: QUEST-based plausible future scenarios (optional)
@@ -72,7 +75,7 @@ Master Orchestrator
     └── Agent Team (5 members: wf1-analyst, wf2-analyst, wf3-analyst, wf4-analyst, synthesizer)
 ```
 
-Shared workers across all workflows: archive-loader, multi-source-scanner, deduplication-filter, signal-classifier, impact-analyzer, priority-ranker, report-generator, database-updater, archive-notifier, self-improvement-analyzer, and more (40 agent specs total).
+Shared workers across all workflows: archive-loader, multi-source-scanner, deduplication-filter, **phase2-analyst** (unified Steps 2.1+2.2), report-generator, database-updater, archive-notifier, quality-reviewer, self-improvement-analyzer, and more (41 agent specs total). Step 2.3 priority ranking is handled by `priority_score_calculator.py` (Python 원천봉쇄).
 
 ### Human-in-the-Loop Checkpoints (9 total)
 
@@ -167,8 +170,8 @@ EnvironmentScan-system-main/
 │   │   ├── thresholds.yaml
 │   │   ├── translation-terms.yaml
 │   │   └── ... (12 config files total)
-│   ├── core/                        (33 Python modules)
-│   ├── scripts/                     (validation scripts)
+│   ├── core/                        (33 Python modules, incl. priority_score_calculator.py)
+│   ├── scripts/                     (validation scripts: validate_registry, validate_report, validate_report_quality)
 │   ├── wf1-general/                 ← WF1 data directory
 │   │   ├── raw/ structured/ filtered/ analysis/ signals/ reports/
 │   │   └── exploration/             (v2.5.0 source exploration)
@@ -183,7 +186,7 @@ EnvironmentScan-system-main/
 │       ├── reports/archive/{year}/{month}/
 │       └── weekly/
 │
-├── tests/                           (15 test files)
+├── tests/                           (28 test files, ~995 tests)
 │   ├── unit/
 │   ├── integration/
 │   └── e2e/
@@ -307,11 +310,11 @@ Agent (EN) → Output (EN) → Translation Agent → Output (KR)
 
 ## Version
 
-- **System Version**: 2.5.0 (Quadruple Workflow, Bilingual EN-KR)
+- **System Version**: 2.5.0 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄)
 - **Workflow Version**: Quadruple Environmental Scanning v2.5.0
-- **Architecture**: 40 agent specs, 33 Python modules, 12 config files, 10 skeleton files, 15 test files
-- **Validation**: 55 SOT checks (SOT-001~054), 12 validate_report profiles
-- **Last Updated**: 2026-02-24
+- **Architecture**: 41 agent specs, 33 Python modules, 12 config files, 14 skeleton files, 28 test files (~995 tests)
+- **Validation**: 55 SOT checks (SOT-001~054), 4-layer quality defense (L1→L4), 13 QC checks (L2b)
+- **Last Updated**: 2026-03-02
 
 ## References
 

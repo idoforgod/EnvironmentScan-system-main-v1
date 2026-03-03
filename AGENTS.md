@@ -248,9 +248,9 @@ Phase 1: Research
   1.4 [Optional] Human review of filter results
 
 Phase 2: Planning
-  2.1 Classify into STEEPs (+ FSSF for WF3/WF4)
-  2.2 Cross-impact analysis
-  2.3 Priority ranking (weights defined in env-scanning/config/thresholds.yaml — tunable by SIE)
+  2.1 Classify into STEEPs (+ FSSF for WF3/WF4) — LLM (@phase2-analyst, Steps 2.1+2.2 unified)
+  2.2 Cross-impact analysis — LLM (@phase2-analyst)
+  2.3 Priority ranking — Python 원천봉쇄 (priority_score_calculator.py; weights from thresholds.yaml)
   2.4 [Optional] Scenario generation
   2.5 [REQUIRED] Human analysis review
 
@@ -325,6 +325,7 @@ Raw signal files use `items[]` array. Each item contains:
 | 6 | Bilingual Protocol | Internal: English. External: Korean |
 | 7 | Database Atomicity | Snapshot → Write → Restore on failure |
 | 8 | Workflow Independence | WF1/WF2/WF3/WF4 are invisible to each other |
+| 9 | Python 원천봉쇄 | "계산은 Python이, 판단은 LLM이" — Deterministic computation (Python), semantic judgment (LLM). All scoring formulas, deduplication, temporal filtering, and statistics are Python-enforced, not LLM-instructed. |
 
 ---
 

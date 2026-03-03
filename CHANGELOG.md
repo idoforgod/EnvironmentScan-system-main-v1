@@ -3,6 +3,45 @@
 > SOT system version: **2.5.0** (as of `workflow-registry.yaml`)
 > Entries organized by git commit date. SOT internal module versions noted in parentheses where applicable.
 
+## 2026-03-02
+
+### Python 원천봉쇄 + Quality-First Architecture (2nd Critical Reflection)
+
+**Core Philosophy: "계산은 Python이, 판단은 LLM이" — Step 2.3 Priority Ranking moved from LLM to Python**
+
+#### Priority Score Calculator (Python 원천봉쇄)
+- Add `priority_score_calculator.py` — deterministic priority scoring engine (Step 2.3)
+  - Formula: `impact×0.40 + prob×0.30 + urgency×0.20 + novelty×0.10`
+  - URGENCY_LOOKUP table: `{emerging: 3.0, developing: 4.0, mature: 2.0}`
+  - DC_STAGE_SCORES table: `{passed_all_4: 100, passed_3: 85, passed_2: 70, passed_1: 60, duplicate: 0}`
+  - CLI: `--classified --impact --filtered --thresholds --workflow --date --output`
+  - Exit codes: 0=success, 2=warn/fallbacks used, 1=error/HALT
+- Add `tests/unit/test_priority_score_calculator.py` — 84 tests, all pass
+
+#### Phase 2 Analyst: Unified LLM Agent
+- Add `phase2-analyst.md` — single agent replacing separate signal-classifier + impact-analyzer + priority-ranker
+  - LLM scope: Steps 2.1 (classification) + 2.2 (impact analysis) only
+  - Step 2.3 explicitly delegated to `priority_score_calculator.py`
+  - Documents required output fields for Python priority scoring
+- All 4 WF orchestrators updated: Step 2.1 title reflects unified scope; Step 2.3 replaced with Python CLI invocation (VEV Protocol)
+- Statistics engine calls updated: `--priority-ranked` argument added to all 4 WFs
+
+#### master-orchestrator: Integrated/Weekly Stats Fix
+- Add Step 5.1.2.5 — inline Python prepares `integrated-exec-summary-{date}.json` from classified-signals + priority-ranked JSONs
+- Integrated statistics call: 5 new args (`--wf1-classified` through `--wf4-classified`, `--wf-exec-data`)
+- Weekly statistics call: 28-file pattern via `--daily-stats-data` (7 days × 4 WFs)
+
+#### Worker Agent Reference Cleanup (8 files)
+- `deduplication-filter.md`, `realtime-delphi-facilitator.md`, `database-updater.md`: `@signal-classifier` → `@phase2-analyst`
+- `scenario-builder.md`: `@priority-ranker` → `priority_score_calculator.py`, `@impact-analyzer` → `@phase2-analyst`
+- `naver/news-pattern-detector.md`, `naver/news-alert-dispatcher.md`: dependency graph updated to reflect new agent names
+- `report-generator.md`: `{{TOP_PRIORITY_COUNT}}` added to pre-filled placeholders
+
+#### Test Results
+- 913/913 tests pass (84 new + 829 existing)
+
+---
+
 ## 2026-03-01
 
 ### 4-Layer Quality Defense (L2b + L3)

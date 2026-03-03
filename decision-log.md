@@ -195,6 +195,80 @@ Examples:
 
 ---
 
+## DEC-011: Python 원천봉쇄 for Step 2.3 (Priority Ranking)
+
+**Date**: 2026-03-02
+**Context**: The 2nd Critical Reflection identified ~50 deterministic placeholders being delegated to the LLM despite the established "계산은 Python이, 판단은 LLM이" principle. Priority ranking (Step 2.3) was the most critical: the LLM was generating priority scores using a formula (`impact×0.40 + prob×0.30 + urgency×0.20 + novelty×0.10`), but there was no guarantee it applied the formula correctly — it could hallucinate scores.
+
+**Decision**: Move Step 2.3 entirely to `priority_score_calculator.py` (Python). The LLM's (@phase2-analyst) sole responsibility is to provide the correct input fields; Python applies the formula deterministically.
+
+**Rationale**: Priority scores determine which signals get attention. A hallucinated priority score is a critical failure mode — a dangerous signal might be deprioritized, or a trivial signal elevated. This is exactly the kind of correctness guarantee that Python provides and LLMs cannot. The formula is deterministic by definition; there is no "judgment" component.
+
+**Alternatives Considered**:
+- Keep LLM but add output validation — Validation cannot catch subtle formula misapplication
+- Use LLM as fallback when Python fails — Defeats the purpose; fallback hallucination is still hallucination
+- Hybrid (Python for formula, LLM for weights) — Weights are defined in thresholds.yaml (SOT), not a judgment call
+
+**Impact**: `priority_score_calculator.py` added (632 lines). All 4 WF orchestrators updated: Step 2.3 now invokes Python CLI. Statistics engine calls updated with `--priority-ranked` argument. Priority score range is [1, 5] (verified in POST-VERIFY checks). Exit code 2 indicates fallback usage; exit code 1 = HALT.
+
+---
+
+## DEC-012: Unified Phase 2 Agent (`phase2-analyst.md`)
+
+**Date**: 2026-03-02
+**Context**: The system previously had 3 separate LLM agents for Phase 2: `signal-classifier.md` (Step 2.1), `impact-analyzer.md` (Step 2.2), and `priority-ranker.md` (Step 2.3). Each invocation required re-establishing context (workflow type, signal batch, STEEPs framework, FSSF definitions). This context fragmentation reduced quality.
+
+**Decision**: Replace the 3 separate agents with a single `phase2-analyst.md` agent that handles Steps 2.1 + 2.2 in a unified context. Step 2.3 is no longer an LLM task (see DEC-011).
+
+**Rationale**: Classification and impact analysis are deeply interdependent — the STEEPs category affects the impact assessment, and cross-domain impacts require understanding all categories simultaneously. Splitting them into two separate agent invocations forces artificial context boundaries. A unified agent retains full context across both steps, producing more coherent impact assessments. The original 3 agent specs are preserved as reference documents.
+
+**Alternatives Considered**:
+- Keep 3 agents but improve context passing — Context passing between agents is lossy; unified context is qualitatively better
+- Merge all 3 steps including Python — Step 2.3 is deterministic; combining it with LLM would re-introduce hallucination risk
+- 2-agent approach (classifier + combined impact+priority) — Priority ranking is Python; no benefit to combining with impact analysis
+
+**Impact**: `phase2-analyst.md` added to `.claude/agents/workers/`. All 4 WF orchestrators updated. Worker agents (`deduplication-filter.md`, `realtime-delphi-facilitator.md`, `database-updater.md`, `scenario-builder.md`) updated to reference `@phase2-analyst`.
+
+---
+
+## DEC-013: 4-Layer Quality Defense (L2b + L3 Addition)
+
+**Date**: 2026-03-01
+**Context**: The quality defense system had L1 (Skeleton-Fill) and L2 (validate_report.py structural checks). However, the structural validator cannot detect semantic issues: wrong priority order, signals that don't match their claimed STEEPs category, strategic implications not derived from signal evidence, etc.
+
+**Decision**: Add two new quality layers:
+- **L2b** (`validate_report_quality.py`): 13 cross-reference QC checks (QC-001~013) — verifiable by Python
+- **L3** (`quality-reviewer.md`): LLM semantic depth review — 3-pass review (signal content, section synthesis, strategic coherence)
+
+**Rationale**: Python (L2b) can check verifiable properties: priority order, signal counts, FSSF distribution, citation completeness. LLM (L3) can check semantic properties: whether implications follow from evidence, whether H3 signals have sufficiently long time horizons, whether the executive summary accurately reflects the body. The two layers are complementary and non-redundant.
+
+**Alternatives Considered**:
+- Only L3 (LLM review only) — LLM cannot reliably count signals or verify priority order
+- Only L2b (extended Python checks) — Python cannot evaluate semantic coherence
+- Human review for quality (no L3) — 9 checkpoints already saturate human attention; automated first-pass is essential
+
+**Impact**: `validate_report_quality.py` added (13 checks). `quality-reviewer.md` added (L3 agent). All WF orchestrators updated to invoke both before human review checkpoint. Progressive retry applies: targeted fix → full regen → human escalation (max 2 retries).
+
+---
+
+## DEC-014: Integrated/Weekly Statistics Preparation (master-orchestrator Step 5.1.2.5)
+
+**Date**: 2026-03-02
+**Context**: `report_statistics_engine.py` had `compute_integrated_execution_summary()` and `compute_weekly_aggregates()` functions but the master-orchestrator was not passing the required arguments (`--wf1-classified` through `--wf4-classified`, `--wf-exec-data`, `--daily-stats-data`). These functions produced placeholder values instead of real statistics.
+
+**Decision**: Add Step 5.1.2.5 to master-orchestrator: inline Python that reads each WF's classified-signals + priority-ranked JSONs and writes `integrated-exec-summary-{date}.json`. Pass this file and WF-classified files to the statistics engine call. Weekly call gets all 28 daily stats files (7 days × 4 WFs).
+
+**Rationale**: The statistics engine was already written to compute integrated statistics; the missing piece was preparation of the input data. Step 5.1.2.5 is a pure Python data preparation step with no judgment component — it reads JSON files and extracts counts. Adding it as inline Python in the orchestrator (rather than a new module) keeps the implementation minimal and avoids a new file just for JSON reshaping.
+
+**Alternatives Considered**:
+- Add a new Python module for integrated stats preparation — Overkill for simple JSON reshaping
+- Have LLM prepare the exec summary — Would re-introduce hallucination risk for counts
+- Skip integrated execution statistics — Reduces report informativeness; users need cross-WF stats
+
+**Impact**: master-orchestrator.md updated with Step 5.1.2.5 inline Python. Statistics calls updated with 5 new integrated args and 28-file weekly arg. Integrated reports now show real WF execution statistics.
+
+---
+
 ## Summary
 
 | ID | Decision | Key Rationale |
@@ -209,9 +283,13 @@ Examples:
 | DEC-008 | Agent-Teams 5 members for integration | Balanced representation for 4 workflows |
 | DEC-009 | `news-{date}-{site}-{seq}` signal IDs | Unique, sortable, source-informative |
 | DEC-010 | 44 sites accepted (plan said 43) | Zero architectural impact, better coverage |
+| DEC-011 | Python 원천봉쇄 for Step 2.3 priority scoring | Deterministic formula must be Python-enforced |
+| DEC-012 | Unified `phase2-analyst.md` (Steps 2.1+2.2) | Unified context = better quality; Python handles 2.3 |
+| DEC-013 | 4-Layer Quality Defense (L2b + L3) | Python checks verifiable; LLM checks semantic |
+| DEC-014 | Integrated/weekly stats preparation (Step 5.1.2.5) | Real stats from Python, not LLM-generated placeholders |
 
 ---
 
-**Document Version**: 1.0
-**Last Updated**: 2026-02-24
+**Document Version**: 2.0
+**Last Updated**: 2026-03-02
 **System Version**: Quadruple Workflow System v2.5.0

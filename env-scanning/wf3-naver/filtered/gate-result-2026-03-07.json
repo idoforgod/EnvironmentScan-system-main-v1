@@ -1,0 +1,421 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-07T02:53:26.732440+00:00",
+  "workflow": "wf3-naver",
+  "signals_file": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/wf3-naver/raw/daily-crawl-2026-03-07.json",
+  "previous_file": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/wf3-naver/signals/snapshots/database-2026-03-06.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "18 definite duplicate(s) removed. 30 uncertain signal(s) flagged for LLM review. 220 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 268,
+    "definite_new": 220,
+    "definite_duplicates": 18,
+    "uncertain": 30,
+    "pass_through": 250
+  },
+  "stage_breakdown": {
+    "A_url": 2,
+    "B_topic": 5,
+    "C_title": 0,
+    "D_entity": 11
+  },
+  "duplicates": [
+    {
+      "signal_id": "naver-20260307-100-040",
+      "signal_title": "김어준 “대책회의 없고 아빠 없는 자식 느낌” 비판에 총리실 “매일 회의”",
+      "matched_signal_id": "naver-20260219-102-014",
+      "matched_title": "'등골브레이커 된 교복' — 대통령 발언 8일 만에 정부 합동 대책회의, 교복 가격 규제 논의",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-101-050",
+      "signal_title": "'반도체 수출 호조'에 1월도 경상수지 흑자‥33개월 연속 흑자 기조",
+      "matched_signal_id": "naver-20260306-101-051",
+      "matched_title": "'반도체 수출 호조'에 1월도 경상수지 흑자‥33개월 연속 흑자 기조",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-101-051",
+      "signal_title": "'천궁-Ⅱ' 달라…UAE, 조기 공급 요청",
+      "matched_signal_id": "naver-20260226-100-003",
+      "matched_title": "UAE 강훈식 실장 방문, 650억불 경제패키지…방산 협력만 350억불",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-101-086",
+      "signal_title": "\"실전 성능 입증\" 천궁…중동서 방공망 수요 급증 [K방산 파죽지세①]",
+      "matched_signal_id": "naver-20260216-TOP-008",
+      "matched_title": "K방산 유럽 휩쓸기 + 캐나다 60조 잠수함 사업 한국 우세 -- 방산 수출 붐 구조화",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-101-090",
+      "signal_title": "다시 '유가 100달러 시대' 오나…WTI 90달러 돌파, 브렌트 93달러까지 폭등",
+      "matched_signal_id": "naver-20260306-104-219",
+      "matched_title": "트럼프 “유가 완화 추가조치 임박했다”… WTI 8% 급등",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-102-127",
+      "signal_title": "“한국서 일하니 월 400만원 벌어요” 태국인 근로자, 월급 인증",
+      "matched_signal_id": "naver-20260306-102-134",
+      "matched_title": "\"한국서 月 400만원 번다\"…태국인 노동자 급여 '관심 폭발'",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-103-147",
+      "signal_title": "[날씨] 주말 꽃샘추위 기승…찬 바람 불며 낮에도 쌀쌀",
+      "matched_signal_id": "naver-20260306-102-112",
+      "matched_title": "눈·비 뒤 꽃샘추위 찾아와…주말 영하권으로 기온 떨어져",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-103-151",
+      "signal_title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "matched_signal_id": "naver-20260306-100-012",
+      "matched_title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-103-152",
+      "signal_title": "[약손+] ‘최애’ 식습관이 부르는 위암의 진단과 치료 ⑧위암 조기 진단과 수술법 변화",
+      "matched_signal_id": "naver-20260306-103-152",
+      "matched_title": "[약손+] ‘최애’ 식습관이 부르는 위암의 진단과 치료 ⑦위암 진단 방법은?",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-103-176",
+      "signal_title": "[시승기] 르노 필랑트, AI가 운전 패턴 학습 '실시간 연비 최적화'",
+      "matched_signal_id": "naver-20260206-105-037",
+      "matched_title": "AI가 관상동맥 시술 1분 만에 판단",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-104-183",
+      "signal_title": "\"이란의 미래, 미국이 결정한다\"…트럼프, 후계 구도 개입 선언",
+      "matched_signal_id": "naver-20260306-104-208",
+      "matched_title": "\"이란의 미래, 미국이 결정한다\"…트럼프, 후계 구도 개입 선언",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-104-191",
+      "signal_title": "中 ‘반도체굴기’로 美에 대적…“앞으로 5년, 중국판 ASML 만들자”",
+      "matched_signal_id": "naver-20260219-105-007",
+      "matched_title": "삼성·한화 '하이브리드 본더' 개발 — ASML 협력사와 동맹, 반도체 후공정 패키징 선도 경쟁",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-104-196",
+      "signal_title": "“중국판 ASML 만들자”…반도체 굴기 '5년 총력전' 제안",
+      "matched_signal_id": "naver-20260219-105-007",
+      "matched_title": "삼성·한화 '하이브리드 본더' 개발 — ASML 협력사와 동맹, 반도체 후공정 패키징 선도 경쟁",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-104-201",
+      "signal_title": "中 반도체업계 \"앞으로 5년 와신상담…중국판 ASML 만들자\"",
+      "matched_signal_id": "naver-20260219-105-007",
+      "matched_title": "삼성·한화 '하이브리드 본더' 개발 — ASML 협력사와 동맹, 반도체 후공정 패키징 선도 경쟁",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-105-238",
+      "signal_title": "초개인화 시대, 보안에 각별한 신경… S26 울트라의 가치 '안심(安心)'",
+      "matched_signal_id": "naver-20260226-105-002",
+      "matched_title": "갤럭시 S26 프라이버시 디스플레이…외신 \"애플이 베껴야 할 기능\"",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-105-253",
+      "signal_title": "세계 최소형 AI 슈퍼컴퓨터 주목…\"인터넷 없이 LLM 실행\"",
+      "matched_signal_id": "naver-20260213-TOP-008",
+      "matched_title": "구글 AI 기반 악성코드 실전 투입 경고 -- LLM 호출 자가 변형 맬웨어 등장",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-105-255",
+      "signal_title": "사용자에 즉각 반응하는 ‘온디바이스 AI’",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260307-105-261",
+      "signal_title": "트럼프, AI 반도체 수출 허가제 카드 꺼냈다…한국도 영향권",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "naver-20260307-100-006",
+      "signal_title": "李대통령 유가 담합 경고…\"대가 얼마나 큰지 알게 될 것\"",
+      "matched_signal_id": "naver-20260306-100-031",
+      "matched_title": "범여권 '조희대 탄핵 공청회' 개최에…윤상현 \"李대통령, 폭주 멈춰세워야\"",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-100-013",
+      "signal_title": "주한미군 전력 '이란전쟁' 투입 임박?..국힘 \"국가안보 중대 영향\"",
+      "matched_signal_id": "naver-20260306-100-009",
+      "matched_title": "주한미군 미사일까지 빼내나‥패트리엇 이동?",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260307-100-017",
+      "signal_title": "문 전 대통령 \"트럼프 방중 계기 결단 기대…김정은, 李대통령 손 잡아야\"",
+      "matched_signal_id": "naver-20260306-100-031",
+      "matched_title": "범여권 '조희대 탄핵 공청회' 개최에…윤상현 \"李대통령, 폭주 멈춰세워야\"",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-100-021",
+      "signal_title": "하메네이 잡은 모사드·CIA 정보망…국정원 역량은 어디까지 왔나 [쓴소리 곧은 소리]",
+      "matched_signal_id": "naver-20260306-100-041",
+      "matched_title": "하메네이 사살 뒤 드론·미사일 빗발… 중동 전역 사이렌 [박수찬의 軍]",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260307-100-033",
+      "signal_title": "[이슈&한반도] 이란 하메네이 폭사…김정은 핵 집착 더 커지나 외",
+      "matched_signal_id": "naver-20260306-100-041",
+      "matched_title": "하메네이 사살 뒤 드론·미사일 빗발… 중동 전역 사이렌 [박수찬의 軍]",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260307-100-039",
+      "signal_title": "주한미군 방공 자산 중동으로?…미군 대형 수송기 이륙",
+      "matched_signal_id": "naver-20260306-100-009",
+      "matched_title": "주한미군 미사일까지 빼내나‥패트리엇 이동?",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-101-062",
+      "signal_title": "“자기야, 당분간 서울에 신축 없대” 흑석·노량진뉴타운 등 3월에 8000가구 청약 뜬다 [부동산360]",
+      "matched_signal_id": "naver-20260306-101-082",
+      "matched_title": "강남은 2주 연속 하락했지만, 노후 아파트에 쌓인 ‘신축’은 달랐다 [부동산360]",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260307-101-073",
+      "signal_title": "호르무즈 봉쇄에 유가 배럴당 90달러선…트럼프 \"이란 항복해야 협상\"",
+      "matched_signal_id": "naver-20260306-104-206",
+      "matched_title": "봄철 파종 앞둔 농가도 '호르무즈 악재'…전세계 비료 운송 비상",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-101-085",
+      "signal_title": "젠슨 황 \"AI 에이전트 확산에 연산 1000배\"...삼성·SK 기대",
+      "matched_signal_id": "naver-20260217-TOP-007",
+      "matched_title": "네이버 에이전트 N + 카카오 에이전틱 AI -- 2026 에이전트 AI 원년 선언",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-101-091",
+      "signal_title": "美고용지표 실망에 비트코인 7만달러 아래로…단기투자자 차익실현",
+      "matched_signal_id": "naver-20260306-105-237",
+      "matched_title": "비트코인, 7만 달러 부근서 횡보…미 경제지표 발표 '주목'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-101-092",
+      "signal_title": "중동전쟁인데 '안전자산' 금↓ '위험자산' 비트코인↑ 왜?[계좌부활전]",
+      "matched_signal_id": "naver-20260306-105-237",
+      "matched_title": "비트코인, 7만 달러 부근서 횡보…미 경제지표 발표 '주목'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-102-093",
+      "signal_title": "북한에 무인기 보낸 대학원생 구속 송치...2명 불구속 송치",
+      "matched_signal_id": "naver-20260306-102-106",
+      "matched_title": "'북 침투 무인기' 대학원생 등 3명 송치…\"군사상 이익 침해\"",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-102-095",
+      "signal_title": "'반포대교 추락' 포르쉐 운전자, 사고 직전 차 안서 추가 투약 정황(종합2보)",
+      "matched_signal_id": "naver-20260306-102-123",
+      "matched_title": "'반포대교 추락' 포르쉐 운전자 구속 송치…마약류관리법 위반",
+      "stage": "C_title",
+      "score": 0.8132
+    },
+    {
+      "signal_id": "naver-20260307-103-139",
+      "signal_title": "주말, 꽃샘추위 기온 '뚝'…전국 아침 영하권[날씨]",
+      "matched_signal_id": "naver-20260306-102-112",
+      "matched_title": "눈·비 뒤 꽃샘추위 찾아와…주말 영하권으로 기온 떨어져",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-103-165",
+      "signal_title": "[날씨] 아침 영하권 꽃샘추위, 낮에도 바람 불며 쌀쌀해요!",
+      "matched_signal_id": "naver-20260306-102-112",
+      "matched_title": "눈·비 뒤 꽃샘추위 찾아와…주말 영하권으로 기온 떨어져",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-104-182",
+      "signal_title": "트럼프 \"무조건 항복 외에는 이란과 합의 불가\"",
+      "matched_signal_id": "naver-20260212-TOP-008",
+      "matched_title": "트럼프 이란핵",
+      "stage": "C_title",
+      "score": 0.8176
+    },
+    {
+      "signal_id": "naver-20260307-104-189",
+      "signal_title": "트럼프에 찍힌 앤트로픽, 기업 고객 잃을까… IPO 앞두고 위기",
+      "matched_signal_id": "naver-20260216-TOP-002",
+      "matched_title": "미 국방부 앤트로픽 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-104-194",
+      "signal_title": "이스라엘 \"테헤란에 대규모 공습 개시\"",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-104-197",
+      "signal_title": "\"금요일 밤, 이란에 최대 규모 폭격 작전\" 시한폭탄 던진 미국 [지금이뉴스]",
+      "matched_signal_id": "naver-20260306-102-122",
+      "matched_title": "\"김선태 좀 정없다\" 논란의 익명글...유튜브 채널에 변호사들 결집 [지금이뉴스]",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-104-205",
+      "signal_title": "이스라엘, 대규모 공습 착수...밤새 중동 곳곳 폭발음",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-104-207",
+      "signal_title": "트럼프 \"이란, 실질 전력 완전 제거\"...무기 고갈 우려 불식",
+      "matched_signal_id": "naver-20260212-TOP-008",
+      "matched_title": "트럼프 이란핵",
+      "stage": "C_title",
+      "score": 0.8057
+    },
+    {
+      "signal_id": "naver-20260307-104-211",
+      "signal_title": "'악마의 무기' 꺼내고 만 이란?... 이스라엘 상공 뒤덮은 폭탄 공개 [지금이뉴스]",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-105-227",
+      "signal_title": "갤럭시S26 사전 판매 135만대 신기록",
+      "matched_signal_id": "naver-20260306-101-061",
+      "matched_title": "‘AI 3총사’ 업고 판매 돌풍···갤럭시 S26, 일주일 만에 135만대 ‘역대 최다’",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-105-242",
+      "signal_title": "엔비디아, 젠슨황 기본급↑...현금보상 목표치 '60억원'",
+      "matched_signal_id": "naver-20260306-105-251",
+      "matched_title": "“엔비디아, 中 수출용 H200 생산 중단”",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-105-245",
+      "signal_title": "카카오T로 호출하는 서울 강남 '자율주행 택시' 4월부터 유료화",
+      "matched_signal_id": "naver-20260219-101-006",
+      "matched_title": "美 뉴욕주 로보택시 허용법안 철회 — 웨이모 확장 계획 타격, 자율주행 규제 역풍",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260307-105-254",
+      "signal_title": "日언론도 아틀라스에 ‘눈독’…로봇 판 뒤흔드는 현대차그룹",
+      "matched_signal_id": "naver-20260228-101-002",
+      "matched_title": "현대차그룹 새만금 9조원 투자 — 로봇·AI·수소 거점",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-105-259",
+      "signal_title": "\"애플도 당장 베껴라\" 난리…국회 발칵 뒤집은 '갤S26' [테크로그]",
+      "matched_signal_id": "naver-20260306-105-243",
+      "matched_title": "통신3사 ‘갤S26’ 개통 시작…인기 모델은 ‘울트라 블랙’",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260307-105-260",
+      "signal_title": "[AI돋보기] 스마트워치 기록, 미사일 '표적' 부른다",
+      "matched_signal_id": "naver-20260219-105-003",
+      "matched_title": "메타·애플·오픈AI 'AI 디바이스' 3파전 — 메타 '말리부2' 스마트워치, 눈·귀·손목 통합 AI 디바이스 경쟁 격화",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-105-266",
+      "signal_title": "구글·아마존·MS, \"앤트로픽 AI 공급 지속…국방 분야는 제외\"",
+      "matched_signal_id": "naver-20260216-TOP-002",
+      "matched_title": "미 국방부 앤트로픽 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260307-105-267",
+      "signal_title": "트럼프에 찍힌 앤트로픽, 기업 고객 잃을까… IPO 앞두고 위기",
+      "matched_signal_id": "naver-20260216-TOP-002",
+      "matched_title": "미 국방부 앤트로픽 AI 윤리 완화 요구 -- '계약 해지' 최후통첩으로 AI 군사화 본격화",
+      "stage": "B_topic",
+      "score": 0.5
+    }
+  ]
+}

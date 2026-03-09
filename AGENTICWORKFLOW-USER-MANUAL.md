@@ -2,7 +2,7 @@
 
 > **Quadruple Environmental Scanning System** | Quick Reference (English)
 >
-> Version: 7.0 | Last Updated: 2026-03-06
+> Version: 8.0 | Last Updated: 2026-03-09
 
 This document is the concise English-language companion to `USER-MANUAL.md`. For the full Korean operational guide, refer to that document.
 
@@ -30,7 +30,7 @@ claude
 ```
 
 The system will automatically:
-1. Validate SOT (59 rules)
+1. Validate SOT (61 rules)
 2. WF1: Scan 25+ sources → classify+impact (LLM @phase2-analyst) → rank (Python priority_score_calculator.py) → generate report
 3. WF2: Scan arXiv 42 categories → classify+impact (LLM) → rank (Python) → generate report
 4. WF3: Crawl Naver News 6 sections → STEEPs+FSSF classify (LLM) → rank (Python) → generate report
@@ -66,7 +66,7 @@ The system will automatically:
 ```
 /env-scan:run
     |
-    +-- SOT Validation (55 rules)
+    +-- SOT Validation (61 rules)
     |
     +-- WF1: General Environmental Scanning
     |   Phase 1: 25+ source scan -> 4-stage dedup
@@ -250,7 +250,7 @@ Always run validation:
 python3 env-scanning/scripts/validate_registry.py
 ```
 
-All 59 rules must PASS before workflows can execute.
+All 61 rules must PASS before workflows can execute.
 
 ---
 
@@ -284,8 +284,13 @@ python3 env-scanning/scripts/validate_registry.py
 # L2a: Structural validation (15-20 checks)
 python3 env-scanning/scripts/validate_report.py <report-file-path>
 
-# L2b: Cross-reference QC (13 checks: QC-001~013)
+# L2b: Cross-reference QC (14 checks: QC-001~014)
 python3 env-scanning/scripts/validate_report_quality.py <report-file-path>
+
+# Pipeline Gate 2: Phase 2→3 transition (8 checks: PG2-001~008)
+python3 env-scanning/scripts/validate_phase2_output.py \
+  --sot env-scanning/config/workflow-registry.yaml \
+  --workflow <wf-name> --date <YYYY-MM-DD>
 
 # Timeline Map L2b: Cross-reference QC (11 checks: TQ-001~011)
 python3 env-scanning/scripts/validate_timeline_map_quality.py --report <timeline-map.md> --data-package <data-package.json>
@@ -352,6 +357,6 @@ All collected data (raw/, structured/) is persisted to disk and never lost.
 
 ---
 
-**Document Version**: 7.0
-**Last Updated**: 2026-03-06
-**System Version**: Quadruple Workflow System v3.1.0 (Python 원천봉쇄 + 4-Layer Quality Defense + Timeline Map Challenge-Response)
+**Document Version**: 8.0
+**Last Updated**: 2026-03-09
+**System Version**: Quadruple Workflow System v3.2.0 (Python 원천봉쇄 + Hallucination Prevention + 4-Layer Quality Defense + Timeline Map Challenge-Response)

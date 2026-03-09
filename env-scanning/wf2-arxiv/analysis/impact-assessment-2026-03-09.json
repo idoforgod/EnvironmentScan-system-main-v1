@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "date": "2026-03-09",
+    "workflow": "wf2-arxiv",
+    "total_assessed": 686,
+    "execution_proof": {
+      "step": "2.2",
+      "timestamp": "2026-03-08T23:22:39.447782+00:00"
+    }
+  },
+  "impact_matrix": {
+    "total_signals": 686,
+    "high_impact": 0,
+    "medium_impact": 630,
+    "low_impact": 56
+  },
+  "assessments": [
+    {
+      "id": "wf2-2603.05507v1",
+      "title": "Transformer-Based Inpainting for Real-Time 3D Streaming in Sparse Multi-Camera Setups",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05504v1",
+      "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05483v1",
+      "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05463v1",
+      "title": "EdgeDAM: Real-time Object Tracking for Mobile Devices",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05448v1",
+      "title": "Residual RL--MPC for Robust Microrobotic Cell Pushing Under Time-Varying Flow",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05440v1",
+      "title": "Latent Wasserstein Adversarial Imitation Learning",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05432v1",
+      "title": "Ensembling Language Models with Sequential Monte Carlo",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05377v1",
+      "title": "OpenFrontier: General Navigation with Visual-Language Grounded Frontiers",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05375v1",
+      "title": "Robust Node Affinities via Jaccard-Biased Random Walks and Rank Aggregation",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05497v1",
+      "title": "Safe-SAGE: Social-Semantic Adaptive Guidance for Safe Engagement through Laplace-Modulated Poisson Safety Functions",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05355v1",
+      "title": "Omni-Manip: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05333v1",
+      "title": "CT-Enabled Patient-Specific Simulation and Contact-Aware Robotic Planning for Cochlear Implantation",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05312v1",
+      "title": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05296v1",
+      "title": "Latent Policy Steering through One-Step Flow Policies",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05291v1",
+      "title": "Iterative On-Policy Refinement of Hierarchical Diffusion Policies for Language-Conditioned Manipulation",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05230v1",
+      "title": "Digital Twin Driven Textile Classification and Foreign Object Recognition in Automated Sorting Systems",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05165v1",
+      "title": "V2N-Based Algorithm and Communication Protocol for Autonomous Non-Stop Intersections",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05160v1",
+      "title": "Lifelong Language-Conditioned Robotic Manipulation Learning",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05113v1",
+      "title": "Decoupling Task and Behavior: A Two-Stage Reward Curriculum in Reinforcement Learning for Robotics",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05035v1",
+      "title": "Good-Enough LLM Obfuscation (GELO)",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05005v1",
+      "title": "A Practical Post-Quantum Distributed Ledger Protocol for Financial Institutions",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04891v1",
+      "title": "Public Sector Open Source Program Offices - Archetypes for how to Grow (Common) Institutional Capabilities",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04587v1",
+      "title": "Industrial Survey on Robustness Testing In Cyber Physical Systems",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04383v1",
+      "title": "Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04378v1",
+      "title": "Robustness of Agentic AI Systems via Adversarially-Aligned Jacobian Regularization",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04324v1",
+      "title": "Breaking Bad Email Habits: Bounding the Impact of Simulated Phishing Campaigns",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04244v1",
+      "title": "FeedAIde: Guiding App Users to Submit Rich Feedback Reports by Asking Context-Aware Follow-Up Questions",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04212v1",
+      "title": "Code Fingerprints: Disentangled Attribution of LLM-Generated Code",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.03612v2",
+      "title": "Why Are Linear RNNs More Parallelizable?",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05439v1",
+      "title": "O^3-LSM: Maximizing Disaggregated LSM Write Performance via Three-Layer Offloading",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05231v1",
+      "title": "Boosting ASR Robustness via Test-Time Reinforcement Learning with Audio-Text Semantic Rewards",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04986v1",
+      "title": "Debiasing Sequential Recommendation with Time-aware Inverse Propensity Scoring",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04865v1",
+      "title": "The First Environmental Sound Deepfake Detection Challenge: Benchmarking Robustness, Evaluation, and Insights",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04847v1",
+      "title": "GloSplat: Joint Pose-Appearance Optimization for Faster and More Accurate 3D Reconstruction",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04741v1",
+      "title": "CONE: Embeddings for Complex Numerical Data Preserving Unit and Variable Semantics",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.05321v1",
+      "title": "Designing for Adolescent Voice in Health Decisions: Embodied Conversational Agents for HPV Vaccination",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.05000v1",
+      "title": "Competitive Multi-Operator Reinforcement Learning for Joint Pricing and Fleet Rebalancing in AMoD Systems",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04930v1",
+      "title": "Mind the Gap: Mapping Wearer-Bystander Privacy Tensions and Context-Adaptive Pathways for Camera Glasses",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04881v1",
+      "title": "Differential Privacy in Two-Layer Networks: How DP-SGD Harms Fairness and Robustness",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04833v1",
+      "title": "SCoUT: Scalable Communication via Utility-Guided Temporal Grouping in Multi-Agent Reinforcement Learning",
+      "impact_score": 3.8,
+      "steeps": "P"
+    },
+    {
+      "id": "wf2-2603.04820v1",
+      "title": "Autoscoring Anticlimax: A Meta-analytic Understanding of AI's Short-answer Shortcomings and Wording Weaknesses",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04806v1",
+      "title": "SparkTales: Facilitating Cross-Language Collaborative Storytelling through Coordinator-AI Collaboration",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04766v1",
+      "title": "Evaluating and Correcting Human Annotation Bias in Dynamic Micro-Expression Recognition",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04701v1",
+      "title": "Analysis of Terms of Service on Social Media Platforms: Consent Challenges and Assessment Metrics",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04657v1",
+      "title": "Stan: An LLM-based thermodynamics course assistant",
+      "impact_score": 3.8,
+      "steeps": "T"
+    },
+    {
+      "id": "wf2-2603.04613v1",
+      "title": "Beyond Anthropomorphism: a Spectrum of Interface Metaphors for LLMs",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04607v1",
+      "title": "A Case Study in Responsible AI-Assisted Video Solutions: Multi-Metric Behavioral Insights in a Public Market Setting",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04555v1",
+      "title": "Token Taxes: mitigating AGI's economic risks",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04552v1",
+      "title": "Beyond the Interface: Redefining UX for Society-in-the-Loop AI Systems",
+      "impact_score": 3.8,
+      "steeps": "S"
+    },
+    {
+      "id": "wf2-2603.04534v1",
+      "title": "Invariant Causal Routing for Governing Social Norms in Online Market Economies",
+      "impact_score": 3.8,
+      "steeps": "T"
+    }
+  ]
+}

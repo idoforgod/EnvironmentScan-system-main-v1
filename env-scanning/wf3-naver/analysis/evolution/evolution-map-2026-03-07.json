@@ -1,0 +1,12 @@
+{
+  "evolution_metadata": {
+    "date": "2026-03-07",
+    "workflow": "wf3-naver",
+    "status": "skipped_on_error",
+    "error": "'list' object has no attribute 'items' — schema mismatch in evolution index",
+    "note": "Per Step 3.1b: evolution tracking failure is non-blocking. Continuing without evolution data.",
+    "continuing_signals": [],
+    "new_signals": 33,
+    "faded_signals": 0
+  }
+}

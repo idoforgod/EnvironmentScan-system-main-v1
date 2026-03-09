@@ -1,0 +1,373 @@
+{
+  "scan_metadata": {
+    "workflow_id": "wf1-general",
+    "scan_date": "2026-03-08",
+    "scan_window": {
+      "start": "2026-03-06T22:47:51.646601+00:00",
+      "end": "2026-03-07T22:47:51.646601+00:00",
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict"
+    },
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-03-08-07-47-51-x8k2",
+      "started_at": "2026-03-07T22:47:51Z",
+      "completed_at": "2026-03-07T23:15:00Z",
+      "actual_api_calls": {
+        "web_search": 3,
+        "arxiv_api": 0,
+        "rss_feeds": 18,
+        "web_fetch": 22
+      },
+      "actual_sources_scanned": [
+        "US Federal Register", "WHO Press Releases", "TechCrunch", "MIT Technology Review",
+        "Nature News", "Science Magazine", "IEEE Spectrum", "UN News", "Brookings Institution",
+        "Hacker News", "Disrupt Africa", "Carbon Brief", "Pew Research Center",
+        "EUR-Lex Recent Acts", "BIS Speeches", "Google Patents"
+      ],
+      "file_created_at": "2026-03-07T23:15:00Z"
+    },
+    "sources_attempted": 30,
+    "sources_successful": 16,
+    "sources_failed": ["OECD Newsroom", "World Bank Blogs", "Ars Technica", "Wired", "WEF", "PubMed Central", "IMF Blog", "Quanta Magazine Biology", "The Conversation - Ethics", "Psychology Today", "Aeon Magazine", "AI Ethics Brief", "ScienceDaily Sustainability", "NASA Climate Change"],
+    "total_raw_signals": 42
+  },
+  "items": [
+    {
+      "id": "tc-20260308-001",
+      "title": "OpenAI Robotics Lead Exits Over Pentagon Deal",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/", "published_date": "2026-03-07"},
+      "content": {"abstract": "Caitlin Kalinowski resigned from her position leading OpenAI's robotics division in protest of the company's Department of Defense agreement. This marks a significant internal dissent within OpenAI over military AI applications.", "keywords": ["AI", "military AI", "ethics", "OpenAI", "Pentagon", "robotics"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-002",
+      "title": "Anthropic's Claude Found 22 Vulnerabilities in Firefox Over Two Weeks",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as high-severity — through a security partnership with Mozilla. Demonstrates AI's growing capability in automated vulnerability discovery.", "keywords": ["AI", "cybersecurity", "vulnerability detection", "Anthropic", "Claude", "Firefox", "Mozilla"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-003",
+      "title": "Claude Consumer Growth Surge Continues After Pentagon Deal Debacle",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Claude's mobile application now surpasses ChatGPT in new installations and is expanding daily active user engagement. The Pentagon controversy appears to have benefited Anthropic's consumer positioning.", "keywords": ["AI", "consumer tech", "Anthropic", "Claude", "ChatGPT", "market competition"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-004",
+      "title": "Quantum Computing Firm Pasqal Plans $2B SPAC Listing on Nasdaq",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/quantum-scale-up-pasqal-plans-2b-spac-listing-promises-to-remain-french/", "published_date": "2026-03-06"},
+      "content": {"abstract": "French quantum computing firm Pasqal announces plans for Nasdaq public listing valuing company at $2 billion pre-money. Signals quantum computing industry's maturation toward public markets.", "keywords": ["quantum computing", "SPAC", "Nasdaq", "Pasqal", "France", "IPO"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-005",
+      "title": "TerraPower Gets NRC Approval to Build New Nuclear Reactor",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/bill-gates-terrapower-gets-approval-to-build-new-nuclear-reactor/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Bill Gates' TerraPower gets first NRC construction permit in nearly a decade for next-gen nuclear reactor. Marks significant milestone for nuclear energy renaissance and climate-relevant energy transition.", "keywords": ["nuclear energy", "TerraPower", "NRC", "Bill Gates", "clean energy", "climate"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-006",
+      "title": "City Detect Raises $13M Series A for AI-Powered Urban Decay Prevention",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/city-detect-uses-ai-to-help-cities-stay-safe-and-clean/", "published_date": "2026-03-06"},
+      "content": {"abstract": "AI-powered platform helping municipalities prevent urban decay secures $13M Series A funding; operational in 17+ cities including Dallas and Miami.", "keywords": ["AI", "smart cities", "urban tech", "startup", "venture capital"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-007",
+      "title": "TriZetto Data Breach: 3.4M Health Records Compromised",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/trizetto-confirms-3-4m-peoples-health-and-personal-data-was-stolen-during-breach/", "published_date": "2026-03-06"},
+      "content": {"abstract": "TriZetto confirms 3.4 million people's health and personal data was stolen during a major data breach. Highlights growing cybersecurity risks in healthcare data infrastructure.", "keywords": ["cybersecurity", "healthcare", "data breach", "privacy", "health data"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "tc-20260308-008",
+      "title": "India PC Shipments Surpass Pandemic Peak as First-Time Users Upgrade",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/06/india-pc-shipments-surpass-pandemic-peak-as-first-time-users-upgrade/", "published_date": "2026-03-06"},
+      "content": {"abstract": "India's PC shipments have exceeded pandemic-era peaks, driven by first-time users upgrading. Signals India's expanding digital economy and consumer tech adoption.", "keywords": ["India", "digital economy", "PC market", "emerging markets", "digital transformation"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "mtr-20260308-001",
+      "title": "Is the Pentagon Allowed to Surveil Americans with AI?",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Examines whether US law permits Pentagon mass surveillance using AI. Existing laws haven't kept pace with AI capabilities, creating legal ambiguity around bulk data collection and analysis. 'The law has not caught up with technological reality.'", "keywords": ["AI surveillance", "Pentagon", "privacy", "law", "civil liberties", "Anthropic"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-001",
+      "title": "Climate Change is Speeding Up — Pace Nearly Doubled in Ten Years",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00745-z", "published_date": "2026-03-06"},
+      "content": {"abstract": "Earth is now warming at a rate of around 0.35 C per decade, fresh analysis finds. The pace of global warming has nearly doubled compared to ten years ago, accelerating faster than most models predicted.", "keywords": ["climate change", "global warming", "acceleration", "climate science", "temperature"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-002",
+      "title": "Electric-Vehicle Batteries Toughen Up to Beat the Heat",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00670-1", "published_date": "2026-03-06"},
+      "content": {"abstract": "Rising temperatures shorten battery life, but EV battery devices are improving fast enough to resist the ravages of climate change. Advances in thermal management and chemistry.", "keywords": ["EV batteries", "climate adaptation", "materials science", "electric vehicles", "thermal management"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-003",
+      "title": "Peanut-Processing Microbes Ward Off Dangerous Allergic Shock",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00668-9", "published_date": "2026-03-06"},
+      "content": {"abstract": "Researchers identified bacteria that digest allergy-triggering compounds in peanuts, potentially reducing life-threatening allergic reactions. Microbiome-based approach to food allergy treatment.", "keywords": ["microbiome", "food allergy", "biotech", "peanut allergy", "anaphylaxis"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-004",
+      "title": "Genetically Modified Pig Liver Keeps Man Alive Until Human Organ Transplant",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00736-0", "published_date": "2026-03-06"},
+      "content": {"abstract": "First successful use of xenotransplantation — a genetically modified pig liver — on a living person as bridge therapy until human organ becomes available. Major medical milestone.", "keywords": ["xenotransplantation", "organ transplant", "gene editing", "pig liver", "medical breakthrough"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-005",
+      "title": "The First 'AI Societies' Are Taking Shape: How Human-Like Are They?",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00070-5", "published_date": "2026-03-05"},
+      "content": {"abstract": "Scientists study social interactions between AI agents to determine whether they exhibit genuine emergent behavior or sophisticated simulation. Explores the formation of 'AI societies' with cooperative and competitive dynamics.", "keywords": ["AI agents", "emergent behavior", "AI societies", "multi-agent systems", "social simulation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-006",
+      "title": "Brain Cells Clear Proteins That Contribute to Alzheimer's Disease",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00747-x", "published_date": "2026-03-05"},
+      "content": {"abstract": "Tanycytes, specialized brain cells, prevent tau protein accumulation; their dysfunction contributes to Alzheimer's neurodegeneration. Opens new therapeutic pathway for dementia treatment.", "keywords": ["Alzheimer's", "neuroscience", "tau protein", "tanycytes", "neurodegeneration", "brain"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "nat-20260308-007",
+      "title": "Genome Modelling and Design Across All Domains of Life with Evo 2",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10176-5", "published_date": "2026-03-04"},
+      "content": {"abstract": "Evo 2: AI foundation model trained on 9 trillion DNA base pairs enables genomic predictions and biological design across all organisms. Paradigm shift in computational biology.", "keywords": ["genomics", "AI", "foundation model", "DNA", "biological design", "Evo 2", "computational biology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "ieee-20260308-001",
+      "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/lunar-base-3d-printing", "published_date": "2026-03-07"},
+      "content": {"abstract": "Researchers at Ohio State University developed laser-based 3D printing method to convert lunar regolith into hardened building material for Moon bases. Directed energy deposition fuses regolith layers for in-situ resource utilization.", "keywords": ["3D printing", "lunar construction", "space", "ISRU", "laser", "Moon base"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "ieee-20260308-002",
+      "title": "The Millisecond That Could Change Cancer Treatment — FLASH Radiotherapy",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/flash-radiotherapy", "published_date": "2026-03-06"},
+      "content": {"abstract": "FLASH radiotherapy delivers ultrahigh-power radiation doses in milliseconds, causing significantly less damage to healthy tissue. CERN adapting particle accelerator technology for clinical cancer treatment. Delivers 10 gray or more in less than a tenth of a second.", "keywords": ["FLASH radiotherapy", "cancer treatment", "CERN", "particle accelerator", "radiation therapy", "medical tech"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "ieee-20260308-003",
+      "title": "Robot Hand With Artificial Muscles and Tendons",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles", "published_date": "2026-03-06"},
+      "content": {"abstract": "Biomimetic hand designs featuring artificial muscles and tendons printed in a single process with rigid skeleton, soft joints, and sensors. Advancing humanoid manipulation capabilities.", "keywords": ["robotics", "artificial muscles", "biomimetic", "humanoid", "3D printing", "manipulation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-001",
+      "title": "Lebanon Dragged Back Into Turmoil, UN Envoy Warns",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167096", "published_date": "2026-03-07"},
+      "content": {"abstract": "UN envoy warns Lebanon has been dragged back into state of turmoil and violence following regional strikes along the Blue Line. Previous diplomatic momentum collapsed within days.", "keywords": ["Lebanon", "Middle East", "geopolitics", "conflict", "UN", "diplomacy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-002",
+      "title": "Middle East War Day 7: World Economy at Grave Risk, Warns UN Chief",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167087", "published_date": "2026-03-06"},
+      "content": {"abstract": "UN Secretary-General warns Middle East situation could spiral beyond anyone's control. Day 7 of escalation between US, Israel, and Iran with civilian casualties, displacement, and global economic risk.", "keywords": ["Middle East", "war", "Iran", "Israel", "global economy", "UN", "geopolitics"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-003",
+      "title": "Women's Representation in Parliament Sees Sluggish Gains — 27.5% Globally",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167092", "published_date": "2026-03-06"},
+      "content": {"abstract": "Women held 27.5% of parliamentary seats globally, marking the slowest growth in nearly a decade. IPU report signals stalling gender equality progress in political representation.", "keywords": ["gender equality", "women", "parliament", "political representation", "IPU", "democracy"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-004",
+      "title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167084", "published_date": "2026-03-05"},
+      "content": {"abstract": "UN addresses equitable distribution of lithium and cobalt — essential for zero-carbon transitions — during Security Council discussions. Developing nations demand fair access to critical mineral resources.", "keywords": ["critical minerals", "lithium", "cobalt", "energy transition", "developing nations", "resource equity"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-005",
+      "title": "How AI is Already Reshaping Working Conditions",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167075", "published_date": "2026-03-03"},
+      "content": {"abstract": "UN analysis of AI's impact on labor: from algorithm-driven courier management to moderator exposure to harmful content. Documents real-world effects of AI deployment on worker conditions globally.", "keywords": ["AI", "labor", "working conditions", "gig economy", "automation", "worker rights"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-006",
+      "title": "UN Chief Tells AI Experts: 'The World Is Looking to You for Clarity'",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167074", "published_date": "2026-03-03"},
+      "content": {"abstract": "Secretary-General charges new UN-convened AI expert group with guiding AI deployment 'for the benefit of humanity.' Global AI governance taking institutional shape.", "keywords": ["AI governance", "UN", "global governance", "AI regulation", "international cooperation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "un-20260308-007",
+      "title": "Iran Crisis: Nuclear Watchdog Urges Restraint Amid Ongoing Strikes",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167064", "published_date": "2026-03-02"},
+      "content": {"abstract": "IAEA director urges diplomatic resolution given 'increasing risk to nuclear safety' during Middle Eastern military operations. Nuclear facilities at risk amid regional conflict escalation.", "keywords": ["nuclear safety", "IAEA", "Iran", "nuclear", "Middle East", "diplomacy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "cb-20260308-001",
+      "title": "Pace of Global Warming Has Nearly Doubled Since 2015",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/pace-of-global-warming-has-nearly-doubled-since-2015-study-says/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Research shows global warming rate nearly doubled over the past decade, raising concerns about crossing Paris Agreement's 1.5C threshold before 2030.", "keywords": ["global warming", "acceleration", "Paris Agreement", "1.5C", "climate science"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "cb-20260308-002",
+      "title": "China's 15th Five-Year Plan: What It Means for Climate Change",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-what-does-chinas-15th-five-year-plan-mean-for-climate-change/", "published_date": "2026-03-06"},
+      "content": {"abstract": "China's 2026-2030 plan emphasizes clean-energy expansion, targeting 25% non-fossil energy by 2030. Avoids absolute emissions caps while supporting renewable development. Ambiguous coal phase-out timeline.", "keywords": ["China", "five-year plan", "climate policy", "renewable energy", "coal", "emissions"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "cb-20260308-003",
+      "title": "Heatwaves Driving Recent 'Surge' in Compound Drought and Heat Extremes",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/heatwaves-driving-recent-surge-in-compound-drought-and-heat-extremes/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Simultaneous drought and heatwave events more than doubled between 1980-2001 and 2002-23. Climate threshold crossed around 2000 intensified land-atmosphere feedbacks. Published in Science Advances.", "keywords": ["compound extremes", "drought", "heatwave", "climate threshold", "land-atmosphere"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "cb-20260308-004",
+      "title": "Iran Energy Crisis Drives Global Price Spikes Amid Middle East Conflict",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/debriefed-6-march-2026-iran-energy-crisis-china-climate-plan-bristols-pioneering-wind-turbine/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Middle East energy disruptions drive global energy price spikes. Iran's energy infrastructure damaged by military strikes, with ripple effects across global oil and gas markets.", "keywords": ["energy crisis", "Iran", "oil prices", "energy security", "Middle East", "global markets"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "fr-20260308-001",
+      "title": "US Ratepayer Protection Pledge — Presidential Executive Action",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04645/ratepayer-protection-pledge", "published_date": "2026-03-09"},
+      "content": {"abstract": "Presidential executive action on utility customer protections — Ratepayer Protection Pledge. Signals new regulatory direction for energy utility pricing and consumer protection.", "keywords": ["energy policy", "executive order", "utility regulation", "consumer protection", "US policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "fr-20260308-002",
+      "title": "FDA Drug Manufacturing Inspection Response Draft Guidance",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04578/responding-to-fda-form-483-observations-at-the-conclusion-of-a-drug-cgmp-inspection-draft-guidance", "published_date": "2026-03-09"},
+      "content": {"abstract": "FDA issues draft guidance to assist drug manufacturers in responding to Form 483 inspectional observations. Streamlines pharmaceutical quality compliance procedures.", "keywords": ["FDA", "drug manufacturing", "pharmaceutical regulation", "CGMP", "quality compliance"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "brk-20260308-001",
+      "title": "After the Strike: The Danger of War in Iran",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/after-the-strike-the-danger-of-war-in-iran/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Analysis of escalating tensions and conflict risks following military strikes on Iran. Multiple foreign policy experts assess potential for wider regional war and global implications.", "keywords": ["Iran", "war", "geopolitics", "Middle East", "foreign policy", "conflict escalation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "brk-20260308-002",
+      "title": "The Limits of Tariff-Driven Economic Statecraft After IEEPA",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/now-what-the-limits-of-tariff-driven-economic-statecraft-after-ieepa/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Analysis of constraints on using tariffs as foreign policy tool. IEEPA (International Emergency Economic Powers Act) limitations signal potential shift in US economic statecraft approach.", "keywords": ["tariffs", "IEEPA", "economic statecraft", "trade policy", "US foreign policy"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "brk-20260308-003",
+      "title": "Greater Washington Leads Nation in Regional Job Loss After 'The Fork'",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/after-the-fork-greater-washington-leads-the-nation-in-regional-job-loss/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Data-driven report on significant employment declines in the Washington DC metropolitan area. Federal workforce reductions driving unprecedented regional economic contraction.", "keywords": ["employment", "job loss", "Washington DC", "federal workforce", "economic contraction", "DOGE"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "da-20260308-001",
+      "title": "Kenya's Roam Launches First AI-Enabled Real-Time Monitoring for Electric Fleets in Africa",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/06/kenyas-roam-launches-1st-ai-enabled-real-time-monitoring-tool-for-electric-fleets-across-africa/", "published_date": "2026-03-06"},
+      "content": {"abstract": "Roam Explorer enables real-time battery and vehicle tracking across 2G-4G networks in Africa. Supports SMS access for rural connectivity and predictive maintenance through AI analysis.", "keywords": ["Africa", "electric vehicles", "AI", "fleet management", "Kenya", "clean transport"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "da-20260308-002",
+      "title": "Ethiopia's Gebeya Partners M-PESA to Enable AI Tool Access via Mobile Payments",
+      "source": {"name": "Disrupt Africa", "type": "tech_news", "url": "https://disruptafrica.com/2026/03/05/ethiopias-gebeya-partners-m-pesa-to-enable-ai-tool-access-via-mobile-payments/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Dala AI Bundle allows Ethiopians mobile-money access to AI creation tools, making artificial intelligence accessible to anyone with a mobile phone. AI democratization in emerging markets.", "keywords": ["AI democratization", "mobile payments", "M-PESA", "Ethiopia", "Africa", "fintech"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "hn-20260308-001",
+      "title": "War Prediction Markets Are a National Security Threat",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.theatlantic.com/technology/2026/03/polymarket-insider-trading-going-get-people-killed/686283/", "published_date": "2026-03-07"},
+      "content": {"abstract": "Analysis of prediction markets during wartime — Polymarket and similar platforms create insider trading opportunities that could compromise national security. Information asymmetry in conflict.", "keywords": ["prediction markets", "Polymarket", "national security", "insider trading", "conflict", "information warfare"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "hn-20260308-002",
+      "title": "Verification Debt: The Hidden Cost of AI-Generated Code",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://fazy.medium.com/agentic-coding-ais-adolescence-b0d13452f981", "published_date": "2026-03-07"},
+      "content": {"abstract": "Analysis of 'verification debt' accumulating from AI-generated code. As agentic coding tools proliferate, the hidden cost of verifying AI output may exceed the productivity gains.", "keywords": ["AI coding", "verification debt", "software engineering", "agentic AI", "code quality", "technical debt"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "hn-20260308-003",
+      "title": "US Senators Launch Effort to Ban Federal Officials from Prediction Markets",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.merkley.senate.gov/merkley-klobuchar-launch-new-effort-to-ban-federal-elected-officials-profiting-from-prediction-markets/", "published_date": "2026-03-07"},
+      "content": {"abstract": "Bipartisan legislative effort to prohibit federal elected officials from profiting through prediction markets. Response to conflicts of interest emerging from wartime betting platforms.", "keywords": ["prediction markets", "legislation", "conflict of interest", "government ethics", "regulation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "pew-20260308-001",
+      "title": "How Teens Use and View AI: 50%+ Use Chatbots for Schoolwork",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Over half of US teens have used chatbots for school help, and 12% have gotten emotional support from AI tools. Generational shift in AI adoption and reliance.", "keywords": ["teens", "AI", "education", "emotional support", "chatbots", "generational shift"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-07T23:00:00Z"
+    },
+    {
+      "id": "pew-20260308-002",
+      "title": "Family Caregiving in an Aging America: Gender Differences in Care Burden",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Family members increasingly caring for aging parents/spouses as US population ages. Caregivers' experiences differ significantly by gender, with women bearing disproportionate burden.", "keywords": ["aging population", "caregiving", "demographics", "gender", "family", "healthcare burden"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-07T23:00:00Z"
+    }
+  ]
+}

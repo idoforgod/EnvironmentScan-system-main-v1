@@ -1,0 +1,54 @@
+{
+  "scan_date": "2026-03-07",
+  "approval_status": "APPROVED",
+  "approved_at": "2026-03-08T10:30:00+09:00",
+  "approved_by": "user",
+  "workflows_completed": {
+    "wf1_general": {
+      "status": "completed",
+      "signals_collected": 28,
+      "db_total": 807,
+      "validation": "L2a PASS (18/18)",
+      "report": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-07-ko.md"
+    },
+    "wf2_arxiv": {
+      "status": "completed",
+      "signals_collected": 491,
+      "db_total": 315,
+      "validation": "L2a PASS (17/17)",
+      "report": "env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-07-ko.md"
+    },
+    "wf3_naver": {
+      "status": "completed",
+      "signals_collected": 250,
+      "db_total": 502,
+      "validation": "L2a PASS (20/20)",
+      "red_tipping_points": 4,
+      "report": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-07-ko.md"
+    },
+    "wf4_multiglobal_news": {
+      "status": "completed",
+      "signals_collected": 46,
+      "db_total": 225,
+      "validation": "L2a PASS (20/20)",
+      "red_tipping_points": 5,
+      "report": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-07-ko.md"
+    }
+  },
+  "integration": {
+    "status": "completed",
+    "validation": "L2a PASS (19/19)",
+    "total_signals_all_wf": 598,
+    "total_db_all_wf": 1849,
+    "red_tipping_points": 9,
+    "unified_top_signal": "WHO H5N1 Phase 3 + FDA CBER vacancy",
+    "report": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-07-ko.md",
+    "archive": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-07-ko.md",
+    "unified_ranking": "env-scanning/integrated/analysis/unified-ranking-2026-03-07.json"
+  },
+  "bugfix_applied": {
+    "description": "Fixed naive vs aware datetime comparison bug in rss_scanner.py and base_scanner.py",
+    "files_modified": ["env-scanning/scanners/rss_scanner.py", "env-scanning/scanners/base_scanner.py"],
+    "impact": "Source exploration mode will now collect signals correctly on next scan"
+  }
+}

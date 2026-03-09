@@ -1,0 +1,25 @@
+{
+  "gate_id": "temporal_gate.py",
+  "gate_version": "1.0.0",
+  "checked_at": "2026-03-07T04:37:03.903965+00:00",
+  "workflow": "wf4-multiglobal-news",
+  "signals_file": "env-scanning/wf4-multiglobal-news/filtered/new-signals-2026-03-07.json",
+  "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-03-07.json",
+  "gate_status": "PASS",
+  "gate_message": "All 46 signals within window.",
+  "statistics": {
+    "total_signals": 46,
+    "within_window": 46,
+    "outside_window": 0,
+    "unparseable_dates": 0
+  },
+  "window": {
+    "effective_start": "2026-03-06T00:16:38.679218",
+    "window_end": "2026-03-07T00:46:38.679218",
+    "lookback_hours": 24,
+    "tolerance_minutes": 30,
+    "enforce": "strict"
+  },
+  "violations": [],
+  "unparseable": []
+}

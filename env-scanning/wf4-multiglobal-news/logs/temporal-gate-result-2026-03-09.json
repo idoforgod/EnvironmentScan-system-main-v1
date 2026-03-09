@@ -1,0 +1,6444 @@
+{
+  "gate_id": "temporal_gate.py",
+  "gate_version": "1.0.0",
+  "checked_at": "2026-03-09T00:18:45.775979+00:00",
+  "workflow": "wf4-multiglobal-news",
+  "signals_file": "env-scanning/wf4-multiglobal-news/raw/daily-crawl-2026-03-09.json",
+  "scan_window_file": "env-scanning/integrated/logs/scan-window-2026-03-09.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "7 signal(s) outside window removed (strict mode). 1427/1434 signals retained.",
+  "statistics": {
+    "total_signals": 1434,
+    "within_window": 1427,
+    "outside_window": 7,
+    "unparseable_dates": 1367
+  },
+  "window": {
+    "effective_start": "2026-03-07T14:30:00",
+    "window_end": "2026-03-09T15:00:00",
+    "lookback_hours": 24,
+    "tolerance_minutes": 30,
+    "enforce": "strict"
+  },
+  "violations": [
+    {
+      "signal_id": "news-20260309-aitimes-014",
+      "published_date": "2026-03-07 21:42:34",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    },
+    {
+      "signal_id": "news-20260309-aitimes-015",
+      "published_date": "2026-03-07 20:30:04",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    },
+    {
+      "signal_id": "news-20260309-aitimes-016",
+      "published_date": "2026-03-07 18:50:00",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    },
+    {
+      "signal_id": "news-20260309-aitimes-017",
+      "published_date": "2026-03-07 17:52:48",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    },
+    {
+      "signal_id": "news-20260309-aitimes-018",
+      "published_date": "2026-03-07 17:26:45",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    },
+    {
+      "signal_id": "news-20260309-aitimes-019",
+      "published_date": "2026-03-07 17:15:00",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    },
+    {
+      "signal_id": "news-20260309-aitimes-020",
+      "published_date": "2026-03-07 17:00:15",
+      "parsed_date": "2026-03-07T00:00:00",
+      "window": "[2026-03-07T14:30:00, 2026-03-09T15:00:00]"
+    }
+  ],
+  "unparseable": [
+    {
+      "signal_id": "news-20260309-chosun-001",
+      "date_str": "Sun, 08 Mar 2026 15:32:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-002",
+      "date_str": "Sun, 08 Mar 2026 23:56:33 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-003",
+      "date_str": "Sun, 08 Mar 2026 23:43:53 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-004",
+      "date_str": "Sun, 08 Mar 2026 23:56:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-005",
+      "date_str": "Sun, 08 Mar 2026 23:46:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-006",
+      "date_str": "Sun, 08 Mar 2026 23:56:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-007",
+      "date_str": "Sun, 08 Mar 2026 23:55:47 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-008",
+      "date_str": "Sun, 08 Mar 2026 23:52:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-009",
+      "date_str": "Sun, 08 Mar 2026 15:41:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-010",
+      "date_str": "Sun, 08 Mar 2026 23:51:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-011",
+      "date_str": "Sun, 08 Mar 2026 23:49:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-012",
+      "date_str": "Sun, 08 Mar 2026 23:49:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-013",
+      "date_str": "Sun, 08 Mar 2026 23:46:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-014",
+      "date_str": "Sun, 08 Mar 2026 20:20:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-015",
+      "date_str": "Sun, 08 Mar 2026 23:41:54 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-016",
+      "date_str": "Sun, 08 Mar 2026 23:41:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-017",
+      "date_str": "Sun, 08 Mar 2026 23:40:39 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-018",
+      "date_str": "Sun, 08 Mar 2026 23:40:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-019",
+      "date_str": "Sun, 08 Mar 2026 08:47:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-020",
+      "date_str": "Sun, 08 Mar 2026 23:38:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-021",
+      "date_str": "Sun, 08 Mar 2026 23:38:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-022",
+      "date_str": "Sun, 08 Mar 2026 15:43:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-023",
+      "date_str": "Sun, 08 Mar 2026 23:32:57 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-024",
+      "date_str": "Sun, 08 Mar 2026 23:37:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-025",
+      "date_str": "Sun, 08 Mar 2026 23:36:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-026",
+      "date_str": "Sun, 08 Mar 2026 23:36:29 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-027",
+      "date_str": "Sun, 08 Mar 2026 23:34:53 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-028",
+      "date_str": "Sun, 08 Mar 2026 23:34:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-029",
+      "date_str": "Sun, 08 Mar 2026 23:34:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-030",
+      "date_str": "Sun, 08 Mar 2026 23:33:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-031",
+      "date_str": "Sun, 08 Mar 2026 22:34:47 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-032",
+      "date_str": "Sun, 08 Mar 2026 23:27:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-033",
+      "date_str": "Fri, 06 Mar 2026 03:30:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-034",
+      "date_str": "Sun, 08 Mar 2026 23:26:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-035",
+      "date_str": "Sun, 08 Mar 2026 20:05:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-036",
+      "date_str": "Sun, 08 Mar 2026 23:25:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-037",
+      "date_str": "Sun, 08 Mar 2026 23:25:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-038",
+      "date_str": "Sun, 08 Mar 2026 20:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-039",
+      "date_str": "Sun, 08 Mar 2026 23:22:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-040",
+      "date_str": "Sun, 08 Mar 2026 23:21:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-041",
+      "date_str": "Sun, 08 Mar 2026 23:20:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-042",
+      "date_str": "Sun, 08 Mar 2026 23:19:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-043",
+      "date_str": "Sun, 08 Mar 2026 23:17:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-044",
+      "date_str": "Sun, 08 Mar 2026 23:17:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-045",
+      "date_str": "Sun, 08 Mar 2026 23:17:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-046",
+      "date_str": "Sun, 08 Mar 2026 23:16:14 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-047",
+      "date_str": "Sun, 08 Mar 2026 23:15:32 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-048",
+      "date_str": "Sun, 08 Mar 2026 23:15:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-049",
+      "date_str": "Sun, 08 Mar 2026 23:15:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-050",
+      "date_str": "Sun, 08 Mar 2026 23:14:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-051",
+      "date_str": "Sun, 08 Mar 2026 22:16:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-052",
+      "date_str": "Sun, 08 Mar 2026 23:12:14 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-053",
+      "date_str": "Sun, 08 Mar 2026 23:12:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-054",
+      "date_str": "Sun, 08 Mar 2026 23:10:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-055",
+      "date_str": "Sun, 08 Mar 2026 23:10:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-056",
+      "date_str": "Sun, 08 Mar 2026 23:09:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-057",
+      "date_str": "Sun, 08 Mar 2026 21:20:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-058",
+      "date_str": "Sun, 08 Mar 2026 23:05:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-059",
+      "date_str": "Sun, 08 Mar 2026 23:03:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-060",
+      "date_str": "Sun, 08 Mar 2026 23:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-061",
+      "date_str": "Sun, 08 Mar 2026 23:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-062",
+      "date_str": "Sun, 08 Mar 2026 22:39:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-063",
+      "date_str": "Sun, 08 Mar 2026 22:57:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-064",
+      "date_str": "Sun, 08 Mar 2026 22:56:36 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-065",
+      "date_str": "Sun, 08 Mar 2026 22:54:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-066",
+      "date_str": "Sun, 08 Mar 2026 22:53:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-067",
+      "date_str": "Sun, 08 Mar 2026 22:53:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-068",
+      "date_str": "Sun, 08 Mar 2026 15:31:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-069",
+      "date_str": "Sun, 08 Mar 2026 22:52:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-070",
+      "date_str": "Sun, 08 Mar 2026 22:34:34 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-071",
+      "date_str": "Sun, 08 Mar 2026 21:45:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-072",
+      "date_str": "Sun, 08 Mar 2026 22:44:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-073",
+      "date_str": "Sun, 08 Mar 2026 22:43:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-074",
+      "date_str": "Sun, 08 Mar 2026 22:42:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-075",
+      "date_str": "Sun, 08 Mar 2026 22:40:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-076",
+      "date_str": "Sun, 08 Mar 2026 22:38:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-077",
+      "date_str": "Sun, 08 Mar 2026 22:37:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-078",
+      "date_str": "Sun, 08 Mar 2026 15:52:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-079",
+      "date_str": "Sun, 08 Mar 2026 22:35:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-080",
+      "date_str": "Sun, 08 Mar 2026 15:52:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-081",
+      "date_str": "Sun, 08 Mar 2026 22:35:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-082",
+      "date_str": "Sun, 08 Mar 2026 15:54:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-083",
+      "date_str": "Sun, 08 Mar 2026 15:55:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-084",
+      "date_str": "Sun, 08 Mar 2026 19:40:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-085",
+      "date_str": "Sun, 08 Mar 2026 19:53:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-086",
+      "date_str": "Sun, 08 Mar 2026 21:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-087",
+      "date_str": "Sun, 08 Mar 2026 21:13:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-088",
+      "date_str": "Sun, 08 Mar 2026 22:02:57 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-089",
+      "date_str": "Sun, 08 Mar 2026 22:31:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-090",
+      "date_str": "Sun, 08 Mar 2026 22:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-091",
+      "date_str": "Sun, 08 Mar 2026 22:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-092",
+      "date_str": "Sun, 08 Mar 2026 22:18:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-093",
+      "date_str": "Sun, 08 Mar 2026 22:24:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-094",
+      "date_str": "Sun, 08 Mar 2026 22:27:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-095",
+      "date_str": "Sun, 08 Mar 2026 22:26:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-096",
+      "date_str": "Sun, 08 Mar 2026 22:25:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-097",
+      "date_str": "Sun, 08 Mar 2026 15:34:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-098",
+      "date_str": "Sun, 08 Mar 2026 20:45:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-099",
+      "date_str": "Sun, 08 Mar 2026 15:41:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-chosun-100",
+      "date_str": "Sun, 08 Mar 2026 15:42:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-joongang-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-017",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-018",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-019",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-020",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-021",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-022",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-023",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-024",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-025",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-026",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-027",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-028",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-029",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-030",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-031",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-032",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-033",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-034",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-035",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-036",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-037",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-038",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-039",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-040",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-041",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-042",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-043",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-044",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-045",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-046",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-047",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-048",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-049",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-050",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-051",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-052",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-053",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-054",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-055",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-056",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-057",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-058",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-059",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-060",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-061",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-062",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-063",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-064",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-065",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-066",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-067",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-068",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-069",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-070",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-071",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-072",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-073",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-074",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-075",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-076",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-077",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-078",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-079",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-080",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-081",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-082",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-083",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-084",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-085",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-086",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-087",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-088",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-089",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-090",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-091",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-092",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-093",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-094",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-095",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-096",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-097",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-098",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-099",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-100",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-101",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-102",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-103",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-104",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-105",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-106",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-107",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-108",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-109",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-110",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-111",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-112",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-113",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-114",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-115",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-116",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-117",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-118",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-119",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-120",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-121",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-122",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-123",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-124",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-125",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-126",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-127",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-128",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-129",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-130",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-131",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-132",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-133",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-134",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-135",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-136",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-137",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-138",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-139",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-140",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-141",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-142",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-143",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-144",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-145",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-146",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-147",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-148",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-149",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-150",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-151",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-152",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-153",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-154",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-155",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-156",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-157",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-158",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-159",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-160",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-161",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-162",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-163",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-164",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-165",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-166",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-167",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-168",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-169",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-170",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-171",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-172",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-173",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-174",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-175",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-176",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-177",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-178",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-179",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-180",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-181",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-182",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-183",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-184",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-185",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-186",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-187",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-188",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-189",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-190",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-191",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-192",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-193",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-194",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-195",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-196",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-197",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-198",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-199",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-200",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-201",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-202",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-203",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-204",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-205",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-206",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-207",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-208",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-209",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-210",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-211",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-212",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-213",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-214",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-215",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-216",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-217",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-218",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-219",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-220",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-221",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-222",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-223",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-224",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-225",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-226",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-227",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-228",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-229",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-230",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-231",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-232",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-233",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-234",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-235",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-236",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-237",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-238",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-239",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-240",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-241",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-242",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-243",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-244",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-245",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-246",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-247",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-248",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-249",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-250",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-251",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-252",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-253",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-254",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-255",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-256",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-257",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-joongang-258",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-donga-001",
+      "date_str": "Mon, 09 Mar 2026 08:59:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-002",
+      "date_str": "Mon, 09 Mar 2026 08:56:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-003",
+      "date_str": "Mon, 09 Mar 2026 08:50:41 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-004",
+      "date_str": "Mon, 09 Mar 2026 08:45:54 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-005",
+      "date_str": "Mon, 09 Mar 2026 08:40:27 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-006",
+      "date_str": "Mon, 09 Mar 2026 08:38:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-007",
+      "date_str": "Mon, 09 Mar 2026 08:22:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-008",
+      "date_str": "Mon, 09 Mar 2026 08:13:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-009",
+      "date_str": "Mon, 09 Mar 2026 08:06:25 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-010",
+      "date_str": "Mon, 09 Mar 2026 08:05:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-011",
+      "date_str": "Mon, 09 Mar 2026 08:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-012",
+      "date_str": "Mon, 09 Mar 2026 07:58:42 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-013",
+      "date_str": "Mon, 09 Mar 2026 07:58:31 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-014",
+      "date_str": "Mon, 09 Mar 2026 07:53:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-015",
+      "date_str": "Mon, 09 Mar 2026 07:47:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-016",
+      "date_str": "Mon, 09 Mar 2026 07:37:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-017",
+      "date_str": "Mon, 09 Mar 2026 07:34:45 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-018",
+      "date_str": "Mon, 09 Mar 2026 07:28:43 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-019",
+      "date_str": "Mon, 09 Mar 2026 07:28:19 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-020",
+      "date_str": "Mon, 09 Mar 2026 07:17:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-021",
+      "date_str": "Mon, 09 Mar 2026 07:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-022",
+      "date_str": "Mon, 09 Mar 2026 06:53:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-023",
+      "date_str": "Mon, 09 Mar 2026 06:37:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-024",
+      "date_str": "Mon, 09 Mar 2026 06:25:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-025",
+      "date_str": "Mon, 09 Mar 2026 06:12:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-026",
+      "date_str": "Mon, 09 Mar 2026 06:11:55 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-027",
+      "date_str": "Mon, 09 Mar 2026 06:11:24 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-028",
+      "date_str": "Mon, 09 Mar 2026 06:10:55 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-029",
+      "date_str": "Mon, 09 Mar 2026 06:10:31 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-030",
+      "date_str": "Mon, 09 Mar 2026 06:09:57 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-031",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-032",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-033",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-034",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-035",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-036",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-037",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-038",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-039",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-040",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-041",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-042",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-043",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-044",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-045",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-046",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-047",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-048",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-049",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-donga-050",
+      "date_str": "Mon, 09 Mar 2026 04:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hani-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-017",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-018",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-019",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-020",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-021",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-022",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-023",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-024",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-025",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-026",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-027",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-028",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-hani-029",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-mk-001",
+      "date_str": "Mon, 09 Mar 2026 09:00:16 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-002",
+      "date_str": "Mon, 09 Mar 2026 09:00:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-003",
+      "date_str": "Mon, 09 Mar 2026 08:55:55 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-004",
+      "date_str": "Mon, 09 Mar 2026 08:55:22 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-005",
+      "date_str": "Mon, 09 Mar 2026 08:53:09 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-006",
+      "date_str": "Mon, 09 Mar 2026 08:48:40 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-007",
+      "date_str": "Mon, 09 Mar 2026 08:48:09 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-008",
+      "date_str": "Mon, 09 Mar 2026 08:46:18 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-009",
+      "date_str": "Mon, 09 Mar 2026 08:28:52 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-010",
+      "date_str": "Mon, 09 Mar 2026 08:28:40 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-011",
+      "date_str": "Mon, 09 Mar 2026 08:20:28 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-012",
+      "date_str": "Mon, 09 Mar 2026 08:19:57 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-013",
+      "date_str": "Mon, 09 Mar 2026 08:14:01 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-014",
+      "date_str": "Mon, 09 Mar 2026 08:10:49 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-015",
+      "date_str": "Mon, 09 Mar 2026 08:01:21 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-016",
+      "date_str": "Mon, 09 Mar 2026 08:00:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-017",
+      "date_str": "Mon, 09 Mar 2026 07:44:22 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-018",
+      "date_str": "Mon, 09 Mar 2026 07:41:20 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-019",
+      "date_str": "Mon, 09 Mar 2026 07:37:36 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-020",
+      "date_str": "Mon, 09 Mar 2026 07:34:22 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-021",
+      "date_str": "Mon, 09 Mar 2026 07:31:24 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-022",
+      "date_str": "Mon, 09 Mar 2026 07:07:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-023",
+      "date_str": "Mon, 09 Mar 2026 07:04:54 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-024",
+      "date_str": "Mon, 09 Mar 2026 07:00:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-025",
+      "date_str": "Mon, 09 Mar 2026 07:00:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-026",
+      "date_str": "Mon, 09 Mar 2026 07:00:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-027",
+      "date_str": "Mon, 09 Mar 2026 06:47:37 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-028",
+      "date_str": "Mon, 09 Mar 2026 06:40:24 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-029",
+      "date_str": "Mon, 09 Mar 2026 06:40:01 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-030",
+      "date_str": "Mon, 09 Mar 2026 06:39:41 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-031",
+      "date_str": "Mon, 09 Mar 2026 06:39:19 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-032",
+      "date_str": "Mon, 09 Mar 2026 06:25:47 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-033",
+      "date_str": "Mon, 09 Mar 2026 06:21:55 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-034",
+      "date_str": "Mon, 09 Mar 2026 06:21:33 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-035",
+      "date_str": "Mon, 09 Mar 2026 06:20:28 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-036",
+      "date_str": "Mon, 09 Mar 2026 06:16:47 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-037",
+      "date_str": "Mon, 09 Mar 2026 06:16:36 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-038",
+      "date_str": "Mon, 09 Mar 2026 06:09:55 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-039",
+      "date_str": "Mon, 09 Mar 2026 06:09:44 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-040",
+      "date_str": "Mon, 09 Mar 2026 06:09:01 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-041",
+      "date_str": "Mon, 09 Mar 2026 06:08:29 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-042",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-043",
+      "date_str": "Mon, 09 Mar 2026 05:58:57 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-044",
+      "date_str": "Sun, 08 Mar 2026 22:54:05 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-045",
+      "date_str": "Sun, 08 Mar 2026 22:53:51 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-046",
+      "date_str": "Sun, 08 Mar 2026 22:50:13 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-047",
+      "date_str": "Sun, 08 Mar 2026 22:38:09 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-048",
+      "date_str": "Sun, 08 Mar 2026 22:33:45 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-049",
+      "date_str": "Sun, 08 Mar 2026 22:15:31 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mk-050",
+      "date_str": "Sun, 08 Mar 2026 22:02:59 +09:00",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-001",
+      "date_str": "Mon, 09 Mar 2026 08:53:53 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-002",
+      "date_str": "Mon, 09 Mar 2026 08:52:36 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-003",
+      "date_str": "Mon, 09 Mar 2026 08:50:20 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-004",
+      "date_str": "Mon, 09 Mar 2026 08:45:49 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-005",
+      "date_str": "Mon, 09 Mar 2026 08:44:17 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-006",
+      "date_str": "Mon, 09 Mar 2026 08:44:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-007",
+      "date_str": "Mon, 09 Mar 2026 08:42:36 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-008",
+      "date_str": "Mon, 09 Mar 2026 08:42:25 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-009",
+      "date_str": "Mon, 09 Mar 2026 08:41:57 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-010",
+      "date_str": "Mon, 09 Mar 2026 08:41:24 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-011",
+      "date_str": "Mon, 09 Mar 2026 08:40:27 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-012",
+      "date_str": "Mon, 09 Mar 2026 08:40:05 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-013",
+      "date_str": "Mon, 09 Mar 2026 08:39:44 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-014",
+      "date_str": "Mon, 09 Mar 2026 08:34:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-015",
+      "date_str": "Mon, 09 Mar 2026 08:31:47 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-016",
+      "date_str": "Mon, 09 Mar 2026 08:27:54 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-017",
+      "date_str": "Mon, 09 Mar 2026 08:26:12 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-018",
+      "date_str": "Mon, 09 Mar 2026 08:20:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-019",
+      "date_str": "Mon, 09 Mar 2026 08:19:27 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-020",
+      "date_str": "Mon, 09 Mar 2026 08:18:39 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-021",
+      "date_str": "Mon, 09 Mar 2026 08:15:30 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-022",
+      "date_str": "Mon, 09 Mar 2026 08:13:41 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-023",
+      "date_str": "Mon, 09 Mar 2026 08:11:50 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-024",
+      "date_str": "Mon, 09 Mar 2026 08:07:44 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-025",
+      "date_str": "Mon, 09 Mar 2026 08:00:42 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-026",
+      "date_str": "Mon, 09 Mar 2026 08:00:09 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-027",
+      "date_str": "Mon, 09 Mar 2026 07:58:53 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-028",
+      "date_str": "Mon, 09 Mar 2026 07:57:40 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-029",
+      "date_str": "Mon, 09 Mar 2026 07:49:35 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-030",
+      "date_str": "Mon, 09 Mar 2026 07:45:22 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-031",
+      "date_str": "Mon, 09 Mar 2026 07:42:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-032",
+      "date_str": "Mon, 09 Mar 2026 07:39:32 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-033",
+      "date_str": "Mon, 09 Mar 2026 07:30:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-034",
+      "date_str": "Mon, 09 Mar 2026 07:21:11 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-035",
+      "date_str": "Mon, 09 Mar 2026 07:18:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-036",
+      "date_str": "Mon, 09 Mar 2026 07:05:48 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-037",
+      "date_str": "Mon, 09 Mar 2026 07:00:37 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-038",
+      "date_str": "Mon, 09 Mar 2026 07:00:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-039",
+      "date_str": "Mon, 09 Mar 2026 07:00:01 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-040",
+      "date_str": "Mon, 09 Mar 2026 06:53:47 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-041",
+      "date_str": "Mon, 09 Mar 2026 06:43:59 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-042",
+      "date_str": "Mon, 09 Mar 2026 06:36:08 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-043",
+      "date_str": "Mon, 09 Mar 2026 06:30:06 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-044",
+      "date_str": "Mon, 09 Mar 2026 06:18:34 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-045",
+      "date_str": "Mon, 09 Mar 2026 05:06:08 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-046",
+      "date_str": "Mon, 09 Mar 2026 04:43:41 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-047",
+      "date_str": "Sun, 08 Mar 2026 21:54:51 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-048",
+      "date_str": "Sun, 08 Mar 2026 21:26:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-hankyung-049",
+      "date_str": "Sun, 08 Mar 2026 21:07:39 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-017",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-018",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-019",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-020",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-021",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-022",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-023",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-024",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-025",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-026",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-027",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-028",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-029",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-030",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-031",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-032",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-033",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-034",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-035",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-036",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-037",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-038",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-039",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-040",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-041",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-042",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-043",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-044",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-045",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-046",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-047",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-048",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-049",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-050",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-051",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-052",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-053",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-054",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-055",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-056",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-057",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-058",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-059",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-060",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-061",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-062",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-063",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-064",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-065",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-066",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-067",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-068",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-069",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-070",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-071",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-072",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-073",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-074",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-075",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-076",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-077",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-078",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-079",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-080",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-081",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-082",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-083",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-084",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-085",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-086",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-087",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-088",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-089",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-090",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-091",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sedaily-092",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-mt-001",
+      "date_str": "Mon, 09 Mar 2026 09:01:59 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-002",
+      "date_str": "Mon, 09 Mar 2026 09:01:52 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-003",
+      "date_str": "Mon, 09 Mar 2026 09:01:42 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-004",
+      "date_str": "Mon, 09 Mar 2026 09:01:18 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-005",
+      "date_str": "Mon, 09 Mar 2026 09:01:04 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-006",
+      "date_str": "Mon, 09 Mar 2026 08:58:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-007",
+      "date_str": "Mon, 09 Mar 2026 08:57:21 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-008",
+      "date_str": "Mon, 09 Mar 2026 08:57:21 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-009",
+      "date_str": "Mon, 09 Mar 2026 08:56:59 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-010",
+      "date_str": "Mon, 09 Mar 2026 08:56:48 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-011",
+      "date_str": "Mon, 09 Mar 2026 08:55:32 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-012",
+      "date_str": "Mon, 09 Mar 2026 08:55:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-013",
+      "date_str": "Mon, 09 Mar 2026 08:54:51 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-014",
+      "date_str": "Mon, 09 Mar 2026 08:54:26 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-015",
+      "date_str": "Mon, 09 Mar 2026 08:53:10 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-016",
+      "date_str": "Mon, 09 Mar 2026 08:53:09 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-017",
+      "date_str": "Mon, 09 Mar 2026 08:52:55 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-018",
+      "date_str": "Mon, 09 Mar 2026 08:52:40 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-019",
+      "date_str": "Mon, 09 Mar 2026 08:52:19 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-020",
+      "date_str": "Mon, 09 Mar 2026 08:50:57 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-021",
+      "date_str": "Mon, 09 Mar 2026 08:49:08 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-022",
+      "date_str": "Mon, 09 Mar 2026 08:47:01 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-023",
+      "date_str": "Mon, 09 Mar 2026 08:45:55 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-024",
+      "date_str": "Mon, 09 Mar 2026 08:44:43 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-025",
+      "date_str": "Mon, 09 Mar 2026 08:43:33 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-026",
+      "date_str": "Mon, 09 Mar 2026 08:43:18 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-027",
+      "date_str": "Mon, 09 Mar 2026 08:39:56 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-028",
+      "date_str": "Mon, 09 Mar 2026 08:38:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-029",
+      "date_str": "Mon, 09 Mar 2026 08:38:10 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-030",
+      "date_str": "Mon, 09 Mar 2026 08:37:28 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-031",
+      "date_str": "Mon, 09 Mar 2026 08:37:26 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-032",
+      "date_str": "Mon, 09 Mar 2026 08:35:20 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-033",
+      "date_str": "Mon, 09 Mar 2026 08:33:55 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-034",
+      "date_str": "Mon, 09 Mar 2026 08:33:51 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-035",
+      "date_str": "Mon, 09 Mar 2026 08:31:38 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-036",
+      "date_str": "Mon, 09 Mar 2026 08:31:18 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-037",
+      "date_str": "Mon, 09 Mar 2026 08:31:04 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-038",
+      "date_str": "Mon, 09 Mar 2026 08:28:08 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-039",
+      "date_str": "Mon, 09 Mar 2026 08:25:54 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-040",
+      "date_str": "Mon, 09 Mar 2026 08:22:19 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-041",
+      "date_str": "Mon, 09 Mar 2026 08:12:10 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-042",
+      "date_str": "Mon, 09 Mar 2026 08:08:56 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-043",
+      "date_str": "Mon, 09 Mar 2026 08:07:30 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-044",
+      "date_str": "Mon, 09 Mar 2026 08:01:08 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-045",
+      "date_str": "Mon, 09 Mar 2026 08:01:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-046",
+      "date_str": "Mon, 09 Mar 2026 07:47:19 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-047",
+      "date_str": "Mon, 09 Mar 2026 07:37:46 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-048",
+      "date_str": "Mon, 09 Mar 2026 07:35:24 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-049",
+      "date_str": "Mon, 09 Mar 2026 07:34:42 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-050",
+      "date_str": "Mon, 09 Mar 2026 07:32:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-051",
+      "date_str": "Mon, 09 Mar 2026 07:25:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-052",
+      "date_str": "Mon, 09 Mar 2026 07:24:31 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-053",
+      "date_str": "Mon, 09 Mar 2026 07:18:47 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-054",
+      "date_str": "Mon, 09 Mar 2026 07:13:32 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-055",
+      "date_str": "Mon, 09 Mar 2026 07:12:32 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-056",
+      "date_str": "Mon, 09 Mar 2026 07:07:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-057",
+      "date_str": "Mon, 09 Mar 2026 07:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-058",
+      "date_str": "Mon, 09 Mar 2026 07:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-059",
+      "date_str": "Mon, 09 Mar 2026 06:39:56 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-060",
+      "date_str": "Mon, 09 Mar 2026 06:39:38 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-061",
+      "date_str": "Mon, 09 Mar 2026 06:35:26 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-062",
+      "date_str": "Mon, 09 Mar 2026 06:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-063",
+      "date_str": "Mon, 09 Mar 2026 06:22:21 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-064",
+      "date_str": "Mon, 09 Mar 2026 06:10:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-065",
+      "date_str": "Mon, 09 Mar 2026 06:06:31 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-066",
+      "date_str": "Mon, 09 Mar 2026 06:05:17 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-067",
+      "date_str": "Mon, 09 Mar 2026 06:01:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-068",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-069",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-070",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-071",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-072",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-073",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-074",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-075",
+      "date_str": "Mon, 09 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-076",
+      "date_str": "Mon, 09 Mar 2026 05:50:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-077",
+      "date_str": "Mon, 09 Mar 2026 05:49:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-078",
+      "date_str": "Mon, 09 Mar 2026 05:47:47 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-079",
+      "date_str": "Mon, 09 Mar 2026 05:41:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-080",
+      "date_str": "Mon, 09 Mar 2026 05:41:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-081",
+      "date_str": "Mon, 09 Mar 2026 05:40:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-082",
+      "date_str": "Mon, 09 Mar 2026 05:35:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-083",
+      "date_str": "Mon, 09 Mar 2026 05:31:56 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-084",
+      "date_str": "Mon, 09 Mar 2026 05:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-085",
+      "date_str": "Mon, 09 Mar 2026 05:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-086",
+      "date_str": "Mon, 09 Mar 2026 05:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-087",
+      "date_str": "Mon, 09 Mar 2026 05:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-088",
+      "date_str": "Mon, 09 Mar 2026 05:25:08 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-089",
+      "date_str": "Mon, 09 Mar 2026 05:15:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-090",
+      "date_str": "Mon, 09 Mar 2026 05:14:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-091",
+      "date_str": "Mon, 09 Mar 2026 05:13:03 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-092",
+      "date_str": "Mon, 09 Mar 2026 05:01:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-093",
+      "date_str": "Mon, 09 Mar 2026 05:01:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-094",
+      "date_str": "Mon, 09 Mar 2026 05:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-095",
+      "date_str": "Mon, 09 Mar 2026 05:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-096",
+      "date_str": "Mon, 09 Mar 2026 04:22:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-097",
+      "date_str": "Mon, 09 Mar 2026 04:16:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-098",
+      "date_str": "Mon, 09 Mar 2026 04:15:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-099",
+      "date_str": "Mon, 09 Mar 2026 04:14:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-mt-100",
+      "date_str": "Mon, 09 Mar 2026 04:11:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-etnews-001",
+      "date_str": "Mon, 9 Mar 2026 08:47:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-002",
+      "date_str": "Mon, 9 Mar 2026 08:43:32 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-003",
+      "date_str": "Mon, 9 Mar 2026 08:28:03 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-004",
+      "date_str": "Mon, 9 Mar 2026 08:05:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-005",
+      "date_str": "Mon, 9 Mar 2026 08:03:37 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-006",
+      "date_str": "Mon, 9 Mar 2026 08:01:07 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-007",
+      "date_str": "Mon, 9 Mar 2026 08:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-008",
+      "date_str": "Mon, 9 Mar 2026 07:03:43 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-009",
+      "date_str": "Mon, 9 Mar 2026 06:57:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-010",
+      "date_str": "Mon, 9 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-011",
+      "date_str": "Mon, 9 Mar 2026 06:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-012",
+      "date_str": "Sun, 8 Mar 2026 22:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-013",
+      "date_str": "Sun, 8 Mar 2026 20:17:19 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-014",
+      "date_str": "Sun, 8 Mar 2026 20:07:33 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-015",
+      "date_str": "Sun, 8 Mar 2026 19:48:37 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-016",
+      "date_str": "Sun, 8 Mar 2026 19:14:40 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-017",
+      "date_str": "Sun, 8 Mar 2026 18:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-018",
+      "date_str": "Sun, 8 Mar 2026 17:11:31 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-019",
+      "date_str": "Sun, 8 Mar 2026 16:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-020",
+      "date_str": "Sun, 8 Mar 2026 16:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-021",
+      "date_str": "Sun, 8 Mar 2026 16:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-022",
+      "date_str": "Sun, 8 Mar 2026 16:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-023",
+      "date_str": "Sun, 8 Mar 2026 15:54:45 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-024",
+      "date_str": "Sun, 8 Mar 2026 15:30:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-025",
+      "date_str": "Sun, 8 Mar 2026 14:19:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-026",
+      "date_str": "Sun, 8 Mar 2026 14:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-027",
+      "date_str": "Sun, 8 Mar 2026 13:45:13 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-028",
+      "date_str": "Sun, 8 Mar 2026 13:26:11 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-029",
+      "date_str": "Sun, 8 Mar 2026 13:06:37 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-etnews-030",
+      "date_str": "Sun, 8 Mar 2026 13:00:00 +0900",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bloter-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-017",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-018",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-bloter-019",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sciencetimes-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-sciencetimes-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-001",
+      "date_str": "Sun, 08 Mar 2026 21:52:30 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-002",
+      "date_str": "Sun, 08 Mar 2026 22:36:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-003",
+      "date_str": "Sun, 08 Mar 2026 23:24:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-004",
+      "date_str": "Sun, 08 Mar 2026 17:14:41 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-005",
+      "date_str": "Sun, 08 Mar 2026 18:33:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-006",
+      "date_str": "Sun, 08 Mar 2026 18:37:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-007",
+      "date_str": "Sun, 08 Mar 2026 09:01:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-008",
+      "date_str": "Sun, 08 Mar 2026 09:00:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-009",
+      "date_str": "Sun, 08 Mar 2026 20:52:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-010",
+      "date_str": "Mon, 09 Mar 2026 00:02:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-011",
+      "date_str": "Sun, 08 Mar 2026 09:00:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-012",
+      "date_str": "Sun, 08 Mar 2026 09:00:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-013",
+      "date_str": "Sun, 08 Mar 2026 14:35:39 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-014",
+      "date_str": "Sun, 08 Mar 2026 19:09:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-015",
+      "date_str": "Sun, 08 Mar 2026 22:16:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-nytimes-016",
+      "date_str": "Sun, 08 Mar 2026 20:05:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-001",
+      "date_str": "Sun, 08 Mar 2026 22:39:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-002",
+      "date_str": "Sun, 08 Mar 2026 22:24:29 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-003",
+      "date_str": "Sun, 08 Mar 2026 11:00:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-004",
+      "date_str": "Sun, 08 Mar 2026 09:00:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-005",
+      "date_str": "Sun, 08 Mar 2026 09:00:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-006",
+      "date_str": "Sun, 08 Mar 2026 01:32:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-007",
+      "date_str": "Sat, 07 Mar 2026 22:31:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-008",
+      "date_str": "Sat, 07 Mar 2026 19:27:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-009",
+      "date_str": "Sat, 07 Mar 2026 16:55:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-010",
+      "date_str": "Sat, 07 Mar 2026 16:09:33 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-011",
+      "date_str": "Sat, 07 Mar 2026 10:00:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-001",
+      "date_str": "Mon, 27 Jan 2025 14:23:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-002",
+      "date_str": "Mon, 27 Jan 2025 12:32:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-003",
+      "date_str": "Mon, 27 Jan 2025 12:12:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-004",
+      "date_str": "Mon, 27 Jan 2025 11:22:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-005",
+      "date_str": "Mon, 27 Jan 2025 10:07:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-006",
+      "date_str": "Mon, 27 Jan 2025 07:00:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-007",
+      "date_str": "Mon, 27 Jan 2025 05:34:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-008",
+      "date_str": "Mon, 27 Jan 2025 01:05:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-009",
+      "date_str": "Mon, 27 Jan 2025 01:05:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-010",
+      "date_str": "Sun, 26 Jan 2025 22:59:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-011",
+      "date_str": "Sun, 26 Jan 2025 22:53:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-012",
+      "date_str": "Sun, 26 Jan 2025 21:00:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-013",
+      "date_str": "Sun, 26 Jan 2025 18:30:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-014",
+      "date_str": "Sat, 25 Jan 2025 13:45:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-015",
+      "date_str": "Sat, 25 Jan 2025 12:00:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-016",
+      "date_str": "Sat, 25 Jan 2025 09:32:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-017",
+      "date_str": "Sat, 25 Jan 2025 06:57:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-018",
+      "date_str": "Sat, 25 Jan 2025 05:05:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-019",
+      "date_str": "Fri, 24 Jan 2025 19:58:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-wsj-020",
+      "date_str": "Fri, 24 Jan 2025 17:56:00 -0500",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-reuters-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-017",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-018",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-019",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-020",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-021",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-022",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-023",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-024",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-025",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-026",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-027",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-reuters-028",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-politico-001",
+      "date_str": "Sun, 08 Mar 2026 10:45:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-002",
+      "date_str": "Sat, 07 Mar 2026 11:30:11 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-003",
+      "date_str": "Sat, 07 Mar 2026 10:00:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-004",
+      "date_str": "Fri, 06 Mar 2026 15:47:39 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-005",
+      "date_str": "Fri, 06 Mar 2026 05:55:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-006",
+      "date_str": "Fri, 06 Mar 2026 05:55:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-007",
+      "date_str": "Fri, 06 Mar 2026 05:00:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-008",
+      "date_str": "Thu, 05 Mar 2026 23:59:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-009",
+      "date_str": "Thu, 05 Mar 2026 19:25:19 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-010",
+      "date_str": "Thu, 05 Mar 2026 16:16:48 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-011",
+      "date_str": "Thu, 05 Mar 2026 05:45:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-012",
+      "date_str": "Wed, 04 Mar 2026 18:38:06 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-013",
+      "date_str": "Wed, 04 Mar 2026 15:09:51 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-014",
+      "date_str": "Wed, 04 Mar 2026 03:53:18 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-015",
+      "date_str": "Wed, 04 Mar 2026 03:05:35 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-016",
+      "date_str": "Wed, 04 Mar 2026 02:38:55 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-017",
+      "date_str": "Wed, 04 Mar 2026 01:24:36 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-018",
+      "date_str": "Wed, 04 Mar 2026 01:01:38 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-019",
+      "date_str": "Tue, 03 Mar 2026 22:51:34 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-020",
+      "date_str": "Tue, 03 Mar 2026 22:40:06 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-021",
+      "date_str": "Tue, 03 Mar 2026 08:00:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-022",
+      "date_str": "Tue, 03 Mar 2026 05:45:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-023",
+      "date_str": "Mon, 02 Mar 2026 21:25:08 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-024",
+      "date_str": "Mon, 02 Mar 2026 17:07:13 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-025",
+      "date_str": "Mon, 02 Mar 2026 15:51:12 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-026",
+      "date_str": "Mon, 02 Mar 2026 14:24:54 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-027",
+      "date_str": "Mon, 02 Mar 2026 05:55:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-028",
+      "date_str": "Mon, 02 Mar 2026 05:40:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-029",
+      "date_str": "Sun, 01 Mar 2026 10:56:10 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-politico-030",
+      "date_str": "Sun, 01 Mar 2026 07:00:00 EST",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-001",
+      "date_str": "Mon, 09 Mar 2026 00:05:42 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-002",
+      "date_str": "Sun, 08 Mar 2026 20:51:37 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-003",
+      "date_str": "Sun, 08 Mar 2026 22:52:39 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-004",
+      "date_str": "Sun, 08 Mar 2026 23:16:30 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-005",
+      "date_str": "Sun, 08 Mar 2026 09:00:05 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-006",
+      "date_str": "Sun, 08 Mar 2026 05:00:05 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-007",
+      "date_str": "Sun, 08 Mar 2026 05:00:14 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-008",
+      "date_str": "Sun, 08 Mar 2026 07:20:29 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-009",
+      "date_str": "Sun, 08 Mar 2026 21:26:53 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-010",
+      "date_str": "Sun, 08 Mar 2026 11:39:53 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-ft-011",
+      "date_str": "Sun, 08 Mar 2026 11:00:05 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-001",
+      "date_str": "Sun, 08 Mar 2026 21:51:48 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-002",
+      "date_str": "Sun, 08 Mar 2026 23:55:25 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-003",
+      "date_str": "Sun, 08 Mar 2026 16:32:57 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-004",
+      "date_str": "Sun, 08 Mar 2026 15:38:52 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-005",
+      "date_str": "Sun, 08 Mar 2026 16:53:30 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-006",
+      "date_str": "Sun, 08 Mar 2026 16:56:34 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-007",
+      "date_str": "Sun, 08 Mar 2026 15:03:16 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-008",
+      "date_str": "Sun, 08 Mar 2026 08:20:49 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-009",
+      "date_str": "Sun, 08 Mar 2026 18:32:37 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-010",
+      "date_str": "Sun, 08 Mar 2026 20:01:10 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-011",
+      "date_str": "Sun, 08 Mar 2026 22:12:57 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-012",
+      "date_str": "Sun, 08 Mar 2026 14:39:19 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-013",
+      "date_str": "Sun, 08 Mar 2026 11:32:56 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-014",
+      "date_str": "Sun, 08 Mar 2026 19:24:17 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-015",
+      "date_str": "Sun, 08 Mar 2026 19:12:02 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-016",
+      "date_str": "Sat, 07 Mar 2026 23:42:31 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-017",
+      "date_str": "Sun, 08 Mar 2026 01:48:20 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-018",
+      "date_str": "Sun, 08 Mar 2026 07:16:02 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-019",
+      "date_str": "Sun, 08 Mar 2026 01:38:45 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-020",
+      "date_str": "Sun, 08 Mar 2026 11:38:50 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-021",
+      "date_str": "Sun, 08 Mar 2026 15:05:53 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-022",
+      "date_str": "Sun, 08 Mar 2026 20:47:29 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-023",
+      "date_str": "Sun, 08 Mar 2026 01:08:16 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-024",
+      "date_str": "Sun, 08 Mar 2026 12:21:57 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-025",
+      "date_str": "Sat, 07 Mar 2026 22:00:49 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-026",
+      "date_str": "Wed, 30 Apr 2025 14:04:28 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-027",
+      "date_str": "Sun, 08 Mar 2026 13:17:00 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-028",
+      "date_str": "Sat, 07 Mar 2026 14:28:00 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-029",
+      "date_str": "Sun, 08 Mar 2026 18:13:23 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-030",
+      "date_str": "Sun, 08 Mar 2026 20:53:58 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-031",
+      "date_str": "Sun, 08 Mar 2026 17:58:57 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-032",
+      "date_str": "Sun, 08 Mar 2026 22:51:21 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-033",
+      "date_str": "Sun, 08 Mar 2026 18:48:52 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-bbc-034",
+      "date_str": "Sun, 08 Mar 2026 23:06:35 GMT",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-001",
+      "date_str": "Sun, 08 Mar 2026 21:24:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-002",
+      "date_str": "Sun, 08 Mar 2026 23:21:56 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-003",
+      "date_str": "Sat, 07 Mar 2026 19:44:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-004",
+      "date_str": "Sun, 08 Mar 2026 21:57:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-005",
+      "date_str": "Sun, 08 Mar 2026 10:39:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-006",
+      "date_str": "Sun, 08 Mar 2026 21:39:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-007",
+      "date_str": "Sun, 08 Mar 2026 12:37:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-008",
+      "date_str": "Sun, 08 Mar 2026 02:03:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-009",
+      "date_str": "Sun, 08 Mar 2026 15:22:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-010",
+      "date_str": "Sun, 08 Mar 2026 14:04:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-011",
+      "date_str": "Sun, 08 Mar 2026 13:03:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-012",
+      "date_str": "Sun, 08 Mar 2026 11:47:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-013",
+      "date_str": "Sat, 07 Mar 2026 23:13:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-014",
+      "date_str": "Fri, 06 Mar 2026 21:31:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-015",
+      "date_str": "Sat, 07 Mar 2026 20:18:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-016",
+      "date_str": "Sat, 07 Mar 2026 17:38:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-017",
+      "date_str": "Sat, 07 Mar 2026 13:37:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-018",
+      "date_str": "Sat, 07 Mar 2026 13:36:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-019",
+      "date_str": "Sat, 07 Mar 2026 13:37:29 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-020",
+      "date_str": "Sat, 07 Mar 2026 18:34:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-021",
+      "date_str": "Sat, 07 Mar 2026 12:22:03 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-022",
+      "date_str": "Sat, 07 Mar 2026 14:50:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-023",
+      "date_str": "Sat, 07 Mar 2026 15:52:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-024",
+      "date_str": "Sat, 07 Mar 2026 15:48:54 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-025",
+      "date_str": "Sat, 07 Mar 2026 12:50:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-026",
+      "date_str": "Sat, 07 Mar 2026 11:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-027",
+      "date_str": "Fri, 06 Mar 2026 11:23:03 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-028",
+      "date_str": "Fri, 06 Mar 2026 22:47:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-029",
+      "date_str": "Fri, 06 Mar 2026 10:25:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-030",
+      "date_str": "Fri, 06 Mar 2026 21:52:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-031",
+      "date_str": "Fri, 06 Mar 2026 20:10:57 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-032",
+      "date_str": "Thu, 05 Mar 2026 22:25:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-033",
+      "date_str": "Thu, 05 Mar 2026 23:34:33 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-034",
+      "date_str": "Fri, 06 Mar 2026 19:53:41 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-035",
+      "date_str": "Wed, 04 Mar 2026 06:21:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-036",
+      "date_str": "Thu, 05 Mar 2026 11:29:14 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-037",
+      "date_str": "Sun, 01 Mar 2026 19:56:23 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-038",
+      "date_str": "Mon, 02 Mar 2026 11:15:59 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-039",
+      "date_str": "Tue, 03 Mar 2026 06:01:32 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-040",
+      "date_str": "Fri, 06 Mar 2026 16:59:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-041",
+      "date_str": "Fri, 06 Mar 2026 16:05:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-042",
+      "date_str": "Fri, 06 Mar 2026 12:06:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-043",
+      "date_str": "Fri, 06 Mar 2026 04:36:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-044",
+      "date_str": "Fri, 06 Mar 2026 14:55:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-045",
+      "date_str": "Sat, 28 Feb 2026 02:05:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-046",
+      "date_str": "Sun, 01 Mar 2026 02:24:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-047",
+      "date_str": "Tue, 03 Mar 2026 18:40:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-048",
+      "date_str": "Fri, 06 Mar 2026 02:38:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-049",
+      "date_str": "Thu, 05 Mar 2026 15:13:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-050",
+      "date_str": "Fri, 06 Mar 2026 12:37:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-051",
+      "date_str": "Fri, 06 Mar 2026 12:36:36 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-052",
+      "date_str": "Fri, 06 Mar 2026 05:02:47 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-053",
+      "date_str": "Fri, 06 Mar 2026 10:53:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-054",
+      "date_str": "Fri, 06 Mar 2026 10:51:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-055",
+      "date_str": "Fri, 06 Mar 2026 10:48:39 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-056",
+      "date_str": "Fri, 06 Mar 2026 10:48:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-057",
+      "date_str": "Wed, 04 Mar 2026 21:41:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-058",
+      "date_str": "Fri, 06 Mar 2026 02:37:30 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-059",
+      "date_str": "Fri, 06 Mar 2026 02:16:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-060",
+      "date_str": "Thu, 05 Mar 2026 10:50:56 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-061",
+      "date_str": "Thu, 05 Mar 2026 19:05:36 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-062",
+      "date_str": "Fri, 06 Mar 2026 01:41:39 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-063",
+      "date_str": "Thu, 05 Mar 2026 22:29:58 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-064",
+      "date_str": "Fri, 06 Mar 2026 01:18:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-065",
+      "date_str": "Thu, 05 Mar 2026 10:56:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-066",
+      "date_str": "Thu, 05 Mar 2026 16:03:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-067",
+      "date_str": "Thu, 05 Mar 2026 23:08:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-068",
+      "date_str": "Thu, 05 Mar 2026 23:29:27 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-069",
+      "date_str": "Thu, 05 Mar 2026 04:35:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-070",
+      "date_str": "Thu, 05 Mar 2026 22:58:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-071",
+      "date_str": "Thu, 05 Mar 2026 20:30:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-072",
+      "date_str": "Thu, 05 Mar 2026 19:33:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-073",
+      "date_str": "Thu, 05 Mar 2026 03:00:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-074",
+      "date_str": "Thu, 05 Mar 2026 19:19:58 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-075",
+      "date_str": "Thu, 05 Mar 2026 18:39:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-076",
+      "date_str": "Thu, 05 Mar 2026 18:42:46 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-077",
+      "date_str": "Thu, 05 Mar 2026 13:59:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-078",
+      "date_str": "Thu, 05 Mar 2026 15:44:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-079",
+      "date_str": "Thu, 05 Mar 2026 14:00:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-080",
+      "date_str": "Thu, 05 Mar 2026 13:53:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-081",
+      "date_str": "Thu, 05 Mar 2026 13:34:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-082",
+      "date_str": "Thu, 05 Mar 2026 13:29:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-083",
+      "date_str": "Thu, 05 Mar 2026 10:38:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-084",
+      "date_str": "Thu, 05 Mar 2026 10:35:33 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-085",
+      "date_str": "Thu, 05 Mar 2026 10:30:23 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-086",
+      "date_str": "Wed, 04 Mar 2026 19:10:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-087",
+      "date_str": "Thu, 05 Mar 2026 01:38:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-088",
+      "date_str": "Wed, 04 Mar 2026 17:11:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-089",
+      "date_str": "Wed, 04 Mar 2026 05:22:29 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-090",
+      "date_str": "Wed, 04 Mar 2026 14:23:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-091",
+      "date_str": "Thu, 05 Mar 2026 01:01:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-092",
+      "date_str": "Thu, 05 Mar 2026 00:49:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-093",
+      "date_str": "Wed, 04 Mar 2026 21:13:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-094",
+      "date_str": "Wed, 04 Mar 2026 23:06:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-095",
+      "date_str": "Wed, 04 Mar 2026 22:34:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-096",
+      "date_str": "Wed, 04 Mar 2026 06:40:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-097",
+      "date_str": "Wed, 04 Mar 2026 08:57:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-098",
+      "date_str": "Wed, 04 Mar 2026 21:34:53 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-099",
+      "date_str": "Wed, 04 Mar 2026 12:55:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-100",
+      "date_str": "Wed, 04 Mar 2026 22:02:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-001",
+      "date_str": "Sun, 08 Mar 2026 22:46:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-002",
+      "date_str": "Sun, 08 Mar 2026 22:10:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-003",
+      "date_str": "Sun, 08 Mar 2026 21:45:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-004",
+      "date_str": "Sun, 08 Mar 2026 21:25:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-005",
+      "date_str": "Sun, 08 Mar 2026 21:21:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-006",
+      "date_str": "Sun, 08 Mar 2026 21:18:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-007",
+      "date_str": "Sun, 08 Mar 2026 20:58:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-008",
+      "date_str": "Sun, 08 Mar 2026 20:37:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-009",
+      "date_str": "Sun, 08 Mar 2026 20:17:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-010",
+      "date_str": "Sun, 08 Mar 2026 19:59:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-011",
+      "date_str": "Sun, 08 Mar 2026 19:56:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-012",
+      "date_str": "Sun, 08 Mar 2026 19:30:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-013",
+      "date_str": "Sun, 08 Mar 2026 19:25:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-014",
+      "date_str": "Sun, 08 Mar 2026 19:17:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-015",
+      "date_str": "Sun, 08 Mar 2026 18:56:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-016",
+      "date_str": "Sun, 08 Mar 2026 18:02:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-017",
+      "date_str": "Sun, 08 Mar 2026 17:56:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-018",
+      "date_str": "Sun, 08 Mar 2026 17:42:30 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-019",
+      "date_str": "Sun, 08 Mar 2026 17:06:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-020",
+      "date_str": "Sun, 08 Mar 2026 16:36:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-021",
+      "date_str": "Sun, 08 Mar 2026 16:35:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-022",
+      "date_str": "Sun, 08 Mar 2026 16:31:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-023",
+      "date_str": "Sun, 08 Mar 2026 15:30:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-024",
+      "date_str": "Sun, 08 Mar 2026 14:34:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-025",
+      "date_str": "Sun, 08 Mar 2026 14:22:47 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-001",
+      "date_str": "Mon, 09 Mar 2026 00:00:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-002",
+      "date_str": "Mon, 09 Mar 2026 00:00:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-003",
+      "date_str": "Mon, 09 Mar 2026 00:00:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-004",
+      "date_str": "Sun, 08 Mar 2026 22:43:25 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-005",
+      "date_str": "Sun, 08 Mar 2026 22:19:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-006",
+      "date_str": "Sun, 08 Mar 2026 22:00:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-007",
+      "date_str": "Sun, 08 Mar 2026 20:45:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-008",
+      "date_str": "Sun, 08 Mar 2026 20:30:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-009",
+      "date_str": "Sun, 08 Mar 2026 20:05:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-010",
+      "date_str": "Sun, 08 Mar 2026 18:39:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-011",
+      "date_str": "Sun, 08 Mar 2026 17:23:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-012",
+      "date_str": "Sun, 08 Mar 2026 16:54:36 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-013",
+      "date_str": "Sun, 08 Mar 2026 15:28:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-014",
+      "date_str": "Sun, 08 Mar 2026 15:00:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-015",
+      "date_str": "Sun, 08 Mar 2026 14:40:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-016",
+      "date_str": "Sun, 08 Mar 2026 14:11:30 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-017",
+      "date_str": "Sun, 08 Mar 2026 13:36:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-018",
+      "date_str": "Sun, 08 Mar 2026 13:22:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-019",
+      "date_str": "Sun, 08 Mar 2026 12:59:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-020",
+      "date_str": "Sun, 08 Mar 2026 12:58:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-021",
+      "date_str": "Sun, 08 Mar 2026 12:58:42 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-022",
+      "date_str": "Sun, 08 Mar 2026 12:30:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-023",
+      "date_str": "Sun, 08 Mar 2026 12:07:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-024",
+      "date_str": "Sun, 08 Mar 2026 11:00:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-025",
+      "date_str": "Sun, 08 Mar 2026 11:00:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-026",
+      "date_str": "Sun, 08 Mar 2026 10:31:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-027",
+      "date_str": "Sun, 08 Mar 2026 10:06:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-028",
+      "date_str": "Sun, 08 Mar 2026 10:00:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-029",
+      "date_str": "Sun, 08 Mar 2026 10:00:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-030",
+      "date_str": "Sun, 08 Mar 2026 09:41:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-031",
+      "date_str": "Sun, 08 Mar 2026 09:08:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-032",
+      "date_str": "Sun, 08 Mar 2026 09:00:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-033",
+      "date_str": "Sun, 08 Mar 2026 08:35:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-034",
+      "date_str": "Sun, 08 Mar 2026 08:30:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-035",
+      "date_str": "Sun, 08 Mar 2026 08:00:14 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-036",
+      "date_str": "Sun, 08 Mar 2026 08:00:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-037",
+      "date_str": "Sun, 08 Mar 2026 07:47:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-038",
+      "date_str": "Sun, 08 Mar 2026 07:30:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-039",
+      "date_str": "Sun, 08 Mar 2026 06:30:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-040",
+      "date_str": "Sun, 08 Mar 2026 06:30:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-041",
+      "date_str": "Sun, 08 Mar 2026 06:15:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-042",
+      "date_str": "Sun, 08 Mar 2026 06:14:25 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-043",
+      "date_str": "Sun, 08 Mar 2026 06:00:13 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-044",
+      "date_str": "Sun, 08 Mar 2026 06:00:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-045",
+      "date_str": "Sun, 08 Mar 2026 05:15:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-046",
+      "date_str": "Sun, 08 Mar 2026 04:38:36 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-047",
+      "date_str": "Sun, 08 Mar 2026 04:15:56 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-048",
+      "date_str": "Sun, 08 Mar 2026 04:11:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-049",
+      "date_str": "Sun, 08 Mar 2026 04:00:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-scmp-050",
+      "date_str": "Sun, 08 Mar 2026 04:00:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-004",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-005",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-006",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-007",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-008",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-009",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-010",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-011",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-012",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-013",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-014",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-015",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-016",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-001",
+      "date_str": "Sun, 08 Mar 2026 13:13:03 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-002",
+      "date_str": "Sun, 08 Mar 2026 11:30:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-003",
+      "date_str": "Sat, 07 Mar 2026 21:06:46 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-004",
+      "date_str": "Sat, 07 Mar 2026 12:30:56 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-005",
+      "date_str": "Sat, 07 Mar 2026 11:30:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-006",
+      "date_str": "Fri, 06 Mar 2026 23:40:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-007",
+      "date_str": "Fri, 06 Mar 2026 22:49:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-008",
+      "date_str": "Fri, 06 Mar 2026 22:03:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-009",
+      "date_str": "Fri, 06 Mar 2026 19:56:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-010",
+      "date_str": "Fri, 06 Mar 2026 19:41:33 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-011",
+      "date_str": "Fri, 06 Mar 2026 19:00:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-012",
+      "date_str": "Fri, 06 Mar 2026 18:33:34 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-013",
+      "date_str": "Fri, 06 Mar 2026 18:21:42 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-014",
+      "date_str": "Fri, 06 Mar 2026 17:15:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-015",
+      "date_str": "Fri, 06 Mar 2026 16:37:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-016",
+      "date_str": "Fri, 06 Mar 2026 16:22:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-017",
+      "date_str": "Fri, 06 Mar 2026 15:41:23 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-018",
+      "date_str": "Fri, 06 Mar 2026 15:20:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-019",
+      "date_str": "Fri, 06 Mar 2026 14:23:59 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-020",
+      "date_str": "Fri, 06 Mar 2026 12:20:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-caixin-001",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-caixin-002",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-caixin-003",
+      "reason": "no_date_field"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-001",
+      "date_str": "Sun, 08 Mar 2026 22:23:48 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-002",
+      "date_str": "Sun, 08 Mar 2026 19:12:42 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-003",
+      "date_str": "Sun, 08 Mar 2026 17:00:27 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-004",
+      "date_str": "Sun, 08 Mar 2026 16:47:32 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-005",
+      "date_str": "Sun, 08 Mar 2026 16:44:56 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-006",
+      "date_str": "Sun, 08 Mar 2026 19:00:09 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-007",
+      "date_str": "Sun, 08 Mar 2026 05:00:12 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-008",
+      "date_str": "Sun, 08 Mar 2026 15:41:07 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-009",
+      "date_str": "Sun, 08 Mar 2026 15:12:49 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-010",
+      "date_str": "Sun, 08 Mar 2026 14:29:08 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-011",
+      "date_str": "Sun, 08 Mar 2026 15:00:09 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-012",
+      "date_str": "Sat, 07 Mar 2026 06:02:59 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-013",
+      "date_str": "Sun, 08 Mar 2026 17:19:15 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-014",
+      "date_str": "Sun, 08 Mar 2026 17:00:11 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-015",
+      "date_str": "Sun, 08 Mar 2026 14:00:10 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-016",
+      "date_str": "Sun, 08 Mar 2026 06:00:19 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-lemonde-017",
+      "date_str": "Sun, 08 Mar 2026 17:54:58 +0100",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-001",
+      "date_str": "Sun, 08 Mar 2026 21:19:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-002",
+      "date_str": "Sun, 08 Mar 2026 17:18:42 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-003",
+      "date_str": "Sun, 08 Mar 2026 16:33:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-004",
+      "date_str": "Sun, 08 Mar 2026 16:29:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-005",
+      "date_str": "Sun, 08 Mar 2026 15:45:34 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-006",
+      "date_str": "Sun, 08 Mar 2026 15:21:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-007",
+      "date_str": "Sun, 08 Mar 2026 14:31:23 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-008",
+      "date_str": "Sun, 08 Mar 2026 14:01:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-009",
+      "date_str": "Sun, 08 Mar 2026 13:52:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-010",
+      "date_str": "Sun, 08 Mar 2026 12:16:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-011",
+      "date_str": "Sun, 08 Mar 2026 09:41:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-012",
+      "date_str": "Sun, 08 Mar 2026 09:24:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-013",
+      "date_str": "Sun, 08 Mar 2026 04:25:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-014",
+      "date_str": "Sun, 08 Mar 2026 02:46:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-015",
+      "date_str": "Sat, 07 Mar 2026 23:25:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-016",
+      "date_str": "Sat, 07 Mar 2026 22:21:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-017",
+      "date_str": "Sat, 07 Mar 2026 21:10:34 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-018",
+      "date_str": "Sat, 07 Mar 2026 20:29:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-019",
+      "date_str": "Sat, 07 Mar 2026 18:54:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-020",
+      "date_str": "Sat, 07 Mar 2026 18:37:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-021",
+      "date_str": "Sat, 07 Mar 2026 18:02:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-022",
+      "date_str": "Sat, 07 Mar 2026 17:40:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-023",
+      "date_str": "Sat, 07 Mar 2026 17:35:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-024",
+      "date_str": "Sat, 07 Mar 2026 14:29:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-025",
+      "date_str": "Sat, 07 Mar 2026 12:48:36 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-026",
+      "date_str": "Sat, 07 Mar 2026 11:50:39 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-027",
+      "date_str": "Sat, 07 Mar 2026 10:36:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-028",
+      "date_str": "Sat, 07 Mar 2026 10:34:57 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-029",
+      "date_str": "Sat, 07 Mar 2026 09:26:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-030",
+      "date_str": "Sat, 07 Mar 2026 08:21:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-031",
+      "date_str": "Sat, 07 Mar 2026 08:08:42 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-032",
+      "date_str": "Sat, 07 Mar 2026 05:01:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-033",
+      "date_str": "Sat, 07 Mar 2026 01:04:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-034",
+      "date_str": "Fri, 06 Mar 2026 21:39:54 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-035",
+      "date_str": "Fri, 06 Mar 2026 21:05:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-036",
+      "date_str": "Fri, 06 Mar 2026 18:49:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-037",
+      "date_str": "Fri, 06 Mar 2026 18:44:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-038",
+      "date_str": "Fri, 06 Mar 2026 18:27:56 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-039",
+      "date_str": "Fri, 06 Mar 2026 17:33:56 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-040",
+      "date_str": "Fri, 06 Mar 2026 16:54:03 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-041",
+      "date_str": "Fri, 06 Mar 2026 16:32:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-042",
+      "date_str": "Fri, 06 Mar 2026 14:35:34 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-043",
+      "date_str": "Fri, 06 Mar 2026 14:17:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-044",
+      "date_str": "Fri, 06 Mar 2026 14:16:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-045",
+      "date_str": "Fri, 06 Mar 2026 14:09:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-046",
+      "date_str": "Fri, 06 Mar 2026 14:07:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-047",
+      "date_str": "Fri, 06 Mar 2026 13:53:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-048",
+      "date_str": "Fri, 06 Mar 2026 13:45:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-049",
+      "date_str": "Fri, 06 Mar 2026 12:55:52 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-050",
+      "date_str": "Fri, 06 Mar 2026 12:24:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-051",
+      "date_str": "Fri, 06 Mar 2026 12:14:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-052",
+      "date_str": "Fri, 06 Mar 2026 11:58:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-053",
+      "date_str": "Fri, 06 Mar 2026 11:11:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-054",
+      "date_str": "Fri, 06 Mar 2026 10:47:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-055",
+      "date_str": "Fri, 06 Mar 2026 09:50:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-056",
+      "date_str": "Fri, 06 Mar 2026 09:37:27 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-057",
+      "date_str": "Fri, 06 Mar 2026 09:30:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-058",
+      "date_str": "Fri, 06 Mar 2026 08:01:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-059",
+      "date_str": "Fri, 06 Mar 2026 03:57:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-060",
+      "date_str": "Fri, 06 Mar 2026 03:19:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-061",
+      "date_str": "Fri, 06 Mar 2026 00:12:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-062",
+      "date_str": "Thu, 05 Mar 2026 21:07:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-063",
+      "date_str": "Thu, 05 Mar 2026 20:54:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-064",
+      "date_str": "Thu, 05 Mar 2026 20:46:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-065",
+      "date_str": "Thu, 05 Mar 2026 20:36:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-066",
+      "date_str": "Thu, 05 Mar 2026 20:15:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-067",
+      "date_str": "Thu, 05 Mar 2026 19:54:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-068",
+      "date_str": "Thu, 05 Mar 2026 18:24:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-069",
+      "date_str": "Thu, 05 Mar 2026 18:01:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-070",
+      "date_str": "Thu, 05 Mar 2026 17:41:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-071",
+      "date_str": "Thu, 05 Mar 2026 16:25:07 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-072",
+      "date_str": "Thu, 05 Mar 2026 15:44:23 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-073",
+      "date_str": "Thu, 05 Mar 2026 15:25:58 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-074",
+      "date_str": "Thu, 05 Mar 2026 15:18:26 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-075",
+      "date_str": "Thu, 05 Mar 2026 15:15:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-076",
+      "date_str": "Thu, 05 Mar 2026 14:23:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-077",
+      "date_str": "Thu, 05 Mar 2026 14:15:46 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-078",
+      "date_str": "Thu, 05 Mar 2026 13:48:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-079",
+      "date_str": "Thu, 05 Mar 2026 13:36:32 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-080",
+      "date_str": "Thu, 05 Mar 2026 13:23:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-081",
+      "date_str": "Thu, 05 Mar 2026 13:17:58 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-082",
+      "date_str": "Thu, 05 Mar 2026 13:05:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-083",
+      "date_str": "Thu, 05 Mar 2026 11:55:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-084",
+      "date_str": "Thu, 05 Mar 2026 11:13:38 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-085",
+      "date_str": "Thu, 05 Mar 2026 10:18:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-086",
+      "date_str": "Thu, 05 Mar 2026 09:39:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-087",
+      "date_str": "Thu, 05 Mar 2026 09:27:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-088",
+      "date_str": "Thu, 05 Mar 2026 08:20:30 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-089",
+      "date_str": "Thu, 05 Mar 2026 08:06:01 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-090",
+      "date_str": "Thu, 05 Mar 2026 07:35:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-091",
+      "date_str": "Thu, 05 Mar 2026 07:32:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-092",
+      "date_str": "Thu, 05 Mar 2026 06:45:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-093",
+      "date_str": "Thu, 05 Mar 2026 06:19:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-094",
+      "date_str": "Thu, 05 Mar 2026 04:34:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-095",
+      "date_str": "Thu, 05 Mar 2026 01:38:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-096",
+      "date_str": "Wed, 04 Mar 2026 22:27:54 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-097",
+      "date_str": "Wed, 04 Mar 2026 21:13:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-098",
+      "date_str": "Wed, 04 Mar 2026 20:29:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-099",
+      "date_str": "Wed, 04 Mar 2026 20:21:57 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-rt-100",
+      "date_str": "Wed, 04 Mar 2026 20:10:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-001",
+      "date_str": "Mon, 09 Mar 2026 00:12:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-002",
+      "date_str": "Mon, 09 Mar 2026 00:05:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-003",
+      "date_str": "Sun, 08 Mar 2026 23:43:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-004",
+      "date_str": "Sun, 08 Mar 2026 22:59:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-005",
+      "date_str": "Sun, 08 Mar 2026 22:52:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-006",
+      "date_str": "Sun, 08 Mar 2026 22:30:53 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-007",
+      "date_str": "Sun, 08 Mar 2026 22:30:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-008",
+      "date_str": "Sun, 08 Mar 2026 21:53:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-009",
+      "date_str": "Sun, 08 Mar 2026 21:02:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-010",
+      "date_str": "Sun, 08 Mar 2026 20:39:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-011",
+      "date_str": "Sun, 08 Mar 2026 20:19:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-012",
+      "date_str": "Sun, 08 Mar 2026 20:15:27 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-013",
+      "date_str": "Sun, 08 Mar 2026 20:10:32 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-014",
+      "date_str": "Sun, 08 Mar 2026 20:04:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-015",
+      "date_str": "Sun, 08 Mar 2026 19:14:05 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-016",
+      "date_str": "Sun, 08 Mar 2026 18:27:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-017",
+      "date_str": "Sun, 08 Mar 2026 18:24:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-018",
+      "date_str": "Sun, 08 Mar 2026 17:14:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-019",
+      "date_str": "Sun, 08 Mar 2026 17:10:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-020",
+      "date_str": "Sun, 08 Mar 2026 16:53:24 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-021",
+      "date_str": "Sun, 08 Mar 2026 16:28:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-022",
+      "date_str": "Sun, 08 Mar 2026 15:42:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-023",
+      "date_str": "Sun, 08 Mar 2026 14:46:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-024",
+      "date_str": "Sun, 08 Mar 2026 14:46:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-025",
+      "date_str": "Sun, 08 Mar 2026 14:45:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-026",
+      "date_str": "Sun, 08 Mar 2026 14:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-027",
+      "date_str": "Sun, 08 Mar 2026 06:59:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-028",
+      "date_str": "Sun, 08 Mar 2026 06:14:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-029",
+      "date_str": "Sun, 08 Mar 2026 04:58:41 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-030",
+      "date_str": "Sun, 08 Mar 2026 04:55:25 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-031",
+      "date_str": "Sun, 08 Mar 2026 04:32:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-032",
+      "date_str": "Sun, 08 Mar 2026 03:53:15 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-033",
+      "date_str": "Sun, 08 Mar 2026 03:52:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-034",
+      "date_str": "Sun, 08 Mar 2026 03:42:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-035",
+      "date_str": "Sun, 08 Mar 2026 02:39:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-036",
+      "date_str": "Sun, 08 Mar 2026 02:38:34 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-037",
+      "date_str": "Sun, 08 Mar 2026 02:36:17 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-038",
+      "date_str": "Sun, 08 Mar 2026 02:33:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-039",
+      "date_str": "Sun, 08 Mar 2026 02:04:16 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-040",
+      "date_str": "Sun, 08 Mar 2026 01:04:42 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-041",
+      "date_str": "Sun, 08 Mar 2026 00:33:47 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-042",
+      "date_str": "Sun, 08 Mar 2026 00:01:51 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-043",
+      "date_str": "Sat, 07 Mar 2026 23:47:58 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-044",
+      "date_str": "Sat, 07 Mar 2026 23:21:04 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-045",
+      "date_str": "Sat, 07 Mar 2026 23:20:25 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-046",
+      "date_str": "Sat, 07 Mar 2026 23:19:42 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-047",
+      "date_str": "Sat, 07 Mar 2026 23:06:20 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-048",
+      "date_str": "Sat, 07 Mar 2026 23:01:44 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-049",
+      "date_str": "Sat, 07 Mar 2026 22:52:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-050",
+      "date_str": "Sat, 07 Mar 2026 22:47:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-051",
+      "date_str": "Sat, 07 Mar 2026 21:38:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-052",
+      "date_str": "Sat, 07 Mar 2026 21:15:53 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-053",
+      "date_str": "Sat, 07 Mar 2026 21:04:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-054",
+      "date_str": "Sat, 07 Mar 2026 20:17:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-055",
+      "date_str": "Sat, 07 Mar 2026 19:18:40 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-056",
+      "date_str": "Sat, 07 Mar 2026 19:14:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-057",
+      "date_str": "Sat, 07 Mar 2026 19:11:18 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-058",
+      "date_str": "Sat, 07 Mar 2026 18:51:02 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-059",
+      "date_str": "Sat, 07 Mar 2026 18:50:58 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-060",
+      "date_str": "Sat, 07 Mar 2026 18:34:53 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-061",
+      "date_str": "Sat, 07 Mar 2026 18:27:11 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-062",
+      "date_str": "Sat, 07 Mar 2026 18:24:06 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-063",
+      "date_str": "Sat, 07 Mar 2026 17:31:09 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-064",
+      "date_str": "Sat, 07 Mar 2026 17:29:48 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-065",
+      "date_str": "Sat, 07 Mar 2026 17:04:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-066",
+      "date_str": "Sat, 07 Mar 2026 16:59:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-067",
+      "date_str": "Sat, 07 Mar 2026 16:39:19 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-068",
+      "date_str": "Sat, 07 Mar 2026 16:18:32 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-069",
+      "date_str": "Sat, 07 Mar 2026 15:53:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-070",
+      "date_str": "Sat, 07 Mar 2026 15:21:31 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-071",
+      "date_str": "Sat, 07 Mar 2026 15:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-072",
+      "date_str": "Sat, 07 Mar 2026 14:30:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-073",
+      "date_str": "Sat, 07 Mar 2026 14:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-074",
+      "date_str": "Sat, 07 Mar 2026 07:08:12 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-075",
+      "date_str": "Sat, 07 Mar 2026 06:44:55 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-076",
+      "date_str": "Sat, 07 Mar 2026 04:40:45 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-077",
+      "date_str": "Sat, 07 Mar 2026 04:38:22 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-078",
+      "date_str": "Sat, 07 Mar 2026 04:00:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-079",
+      "date_str": "Sat, 07 Mar 2026 03:53:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-080",
+      "date_str": "Sat, 07 Mar 2026 03:36:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-081",
+      "date_str": "Sat, 07 Mar 2026 03:30:00 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-082",
+      "date_str": "Sat, 07 Mar 2026 03:22:30 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-083",
+      "date_str": "Sat, 07 Mar 2026 02:55:49 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-084",
+      "date_str": "Sat, 07 Mar 2026 02:49:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-085",
+      "date_str": "Sat, 07 Mar 2026 02:42:35 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-086",
+      "date_str": "Sat, 07 Mar 2026 02:13:28 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-087",
+      "date_str": "Sat, 07 Mar 2026 02:06:43 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-088",
+      "date_str": "Sat, 07 Mar 2026 01:22:10 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-089",
+      "date_str": "Sat, 07 Mar 2026 01:22:08 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-090",
+      "date_str": "Sat, 07 Mar 2026 00:57:50 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-091",
+      "date_str": "Sat, 07 Mar 2026 00:48:21 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-092",
+      "date_str": "Sat, 07 Mar 2026 00:46:37 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-093",
+      "date_str": "Sat, 07 Mar 2026 00:28:27 +0000",
+      "reason": "parse_failure"
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-094",
+      "date_str": "Sat, 07 Mar 2026 00:23:34 +0000",
+      "reason": "parse_failure"
+    }
+  ]
+}

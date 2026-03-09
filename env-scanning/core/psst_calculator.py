@@ -284,7 +284,9 @@ class PSSTCalculator:
             ref = datetime.now()
 
         if published_date:
-            pub = datetime.strptime(published_date, '%Y-%m-%d')
+            # Strip time component if present (ISO8601 → date-only)
+            pub_date_str = str(published_date).split('T')[0][:10]
+            pub = datetime.strptime(pub_date_str, '%Y-%m-%d')
             days_old = (ref - pub).days
         else:
             days_old = 999  # Unknown date → assume old

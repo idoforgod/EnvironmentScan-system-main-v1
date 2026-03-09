@@ -1,0 +1,714 @@
+{
+  "date": "2026-03-09",
+  "ranking_method": "percentile_balanced",
+  "total_candidates": 40,
+  "selected_count": 20,
+  "wf_distribution": {
+    "wf1": 5,
+    "wf2": 5,
+    "wf3": 5,
+    "wf4": 5
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "ieee-spectrum-1603d0b55a62",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      },
+      "_wf_tag": "[WF1]",
+      "_wf_key": "wf1",
+      "_wf_rank": 1,
+      "_wf_total": 24,
+      "_percentile": 1.0,
+      "_unified_score": 9.5
+    },
+    {
+      "rank": 1,
+      "id": "wf2-2603.05507v1",
+      "title": "Transformer-Based Inpainting for Real-Time 3D Streaming in Sparse Multi-Camera Setups",
+      "steeps": "T",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.32,
+      "psst_score": 23.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.8,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72,
+        "ES": 3,
+        "CC": 4,
+        "IC": 3
+      },
+      "steeps_full": "Technological",
+      "impact_score_orig": 3.8,
+      "secondary_steeps": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "_wf_tag": "[WF2]",
+      "_wf_key": "wf2",
+      "_wf_rank": 1,
+      "_wf_total": 686,
+      "_percentile": 1.0,
+      "_unified_score": 9.3
+    },
+    {
+      "signal_id": "naver-20260309-100-007",
+      "title": "패럴림픽서 김윤지 금메달 따자...이대통령 “환한 미소로 즐거운 도전 이어가길”",
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646978",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "매일경제"
+      },
+      "content": {
+        "abstract": "8일(현지시간) 이탈리아 테세로 크로스컨트리 스타디움에서 열린  2026 밀라노·코르티나 동계패럴림픽  파라바이애슬론 여자 스프린트 좌식 12.5㎞ 결승에서 한국 김윤지가 힘차게 질주하고 있다. [연합뉴스]이재명 대통령은 8일 장애인 스포츠의 ‘간판스타’ 김윤지(19·BDH파라스)가 한국 여자 선수로는 역대 최초로 동계 패럴림픽 금메달을 획득하자 “진심으로 축하한다”고 격려했다.이 대통령은 이날 페이스북에 글을 올려 “이번 우승은 올림픽과 패럴림픽을 통틀어 바이애슬론에서 나온 대한민국의 사상 첫 금메달이며, 한국 여성 선수가 동계 ",
+        "full_text": "8일(현지시간) 이탈리아 테세로 크로스컨트리 스타디움에서 열린  2026 밀라노·코르티나 동계패럴림픽  파라바이애슬론 여자 스프린트 좌식 12.5㎞ 결승에서 한국 김윤지가 힘차게 질주하고 있다. [연합뉴스]이재명 대통령은 8일 장애인 스포츠의 ‘간판스타’ 김윤지(19·BDH파라스)가 한국 여자 선수로는 역대 최초로 동계 패럴림픽 금메달을 획득하자 “진심으로 축하한다”고 격려했다.이 대통령은 이날 페이스북에 글을 올려 “이번 우승은 올림픽과 패럴림픽을 통틀어 바이애슬론에서 나온 대한민국의 사상 첫 금메달이며, 한국 여성 선수가 동계 패럴림픽 개인 종목에서 거둔 최초의 금메달”이라며 이같이 말했다.이어 “대한민국 스포츠 역사에 새로운 이정표를 세운 것”이라고 강조했다.이 대통령은 “김윤지 선수는 여름에는 수영을 하고 겨울에는 스키를 타며 계절과 한계를 뛰어넘는 도전을 해왔다. 그 노력과 열정이 마침내 설원 위에서 금빛 결실로 이어진 것”이라고 평가했다.8일(현지시간) 이탈리아 테세로 크로스컨트리 스타디움에서 열린 2026 밀라노·코르티나 동계 패럴림픽 파라 바이애슬론 여자 스프린트 좌식 12.5㎞ 결선에서 금메달을 차지한 김윤지가 기뻐하고 있다. [연합뉴스]그러면서 “김윤지 선수의 레이스는 아직 끝나지 않았다”며 “남은 네 개의 종목에서도 멋진 경기를 펼칠 김윤지 선수를 우리 국민과 함께 응원하겠다”고 밝혔다.또 “이번 금메달이 김윤지 선수의 삶에 오래도록 큰 자긍심으로 남길 바란다”며 “앞으로도 ‘스마일리’라는 별명처럼 환한 미소로 당당하고 즐거운 도전을 이어가길 기원한다”고 응원했다.김윤지는 8일(한국시간) 이탈리아 테세로 크로스컨트리 스타디움에서 열린 2026 밀라노·코르티나담페초 동계 패럴림픽 바이애슬론 여자 스프린트 좌식 12.5㎞에서 38분00초1의 기록으로 시상대 맨 위에 올랐다.이로써 김윤지는 동계 패럴림픽 역사상 한국 여자 선수로는 최초로 개인 종목에서 금메달을 수확하는 이정표를 세웠다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "classification": {
+        "steeps_category": "P",
+        "steeps_subcategory": null,
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H1",
+        "section": "정치"
+      },
+      "rank": 1,
+      "_wf_tag": "[WF3]",
+      "_wf_key": "wf3",
+      "_wf_rank": 1,
+      "_wf_total": 251,
+      "_percentile": 1.0,
+      "_unified_score": 9.1
+    },
+    {
+      "signal_id": "news-20260309-donga-015",
+      "title": "국제유가 100달러선 돌파…정유업계 “3월말 버티기 힘들어”",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "donga",
+        "type": "news",
+        "url": "https://www.donga.com/news/Inter/article/all/20260309/133488414/1",
+        "published_date": "Mon, 09 Mar 2026 07:47:00 +0900"
+      },
+      "content": {
+        "abstract": "국제 유가가 배럴당 100달러선을 넘었다고 블룸버그통신이 8일(현지 시간) 보도했다.블룸버그통신에 따르면 국제 유가의 기준점 역할을 하는 브렌트유와 서부텍사스산원유(WTI)가 모두 배럴당 100달러를 넘겼다.WTI는 2022년 7월 이후 처음으로 배럴당 100달러를 넘겼고, 브렌트유는 전장보다 10% 급등해 102.20달러를 기록했다.국제 유가가 치솟는 것은 이란의 호르무즈 해협 봉쇄에 이어 이라크와 쿠웨이트가 원유 감산에 돌입한 영향이 크다. 7일 쿠웨이트 국영석유공사(KPC)는 “이란의 공격과 선박 통항 위협에 따른 예방적 조치로 원유 및 정제 처리량을 감축한다”며 계약상 의무 이행을 면제받는 ‘불가항력(Force Majeure)’을 선언했다. 앞서 이라크 북부 사르상 유전도 드론 공격을 받아 하루 3만 배럴 규모의 생산이 중단됐다. 카타르 정부는 “유조선들의 해협 통과가 막히면 유가가 배럴당 150달러까지 뛸 수 있다”고 경고했다. 이같은 국제 유가 움직임에 한국 경제에 ‘4월",
+        "original_abstract": null,
+        "keywords": [],
+        "language": "ko",
+        "original_language": "ko"
+      },
+      "classification": {
+        "steeps_category": "E",
+        "steeps_subcategory": null,
+        "fssf_type": "Wild Card",
+        "three_horizons": "H1",
+        "language": "ko"
+      },
+      "rank": 1,
+      "_wf_tag": "[WF4]",
+      "_wf_key": "wf4",
+      "_wf_rank": 1,
+      "_wf_total": 1372,
+      "_percentile": 1.0,
+      "_unified_score": 8.8
+    },
+    {
+      "signal_id": "news-20260309-donga-041",
+      "title": "AI로 타깃 분석, 값싼 자폭드론 공격… 전쟁 패러다임 대전환",
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "donga",
+        "type": "news",
+        "url": "https://www.donga.com/news/Inter/article/all/20260309/133487401/2",
+        "published_date": "Mon, 09 Mar 2026 04:30:00 +0900"
+      },
+      "content": {
+        "abstract": "“인공지능(AI) 활용으로 전례 없이 빠르고 정밀한 전쟁이 벌어지고 있다.” 지난달 28일(현지 시간)부터 시작된 미국과 이스라엘의 이란 공격으로 촉발된 전쟁을 두고 7일 월스트리트저널(WSJ)은 AI를 포함한 최첨단 기술이 전쟁의 패러다임을 바꾸는 ‘게임 체인저’ 역할을 하고 있다고 진단했다. 미국과 이스라엘은 미국 빅테크인 팔란티어와 앤스로픽이 개발한 AI 기술을 활용해 공습 당일 알리 하메네이 이란 최고지도자를 제거했다. 이란은 가성비 좋은 저가 드론을 미국, 이스라엘, 이웃 걸프국 공격에 적극 활용하고 있다. 고성능 미사일 탐지에 최적화돼 드론을 효과적으로 감지하지 못하는 미국의 전통적인 미사일 방어 체계의 한계를 파고든 것이다. 다급해진 미국은 러시아와의 전쟁을 통해 드론전 노하우가 쌓인 우크라이나에 도움을 청한 것으로 알려졌다. 사이버전 또한 치열하다. 사이버 보안 기술 강국인 이스라엘은 이란의 ‘국민 애플리케이션(앱)’인 이슬람 예배 앱, 국영 통신사 홈페이지 등을",
+        "original_abstract": null,
+        "keywords": [],
+        "language": "ko",
+        "original_language": "ko"
+      },
+      "classification": {
+        "steeps_category": "T",
+        "steeps_subcategory": null,
+        "fssf_type": "Emerging Issue",
+        "three_horizons": "H1",
+        "language": "ko"
+      },
+      "rank": 2,
+      "_wf_tag": "[WF4]",
+      "_wf_key": "wf4",
+      "_wf_rank": 2,
+      "_wf_total": 1372,
+      "_percentile": 0.9993,
+      "_unified_score": 8.6
+    },
+    {
+      "rank": 2,
+      "id": "wf2-2603.05504v1",
+      "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "steeps": "T",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.32,
+      "psst_score": 23.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.8,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72,
+        "ES": 3,
+        "CC": 4,
+        "IC": 3
+      },
+      "steeps_full": "Technological",
+      "impact_score_orig": 3.8,
+      "secondary_steeps": [
+        "P_Political",
+        "E_Environmental",
+        "E_Economic"
+      ],
+      "_wf_tag": "[WF2]",
+      "_wf_key": "wf2",
+      "_wf_rank": 2,
+      "_wf_total": 686,
+      "_percentile": 0.9985,
+      "_unified_score": 8.4
+    },
+    {
+      "signal_id": "news-20260309-khan-026",
+      "title": "1월 반도체 설비투자 ‘역대 최고’였지만 이란 사태로 ‘빨간불’",
+      "steeps_category": "T",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "khan",
+        "type": "news",
+        "url": "https://www.khan.co.kr/article/202603090600131/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+        "published_date": "2026-03-09T06:00:13+09:00"
+      },
+      "content": {
+        "abstract": "5일(현지시간) 이스라엘의 공습 이후 이란 수도 테헤란에서 연기가 치솟고 있다. AFP연합뉴스올해 1월 반도체 제조용 기계 설비투자 지수가 사상 최고치를 경신했다. 인공지능(AI) 수요가 큰 폭으로 늘면서 관련 설비투자가 동반 확대된 결과로 풀이된다. 하지만 중동 위기가 장기화하면 ‘반도체의 독주’에도 제동이 걸릴 수 있다는 우려가 나온다.8일 국가데이터처···",
+        "original_abstract": null,
+        "keywords": [
+          "경제 일반"
+        ],
+        "language": "ko",
+        "original_language": "ko"
+      },
+      "classification": {
+        "steeps_category": "T",
+        "steeps_subcategory": null,
+        "fssf_type": "Trend",
+        "three_horizons": "H1",
+        "language": "ko"
+      },
+      "rank": 3,
+      "_wf_tag": "[WF4]",
+      "_wf_key": "wf4",
+      "_wf_rank": 3,
+      "_wf_total": 1372,
+      "_percentile": 0.9985,
+      "_unified_score": 8.2
+    },
+    {
+      "signal_id": "news-20260309-mk-004",
+      "title": "중동발 ‘오일쇼크’ 덮쳤다…WTI 하루 만에 17% 폭등해 100달러 돌파",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "mk",
+        "type": "news",
+        "url": "https://www.mk.co.kr/news/stock/11982315",
+        "published_date": "Mon, 09 Mar 2026 08:55:22 +09:00"
+      },
+      "content": {
+        "abstract": "호르무즈 해협 사실상 봉쇄 WTI 17% 뛰어 106달러 돌파 미 증시 선물 급락·안전자산 쏠림  트럼프 강경 발언 속 중동전쟁 격화이란을 둘러싼 전쟁이 격화되고 글로벌 원유의 핵..",
+        "original_abstract": null,
+        "keywords": [
+          "헤드라인"
+        ],
+        "language": "ko",
+        "original_language": "ko"
+      },
+      "classification": {
+        "steeps_category": "E",
+        "steeps_subcategory": null,
+        "fssf_type": "Wild Card",
+        "three_horizons": "H1",
+        "language": "ko"
+      },
+      "rank": 4,
+      "_wf_tag": "[WF4]",
+      "_wf_key": "wf4",
+      "_wf_rank": 4,
+      "_wf_total": 1372,
+      "_percentile": 0.9978,
+      "_unified_score": 7.9
+    },
+    {
+      "rank": 3,
+      "id": "wf2-2603.05483v1",
+      "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+      "steeps": "T",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.32,
+      "psst_score": 23.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.8,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72,
+        "ES": 3,
+        "CC": 4,
+        "IC": 3
+      },
+      "steeps_full": "Technological",
+      "impact_score_orig": 3.8,
+      "secondary_steeps": [
+        "P_Political",
+        "E_Environmental"
+      ],
+      "_wf_tag": "[WF2]",
+      "_wf_key": "wf2",
+      "_wf_rank": 3,
+      "_wf_total": 686,
+      "_percentile": 0.9971,
+      "_unified_score": 7.7
+    },
+    {
+      "signal_id": "news-20260309-mt-042",
+      "title": "국제유가 배럴당 100달러 돌파...4년만에 다시 &#039;오일쇼크&#039;",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "mt",
+        "type": "news",
+        "url": "https://www.mt.co.kr/world/2026/03/09/2026030907520540591",
+        "published_date": "Mon, 09 Mar 2026 08:08:56 +0900"
+      },
+      "content": {
+        "abstract": "(상보) 중동 정세 불안이 고조되면서 국제유가가 배럴당 100달러를 돌파했다. 인베스팅닷컴에 따르면 한국시간 9일 오전 7시55분 국제유가 기준물인 브렌트유 선물 5월물은 전 거래일 대비 16.5% 오른 배럴당 107.99달러를 가리키고 있다. 미국 서부텍사스산 원유(WTI) 선물은 18% 폭등한 107.38달러에 거래 중이다. 국제유가가 배럴당 100달러를 넘어선 건 러시아가 우크라이나를 침공하며 국제유가가 급등했던 2022년 이후 처음이다. 이란 전쟁으로 세계 원유 물동량의 약 1/5이 오가는 호르무즈 해협의 봉쇄가 이어지면서 시장에선 원유 공급 차질에 대한 우려가 커지고 있다. 이라크, 쿠웨이트, 아랍에미리트(UAE) 등 주요 산유국들은 잇달아 생산량 감축에 나섰다....",
+        "original_abstract": null,
+        "keywords": [],
+        "language": "ko",
+        "original_language": "ko"
+      },
+      "classification": {
+        "steeps_category": "E",
+        "steeps_subcategory": null,
+        "fssf_type": "Wild Card",
+        "three_horizons": "H1",
+        "language": "ko"
+      },
+      "rank": 5,
+      "_wf_tag": "[WF4]",
+      "_wf_key": "wf4",
+      "_wf_rank": 5,
+      "_wf_total": 1372,
+      "_percentile": 0.9971,
+      "_unified_score": 7.5
+    },
+    {
+      "signal_id": "naver-20260309-101-050",
+      "title": "기름값 고공행진에 정부 “불법 행위 엄단 조치”",
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/028/0002794928",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한겨레"
+      },
+      "content": {
+        "abstract": "김정관 산업통상부 장관이 지난 3일 오후 필리핀 더 마닐라호텔에서 화상으로 참석한 가운데 ‘제3차 중동상황 실물경제 점검회의’를 주재하고 있다. 산업통상부 제공미국·이스라엘의 이란 공습 이후 중동 정세가 악화되면서 국내 휘발유·경유 가격이 2천원을 목전에 두는 등 민생 경제에 빨간불이 켜지자, 정부가 정유업계에 과도한 가격 인상을 자제해 줄 것을 촉구했다.김정관 산업통상자원부 장관은 9일 오전 서울 대한상공회의소에서 ‘중동상황 대응본부 회의’를 개최하고 국내 석유가격 안정화 방안을 논의했다. 이날 회의에는 에스케이(SK)에너지, 지",
+        "full_text": "김정관 산업통상부 장관이 지난 3일 오후 필리핀 더 마닐라호텔에서 화상으로 참석한 가운데 ‘제3차 중동상황 실물경제 점검회의’를 주재하고 있다. 산업통상부 제공미국·이스라엘의 이란 공습 이후 중동 정세가 악화되면서 국내 휘발유·경유 가격이 2천원을 목전에 두는 등 민생 경제에 빨간불이 켜지자, 정부가 정유업계에 과도한 가격 인상을 자제해 줄 것을 촉구했다.김정관 산업통상자원부 장관은 9일 오전 서울 대한상공회의소에서 ‘중동상황 대응본부 회의’를 개최하고 국내 석유가격 안정화 방안을 논의했다. 이날 회의에는 에스케이(SK)에너지, 지에스(GS)칼텍스, 에스오일, 현대오일뱅크 등 국내 정유 4사 경영진과 한국석유공사, 대한석유협회 관계자 등이 참석했다.김 장관은 “평상시 국제유가와 2주 정도 시차로 움직이는 국내 석유 가격이 요 며칠 사이 급등했다”며 “국민들은 석유 가격이 ‘오를 땐 빨리, 내릴 땐 천천히’ 움직인다고 생각한다”고 지적했다. 정유 업계에 대한 국민들의 불신이 큰 상황을 언급한 것이다. 김 장관은 이어 “중동 상황으로 인한 국제 유가 상승 부담이 소비자들에게 일방적이고 과도하게 전가되지 않도록 (기업들이) 투명하고 공정한 석유가격을 책정해 달라”며 “정부는 국제유가 상승에 편승해 민생물가 안정에 역행하는 행위에 대해서는 엄정히 대처할 것”이라고 했다.산업부는 지난 5일 오후 자원안보 위기경보 ‘관심’ 단계를 발령하면서 중동 상황 변화에 선제적·체계적으로 대응하기로 했다. 비상 상황에 대비해 대체 수입선을 확보하고, 위기경보 단계별 비축유 세부 방출계획도 수립해 수급 위기에 대응할 계획이다. 유가 상승에 편승해 가격 담합, 가짜 석유판매, 정량 미달 등 불법행위가 횡행하지 않는지 범부처 차원 합동점검과 특별기획점검도 실시한다. 앞서 이재명 대통령은 “위기를 틈타 돈을 벌겠다고 혼란을 주는 것에 대해 엄정하게 대응해야 한다”며 정유사와 주유소의 시장 교란 행위에 대한 고강도 조사를 지시한 바 있다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "classification": {
+        "steeps_category": "E",
+        "steeps_subcategory": null,
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H1",
+        "section": "경제"
+      },
+      "rank": 2,
+      "_wf_tag": "[WF3]",
+      "_wf_key": "wf3",
+      "_wf_rank": 2,
+      "_wf_total": 251,
+      "_percentile": 0.996,
+      "_unified_score": 7.2
+    },
+    {
+      "rank": 4,
+      "id": "wf2-2603.05463v1",
+      "title": "EdgeDAM: Real-time Object Tracking for Mobile Devices",
+      "steeps": "T",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.32,
+      "psst_score": 23.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.8,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72,
+        "ES": 3,
+        "CC": 4,
+        "IC": 3
+      },
+      "steeps_full": "Technological",
+      "impact_score_orig": 3.8,
+      "secondary_steeps": [
+        "P_Political",
+        "E_Environmental"
+      ],
+      "_wf_tag": "[WF2]",
+      "_wf_key": "wf2",
+      "_wf_rank": 4,
+      "_wf_total": 686,
+      "_percentile": 0.9956,
+      "_unified_score": 7.0
+    },
+    {
+      "rank": 5,
+      "id": "wf2-2603.05448v1",
+      "title": "Residual RL--MPC for Robust Microrobotic Cell Pushing Under Time-Varying Flow",
+      "steeps": "T",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.32,
+      "psst_score": 23.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.8,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72,
+        "ES": 3,
+        "CC": 4,
+        "IC": 3
+      },
+      "steeps_full": "Technological",
+      "impact_score_orig": 3.8,
+      "secondary_steeps": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "_wf_tag": "[WF2]",
+      "_wf_key": "wf2",
+      "_wf_rank": 5,
+      "_wf_total": 686,
+      "_percentile": 0.9942,
+      "_unified_score": 6.8
+    },
+    {
+      "signal_id": "naver-20260309-101-051",
+      "title": "‘파업 불참자 해고 1순위’… 삼성전자 노조, 직원들까지 압박",
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/005/0001835907",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "국민일보"
+      },
+      "content": {
+        "abstract": "“회사 옹호하는 자 신고제 운영”사측 ‘공급 급한데…’ HBM 차질 우려지난해 9월 30일 서울 서초구 삼성전자 서초사옥 앞에서 열린 투명한 성과급 제도로의 개선을 촉구하는 기자회견에서 삼성그룹노조연대 등 참석자들이 구호를 외치고 있다. 연합뉴스‘5월 총파업’을 목표로 쟁의행위 찬반 투표에 들어가는 삼성전자 노동조합이 파업 불참자에 대해 불이익 가능성까지 언급하며 압박하고 나서 논란이 일고 있다. 노조가 파업 동참 호소 차원을 넘어 직원들 간 분열을 부추기고 공포 분위기를 조성한다는 비판이 내부에서도 나온다. 지난달 업계 최초로 6",
+        "full_text": "“회사 옹호하는 자 신고제 운영”사측 ‘공급 급한데…’ HBM 차질 우려지난해 9월 30일 서울 서초구 삼성전자 서초사옥 앞에서 열린 투명한 성과급 제도로의 개선을 촉구하는 기자회견에서 삼성그룹노조연대 등 참석자들이 구호를 외치고 있다. 연합뉴스‘5월 총파업’을 목표로 쟁의행위 찬반 투표에 들어가는 삼성전자 노동조합이 파업 불참자에 대해 불이익 가능성까지 언급하며 압박하고 나서 논란이 일고 있다. 노조가 파업 동참 호소 차원을 넘어 직원들 간 분열을 부추기고 공포 분위기를 조성한다는 비판이 내부에서도 나온다. 지난달 업계 최초로 6세대 고대역폭메모리 HBM4 양산·출하를 시작하며 HBM 경쟁에서 승기를 잡은 상황에서 총파업이 현실화될 경우 적기 공급에 차질이 빚어질 수 있다는 우려도 제기된다.8일 삼성전자 노조 공동투쟁본부 등에 따르면 본부는 9일부터 18일까지 전체 조합원을 대상으로 쟁의행위 찬반 투표를 실시한다. 본부 소속 노조는 초기업노조 삼성전자 지부, 전국삼성전자노동조합(전삼노), 삼성전자노조동행 등으로 전체 합산 조합원 수는 약 9만명으로 추산된다. 본부는 투표에서 재적 조합원 과반 찬성으로 쟁의권을 확보하면 다음달 23일 반도체 생산기지인 평택사업장에서 전 조합원 집회를 열고 5월 21일 결의대회를 시작으로 6월 7일까지 18일간 총파업을 진행한다고 밝혔다.최승호 초기업노조 삼성전자 지부 위원장은 지난 5일 노조 유튜브 방송에서 “총파업 동안 모든 집행부는 평택사무실을 점거해 집회를 진행할 계획이며 스태프를 모집해 관리·감독할 것”이라며 “만약 회사를 위해 근무하는 자가 있다면 명단을 관리해 추후 조합과의 협의가 필요한 강제 전배나 해고에 이들을 우선적으로 안내할 것”이라고 엄포를 놨다. 파업 불참 직원들을 일종의 블랙리스트에 올리겠다는 것이다. 그는 또 “사측을 옹호하는 자, 사측을 위하는 자에 대한 신고제보센터를 운영할 계획”이라며 “신고 조합원들에게는 포상금도 지원하겠다”고 말했다. 노조는 앞서 중앙노동위원회 2차 조정회의 결렬 후 조합원들에게 보낸 메일에서 “파업 시 회사는 10조원의 손실을 보지만 직원들의 손해는 4000억원 수준”이라며 회사가 입게 될 막대한 피해를 쟁의의 지렛대로 삼겠다는 의도를 드러내기도 했다.삼성전자 내부는 술렁이는 분위기다. 한 직원은 “노조의 초과이익성과급(OPI) 상한 폐지 요구에는 공감하지만, 그렇다고 파업까지 할 사안인지에 대해선 생각이 다를 수 있다”며 “같은 근로자인 노조가 파업 불참자를 블랙리스트로 관리하겠다는 건 선 넘은 발언”이라고 지적했다. 현행 노동조합 및 노동관계조정법은 쟁의 행위 참가를 호소하거나 설득하는 행위로서 폭행·협박을 사용해서는 안 된다고 규정하고 있다.5월 총파업이 현실화되면 삼성전자는 2024년 7월 이후 두 번째 파업 사태를 맞게 된다. 당시 파업을 주도한 전삼노 조합원은 3만2000여명 수준이었지만 지금은 초기업노조 조합원만 6만6000명이 넘는다. 특히 지난 1월 말 기준 가입자의 65.4%가 반도체 사업을 담당하는 DS 부문 소속이어서 파업 시 메모리 반도체 생산 차질로 이어질 공산이 크다. 삼성전자는 엔비디아가 올해 하반기 출시하는 차세대 AI 가속기 ‘베라 루빈’에 탑재될 HBM4 제품 양산에 들어간 상태다.업계 관계자는 “적기 투자가 생명인 반도체 산업은 생산 라인이 멈추고 고객사와의 신뢰가 깨지면 그것을 복구하는 데 수년의 시간과 수십 조원의 비용이 투입돼야 한다”며 “어렵게 쌓아온 글로벌 경쟁력을 잃는 건 한 순간”이라고 말했다.",
+        "keywords": [],
+        "language": "ko"
+      },
+      "classification": {
+        "steeps_category": "T",
+        "steeps_subcategory": null,
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H1",
+        "section": "경제"
+      },
+      "rank": 3,
+      "_wf_tag": "[WF3]",
+      "_wf_key": "wf3",
+      "_wf_rank": 3,
+      "_wf_total": 251,
+      "_percentile": 0.992,
+      "_unified_score": 6.6
+    },
+    {
+      "signal_id": "naver-20260309-101-060",
+      "title": "유가 급등 지속…전쟁 장기화 우려↑[굿모닝 글로벌 이슈]",
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/215/0001244351",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한국경제TV"
+      },
+      "content": {
+        "abstract": "주말사이 미 증시 일제히 하락 마감했습니다. 원유 공급방 차질 우려에 반도체주의 약세가 두드러지자 나스닥의 낙폭이 가장 깊었습니다. 시장 약세 요인은 크게 3가지였습니다. 전쟁 여파로 쿠웨이트와 사우디가 감산을 발표하자 WTI가 배럴당 90달러마저 돌파하며 유가가 시장의 불안을 자극했고, 부진한 고용지표 그리고 사모대출 우려가 확산되며 시장을 끌어내렸습니다 지표부터 살펴보면, 2월 비농업고용은 전월비 9만 2천 건 감소를 집계되며 예상을 크게 하회했습니다. 감소세로 돌아서며 시장의 안도를 불렀던 실업률도 다시 0.1%p 상승한 4.",
+        "full_text": "주말사이 미 증시 일제히 하락 마감했습니다. 원유 공급방 차질 우려에 반도체주의 약세가 두드러지자 나스닥의 낙폭이 가장 깊었습니다. 시장 약세 요인은 크게 3가지였습니다. 전쟁 여파로 쿠웨이트와 사우디가 감산을 발표하자 WTI가 배럴당 90달러마저 돌파하며 유가가 시장의 불안을 자극했고, 부진한 고용지표 그리고 사모대출 우려가 확산되며 시장을 끌어내렸습니다 지표부터 살펴보면, 2월 비농업고용은 전월비 9만 2천 건 감소를 집계되며 예상을 크게 하회했습니다. 감소세로 돌아서며 시장의 안도를 불렀던 실업률도 다시 0.1%p 상승한 4.4%를 기록했습니다. 이에 증시는 개장 초부터 낙폭을 보였고, 경기 둔화 우려에 러셀2000 지수는 2.3% 하락했습니다. 다만, 월가에서는 노동시장의 하방 위험보다 물가 상승 우려에 주목하고 있습니다. 에버코어ISI는 “파업과 계절적 요인 등 외부요인에 따른 약점을 과장해 즉각적인 경기 위험을 초래한다고 보기 어렵다”고 평가했습니다. 연준 위원들 “한 달치 데이터 만으로 의사 결정을 할 수 없으며 지금은 신중하게 관망해야 할 때”라고 입을 모았고, 베스 해맥 클리블랜드 연은 총재는 \"인플레이션이 너무 높기 때문에 금리는 상당 기간 동결될 가능성이 높다\"고 선을 그었습니다. 더구나 유가 급등에 따른 물가 우려도 금리 결정의 변수가 되고 있습니다. ING는 “전쟁으로 유가가 상승하는 시기에 금리를 인하하려면 노동시장의 약화 추세가 훨씬 더 지속되어야 할 것인데 그럴 가능성은 높게 보지 않는다”고 설명했습니다. 국제 유가가 멈추지 않고 상승폭을 키우자 유가 급등과 부진한 고용 지표라는 혼재된 재료에 국채 금리는 변동성을 보였습니다. 2년물 국채 금리는 3.55% 그리고 10년물 국채 금리는 4.13%를 나타냈습니다. 그리고 달러 인덱스는 99선 부근에서 거래되며 한 주간 1.3% 상승해 1년 4개월래 최대 상승폭을 기록했습니다.불안감이 커지는 상황에서 시장이 기대하는 호르무즈 해협의 안정화 소식이 들려오지 않고 있습니다. 유가 안정을 위해 간밤 크리스 라이트 에너지부 장관이 “유가 급등은 오래가지 않을 공포 프리미엄”이라고 강조하고 스콧 베선트 재무장관이 러시아산 원유에 대한 추가 제재를 풀 가능성을 시사하기도 했지만, 골드만삭스는 갈등이 완화되지 않으면 이번주 유가가 배럴당 100달러를 돌파할 가능성이 높다며 우려의 목소리를 보냈습니다. 당초 월가에서는 유가가 치솟으면 트럼프 대통령이 물러설 것으로 기대하고 있었지만, 기대와 달리 트럼프 대통령은 “이란에게는 항복 외에는 다른 선택지가 없다”며 강경한 태도를 보이고 있습니다. 또한 “기존에는 고려하지 않았던 지역과 집단도 새로운 타격 대상으로 고려 중”이라고 경고했습니다. 이란 역시 결사항전의 태도를 보이는 가운데 워싱턴 포스트는 ‘미군의 지상전 투입 가능성’이란 우려스러운 시나리오를 제기했습니다. 워싱턴포스트는 \"미 육군이 최근 제82공수여단의 훈련을 취소했는데 이들이 이란 전쟁 참여에 투입될 가능성이 있다는 추측이 군 내부에서 나오고 있다\"고 보도했습니다. 간밤 “트럼프 행정부가 특수부대를 투입해 이란 핵시설을 장악하고 파괴하는 카드를 고려 중”이라는 소식이 들려오는 등 전쟁 장기화 우려가 커지고 있습니다. 이에 찰스 슈왑은 \" 시장이 이번 전쟁이 비교적 빨리 끝날 것이라는 믿음을 가지고 있는 점이 가장 큰 걱정”이라고 말하며 “역사를 돌아보면 수많은 전쟁의 결과는 거의 항상 예상과 달랐다\"고 지적했습니다. UBS는 투자자들을 다독였습니다. “유가가 경제에 실질적 영향을 미치려면 수개월 동안 높은 수준을 유지해야 하며 역사적으로 증시는 지정학적 충격이 일시적이라는 게 분명해지면 회복하는 경향이 있다”고 조언했습니다.서혜영 외신캐스터",
+        "keywords": [],
+        "language": "ko"
+      },
+      "classification": {
+        "steeps_category": "T",
+        "steeps_subcategory": null,
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H1",
+        "section": "경제"
+      },
+      "rank": 4,
+      "_wf_tag": "[WF3]",
+      "_wf_key": "wf3",
+      "_wf_rank": 4,
+      "_wf_total": 251,
+      "_percentile": 0.988,
+      "_unified_score": 6.3
+    },
+    {
+      "signal_id": "naver-20260309-101-063",
+      "title": "iM증권 \"전쟁으로 주춤해도 반도체 이익상향 사이클 안 끝나\"",
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "psst_score": 10.0,
+      "impact_score": 10.0,
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945963",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "연합뉴스"
+      },
+      "content": {
+        "abstract": "삼성전자, 세계 최초 HBM4 양산 출하(서울=연합뉴스) 삼성전자는 12일 인공지능(AI) 산업 핵심 부품인 고대역폭 메모리(HBM)의 6세대 제품 HBM4의 양산 출하를 세계 최초로 시작했다고 밝혔다.애초 삼성전자는 이번 설 연휴 직후 HBM4의 양산 출하를 시작할 예정이었으나, 고객사와 협의를 거쳐 일정을 1주일가량 앞당긴 것으로 알려졌다. 사진은 이날 충남 삼성전자 천안캠퍼스에서 HBM4 제품이 양산 출하되는 모습. [삼성전자 제공. 재판매 및 DB 금지] photo@yna.co.kr(서울=연합뉴스) 김지연 기자 = iM증권은",
+        "full_text": "삼성전자, 세계 최초 HBM4 양산 출하(서울=연합뉴스) 삼성전자는 12일 인공지능(AI) 산업 핵심 부품인 고대역폭 메모리(HBM)의 6세대 제품 HBM4의 양산 출하를 세계 최초로 시작했다고 밝혔다.애초 삼성전자는 이번 설 연휴 직후 HBM4의 양산 출하를 시작할 예정이었으나, 고객사와 협의를 거쳐 일정을 1주일가량 앞당긴 것으로 알려졌다. 사진은 이날 충남 삼성전자 천안캠퍼스에서 HBM4 제품이 양산 출하되는 모습. [삼성전자 제공. 재판매 및 DB 금지] photo@yna.co.kr(서울=연합뉴스) 김지연 기자 = iM증권은 9일 \"전쟁으로 주춤할 수는 있겠으나 반도체 이익 상향 사이클은 끝나지 않았다\"고 봤다.김준영 연구원은 이날 보고서에서 반도체 섹터에 대해 \"유가 상승의 영향을 상대적으로 적게 받는 경향이 있으며 전쟁의 조기 종결에 대한 헤지가 필요하다\"며 이같이 짚었다.김 연구원은 \"기존의 국내 컨센서스가 아직 낮으며 이에 따라 코스피 밸류에이션은 계속 저렴해지고 있다\"며 \"아직 고점을 지났다고 판단하기에는 이익 상향 폭이 클 것으로 보인다\"고 전했다.김 연구원은 과거 큰 변곡점을 지날 때는 항상 주도주가 바뀌는 경향이 있었고 주도주 변화가 나타나려면 기존 매크로 트렌드에 변화가 있어야 한다며 아직은 섣불리 판단하기는 이르다고 짚었다.그러면서 \"오히려 저렴한 반도체에 대한 선호도 집중으로 이어질 순 있다\"며 \"반도체와 반도체 이외 섹터에 대한 온도 차이가 더 벌어질 수 있다\"고 예상했다.김 연구원은 \"삼성전자와 하이닉스를 제외한 코스피200 멀티플(배수)은 약 17배 수준까지 상승하며 비싸다는 인식을 온전히 탈피하지 못했다\"며 \"반도체와 그 이외 섹터의 밸류에이션 차이가 좁혀지는 계기가 될 수 있다\"고 설명했다.이에 따라 \"반도체, 방산, 화학, 에너지, 헬스케어로 대응하는 것이 유효해 보인다\"고 덧붙였다.김 연구원은 현재 주식시장에 대해 \"단기 상승 폭이 컸던 만큼 하락 전환 시 그 낙폭 역시 크게 나타나며, 전형적인 고변동성 시장의 특징을 보인다\"고 진단했다.특히 \"개인투자자들의 자금이 특정 테마나 종목으로 강하게 집중되는 '쏠림 현상'이 지수 전반의 변동성을 더욱 증폭시키는 주요 원인으로 작용하고 있다\"고 지목했다.김 연구원은 \"단기 급등에 따른 고변동성 구조, 신흥국 자금 이탈, 미국 고용 부진이 동시에 압박하는 상황에서 반도체 사이클과 정책 모멘텀만으로 추가 상승을 견인하기에는 어려울 수 있다\"고 봤다.kite@yna.co.kr",
+        "keywords": [],
+        "language": "ko"
+      },
+      "classification": {
+        "steeps_category": "T",
+        "steeps_subcategory": null,
+        "fssf_type": "Weak Signal",
+        "three_horizons": "H1",
+        "section": "경제"
+      },
+      "rank": 5,
+      "_wf_tag": "[WF3]",
+      "_wf_key": "wf3",
+      "_wf_rank": 5,
+      "_wf_total": 251,
+      "_percentile": 0.9841,
+      "_unified_score": 6.1
+    },
+    {
+      "rank": 2,
+      "id": "hacker-news-c62f12ac015e",
+      "title": "The changing goalposts of AGI and timelines",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.1,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      },
+      "_wf_tag": "[WF1]",
+      "_wf_key": "wf1",
+      "_wf_rank": 2,
+      "_wf_total": 24,
+      "_percentile": 0.9583,
+      "_unified_score": 5.9
+    },
+    {
+      "rank": 3,
+      "id": "techcrunch-b1af8d78d32c",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      },
+      "_wf_tag": "[WF1]",
+      "_wf_key": "wf1",
+      "_wf_rank": 3,
+      "_wf_total": 24,
+      "_percentile": 0.9167,
+      "_unified_score": 5.7
+    },
+    {
+      "rank": 4,
+      "id": "cepr-voxeu-4e3095eda4de",
+      "title": "The remote work premium reconsidered",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.7,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      },
+      "_wf_tag": "[WF1]",
+      "_wf_key": "wf1",
+      "_wf_rank": 4,
+      "_wf_total": 24,
+      "_percentile": 0.875,
+      "_unified_score": 5.5
+    },
+    {
+      "rank": 5,
+      "id": "hacker-news-254860d309f4",
+      "title": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      },
+      "_wf_tag": "[WF1]",
+      "_wf_key": "wf1",
+      "_wf_rank": 5,
+      "_wf_total": 24,
+      "_percentile": 0.8333,
+      "_unified_score": 5.2
+    }
+  ]
+}

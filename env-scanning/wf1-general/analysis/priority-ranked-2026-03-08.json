@@ -1,0 +1,614 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-08",
+    "computed_at": "2026-03-07T22:57:05Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 27,
+    "warn_count": 27
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "wf1-20260308-001",
+      "title": "OpenAI Robotics Lead Exits Over Pentagon Deal — Internal Dissent Over Military AI",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "wf1-20260308-002",
+      "title": "AI-Powered Vulnerability Discovery: Claude Finds 22 Firefox Flaws in Two Weeks",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "wf1-20260308-003",
+      "title": "Claude Surpasses ChatGPT in Mobile Installations — AI Market Power Shift",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "wf1-20260308-004",
+      "title": "TerraPower Receives First NRC Construction Permit in Nearly a Decade",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "wf1-20260308-005",
+      "title": "AI-Powered Urban Governance: City Detect Raises $13M for Municipal Decay Prevention",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "wf1-20260308-006",
+      "title": "Global Warming Acceleration: Earth Now Warming at 0.35°C Per Decade",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "wf1-20260308-007",
+      "title": "EV Battery Thermal Resilience Advances Outpacing Climate-Driven Degradation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "wf1-20260308-008",
+      "title": "Microbiome-Based Allergy Prevention: Bacteria Neutralize Peanut Allergens",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "wf1-20260308-009",
+      "title": "Xenotransplantation Milestone: GM Pig Liver Bridges Patient to Human Transplant",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "wf1-20260308-010",
+      "title": "First 'AI Societies' Emerge: Multi-Agent Systems Show Social Behavior",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "wf1-20260308-011",
+      "title": "Alzheimer's Breakthrough: Tanycytes Identified as Tau Protein Clearance Mechanism",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "wf1-20260308-012",
+      "title": "Lunar Construction: Laser 3D Printing of Moon Regolith for Space Habitats",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "wf1-20260308-013",
+      "title": "FLASH Radiotherapy: CERN Technology Enables Millisecond Cancer Treatment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "wf1-20260308-014",
+      "title": "Lebanon Crisis Escalation: UN Warns of Return to Turmoil Along Blue Line",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "wf1-20260308-015",
+      "title": "Global Gender Equality Stalling: Women's Parliamentary Representation at 27.5%",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "wf1-20260308-016",
+      "title": "Critical Minerals Equity: UN Calls for Fair Access to Lithium and Cobalt",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "wf1-20260308-017",
+      "title": "Nuclear Safety Crisis: IAEA Warns of Increasing Risk Amid Middle East Strikes",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "wf1-20260308-018",
+      "title": "Global Warming Rate Doubled Since 2015 — 1.5°C Breach Before 2030",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "wf1-20260308-019",
+      "title": "China's 15th Five-Year Plan: 25% Non-Fossil Energy by 2030, Ambiguous Coal Exit",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "wf1-20260308-020",
+      "title": "Compound Climate Extremes Surge: Drought-Heatwave Events Doubled Since 2000",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "wf1-20260308-021",
+      "title": "Iran Energy Infrastructure Damage Drives Global Energy Price Spikes",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "wf1-20260308-022",
+      "title": "US Tariff-Driven Economic Statecraft Hits Limits After IEEPA",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "wf1-20260308-023",
+      "title": "Washington DC Region Leads US in Job Loss — Federal Workforce Contraction Impact",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "wf1-20260308-024",
+      "title": "Africa's EV Revolution: Kenya's Roam Launches AI Fleet Monitoring Across Continent",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "wf1-20260308-025",
+      "title": "AI Democratization in Africa: Ethiopia's Gebeya Enables AI Access via M-PESA",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "wf1-20260308-026",
+      "title": "Prediction Markets During Wartime: National Security Threat Assessment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "wf1-20260308-027",
+      "title": "Teens and AI: 50%+ Use Chatbots for School, 12% Seek Emotional Support",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 41.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 76,
+        "DC": 72
+      }
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "date": "2026-03-09",
+  "workflow": "wf3-naver",
+  "total_assessed": 50,
+  "impacts": [
+    {
+      "signal_id": "naver-20260309-100-001",
+      "title": "李대통령, 10일 대·中企 상생간담회…삼성·SK·현대車 등 참석",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-002",
+      "title": "[속보] 이 대통령 지지율 58.2%…민주 48.1%·국힘 32.4% [리얼미터]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-003",
+      "title": "與강경파 ‘檢개혁’ 반발에, 李 “나만 진리라는 태도 안돼” 직접 제동",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-004",
+      "title": "이 대통령 “개혁도 옥석 가려야…초가삼간 태우는 일 경계” [전문]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-005",
+      "title": "오세훈의 정치 인생 ‘세 번째 결단’…향후 행보는?",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-006",
+      "title": "민주, 제주·전북지사 후보 경선 확정…현역 포함 '3파전' 치른다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-007",
+      "title": "패럴림픽서 김윤지 금메달 따자...이대통령 “환한 미소로 즐거운 도전 이어가길”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-008",
+      "title": "정청래 \"지선 전략공천 안할 것\"… 보선 10여곳 이를수도 [막오른 6·3 지방선거]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-009",
+      "title": "중동 일대 국민 탈출 지속…관저에 대피소 차리기도",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-010",
+      "title": "국힘 수도권·충청 후보 구인난…오세훈·김태흠 공천 미신청(종합)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-011",
+      "title": "조은희 \"오세훈·김태흠 미신청, 당의 현주소…일부 시도 장동혁 오지 말라\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-012",
+      "title": "“집권세력 마음대로 못 한다”…李 메시지의 행간[송종호의 국정쏙쏙]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-013",
+      "title": "[6.3 지방선거 직격 인터뷰] 1. 김진태 강원도지사",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-014",
+      "title": "윤상현 \"오세훈 미등록은 경고…'TK 자민련' 과장 아닐지도\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-015",
+      "title": "李 또 '개혁 신중론' 꺼냈다...\"초가삼간 태워선 안돼\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-016",
+      "title": "이 대통령 \"개혁하려다 '빈대 잡자고 초가삼간 태우기' 안돼\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-017",
+      "title": "오세훈, 후보등록 안 했다…나경원·신동욱도 불출마 가닥",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-018",
+      "title": "윤상현, 오세훈 공천 미신청에 “국힘, TK 자민련으로 쪼그라들 수도”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-019",
+      "title": "\"미꾸라지 몇 마리가 우물 흐리지…\" 李대통령, 조희대 겨냥?",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-020",
+      "title": "李대통령 \"사법개혁, 썩은 일부의 외과시술적 교정…상처·갈등 최소화\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-021",
+      "title": "'불출마 러시' 국힘…나경원 불출마·오세훈 공천 신청 안 해",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-022",
+      "title": "\"수속 중에도 공습경보\" 철렁…국민 203명 '무사 귀국'",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-023",
+      "title": "[정치뷰] 현역 시장도 '공천 미등록' 국힘…李, 與강경파 또 저격?",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-024",
+      "title": "李대통령 “빈대 잡자고 초가삼간 태우는 개혁 조심해야…옥석 가려 해결”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-025",
+      "title": "[단독]이규연 '주택→상가' 전환 이후 딸 청년주택 당첨",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-026",
+      "title": "TK에만 몰린 국힘 시도지사 공천 신청…PK는 현역 대 도전자 ‘1대 1’",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-027",
+      "title": "민주당 ‘공취모’ 논란, 8월 전당대회 향한 당권 경쟁 신호탄?",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-028",
+      "title": "李대통령 “사법개혁, ‘외과시술적 교정’ 필요…옥석 가려야”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-029",
+      "title": "\"윤 정부도 코스피 6천\" 발언에 \"그땐 뭐했나\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-030",
+      "title": "[지선PICK] 최윤석 \"나는 행정·정무·민간 경력 갖춘 사람…'베스트 송파' 만들 것\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-031",
+      "title": "정원오 뜨고 나경원 불출마…당별 경선 대진표 윤곽",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-032",
+      "title": "\"마음대로 다 해선 안돼\"‥이 대통령의 경고",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-033",
+      "title": "정청래 \"지선 승리가 지상과제\"‥오세훈 미신청",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-034",
+      "title": "與 대구시장 후보 누구…'김부겸 차출론', 당사자도 고심?",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-035",
+      "title": "與, 제주·전북지사 후보 경선… 현역 포함 3파전",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-036",
+      "title": "오세훈도 후보 미등록…지선 석 달 앞 국민의힘 공관위 고심 등 [3/9(월) 데일리안 출근길 뉴스]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-037",
+      "title": "뉴이재명 논란, 팬덤 분화일까 갈라치기일까",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-038",
+      "title": "李 대통령 “사법개혁, ‘외과시술적 교정’유용…미꾸라지가 물 흐려”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-039",
+      "title": "오산 착륙한 美 전략수송기 ‘C-5’·‘C-17’ 정체는[이현호의 밀리터리!톡]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-040",
+      "title": "[인터뷰] 한동훈 “조국 행보 비겁…전재수 통일교 의혹도 해소해야” (영상)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-041",
+      "title": "'명픽' 정원오 서울시장 출사표…주진우 부산시장 도전장",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-042",
+      "title": "[단독]이규연 수석의 수상한 '강남 상가'…다주택 회피 정황",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-043",
+      "title": "인천 여야 거대 정당, 기초의원 중대선거구까지 ‘독식’ [6·3 스포트라이트]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-044",
+      "title": "오세훈 ‘당 노선 정상화’ 배수진… 서울시장 공천 신청 안 했다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-100-045",
+      "title": "조국에 공격당한 與 강득구 “사면 외쳤더니… 내 지역구서 직접 붙자”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-101-048",
+      "title": "경영계 \"노동계, 노란봉투법 무리한 요구 안 돼…불법행위 자제\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-101-049",
+      "title": "비트코인 반등할까…“7만4000달러, 강세 신호”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H2",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-101-050",
+      "title": "기름값 고공행진에 정부 “불법 행위 엄단 조치”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-101-051",
+      "title": "‘파업 불참자 해고 1순위’… 삼성전자 노조, 직원들까지 압박",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "naver-20260309-101-052",
+      "title": "아파트 대출 막히자 오피스텔로…1월 거래량 전년 대비 65% 급증",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    }
+  ]
+}

@@ -1,0 +1,1355 @@
+{
+  "classification_metadata": {
+    "date": "2026-03-07",
+    "workflow": "wf3-naver",
+    "source": "NaverNews",
+    "classifier_version": "phase2-analyst-unified-v1.0",
+    "total_signals_classified": 30,
+    "classification_note": "Top 30 signals selected from 250 new articles (2026-03-07) after STEEPs + FSSF + Three Horizons classification. Priority signals extracted by domain significance, novelty, and cross-STEEPS impact.",
+    "steeps_distribution": {
+      "P": 7,
+      "E_economic": 7,
+      "T": 7,
+      "E_environmental": 1,
+      "S": 4,
+      "s": 4
+    },
+    "fssf_distribution": {
+      "Wild_Card": 3,
+      "Discontinuity": 4,
+      "Driver": 8,
+      "Emerging_Issue": 6,
+      "Trend": 5,
+      "Precursor_Event": 3,
+      "Weak_Signal": 1,
+      "Megatrend": 0
+    },
+    "three_horizons_distribution": {
+      "H1": 18,
+      "H2": 9,
+      "H3": 3
+    }
+  },
+  "signals": [
+    {
+      "id": "naver-20260307-104-195",
+      "title": "미군 '장대한 분노' 작전 일주일…이란 선박 43척 훼손·파괴, 목표물 3000개 타격",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "priority": "CRITICAL",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "미국의 이란 군사작전 '장대한 분노' 개시 1주일 만에 이란 선박 43척 훼손·파괴, 목표물 3,000여개 타격. 트럼프 '무조건 항복 외 협상 불가' 고수, 이란 '중재 시도 있다' 언급. 호르무즈 해협 봉쇄 위협 지속.",
+        "keywords": ["미-이란전쟁", "장대한분노", "호르무즈", "트럼프", "중동전쟁", "무조건항복"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["E_economic", "s"],
+        "fssf_rationale": "Ongoing major power kinetic conflict — unprecedented post-WWII direct US-Iran military engagement. Wild Card because direct US-Iran war was a low-probability tail risk now realized.",
+        "three_horizons_rationale": "H1: Immediate geopolitical crisis reshaping Middle East security architecture within 0-2 years.",
+        "cross_impact": ["유가급등", "한반도안보공백", "글로벌공급망", "주한미군차출"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 85,
+        "CC": 80,
+        "TC": 100,
+        "DC": 100,
+        "IC": 85
+      },
+      "tipping_point": {
+        "status": "RED",
+        "pattern": "Critical_Transition",
+        "note": "Direct US-Iran military engagement crosses fundamental geopolitical threshold. 43 ships destroyed in 7 days = escalation beyond containment."
+      }
+    },
+    {
+      "id": "naver-20260307-101-075",
+      "title": "美 유가 하루에만 12% 급등해 90달러 돌파…WTI 43년 만에 주간 최대 상승률, 호르무즈 봉쇄에 원유 공급 차질",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "priority": "CRITICAL",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "경제",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "WTI 원유가격 하루 12% 급등해 배럴당 90달러 돌파. 주간 상승률 43년 만에 최고치. 카타르 '몇 주 안에 걸프 생산 중단, 유가 150달러 될 것' 경고. 月가 '1970년대식 스태그플레이션 우려'.",
+        "keywords": ["유가급등", "WTI90달러", "호르무즈봉쇄", "스태그플레이션", "오일쇼크", "인플레이션"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["P", "E_environmental"],
+        "fssf_rationale": "Wild Card: Oil price surge of this magnitude (+43yr record) signals potential global economic regime change. 150달러/배럴 시나리오는 global recession trigger.",
+        "three_horizons_rationale": "H1: Immediate economic shock with 0-6 month severe impact on Korean import costs, inflation, and household purchasing power.",
+        "cross_impact": ["한국인플레이션", "항공권급등", "전세계스태그플레이션", "에너지전환가속"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 90,
+        "CC": 85,
+        "TC": 100,
+        "DC": 100,
+        "IC": 90
+      },
+      "tipping_point": {
+        "status": "RED",
+        "pattern": "Flickering",
+        "note": "43년 만의 최대 주간 상승률. 유가 100달러 진입 시 2008년식 경기침체 재현 가능성."
+      }
+    },
+    {
+      "id": "naver-20260307-104-212",
+      "title": "유가 급등에 고용충격까지…美 2월 고용 9만2천명 감소, 실업률 4.4% — 70년대식 스태그플레이션 공포 부상",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority": "CRITICAL",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "미국 2월 고용 92,000명 감소, 실업률 4.4%로 상승. 유가 급등과 고용쇼크 동시 발생 = 스태그플레이션 구조적 진입 우려. 월가 '1970년대식 스태그플레이션' 공식 경고 시작.",
+        "keywords": ["미국고용쇼크", "스태그플레이션", "실업률상승", "경기침체", "1970년대", "글로벌경제위기"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["S", "P"],
+        "fssf_rationale": "Discontinuity: 고용 감소 + 유가 급등의 동시 발생은 경제 체제의 구조적 전환점. 스태그플레이션은 기존 통화정책 도구를 무력화한다.",
+        "three_horizons_rationale": "H1: 0-18개월 내 글로벌 경기침체 현실화 가능성. 한국 수출·내수에 즉각적 영향.",
+        "cross_impact": ["한국수출감소", "환율변동", "금리정책딜레마", "글로벌수요감소"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 85,
+        "CC": 85,
+        "TC": 100,
+        "DC": 95,
+        "IC": 88
+      },
+      "tipping_point": {
+        "status": "ORANGE",
+        "pattern": "Critical_Slowing_Down",
+        "note": "고용·물가 동시 악화 패턴은 스태그플레이션의 전형적 전조. 중앙은행 정책 효과 저하 징후."
+      }
+    },
+    {
+      "id": "naver-20260307-100-003",
+      "title": "[단독] 주한미군 '중동戰' 차출 촉각…유도폭탄 키트 1000개 작년 12월 美 반출, 패트리엇 이동 가능성",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "priority": "CRITICAL",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "정치",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "주한미군 유도폭탄 키트 1,000개 작년 12월 미국으로 반출 확인. 패트리엇 미사일 방어체계 중동 이동 가능성 제기. 국힘 '국가안보 중대 영향'. 한반도 방위 공백 우려 현실화.",
+        "keywords": ["주한미군차출", "패트리엇이동", "한반도방위공백", "유도폭탄반출", "안보공백", "중동전쟁"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["s"],
+        "fssf_rationale": "Precursor Event: 주한미군 자산 실제 반출은 한반도 안보 구조 변화의 구체적 선행 지표. 미군 주도 한반도 억지력 약화의 첫 번째 확인 가능 데이터.",
+        "three_horizons_rationale": "H1: 0-12개월 내 한반도 안보 환경 급격 변화 가능. 북한 도발 opportunistic window 개방.",
+        "cross_impact": ["북한도발증가", "한국독자국방", "방산수출가속", "한미동맹재검토"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 80,
+        "CC": 85,
+        "TC": 100,
+        "DC": 100,
+        "IC": 85
+      },
+      "tipping_point": {
+        "status": "RED",
+        "pattern": "Critical_Transition",
+        "note": "주한미군 실제 자산 반출 확인 = 한반도 안보 구조 변화의 비가역적 신호."
+      }
+    },
+    {
+      "id": "naver-20260307-104-185",
+      "title": "MS '북한, AI 활용해 서방기업 취업사기 고도화'…AI 기반 신원위조·사이버 침투 급증",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "마이크로소프트 보고: 북한, AI 기술 활용해 서방 기업 IT 취업 사기 고도화. AI 생성 이력서·화상면접 딥페이크 사용. 잠입 후 기밀 탈취 및 원격 자금조달 목적.",
+        "keywords": ["북한AI사이버", "취업사기", "딥페이크", "AI보안위협", "북한IT노동자", "사이버공격"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["P", "E_economic"],
+        "fssf_rationale": "Emerging Issue: AI 기반 국가주도 사이버 공격의 새로운 벡터. 기존 신원 확인 시스템의 근본적 신뢰 붕괴 시작.",
+        "three_horizons_rationale": "H2: 2-7년 내 AI 기반 신원 위조가 표준 채용 절차를 무력화. 생체인증·블록체인 신원 검증 필수화.",
+        "cross_impact": ["기업보안취약성", "AI규제강화", "채용시스템혁신", "한국IT기업위험"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 80,
+        "TC": 100,
+        "DC": 90,
+        "IC": 75
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": "Flickering",
+        "note": "AI 기반 취업 사기가 개별 사건에서 체계적 국가 작전으로 진화하는 패턴 관찰."
+      }
+    },
+    {
+      "id": "naver-20260307-105-257",
+      "title": "딥시크 V4, 챗GPT의 50분의 1 비용…AI 가격 전쟁 새 국면, '초저비용 AI 민주화' 가속",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "딥시크 V4, ChatGPT 대비 1/50 비용으로 유사 성능 달성. AI 가격 전쟁 2라운드 진입. 오픈소스 AI 생태계 폭발적 확산. 빅테크 AI 수익 모델 근본 위협.",
+        "keywords": ["딥시크V4", "AI가격전쟁", "초저비용AI", "오픈소스AI", "AI민주화", "ChatGPT대비"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["E_economic", "s"],
+        "fssf_rationale": "Driver: AI 비용의 지속적·구조적 하락은 전 산업 AI 채택을 가속하는 핵심 구동 요인. 50배 가격 격차는 AI 접근성의 근본 변화.",
+        "three_horizons_rationale": "H2: 2-5년 내 AI가 개발도상국·중소기업에도 보편 도구화. 글로벌 AI 생산성 혁명 완성.",
+        "cross_impact": ["빅테크수익감소", "한국AI산업재편", "글로벌AI채택가속", "노동시장AI전환"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 85,
+        "TC": 100,
+        "DC": 85,
+        "IC": 80
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": null,
+        "note": "AI 가격의 지속적 하락 추세. V4 출시로 1/50 비용 달성 — 다음 단계는 1/100 진입 예상."
+      }
+    },
+    {
+      "id": "naver-20260307-105-265",
+      "title": "AI 지원 전쟁은 속도전…이란-우크라이나에서 이미 실전 배치된 AI 무기 시스템 분석",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "우크라이나·이란 전쟁에서 AI 기반 무기 시스템 실전 배치 확인. 드론 자율 목표 식별, AI 전자전, 실시간 전장 분석. 스마트워치 위치정보가 미사일 표적화에 활용됨. 전쟁의 AI화 임계점 돌파.",
+        "keywords": ["AI전쟁", "자율무기", "드론AI", "전장AI", "스마트워치표적", "AI군사혁명"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["P", "s"],
+        "fssf_rationale": "Discontinuity: 전쟁의 AI화가 이론에서 현실로 전환된 결정적 시점. 인간 전투원의 역할, 전쟁 윤리, 국제법 체계의 근본적 재편 필요.",
+        "three_horizons_rationale": "H1: 현재 진행 중인 두 개 전쟁에서 실증. AI 무기 확산은 5년 내 전 군사강국으로 확산.",
+        "cross_impact": ["자율무기국제법", "군사AI경쟁", "민간AI이중용도", "프라이버시군사화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 80,
+        "CC": 85,
+        "TC": 100,
+        "DC": 90,
+        "IC": 85
+      },
+      "tipping_point": {
+        "status": "ORANGE",
+        "pattern": "Critical_Transition",
+        "note": "AI 무기 실전 배치 확인 = 군사 기술 Rubicon 통과. 국제 자율무기 규제 협상 긴급 필요성 급부상."
+      }
+    },
+    {
+      "id": "naver-20260307-105-247",
+      "title": "'노동의 종말' 앞당길 로봇 기술…1000분의 1초까지 동기화, MWC26 백덤블링 로봇·식당 운영 로봇 등장",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "MWC 2026: 로봇이 백덤블링, 식당 운영, 모바일 플랫폼 탑재 등 경계 해체. 1000분의 1초 동기화 정밀제어 달성. 현대차 Atlas 로봇 일본 언론도 주목. '노동의 종말' 담론 주류화.",
+        "keywords": ["로봇혁명", "MWC2026", "노동의종말", "자율로봇", "현대차Atlas", "로봇노동대체"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["E_economic", "S"],
+        "fssf_rationale": "Driver: 로봇의 물리적 능력이 인간 수준에 근접하는 핵심 마일스톤 달성. 서비스업 자동화 가속의 구조적 동인.",
+        "three_horizons_rationale": "H2: 2-7년 내 서비스업 로봇 대체 본격화. H3로 이어지는 노동시장 구조 전환의 드라이버.",
+        "cross_impact": ["서비스노동대체", "로봇세논의", "복지체계개편", "제조업경쟁력"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 85,
+        "TC": 100,
+        "DC": 85,
+        "IC": 80
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": null,
+        "note": "로봇 정밀제어 1/1000초 달성은 서비스업 배치의 기술적 장벽 제거. 가격 하락이 주요 변수."
+      }
+    },
+    {
+      "id": "naver-20260307-105-231",
+      "title": "위성사진만으로 슬럼 찾아낸 한국 AI…데이터 빈곤 극복, 개발도상국 불평등 측정 혁신",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Weak_Signal",
+      "three_horizons": "H3",
+      "priority": "MEDIUM",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "한국 연구팀, 위성사진만으로 개도국 빈곤·불평등 지역 AI 자동 탐지 성공. 데이터 부족 국가에서도 활용 가능한 경량 AI 모델. UN 지속가능발전목표(SDGs) 모니터링 혁신 가능성.",
+        "keywords": ["빈곤측정AI", "위성AI", "개발도상국", "SDGs", "한국AI연구", "데이터빈곤극복"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["S", "E_environmental"],
+        "fssf_rationale": "Weak Signal: 데이터 인프라 없이 위성 이미지만으로 사회적 불평등을 측정하는 AI는 글로벌 남반구 AI 적용의 새로운 패러다임. 아직 초기 단계이나 함의 크다.",
+        "three_horizons_rationale": "H3: 7년+ 시간대에서 AI 기반 글로벌 불평등 모니터링·개입이 국제 거버넌스의 표준 도구로 부상.",
+        "cross_impact": ["글로벌AI불평등", "UN거버넌스AI화", "한국AI외교", "데이터주권"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 65,
+        "CC": 80,
+        "TC": 100,
+        "DC": 95,
+        "IC": 65
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "초기 연구 성과. 실용화까지 3-5년 예상."
+      }
+    },
+    {
+      "id": "naver-20260307-105-245",
+      "title": "카카오T로 호출하는 서울 강남 자율주행 택시 4월부터 유료화…국내 자율주행 상용화 원년",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "카카오T 앱으로 서울 강남 자율주행 택시 호출, 4월부터 유료화. 국내 자율주행 모빌리티 상용화 첫 단계. 택시 노동자 위협 가시화. 규제 샌드박스 졸업 후 본격 시장 진입.",
+        "keywords": ["자율주행택시", "카카오T", "강남자율주행", "유료화", "상용화", "자동화모빌리티"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["E_economic", "S"],
+        "fssf_rationale": "Emerging Issue: 자율주행이 무료 실험에서 유료 상용 서비스로 전환 = 이론에서 현실 시장 충격으로. 택시 산업 구조 해체의 첫 번째 확인 가능 지점.",
+        "three_horizons_rationale": "H2: 2-5년 내 자율주행 커버리지 서울 전역, 이후 수도권·주요 도시 확산.",
+        "cross_impact": ["택시노동자위협", "보험체계변화", "도시교통재편", "자동차산업변화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 80,
+        "CC": 85,
+        "TC": 100,
+        "DC": 90,
+        "IC": 80
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": "Critical_Transition",
+        "note": "유료화 전환 = 자율주행 상용화의 Rubicon. 택시 노동 수요 감소 시계 시작."
+      }
+    },
+    {
+      "id": "naver-20260307-101-084",
+      "title": "로봇의 일자리 파괴, 로봇세보다 빨리 온다…한국 제조업 자동화 가속, 정책 논의 현실화",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "경제",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "로봇에 의한 일자리 파괴 속도가 로봇세 입법 논의를 앞서는 상황. 한국 제조업 자동화 가속. 정책 입안자들이 기술 속도를 따라가지 못하는 거버넌스 공백.",
+        "keywords": ["로봇세", "일자리파괴", "자동화", "제조업로봇", "미래노동", "거버넌스공백"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["S", "P"],
+        "fssf_rationale": "Driver: 자동화-정책 시간 격차(automation-policy gap)는 사회 불안정의 구조적 드라이버. 로봇세 논의 이전 이미 대규모 일자리 소멸.",
+        "three_horizons_rationale": "H2: 2-7년 내 제조업 고용 20-30% 감소 가시화. 복지 재원 논쟁 불가피.",
+        "cross_impact": ["기본소득논의", "노동조합약화", "사회안전망재편", "세수구조변화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 80,
+        "IC": 75
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": "Critical_Slowing_Down",
+        "note": "정책 대응 능력 저하(슬로잉 다운) + 기술 가속 = 불안정 임계점 접근."
+      }
+    },
+    {
+      "id": "naver-20260307-101-059",
+      "title": "고유가·고용충격 겹쳐…월가 '1970년대식 스태그플레이션' 공식 경고, 트럼프의 아킬레스건",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority": "CRITICAL",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "경제",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "월가 주요 투자은행들 1970년대식 스태그플레이션 공식 경고 시작. 유가 급등 + 고용 감소 + 관세 전쟁의 삼중 충격. 트럼프 정책이 인플레이션-경기침체 동시 유발하는 최악의 조합.",
+        "keywords": ["스태그플레이션", "월가경고", "트럼프경제", "1970년대", "삼중충격", "글로벌경제위기"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["P", "s"],
+        "fssf_rationale": "Discontinuity: 월가가 '1970년대식 스태그플레이션'을 공식 주류 시나리오로 채택. 이는 경제 예측 체계의 전환점 — 성장 중심에서 안정 방어 중심으로.",
+        "three_horizons_rationale": "H1: 0-18개월 내 글로벌 경기침체 현실화 시 한국 수출 -10~-20% 충격 가능.",
+        "cross_impact": ["한국수출위기", "환율급등", "중소기업도산", "소비위축"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 85,
+        "CC": 85,
+        "TC": 100,
+        "DC": 90,
+        "IC": 88
+      },
+      "tipping_point": {
+        "status": "ORANGE",
+        "pattern": "Flickering",
+        "note": "경제 지표의 스태그플레이션 패턴 진입. 연준의 대응 옵션이 급격히 좁아지는 상황."
+      }
+    },
+    {
+      "id": "naver-20260307-101-082",
+      "title": "전쟁이 클라우드 흔든다…'지오패트리에이션' 부상, 데이터 주권 기반 클라우드 분리 가속",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "경제",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "미-이란 전쟁이 클라우드 인프라의 '지오패트리에이션(Geopatriation)' 현상 가속. 기업들이 지정학적 위험을 기준으로 클라우드 공급자와 데이터 위치 선택. 글로벌 클라우드 시장 분절화 본격화.",
+        "keywords": ["지오패트리에이션", "클라우드분절", "데이터주권", "지정학적IT", "클라우드안보", "디지털탈세계화"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["T", "P"],
+        "fssf_rationale": "Emerging Issue: 지정학적 위험이 기업 클라우드 전략의 핵심 변수로 부상. 디지털 세계화의 역전이 구체적 기업 의사결정 레벨에서 현실화.",
+        "three_horizons_rationale": "H2: 2-7년 내 글로벌 클라우드 시장이 지역 블록별로 분절화. 한국 데이터센터 주권 수요 급증.",
+        "cross_impact": ["한국클라우드수요", "공급망AI분절", "디지털철의장막", "중소기업IT비용증가"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 90,
+        "IC": 75
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": null,
+        "note": "지정학적 IT 분절 트렌드 가속. 중동 전쟁이 기업 클라우드 전략 재검토의 촉매제."
+      }
+    },
+    {
+      "id": "naver-20260307-101-085",
+      "title": "젠슨 황 'AI 에이전트 확산에 연산 1000배 필요'…삼성·SK, AI 반도체 수요 폭발적 증가 기대",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "경제",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "젠슨 황 엔비디아 CEO: AI 에이전트 본격 확산 시 현재 대비 1,000배 연산 능력 필요. 삼성전자·SK하이닉스 AI 메모리 수요 폭발적 성장 전망. HBM 3e/4 공급 경쟁 심화.",
+        "keywords": ["AI에이전트", "연산1000배", "반도체수요", "젠슨황", "삼성SK하이닉스", "HBM"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["T"],
+        "fssf_rationale": "Driver: 1,000배 연산 수요 발언은 AI 인프라 투자 사이클의 구조적 규모를 확인. 한국 반도체 산업의 중장기 성장 동력.",
+        "three_horizons_rationale": "H2: 2-7년 내 AI 에이전트 보편화 시 반도체 공급망 전체 업그레이드. 한국 반도체 경쟁력 결정 변수.",
+        "cross_impact": ["한국반도체수출", "삼성SK경쟁력", "AI인프라투자", "에너지수요급증"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 85,
+        "TC": 100,
+        "DC": 85,
+        "IC": 80
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "AI 반도체 수요 증가 추세 지속 확인. 공급 가격 하락 여부가 핵심 변수."
+      }
+    },
+    {
+      "id": "naver-20260307-104-213",
+      "title": "중동의 포성, 베이징의 계산 — 이란 전쟁과 미중 전략경쟁의 구조적 변곡점",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "미-이란 전쟁이 미중 전략경쟁의 새로운 변곡점. 중국은 이란 전쟁으로 미국이 아시아 집중 분산되는 기회를 활용. 베이징의 전략적 계산: 대만 분리 시도 vs 경제 안정 우선.",
+        "keywords": ["미중전략경쟁", "이란전쟁중국", "변곡점", "대만", "지정학", "미국분산"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["E_economic"],
+        "fssf_rationale": "Driver: 중동 전쟁 = 미중 전략경쟁의 판도 전환 촉진제. 미국의 전략 자산 분산은 인도-태평양 억지력 공백을 만들 수 있다.",
+        "three_horizons_rationale": "H1: 0-2년 내 인도-태평양 안보 구조 재편 가속화. 한국의 전략적 선택 압박 증가.",
+        "cross_impact": ["한국전략선택", "대만해협위기", "인도태평양동맹", "한미동맹재조정"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 85,
+        "IC": 80
+      },
+      "tipping_point": {
+        "status": "ORANGE",
+        "pattern": "Critical_Transition",
+        "note": "미중 전략경쟁이 중동 전쟁을 통해 새로운 국면 진입. 아시아 안보 구조 재편의 가속 신호."
+      }
+    },
+    {
+      "id": "naver-20260307-104-192",
+      "title": "중동전쟁에 러시아 간접 등판…러시아, 이란에 미국 군함·항공기 위치정보 넘겼다",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "priority": "CRITICAL",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "러시아가 이란에 미국 군함 및 항공기 실시간 위치 정보를 제공한 정황 확인. 미-이란 전쟁에 러시아의 간접 참전 가능성. 신냉전 진영 구조: 미국vs러-이란-중국 블록 구체화.",
+        "keywords": ["러시아이란위치정보", "신냉전", "러시아간접참전", "진영구조", "미국vs러시아이란", "냉전2.0"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["T", "s"],
+        "fssf_rationale": "Wild Card: 러시아의 이란 군사 지원 정보 제공은 3차 대전 구조 가시화. 단순 양자 전쟁에서 다극 냉전 구조로의 임계적 전환.",
+        "three_horizons_rationale": "H1: 즉각적 에스컬레이션 위험. 6-18개월 내 신냉전 블록 공식화 가능성.",
+        "cross_impact": ["신냉전블록화", "한국전략환경", "NATO확장", "기술수출통제"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 80,
+        "CC": 80,
+        "TC": 100,
+        "DC": 95,
+        "IC": 85
+      },
+      "tipping_point": {
+        "status": "RED",
+        "pattern": "Critical_Transition",
+        "note": "러시아의 미국 군사 정보 적국 제공 확인 = 신냉전 구조의 실질적 출범 선언과 동일한 의미."
+      }
+    },
+    {
+      "id": "naver-20260307-104-208",
+      "title": "美 싱크탱크 '北, 핵으로 한·미 갈라놓을 수도…핵탄두 소형화 이미 성공 가능성'",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "미국 싱크탱크: 북한이 핵탄두 소형화를 이미 달성했을 가능성. 핵전략: 한미 동맹 분리를 목표로 한 '핵 인질화'. 주한미군 중동 차출로 북한의 opportunistic window 개방.",
+        "keywords": ["북한핵소형화", "한미동맹분리", "핵인질화", "북한전략", "ICBM소형화", "핵억지력"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["s"],
+        "fssf_rationale": "Precursor Event: 핵 소형화 성공 가능성 = 북한 핵 전략의 다음 단계(한미 분리 전략)의 선행 조건 충족 신호.",
+        "three_horizons_rationale": "H1: 0-2년 내 주한미군 전력 약화 + 북한 핵 능력 고도화 = 한반도 위기 임계점 접근.",
+        "cross_impact": ["한국독자핵논의", "한미동맹약화", "북한도발가능성", "동북아핵도미노"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 90,
+        "IC": 80
+      },
+      "tipping_point": {
+        "status": "ORANGE",
+        "pattern": "Critical_Slowing_Down",
+        "note": "한국 안보 환경: 주한미군 약화 + 북한 능력 향상의 비대칭 변화. 핵 억지력 구조 재검토 필요성 증가."
+      }
+    },
+    {
+      "id": "naver-20260307-100-001",
+      "title": "이재명 대통령 '7대 비정상 정상화' 선언 — 부동산·마약·주가조작·중대재해 등 국정 개혁 속도",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "정치",
+        "url": "https://n.news.naver.com/mnews/article/469/0000917891",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "이재명 대통령 '7대 비정상(마약·공직부패·보이스피싱·부동산 불법·악성체납·주가조작·중대재해) 정상화'를 국정 핵심 과제로 공식화. '규칙 지키면 손해 보는 시대 끝내야' — 법 집행 강화 의지 표명.",
+        "keywords": ["이재명7대비정상", "국정개혁", "부동산규제", "주가조작단속", "중대재해", "공직부패"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["E_economic", "S"],
+        "fssf_rationale": "Driver: 대통령 직접 7대 개혁 과제 공식화 = 한국 제도 환경 재편의 구조적 추진 동력. 기업 환경, 규제 체계, 사회 규범 전반에 영향.",
+        "three_horizons_rationale": "H1: 0-2년 내 관련 법 집행 강화 및 제도 개편. H2에서 구조적 변화 현실화.",
+        "cross_impact": ["규제강화기업영향", "부동산시장변화", "금융시장규제", "ESG강화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 75,
+        "IC": 72
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "정책 선언 단계. 실제 집행 강도와 입법 속도가 핵심 변수."
+      }
+    },
+    {
+      "id": "naver-20260307-101-006",
+      "title": "이재명 대통령 유가 담합 경고…정유사에 '대가 알게 될 것' 경고, 100조+ 시장안정 프로그램 가동",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "경제",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "이재명 대통령, 정유사 유가 담합 의혹에 강경 경고. 금융위 100조+α 시장안정 프로그램 적극 운영 발표. 전분당 4사 7년 담합 의혹 최대 1.2조 과징금 위기. 정부 가격 개입 본격화.",
+        "keywords": ["유가담합경고", "정유사규제", "100조시장안정", "이재명경고", "과징금", "가격개입"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["P"],
+        "fssf_rationale": "Driver: 대통령 직접 가격 개입 경고는 시장 메커니즘과 국가 개입 사이의 균형 변화를 예고하는 구조적 드라이버.",
+        "three_horizons_rationale": "H1: 단기 가격 안정 효과. 중장기 정부 가격 개입 확대 vs 시장 왜곡 논쟁.",
+        "cross_impact": ["정유사경영", "에너지가격정책", "기업-정부관계", "시장신뢰도"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 75,
+        "IC": 72
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "정부 개입 강도 주목. 단기 효과 가능하나 중장기 시장 왜곡 위험."
+      }
+    },
+    {
+      "id": "naver-20260307-105-227",
+      "title": "갤럭시S26 사전 판매 135만대 신기록…전작 대비 20% 증가, '하드웨어+AI' 통합 전략 성과",
+      "category": "E_economic",
+      "steeps": "E_economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority": "MEDIUM",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "갤럭시S26 국내 사전 판매 135만대 — 역대 최고 신기록. 전작 S25 대비 20% 증가. 온디바이스 AI 통합 마케팅 성과. 삼성전자 프리미엄 스마트폰 리더십 유지.",
+        "keywords": ["갤럭시S26", "사전판매신기록", "삼성전자", "온디바이스AI", "스마트폰시장", "프리미엄전략"]
+      },
+      "classification": {
+        "primary_steeps": "E_economic",
+        "secondary_steeps": ["T"],
+        "fssf_rationale": "Trend: 온디바이스 AI 통합 스마트폰의 소비자 수용이 빠르게 확산. AI 하드웨어 통합 제품 전략의 성공 패턴 확인.",
+        "three_horizons_rationale": "H2: AI 통합 스마트폰이 2-5년 내 프리미엄 시장 표준화.",
+        "cross_impact": ["삼성전자실적", "AI칩수요", "한국전자산업", "경쟁사전략"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 80,
+        "CC": 85,
+        "TC": 100,
+        "DC": 80,
+        "IC": 72
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "긍정적 트렌드 지속. AI 통합 디바이스 시장 성장 확인."
+      }
+    },
+    {
+      "id": "naver-20260307-102-126",
+      "title": "지난해 친밀한 남성에 살해된 여성 137명…친밀한 파트너 폭력(IPV) 구조적 위기 지속",
+      "category": "S",
+      "steeps": "S",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "사회",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "2025년 친밀한 남성 파트너에 의해 살해된 여성 137명. 살인 미수 252건. 친밀한 파트너 폭력(IPV) 위기의 구조적 지속. 젠더 기반 폭력 방지 정책의 실효성 논쟁.",
+        "keywords": ["젠더폭력", "친밀파트너폭력", "IPV", "여성살해", "젠더기반폭력", "사회안전"]
+      },
+      "classification": {
+        "primary_steeps": "S",
+        "secondary_steeps": ["P", "s"],
+        "fssf_rationale": "Driver: 젠더 기반 폭력의 구조적 지속은 사회 안전·불평등·젠더 관계의 핵심 드라이버. 정책 실효성 검증 필요성 증가.",
+        "three_horizons_rationale": "H2: 2-7년 내 법적·사회적 변화 없이는 지속. 젠더 평등 지수와 폭력 발생률의 역상관 관계.",
+        "cross_impact": ["여성경제활동", "사법개혁", "가정폭력방지법", "젠더교육"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 85,
+        "CC": 85,
+        "TC": 100,
+        "DC": 80,
+        "IC": 75
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": "Critical_Slowing_Down",
+        "note": "정책 개입에도 불구하고 피해자 수 감소 없음 = 시스템 변화 속도가 문제 심각성 속도를 따라가지 못함."
+      }
+    },
+    {
+      "id": "naver-20260307-102-101",
+      "title": "'촉법소년 연령하향' 공론화…100인 시민참여단 구성, 형사미성년자 기준 재논의",
+      "category": "S",
+      "steeps": "S",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "MEDIUM",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "사회",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "촉법소년 연령 하향 논의 공론화 첫 회의 개최. 100인 시민참여단으로 사회적 합의 도출 시도. 14세 미만 형사 미성년자 기준이 현대 사회에 맞지 않는다는 논쟁.",
+        "keywords": ["촉법소년", "연령하향", "시민참여단", "청소년범죄", "형사미성년자", "사법개혁"]
+      },
+      "classification": {
+        "primary_steeps": "S",
+        "secondary_steeps": ["P", "s"],
+        "fssf_rationale": "Emerging Issue: 청소년 범죄와 형사 책임의 경계 재설정은 사회 규범·법체계·아동 발달 이론이 교차하는 복합 이슈.",
+        "three_horizons_rationale": "H2: 2-5년 내 법 개정 가능성. 청소년 사법 체계 전반의 재설계 논의 연계.",
+        "cross_impact": ["청소년사법개혁", "교육정책연계", "범죄예방시스템", "사회보호체계"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 75,
+        "IC": 68
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "공론화 단계. 시민 참여형 정책 결정 모델의 실험적 적용."
+      }
+    },
+    {
+      "id": "naver-20260307-103-150",
+      "title": "머스크도 주목한 中 탄소배출 감소…중국 EV·재생에너지 확산으로 석유 수요 감소 가시화",
+      "category": "E_environmental",
+      "steeps": "E_environmental",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "생활문화",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "일론 머스크, 중국의 탄소 배출 감소 추세 공개 언급. 중국 EV 전환 + 태양광·풍력 확산으로 석유 수요 구조적 감소. 단기 유가 급등과 장기 석유 수요 피크 오일의 모순적 공존.",
+        "keywords": ["중국탄소감소", "머스크주목", "EV전환", "석유수요피크", "에너지전환", "재생에너지"]
+      },
+      "classification": {
+        "primary_steeps": "E_environmental",
+        "secondary_steeps": ["E_economic", "T"],
+        "fssf_rationale": "Emerging Issue: 중국의 에너지 전환 속도가 글로벌 석유 수요 구조 자체를 변화시키는 전환점 접근. 단기 오일쇼크와 장기 수요 감소의 역설.",
+        "three_horizons_rationale": "H2: 5-10년 내 중국발 글로벌 석유 수요 피크. 한국 에너지 전략과 정유산업 장기 계획에 영향.",
+        "cross_impact": ["정유산업미래", "에너지전환속도", "한국RE100", "OPEC전략변화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 85,
+        "IC": 72
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": null,
+        "note": "단기 유가 급등 속 장기 석유 수요 감소 신호의 동시 존재 — 에너지 전환 임계점 접근."
+      }
+    },
+    {
+      "id": "naver-20260307-103-159",
+      "title": "한국사회 적응 못한 이들에게 대만 이민이 대안…한국 청년 이민 다변화 트렌드",
+      "category": "S",
+      "steeps": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority": "MEDIUM",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "생활문화",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "한국 청년층에서 대만 이민을 새로운 대안으로 검토하는 현상 주목. '탈조선' 담론에서 구체적 이민 실행으로 전환. 한국사회 구조적 불만(경쟁 과열, 주거비, 일-삶 불균형)의 이민으로의 표출.",
+        "keywords": ["한국청년이민", "대만이민", "탈조선", "청년이탈", "이민다변화", "한국사회불만"]
+      },
+      "classification": {
+        "primary_steeps": "S",
+        "secondary_steeps": ["E_economic"],
+        "fssf_rationale": "Trend: 한국 청년의 이민 다변화(일본→동남아→대만)는 한국 사회구조의 지속적 압박 시그널. 인구 감소와 청년 이탈의 복합 위기 가속.",
+        "three_horizons_rationale": "H2: 2-7년 내 청년 인구 이탈이 인구구조와 노동시장에 가시적 영향.",
+        "cross_impact": ["인구구조악화", "노동력부족", "주거정책개혁", "청년정책"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 65,
+        "CC": 80,
+        "TC": 100,
+        "DC": 80,
+        "IC": 68
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "청년 이탈 트렌드 지속. 이민 대상국 다변화 패턴 강화."
+      }
+    },
+    {
+      "id": "naver-20260307-105-240",
+      "title": "'굿바이 텔코, 헬로 AI' — MWC26 통신업의 신분 세탁, AI 인프라 기업으로의 전환 가속",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "MWC 2026 핵심 메시지: 통신사(텔코)가 AI 인프라 기업으로 정체성 전환. KT·SKT·LGU+ 등 한국 통신사도 AI 플랫폼 전략 필수화. 텔코 수익 모델 근본 재편.",
+        "keywords": ["통신업AI전환", "MWC2026", "텔코AI화", "AI인프라", "한국통신사", "사업모델재편"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["E_economic"],
+        "fssf_rationale": "Trend: 통신업의 AI 인프라화는 이미 광범위하게 진행 중. MWC 주요 아젠다로 공식화 = 업종 전환의 불가역성 확인.",
+        "three_horizons_rationale": "H2: 2-5년 내 전통 통신서비스에서 AI 플랫폼 수익으로 비중 역전.",
+        "cross_impact": ["통신업노동시장", "AI생태계확장", "규제변화", "인프라투자"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 85,
+        "TC": 100,
+        "DC": 80,
+        "IC": 72
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": null,
+        "note": "통신업 AI 전환 임계점 근접. MWC 메시지 전환이 신호."
+      }
+    },
+    {
+      "id": "naver-20260307-103-163",
+      "title": "2만원 하던 게 50만원…'없어서 못 산다' 2030 여성 오픈런 — 헌티드 마켓 문화 확산",
+      "category": "s",
+      "steeps": "s",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority": "MEDIUM",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "생활문화",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "특정 희소 소비재(2만원 제품이 50만원으로 급등)에 2030 여성이 오픈런. 헌티드 마켓(사냥 소비문화) 및 희소성 마케팅의 새로운 소비 패턴. SNS 바이럴과 소비욕구의 결합.",
+        "keywords": ["오픈런소비", "헌티드마켓", "희소성마케팅", "2030소비패턴", "SNS소비", "젊은세대소비"]
+      },
+      "classification": {
+        "primary_steeps": "s",
+        "secondary_steeps": ["E_economic", "S"],
+        "fssf_rationale": "Trend: 희소성 경제(scarcity economy)와 SNS 바이럴 소비의 결합은 젊은 세대 소비 패턴의 구조적 변화를 반영.",
+        "three_horizons_rationale": "H2: 디지털-물질 소비의 혼합 경험이 주류 소비 형태로 자리잡는 과정.",
+        "cross_impact": ["소비산업마케팅", "젊은세대경제행동", "SNS경제영향", "명품대체재부상"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 65,
+        "CC": 80,
+        "TC": 100,
+        "DC": 80,
+        "IC": 65
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "소비 트렌드 신호. 경제 불안과 소비 욕구의 역설적 공존."
+      }
+    },
+    {
+      "id": "naver-20260307-104-189",
+      "title": "트럼프에 찍힌 앤트로픽, 기업 고객 잃을까…IPO 앞두고 위기, AI 안전 연구 vs 국방 분야 제외 딜레마",
+      "category": "s",
+      "steeps": "s",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "세계",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "앤트로픽, 트럼프 행정부의 AI 규제·안전 중시 정책과 충돌로 기업 고객 이탈 위협. 구글·아마존·MS: 앤트로픽 AI 공급 지속하되 국방 분야 제외. IPO 전 정치 리스크 노출. AI 안전 연구기관의 정치화 우려.",
+        "keywords": ["앤트로픽트럼프", "AI안전vs국방", "AI정치화", "IPO위기", "AI규제", "AI윤리정치화"]
+      },
+      "classification": {
+        "primary_steeps": "s",
+        "secondary_steeps": ["T", "P"],
+        "fssf_rationale": "Emerging Issue: AI 안전 연구의 정치화는 AI 거버넌스의 근본적 위기. 중립적 AI 안전 연구 기관의 독립성 위협.",
+        "three_horizons_rationale": "H2: 2-5년 내 AI 기업의 정치적 정렬 강요 현상 확산. AI 생태계 정치화 가속.",
+        "cross_impact": ["AI안전연구독립성", "한국AI정책", "AI규제국제협력", "기술정치화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 80,
+        "TC": 100,
+        "DC": 90,
+        "IC": 72
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": "Flickering",
+        "note": "AI 안전 연구의 정치화 패턴 확인. Anthropic IPO 결과가 AI 안전 독립성의 시금석."
+      }
+    },
+    {
+      "id": "naver-20260307-102-105",
+      "title": "대한민국 주류의 교체라는 거대한 변화 — 이재명 정권의 정치경제 구조 재편",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "사회",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "이재명 정권이 한국 사회의 '주류 교체'를 목표로 하는 구조적 개혁 추진. 기존 법조·재계·언론·교육 엘리트 카르텔 해체 시도. 세대·계급·이념적 지각 변동 가속.",
+        "keywords": ["주류교체", "이재명개혁", "엘리트카르텔해체", "한국구조개혁", "세대교체", "권력이동"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["S", "E_economic"],
+        "fssf_rationale": "Driver: 집권 세력의 '주류 교체' 담론은 한국 사회 권력 구조의 근본적 재편을 추진하는 구조적 드라이버. 모든 STEEPS 영역에 파급 효과.",
+        "three_horizons_rationale": "H1: 0-2년 내 가시적 제도 변화. H2에서 권력 구조 재편 현실화.",
+        "cross_impact": ["엘리트계층변화", "기업지배구조", "사법개혁", "미디어생태계"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 65,
+        "CC": 75,
+        "TC": 100,
+        "DC": 70,
+        "IC": 70
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": "Flickering",
+        "note": "권력 구조 재편 담론과 기존 체제의 저항 사이에서 Flickering 패턴 관찰."
+      }
+    },
+    {
+      "id": "naver-20260307-103-156",
+      "title": "된장찌개에 곤충가루 '톡톡'…곤충식 산업화 시도, 단백질 대체식품 시장 확산",
+      "category": "s",
+      "steeps": "s",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H3",
+      "priority": "MEDIUM",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "생활문화",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "된장찌개에 곤충 단백질 첨가하는 식문화 실험. 한국 식품업계의 대체단백질 시장 진출. 전통 식문화와 미래 식품의 결합 시도.",
+        "keywords": ["곤충식품", "대체단백질", "미래식품", "곤충산업화", "식문화변화", "지속가능식품"]
+      },
+      "classification": {
+        "primary_steeps": "s",
+        "secondary_steeps": ["E_environmental", "E_economic"],
+        "fssf_rationale": "Precursor Event: 한국 식문화에서 곤충 단백질의 일상화 시도 = 미래 식품 체계 전환의 초기 신호. 아직 주류화 이전이나 전환점 준비 단계.",
+        "three_horizons_rationale": "H3: 7년+ 시간대에서 대체 단백질이 동물성 단백질의 주요 대안으로 부상.",
+        "cross_impact": ["축산업미래", "식품규제변화", "환경영향감소", "소비자수용성"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 60,
+        "CC": 80,
+        "TC": 100,
+        "DC": 85,
+        "IC": 60
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "초기 신호. 소비자 수용성 확대가 핵심 변수."
+      }
+    },
+    {
+      "id": "naver-20260307-105-264",
+      "title": "'로켓·원자로 AI만으론 안돼'…초고속 유니콘 기업 레벨(Revel), 물리 세계 AI 통합 스타트업 급성장",
+      "category": "T",
+      "steeps": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority": "HIGH",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "로켓·원자로 등 물리 세계 시스템에 AI 통합 전문 스타트업 레벨(Revel) 초고속 유니콘 등극. '소프트웨어 AI'를 넘어 '물리 세계 AI' 시대 개막. 산업 자동화의 새로운 프론티어.",
+        "keywords": ["물리세계AI", "산업AI", "레벨스타트업", "원자로AI", "로켓AI", "AI산업화"]
+      },
+      "classification": {
+        "primary_steeps": "T",
+        "secondary_steeps": ["E_economic"],
+        "fssf_rationale": "Emerging Issue: 디지털 AI에서 물리 인프라 AI로의 전환은 AI 적용의 다음 단계. 에너지·항공우주·제조업의 AI 통합 가속.",
+        "three_horizons_rationale": "H2: 5-10년 내 물리 인프라의 AI 통합이 표준화. 산업 자동화의 질적 전환.",
+        "cross_impact": ["에너지AI화", "제조업혁신", "한국산업AI", "안전규제변화"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 68,
+        "CC": 80,
+        "TC": 100,
+        "DC": 90,
+        "IC": 70
+      },
+      "tipping_point": {
+        "status": "YELLOW",
+        "pattern": null,
+        "note": "물리 세계 AI 통합의 초기 유니콘 등장 = 새로운 AI 적용 영역 개막 신호."
+      }
+    },
+    {
+      "id": "naver-20260307-102-093",
+      "title": "북한에 무인기 보낸 대학원생 구속 송치…민간 북한 대북 활동 법적 경계 불명확",
+      "category": "P",
+      "steeps": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "priority": "MEDIUM",
+      "uncertainty": "Medium",
+      "source": {
+        "name": "NaverNews",
+        "section": "사회",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "민간인 대학원생이 북한으로 무인기를 보낸 행위에 대한 구속 송치. 민간 대북 활동의 법적 경계를 둘러싼 논쟁. 드론 확산 시대 국경 통제의 새로운 법적 도전.",
+        "keywords": ["민간대북무인기", "드론국경", "대북법적경계", "무인기통제", "사이버안보법", "드론규제"]
+      },
+      "classification": {
+        "primary_steeps": "P",
+        "secondary_steeps": ["T"],
+        "fssf_rationale": "Precursor Event: 민간 드론의 군사-민간 경계 침범은 드론 기술 확산이 만드는 새로운 안보·법적 도전의 선행 신호.",
+        "three_horizons_rationale": "H1: 1-3년 내 드론 관련 법제 정비 압박 증가.",
+        "cross_impact": ["드론규제", "대북정책민간", "국경안보기술", "시민자유vs안보"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 65,
+        "CC": 80,
+        "TC": 100,
+        "DC": 80,
+        "IC": 65
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "개별 사건이나 드론 법제 공백의 구체적 현실화 신호."
+      }
+    },
+    {
+      "id": "naver-20260307-105-228",
+      "title": "한국형 초미세먼지, 치매 부른다…미세먼지-뇌 건강 인과관계 연구 결과, 환경 보건 시그널",
+      "category": "S",
+      "steeps": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority": "MEDIUM",
+      "uncertainty": "Low",
+      "source": {
+        "name": "NaverNews",
+        "section": "IT과학",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "한국 연구팀: 한국형 초미세먼지가 폐·심장·뇌에 걸쳐 치매 위험을 높인다는 연구 결과. 환경-뇌 건강 인과관계의 한국 특화 데이터. 미세먼지 규제 강화와 의료비용 증가 논의 연결.",
+        "keywords": ["초미세먼지치매", "환경보건", "한국미세먼지", "뇌건강", "치매위험", "환경규제"]
+      },
+      "classification": {
+        "primary_steeps": "S",
+        "secondary_steeps": ["E_environmental", "P"],
+        "fssf_rationale": "Trend: 미세먼지-뇌 건강 연관성의 과학적 근거 축적 = 환경 규제 강화와 공중보건 정책 변화의 트렌드 드라이버.",
+        "three_horizons_rationale": "H2: 5-10년 내 미세먼지 관련 장기 건강 피해의 사회적 비용 가시화.",
+        "cross_impact": ["환경규제강화", "의료비증가", "미세먼지소송", "삶의질정책"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 85,
+        "TC": 100,
+        "DC": 85,
+        "IC": 70
+      },
+      "tipping_point": {
+        "status": "GREEN",
+        "pattern": null,
+        "note": "과학적 근거 축적 단계. 정책 변화까지 2-5년 예상."
+      }
+    },
+    {
+      "id": "naver-20260307-103-166",
+      "title": "중동 전쟁에 항공권 3배 급등…두바이 여행객 발묶이고 경유 노선 대체 200만원 추가",
+      "category": "s",
+      "steeps": "s",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority": "HIGH",
+      "uncertainty": "High",
+      "source": {
+        "name": "NaverNews",
+        "section": "생활문화",
+        "url": "https://n.news.naver.com/mnews/article/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "중동 전쟁으로 중동 경유 항공권 가격 3배 급등. 두바이 경유 노선 기피, 직항 대체에 200만원 추가. 한국 관광객 372명 중동 탈출 귀국. 전쟁이 일상적 삶의 경제에 직접 충격.",
+        "keywords": ["항공권급등", "두바이전쟁", "중동경유기피", "여행비용", "전쟁일상화", "한국인중동탈출"]
+      },
+      "classification": {
+        "primary_steeps": "s",
+        "secondary_steeps": ["E_economic", "P"],
+        "fssf_rationale": "Driver: 지정학적 갈등이 개인 일상 경제(여행·물가)에 직접 연결되는 경로의 구체적 현실화. 전쟁-일상 연결의 강도 증가.",
+        "three_horizons_rationale": "H1: 전쟁 지속 시 0-12개월 내 한국 물가·여행·에너지 전반에 직접 영향.",
+        "cross_impact": ["항공산업재편", "관광패턴변화", "소비물가", "심리적안전감"]
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 75,
+        "CC": 85,
+        "TC": 100,
+        "DC": 85,
+        "IC": 75
+      },
+      "tipping_point": {
+        "status": "ORANGE",
+        "pattern": "Flickering",
+        "note": "전쟁 직접 충격의 생활권 침투 — 일상-안보 경계 붕괴 신호."
+      }
+    }
+  ]
+}

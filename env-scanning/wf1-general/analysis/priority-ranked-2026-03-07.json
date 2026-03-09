@@ -1,0 +1,620 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-07",
+    "computed_at": "2026-03-07T00:53:16Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 25,
+    "warn_count": 50
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "wf1-20260307-002",
+      "title": "Middle East War Day 7 — UN warns world economy at grave risk; situation could spiral",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.568,
+      "psst_score": 72.4,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.62,
+        "probability": 3.4,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 85,
+        "DC": 72,
+        "ES": 92,
+        "CC": 80
+      }
+    },
+    {
+      "rank": 2,
+      "id": "wf1-20260307-025",
+      "title": "Robot hand with artificial muscles — bioinspired robotics milestone",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.455,
+      "psst_score": 66.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.325,
+        "probability": 3.65,
+        "urgency": 3.0,
+        "novelty": 4.3
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 85,
+        "DC": 72,
+        "ES": 68,
+        "CC": 65
+      }
+    },
+    {
+      "rank": 3,
+      "id": "wf1-20260307-001",
+      "title": "Pace of global warming has nearly doubled since 2015 — acceleration confirmed",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.436,
+      "psst_score": 65.8,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.29,
+        "probability": 3.0,
+        "urgency": 4.0,
+        "novelty": 4.2
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 88,
+        "CC": 85
+      }
+    },
+    {
+      "rank": 4,
+      "id": "wf1-20260307-008",
+      "title": "TerraPower nuclear reactor approved — advanced nuclear gets regulatory green light",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.305,
+      "psst_score": 63.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.175,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 4.4
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 76
+      }
+    },
+    {
+      "rank": 5,
+      "id": "wf1-20260307-003",
+      "title": "Iran war threatens global chip supplies and AI expansion",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.265,
+      "psst_score": 66.0,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.3,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 87,
+        "CC": 82
+      }
+    },
+    {
+      "rank": 6,
+      "id": "wf1-20260307-021",
+      "title": "US LGBTQI+ child welfare protections rescinded — federal social policy reversal",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.264,
+      "psst_score": 57.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.86,
+        "probability": 3.4,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 30,
+        "DC": 72,
+        "ES": 72,
+        "CC": 68
+      }
+    },
+    {
+      "rank": 7,
+      "id": "wf1-20260307-012",
+      "title": "AI companies race to war erodes safety commitments — structural governance failure",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.235,
+      "psst_score": 62.0,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.1,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 76,
+        "CC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "wf1-20260307-006",
+      "title": "Global child social media ban wave — India, Indonesia, multiple countries restrict under-16s",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.223,
+      "psst_score": 62.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.12,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.8
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "wf1-20260307-005",
+      "title": "China 15th Five-Year Plan — major climate change implications detailed",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.218,
+      "psst_score": 64.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.22,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.3
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 80
+      }
+    },
+    {
+      "rank": 10,
+      "id": "wf1-20260307-015",
+      "title": "Tech employment worse than 2008 or 2020 recessions — AI structural displacement confirmed",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.209,
+      "psst_score": 62.7,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.135,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.6
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 74
+      }
+    },
+    {
+      "rank": 11,
+      "id": "wf1-20260307-013",
+      "title": "Hacking security cameras normalized in warfare — Ukraine/Iran cyber-physical playbook",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.179,
+      "psst_score": 61.7,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.085,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 76,
+        "CC": 70
+      }
+    },
+    {
+      "rank": 12,
+      "id": "wf1-20260307-014",
+      "title": "NASA Exploration Upper Stage cancelled — US deep space program restructuring",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.157,
+      "psst_score": 59.1,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.955,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.8
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 68,
+        "CC": 65
+      }
+    },
+    {
+      "rank": 13,
+      "id": "wf1-20260307-019",
+      "title": "Tech industry in tariff hell — Nintendo sues US government for tariff refund",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.155,
+      "psst_score": 62.0,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.1,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 76,
+        "CC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "wf1-20260307-018",
+      "title": "Apple blocks ByteDance Chinese apps — US-China tech decoupling hardens",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.149,
+      "psst_score": 61.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.06,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.3
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 74,
+        "CC": 70
+      }
+    },
+    {
+      "rank": 15,
+      "id": "wf1-20260307-024",
+      "title": "TriZetto healthcare breach — 3.4M patient records stolen",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.139,
+      "psst_score": 61.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.06,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 74,
+        "CC": 70
+      }
+    },
+    {
+      "rank": 16,
+      "id": "wf1-20260307-011",
+      "title": "Iran internet freedom deteriorates — authoritarian digital control escalates during war",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.133,
+      "psst_score": 60.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.045,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 74,
+        "CC": 68
+      }
+    },
+    {
+      "rank": 17,
+      "id": "wf1-20260307-017",
+      "title": "India PC shipments surpass pandemic peak — emerging market digital inclusion accelerating",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.125,
+      "psst_score": 59.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.975,
+        "probability": 2.65,
+        "urgency": 4.0,
+        "novelty": 3.4
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 65
+      }
+    },
+    {
+      "rank": 18,
+      "id": "wf1-20260307-007",
+      "title": "Quantum computing commercialization — Pasqal plans $2B SPAC listing",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.091,
+      "psst_score": 62.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.115,
+        "probability": 2.65,
+        "urgency": 3.0,
+        "novelty": 4.5
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 76,
+        "CC": 74
+      }
+    },
+    {
+      "rank": 19,
+      "id": "wf1-20260307-004",
+      "title": "Anthropic Pentagon deal collapse — AI safety vs defense procurement crossroads",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.081,
+      "psst_score": 64.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.215,
+        "probability": 2.65,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 82,
+        "CC": 78
+      }
+    },
+    {
+      "rank": 20,
+      "id": "wf1-20260307-009",
+      "title": "Anthropic Claude finds 22 Firefox vulnerabilities — AI-powered security research enters production",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.079,
+      "psst_score": 61.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.06,
+        "probability": 2.65,
+        "urgency": 3.0,
+        "novelty": 4.6
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 74,
+        "CC": 70
+      }
+    },
+    {
+      "rank": 21,
+      "id": "wf1-20260307-022",
+      "title": "ITC investigation on laptops/routers — hardware protectionism escalating",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.05,
+      "psst_score": 56.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.825,
+        "probability": 3.4,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 64,
+        "TC": 34,
+        "DC": 72,
+        "ES": 68,
+        "CC": 65
+      }
+    },
+    {
+      "rank": 22,
+      "id": "wf1-20260307-010",
+      "title": "Pentagon AI surveillance — can DoD legally surveil Americans with AI?",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.025,
+      "psst_score": 63.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.175,
+        "probability": 2.65,
+        "urgency": 3.0,
+        "novelty": 3.6
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 76
+      }
+    },
+    {
+      "rank": 23,
+      "id": "wf1-20260307-020",
+      "title": "Kenya Roam AI-enabled EV fleet monitoring — Africa electric mobility leapfrog",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.016,
+      "psst_score": 57.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.865,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.7
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 66,
+        "CC": 62
+      }
+    },
+    {
+      "rank": 24,
+      "id": "wf1-20260307-016",
+      "title": "Musk fails to block California AI transparency law — AI accountability legal precedent set",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.985,
+      "psst_score": 60.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.025,
+        "probability": 2.65,
+        "urgency": 3.0,
+        "novelty": 3.8
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 72,
+        "CC": 68
+      }
+    },
+    {
+      "rank": 25,
+      "id": "wf1-20260307-023",
+      "title": "Savage care — ethics of extreme caregiving in aging societies (Aeon)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.885,
+      "psst_score": 57.0,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.85,
+        "probability": 2.65,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 38,
+        "TC": 85,
+        "DC": 72,
+        "ES": 62,
+        "CC": 60
+      }
+    }
+  ]
+}

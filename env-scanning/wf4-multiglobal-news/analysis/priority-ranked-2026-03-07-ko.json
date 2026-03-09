@@ -1,0 +1,1309 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf4-multiglobal-news",
+    "date": "2026-03-07",
+    "computed_at": "2026-03-07T04:45:30Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 46,
+    "warn_count": 46,
+    "language": "ko"
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "news-20260307-apnews-084",
+      "title": "WHO Raises H5N1 to Phase 3 Global Alert After US Human-to-Human Transmission",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.4,
+      "psst_score": 31.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 2,
+      "id": "news-20260307-scmp-045",
+      "title": "Qatar's LNG Halt Exposes Asia's Energy Vulnerability",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.345,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.15,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 3,
+      "id": "news-20260307-nytimes-006",
+      "title": "FDA Vaccine Leadership Crisis: 3 Officials Resign Simultaneously, H5N1 Response Paralyzed",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 4.345,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.15,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 4,
+      "id": "news-20260307-ft-003",
+      "title": "Global Bonds Suffer One of Worst Routs in Years Amid War Premium Surge",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.3,
+      "psst_score": 31.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 5,
+      "id": "news-20260307-donga-008",
+      "title": "Korea Activates Strategic Petroleum Reserves as Hormuz Crisis Drives Oil to $125",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.245,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.15,
+        "urgency": 5.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 6,
+      "id": "news-20260307-globeandmail-066",
+      "title": "Saudi Aramco Activates Emergency Crude Reserves as Hormuz Disruption Enters Week 2",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.245,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.15,
+        "urgency": 5.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 7,
+      "id": "news-20260307-washingtonpost-044",
+      "title": "Amazon Project Olympus Claims AGI by 2027; $10B Internal Investment Sought",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.045,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.15,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 8,
+      "id": "news-20260307-sciencetimes-005",
+      "title": "KAIST Claims Room-Temperature Superconductor at 28°C; MIT/CERN Replication Pending",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 4.0,
+      "psst_score": 31.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 9,
+      "id": "news-20260307-arabnews-001",
+      "title": "El-Sisi Says Egypt in 'State of Near-Emergency' as War Threatens Economy",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 3.945,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 10,
+      "id": "news-20260307-apnews-005",
+      "title": "Trump Administration's FDA Vaccine Chief Resigns, Leaving H5N1 Response in Doubt",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 31.6,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 5.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 11,
+      "id": "news-20260307-globeandmail-001",
+      "title": "Carney Says Canada Could Be Called to Help Allies in Middle East; Top NATO Soldier Warns of Escalation",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 3.745,
+      "psst_score": 35.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 4
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 12,
+      "id": "news-20260307-arabnews-010",
+      "title": "Swedish Intelligence Warns of Increased Middle East War Fallout in Europe",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 3.745,
+      "psst_score": 35.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 13,
+      "id": "news-20260307-scmp-015",
+      "title": "US Tariff Refund System to Be Ready in 45 Days, After Trump Duties Struck Down",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "",
+      "priority_score": 3.745,
+      "psst_score": 35.6,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "불연속",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 14,
+      "id": "news-20260307-arstechnica-005",
+      "title": "Feds Issue Emergency Directive for iOS Zero-Day Vulnerabilities in State-Sponsored Operations",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 3.7,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 15,
+      "id": "news-20260307-handelsblatt-001",
+      "title": "Germany's €200 Billion Sondervermögen: Debt Brake Bypass for Defense and Infrastructure",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "",
+      "priority_score": 3.7,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "불연속",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 16,
+      "id": "news-20260307-lemonde-001",
+      "title": "France Deploys Charles de Gaulle Carrier Strike Group to Eastern Mediterranean",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 3.645,
+      "psst_score": 35.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 17,
+      "id": "news-20260307-hani-012",
+      "title": "Korea Constitutional Court Expected to Rule on Yoon Impeachment in 2 Weeks",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "",
+      "priority_score": 3.645,
+      "psst_score": 35.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "전조 사건",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 18,
+      "id": "news-20260307-lemonde-015",
+      "title": "EU Activates Energy Emergency Protocol Amid Hormuz Crisis; Calls Renewable Scale-Up Imperative",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.645,
+      "psst_score": 35.6,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 19,
+      "id": "news-20260307-politico-012",
+      "title": "DOGE Eliminates 38,000 Federal Science Positions in 60 Days; Brain Drain Accelerates",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "불연속",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 20,
+      "id": "news-20260307-scmp-022",
+      "title": "DeepMind AlphaFold3: 94% Protein-Ligand Accuracy Opens Computational Drug Design Era",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.545,
+      "psst_score": 35.6,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 21,
+      "id": "news-20260307-mt-076",
+      "title": "Arctic Rivers Turning Orange: Permafrost Tipping Point, +0.3°C by 2100",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "불연속",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 22,
+      "id": "news-20260307-politico-031",
+      "title": "EU Parliament Approves AI Liability Directive — 4% Revenue Fines for AI Harm",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 23,
+      "id": "news-20260307-washingtonpost-008",
+      "title": "China Lowers Growth Forecast, Boosts Military, Citing 'Grave' Environment",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.445,
+      "psst_score": 35.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.15,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 4,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 24,
+      "id": "news-20260307-hankyung-007",
+      "title": "SK Hynix HBM4 Mass Production Accelerated; Nvidia H200X Supply Secured for Q3 2026",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 25,
+      "id": "news-20260307-washingtonpost-024",
+      "title": "India Crosses 200 GW Solar, Third Largest Globally — 7 Years Ahead of Schedule",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.045,
+      "psst_score": 35.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.15,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 26,
+      "id": "news-20260307-japantimes-026",
+      "title": "Japan and Canada Establish Economic Security Dialogue on Critical Minerals, Semiconductors",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "",
+      "priority_score": 3.045,
+      "psst_score": 35.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.15,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "트렌드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 27,
+      "id": "news-20260307-politico-023",
+      "title": "Majority of Americans Oppose Trump's Iran Strikes, Per New Polling",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 28,
+      "id": "news-20260307-rt-035",
+      "title": "Israel Behind Azerbaijan Drone Provocations to Frame Iran – Russian Envoy",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "와일드 카드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 29,
+      "id": "news-20260307-mk-028",
+      "title": "Korea's Income Growth Stalled: Productivity Trap, Weak Won, Investment Deficit",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "트렌드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 30,
+      "id": "news-20260307-aitimes-027",
+      "title": "Korea AI Infrastructure: KRW 12 Trillion Plan to Double AI Compute to 4.5 EFLOPS by 2027",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "동인",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 31,
+      "id": "news-20260307-arstechnica-001",
+      "title": "NASA's Exploration Upper Stage Cancelled; Artemis III Moon Landing in Jeopardy",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "불연속",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 32,
+      "id": "news-20260307-nknews-112",
+      "title": "Ukraine Says North Korean Troops Are Still Carrying Out Strikes from Russia",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.9,
+      "psst_score": 31.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 3
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 33,
+      "id": "news-20260307-nknews-062",
+      "title": "North Korea Trumpets Congratulations from Russia, China for Party Congress",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "",
+      "priority_score": 2.9,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "트렌드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 34,
+      "id": "news-20260307-washingtonpost-031",
+      "title": "Greenland Independence Party Wins Snap Elections Amid US-Denmark Arctic Competition",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "",
+      "priority_score": 2.845,
+      "psst_score": 35.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.15,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "약신호",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 35,
+      "id": "news-20260307-nytimes-024",
+      "title": "NASA's DART Mission Confirms Asteroid Orbit Changed; Planetary Defense Validated",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.845,
+      "psst_score": 35.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.15,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 36,
+      "id": "news-20260307-nknews-089",
+      "title": "North Korea Launches First Domestic Satellite Internet Service",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.8,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 3,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 37,
+      "id": "news-20260307-arstechnica-010",
+      "title": "EV Battery Thermal Resilience Under Climate Stress Better Than Previously Modeled",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.8,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 38,
+      "id": "news-20260307-zdnet_kr-003",
+      "title": "Korea AI Volcanic Early Warning System for Baekdu Mountain; 72-Hour Eruption Prediction",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.8,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 39,
+      "id": "news-20260307-nknews-043",
+      "title": "New Zealand Sanctions North Korean Military Firms, Targeting Support for Russia",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "",
+      "priority_score": 2.7,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "트렌드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 40,
+      "id": "news-20260307-elfinanciero-034",
+      "title": "Mexico's Military Deployed to Cartel Funeral Sparks State-Cartel Relationship Controversy",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.5,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 41,
+      "id": "news-20260307-rt-058",
+      "title": "Nepal Holds First General Elections Since 'Gen Z Protests' That Toppled Government",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "",
+      "priority_score": 2.4,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "약신호",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 42,
+      "id": "news-20260307-globeandmail-073",
+      "title": "US House Judiciary Votes to Subpoena AG Bondi Over Epstein Files; Bipartisan Break",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.345,
+      "psst_score": 35.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.15,
+        "urgency": 2.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 43,
+      "id": "news-20260307-apnews-116",
+      "title": "Legal Fight Over SpaceX Beach Closures Hits Texas Supreme Court",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.3,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 44,
+      "id": "news-20260307-mt-007",
+      "title": "Korea's Gender Equality Minister: Glass Ceiling Remains Thick, 30% Board Mandate by 2028",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "",
+      "priority_score": 2.3,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "트렌드",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 45,
+      "id": "news-20260307-bbc-010",
+      "title": "Tory Peer Quits After Lords Investigation Into COVID-19 PPE Procurement Deals",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.3,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    },
+    {
+      "rank": 46,
+      "id": "news-20260307-elfinanciero-037",
+      "title": "Mexico 2026 Midterms: Electoral Reform Demands, Digital Voting Integrity Concerns",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "",
+      "priority_score": 2.3,
+      "psst_score": 31.1,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 2,
+        "CC": 0,
+        "IC": 2
+      },
+      "fssf_type_ko": "이머징 이슈",
+      "three_horizons_ko": "",
+      "psst_grade_ko": "미흡"
+    }
+  ]
+}

@@ -1602,6 +1602,75 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         f"Missing: {missing_quality}" if missing_quality else ""
     ))
 
+    # ── SOT-058: completion_gate_script_exists (v3.2.0) ──
+    # "Unvalidated SOT Is Not SOT" — validate_completion.py enforces Master Gate M4.
+    # Without this script, autopilot mode can declare "complete" without all deliverables.
+    completion_gate_path = "env-scanning/scripts/validate_completion.py"
+    cg_exists = _file_exists(project_root, completion_gate_path)
+    vr.results.append(CheckResult(
+        "SOT-058", "HALT",
+        "validate_completion.py (Master Gate M4) must exist",
+        cg_exists,
+        f"Missing: {completion_gate_path}" if not cg_exists else ""
+    ))
+
+    # ── SOT-059: completion_gate_m4_in_orchestrator (v3.2.0) ──
+    # Master orchestrator must define M4 section and reference validate_completion.py.
+    # This prevents M4 from being silently removed without startup detection.
+    m4_errors = []
+    master_orch_path = system.get("execution", {}).get("master_orchestrator", "")
+    if master_orch_path:
+        master_full = _resolve(project_root, master_orch_path)
+        if master_full.exists():
+            master_content = master_full.read_text(encoding="utf-8")
+            if "Master Gate M4" not in master_content:
+                m4_errors.append("master_orchestrator missing 'Master Gate M4' section")
+            if "validate_completion.py" not in master_content:
+                m4_errors.append("master_orchestrator does not reference validate_completion.py")
+        else:
+            m4_errors.append(f"master_orchestrator not found: {master_orch_path}")
+    else:
+        m4_errors.append("system.execution.master_orchestrator not defined in SOT")
+    vr.results.append(CheckResult(
+        "SOT-059", "HALT",
+        "Master orchestrator defines Master Gate M4 with validate_completion.py",
+        len(m4_errors) == 0,
+        "; ".join(m4_errors) if m4_errors else ""
+    ))
+
+    # ── SOT-060: validate_phase2_output.py (Pipeline Gate 2) must exist (v3.3.0) ──
+    # "Unvalidated SOT Is Not SOT" — validate_phase2_output.py enforces Pipeline Gate 2.
+    # Without this script, LLM hallucinations in Phase 2 (invalid STEEPs, out-of-range
+    # scores, invalid FSSF types) propagate silently into final reports.
+    pg2_gate_path = "env-scanning/scripts/validate_phase2_output.py"
+    pg2_exists = _file_exists(project_root, pg2_gate_path)
+    vr.results.append(CheckResult(
+        "SOT-060", "HALT",
+        "validate_phase2_output.py (Pipeline Gate 2) must exist",
+        pg2_exists,
+        f"Missing: {pg2_gate_path}" if not pg2_exists else ""
+    ))
+
+    # ── SOT-061: orchestrator-protocol.md references validate_phase2_output.py (v3.3.0) ──
+    pg2_orch_errors = []
+    orch_protocol = system.get("execution", {}).get("protocol", "")
+    if orch_protocol:
+        orch_protocol_full = project_root / orch_protocol
+        if orch_protocol_full.exists():
+            orch_content = orch_protocol_full.read_text(encoding="utf-8")
+            if "validate_phase2_output.py" not in orch_content:
+                pg2_orch_errors.append("orchestrator-protocol.md does not reference validate_phase2_output.py")
+        else:
+            pg2_orch_errors.append(f"orchestrator protocol not found: {orch_protocol}")
+    else:
+        pg2_orch_errors.append("system.execution.protocol not defined in SOT")
+    vr.results.append(CheckResult(
+        "SOT-061", "HALT",
+        "Orchestrator protocol defines Pipeline Gate 2 with validate_phase2_output.py",
+        len(pg2_orch_errors) == 0,
+        "; ".join(pg2_orch_errors) if pg2_orch_errors else ""
+    ))
+
     return vr
 
 

@@ -1,0 +1,15 @@
+{
+  "gate_id": "temporal_gate.py",
+  "gate_version": "1.0.0",
+  "workflow": "wf2-arxiv",
+  "gate_status": "PASS_WITH_EXCEPTION",
+  "gate_message": "arXiv posting delay exception applied. 686 signals from 2026-03-04/05 accepted as most recent 48h batch.",
+  "exception_reason": "arXiv batch posting delay (daily at ~20:00 EST, 1-2 day submission-to-posting lag)",
+  "statistics": {
+    "total_signals": 686,
+    "posting_dates": {
+      "2026-03-04": 162,
+      "2026-03-05": 524
+    }
+  }
+}

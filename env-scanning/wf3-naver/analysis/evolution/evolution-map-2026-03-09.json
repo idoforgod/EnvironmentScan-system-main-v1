@@ -1,0 +1,6558 @@
+{
+  "tracker_version": "1.4.0",
+  "workflow": "wf1-general",
+  "scan_date": "2026-03-09",
+  "computed_at": "2026-03-09T00:23:12Z",
+  "config_source": "env-scanning/config/workflow-registry.yaml",
+  "config_used": {
+    "title_threshold": 0.8,
+    "semantic_threshold": 0.7,
+    "high_confidence_threshold": 0.85,
+    "fade_days": 3,
+    "max_thread_age_days": 90,
+    "min_appearances_for_velocity": 2,
+    "strengthening_delta": 5,
+    "weakening_delta": -5
+  },
+  "summary": {
+    "total_signals_today": 251,
+    "new_signals": 251,
+    "recurring_signals": 0,
+    "strengthening_signals": 0,
+    "weakening_signals": 0,
+    "transformed_signals": 0,
+    "faded_threads": 0,
+    "active_threads": 251
+  },
+  "evolution_entries": [
+    {
+      "signal_id": "naver-20260309-100-001",
+      "thread_id": "THREAD-WF1-001",
+      "canonical_title": "李대통령, 10일 대·中企 상생간담회…삼성·SK·현대車 등 참석",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "李대통령, 10일 대·中企 상생간담회…삼성·SK·현대車 등 참석",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-002",
+      "thread_id": "THREAD-WF1-002",
+      "canonical_title": "[속보] 이 대통령 지지율 58.2%…민주 48.1%·국힘 32.4% [리얼미터]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[속보] 이 대통령 지지율 58.2%…민주 48.1%·국힘 32.4% [리얼미터]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-003",
+      "thread_id": "THREAD-WF1-003",
+      "canonical_title": "與강경파 ‘檢개혁’ 반발에, 李 “나만 진리라는 태도 안돼” 직접 제동",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "與강경파 ‘檢개혁’ 반발에, 李 “나만 진리라는 태도 안돼” 직접 제동",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-004",
+      "thread_id": "THREAD-WF1-004",
+      "canonical_title": "이 대통령 “개혁도 옥석 가려야…초가삼간 태우는 일 경계” [전문]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이 대통령 “개혁도 옥석 가려야…초가삼간 태우는 일 경계” [전문]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-005",
+      "thread_id": "THREAD-WF1-005",
+      "canonical_title": "오세훈의 정치 인생 ‘세 번째 결단’…향후 행보는?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "오세훈의 정치 인생 ‘세 번째 결단’…향후 행보는?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-006",
+      "thread_id": "THREAD-WF1-006",
+      "canonical_title": "민주, 제주·전북지사 후보 경선 확정…현역 포함 '3파전' 치른다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "민주, 제주·전북지사 후보 경선 확정…현역 포함 '3파전' 치른다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-007",
+      "thread_id": "THREAD-WF1-007",
+      "canonical_title": "패럴림픽서 김윤지 금메달 따자...이대통령 “환한 미소로 즐거운 도전 이어가길”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "패럴림픽서 김윤지 금메달 따자...이대통령 “환한 미소로 즐거운 도전 이어가길”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-008",
+      "thread_id": "THREAD-WF1-008",
+      "canonical_title": "정청래 \"지선 전략공천 안할 것\"… 보선 10여곳 이를수도 [막오른 6·3 지방선거]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "정청래 \"지선 전략공천 안할 것\"… 보선 10여곳 이를수도 [막오른 6·3 지방선거]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-009",
+      "thread_id": "THREAD-WF1-009",
+      "canonical_title": "중동 일대 국민 탈출 지속…관저에 대피소 차리기도",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중동 일대 국민 탈출 지속…관저에 대피소 차리기도",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-010",
+      "thread_id": "THREAD-WF1-010",
+      "canonical_title": "국힘 수도권·충청 후보 구인난…오세훈·김태흠 공천 미신청(종합)",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "국힘 수도권·충청 후보 구인난…오세훈·김태흠 공천 미신청(종합)",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-011",
+      "thread_id": "THREAD-WF1-011",
+      "canonical_title": "조은희 \"오세훈·김태흠 미신청, 당의 현주소…일부 시도 장동혁 오지 말라\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "조은희 \"오세훈·김태흠 미신청, 당의 현주소…일부 시도 장동혁 오지 말라\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-012",
+      "thread_id": "THREAD-WF1-012",
+      "canonical_title": "“집권세력 마음대로 못 한다”…李 메시지의 행간[송종호의 국정쏙쏙]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“집권세력 마음대로 못 한다”…李 메시지의 행간[송종호의 국정쏙쏙]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-013",
+      "thread_id": "THREAD-WF1-013",
+      "canonical_title": "[6.3 지방선거 직격 인터뷰] 1. 김진태 강원도지사",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[6.3 지방선거 직격 인터뷰] 1. 김진태 강원도지사",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-014",
+      "thread_id": "THREAD-WF1-014",
+      "canonical_title": "윤상현 \"오세훈 미등록은 경고…'TK 자민련' 과장 아닐지도\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "윤상현 \"오세훈 미등록은 경고…'TK 자민련' 과장 아닐지도\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-015",
+      "thread_id": "THREAD-WF1-015",
+      "canonical_title": "李 또 '개혁 신중론' 꺼냈다...\"초가삼간 태워선 안돼\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "李 또 '개혁 신중론' 꺼냈다...\"초가삼간 태워선 안돼\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-016",
+      "thread_id": "THREAD-WF1-016",
+      "canonical_title": "이 대통령 \"개혁하려다 '빈대 잡자고 초가삼간 태우기' 안돼\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이 대통령 \"개혁하려다 '빈대 잡자고 초가삼간 태우기' 안돼\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-017",
+      "thread_id": "THREAD-WF1-017",
+      "canonical_title": "오세훈, 후보등록 안 했다…나경원·신동욱도 불출마 가닥",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "오세훈, 후보등록 안 했다…나경원·신동욱도 불출마 가닥",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-018",
+      "thread_id": "THREAD-WF1-018",
+      "canonical_title": "윤상현, 오세훈 공천 미신청에 “국힘, TK 자민련으로 쪼그라들 수도”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "윤상현, 오세훈 공천 미신청에 “국힘, TK 자민련으로 쪼그라들 수도”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-019",
+      "thread_id": "THREAD-WF1-019",
+      "canonical_title": "\"미꾸라지 몇 마리가 우물 흐리지…\" 李대통령, 조희대 겨냥?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"미꾸라지 몇 마리가 우물 흐리지…\" 李대통령, 조희대 겨냥?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-020",
+      "thread_id": "THREAD-WF1-020",
+      "canonical_title": "李대통령 \"사법개혁, 썩은 일부의 외과시술적 교정…상처·갈등 최소화\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "李대통령 \"사법개혁, 썩은 일부의 외과시술적 교정…상처·갈등 최소화\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-021",
+      "thread_id": "THREAD-WF1-021",
+      "canonical_title": "'불출마 러시' 국힘…나경원 불출마·오세훈 공천 신청 안 해",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'불출마 러시' 국힘…나경원 불출마·오세훈 공천 신청 안 해",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-022",
+      "thread_id": "THREAD-WF1-022",
+      "canonical_title": "\"수속 중에도 공습경보\" 철렁…국민 203명 '무사 귀국'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"수속 중에도 공습경보\" 철렁…국민 203명 '무사 귀국'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-023",
+      "thread_id": "THREAD-WF1-023",
+      "canonical_title": "[정치뷰] 현역 시장도 '공천 미등록' 국힘…李, 與강경파 또 저격?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[정치뷰] 현역 시장도 '공천 미등록' 국힘…李, 與강경파 또 저격?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-024",
+      "thread_id": "THREAD-WF1-024",
+      "canonical_title": "李대통령 “빈대 잡자고 초가삼간 태우는 개혁 조심해야…옥석 가려 해결”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "李대통령 “빈대 잡자고 초가삼간 태우는 개혁 조심해야…옥석 가려 해결”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-025",
+      "thread_id": "THREAD-WF1-025",
+      "canonical_title": "[단독]이규연 '주택→상가' 전환 이후 딸 청년주택 당첨",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[단독]이규연 '주택→상가' 전환 이후 딸 청년주택 당첨",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-026",
+      "thread_id": "THREAD-WF1-026",
+      "canonical_title": "TK에만 몰린 국힘 시도지사 공천 신청…PK는 현역 대 도전자 ‘1대 1’",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "TK에만 몰린 국힘 시도지사 공천 신청…PK는 현역 대 도전자 ‘1대 1’",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-027",
+      "thread_id": "THREAD-WF1-027",
+      "canonical_title": "민주당 ‘공취모’ 논란, 8월 전당대회 향한 당권 경쟁 신호탄?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "민주당 ‘공취모’ 논란, 8월 전당대회 향한 당권 경쟁 신호탄?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-028",
+      "thread_id": "THREAD-WF1-028",
+      "canonical_title": "李대통령 “사법개혁, ‘외과시술적 교정’ 필요…옥석 가려야”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "李대통령 “사법개혁, ‘외과시술적 교정’ 필요…옥석 가려야”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-029",
+      "thread_id": "THREAD-WF1-029",
+      "canonical_title": "\"윤 정부도 코스피 6천\" 발언에 \"그땐 뭐했나\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"윤 정부도 코스피 6천\" 발언에 \"그땐 뭐했나\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-030",
+      "thread_id": "THREAD-WF1-030",
+      "canonical_title": "[지선PICK] 최윤석 \"나는 행정·정무·민간 경력 갖춘 사람…'베스트 송파' 만들 것\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[지선PICK] 최윤석 \"나는 행정·정무·민간 경력 갖춘 사람…'베스트 송파' 만들 것\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-031",
+      "thread_id": "THREAD-WF1-031",
+      "canonical_title": "정원오 뜨고 나경원 불출마…당별 경선 대진표 윤곽",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "정원오 뜨고 나경원 불출마…당별 경선 대진표 윤곽",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-032",
+      "thread_id": "THREAD-WF1-032",
+      "canonical_title": "\"마음대로 다 해선 안돼\"‥이 대통령의 경고",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"마음대로 다 해선 안돼\"‥이 대통령의 경고",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-033",
+      "thread_id": "THREAD-WF1-033",
+      "canonical_title": "정청래 \"지선 승리가 지상과제\"‥오세훈 미신청",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "정청래 \"지선 승리가 지상과제\"‥오세훈 미신청",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-034",
+      "thread_id": "THREAD-WF1-034",
+      "canonical_title": "與 대구시장 후보 누구…'김부겸 차출론', 당사자도 고심?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "與 대구시장 후보 누구…'김부겸 차출론', 당사자도 고심?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-035",
+      "thread_id": "THREAD-WF1-035",
+      "canonical_title": "與, 제주·전북지사 후보 경선… 현역 포함 3파전",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "與, 제주·전북지사 후보 경선… 현역 포함 3파전",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-036",
+      "thread_id": "THREAD-WF1-036",
+      "canonical_title": "오세훈도 후보 미등록…지선 석 달 앞 국민의힘 공관위 고심 등 [3/9(월) 데일리안 출근길 뉴스]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "오세훈도 후보 미등록…지선 석 달 앞 국민의힘 공관위 고심 등 [3/9(월) 데일리안 출근길 뉴스]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-037",
+      "thread_id": "THREAD-WF1-037",
+      "canonical_title": "뉴이재명 논란, 팬덤 분화일까 갈라치기일까",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "뉴이재명 논란, 팬덤 분화일까 갈라치기일까",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-038",
+      "thread_id": "THREAD-WF1-038",
+      "canonical_title": "李 대통령 “사법개혁, ‘외과시술적 교정’유용…미꾸라지가 물 흐려”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "李 대통령 “사법개혁, ‘외과시술적 교정’유용…미꾸라지가 물 흐려”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-039",
+      "thread_id": "THREAD-WF1-039",
+      "canonical_title": "오산 착륙한 美 전략수송기 ‘C-5’·‘C-17’ 정체는[이현호의 밀리터리!톡]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "오산 착륙한 美 전략수송기 ‘C-5’·‘C-17’ 정체는[이현호의 밀리터리!톡]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-040",
+      "thread_id": "THREAD-WF1-040",
+      "canonical_title": "[인터뷰] 한동훈 “조국 행보 비겁…전재수 통일교 의혹도 해소해야” (영상)",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[인터뷰] 한동훈 “조국 행보 비겁…전재수 통일교 의혹도 해소해야” (영상)",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-041",
+      "thread_id": "THREAD-WF1-041",
+      "canonical_title": "'명픽' 정원오 서울시장 출사표…주진우 부산시장 도전장",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'명픽' 정원오 서울시장 출사표…주진우 부산시장 도전장",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-042",
+      "thread_id": "THREAD-WF1-042",
+      "canonical_title": "[단독]이규연 수석의 수상한 '강남 상가'…다주택 회피 정황",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[단독]이규연 수석의 수상한 '강남 상가'…다주택 회피 정황",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-043",
+      "thread_id": "THREAD-WF1-043",
+      "canonical_title": "인천 여야 거대 정당, 기초의원 중대선거구까지 ‘독식’ [6·3 스포트라이트]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "인천 여야 거대 정당, 기초의원 중대선거구까지 ‘독식’ [6·3 스포트라이트]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-044",
+      "thread_id": "THREAD-WF1-044",
+      "canonical_title": "오세훈 ‘당 노선 정상화’ 배수진… 서울시장 공천 신청 안 했다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "오세훈 ‘당 노선 정상화’ 배수진… 서울시장 공천 신청 안 했다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-100-045",
+      "thread_id": "THREAD-WF1-045",
+      "canonical_title": "조국에 공격당한 與 강득구 “사면 외쳤더니… 내 지역구서 직접 붙자”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "조국에 공격당한 與 강득구 “사면 외쳤더니… 내 지역구서 직접 붙자”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-048",
+      "thread_id": "THREAD-WF1-046",
+      "canonical_title": "경영계 \"노동계, 노란봉투법 무리한 요구 안 돼…불법행위 자제\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "경영계 \"노동계, 노란봉투법 무리한 요구 안 돼…불법행위 자제\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-049",
+      "thread_id": "THREAD-WF1-047",
+      "canonical_title": "비트코인 반등할까…“7만4000달러, 강세 신호”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "비트코인 반등할까…“7만4000달러, 강세 신호”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-050",
+      "thread_id": "THREAD-WF1-048",
+      "canonical_title": "기름값 고공행진에 정부 “불법 행위 엄단 조치”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "기름값 고공행진에 정부 “불법 행위 엄단 조치”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-051",
+      "thread_id": "THREAD-WF1-049",
+      "canonical_title": "‘파업 불참자 해고 1순위’… 삼성전자 노조, 직원들까지 압박",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘파업 불참자 해고 1순위’… 삼성전자 노조, 직원들까지 압박",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-052",
+      "thread_id": "THREAD-WF1-050",
+      "canonical_title": "아파트 대출 막히자 오피스텔로…1월 거래량 전년 대비 65% 급증",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "아파트 대출 막히자 오피스텔로…1월 거래량 전년 대비 65% 급증",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-053",
+      "thread_id": "THREAD-WF1-051",
+      "canonical_title": "삼성SDI, AI 기반 ESS 화재 예방 소프트웨어 'SBI' 공개",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "삼성SDI, AI 기반 ESS 화재 예방 소프트웨어 'SBI' 공개",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-054",
+      "thread_id": "THREAD-WF1-052",
+      "canonical_title": "‘두쫀쿠’ 먹고 두드러기·혈관부종? 소비자원 “알레르기 유발 물질 등 확인하세요”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘두쫀쿠’ 먹고 두드러기·혈관부종? 소비자원 “알레르기 유발 물질 등 확인하세요”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-055",
+      "thread_id": "THREAD-WF1-053",
+      "canonical_title": "\"수소기업 투자로 매달 수백만원\"…‘투자 후기’ 믿었다가 낭패",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"수소기업 투자로 매달 수백만원\"…‘투자 후기’ 믿었다가 낭패",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-056",
+      "thread_id": "THREAD-WF1-054",
+      "canonical_title": "K변압기 765kV 수주 랠리 더 가팔라진다..증설도 잇따라",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "K변압기 765kV 수주 랠리 더 가팔라진다..증설도 잇따라",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-057",
+      "thread_id": "THREAD-WF1-055",
+      "canonical_title": "급등락 반복하는 K-증시…“공격적 베팅보다 분할 매수 대응해야” [이런국장 저런주식]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "급등락 반복하는 K-증시…“공격적 베팅보다 분할 매수 대응해야” [이런국장 저런주식]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-058",
+      "thread_id": "THREAD-WF1-056",
+      "canonical_title": "‘안전제일’ 버린 실버개미의 대반전… 70대 퇴직연금 수익률 58% 비결",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘안전제일’ 버린 실버개미의 대반전… 70대 퇴직연금 수익률 58% 비결",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-059",
+      "thread_id": "THREAD-WF1-057",
+      "canonical_title": "DS투자 \"이란 보복능력 훼손…불확실성 프리미엄 오래 안 간다\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "DS투자 \"이란 보복능력 훼손…불확실성 프리미엄 오래 안 간다\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-060",
+      "thread_id": "THREAD-WF1-058",
+      "canonical_title": "유가 급등 지속…전쟁 장기화 우려↑[굿모닝 글로벌 이슈]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "유가 급등 지속…전쟁 장기화 우려↑[굿모닝 글로벌 이슈]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-061",
+      "thread_id": "THREAD-WF1-059",
+      "canonical_title": "\"폭락장이 기회\"…사흘 만에 1.3조 불어난 '마통'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"폭락장이 기회\"…사흘 만에 1.3조 불어난 '마통'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-062",
+      "thread_id": "THREAD-WF1-060",
+      "canonical_title": "[마켓PRO] Today's Pick : \"'유가 100달러' 소식에 이차전지주 오를 이유\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[마켓PRO] Today's Pick : \"'유가 100달러' 소식에 이차전지주 오를 이유\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-063",
+      "thread_id": "THREAD-WF1-061",
+      "canonical_title": "iM증권 \"전쟁으로 주춤해도 반도체 이익상향 사이클 안 끝나\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "iM증권 \"전쟁으로 주춤해도 반도체 이익상향 사이클 안 끝나\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-064",
+      "thread_id": "THREAD-WF1-062",
+      "canonical_title": "중동 긴장감에 방산주 고공행진…한화그룹 시총 '180.6조', 4위 등극",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중동 긴장감에 방산주 고공행진…한화그룹 시총 '180.6조', 4위 등극",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-065",
+      "thread_id": "THREAD-WF1-063",
+      "canonical_title": "RISE 삼성전자SK하이닉스채권혼합50 ETF, 순자산 3000억 돌파",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "RISE 삼성전자SK하이닉스채권혼합50 ETF, 순자산 3000억 돌파",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-066",
+      "thread_id": "THREAD-WF1-064",
+      "canonical_title": "[속보]다시 온 국제유가 100달러 시대",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[속보]다시 온 국제유가 100달러 시대",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-067",
+      "thread_id": "THREAD-WF1-065",
+      "canonical_title": "“유가 급등 수혜, 이차전지에도 퍼진다”…에코프로비엠 목표가↑ [줍줍 리포트]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“유가 급등 수혜, 이차전지에도 퍼진다”…에코프로비엠 목표가↑ [줍줍 리포트]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-068",
+      "thread_id": "THREAD-WF1-066",
+      "canonical_title": "DKME \"경영권 분쟁 종식 거래재개 청신호\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "DKME \"경영권 분쟁 종식 거래재개 청신호\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-069",
+      "thread_id": "THREAD-WF1-067",
+      "canonical_title": "금값, 5120달러대 '뚝'…이란전으로 유가급등·인플레 우려↑",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "금값, 5120달러대 '뚝'…이란전으로 유가급등·인플레 우려↑",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-070",
+      "thread_id": "THREAD-WF1-068",
+      "canonical_title": "비트코인, 9800만원선 턱걸이…유가 급등에 투심 '와르르'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "비트코인, 9800만원선 턱걸이…유가 급등에 투심 '와르르'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-071",
+      "thread_id": "THREAD-WF1-069",
+      "canonical_title": "'자산 2조' 빗장 풀린 제약바이오 이사회… '몰빵 투표' 공포에 거물급 방패 세우...",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'자산 2조' 빗장 풀린 제약바이오 이사회… '몰빵 투표' 공포에 거물급 방패 세우...",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-072",
+      "thread_id": "THREAD-WF1-070",
+      "canonical_title": "\"제2의 렉라자 목표\"…'30인 드림팀' 카나프테라퓨틱스의 글로벌 도전장",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"제2의 렉라자 목표\"…'30인 드림팀' 카나프테라퓨틱스의 글로벌 도전장",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-073",
+      "thread_id": "THREAD-WF1-071",
+      "canonical_title": "[유가 100달러]호르무즈 봉쇄에 해운 ‘운임 쇼크’ 현실화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[유가 100달러]호르무즈 봉쇄에 해운 ‘운임 쇼크’ 현실화",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-074",
+      "thread_id": "THREAD-WF1-072",
+      "canonical_title": "[투자자 순매수 TOP5] 개인 반도체 매수, 외인은 조선·금융 이동",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[투자자 순매수 TOP5] 개인 반도체 매수, 외인은 조선·금융 이동",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-075",
+      "thread_id": "THREAD-WF1-073",
+      "canonical_title": "증시 변동성 커지는데…'빚투' 금액 연일 사상 최대치",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "증시 변동성 커지는데…'빚투' 금액 연일 사상 최대치",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-076",
+      "thread_id": "THREAD-WF1-074",
+      "canonical_title": "삼성SDI, ‘피지컬 AI용’ 전고체 배터리 첫 공개…“AI 시대 정조준”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "삼성SDI, ‘피지컬 AI용’ 전고체 배터리 첫 공개…“AI 시대 정조준”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-077",
+      "thread_id": "THREAD-WF1-075",
+      "canonical_title": "이란사태, 제2의 러·우전쟁인가…경기 침체 가능성↑",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란사태, 제2의 러·우전쟁인가…경기 침체 가능성↑",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-078",
+      "thread_id": "THREAD-WF1-076",
+      "canonical_title": "“이번 주 1,500원 분수령”…'고유가·강달러'에 원화 흔들",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“이번 주 1,500원 분수령”…'고유가·강달러'에 원화 흔들",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-079",
+      "thread_id": "THREAD-WF1-077",
+      "canonical_title": "[어제장 오늘장] 엔비디아 베라 루빈, 삼성·SK HBM4 들어간다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[어제장 오늘장] 엔비디아 베라 루빈, 삼성·SK HBM4 들어간다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-080",
+      "thread_id": "THREAD-WF1-078",
+      "canonical_title": "코스피, 급락 뒤 반등 나왔지만…”V자보다 W자 재시험 열어둬야”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "코스피, 급락 뒤 반등 나왔지만…”V자보다 W자 재시험 열어둬야”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-081",
+      "thread_id": "THREAD-WF1-079",
+      "canonical_title": "\"덕산네오룩스, 프라이버시 디스플레이 수혜…비중 확대 추천\"[클릭 e종목]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"덕산네오룩스, 프라이버시 디스플레이 수혜…비중 확대 추천\"[클릭 e종목]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-082",
+      "thread_id": "THREAD-WF1-080",
+      "canonical_title": "리가켐바이오, 1년새 항체 도입 6개…항체 강화 하는 이유",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "리가켐바이오, 1년새 항체 도입 6개…항체 강화 하는 이유",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-083",
+      "thread_id": "THREAD-WF1-081",
+      "canonical_title": "루닛·뷰노·코어라인 상장 후 지속된 시장조달…자생력 갖추려면",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "루닛·뷰노·코어라인 상장 후 지속된 시장조달…자생력 갖추려면",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-084",
+      "thread_id": "THREAD-WF1-082",
+      "canonical_title": "[기업이슈] 에스팀, 코스닥 상장 첫날 공모가 대비 4배 '따따블'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[기업이슈] 에스팀, 코스닥 상장 첫날 공모가 대비 4배 '따따블'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-085",
+      "thread_id": "THREAD-WF1-083",
+      "canonical_title": "유가 100달러 돌파에 얼어붙은 프리마켓…삼전·하닉 7%대 약세 [코주부]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "유가 100달러 돌파에 얼어붙은 프리마켓…삼전·하닉 7%대 약세 [코주부]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-086",
+      "thread_id": "THREAD-WF1-084",
+      "canonical_title": "중동 사태 확전 양상에 유가 100달러 돌파…시장 경계감 고조[채권브리핑]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중동 사태 확전 양상에 유가 100달러 돌파…시장 경계감 고조[채권브리핑]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-087",
+      "thread_id": "THREAD-WF1-085",
+      "canonical_title": "“이란 사태 우려 지속에 호르무즈 해협 봉쇄 장기화…우회 육상 수송 가능성 주목”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“이란 사태 우려 지속에 호르무즈 해협 봉쇄 장기화…우회 육상 수송 가능성 주목”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-088",
+      "thread_id": "THREAD-WF1-086",
+      "canonical_title": "이란 차기 최고지도자, 하메네이 차남 '모즈타바' 선출[뉴스새벽배송]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란 차기 최고지도자, 하메네이 차남 '모즈타바' 선출[뉴스새벽배송]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-089",
+      "thread_id": "THREAD-WF1-087",
+      "canonical_title": "삼성SDI, 인터배터리2026서 피지컬 AI용 전고체 배터리 첫 공개",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "삼성SDI, 인터배터리2026서 피지컬 AI용 전고체 배터리 첫 공개",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-090",
+      "thread_id": "THREAD-WF1-088",
+      "canonical_title": "기름값 2천 원 눈앞, 값싼 곳 찾아 '주유런'…\"화물차, 반만 주유\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "기름값 2천 원 눈앞, 값싼 곳 찾아 '주유런'…\"화물차, 반만 주유\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-091",
+      "thread_id": "THREAD-WF1-089",
+      "canonical_title": "[굿모닝 마켓] 10월 후 최악의 한 주 보낸 뉴욕증시…다우 3% 급락",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[굿모닝 마켓] 10월 후 최악의 한 주 보낸 뉴욕증시…다우 3% 급락",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-101-092",
+      "thread_id": "THREAD-WF1-090",
+      "canonical_title": "삼성 파운드리, 인재 확보 총력전…5년 만의 '흑자 전환' 노린다[칩톡]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "삼성 파운드리, 인재 확보 총력전…5년 만의 '흑자 전환' 노린다[칩톡]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-093",
+      "thread_id": "THREAD-WF1-091",
+      "canonical_title": "강원 흐리고 눈 또는 비…\"일교차 커 건강관리 주의\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "강원 흐리고 눈 또는 비…\"일교차 커 건강관리 주의\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-094",
+      "thread_id": "THREAD-WF1-092",
+      "canonical_title": "법원 \"개인적 선호로 여권 영문 표기 변경 불가\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "법원 \"개인적 선호로 여권 영문 표기 변경 불가\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-095",
+      "thread_id": "THREAD-WF1-093",
+      "canonical_title": "\"지인 집에서 붙잡혀\"...이재룡, 음주운전 사고 전후 어디에",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"지인 집에서 붙잡혀\"...이재룡, 음주운전 사고 전후 어디에",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-096",
+      "thread_id": "THREAD-WF1-094",
+      "canonical_title": "'4개월 아기 학대 사망' 공분 확산…엄벌 탄원 900여건",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'4개월 아기 학대 사망' 공분 확산…엄벌 탄원 900여건",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-097",
+      "thread_id": "THREAD-WF1-095",
+      "canonical_title": "출석일시 잘못 기재된 소환장 송달…대법 \"절차 위반, 다시 재판\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "출석일시 잘못 기재된 소환장 송달…대법 \"절차 위반, 다시 재판\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-098",
+      "thread_id": "THREAD-WF1-096",
+      "canonical_title": "대법 \"스파오 넘기며 대금 회수 지연·이자 면제…이랜드 부당지원\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "대법 \"스파오 넘기며 대금 회수 지연·이자 면제…이랜드 부당지원\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-099",
+      "thread_id": "THREAD-WF1-097",
+      "canonical_title": "\"그 옷, 병사의 성적호기심 자극한다\" 성희롱 군무원…법원 \"해임은 과도한 징계\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"그 옷, 병사의 성적호기심 자극한다\" 성희롱 군무원…법원 \"해임은 과도한 징계\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-100",
+      "thread_id": "THREAD-WF1-098",
+      "canonical_title": "서울시, 배달·소상공인 전기이륜차 구매 부담 낮춘다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "서울시, 배달·소상공인 전기이륜차 구매 부담 낮춘다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-101",
+      "thread_id": "THREAD-WF1-099",
+      "canonical_title": "동급생 놀리고 동급생 엄마까지 폭행한 중학생…법원, 가해학생 부모에게 “손해배상하라”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "동급생 놀리고 동급생 엄마까지 폭행한 중학생…법원, 가해학생 부모에게 “손해배상하라”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-102",
+      "thread_id": "THREAD-WF1-100",
+      "canonical_title": "‘BTS 특수 노린 바가지 영업?’…서울시, 법규 위반 숙박업소 무더기 적발",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘BTS 특수 노린 바가지 영업?’…서울시, 법규 위반 숙박업소 무더기 적발",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-103",
+      "thread_id": "THREAD-WF1-101",
+      "canonical_title": "풀려버린 눈, 비틀대는 걸음…작년 하반기에만 마약사범 6648명 검거 [세상&]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "풀려버린 눈, 비틀대는 걸음…작년 하반기에만 마약사범 6648명 검거 [세상&]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-104",
+      "thread_id": "THREAD-WF1-102",
+      "canonical_title": "'모텔 연쇄살인' 여성, 범행 뒤 '치킨 13만원어치' 가져간 이유는",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'모텔 연쇄살인' 여성, 범행 뒤 '치킨 13만원어치' 가져간 이유는",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-105",
+      "thread_id": "THREAD-WF1-103",
+      "canonical_title": "중부지방 곳곳 비·눈…북서풍에 낮에도 '쌀쌀', 미세먼지 유입",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중부지방 곳곳 비·눈…북서풍에 낮에도 '쌀쌀', 미세먼지 유입",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-106",
+      "thread_id": "THREAD-WF1-104",
+      "canonical_title": "사우나서 男 6명 '집단 음란행위'…도망치다 잡힌 50대 경찰",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "사우나서 男 6명 '집단 음란행위'…도망치다 잡힌 50대 경찰",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-107",
+      "thread_id": "THREAD-WF1-105",
+      "canonical_title": "이재룡 \"음주 상태 아니었다\"… 면허취소 상태였는데 혐의 부인",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이재룡 \"음주 상태 아니었다\"… 면허취소 상태였는데 혐의 부인",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-109",
+      "thread_id": "THREAD-WF1-106",
+      "canonical_title": "“사고 당시 음주 상태 아니었다”… 이재룡, 경찰 진술",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“사고 당시 음주 상태 아니었다”… 이재룡, 경찰 진술",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-110",
+      "thread_id": "THREAD-WF1-107",
+      "canonical_title": "중부지방 비나 눈…수도권·강원영서 미세먼지 '나쁨'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중부지방 비나 눈…수도권·강원영서 미세먼지 '나쁨'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-111",
+      "thread_id": "THREAD-WF1-108",
+      "canonical_title": "\"사이즈가 어떻게 되시죠?\"…면접 탈락자에게 온 연락 \"펑펑 울었다\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"사이즈가 어떻게 되시죠?\"…면접 탈락자에게 온 연락 \"펑펑 울었다\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-112",
+      "thread_id": "THREAD-WF1-109",
+      "canonical_title": "70만원 받고 '보복 대행' 테러한 동탄 20대女 구속",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "70만원 받고 '보복 대행' 테러한 동탄 20대女 구속",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-113",
+      "thread_id": "THREAD-WF1-110",
+      "canonical_title": "“내 여권 이름 LEE에서 YI로 바꿔달라”...법원 “불편 있어야 변경 가능”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“내 여권 이름 LEE에서 YI로 바꿔달라”...법원 “불편 있어야 변경 가능”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-114",
+      "thread_id": "THREAD-WF1-111",
+      "canonical_title": "몰래 대출받아 '코인 빚투' 한 남편, 적반하장 태도에 아내 분통 [어떻게 생각하세요]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "몰래 대출받아 '코인 빚투' 한 남편, 적반하장 태도에 아내 분통 [어떻게 생각하세요]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-115",
+      "thread_id": "THREAD-WF1-112",
+      "canonical_title": "\"월급 120만 원 깎인 셈\"…화물차 기사들 '비명'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"월급 120만 원 깎인 셈\"…화물차 기사들 '비명'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-116",
+      "thread_id": "THREAD-WF1-113",
+      "canonical_title": "사라지는 유교 가치관…‘부모 부양 자식 책임’ 20%에 그쳐",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "사라지는 유교 가치관…‘부모 부양 자식 책임’ 20%에 그쳐",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-117",
+      "thread_id": "THREAD-WF1-114",
+      "canonical_title": "여권 영문명 성 ‘LEE 아닌 YI’?…법원 “개인 선호 이유 변경 불가”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "여권 영문명 성 ‘LEE 아닌 YI’?…법원 “개인 선호 이유 변경 불가”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-118",
+      "thread_id": "THREAD-WF1-115",
+      "canonical_title": "오늘 구름 많고 일교차 커‥ 일부 비 또는 눈",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "오늘 구름 많고 일교차 커‥ 일부 비 또는 눈",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-119",
+      "thread_id": "THREAD-WF1-116",
+      "canonical_title": "이랜드 공정위 과징금 ‘41억 중 26억 취소’ 대법 확정",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이랜드 공정위 과징금 ‘41억 중 26억 취소’ 대법 확정",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-120",
+      "thread_id": "THREAD-WF1-117",
+      "canonical_title": "\"더 단단한 걸음으로\"…면접 탈락자에 구두 보내준 회사, 취준생은 울었다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"더 단단한 걸음으로\"…면접 탈락자에 구두 보내준 회사, 취준생은 울었다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-121",
+      "thread_id": "THREAD-WF1-118",
+      "canonical_title": "[박상욱의 기후 1.5] 돈으로 살펴보는 에너지전환의 흐름",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[박상욱의 기후 1.5] 돈으로 살펴보는 에너지전환의 흐름",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-122",
+      "thread_id": "THREAD-WF1-119",
+      "canonical_title": "트럼프의  ‘장대한 분노’, ‘환경 재앙’  버튼이었나",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프의  ‘장대한 분노’, ‘환경 재앙’  버튼이었나",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-123",
+      "thread_id": "THREAD-WF1-120",
+      "canonical_title": "청주 사직2구역 또 백지화…업무대행사 대표 5년째 도주",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "청주 사직2구역 또 백지화…업무대행사 대표 5년째 도주",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-124",
+      "thread_id": "THREAD-WF1-121",
+      "canonical_title": "\"믿었는데\" 1억 원 챙겨 도주…드러난 충격 실체",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"믿었는데\" 1억 원 챙겨 도주…드러난 충격 실체",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-125",
+      "thread_id": "THREAD-WF1-122",
+      "canonical_title": "\"당연히 해야 할 일을 했을 뿐\"…쉬는 날 상가 화재 진압한 소방관 부부 [고마워요, 공복]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"당연히 해야 할 일을 했을 뿐\"…쉬는 날 상가 화재 진압한 소방관 부부 [고마워요, 공복]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-126",
+      "thread_id": "THREAD-WF1-123",
+      "canonical_title": "윗층서 화분이 '뚝'…\"웃으면서 도망\" 범인 정체",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "윗층서 화분이 '뚝'…\"웃으면서 도망\" 범인 정체",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-127",
+      "thread_id": "THREAD-WF1-124",
+      "canonical_title": "\"아내 몸에서 피 철철 꿈\"….복권 1등 당첨",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"아내 몸에서 피 철철 꿈\"….복권 1등 당첨",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-128",
+      "thread_id": "THREAD-WF1-125",
+      "canonical_title": "'포르쉐 추락' 사흘 만에 또… 용산서 '비틀비틀 벤틀리' 약물 운전 체포",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'포르쉐 추락' 사흘 만에 또… 용산서 '비틀비틀 벤틀리' 약물 운전 체포",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-129",
+      "thread_id": "THREAD-WF1-126",
+      "canonical_title": "‘쾅쾅쾅’ 중앙분리대 들이받고 달아났다…이재룡 음주사고 CCTV 공개",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘쾅쾅쾅’ 중앙분리대 들이받고 달아났다…이재룡 음주사고 CCTV 공개",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-130",
+      "thread_id": "THREAD-WF1-127",
+      "canonical_title": "웰다잉을 묻다…원혜영 \"장례는 빈소 대신 추모식으로\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "웰다잉을 묻다…원혜영 \"장례는 빈소 대신 추모식으로\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-131",
+      "thread_id": "THREAD-WF1-128",
+      "canonical_title": "\"문자 받고 펑펑 울었다\"…면접 탈락자에 구두 선물한 '이 회사'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"문자 받고 펑펑 울었다\"…면접 탈락자에 구두 선물한 '이 회사'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-132",
+      "thread_id": "THREAD-WF1-129",
+      "canonical_title": "[지방 순삭]  비만치료제 끊으면 다시 찐다? … 요요의 본질은 '지방 기억하는 몸'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[지방 순삭]  비만치료제 끊으면 다시 찐다? … 요요의 본질은 '지방 기억하는 몸'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-134",
+      "thread_id": "THREAD-WF1-130",
+      "canonical_title": "결혼 1년차, 아내 몰래 빚투 해 '반토막'...\"이혼녀 될래?\" 뻔뻔한 남편",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "결혼 1년차, 아내 몰래 빚투 해 '반토막'...\"이혼녀 될래?\" 뻔뻔한 남편",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-135",
+      "thread_id": "THREAD-WF1-131",
+      "canonical_title": "“돈보다 두려운 고립” 80세 이상 남성 자살률 가장 높아…평균 3.7배",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“돈보다 두려운 고립” 80세 이상 남성 자살률 가장 높아…평균 3.7배",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-102-138",
+      "thread_id": "THREAD-WF1-132",
+      "canonical_title": "[뉴스1 PICK] UAE 체류 한국인, 전세기 타고 무사 귀국 '따뜻한 가족 품으로'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[뉴스1 PICK] UAE 체류 한국인, 전세기 타고 무사 귀국 '따뜻한 가족 품으로'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-139",
+      "thread_id": "THREAD-WF1-133",
+      "canonical_title": "'왕과 사는 남자' 흥행 계속…1,100만 관객 돌파",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'왕과 사는 남자' 흥행 계속…1,100만 관객 돌파",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-140",
+      "thread_id": "THREAD-WF1-134",
+      "canonical_title": "2026년 3월 8일 띠별 운세[오늘의 운세]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "2026년 3월 8일 띠별 운세[오늘의 운세]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-141",
+      "thread_id": "THREAD-WF1-135",
+      "canonical_title": "리가켐바이오, 차세대 항암제 ADC, 빅파마에 잇단 수출",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "리가켐바이오, 차세대 항암제 ADC, 빅파마에 잇단 수출",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-142",
+      "thread_id": "THREAD-WF1-136",
+      "canonical_title": "천만이 다시 깨운 ‘단종의 시간’…허민 청장 “문화유산 현장으로 여운 잇겠다”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "천만이 다시 깨운 ‘단종의 시간’…허민 청장 “문화유산 현장으로 여운 잇겠다”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-143",
+      "thread_id": "THREAD-WF1-137",
+      "canonical_title": "두꺼운 전공책 대신 태블릿…대학교재 e북 매출 비중 4년새 4배",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "두꺼운 전공책 대신 태블릿…대학교재 e북 매출 비중 4년새 4배",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-144",
+      "thread_id": "THREAD-WF1-138",
+      "canonical_title": "넥센타이어, 기아 '셀토스' 신차용 타이어 공급…SUV 라인업 강화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "넥센타이어, 기아 '셀토스' 신차용 타이어 공급…SUV 라인업 강화",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-145",
+      "thread_id": "THREAD-WF1-139",
+      "canonical_title": "내일 중부지방 눈·비…초미세먼지 ‘나쁨’[뉴스9 날씨]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "내일 중부지방 눈·비…초미세먼지 ‘나쁨’[뉴스9 날씨]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-147",
+      "thread_id": "THREAD-WF1-140",
+      "canonical_title": "제주 백성 굶어 죽어갈 때 왕의 비상금 받아낸 양헌수 장군",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "제주 백성 굶어 죽어갈 때 왕의 비상금 받아낸 양헌수 장군",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-148",
+      "thread_id": "THREAD-WF1-141",
+      "canonical_title": "‘가슴 통증’ 매운 음식 탓인 줄 알았는데…생존률 12% 심장마비였다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘가슴 통증’ 매운 음식 탓인 줄 알았는데…생존률 12% 심장마비였다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-149",
+      "thread_id": "THREAD-WF1-142",
+      "canonical_title": "영월의 단종, 영주의 금성대군…50㎞ 거리 둘은 결국 못 만났다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "영월의 단종, 영주의 금성대군…50㎞ 거리 둘은 결국 못 만났다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-150",
+      "thread_id": "THREAD-WF1-143",
+      "canonical_title": "[날씨] 예년보다 쌀쌀, 중부 비·눈…공기질 탁해",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[날씨] 예년보다 쌀쌀, 중부 비·눈…공기질 탁해",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-151",
+      "thread_id": "THREAD-WF1-144",
+      "canonical_title": "뇌종양 환자가 가르쳐준, 입원을 책임지는 자리",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "뇌종양 환자가 가르쳐준, 입원을 책임지는 자리",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-152",
+      "thread_id": "THREAD-WF1-145",
+      "canonical_title": "‘버터런’ 아시나요…“생크림 들고 뛰면 버터가 생겨요”[트렌디깅]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘버터런’ 아시나요…“생크림 들고 뛰면 버터가 생겨요”[트렌디깅]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-153",
+      "thread_id": "THREAD-WF1-146",
+      "canonical_title": "[음식기행] '절밥', 웰빙 K푸드의 본보기가 되다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[음식기행] '절밥', 웰빙 K푸드의 본보기가 되다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-154",
+      "thread_id": "THREAD-WF1-147",
+      "canonical_title": "[날씨] 전국 초미세먼지 나빠져‥중부 곳곳 약한 비·눈",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[날씨] 전국 초미세먼지 나빠져‥중부 곳곳 약한 비·눈",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-155",
+      "thread_id": "THREAD-WF1-148",
+      "canonical_title": "[출근길 YTN 날씨 3/9] 오늘 중부 중심 비·눈...오전부터 중서부 초미세↑",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[출근길 YTN 날씨 3/9] 오늘 중부 중심 비·눈...오전부터 중서부 초미세↑",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-156",
+      "thread_id": "THREAD-WF1-149",
+      "canonical_title": "링컨이 감탄한 '천혜의 요새' 한국인 최초로 오르다 [미국 동부 메릴랜드 하이츠]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "링컨이 감탄한 '천혜의 요새' 한국인 최초로 오르다 [미국 동부 메릴랜드 하이츠]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-157",
+      "thread_id": "THREAD-WF1-150",
+      "canonical_title": "[날씨] 중부 곳곳 비나 눈…중서부 초미세먼지 '나쁨'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[날씨] 중부 곳곳 비나 눈…중서부 초미세먼지 '나쁨'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-158",
+      "thread_id": "THREAD-WF1-151",
+      "canonical_title": "\"부모 부양은 자식 몫\"…한국인 절반이 '반대' 눌렀다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"부모 부양은 자식 몫\"…한국인 절반이 '반대' 눌렀다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-159",
+      "thread_id": "THREAD-WF1-152",
+      "canonical_title": "“그돈에 왜? 쏘렌토·팰리 사는데” 깔봐서 미안…‘멋진 남편·아빠’ 소리 듣겠네 [카슐랭]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“그돈에 왜? 쏘렌토·팰리 사는데” 깔봐서 미안…‘멋진 남편·아빠’ 소리 듣겠네 [카슐랭]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-160",
+      "thread_id": "THREAD-WF1-153",
+      "canonical_title": "[그 영화 어때] 일파만파 티모시 샬라메 망언과 영화 ‘극장의 시간들’",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[그 영화 어때] 일파만파 티모시 샬라메 망언과 영화 ‘극장의 시간들’",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-161",
+      "thread_id": "THREAD-WF1-154",
+      "canonical_title": "“근육 증진에 도움” 황재균, 매일 10개 먹는다는 ‘이것’… 뭘까?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“근육 증진에 도움” 황재균, 매일 10개 먹는다는 ‘이것’… 뭘까?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-162",
+      "thread_id": "THREAD-WF1-155",
+      "canonical_title": "‘아시나요’ 1919년 최고 잘 나갔지만 역사적으로 묻힌 기업가 이야기",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘아시나요’ 1919년 최고 잘 나갔지만 역사적으로 묻힌 기업가 이야기",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-163",
+      "thread_id": "THREAD-WF1-156",
+      "canonical_title": "“봄이라 졸린 줄”…3주 넘는 피로, 질병 신호일 수도",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“봄이라 졸린 줄”…3주 넘는 피로, 질병 신호일 수도",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-164",
+      "thread_id": "THREAD-WF1-157",
+      "canonical_title": "개정 상법에 '경영권' 고민 빠진 제약·바이오…코스닥 동전주는 이중고",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "개정 상법에 '경영권' 고민 빠진 제약·바이오…코스닥 동전주는 이중고",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-165",
+      "thread_id": "THREAD-WF1-158",
+      "canonical_title": "사표 던지고 1000만 쐈다…'왕과 사는 남자' 임은정 대표[문화人터뷰]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "사표 던지고 1000만 쐈다…'왕과 사는 남자' 임은정 대표[문화人터뷰]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-166",
+      "thread_id": "THREAD-WF1-159",
+      "canonical_title": "[날씨] 오늘도 큰 추위 없어...오전∼낮 중부 곳곳 비·눈",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[날씨] 오늘도 큰 추위 없어...오전∼낮 중부 곳곳 비·눈",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-167",
+      "thread_id": "THREAD-WF1-160",
+      "canonical_title": "“바지 종아리 헐거워졌다면 위험”…잠들기 전 ‘단백질’ 1스푼의 반전",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“바지 종아리 헐거워졌다면 위험”…잠들기 전 ‘단백질’ 1스푼의 반전",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-168",
+      "thread_id": "THREAD-WF1-161",
+      "canonical_title": "[날씨클릭] 중부지방 비나 눈…예년 이맘때보다 쌀쌀",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[날씨클릭] 중부지방 비나 눈…예년 이맘때보다 쌀쌀",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-169",
+      "thread_id": "THREAD-WF1-162",
+      "canonical_title": "영양제 많이 먹어도 살찌려나? ‘이 영양제’는 주의",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "영양제 많이 먹어도 살찌려나? ‘이 영양제’는 주의",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-170",
+      "thread_id": "THREAD-WF1-163",
+      "canonical_title": "아프면 병원 대신 AI부터…‘정말 괜찮을까?’",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "아프면 병원 대신 AI부터…‘정말 괜찮을까?’",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-171",
+      "thread_id": "THREAD-WF1-164",
+      "canonical_title": "'아침 최저 -4도' 기온 뚝·중부지방 비나 눈…환절기 감기 예방하는 법 [오늘 날씨]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'아침 최저 -4도' 기온 뚝·중부지방 비나 눈…환절기 감기 예방하는 법 [오늘 날씨]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-172",
+      "thread_id": "THREAD-WF1-165",
+      "canonical_title": "인도 점성술 ‘베딕’으로 보는 [주간 별자리 운세]…3월 둘째 주",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "인도 점성술 ‘베딕’으로 보는 [주간 별자리 운세]…3월 둘째 주",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-173",
+      "thread_id": "THREAD-WF1-166",
+      "canonical_title": "‘공복에 들기름 한 스푼’, 몸에 정말 좋은지 의사에게 물어보니",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘공복에 들기름 한 스푼’, 몸에 정말 좋은지 의사에게 물어보니",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-174",
+      "thread_id": "THREAD-WF1-167",
+      "canonical_title": "'바이오 소부장' 큐리오시스, 독보적 기술력으로 글로벌 공략 [문대현의 메디뷰]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'바이오 소부장' 큐리오시스, 독보적 기술력으로 글로벌 공략 [문대현의 메디뷰]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-175",
+      "thread_id": "THREAD-WF1-168",
+      "canonical_title": "[날씨] 오늘 중부 중심 눈,비…당분간 아침 영하권 추위",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[날씨] 오늘 중부 중심 눈,비…당분간 아침 영하권 추위",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-176",
+      "thread_id": "THREAD-WF1-169",
+      "canonical_title": "“피부·관절 지키는 콜라겐”… ‘이 음료’ 마시면 보충할 수 있다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“피부·관절 지키는 콜라겐”… ‘이 음료’ 마시면 보충할 수 있다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-177",
+      "thread_id": "THREAD-WF1-170",
+      "canonical_title": "살 빼려고 고강도 운동·고단백 식단…젊은 콩팥이 위험하다 [Health&]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "살 빼려고 고강도 운동·고단백 식단…젊은 콩팥이 위험하다 [Health&]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-178",
+      "thread_id": "THREAD-WF1-171",
+      "canonical_title": "\"무슨 얘기 했더라\" 무심코 넘긴 건망증…수년 뒤 '간병 파산' [Health&]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"무슨 얘기 했더라\" 무심코 넘긴 건망증…수년 뒤 '간병 파산' [Health&]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-179",
+      "thread_id": "THREAD-WF1-172",
+      "canonical_title": "\"잠 충분히 잤는데도 피곤하네\"…심장이 보내는 'SOS 신호' [Health&]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"잠 충분히 잤는데도 피곤하네\"…심장이 보내는 'SOS 신호' [Health&]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-180",
+      "thread_id": "THREAD-WF1-173",
+      "canonical_title": "고혈압 관리 첫걸음은 아침·저녁 2회 혈압 측정 [Health&]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "고혈압 관리 첫걸음은 아침·저녁 2회 혈압 측정 [Health&]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-181",
+      "thread_id": "THREAD-WF1-174",
+      "canonical_title": "\"지금 바퀴벌레 잡아줘\"…황당 민원에 아이돌도 '깜짝'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"지금 바퀴벌레 잡아줘\"…황당 민원에 아이돌도 '깜짝'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-103-182",
+      "thread_id": "THREAD-WF1-175",
+      "canonical_title": "중동 사태가 주는 경고…기름값 등 높아지는 물가 상승 압력",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중동 사태가 주는 경고…기름값 등 높아지는 물가 상승 압력",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-184",
+      "thread_id": "THREAD-WF1-176",
+      "canonical_title": "이란 혁명수비대 “모즈타바 지지… 명령에 완전 복종”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란 혁명수비대 “모즈타바 지지… 명령에 완전 복종”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-185",
+      "thread_id": "THREAD-WF1-177",
+      "canonical_title": "트럼프, 중남미 17곳과 ‘미주의 방패’ 띄워… “마약 카르텔 공동대응”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프, 중남미 17곳과 ‘미주의 방패’ 띄워… “마약 카르텔 공동대응”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-186",
+      "thread_id": "THREAD-WF1-178",
+      "canonical_title": "'이란 고농축 우라늄 확보'…미·이스라엘 특수부대 투입 고려",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'이란 고농축 우라늄 확보'…미·이스라엘 특수부대 투입 고려",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-187",
+      "thread_id": "THREAD-WF1-179",
+      "canonical_title": "우주가 빚은 사케 100㎖에 9억원",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "우주가 빚은 사케 100㎖에 9억원",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-188",
+      "thread_id": "THREAD-WF1-180",
+      "canonical_title": "국제 유가, 배럴당 100달러 돌파",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "국제 유가, 배럴당 100달러 돌파",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-189",
+      "thread_id": "THREAD-WF1-181",
+      "canonical_title": "트럼프, 이란 특수부대 투입에 “모든 것 테이블 위에 있어”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프, 이란 특수부대 투입에 “모든 것 테이블 위에 있어”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-190",
+      "thread_id": "THREAD-WF1-182",
+      "canonical_title": "'Z세대 시위' 이끌던 래퍼 출신 35살 前시장, 네팔 총리 된다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'Z세대 시위' 이끌던 래퍼 출신 35살 前시장, 네팔 총리 된다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-191",
+      "thread_id": "THREAD-WF1-183",
+      "canonical_title": "“‘기름비’ 내리고 독성가스 퍼져”…암흑으로 변한 테헤란",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“‘기름비’ 내리고 독성가스 퍼져”…암흑으로 변한 테헤란",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-192",
+      "thread_id": "THREAD-WF1-184",
+      "canonical_title": "“트럼프, 비상사태로 11월 중간선거 미룰 수도”…美 역사학자 '독재 우려' 경고",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“트럼프, 비상사태로 11월 중간선거 미룰 수도”…美 역사학자 '독재 우려' 경고",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-193",
+      "thread_id": "THREAD-WF1-185",
+      "canonical_title": "WTI·브렌트유 배럴당 100달러 돌파…트럼프 \"이란 핵 위협 제거 시 급락\"(종합)",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "WTI·브렌트유 배럴당 100달러 돌파…트럼프 \"이란 핵 위협 제거 시 급락\"(종합)",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-194",
+      "thread_id": "THREAD-WF1-186",
+      "canonical_title": "이란 외무장관 “미국과 끝까지 싸운다”…영구 종전 前까지 전면전 선언",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란 외무장관 “미국과 끝까지 싸운다”…영구 종전 前까지 전면전 선언",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-195",
+      "thread_id": "THREAD-WF1-187",
+      "canonical_title": "“美·이스라엘, 특수부대 투입해 이란 고농축우라늄 회수 검토”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“美·이스라엘, 특수부대 투입해 이란 고농축우라늄 회수 검토”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-196",
+      "thread_id": "THREAD-WF1-188",
+      "canonical_title": "이란은 왜 '세습 오명' 하메네이 차남을 선택했나?...\"순교자의 아들\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란은 왜 '세습 오명' 하메네이 차남을 선택했나?...\"순교자의 아들\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-197",
+      "thread_id": "THREAD-WF1-189",
+      "canonical_title": "왕정 몰아낸 혁명 정신, 이란 '부자 세습' 먹칠... 모즈타바 등극",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "왕정 몰아낸 혁명 정신, 이란 '부자 세습' 먹칠... 모즈타바 등극",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-198",
+      "thread_id": "THREAD-WF1-190",
+      "canonical_title": "국제유가 배럴당 100달러 돌파…“긴장완화 없으면 150달러 갈 수도”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "국제유가 배럴당 100달러 돌파…“긴장완화 없으면 150달러 갈 수도”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-199",
+      "thread_id": "THREAD-WF1-191",
+      "canonical_title": "\"1억명 목숨 달렸다\"…걸프 담수화 시설 파괴되면 벌어질 일",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"1억명 목숨 달렸다\"…걸프 담수화 시설 파괴되면 벌어질 일",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-200",
+      "thread_id": "THREAD-WF1-192",
+      "canonical_title": "이란 외무장관 “새 지도자 선택은 이란 국민의 일”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란 외무장관 “새 지도자 선택은 이란 국민의 일”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-201",
+      "thread_id": "THREAD-WF1-193",
+      "canonical_title": "'美반대' 하메네이 내세운 이란…'항전' 강경노선 이어갈듯",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'美반대' 하메네이 내세운 이란…'항전' 강경노선 이어갈듯",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-202",
+      "thread_id": "THREAD-WF1-194",
+      "canonical_title": "트럼프, 쿠바와 경제 협상 추진…군사 대신 '딜'로 압박",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프, 쿠바와 경제 협상 추진…군사 대신 '딜'로 압박",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-203",
+      "thread_id": "THREAD-WF1-195",
+      "canonical_title": "UAE 등 산유국 잇달아 감산…WTI 20% 폭등, 108달러 돌파",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "UAE 등 산유국 잇달아 감산…WTI 20% 폭등, 108달러 돌파",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-205",
+      "thread_id": "THREAD-WF1-196",
+      "canonical_title": "모즈타바, '순교자의 아들' 프레임으로 대미항전… 세습 핸디캡 극복 전망",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "모즈타바, '순교자의 아들' 프레임으로 대미항전… 세습 핸디캡 극복 전망",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-206",
+      "thread_id": "THREAD-WF1-197",
+      "canonical_title": "국제유가 결국 배럴당 100달러 돌파…2022년 7월 후 처음(종합)",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "국제유가 결국 배럴당 100달러 돌파…2022년 7월 후 처음(종합)",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-207",
+      "thread_id": "THREAD-WF1-198",
+      "canonical_title": "그림자 실세서 이란 새 최고지도자로, 모즈타바는 누구?",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "그림자 실세서 이란 새 최고지도자로, 모즈타바는 누구?",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-210",
+      "thread_id": "THREAD-WF1-199",
+      "canonical_title": "이란, '하메네이 시대' 연장...세습 지도자 체제 공식화",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란, '하메네이 시대' 연장...세습 지도자 체제 공식화",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-211",
+      "thread_id": "THREAD-WF1-200",
+      "canonical_title": "미군, 이란 핵시설 공습...트럼프 \"특수부대 투입 검토 중\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "미군, 이란 핵시설 공습...트럼프 \"특수부대 투입 검토 중\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-212",
+      "thread_id": "THREAD-WF1-201",
+      "canonical_title": "'대통령 사과' 끝나기 무섭게 '쾅'…심상찮은 이란 내부",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'대통령 사과' 끝나기 무섭게 '쾅'…심상찮은 이란 내부",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-213",
+      "thread_id": "THREAD-WF1-202",
+      "canonical_title": "이란 혁명수비대, 모즈타바에 \"충성\" 맹세…지도부 결사옹위",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란 혁명수비대, 모즈타바에 \"충성\" 맹세…지도부 결사옹위",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-214",
+      "thread_id": "THREAD-WF1-203",
+      "canonical_title": "모즈타바 하메네이는 누구…강경 신정 체제 계승-美에 저항 신호",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "모즈타바 하메네이는 누구…강경 신정 체제 계승-美에 저항 신호",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-215",
+      "thread_id": "THREAD-WF1-204",
+      "canonical_title": "\"하메네이 후계자로 차남 선출\"…트럼프 \"미 승인 없인 못 버텨\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "\"하메네이 후계자로 차남 선출\"…트럼프 \"미 승인 없인 못 버텨\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-216",
+      "thread_id": "THREAD-WF1-205",
+      "canonical_title": "트럼프 “유권자 신분증 법안 통과전 다른 법안 서명 안 하겠다” [1일1트]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프 “유권자 신분증 법안 통과전 다른 법안 서명 안 하겠다” [1일1트]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-217",
+      "thread_id": "THREAD-WF1-206",
+      "canonical_title": "국제유가 배럴당 100달러 돌파했다…기름값 어쩌나",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "국제유가 배럴당 100달러 돌파했다…기름값 어쩌나",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-219",
+      "thread_id": "THREAD-WF1-207",
+      "canonical_title": "이란 혁명수비대 \"모즈타바 선출 지지…명령에 완전 복종\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "이란 혁명수비대 \"모즈타바 선출 지지…명령에 완전 복종\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-220",
+      "thread_id": "THREAD-WF1-208",
+      "canonical_title": "미 학자 \"트럼프, 비상사태 선언하며 중간선거 중단할까 우려돼\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "미 학자 \"트럼프, 비상사태 선언하며 중간선거 중단할까 우려돼\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-221",
+      "thread_id": "THREAD-WF1-209",
+      "canonical_title": "막후 실세에서 최고지도자로···모즈타바 하메네이는 누구",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "막후 실세에서 최고지도자로···모즈타바 하메네이는 누구",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-222",
+      "thread_id": "THREAD-WF1-210",
+      "canonical_title": "트럼프 \"용납 못한다\" 했는데...최악으로 치닫는 이란 결정 [지금이뉴스]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프 \"용납 못한다\" 했는데...최악으로 치닫는 이란 결정 [지금이뉴스]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-223",
+      "thread_id": "THREAD-WF1-211",
+      "canonical_title": "‘강경파 장악’ 이란, 하메네이 아들 선택…트럼프 ‘출구전략’ 차질 예상",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘강경파 장악’ 이란, 하메네이 아들 선택…트럼프 ‘출구전략’ 차질 예상",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-225",
+      "thread_id": "THREAD-WF1-212",
+      "canonical_title": "트럼프가 \"용납못한다\"던 모즈타바 승계…美-이란전쟁 장기화하나",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "트럼프가 \"용납못한다\"던 모즈타바 승계…美-이란전쟁 장기화하나",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-104-226",
+      "thread_id": "THREAD-WF1-213",
+      "canonical_title": "특수부대 투입 검토…이란 새 지도자 하메네이 차남",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "특수부대 투입 검토…이란 새 지도자 하메네이 차남",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-227",
+      "thread_id": "THREAD-WF1-214",
+      "canonical_title": "LG유플러스, 퓨리오사AI와 기업용 소버린 AI 인프라 개발",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "LG유플러스, 퓨리오사AI와 기업용 소버린 AI 인프라 개발",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-229",
+      "thread_id": "THREAD-WF1-215",
+      "canonical_title": "구글 CEO, 3년간 최대 1조원대 보상받는다…웨이모·윙 첫 포함 [1일1트]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "구글 CEO, 3년간 최대 1조원대 보상받는다…웨이모·윙 첫 포함 [1일1트]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-230",
+      "thread_id": "THREAD-WF1-216",
+      "canonical_title": "'인간 유일 1승' 이세돌, '알파고 대국장'서 AI와  재승부",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "'인간 유일 1승' 이세돌, '알파고 대국장'서 AI와  재승부",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-231",
+      "thread_id": "THREAD-WF1-217",
+      "canonical_title": "“큰 돈 주고 샀는데 고장나면 큰 일”…스마트폰·노트북 비싸진 만큼 보험료도 ‘껑충’",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“큰 돈 주고 샀는데 고장나면 큰 일”…스마트폰·노트북 비싸진 만큼 보험료도 ‘껑충’",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-232",
+      "thread_id": "THREAD-WF1-218",
+      "canonical_title": "파로스아이바이오, 글로벌 빅파마 몰리는 ‘바이오 차이나 2026’ 무대 선다… IR 피칭 기업 선정",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "파로스아이바이오, 글로벌 빅파마 몰리는 ‘바이오 차이나 2026’ 무대 선다… IR 피칭 기업 선정",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-233",
+      "thread_id": "THREAD-WF1-219",
+      "canonical_title": "MWC 주인공도 ‘AI’… 통신업계 “AI 기업으로 간다” 한목소리",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "MWC 주인공도 ‘AI’… 통신업계 “AI 기업으로 간다” 한목소리",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-234",
+      "thread_id": "THREAD-WF1-220",
+      "canonical_title": "SKB, 현대차 블루핸즈 매장에 '디지털 사이니지' 구축",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "SKB, 현대차 블루핸즈 매장에 '디지털 사이니지' 구축",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-235",
+      "thread_id": "THREAD-WF1-221",
+      "canonical_title": "OLED·터치 탑재 맥북 나온다…\"명칭은 맥북 울트라\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "OLED·터치 탑재 맥북 나온다…\"명칭은 맥북 울트라\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-236",
+      "thread_id": "THREAD-WF1-222",
+      "canonical_title": "삼성SDI, 로봇 특화 '파우치 전고체' 배터리 공개한다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "삼성SDI, 로봇 특화 '파우치 전고체' 배터리 공개한다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-237",
+      "thread_id": "THREAD-WF1-223",
+      "canonical_title": "임박한 정기 주총 시즌…연임하는 게임업계 대표들",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "임박한 정기 주총 시즌…연임하는 게임업계 대표들",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-238",
+      "thread_id": "THREAD-WF1-224",
+      "canonical_title": "[단독]\"최대규모 데이터팩토리\"…로보티즈, 中 1위 보다 크게 만든다",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[단독]\"최대규모 데이터팩토리\"…로보티즈, 中 1위 보다 크게 만든다",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-239",
+      "thread_id": "THREAD-WF1-225",
+      "canonical_title": "중국 상무부 “넥스페리아 분쟁, 글로벌 반도체 대란 재발 가능성 경고”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "중국 상무부 “넥스페리아 분쟁, 글로벌 반도체 대란 재발 가능성 경고”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-240",
+      "thread_id": "THREAD-WF1-226",
+      "canonical_title": "“맥 미니 M5, 더 기다려야” 애플, 하반기 데스크톱 라인업 재편",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“맥 미니 M5, 더 기다려야” 애플, 하반기 데스크톱 라인업 재편",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-241",
+      "thread_id": "THREAD-WF1-227",
+      "canonical_title": "알파벳, 구글 CEO 피차이에 3년간 최대 1조원대 보상 패키지",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "알파벳, 구글 CEO 피차이에 3년간 최대 1조원대 보상 패키지",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-242",
+      "thread_id": "THREAD-WF1-228",
+      "canonical_title": "밤에 더 아픈 어깨 통증 ‘오십견’, 억지로 움직여도 괜찮을까",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "밤에 더 아픈 어깨 통증 ‘오십견’, 억지로 움직여도 괜찮을까",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-243",
+      "thread_id": "THREAD-WF1-229",
+      "canonical_title": "애플, 2026년 제품 로드맵 윤곽…\"맥·아이패드·스마트홈 대거 출시\"[모닝폰]",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "애플, 2026년 제품 로드맵 윤곽…\"맥·아이패드·스마트홈 대거 출시\"[모닝폰]",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-244",
+      "thread_id": "THREAD-WF1-230",
+      "canonical_title": "“보급형은 미끼, 본체는 울트라” 애플, 폴더블·OLED 맥북으로 고가 시장 공습",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "“보급형은 미끼, 본체는 울트라” 애플, 폴더블·OLED 맥북으로 고가 시장 공습",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-245",
+      "thread_id": "THREAD-WF1-231",
+      "canonical_title": "‘맥북 네오’ 후속 모델부터 터치스크린 적용",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "‘맥북 네오’ 후속 모델부터 터치스크린 적용",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-246",
+      "thread_id": "THREAD-WF1-232",
+      "canonical_title": "폐암 KRAS 변이 항암제 내성 원인 찾았다…\"미토콘드리아 반응 차이\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "폐암 KRAS 변이 항암제 내성 원인 찾았다…\"미토콘드리아 반응 차이\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-247",
+      "thread_id": "THREAD-WF1-233",
+      "canonical_title": "스카이랩스, 높아진 거래소 문턱 넘을까...주목할 포인트는",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "스카이랩스, 높아진 거래소 문턱 넘을까...주목할 포인트는",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-248",
+      "thread_id": "THREAD-WF1-234",
+      "canonical_title": "전기차 ‘주행거리 약점’ 넘는다…활물질 99% LFP 배터리 전극 개발",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "전기차 ‘주행거리 약점’ 넘는다…활물질 99% LFP 배터리 전극 개발",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-249",
+      "thread_id": "THREAD-WF1-235",
+      "canonical_title": "美 스타클라우드, 역사상 첫 저궤도위성서 비트코인 채굴 시도",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "美 스타클라우드, 역사상 첫 저궤도위성서 비트코인 채굴 시도",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-250",
+      "thread_id": "THREAD-WF1-236",
+      "canonical_title": "[게임 탐구생활]'구경만 하는' 방치형 게임 뜨는 이유",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[게임 탐구생활]'구경만 하는' 방치형 게임 뜨는 이유",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-251",
+      "thread_id": "THREAD-WF1-237",
+      "canonical_title": "中 반도체 업계 \"노광 장비 5년 안에 독자 개발해야\" 촉구",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "中 반도체 업계 \"노광 장비 5년 안에 독자 개발해야\" 촉구",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-252",
+      "thread_id": "THREAD-WF1-238",
+      "canonical_title": "인간 유일 '알파고 1승' 이세돌, 10년 만에 AI와 한 무대",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "인간 유일 '알파고 1승' 이세돌, 10년 만에 AI와 한 무대",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-253",
+      "thread_id": "THREAD-WF1-239",
+      "canonical_title": "직장인 절반 “월급만으로 생계·노후 대비 어렵다”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "직장인 절반 “월급만으로 생계·노후 대비 어렵다”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-254",
+      "thread_id": "THREAD-WF1-240",
+      "canonical_title": "WGBI 편입에 최대 104조 유입 전망…“다음 투자처는 한국 국채”",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "WGBI 편입에 최대 104조 유입 전망…“다음 투자처는 한국 국채”",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-255",
+      "thread_id": "THREAD-WF1-241",
+      "canonical_title": "리뷰·매출로 대출 심사…소상공인 ‘새 신용평가’ 도입",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "리뷰·매출로 대출 심사…소상공인 ‘새 신용평가’ 도입",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-258",
+      "thread_id": "THREAD-WF1-242",
+      "canonical_title": "폐암 KRAS 변이 항암제 내성 원인은…\"미토콘드리아 반응 차이\"",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "폐암 KRAS 변이 항암제 내성 원인은…\"미토콘드리아 반응 차이\"",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-259",
+      "thread_id": "THREAD-WF1-243",
+      "canonical_title": "삼성 TV ‘20년 천하’ 신기원…턱밑 추격 중국에 ‘초격차’ 승부수",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "삼성 TV ‘20년 천하’ 신기원…턱밑 추격 중국에 ‘초격차’ 승부수",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-260",
+      "thread_id": "THREAD-WF1-244",
+      "canonical_title": "하이닉스 광풍에 ‘돈 길’ 찾은 티맵까지… 포트폴리오 잭팟 터진 SK스퀘어",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "하이닉스 광풍에 ‘돈 길’ 찾은 티맵까지… 포트폴리오 잭팟 터진 SK스퀘어",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-261",
+      "thread_id": "THREAD-WF1-245",
+      "canonical_title": "10년 전 바둑판서 잘 싸우는 기사였는데…지금은 전쟁판도 바꾸는 전사로",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "10년 전 바둑판서 잘 싸우는 기사였는데…지금은 전쟁판도 바꾸는 전사로",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-262",
+      "thread_id": "THREAD-WF1-246",
+      "canonical_title": "[AI돋보기] \"AI가 좌표 찍으면 인간이 쏜다\"…현실화한 '알고리즘 전쟁'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[AI돋보기] \"AI가 좌표 찍으면 인간이 쏜다\"…현실화한 '알고리즘 전쟁'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-264",
+      "thread_id": "THREAD-WF1-247",
+      "canonical_title": "알파고 대국 벌써 10년…이세돌, 오늘 같은 장소서 AI와 재대결",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "알파고 대국 벌써 10년…이세돌, 오늘 같은 장소서 AI와 재대결",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-266",
+      "thread_id": "THREAD-WF1-248",
+      "canonical_title": "알파벳, 순다르 피차이에 약 1조원 보상 패키지…웨이모·윙 성과 연동",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "알파벳, 순다르 피차이에 약 1조원 보상 패키지…웨이모·윙 성과 연동",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-267",
+      "thread_id": "THREAD-WF1-249",
+      "canonical_title": "[단독] 삼성전자 임금협상 결렬 후 책임 공방… 협상 과정 공개 ‘이례적’",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "[단독] 삼성전자 임금협상 결렬 후 책임 공방… 협상 과정 공개 ‘이례적’",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-268",
+      "thread_id": "THREAD-WF1-250",
+      "canonical_title": "좀비에 열광한다던데…서구권 방점 찍은 넥슨, 차세대 무기는 '낙원'",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "좀비에 열광한다던데…서구권 방점 찍은 넥슨, 차세대 무기는 '낙원'",
+          "psst": 0
+        }
+      ]
+    },
+    {
+      "signal_id": "naver-20260309-105-269",
+      "thread_id": "THREAD-WF1-251",
+      "canonical_title": "세계 최대 e스포츠 대회, 중동 불똥 우려",
+      "state": "NEW",
+      "state_ko": "신규",
+      "confidence": "N/A",
+      "appearance_count": 1,
+      "metrics": {
+        "velocity": 0.0,
+        "direction": "STABLE",
+        "expansion": 0.0,
+        "days_tracked": 0,
+        "psst_current": 0,
+        "psst_previous": 0,
+        "psst_delta": "0"
+      },
+      "thread_history_summary": [
+        {
+          "date": "2026-03-09",
+          "title": "세계 최대 e스포츠 대회, 중동 불똥 우려",
+          "psst": 0
+        }
+      ]
+    }
+  ],
+  "faded_threads": [],
+  "new_threads_created": [
+    "THREAD-WF1-001",
+    "THREAD-WF1-002",
+    "THREAD-WF1-003",
+    "THREAD-WF1-004",
+    "THREAD-WF1-005",
+    "THREAD-WF1-006",
+    "THREAD-WF1-007",
+    "THREAD-WF1-008",
+    "THREAD-WF1-009",
+    "THREAD-WF1-010",
+    "THREAD-WF1-011",
+    "THREAD-WF1-012",
+    "THREAD-WF1-013",
+    "THREAD-WF1-014",
+    "THREAD-WF1-015",
+    "THREAD-WF1-016",
+    "THREAD-WF1-017",
+    "THREAD-WF1-018",
+    "THREAD-WF1-019",
+    "THREAD-WF1-020",
+    "THREAD-WF1-021",
+    "THREAD-WF1-022",
+    "THREAD-WF1-023",
+    "THREAD-WF1-024",
+    "THREAD-WF1-025",
+    "THREAD-WF1-026",
+    "THREAD-WF1-027",
+    "THREAD-WF1-028",
+    "THREAD-WF1-029",
+    "THREAD-WF1-030",
+    "THREAD-WF1-031",
+    "THREAD-WF1-032",
+    "THREAD-WF1-033",
+    "THREAD-WF1-034",
+    "THREAD-WF1-035",
+    "THREAD-WF1-036",
+    "THREAD-WF1-037",
+    "THREAD-WF1-038",
+    "THREAD-WF1-039",
+    "THREAD-WF1-040",
+    "THREAD-WF1-041",
+    "THREAD-WF1-042",
+    "THREAD-WF1-043",
+    "THREAD-WF1-044",
+    "THREAD-WF1-045",
+    "THREAD-WF1-046",
+    "THREAD-WF1-047",
+    "THREAD-WF1-048",
+    "THREAD-WF1-049",
+    "THREAD-WF1-050",
+    "THREAD-WF1-051",
+    "THREAD-WF1-052",
+    "THREAD-WF1-053",
+    "THREAD-WF1-054",
+    "THREAD-WF1-055",
+    "THREAD-WF1-056",
+    "THREAD-WF1-057",
+    "THREAD-WF1-058",
+    "THREAD-WF1-059",
+    "THREAD-WF1-060",
+    "THREAD-WF1-061",
+    "THREAD-WF1-062",
+    "THREAD-WF1-063",
+    "THREAD-WF1-064",
+    "THREAD-WF1-065",
+    "THREAD-WF1-066",
+    "THREAD-WF1-067",
+    "THREAD-WF1-068",
+    "THREAD-WF1-069",
+    "THREAD-WF1-070",
+    "THREAD-WF1-071",
+    "THREAD-WF1-072",
+    "THREAD-WF1-073",
+    "THREAD-WF1-074",
+    "THREAD-WF1-075",
+    "THREAD-WF1-076",
+    "THREAD-WF1-077",
+    "THREAD-WF1-078",
+    "THREAD-WF1-079",
+    "THREAD-WF1-080",
+    "THREAD-WF1-081",
+    "THREAD-WF1-082",
+    "THREAD-WF1-083",
+    "THREAD-WF1-084",
+    "THREAD-WF1-085",
+    "THREAD-WF1-086",
+    "THREAD-WF1-087",
+    "THREAD-WF1-088",
+    "THREAD-WF1-089",
+    "THREAD-WF1-090",
+    "THREAD-WF1-091",
+    "THREAD-WF1-092",
+    "THREAD-WF1-093",
+    "THREAD-WF1-094",
+    "THREAD-WF1-095",
+    "THREAD-WF1-096",
+    "THREAD-WF1-097",
+    "THREAD-WF1-098",
+    "THREAD-WF1-099",
+    "THREAD-WF1-100",
+    "THREAD-WF1-101",
+    "THREAD-WF1-102",
+    "THREAD-WF1-103",
+    "THREAD-WF1-104",
+    "THREAD-WF1-105",
+    "THREAD-WF1-106",
+    "THREAD-WF1-107",
+    "THREAD-WF1-108",
+    "THREAD-WF1-109",
+    "THREAD-WF1-110",
+    "THREAD-WF1-111",
+    "THREAD-WF1-112",
+    "THREAD-WF1-113",
+    "THREAD-WF1-114",
+    "THREAD-WF1-115",
+    "THREAD-WF1-116",
+    "THREAD-WF1-117",
+    "THREAD-WF1-118",
+    "THREAD-WF1-119",
+    "THREAD-WF1-120",
+    "THREAD-WF1-121",
+    "THREAD-WF1-122",
+    "THREAD-WF1-123",
+    "THREAD-WF1-124",
+    "THREAD-WF1-125",
+    "THREAD-WF1-126",
+    "THREAD-WF1-127",
+    "THREAD-WF1-128",
+    "THREAD-WF1-129",
+    "THREAD-WF1-130",
+    "THREAD-WF1-131",
+    "THREAD-WF1-132",
+    "THREAD-WF1-133",
+    "THREAD-WF1-134",
+    "THREAD-WF1-135",
+    "THREAD-WF1-136",
+    "THREAD-WF1-137",
+    "THREAD-WF1-138",
+    "THREAD-WF1-139",
+    "THREAD-WF1-140",
+    "THREAD-WF1-141",
+    "THREAD-WF1-142",
+    "THREAD-WF1-143",
+    "THREAD-WF1-144",
+    "THREAD-WF1-145",
+    "THREAD-WF1-146",
+    "THREAD-WF1-147",
+    "THREAD-WF1-148",
+    "THREAD-WF1-149",
+    "THREAD-WF1-150",
+    "THREAD-WF1-151",
+    "THREAD-WF1-152",
+    "THREAD-WF1-153",
+    "THREAD-WF1-154",
+    "THREAD-WF1-155",
+    "THREAD-WF1-156",
+    "THREAD-WF1-157",
+    "THREAD-WF1-158",
+    "THREAD-WF1-159",
+    "THREAD-WF1-160",
+    "THREAD-WF1-161",
+    "THREAD-WF1-162",
+    "THREAD-WF1-163",
+    "THREAD-WF1-164",
+    "THREAD-WF1-165",
+    "THREAD-WF1-166",
+    "THREAD-WF1-167",
+    "THREAD-WF1-168",
+    "THREAD-WF1-169",
+    "THREAD-WF1-170",
+    "THREAD-WF1-171",
+    "THREAD-WF1-172",
+    "THREAD-WF1-173",
+    "THREAD-WF1-174",
+    "THREAD-WF1-175",
+    "THREAD-WF1-176",
+    "THREAD-WF1-177",
+    "THREAD-WF1-178",
+    "THREAD-WF1-179",
+    "THREAD-WF1-180",
+    "THREAD-WF1-181",
+    "THREAD-WF1-182",
+    "THREAD-WF1-183",
+    "THREAD-WF1-184",
+    "THREAD-WF1-185",
+    "THREAD-WF1-186",
+    "THREAD-WF1-187",
+    "THREAD-WF1-188",
+    "THREAD-WF1-189",
+    "THREAD-WF1-190",
+    "THREAD-WF1-191",
+    "THREAD-WF1-192",
+    "THREAD-WF1-193",
+    "THREAD-WF1-194",
+    "THREAD-WF1-195",
+    "THREAD-WF1-196",
+    "THREAD-WF1-197",
+    "THREAD-WF1-198",
+    "THREAD-WF1-199",
+    "THREAD-WF1-200",
+    "THREAD-WF1-201",
+    "THREAD-WF1-202",
+    "THREAD-WF1-203",
+    "THREAD-WF1-204",
+    "THREAD-WF1-205",
+    "THREAD-WF1-206",
+    "THREAD-WF1-207",
+    "THREAD-WF1-208",
+    "THREAD-WF1-209",
+    "THREAD-WF1-210",
+    "THREAD-WF1-211",
+    "THREAD-WF1-212",
+    "THREAD-WF1-213",
+    "THREAD-WF1-214",
+    "THREAD-WF1-215",
+    "THREAD-WF1-216",
+    "THREAD-WF1-217",
+    "THREAD-WF1-218",
+    "THREAD-WF1-219",
+    "THREAD-WF1-220",
+    "THREAD-WF1-221",
+    "THREAD-WF1-222",
+    "THREAD-WF1-223",
+    "THREAD-WF1-224",
+    "THREAD-WF1-225",
+    "THREAD-WF1-226",
+    "THREAD-WF1-227",
+    "THREAD-WF1-228",
+    "THREAD-WF1-229",
+    "THREAD-WF1-230",
+    "THREAD-WF1-231",
+    "THREAD-WF1-232",
+    "THREAD-WF1-233",
+    "THREAD-WF1-234",
+    "THREAD-WF1-235",
+    "THREAD-WF1-236",
+    "THREAD-WF1-237",
+    "THREAD-WF1-238",
+    "THREAD-WF1-239",
+    "THREAD-WF1-240",
+    "THREAD-WF1-241",
+    "THREAD-WF1-242",
+    "THREAD-WF1-243",
+    "THREAD-WF1-244",
+    "THREAD-WF1-245",
+    "THREAD-WF1-246",
+    "THREAD-WF1-247",
+    "THREAD-WF1-248",
+    "THREAD-WF1-249",
+    "THREAD-WF1-250",
+    "THREAD-WF1-251"
+  ]
+}

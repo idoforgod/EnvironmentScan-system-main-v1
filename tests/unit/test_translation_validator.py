@@ -17,6 +17,13 @@ from core.translation_validator import (
     _count_table_rows,
     _count_horizontal_rules,
     _word_count,
+    _check_immutable_terms,
+    _check_preserve_terms,
+    _check_mapping_compliance,
+    _term_in_text,
+    TERM_001,
+    TERM_002,
+    TERM_003,
 )
 
 
@@ -153,12 +160,18 @@ class TestExtractionHelpers:
 class TestValidateTranslationPair:
 
     def test_matching_pair_passes(self):
-        result = validate_translation_pair(EN_REPORT, KO_REPORT)
+        # Disable TERM checks for structural-only test
+        result = validate_translation_pair(
+            EN_REPORT, KO_REPORT,
+            terms_path=Path("/nonexistent/terms.yaml"))
         assert result["status"] == "PASS"
         assert result["critical_failures"] == 0
 
-    def test_all_checks_present(self):
-        result = validate_translation_pair(EN_REPORT, KO_REPORT)
+    def test_all_struct_checks_present(self):
+        # Use a nonexistent terms path to ensure only STRUCT checks run
+        result = validate_translation_pair(
+            EN_REPORT, KO_REPORT,
+            terms_path=Path("/nonexistent/terms.yaml"))
         assert result["total_checks"] == 8
         check_ids = {c["id"] for c in result["checks"]}
         assert "STRUCT-001" in check_ids
@@ -217,3 +230,170 @@ class TestIntegratedSignalBlocks:
 
         ko_only = "### 우선순위 1: A\n### 우선순위 2: B\n"
         assert _count_signal_blocks(ko_only) == 2
+
+
+# ---------------------------------------------------------------------------
+# Tests: Term Fidelity (TERM-001/002/003)
+# ---------------------------------------------------------------------------
+
+class TestTermInText:
+    def test_exact_match(self):
+        assert _term_in_text("STEEPs", "The STEEPs framework is used.")
+
+    def test_no_match(self):
+        assert not _term_in_text("STEEPs", "No framework here.")
+
+    def test_word_boundary_short_term(self):
+        """Short terms require word boundaries."""
+        assert _term_in_text("AI", "The AI model is powerful.")
+        assert not _term_in_text("AI", "MAIN framework")
+
+    def test_case_sensitive(self):
+        assert _term_in_text("STEEPs", "STEEPs analysis")
+        assert not _term_in_text("STEEPs", "steeps analysis")
+
+
+class TestTERM001:
+    def test_all_preserved(self):
+        en = "STEEPs includes Social and Technological categories."
+        ko = "STEEPs는 Social과 Technological 카테고리를 포함합니다."
+        result = _check_immutable_terms(en, ko, ["STEEPs", "Social", "Technological"])
+        assert result["status"] == "PASS"
+        assert result["violation_count"] == 0
+
+    def test_term_translated(self):
+        en = "STEEPs includes Social and Technological categories."
+        ko = "STEEPs는 사회적과 기술적 카테고리를 포함합니다."  # Social/Technological translated
+        result = _check_immutable_terms(en, ko, ["STEEPs", "Social", "Technological"])
+        assert result["status"] == "FAIL"
+        assert "Social" in result["violated"]
+        assert "Technological" in result["violated"]
+
+    def test_short_terms_skipped(self):
+        """Single-character terms like 'S', 'T' are skipped (< MIN_TERM_LENGTH)."""
+        en = "Category S and T."
+        ko = "카테고리 사회 and 기술."
+        result = _check_immutable_terms(en, ko, ["S", "T"])
+        assert result["status"] == "PASS"  # Skipped, not failed
+        assert result["checked"] == 0
+
+    def test_term_not_in_en(self):
+        """Terms not present in EN are not checked."""
+        en = "Only STEEPs mentioned."
+        ko = "STEEPs만 언급."
+        result = _check_immutable_terms(en, ko, ["STEEPs", "Social", "Technological"])
+        assert result["status"] == "PASS"
+        assert result["checked"] == 1  # Only STEEPs was in EN
+
+
+class TestTERM002:
+    def test_all_preserved(self):
+        en = "arXiv and GPT models are used."
+        ko = "arXiv와 GPT 모델이 사용됩니다."
+        result = _check_preserve_terms(en, ko, ["arXiv", "GPT"])
+        assert result["status"] == "PASS"
+
+    def test_over_translated(self):
+        en = "The arXiv database contains papers."
+        ko = "아카이브 데이터베이스에는 논문이 포함되어 있습니다."  # arXiv translated
+        result = _check_preserve_terms(en, ko, ["arXiv"])
+        assert result["status"] == "WARN"
+        assert "arXiv" in result["violated"]
+
+    def test_severity_is_warn(self):
+        """TERM-002 is WARN level, not FAIL."""
+        en = "OECD report on AI."
+        ko = "경제협력개발기구 보고서."  # OECD over-translated
+        result = _check_preserve_terms(en, ko, ["OECD"])
+        assert result["status"] == "WARN"
+        assert result["id"] == TERM_002
+
+
+class TestTERM003:
+    def test_high_compliance(self):
+        en = "weak signal and environmental scanning and impact analysis"
+        ko = "약한 신호와 환경 스캐닝 그리고 영향도 분석"
+        mappings = {
+            "weak signal": "약한 신호",
+            "environmental scanning": "환경 스캐닝",
+            "impact analysis": "영향도 분석",
+        }
+        result = _check_mapping_compliance(en, ko, mappings)
+        assert result["status"] == "PASS"
+        assert result["compliance_rate"] == 1.0
+
+    def test_low_compliance(self):
+        en = "weak signal and environmental scanning and impact analysis"
+        ko = "미약한 시그널과 환경 탐색 그리고 영향력 평가"  # All non-standard
+        mappings = {
+            "weak signal": "약한 신호",
+            "environmental scanning": "환경 스캐닝",
+            "impact analysis": "영향도 분석",
+        }
+        result = _check_mapping_compliance(en, ko, mappings)
+        assert result["status"] == "WARN"
+        assert result["compliance_rate"] < 0.6
+
+    def test_partial_compliance(self):
+        en = "weak signal and environmental scanning and impact analysis"
+        ko = "약한 신호와 환경 탐색 그리고 영향도 분석"  # 2/3 correct
+        mappings = {
+            "weak signal": "약한 신호",
+            "environmental scanning": "환경 스캐닝",
+            "impact analysis": "영향도 분석",
+        }
+        result = _check_mapping_compliance(en, ko, mappings)
+        assert result["compliance_rate"] == pytest.approx(0.667, abs=0.01)
+
+    def test_unmapped_terms_ignored(self):
+        """Terms not in EN are not checked."""
+        en = "weak signal detected."
+        ko = "약한 신호 탐지됨."
+        mappings = {
+            "weak signal": "약한 신호",
+            "impact analysis": "영향도 분석",  # Not in EN
+        }
+        result = _check_mapping_compliance(en, ko, mappings)
+        assert result["checked"] == 1
+        assert result["compliance_rate"] == 1.0
+
+
+class TestTermFidelityIntegration:
+    """Test TERM checks integrated into validate_translation_pair."""
+
+    def _write_terms_yaml(self, tmp_path: Path) -> Path:
+        """Create a test translation-terms.yaml."""
+        import yaml
+        terms = {
+            "immutable_terms": ["STEEPs", "Social", "Technological"],
+            "preserve": ["arXiv", "GPT", "OECD"],
+            "mappings": {
+                "weak signal": "약한 신호",
+                "environmental scanning": "환경 스캐닝",
+            },
+        }
+        terms_path = tmp_path / "translation-terms.yaml"
+        with open(terms_path, "w") as f:
+            yaml.dump(terms, f)
+        return terms_path
+
+    def test_term_checks_included(self, tmp_path):
+        """With terms config, TERM checks are added to results."""
+        terms_path = self._write_terms_yaml(tmp_path)
+        en = "## 1. Summary\nSTEEPs framework and arXiv papers about weak signal."
+        ko = "## 1. 요약\nSTEEPs 프레임워크와 arXiv 논문에서 약한 신호."
+        result = validate_translation_pair(en, ko, terms_path=terms_path)
+        check_ids = {c["id"] for c in result["checks"]}
+        assert TERM_001 in check_ids
+        assert TERM_002 in check_ids
+        assert TERM_003 in check_ids
+        assert result["total_checks"] == 11  # 8 STRUCT + 3 TERM
+
+    def test_term_checks_skipped_without_config(self):
+        """Without terms config, only STRUCT checks run."""
+        result = validate_translation_pair(
+            "## 1. X\n", "## 1. Y\n",
+            terms_path=Path("/nonexistent/terms.yaml"))
+        check_ids = {c["id"] for c in result["checks"]}
+        assert TERM_001 not in check_ids
+        assert result["total_checks"] == 8

@@ -1,0 +1,117 @@
+{
+  "date": "2026-03-07",
+  "generated_at": "2026-03-07T01:08:01.532172+00:00",
+  "viable_count": 4,
+  "non_viable_count": 1,
+  "total_exploration_signals": 0,
+  "viable_candidates": [
+    {
+      "name": "Yale Climate Connections",
+      "url": "https://yaleclimateconnections.org/feed/",
+      "rss_url": "https://yaleclimateconnections.org/feed/",
+      "type": "science_journalism",
+      "target_steeps": [
+        "E_Environmental"
+      ],
+      "discovery_method": "gap_directed",
+      "discovery_query": "environmental sustainability climate change news RSS feed",
+      "confidence": 0.9,
+      "health": "healthy",
+      "scan_status": "viable",
+      "signal_count": 0,
+      "scan_error": "datetime_comparison_bug",
+      "score": 0.66,
+      "score_breakdown": {
+        "signal_yield": 0.0,
+        "uniqueness": 0.9,
+        "reliability": 1.0
+      }
+    },
+    {
+      "name": "CEPR VoxEU",
+      "url": "https://cepr.org/rss/vox-content",
+      "rss_url": "https://cepr.org/rss/vox-content",
+      "type": "academic",
+      "target_steeps": [
+        "E_Economic"
+      ],
+      "discovery_method": "gap_directed",
+      "discovery_query": "global economics finance trade news RSS feed research blog",
+      "confidence": 0.9,
+      "health": "healthy",
+      "scan_status": "viable",
+      "signal_count": 0,
+      "scan_error": "datetime_comparison_bug",
+      "score": 0.66,
+      "score_breakdown": {
+        "signal_yield": 0.0,
+        "uniqueness": 0.9,
+        "reliability": 1.0
+      }
+    },
+    {
+      "name": "Genetic Literacy Project",
+      "url": "https://geneticliteracyproject.org/feed/",
+      "rss_url": "https://geneticliteracyproject.org/feed/",
+      "type": "science_journalism",
+      "target_steeps": [
+        "T_Technological",
+        "s_spiritual"
+      ],
+      "discovery_method": "random",
+      "discovery_query": "synthetic biology ethics governance RSS feed",
+      "frontier_category": "emerging_domains",
+      "confidence": 0.85,
+      "health": "healthy",
+      "scan_status": "viable",
+      "signal_count": 0,
+      "scan_error": "datetime_comparison_bug",
+      "score": 0.66,
+      "score_breakdown": {
+        "signal_yield": 0.0,
+        "uniqueness": 0.85,
+        "reliability": 1.0
+      }
+    },
+    {
+      "name": "Positive Psychology News",
+      "url": "https://positivepsychologynews.com/feed/",
+      "rss_url": "https://positivepsychologynews.com/feed/",
+      "type": "blog",
+      "target_steeps": [
+        "s_spiritual",
+        "S_Social"
+      ],
+      "discovery_method": "gap_directed",
+      "discovery_query": "ethics psychology values meaning well-being spirituality RSS feed blog",
+      "confidence": 0.75,
+      "health": "healthy",
+      "scan_status": "viable",
+      "signal_count": 0,
+      "scan_error": "datetime_comparison_bug",
+      "score": 0.615,
+      "score_breakdown": {
+        "signal_yield": 0.0,
+        "uniqueness": 0.8,
+        "reliability": 1.0
+      }
+    }
+  ],
+  "non_viable_candidates": [
+    {
+      "name": "ILO Newsroom",
+      "url": "https://www.ilo.org/rss/en.xml",
+      "type": "policy",
+      "target_steeps": [
+        "S_Social",
+        "E_Economic"
+      ],
+      "discovery_method": "gap_directed",
+      "health": "unhealthy",
+      "health_reason": "url_moved",
+      "scan_status": "non_viable",
+      "score": 0.0
+    }
+  ],
+  "scan_results": {}
+}

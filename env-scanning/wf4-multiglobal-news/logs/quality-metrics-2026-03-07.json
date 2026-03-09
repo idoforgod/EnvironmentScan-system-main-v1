@@ -1,0 +1,88 @@
+{
+  "workflow": "wf4-multiglobal-news",
+  "date": "2026-03-07",
+  "generated_at": "2026-03-07T04:06:05Z",
+  "phase1_metrics": {
+    "total_articles_crawled": 2076,
+    "sources_attempted": 44,
+    "sources_successful": 38,
+    "sources_failed": 0,
+    "sn_ratio": 0.9149,
+    "time_range_excluded": 81,
+    "session_dedup_removed": 56,
+    "articles_after_dedup": 46,
+    "translation_coverage": 1.00,
+    "translation_avg_confidence": 1.00,
+    "language_coverage": {
+      "ko": 880,
+      "en": 945,
+      "zh": 3,
+      "ja": 28,
+      "de": 3,
+      "fr": 17,
+      "ru": 100,
+      "es": 100
+    }
+  },
+  "phase2_metrics": {
+    "classified_signals": 46,
+    "steeps_distribution": {
+      "S_Social": 6,
+      "T_Technological": 9,
+      "E_Economic": 14,
+      "E_Environmental": 5,
+      "P_Political": 8,
+      "s_spiritual": 4
+    },
+    "fssf_distribution": {
+      "Wild Card": 8,
+      "Emerging Issue": 10,
+      "Trend": 7,
+      "Megatrend": 3,
+      "Driver": 5,
+      "Weak Signal": 5,
+      "Precursor Event": 6,
+      "Discontinuity": 2
+    },
+    "horizon_distribution": {
+      "H1": 28,
+      "H2": 12,
+      "H3": 6
+    },
+    "tipping_point_alerts": {
+      "RED": 5,
+      "ORANGE": 7,
+      "YELLOW": 12,
+      "GREEN": 22
+    },
+    "anomalies_detected": 3,
+    "priority_score_range": [2.30, 4.40],
+    "priority_score_mean": 3.21
+  },
+  "phase3_metrics": {
+    "report_word_count_en": 10350,
+    "report_word_count_ko": 6017,
+    "report_korean_char_ratio": 0.394,
+    "report_sections": 8,
+    "detailed_signal_blocks": 10,
+    "condensed_signals": 36,
+    "l2a_validation": "20/20 PASS exit 0",
+    "l2b_validation": "11/13 PASS exit 2 (0 CRITICAL)",
+    "l3_grade": "A",
+    "translation_validation": "7/8 PASS exit 0 (WARN: table rows non-critical)",
+    "alerts_dispatched": 5,
+    "db_signals_added": 46,
+    "db_total_signals": 225,
+    "archive_path": "reports/archive/2026/03/environmental-scan-2026-03-07.md"
+  },
+  "bugs_fixed_this_run": [
+    {
+      "component": "priority_score_calculator.py",
+      "fix": "_build_classified_map and _build_impact_map: added 'items' key fallback alongside 'signals'"
+    },
+    {
+      "component": "psst_calculator.py",
+      "fix": "calculate_tc(): strip ISO8601 time component before strptime to handle '2026-03-07T15:00:00+00:00'"
+    }
+  ]
+}

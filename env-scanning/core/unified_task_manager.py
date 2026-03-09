@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """
-Unified Task Manager
-Bridges internal task tracking with Claude Code Task API
+Unified Task Manager — Reference Implementation (v3.2.0)
 
-This module provides seamless integration between:
-- Internal task_graph.json (orchestrator's 5 core tasks)
-- Claude Code Task API (18 user-visible workflow tasks)
-- workflow-status.json (source of truth for task mapping)
+STATUS: This class provides a REFERENCE BRIDGE between internal workflow state
+and Claude Code's TaskCreate/TaskUpdate tools. The _create_task and _update_task_status
+methods are mock implementations because the actual Task API calls happen at the
+orchestrator agent level (via Claude Code Tool API), not in Python code.
+
+ARCHITECTURE CLARIFICATION (v3.2.0):
+  - AUTHORITATIVE state: workflow-status.json (Python-managed, SOT-compliant)
+  - USER VISIBILITY: Claude Code TaskCreate/TaskUpdate tools (called by orchestrator agents)
+  - THIS MODULE: Maps step_ids to task_ids for Ctrl+T tracking. Non-critical.
+  - The orchestrator agents call TaskCreate/TaskUpdate directly — they do NOT call
+    this Python class for actual Task API interaction.
 
 Key Principles:
 1. Non-critical: Task API failures don't stop workflow

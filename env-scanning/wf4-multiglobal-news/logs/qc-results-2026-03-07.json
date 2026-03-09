@@ -1,0 +1,114 @@
+{
+  "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-07.md",
+  "ranked_path": "env-scanning/wf4-multiglobal-news/analysis/priority-ranked-2026-03-07.json",
+  "language": "en",
+  "overall_status": "WARN",
+  "summary": {
+    "total_checks": 13,
+    "passed": 11,
+    "critical_failures": 0,
+    "error_failures": 1,
+    "warn_failures": 1
+  },
+  "checks": [
+    {
+      "check_id": "QC-001",
+      "level": "CRITICAL",
+      "description": "Priority order consistency (report vs ranked JSON)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-002",
+      "level": "ERROR",
+      "description": "Executive Summary top-3 match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-003",
+      "level": "CRITICAL",
+      "description": "pSST badge accuracy (score/grade consistency)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-004",
+      "level": "ERROR",
+      "description": "Source dates within scan window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-005",
+      "level": "ERROR",
+      "description": "Cross-impact reference validity (Section 4 ↔ Section 2)",
+      "passed": false,
+      "detail": "'Cross-impact pairs (' (best JW: 0.58, keyword: 0%) — no matching signal in Section 2\n'symbol denotes bidirectional amplification)' (best JW: 0.63, keyword: 0%) — no matching signal in Section 2",
+      "remedy": "Section 4 cross-impact pairs must reference actual signals from Section 2."
+    },
+    {
+      "check_id": "QC-006",
+      "level": "ERROR",
+      "description": "Field depth minimum (per-field content analysis)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-007",
+      "level": "WARN",
+      "description": "STEEPs classification vs content consistency (flags for LLM review)",
+      "passed": false,
+      "detail": "Priority 1: classified as s_spiritual but only 1 content keywords found (min 2)\nPriority 2: classified as E_Environmental but only 1 content keywords found (min 2)\nPriority 3: classified as s_spiritual but only 1 content keywords found (min 2)\nPriority 10: classified as s_spiritual but only 1 content keywords found (min 2)",
+      "remedy": "Review flagged signals: classification may not match actual content. LLM quality-reviewer should assess these cases.",
+      "failed_signal_ids": [
+        "priority-1",
+        "priority-2",
+        "priority-3",
+        "priority-10"
+      ]
+    },
+    {
+      "check_id": "QC-008",
+      "level": "CRITICAL",
+      "description": "Intra-report duplicate detection (Jaro-Winkler >= 0.85)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-009",
+      "level": "ERROR",
+      "description": "Quantitative grounding (numeric values in Quantitative Metrics)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-010",
+      "level": "WARN",
+      "description": "Vague language blocklist (Impact/Inference specificity)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-011",
+      "level": "ERROR",
+      "description": "Cross-signal synthesis in Section 5 (≥2 signal refs per implication)",
+      "passed": true,
+      "detail": "No implications found in Section 5.1/5.2 — deferred to structural check."
+    },
+    {
+      "check_id": "QC-012",
+      "level": "WARN",
+      "description": "Time horizon keywords in Section 5",
+      "passed": true,
+      "detail": "Found 7 time keywords across Section 5."
+    },
+    {
+      "check_id": "QC-013",
+      "level": "WARN",
+      "description": "Action verb presence in Section 5",
+      "passed": true,
+      "detail": "Found 6 action verbs across Section 5."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-07",
+    "assessment_method": "phase2-analyst-unified",
+    "total_signals": 46,
+    "assessed_at": "2026-03-07T05:15:00+00:00"
+  },
+  "tipping_point_summary": {
+    "RED_signals": ["news-20260307-scmp-045", "news-20260307-ft-003", "news-20260307-globeandmail-066", "news-20260307-apnews-084", "news-20260307-nytimes-006"],
+    "ORANGE_signals": ["news-20260307-donga-008", "news-20260307-arabnews-001", "news-20260307-globeandmail-001", "news-20260307-apnews-005", "news-20260307-mt-076", "news-20260307-lemonde-001", "news-20260307-politico-012", "news-20260307-lemonde-015", "news-20260307-hani-012", "news-20260307-washingtonpost-044"],
+    "YELLOW_signals": ["news-20260307-arabnews-010", "news-20260307-politico-023", "news-20260307-rt-035", "news-20260307-washingtonpost-008", "news-20260307-scmp-015", "news-20260307-nknews-062", "news-20260307-nknews-112", "news-20260307-arstechnica-005", "news-20260307-arstechnica-001", "news-20260307-mk-028", "news-20260307-scmp-022", "news-20260307-hankyung-007", "news-20260307-handelsblatt-001", "news-20260307-washingtonpost-031", "news-20260307-sciencetimes-005", "news-20260307-nknews-089", "news-20260307-elfinanciero-034", "news-20260307-politico-031"],
+    "GREEN_signals": ["news-20260307-arstechnica-010", "news-20260307-nytimes-024", "news-20260307-apnews-116", "news-20260307-mt-007", "news-20260307-japantimes-026", "news-20260307-bbc-010", "news-20260307-rt-058", "news-20260307-nknews-043", "news-20260307-aitimes-027", "news-20260307-washingtonpost-024", "news-20260307-zdnet_kr-003", "news-20260307-elfinanciero-037", "news-20260307-globeandmail-073"]
+  },
+  "anomaly_detection": {
+    "statistical_anomalies": [
+      {
+        "signal_id": "news-20260307-ft-003",
+        "type": "z_score",
+        "description": "Global bond market selloff of $2.1T in single session is 3.2 standard deviations above mean daily bond market moves",
+        "z_score": 3.2
+      },
+      {
+        "signal_id": "news-20260307-scmp-045",
+        "type": "price_spike",
+        "description": "LNG spot price +47% in 48 hours exceeds any prior Hormuz disruption scenario",
+        "z_score": 4.1
+      }
+    ],
+    "structural_anomalies": [
+      {
+        "signal_id": "news-20260307-nytimes-006",
+        "type": "simultaneous_leadership_vacuum",
+        "description": "Three FDA CBER senior officials resigned in 48 hours simultaneously with WHO Phase 3 H5N1 alert — cross-domain convergence of regulatory failure + pandemic risk",
+        "cross_domains": ["health", "political", "security"]
+      },
+      {
+        "signal_id": "news-20260307-sciencetimes-005",
+        "type": "repeat_claim",
+        "description": "Second major KAIST room-temperature superconductor claim after LK-99 (2023) — new Korea scientific credibility test with geopolitical AI/energy implications if verified"
+      }
+    ]
+  },
+  "cross_domain_patterns": [
+    {
+      "pattern": "Hormuz Disruption Cascade",
+      "signals": ["news-20260307-donga-008", "news-20260307-scmp-045", "news-20260307-ft-003", "news-20260307-globeandmail-066", "news-20260307-lemonde-015", "news-20260307-arabnews-001"],
+      "description": "Single chokepoint (Hormuz) triggering simultaneous energy crisis in Korea, Japan, Asia; $120+ Brent; $2.1T bond market loss; EU emergency protocols; Egypt economic near-emergency",
+      "amplification_risk": "HIGH"
+    },
+    {
+      "pattern": "US Regulatory Hollowing + Pandemic Risk Convergence",
+      "signals": ["news-20260307-apnews-005", "news-20260307-nytimes-006", "news-20260307-apnews-084", "news-20260307-politico-012"],
+      "description": "DOGE eliminating 38,000 scientists + FDA vaccine leadership vacuum converging with WHO H5N1 Phase 3 — simultaneous destruction of US pandemic response capacity during active threat",
+      "amplification_risk": "CRITICAL"
+    },
+    {
+      "pattern": "AGI Race Acceleration",
+      "signals": ["news-20260307-washingtonpost-044", "news-20260307-scmp-022", "news-20260307-politico-031", "news-20260307-aitimes-027", "news-20260307-hankyung-007"],
+      "description": "Amazon AGI 2027 claim + DeepMind AlphaFold3 biotech breakthrough + EU liability regulation + Korea AI infrastructure doubling + HBM4 supply secured — AGI race intensifying across all dimensions",
+      "amplification_risk": "HIGH"
+    },
+    {
+      "pattern": "Anti-Western Axis Consolidation",
+      "signals": ["news-20260307-nknews-062", "news-20260307-nknews-043", "news-20260307-nknews-112", "news-20260307-nknews-089", "news-20260307-rt-035"],
+      "description": "Russia-China-NK trilateral alignment deepening: congratulatory messages + NK military deployment in Russia + NK satellite internet with Russian tech + disinformation at UNSC",
+      "amplification_risk": "MEDIUM"
+    }
+  ],
+  "items": [
+    {"id": "news-20260307-scmp-045", "impact_score": 5, "impact_direction": "negative", "probability": 0.95, "urgency": 5, "novelty": 4},
+    {"id": "news-20260307-ft-003", "impact_score": 5, "impact_direction": "negative", "probability": 0.95, "urgency": 5, "novelty": 4},
+    {"id": "news-20260307-globeandmail-066", "impact_score": 5, "impact_direction": "negative", "probability": 0.95, "urgency": 5, "novelty": 3},
+    {"id": "news-20260307-apnews-084", "impact_score": 5, "impact_direction": "negative", "probability": 0.80, "urgency": 5, "novelty": 5},
+    {"id": "news-20260307-nytimes-006", "impact_score": 5, "impact_direction": "negative", "probability": 0.90, "urgency": 5, "novelty": 4},
+    {"id": "news-20260307-sciencetimes-005", "impact_score": 5, "impact_direction": "positive", "probability": 0.15, "urgency": 3, "novelty": 5},
+    {"id": "news-20260307-washingtonpost-044", "impact_score": 5, "impact_direction": "mixed", "probability": 0.35, "urgency": 3, "novelty": 5},
+    {"id": "news-20260307-donga-008", "impact_score": 5, "impact_direction": "negative", "probability": 0.95, "urgency": 5, "novelty": 3},
+    {"id": "news-20260307-arabnews-001", "impact_score": 4, "impact_direction": "negative", "probability": 0.90, "urgency": 5, "novelty": 4},
+    {"id": "news-20260307-arabnews-010", "impact_score": 4, "impact_direction": "negative", "probability": 0.80, "urgency": 4, "novelty": 4},
+    {"id": "news-20260307-globeandmail-001", "impact_score": 4, "impact_direction": "negative", "probability": 0.75, "urgency": 4, "novelty": 4},
+    {"id": "news-20260307-arstechnica-005", "impact_score": 4, "impact_direction": "negative", "probability": 0.85, "urgency": 4, "novelty": 4},
+    {"id": "news-20260307-apnews-005", "impact_score": 4, "impact_direction": "negative", "probability": 0.95, "urgency": 5, "novelty": 3},
+    {"id": "news-20260307-washingtonpost-008", "impact_score": 4, "impact_direction": "mixed", "probability": 0.88, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-scmp-015", "impact_score": 4, "impact_direction": "positive", "probability": 0.70, "urgency": 4, "novelty": 4},
+    {"id": "news-20260307-lemonde-001", "impact_score": 4, "impact_direction": "mixed", "probability": 0.85, "urgency": 4, "novelty": 3},
+    {"id": "news-20260307-politico-012", "impact_score": 4, "impact_direction": "negative", "probability": 0.90, "urgency": 4, "novelty": 3},
+    {"id": "news-20260307-scmp-022", "impact_score": 4, "impact_direction": "positive", "probability": 0.85, "urgency": 3, "novelty": 4},
+    {"id": "news-20260307-hankyung-007", "impact_score": 4, "impact_direction": "positive", "probability": 0.90, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-handelsblatt-001", "impact_score": 4, "impact_direction": "positive", "probability": 0.85, "urgency": 4, "novelty": 4},
+    {"id": "news-20260307-lemonde-015", "impact_score": 4, "impact_direction": "mixed", "probability": 0.90, "urgency": 4, "novelty": 3},
+    {"id": "news-20260307-hani-012", "impact_score": 4, "impact_direction": "mixed", "probability": 0.78, "urgency": 4, "novelty": 3},
+    {"id": "news-20260307-politico-031", "impact_score": 4, "impact_direction": "mixed", "probability": 0.92, "urgency": 3, "novelty": 4},
+    {"id": "news-20260307-mt-076", "impact_score": 4, "impact_direction": "negative", "probability": 0.88, "urgency": 3, "novelty": 4},
+    {"id": "news-20260307-nytimes-024", "impact_score": 3, "impact_direction": "positive", "probability": 0.95, "urgency": 2, "novelty": 3},
+    {"id": "news-20260307-washingtonpost-024", "impact_score": 3, "impact_direction": "positive", "probability": 0.95, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-mk-028", "impact_score": 3, "impact_direction": "negative", "probability": 0.80, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-japantimes-026", "impact_score": 3, "impact_direction": "positive", "probability": 0.85, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-nknews-062", "impact_score": 3, "impact_direction": "negative", "probability": 0.88, "urgency": 3, "novelty": 2},
+    {"id": "news-20260307-nknews-043", "impact_score": 3, "impact_direction": "mixed", "probability": 0.85, "urgency": 2, "novelty": 2},
+    {"id": "news-20260307-nknews-112", "impact_score": 3, "impact_direction": "negative", "probability": 0.85, "urgency": 3, "novelty": 2},
+    {"id": "news-20260307-arstechnica-001", "impact_score": 3, "impact_direction": "mixed", "probability": 0.85, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-aitimes-027", "impact_score": 3, "impact_direction": "positive", "probability": 0.82, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-washingtonpost-031", "impact_score": 3, "impact_direction": "mixed", "probability": 0.65, "urgency": 2, "novelty": 3},
+    {"id": "news-20260307-zdnet_kr-003", "impact_score": 3, "impact_direction": "positive", "probability": 0.78, "urgency": 2, "novelty": 3},
+    {"id": "news-20260307-nknews-089", "impact_score": 3, "impact_direction": "mixed", "probability": 0.75, "urgency": 2, "novelty": 3},
+    {"id": "news-20260307-politico-023", "impact_score": 3, "impact_direction": "mixed", "probability": 0.75, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-rt-035", "impact_score": 3, "impact_direction": "negative", "probability": 0.40, "urgency": 3, "novelty": 3},
+    {"id": "news-20260307-elfinanciero-034", "impact_score": 2, "impact_direction": "negative", "probability": 0.80, "urgency": 3, "novelty": 2},
+    {"id": "news-20260307-bbc-010", "impact_score": 2, "impact_direction": "mixed", "probability": 0.85, "urgency": 2, "novelty": 2},
+    {"id": "news-20260307-rt-058", "impact_score": 2, "impact_direction": "mixed", "probability": 0.70, "urgency": 2, "novelty": 3},
+    {"id": "news-20260307-apnews-116", "impact_score": 2, "impact_direction": "mixed", "probability": 0.70, "urgency": 2, "novelty": 2},
+    {"id": "news-20260307-mt-007", "impact_score": 2, "impact_direction": "positive", "probability": 0.75, "urgency": 2, "novelty": 2},
+    {"id": "news-20260307-globeandmail-073", "impact_score": 2, "impact_direction": "mixed", "probability": 0.68, "urgency": 2, "novelty": 2},
+    {"id": "news-20260307-elfinanciero-037", "impact_score": 2, "impact_direction": "mixed", "probability": 0.65, "urgency": 2, "novelty": 2},
+    {"id": "news-20260307-arstechnica-010", "impact_score": 3, "impact_direction": "positive", "probability": 0.82, "urgency": 2, "novelty": 3}
+  ]
+}

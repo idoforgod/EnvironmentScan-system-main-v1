@@ -1,0 +1,1773 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-09T00:19:20.139548+00:00",
+  "workflow": "wf4-multiglobal-news",
+  "signals_file": "env-scanning/wf4-multiglobal-news/raw/daily-crawl-2026-03-09.json",
+  "previous_file": "env-scanning/wf4-multiglobal-news/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "57 definite duplicate(s) removed. 160 uncertain signal(s) flagged for LLM review. 1217 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 1434,
+    "definite_new": 1217,
+    "definite_duplicates": 57,
+    "uncertain": 160,
+    "pass_through": 1377
+  },
+  "stage_breakdown": {
+    "A_url": 15,
+    "B_topic": 27,
+    "C_title": 0,
+    "D_entity": 15
+  },
+  "duplicates": [
+    {
+      "signal_id": "news-20260309-joongang-040",
+      "signal_title": "'AI 일자리 공습' 고학력·고소득부터 타격…대체 1순위는",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-joongang-048",
+      "signal_title": "Health&",
+      "matched_signal_id": "news-20260227-physical-ai-033",
+      "matched_title": "Physical AI Goes Mainstream — Smart Glasses, Health Rings",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-joongang-095",
+      "signal_title": "급성장하는 추론 시장, AI 반도체 설계 주권 확보해야",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-joongang-173",
+      "signal_title": "AI 감별능력 테스트",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-joongang-182",
+      "signal_title": "차세대 AI 패러다임, 프라이빗 AI",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-joongang-206",
+      "signal_title": "\"2028년 실업률 치솟고, 대형 금융위기\"…'AI 보고서' 파장",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-joongang-219",
+      "signal_title": "AI 혁명 첫 피해자는?…고학력·고소득 화이트 칼러가 대체되고 있다 [팩플]",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-hankyung-016",
+      "signal_title": "지니너스, 200억 투자 유치…재무 리스크 해소·AI 신약개발 가속",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-sedaily-031",
+      "signal_title": "12% 급락 뒤 9% 급등\n‘6000피’ 다음주 향방은",
+      "matched_signal_id": "news-20260225-etnews-013",
+      "matched_title": "코스피 '6000피' 달성…꿈의 지수 또한번 갈아치웠다",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-sedaily-063",
+      "signal_title": "영상시키지도 않았는데 “부업 중입니다 휴먼”...AI 단독 행동 논란",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-mt-035",
+      "signal_title": "셀바스헬스케어, AI 점자단말기 &#039;브레일센스 7&#039; 3종 글로벌 출시",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-001",
+      "signal_title": "국제유가 100달러 돌파…러-우 전쟁 이후 4년 만",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-002",
+      "signal_title": "[AI전 된 이란전➃] 규범 지연 속 AI 전장 확장…국제 질서 시험대",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-003",
+      "signal_title": "[단독] 국제 랜섬웨어 \"현대엘리베이터 해킹 성공\" 주장",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-004",
+      "signal_title": "딥엑스, 'K-AI칩' 기대주서 시장 안착 시험대로… 냉정한 현장 평가 넘을까",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-005",
+      "signal_title": "[ZD브리핑] 삼성전자 노조 5월 총파업 예고…9일 찬반 투표",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-006",
+      "signal_title": "전쟁인데 금값 떨어진다고?…금융시장 매크로 구조 이해해야",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-007",
+      "signal_title": "OLED·터치 탑재 맥북 나온다…\"명칭은 맥북 울트라\"",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-008",
+      "signal_title": "공정위, 엽기떡볶이 시정명령...POS·키오스크 구매 강제",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-009",
+      "signal_title": "왜 지금 단종인가…천만 관객이 선택한 ‘패배한 왕’",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-010",
+      "signal_title": "'AI 가짜 전쟁 영상' 수억 조회수…미·이스라엘-이란 허위정보 확산",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-011",
+      "signal_title": "넥슨 던파, 신규 지역 '천해천' 공개…액션·파밍 시스템 개편",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-zdnetkr-012",
+      "signal_title": "[타보고서] 공간은 SUV·주행은 세단…장점만 담은 르노 '필랑트'",
+      "matched_signal_id": "news-20260306-zdnet-001",
+      "matched_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-etnews-009",
+      "signal_title": "머스크 AI '그록', 종교·참사 비하 게시물 생성 논란",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-etnews-025",
+      "signal_title": "카카오, '카인톡' 사양 갤S24까지 낮출까…구글과 온디바이스 AI 협력 확대",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-etnews-030",
+      "signal_title": "네이버, 자회사 조직 끌어와 AI 역량 강화…AI 검색·헬스케어 사업 박차",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-aitimes-008",
+      "signal_title": "트럼프 행정부, \"모든 합법적 사용\" 허용하는 정부 AI 계약 방침 마련",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-aitimes-016",
+      "signal_title": "[AI 이슈트렌드] 2NE1 마약 논란·중동 전쟁 등에 관심 집중",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-aitimes-019",
+      "signal_title": "이란, 아마존 데이터센터 공격...\"AI 시대 새로운 군사적 타깃 부각\"",
+      "matched_signal_id": "news-20260225-aitimes-015",
+      "matched_title": "구글, 430억 규모 ‘과학을 위한 AI’ 공모전 개최",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-nytimes-001",
+      "signal_title": "Mojtaba Khamenei, Son of Iran’s Slain Supreme Leader, Is a Mysterious Figure",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.7143
+    },
+    {
+      "signal_id": "news-20260309-wsj-002",
+      "signal_title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "matched_signal_id": "news-20260225-wsj-002",
+      "matched_title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-wsj-004",
+      "signal_title": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
+      "matched_signal_id": "news-20260226-wsj-004",
+      "matched_title": "Suspected Sabotage of Deep-Sea Cable Triggers First NATO-Led Response",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-wsj-009",
+      "signal_title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
+      "matched_signal_id": "news-20260225-wsj-009",
+      "matched_title": "Kim Jong Un Is Doing Everything He Can to Keep North Korea's Youth in Line",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-wsj-011",
+      "signal_title": "Jeju Air Crash Probe Focuses On Engine Damage After Bird Strike",
+      "matched_signal_id": "news-20260225-wsj-011",
+      "matched_title": "Jeju Air Crash Probe Focuses On Engine Damage After Bird Strike",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-005",
+      "signal_title": "Legal",
+      "matched_signal_id": "news-20260226-ft-004",
+      "matched_title": "Supreme Court ruling on tariffs unleashes more than 900 legal challenges",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-007",
+      "signal_title": "Technology",
+      "matched_signal_id": "news-20260305-arstechnica-001",
+      "matched_title": "NVIDIA Partners with Coherent on Optics Technology for Next-Generation Data Center Architecture",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-010",
+      "signal_title": "Science",
+      "matched_signal_id": "news-20260307-politico-012",
+      "matched_title": "DOGE Eliminates 38,000 Federal Science Positions in 60 Days; Brain Drain Accelerates",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-020",
+      "signal_title": "Sponsored Content",
+      "matched_signal_id": "news-20260225-timesofisrael-008",
+      "matched_title": "External Threats, Internal Fractures - Sponsored Content",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-021",
+      "signal_title": "Markets",
+      "matched_signal_id": "news-20260227-carbon-030",
+      "matched_title": "Global Carbon Markets Advance — GHG Protocol Scope 2 Updates",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-023",
+      "signal_title": "Middle East",
+      "matched_signal_id": "news-20260228-chosun-001",
+      "matched_title": "Korean Companies Activate Middle East Business Contingency Plans",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-024",
+      "signal_title": "Business",
+      "matched_signal_id": "news-20260228-chosun-001",
+      "matched_title": "Korean Companies Activate Middle East Business Contingency Plans",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-026",
+      "signal_title": "Europe",
+      "matched_signal_id": "news-20260306-rt-001",
+      "matched_title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-reuters-028",
+      "signal_title": "Africa",
+      "matched_signal_id": "news-20260227-africa-014",
+      "matched_title": "South Africa Debt Peaks After 17 Years",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-politico-007",
+      "signal_title": "The nation’s cartoonists on the week in politics",
+      "matched_signal_id": "news-20260225-politico-012",
+      "matched_title": "The nation’s cartoonists on the week in politics",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-politico-025",
+      "signal_title": "March",
+      "matched_signal_id": "news-20260305-euronews-001",
+      "matched_title": "EU 'Buy European' Plan Faces Internal Division as March Summit Approaches",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-politico-026",
+      "signal_title": "Majority of Americans oppose Trump’s Iran strikes, per new polling",
+      "matched_signal_id": "news-20260307-politico-023",
+      "matched_title": "Majority of Americans Oppose Trump's Iran Strikes, Per New Polling",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-bbc-001",
+      "signal_title": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.8
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-027",
+      "signal_title": "Day 7: Carney says Canada could be called to help allies in Middle East; top NATO soldiers met to discuss war",
+      "matched_signal_id": "news-20260307-globeandmail-001",
+      "matched_title": "Carney Says Canada Could Be Called to Help Allies in Middle East; Top NATO Soldier Warns of Escalation",
+      "stage": "B_topic",
+      "score": 0.8
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-053",
+      "signal_title": "Congress blocks bid to limit Trump's war powers amid Iran conflict",
+      "matched_signal_id": "news-20260306-apnews-001",
+      "matched_title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "stage": "B_topic",
+      "score": 0.7143
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-073",
+      "signal_title": "China sets lowest growth target in decades amid ‘drastic changes’ to global market",
+      "matched_signal_id": "news-20260306-scmp-001",
+      "matched_title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-083",
+      "signal_title": "U.S. Senate backs Trump on Iran strikes, blocks bid to limit war powers",
+      "matched_signal_id": "news-20260306-apnews-001",
+      "matched_title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "stage": "B_topic",
+      "score": 0.7143
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-098",
+      "signal_title": "U.S. House committee votes to subpoena Attorney-General Pam Bondi over Epstein files",
+      "matched_signal_id": "news-20260307-globeandmail-073",
+      "matched_title": "US House Judiciary Votes to Subpoena AG Bondi Over Epstein Files; Bipartisan Break",
+      "stage": "B_topic",
+      "score": 0.75
+    },
+    {
+      "signal_id": "news-20260309-scmp-005",
+      "signal_title": "Who is Mojtaba Khamenei, son and successor to Iran’s supreme leader?",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "news-20260309-rt-001",
+      "signal_title": "Mojtaba Khamenei named Iran’s new supreme leader",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "news-20260309-rt-034",
+      "signal_title": "The end of Russia’s gas era",
+      "matched_signal_id": "news-20260225-apnews-002",
+      "matched_title": "European officials visit Ukraine to show support as country marks 4 years of Russia’s all-out war",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-rt-067",
+      "signal_title": "Israel behind Azerbaijan drone provocations to frame Iran – envoy",
+      "matched_signal_id": "news-20260307-rt-035",
+      "matched_title": "Israel Behind Azerbaijan Drone Provocations to Frame Iran – Russian Envoy",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260309-rt-090",
+      "signal_title": "Nepal votes in first general elections since ‘Gen Z protests’",
+      "matched_signal_id": "news-20260307-rt-058",
+      "matched_title": "Nepal Holds First General Elections Since 'Gen Z Protests' That Toppled Government",
+      "stage": "B_topic",
+      "score": 0.8333
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "news-20260309-joongang-201",
+      "signal_title": "트림 나오면 소화 다 된 것? 식도 망가뜨리는 치명적 착각  [Health&]",
+      "matched_signal_id": "news-20260227-physical-ai-033",
+      "matched_title": "Physical AI Goes Mainstream — Smart Glasses, Health Rings",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-joongang-202",
+      "signal_title": "환절기 건강 케어, 프리미엄 침향환으로 [Health&]",
+      "matched_signal_id": "news-20260227-physical-ai-033",
+      "matched_title": "Physical AI Goes Mainstream — Smart Glasses, Health Rings",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-sedaily-057",
+      "signal_title": "韓 “尹정권서도 6000피 가능”…與 “K디스카운트 핵심이 尹”",
+      "matched_signal_id": "news-20260225-etnews-013",
+      "matched_title": "코스피 '6000피' 달성…꿈의 지수 또한번 갈아치웠다",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-sedaily-072",
+      "signal_title": "영상12% 급락 뒤 9% 급등…요동친 ‘6000피’ 다음주 향방은",
+      "matched_signal_id": "news-20260225-etnews-013",
+      "matched_title": "코스피 '6000피' 달성…꿈의 지수 또한번 갈아치웠다",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-mt-043",
+      "signal_title": "&#039;175명 사망&#039; 이란 여자 초등학교 공습 책임론...트럼프 &quot;자작극&quot;",
+      "matched_signal_id": "news-20260225-etnews-001",
+      "matched_title": "美 초등학교 교감의 이중생활… “밤에는 성매매 알선”",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-aitimes-007",
+      "signal_title": "KAIST, 약물 결합 넘어 ‘실제 활성 여부’ 예측하는 ‘신약 개발 AI’ 선보여",
+      "matched_signal_id": "news-20260307-sciencetimes-005",
+      "matched_title": "KAIST Claims Room-Temperature Superconductor at 28°C; MIT/CERN Replication Pending",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-aitimes-020",
+      "signal_title": "앤트로픽, '클로드' 기반 소프트웨어 마켓플레이스 공개",
+      "matched_signal_id": "news-20260225-aitimes-001",
+      "matched_title": "앤트로픽, '클로드 코워크' 플러그인 확장...이번에는 SW 주가 상승",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-nytimes-004",
+      "signal_title": "Trump Executive Order Protected Weedkiller Roundup and a Munition, White Phosphorus",
+      "matched_signal_id": "news-20260225-arstechnica-001",
+      "matched_title": "Trump's MAHA influencer pick for surgeon general goes before Senate",
+      "stage": "C_title",
+      "score": 0.8094
+    },
+    {
+      "signal_id": "news-20260309-nytimes-006",
+      "signal_title": "Trump Wants to ‘Take Over’ Elections. These States Are Prime Targets.",
+      "matched_signal_id": "news-20260225-arstechnica-001",
+      "matched_title": "Trump's MAHA influencer pick for surgeon general goes before Senate",
+      "stage": "C_title",
+      "score": 0.8222
+    },
+    {
+      "signal_id": "news-20260309-nytimes-010",
+      "signal_title": "U.S. Authorities Are Investigating Device Thrown Near Gracie Mansion",
+      "matched_signal_id": "news-20260306-nytimes-001",
+      "matched_title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "stage": "C_title",
+      "score": 0.8435
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-001",
+      "signal_title": "7th U.S. service member killed in war with Iran; Khamenei’s son named supreme leader",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-002",
+      "signal_title": "Iran’s next supreme leader, Ali Khamenei’s son, is a powerful regime insider",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "C_title",
+      "score": 0.8335
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-003",
+      "signal_title": "Trump threat to blow up trade deal puts Canada’s auto town on the spot",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8047
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-005",
+      "signal_title": "Trump said he ended a war in Africa. U.S. sanctions say otherwise.",
+      "matched_signal_id": "news-20260306-hankyung-001",
+      "matched_title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "stage": "C_title",
+      "score": 0.8289
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-006",
+      "signal_title": "Trump says Iran targets will expand, honors U.S. troops killed in war",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8287
+    },
+    {
+      "signal_id": "news-20260309-washingtonpost-009",
+      "signal_title": "Trump team bashed Europe for a year. Now he wants support in war on Iran.",
+      "matched_signal_id": "news-20260306-hankyung-001",
+      "matched_title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "stage": "C_title",
+      "score": 0.817
+    },
+    {
+      "signal_id": "news-20260309-wsj-010",
+      "signal_title": "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8292
+    },
+    {
+      "signal_id": "news-20260309-wsj-012",
+      "signal_title": "Germany's Economic Model Is Broken, and No One Has a Plan B",
+      "matched_signal_id": "news-20260307-handelsblatt-001",
+      "matched_title": "Germany's €200 Billion Sondervermögen: Debt Brake Bypass for Defense and Infrastructure",
+      "stage": "C_title",
+      "score": 0.8144
+    },
+    {
+      "signal_id": "news-20260309-wsj-013",
+      "signal_title": "Trump Says He Wants to 'Clean Out' Gaza, Send Refugees to Egypt and Jordan",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8248
+    },
+    {
+      "signal_id": "news-20260309-wsj-017",
+      "signal_title": "Who Are the Israeli Hostages Released by Hamas?",
+      "matched_signal_id": "news-20260225-scmp-010",
+      "matched_title": "Who is Ali Shamkhani, the face of Iran’s wartime resistance?",
+      "stage": "C_title",
+      "score": 0.8216
+    },
+    {
+      "signal_id": "news-20260309-reuters-002",
+      "signal_title": "Browse Business",
+      "matched_signal_id": "news-20260228-chosun-001",
+      "matched_title": "Korean Companies Activate Middle East Business Contingency Plans",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-reuters-003",
+      "signal_title": "Browse Markets",
+      "matched_signal_id": "news-20260227-carbon-030",
+      "matched_title": "Global Carbon Markets Advance — GHG Protocol Scope 2 Updates",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-reuters-012",
+      "signal_title": "City Memo",
+      "matched_signal_id": "news-20260225-bbc-001",
+      "matched_title": "'Fear is everywhere': BBC reports from Mexican city turned into war zone by drug cartel feud",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-reuters-017",
+      "signal_title": "Fact Check",
+      "matched_signal_id": "news-20260225-apnews-005",
+      "matched_title": "FACT FOCUS: A look at Trump’s false and misleading claims ahead of the State of the Union",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-reuters-019",
+      "signal_title": "Media Center",
+      "matched_signal_id": "news-20260305-arstechnica-001",
+      "matched_title": "NVIDIA Partners with Coherent on Optics Technology for Next-Generation Data Center Architecture",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-reuters-022",
+      "signal_title": "United States",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-politico-029",
+      "signal_title": "Strikes at Iran could reshape primary election dynamics",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-ft-001",
+      "signal_title": "Middle East war day 9 as it happened: Ali Khamenei’s son Mojtaba becomes Iran’s supreme leader",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "news-20260309-ft-002",
+      "signal_title": "Trump raises the stakes in Iran by weighing deployment of US ground forces",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "C_title",
+      "score": 0.8426
+    },
+    {
+      "signal_id": "news-20260309-ft-006",
+      "signal_title": "The hunt for Iran’s ballistic missile crews",
+      "matched_signal_id": "news-20260225-politico-012",
+      "matched_title": "The nation’s cartoonists on the week in politics",
+      "stage": "C_title",
+      "score": 0.8152
+    },
+    {
+      "signal_id": "news-20260309-ft-008",
+      "signal_title": "China signals it wants a Trump visit despite Iran war",
+      "matched_signal_id": "news-20260228-scmp-001",
+      "matched_title": "China Masking Drone Flights in Potential Taiwan Invasion Rehearsal",
+      "stage": "C_title",
+      "score": 0.8389
+    },
+    {
+      "signal_id": "news-20260309-bbc-002",
+      "signal_title": "Oil prices jump above $100 for first time in four years",
+      "matched_signal_id": "news-20260305-ft-001",
+      "matched_title": "Eurozone Manufacturing PMI Hits 44-Month High as Germany Crosses Above 50 for First Time Since 2022",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-bbc-028",
+      "signal_title": "Iran president apologises for striking neighbours",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "C_title",
+      "score": 0.8034
+    },
+    {
+      "signal_id": "news-20260309-bbc-033",
+      "signal_title": "League One side Port Vale stun Sunderland in FA Cup upset",
+      "matched_signal_id": "news-20260225-wsj-002",
+      "matched_title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "stage": "C_title",
+      "score": 0.8006
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-001",
+      "signal_title": "Iran names Mojtaba Khamenei, former ruler’s son, as new supreme leader",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-002",
+      "signal_title": "Iran soccer team eliminated from Women’s Asian Cup faces the prospect of a return home",
+      "matched_signal_id": "news-20260226-washingtonpost-005",
+      "matched_title": "Iran, U.S. resume nuclear negotiations as Trump's war clock ticks down",
+      "stage": "C_title",
+      "score": 0.8161
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-005",
+      "signal_title": "Khamenei’s son to be named Iran’s supreme leader, Tehran indicates",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-009",
+      "signal_title": "Iraqi-Canadian women’s rights activist Yanar Mohammed worked under constant threat of violence",
+      "matched_signal_id": "news-20260305-nytimes-001",
+      "matched_title": "Iraq Suffers Nationwide Blackout as Power Grid Collapses Amid Regional Conflict",
+      "stage": "C_title",
+      "score": 0.8256
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-010",
+      "signal_title": "Trump rejects settling war with Iran, says ground troops could be sent in",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.834
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-013",
+      "signal_title": "Trump tells U.K. he doesn’t need its help to win war with Iran",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8282
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-014",
+      "signal_title": "Israel renews assault on Lebanon as Iran war enters second week",
+      "matched_signal_id": "news-20260305-aljazeera-001",
+      "matched_title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "stage": "C_title",
+      "score": 0.8467
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-015",
+      "signal_title": "Trump’s about-face on foreign wars poses great risks to the world and his presidency",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "C_title",
+      "score": 0.8292
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-016",
+      "signal_title": "Israel’s search in Lebanon for remains of long-lost weapons officer triggers deadly shootout",
+      "matched_signal_id": "news-20260305-aljazeera-001",
+      "matched_title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "stage": "C_title",
+      "score": 0.8331
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-017",
+      "signal_title": "Some Palestinians see little hope for reconstruction in Gaza amid intensifying war in Middle East",
+      "matched_signal_id": "news-20260305-nikkei-001",
+      "matched_title": "Japan Finance Minister Monitors Markets as Yen Trades Near 157.3 Amid Middle East Volatility",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-019",
+      "signal_title": "Iranian President rejects U.S. demand for a surrender",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "C_title",
+      "score": 0.8099
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-020",
+      "signal_title": "Iran apologizes to Gulf but war still rages across region",
+      "matched_signal_id": "news-20260226-washingtonpost-005",
+      "matched_title": "Iran, U.S. resume nuclear negotiations as Trump's war clock ticks down",
+      "stage": "C_title",
+      "score": 0.8162
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-022",
+      "signal_title": "Ukraine’s drone interceptors draw U.S. and Gulf interest, but wartime ban blocks sales",
+      "matched_signal_id": "news-20260307-nknews-112",
+      "matched_title": "Ukraine Says North Korean Troops Are Still Carrying Out Strikes from Russia",
+      "stage": "C_title",
+      "score": 0.8304
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-024",
+      "signal_title": "Trump says Iran's army, navy, communications and leaders are 'gone'",
+      "matched_signal_id": "news-20260307-apnews-005",
+      "matched_title": "Trump Administration's FDA Vaccine Chief Resigns, Leaving H5N1 Response in Doubt",
+      "stage": "C_title",
+      "score": 0.8221
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-025",
+      "signal_title": "Trump cannot end protections for more than 350,000 Haitians, U.S. appeals court rules",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "C_title",
+      "score": 0.8288
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-028",
+      "signal_title": "How the Iran war is affecting countries in the Middle East and wider world",
+      "matched_signal_id": "news-20260228-chosun-001",
+      "matched_title": "Korean Companies Activate Middle East Business Contingency Plans",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-029",
+      "signal_title": "New Delhi’s ‘strategic autonomy’ in doubt after U.S. sinks Iranian ship in Indian Ocean",
+      "matched_signal_id": "news-20260307-nknews-043",
+      "matched_title": "New Zealand Sanctions North Korean Military Firms, Targeting Support for Russia",
+      "stage": "C_title",
+      "score": 0.8324
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-030",
+      "signal_title": "Israel bombs Beirut as UN warns 100,000 people are displaced",
+      "matched_signal_id": "news-20260227-gaza-031",
+      "matched_title": "Israel Supreme Court Allows Aid Groups in Gaza",
+      "stage": "C_title",
+      "score": 0.8156
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-032",
+      "signal_title": "Trump’s wins in the Senate and the House nevertheless reveal he is losing his grip on power",
+      "matched_signal_id": "news-20260225-apnews-006",
+      "matched_title": "Trump’s State of the Union will seek to calm voters’ economic concerns ahead of midterm elections",
+      "stage": "C_title",
+      "score": 0.8331
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-035",
+      "signal_title": "Day 5: Iran launches new strikes at Jerusalem, Tel Aviv and U.S. bases as Israel fires more at Lebanon",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-036",
+      "signal_title": "Day 6: Canada, allies to discuss possible military support for Gulf states; U.S. House votes to back Trump’s war powers",
+      "matched_signal_id": "news-20260306-politico-001",
+      "matched_title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-037",
+      "signal_title": "Day 2: Middle East war widens as attacks on Iran intensify",
+      "matched_signal_id": "news-20260228-chosun-001",
+      "matched_title": "Korean Companies Activate Middle East Business Contingency Plans",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-038",
+      "signal_title": "Day 3: Trump says Iran operation could last weeks; Israel launches new wave of attacks on Beirut, Tehran",
+      "matched_signal_id": "news-20260305-aljazeera-001",
+      "matched_title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "stage": "B_topic",
+      "score": 0.4444
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-039",
+      "signal_title": "Day 4: U.S. soldiers killed identified; attacks spread across the Middle East as war with Iran intensifies",
+      "matched_signal_id": "news-20260228-alma-001",
+      "matched_title": "Second Iran War Day 1 Analysis — 200+ Killed, 24 of 31 Provinces Hit",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-045",
+      "signal_title": "How the U.S. military buildup against Iran took shape",
+      "matched_signal_id": "news-20260306-politico-001",
+      "matched_title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-046",
+      "signal_title": "Who was Ayatollah Ali Khamenei, the Iranian Supreme Leader killed in missile attacks?",
+      "matched_signal_id": "news-20260225-scmp-010",
+      "matched_title": "Who is Ali Shamkhani, the face of Iran’s wartime resistance?",
+      "stage": "C_title",
+      "score": 0.8345
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-052",
+      "signal_title": "U.S. says bombardment to ‘surge dramatically’ as Israeli strikes on Iran, Lebanon intensify",
+      "matched_signal_id": "news-20260306-nytimes-001",
+      "matched_title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "stage": "C_title",
+      "score": 0.8325
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-054",
+      "signal_title": "Trump says 'further action to reduce pressure on oil is imminent'",
+      "matched_signal_id": "news-20260225-arstechnica-001",
+      "matched_title": "Trump's MAHA influencer pick for surgeon general goes before Senate",
+      "stage": "C_title",
+      "score": 0.8268
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-056",
+      "signal_title": "U.S. weighs market action to combat oil price spikes",
+      "matched_signal_id": "news-20260306-nytimes-001",
+      "matched_title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "stage": "C_title",
+      "score": 0.802
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-057",
+      "signal_title": "Who is Mojtaba Khamenei? Iran’s reclusive hard-liner is expected to replace his father as supreme leader",
+      "matched_signal_id": "news-20260225-scmp-010",
+      "matched_title": "Who is Ali Shamkhani, the face of Iran’s wartime resistance?",
+      "stage": "C_title",
+      "score": 0.8158
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-061",
+      "signal_title": "Trump fires Kristi Noem as Homeland Security chief after criticism over immigration crackdown",
+      "matched_signal_id": "news-20260225-apnews-006",
+      "matched_title": "Trump’s State of the Union will seek to calm voters’ economic concerns ahead of midterm elections",
+      "stage": "C_title",
+      "score": 0.8293
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-064",
+      "signal_title": "Trump fires Kristi Noem, wants Markwayne Mullin as DHS chief",
+      "matched_signal_id": "news-20260307-apnews-005",
+      "matched_title": "Trump Administration's FDA Vaccine Chief Resigns, Leaving H5N1 Response in Doubt",
+      "stage": "C_title",
+      "score": 0.8245
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-065",
+      "signal_title": "U.S. House follows Senate in rejecting Iran war powers resolution",
+      "matched_signal_id": "news-20260306-nytimes-001",
+      "matched_title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "stage": "C_title",
+      "score": 0.8052
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-069",
+      "signal_title": "Iran launches missiles at Israel, U.S. bases as new Israeli strikes hit Lebanon",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "C_title",
+      "score": 0.8434
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-070",
+      "signal_title": "Spain’s Prime Minister is making a career of not bending a knee to Donald Trump",
+      "matched_signal_id": "news-20260306-politico-001",
+      "matched_title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "stage": "C_title",
+      "score": 0.8255
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-074",
+      "signal_title": "Kristi Noem out as Homeland Security secretary",
+      "matched_signal_id": "news-20260306-hankyung-001",
+      "matched_title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-076",
+      "signal_title": "Hegseth says Americas face test of whether they will remain Christian",
+      "matched_signal_id": "news-20260225-apnews-004",
+      "matched_title": "Hegseth and Anthropic CEO set to meet as debate intensifies over the military’s use of AI",
+      "stage": "C_title",
+      "score": 0.8254
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-078",
+      "signal_title": "Cuba says power grid back online, blames U.S. oil blockade for blackout",
+      "matched_signal_id": "news-20260305-nytimes-001",
+      "matched_title": "Iraq Suffers Nationwide Blackout as Power Grid Collapses Amid Regional Conflict",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-079",
+      "signal_title": "Video shows Iranian drone strike at Azerbaijan airport",
+      "matched_signal_id": "news-20260306-straitstimes-001",
+      "matched_title": "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-081",
+      "signal_title": "NATO chief stands by Trump praise despite criticism",
+      "matched_signal_id": "news-20260306-reuters-001",
+      "matched_title": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+      "stage": "C_title",
+      "score": 0.8193
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-088",
+      "signal_title": "Trump says he will endorse a candidate soon in Texas Senate runoff between Paxton and Cornyn",
+      "matched_signal_id": "news-20260225-apnews-006",
+      "matched_title": "Trump’s State of the Union will seek to calm voters’ economic concerns ahead of midterm elections",
+      "stage": "C_title",
+      "score": 0.8243
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-089",
+      "signal_title": "All six U.S. soldiers killed in Iran retaliation identified",
+      "matched_signal_id": "news-20260228-alma-001",
+      "matched_title": "Second Iran War Day 1 Analysis — 200+ Killed, 24 of 31 Provinces Hit",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-092",
+      "signal_title": "Iran player Sara Didar holds back tears responding to war-related question at Women’s Asian Cup",
+      "matched_signal_id": "news-20260226-washingtonpost-005",
+      "matched_title": "Iran, U.S. resume nuclear negotiations as Trump's war clock ticks down",
+      "stage": "C_title",
+      "score": 0.803
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-095",
+      "signal_title": "Companies entitled to Trump tariff refund after Supreme Court decision, judge rules",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "B_topic",
+      "score": 0.5714
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-096",
+      "signal_title": "U.S. Senate votes down war powers bill to halt attacks on Iran",
+      "matched_signal_id": "news-20260306-nytimes-001",
+      "matched_title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "stage": "C_title",
+      "score": 0.8199
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-097",
+      "signal_title": "Spanish PM stands by opposition to Iran attacks, pushes back on Trump criticism",
+      "matched_signal_id": "news-20260227-eu-tariff-016",
+      "matched_title": "Trump Pushes 15-20% Minimum Tariff on All EU Goods",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-099",
+      "signal_title": "U.S. tech giants sign energy pledge, agree to bear data centre costs",
+      "matched_signal_id": "news-20260306-nytimes-001",
+      "matched_title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "stage": "C_title",
+      "score": 0.8292
+    },
+    {
+      "signal_id": "news-20260309-globeandmail-100",
+      "signal_title": "European leaders vary in support of U.S.-Israel military strikes on Iran",
+      "matched_signal_id": "news-20260225-apnews-002",
+      "matched_title": "European officials visit Ukraine to show support as country marks 4 years of Russia’s all-out war",
+      "stage": "C_title",
+      "score": 0.8361
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-001",
+      "signal_title": "Iran names Ayatollah Khamenei’s son as new leader after father’s killing",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "C_title",
+      "score": 0.8038
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-002",
+      "signal_title": "Who’s in control in Iran and how will Gulf states react to attacks?",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-005",
+      "signal_title": "Iran names Khamenei’s son as new supreme leader after father’s killing",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "C_title",
+      "score": 0.8233
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-007",
+      "signal_title": "Marches for International Women’s Day denounce war, abuse and oppression",
+      "matched_signal_id": "news-20260306-aitimes-001",
+      "matched_title": "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+      "stage": "C_title",
+      "score": 0.8245
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-010",
+      "signal_title": "Trump pledges to block legislation until US voter ID law passes",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8271
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-011",
+      "signal_title": "Aftermath in Iran of US and Israeli air strikes",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-012",
+      "signal_title": "How do you track a war in real time?",
+      "matched_signal_id": "news-20260305-ft-001",
+      "matched_title": "Eurozone Manufacturing PMI Hits 44-Month High as Germany Crosses Above 50 for First Time Since 2022",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-014",
+      "signal_title": "Who is Mojtaba Khamenei, Iran’s new supreme leader amid war?",
+      "matched_signal_id": "news-20260225-scmp-010",
+      "matched_title": "Who is Ali Shamkhani, the face of Iran’s wartime resistance?",
+      "stage": "C_title",
+      "score": 0.8346
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-015",
+      "signal_title": "Trump vows control over Iran leader as US soldiers’ deaths rise to seven",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "C_title",
+      "score": 0.8255
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-017",
+      "signal_title": "Why is the conflict with Iran being framed as a ‘holy war’?",
+      "matched_signal_id": "news-20260225-bbc-013",
+      "matched_title": "Why scientists fear Emperor penguins' annual moult may be killing them",
+      "stage": "C_title",
+      "score": 0.8021
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-019",
+      "signal_title": "Israel’s Mossad relies on US cover and security rot for Iran strikes",
+      "matched_signal_id": "news-20260305-aljazeera-001",
+      "matched_title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "stage": "C_title",
+      "score": 0.8425
+    },
+    {
+      "signal_id": "news-20260309-aljazeera-024",
+      "signal_title": "Iran women’s football team sing anthem amid safety concerns during war",
+      "matched_signal_id": "news-20260226-washingtonpost-005",
+      "matched_title": "Iran, U.S. resume nuclear negotiations as Trump's war clock ticks down",
+      "stage": "C_title",
+      "score": 0.8164
+    },
+    {
+      "signal_id": "news-20260309-scmp-002",
+      "signal_title": "Japan’s cultural treasures still exposed to fire risk as safety upgrades stall",
+      "matched_signal_id": "news-20260306-japantimes-001",
+      "matched_title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "stage": "C_title",
+      "score": 0.8151
+    },
+    {
+      "signal_id": "news-20260309-scmp-003",
+      "signal_title": "Why have China’s arms imports plummeted by 72% over the past 5 years?",
+      "matched_signal_id": "news-20260225-politico-008",
+      "matched_title": "Why Graham Platner’s meteoric rise is so unexpected",
+      "stage": "C_title",
+      "score": 0.8228
+    },
+    {
+      "signal_id": "news-20260309-scmp-010",
+      "signal_title": "Iran’s Assembly of Experts announces Khamenei’s son, Mojtaba, as new supreme leader",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "news-20260309-scmp-012",
+      "signal_title": "Macron to visit Cyprus as France deploys warships to Mediterranean amid Iran war",
+      "matched_signal_id": "news-20260307-lemonde-001",
+      "matched_title": "France Deploys Charles de Gaulle Carrier Strike Group to Eastern Mediterranean",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-scmp-014",
+      "signal_title": "Is Trump’s China trip still on? Despite Iran, Wang Yi sees potential",
+      "matched_signal_id": "news-20260305-scmp-001",
+      "matched_title": "China Shows Few Signs of Directly Supplying Arms to Iran Despite Growing Pressure",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-scmp-018",
+      "signal_title": "Iran strikes on desalination plants threaten Arab states’ water supplies",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "C_title",
+      "score": 0.8273
+    },
+    {
+      "signal_id": "news-20260309-scmp-020",
+      "signal_title": "Hong Kong police boost checks at Tai Po fire block after jewellery theft arrests",
+      "matched_signal_id": "news-20260225-scmp-004",
+      "matched_title": "Hong Kong’s virtual asset sector considered for taxation under policy review",
+      "stage": "C_title",
+      "score": 0.8304
+    },
+    {
+      "signal_id": "news-20260309-scmp-022",
+      "signal_title": "Nuclear-armed North Korea is pivoting from reunification to coexistence",
+      "matched_signal_id": "news-20260225-nknews-010",
+      "matched_title": "North Korea debuts China-style name badges at Ninth Party Congress",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-scmp-023",
+      "signal_title": "Singing circle in Amsterdam offers benefits to dementia patients",
+      "matched_signal_id": "news-20260305-bloomberg-001",
+      "matched_title": "Singapore Warns Global Instability Is Fueling Climate Risks, Designates 2026 Year of Climate Adaptation",
+      "stage": "C_title",
+      "score": 0.8273
+    },
+    {
+      "signal_id": "news-20260309-scmp-024",
+      "signal_title": "Nepali ex-rapper will form government after landslide election win",
+      "matched_signal_id": "news-20260307-rt-058",
+      "matched_title": "Nepal Holds First General Elections Since 'Gen Z Protests' That Toppled Government",
+      "stage": "C_title",
+      "score": 0.8056
+    },
+    {
+      "signal_id": "news-20260309-scmp-025",
+      "signal_title": "Hong Kong, Singapore square off in race to become world’s gold trading hub",
+      "matched_signal_id": "news-20260225-scmp-004",
+      "matched_title": "Hong Kong’s virtual asset sector considered for taxation under policy review",
+      "stage": "C_title",
+      "score": 0.8401
+    },
+    {
+      "signal_id": "news-20260309-scmp-028",
+      "signal_title": "Hong Kong must ensure motherhood no longer derails women’s careers: advocates",
+      "matched_signal_id": "news-20260225-scmp-004",
+      "matched_title": "Hong Kong’s virtual asset sector considered for taxation under policy review",
+      "stage": "C_title",
+      "score": 0.8419
+    },
+    {
+      "signal_id": "news-20260309-scmp-029",
+      "signal_title": "China boy, 14, skilled in wok spinning, praised for cooking in parents’ eatery to help ease burden",
+      "matched_signal_id": "news-20260305-scmp-001",
+      "matched_title": "China Shows Few Signs of Directly Supplying Arms to Iran Despite Growing Pressure",
+      "stage": "C_title",
+      "score": 0.8214
+    },
+    {
+      "signal_id": "news-20260309-scmp-031",
+      "signal_title": "Hong Kong charity abruptly cancels ‘Race for Water’ fundraiser weeks before event",
+      "matched_signal_id": "news-20260225-scmp-004",
+      "matched_title": "Hong Kong’s virtual asset sector considered for taxation under policy review",
+      "stage": "C_title",
+      "score": 0.8294
+    },
+    {
+      "signal_id": "news-20260309-scmp-032",
+      "signal_title": "Iran war hits China’s sulphur imports as economic fallout from conflict grows",
+      "matched_signal_id": "news-20260226-washingtonpost-005",
+      "matched_title": "Iran, U.S. resume nuclear negotiations as Trump's war clock ticks down",
+      "stage": "C_title",
+      "score": 0.8287
+    },
+    {
+      "signal_id": "news-20260309-scmp-035",
+      "signal_title": "China urged to build underground great wall of defence in crisis-hit world",
+      "matched_signal_id": "news-20260305-scmp-001",
+      "matched_title": "China Shows Few Signs of Directly Supplying Arms to Iran Despite Growing Pressure",
+      "stage": "C_title",
+      "score": 0.8335
+    },
+    {
+      "signal_id": "news-20260309-scmp-037",
+      "signal_title": "15th five-year plan presents ‘golden strategic period’ for Hong Kong: Paul Chan",
+      "matched_signal_id": "news-20260227-china-005",
+      "matched_title": "China Positions AI as Core of 15th Five-Year Plan",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-scmp-040",
+      "signal_title": "Quantum tech breakthrough: China’s double-photon device breaks efficiency ceiling",
+      "matched_signal_id": "news-20260306-businesspost-001",
+      "matched_title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "stage": "C_title",
+      "score": 0.8211
+    },
+    {
+      "signal_id": "news-20260309-scmp-043",
+      "signal_title": "China Qing era saw rise in female authors, poets, despite broad restrictions on women in arts",
+      "matched_signal_id": "news-20260226-scmp-004",
+      "matched_title": "China shifts cadre-appraisal metrics away from pure GDP growth, resetting mindsets",
+      "stage": "C_title",
+      "score": 0.837
+    },
+    {
+      "signal_id": "news-20260309-scmp-044",
+      "signal_title": "Why Vietnam’s landmark AI law is first major regulatory test for Southeast Asia",
+      "matched_signal_id": "news-20260225-bbc-013",
+      "matched_title": "Why scientists fear Emperor penguins' annual moult may be killing them",
+      "stage": "C_title",
+      "score": 0.8077
+    },
+    {
+      "signal_id": "news-20260309-scmp-049",
+      "signal_title": "Hong Kong firms rethink global operations amid Middle East turmoil",
+      "matched_signal_id": "news-20260225-scmp-004",
+      "matched_title": "Hong Kong’s virtual asset sector considered for taxation under policy review",
+      "stage": "C_title",
+      "score": 0.8369
+    },
+    {
+      "signal_id": "news-20260309-koreaherald-015",
+      "signal_title": "Cherry blossoms, tulips and canola fields: Where Koreans are traveling this springSpring in South Korea is brief but spectacular — and this year, travelers are planning ahead. New accommodation search data from digital travel platform Agoda shows sharp spikes in interest around maj",
+      "matched_signal_id": "news-20260227-openai-kr-024",
+      "matched_title": "OpenAI, Samsung and SK Build AI Data Centres in Korea",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-006",
+      "signal_title": "Ding-dong! The Exploration Upper Stage is dead",
+      "matched_signal_id": "news-20260307-arstechnica-001",
+      "matched_title": "NASA's Exploration Upper Stage Cancelled; Artemis III Moon Landing in Jeopardy",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-009",
+      "signal_title": "Google's new command-line tool can plug OpenClaw into your Workspace data",
+      "matched_signal_id": "news-20260225-reuters-008",
+      "matched_title": "Google disrupts Chinese-linked hackers that attacked 53 groups globally - Reuters",
+      "stage": "C_title",
+      "score": 0.8029
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-010",
+      "signal_title": "Feds take notice of iOS vulnerabilities exploited under mysterious circumstances",
+      "matched_signal_id": "news-20260307-arstechnica-005",
+      "matched_title": "Feds Issue Emergency Directive for iOS Zero-Day Vulnerabilities in State-Sponsored Operations",
+      "stage": "C_title",
+      "score": 0.8499
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-011",
+      "signal_title": "Asteroid defense mission shifted the orbit of more than its target",
+      "matched_signal_id": "news-20260307-nytimes-024",
+      "matched_title": "NASA's DART Mission Confirms Asteroid Orbit Changed; Planetary Defense Validated",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-016",
+      "signal_title": "Apple users in the US can no longer download ByteDance's Chinese apps",
+      "matched_signal_id": "news-20260305-usnews-001",
+      "matched_title": "Appeal Hearings Begin in Former South Korean President Yoon Suk Yeol's Obstruction Case",
+      "stage": "C_title",
+      "score": 0.8098
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-018",
+      "signal_title": "With Gateway likely gone, where will lunar landers rendezvous with Orion?",
+      "matched_signal_id": "news-20260307-arstechnica-001",
+      "matched_title": "NASA's Exploration Upper Stage Cancelled; Artemis III Moon Landing in Jeopardy",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-arstechnica-020",
+      "signal_title": "Tech industry is in tariff hell, even if refunds are automated",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "B_topic",
+      "score": 0.5714
+    },
+    {
+      "signal_id": "news-20260309-rt-003",
+      "signal_title": "Another EU country ready to veto Ukraine loan",
+      "matched_signal_id": "news-20260225-apnews-002",
+      "matched_title": "European officials visit Ukraine to show support as country marks 4 years of Russia’s all-out war",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-rt-010",
+      "signal_title": "Russian Orthodox Church parishioners killed in Nigeria",
+      "matched_signal_id": "news-20260306-elfinanciero-001",
+      "matched_title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "stage": "C_title",
+      "score": 0.8081
+    },
+    {
+      "signal_id": "news-20260309-rt-012",
+      "signal_title": "Sweden seizes cargo ship with ten Russians on board",
+      "matched_signal_id": "news-20260307-arabnews-010",
+      "matched_title": "Swedish Intelligence Warns of Increased Middle East War Fallout in Europe",
+      "stage": "C_title",
+      "score": 0.8131
+    },
+    {
+      "signal_id": "news-20260309-rt-015",
+      "signal_title": "Trump claims Iran bombed its own school in Minab strike",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8277
+    },
+    {
+      "signal_id": "news-20260309-rt-016",
+      "signal_title": "Xi sends warning to ‘corrupt elements’ in Chinese army",
+      "matched_signal_id": "news-20260305-japantimes-001",
+      "matched_title": "China-Japan Diplomatic Crisis Deepens as Chinese Embassy Issues Warning Against 'Bumpers'",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-rt-018",
+      "signal_title": "The Iran war risks sucking in more countries – who benefits?",
+      "matched_signal_id": "news-20260225-politico-012",
+      "matched_title": "The nation’s cartoonists on the week in politics",
+      "stage": "C_title",
+      "score": 0.815
+    },
+    {
+      "signal_id": "news-20260309-rt-023",
+      "signal_title": "Russia wins first Winter Paralympic medals in 12 years",
+      "matched_signal_id": "news-20260306-elfinanciero-001",
+      "matched_title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "stage": "C_title",
+      "score": 0.8059
+    },
+    {
+      "signal_id": "news-20260309-rt-025",
+      "signal_title": "US ‘unsanctions’ Russian oil amid Middle East crisis",
+      "matched_signal_id": "news-20260305-nikkei-001",
+      "matched_title": "Japan Finance Minister Monitors Markets as Yen Trades Near 157.3 Amid Middle East Volatility",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-rt-026",
+      "signal_title": "Trump makes new threats against Iran",
+      "matched_signal_id": "news-20260228-jpt-001",
+      "matched_title": "Trump Delays Taiwan Arms Sale to Avoid Upsetting Xi Before Beijing Visit",
+      "stage": "C_title",
+      "score": 0.8157
+    },
+    {
+      "signal_id": "news-20260309-rt-028",
+      "signal_title": "US-Israel vs. Iran: How are the warring sides faring? (VIDEOS)",
+      "matched_signal_id": "news-20260228-wapo-001",
+      "matched_title": "US-Israel Launch Operation Shield of Judah — 200 Jets, 500+ Targets in Iran",
+      "stage": "C_title",
+      "score": 0.8141
+    },
+    {
+      "signal_id": "news-20260309-rt-029",
+      "signal_title": "Iranians gather for first Friday prayers since US-Israel war began (PHOTOS, VIDEO)",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "C_title",
+      "score": 0.8109
+    },
+    {
+      "signal_id": "news-20260309-rt-030",
+      "signal_title": "South Africa re-enlists dozens of retired detectives",
+      "matched_signal_id": "news-20260306-edaily-001",
+      "matched_title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "stage": "C_title",
+      "score": 0.8396
+    },
+    {
+      "signal_id": "news-20260309-rt-031",
+      "signal_title": "Iran will no longer attack neighboring countries – Pezeshkian",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "C_title",
+      "score": 0.8051
+    },
+    {
+      "signal_id": "news-20260309-rt-036",
+      "signal_title": "Who will invade Iran for the US?",
+      "matched_signal_id": "news-20260226-washingtonpost-005",
+      "matched_title": "Iran, U.S. resume nuclear negotiations as Trump's war clock ticks down",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-rt-038",
+      "signal_title": "Oil price surges to highest since 2023",
+      "matched_signal_id": "news-20260306-bloomberg-001",
+      "matched_title": "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-rt-042",
+      "signal_title": "Trump demands ‘unconditional surrender’ from Iran",
+      "matched_signal_id": "news-20260306-hankyung-001",
+      "matched_title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "stage": "C_title",
+      "score": 0.8105
+    },
+    {
+      "signal_id": "news-20260309-rt-043",
+      "signal_title": "Moscow warns new NATO member against hosting nukes",
+      "matched_signal_id": "news-20260307-globeandmail-001",
+      "matched_title": "Carney Says Canada Could Be Called to Help Allies in Middle East; Top NATO Soldier Warns of Escalation",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-rt-049",
+      "signal_title": "Russia and Ukraine exchange 300 POWs – MOD (VIDEO)",
+      "matched_signal_id": "news-20260307-nknews-112",
+      "matched_title": "Ukraine Says North Korean Troops Are Still Carrying Out Strikes from Russia",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-rt-054",
+      "signal_title": "Ukrainian drone strikes kill two civilians in Russia",
+      "matched_signal_id": "news-20260307-nknews-112",
+      "matched_title": "Ukraine Says North Korean Troops Are Still Carrying Out Strikes from Russia",
+      "stage": "C_title",
+      "score": 0.801
+    },
+    {
+      "signal_id": "news-20260309-rt-059",
+      "signal_title": "US strikes Iranian drone carrier (VIDEO)",
+      "matched_signal_id": "news-20260227-scotus-001",
+      "matched_title": "US Supreme Court Strikes Down IEEPA Tariff Authority in Landmark 6-3 Ruling",
+      "stage": "C_title",
+      "score": 0.8093
+    },
+    {
+      "signal_id": "news-20260309-rt-065",
+      "signal_title": "Zelensky refuses to relaunch oil pipeline after threatening Orban",
+      "matched_signal_id": "news-20260227-ukraine-008",
+      "matched_title": "Zelensky Demands Clear EU Accession Date — Proposes 2027",
+      "stage": "C_title",
+      "score": 0.8078
+    },
+    {
+      "signal_id": "news-20260309-rt-066",
+      "signal_title": "Iraq and Cuba hit by blackouts amid US pressure and attacks on Iran",
+      "matched_signal_id": "news-20260305-nytimes-001",
+      "matched_title": "Iraq Suffers Nationwide Blackout as Power Grid Collapses Amid Regional Conflict",
+      "stage": "C_title",
+      "score": 0.8161
+    },
+    {
+      "signal_id": "news-20260309-rt-069",
+      "signal_title": "Putin warning fuels calls in EU to drop sanctions",
+      "matched_signal_id": "news-20260306-rt-001",
+      "matched_title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "stage": "C_title",
+      "score": 0.817
+    },
+    {
+      "signal_id": "news-20260309-rt-071",
+      "signal_title": "Iran denies Kurdish fighters crossed border",
+      "matched_signal_id": "news-20260306-aljazeera-001",
+      "matched_title": "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "news-20260309-rt-074",
+      "signal_title": "South Sudanese army arrests soldiers accused of killing civilians",
+      "matched_signal_id": "news-20260305-aljazeera-002",
+      "matched_title": "South Korea KOSPI Suffers Historic 12% Crash Amid Hormuz Strait Blockade",
+      "stage": "C_title",
+      "score": 0.8127
+    },
+    {
+      "signal_id": "news-20260309-rt-076",
+      "signal_title": "Zelensky issues military threat to Orban (VIDEO)",
+      "matched_signal_id": "news-20260227-ukraine-008",
+      "matched_title": "Zelensky Demands Clear EU Accession Date — Proposes 2027",
+      "stage": "C_title",
+      "score": 0.8023
+    },
+    {
+      "signal_id": "news-20260309-rt-077",
+      "signal_title": "Iran crisis escalates: Oil prices jump as attacks stop Strait of Hormuz shipping",
+      "matched_signal_id": "news-20260228-alj-001",
+      "matched_title": "Iran Retaliates with Missile Strikes on Gulf States Hosting US Bases",
+      "stage": "C_title",
+      "score": 0.8259
+    },
+    {
+      "signal_id": "news-20260309-rt-079",
+      "signal_title": "Sri Lankan economy ‘at great risk’ from Middle East crisis – former minister",
+      "matched_signal_id": "news-20260305-nikkei-001",
+      "matched_title": "Japan Finance Minister Monitors Markets as Yen Trades Near 157.3 Amid Middle East Volatility",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260309-rt-080",
+      "signal_title": "Trump and Rubio out of step on reasons for Iran war",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "C_title",
+      "score": 0.8282
+    },
+    {
+      "signal_id": "news-20260309-rt-082",
+      "signal_title": "Russia and Ukraine conduct POW swap – MOD (VIDEO)",
+      "matched_signal_id": "news-20260307-nknews-112",
+      "matched_title": "Ukraine Says North Korean Troops Are Still Carrying Out Strikes from Russia",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-rt-087",
+      "signal_title": "US-Israeli massacre of schoolgirls a human sacrifice to ‘Epstein cult’ – Iranian envoy",
+      "matched_signal_id": "news-20260228-wapo-001",
+      "matched_title": "US-Israel Launch Operation Shield of Judah — 200 Jets, 500+ Targets in Iran",
+      "stage": "C_title",
+      "score": 0.8262
+    },
+    {
+      "signal_id": "news-20260309-rt-091",
+      "signal_title": "Is France building a new NATO nuclear euroclub?",
+      "matched_signal_id": "news-20260305-reuters-001",
+      "matched_title": "France and Germany Deepen Nuclear Deterrence Cooperation in Historic Defense Shift",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260309-rt-093",
+      "signal_title": "Mojtaba Khamenei chosen as Iran’s supreme leader, war pushes oil prices past $100 a barrel: Live Updates (PHOTOS, VIDEOS)",
+      "matched_signal_id": "news-20260228-cnn-001",
+      "matched_title": "Iran's Supreme Leader Khamenei Killed in Israeli Airstrike",
+      "stage": "B_topic",
+      "score": 0.5714
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-051",
+      "signal_title": "Trump ‘hunde’ a Cuba: Apagones y escasez golpean a la isla mientras crece la presión de Washington",
+      "matched_signal_id": "news-20260225-arstechnica-001",
+      "matched_title": "Trump's MAHA influencer pick for surgeon general goes before Senate",
+      "stage": "C_title",
+      "score": 0.8191
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-066",
+      "signal_title": "Trump promete bombardear nuevas zonas de Irán ‘hasta que se rindan o colapsen’",
+      "matched_signal_id": "news-20260306-hankyung-001",
+      "matched_title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "stage": "C_title",
+      "score": 0.8156
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-068",
+      "signal_title": "Trump insiste en que violencia de cárteles proviene de México: ‘Déjeme erradicarlos’, pidió a Sheinbaum",
+      "matched_signal_id": "news-20260307-apnews-005",
+      "matched_title": "Trump Administration's FDA Vaccine Chief Resigns, Leaving H5N1 Response in Doubt",
+      "stage": "C_title",
+      "score": 0.8113
+    },
+    {
+      "signal_id": "news-20260309-elfinanciero-094",
+      "signal_title": "Wall Street cierra con números rojos y Dow Jones pierde 3.01% semanal; BMV cae 5.73%",
+      "matched_signal_id": "news-20260226-ft-001",
+      "matched_title": "Wall Street turns to complex trades to dodge AI 'implosions'",
+      "stage": "C_title",
+      "score": 0.8026
+    }
+  ]
+}

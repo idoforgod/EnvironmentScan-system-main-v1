@@ -32,10 +32,11 @@ Each workflow is fully independent -- it cannot see or access any other workflow
 - **FSSF 8-Type Classification** (WF3/WF4): Weak Signal, Wild Card, Discontinuity, Driver, Emerging Issue, Precursor Event, Trend, Megatrend
 - **Three Horizons** (WF3/WF4): H1 (0-2yr), H2 (2-7yr), H3 (7yr+)
 - **Tipping Point Detection** (WF3/WF4): Critical Slowing Down and Flickering pattern analysis
-- **Python 원천봉쇄**: "계산은 Python이, 판단은 LLM이" — deterministic scoring, dedup, temporal filtering all Python-enforced
+- **Python 원천봉쇄**: "계산은 Python이, 판단은 LLM이" — deterministic scoring, dedup, temporal filtering, pipeline gates all Python-enforced
+- **Hallucination Prevention**: Pipeline Gate 2 (`validate_phase2_output.py`, 8 PG2 checks), translation TERM fidelity (TERM-001~003), executive summary cross-reference (QC-014)
 - **Unified Phase 2 Agent**: `phase2-analyst.md` handles Steps 2.1+2.2 (LLM); Step 2.3 delegated to `priority_score_calculator.py` (Python)
 - **Timeline Map with Challenge-Response**: Cross-theme strategic synthesis via adversarial peer review (challenger agent → narrative refinement), Python narrative gate (NG-001~005), full L2a+L2b+L3 quality parity
-- **4-Layer Quality Defense**: L1 (Skeleton-Fill) → L2a (structural 15–20 checks) → L2b (13 QC checks) → L3 (LLM semantic review) → L4 (Golden Reference)
+- **4-Layer Quality Defense**: L1 (Skeleton-Fill) → L2a (structural 15–20 checks) → L2b (14 QC checks) → L3 (LLM semantic review) → L4 (Golden Reference)
 - **Impact Analysis**: Probabilistic Cross-Impact Matrix + Bayesian Network
 - **Expert Validation**: Real-Time AI Delphi for high-volume signals (optional)
 - **Scenario Generation**: QUEST-based plausible future scenarios (optional)
@@ -181,8 +182,8 @@ EnvironmentScan-system-main/
 │   │   ├── thresholds.yaml
 │   │   ├── translation-terms.yaml
 │   │   └── ... (12 config files total)
-│   ├── core/                        (33 Python modules, incl. priority_score_calculator.py)
-│   ├── scripts/                     (validation scripts: validate_registry, validate_report, validate_report_quality, validate_timeline_map, validate_timeline_map_quality, narrative_gate)
+│   ├── core/                        (36 Python modules, incl. priority_score_calculator.py)
+│   ├── scripts/                     (validation scripts: validate_registry, validate_report, validate_report_quality, validate_phase2_output, validate_timeline_map, validate_timeline_map_quality, narrative_gate, validate_completion, validate_state_consistency)
 │   ├── wf1-general/                 ← WF1 data directory
 │   │   ├── raw/ structured/ filtered/ analysis/ signals/ reports/
 │   │   └── exploration/             (v2.5.0 source exploration)
@@ -321,11 +322,11 @@ Agent (EN) → Output (EN) → Translation Agent → Output (KR)
 
 ## Version
 
-- **System Version**: 3.1.0 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄, Timeline Map Challenge-Response)
-- **Workflow Version**: Quadruple Environmental Scanning v3.1.0
-- **Architecture**: 42 agent specs, 33 Python modules + 6 validation scripts, 12 config files, 14 skeleton files, 28 test files (~958 tests)
-- **Validation**: 59 SOT checks (SOT-001~059), 4-layer quality defense (L1→L4), 13 QC checks (L2b), 11 Timeline QC checks (TQ-001~011), 5 narrative gate checks (NG-001~005)
-- **Last Updated**: 2026-03-06
+- **System Version**: 3.2.0 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄, Hallucination Prevention, Timeline Map Challenge-Response)
+- **Workflow Version**: Quadruple Environmental Scanning v3.2.0
+- **Architecture**: 42 agent specs, 36 Python modules + 9 validation scripts, 12 config files, 14 skeleton files, 28 test files (~1069 tests)
+- **Validation**: 61 SOT checks (SOT-001~061), 4-layer quality defense (L1→L4), 14 QC checks (L2b), 8 PG2 checks, 11 Timeline QC checks (TQ-001~011), 5 narrative gate checks (NG-001~005), 3 TERM fidelity checks
+- **Last Updated**: 2026-03-09
 
 ## References
 

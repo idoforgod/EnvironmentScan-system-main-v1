@@ -5,7 +5,7 @@ Defines the interface for all source scanners
 
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import logging
 
 
@@ -160,11 +160,11 @@ class BaseScanner(ABC):
         if scan_window_start is not None and scan_window_end is not None:
             return scan_window_start, scan_window_end
         if lookback_hours is not None:
-            end_date = scan_window_end or datetime.now()
+            end_date = scan_window_end or datetime.now(timezone.utc)
             start_date = end_date - timedelta(hours=lookback_hours)
             return start_date, end_date
         # Legacy fallback (DEPRECATED)
-        end_date = datetime.now()
+        end_date = datetime.now(timezone.utc)
         start_date = end_date - timedelta(days=days_back)
         return start_date, end_date
 
@@ -199,10 +199,11 @@ class BaseScanner(ABC):
                 # Handle various date formats
                 if 'T' in pub_date_str:
                     pub_date = datetime.fromisoformat(pub_date_str.replace('Z', '+00:00'))
-                    # Normalize to naive datetime for comparison
-                    pub_date = pub_date.replace(tzinfo=None)
+                    # Ensure UTC-aware for consistent comparison
+                    if pub_date.tzinfo is None:
+                        pub_date = pub_date.replace(tzinfo=timezone.utc)
                 else:
-                    pub_date = datetime.strptime(pub_date_str[:10], '%Y-%m-%d')
+                    pub_date = datetime.strptime(pub_date_str[:10], '%Y-%m-%d').replace(tzinfo=timezone.utc)
 
                 if effective_start <= pub_date <= window_end:
                     filtered.append(signal)
@@ -274,7 +275,7 @@ class BaseScanner(ABC):
             },
             "metadata": metadata or {},
             "preliminary_category": preliminary_category,
-            "collected_at": datetime.now().isoformat()
+            "collected_at": datetime.now(timezone.utc).isoformat()
         }
 
         # Add entities if provided

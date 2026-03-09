@@ -2,7 +2,7 @@
 """
 Environmental Scanning Report Quality Validator (Cross-Reference)
 ==================================================================
-13 deterministic cross-reference checks that compare the generated report
+14 deterministic cross-reference checks that compare the generated report
 against its source data files (priority-ranked JSON, scan-window JSON).
 
 This script is Layer 2b of the Quality Defense:
@@ -26,6 +26,7 @@ Checks:
   QC-011: Cross-Signal Synthesis in Section 5 (signal references per implication) — ERROR
   QC-012: Time Horizon Keywords in Section 5 — WARN
   QC-013: Action Verb Presence in Section 5 — WARN
+  QC-014: Executive Summary Statistics vs Source Data — ERROR
 
 Usage:
   python3 validate_report_quality.py <report_path> <priority_ranked_json> [options]
@@ -42,6 +43,7 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -302,6 +304,15 @@ _DEFAULT_GRADE_THRESHOLDS = {
 }
 # Level 2 grade_a_threshold default (when L2 enabled)
 _DEFAULT_GRADE_A_THRESHOLD = 95
+
+# STEEPs category prefixes — only match these in distribution tables
+_STEEPS_PREFIXES = {"S_", "T_", "E_", "P_", "s_"}
+
+
+def _is_steeps_code(cat: str) -> bool:
+    """Return True if *cat* starts with a known STEEPs prefix."""
+    return any(cat.startswith(p) for p in _STEEPS_PREFIXES)
+
 
 try:
     import yaml as _yaml
@@ -1567,6 +1578,136 @@ def _check_qc013_action_verbs(
     ))
 
 
+def _check_qc014_exec_summary_stats(
+    vr: QCValidationReport,
+    content: str,
+    ranked_data: dict,
+    language: str,
+) -> None:
+    """QC-014: Executive Summary Statistics vs Source Data.
+    Cross-references quantitative statistics in the Executive Summary
+    (Section 1, Key Changes Summary) against the priority-ranked JSON.
+
+    Sub-check A: Total signal count — report's "New signals detected: N"
+                 must match ranking_metadata.total_ranked.
+    Sub-check B: STEEPs distribution — if ranked signals have steeps data,
+                 verify per-category counts against the JSON. Skipped when
+                 <50% of signals have steeps populated.
+
+    Level ERROR — hallucinated counts reduce trust but are not structural.
+    """
+    # --- Ground truth from ranked JSON ---
+    metadata = ranked_data.get("ranking_metadata", {})
+    signals = ranked_data.get("ranked_signals", ranked_data.get("signals", []))
+    if not isinstance(signals, list):
+        signals = []
+    json_total = metadata.get("total_ranked", len(signals))
+
+    # --- Extract Section 1 ---
+    if language == "en":
+        s1_header = "## 1. Executive Summary"
+    else:
+        s1_header = "## 1. 경영진 요약"
+    s1_text = _extract_section(content, s1_header) or ""
+
+    issues = []
+    failed_ids = []
+
+    # ── Sub-check A: Total signal count ──
+    report_total = None
+    if s1_text:
+        if language == "en":
+            m = re.search(
+                r"[Nn]ew\s+signals?\s+detected[:\s]+\*{0,2}(\d[\d,]*)\*{0,2}",
+                s1_text,
+            )
+        else:
+            m = re.search(
+                r"(?:신규\s*(?:탐지|감지)\s*(?:시그널|신호)|발견된\s*신규\s*(?:신호|시그널))"
+                r"[:\s]*\*{0,2}(\d[\d,]*)\*{0,2}(?:건|개)?",
+                s1_text,
+            )
+        if m:
+            report_total = int(m.group(1).replace(",", ""))
+
+    if report_total is not None:
+        if report_total != json_total:
+            issues.append(
+                f"Total count mismatch: report={report_total}, "
+                f"source JSON={json_total}"
+            )
+            failed_ids.append("total-count")
+    # If count not found in report, skip sub-check A silently
+
+    # ── Sub-check B: STEEPs distribution ──
+    steeps_values = [
+        s.get("steeps", "") or s.get("steeps_category", "") or s.get("category", "")
+        for s in signals
+    ]
+    populated = [v for v in steeps_values if v]
+    coverage = len(populated) / len(signals) if signals else 0.0
+
+    if coverage >= 0.5:
+        json_dist = Counter(populated)
+
+        # Parse STEEPs distribution from report
+        report_dist: dict[str, int] = {}
+
+        # Pattern 1: Table rows "| T_Technological | 384 | ..."
+        for tm in re.finditer(
+            r"\|\s*([A-Za-z_]+)\s*\|\s*(\d[\d,]*)\s*\|",
+            s1_text,
+        ):
+            cat = tm.group(1)
+            cnt = int(tm.group(2).replace(",", ""))
+            if _is_steeps_code(cat):
+                report_dist[cat] = cnt
+
+        # Pattern 2: Inline "T_Technological (384)" or "T_Technological (9 signals, 36%)"
+        if not report_dist:
+            for im in re.finditer(
+                r"([A-Za-z]_[A-Za-z]+)\s*\((\d[\d,]*)",
+                s1_text,
+            ):
+                cat = im.group(1)
+                cnt = int(im.group(2).replace(",", ""))
+                if _is_steeps_code(cat):
+                    report_dist[cat] = cnt
+
+        if report_dist:
+            for cat, r_count in report_dist.items():
+                j_count = json_dist.get(cat, 0)
+                tolerance = max(1, int(j_count * 0.10))
+                if abs(r_count - j_count) > tolerance:
+                    issues.append(
+                        f"STEEPs '{cat}': report={r_count}, "
+                        f"source={j_count} (tolerance ±{tolerance})"
+                    )
+                    failed_ids.append(f"steeps-{cat}")
+
+    passed = len(issues) == 0
+    detail = ""
+    if issues:
+        detail = "\n".join(issues[:5])
+    elif report_total is not None:
+        detail = f"Total count verified ({report_total})"
+        if coverage >= 0.5 and report_dist:
+            detail += f"; {len(report_dist)} STEEPs categories checked"
+    else:
+        detail = "No summary statistics found in Section 1 (skipped)"
+
+    vr.results.append(QCCheckResult(
+        check_id="QC-014", level="ERROR",
+        description="Executive Summary statistics vs source data",
+        passed=passed,
+        detail=detail,
+        remedy="Ensure 'New signals detected' count and STEEPs distribution in "
+               "the Executive Summary match the priority-ranked JSON data."
+            if not passed else "",
+        failed_signal_ids=failed_ids,
+    ))
+
+
 # ---------------------------------------------------------------------------
 # Main validation entry point
 # ---------------------------------------------------------------------------
@@ -1578,7 +1719,7 @@ def validate_report_quality(
     language: str = "en",
     workflow_id: Optional[str] = None,
 ) -> QCValidationReport:
-    """Run all 13 cross-reference quality checks.
+    """Run all 14 cross-reference quality checks.
 
     Args:
         report_path: Path to the markdown report file.
@@ -1665,6 +1806,7 @@ def validate_report_quality(
     _check_qc011_cross_signal_synthesis(vr, content, language)
     _check_qc012_time_horizon(vr, content, language)
     _check_qc013_action_verbs(vr, content, language)
+    _check_qc014_exec_summary_stats(vr, content, ranked_data, language)
 
     return vr
 

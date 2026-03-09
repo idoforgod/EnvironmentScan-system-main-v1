@@ -464,7 +464,7 @@ class PriorityScoreCalculator:
     def _build_classified_map(classified_data: dict) -> dict[str, dict]:
         """Build {signal_id: signal_dict} from classified-signals JSON."""
         result: dict[str, dict] = {}
-        for sig in classified_data.get("signals", []):
+        for sig in classified_data.get("signals", classified_data.get("items", [])):
             sid = sig.get("id")
             if sid:
                 result[sid] = sig
@@ -476,7 +476,7 @@ class PriorityScoreCalculator:
         if not impact_data:
             return {}
         result: dict[str, dict] = {}
-        for sig in impact_data.get("signals", impact_data.get("assessments", [])):
+        for sig in impact_data.get("signals", impact_data.get("assessments", impact_data.get("items", []))):
             sid = sig.get("id")
             if sid:
                 result[sid] = sig

@@ -1,0 +1,84 @@
+{
+  "master_id": "quadruple-scan-2026-03-07",
+  "system_name": "Quadruple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.5.0",
+  "started_at": "2026-03-07T00:46:38Z",
+  "completed_at": "2026-03-08T00:00:00Z",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-07.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-03-07T00:46:38Z",
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-07-ko.md",
+      "signal_count": 28,
+      "db_total": 807,
+      "completed_at": "2026-03-07T01:30:00Z",
+      "verification_summary": { "passed": 19, "warned": 0, "failed": 0 }
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-07-ko.md",
+      "signal_count": 491,
+      "db_total": 315,
+      "completed_at": "2026-03-07T02:30:00Z",
+      "verification_summary": { "passed": 19, "warned": 0, "failed": 0 }
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-07-ko.md",
+      "signal_count": 33,
+      "db_total": 502,
+      "tipping_alerts": { "RED": 4, "ORANGE": 4, "YELLOW": 6, "GREEN": 17 },
+      "completed_at": "2026-03-07T03:30:00Z",
+      "verification_summary": { "passed": 19, "warned": 0, "failed": 0 }
+    },
+    "wf4-multiglobal-news": {
+      "status": "completed",
+      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-07-ko.md",
+      "signal_count": 46,
+      "db_total": 225,
+      "tipping_alerts": { "RED": 5, "ORANGE": 10, "YELLOW": 18, "GREEN": 13 },
+      "completed_at": "2026-03-07T05:00:00Z",
+      "verification_summary": { "passed": 19, "warned": 0, "failed": 0 }
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "method": "single-agent",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-07-ko.md",
+    "archive_path": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-07-ko.md",
+    "unified_ranking_path": "env-scanning/integrated/analysis/unified-ranking-2026-03-07.json",
+    "total_raw_signals": 598,
+    "top_signals": 20,
+    "validation": {
+      "script": "validate_report.py",
+      "profile": "integrated",
+      "result": "PASS",
+      "passed": 19,
+      "failed": 0
+    }
+  },
+  "human_decisions": {
+    "wf1_step_2_5": { "decision": "approved" },
+    "wf1_step_3_4": { "decision": "approved" },
+    "wf2_step_2_5": { "decision": "approved" },
+    "wf2_step_3_4": { "decision": "approved" },
+    "wf3_step_2_5": { "decision": "approved" },
+    "wf3_step_3_4": { "decision": "approved" },
+    "wf4_step_2_5": { "decision": "approved" },
+    "wf4_step_3_4": { "decision": "approved" },
+    "integrated_final": { "decision": "pending_user_approval" }
+  },
+  "master_gates": {
+    "M1": { "status": "PASS" },
+    "M2": { "status": "PASS" },
+    "M2a": { "status": "PASS" },
+    "M2b": { "status": "PASS" },
+    "M3": { "status": "pending_final_approval" }
+  }
+}

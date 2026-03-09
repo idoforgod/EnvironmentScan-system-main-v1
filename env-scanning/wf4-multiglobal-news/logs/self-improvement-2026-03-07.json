@@ -1,0 +1,38 @@
+{
+  "workflow": "wf4-multiglobal-news",
+  "date": "2026-03-07",
+  "sie_analysis": {
+    "classification_accuracy": {
+      "steeps_confidence": "high — 46/46 signals classified with clear category justification",
+      "fssf_confidence": "high — 8 types well-distributed; Wild Card appropriately used for Hormuz/H5N1 surprises",
+      "horizon_confidence": "high — H1 dominant (28/46) reflects acute crisis signals; H3 used appropriately for superconductor"
+    },
+    "tipping_point_detection": {
+      "status": "RED correctly identified for 5 compound-crisis signals",
+      "recommendation": "statistics_engine.py tipping point extraction from classified signals needs fix — currently reports all GREEN due to key mismatch; workaround: report generator reads tipping_point_status field directly"
+    },
+    "crawl_performance": {
+      "source_success_rate": "86.4% (38/44 sources)",
+      "sn_ratio": "91.49% — excellent",
+      "recommendation": "6 failed sources not yet identified — add source-level failure logging to news_direct_crawler.py"
+    },
+    "translation_quality": {
+      "avg_confidence": 1.00,
+      "coverage": "100% of articles translated",
+      "recommendation": "translation_confidence=1.0 for all may indicate pass-through rather than actual translation — verify pipeline correctly flags machine-translated vs pass-through"
+    },
+    "report_quality": {
+      "l2a_pass_rate": "100% (20/20)",
+      "l2b_pass_rate": "84.6% (11/13) — QC-005 and QC-007 are false positives",
+      "l3_grade": "A",
+      "recommendation": "QC-005 (horizontal rule count) and QC-007 (s_spiritual keyword density) should be reviewed for threshold adjustment in thresholds.yaml (requires user approval)"
+    },
+    "key_improvements_for_next_run": [
+      "Fix signal_evolution_tracker.py 'list object has no attribute items' bug",
+      "Fix report_statistics_engine.py tipping point extraction to read from classified signals tipping_point_status field",
+      "Add source-level crawl failure detail logging",
+      "Review QC-005/QC-007 thresholds (false positive rate too high)",
+      "priority_score_calculator.py: DC fallback triggered for all 46 signals — investigate dedup gate DC output format"
+    ]
+  }
+}

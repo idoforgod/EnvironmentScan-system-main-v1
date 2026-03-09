@@ -1,71 +1,67 @@
 {
-  "workflow_id": "wf2-arxiv-2026-03-06",
+  "workflow_id": "wf2-arxiv-2026-03-09",
   "workflow_name": "arXiv Academic Deep Scanning",
   "data_root": "env-scanning/wf2-arxiv",
   "sources_config": "env-scanning/config/sources-arxiv.yaml",
   "status": "completed",
   "current_phase": 3,
-  "current_step": "3.4",
-  "started_at": "2026-03-06T00:12:22Z",
-  "completed_at": "2026-03-06T10:42:00Z",
-  "scan_window": {
-    "window_start": "2026-03-04T00:12:22.712175+00:00",
-    "window_end": "2026-03-06T00:12:22.712175+00:00",
-    "lookback_hours": 48,
-    "tolerance_minutes": 60
-  },
+  "current_step": "3.5",
+  "started_at": "2026-03-09T07:37:00+00:00",
+  "completed_at": "2026-03-08T23:38:04.240733+00:00",
   "parameters": {
     "days_back": 14,
     "max_results_per_category": 50,
     "extended_categories": true,
-    "marathon_mode": false
+    "scan_window": {
+      "lookback_hours": 48,
+      "tolerance_minutes": 60,
+      "enforce": "strict",
+      "window_start": "2026-03-06T22:36:42+00:00",
+      "window_end": "2026-03-08T22:36:42+00:00"
+    }
+  },
+  "execution_mode": "integrated",
+  "bilingual": {
+    "language": "en",
+    "report_skeleton": ".claude/skills/env-scanner/references/report-skeleton-en.md",
+    "validate_profile": "standard_en"
   },
   "human_decisions": {
-    "phase_2_5_review": "approved",
-    "phase_3_4_approval": "approved"
+    "step_2_5": {
+      "decision": "auto-approved",
+      "timestamp": "2026-03-09T08:24:00+00:00",
+      "reason": "STEEPs distribution and ranking reasonable"
+    },
+    "step_3_4": {
+      "decision": "auto-approved",
+      "timestamp": "2026-03-08T23:38:04.241573+00:00",
+      "reason": "L2a 17/17 PASS, L2b 12/13 (0 CRITICAL, 0 ERROR)"
+    }
   },
   "phase_results": {
-    "phase_1": {
+    "phase1": {
       "status": "completed",
-      "raw_signals": 47,
-      "after_dedup": 45,
-      "dedup_gate": {
-        "definite_new": 26,
-        "definite_duplicate": 2,
-        "uncertain": 19
+      "raw_signals": 792,
+      "after_dedup": 686
+    },
+    "phase2": {
+      "status": "completed",
+      "classified": 686,
+      "steeps_distribution": {
+        "T": 621,
+        "S": 28,
+        "E": 27,
+        "s": 8,
+        "P": 2
       }
     },
-    "phase_2": {
+    "phase3": {
       "status": "completed",
-      "classified_signals": 30,
-      "steeps_distribution": {
-        "T_Technological": 23,
-        "S_Social": 8,
-        "E_Economic": 5,
-        "P_Political": 4,
-        "E_Environmental": 4,
-        "s_spiritual": 3
-      },
-      "top_signal": "Efficient Refusal Ablation in LLM through Optimal Transport",
-      "top_priority_score": 3.687
-    },
-    "phase_3": {
-      "status": "completed",
-      "database_updated": true,
-      "signals_added": 30,
-      "total_db_signals": 285,
-      "evolution_tracking": {
-        "new": 11,
-        "recurring": 14,
-        "weakening": 5,
-        "active_threads": 610
-      },
-      "report_generated": true,
-      "validation": {
-        "L2a_structural": "17/17 PASSED",
-        "L2b_cross_reference": "5/13 PASSED (WARN, non-blocking)",
-        "L2b_exit_code": 2
-      },
+      "db_updated": true,
+      "db_total": 1001,
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-09.md",
+      "validation_l2a": "17/17 PASS",
+      "validation_l2b": "12/13 (0 CRITICAL, 0 ERROR, 1 WARN)",
       "archived": true
     }
   }

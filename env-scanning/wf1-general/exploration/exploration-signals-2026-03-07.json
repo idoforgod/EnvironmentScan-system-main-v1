@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-07",
+  "generated_at": "2026-03-07T01:10:00+00:00",
+  "workflow": "wf1-general",
+  "tier": "exploration",
+  "method_used": "single-agent",
+  "items": [],
+  "total_signals": 0,
+  "note": "0 signals collected — test_scan datetime comparison bug in source_explorer.py prevented time-window filtering; all 4 candidates are healthy and viable based on health check. Signals will be collected once the datetime bug is fixed.",
+  "candidates_discovered": 4,
+  "viable_candidates": 4,
+  "gaps_targeted": ["E_Environmental", "E_Economic", "s_spiritual", "S_Social"],
+  "frontier_keywords_used": [
+    "biomimicry engineering innovations",
+    "synthetic biology ethics governance",
+    "art technology convergence research"
+  ]
+}

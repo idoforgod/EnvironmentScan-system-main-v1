@@ -6,7 +6,7 @@ Generic scanner for RSS/Atom feeds
 import feedparser
 import requests
 from typing import List, Dict, Any
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from .base_scanner import BaseScanner
 import hashlib
 
@@ -283,12 +283,12 @@ class RSSScanner(BaseScanner):
 
         if date_struct:
             try:
-                return datetime(*date_struct[:6])
+                return datetime(*date_struct[:6], tzinfo=timezone.utc)
             except:
                 pass
 
-        # Fallback: use current date
-        return datetime.now()
+        # Fallback: use current date (UTC-aware)
+        return datetime.now(timezone.utc)
 
     def _clean_html(self, text: str) -> str:
         """

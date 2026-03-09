@@ -21,7 +21,7 @@ Enable systematic daily scanning of global information sources to catch early si
 ```
 ┌─────────────────────────────────────────────────────┐
 │  Master Orchestrator                                 │
-│    SOT: workflow-registry.yaml (55 checks)           │
+│    SOT: workflow-registry.yaml (61 checks)           │
 ├─────────────────────────────────────────────────────┤
 │  WF1: General Environmental Scanning                 │
 │    Sources: 20+ (patents, policy, blogs, etc.)       │

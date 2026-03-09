@@ -1,0 +1,25 @@
+{
+  "gate_id": "temporal_gate.py",
+  "gate_version": "1.0.0",
+  "checked_at": "2026-03-07T02:53:46.127701+00:00",
+  "workflow": "wf3-naver",
+  "signals_file": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/wf3-naver/filtered/gate-filtered-daily-crawl-2026-03-07.json",
+  "scan_window_file": "/Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning/wf3-naver/logs/scan-window-state-2026-03-07.json",
+  "gate_status": "PASS",
+  "gate_message": "All 0 signals within window.",
+  "statistics": {
+    "total_signals": 0,
+    "within_window": 0,
+    "outside_window": 0,
+    "unparseable_dates": 0
+  },
+  "window": {
+    "effective_start": "2026-03-06T02:05:45.926831",
+    "window_end": "2026-03-07T02:35:45.926831",
+    "lookback_hours": 24,
+    "tolerance_minutes": 30,
+    "enforce": "strict"
+  },
+  "violations": [],
+  "unparseable": []
+}

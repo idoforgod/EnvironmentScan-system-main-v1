@@ -229,6 +229,33 @@ def check_raw_file_exists(context: dict) -> tuple:
     return passed, "; ".join(errors)
 
 
+def check_completion_gate_proof(context: dict) -> tuple:
+    """SCG-L3-CG: master_status.status=completed → completion gate PASS 증빙 존재.
+
+    Origin: 2026-03-09 autopilot mode에서 M4 없이 "completed" 선언이 가능했던 구조적 결함.
+    이 체크는 validate_completion.py의 실행 결과가 master_status에 기록되지 않으면
+    "completed" 상태를 무효로 판정한다.
+
+    Python 원천봉쇄: LLM이 M4를 "건너뛰고" completed로 선언해도,
+    이 체크가 다음 세션에서 불일치를 감지하여 보고한다.
+    """
+    errors = []
+    master_status = context.get("master_status", {})
+
+    if master_status.get("status") == "completed":
+        master_gates = master_status.get("master_gates", {})
+        m4 = master_gates.get("M4", {})
+        m4_status = m4.get("status", "")
+        if m4_status != "PASS":
+            errors.append(
+                f"master_status.status=completed but master_gates.M4.status='{m4_status}' "
+                f"(expected 'PASS'). Completion Gate (validate_completion.py) was not verified."
+            )
+
+    passed = len(errors) == 0
+    return passed, "; ".join(errors)
+
+
 def check_poe_valid(context: dict) -> tuple:
     """SCG-L3-002: raw 파일의 execution_proof가 스키마 준수"""
     poe_schema = context.get("poe_schema", {})
@@ -401,6 +428,7 @@ CHECK_FUNCTIONS = {
     "weekly_daily_report_count_match": check_weekly_daily_report_count_match,
     "weekly_signal_count_consistency": check_weekly_signal_count_consistency,
     "weekly_date_range_valid": check_weekly_date_range_valid,
+    "completion_gate_proof": check_completion_gate_proof,
 }
 
 

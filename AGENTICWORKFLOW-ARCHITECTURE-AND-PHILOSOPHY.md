@@ -2,7 +2,7 @@
 
 > **Quadruple Environmental Scanning System** | Architecture Reference (English)
 >
-> Version: 3.1.0 | Last Updated: 2026-03-06
+> Version: 3.2.0 | Last Updated: 2026-03-09
 
 This document is the concise English-language companion to `WORKFLOW-ARCHITECTURE-AND-PHILOSOPHY.md`. For the full Korean technical specification, refer to that document.
 
@@ -42,7 +42,7 @@ The **Quadruple Environmental Scanning System** is an AI-driven pipeline that sc
 ### Master Orchestrator Responsibilities
 
 - Read SOT (`workflow-registry.yaml`) and bind all variables
-- Run `validate_registry.py` (59 checks, exit 0 required)
+- Run `validate_registry.py` (61 checks, exit 0 required)
 - Execute WF1 -> WF2 -> WF3 -> WF4 sequentially
 - Invoke Agent-Teams for integration
 - Manage 9 human checkpoints
@@ -111,6 +111,8 @@ Every workflow follows the same strict sequential structure. Phases cannot be sk
 | 3.4 | **[REQUIRED] Human report approval** | -- |
 | 3.5 | Self-Improvement Analysis (SIE) | self-improvement-analyzer |
 
+**Pipeline Gate 2** (Phase 2 → Phase 3 transition): Python-enforced via `validate_phase2_output.py` (8 checks: PG2-001~008). Validates classified-signals, impact-assessment, and priority-ranked JSON outputs exist and contain valid data (required fields, score ranges, STEEPs distribution). Exit code 0 = PASS, 1 = HALT.
+
 **Gate checks** (6 per transition) enforce quality between phases.
 
 ---
@@ -147,13 +149,13 @@ Every report must pass through all 4 layers before human review:
 |-------|------|-----------|
 | L1 | Skeleton-Fill | Fill template, not free-form generation |
 | L2a | Structural Validation | `validate_report.py` (15–20 checks, profile-dependent) |
-| L2b | Cross-Reference QC | `validate_report_quality.py` (13 QC checks: QC-001~013) |
+| L2b | Cross-Reference QC | `validate_report_quality.py` (14 QC checks: QC-001~014) |
 | L3 | Semantic Depth Review | `quality-reviewer.md` LLM sub-agent (3-pass review) |
 | L4 | Golden Reference | 9-field signal example anchors completeness |
 
 **Progressive Retry** on any failure: targeted fix → full regen → human escalation (max 2 retries).
 
-**L2b QC Check Categories**: priority ordering (QC-001, CRITICAL), signal count vs claimed (QC-003, CRITICAL), FSSF distribution for WF3/WF4 (QC-008, CRITICAL), plus 10 ERROR/WARN level checks.
+**L2b QC Check Categories**: priority ordering (QC-001, CRITICAL), signal count vs claimed (QC-003, CRITICAL), FSSF distribution for WF3/WF4 (QC-008, CRITICAL), executive summary statistics vs source data (QC-014, ERROR), plus 9 ERROR/WARN level checks.
 
 **L3 Review Passes**: Pass 1 — individual signal content quality; Pass 2 — section synthesis and coherence; Pass 3 — strategic implications traceability.
 
@@ -178,13 +180,13 @@ The Timeline Map receives the **same quality defense rigor** as regular reports:
 
 The system enforces "**Python 원천봉쇄**" — "계산은 Python이, 판단은 LLM이" (Python computes, LLM judges). All deterministic computations are implemented in Python with no LLM fallback; only semantic judgment tasks use LLM agents.
 
-### Deterministic (Python) -- 33 modules
+### Deterministic (Python) -- 36 modules + 9 validation scripts
 
 These modules perform calculations, validation, and data manipulation where correctness is verifiable:
 
 | Category | Modules |
 |----------|---------|
-| **Validation** | validate_registry.py, validate_report.py, validate_report_quality.py, validate_timeline_map.py, validate_timeline_map_quality.py, narrative_gate.py, translation_validator.py |
+| **Validation** | validate_registry.py, validate_report.py, validate_report_quality.py, validate_timeline_map.py, validate_timeline_map_quality.py, narrative_gate.py, **validate_phase2_output.py**, validate_completion.py, validate_state_consistency.py, translation_validator.py |
 | **Data Processing** | dedup_gate.py, temporal_gate.py, temporal_anchor.py |
 | **Scoring** | psst_calculator.py, psst_calibrator.py, **priority_score_calculator.py**, report_statistics_engine.py |
 | **Database** | database_recovery.py, signal_evolution_tracker.py |
@@ -192,7 +194,7 @@ These modules perform calculations, validation, and data manipulation where corr
 | **Report Engineering** | skeleton_mirror.py, report_metadata_injector.py, timeline_map_generator.py, lazy_report_generator.py |
 | **Translation** | translation_validator.py, bilingual_resolver.py, translation_parallelizer.py |
 | **Exploration** | source_explorer.py, frontier_selector.py, exploration_gate.py, exploration_merge_gate.py |
-| **Context** | context_manager.py, unified_task_manager.py, index_cache_manager.py, index_cache_manager.py |
+| **Context** | context_manager.py, unified_task_manager.py, index_cache_manager.py |
 | **Embedding** | embedding_deduplicator.py, impact_matrix_compressor.py |
 
 > **priority_score_calculator.py** (Python 원천봉쇄): Enforces deterministic priority scoring. The LLM (`@phase2-analyst`) provides classification + impact analysis output fields; Python reads them and applies the formula. No LLM is invoked at Step 2.3.
@@ -228,7 +230,7 @@ Worker Agent (EN) -> EN Output -> VEV Validation -> @translation-agent -> KR Out
 - Internal processing: English (en)
 - External output: Korean (ko)
 - Reports are generated in English -> validated with EN profiles -> translated to Korean
-- `translation_validator.py` validates structural integrity of translations
+- `translation_validator.py` validates structural integrity of translations (TERM-001: immutable term preservation, TERM-002: preserve-list compliance, TERM-003: standardized mapping ≥60%)
 - STEEPs terminology must be 100% preserved in translation
 - All final reports are delivered in Korean
 
@@ -248,7 +250,7 @@ Worker Agent (EN) -> EN Output -> VEV Validation -> @translation-agent -> KR Out
 
 **SOT rules:**
 1. Master orchestrator MUST read this file at startup
-2. `validate_registry.py` MUST pass (55 checks) before any workflow executes
+2. `validate_registry.py` MUST pass (61 checks) before any workflow executes
 3. Shared settings are referenced, never duplicated
 4. Agents never hardcode paths -- SOT provides them
 5. HALT-severity validation failures completely stop the workflow
@@ -268,9 +270,9 @@ Worker Agent (EN) -> EN Output -> VEV Validation -> @translation-agent -> KR Out
 | `translation-terms.yaml` | Korean translation term mappings |
 | `self-improvement-config.yaml` | SIE behavior and safety limits |
 
-### 59 Validation Checks
+### 61 Validation Checks
 
-The validation script (`validate_registry.py`) runs 59 checks across categories:
+The validation script (`validate_registry.py`) runs 61 checks (SOT-001~061) across categories:
 
 - File existence (orchestrators, workers, skeletons, sources)
 - Directory existence (data roots, output directories)
@@ -279,6 +281,7 @@ The validation script (`validate_registry.py`) runs 59 checks across categories:
 - Schema validity (PoE, SCG rules)
 - WF-specific constraints (arXiv in WF2 only, Naver in WF3 only, MultiGlobalNews in WF4 only)
 - Timeline Map quality defense (SOT-056~059: quality scripts, challenger agent, theme config, narrative gate)
+- Pipeline Gate 2 enforcement (SOT-060~061: validate_phase2_output.py existence and orchestrator binding)
 
 ---
 
@@ -324,7 +327,7 @@ Human corrections (priority adjustments, classification fixes) feed back into SI
 
 ---
 
-## 10. Key Python Modules (33 modules)
+## 10. Key Python Modules (36 core + 9 validation)
 
 ### Core Infrastructure
 
@@ -346,8 +349,9 @@ Human corrections (priority adjustments, classification fixes) feed back into SI
 | `psst_calibrator.py` | Platt Scaling-based pSST calibration |
 | `priority_score_calculator.py` | **Step 2.3 Python 원천봉쇄** — deterministic priority scoring (impact×0.40 + prob×0.30 + urgency×0.20 + novelty×0.10) |
 | `report_statistics_engine.py` | Report quality metrics and placeholder computation |
-| `validate_report_quality.py` | L2b cross-reference QC (13 checks: QC-001~013) |
-| `translation_validator.py` | Translation structural integrity |
+| `validate_report_quality.py` | L2b cross-reference QC (14 checks: QC-001~014, incl. QC-014 exec summary stats) |
+| `validate_phase2_output.py` | **Pipeline Gate 2** — Phase 2→3 transition enforcement (8 checks: PG2-001~008) |
+| `translation_validator.py` | Translation structural integrity + TERM fidelity (TERM-001~003) |
 | `bilingual_resolver.py` | EN/KO term resolution |
 
 ### Data Processing
@@ -478,7 +482,7 @@ These 10 elements can never be changed, not even by user override:
 | 6 | Database Atomicity | Snapshot -> Write -> Restore on failure |
 | 7 | Phase Order | [1, 2, 3] strictly sequential |
 | 8 | Bilingual Protocol | Internal=EN, External=KO |
-| 9 | 4-Layer Quality Defense | L1 (Skeleton-Fill) → L2a (structural) → L2b (13 QC checks) → L3 (semantic LLM review) → L4 (Golden Reference) |
+| 9 | 4-Layer Quality Defense | L1 (Skeleton-Fill) → L2a (structural) → L2b (14 QC checks) → L3 (semantic LLM review) → L4 (Golden Reference) |
 | 10 | Workflow Independence | No cross-WF data access during execution |
 
 ---
@@ -495,6 +499,6 @@ These 10 elements can never be changed, not even by user override:
 
 ---
 
-**Document Version**: 4.0
-**Last Updated**: 2026-03-06
-**System Version**: Quadruple Workflow System v3.1.0 (Python 원천봉쇄 + 4-Layer Quality Defense + Timeline Map Challenge-Response)
+**Document Version**: 5.0
+**Last Updated**: 2026-03-09
+**System Version**: Quadruple Workflow System v3.2.0 (Python 원천봉쇄 + Hallucination Prevention + 4-Layer Quality Defense + Timeline Map Challenge-Response)

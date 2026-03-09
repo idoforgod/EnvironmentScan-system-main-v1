@@ -409,12 +409,15 @@ On WF1 completion:
 ```yaml
 Master_Gate_M1:
   trigger: After WF1 orchestrator returns
+  enforcement: MANDATORY  # Python 원천봉쇄 — LLM 판단이 아닌 Python 검증
+  script: "python3 env-scanning/scripts/validate_completion.py --sot {SOT_PATH} --date {SCAN_DATE} --workflow-only wf1-general --json"
   checks:
     - wf1_status_completed: "WF1 workflow-status.json shows status: completed"
     - wf1_report_exists: "WF1 daily report file exists at expected path"
     - wf1_report_valid: "WF1 report passes structural check (sections present)"
     - wf1_gate3_passed: "WF1 Pipeline Gate 3 passed (from verification report)"
     - wf1_human_approvals: "Both Step 2.5 and Step 3.4 human approvals recorded"
+    - wf1_completion_gate: "validate_completion.py --workflow-only wf1-general returns exit code 0"
   on_fail:
     action: HALT_and_ask_user
     message: |
@@ -425,6 +428,9 @@ Master_Gate_M1:
         2. WF1 건너뛰고 WF2+WF3+WF4 계속 실행 (WF2+WF3+WF4 통합 보고서 생성 — degraded mode)
         3. 전체 워크플로우 중단
 ```
+
+> **Python 강제**: M1 gate에서 `validate_completion.py --workflow-only wf1-general`을 실행한다.
+> exit code 0이 아니면 WF1은 미완료 상태이며, 다음 단계(WF2)로 진행할 수 없다.
 
 **IMPORTANT**: If WF1 fails and user chooses to skip, the integrated report
 will be generated from WF2+WF3+WF4 only (degraded mode). See Degraded Mode table.
@@ -502,12 +508,15 @@ On WF2 completion:
 ```yaml
 Master_Gate_M2:
   trigger: After WF2 orchestrator returns
+  enforcement: MANDATORY  # Python 원천봉쇄
+  script: "python3 env-scanning/scripts/validate_completion.py --sot {SOT_PATH} --date {SCAN_DATE} --workflow-only wf2-arxiv --json"
   checks:
     - wf2_status_completed: "WF2 workflow-status.json shows status: completed"
     - wf2_report_exists: "WF2 daily report file exists at expected path"
     - wf2_report_valid: "WF2 report passes structural check (sections present)"
     - wf2_gate3_passed: "WF2 Pipeline Gate 3 passed (from verification report)"
     - wf2_human_approvals: "Both Step 2.5 and Step 3.4 human approvals recorded"
+    - wf2_completion_gate: "validate_completion.py --workflow-only wf2-arxiv returns exit code 0"
   on_fail:
     action: HALT_and_ask_user
     message: |
@@ -518,6 +527,8 @@ Master_Gate_M2:
         2. WF2 건너뛰고 WF3+WF4 진행 (WF2 없이 통합 보고서 제한적 생성)
         3. 전체 워크플로우 중단
 ```
+
+> **Python 강제**: M2 gate에서 `validate_completion.py --workflow-only wf2-arxiv`를 실행한다.
 
 ---
 
@@ -595,12 +606,15 @@ On WF3 completion:
 ```yaml
 Master_Gate_M2a:
   trigger: After WF3 orchestrator returns
+  enforcement: MANDATORY  # Python 원천봉쇄
+  script: "python3 env-scanning/scripts/validate_completion.py --sot {SOT_PATH} --date {SCAN_DATE} --workflow-only wf3-naver --json"
   checks:
     - wf3_status_completed: "WF3 workflow-status.json shows status: completed"
     - wf3_report_exists: "WF3 daily report file exists at expected path"
     - wf3_report_valid: "WF3 report passes structural check (sections present)"
     - wf3_gate3_passed: "WF3 Pipeline Gate 3 passed (from verification report)"
     - wf3_human_approvals: "Both Step 2.5 and Step 3.4 human approvals recorded"
+    - wf3_completion_gate: "validate_completion.py --workflow-only wf3-naver returns exit code 0"
   on_fail:
     action: HALT_and_ask_user
     message: |
@@ -611,6 +625,8 @@ Master_Gate_M2a:
         2. WF3 건너뛰고 WF4 진행 (WF3 없이 통합 보고서 제한적 생성)
         3. 전체 워크플로우 중단
 ```
+
+> **Python 강제**: M2a gate에서 `validate_completion.py --workflow-only wf3-naver`를 실행한다.
 
 **IMPORTANT**: If WF3 fails and user chooses to skip, the integrated report
 will be generated from WF1+WF2+WF4 only (degraded mode).
@@ -684,12 +700,15 @@ On WF4 completion:
 ```yaml
 Master_Gate_M2b:
   trigger: After WF4 orchestrator returns
+  enforcement: MANDATORY  # Python 원천봉쇄
+  script: "python3 env-scanning/scripts/validate_completion.py --sot {SOT_PATH} --date {SCAN_DATE} --workflow-only wf4-multiglobal-news --json"
   checks:
     - wf4_status_completed: "WF4 workflow-status.json shows status: completed"
     - wf4_report_exists: "WF4 daily report file exists at expected path"
     - wf4_report_valid: "WF4 report passes structural check (sections present)"
     - wf4_pipeline_gate_3_passed: "WF4 Pipeline Gate 3 passed (from verification report)"
     - wf4_human_approvals_recorded: "Both Step 2.5 and Step 3.4 human approvals recorded"
+    - wf4_completion_gate: "validate_completion.py --workflow-only wf4-multiglobal-news returns exit code 0"
     - all_workflows_completed: "WF1, WF2, WF3, and WF4 all show status: completed (or explicitly skipped)"
   on_fail:
     action: HALT_and_ask_user
@@ -1236,6 +1255,44 @@ Master_Gate_M3:
     action: warn_user
     log: "Master Gate M3 issues detected — report has been approved but some post-checks failed"
 ```
+
+## Master Gate M4: Completion Gate (v3.2.0 — Deliverables Completeness)
+
+> **Origin**: 2026-03-09 autopilot 모드에서 한국어 번역 5건, 타임라인 맵 1건, 스켈레톤 미충전 2건이
+> 누락된 채 "완료"로 선언됨. M3까지는 통과하지만 실제 산출물이 불완전한 구조적 공백을 봉쇄한다.
+> **"완료했다는 '선언'이 아닌, 완료를 '증명'하는 메커니즘."**
+
+```yaml
+Master_Gate_M4:
+  trigger: After Master Gate M3 PASS, before Step 6 Finalization
+  enforcement: MANDATORY  # M4 FAIL = workflow NOT complete
+  script: "python3 env-scanning/scripts/validate_completion.py --sot {SOT_PATH} --date {SCAN_DATE} --json"
+  checks:
+    - CG-001: "EN report exists for each enabled workflow"
+    - CG-002: "KO report exists for each enabled workflow"
+    - CG-003: "EN integrated report exists"
+    - CG-004: "KO integrated report exists"
+    - CG-005: "No unfilled PLACEHOLDER tokens in any report"
+    - CG-006: "Timeline map exists (if signal_evolution enabled)"
+    - CG-007: "KO reports have ≥30% Korean characters"
+    - CG-008: "Archive copies exist for all reports (EN + KO)"
+    - CG-009: "No report header says 'Skeleton Template'"
+  on_fail:
+    action: HALT_AND_REMEDIATE
+    procedure: |
+      1. Identify which CG checks failed
+      2. For CG-002/004 (KO missing): invoke @translation-agent for each missing KO report
+      3. For CG-005 (PLACEHOLDERs): re-run skeleton-fill for affected reports
+      4. For CG-006 (timeline map): re-run timeline-map-orchestrator
+      5. For CG-009 (skeleton header): re-generate affected reports
+      6. Re-run validate_completion.py — must PASS before proceeding to Step 6
+    max_retries: 2
+    escalation: "Human notification with list of unresolved failures"
+```
+
+**Autopilot Mode Special Rule**: Even in autopilot/auto-approve mode, M4 is NEVER skipped.
+The gate runs programmatically (`validate_completion.py`) — it cannot be "approved away" by LLM judgment.
+This is the Python 원천봉쇄 principle applied to deliverable completeness.
 
 ---
 

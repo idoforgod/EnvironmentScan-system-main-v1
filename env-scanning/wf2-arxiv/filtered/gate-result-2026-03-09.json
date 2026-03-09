@@ -1,0 +1,1957 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-08T23:20:22.614467+00:00",
+  "workflow": "wf2-arxiv",
+  "signals_file": "env-scanning/wf2-arxiv/raw/daily-scan-2026-03-09.json",
+  "previous_file": "env-scanning/wf2-arxiv/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "36 definite duplicate(s) removed. 204 uncertain signal(s) flagged for LLM review. 552 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 792,
+    "definite_new": 552,
+    "definite_duplicates": 36,
+    "uncertain": 204,
+    "pass_through": 756
+  },
+  "stage_breakdown": {
+    "A_url": 34,
+    "B_topic": 1,
+    "C_title": 0,
+    "D_entity": 1
+  },
+  "duplicates": [
+    {
+      "signal_id": "arxiv-2603.05462v1",
+      "signal_title": "NCTB-QA: A Large-Scale Bangla Educational Question Answering Dataset and Benchmarking Performance",
+      "matched_signal_id": "wf2-2603.05462v1",
+      "matched_title": "NCTB-QA: A Large-Scale Bangla Educational Question Answering Dataset and Benchmarking Performance",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05423v1",
+      "signal_title": "An interpretable prototype parts-based neural network for medical tabular data",
+      "matched_signal_id": "wf2-2603.05423v1",
+      "matched_title": "An interpretable prototype parts-based neural network for medical tabular data",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05421v1",
+      "signal_title": "MobileFetalCLIP: Selective Repulsive Knowledge Distillation for Mobile Fetal Ultrasound Analysis",
+      "matched_signal_id": "wf2-2603.05421v1",
+      "matched_title": "MobileFetalCLIP: Selective Repulsive Knowledge Distillation for Mobile Fetal Ultrasound Analysis",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05366v1",
+      "signal_title": "Radiation Hydrodynamics at Scale: Comparing MPI and Asynchronous Many-Task Runtimes with FleCSI",
+      "matched_signal_id": "wf2-2603.05366v1",
+      "matched_title": "Radiation Hydrodynamics at Scale: Comparing MPI and Asynchronous Many-Task Runtimes with FleCSI",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04966v1",
+      "signal_title": "Programmable superconducting neuron with intrinsic in-memory computation and dual-timescale plasticity for ultra-efficient neuromorphic computing",
+      "matched_signal_id": "wf2-2603.04966v1",
+      "matched_title": "Programmable superconducting neuron with intrinsic in-memory computation and dual-timescale plasticity for ultra-efficient neuromorphic computing",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04905v1",
+      "signal_title": "Deterministic Preprocessing and Interpretable Fuzzy Banding for Cost-per-Student Reporting from Extracted Records",
+      "matched_signal_id": "wf2-2603.04905v1",
+      "matched_title": "Deterministic Preprocessing and Interpretable Fuzzy Banding for Cost-per-Student Reporting from Extracted Records",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05461v1",
+      "signal_title": "Equilibrium for max-plus payoff",
+      "matched_signal_id": "wf2-2603.05461v1",
+      "matched_title": "Equilibrium for max-plus payoff",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05367v1",
+      "signal_title": "Shock Propagation and Macroeconomic Fluctuations",
+      "matched_signal_id": "wf2-2603.05367v1",
+      "matched_title": "Shock Propagation and Macroeconomic Fluctuations",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05324v1",
+      "signal_title": "AttentiveLearn: Personalized Post-Lecture Support for Gaze-Aware Immersive Learning",
+      "matched_signal_id": "wf2-2603.05324v1",
+      "matched_title": "AttentiveLearn: Personalized Post-Lecture Support for Gaze-Aware Immersive Learning",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05229v1",
+      "signal_title": "Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making",
+      "matched_signal_id": "wf2-2603.05229v1",
+      "matched_title": "Not All Trust is the Same: Effects of Decision Workflow and Explanations in Human-AI Decision Making",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05222v1",
+      "signal_title": "Cognitive Warfare: Definition, Framework, and Case Study",
+      "matched_signal_id": "wf2-2603.05222v1",
+      "matched_title": "Cognitive Warfare: Definition, Framework, and Case Study",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05189v1",
+      "signal_title": "Small Changes, Big Impact: Demographic Bias in LLM-Based Hiring Through Subtle Sociocultural Markers in Anonymised Resumes",
+      "matched_signal_id": "wf2-2603.05189v1",
+      "matched_title": "Small Changes, Big Impact: Demographic Bias in LLM-Based Hiring Through Subtle Sociocultural Markers in Anonymised Resumes",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05129v1",
+      "signal_title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+      "matched_signal_id": "wf2-2603.05129v1",
+      "matched_title": "MedCoRAG: Interpretable Hepatology Diagnosis via Hybrid Evidence Retrieval and Multispecialty Consensus",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04959v1",
+      "signal_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04804v1",
+      "signal_title": "Can LLMs Synthesize Court-Ready Statistical Evidence? Evaluating AI-Assisted Sentencing Bias Analysis for California Racial Justice Act Claims",
+      "matched_signal_id": "wf2-2603.04804v1",
+      "matched_title": "Can LLMs Synthesize Court-Ready Statistical Evidence? Evaluating AI-Assisted Sentencing Bias Analysis for California Racial Justice Act Claims",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05119v1",
+      "signal_title": "Asymptotic Separability of Diffusion and Jump Components in High-Frequency CIR and CKLS Models",
+      "matched_signal_id": "wf2-2603.05119v1",
+      "matched_title": "Asymptotic Separability of Diffusion and Jump Components in High-Frequency CIR and CKLS Models",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05102v1",
+      "signal_title": "Lagrangian dispersion in experimental stratified turbulence",
+      "matched_signal_id": "wf2-2603.05102v1",
+      "matched_title": "Lagrangian dispersion in experimental stratified turbulence",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04119v1",
+      "signal_title": "An analytical-numerical coupled model of liquid droplet impact on solid material surfaces",
+      "matched_signal_id": "wf2-2603.03178v1",
+      "matched_title": "On the biogenic hydrodynamic transport of upward and downward cruising copepods",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.03926v1",
+      "signal_title": "A Structurally Localized Ensemble Kalman Filtering Approach",
+      "matched_signal_id": "wf2-2603.03926v1",
+      "matched_title": "A Structurally Localized Ensemble Kalman Filtering Approach",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.03838v1",
+      "signal_title": "Climate Downscaling with Stochastic Interpolants (CDSI)",
+      "matched_signal_id": "wf2-2603.03838v1",
+      "matched_title": "Climate Downscaling with Stochastic Interpolants (CDSI)",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.03669v1",
+      "signal_title": "Automated Analysis of Ripple-Scale Gravity Wave Structures in the Mesosphere Using Convolutional Neural Networks",
+      "matched_signal_id": "wf2-2603.03669v1",
+      "matched_title": "Automated Analysis of Ripple-Scale Gravity Wave Structures in the Mesosphere Using Convolutional Neural Networks",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.03483v1",
+      "signal_title": "Near-surface Extreme Wind Events and Their Responses to Climate Forcings in a Hierarchy of Global Climate Models",
+      "matched_signal_id": "wf2-2603.03483v1",
+      "matched_title": "Near-surface Extreme Wind Events and Their Responses to Climate Forcings in a Hierarchy of Global Climate Models",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.03178v1",
+      "signal_title": "On the biogenic hydrodynamic transport of upward and downward cruising copepods",
+      "matched_signal_id": "wf2-2603.03178v1",
+      "matched_title": "On the biogenic hydrodynamic transport of upward and downward cruising copepods",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.02968v1",
+      "signal_title": "Phase-field investigation of non-isothermal solidification coupled with melt flow dynamics",
+      "matched_signal_id": "wf2-2603.02968v1",
+      "matched_title": "Phase-field investigation of non-isothermal solidification coupled with melt flow dynamics",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.02779v1",
+      "signal_title": "Improved Stability-Based Transition Transport Model for Airships Incorporating Wall Heating Effects",
+      "matched_signal_id": "wf2-2603.02779v1",
+      "matched_title": "Improved Stability-Based Transition Transport Model for Airships Incorporating Wall Heating Effects",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05260v1",
+      "signal_title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
+      "matched_signal_id": "wf2-2603.05260v1",
+      "matched_title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05188v1",
+      "signal_title": "Escaping the Hydrolysis Trap: An Agentic Workflow for Inverse Design of Durable Photocatalytic Covalent Organic Frameworks",
+      "matched_signal_id": "wf2-2603.05188v1",
+      "matched_title": "Escaping the Hydrolysis Trap: An Agentic Workflow for Inverse Design of Durable Photocatalytic Covalent Organic Frameworks",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05283v1",
+      "signal_title": "Wealth Tax Neutrality as Drift-Shift Symmetry: A Statistical Physics Formulation",
+      "matched_signal_id": "wf2-2603.05283v1",
+      "matched_title": "Wealth Tax Neutrality as Drift-Shift Symmetry: A Statistical Physics Formulation",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05277v1",
+      "signal_title": "Extensions to the Wealth Tax Neutrality Framework",
+      "matched_signal_id": "wf2-2603.05277v1",
+      "matched_title": "Extensions to the Wealth Tax Neutrality Framework",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05289v1",
+      "signal_title": "ULTIMATE deblending I. A 50-band UV-to-MIR photometric catalog combining space- and ground-based data in the JWST/PRIMER survey",
+      "matched_signal_id": "wf2-2603.05289v1",
+      "matched_title": "ULTIMATE deblending I. A 50-band UV-to-MIR photometric catalog combining space- and ground-based data in the JWST/PRIMER survey",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05145v1",
+      "signal_title": "Quantum advantages for syndrome-aware noisy logical observable estimation",
+      "matched_signal_id": "wf2-2603.05145v1",
+      "matched_title": "Quantum advantages for syndrome-aware noisy logical observable estimation",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05153v1",
+      "signal_title": "Training and Innovation in Italian Manufacturing Firms",
+      "matched_signal_id": "wf2-2603.05153v1",
+      "matched_title": "Training and Innovation in Italian Manufacturing Firms",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04997v1",
+      "signal_title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+      "matched_signal_id": "wf2-2603.04997v1",
+      "matched_title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.05226v1",
+      "signal_title": "Learning Optimal Individualized Decision Rules with Conditional Demographic Parity",
+      "matched_signal_id": "wf2-2603.05226v1",
+      "matched_title": "Learning Optimal Individualized Decision Rules with Conditional Demographic Parity",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "arxiv-2603.04306v1",
+      "signal_title": "Theory Discovery in Social Networks: Automating ERGM Specification with Large Language Models",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "arxiv-2603.02757v1",
+      "signal_title": "Mathematical model of tumor-macrophage interactions: Elucidating the tumor-driven macrophage phenotype reprogramming",
+      "matched_signal_id": "wf2-2603.02757v1",
+      "matched_title": "Mathematical model of tumor-macrophage interactions: Elucidating the tumor-driven macrophage phenotype reprogramming",
+      "stage": "A_url",
+      "score": 1.0
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "arxiv-2603.05506v1",
+      "signal_title": "FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning",
+      "matched_signal_id": "arxiv-20260224-023",
+      "matched_title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.05504v1",
+      "signal_title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "matched_signal_id": "arxiv-2602.15827v1",
+      "matched_title": "Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "arxiv-2603.05500v1",
+      "signal_title": "POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05498v1",
+      "signal_title": "The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks",
+      "matched_signal_id": "arxiv-20260224-020",
+      "matched_title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "stage": "C_title",
+      "score": 0.8119
+    },
+    {
+      "signal_id": "arxiv-2603.05495v1",
+      "signal_title": "Cheap Thrills: Effective Amortized Optimization Using Inexpensive Labels",
+      "matched_signal_id": "arxiv-2602.15817v1",
+      "matched_title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "arxiv-2603.05484v1",
+      "signal_title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
+      "matched_signal_id": "arxiv-2602-23330v1",
+      "matched_title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Strategy Orchestration",
+      "stage": "C_title",
+      "score": 0.8085
+    },
+    {
+      "signal_id": "arxiv-2603.05473v1",
+      "signal_title": "Towards 3D Scene Understanding of Gas Plumes in LWIR Hyperspectral Images Using Neural Radiance Fields",
+      "matched_signal_id": "arxiv-2602-23330v1",
+      "matched_title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Strategy Orchestration",
+      "stage": "C_title",
+      "score": 0.8267
+    },
+    {
+      "signal_id": "arxiv-2603.05454v1",
+      "signal_title": "Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8147
+    },
+    {
+      "signal_id": "arxiv-2603.05451v1",
+      "signal_title": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
+      "matched_signal_id": "arxiv-2602-23349v1",
+      "matched_title": "FlashOptim: Optimizers for Memory Efficient Training",
+      "stage": "C_title",
+      "score": 0.813
+    },
+    {
+      "signal_id": "arxiv-2603.05449v1",
+      "signal_title": "RealWonder: Real-Time Physical Action-Conditioned Video Generation",
+      "matched_signal_id": "arxiv-2602.15727v1",
+      "matched_title": "Spanning the Visual Analogy Space with a Weight Basis of LoRAs",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05440v1",
+      "signal_title": "Latent Wasserstein Adversarial Imitation Learning",
+      "matched_signal_id": "arxiv-2602.15817v1",
+      "matched_title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05437v1",
+      "signal_title": "SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning",
+      "matched_signal_id": "wf2-2603.04071v1",
+      "matched_title": "SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling",
+      "stage": "C_title",
+      "score": 0.8041
+    },
+    {
+      "signal_id": "arxiv-2603.05432v1",
+      "signal_title": "Ensembling Language Models with Sequential Monte Carlo",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05425v1",
+      "signal_title": "RelaxFlow: Text-Driven Amodal 3D Generation",
+      "matched_signal_id": "arxiv-2602.15727v1",
+      "matched_title": "Spanning the Visual Analogy Space with a Weight Basis of LoRAs",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05418v1",
+      "signal_title": "The Spatial and Temporal Resolution of Motor Intention in Multi-Target Prediction",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8497
+    },
+    {
+      "signal_id": "arxiv-2603.05396v1",
+      "signal_title": "Harnessing Synthetic Data from Generative AI for Statistical Inference",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.05370v1",
+      "signal_title": "Learning Causal Structure of Time Series using Best Order Score Search",
+      "matched_signal_id": "wf2-2603.05330v1",
+      "matched_title": "Dark3R: Learning Structure from Motion in the Dark",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.05497v1",
+      "signal_title": "Safe-SAGE: Social-Semantic Adaptive Guidance for Safe Engagement through Laplace-Modulated Poisson Safety Functions",
+      "matched_signal_id": "wf2-2603.04071v1",
+      "matched_title": "SaFeR: Safety-Critical Scenario Generation for Autonomous Driving Test via Feasibility-Constrained Token Resampling",
+      "stage": "C_title",
+      "score": 0.8419
+    },
+    {
+      "signal_id": "arxiv-2603.05487v1",
+      "signal_title": "Observing and Controlling Features in Vision-Language-Action Models",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "C_title",
+      "score": 0.8156
+    },
+    {
+      "signal_id": "arxiv-2603.05309v1",
+      "signal_title": "Constraint-Free Static Modeling of Continuum Parallel Robot",
+      "matched_signal_id": "arxiv-2602.15704v1",
+      "matched_title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "stage": "C_title",
+      "score": 0.8253
+    },
+    {
+      "signal_id": "arxiv-2603.05279v1",
+      "signal_title": "From Code to Road: A Vehicle-in-the-Loop and Digital Twin-Based Framework for Central Car Server Testing in Autonomous Driving",
+      "matched_signal_id": "arxiv-20260224-017",
+      "matched_title": "From Bias Mitigation to Bias Negotiation: Governing Identity and Sociocultural Reasoning in Generative AI",
+      "stage": "C_title",
+      "score": 0.8232
+    },
+    {
+      "signal_id": "arxiv-2603.05187v1",
+      "signal_title": "Design and Analysis of an Improved Constrained Hypercube Mixer in Quantum Approximate Optimization Algorithm",
+      "matched_signal_id": "wf2-20260210-004",
+      "matched_title": "Sublinear Time Quantum Algorithm for Attention Approximation",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05113v1",
+      "signal_title": "Decoupling Task and Behavior: A Two-Stage Reward Curriculum in Reinforcement Learning for Robotics",
+      "matched_signal_id": "arxiv-2602-23262v1",
+      "matched_title": "Decomposing Private Image Generation via Coarse-to-Fine Wavelet Modeling",
+      "stage": "C_title",
+      "score": 0.8178
+    },
+    {
+      "signal_id": "arxiv-2603.05048v1",
+      "signal_title": "MCEL: Margin-Based Cross-Entropy Loss for Error-Tolerant Quantized Neural Networks",
+      "matched_signal_id": "arxiv-2602.15704v1",
+      "matched_title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "arxiv-2603.05015v1",
+      "signal_title": "Observer Design for Augmented Reality-based Teleoperation of Soft Robots",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "C_title",
+      "score": 0.8071
+    },
+    {
+      "signal_id": "arxiv-2603.04932v1",
+      "signal_title": "Integrated cooperative localization of heterogeneous measurement swarm: A unified data-driven method",
+      "matched_signal_id": "arxiv-20260224-035",
+      "matched_title": "Integrating Predictive Models into Two-Sided Recommendations: A Matching-Theoretic Approach",
+      "stage": "C_title",
+      "score": 0.8557
+    },
+    {
+      "signal_id": "arxiv-2603.05278v1",
+      "signal_title": "A framework for assessing the capabilities of code generation of constraint domain-specific languages with large language models",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.05258v1",
+      "signal_title": "Constraint Learning for Non-confluent Proof Search",
+      "matched_signal_id": "arxiv-2602.15704v1",
+      "matched_title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "stage": "C_title",
+      "score": 0.8
+    },
+    {
+      "signal_id": "arxiv-2603.05131v1",
+      "signal_title": "The Complexity of the Constructive Master Modality",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8089
+    },
+    {
+      "signal_id": "arxiv-2603.05068v1",
+      "signal_title": "Cyber Threat Intelligence for Artificial Intelligence Systems",
+      "matched_signal_id": "arxiv-20260224-033",
+      "matched_title": "Modularity is the Bedrock of Natural and Artificial Intelligence",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.05043v1",
+      "signal_title": "Why Do You Contribute to Stack Overflow? Understanding Cross-Cultural Motivations and Usage Patterns before the Age of LLMs",
+      "matched_signal_id": "wf2-20260210-006",
+      "matched_title": "Why LoRA Resists Label Noise: A Theoretical Framework for Noise-Robust Parameter-Efficient Fine-Tuning",
+      "stage": "C_title",
+      "score": 0.8189
+    },
+    {
+      "signal_id": "arxiv-2603.04985v1",
+      "signal_title": "Auto-Generating Personas from User Reviews in VR App Stores",
+      "matched_signal_id": "wf2-2603.03669v1",
+      "matched_title": "Automated Analysis of Ripple-Scale Gravity Wave Structures in the Mesosphere Using Convolutional Neural Networks",
+      "stage": "C_title",
+      "score": 0.8073
+    },
+    {
+      "signal_id": "arxiv-2603.04902v1",
+      "signal_title": "AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows",
+      "matched_signal_id": "wf2-20260210-015",
+      "matched_title": "Agentic AI Security Framework: Behavioral Integrity Beyond Input-Output Safety",
+      "stage": "C_title",
+      "score": 0.814
+    },
+    {
+      "signal_id": "arxiv-2603.04729v1",
+      "signal_title": "Behaviour Driven Development Scenario Generation with Large Language Models",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.04696v1",
+      "signal_title": "When Denoising Becomes Unsigning: Theoretical and Empirical Analysis of Watermark Fragility Under Diffusion-Based Image Editing",
+      "matched_signal_id": "arxiv-2602-23197v1",
+      "matched_title": "Fine-Tuning Without Forgetting In-Context Learning: A Theoretical Analysis",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04484v1",
+      "signal_title": "CLARC: C/C++ Benchmark for Robust Code Search",
+      "matched_signal_id": "arxiv-20260224-016",
+      "matched_title": "R2Energy: A Large-Scale Benchmark for Robust Renewable Energy Forecasting under Diverse and Extreme Conditions",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04199v1",
+      "signal_title": "Bayesian Adversarial Privacy",
+      "matched_signal_id": "wf2-2603.04997v1",
+      "matched_title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+      "stage": "C_title",
+      "score": 0.8111
+    },
+    {
+      "signal_id": "arxiv-2603.05402v1",
+      "signal_title": "Generalized matching decoders for 2D topological translationally-invariant codes",
+      "matched_signal_id": "arxiv-20260224-023",
+      "matched_title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+      "stage": "C_title",
+      "score": 0.8172
+    },
+    {
+      "signal_id": "arxiv-2603.05140v1",
+      "signal_title": "Recurrent Graph Neural Networks and Arithmetic Circuits",
+      "matched_signal_id": "arxiv-2602.15740v1",
+      "matched_title": "MRC-GAT: A Meta-Relational Copula-Based Graph Attention Network for Interpretable Multimodal Alzheimer's Disease Diagnosis",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04812v1",
+      "signal_title": "Quadratic polarity and polar Fenchel-Young divergences from the canonical Legendre polarity",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "C_title",
+      "score": 0.8009
+    },
+    {
+      "signal_id": "arxiv-2603.04758v1",
+      "signal_title": "Quantum Algorithms for Network Signal Coordination",
+      "matched_signal_id": "wf2-2603.05145v1",
+      "matched_title": "Quantum advantages for syndrome-aware noisy logical observable estimation",
+      "stage": "C_title",
+      "score": 0.8572
+    },
+    {
+      "signal_id": "arxiv-2603.04255v1",
+      "signal_title": "Learning Read-Once Determinants and the Principal Minor Assignment Problem",
+      "matched_signal_id": "wf2-20260219-004",
+      "matched_title": "Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation",
+      "stage": "C_title",
+      "score": 0.8241
+    },
+    {
+      "signal_id": "arxiv-2603.03488v1",
+      "signal_title": "Planar Graph Orientation Frameworks, Applied to KPlumber and Polyomino Tiling",
+      "matched_signal_id": "arxiv-20260226-029",
+      "matched_title": "Plant disease spread via high-resolution human mobility networks",
+      "stage": "C_title",
+      "score": 0.824
+    },
+    {
+      "signal_id": "arxiv-2603.02827v1",
+      "signal_title": "Grounded String Representations of Series-Parallel Graphs without Transitive Edges",
+      "matched_signal_id": "wf2-20260210-003",
+      "matched_title": "Grounding Generative Planners in Verifiable Logic: A Hybrid Architecture for Trustworthy Embodied AI",
+      "stage": "C_title",
+      "score": 0.8335
+    },
+    {
+      "signal_id": "arxiv-2603.02689v1",
+      "signal_title": "Deterministic Edge Coloring with few Colors in CONGEST",
+      "matched_signal_id": "wf2-2603.04905v1",
+      "matched_title": "Deterministic Preprocessing and Interpretable Fuzzy Banding for Cost-per-Student Reporting from Extracted Records",
+      "stage": "C_title",
+      "score": 0.8037
+    },
+    {
+      "signal_id": "arxiv-2603.05231v1",
+      "signal_title": "Boosting ASR Robustness via Test-Time Reinforcement Learning with Audio-Text Semantic Rewards",
+      "matched_signal_id": "arxiv-2602-23363v1",
+      "matched_title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05220v1",
+      "signal_title": "Adaptive Sampling for Storage of Progressive Images on DNA",
+      "matched_signal_id": "wf2-20260219-014",
+      "matched_title": "Adaptive Semi-Supervised Training of P300 ERP-BCI Speller System with Minimum Calibration Data",
+      "stage": "C_title",
+      "score": 0.8068
+    },
+    {
+      "signal_id": "arxiv-2603.05079v1",
+      "signal_title": "Beyond Positional Encoding: A 5D Spatio-Directional Hash Encoding",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8346
+    },
+    {
+      "signal_id": "arxiv-2603.05060v1",
+      "signal_title": "Asymptotic Behavior of Multi--Task Learning: Implicit Regularization and Double Descent Effects",
+      "matched_signal_id": "wf2-2603.05119v1",
+      "matched_title": "Asymptotic Separability of Diffusion and Jump Components in High-Frequency CIR and CKLS Models",
+      "stage": "C_title",
+      "score": 0.8268
+    },
+    {
+      "signal_id": "arxiv-2603.05021v1",
+      "signal_title": "Formal Entropy-Regularized Control of Stochastic Systems",
+      "matched_signal_id": "wf2-2603.03685v1",
+      "matched_title": "Frequency Security-Aware Production Scheduling of Utility-Scale Off-Grid Renewable P2H Systems Coordinating Heterogeneous Electrolyzers",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04943v1",
+      "signal_title": "Training Dynamics-Aware Multi-Factor Curriculum Learning for Target Speaker Extraction",
+      "matched_signal_id": "wf2-2603.05153v1",
+      "matched_title": "Training and Innovation in Italian Manufacturing Firms",
+      "stage": "C_title",
+      "score": 0.8174
+    },
+    {
+      "signal_id": "arxiv-2603.04865v1",
+      "signal_title": "The First Environmental Sound Deepfake Detection Challenge: Benchmarking Robustness, Evaluation, and Insights",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8411
+    },
+    {
+      "signal_id": "arxiv-2603.04862v1",
+      "signal_title": "Focus Then Listen: Exploring Plug-and-Play Audio Enhancer for Noise-Robust Large Audio Language Models",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.04836v1",
+      "signal_title": "Beyond Text: Aligning Vision and Language for Multimodal E-Commerce Retrieval",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8248
+    },
+    {
+      "signal_id": "arxiv-2603.04816v1",
+      "signal_title": "Scaling Laws for Reranking in Information Retrieval",
+      "matched_signal_id": "arxiv-2602.15781v1",
+      "matched_title": "Neural Scaling Laws for Boosted Jet Tagging",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04799v1",
+      "signal_title": "Beyond Linear LLM Invocation: An Efficient and Effective Semantic Filter Paradigm",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8108
+    },
+    {
+      "signal_id": "arxiv-2603.05337v1",
+      "signal_title": "The effect of a toroidal opinion space on opinion bi-polarisation",
+      "matched_signal_id": "arxiv-20260224-024",
+      "matched_title": "The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning",
+      "stage": "C_title",
+      "score": 0.8156
+    },
+    {
+      "signal_id": "arxiv-2603.05227v1",
+      "signal_title": "The role of spatial scales in assessing urban mobility models",
+      "matched_signal_id": "arxiv-20260226-008",
+      "matched_title": "The economic alignment problem of artificial intelligence",
+      "stage": "C_title",
+      "score": 0.8123
+    },
+    {
+      "signal_id": "arxiv-2603.05000v1",
+      "signal_title": "Competitive Multi-Operator Reinforcement Learning for Joint Pricing and Fleet Rebalancing in AMoD Systems",
+      "matched_signal_id": "arxiv-2602-23363v1",
+      "matched_title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04982v1",
+      "signal_title": "Training for Technology: Adoption and Productive Use of Generative AI in Legal Analysis",
+      "matched_signal_id": "wf2-2603.05153v1",
+      "matched_title": "Training and Innovation in Italian Manufacturing Firms",
+      "stage": "C_title",
+      "score": 0.8247
+    },
+    {
+      "signal_id": "arxiv-2603.04833v1",
+      "signal_title": "SCoUT: Scalable Communication via Utility-Guided Temporal Grouping in Multi-Agent Reinforcement Learning",
+      "matched_signal_id": "arxiv-2602-23363v1",
+      "matched_title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04820v1",
+      "signal_title": "Autoscoring Anticlimax: A Meta-analytic Understanding of AI's Short-answer Shortcomings and Wording Weaknesses",
+      "matched_signal_id": "wf2-2603.03669v1",
+      "matched_title": "Automated Analysis of Ripple-Scale Gravity Wave Structures in the Mesosphere Using Convolutional Neural Networks",
+      "stage": "C_title",
+      "score": 0.8296
+    },
+    {
+      "signal_id": "arxiv-2603.04766v1",
+      "signal_title": "Evaluating and Correcting Human Annotation Bias in Dynamic Micro-Expression Recognition",
+      "matched_signal_id": "arxiv-20260224-018",
+      "matched_title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
+      "stage": "C_title",
+      "score": 0.8428
+    },
+    {
+      "signal_id": "arxiv-2603.04701v1",
+      "signal_title": "Analysis of Terms of Service on Social Media Platforms: Consent Challenges and Assessment Metrics",
+      "matched_signal_id": "arxiv-20260226-009",
+      "matched_title": "Governance of Intimacy: Policy Analysis of Romantic AI Platforms",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04613v1",
+      "signal_title": "Beyond Anthropomorphism: a Spectrum of Interface Metaphors for LLMs",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8129
+    },
+    {
+      "signal_id": "arxiv-2603.04552v1",
+      "signal_title": "Beyond the Interface: Redefining UX for Society-in-the-Loop AI Systems",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8176
+    },
+    {
+      "signal_id": "arxiv-2603.04549v1",
+      "signal_title": "Adaptive Memory Admission Control for LLM Agents",
+      "matched_signal_id": "wf2-20260219-014",
+      "matched_title": "Adaptive Semi-Supervised Training of P300 ERP-BCI Speller System with Minimum Calibration Data",
+      "stage": "C_title",
+      "score": 0.8032
+    },
+    {
+      "signal_id": "arxiv-2603.04537v1",
+      "signal_title": "How Professional Visual Artists are Negotiating Generative AI in the Workplace",
+      "matched_signal_id": "arxiv-20260224-028",
+      "matched_title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "stage": "C_title",
+      "score": 0.8441
+    },
+    {
+      "signal_id": "arxiv-2603.05460v1",
+      "signal_title": "The Inverse Micromechanics Problem given Dielectric Constants for Isotropic Composites with Spherical Inclusions",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8294
+    },
+    {
+      "signal_id": "arxiv-2603.05435v1",
+      "signal_title": "Homological methods in rigidity theory using graphs of groups",
+      "matched_signal_id": "arxiv-20260226-004",
+      "matched_title": "Discovering new photovoltaics using optimal transport theory",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05419v1",
+      "signal_title": "Structured distance to singularity as a nonlinear system of equations",
+      "matched_signal_id": "arxiv-2602-23261v1",
+      "matched_title": "Strengthening security and noise resistance in one-way quantum key distribution",
+      "stage": "C_title",
+      "score": 0.8123
+    },
+    {
+      "signal_id": "arxiv-2603.05388v1",
+      "signal_title": "Controlled fields, rough stochastic calculus, and Itô-Wentzell-Alekseev-Gröbner identities",
+      "matched_signal_id": "arxiv-2602.15704v1",
+      "matched_title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "stage": "C_title",
+      "score": 0.8251
+    },
+    {
+      "signal_id": "arxiv-2603.05376v1",
+      "signal_title": "Integral Formulation and the Brézis-Ekeland-Nayroles-Type Principle for Prox-Regular Sweeping Processes",
+      "matched_signal_id": "arxiv-2602-23287v1",
+      "matched_title": "Interface-Aware Trajectory Reconstruction for Robot Learning from Limited Demonstrations",
+      "stage": "C_title",
+      "score": 0.8079
+    },
+    {
+      "signal_id": "arxiv-2603.05335v1",
+      "signal_title": "Bayes with No Shame: Admissibility Geometries of Predictive Inference",
+      "matched_signal_id": "wf2-2603.04997v1",
+      "matched_title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+      "stage": "C_title",
+      "score": 0.8168
+    },
+    {
+      "signal_id": "arxiv-2603.05332v1",
+      "signal_title": "The Extra Vanishing Structure and Nonlinear Stability of Multi-Dimensional Rarefaction Waves: The Geometric Weighted Energy Estimates",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8377
+    },
+    {
+      "signal_id": "arxiv-2603.05239v1",
+      "signal_title": "Computing Scaled Relative Graphs of Discrete-time LTI Systems from Data",
+      "matched_signal_id": "arxiv-20260226-001",
+      "matched_title": "Computing with many encoded logical qubits beyond break-even",
+      "stage": "C_title",
+      "score": 0.8167
+    },
+    {
+      "signal_id": "arxiv-2603.05089v1",
+      "signal_title": "Quantitative Error Estimates for Learning Macroscopic Mobilities from Microscopic Fluctuations",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "C_title",
+      "score": 0.8218
+    },
+    {
+      "signal_id": "arxiv-2603.05206v1",
+      "signal_title": "Extending quasiconvex functions from uniformly convex sets",
+      "matched_signal_id": "arxiv-20260224-015",
+      "matched_title": "Extension of the Fusion Power Plant Costing Standard",
+      "stage": "C_title",
+      "score": 0.8093
+    },
+    {
+      "signal_id": "arxiv-2603.05166v1",
+      "signal_title": "Complete Nevanlinna-Pick property of $\\mathbb K$-Invariant Reproducing Kernels",
+      "matched_signal_id": "arxiv-20260226-001",
+      "matched_title": "Computing with many encoded logical qubits beyond break-even",
+      "stage": "C_title",
+      "score": 0.8145
+    },
+    {
+      "signal_id": "arxiv-2603.04983v1",
+      "signal_title": "Lagrangian structures on the derived moduli of constructible sheaves",
+      "matched_signal_id": "wf2-2603.05102v1",
+      "matched_title": "Lagrangian dispersion in experimental stratified turbulence",
+      "stage": "C_title",
+      "score": 0.8566
+    },
+    {
+      "signal_id": "arxiv-2603.05080v1",
+      "signal_title": "Quantifying Salt Precipitation During CO2 Injection: How Flow Rate, Temperature, and Phase State Control Near-Wellbore Crystallization",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "C_title",
+      "score": 0.8175
+    },
+    {
+      "signal_id": "arxiv-2603.04232v1",
+      "signal_title": "A Multi-Fidelity Parametric Framework for Reduced-Order Modeling using Optimal Transport-based Interpolation: Applications to Diffused-Interface Two-Phase Flows",
+      "matched_signal_id": "arxiv-2602-23323v1",
+      "matched_title": "Modeling Large-Scale Adversarial Swarm Engagements using Optimal Control",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.03489v1",
+      "signal_title": "Shock propagation through a local constriction",
+      "matched_signal_id": "wf2-2603.05367v1",
+      "matched_title": "Shock Propagation and Macroeconomic Fluctuations",
+      "stage": "C_title",
+      "score": 0.8859
+    },
+    {
+      "signal_id": "arxiv-2603.03458v1",
+      "signal_title": "The Rise and Fall of ENSO in a Warming World: Insights from a Lag-Linear Model",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8254
+    },
+    {
+      "signal_id": "arxiv-2603.05393v1",
+      "signal_title": "Extending spin-lattice relaxation theory to three-phonon processes",
+      "matched_signal_id": "wf2-2603.05277v1",
+      "matched_title": "Extensions to the Wealth Tax Neutrality Framework",
+      "stage": "C_title",
+      "score": 0.8209
+    },
+    {
+      "signal_id": "arxiv-2603.05216v1",
+      "signal_title": "Self-organization of cavity solitons in Brillouin-Kerr ring resonators",
+      "matched_signal_id": "arxiv-20260226-003",
+      "matched_title": "Self-stabilized high-dimensional QKD on metropolitan free-space link",
+      "stage": "C_title",
+      "score": 0.8099
+    },
+    {
+      "signal_id": "arxiv-2603.05150v1",
+      "signal_title": "Equivalent Circuit Modeling of Mutually Resistively Coupled Microwave Cavities with Enhanced Phase Sensitivity Using Thin Metallic Foils",
+      "matched_signal_id": "wf2-20260210-011",
+      "matched_title": "Equivalence of Privacy and Stability with Generalization Guarantees in Quantum Learning",
+      "stage": "C_title",
+      "score": 0.8045
+    },
+    {
+      "signal_id": "arxiv-2603.05148v1",
+      "signal_title": "Integrated Microcomb-Driven Vortex Electromagnetic Waves for Broadband Forward-looking Sensing",
+      "matched_signal_id": "arxiv-2602-23287v1",
+      "matched_title": "Interface-Aware Trajectory Reconstruction for Robot Learning from Limited Demonstrations",
+      "stage": "C_title",
+      "score": 0.8505
+    },
+    {
+      "signal_id": "arxiv-2603.04934v1",
+      "signal_title": "Modular memristor model with synaptic-like plasticity and volatile memory",
+      "matched_signal_id": "arxiv-20260224-033",
+      "matched_title": "Modularity is the Bedrock of Natural and Artificial Intelligence",
+      "stage": "C_title",
+      "score": 0.8426
+    },
+    {
+      "signal_id": "arxiv-2603.04901v1",
+      "signal_title": "Spectral dynamics reservoir computing for high-speed hardware-efficient neuromorphic processing",
+      "matched_signal_id": "wf2-2603.04717v1",
+      "matched_title": "Spectroscopic evidence of disorder-induced quantum phase transitions in monolayer Fe(Te,Se) superconductor",
+      "stage": "C_title",
+      "score": 0.8229
+    },
+    {
+      "signal_id": "arxiv-2603.04600v1",
+      "signal_title": "Thermodynamics of the ultrafast phase transition of vanadium dioxide",
+      "matched_signal_id": "arxiv-20260224-006",
+      "matched_title": "Self-Correction Phase Transition in the Dissipative Toric Code",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04558v1",
+      "signal_title": "A Comparative Study of the Streaming Instability: Unstratified Models with Marginally Coupled Grains",
+      "matched_signal_id": "wf2-20260219-016",
+      "matched_title": "A Theoretical Approach to Stablecoin Design via Price Windows: Stability Without Collateral",
+      "stage": "C_title",
+      "score": 0.8042
+    },
+    {
+      "signal_id": "arxiv-2603.04262v1",
+      "signal_title": "The self-generation of core fields and electron scattering in flux ropes during magnetic reconnection",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8522
+    },
+    {
+      "signal_id": "arxiv-2603.04250v1",
+      "signal_title": "Long-lived metastable states in the 4f$^{13}$5d6s configuration of Yb$^+$",
+      "matched_signal_id": "wf2-2603.04708v1",
+      "matched_title": "Long-Lived Mechanically-Detected Molecular Spins for Quantum Sensing",
+      "stage": "C_title",
+      "score": 0.8123
+    },
+    {
+      "signal_id": "arxiv-2603.05426v1",
+      "signal_title": "Quantum Dynamical and isotopic effects for Hydrogen isotopes scattering at W(110) surface",
+      "matched_signal_id": "arxiv-2602-23254v1",
+      "matched_title": "Quantum Confocal Microscopy in Fock Space with a 19 dB Metrological Gain",
+      "stage": "C_title",
+      "score": 0.842
+    },
+    {
+      "signal_id": "arxiv-2603.05420v1",
+      "signal_title": "Equilibrium Thermochemistry and Crystallographic Morphology of Manganese Sulfide Nanocrystals",
+      "matched_signal_id": "wf2-2603.05461v1",
+      "matched_title": "Equilibrium for max-plus payoff",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05368v1",
+      "signal_title": "Benchmarking mixed quantum-classical dynamics for collective electronic strong coupling",
+      "matched_signal_id": "arxiv-2602.15339v1",
+      "matched_title": "Benchmarking Self-Supervised Models for Cardiac Ultrasound View Classification",
+      "stage": "C_title",
+      "score": 0.8467
+    },
+    {
+      "signal_id": "arxiv-2603.05319v1",
+      "signal_title": "The Angular Localization Function (ALF): a practical tool to measure solvent angular order with Molecular Density Functional Theory",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8301
+    },
+    {
+      "signal_id": "arxiv-2603.05303v1",
+      "signal_title": "Why Projection-Based DMRG-in-DFT Cannot Be Exact, Even with the Exact Exchange-Correlation Functional",
+      "matched_signal_id": "wf2-20260210-006",
+      "matched_title": "Why LoRA Resists Label Noise: A Theoretical Framework for Noise-Robust Parameter-Efficient Fine-Tuning",
+      "stage": "C_title",
+      "score": 0.8116
+    },
+    {
+      "signal_id": "arxiv-2603.05247v1",
+      "signal_title": "ICHOR: A Robust Representation Learning Approach for ASL CBF Maps with Self-Supervised Masked Autoencoders",
+      "matched_signal_id": "wf2-2603.04239v1",
+      "matched_title": "DiverseDiT: Towards Diverse Representation Learning in Diffusion Transformers",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.04616v1",
+      "signal_title": "Chatbot Conversations in Physics Education: Using Artificial Intelligence to Analyze Student Reasoning through Computational Grounded Theory",
+      "matched_signal_id": "arxiv-20260224-033",
+      "matched_title": "Modularity is the Bedrock of Natural and Artificial Intelligence",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.04563v1",
+      "signal_title": "How to improve the accuracy of semiclassical and quasiclassical dynamics with and without generalized quantum master equations",
+      "matched_signal_id": "arxiv-20260224-028",
+      "matched_title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "stage": "C_title",
+      "score": 0.8261
+    },
+    {
+      "signal_id": "arxiv-2603.04523v1",
+      "signal_title": "Projected Hessian Learning: Fast Curvature Supervision for Accurate Machine-Learning Interatomic Potentials",
+      "matched_signal_id": "wf2-20260219-019",
+      "matched_title": "Properties of Biodiversity Indices That Model Future Extinction Risk Under Climate Scenarios",
+      "stage": "C_title",
+      "score": 0.8074
+    },
+    {
+      "signal_id": "arxiv-2603.05472v1",
+      "signal_title": "The Bayesian view of DESI DR2: Evidence and tension in a combined analysis with CMB and supernovae across cosmological models",
+      "matched_signal_id": "arxiv-20260224-020",
+      "matched_title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "stage": "C_title",
+      "score": 0.8137
+    },
+    {
+      "signal_id": "arxiv-2603.05287v1",
+      "signal_title": "The Local Tremaine-Weinberg Method for Galactic Pattern Speed: Theory and its Application to IllustrisTNG",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8476
+    },
+    {
+      "signal_id": "arxiv-2603.05215v1",
+      "signal_title": "Probing the properties of active regions in the solar interface region using full-disk spectroheliograms",
+      "matched_signal_id": "wf2-20260219-019",
+      "matched_title": "Properties of Biodiversity Indices That Model Future Extinction Risk Under Climate Scenarios",
+      "stage": "C_title",
+      "score": 0.8139
+    },
+    {
+      "signal_id": "arxiv-2603.04872v1",
+      "signal_title": "The Age of the Universe with Globular Clusters IV: Multiple Stellar Populations",
+      "matched_signal_id": "wf2-2603.03641v1",
+      "matched_title": "The Evolution of Eco-routing under Population Growth: Evidence from Six U.S. Cities",
+      "stage": "C_title",
+      "score": 0.8287
+    },
+    {
+      "signal_id": "arxiv-2603.04577v1",
+      "signal_title": "The First Detection of Forbidden Emission Lines at the Outskirts of the AGN Broad Line Region?",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8363
+    },
+    {
+      "signal_id": "arxiv-2603.05502v1",
+      "signal_title": "Universal quantum computation with group surface codes",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.05436v1",
+      "signal_title": "Measurement Induced Asymmetric Entanglement in Deconfined Quantum Critical Ground State",
+      "matched_signal_id": "wf2-20260219-017",
+      "matched_title": "Measuring Mid-2025 LLM-Assistance on Novice Performance in Biology: Democratization or Deception?",
+      "stage": "C_title",
+      "score": 0.8139
+    },
+    {
+      "signal_id": "arxiv-2603.05430v1",
+      "signal_title": "Extreme Quantum Cognition Machines for Deliberative Decision Making",
+      "matched_signal_id": "wf2-2603.05260v1",
+      "matched_title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
+      "stage": "C_title",
+      "score": 0.8203
+    },
+    {
+      "signal_id": "arxiv-2603.05428v1",
+      "signal_title": "Optimal Decoding with the Worm",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05390v1",
+      "signal_title": "Extreme Values of Infinite-Measure Processes",
+      "matched_signal_id": "wf2-2603.05260v1",
+      "matched_title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
+      "stage": "C_title",
+      "score": 0.8251
+    },
+    {
+      "signal_id": "arxiv-2603.05383v1",
+      "signal_title": "Temperature-Dependent Dielectric Function of Tantalum Nitride Formed by Atomic Layer Deposition for Tunnel Barriers in Josephson Junctions",
+      "matched_signal_id": "arxiv-20260224-034",
+      "matched_title": "Electrical Post-Fabrication Tuning of Aluminum Josephson Junctions",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05362v1",
+      "signal_title": "Automated High-Throughput Screening of Polymers Using a Computational Workflow",
+      "matched_signal_id": "wf2-2603.03669v1",
+      "matched_title": "Automated Analysis of Ripple-Scale Gravity Wave Structures in the Mesosphere Using Convolutional Neural Networks",
+      "stage": "C_title",
+      "score": 0.8286
+    },
+    {
+      "signal_id": "arxiv-2603.05350v1",
+      "signal_title": "A Shift-Invariant Deep Learning Framework for Automated Analysis of XPS Spectra",
+      "matched_signal_id": "arxiv-2602-23197v1",
+      "matched_title": "Fine-Tuning Without Forgetting In-Context Learning: A Theoretical Analysis",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05341v1",
+      "signal_title": "Observation of Superfluidity and Meissner Effect of Composite Bosons in GaAs Quantum Hall System",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "C_title",
+      "score": 0.8243
+    },
+    {
+      "signal_id": "arxiv-2603.05284v1",
+      "signal_title": "Dynamical quantum phase transitions through the lens of mode dynamics",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "B_topic",
+      "score": 0.4545
+    },
+    {
+      "signal_id": "arxiv-2603.05238v1",
+      "signal_title": "Multi-fidelity Machine Learning Interatomic Potentials for Charged Point Defects",
+      "matched_signal_id": "wf2-20260210-001",
+      "matched_title": "Multi-Head Attention Is a Multi-Player Game",
+      "stage": "C_title",
+      "score": 0.8151
+    },
+    {
+      "signal_id": "arxiv-2603.05214v1",
+      "signal_title": "The bliss of dimensionality: how an unsupervised criterion identifies optimal low-resolution representations of high-dimensional datasets",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8249
+    },
+    {
+      "signal_id": "arxiv-2603.05209v1",
+      "signal_title": "Theories of the Glass Transition Based on Local Excitations",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8118
+    },
+    {
+      "signal_id": "arxiv-2603.05164v1",
+      "signal_title": "Machine Learning the Strong Disorder Renormalization Group Method for Disordered Quantum Spin Chains",
+      "matched_signal_id": "wf2-20260210-008",
+      "matched_title": "Quantum Circuit-Based Learning Models: Bridging Quantum Computing and Machine Learning",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "arxiv-2603.05096v1",
+      "signal_title": "The effect of fluorine or chlorine substitution on mesomorphic properties of ferroelectric nematic liquid crystals",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8236
+    },
+    {
+      "signal_id": "arxiv-2603.05083v1",
+      "signal_title": "Large-scale Integration of Experimental and Computational Data for 2D Materials",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "C_title",
+      "score": 0.8063
+    },
+    {
+      "signal_id": "arxiv-2603.05336v1",
+      "signal_title": "Evaluation of Feynman integrals via numerical integration of differential equations",
+      "matched_signal_id": "arxiv-20260224-018",
+      "matched_title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
+      "stage": "C_title",
+      "score": 0.8232
+    },
+    {
+      "signal_id": "arxiv-2603.05323v1",
+      "signal_title": "Intrinsic Width of the flux tube in 2+1 dimensional Yang-Mills theories",
+      "matched_signal_id": "wf2-20260219-012",
+      "matched_title": "Intra-Fairness Dynamics: Bias Spillover Effects in Targeted LLM Alignment",
+      "stage": "C_title",
+      "score": 0.8115
+    },
+    {
+      "signal_id": "arxiv-2603.05311v1",
+      "signal_title": "Exploring $T_{ΥΥ}$ tetraquark candidates in a coupled-channels formalism",
+      "matched_signal_id": "arxiv-2602.15652v1",
+      "matched_title": "The COHERENT Experiment: 2026 Update",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "arxiv-2603.05304v1",
+      "signal_title": "The eV-Scale Sterile Neutrino and Neutrinoless Double Beta Decay",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8303
+    },
+    {
+      "signal_id": "arxiv-2603.05281v1",
+      "signal_title": "Axial-vector neutral-current measurements in coherent elastic neutrino-nucleus scattering experiments",
+      "matched_signal_id": "arxiv-2602.15652v1",
+      "matched_title": "The COHERENT Experiment: 2026 Update",
+      "stage": "B_topic",
+      "score": 0.5714
+    },
+    {
+      "signal_id": "arxiv-2603.05186v1",
+      "signal_title": "Introduction to holography",
+      "matched_signal_id": "arxiv-2602.15551v1",
+      "matched_title": "Some phenomenological aspects of a quantum-corrected Reissner-Nordström black hole: quasi-periodic oscillations, scalar perturbations and thermal fluctuations",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05182v1",
+      "signal_title": "Accretion Disk Perturbations and Their Effects on Kerr Black Hole Superradiance and Gravitational Atom Evolution",
+      "matched_signal_id": "arxiv-2602.15551v1",
+      "matched_title": "Some phenomenological aspects of a quantum-corrected Reissner-Nordström black hole: quasi-periodic oscillations, scalar perturbations and thermal fluctuations",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05155v1",
+      "signal_title": "Discretisation effects of gradient flows in QCD-like theories on the lattice",
+      "matched_signal_id": "arxiv-20260226-004",
+      "matched_title": "Discovering new photovoltaics using optimal transport theory",
+      "stage": "C_title",
+      "score": 0.8113
+    },
+    {
+      "signal_id": "arxiv-2603.05130v1",
+      "signal_title": "New Improved Schwarzschild Black Hole and Its Thermodynamics and Topological Classification",
+      "matched_signal_id": "arxiv-2602.15551v1",
+      "matched_title": "Some phenomenological aspects of a quantum-corrected Reissner-Nordström black hole: quasi-periodic oscillations, scalar perturbations and thermal fluctuations",
+      "stage": "B_topic",
+      "score": 0.4444
+    },
+    {
+      "signal_id": "arxiv-2603.05084v1",
+      "signal_title": "External magnetic field influence on massive binary black hole inspiral gravitational waves and its similarity with environmental effects",
+      "matched_signal_id": "wf2-2603.05260v1",
+      "matched_title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
+      "stage": "C_title",
+      "score": 0.8165
+    },
+    {
+      "signal_id": "arxiv-2603.05061v1",
+      "signal_title": "Quantum field theory for classical fields",
+      "matched_signal_id": "wf2-2603.05145v1",
+      "matched_title": "Quantum advantages for syndrome-aware noisy logical observable estimation",
+      "stage": "C_title",
+      "score": 0.8048
+    },
+    {
+      "signal_id": "arxiv-2603.05009v1",
+      "signal_title": "Observational and Thermodynamic aspects of one-dimensional Dark Energy EoS parametrization models",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "C_title",
+      "score": 0.8302
+    },
+    {
+      "signal_id": "arxiv-2603.05496v1",
+      "signal_title": "Mirror codes: High-threshold quantum LDPC codes beyond the CSS regime",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.05492v1",
+      "signal_title": "Ansatz-Free Learning of Lindbladian Dynamics In Situ",
+      "matched_signal_id": "arxiv-2602.15524v1",
+      "matched_title": "Observing quantum many-body dynamics in emergent curved spacetime using programmable quantum processors",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05479v1",
+      "signal_title": "Quantum Simulation of Coupled Harmonic Oscillators: From Theory to Implementation",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "C_title",
+      "score": 0.8264
+    },
+    {
+      "signal_id": "arxiv-2603.05474v1",
+      "signal_title": "Spatiotemporal Pauli processes: Quantum combs for modelling correlated noise in quantum error correction",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.05464v1",
+      "signal_title": "Heuristics for Shuttling Sequence Optimization for a Linear Segmented Trapped-Ion Quantum Computer",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "arxiv-2603.05452v1",
+      "signal_title": "Local strategies are pretty good at computing Boolean properties of quantum sequences",
+      "matched_signal_id": "arxiv-20260224-004",
+      "matched_title": "Free Quantum Computing: Axiomatisation via Discrete Equations",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05391v1",
+      "signal_title": "SpiderCat: Optimal Fault-Tolerant Cat State Preparation",
+      "matched_signal_id": "wf2-20260219-005",
+      "matched_title": "Reinforcement Learning for Parameterized Quantum State Preparation: Comparative Study on NISQ Hardware",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05349v1",
+      "signal_title": "Computing Green's functions and improving ground state energy estimation on quantum computers with Liouvillian recursion",
+      "matched_signal_id": "arxiv-20260224-004",
+      "matched_title": "Free Quantum Computing: Axiomatisation via Discrete Equations",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05156v1",
+      "signal_title": "Constant-Depth Quantum Imaginary Time Evolution Using Dynamic Fan-out Circuits",
+      "matched_signal_id": "wf2-20260210-004",
+      "matched_title": "Sublinear Time Quantum Algorithm for Attention Approximation",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05137v1",
+      "signal_title": "Classical shadows for non-iid quantum sources",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05051v1",
+      "signal_title": "Interplay of internal and external coupling phases in cavity magnonics: from level repulsion to attraction",
+      "matched_signal_id": "arxiv-2602.15290v1",
+      "matched_title": "Intellicise Wireless Networks Meet Agentic AI: A Security and Privacy Perspective",
+      "stage": "C_title",
+      "score": 0.8206
+    },
+    {
+      "signal_id": "arxiv-2603.04883v1",
+      "signal_title": "Quantum Weight Reduction with Layer Codes",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "C_title",
+      "score": 0.8076
+    },
+    {
+      "signal_id": "arxiv-2603.05173v1",
+      "signal_title": "Quantum \"Twin Peaks\" or Path Integrals in the Future Light Cone",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "C_title",
+      "score": 0.8223
+    },
+    {
+      "signal_id": "arxiv-2603.04640v1",
+      "signal_title": "The coordinate change formula for the Liouville quantum gravity metric holds for all conformal maps simultaneously",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8248
+    },
+    {
+      "signal_id": "arxiv-2603.04619v1",
+      "signal_title": "The Chern-Simons Natural Boundary and Black Hole Entropy",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8008
+    },
+    {
+      "signal_id": "arxiv-2603.04504v1",
+      "signal_title": "Markovian quantum master equations are exponentially accurate in the weak coupling regime",
+      "matched_signal_id": "arxiv-20260224-004",
+      "matched_title": "Free Quantum Computing: Axiomatisation via Discrete Equations",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04386v1",
+      "signal_title": "The Gaussian Wave for Graphs of Finite Cone Type",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8015
+    },
+    {
+      "signal_id": "arxiv-2603.04202v1",
+      "signal_title": "The Maxwell-Higgs System with Scalar Potential on Subextremal Kerr Spacetimes: Nonlinear wave operators and asymptotic completeness",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.83
+    },
+    {
+      "signal_id": "arxiv-2603.04085v1",
+      "signal_title": "Electric current dynamics in the stellarator coil winding surface model",
+      "matched_signal_id": "arxiv-20260224-034",
+      "matched_title": "Electrical Post-Fabrication Tuning of Aluminum Josephson Junctions",
+      "stage": "C_title",
+      "score": 0.8237
+    },
+    {
+      "signal_id": "arxiv-2603.03910v1",
+      "signal_title": "From maximal entropy exclusion process to unitary Dyson Brownian motion and free unitary hydrodynamics",
+      "matched_signal_id": "arxiv-20260224-017",
+      "matched_title": "From Bias Mitigation to Bias Negotiation: Governing Identity and Sociocultural Reasoning in Generative AI",
+      "stage": "C_title",
+      "score": 0.8158
+    },
+    {
+      "signal_id": "arxiv-2603.03894v1",
+      "signal_title": "On cosmological polytopes, their canonical forms and their duals",
+      "matched_signal_id": "wf2-2603.03178v1",
+      "matched_title": "On the biogenic hydrodynamic transport of upward and downward cruising copepods",
+      "stage": "C_title",
+      "score": 0.8133
+    },
+    {
+      "signal_id": "arxiv-2603.05034v1",
+      "signal_title": "The \"Gold Rush\" in AI and Robotics Patenting Activity. Do innovation systems have a role?",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8279
+    },
+    {
+      "signal_id": "arxiv-2603.04345v1",
+      "signal_title": "On the fair abatement of riparian pollution",
+      "matched_signal_id": "wf2-2603.03178v1",
+      "matched_title": "On the biogenic hydrodynamic transport of upward and downward cruising copepods",
+      "stage": "C_title",
+      "score": 0.8019
+    },
+    {
+      "signal_id": "arxiv-2603.04276v1",
+      "signal_title": "Causality Elicitation from Large Language Models",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.03526v1",
+      "signal_title": "Multi-Agent Influence Diagrams to Hybrid Threat Modeling",
+      "matched_signal_id": "wf2-20260210-001",
+      "matched_title": "Multi-Head Attention Is a Multi-Player Game",
+      "stage": "C_title",
+      "score": 0.8412
+    },
+    {
+      "signal_id": "arxiv-2603.03152v1",
+      "signal_title": "Political Shocks and Price Discovery in Prediction Markets: Evidence from the 2024 U.S. Presidential Election",
+      "matched_signal_id": "wf2-20260219-001",
+      "matched_title": "Policy Compiler for Secure Agentic Systems: Formal Verification of Multi-Agent Permissions",
+      "stage": "C_title",
+      "score": 0.8228
+    },
+    {
+      "signal_id": "arxiv-2603.03144v1",
+      "signal_title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
+      "matched_signal_id": "wf2-2603.03641v1",
+      "matched_title": "The Evolution of Eco-routing under Population Growth: Evidence from Six U.S. Cities",
+      "stage": "C_title",
+      "score": 0.8366
+    },
+    {
+      "signal_id": "arxiv-2603.03136v1",
+      "signal_title": "The Anatomy of Polymarket: Evidence from the 2024 Presidential Election",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8304
+    },
+    {
+      "signal_id": "arxiv-2603.02620v1",
+      "signal_title": "Same Error, Different Function: The Optimizer as an Implicit Prior in Financial Time Series",
+      "matched_signal_id": "arxiv-20260224-011",
+      "matched_title": "Schrodinger Bridges with Jumps for Time Series Generation",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.05317v1",
+      "signal_title": "How important are the genes to explain the outcome - the asymmetric Shapley value as an honest importance metric for high-dimensional features",
+      "matched_signal_id": "arxiv-20260224-028",
+      "matched_title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "stage": "C_title",
+      "score": 0.8276
+    },
+    {
+      "signal_id": "arxiv-2603.05201v1",
+      "signal_title": "Towards a data-scale independent regulariser for robust sparse identification of non-linear dynamics",
+      "matched_signal_id": "arxiv-2602-23330v1",
+      "matched_title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Strategy Orchestration",
+      "stage": "C_title",
+      "score": 0.8299
+    },
+    {
+      "signal_id": "arxiv-2603.05149v1",
+      "signal_title": "Federated Causal Discovery Across Heterogeneous Datasets under Latent Confounding",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.05065v1",
+      "signal_title": "Modeling cyclostationarity in time series using ASCA",
+      "matched_signal_id": "wf2-20260219-010",
+      "matched_title": "Modeling Trust and Liquidity Under Payment System Stress: Multi-Agent Simulation of Stablecoin Depegs",
+      "stage": "C_title",
+      "score": 0.8088
+    },
+    {
+      "signal_id": "arxiv-2603.05002v1",
+      "signal_title": "Non-Euclidean Gradient Descent Operates at the Edge of Stability",
+      "matched_signal_id": "arxiv-20260224-003",
+      "matched_title": "Non-Interfering Weight Fields (NIWF): Zero Catastrophic Forgetting via Learned Weight Functions",
+      "stage": "C_title",
+      "score": 0.8104
+    },
+    {
+      "signal_id": "arxiv-2603.04895v1",
+      "signal_title": "How Does the ReLU Activation Affect the Implicit Bias of Gradient Descent on High-dimensional Neural Network Regression?",
+      "matched_signal_id": "arxiv-20260224-028",
+      "matched_title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "stage": "C_title",
+      "score": 0.8305
+    },
+    {
+      "signal_id": "arxiv-2603.04807v1",
+      "signal_title": "The Inductive Bias of Convolutional Neural Networks: Locality and Weight Sharing Reshape Implicit Regularization",
+      "matched_signal_id": "arxiv-2602-22750v1",
+      "matched_title": "The Inference Bottleneck: Antitrust and Neutrality Duties in the Age of Cognitive AI Infrastructure",
+      "stage": "C_title",
+      "score": 0.8424
+    },
+    {
+      "signal_id": "arxiv-2603.04780v1",
+      "signal_title": "Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning",
+      "matched_signal_id": "arxiv-20260224-026",
+      "matched_title": "Large Causal Models for Temporal Causal Discovery",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.04688v1",
+      "signal_title": "Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation",
+      "matched_signal_id": "wf2-20260210-006",
+      "matched_title": "Why LoRA Resists Label Noise: A Theoretical Framework for Noise-Robust Parameter-Efficient Fine-Tuning",
+      "stage": "C_title",
+      "score": 0.8285
+    },
+    {
+      "signal_id": "arxiv-2603.04479v1",
+      "signal_title": "Bayesian Modeling of Collatz Stopping Times: A Probabilistic Machine Learning Perspective",
+      "matched_signal_id": "wf2-2603.04997v1",
+      "matched_title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
+      "stage": "C_title",
+      "score": 0.8401
+    },
+    {
+      "signal_id": "arxiv-2603.04204v1",
+      "signal_title": "Beyond Mixtures and Products for Ensemble Aggregation: A Likelihood Perspective on Generalized Means",
+      "matched_signal_id": "wf2-2603.04959v1",
+      "matched_title": "Beyond Advocacy: A Design Space for Replication-Related Studies",
+      "stage": "C_title",
+      "score": 0.8191
+    },
+    {
+      "signal_id": "arxiv-2603.04198v1",
+      "signal_title": "Stable and Steerable Sparse Autoencoders with Weight Regularization",
+      "matched_signal_id": "arxiv-20260224-009",
+      "matched_title": "Stability Anchors and Risk Amplifiers: Tail Spillovers Across Stablecoin Designs",
+      "stage": "C_title",
+      "score": 0.8006
+    },
+    {
+      "signal_id": "arxiv-2603.04172v1",
+      "signal_title": "The Pivotal Information Criterion",
+      "matched_signal_id": "arxiv-20260226-008",
+      "matched_title": "The economic alignment problem of artificial intelligence",
+      "stage": "C_title",
+      "score": 0.8192
+    },
+    {
+      "signal_id": "arxiv-2603.04133v1",
+      "signal_title": "Exploiting Subgradient Sparsity in Max-Plus Neural Networks",
+      "matched_signal_id": "arxiv-2602.15704v1",
+      "matched_title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "arxiv-2603.04748v1",
+      "signal_title": "SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification",
+      "matched_signal_id": "arxiv-2602-23363v1",
+      "matched_title": "MediX-R1: Open Ended Medical Reinforcement Learning",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.04622v1",
+      "signal_title": "INTENSE: Detecting and disentangling neuronal selectivity in calcium imaging data",
+      "matched_signal_id": "arxiv-20260224-035",
+      "matched_title": "Integrating Predictive Models into Two-Sided Recommendations: A Matching-Theoretic Approach",
+      "stage": "C_title",
+      "score": 0.8174
+    },
+    {
+      "signal_id": "arxiv-2603.04081v1",
+      "signal_title": "Revisiting the Role of Foundation Models in Cell-Level Histopathological Image Analysis under Small-Patch Constraints -- Effects of Training Data Scale and Blur Perturbations on CNNs and Vision Transformers",
+      "matched_signal_id": "arxiv-20260226-017",
+      "matched_title": "Foundation Models for Full-Stack Transfer in Robotics",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.04074v1",
+      "signal_title": "Dose-Dependent Cardiac Complexity Changes in Children Following Prenatal Glucocorticoid Exposure: Complementary Evidence from Multiscale Entropy Analysis and ECG Foundation Models",
+      "matched_signal_id": "arxiv-20260226-017",
+      "matched_title": "Foundation Models for Full-Stack Transfer in Robotics",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.03603v1",
+      "signal_title": "Detection and Identification of Penguins Using Appearance and Motion Features",
+      "matched_signal_id": "wf2-2603.04905v1",
+      "matched_title": "Deterministic Preprocessing and Interpretable Fuzzy Banding for Cost-per-Student Reporting from Extracted Records",
+      "stage": "C_title",
+      "score": 0.8186
+    },
+    {
+      "signal_id": "arxiv-2603.03547v1",
+      "signal_title": "Learning functional groups in complex microbiomes",
+      "matched_signal_id": "wf2-2603.05226v1",
+      "matched_title": "Learning Optimal Individualized Decision Rules with Conditional Demographic Parity",
+      "stage": "C_title",
+      "score": 0.8142
+    },
+    {
+      "signal_id": "arxiv-2603.03507v1",
+      "signal_title": "Solving adversarial examples requires solving exponential misalignment",
+      "matched_signal_id": "arxiv-2602.15817v1",
+      "matched_title": "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning",
+      "stage": "C_title",
+      "score": 0.8298
+    },
+    {
+      "signal_id": "arxiv-2603.03493v1",
+      "signal_title": "Quantifying Ranking Instability Across Evaluation Protocol Axes in Gene Regulatory Network Benchmarking",
+      "matched_signal_id": "wf2-2603.05145v1",
+      "matched_title": "Quantum advantages for syndrome-aware noisy logical observable estimation",
+      "stage": "C_title",
+      "score": 0.8197
+    },
+    {
+      "signal_id": "arxiv-2603.03414v1",
+      "signal_title": "Cognitive Dark Matter: Measuring What AI Misses",
+      "matched_signal_id": "wf2-2603.05222v1",
+      "matched_title": "Cognitive Warfare: Definition, Framework, and Case Study",
+      "stage": "C_title",
+      "score": 0.8531
+    },
+    {
+      "signal_id": "arxiv-2603.02952v1",
+      "signal_title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+      "matched_signal_id": "arxiv-20260226-017",
+      "matched_title": "Foundation Models for Full-Stack Transfer in Robotics",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.02753v1",
+      "signal_title": "Deep learning-guided evolutionary optimization for protein design",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "arxiv-2603.02572v1",
+      "signal_title": "Molecular Dynamics Simulations Reveal PolyQ-Length-Dependent Conformational Changes in Huntingtin Exon-1: Implications for Environmental Co-Solvent Modulation of Aggregation-Prone States",
+      "matched_signal_id": "arxiv-2602.15451v1",
+      "matched_title": "Molecular Design beyond Training Data with Novel Extended Objective Functionals of Generative AI Models Driven by Quantum Annealing Computer",
+      "stage": "C_title",
+      "score": 0.8338
+    },
+    {
+      "signal_id": "arxiv-2603.05441v1",
+      "signal_title": "Near-Optimal Low-Complexity MIMO Detection via Structured Reduced-Search Enumeration",
+      "matched_signal_id": "wf2-2603.03483v1",
+      "matched_title": "Near-surface Extreme Wind Events and Their Responses to Climate Forcings in a Hierarchy of Global Climate Models",
+      "stage": "C_title",
+      "score": 0.8088
+    },
+    {
+      "signal_id": "arxiv-2603.05157v1",
+      "signal_title": "The Impact of Preprocessing Methods on Racial Encoding and Model Robustness in CXR Diagnosis",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8354
+    },
+    {
+      "signal_id": "arxiv-2603.05058v1",
+      "signal_title": "A 360-degree Multi-camera System for Blue Emergency Light Detection Using Color Attention RT-DETR and the ABLDataset",
+      "matched_signal_id": "arxiv-2602.15339v1",
+      "matched_title": "Benchmarking Self-Supervised Models for Cardiac Ultrasound View Classification",
+      "stage": "B_topic",
+      "score": 0.3
+    },
+    {
+      "signal_id": "arxiv-2603.04866v1",
+      "signal_title": "The Vertical Challenge of Low-Altitude Economy: Why We Need a Unified Height System?",
+      "matched_signal_id": "arxiv-20260224-020",
+      "matched_title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "stage": "C_title",
+      "score": 0.8339
+    },
+    {
+      "signal_id": "arxiv-2603.04843v1",
+      "signal_title": "Policy Optimization of Mixed H2/H-infinity Control: Benign Nonconvexity and Global Optimality",
+      "matched_signal_id": "wf2-20260219-001",
+      "matched_title": "Policy Compiler for Secure Agentic Systems: Formal Verification of Multi-Agent Permissions",
+      "stage": "C_title",
+      "score": 0.8027
+    },
+    {
+      "signal_id": "arxiv-2603.04813v1",
+      "signal_title": "Detection of GNSS Interference Using Reflected Signal Ob-servations from the LEO Satellite Constellation",
+      "matched_signal_id": "wf2-2603.04905v1",
+      "matched_title": "Deterministic Preprocessing and Interpretable Fuzzy Banding for Cost-per-Student Reporting from Extracted Records",
+      "stage": "C_title",
+      "score": 0.8351
+    },
+    {
+      "signal_id": "arxiv-2603.04761v1",
+      "signal_title": "Adaptive Policy Switching of Two-Wheeled Differential Robots for Traversing over Diverse Terrains",
+      "matched_signal_id": "wf2-20260219-014",
+      "matched_title": "Adaptive Semi-Supervised Training of P300 ERP-BCI Speller System with Minimum Calibration Data",
+      "stage": "C_title",
+      "score": 0.8225
+    },
+    {
+      "signal_id": "arxiv-2603.04734v1",
+      "signal_title": "Multistage Stochastic Programming for Rare Event Risk Mitigation in Power Systems Management",
+      "matched_signal_id": "arxiv-20260224-027",
+      "matched_title": "Quantifying Automation Risk in High-Automation AI Systems",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "arxiv-2603.04699v1",
+      "signal_title": "Intensity Fluctuation Spectra as a Design Guide for Nonlinear-Tolerant Constellation Shaping",
+      "matched_signal_id": "arxiv-20260224-035",
+      "matched_title": "Integrating Predictive Models into Two-Sided Recommendations: A Matching-Theoretic Approach",
+      "stage": "C_title",
+      "score": 0.8174
+    },
+    {
+      "signal_id": "arxiv-2603.04603v1",
+      "signal_title": "Risk-Aware Rulebooks for Multi-Objective Trajectory Evaluation under Uncertainty",
+      "matched_signal_id": "arxiv-2602-23259v1",
+      "matched_title": "Risk-Aware World Model Predictive Control for End-to-End Autonomous Driving",
+      "stage": "C_title",
+      "score": 0.8252
+    },
+    {
+      "signal_id": "arxiv-2603.05211v1",
+      "signal_title": "Lagrangian formulation of the Darboux system",
+      "matched_signal_id": "wf2-2603.05102v1",
+      "matched_title": "Lagrangian dispersion in experimental stratified turbulence",
+      "stage": "C_title",
+      "score": 0.8246
+    },
+    {
+      "signal_id": "arxiv-2603.04495v1",
+      "signal_title": "From BPS geodesics to mode-driven dynamics in the scattering of multiple BPS vortices",
+      "matched_signal_id": "arxiv-20260224-017",
+      "matched_title": "From Bias Mitigation to Bias Negotiation: Governing Identity and Sociocultural Reasoning in Generative AI",
+      "stage": "C_title",
+      "score": 0.8097
+    },
+    {
+      "signal_id": "arxiv-2603.02797v1",
+      "signal_title": "Contraction theory: Hausdorff--Riemann Measures as Set-Based Lyapunov Functions",
+      "matched_signal_id": "arxiv-2602.15704v1",
+      "matched_title": "Controlled oscillation modeling using port-Hamiltonian neural networks",
+      "stage": "C_title",
+      "score": 0.804
+    }
+  ]
+}

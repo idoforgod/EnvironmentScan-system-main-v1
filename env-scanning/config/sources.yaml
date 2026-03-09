@@ -664,6 +664,80 @@ sources:
     fetch_strategy: null
     consecutive_failures: 0
 
+  # ── Sources added 2026-03-07 (exploration-approved) ──
+
+  - name: "Yale Climate Connections"
+    tier: "expansion"
+    type: "science_journalism"
+    enabled: true
+    rss_feed: "https://yaleclimateconnections.org/feed/"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Yale's climate science journalism — actionable climate news, extreme weather, policy impacts"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Environmental"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "CEPR VoxEU"
+    tier: "expansion"
+    type: "academic"
+    enabled: true
+    rss_feed: "https://cepr.org/rss/vox-content"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Centre for Economic Policy Research — policy-relevant economics research and commentary"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Economic"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Genetic Literacy Project"
+    tier: "expansion"
+    type: "science_journalism"
+    enabled: true
+    rss_feed: "https://geneticliteracyproject.org/feed/"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Synthetic biology, gene editing, biotech ethics — science vs. ideology in emerging biology"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["T_Technological", "s_spiritual"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "Positive Psychology News"
+    tier: "expansion"
+    type: "blog"
+    enabled: true
+    rss_feed: "https://positivepsychologynews.com/feed/"
+    timeout: 15
+    critical: false
+    max_results: 10
+    description: "Well-being science, meaning, resilience, positive psychology research — fills s_spiritual and S_Social gap"
+    reliability: "medium"
+    cost: "free"
+    steeps_focus: ["s_spiritual", "S_Social"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
 # Retry Configuration
 retry_policy:
   max_attempts: 3

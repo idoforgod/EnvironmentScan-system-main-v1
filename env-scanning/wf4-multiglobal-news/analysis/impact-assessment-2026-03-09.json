@@ -1,0 +1,1107 @@
+{
+  "date": "2026-03-09",
+  "workflow": "wf4-multiglobal-news",
+  "total_assessed": 100,
+  "impacts": [
+    {
+      "signal_id": "news-20260309-chosun-001",
+      "title": "중동발 쇼크에… 주문 취소, 바이어 연락 두절",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-002",
+      "title": "박수영 “집안싸움 멈추고 李정권 폭거에 맞서야”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-003",
+      "title": "건설·제조업 위축에 신규 일자리 1년새 25만개 증발···60대 이상도 줄어",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-004",
+      "title": "\"류준열 가족법인, 강남빌딩 150억에 매각…수십억원 시세차익\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-005",
+      "title": "李 “檢개혁, 빈대 잡자고 초가삼간 태우지 않아야”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-006",
+      "title": "'나솔' 29기 영수, ♥옥순과 결별설 일축…\"알아가고 있는 단계\" ('벙벙튜브')[순간포착]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-007",
+      "title": "“코인 팔고 코스닥으로”...‘롤러코스터’ 장세에 국장으로 눈돌리는 코인러들",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-008",
+      "title": "박신혜, 완벽한 용두용미..최고 14.6%로 대장정의 막 ('미쓰홍')",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-009",
+      "title": "한국어·영어·일본어로 빼곡한 편지들… RM도 다녀간 ‘이중섭展’ 속 사연에 뭉클",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-010",
+      "title": "서울 주춤한데 동탄은 불장…'동탄구' 토허제 묶이나",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-011",
+      "title": "‘안전제일’ 버린 실버개미의 대반전… 70대 퇴직연금 수익률 58% 비결",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-012",
+      "title": "온유, 오늘(9일) 미니 5집 'TOUGH LOVE' 발매..데뷔 첫 작곡 참여",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-013",
+      "title": "이란 사태 장기화 우려… 삼성전자·SK하이닉스, 프리마켓서 급락",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-014",
+      "title": "100억대 부자들이 요즘 같은 때 꼭 지키는 투자 습관, 압도적 1위",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-015",
+      "title": "이란 보복 공격에 사망한 미군 7명으로 늘어",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-016",
+      "title": "“중동 혼란 틈탄 원금보장·고수익 투자 사기 우려”...금감원 소비자경보",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-017",
+      "title": "\"신의현의 평창 미라클 8년후→김윤지의 금빛 미소\"  대한민국은 동계패럴림픽 남녀 금메달리스트 보유국입니다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-018",
+      "title": "고의4구→투수 교체, 순서 바꿔 해라. ‘3타자 상대 규정’…김영규가 고의4구 했다면, 요시다 안타 맞기 전에 바꿀 수 있었다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-019",
+      "title": "‘9년의 침묵’을 깬 챔피언... 이미향, LPGA 3번째 우승",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-020",
+      "title": "휠체어컬링 혼성 4인조,중국과 혈투 끝 5-7패...'팀200'의 믹스더블, 에스토니아와의 최종전에 4강행 명운 달렸다[밀라노-코르티나 패럴림픽],",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-021",
+      "title": "신한證 “코오롱인더,영업익 96% 급증 전망…주가 재평가 지속”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-022",
+      "title": "이미향, 3143일 만에 LPGA 우승컵에 입 맞췄다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-023",
+      "title": "안세영 ‘무패 행진’ 끝났다... 전영오픈 결승서 中 왕즈이에 패배",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-024",
+      "title": "'6월 출산' 남보라, 숨길 수 없는 만삭 D라인…\"체중 관리 잘 하라고\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-025",
+      "title": "'창단 최다 관중+1위' 부천에 축구의 봄이 찾아왔다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-026",
+      "title": "아파트 대출 막히자 오피스텔로…1월 거래량 전년 대비 65% 급증",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-027",
+      "title": "김정은, 딸과 ‘국제 부녀절’ 공연 관람… “여성 책임·역할 중요”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-028",
+      "title": "‘진짜로 강등되나?’ 손흥민 떠난 토트넘 최악의 위기…투도르 임시감독까지 경질한다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-029",
+      "title": "'셀프 프로듀싱 밴드' 드래곤포니, 'RUN RUN RUN' 기대 포인트 3",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-030",
+      "title": "'14년차 부부' 이효리♥이상순, 스킨십도 솔직하게..'몽글' 청춘들 연애멘토 'Start'",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "s"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-031",
+      "title": "국제 유가 배럴당 100달러 돌파...공급 차질 영향",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-032",
+      "title": "다올證 “에코프로비엠, 유가 상승·유럽 정책에 반사 수혜… 목표가 상향”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-033",
+      "title": "‘부실 김밥·순대' 제주 탐라문화제·왕벚꽃축제 ‘옐로 카드’ 받았다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "s"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-034",
+      "title": "홍석천 입양딸, 결혼한다…생애 첫 상견례 포착 ('조선의 사랑꾼')",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-035",
+      "title": "아삭하고 달콤한 사과의 정석, ‘시나노 골드’ 3kg 12과 내외 2만4900원 단독 특가",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-036",
+      "title": "ITZY 유나, 'Ice Cream'으로 솔로 데뷔..트랙리스트 공개",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-037",
+      "title": "‘미쓰홍’ 하윤경 “박신혜 리더십·정의감·털털..홍금보와 성격 비슷해” [인터뷰②]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-038",
+      "title": "[단독] “한국은 생각보다 큰 나라… 동북아 문제만 걱정 말고 세계 리더 될 기회 찾아야”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-039",
+      "title": "국제 유가 100달러 돌파에 가상자산 하락세… 비트코인 6만6280달러",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-040",
+      "title": "이렇게 웃겼어? 주원 예능 본능 폭주, 동호회 여성 회원들 발칵 (자매치킨)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-041",
+      "title": "오타니의 日, 저지의 美, '2승 24득점-4실점' 도미니카 \"우리가 모든 면에서 최고\"...1조1300억 사나이 한 방에 끝났다 [WBC]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-042",
+      "title": "김태리 “카메라가 여길 왜?”…숙소에 숨어있던 강남 발견하고 '비명' ('방과후 태리쌤')",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-043",
+      "title": "서울시, 모아타운 사업 지연 해소…올해 31곳서 현장 공정촉진회의",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-044",
+      "title": "엑신, '인기가요' 끝으로 'Dazzle Flash' 활동 성료→후속곡 'Who Dat' 활동 시작",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-045",
+      "title": "케플러, 서영은 탈퇴→6인조 재정비…31일 전격 컴백 [공식]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-046",
+      "title": "“이란 사태 우려 지속에 호르무즈 해협 봉쇄 장기화…우회 육상 수송 가능성 주목”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-047",
+      "title": "롯데百, 상반기 영업·MD, 마케팅 분야 신입사원 채용",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-048",
+      "title": "김정관 산업부 장관, 정유 4사 만나 “물가안정 역행 행위 엄벌”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-049",
+      "title": "\"스노보드 사상 첫 동메달→눈물 펑펑\" 불굴의 보더 이제혁 \"스노보드는 내 인생의 지지대\"[밀라노-코르티나 패럴림픽 현장]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-050",
+      "title": "성남FC 홈 개막전, 먹거리·테이블석·탄천포차까지…“경기장이 축제가 됐다”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "s"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-051",
+      "title": "‘이거 실화냐’ 문동주→日 160km 마무리까지 울리다니...호주 거포 알고 보니 韓 2군 선수였다, 연봉도 고작 1.3억",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-052",
+      "title": "국제 유가, 배럴당 100달러 돌파",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-053",
+      "title": "'지드래곤 열애설' 김고은, 성형 의혹 직접 해명…\"원래부터 콤플렉스\" ('고니')[순간포착]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-054",
+      "title": "작년 中企 부업 근로자 37만9000명…코로나 이후 5년 새 37% 증가",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-055",
+      "title": "[SC현장]\"안 울려고 했는데\"…라이즈, 눈물로 맺은 첫 월드투어 마침표(종합)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-056",
+      "title": "세븐틴, 싱가포르도 홀렸다..\"K-팝 라이브 최강자 저력 입증\" 호평",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-057",
+      "title": "이란 최고지도자에 하메네이 차남 모즈타바... ‘초강경 항전’ 예고",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-058",
+      "title": "김지민 \"자궁에 젓가락 꽂히는 느낌\" 시험관 시술...김준호 \"아기 준비 중\" (미우새)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-059",
+      "title": "[공식발표] '90분 풀타임' 손흥민, 새 역사 일원 됐다...\"MLS 완벽한 출발\" LAFC, 구단 최초 개막 3연승+공식전 5연승",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-060",
+      "title": "‘돈맥경화’ 시달리는 건설업…중견사 공사 미수금 1년 새 41% 급증",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-061",
+      "title": "'미쓰홍’ 하윤경 “고복희=1990년대 순응하는 여성, 변화 그리려 노력” [인터뷰①]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-062",
+      "title": "LIV 골프 한국 대회, 올해 5월 부산에서 열린다",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-063",
+      "title": "[오피셜]\"역시 韓 축구 캡틴 SON, 새 역사 창조\" 손흥민 풀 타임, LA FC 창단 첫 MLS 개막 3연승→공식 5연승 '환호'",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-064",
+      "title": "국장 급등락 속에…개미들 ‘빚투’는 33조원 역대 최대",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-065",
+      "title": "“먹어도 되는 거냐” 혼혈 문샤넬, ‘오골계+내장’에 머뭇거리더니..폭풍 먹방 (‘백반기행’)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-066",
+      "title": "\"시니어 레지던스, 중저가는 분양·고가는 임대 '이원화' 필요\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "P"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-067",
+      "title": "양준혁♥박현선, 시험관 쌍둥이 임신→子 유산…\"딸 간신히 지켜\" 오열 ('사당귀')[종합]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-068",
+      "title": "석화업계 이란戰 직격탄… ‘공급 불가’ 선언 잇따르나",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-069",
+      "title": "솔라, 오늘(9일) 중국어 싱글 'Your Own Star' 발매..글로벌 밴드 '고오인'과 협업",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-070",
+      "title": "‘전세계 42만명 동원’ 첫 투어 마친 라이즈…앤톤, 감격의 눈물도",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-071",
+      "title": "“그리즈만이 남는다고?” 이강인 아틀레티코행 ‘비상등’… 알레마니 단장 “우리 레전드, 잔류 확정” 폭탄 선언",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-072",
+      "title": "롯데백화점, 상반기 신입사원 공개채용...직무 수행 능력 중심 평가",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-073",
+      "title": "양준혁, '쌍둥이 아들' 유산 아픔 고백..\"♥박현선 상처 걱정돼\" 오열[핫피플]",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-074",
+      "title": "스테파니, '23살 연상' 브래디 앤더슨과 열애 6년 \"계속 잘 만나고 있어\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-075",
+      "title": "믿음 배신하는 위트컴, 307억 거포를 호주전까지 수납할까...'8강행' 대반전 위한 류지현의 결단 나올까",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-076",
+      "title": "71세 케빈 코스트너, 42세 연하 모델과 열애설",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-077",
+      "title": "'런닝맨' 김종국, 일방적인 '하차통보' 상처깊었나 \"유재석 없었으면NO\"",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-078",
+      "title": "“쿠르드족 참전 찬성” → “원치 않아” 트럼프 변덕에 참모도 혼란",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-079",
+      "title": "이스라엘, 레바논 집중 공습… 사망자 400명 육박",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-080",
+      "title": "美 레이더 골라 때리는 이란… 러시아가 좌표 줬나",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-081",
+      "title": "고윤정, 정해인 서프라이즈에 \"왜 이렇게까지 하냐\" 감동 (마니또클럽)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-082",
+      "title": "오산·김해서 美수송기 줄줄이 떴다, 일부는 지중해로 이동",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-083",
+      "title": "미국 “더 세게” 이란 “더 넓게”… 장기전으로 가나",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-084",
+      "title": "美가 보는 차기 이란 지도자 조건 “미국인을 위협하지 않는 사람”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-085",
+      "title": "트럼프 “이란 최고지도자, 우리 승인 없이는 오래 못갈 것”",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-086",
+      "title": "히말라야 간 C 변호사 실종 한 달 만 시신 발견",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-087",
+      "title": "“1시간 내에 타격 대상 1000개 추려내라”...AI가 가속화하는 현대전",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "T"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-088",
+      "title": "이란 “배럴당 200달러 유가 감당해보라” 걸프 산유국 강력 보복 예고",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "E"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-089",
+      "title": "헤이수스로 우승 가능? 에이스의 한달 공백이 던진 변수, 기로에 선 삼성의 외인 선택지 '봄이냐 가을이냐'",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-090",
+      "title": "[그 영화 어때] 일파만파 티모시 샬라메 망언과 영화 ‘극장의 시간들’",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-091",
+      "title": "[더 한장] 봄비 속 자전거 안장을 지키는 ‘박스 방패’",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-092",
+      "title": "이민우 \"김서형과 결혼설? 포털 데이터 입력 실수...기자는 내 '숨겨진 아들' 찾더라\" ('미우새')",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-093",
+      "title": "미군 사망자 또 늘어…이란 보복공습에 7번째 미군 사망자 나와",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-094",
+      "title": "‘미트2’ 1등 안성훈, 트로트 아닌 발라드로 승부..첫 등장부터 강렬 “긴장하셔야” (‘1등들’)",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-095",
+      "title": "“뭉클하고 아름다워” 이상순♥이효리's Pick 옳았다..무해함 그 자체 '몽글 상담소' Open",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-096",
+      "title": "유연석, 軍시절 고용 불안감에 자격증 취득...\"지게차→트레일러 자격증까지 보유\" ('미우새')",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-097",
+      "title": "바퀴벌레의 재발견… 플라스틱 분해 해결사 되나",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-098",
+      "title": "'잘 가요, 소니!' 손흥민, 메시·호날두와 ‘라스트 댄스’ 명단 포함… 2026 월드컵 끝으로 전설의 퇴장 예고",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-099",
+      "title": "美로 간 이건희 컬렉션, 워싱턴 이어 시카고로",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    },
+    {
+      "signal_id": "news-20260309-chosun-100",
+      "title": "김길리·최가온 金 맞춘 예측왕 ‘캐나다 도사님’",
+      "impact_score": 5.0,
+      "confidence": 0.6,
+      "affected_domains": [
+        "S"
+      ],
+      "time_horizon": "H1",
+      "cross_impacts": []
+    }
+  ]
+}

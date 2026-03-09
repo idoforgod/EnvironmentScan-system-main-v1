@@ -1,15 +1,17 @@
 {
   "generated_by": "validate_registry.py SOT-037",
-  "generated_at": "2026-03-06T07:07:31.867354+00:00",
+  "generated_at": "2026-03-09T07:06:27.960161+00:00",
   "excluded_sources": [
     "AI Ethics Brief",
     "Aeon Magazine",
     "Ars Technica",
     "BIS Speeches",
     "Brookings Institution",
+    "CEPR VoxEU",
     "Carbon Brief",
     "Disrupt Africa",
     "EUR-Lex Recent Acts",
+    "Genetic Literacy Project",
     "Google Patents",
     "Hacker News",
     "IEEE Spectrum",
@@ -20,6 +22,7 @@
     "NaverNews",
     "OECD Newsroom",
     "Pew Research Center",
+    "Positive Psychology News",
     "Psychology Today",
     "PubMed Central",
     "Quanta Magazine Biology",
@@ -33,6 +36,7 @@
     "Wired",
     "World Bank Blogs",
     "World Economic Forum",
+    "Yale Climate Connections",
     "arXiv"
   ],
   "reason": "Workflow independence: WF1 + WF2 + WF3 existing sources"

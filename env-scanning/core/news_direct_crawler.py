@@ -1011,7 +1011,16 @@ class NewsDirectCrawler:
         with open(path, encoding="utf-8") as f:
             data = yaml.safe_load(f)
 
-        self.sites = data.get("sources", [])
+        # sources is a list with one wrapper entry; individual sites are nested
+        raw_sources = data.get("sources", [])
+        self.sites = []
+        for src in raw_sources:
+            nested_sites = src.get("sites", [])
+            if nested_sites:
+                self.sites.extend(nested_sites)
+            else:
+                # Flat format: source entry IS a site
+                self.sites.append(src)
         logger.info(f"[CONFIG] Loaded {len(self.sites)} site definitions")
 
         # Extract learned patterns path if specified

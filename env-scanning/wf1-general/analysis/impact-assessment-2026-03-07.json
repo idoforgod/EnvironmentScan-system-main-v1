@@ -1,0 +1,525 @@
+{
+  "scan_date": "2026-03-07",
+  "workflow": "wf1-general",
+  "generated_at": "2026-03-07T00:46:38+00:00",
+  "impact_matrix": [
+    {
+      "signal_id": "wf1-20260307-001",
+      "impact_score": 4.8,
+      "affected_domains": [
+        "E",
+        "P",
+        "E_Econ",
+        "S"
+      ],
+      "first_order": [
+        "Increased frequency of crop failures globally",
+        "Accelerated melting of Arctic/Antarctic ice",
+        "Insurance industry losses from extreme weather events"
+      ],
+      "second_order": [
+        "Mass climate migration from vulnerable regions",
+        "Food security crisis in Global South",
+        "Political instability from resource scarcity"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.85,
+          "description": "Climate acceleration amplifies geopolitical tensions over resources"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.8,
+          "description": "Catastrophic economic losses from extreme weather compound financial risks"
+        },
+        {
+          "domain": "S",
+          "influence_score": 0.75,
+          "description": "Mass displacement, public health crises from heat-related illness"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 85
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-002",
+      "impact_score": 5.0,
+      "affected_domains": [
+        "P",
+        "E_Econ",
+        "T",
+        "S"
+      ],
+      "first_order": [
+        "Oil price spike disrupting global transport and manufacturing",
+        "Semiconductor supply disruption halting AI hardware builds",
+        "Humanitarian crisis from direct conflict casualties"
+      ],
+      "second_order": [
+        "Global recession triggered by energy/supply chain shocks",
+        "AI development pace slows as compute becomes scarce",
+        "Regional conflict expansion risk via proxy powers"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "T",
+          "influence_score": 0.9,
+          "description": "Chip supply disruption directly constrains AI/tech sector growth"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.92,
+          "description": "UN warns global economy at grave risk — recession probability elevated"
+        },
+        {
+          "domain": "S",
+          "influence_score": 0.7,
+          "description": "Refugee crisis, global food insecurity from war disruption"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 88
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-003",
+      "impact_score": 4.7,
+      "affected_domains": [
+        "T",
+        "E_Econ",
+        "P"
+      ],
+      "first_order": [
+        "TSMC, Samsung fab capacity threatened if conflict expands",
+        "AI model training slowed by GPU/chip scarcity",
+        "Energy price shocks rippling through tech cost structures"
+      ],
+      "second_order": [
+        "Western AI companies cede ground to less chip-dependent approaches",
+        "Reshoring semiconductor manufacturing accelerates"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.82,
+          "description": "Geopolitical pressure to secure domestic chip production intensifies"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.85,
+          "description": "Tech sector valuation correction risk if chip supply disrupted at scale"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 82
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-004",
+      "impact_score": 4.0,
+      "affected_domains": [
+        "T",
+        "P",
+        "s"
+      ],
+      "first_order": [
+        "AI companies face binary choice: defense vs safety commitments",
+        "Consumer trust in AI safety messaging eroded",
+        "Federal AI procurement framework under legal scrutiny"
+      ],
+      "second_order": [
+        "Split AI industry: safety-first vs defense contractors",
+        "European AI companies gain advantage from no-defense positioning"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.78,
+          "description": "Sets precedent for how government classifies AI vendor relationships"
+        },
+        {
+          "domain": "s",
+          "influence_score": 0.8,
+          "description": "AI ethics community challenged by safety-vs-defense dilemma"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 78
+      },
+      "dc_stage": "emerging"
+    },
+    {
+      "signal_id": "wf1-20260307-005",
+      "impact_score": 4.3,
+      "affected_domains": [
+        "P",
+        "E_Environmental",
+        "E_Econ"
+      ],
+      "first_order": [
+        "China's coal phase-out timeline now more defined",
+        "Clean energy investment targets locked into 5-year plan",
+        "Carbon trading market signals strengthened"
+      ],
+      "second_order": [
+        "China becomes dominant clean energy supplier globally",
+        "Geopolitical leverage shifts as fossil fuel demand drops"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "E_Environmental",
+          "influence_score": 0.88,
+          "description": "China plan directly affects global emissions trajectory"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.8,
+          "description": "Energy sector investment flows reshaped by China's decarbonization"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 80
+      },
+      "dc_stage": "emerging"
+    },
+    {
+      "signal_id": "wf1-20260307-006",
+      "impact_score": 3.8,
+      "affected_domains": [
+        "P",
+        "S",
+        "T",
+        "E_Econ"
+      ],
+      "first_order": [
+        "Platform business models face regulatory restructuring globally",
+        "Age verification technology demand explosion",
+        "Parents gain unprecedented control over children digital access"
+      ],
+      "second_order": [
+        "Social media companies forced to fundamentally redesign products",
+        "New digital identity infrastructure for age verification"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "T",
+          "influence_score": 0.75,
+          "description": "Major platform tech overhaul required; creates new market for age-tech"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.72,
+          "description": "Meta, TikTok, Snap revenue models disrupted by youth base restrictions"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 72
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-007",
+      "impact_score": 3.9,
+      "affected_domains": [
+        "T",
+        "E_Econ",
+        "P"
+      ],
+      "first_order": [
+        "Quantum computing enters public market phase",
+        "European quantum sovereignty movement gains capital"
+      ],
+      "second_order": [
+        "Post-quantum cryptography timeline accelerates",
+        "Nation-state quantum race for computational advantage"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.76,
+          "description": "National sovereignty in quantum computing becomes policy priority"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.74,
+          "description": "New quantum investment class emerges with $2B valuation precedent"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 74
+      },
+      "dc_stage": "emerging"
+    },
+    {
+      "signal_id": "wf1-20260307-008",
+      "impact_score": 4.2,
+      "affected_domains": [
+        "T",
+        "E_Environmental",
+        "E_Econ",
+        "P"
+      ],
+      "first_order": [
+        "First 4th-gen nuclear reactor moves toward construction",
+        "US clean energy baseload capacity plan strengthened",
+        "Regulatory pathway for advanced nuclear now established"
+      ],
+      "second_order": [
+        "Global nuclear renaissance accelerates following regulatory approval",
+        "Energy security decoupling from fossil fuel geopolitics"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "E_Environmental",
+          "influence_score": 0.82,
+          "description": "Zero-carbon baseload electricity replacing fossil fuel plants"
+        },
+        {
+          "domain": "P",
+          "influence_score": 0.76,
+          "description": "Energy independence from oil reduces Middle East conflict leverage"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 76
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-009",
+      "impact_score": 4.1,
+      "affected_domains": [
+        "T",
+        "P",
+        "E_Econ"
+      ],
+      "first_order": [
+        "AI security research at scale now demonstrated viable",
+        "Cybersecurity firms face disruption from AI-native competitors"
+      ],
+      "second_order": [
+        "Human security researchers displaced; productivity 10x with AI",
+        "Critical infrastructure vulnerability scanning transformed"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.72,
+          "description": "Government cybersecurity posture transformed by AI-native vuln detection"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.7,
+          "description": "Cybersecurity industry restructuring: AI-native firms vs legacy players"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 72
+      },
+      "dc_stage": "emerging"
+    },
+    {
+      "signal_id": "wf1-20260307-010",
+      "impact_score": 3.9,
+      "affected_domains": [
+        "P",
+        "T",
+        "s"
+      ],
+      "first_order": [
+        "DoD AI surveillance powers legally challenged",
+        "ACLU and civil liberties groups mobilize against Pentagon AI"
+      ],
+      "second_order": [
+        "Federal AI use limits codified through litigation",
+        "Chilling effect on government AI procurement"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "T",
+          "influence_score": 0.73,
+          "description": "AI companies must navigate legal uncertainty on government contracts"
+        },
+        {
+          "domain": "s",
+          "influence_score": 0.78,
+          "description": "Fundamental civil liberties-vs-security tension re-emerges in AI era"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 75
+      },
+      "dc_stage": "emerging"
+    },
+    {
+      "signal_id": "wf1-20260307-011",
+      "impact_score": 3.4,
+      "affected_domains": [
+        "P",
+        "S",
+        "T"
+      ],
+      "first_order": [
+        "Iranian citizens face increasing digital isolation",
+        "Journalism and dissent suppressed through digital means"
+      ],
+      "second_order": [
+        "Internet fragmentation (Splinternet) accelerates globally",
+        "VPN and circumvention tool demand spikes"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "S",
+          "influence_score": 0.68,
+          "description": "Iranian civil society isolated from global information"
+        },
+        {
+          "domain": "T",
+          "influence_score": 0.65,
+          "description": "Pressure on global platforms to resist authoritarian demands"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 65
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-012",
+      "impact_score": 4.0,
+      "affected_domains": [
+        "s",
+        "T",
+        "P"
+      ],
+      "first_order": [
+        "AI safety culture dismantled by competitive dynamics",
+        "Company-level safety commitments proven insufficient as governance"
+      ],
+      "second_order": [
+        "Regulatory mandate for AI safety becomes only viable mechanism",
+        "Public distrust in AI companies' self-regulation grows"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.8,
+          "description": "Political pressure mounts for mandatory AI safety regulation"
+        },
+        {
+          "domain": "T",
+          "influence_score": 0.75,
+          "description": "AI development trajectory shifts toward defense/government applications"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 78
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-013",
+      "impact_score": 3.8,
+      "affected_domains": [
+        "P",
+        "T",
+        "S"
+      ],
+      "first_order": [
+        "Security cameras worldwide become attack surface in conflicts",
+        "Critical infrastructure operators forced to harden camera networks"
+      ],
+      "second_order": [
+        "AI-powered autonomous cyber-physical attack systems normalized",
+        "Physical security merged with cybersecurity as single domain"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "T",
+          "influence_score": 0.73,
+          "description": "New cybersecurity architecture required for IoT in conflict zones"
+        },
+        {
+          "domain": "S",
+          "influence_score": 0.68,
+          "description": "Public surveillance infrastructure becomes weapon, affecting civil liberties"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 70
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-015",
+      "impact_score": 4.0,
+      "affected_domains": [
+        "S",
+        "E_Econ",
+        "P"
+      ],
+      "first_order": [
+        "Tech worker layoffs create skilled labor surplus in major cities",
+        "Mental health crisis among displaced tech professionals"
+      ],
+      "second_order": [
+        "Retraining systems overwhelmed; social safety nets strained",
+        "Political backlash against AI automation accelerates"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.76,
+          "description": "Tech labor displacement fuels anti-AI political movements"
+        },
+        {
+          "domain": "E_Economic",
+          "influence_score": 0.78,
+          "description": "Consumer spending reduction from tech sector income loss"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 76
+      },
+      "dc_stage": "developing"
+    },
+    {
+      "signal_id": "wf1-20260307-019",
+      "impact_score": 3.7,
+      "affected_domains": [
+        "E_Econ",
+        "T",
+        "P"
+      ],
+      "first_order": [
+        "Tech hardware costs rising for consumers",
+        "Supply chain disruption for electronics manufacturers"
+      ],
+      "second_order": [
+        "Nearshoring/reshoring of electronics manufacturing accelerates",
+        "Consumer electronics access gap between US/non-US countries"
+      ],
+      "cross_impacts": [
+        {
+          "domain": "P",
+          "influence_score": 0.74,
+          "description": "Trade war escalation risk as companies sue governments over tariffs"
+        },
+        {
+          "domain": "T",
+          "influence_score": 0.7,
+          "description": "Innovation slows as hardware cost increases constrain R&D budgets"
+        }
+      ],
+      "psst_dimensions": {
+        "IC": 70
+      },
+      "dc_stage": "developing"
+    }
+  ]
+}

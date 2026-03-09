@@ -420,7 +420,11 @@ log_examples = {
 
 ---
 
-## Memory Optimization (Optional)
+## Memory Optimization (REQUIRED — RLM Pattern)
+
+> **MUST use RecursiveArchiveLoader** when loading signal databases for deduplication.
+> Loading full archives (10,000+ signals) wastes context window and degrades LLM judgment quality.
+> The 7-day window provides sufficient dedup coverage while reducing memory by 10-20x.
 
 ### Using RecursiveArchiveLoader for Efficient Time-Based Filtering
 

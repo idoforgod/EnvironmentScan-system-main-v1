@@ -1,0 +1,746 @@
+{
+  "classification_metadata": {
+    "workflow": "wf1-general",
+    "date": "2026-03-09",
+    "total_classified": 24,
+    "noise_filtered": 14,
+    "steeps_distribution": {
+      "T": 14,
+      "s": 2,
+      "S": 3,
+      "E": 3,
+      "P": 2
+    },
+    "classification_method": "LLM semantic judgment (phase2-analyst)",
+    "timestamp": "2026-03-08T22:41:26.511423+00:00"
+  },
+  "signals": [
+    {
+      "id": "techcrunch-11df117628d7",
+      "title": "Palmer Luckey’s retro gaming startup ModRetro reportedly seeks funding at $1B valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/palmer-luckeys-retro-gaming-startup-modretro-reportedly-seeks-funding-at-1b-valuation/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Palmer Luckey’s retro gaming startup ModRetro reportedly seeks funding at $1B valuation",
+        "keywords": [
+          "gaming",
+          "hardware",
+          "modretro",
+          "palmer luckey"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149193+00:00",
+      "classification_rationale": "Tech entrepreneur pivot — retro gaming hardware at unicorn valuation",
+      "impact_analysis": "Moderate: Palmer Luckey's trajectory from VR to defense to gaming reflects tech investment patterns",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 3,
+      "urgency_score": 2,
+      "novelty_score": 3
+    },
+    {
+      "id": "techcrunch-b1af8d78d32c",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+        "keywords": [
+          "ai",
+          "government & policy",
+          "anthropic",
+          "dario amodei",
+          "emil michael",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149233+00:00",
+      "classification_rationale": "AI ethics tension between commercial AI and military use — values and meaning conflict",
+      "impact_analysis": "High: signals growing tensions between AI safety culture and defense applications",
+      "steeps_category": "s",
+      "impact_score": 4,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4
+    },
+    {
+      "id": "techcrunch-24aef19b03ac",
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Owner of ICE detention facility sees big opportunity in AI man camps",
+        "keywords": [
+          "ai",
+          "target hospitality"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149259+00:00",
+      "classification_rationale": "Convergence of immigration infrastructure and AI workforce housing — social displacement signal",
+      "impact_analysis": "Emerging signal of AI labor concentration creating new physical infrastructure demands",
+      "steeps_category": "S",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 4,
+      "novelty_score": 4
+    },
+    {
+      "id": "techcrunch-c56857300baf",
+      "title": "TechCrunch Mobility: Rivian’s R2 gambit",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/techcrunch-mobility-rivians-r2-gambit/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "TechCrunch Mobility: Rivian’s R2 gambit",
+        "keywords": [
+          "transportation",
+          "byd",
+          "evs",
+          "waymo",
+          "wayve",
+          "rivian",
+          "techcrunch mobility"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149283+00:00",
+      "classification_rationale": "EV market strategy — mass market electric vehicle pivot",
+      "impact_analysis": "Moderate: Rivian's affordable EV push signals EV market maturation",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3
+    },
+    {
+      "id": "techcrunch-c6a734ac2cd5",
+      "title": "A roadmap for AI, if anyone will listen",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "A roadmap for AI, if anyone will listen",
+        "keywords": [
+          "ai",
+          "anthropic",
+          "max tegmark",
+          "openai",
+          "pentagon",
+          "the pro-human declaration"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149306+00:00",
+      "classification_rationale": "AI policy and development roadmap — governance and direction of AI industry",
+      "impact_analysis": "Significant: reflects attempts to chart coherent AI development path amid regulatory uncertainty",
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 4,
+      "novelty_score": 3
+    },
+    {
+      "id": "techcrunch-6fb6992fc191",
+      "title": "Push for $40 smartphones builds momentum, but still faces cost hurdles",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/push-for-40-smartphones-builds-momentum-but-still-faces-cost-hurdles/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Push for $40 smartphones builds momentum, but still faces cost hurdles",
+        "keywords": [
+          "gadgets",
+          "government & policy",
+          "gsma",
+          "mwc",
+          "mwc 2026"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149328+00:00",
+      "classification_rationale": "Ultra-low-cost smartphone access — digital divide and connectivity",
+      "impact_analysis": "High for emerging markets: could connect billions of unconnected people",
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 3,
+      "novelty_score": 4
+    },
+    {
+      "id": "techcrunch-993358c9ffc0",
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Google just gave Sundar Pichai a $692M pay package",
+        "keywords": [
+          "ai",
+          "tc",
+          "alphabet",
+          "google",
+          "sundar pichai"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149348+00:00",
+      "classification_rationale": "Big tech executive compensation — corporate governance and inequality signal",
+      "impact_analysis": "Moderate: reflects growing tech executive wealth concentration",
+      "steeps_category": "E",
+      "impact_score": 3,
+      "probability_score": 5,
+      "urgency_score": 2,
+      "novelty_score": 2
+    },
+    {
+      "id": "techcrunch-f4bed433cfed",
+      "title": "Grammarly’s ‘expert review’ is just missing the actual experts",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "Grammarly’s ‘expert review’ is just missing the actual experts",
+        "keywords": [
+          "ai",
+          "media & entertainment",
+          "grammarly"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:17.149370+00:00",
+      "classification_rationale": "AI writing tool quality concerns — automation replacing expertise without domain knowledge",
+      "impact_analysis": "Moderate: signals growing skepticism of AI-generated content quality",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3
+    },
+    {
+      "id": "ieee-spectrum-1603d0b55a62",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/military-ai-governance",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Military AI Policy Needs Democratic Oversight",
+        "keywords": [
+          "ai",
+          "military-ai",
+          "anthropic"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:21.170114+00:00",
+      "classification_rationale": "Military AI governance and democratic accountability — critical policy frontier",
+      "impact_analysis": "High impact: defines the future of AI weapons governance and civil-military relations",
+      "steeps_category": "P",
+      "impact_score": 5,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4
+    },
+    {
+      "id": "hacker-news-ad92ada1b585",
+      "title": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blog.ebbypeter.com/2026/03/detection-is-not-protection-what-azure-waf-detection-mode-actually-does-and-doesnt/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+        "keywords": [
+          "detection",
+          "protection:",
+          "what",
+          "detection",
+          "mode",
+          "does",
+          "(and",
+          "doesn't)",
+          "detection",
+          "protection:"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323416+00:00",
+      "classification_rationale": "Cybersecurity — limitations of detection-only security approaches",
+      "impact_analysis": "Moderate: highlights ongoing gaps in cybersecurity infrastructure",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 2
+    },
+    {
+      "id": "hacker-news-254860d309f4",
+      "title": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/Rabrg/artificial-life",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+        "keywords": [
+          "artificial-life:",
+          "simple",
+          "(300",
+          "lines",
+          "code)",
+          "reproduction",
+          "computational",
+          "life",
+          "artificial-life:",
+          "simple"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323499+00:00",
+      "classification_rationale": "Artificial life simulation — fundamental research at computation-biology frontier",
+      "impact_analysis": "High novelty: reproducing computational life in 300 lines signals accessibility of complex research",
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 2,
+      "novelty_score": 5
+    },
+    {
+      "id": "hacker-news-ad5905973fb1",
+      "title": "Agent Safehouse – macOS-native sandboxing for local agents",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://agent-safehouse.dev/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Agent Safehouse – macOS-native sandboxing for local agents",
+        "keywords": [
+          "agent",
+          "safehouse",
+          "macos-native",
+          "sandboxing",
+          "local",
+          "agents",
+          "agent",
+          "safehouse",
+          "macos-native",
+          "sandboxing"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323527+00:00",
+      "classification_rationale": "AI agent sandboxing — security infrastructure for autonomous AI agents",
+      "impact_analysis": "Significant: addresses emerging need for AI agent containment and safety",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4
+    },
+    {
+      "id": "hacker-news-a6d3a89ebf15",
+      "title": "We should revisit literate programming in the agent era",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "We should revisit literate programming in the agent era",
+        "keywords": [
+          "should",
+          "revisit",
+          "literate",
+          "programming",
+          "agent",
+          "should",
+          "revisit",
+          "literate",
+          "programming",
+          "agent"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323553+00:00",
+      "classification_rationale": "Programming paradigm evolution — human-AI collaborative coding methodology",
+      "impact_analysis": "Moderate: revisiting programming paradigms for AI-augmented development",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 3,
+      "urgency_score": 3,
+      "novelty_score": 4
+    },
+    {
+      "id": "hacker-news-356c38d07c93",
+      "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/BigBodyCobain/Shadowbroker",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+        "keywords": [
+          "show",
+          "built",
+          "real-time",
+          "osint",
+          "dashboard",
+          "pulling",
+          "live",
+          "global",
+          "feeds",
+          "show"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323598+00:00",
+      "classification_rationale": "Open source intelligence tooling — democratization of intelligence analysis",
+      "impact_analysis": "Moderate: real-time global monitoring becoming accessible to individuals",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3
+    },
+    {
+      "id": "hacker-news-c62f12ac015e",
+      "title": "The changing goalposts of AGI and timelines",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://mlumiste.com/general/openai-charter/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "The changing goalposts of AGI and timelines",
+        "keywords": [
+          "changing",
+          "goalposts",
+          "timelines",
+          "changing",
+          "goalposts",
+          "timelines"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323680+00:00",
+      "classification_rationale": "AGI timeline discourse — shifting definitions and expectations for artificial general intelligence",
+      "impact_analysis": "Critical: AGI goalpost movement signals fundamental uncertainty in AI trajectory",
+      "steeps_category": "T",
+      "impact_score": 5,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 3
+    },
+    {
+      "id": "hacker-news-cd8fc2fd2dc2",
+      "title": "Living human brain cells play DOOM on a CL1 [video]",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.youtube.com/watch?v=yRV8fSw6HaE",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Living human brain cells play DOOM on a CL1 [video]",
+        "keywords": [
+          "living",
+          "human",
+          "brain",
+          "cells",
+          "play",
+          "doom",
+          "[video]",
+          "living",
+          "human",
+          "brain"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323755+00:00",
+      "classification_rationale": "Biological computing — living neural tissue interfacing with digital systems",
+      "impact_analysis": "Very high novelty: biological-digital computing convergence with profound implications",
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 2,
+      "novelty_score": 5
+    },
+    {
+      "id": "hacker-news-be02f86fcc6b",
+      "title": "Ask HN: How to be alone?",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/item?id=47296547",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Ask HN: How to be alone?",
+        "keywords": [
+          "alone?",
+          "alone?"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.323791+00:00",
+      "classification_rationale": "Social isolation and loneliness epidemic — collective psychological wellbeing",
+      "impact_analysis": "Moderate: reflects growing loneliness crisis in tech communities",
+      "steeps_category": "s",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3
+    },
+    {
+      "id": "wired-4c7dfd55799a",
+      "title": "Left-Handed People Are More Competitive, Says Science",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/left-handed-people-are-more-competitive-says-science/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Left-Handed People Are More Competitive, Says Science",
+        "keywords": [
+          "science",
+          "science / health",
+          "brains and behavior",
+          "evolution",
+          "biology",
+          "evolutionary psychology",
+          "psychology",
+          "southpaws unite"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:36.380844+00:00",
+      "classification_rationale": "Behavioral science — cognitive diversity and competitiveness research",
+      "impact_analysis": "Low impact: interesting behavioral finding but limited systemic implications",
+      "steeps_category": "S",
+      "impact_score": 2,
+      "probability_score": 4,
+      "urgency_score": 1,
+      "novelty_score": 3
+    },
+    {
+      "id": "ars-technica-dfe7fcaa37cc",
+      "title": "Tiny, long-armed dinosaur leads to rethink of dinosaur miniaturization",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/03/tiny-long-armed-dinosaur-leads-to-rethink-of-dinosaur-miniaturization/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Small size seems to have come before a change in diet for a tiny dinosaur lineage.",
+        "keywords": [
+          "science",
+          "biology",
+          "dinosaurs",
+          "evolution",
+          "paleontology"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:37.483888+00:00",
+      "classification_rationale": "Paleontological science — evolutionary biology paradigm revision",
+      "impact_analysis": "Low: academic finding with limited near-term societal impact",
+      "steeps_category": "T",
+      "impact_score": 2,
+      "probability_score": 4,
+      "urgency_score": 1,
+      "novelty_score": 4
+    },
+    {
+      "id": "cepr-voxeu-4e3095eda4de",
+      "title": "The remote work premium reconsidered",
+      "source": {
+        "name": "CEPR VoxEU",
+        "type": "academic",
+        "url": "https://cepr.org/voxeu/columns/remote-work-premium-reconsidered",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "The remote work premium reconsidered",
+        "keywords": [
+          "remote",
+          "work",
+          "premium",
+          "reconsidered",
+          "remote",
+          "work",
+          "premium",
+          "reconsidered"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:38:49.172952+00:00",
+      "classification_rationale": "Labor market transformation — remote work economics and workforce restructuring",
+      "impact_analysis": "High: remote work premium shifts have broad labor market and urban planning implications",
+      "steeps_category": "S",
+      "impact_score": 4,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3
+    },
+    {
+      "id": "us-federal-register-20260309-001",
+      "title": "National Drinking Water Advisory Council: Request for Nominations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04590/national-drinking-water-advisory-council-request-for-nominations",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "The EPA seeks nominations for three-year council appointments to advise on water supply regulations, targeting representatives from public agencies, water systems, and organizations focused on drinking water safety.",
+        "keywords": [
+          "EPA",
+          "drinking water",
+          "advisory council",
+          "water regulation",
+          "public health"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:39:33.008923+00:00",
+      "classification_rationale": "Environmental regulation — water safety governance and advisory structure",
+      "impact_analysis": "Moderate: ongoing water safety governance but routine advisory process",
+      "steeps_category": "E",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 2
+    },
+    {
+      "id": "us-federal-register-20260309-002",
+      "title": "Emerging Frontiers in Research and Innovation Program: Grantee Reporting Requirements",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04588/agency-information-collection-activities-comment-request-grantee-reporting-requirements-for-the",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "NSF announced renewal plans for reporting requirements under the Paperwork Reduction Act for the Emerging Frontiers in Research and Innovation Program, seeking public comment before OMB approval.",
+        "keywords": [
+          "NSF",
+          "emerging frontiers",
+          "research innovation",
+          "grantee reporting",
+          "Paperwork Reduction Act"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:39:33.009400+00:00",
+      "classification_rationale": "Research funding policy — NSF emerging technology research program governance",
+      "impact_analysis": "Moderate: administrative but signals ongoing investment in frontier research",
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 2,
+      "novelty_score": 2
+    },
+    {
+      "id": "us-federal-register-20260309-003",
+      "title": "Dairy Tariff-Rate Quota Import Licensing Program: Proposed Amendments",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04599/dairy-tariff-rate-quota-import-licensing-program",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Proposed amendments to dairy import licensing regulations aim to clarify provisions, modernize license transfer procedures, and advance surrender dates for quota reallocation.",
+        "keywords": [
+          "dairy",
+          "tariff",
+          "import licensing",
+          "trade policy",
+          "quota"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:39:33.009402+00:00",
+      "classification_rationale": "Trade policy — agricultural import regulation modernization",
+      "impact_analysis": "Low: routine trade regulation adjustment",
+      "steeps_category": "E",
+      "impact_score": 2,
+      "probability_score": 5,
+      "urgency_score": 2,
+      "novelty_score": 1
+    },
+    {
+      "id": "us-federal-register-20260309-004",
+      "title": "FDA Draft Guidance: Responding to Form 483 CGMP Inspection Observations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04578/responding-to-fda-form-483-observations-at-the-conclusion-of-a-drug-cgmp-inspection-draft-guidance",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "FDA draft guidance assists pharmaceutical manufacturers in responding to inspection observations regarding current good manufacturing practice (CGMP) compliance standards.",
+        "keywords": [
+          "FDA",
+          "pharmaceutical",
+          "CGMP",
+          "drug manufacturing",
+          "inspection",
+          "compliance"
+        ],
+        "language": "en"
+      },
+      "collected_at": "2026-03-08T22:39:33.009403+00:00",
+      "classification_rationale": "Pharmaceutical regulation — manufacturing compliance guidance evolution",
+      "impact_analysis": "Moderate: affects pharmaceutical manufacturing standards and supply chain integrity",
+      "steeps_category": "P",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 2
+    }
+  ]
+}

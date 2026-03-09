@@ -1,0 +1,2218 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-07",
+    "classification_method": "phase2-analyst-unified",
+    "frameworks": [
+      "STEEPs",
+      "FSSF-8type",
+      "Three-Horizons"
+    ],
+    "total_classified": 46,
+    "classified_at": "2026-03-07T05:00:00+00:00",
+    "language": "ko",
+    "source_language": "en"
+  },
+  "steeps_distribution": {
+    "P": 15,
+    "E": 11,
+    "T": 12,
+    "s": 4,
+    "E_Environmental": 3,
+    "S": 2
+  },
+  "fssf_distribution": {
+    "Wild Card": 6,
+    "Emerging Issue": 12,
+    "Trend": 10,
+    "Discontinuity": 5,
+    "Precursor Event": 7,
+    "Driver": 4,
+    "Weak Signal": 2
+  },
+  "horizon_distribution": {
+    "H1": 28,
+    "H2": 13,
+    "H3": 5
+  },
+  "items": [
+    {
+      "id": "news-20260307-donga-008",
+      "title": "Korea Activates Strategic Petroleum Reserves as Hormuz Crisis Drives Oil to $125",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "energy_security",
+        "economic_stability",
+        "supply_chain"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.92,
+        "TC": 0.95,
+        "DC": 0.88,
+        "ES": 4.8,
+        "CC": 0.91,
+        "IC": 4.7
+      },
+      "stakeholders": [
+        "Korean government",
+        "Korean heavy industry",
+        "energy importers",
+        "Middle East producers"
+      ],
+      "monitoring_indicators": [
+        "Brent crude price",
+        "Hormuz transit volume",
+        "Korea strategic reserve level",
+        "Korean industrial output"
+      ],
+      "content": {
+        "abstract": "The South Korean government activated strategic petroleum reserves and declared a 'special energy management situation' as Brent crude prices hit $125/barrel amid the Hormuz Strait disruption.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-arabnews-001",
+      "title": "El-Sisi Says Egypt in 'State of Near-Emergency' as War Threatens Economy",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "global_trade",
+        "economic_stability",
+        "Middle_East_stability"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.9,
+        "TC": 0.93,
+        "DC": 0.82,
+        "ES": 4.5,
+        "CC": 0.88,
+        "IC": 4.3
+      },
+      "stakeholders": [
+        "Egypt government",
+        "Suez Canal Authority",
+        "global shipping industry",
+        "IMF"
+      ],
+      "monitoring_indicators": [
+        "Suez Canal throughput",
+        "Egypt forex reserves",
+        "LNG spot price",
+        "global shipping rates"
+      ],
+      "content": {
+        "abstract": "Egyptian President El-Sisi declared Egypt in a 'state of near-emergency' as the ongoing US-Israel military campaign against Iran threatens to destabilize regional economies.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-arabnews-010",
+      "title": "Swedish Intelligence Warns of Increased Middle East War Fallout in Europe",
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "cybersecurity",
+        "European_security",
+        "critical_infrastructure"
+      ],
+      "geographic_scope": "europe",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.85,
+        "TC": 0.88,
+        "DC": 0.75,
+        "ES": 4.0,
+        "CC": 0.83,
+        "IC": 3.8
+      },
+      "stakeholders": [
+        "Swedish SAPO",
+        "EU governments",
+        "energy infrastructure operators",
+        "financial institutions"
+      ],
+      "monitoring_indicators": [
+        "cyber attack frequency Europe",
+        "Iranian cyber operations",
+        "critical infrastructure incidents",
+        "SAPO alert level"
+      ],
+      "content": {
+        "abstract": "Sweden's SAPO intelligence service warned that the expanding Middle East conflict is generating unprecedented cybersecurity threats against European critical infrastructure.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-globeandmail-001",
+      "title": "Carney Says Canada Could Be Called to Help Allies in Middle East; Top NATO Soldier Warns of Escalation",
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "NATO_cohesion",
+        "Middle_East_conflict",
+        "geopolitical_realignment"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.88,
+        "TC": 0.9,
+        "DC": 0.8,
+        "ES": 4.2,
+        "CC": 0.85,
+        "IC": 4.0
+      },
+      "stakeholders": [
+        "NATO member states",
+        "Canadian military",
+        "SACEUR",
+        "Iranian proxies",
+        "regional actors"
+      ],
+      "monitoring_indicators": [
+        "NATO force deployments",
+        "Article 5 consultations",
+        "Canadian military readiness",
+        "Iranian proxy activity"
+      ],
+      "content": {
+        "abstract": "Canadian Prime Minister Carney stated Canada could be called upon to assist allied military operations in the Middle East, as NATO's SACEUR warned of broader conflict escalation.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-politico-023",
+      "title": "Majority of Americans Oppose Trump's Iran Strikes, Per New Polling",
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "US_domestic_politics",
+        "war_powers",
+        "democratic_accountability"
+      ],
+      "geographic_scope": "us",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.8,
+        "TC": 0.82,
+        "DC": 0.72,
+        "ES": 3.2,
+        "CC": 0.78,
+        "IC": 3.0
+      },
+      "stakeholders": [
+        "US public",
+        "Congress",
+        "Trump administration",
+        "Democratic Party",
+        "bipartisan coalition"
+      ],
+      "monitoring_indicators": [
+        "polling trends",
+        "War Powers resolution votes",
+        "bipartisan coalition size",
+        "Congress-executive tensions"
+      ],
+      "content": {
+        "abstract": "58% of Americans oppose ongoing military strikes against Iran; Congressional Democrats introduced War Powers resolution with 6 Republican co-sponsors.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-scmp-045",
+      "title": "Qatar's LNG Halt Exposes Asia's Energy Vulnerability",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "energy_security",
+        "Asian_economy",
+        "supply_chain"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "RED",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.94,
+        "TC": 0.96,
+        "DC": 0.9,
+        "ES": 4.9,
+        "CC": 0.93,
+        "IC": 4.8
+      },
+      "stakeholders": [
+        "Qatar Energy",
+        "Japan METI",
+        "South Korea MOTIE",
+        "Taiwan utility companies",
+        "Asian LNG importers"
+      ],
+      "monitoring_indicators": [
+        "LNG spot price Asia",
+        "Hormuz traffic",
+        "Japan/Korea strategic gas reserves",
+        "power rationing frequency"
+      ],
+      "content": {
+        "abstract": "Qatar suspended LNG shipments through Hormuz; Japan, South Korea, Taiwan receive 35% of LNG from Qatar via this route. Spot LNG prices jumped 47% to $28/MMBtu.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-rt-035",
+      "title": "Israel Behind Azerbaijan Drone Provocations to Frame Iran – Russian Envoy",
+      "steeps_category": "P",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "disinformation",
+        "Caucasus_stability",
+        "UNSC_dynamics"
+      ],
+      "geographic_scope": "regional",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.72,
+        "TC": 0.75,
+        "DC": 0.65,
+        "ES": 3.0,
+        "CC": 0.7,
+        "IC": 2.8
+      },
+      "stakeholders": [
+        "Russia UN mission",
+        "Israel",
+        "Azerbaijan",
+        "Iran",
+        "UNSC members"
+      ],
+      "monitoring_indicators": [
+        "UNSC voting patterns",
+        "Caucasus security incidents",
+        "Russian narrative spread",
+        "Azerbaijani response"
+      ],
+      "content": {
+        "abstract": "Russia's UN envoy claims Israel orchestrated drone provocations over Azerbaijan to frame Iran — unverified claim reflecting Russia's counter-narrative framing.",
+        "language": "ru"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-washingtonpost-008",
+      "title": "China Lowers Growth Forecast, Boosts Military, Citing 'Grave' Environment",
+      "steeps_category": "E",
+      "fssf_type": "Driver",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "China_economy",
+        "military_buildup",
+        "global_trade",
+        "AI_development"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.87,
+        "TC": 0.89,
+        "DC": 0.8,
+        "ES": 4.1,
+        "CC": 0.85,
+        "IC": 3.9
+      },
+      "stakeholders": [
+        "Chinese government",
+        "PLA",
+        "global investors",
+        "US trade partners",
+        "AI companies"
+      ],
+      "monitoring_indicators": [
+        "China GDP growth rate",
+        "China defense budget",
+        "China AI investment",
+        "China-US trade volumes"
+      ],
+      "content": {
+        "abstract": "China's NPC set 4.5% GDP target (vs 5% prior year) while boosting defense spending 8.2% to $325B — largest defense increase in decade. $200B AI infrastructure stimulus announced.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-scmp-015",
+      "title": "US Tariff Refund System to Be Ready in 45 Days, After Trump Duties Struck Down",
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "US_trade_policy",
+        "global_trade",
+        "supply_chain_rebalancing"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.85,
+        "TC": 0.88,
+        "DC": 0.78,
+        "ES": 3.8,
+        "CC": 0.82,
+        "IC": 3.6
+      },
+      "stakeholders": [
+        "US CBP",
+        "Chinese exporters",
+        "EU exporters",
+        "US importers",
+        "Supreme Court",
+        "Trump administration"
+      ],
+      "monitoring_indicators": [
+        "IEEPA ruling appeals",
+        "tariff refund volumes",
+        "US-China trade flows",
+        "market reaction"
+      ],
+      "content": {
+        "abstract": "Federal appeals court struck down Trump's IEEPA tariff authority; $280B in duties now refundable. Case going to Supreme Court. Markets reversed 60% of tariff selloff.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "불연속",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-nknews-062",
+      "title": "North Korea Trumpets Congratulations from Russia, China for Party Congress",
+      "steeps_category": "P",
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "geopolitical_alignment",
+        "North_Korea_policy",
+        "anti-Western_bloc"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.75,
+        "TC": 0.78,
+        "DC": 0.7,
+        "ES": 3.1,
+        "CC": 0.73,
+        "IC": 2.9
+      },
+      "stakeholders": [
+        "Kim Jong Un",
+        "Putin",
+        "Xi Jinping",
+        "US Indo-Pacific Command",
+        "South Korea"
+      ],
+      "monitoring_indicators": [
+        "Russia-China-NK trilateral meetings",
+        "NK defense budget",
+        "UNSC coordination",
+        "NK technology cooperation"
+      ],
+      "content": {
+        "abstract": "NK state media showcased Russia-China congratulations emphasizing 'Axis of Resistance'; Kim announced 15% NK defense budget increase.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "트렌드",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-nknews-043",
+      "title": "New Zealand Sanctions North Korean Military Firms, Targeting Support for Russia",
+      "steeps_category": "P",
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "arms_proliferation",
+        "Five_Eyes_coordination",
+        "Russia_Ukraine_war"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.72,
+        "TC": 0.75,
+        "DC": 0.65,
+        "ES": 2.9,
+        "CC": 0.7,
+        "IC": 2.7
+      },
+      "stakeholders": [
+        "New Zealand government",
+        "Five Eyes nations",
+        "North Korean defense sector",
+        "Russia military",
+        "UN Sanctions Committee"
+      ],
+      "monitoring_indicators": [
+        "Five Eyes sanctions coordination",
+        "DPRK arms exports",
+        "Russia-NK military cooperation",
+        "UN panel findings"
+      ],
+      "content": {
+        "abstract": "NZ sanctioned 7 North Korean defense firms supplying artillery shells, KN-25 rockets to Russia. Five Eyes unified response continues.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "트렌드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-nknews-112",
+      "title": "Ukraine Says North Korean Troops Are Still Carrying Out Strikes from Russia",
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "Russia_Ukraine_war",
+        "international_law",
+        "geopolitical_precedent"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.78,
+        "TC": 0.8,
+        "DC": 0.72,
+        "ES": 3.3,
+        "CC": 0.76,
+        "IC": 3.1
+      },
+      "stakeholders": [
+        "Ukraine HUR",
+        "North Korean troops",
+        "Russia Ministry of Defense",
+        "Western governments",
+        "ICC"
+      ],
+      "monitoring_indicators": [
+        "DPRK troop count in Russia",
+        "casualties",
+        "operational zone changes",
+        "international response"
+      ],
+      "content": {
+        "abstract": "6,000-8,000 DPRK troops remain operational in Russia, conducting strikes in Kursk and Zaporizhzhia. Improved North Korean-Russian operational integration noted.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-arstechnica-005",
+      "title": "Feds Issue Emergency Directive for iOS Zero-Day Vulnerabilities in State-Sponsored Operations",
+      "steeps_category": "T",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "cybersecurity",
+        "state_surveillance",
+        "digital_sovereignty"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.82,
+        "TC": 0.85,
+        "DC": 0.75,
+        "ES": 3.7,
+        "CC": 0.8,
+        "IC": 3.5
+      },
+      "stakeholders": [
+        "CISA",
+        "Apple",
+        "Citizen Lab",
+        "NSO Group",
+        "federal agencies",
+        "mobile device users"
+      ],
+      "monitoring_indicators": [
+        "CISA emergency directive compliance",
+        "zero-day exploit prevalence",
+        "NSO Group activity",
+        "Apple patch adoption"
+      ],
+      "content": {
+        "abstract": "Two critical iOS zero-days (CVE-2026-1847, CVE-2026-1848) actively exploited in state-sponsored operations; CISA emergency directive issued. Citizen Lab links to NSO Group architecture.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-apnews-005",
+      "title": "Trump Administration's FDA Vaccine Chief Resigns, Leaving H5N1 Response in Doubt",
+      "steeps_category": "s",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "pandemic_preparedness",
+        "regulatory_integrity",
+        "public_health"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.85,
+        "TC": 0.88,
+        "DC": 0.78,
+        "ES": 4.0,
+        "CC": 0.83,
+        "IC": 3.9
+      },
+      "stakeholders": [
+        "FDA",
+        "RFK Jr.",
+        "HHS",
+        "vaccine manufacturers",
+        "public health community",
+        "WHO"
+      ],
+      "monitoring_indicators": [
+        "FDA CBER leadership status",
+        "H5N1 vaccine production orders",
+        "mRNA manufacturing capacity",
+        "WHO coordination"
+      ],
+      "content": {
+        "abstract": "FDA vaccine chief resigned second time; CBER leadership vacuum during H5N1 Phase 3 WHO alert. $3.2B manufacturing investments frozen.",
+        "language": "en"
+      },
+      "steeps_category_ko": "s",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-arstechnica-010",
+      "title": "EV Battery Thermal Resilience Under Climate Stress Better Than Previously Modeled",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "clean_energy_transition",
+        "EV_adoption",
+        "climate_adaptation"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.72,
+        "TC": 0.75,
+        "DC": 0.65,
+        "ES": 2.9,
+        "CC": 0.7,
+        "IC": 2.8
+      },
+      "stakeholders": [
+        "EV manufacturers",
+        "Stanford researchers",
+        "developing economy governments",
+        "climate investors"
+      ],
+      "monitoring_indicators": [
+        "LFP battery market share",
+        "EV adoption in hot climates",
+        "solid-state battery commercialization"
+      ],
+      "content": {
+        "abstract": "Stanford Nature Energy study: LFP/solid-state EV batteries degrade only 12-18% under 2100 RCP 8.5 scenarios vs earlier 35-40% estimates. Opens EV markets in hot regions.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E_Environmental",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-ft-003",
+      "title": "Global Bonds Suffer One of Worst Routs in Years Amid War Premium Surge",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "financial_stability",
+        "interest_rates",
+        "geopolitical_risk_premium"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "RED",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.92,
+        "TC": 0.94,
+        "DC": 0.88,
+        "ES": 4.8,
+        "CC": 0.91,
+        "IC": 4.7
+      },
+      "stakeholders": [
+        "bond markets",
+        "Bank of Japan",
+        "Federal Reserve",
+        "sovereign debt managers",
+        "pension funds"
+      ],
+      "monitoring_indicators": [
+        "10Y UST yield",
+        "Bund yield",
+        "JGB 1.5% ceiling defense",
+        "global bond market value",
+        "credit spreads"
+      ],
+      "content": {
+        "abstract": "10Y UST yield +28bp to 5.18% in single day; Bund at 3.2%; BoJ emergency $42B JGB purchases. Global bonds lost $2.1T in value in single session.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-nytimes-024",
+      "title": "NASA's DART Mission Confirms Asteroid Orbit Changed; Planetary Defense Validated",
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H3",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "planetary_defense",
+        "space_technology",
+        "existential_risk_reduction"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.7,
+        "TC": 0.72,
+        "DC": 0.62,
+        "ES": 2.8,
+        "CC": 0.68,
+        "IC": 2.7
+      },
+      "stakeholders": [
+        "NASA",
+        "ESA",
+        "international space agencies",
+        "asteroid mining industry"
+      ],
+      "monitoring_indicators": [
+        "Hera mission results",
+        "Sentry-II PHO catalog",
+        "planetary defense budget",
+        "international coordination"
+      ],
+      "content": {
+        "abstract": "DART permanently altered Dimorphos orbit by 33 minutes (vs 10-min target). Kinetic impactor validated as planetary defense. Sentry-II now monitors 2,197 PHOs.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H3 (7년+)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-apnews-116",
+      "title": "Legal Fight Over SpaceX Beach Closures Hits Texas Supreme Court",
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "space_commercialization",
+        "environmental_regulation",
+        "public_access"
+      ],
+      "geographic_scope": "us",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.62,
+        "TC": 0.65,
+        "DC": 0.55,
+        "ES": 2.3,
+        "CC": 0.6,
+        "IC": 2.2
+      },
+      "stakeholders": [
+        "SpaceX",
+        "Texas Supreme Court",
+        "environmental groups",
+        "local residents",
+        "NASA Artemis program"
+      ],
+      "monitoring_indicators": [
+        "Texas Supreme Court ruling",
+        "Starship launch frequency",
+        "SpaceX regulatory framework",
+        "Artemis timeline"
+      ],
+      "content": {
+        "abstract": "Texas Supreme Court to rule on SpaceX beach closure authority at Boca Chica — precedent for commercial space regulation. SpaceX targeting 36 Starship missions/year by 2027.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-mk-028",
+      "title": "Korea's Income Growth Stalled: Productivity Trap, Weak Won, Investment Deficit",
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "Korea_economy",
+        "competitiveness",
+        "structural_reform"
+      ],
+      "geographic_scope": "korea",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.75,
+        "TC": 0.78,
+        "DC": 0.68,
+        "ES": 3.1,
+        "CC": 0.73,
+        "IC": 2.9
+      },
+      "stakeholders": [
+        "Korean government",
+        "OECD",
+        "Korean conglomerates",
+        "workers",
+        "Bank of Korea"
+      ],
+      "monitoring_indicators": [
+        "Korea GNI per capita growth",
+        "productivity index",
+        "KRW/USD",
+        "non-semiconductor investment"
+      ],
+      "content": {
+        "abstract": "Korea's per-capita GNI growth fell to 0.8% in 2025 (OECD 2nd lowest). Japan-style productivity trap risk identified. Semiconductor sector masking broader stagnation.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "트렌드",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-mt-007",
+      "title": "Korea's Gender Equality Minister: Glass Ceiling Remains Thick, 30% Board Mandate by 2028",
+      "steeps_category": "S",
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "gender_equality",
+        "corporate_governance",
+        "social_reform"
+      ],
+      "geographic_scope": "korea",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.65,
+        "TC": 0.68,
+        "DC": 0.58,
+        "ES": 2.4,
+        "CC": 0.63,
+        "IC": 2.3
+      },
+      "stakeholders": [
+        "Korean Ministry of Gender Equality",
+        "listed companies",
+        "working women",
+        "corporate boards",
+        "WEF"
+      ],
+      "monitoring_indicators": [
+        "Korea WEF gender gap rank",
+        "female board share",
+        "equal pay compliance",
+        "corporate governance reforms"
+      ],
+      "content": {
+        "abstract": "Korea WEF Gender Gap rank 105/146; female board ratio 6.1%. 30% female board mandate for 1000+ employee firms by 2028 announced.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "S",
+      "fssf_type_ko": "트렌드",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-mt-076",
+      "title": "Arctic Rivers Turning Orange: Permafrost Tipping Point, +0.3°C by 2100",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Discontinuity",
+      "horizon": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "Arctic_ecosystem",
+        "climate_feedback",
+        "freshwater",
+        "methane_release"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.8,
+        "TC": 0.82,
+        "DC": 0.73,
+        "ES": 3.7,
+        "CC": 0.78,
+        "IC": 3.5
+      },
+      "stakeholders": [
+        "Arctic nations",
+        "Indigenous communities",
+        "climate scientists",
+        "IPCC",
+        "fisheries"
+      ],
+      "monitoring_indicators": [
+        "Arctic river heavy metal levels",
+        "permafrost thaw depth",
+        "methane flux rates",
+        "freshwater ecosystem health"
+      ],
+      "content": {
+        "abstract": "75+ Arctic rivers turning orange due to permafrost thaw releasing Fe/Zn at 10x baseline. Overlooked climate tipping point: +0.1-0.3°C additional by 2100.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "E_Environmental",
+      "fssf_type_ko": "불연속",
+      "horizon_ko": "H3 (7년+)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-japantimes-026",
+      "title": "Japan and Canada Establish Economic Security Dialogue on Critical Minerals, Semiconductors",
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "supply_chain_resilience",
+        "critical_minerals",
+        "semiconductor_security"
+      ],
+      "geographic_scope": "regional",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.72,
+        "TC": 0.74,
+        "DC": 0.63,
+        "ES": 2.8,
+        "CC": 0.7,
+        "IC": 2.6
+      },
+      "stakeholders": [
+        "Japan government",
+        "Canada government",
+        "semiconductor companies",
+        "rare earth miners",
+        "Chinese exporters"
+      ],
+      "monitoring_indicators": [
+        "Canada-Japan trade volume",
+        "critical mineral supply diversification",
+        "export control lists",
+        "investment screening"
+      ],
+      "content": {
+        "abstract": "Japan-Canada bilateral Economic Security Dialogue: joint investment screening, shared export controls, Canada rare earths for Japan semiconductor manufacturing.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "트렌드",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-bbc-010",
+      "title": "Tory Peer Quits After Lords Investigation Into COVID-19 PPE Procurement Deals",
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "UK_political_accountability",
+        "emergency_procurement_reform",
+        "corruption"
+      ],
+      "geographic_scope": "uk",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.6,
+        "TC": 0.63,
+        "DC": 0.53,
+        "ES": 2.1,
+        "CC": 0.58,
+        "IC": 2.0
+      },
+      "stakeholders": [
+        "House of Lords",
+        "Conservative Party",
+        "UK public",
+        "PAC",
+        "procurement reform advocates"
+      ],
+      "monitoring_indicators": [
+        "Lords Standards investigations",
+        "PPE inquiry outcomes",
+        "emergency procurement rule changes"
+      ],
+      "content": {
+        "abstract": "Conservative peer resigned after Lords Standards found improper influence over £340M in COVID PPE procurement. £9B PPE waste inquiry report pending.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-rt-058",
+      "title": "Nepal Holds First General Elections Since 'Gen Z Protests' That Toppled Government",
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "Gen_Z_politics",
+        "democratic_renewal",
+        "governance_transformation"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.65,
+        "TC": 0.68,
+        "DC": 0.58,
+        "ES": 2.4,
+        "CC": 0.63,
+        "IC": 2.3
+      },
+      "stakeholders": [
+        "Nepali youth",
+        "Inuit Ataqatigiit-equivalent parties",
+        "UN electoral monitors",
+        "Gen Z globally",
+        "traditional parties"
+      ],
+      "monitoring_indicators": [
+        "Nepal election outcomes",
+        "Gen Z party performance globally",
+        "governance quality index",
+        "protest-to-power conversion"
+      ],
+      "content": {
+        "abstract": "Nepal's first elections post-Gen Z uprising: 68% voter turnout, youth-oriented parties 41% seats. Signals successful Gen Z democratic activism → institutional governance translation.",
+        "language": "ru"
+      },
+      "steeps_category_ko": "S",
+      "fssf_type_ko": "약신호",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-elfinanciero-034",
+      "title": "Mexico's Military Deployed to Cartel Funeral Sparks State-Cartel Relationship Controversy",
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "Mexico_security",
+        "governance",
+        "state_capture"
+      ],
+      "geographic_scope": "latam",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.63,
+        "TC": 0.66,
+        "DC": 0.56,
+        "ES": 2.3,
+        "CC": 0.61,
+        "IC": 2.2
+      },
+      "stakeholders": [
+        "Mexican government",
+        "CJNG cartel",
+        "civil society",
+        "Congress",
+        "US DEA"
+      ],
+      "monitoring_indicators": [
+        "Mexico cartel territorial control",
+        "Sheinbaum approval",
+        "military-cartel incidents",
+        "US extradition cooperation"
+      ],
+      "content": {
+        "abstract": "500 Mexican federal troops deployed to CJNG cartel leader's funeral. Sheinbaum security strategy of 'security pacts' faces credibility crisis.",
+        "language": "es"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-aitimes-027",
+      "title": "Korea AI Infrastructure: KRW 12 Trillion Plan to Double AI Compute to 4.5 EFLOPS by 2027",
+      "steeps_category": "T",
+      "fssf_type": "Driver",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "AI_infrastructure",
+        "Korea_tech_competitiveness",
+        "semiconductor"
+      ],
+      "geographic_scope": "korea",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.75,
+        "TC": 0.77,
+        "DC": 0.67,
+        "ES": 3.0,
+        "CC": 0.73,
+        "IC": 2.9
+      },
+      "stakeholders": [
+        "MSIT",
+        "Samsung",
+        "SK Telecom",
+        "KT",
+        "LG CNS",
+        "Korean AI ecosystem"
+      ],
+      "monitoring_indicators": [
+        "Korea AI compute capacity",
+        "data center construction",
+        "GPU cluster deployments",
+        "Korea AI talent retention"
+      ],
+      "content": {
+        "abstract": "Korea MSIT: KRW 12T AI infrastructure plan, 2.1→4.5 EFLOPS by 2027. Response to Japan $15B and Taiwan TSMC AI ecosystem competition.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-globeandmail-066",
+      "title": "Saudi Aramco Activates Emergency Crude Reserves as Hormuz Disruption Enters Week 2",
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "global_energy_supply",
+        "oil_price",
+        "IEA_coordination"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "RED",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.93,
+        "TC": 0.95,
+        "DC": 0.89,
+        "ES": 4.9,
+        "CC": 0.92,
+        "IC": 4.8
+      },
+      "stakeholders": [
+        "Saudi Aramco",
+        "IEA",
+        "UAE",
+        "Kuwait",
+        "oil importing nations",
+        "global shipping"
+      ],
+      "monitoring_indicators": [
+        "IPSA pipeline throughput",
+        "IEA SPR release volumes",
+        "Brent crude price",
+        "OPEC+ emergency coordination"
+      ],
+      "content": {
+        "abstract": "Saudi Aramco activated emergency reserves (first time since 2022); Brent >$120. IPSA pipeline covers only 40% of Hormuz throughput. IEA emergency meeting March 8.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-arstechnica-001",
+      "title": "NASA's Exploration Upper Stage Cancelled; Artemis III Moon Landing in Jeopardy",
+      "steeps_category": "T",
+      "fssf_type": "Discontinuity",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "space_exploration",
+        "US_science_policy",
+        "NASA_commercialization"
+      ],
+      "geographic_scope": "us",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.72,
+        "TC": 0.75,
+        "DC": 0.65,
+        "ES": 3.0,
+        "CC": 0.7,
+        "IC": 2.8
+      },
+      "stakeholders": [
+        "NASA",
+        "DOGE",
+        "Congress (Alabama)",
+        "traditional aerospace contractors",
+        "commercial space sector"
+      ],
+      "monitoring_indicators": [
+        "Artemis III timeline",
+        "SLS Block 1B status",
+        "NASA commercial contracts",
+        "Congressional override attempts"
+      ],
+      "content": {
+        "abstract": "EUS cancellation saves $4.2B but jeopardizes 2027 Artemis III. DOGE-driven budget choice: EUS vs Human Landing System. Congress vs. commercial-first advocates clash.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "불연속",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-lemonde-001",
+      "title": "France Deploys Charles de Gaulle Carrier Strike Group to Eastern Mediterranean",
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "European_defense",
+        "NATO_dynamics",
+        "transatlantic_relations"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.85,
+        "TC": 0.88,
+        "DC": 0.78,
+        "ES": 4.0,
+        "CC": 0.83,
+        "IC": 3.8
+      },
+      "stakeholders": [
+        "France",
+        "NATO",
+        "European allies",
+        "US",
+        "Iran",
+        "G7"
+      ],
+      "monitoring_indicators": [
+        "French military deployments",
+        "EU-NATO coordination",
+        "G7 emergency session",
+        "US-Europe diplomatic tensions"
+      ],
+      "content": {
+        "abstract": "France CDG carrier strike group deployed to Eastern Mediterranean under Article 5 contingency. EU-US split over unilateral US-Iran war action without NATO authorization.",
+        "language": "fr"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-politico-012",
+      "title": "DOGE Eliminates 38,000 Federal Science Positions in 60 Days; Brain Drain Accelerates",
+      "steeps_category": "T",
+      "fssf_type": "Discontinuity",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "US_research_capacity",
+        "pandemic_preparedness",
+        "scientific_competitiveness"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.83,
+        "TC": 0.86,
+        "DC": 0.76,
+        "ES": 3.9,
+        "CC": 0.81,
+        "IC": 3.7
+      },
+      "stakeholders": [
+        "NIH",
+        "NSF",
+        "NOAA",
+        "EPA",
+        "academic research community",
+        "EU/China recruitment",
+        "pharmaceutical industry"
+      ],
+      "monitoring_indicators": [
+        "federal R&D grant count",
+        "NIH disease surveillance capacity",
+        "H5N1 monitoring effectiveness",
+        "international researcher recruitment"
+      ],
+      "content": {
+        "abstract": "DOGE cut 38,000 federal scientists (31% of R&D workforce), halted 4,200 grants. NIH infectious disease preparedness dismantled during H5N1 Phase 3. EU/China recruiting displaced researchers.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "불연속",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-washingtonpost-024",
+      "title": "India Crosses 200 GW Solar, Third Largest Globally — 7 Years Ahead of Schedule",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Driver",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "clean_energy_transition",
+        "emerging_market_energy",
+        "global_solar_industry"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.75,
+        "TC": 0.77,
+        "DC": 0.67,
+        "ES": 3.1,
+        "CC": 0.73,
+        "IC": 2.9
+      },
+      "stakeholders": [
+        "India MNRE",
+        "Adani Solar",
+        "ReNew Power",
+        "developing economy energy planners",
+        "global solar investors"
+      ],
+      "monitoring_indicators": [
+        "India solar installed capacity",
+        "grid curtailment rate",
+        "India utility-scale solar cost",
+        "Global South solar adoption"
+      ],
+      "content": {
+        "abstract": "India: 200GW solar installed (3rd globally after China/US); $0.012/kWh unsubsidized. Model for developing economy energy transition. 15-20% curtailment due to grid gaps.",
+        "language": "en"
+      },
+      "steeps_category_ko": "E_Environmental",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-scmp-022",
+      "title": "DeepMind AlphaFold3: 94% Protein-Ligand Accuracy Opens Computational Drug Design Era",
+      "steeps_category": "T",
+      "fssf_type": "Driver",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "AI_in_biotech",
+        "drug_discovery",
+        "healthcare_disruption"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.83,
+        "TC": 0.85,
+        "DC": 0.75,
+        "ES": 3.8,
+        "CC": 0.81,
+        "IC": 3.7
+      },
+      "stakeholders": [
+        "Google DeepMind",
+        "pharma industry",
+        "AstraZeneca",
+        "Roche",
+        "Novartis",
+        "Chinese biotech"
+      ],
+      "monitoring_indicators": [
+        "AlphaFold3 adoption rate",
+        "drug discovery pipeline timelines",
+        "patent filings",
+        "clinical trial acceleration"
+      ],
+      "content": {
+        "abstract": "AlphaFold3: 94% protein-ligand complex prediction accuracy. Drug discovery timelines: 5-7yr → 18-24mo. Antibody-antigen prediction for vaccine design. Chinese biotech rapid adoption.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-hankyung-007",
+      "title": "SK Hynix HBM4 Mass Production Accelerated; Nvidia H200X Supply Secured for Q3 2026",
+      "steeps_category": "T",
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "AI_hardware",
+        "semiconductor_supply_chain",
+        "Korea_tech"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.82,
+        "TC": 0.84,
+        "DC": 0.74,
+        "ES": 3.7,
+        "CC": 0.8,
+        "IC": 3.6
+      },
+      "stakeholders": [
+        "SK Hynix",
+        "Nvidia",
+        "AI training cluster operators",
+        "TSMC",
+        "Samsung"
+      ],
+      "monitoring_indicators": [
+        "HBM4 production volume",
+        "Nvidia H200X availability",
+        "AI training cost per FLOP",
+        "Korea semiconductor market share"
+      ],
+      "content": {
+        "abstract": "SK Hynix HBM4 production advanced 2 quarters. HBM4: 1.2TB/s bandwidth, 25% less power vs HBM3E. Secures Nvidia H200X supply for Q3 2026 AI training cluster demand.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-zdnet_kr-003",
+      "title": "Korea AI Volcanic Early Warning System for Baekdu Mountain; 72-Hour Eruption Prediction",
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "disaster_preparedness",
+        "AI_geophysics",
+        "Northeast_Asia_security"
+      ],
+      "geographic_scope": "regional",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.7,
+        "TC": 0.73,
+        "DC": 0.62,
+        "ES": 2.7,
+        "CC": 0.68,
+        "IC": 2.6
+      },
+      "stakeholders": [
+        "Korea KMA",
+        "KAIST",
+        "North Korea",
+        "China",
+        "aviation authorities",
+        "Northeast Asian governments"
+      ],
+      "monitoring_indicators": [
+        "Baekdu seismic activity",
+        "InSAR deformation data",
+        "AI model accuracy",
+        "emergency protocol activation"
+      ],
+      "content": {
+        "abstract": "Korea KMA: AI volcanic monitoring for Baekdu Mountain (72-hr eruption warning). KAIST InSAR + seismic + gas sensor fusion. Elevated Baekdu seismicity since 2023.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-handelsblatt-001",
+      "title": "Germany's €200 Billion Sondervermögen: Debt Brake Bypass for Defense and Infrastructure",
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "European_defense",
+        "German_fiscal_policy",
+        "EU_security"
+      ],
+      "geographic_scope": "europe",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.82,
+        "TC": 0.84,
+        "DC": 0.74,
+        "ES": 3.8,
+        "CC": 0.8,
+        "IC": 3.6
+      },
+      "stakeholders": [
+        "CDU/SPD coalition",
+        "Bundesbank",
+        "NATO",
+        "EU Commission",
+        "German defense industry"
+      ],
+      "monitoring_indicators": [
+        "German defense budget % GDP",
+        "Sondervermögen deployment timeline",
+        "EU fiscal framework response",
+        "German military readiness"
+      ],
+      "content": {
+        "abstract": "Germany CDU/SPD: €200B Sondervermögen bypassing debt brake. €120B defense (→3% GDP), €50B digital/green, €30B housing. Germany's largest fiscal shift since reunification.",
+        "language": "de"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "불연속",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-apnews-084",
+      "title": "WHO Raises H5N1 to Phase 3 Global Alert After US Human-to-Human Transmission",
+      "steeps_category": "s",
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "pandemic_risk",
+        "global_health",
+        "vaccine_supply"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "RED",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.92,
+        "TC": 0.94,
+        "DC": 0.87,
+        "ES": 4.8,
+        "CC": 0.91,
+        "IC": 4.7
+      },
+      "stakeholders": [
+        "WHO",
+        "CDC",
+        "FDA",
+        "vaccine manufacturers",
+        "dairy farm workers",
+        "global health community"
+      ],
+      "monitoring_indicators": [
+        "H5N1 human case count",
+        "WHO alert level",
+        "mRNA H5N1 vaccine production",
+        "human-to-human cluster size"
+      ],
+      "content": {
+        "abstract": "WHO H5N1 Phase 3 alert: 47 US human cases Q1 2026 (vs 8 all 2025). Iowa/Kansas/Nebraska dairy clusters confirmed h2h. FDA CBER leadership vacuum during critical vaccine decision window.",
+        "language": "en"
+      },
+      "steeps_category_ko": "s",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-elfinanciero-037",
+      "title": "Mexico 2026 Midterms: Electoral Reform Demands, Digital Voting Integrity Concerns",
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "Mexico_democracy",
+        "digital_voting",
+        "electoral_integrity"
+      ],
+      "geographic_scope": "latam",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.62,
+        "TC": 0.65,
+        "DC": 0.55,
+        "ES": 2.3,
+        "CC": 0.6,
+        "IC": 2.2
+      },
+      "stakeholders": [
+        "Green Party",
+        "Morena",
+        "INE",
+        "Sheinbaum",
+        "civil society",
+        "international observers"
+      ],
+      "monitoring_indicators": [
+        "INE budget",
+        "digital voting audit results",
+        "June 2026 turnout",
+        "electoral reform progress"
+      ],
+      "content": {
+        "abstract": "Mexico Green Party demands electoral reform: hybrid ballots, independent audit for digital voting. INE budget cut 40%. June 2026 midterms test Morena dominance.",
+        "language": "es"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-lemonde-015",
+      "title": "EU Activates Energy Emergency Protocol Amid Hormuz Crisis; Calls Renewable Scale-Up Imperative",
+      "steeps_category": "E",
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "EU_energy_security",
+        "renewable_acceleration",
+        "geopolitical_energy_dependence"
+      ],
+      "geographic_scope": "europe",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.86,
+        "TC": 0.88,
+        "DC": 0.78,
+        "ES": 3.9,
+        "CC": 0.84,
+        "IC": 3.7
+      },
+      "stakeholders": [
+        "EU Commission",
+        "member states",
+        "Qatar Energy",
+        "LNG terminal operators",
+        "renewable energy industry"
+      ],
+      "monitoring_indicators": [
+        "EU gas reserve levels",
+        "LNG import diversification",
+        "EU renewable capacity additions",
+        "Energy Emergency Protocol triggers"
+      ],
+      "content": {
+        "abstract": "EU Energy Emergency Protocol activated (first since 2022 Russia-Ukraine crisis). EU gets 18% LNG via Hormuz/Qatar. Renewable scale-up framed as 'geopolitical imperative.'",
+        "language": "fr"
+      },
+      "steeps_category_ko": "E",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-hani-012",
+      "title": "Korea Constitutional Court Expected to Rule on Yoon Impeachment in 2 Weeks",
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "Korea_politics",
+        "democratic_consolidation",
+        "presidential_elections"
+      ],
+      "geographic_scope": "korea",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.86,
+        "TC": 0.88,
+        "DC": 0.79,
+        "ES": 4.0,
+        "CC": 0.84,
+        "IC": 3.8
+      },
+      "stakeholders": [
+        "Constitutional Court",
+        "Yoon Suk-yeol",
+        "Korean voters",
+        "opposition parties",
+        "Korean military"
+      ],
+      "monitoring_indicators": [
+        "Constitutional Court ruling date",
+        "early election polls",
+        "Korean political stability index",
+        "foreign investment response"
+      ],
+      "content": {
+        "abstract": "Korean Constitutional Court: Yoon impeachment ruling within 2 weeks. Conviction triggers 60-day early election. 64% public support removal. Energy/geopolitical crises simultaneous backdrop.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-washingtonpost-031",
+      "title": "Greenland Independence Party Wins Snap Elections Amid US-Denmark Arctic Competition",
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "Arctic_sovereignty",
+        "geopolitical_competition",
+        "indigenous_rights"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.73,
+        "TC": 0.76,
+        "DC": 0.65,
+        "ES": 3.0,
+        "CC": 0.71,
+        "IC": 2.8
+      },
+      "stakeholders": [
+        "Greenlandic Inuit",
+        "US",
+        "Denmark",
+        "EU",
+        "China",
+        "Russia",
+        "Arctic Council"
+      ],
+      "monitoring_indicators": [
+        "Greenland independence referendum timeline",
+        "US-Denmark Arctic investment",
+        "Arctic shipping lanes usage",
+        "ice extent"
+      ],
+      "content": {
+        "abstract": "Inuit Ataqatigiit won snap elections (41%). US $4B vs Denmark €3B competing sovereignty packages. Arctic shipping + resources competition intensifying amid ice loss.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "약신호",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-sciencetimes-005",
+      "title": "KAIST Claims Room-Temperature Superconductor at 28°C; MIT/CERN Replication Pending",
+      "steeps_category": "T",
+      "fssf_type": "Wild Card",
+      "horizon": "H3",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "positive",
+      "impact_domains": [
+        "physics_breakthrough",
+        "energy_transmission",
+        "computing",
+        "transportation"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.82,
+        "TC": 0.85,
+        "DC": 0.74,
+        "ES": 4.5,
+        "CC": 0.8,
+        "IC": 4.3
+      },
+      "stakeholders": [
+        "KAIST",
+        "MIT",
+        "CERN",
+        "KEK",
+        "power utilities",
+        "quantum computing industry",
+        "transportation sector"
+      ],
+      "monitoring_indicators": [
+        "MIT/CERN replication status",
+        "peer review completion",
+        "Meissner effect verification",
+        "independent replication count"
+      ],
+      "content": {
+        "abstract": "KAIST preprint: room-temperature superconductor at 28°C/ambient pressure. Modified LK-99 Cu-H-Lu compound. Meissner effect + zero resistance in preliminary tests. Expedited peer review + MIT/CERN/KEK replication planned.",
+        "language": "ko"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H3 (7년+)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-nknews-089",
+      "title": "North Korea Launches First Domestic Satellite Internet Service",
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "DPRK_digitalization",
+        "military_C2",
+        "North_Korea_modernization"
+      ],
+      "geographic_scope": "regional",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Flickering",
+      "psst_dimensions": {
+        "SR": 0.74,
+        "TC": 0.77,
+        "DC": 0.66,
+        "ES": 3.1,
+        "CC": 0.72,
+        "IC": 2.9
+      },
+      "stakeholders": [
+        "Kim Jong Un",
+        "DPRK military",
+        "Russia tech providers",
+        "South Korea intelligence",
+        "UN Sanctions Committee"
+      ],
+      "monitoring_indicators": [
+        "DPRK satellite internet coverage",
+        "Malligyong-3 launch",
+        "military C2 capability improvement",
+        "sanctions evasion mechanisms"
+      ],
+      "content": {
+        "abstract": "DPRK launched domestic satellite internet using Malligyong-2 tech + Russian assistance. Targets agricultural coordination + military comms. Dual-use C2 capability for DPRK forces in Russia.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-washingtonpost-044",
+      "title": "Amazon Project Olympus Claims AGI by 2027; $10B Internal Investment Sought",
+      "steeps_category": "T",
+      "fssf_type": "Wild Card",
+      "horizon": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "AGI_race",
+        "AI_disruption",
+        "regulatory_challenge",
+        "national_security"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.88,
+        "TC": 0.9,
+        "DC": 0.81,
+        "ES": 4.5,
+        "CC": 0.86,
+        "IC": 4.3
+      },
+      "stakeholders": [
+        "Amazon",
+        "OpenAI",
+        "Google",
+        "US Congress",
+        "AI safety community",
+        "national security agencies"
+      ],
+      "monitoring_indicators": [
+        "Project Olympus milestones",
+        "Trainium3 chip production",
+        "AGI benchmark results",
+        "US AI national security reviews"
+      ],
+      "content": {
+        "abstract": "Amazon Project Olympus: $10B sought, 1-exaFLOP training run on Trainium3, human-level reasoning by late 2027 claimed. Most aggressive AGI timeline in industry. Regulatory + national security implications.",
+        "language": "en"
+      },
+      "steeps_category_ko": "T",
+      "fssf_type_ko": "와일드 카드",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "높음"
+    },
+    {
+      "id": "news-20260307-politico-031",
+      "title": "EU Parliament Approves AI Liability Directive — 4% Revenue Fines for AI Harm",
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "horizon": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "AI_governance",
+        "EU_digital_regulation",
+        "AI_liability"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.83,
+        "TC": 0.85,
+        "DC": 0.75,
+        "ES": 3.9,
+        "CC": 0.81,
+        "IC": 3.7
+      },
+      "stakeholders": [
+        "EU Parliament",
+        "US tech companies",
+        "EU startups",
+        "AI safety advocates",
+        "Chinese AI companies"
+      ],
+      "monitoring_indicators": [
+        "AI Liability Directive enforcement",
+        "US AI company compliance",
+        "AI incident registry filings",
+        "EU-US regulatory divergence"
+      ],
+      "content": {
+        "abstract": "EU AI Liability Directive passed (412 votes): 4% global revenue fines for AI harm in high-risk applications. AI incident registries required. US tech warns of China competitive advantage.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "동인",
+      "horizon_ko": "H2 (2-7년)",
+      "uncertainty_level_ko": "낮음"
+    },
+    {
+      "id": "news-20260307-globeandmail-073",
+      "title": "US House Judiciary Votes to Subpoena AG Bondi Over Epstein Files; Bipartisan Break",
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_domains": [
+        "US_political_accountability",
+        "executive_privilege",
+        "DOJ_independence"
+      ],
+      "geographic_scope": "us",
+      "tipping_point_alert": "GREEN",
+      "tipping_point_type": null,
+      "psst_dimensions": {
+        "SR": 0.62,
+        "TC": 0.65,
+        "DC": 0.55,
+        "ES": 2.3,
+        "CC": 0.6,
+        "IC": 2.2
+      },
+      "stakeholders": [
+        "House Judiciary Committee",
+        "AG Pam Bondi",
+        "Biden DOJ",
+        "Democratic Party",
+        "4 Republican dissenters"
+      ],
+      "monitoring_indicators": [
+        "Bondi subpoena compliance",
+        "executive privilege claim",
+        "Epstein file contents",
+        "bipartisan coalition growth"
+      ],
+      "content": {
+        "abstract": "House Judiciary 22-15 subpoena vote for AG Bondi re: Epstein files. 4 Republicans cross party lines. Constitutional executive privilege clash expected.",
+        "language": "en"
+      },
+      "steeps_category_ko": "P",
+      "fssf_type_ko": "이머징 이슈",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "중간"
+    },
+    {
+      "id": "news-20260307-nytimes-006",
+      "title": "FDA Vaccine Leadership Crisis: 3 Officials Resign Simultaneously, H5N1 Response Paralyzed",
+      "steeps_category": "s",
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_domains": [
+        "pandemic_preparedness",
+        "US_public_health",
+        "vaccine_supply_chain"
+      ],
+      "geographic_scope": "global",
+      "tipping_point_alert": "RED",
+      "tipping_point_type": "Critical Slowing Down",
+      "psst_dimensions": {
+        "SR": 0.92,
+        "TC": 0.94,
+        "DC": 0.88,
+        "ES": 4.9,
+        "CC": 0.91,
+        "IC": 4.8
+      },
+      "stakeholders": [
+        "FDA CBER",
+        "RFK Jr.",
+        "HHS",
+        "vaccine manufacturers",
+        "WHO",
+        "CDC"
+      ],
+      "monitoring_indicators": [
+        "CBER leadership appointments",
+        "H5N1 vaccine production timeline",
+        "mRNA stockpile orders",
+        "WHO Phase 3 response coordination"
+      ],
+      "content": {
+        "abstract": "3 FDA CBER top officials resigned in 48 hours during WHO H5N1 Phase 3. RFK Jr. pressure over mRNA reviews. $3.2B vaccine manufacturing decisions frozen. 'Dangerous at worst possible time.'",
+        "language": "en"
+      },
+      "steeps_category_ko": "s",
+      "fssf_type_ko": "전조 사건",
+      "horizon_ko": "H1 (0-2년)",
+      "uncertainty_level_ko": "높음"
+    }
+  ]
+}

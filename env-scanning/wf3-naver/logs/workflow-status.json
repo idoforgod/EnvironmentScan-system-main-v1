@@ -1,0 +1,64 @@
+{
+  "workflow_id": "wf3-naver-2026-03-09",
+  "workflow_name": "Naver News Environmental Scanning",
+  "data_root": "env-scanning/wf3-naver",
+  "status": "completed",
+  "current_phase": 3,
+  "current_step": "3.5",
+  "started_at": "2026-03-09T00:17:00+00:00",
+  "completed_at": "2026-03-09T00:28:14.307236+00:00",
+  "parameters": {
+    "scan_window": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-03-07T15:00:00+00:00",
+      "window_end": "2026-03-09T15:00:00+00:00"
+    }
+  },
+  "execution_mode": "integrated",
+  "bilingual": {
+    "language": "en",
+    "report_skeleton": ".claude/skills/env-scanner/references/naver-report-skeleton-en.md",
+    "validate_profile": "naver_en"
+  },
+  "human_decisions": {
+    "step_2_5": {
+      "decision": "auto-approved",
+      "timestamp": "2026-03-09T00:28:14.308146+00:00",
+      "reason": "AUTOPILOT: STEEPs + FSSF classification reasonable"
+    },
+    "step_3_4": {
+      "decision": "auto-approved",
+      "timestamp": "2026-03-09T00:28:14.308148+00:00",
+      "reason": "L2a 20/20 PASS (0 CRITICAL, 0 ERROR)"
+    }
+  },
+  "phase_results": {
+    "phase1": {
+      "status": "completed",
+      "raw_signals": 270,
+      "after_dedup": 251
+    },
+    "phase2": {
+      "status": "completed",
+      "classified": 251,
+      "steeps_distribution": {
+        "T": 70,
+        "P": 66,
+        "S": 43,
+        "E": 36,
+        "s": 22,
+        "E_env": 14
+      }
+    },
+    "phase3": {
+      "status": "completed",
+      "db_updated": true,
+      "db_total": 753,
+      "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-09.md",
+      "validation_l2a": "20/20 PASS",
+      "archived": true
+    }
+  }
+}

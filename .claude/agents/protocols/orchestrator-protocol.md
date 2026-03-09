@@ -8,8 +8,8 @@ for VEV, Pipeline Gates, Retry logic, and Verification Report structure.
 
 **Referenced by**: All workflow orchestrators via `system.execution.protocol` in workflow-registry.yaml.
 
-**Version**: 2.3.0
-**Last Updated**: 2026-03-01
+**Version**: 3.3.0
+**Last Updated**: 2026-03-09
 
 ---
 
@@ -126,11 +126,23 @@ Pipeline_Gate_1:  # Phase 1 → Phase 2
 
 Pipeline_Gate_2:  # Phase 2 → Phase 3
   trigger: After Phase 2 complete (after Step 2.5 human approval)
+  enforcement: MANDATORY
+  script: >
+    python3 env-scanning/scripts/validate_phase2_output.py
+    --sot {SOT_PATH} --workflow {WORKFLOW_NAME} --date {SCAN_DATE} --json
+  exit_code_0: proceed to Phase 3
+  exit_code_1: HALT (CRITICAL failures — invalid enumerations or ranges)
+  exit_code_2: WARN (ERROR-level issues — count mismatches)
   checks:
-    - signal_count_match: "classified count == impact-assessed count == priority-ranked count"
-    - score_range_valid: "all priority_score in [0, 10], all impact_score in [-5, +5]"
+    - pg2_001_steeps_validity: "STEEPs category ∈ valid codes (Python-enforced)"
+    - pg2_002_impact_range: "impact_score ∈ [-10.0, +10.0] (Python-enforced)"
+    - pg2_003_priority_range: "priority_score ∈ [0.0, 10.0] (Python-enforced)"
+    - pg2_004_fssf_validity: "FSSF type ∈ 8 canonical types (WF3/WF4 only, Python-enforced)"
+    - pg2_005_three_horizons: "Three Horizons ∈ {H1, H2, H3} (WF3/WF4 only, Python-enforced)"
+    - pg2_006_tipping_color: "Tipping Point color ∈ {GREEN, YELLOW, ORANGE, RED} (WF3/WF4 only)"
+    - pg2_007_count_consistency: "classified count ≈ impact count ≈ ranked count"
+    - pg2_008_required_fields: "id, title, priority_score, rank exist in all ranked signals"
     - human_approval_recorded: "Step 2.5 decision logged in human_decisions"
-    - analysis_chain_complete: "classified → impact → priority files all exist"
     - psst_minimum_threshold: "all signals have pSST ≥ 30"
     - psst_dimensions_es_cc: "ES, CC dimensions exist for all signals"
     - psst_final_computed: "psst_scores populated for all ranked signals"
@@ -266,7 +278,7 @@ expanded with sub-layers for deeper cross-reference and semantic validation.
 ```
 L1:  Skeleton-Fill Method    — report-skeleton template enforces structure
 L2a: Structural Validation   — validate_report.py (15–20 checks, profile-dependent)
-L2b: Cross-Reference Quality — validate_report_quality.py (13 QC checks)
+L2b: Cross-Reference Quality — validate_report_quality.py (14 QC checks)
 L3:  Semantic Depth Review   — quality-reviewer.md (LLM sub-agent, 3-pass review)
 L4:  Golden Reference        — 9-field signal example in report-generator.md
 ```
@@ -288,7 +300,54 @@ L4:  Golden Reference        — 9-field signal example in report-generator.md
 
 ---
 
+## 8. Phase-Specific Context Loading (v3.2.0 — Context Memory Optimization)
+
+> **Principle**: "에이전트에게 불필요한 정보를 주면, 판단 품질이 저하된다."
+> 각 Phase에서 필요한 데이터만 로딩하여 LLM의 신호 대 잡음 비를 최적화한다.
+
+### Phase 1 (Research) — Required Context
+
+| Data | Source | Purpose |
+|------|--------|---------|
+| sources config | `{sources_config}` | Scan targets |
+| scan window state | `{scan_window_state_file}` | Temporal boundaries |
+| signal DB (recent 7 days) | `{data_root}/signals/database.json` via **RecursiveArchiveLoader** | Dedup baseline |
+| domains config | `env-scanning/config/domains.yaml` | STEEPs keywords |
+
+**DO NOT load**: priority-ranked data, evolution indices, report statistics, integration data
+
+### Phase 2 (Planning) — Required Context
+
+| Data | Source | Purpose |
+|------|--------|---------|
+| classified signals | `{data_root}/structured/classified-signals-{date}.json` | Analysis input |
+| thresholds | `env-scanning/config/thresholds.yaml` | Scoring parameters |
+| shared context (selective) | via **SharedContextManager** — load only `final_classification`, `impact_analysis` | Field-level efficiency |
+
+**DO NOT load**: raw scan data, dedup indexes, archive reports, report skeletons
+
+### Phase 3 (Implementation) — Required Context
+
+| Data | Source | Purpose |
+|------|--------|---------|
+| priority-ranked signals | `{data_root}/analysis/priority-ranked-{date}.json` | Report content |
+| report skeleton | `{report_skeleton}` from SOT | L1 template |
+| report statistics | `{data_root}/reports/report-statistics-{date}.json` | Metadata injection |
+| evolution data | `{data_root}/analysis/evolution/evolution-map-{date}.json` | Timeline context |
+
+**DO NOT load**: raw scan data, sources config, dedup indexes, intermediate classification files
+
+### RLM Module Usage (Mandatory)
+
+- **RecursiveArchiveLoader**: MUST use in Phase 1 for signal DB loading (7-day window, 10-20x reduction)
+- **SharedContextManager**: MUST use in Phase 2 for selective field access (3-5x reduction)
+- Both modules preserve full backward compatibility via legacy methods
+
+---
+
 ## Version History
+- v3.3.0 (2026-03-09): Pipeline Gate 2 Python enforcement (validate_phase2_output.py). 8 deterministic checks (PG2-001~008) replace LLM-only verification. Prevents hallucinated STEEPs codes, out-of-range scores, and invalid FSSF/Horizons/Tipping values from propagating to Phase 3.
+- v3.2.0 (2026-03-09): Added Phase-Specific Context Loading (Section 8). Mandated RecursiveArchiveLoader for Phase 1, SharedContextManager for Phase 2. Context memory optimization for maximum LLM judgment quality.
 - v2.3.0 (2026-03-01): Expanded Report Quality Defense to 4-layer with L2a/L2b/L3 sub-layers. Added quality_review_completed to Pipeline Gate 3. Added multiglobal-news-scan-orchestrator to scope.
 - v2.2.1 (2026-02-10): Added naver-scan-orchestrator to scope. Added temporal_boundary_check (TC-003) to Pipeline Gate 1. Updated version strings.
 - v2.2.0 (2026-02-03): Extracted from env-scan-orchestrator.md as shared protocol

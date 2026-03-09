@@ -288,6 +288,11 @@ workflows:
       exploration_candidates: "exploration/candidates/"
       exploration_history: "exploration/history/"
 
+    # ── Deliverables (v3.2.0) — validate_completion.py reads these patterns ──
+    deliverables:
+      report_en: "environmental-scan-{date}.md"
+      report_ko: "environmental-scan-{date}-ko.md"
+
     parameters:
       marathon_mode: true
       base_only_flag: false
@@ -350,6 +355,11 @@ workflows:
       evolution_index: "signals/evolution-index.json"
       evolution_maps: "analysis/evolution/"
 
+    # ── Deliverables (v3.2.0) ──
+    deliverables:
+      report_en: "environmental-scan-{date}.md"
+      report_ko: "arxiv-scan-{date}-ko.md"
+
     parameters:
       days_back: 14  # DEPRECATED — use scan_window.lookback_hours instead
       max_results_per_category: 50
@@ -399,6 +409,11 @@ workflows:
       evolution_index: "signals/evolution-index.json"
       evolution_maps: "analysis/evolution/"
 
+    # ── Deliverables (v3.2.0) ──
+    deliverables:
+      report_en: "naver-scan-{date}.md"
+      report_ko: "naver-scan-{date}-ko.md"
+
     parameters:
       fssf_classification: true       # FSSF 8-type signal taxonomy
       three_horizons_tagging: true    # H1/H2/H3 time horizon classification
@@ -447,6 +462,11 @@ workflows:
       health: "health/"
       evolution_index: "signals/evolution-index.json"
       evolution_maps: "analysis/evolution/"
+
+    # ── Deliverables (v3.2.0) ──
+    deliverables:
+      report_en: "environmental-scan-{date}.md"
+      report_ko: "environmental-scan-{date}-ko.md"
 
     parameters:
       fssf_classification: true       # FSSF 8-type signal taxonomy
@@ -505,6 +525,12 @@ integration:
 
   integrated_skeleton: ".claude/skills/env-scanner/references/integrated-report-skeleton.md"
   validate_profile: "integrated"
+
+  # ── Deliverables (v3.2.0) ──
+  deliverables:
+    report_en: "integrated-scan-{date}.md"
+    report_ko: "integrated-scan-{date}-ko.md"
+    timeline_map: "timeline-map-{date}.md"
 
   checkpoints:
     final_approval: "required"
@@ -907,6 +933,18 @@ startup_validation:
     - id: "SOT-055"
       check: "quality_defense_scripts_exist"
       description: "All quality defense scripts (validate_report_quality.py, quality-reviewer.md) must exist"
+      severity: "HALT"
+
+    # ── Completion Gate Validation (v3.2.0) ──
+    # NOTE: SOT-056/057 already used by Timeline Map quality defense (v3.1.0).
+    - id: "SOT-058"
+      check: "completion_gate_script_exists"
+      description: "validate_completion.py must exist — Master Gate M4 depends on this script"
+      severity: "HALT"
+
+    - id: "SOT-059"
+      check: "completion_gate_m4_in_orchestrator"
+      description: "Master orchestrator must define Master Gate M4 (Completion Gate) section with validate_completion.py reference"
       severity: "HALT"
 
 # ================================================================

@@ -1,0 +1,1375 @@
+{
+  "scan_metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-03-09",
+    "scan_window": {
+      "start": "2026-03-07T22:36:42.300661+00:00",
+      "end": "2026-03-08T22:36:42.300661+00:00",
+      "lookback_hours": 24
+    },
+    "sources_scanned": 34,
+    "total_signals": 43,
+    "scan_results": {
+      "WHO Press Releases": {
+        "status": "success",
+        "count": 0
+      },
+      "TechCrunch": {
+        "status": "success",
+        "count": 8
+      },
+      "MIT Technology Review": {
+        "status": "success",
+        "count": 0
+      },
+      "PubMed Central": {
+        "status": "error",
+        "error": "500 Server Error: Internal Server Error for url: https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=emerging+technology+OR+public+health+trend&format=xml"
+      },
+      "Nature News": {
+        "status": "success",
+        "count": 0
+      },
+      "Science Magazine": {
+        "status": "success",
+        "count": 0
+      },
+      "Quanta Magazine Biology": {
+        "status": "success",
+        "count": 0
+      },
+      "IEEE Spectrum": {
+        "status": "success",
+        "count": 1
+      },
+      "OECD Newsroom": {
+        "status": "success",
+        "count": 0
+      },
+      "World Bank Blogs": {
+        "status": "error",
+        "error": "404 Client Error: Not Found for url: https://blogs.worldbank.org/en/feed"
+      },
+      "UN News": {
+        "status": "success",
+        "count": 0
+      },
+      "EUR-Lex Recent Acts": {
+        "status": "error",
+        "error": "404 Client Error: Not Found for url: https://eur-lex.europa.eu/EN/display-feed.html?rssId=67"
+      },
+      "Brookings Institution": {
+        "status": "success",
+        "count": 0
+      },
+      "World Economic Forum": {
+        "status": "success",
+        "count": 0
+      },
+      "Pew Research Center": {
+        "status": "success",
+        "count": 0
+      },
+      "Hacker News": {
+        "status": "success",
+        "count": 20
+      },
+      "Wired": {
+        "status": "success",
+        "count": 7
+      },
+      "Ars Technica": {
+        "status": "success",
+        "count": 2
+      },
+      "Disrupt Africa": {
+        "status": "success",
+        "count": 0
+      },
+      "NASA Climate Change": {
+        "status": "success",
+        "count": 0
+      },
+      "ScienceDaily Sustainability": {
+        "status": "success",
+        "count": 0
+      },
+      "Carbon Brief": {
+        "status": "success",
+        "count": 0
+      },
+      "IMF Blog": {
+        "status": "success",
+        "count": 0
+      },
+      "BIS Speeches": {
+        "status": "success",
+        "count": 0
+      },
+      "The Conversation - Ethics": {
+        "status": "success",
+        "count": 0
+      },
+      "Psychology Today": {
+        "status": "error",
+        "error": "404 Client Error: Not Found for url: https://www.psychologytoday.com/us/blog/feed"
+      },
+      "Aeon Magazine": {
+        "status": "success",
+        "count": 0
+      },
+      "AI Ethics Brief": {
+        "status": "success",
+        "count": 0
+      },
+      "Yale Climate Connections": {
+        "status": "success",
+        "count": 0
+      },
+      "CEPR VoxEU": {
+        "status": "success",
+        "count": 1
+      },
+      "Genetic Literacy Project": {
+        "status": "success",
+        "count": 0
+      },
+      "Positive Psychology News": {
+        "status": "success",
+        "count": 0
+      },
+      "Google Patents": {
+        "status": "skipped",
+        "reason": "API source - requires web fetch"
+      },
+      "US Federal Register": {
+        "status": "success",
+        "count": 4
+      }
+    },
+    "execution_proof": {
+      "scanner": "rss_scanner.py",
+      "timestamp": "2026-03-08T22:38:56.987069+00:00",
+      "steeps_domains_loaded": [
+        "S_Social",
+        "T_Technological",
+        "E_Economic",
+        "E_Environmental",
+        "P_Political",
+        "s_spiritual"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "techcrunch-11df117628d7",
+      "title": "Palmer Luckey’s retro gaming startup ModRetro reportedly seeks funding at $1B valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/palmer-luckeys-retro-gaming-startup-modretro-reportedly-seeks-funding-at-1b-valuation/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Palmer Luckey’s retro gaming startup ModRetro reportedly seeks funding at $1B valuation",
+        "keywords": [
+          "gaming",
+          "hardware",
+          "modretro",
+          "palmer luckey"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Anthony Ha"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149193+00:00"
+    },
+    {
+      "id": "techcrunch-b1af8d78d32c",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+        "keywords": [
+          "ai",
+          "government & policy",
+          "anthropic",
+          "dario amodei",
+          "emil michael",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Anthony Ha"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149233+00:00"
+    },
+    {
+      "id": "techcrunch-24aef19b03ac",
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Owner of ICE detention facility sees big opportunity in AI man camps",
+        "keywords": [
+          "ai",
+          "target hospitality"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Anthony Ha"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149259+00:00"
+    },
+    {
+      "id": "techcrunch-c56857300baf",
+      "title": "TechCrunch Mobility: Rivian’s R2 gambit",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/techcrunch-mobility-rivians-r2-gambit/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "TechCrunch Mobility: Rivian’s R2 gambit",
+        "keywords": [
+          "transportation",
+          "byd",
+          "evs",
+          "waymo",
+          "wayve",
+          "rivian",
+          "techcrunch mobility"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Kirsten Korosec"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149283+00:00"
+    },
+    {
+      "id": "techcrunch-c6a734ac2cd5",
+      "title": "A roadmap for AI, if anyone will listen",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "A roadmap for AI, if anyone will listen",
+        "keywords": [
+          "ai",
+          "anthropic",
+          "max tegmark",
+          "openai",
+          "pentagon",
+          "the pro-human declaration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Connie Loizos"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149306+00:00"
+    },
+    {
+      "id": "techcrunch-6fb6992fc191",
+      "title": "Push for $40 smartphones builds momentum, but still faces cost hurdles",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/push-for-40-smartphones-builds-momentum-but-still-faces-cost-hurdles/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Push for $40 smartphones builds momentum, but still faces cost hurdles",
+        "keywords": [
+          "gadgets",
+          "government & policy",
+          "gsma",
+          "mwc",
+          "mwc 2026"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Jagmeet Singh"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149328+00:00"
+    },
+    {
+      "id": "techcrunch-993358c9ffc0",
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Google just gave Sundar Pichai a $692M pay package",
+        "keywords": [
+          "ai",
+          "tc",
+          "alphabet",
+          "google",
+          "sundar pichai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Connie Loizos"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149348+00:00"
+    },
+    {
+      "id": "techcrunch-f4bed433cfed",
+      "title": "Grammarly’s ‘expert review’ is just missing the actual experts",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
+        "published_date": "2026-03-07"
+      },
+      "content": {
+        "abstract": "Grammarly’s ‘expert review’ is just missing the actual experts",
+        "keywords": [
+          "ai",
+          "media & entertainment",
+          "grammarly"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Anthony Ha"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:17.149370+00:00"
+    },
+    {
+      "id": "ieee-spectrum-1603d0b55a62",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/military-ai-governance",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Military AI Policy Needs Democratic Oversight",
+        "keywords": [
+          "ai",
+          "military-ai",
+          "anthropic"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://spectrum.ieee.org/feeds/feed.rss",
+        "author": "Daniel Castro"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-08T22:38:21.170114+00:00"
+    },
+    {
+      "id": "hacker-news-ad92ada1b585",
+      "title": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blog.ebbypeter.com/2026/03/detection-is-not-protection-what-azure-waf-detection-mode-actually-does-and-doesnt/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+        "keywords": [
+          "detection",
+          "protection:",
+          "what",
+          "detection",
+          "mode",
+          "does",
+          "(and",
+          "doesn't)",
+          "detection",
+          "protection:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "shadowAuror"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323416+00:00"
+    },
+    {
+      "id": "hacker-news-844de8810597",
+      "title": "Blacksky AppView",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/blacksky-algorithms/atproto",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Blacksky AppView",
+        "keywords": [
+          "blacksky",
+          "appview",
+          "blacksky",
+          "appview"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "Kye"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323449+00:00"
+    },
+    {
+      "id": "hacker-news-bbc19b895944",
+      "title": "Lil Finder Guy",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://basicappleguy.com/basicappleblog/lil-finder-guy",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Lil Finder Guy",
+        "keywords": [
+          "finder",
+          "finder"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "frizlab"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323469+00:00"
+    },
+    {
+      "id": "hacker-news-254860d309f4",
+      "title": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/Rabrg/artificial-life",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+        "keywords": [
+          "artificial-life:",
+          "simple",
+          "(300",
+          "lines",
+          "code)",
+          "reproduction",
+          "computational",
+          "life",
+          "artificial-life:",
+          "simple"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "tosh"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323499+00:00"
+    },
+    {
+      "id": "hacker-news-ad5905973fb1",
+      "title": "Agent Safehouse – macOS-native sandboxing for local agents",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://agent-safehouse.dev/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Agent Safehouse – macOS-native sandboxing for local agents",
+        "keywords": [
+          "agent",
+          "safehouse",
+          "macos-native",
+          "sandboxing",
+          "local",
+          "agents",
+          "agent",
+          "safehouse",
+          "macos-native",
+          "sandboxing"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "atombender"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323527+00:00"
+    },
+    {
+      "id": "hacker-news-a6d3a89ebf15",
+      "title": "We should revisit literate programming in the agent era",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "We should revisit literate programming in the agent era",
+        "keywords": [
+          "should",
+          "revisit",
+          "literate",
+          "programming",
+          "agent",
+          "should",
+          "revisit",
+          "literate",
+          "programming",
+          "agent"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "horseradish"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323553+00:00"
+    },
+    {
+      "id": "hacker-news-21a93123f590",
+      "title": "Ask HN: Please restrict new accounts from posting",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/item?id=47300329",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Ask HN: Please restrict new accounts from posting",
+        "keywords": [
+          "please",
+          "restrict",
+          "accounts",
+          "from",
+          "posting",
+          "please",
+          "restrict",
+          "accounts",
+          "from",
+          "posting"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "Oras"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323575+00:00"
+    },
+    {
+      "id": "hacker-news-356c38d07c93",
+      "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/BigBodyCobain/Shadowbroker",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+        "keywords": [
+          "show",
+          "built",
+          "real-time",
+          "osint",
+          "dashboard",
+          "pulling",
+          "live",
+          "global",
+          "feeds",
+          "show"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "vancecookcobxin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323598+00:00"
+    },
+    {
+      "id": "hacker-news-e08b71be0096",
+      "title": "I made a programming language with M&Ms",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "I made a programming language with M&Ms",
+        "keywords": [
+          "made",
+          "programming",
+          "language",
+          "m&ms",
+          "made",
+          "programming",
+          "language",
+          "m&ms"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "tosh"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323617+00:00"
+    },
+    {
+      "id": "hacker-news-c68f576db4c5",
+      "title": "WSL Manager",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/bostrot/wsl2-distro-manager",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "WSL Manager",
+        "keywords": [
+          "manager",
+          "manager"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "gballan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323633+00:00"
+    },
+    {
+      "id": "hacker-news-643c82c5816b",
+      "title": "Show HN: Skir – like Protocol Buffer but better",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://skir.build/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Show HN: Skir – like Protocol Buffer but better",
+        "keywords": [
+          "show",
+          "skir",
+          "like",
+          "protocol",
+          "buffer",
+          "better",
+          "show",
+          "skir",
+          "like",
+          "protocol"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "gepheum"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323660+00:00"
+    },
+    {
+      "id": "hacker-news-c62f12ac015e",
+      "title": "The changing goalposts of AGI and timelines",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://mlumiste.com/general/openai-charter/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "The changing goalposts of AGI and timelines",
+        "keywords": [
+          "changing",
+          "goalposts",
+          "timelines",
+          "changing",
+          "goalposts",
+          "timelines"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "skandium"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323680+00:00"
+    },
+    {
+      "id": "hacker-news-39602aad4921",
+      "title": "LibreOffice Writer now supports Markdown",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "LibreOffice Writer now supports Markdown",
+        "keywords": [
+          "libreoffice",
+          "writer",
+          "supports",
+          "markdown",
+          "libreoffice",
+          "writer",
+          "supports",
+          "markdown"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "todsacerdoti"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323702+00:00"
+    },
+    {
+      "id": "hacker-news-4281ab436f33",
+      "title": "My Homelab Setup",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://bryananthonio.com/blog/my-homelab-setup/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "My Homelab Setup",
+        "keywords": [
+          "homelab",
+          "setup",
+          "homelab",
+          "setup"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "photon_collider"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323720+00:00"
+    },
+    {
+      "id": "hacker-news-4d34bc042ed8",
+      "title": "FrameBook",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://fb.edoo.gg",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "FrameBook",
+        "keywords": [
+          "framebook",
+          "framebook"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "todsacerdoti"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323734+00:00"
+    },
+    {
+      "id": "hacker-news-cd8fc2fd2dc2",
+      "title": "Living human brain cells play DOOM on a CL1 [video]",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.youtube.com/watch?v=yRV8fSw6HaE",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Living human brain cells play DOOM on a CL1 [video]",
+        "keywords": [
+          "living",
+          "human",
+          "brain",
+          "cells",
+          "play",
+          "doom",
+          "[video]",
+          "living",
+          "human",
+          "brain"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "kevinak"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323755+00:00"
+    },
+    {
+      "id": "hacker-news-895f48fd4531",
+      "title": "What if the Apple ][ had run on Field-Sequential?",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://nicole.express/2026/the-apple-that-wasnt.html",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "What if the Apple ][ had run on Field-Sequential?",
+        "keywords": [
+          "what",
+          "apple",
+          "field-sequential?",
+          "what",
+          "apple",
+          "field-sequential?"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "zdw"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323774+00:00"
+    },
+    {
+      "id": "hacker-news-be02f86fcc6b",
+      "title": "Ask HN: How to be alone?",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/item?id=47296547",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Ask HN: How to be alone?",
+        "keywords": [
+          "alone?",
+          "alone?"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "sillysaurusx"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323791+00:00"
+    },
+    {
+      "id": "hacker-news-45c44da249ab",
+      "title": "Notes on writing Rust-based Wasm",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Notes on writing Rust-based Wasm",
+        "keywords": [
+          "notes",
+          "writing",
+          "rust-based",
+          "wasm",
+          "notes",
+          "writing",
+          "rust-based",
+          "wasm"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "vinhnx"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323811+00:00"
+    },
+    {
+      "id": "hacker-news-923dabadc9b2",
+      "title": "Pushing and Pulling: Three reactivity algorithms",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://jonathan-frere.com/posts/reactivity-algorithms/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Pushing and Pulling: Three reactivity algorithms",
+        "keywords": [
+          "pushing",
+          "pulling:",
+          "three",
+          "reactivity",
+          "algorithms",
+          "pushing",
+          "pulling:",
+          "three",
+          "reactivity",
+          "algorithms"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "frogulis"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.323832+00:00"
+    },
+    {
+      "id": "wired-e798cdd6716d",
+      "title": "How to Run Ethernet Cables to Your Router and Keep Them Tidy",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/how-to-run-ethernet-cables-around-your-home/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "How to Run Ethernet Cables to Your Router and Keep Them Tidy",
+        "keywords": [
+          "gear",
+          "gear / how to and advice",
+          "gear / products / computers",
+          "gear / products / home office",
+          "gear / products / smart home",
+          "wired win"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Simon Hill"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380672+00:00"
+    },
+    {
+      "id": "wired-15fd7f025f4d",
+      "title": "Force Your MacBook to Only Charge up to 80 Percent (and Why You Should)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/only-charge-your-macbook-to-80-percent/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Force Your MacBook to Only Charge up to 80 Percent (and Why You Should)",
+        "keywords": [
+          "gear",
+          "gear / how to and advice",
+          "how-to",
+          "apple",
+          "mac",
+          "tips",
+          "batteries",
+          "apps",
+          "juice world"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Justin Pot"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380705+00:00"
+    },
+    {
+      "id": "wired-f815a8f40d10",
+      "title": "Fender Mix Headphones Review: Modular Over-Ears",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/review/fender-audio-mix/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Fender Mix Headphones Review: Modular Over-Ears",
+        "keywords": [
+          "gear",
+          "gear / products",
+          "gear / reviews",
+          "gear / products / audio",
+          "gear / products / headphones",
+          "headphones",
+          "audio",
+          "bluetooth",
+          "speakers",
+          "reviews"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Simon Cohen"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380736+00:00"
+    },
+    {
+      "id": "wired-05600807ddbb",
+      "title": "A Certified Sleep Coach Shares the Sleep Week Deals She’s Adding to Cart (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/sleep-week-deals-2026/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "A Certified Sleep Coach Shares the Sleep Week Deals She’s Adding to Cart (2026)",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "gear / products / sleep",
+          "shopping",
+          "deals",
+          "sleep"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Julia Forbes"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380765+00:00"
+    },
+    {
+      "id": "wired-b13aab55b290",
+      "title": "The Moka Pot Is the Best Way to Brew Coffee (2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/moka-pot-best-way-to-brew-coffee/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "The Moka Pot Is the Best Way to Brew Coffee (2026)",
+        "keywords": [
+          "gear",
+          "gear / products / kitchen",
+          "shopping",
+          "kitchen",
+          "coffee",
+          "java.base",
+          "household",
+          "food and drink"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Scott Gilbertson"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380789+00:00"
+    },
+    {
+      "id": "wired-90ca24f1532c",
+      "title": "Best Sunrise Alarm Clock (2026): Lumie, Hatch, WiiM",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/should-you-get-a-sunrise-alarm-clock/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Best Sunrise Alarm Clock (2026): Lumie, Hatch, WiiM",
+        "keywords": [
+          "gear",
+          "gear / how to and advice",
+          "gear / buying guides",
+          "gear / products / home",
+          "gear / products / sleep",
+          "shopping",
+          "buying guides",
+          "how-to",
+          "smart home",
+          "household"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Nena Farrell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380818+00:00"
+    },
+    {
+      "id": "wired-4c7dfd55799a",
+      "title": "Left-Handed People Are More Competitive, Says Science",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/left-handed-people-are-more-competitive-says-science/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Left-Handed People Are More Competitive, Says Science",
+        "keywords": [
+          "science",
+          "science / health",
+          "brains and behavior",
+          "evolution",
+          "biology",
+          "evolutionary psychology",
+          "psychology",
+          "southpaws unite"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Javier Carbajal"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:36.380844+00:00"
+    },
+    {
+      "id": "ars-technica-d2252c80e655",
+      "title": "Jessica Jones joins the fray in Daredevil: Born Again trailer",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/culture/2026/03/jessica-jones-joins-the-fray-in-daredevil-born-again-trailer/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "\"I'm gonna take this city back.\"",
+        "keywords": [
+          "culture",
+          "daredevil: born again",
+          "disney plus",
+          "marvel studios",
+          "mcu",
+          "mcu phase six"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jennifer Ouellette"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:37.483834+00:00"
+    },
+    {
+      "id": "ars-technica-dfe7fcaa37cc",
+      "title": "Tiny, long-armed dinosaur leads to rethink of dinosaur miniaturization",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/03/tiny-long-armed-dinosaur-leads-to-rethink-of-dinosaur-miniaturization/",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "Small size seems to have come before a change in diet for a tiny dinosaur lineage.",
+        "keywords": [
+          "science",
+          "biology",
+          "dinosaurs",
+          "evolution",
+          "paleontology"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jacek Krywko"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:38:37.483888+00:00"
+    },
+    {
+      "id": "cepr-voxeu-4e3095eda4de",
+      "title": "The remote work premium reconsidered",
+      "source": {
+        "name": "CEPR VoxEU",
+        "type": "academic",
+        "url": "https://cepr.org/voxeu/columns/remote-work-premium-reconsidered",
+        "published_date": "2026-03-08"
+      },
+      "content": {
+        "abstract": "The remote work premium reconsidered",
+        "keywords": [
+          "remote",
+          "work",
+          "premium",
+          "reconsidered",
+          "remote",
+          "work",
+          "premium",
+          "reconsidered"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://cepr.org/rss/vox-content",
+        "author": "Christos Makridis, Jason Schloetzer"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-08T22:38:49.172952+00:00"
+    },
+    {
+      "id": "us-federal-register-20260309-001",
+      "title": "National Drinking Water Advisory Council: Request for Nominations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04590/national-drinking-water-advisory-council-request-for-nominations",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "The EPA seeks nominations for three-year council appointments to advise on water supply regulations, targeting representatives from public agencies, water systems, and organizations focused on drinking water safety.",
+        "keywords": [
+          "EPA",
+          "drinking water",
+          "advisory council",
+          "water regulation",
+          "public health"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-08T22:39:33.008923+00:00"
+    },
+    {
+      "id": "us-federal-register-20260309-002",
+      "title": "Emerging Frontiers in Research and Innovation Program: Grantee Reporting Requirements",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04588/agency-information-collection-activities-comment-request-grantee-reporting-requirements-for-the",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "NSF announced renewal plans for reporting requirements under the Paperwork Reduction Act for the Emerging Frontiers in Research and Innovation Program, seeking public comment before OMB approval.",
+        "keywords": [
+          "NSF",
+          "emerging frontiers",
+          "research innovation",
+          "grantee reporting",
+          "Paperwork Reduction Act"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-08T22:39:33.009400+00:00"
+    },
+    {
+      "id": "us-federal-register-20260309-003",
+      "title": "Dairy Tariff-Rate Quota Import Licensing Program: Proposed Amendments",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04599/dairy-tariff-rate-quota-import-licensing-program",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Proposed amendments to dairy import licensing regulations aim to clarify provisions, modernize license transfer procedures, and advance surrender dates for quota reallocation.",
+        "keywords": [
+          "dairy",
+          "tariff",
+          "import licensing",
+          "trade policy",
+          "quota"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-08T22:39:33.009402+00:00"
+    },
+    {
+      "id": "us-federal-register-20260309-004",
+      "title": "FDA Draft Guidance: Responding to Form 483 CGMP Inspection Observations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04578/responding-to-fda-form-483-observations-at-the-conclusion-of-a-drug-cgmp-inspection-draft-guidance",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "FDA draft guidance assists pharmaceutical manufacturers in responding to inspection observations regarding current good manufacturing practice (CGMP) compliance standards.",
+        "keywords": [
+          "FDA",
+          "pharmaceutical",
+          "CGMP",
+          "drug manufacturing",
+          "inspection",
+          "compliance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-08T22:39:33.009403+00:00"
+    }
+  ]
+}

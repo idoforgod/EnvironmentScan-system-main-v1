@@ -1,30 +1,30 @@
 {
   "version": "1.0",
   "created_at": "2026-01-30T12:11:53.840986",
-  "last_updated": "2026-03-06T00:51:34.097145Z",
-  "total_signals": 782,
+  "last_updated": "2026-03-08T23:00:49.194444+00:00",
+  "total_signals": 836,
   "first_scan_date": "2026-01-30",
-  "latest_scan_date": "2026-03-06",
+  "latest_scan_date": "2026-03-09",
   "statistics": {
-    "total_scans": 14,
+    "total_scans": 16,
     "total_duplicates_prevented": 135,
     "sources": {
       "arXiv": 237,
-      "US Federal Register": 162,
+      "US Federal Register": 168,
       "WHO Press Releases": 15,
-      "TechCrunch": 97,
-      "MIT Technology Review": 40,
+      "TechCrunch": 112,
+      "MIT Technology Review": 41,
       "Nature News": 70,
-      "IEEE Spectrum": 48,
-      "UN News": 60,
+      "IEEE Spectrum": 50,
+      "UN News": 61,
       "Brookings Institution": 19,
       "Pew Research Center": 32,
-      "Carbon Brief": 36,
+      "Carbon Brief": 38,
       "BIS Speeches": 8,
-      "Hacker News": 65,
+      "Hacker News": 74,
       "Science Magazine": 33,
-      "Wired": 33,
-      "Ars Technica": 28,
+      "Wired": 38,
+      "Ars Technica": 33,
       "NASA Climate Change": 16,
       "WebSearch": 28,
       "International Labour Organization": 1,
@@ -45,7 +45,9 @@
       "PubMed Central": 3,
       "The Conversation - Ethics": 1,
       "Psychology Today": 1,
-      "Aeon Magazine": 2
+      "Aeon Magazine": 3,
+      "Disrupt Africa": 1,
+      "CEPR VoxEU": 1
     },
     "categories": {
       "T": 495,
@@ -260,7 +262,7 @@
         "arxiv_id": "2601.21747v1",
         "authors": [
           "Vincent Lemaire",
-          "N\u00e9dra Meloulli",
+          "Nédra Meloulli",
           "Pierre Jaquet"
         ],
         "arxiv_categories": [
@@ -374,7 +376,7 @@
     },
     {
       "id": "arxiv-2601.21739v1",
-      "title": "Why Adam Works Better with $\u03b2_1 = \u03b2_2$: The Missing Gradient Scale Invariance Principle",
+      "title": "Why Adam Works Better with $β_1 = β_2$: The Missing Gradient Scale Invariance Principle",
       "source": {
         "name": "arXiv",
         "type": "academic",
@@ -382,7 +384,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Adam has been at the core of large-scale training for almost a decade, yet a simple empirical fact remains unaccounted for: both validation scores and the qualitative behaviour of the training runs improve when the momentum parameters satisfy $\u03b2_{1}=\u03b2_{2}$. Some recent studies have reported this pattern, but there is still no explanation for why this choice helps. We show that this choice is closely tied to a structural property that we refer to as \\textit{gradient scale invariance}. We formalize this notion and prove that Adam becomes gradient scale invariant of first order if and only if $\u03b2_{1}=\u03b2_{2}$. This perspective places the balanced regime of Adam in direct alignment with the design principles underlying several recent optimizers that explicitly enforce scale-robust updates. The theory is supported by experiments across vision and language tasks, and across different architectural families, in which rescaling the gradient has a markedly smoother effect on the update when $\u03b2_{1}=\u03b2_{2}$. Overall, our results offer a coherent explanation for an open question in the behavior of Adam and provide a simple principle that helps guide the design of future optimizers.",
+        "abstract": "Adam has been at the core of large-scale training for almost a decade, yet a simple empirical fact remains unaccounted for: both validation scores and the qualitative behaviour of the training runs improve when the momentum parameters satisfy $β_{1}=β_{2}$. Some recent studies have reported this pattern, but there is still no explanation for why this choice helps. We show that this choice is closely tied to a structural property that we refer to as \\textit{gradient scale invariance}. We formalize this notion and prove that Adam becomes gradient scale invariant of first order if and only if $β_{1}=β_{2}$. This perspective places the balanced regime of Adam in direct alignment with the design principles underlying several recent optimizers that explicitly enforce scale-robust updates. The theory is supported by experiments across vision and language tasks, and across different architectural families, in which rescaling the gradient has a markedly smoother effect on the update when $β_{1}=β_{2}$. Overall, our results offer a coherent explanation for an open question in the behavior of Adam and provide a simple principle that helps guide the design of future optimizers.",
         "keywords": [
           "stat.ML",
           "cs.LG",
@@ -393,8 +395,8 @@
       "metadata": {
         "arxiv_id": "2601.21739v1",
         "authors": [
-          "Alberto Fern\u00e1ndez-Hern\u00e1ndez",
-          "Cristian P\u00e9rez-Corral",
+          "Alberto Fernández-Hernández",
+          "Cristian Pérez-Corral",
           "Jose I. Mestre"
         ],
         "arxiv_categories": [
@@ -418,7 +420,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Evaluation of Image Quality Assessment (IQA) models has long been dominated by global correlation metrics, such as Pearson Linear Correlation Coefficient (PLCC) and Spearman Rank-Order Correlation Coefficient (SRCC). While widely adopted, these metrics reduce performance to a single scalar, failing to capture how ranking consistency varies across the local quality spectrum. For example, two IQA models may achieve identical SRCC values, yet one ranks high-quality images (related to high Mean Opinion Score, MOS) more reliably, while the other better discriminates image pairs with small quality/MOS differences (related to $|\u0394$MOS$|$). Such complementary behaviors are invisible under global metrics. Moreover, SRCC and PLCC are sensitive to test-sample quality distributions, yielding unstable comparisons across test sets. To address these limitations, we propose \\textbf{Granularity-Modulated Correlation (GMC)}, which provides a structured, fine-grained analysis of IQA performance. GMC includes: (1) a \\textbf{Granularity Modulator} that applies Gaussian-weighted correlations conditioned on absolute MOS values and pairwise MOS differences ($|\u0394$MOS$|$) to examine local performance variations, and (2) a \\textbf{Distribution Regulator} that regularizes correlations to mitigate biases from non-uniform quality distributions. The resulting \\textbf{correlation surface} maps correlation values as a joint function of MOS and $|\u0394$MOS$|$, providing a 3D representation of IQA performance. Experiments on standard benchmarks show that GMC reveals performance characteristics invisible to scalar metrics, offering a more informative and reliable paradigm for analyzing, comparing, and deploying IQA models. Codes are available at https://github.com/Dniaaa/GMC.",
+        "abstract": "Evaluation of Image Quality Assessment (IQA) models has long been dominated by global correlation metrics, such as Pearson Linear Correlation Coefficient (PLCC) and Spearman Rank-Order Correlation Coefficient (SRCC). While widely adopted, these metrics reduce performance to a single scalar, failing to capture how ranking consistency varies across the local quality spectrum. For example, two IQA models may achieve identical SRCC values, yet one ranks high-quality images (related to high Mean Opinion Score, MOS) more reliably, while the other better discriminates image pairs with small quality/MOS differences (related to $|Δ$MOS$|$). Such complementary behaviors are invisible under global metrics. Moreover, SRCC and PLCC are sensitive to test-sample quality distributions, yielding unstable comparisons across test sets. To address these limitations, we propose \\textbf{Granularity-Modulated Correlation (GMC)}, which provides a structured, fine-grained analysis of IQA performance. GMC includes: (1) a \\textbf{Granularity Modulator} that applies Gaussian-weighted correlations conditioned on absolute MOS values and pairwise MOS differences ($|Δ$MOS$|$) to examine local performance variations, and (2) a \\textbf{Distribution Regulator} that regularizes correlations to mitigate biases from non-uniform quality distributions. The resulting \\textbf{correlation surface} maps correlation values as a joint function of MOS and $|Δ$MOS$|$, providing a 3D representation of IQA performance. Experiments on standard benchmarks show that GMC reveals performance characteristics invisible to scalar metrics, offering a more informative and reliable paradigm for analyzing, comparing, and deploying IQA models. Codes are available at https://github.com/Dniaaa/GMC.",
         "keywords": [
           "cs.AI",
           "cs.CV"
@@ -594,7 +596,7 @@
       "metadata": {
         "arxiv_id": "2601.21718v1",
         "authors": [
-          "Lukas Sch\u00e4fer",
+          "Lukas Schäfer",
           "Pallavi Choudhury",
           "Abdelhak Lemkhenter"
         ],
@@ -759,7 +761,7 @@
       "metadata": {
         "arxiv_id": "2601.21749v1",
         "authors": [
-          "Laurent R. Berg\u00e9",
+          "Laurent R. Bergé",
           "Kyle Butts",
           "Grant McDermott"
         ],
@@ -955,7 +957,7 @@
         "published_date": "2026-01-28"
       },
       "content": {
-        "abstract": "This paper suggests methods for estimation of the $\u03c4$-quantile, $\u03c4\\in(0,1)$, as a parameter along with the other finite-dimensional parameters identified by general conditional quantile restrictions. We employ a generalized method of moments framework allowing for non-linearities and dependent data, where moment functions are smoothed to aid both computation and tractability. Consistency and asymptotic normality of the estimators are established under weak assumptions. Simulations illustrate the finite-sample properties of the methods. An empirical application using a quantile intertemporal consumption model with multiple assets estimates the risk attitude, which is captured by $\u03c4$, together with the elasticity of intertemporal substitution.",
+        "abstract": "This paper suggests methods for estimation of the $τ$-quantile, $τ\\in(0,1)$, as a parameter along with the other finite-dimensional parameters identified by general conditional quantile restrictions. We employ a generalized method of moments framework allowing for non-linearities and dependent data, where moment functions are smoothed to aid both computation and tractability. Consistency and asymptotic normality of the estimators are established under weak assumptions. Simulations illustrate the finite-sample properties of the methods. An empirical application using a quantile intertemporal consumption model with multiple assets estimates the risk attitude, which is captured by $τ$, together with the elasticity of intertemporal substitution.",
         "keywords": [
           "econ.GN"
         ],
@@ -1262,7 +1264,7 @@
       "metadata": {
         "arxiv_id": "2601.20197v1",
         "authors": [
-          "Rapha\u00ebl Langevin"
+          "Raphaël Langevin"
         ],
         "arxiv_categories": [
           "econ.EM",
@@ -1496,7 +1498,7 @@
         "arxiv_id": "2601.21480v1",
         "authors": [
           "Elia Mascolo",
-          "R\u00e9ka Borb\u00e9ly",
+          "Réka Borbély",
           "Noa Ottilie Borst"
         ],
         "arxiv_categories": [
@@ -1518,7 +1520,7 @@
         "published_date": "2026-01-28"
       },
       "content": {
-        "abstract": "In this work we describe a new model for the evolution of a diploid structured population backwards in time that allows for large migrations and uneven offspring distributions. The model generalizes both the mean-field model of Birkner et al. [\\textit{Electron. J. Probab.} 23: 1-44 (2018)] and the haploid structured model of M\u00f6hle [\\textit{Theor. Popul. Biol.} 2024 Apr:156:103-116]. We show convergence, with mild conditions on the joint distribution of offspring frequencies and migrations, of gene genealogies conditional on the pedigree to a time-inhomogeneous coalescent process driven by a Poisson point process $\u03a8$ that records the timing and scale of large migrations and uneven offspring distributions. This quenched scaling limit demonstrates a significant difference in the predictions of the classical annealed theory of structured coalescent processes. In particular, the annealed and quenched scaling limits coincide if and only if these large migrations and uneven offspring distributions are absent. The proof proceeds by the method of moments and utilizes coupling techniques from the theory of random walks in random environments. Several examples are given and their quenched scaling limits established.",
+        "abstract": "In this work we describe a new model for the evolution of a diploid structured population backwards in time that allows for large migrations and uneven offspring distributions. The model generalizes both the mean-field model of Birkner et al. [\\textit{Electron. J. Probab.} 23: 1-44 (2018)] and the haploid structured model of Möhle [\\textit{Theor. Popul. Biol.} 2024 Apr:156:103-116]. We show convergence, with mild conditions on the joint distribution of offspring frequencies and migrations, of gene genealogies conditional on the pedigree to a time-inhomogeneous coalescent process driven by a Poisson point process $Ψ$ that records the timing and scale of large migrations and uneven offspring distributions. This quenched scaling limit demonstrates a significant difference in the predictions of the classical annealed theory of structured coalescent processes. In particular, the annealed and quenched scaling limits coincide if and only if these large migrations and uneven offspring distributions are absent. The proof proceeds by the method of moments and utilizes coupling techniques from the theory of random walks in random environments. Several examples are given and their quenched scaling limits established.",
         "keywords": [
           "math.PR",
           "q-bio.PE"
@@ -1691,7 +1693,7 @@
       "metadata": {
         "arxiv_id": "2601.20416v1",
         "authors": [
-          "Damien Ribi\u00e8re",
+          "Damien Ribière",
           "Alia Abbara",
           "Anne-Florence Bitbol"
         ],
@@ -1856,7 +1858,7 @@
         "arxiv_id": "2601.20049v1",
         "authors": [
           "Kristoffer Aalstad",
-          "Esteban Alonso-Gonz\u00e1lez",
+          "Esteban Alonso-González",
           "Norbert Pirk"
         ],
         "arxiv_categories": [
@@ -1890,8 +1892,8 @@
         "arxiv_id": "2601.19681v1",
         "authors": [
           "Elia Mascolo",
-          "R\u00e9ka Borb\u00e9ly",
-          "Santiago Herrera-\u00c1lvarez"
+          "Réka Borbély",
+          "Santiago Herrera-Álvarez"
         ],
         "arxiv_categories": [
           "q-bio.PE"
@@ -1993,7 +1995,7 @@
         "arxiv_id": "2601.19265v1",
         "authors": [
           "Bugra Bilin",
-          "Nuhcan Ak\u00e7it"
+          "Nuhcan Akçit"
         ],
         "arxiv_categories": [
           "hep-ex",
@@ -2061,7 +2063,7 @@
         "arxiv_id": "2601.18703v1",
         "authors": [
           "Alex Viguerie",
-          "Mal\u00fa Grave",
+          "Malú Grave",
           "Alvaro L. G. A. Coutinho"
         ],
         "arxiv_categories": [
@@ -2130,7 +2132,7 @@
         "arxiv_id": "2601.21648v1",
         "authors": [
           "Bowen Zhou",
-          "Marc-Andr\u00e9 Fiedler",
+          "Marc-André Fiedler",
           "Ayoub Al-Hamadi"
         ],
         "arxiv_categories": [
@@ -2221,7 +2223,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Spatial covariance matrices of EEG signals are Symmetric Positive Definite (SPD) and lie on a Riemannian manifold, yet the theoretical connection between embedding geometry and optimization dynamics remains unexplored. We provide a formal analysis linking embedding choice to gradient conditioning and numerical stability for SPD manifolds, establishing three theoretical results: (1) BWSPD's $\\sqrt\u03ba$ gradient conditioning (vs $\u03ba$ for Log-Euclidean) via Daleckii-Kre\u012dn matrices provides better gradient conditioning on high-dimensional inputs ($d \\geq 22$), with this advantage reducing on low-dimensional inputs ($d \\leq 8$) where eigendecomposition overhead dominates; (2) Embedding-Space Batch Normalization (BN-Embed) approximates Riemannian normalization up to $O(\\varepsilon^2)$ error, yielding $+26\\%$ accuracy on 56-channel ERP data but negligible effect on 8-channel SSVEP data, matching the channel-count-dependent prediction; (3) bi-Lipschitz bounds prove BWSPD tokens preserve manifold distances with distortion governed solely by the condition ratio $\u03ba$. We validate these predictions via a unified Transformer framework comparing BWSPD, Log-Euclidean, and Euclidean embeddings within identical architecture across 1,500+ runs on three EEG paradigms (motor imagery, ERP, SSVEP; 36 subjects). Our Log-Euclidean Transformer achieves state-of-the-art performance on all datasets, substantially outperforming classical Riemannian classifiers and recent SPD baselines, while BWSPD offers competitive accuracy with similar training time.",
+        "abstract": "Spatial covariance matrices of EEG signals are Symmetric Positive Definite (SPD) and lie on a Riemannian manifold, yet the theoretical connection between embedding geometry and optimization dynamics remains unexplored. We provide a formal analysis linking embedding choice to gradient conditioning and numerical stability for SPD manifolds, establishing three theoretical results: (1) BWSPD's $\\sqrtκ$ gradient conditioning (vs $κ$ for Log-Euclidean) via Daleckii-Kreĭn matrices provides better gradient conditioning on high-dimensional inputs ($d \\geq 22$), with this advantage reducing on low-dimensional inputs ($d \\leq 8$) where eigendecomposition overhead dominates; (2) Embedding-Space Batch Normalization (BN-Embed) approximates Riemannian normalization up to $O(\\varepsilon^2)$ error, yielding $+26\\%$ accuracy on 56-channel ERP data but negligible effect on 8-channel SSVEP data, matching the channel-count-dependent prediction; (3) bi-Lipschitz bounds prove BWSPD tokens preserve manifold distances with distortion governed solely by the condition ratio $κ$. We validate these predictions via a unified Transformer framework comparing BWSPD, Log-Euclidean, and Euclidean embeddings within identical architecture across 1,500+ runs on three EEG paradigms (motor imagery, ERP, SSVEP; 36 subjects). Our Log-Euclidean Transformer achieves state-of-the-art performance on all datasets, substantially outperforming classical Riemannian classifiers and recent SPD baselines, while BWSPD offers competitive accuracy with similar training time.",
         "keywords": [
           "cs.HC",
           "cs.LG"
@@ -2327,7 +2329,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Controlling the behavior of large language models (LLMs) at inference time is essential for aligning outputs with human abilities and safety requirements. \\emph{Activation steering} provides a lightweight alternative to prompt engineering and fine-tuning by directly modifying internal activations to guide generation. This research advances the literature in three significant directions. First, while previous work demonstrated the technical feasibility of steering emotional tone using automated classifiers, this paper presents the first human evaluation of activation steering concerning the emotional tone of LLM outputs, collecting over 7,000 crowd-sourced ratings from 190 participants via Prolific ($n=190$). These ratings assess both perceived emotional intensity and overall text quality. Second, we find strong alignment between human and model-based quality ratings (mean $r=0.776$, range $0.157$--$0.985$), indicating automatic scoring can proxy perceived quality. Moderate steering strengths ($\u03bb\\approx 0.15$) reliably amplify target emotions while preserving comprehensibility, with the strongest effects for disgust ($\u03b7_p^2 = 0.616$) and fear ($\u03b7_p^2 = 0.540$), and minimal effects for surprise ($\u03b7_p^2 = 0.042$). Finally, upgrading from Alpaca to LlaMA-3 yielded more consistent steering with significant effects across emotions and strengths (all $p < 0.001$). Inter-rater reliability was high (ICC $= 0.71$--$0.87$), underscoring the robustness of the findings. These findings support activation-based control as a scalable method for steering LLM behavior across affective dimensions.",
+        "abstract": "Controlling the behavior of large language models (LLMs) at inference time is essential for aligning outputs with human abilities and safety requirements. \\emph{Activation steering} provides a lightweight alternative to prompt engineering and fine-tuning by directly modifying internal activations to guide generation. This research advances the literature in three significant directions. First, while previous work demonstrated the technical feasibility of steering emotional tone using automated classifiers, this paper presents the first human evaluation of activation steering concerning the emotional tone of LLM outputs, collecting over 7,000 crowd-sourced ratings from 190 participants via Prolific ($n=190$). These ratings assess both perceived emotional intensity and overall text quality. Second, we find strong alignment between human and model-based quality ratings (mean $r=0.776$, range $0.157$--$0.985$), indicating automatic scoring can proxy perceived quality. Moderate steering strengths ($λ\\approx 0.15$) reliably amplify target emotions while preserving comprehensibility, with the strongest effects for disgust ($η_p^2 = 0.616$) and fear ($η_p^2 = 0.540$), and minimal effects for surprise ($η_p^2 = 0.042$). Finally, upgrading from Alpaca to LlaMA-3 yielded more consistent steering with significant effects across emotions and strengths (all $p < 0.001$). Inter-rater reliability was high (ICC $= 0.71$--$0.87$), underscoring the robustness of the findings. These findings support activation-based control as a scalable method for steering LLM behavior across affective dimensions.",
         "keywords": [
           "cs.CL",
           "cs.HC",
@@ -2338,7 +2340,7 @@
       "metadata": {
         "arxiv_id": "2601.21505v1",
         "authors": [
-          "Diaoul\u00e9 Diallo",
+          "Diaoulé Diallo",
           "Katharina Dworatzyk",
           "Sophie Jentzsch"
         ],
@@ -2467,7 +2469,7 @@
         "arxiv_id": "2601.21490v1",
         "authors": [
           "Fabian Albers",
-          "Sebastian Strau\u00df",
+          "Sebastian Strauß",
           "Nikol Rummel"
         ],
         "arxiv_categories": [
@@ -2568,7 +2570,7 @@
         "authors": [
           "Ferdinand Buchner",
           "David Jobst",
-          "Annette M\u00f6ller"
+          "Annette Möller"
         ],
         "arxiv_categories": [
           "stat.AP"
@@ -2667,7 +2669,7 @@
         "arxiv_id": "2601.21299v1",
         "authors": [
           "Tingyu Zhao",
-          "Istv\u00e1n A. Kov\u00e1cs"
+          "István A. Kovács"
         ],
         "arxiv_categories": [
           "stat.AP",
@@ -3086,7 +3088,7 @@
       "metadata": {
         "arxiv_id": "2601.20617v1",
         "authors": [
-          "Jonathan Rystr\u00f8m",
+          "Jonathan Rystrøm",
           "Chris Schmitz",
           "Karolina Korgul"
         ],
@@ -4873,7 +4875,7 @@
     },
     {
       "id": "federal-register-c06b98e4300c",
-      "title": "60-Day Notice of Proposed Information Collection: Form RD 410-8 \u201cApplicant Reference Letter\u201d (A Request for Credit References); OMB Control No.: 0575-0091",
+      "title": "60-Day Notice of Proposed Information Collection: Form RD 410-8 “Applicant Reference Letter” (A Request for Credit References); OMB Control No.: 0575-0091",
       "source": {
         "name": "US Federal Register",
         "type": "policy",
@@ -5070,7 +5072,7 @@
     },
     {
       "id": "techcrunch-480fa6dd21f7",
-      "title": "Guys, I don\u2019t think Tim Cook knows how to monetize AI",
+      "title": "Guys, I don’t think Tim Cook knows how to monetize AI",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5078,7 +5080,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Guys, I don\u2019t think Tim Cook knows how to monetize AI",
+        "abstract": "Guys, I don’t think Tim Cook knows how to monetize AI",
         "keywords": [
           "ai",
           "tim cook"
@@ -5096,7 +5098,7 @@
     },
     {
       "id": "techcrunch-8f0eea186e84",
-      "title": "Elon Musk\u2019s SpaceX, Tesla, and xAI in talks to merge, according to reports",
+      "title": "Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5104,7 +5106,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Elon Musk\u2019s SpaceX, Tesla, and xAI in talks to merge, according to reports",
+        "abstract": "Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports",
         "keywords": [
           "ai",
           "space",
@@ -5187,7 +5189,7 @@
     },
     {
       "id": "techcrunch-21fe1c78fa6d",
-      "title": "Microsoft won\u2019t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+      "title": "Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5195,7 +5197,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Microsoft won\u2019t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+        "abstract": "Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
         "keywords": [
           "enterprise",
           "hardware",
@@ -5248,7 +5250,7 @@
     },
     {
       "id": "techcrunch-1a5c0e67f101",
-      "title": "Satya Nadella insists people are using Microsoft\u2019s Copilot AI a lot",
+      "title": "Satya Nadella insists people are using Microsoft’s Copilot AI a lot",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5256,7 +5258,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Satya Nadella insists people are using Microsoft\u2019s Copilot AI a lot",
+        "abstract": "Satya Nadella insists people are using Microsoft’s Copilot AI a lot",
         "keywords": [
           "ai",
           "enterprise",
@@ -5334,7 +5336,7 @@
     },
     {
       "id": "techcrunch-664b87b36ed9",
-      "title": "I built marshmallow castles in Google\u2019s new AI-world generator",
+      "title": "I built marshmallow castles in Google’s new AI-world generator",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5342,7 +5344,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "I built marshmallow castles in Google\u2019s new AI-world generator",
+        "abstract": "I built marshmallow castles in Google’s new AI-world generator",
         "keywords": [
           "ai",
           "google",
@@ -5367,7 +5369,7 @@
     },
     {
       "id": "techcrunch-8807311fdd5e",
-      "title": "OpenAI\u2019s Sora app is struggling after its stellar launch",
+      "title": "OpenAI’s Sora app is struggling after its stellar launch",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5375,7 +5377,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "OpenAI\u2019s Sora app is struggling after its stellar launch",
+        "abstract": "OpenAI’s Sora app is struggling after its stellar launch",
         "keywords": [
           "ai",
           "apps",
@@ -5397,7 +5399,7 @@
     },
     {
       "id": "techcrunch-c475207b48ff",
-      "title": "Music publishers sue Anthropic for $3B over \u2018flagrant piracy\u2019 of 20,000 works",
+      "title": "Music publishers sue Anthropic for $3B over ‘flagrant piracy’ of 20,000 works",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5405,7 +5407,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Music publishers sue Anthropic for $3B over \u2018flagrant piracy\u2019 of 20,000 works",
+        "abstract": "Music publishers sue Anthropic for $3B over ‘flagrant piracy’ of 20,000 works",
         "keywords": [
           "ai",
           "tc",
@@ -5485,7 +5487,7 @@
     },
     {
       "id": "techcrunch-95f510ad6401",
-      "title": "Tesla\u2019s energy storage business is growing faster than any other part of the company",
+      "title": "Tesla’s energy storage business is growing faster than any other part of the company",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5493,7 +5495,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Tesla\u2019s energy storage business is growing faster than any other part of the company",
+        "abstract": "Tesla’s energy storage business is growing faster than any other part of the company",
         "keywords": [
           "climate",
           "transportation",
@@ -5546,7 +5548,7 @@
     },
     {
       "id": "techcrunch-d64983d4f895",
-      "title": "Apple\u2019s new iPhone and iPad security feature limits cell networks from collecting precise location data",
+      "title": "Apple’s new iPhone and iPad security feature limits cell networks from collecting precise location data",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -5554,7 +5556,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Apple\u2019s new iPhone and iPad security feature limits cell networks from collecting precise location data",
+        "abstract": "Apple’s new iPhone and iPad security feature limits cell networks from collecting precise location data",
         "keywords": [
           "government & policy",
           "privacy",
@@ -5613,7 +5615,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It\u2019s just that you never know which one you\u2019re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what this&#8230;",
+        "abstract": "Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It’s just that you never know which one you’re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what this&#8230;",
         "keywords": [
           "artificial intelligence",
           "ai",
@@ -5641,7 +5643,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda\u2014some of which appears to be made with AI\u2014and as&#8230;",
+        "abstract": "The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda—some of which appears to be made with AI—and as&#8230;",
         "keywords": [
           "artificial intelligence",
           "app",
@@ -5660,7 +5662,7 @@
     },
     {
       "id": "mit-technology-review-78694e36ea49",
-      "title": "The Download: inside the Vitalism movement, and why AI\u2019s \u201cmemory\u201d is a privacy problem",
+      "title": "The Download: inside the Vitalism movement, and why AI’s “memory” is a privacy problem",
       "source": {
         "name": "MIT Technology Review",
         "type": "blog",
@@ -5668,7 +5670,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the Vitalists: the hardcore longevity enthusiasts who believe death is \u201cwrong\u201d Last April, an excited crowd gathered at a compound in Berkeley, California, for a three-day event called the Vitalist Bay Summit.&#8230;",
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the Vitalists: the hardcore longevity enthusiasts who believe death is “wrong” Last April, an excited crowd gathered at a compound in Berkeley, California, for a three-day event called the Vitalist Bay Summit.&#8230;",
         "keywords": [
           "the download"
         ],
@@ -5693,7 +5695,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "The eastern half of the US saw a monster snowstorm over the weekend. The good news is the grid has largely been able to keep up with the freezing temperatures and increased demand. But there were some signs of strain, particularly for fossil-fuel plants. One analysis found that PJM, the nation\u2019s largest grid operator, saw&#8230;",
+        "abstract": "The eastern half of the US saw a monster snowstorm over the weekend. The good news is the grid has largely been able to keep up with the freezing temperatures and increased demand. But there were some signs of strain, particularly for fossil-fuel plants. One analysis found that PJM, the nation’s largest grid operator, saw&#8230;",
         "keywords": [
           "climate change and energy",
           "app",
@@ -5712,7 +5714,7 @@
     },
     {
       "id": "mit-technology-review-cae1066c969a",
-      "title": "Meet the Vitalists: the hardcore longevity enthusiasts who believe death is \u201cwrong\u201d",
+      "title": "Meet the Vitalists: the hardcore longevity enthusiasts who believe death is “wrong”",
       "source": {
         "name": "MIT Technology Review",
         "type": "blog",
@@ -5720,7 +5722,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "\u201cWho here believes involuntary death is a good thing?\u201d&#160; Nathan Cheng has been delivering similar versions of this speech over the last couple of years, so I knew what was coming. He was about to try to convince the 80 or so people in the audience that death is bad. And that defeating it should&#8230;",
+        "abstract": "“Who here believes involuntary death is a good thing?”&#160; Nathan Cheng has been delivering similar versions of this speech over the last couple of years, so I knew what was coming. He was about to try to convince the 80 or so people in the audience that death is bad. And that defeating it should&#8230;",
         "keywords": [
           "biotechnology and health",
           "app",
@@ -5764,7 +5766,7 @@
     },
     {
       "id": "mit-technology-review-fd84872e94c8",
-      "title": "What AI \u201cremembers\u201d about you is privacy\u2019s next frontier",
+      "title": "What AI “remembers” about you is privacy’s next frontier",
       "source": {
         "name": "MIT Technology Review",
         "type": "blog",
@@ -5772,7 +5774,7 @@
         "published_date": "2026-01-28"
       },
       "content": {
-        "abstract": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.&#160; Earlier this month, Google announced Personal Intelligence, a new way for people to interact with the company\u2019s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini \u201cmore personal, proactive,&#8230;",
+        "abstract": "The ability to remember you and your preferences is rapidly becoming a big selling point for AI chatbots and agents.&#160; Earlier this month, Google announced Personal Intelligence, a new way for people to interact with the company’s Gemini chatbot that draws on their Gmail, photos, search, and YouTube histories to make Gemini “more personal, proactive,&#8230;",
         "keywords": [
           "artificial intelligence",
           "app",
@@ -5800,7 +5802,7 @@
         "published_date": "2026-01-28"
       },
       "content": {
-        "abstract": "From the Gemini Calendar prompt-injection attack of 2026 to the September 2025 state-sponsored hack using Anthropic\u2019s Claude code as an automated intrusion engine, the coercion of human-in-the-loop agentic actions and fully autonomous agentic workflows are the new attack vector for hackers. In the Anthropic case, roughly 30 organizations across tech, finance, manufacturing, and government were&#8230;",
+        "abstract": "From the Gemini Calendar prompt-injection attack of 2026 to the September 2025 state-sponsored hack using Anthropic’s Claude code as an automated intrusion engine, the coercion of human-in-the-loop agentic actions and fully autonomous agentic workflows are the new attack vector for hackers. In the Anthropic case, roughly 30 organizations across tech, finance, manufacturing, and government were&#8230;",
         "keywords": [
           "artificial intelligence",
           "sponsored"
@@ -5826,7 +5828,7 @@
         "published_date": "2026-01-28"
       },
       "content": {
-        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The first human test of a rejuvenation method will begin \u201cshortly\u201d Life Biosciences, a small Boston startup founded by Harvard professor and life-extension evangelist David Sinclair, has won FDA approval to proceed with&#8230;",
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The first human test of a rejuvenation method will begin “shortly” Life Biosciences, a small Boston startup founded by Harvard professor and life-extension evangelist David Sinclair, has won FDA approval to proceed with&#8230;",
         "keywords": [
           "the download"
         ],
@@ -5843,7 +5845,7 @@
     },
     {
       "id": "mit-technology-review-445c0ac5251c",
-      "title": "The first human test of a rejuvenation method will begin \u201cshortly\u201d",
+      "title": "The first human test of a rejuvenation method will begin “shortly”",
       "source": {
         "name": "MIT Technology Review",
         "type": "blog",
@@ -5851,7 +5853,7 @@
         "published_date": "2026-01-27"
       },
       "content": {
-        "abstract": "When Elon Musk was at Davos last week, an interviewer asked him if he thought aging could be reversed. Musk said he hasn\u2019t put much time into the problem but suspects it is \u201cvery solvable\u201d and that when scientists discover why we age, it\u2019s going to be something \u201cobvious.\u201d Not long after, the Harvard professor&#8230;",
+        "abstract": "When Elon Musk was at Davos last week, an interviewer asked him if he thought aging could be reversed. Musk said he hasn’t put much time into the problem but suspects it is “very solvable” and that when scientists discover why we age, it’s going to be something “obvious.” Not long after, the Harvard professor&#8230;",
         "keywords": [
           "biotechnology and health",
           "app",
@@ -6572,7 +6574,7 @@
     },
     {
       "id": "federal-register-c26bd0a99c56",
-      "title": "30-Day Notice for the \u201cApplication for International and Domestic Indemnification\u201d; Proposed Collection; Comment Request",
+      "title": "30-Day Notice for the “Application for International and Domestic Indemnification”; Proposed Collection; Comment Request",
       "source": {
         "name": "US Federal Register",
         "type": "policy",
@@ -10103,7 +10105,7 @@
       "metadata": {
         "arxiv_id": "2601.21977v1",
         "authors": [
-          "Javier Argota S\u00e1nchez-Vaquerizo",
+          "Javier Argota Sánchez-Vaquerizo",
           "Luis Borunda Monsivais"
         ],
         "arxiv_categories": [
@@ -10372,7 +10374,7 @@
         "published_date": "2026-01-29"
       },
       "content": {
-        "abstract": "Full-image relighting remains a challenging problem due to the difficulty of collecting large-scale structured paired data, the difficulty of maintaining physical plausibility, and the limited generalizability imposed by data-driven priors. Existing attempts to bridge the synthetic-to-real gap for full-scene relighting remain suboptimal. To tackle these challenges, we introduce Physics-Inspired diffusion for full-image reLight ($\u03c0$-Light, or PI-Light), a two-stage framework that leverages physics-inspired diffusion models. Our design incorporates (i) batch-aware attention, which improves the consistency of intrinsic predictions across a collection of images, (ii) a physics-guided neural rendering module that enforces physically plausible light transport, (iii) physics-inspired losses that regularize training dynamics toward a physically meaningful landscape, thereby enhancing generalizability to real-world image editing, and (iv) a carefully curated dataset of diverse objects and scenes captured under controlled lighting conditions. Together, these components enable efficient finetuning of pretrained diffusion models while also providing a solid benchmark for downstream evaluation. Experiments demonstrate that $\u03c0$-Light synthesizes specular highlights and diffuse reflections across a wide variety of materials, achieving superior generalization to real-world scenes compared with prior approaches.",
+        "abstract": "Full-image relighting remains a challenging problem due to the difficulty of collecting large-scale structured paired data, the difficulty of maintaining physical plausibility, and the limited generalizability imposed by data-driven priors. Existing attempts to bridge the synthetic-to-real gap for full-scene relighting remain suboptimal. To tackle these challenges, we introduce Physics-Inspired diffusion for full-image reLight ($π$-Light, or PI-Light), a two-stage framework that leverages physics-inspired diffusion models. Our design incorporates (i) batch-aware attention, which improves the consistency of intrinsic predictions across a collection of images, (ii) a physics-guided neural rendering module that enforces physically plausible light transport, (iii) physics-inspired losses that regularize training dynamics toward a physically meaningful landscape, thereby enhancing generalizability to real-world image editing, and (iv) a carefully curated dataset of diverse objects and scenes captured under controlled lighting conditions. Together, these components enable efficient finetuning of pretrained diffusion models while also providing a solid benchmark for downstream evaluation. Experiments demonstrate that $π$-Light synthesizes specular highlights and diffuse reflections across a wide variety of materials, achieving superior generalization to real-world scenes compared with prior approaches.",
         "keywords": [
           "cs.CV"
         ],
@@ -10976,7 +10978,7 @@
     },
     {
       "id": "techcrunch-f87410448391",
-      "title": "Nvidia CEO pushes back against report that his company\u2019s $100B OpenAI investment has stalled",
+      "title": "Nvidia CEO pushes back against report that his company’s $100B OpenAI investment has stalled",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -10984,7 +10986,7 @@
         "published_date": "2026-01-31"
       },
       "content": {
-        "abstract": "Nvidia CEO pushes back against report that his company\u2019s $100B OpenAI investment has stalled",
+        "abstract": "Nvidia CEO pushes back against report that his company’s $100B OpenAI investment has stalled",
         "keywords": [
           "ai",
           "jensen huang",
@@ -11081,7 +11083,7 @@
     },
     {
       "id": "techcrunch-5b30cf0b46cd",
-      "title": "HomeBoost\u2019s app will show you where to save on your utility bills",
+      "title": "HomeBoost’s app will show you where to save on your utility bills",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11089,7 +11091,7 @@
         "published_date": "2026-01-31"
       },
       "content": {
-        "abstract": "HomeBoost\u2019s app will show you where to save on your utility bills",
+        "abstract": "HomeBoost’s app will show you where to save on your utility bills",
         "keywords": [
           "startups",
           "climate",
@@ -11189,7 +11191,7 @@
     },
     {
       "id": "techcrunch-0206aedfdc70",
-      "title": "A peek inside Physical Intelligence, the startup building Silicon Valley\u2019s buzziest robot brains",
+      "title": "A peek inside Physical Intelligence, the startup building Silicon Valley’s buzziest robot brains",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11197,7 +11199,7 @@
         "published_date": "2026-01-31"
       },
       "content": {
-        "abstract": "A peek inside Physical Intelligence, the startup building Silicon Valley\u2019s buzziest robot brains",
+        "abstract": "A peek inside Physical Intelligence, the startup building Silicon Valley’s buzziest robot brains",
         "keywords": [
           "ai",
           "robotics",
@@ -11247,7 +11249,7 @@
     },
     {
       "id": "techcrunch-1d09a0621d61",
-      "title": "OpenClaw\u2019s AI assistants are now building their own social network",
+      "title": "OpenClaw’s AI assistants are now building their own social network",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11255,7 +11257,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "OpenClaw\u2019s AI assistants are now building their own social network",
+        "abstract": "OpenClaw’s AI assistants are now building their own social network",
         "keywords": [
           "ai",
           "agentic ai",
@@ -11464,7 +11466,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "Civitai\u2014an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz\u2014is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by the site, a new analysis has found. The study, from researchers at Stanford and Indiana&#8230;",
+        "abstract": "Civitai—an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz—is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by the site, a new analysis has found. The study, from researchers at Stanford and Indiana&#8230;",
         "keywords": [
           "artificial intelligence",
           "app",
@@ -11507,7 +11509,7 @@
     },
     {
       "id": "techcrunch-fa24e411ec27",
-      "title": "Last\u00a024 hours\u00a0to grab your plus-one pass at 50% off to TechCrunch Disrupt 2026",
+      "title": "Last 24 hours to grab your plus-one pass at 50% off to TechCrunch Disrupt 2026",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11515,7 +11517,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "Last\u00a024 hours\u00a0to grab your plus-one pass at 50% off to TechCrunch Disrupt 2026",
+        "abstract": "Last 24 hours to grab your plus-one pass at 50% off to TechCrunch Disrupt 2026",
         "keywords": [
           "ai",
           "apps",
@@ -11565,7 +11567,7 @@
     },
     {
       "id": "mit-technology-review-5764aaa50aa7",
-      "title": "The Download: US immigration agencies\u2019 AI videos, and inside the Vitalism movement",
+      "title": "The Download: US immigration agencies’ AI videos, and inside the Vitalism movement",
       "source": {
         "name": "MIT Technology Review",
         "type": "blog",
@@ -11622,7 +11624,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "For the last couple of years, I\u2019ve been following the progress of a group of individuals who believe death is humanity\u2019s \u201ccore problem.\u201d Put simply, they say death is wrong\u2014for everyone. They\u2019ve even said it\u2019s morally wrong. They established what they consider a new philosophy, and they called it Vitalism. Vitalism is more than a philosophy,&#8230;",
+        "abstract": "For the last couple of years, I’ve been following the progress of a group of individuals who believe death is humanity’s “core problem.” Put simply, they say death is wrong—for everyone. They’ve even said it’s morally wrong. They established what they consider a new philosophy, and they called it Vitalism. Vitalism is more than a philosophy,&#8230;",
         "keywords": [
           "biotechnology and health",
           "app",
@@ -11665,7 +11667,7 @@
     },
     {
       "id": "techcrunch-c340c3be1cf5",
-      "title": "Informant told FBI that Jeffrey Epstein had a \u2018personal hacker\u2019",
+      "title": "Informant told FBI that Jeffrey Epstein had a ‘personal hacker’",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11673,7 +11675,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "Informant told FBI that Jeffrey Epstein had a \u2018personal hacker\u2019",
+        "abstract": "Informant told FBI that Jeffrey Epstein had a ‘personal hacker’",
         "keywords": [
           "security",
           "cybersecurity",
@@ -11722,7 +11724,7 @@
     },
     {
       "id": "techcrunch-3098f8a9f462",
-      "title": "Instagram might soon let you remove yourself from someone\u2019s Close Friends list",
+      "title": "Instagram might soon let you remove yourself from someone’s Close Friends list",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11730,7 +11732,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "Instagram might soon let you remove yourself from someone\u2019s Close Friends list",
+        "abstract": "Instagram might soon let you remove yourself from someone’s Close Friends list",
         "keywords": [
           "apps",
           "social",
@@ -11884,7 +11886,7 @@
     },
     {
       "id": "techcrunch-a77ef39ae322",
-      "title": "Uber is literally in the driver\u2019s seat when it comes to AV bets",
+      "title": "Uber is literally in the driver’s seat when it comes to AV bets",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -11892,7 +11894,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "Uber is literally in the driver\u2019s seat when it comes to AV bets",
+        "abstract": "Uber is literally in the driver’s seat when it comes to AV bets",
         "keywords": [
           "space",
           "startups",
@@ -11994,7 +11996,7 @@
     },
     {
       "id": "techcrunch-7e8849d8b049",
-      "title": "SpaceX\u2019s IPO could open the floodgates \u2014 and secondaries are booming in the meantime",
+      "title": "SpaceX’s IPO could open the floodgates — and secondaries are booming in the meantime",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -12002,7 +12004,7 @@
         "published_date": "2026-01-30"
       },
       "content": {
-        "abstract": "SpaceX\u2019s IPO could open the floodgates \u2014 and secondaries are booming in the meantime",
+        "abstract": "SpaceX’s IPO could open the floodgates — and secondaries are booming in the meantime",
         "keywords": [
           "space",
           "transportation",
@@ -13519,7 +13521,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "NASA continues to press ahead through the countdown for the Artemis II wet dress rehearsal \u2013 a fueling test of the SLS (Space Launch System) rocket. Teams monitored all systems throughout the overnight hours during cold temperatures and high winds at the agency\u2019s Kennedy Space Center in Florida. Early this morning, at approximately L-39 hours and 30 minutes, teams powered up the rocket\u2019s core stage, which soon will be loaded [\u2026] The post Wet Dress Rehearsal Countdown Progressing for Artemis II appeared first on NASA Science.",
+        "abstract": "NASA continues to press ahead through the countdown for the Artemis II wet dress rehearsal – a fueling test of the SLS (Space Launch System) rocket. Teams monitored all systems throughout the overnight hours during cold temperatures and high winds at the agency’s Kennedy Space Center in Florida. Early this morning, at approximately L-39 hours and 30 minutes, teams powered up the rocket’s core stage, which soon will be loaded […] The post Wet Dress Rehearsal Countdown Progressing for Artemis II appeared first on NASA Science.",
         "keywords": [
           "artemis",
           "artemis 2",
@@ -13563,7 +13565,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "The countdown for the Artemis II wet dress rehearsal is underway at NASA\u2019s Kennedy Space Center in Florida. The countdown clock began at 8:13 p.m. EST, or L-48 hours, 40 minutes before the opening of a simulated launch window at 9 pm. Mon, Feb. 2. The test is expected to go until approximately 1 a.m. [\u2026] The post Countdown Begins for Artemis II Wet Dress Rehearsal appeared first on NASA Science.",
+        "abstract": "The countdown for the Artemis II wet dress rehearsal is underway at NASA’s Kennedy Space Center in Florida. The countdown clock began at 8:13 p.m. EST, or L-48 hours, 40 minutes before the opening of a simulated launch window at 9 pm. Mon, Feb. 2. The test is expected to go until approximately 1 a.m. […] The post Countdown Begins for Artemis II Wet Dress Rehearsal appeared first on NASA Science.",
         "keywords": [
           "artemis",
           "artemis 2",
@@ -13614,7 +13616,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "NASA\u2019s Libera instrument, which is designed to maintain the global data record of Earth\u2019s radiation budget, has successfully completed comprehensive environmental testing. This critical milestone included thermal vacuum tests that simulate the expected space temperature and environments that Libera will experience during its mission. The Libera instrument will fly on Joint Polar Satellite System-4 (JPSS-4), [&#8230;] The post NASA Earth Energy Instrument Completes Testing, Ready for Delivery appeared first on NASA Science.",
+        "abstract": "NASA’s Libera instrument, which is designed to maintain the global data record of Earth’s radiation budget, has successfully completed comprehensive environmental testing. This critical milestone included thermal vacuum tests that simulate the expected space temperature and environments that Libera will experience during its mission. The Libera instrument will fly on Joint Polar Satellite System-4 (JPSS-4), [&#8230;] The post NASA Earth Energy Instrument Completes Testing, Ready for Delivery appeared first on NASA Science.",
         "keywords": [
           "earth",
           "goddard space flight center",
@@ -13697,7 +13699,7 @@
     },
     {
       "id": "federal-register-cf46b03b5ec7",
-      "title": "Airworthiness Directives; Embraer S.A. (Type Certificate Previously Held by Yabor\u00e3 Ind\u00fastria Aeron\u00e1utica S.A.; Embraer S.A.) Airplanes",
+      "title": "Airworthiness Directives; Embraer S.A. (Type Certificate Previously Held by Yaborã Indústria Aeronáutica S.A.; Embraer S.A.) Airplanes",
       "source": {
         "name": "US Federal Register",
         "type": "policy",
@@ -14494,7 +14496,7 @@
     },
     {
       "id": "un-news-c8a01426372c",
-      "title": "South Sudan: \u2018All the conditions for a human catastrophe are present\u2019",
+      "title": "South Sudan: ‘All the conditions for a human catastrophe are present’",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -14503,18 +14505,18 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "South Sudan: \u2018All the conditions for a human catastrophe are present\u2019",
+        "abstract": "South Sudan: ‘All the conditions for a human catastrophe are present’",
         "keywords": [
           "south",
           "sudan:",
-          "\u2018all",
+          "‘all",
           "conditions",
           "human",
           "catastrophe",
-          "present\u2019",
+          "present’",
           "south",
           "sudan:",
-          "\u2018all"
+          "‘all"
         ],
         "language": "en"
       },
@@ -14545,7 +14547,7 @@
     },
     {
       "id": "un-news-9940949264dc",
-      "title": "World News in Brief: Syria ceasefire welcomed, \u2018Olympic truce\u2019, Ukraine\u2019s freezing children",
+      "title": "World News in Brief: Syria ceasefire welcomed, ‘Olympic truce’, Ukraine’s freezing children",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -14554,7 +14556,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "World News in Brief: Syria ceasefire welcomed, \u2018Olympic truce\u2019, Ukraine\u2019s freezing children",
+        "abstract": "World News in Brief: Syria ceasefire welcomed, ‘Olympic truce’, Ukraine’s freezing children",
         "keywords": [
           "world",
           "news",
@@ -14562,9 +14564,9 @@
           "syria",
           "ceasefire",
           "welcomed,",
-          "\u2018olympic",
-          "truce\u2019,",
-          "ukraine\u2019s",
+          "‘olympic",
+          "truce’,",
+          "ukraine’s",
           "freezing"
         ],
         "language": "en"
@@ -14596,7 +14598,7 @@
     },
     {
       "id": "un-news-3cbf8a7ea959",
-      "title": "Reaching a child in Darfur is \u2018hard-won and fragile\u2019, says UNICEF",
+      "title": "Reaching a child in Darfur is ‘hard-won and fragile’, says UNICEF",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -14605,13 +14607,13 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Reaching a child in Darfur is \u2018hard-won and fragile\u2019, says UNICEF",
+        "abstract": "Reaching a child in Darfur is ‘hard-won and fragile’, says UNICEF",
         "keywords": [
           "reaching",
           "child",
           "darfur",
-          "\u2018hard-won",
-          "fragile\u2019,",
+          "‘hard-won",
+          "fragile’,",
           "says",
           "unicef",
           "reaching",
@@ -14758,7 +14760,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "NASA and Axiom Space have signed an order for the fifth private astronaut mission to the International Space Station, targeted to launch no earlier than January 2027 from the agency\u2019s Kennedy Space Center in Florida. \u201cThe award of our fifth private astronaut mission shows that commercial space is not a distant promise, but a present [\u2026] The post NASA Selects Axiom Space for Fifth Private Mission to Space Station appeared first on NASA Science.",
+        "abstract": "NASA and Axiom Space have signed an order for the fifth private astronaut mission to the International Space Station, targeted to launch no earlier than January 2027 from the agency’s Kennedy Space Center in Florida. “The award of our fifth private astronaut mission shows that commercial space is not a distant promise, but a present […] The post NASA Selects Axiom Space for Fifth Private Mission to Space Station appeared first on NASA Science.",
         "keywords": [
           "commercial space",
           "international space station (iss)",
@@ -14802,7 +14804,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "While NASA is working with U.S. aviation to explore commercial supersonic technologies, the agency is also looking forward to an even faster era of flight \u2013 one of vehicles that can fly hypersonic, or five times the speed of sound. And to further that vision, NASA has issued two awards for studies into vehicle concepts. [\u2026] The post NASA Aims to Advance Hypersonic Flight Testing with New Awards appeared first on NASA Science.",
+        "abstract": "While NASA is working with U.S. aviation to explore commercial supersonic technologies, the agency is also looking forward to an even faster era of flight – one of vehicles that can fly hypersonic, or five times the speed of sound. And to further that vision, NASA has issued two awards for studies into vehicle concepts. […] The post NASA Aims to Advance Hypersonic Flight Testing with New Awards appeared first on NASA Science.",
         "keywords": [
           "advanced air vehicles program",
           "aeronautics",
@@ -14839,7 +14841,7 @@
     },
     {
       "id": "nasa-climate-change-83c9646821b1",
-      "title": "Visualizing Perseverance\u2019s AI-Planned Drive on Mars",
+      "title": "Visualizing Perseverance’s AI-Planned Drive on Mars",
       "source": {
         "name": "NASA Climate Change",
         "type": "policy",
@@ -14848,7 +14850,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Description This animation of NASA\u2019s Perseverance was created with the Caspian visualization tool using data acquired during an 807-foot (246-meter) drive on the rim of Jezero Crater made by the rover on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. The mission\u2019s \u201cdrivers,\u201d or rover planners, use the information to understand the Perseverance\u2019s [&#8230;] The post Visualizing Perseverance\u2019s AI-Planned Drive on Mars appeared first on NASA Science.",
+        "abstract": "Description This animation of NASA’s Perseverance was created with the Caspian visualization tool using data acquired during an 807-foot (246-meter) drive on the rim of Jezero Crater made by the rover on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. The mission’s “drivers,” or rover planners, use the information to understand the Perseverance’s [&#8230;] The post Visualizing Perseverance’s AI-Planned Drive on Mars appeared first on NASA Science.",
         "keywords": [
           "photojournal"
         ],
@@ -14891,7 +14893,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "NASA OUTSTANDING PUBLIC LEADERSHIP MEDAL Awarded for notable leadership accomplishments that have significantly influenced NASA\u2019s mission. Sustained leadership and exceptionally high-impact leadership achievements demonstrate the individual\u2019s effectiveness in advancing NASA\u2019s goals and image in present and future terms. Kamal Oudrhiri &#8211; For outstanding leadership of the Cold Atom Laboratory, NASA\u2019s first quantum laboratory in space. [&#8230;] The post NASA Honor Awards for Cold Atom Lab Team Members appeared first on NASA Science.",
+        "abstract": "NASA OUTSTANDING PUBLIC LEADERSHIP MEDAL Awarded for notable leadership accomplishments that have significantly influenced NASA’s mission. Sustained leadership and exceptionally high-impact leadership achievements demonstrate the individual’s effectiveness in advancing NASA’s goals and image in present and future terms. Kamal Oudrhiri &#8211; For outstanding leadership of the Cold Atom Laboratory, NASA’s first quantum laboratory in space. [&#8230;] The post NASA Honor Awards for Cold Atom Lab Team Members appeared first on NASA Science.",
         "keywords": [
           "cold atom laboratory (cal)",
           "international space station (iss)",
@@ -14927,7 +14929,7 @@
     },
     {
       "id": "nasa-climate-change-ce30d7e6589a",
-      "title": "Video: Perseverance Rover\u2019s View of Crater Rim Drive",
+      "title": "Video: Perseverance Rover’s View of Crater Rim Drive",
       "source": {
         "name": "NASA Climate Change",
         "type": "policy",
@@ -14936,7 +14938,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Description This animation shows Perseverance\u2019s point of view during drive of 807 feet (246 meters) along the rim of Jezero Crater on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. Captured over two hours and 35 minutes, 53 Navigation Camera (Navcam) image pairs were combined with rover data on orientation, wheel speed, [&#8230;] The post Video: Perseverance Rover\u2019s View of Crater Rim Drive appeared first on NASA Science.",
+        "abstract": "Description This animation shows Perseverance’s point of view during drive of 807 feet (246 meters) along the rim of Jezero Crater on Dec. 10, 2025, the 1,709th Martian day, or sol, of the mission. Captured over two hours and 35 minutes, 53 Navigation Camera (Navcam) image pairs were combined with rover data on orientation, wheel speed, [&#8230;] The post Video: Perseverance Rover’s View of Crater Rim Drive appeared first on NASA Science.",
         "keywords": [
           "photojournal"
         ],
@@ -15072,7 +15074,7 @@
     },
     {
       "id": "un-news-a3faf2601565",
-      "title": "UN chief \u2018deeply concerned\u2019 by escalation of violence in South Sudan",
+      "title": "UN chief ‘deeply concerned’ by escalation of violence in South Sudan",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -15081,18 +15083,18 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "UN chief \u2018deeply concerned\u2019 by escalation of violence in South Sudan",
+        "abstract": "UN chief ‘deeply concerned’ by escalation of violence in South Sudan",
         "keywords": [
           "chief",
-          "\u2018deeply",
-          "concerned\u2019",
+          "‘deeply",
+          "concerned’",
           "escalation",
           "violence",
           "south",
           "sudan",
           "chief",
-          "\u2018deeply",
-          "concerned\u2019"
+          "‘deeply",
+          "concerned’"
         ],
         "language": "en"
       },
@@ -15174,7 +15176,7 @@
     },
     {
       "id": "un-news-0db353a08d31",
-      "title": "\u2018We children saw things that no one should ever have to see\u2019 Holocaust survivor tells the UN",
+      "title": "‘We children saw things that no one should ever have to see’ Holocaust survivor tells the UN",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -15183,7 +15185,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "\u2018We children saw things that no one should ever have to see\u2019 Holocaust survivor tells the UN",
+        "abstract": "‘We children saw things that no one should ever have to see’ Holocaust survivor tells the UN",
         "keywords": [
           "children",
           "things",
@@ -15191,7 +15193,7 @@
           "should",
           "ever",
           "have",
-          "see\u2019",
+          "see’",
           "holocaust",
           "survivor",
           "tells"
@@ -15378,7 +15380,7 @@
     },
     {
       "id": "un-news-81959a6ec601",
-      "title": "Remembering the Holocaust: \u2018You are here because you choose hope over hate\u2019",
+      "title": "Remembering the Holocaust: ‘You are here because you choose hope over hate’",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -15387,17 +15389,17 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Remembering the Holocaust: \u2018You are here because you choose hope over hate\u2019",
+        "abstract": "Remembering the Holocaust: ‘You are here because you choose hope over hate’",
         "keywords": [
           "remembering",
           "holocaust:",
-          "\u2018you",
+          "‘you",
           "here",
           "because",
           "choose",
           "hope",
           "over",
-          "hate\u2019",
+          "hate’",
           "remembering"
         ],
         "language": "en"
@@ -15590,7 +15592,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00322-4Nature staff discuss some of the week\u2019s top science news.",
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00322-4Nature staff discuss some of the week’s top science news.",
         "keywords": [
           "briefing",
           "chat:",
@@ -15607,7 +15609,7 @@
       },
       "metadata": {
         "feed_source": "https://www.nature.com/nature.rss",
-        "author": "Nick Petri\u0107 Howe"
+        "author": "Nick Petrić Howe"
       },
       "preliminary_category": "E",
       "collected_at": "2026-02-02T10:40:40.837298",
@@ -15642,7 +15644,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00154-2Religious faith is a fundamental part of many academics\u2019 identities, but some are nervous of talking about it at work.",
+        "abstract": "Nature, Published online: 30 January 2026; doi:10.1038/d41586-026-00154-2Religious faith is a fundamental part of many academics’ identities, but some are nervous of talking about it at work.",
         "keywords": [
           "academia",
           "handle",
@@ -16248,7 +16250,7 @@
     },
     {
       "id": "nature-news-e2b3fc2f14fc",
-      "title": "Genetically engineered \u2018stinkweed\u2019 comes up roses for making seed oil",
+      "title": "Genetically engineered ‘stinkweed’ comes up roses for making seed oil",
       "source": {
         "name": "Nature News",
         "type": "academic",
@@ -16261,7 +16263,7 @@
         "keywords": [
           "genetically",
           "engineered",
-          "\u2018stinkweed\u2019",
+          "‘stinkweed’",
           "comes",
           "roses",
           "making",
@@ -16352,7 +16354,7 @@
     },
     {
       "id": "nature-news-11149aff7162",
-      "title": "Daily briefing: Brain\u2013immune crosstalk worsens the damage of heart attacks",
+      "title": "Daily briefing: Brain–immune crosstalk worsens the damage of heart attacks",
       "source": {
         "name": "Nature News",
         "type": "academic",
@@ -16361,11 +16363,11 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00319-zVagus nerve signalling causes damaging post-heart-attack inflammation. Plus, why birds decorate their nests with \u2018tails\u2019 and the health benefits of forest bathing.",
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-026-00319-zVagus nerve signalling causes damaging post-heart-attack inflammation. Plus, why birds decorate their nests with ‘tails’ and the health benefits of forest bathing.",
         "keywords": [
           "daily",
           "briefing:",
-          "brain\u2013immune",
+          "brain–immune",
           "crosstalk",
           "worsens",
           "damage",
@@ -16413,7 +16415,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-025-04162-6Despite attempts by many universities to modernize their policies on working conditions and misconduct, the academic system has pushed back. Here\u2019s how to ensure lasting change.",
+        "abstract": "Nature, Published online: 29 January 2026; doi:10.1038/d41586-025-04162-6Despite attempts by many universities to modernize their policies on working conditions and misconduct, the academic system has pushed back. Here’s how to ensure lasting change.",
         "keywords": [
           "five",
           "ways",
@@ -16768,7 +16770,7 @@
     },
     {
       "id": "science-magazine-fe3be06bf230",
-      "title": "Fluttering \u2018tails\u2019 on bird nests confuse would-be predators",
+      "title": "Fluttering ‘tails’ on bird nests confuse would-be predators",
       "source": {
         "name": "Science Magazine",
         "type": "academic",
@@ -16777,24 +16779,24 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Fluttering \u2018tails\u2019 on bird nests confuse would-be predators",
+        "abstract": "Fluttering ‘tails’ on bird nests confuse would-be predators",
         "keywords": [
           "fluttering",
-          "\u2018tails\u2019",
+          "‘tails’",
           "bird",
           "nests",
           "confuse",
           "would-be",
           "predators",
           "fluttering",
-          "\u2018tails\u2019",
+          "‘tails’",
           "bird"
         ],
         "language": "en"
       },
       "metadata": {
         "feed_source": "https://www.science.org/rss/news_current.xml",
-        "author": "Christa Lest\u00e9-Lasserre"
+        "author": "Christa Lesté-Lasserre"
       },
       "preliminary_category": "E",
       "collected_at": "2026-02-02T10:40:41.293856",
@@ -16866,7 +16868,7 @@
     },
     {
       "id": "ieee-spectrum-a36b78748d0c",
-      "title": "IEEE Brings Hands-On STEM Activities to India\u2019s Rural Areas",
+      "title": "IEEE Brings Hands-On STEM Activities to India’s Rural Areas",
       "source": {
         "name": "IEEE Spectrum",
         "type": "academic",
@@ -16875,7 +16877,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "IEEE Brings Hands-On STEM Activities to India\u2019s Rural Areas",
+        "abstract": "IEEE Brings Hands-On STEM Activities to India’s Rural Areas",
         "keywords": [
           "ieee antennas and propagation society",
           "ieee microwave theory and techniques",
@@ -16966,7 +16968,7 @@
     },
     {
       "id": "carbon-brief-123a5cb42a38",
-      "title": "Climate change and La Ni\u00f1a made \u2018devastating\u2019 southern African floods more intense",
+      "title": "Climate change and La Niña made ‘devastating’ southern African floods more intense",
       "source": {
         "name": "Carbon Brief",
         "type": "blog",
@@ -16975,7 +16977,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "\u201cExceptionally heavy\u201d rainfall that led to deadly flooding across southern Africa in recent weeks was... The post Climate change and La Ni\u00f1a made \u2018devastating\u2019 southern African floods more intense appeared first on Carbon Brief.",
+        "abstract": "“Exceptionally heavy” rainfall that led to deadly flooding across southern Africa in recent weeks was... The post Climate change and La Niña made ‘devastating’ southern African floods more intense appeared first on Carbon Brief.",
         "keywords": [
           "attribution",
           "extreme weather",
@@ -17174,7 +17176,7 @@
     },
     {
       "id": "hacker-news-917f722ca1b7",
-      "title": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
+      "title": "Show HN: NanoClaw – “Clawdbot” in 500 lines of TS with Apple container isolation",
       "source": {
         "name": "Hacker News",
         "type": "blog",
@@ -17183,18 +17185,18 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
+        "abstract": "Show HN: NanoClaw – “Clawdbot” in 500 lines of TS with Apple container isolation",
         "keywords": [
           "show",
           "nanoclaw",
-          "\u201cclawdbot\u201d",
+          "“clawdbot”",
           "lines",
           "apple",
           "container",
           "isolation",
           "show",
           "nanoclaw",
-          "\u201cclawdbot\u201d"
+          "“clawdbot”"
         ],
         "language": "en"
       },
@@ -17927,7 +17929,7 @@
     },
     {
       "id": "wired-1cb609de59b3",
-      "title": "Building a Watch Collection on a Budget? Here\u2019s Where to Start (2026)",
+      "title": "Building a Watch Collection on a Budget? Here’s Where to Start (2026)",
       "source": {
         "name": "Wired",
         "type": "blog",
@@ -17936,7 +17938,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Building a Watch Collection on a Budget? Here\u2019s Where to Start (2026)",
+        "abstract": "Building a Watch Collection on a Budget? Here’s Where to Start (2026)",
         "keywords": [
           "gear",
           "gear / buying guides",
@@ -18127,7 +18129,7 @@
     },
     {
       "id": "wired-27eacdb8b3d4",
-      "title": "Best Valentine\u2019s Day Gifts (2026): Legos, Karaoke, Digital Frames, and More",
+      "title": "Best Valentine’s Day Gifts (2026): Legos, Karaoke, Digital Frames, and More",
       "source": {
         "name": "Wired",
         "type": "blog",
@@ -18136,7 +18138,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Best Valentine\u2019s Day Gifts (2026): Legos, Karaoke, Digital Frames, and More",
+        "abstract": "Best Valentine’s Day Gifts (2026): Legos, Karaoke, Digital Frames, and More",
         "keywords": [
           "gear",
           "gear / buying guides",
@@ -18178,7 +18180,7 @@
     },
     {
       "id": "wired-408907a4b800",
-      "title": "The Best Chocolate Boxes of 2026 for Valentine\u2019s Delivery",
+      "title": "The Best Chocolate Boxes of 2026 for Valentine’s Delivery",
       "source": {
         "name": "Wired",
         "type": "blog",
@@ -18187,7 +18189,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "The Best Chocolate Boxes of 2026 for Valentine\u2019s Delivery",
+        "abstract": "The Best Chocolate Boxes of 2026 for Valentine’s Delivery",
         "keywords": [
           "gear",
           "gear / buying guides",
@@ -18732,7 +18734,7 @@
     },
     {
       "id": "techcrunch-c179a072f4f8",
-      "title": "AI layoffs or \u2018AI-washing\u2019?",
+      "title": "AI layoffs or ‘AI-washing’?",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -18740,7 +18742,7 @@
         "published_date": "2026-02-01"
       },
       "content": {
-        "abstract": "AI layoffs or \u2018AI-washing\u2019?",
+        "abstract": "AI layoffs or ‘AI-washing’?",
         "keywords": [
           "ai",
           "ai washing",
@@ -18775,7 +18777,7 @@
     },
     {
       "id": "techcrunch-f4842d64f83a",
-      "title": "Why Tether\u2019s CEO is everywhere right now",
+      "title": "Why Tether’s CEO is everywhere right now",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -18783,7 +18785,7 @@
         "published_date": "2026-02-01"
       },
       "content": {
-        "abstract": "Why Tether\u2019s CEO is everywhere right now",
+        "abstract": "Why Tether’s CEO is everywhere right now",
         "keywords": [
           "ai",
           "commerce",
@@ -18824,7 +18826,7 @@
     },
     {
       "id": "techcrunch-5dbd2dde08fe",
-      "title": "Amazon\u2019s \u2018Melania\u2019 documentary makes $7M on opening weekend",
+      "title": "Amazon’s ‘Melania’ documentary makes $7M on opening weekend",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -18832,7 +18834,7 @@
         "published_date": "2026-02-01"
       },
       "content": {
-        "abstract": "Amazon\u2019s \u2018Melania\u2019 documentary makes $7M on opening weekend",
+        "abstract": "Amazon’s ‘Melania’ documentary makes $7M on opening weekend",
         "keywords": [
           "government & policy",
           "media & entertainment",
@@ -18870,7 +18872,7 @@
     },
     {
       "id": "techcrunch-56e44289e77e",
-      "title": "Indonesia \u2018conditionally\u2019 lifts ban on Grok",
+      "title": "Indonesia ‘conditionally’ lifts ban on Grok",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -18878,7 +18880,7 @@
         "published_date": "2026-02-01"
       },
       "content": {
-        "abstract": "Indonesia \u2018conditionally\u2019 lifts ban on Grok",
+        "abstract": "Indonesia ‘conditionally’ lifts ban on Grok",
         "keywords": [
           "tc",
           "ai",
@@ -19419,7 +19421,7 @@
     },
     {
       "id": "ars-technica-774e8cdd93ff",
-      "title": "NASA faces a crucial choice on a Mars spacecraft\u2014and it must decide soon",
+      "title": "NASA faces a crucial choice on a Mars spacecraft—and it must decide soon",
       "source": {
         "name": "Ars Technica",
         "type": "blog",
@@ -19428,7 +19430,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "\"We think that\u2019s a really important mission, and something that we can do.\"",
+        "abstract": "\"We think that’s a really important mission, and something that we can do.\"",
         "keywords": [
           "space",
           "blue origin",
@@ -19477,7 +19479,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "\"We\u2019re seeing remarkable growth year after year.\"",
+        "abstract": "\"We’re seeing remarkable growth year after year.\"",
         "keywords": [
           "space",
           "rocket report",
@@ -19653,7 +19655,7 @@
     },
     {
       "id": "pew-research-center-cdbb672f59d7",
-      "title": "How Americans See Immigration Officers\u2019 Behaviors and Civilian Actions",
+      "title": "How Americans See Immigration Officers’ Behaviors and Civilian Actions",
       "source": {
         "name": "Pew Research Center",
         "type": "blog",
@@ -19662,7 +19664,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "How Americans See Immigration Officers\u2019 Behaviors and Civilian Actions",
+        "abstract": "How Americans See Immigration Officers’ Behaviors and Civilian Actions",
         "keywords": [
           "immigration & migration",
           "political parties & polarization",
@@ -19700,7 +19702,7 @@
     },
     {
       "id": "carbon-brief-2d897a47c277",
-      "title": "Climate change could lead to 500,000 \u2018additional\u2019 malaria deaths in Africa by 2050",
+      "title": "Climate change could lead to 500,000 ‘additional’ malaria deaths in Africa by 2050",
       "source": {
         "name": "Carbon Brief",
         "type": "blog",
@@ -19709,7 +19711,7 @@
         "tier": "expansion"
       },
       "content": {
-        "abstract": "Climate change could lead to half a million more deaths from malaria in Africa over... The post Climate change could lead to 500,000 \u2018additional\u2019 malaria deaths in Africa by 2050 appeared first on Carbon Brief.",
+        "abstract": "Climate change could lead to half a million more deaths from malaria in Africa over... The post Climate change could lead to 500,000 ‘additional’ malaria deaths in Africa by 2050 appeared first on Carbon Brief.",
         "keywords": [
           "people",
           "public health",
@@ -21200,7 +21202,7 @@
     },
     {
       "id": "epa-20260215-013",
-      "title": "Trump EPA revokes CO2 endangerment finding \u2014 largest deregulation in US history",
+      "title": "Trump EPA revokes CO2 endangerment finding — largest deregulation in US history",
       "source": {
         "name": "Carbon Brief",
         "type": "blog",
@@ -21353,7 +21355,7 @@
         "published_date": "2026-01-15"
       },
       "content": {
-        "abstract": "The first-ever project to demonstrate the deuterium-tritium fuel cycle \u2014 the most viable route to practical fusion energy \u2014 plans to be operational by late 2026. This milestone could accelerate the timeline for commercial fusion power.",
+        "abstract": "The first-ever project to demonstrate the deuterium-tritium fuel cycle — the most viable route to practical fusion energy — plans to be operational by late 2026. This milestone could accelerate the timeline for commercial fusion power.",
         "keywords": [
           "fusion energy",
           "deuterium-tritium",
@@ -21382,7 +21384,7 @@
         "published_date": "2026-01-10"
       },
       "content": {
-        "abstract": "Automotive startup Tensor plans to release its SAE Level 4 car to consumers in H2 2026 \u2014 the car can safely travel without a person in the driver's seat. This represents a significant leap toward full autonomous driving commercialization.",
+        "abstract": "Automotive startup Tensor plans to release its SAE Level 4 car to consumers in H2 2026 — the car can safely travel without a person in the driver's seat. This represents a significant leap toward full autonomous driving commercialization.",
         "keywords": [
           "autonomous vehicles",
           "self-driving",
@@ -21498,7 +21500,7 @@
         "published_date": "2026-01-14"
       },
       "content": {
-        "abstract": "18% of surveyed global leaders identified geoeconomic confrontation \u2014 use of trade, investment, sanctions, and industrial policy as strategic weapons \u2014 as the most likely trigger of a global crisis. Governments increasingly pursue economic sovereignty through de-risking and onshoring.",
+        "abstract": "18% of surveyed global leaders identified geoeconomic confrontation — use of trade, investment, sanctions, and industrial policy as strategic weapons — as the most likely trigger of a global crisis. Governments increasingly pursue economic sovereignty through de-risking and onshoring.",
         "keywords": [
           "geoeconomics",
           "trade war",
@@ -21875,7 +21877,7 @@
         "published_date": "2026-01-10"
       },
       "content": {
-        "abstract": "Infleqtion and University of Wisconsin-Madison achieved record-breaking 99.93% readout fidelity for neutral-atom qubits, providing a path to fast mid-circuit measurements required for quantum error correction \u2014 a critical milestone for practical quantum computing.",
+        "abstract": "Infleqtion and University of Wisconsin-Madison achieved record-breaking 99.93% readout fidelity for neutral-atom qubits, providing a path to fast mid-circuit measurements required for quantum error correction — a critical milestone for practical quantum computing.",
         "keywords": [
           "quantum computing",
           "error correction",
@@ -22490,7 +22492,7 @@
     },
     {
       "id": "wf1-20260218-005",
-      "title": "New START Treaty Expiration Risk \u2014 Nuclear Arms Control Gap",
+      "title": "New START Treaty Expiration Risk — Nuclear Arms Control Gap",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -22578,7 +22580,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "Automotive startup Tensor plans to release SAE Level 4 autonomous car to consumers in H2 2026 \u2014 no human driver needed. First consumer-facing Level 4 vehicle.",
+        "abstract": "Automotive startup Tensor plans to release SAE Level 4 autonomous car to consumers in H2 2026 — no human driver needed. First consumer-facing Level 4 vehicle.",
         "keywords": [
           "autonomous vehicles",
           "Level 4",
@@ -22606,7 +22608,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "First-ever project to demonstrate deuterium-tritium fuel cycle \u2014 the most viable route to practical fusion energy \u2014 plans operational by late 2026.",
+        "abstract": "First-ever project to demonstrate deuterium-tritium fuel cycle — the most viable route to practical fusion energy — plans operational by late 2026.",
         "keywords": [
           "fusion energy",
           "deuterium-tritium",
@@ -22706,7 +22708,7 @@
     },
     {
       "id": "wf1-20260218-013",
-      "title": "Greenland Records Warmest January Ever \u2014 4x Faster Warming",
+      "title": "Greenland Records Warmest January Ever — 4x Faster Warming",
       "source": {
         "name": "NASA Climate Change",
         "type": "policy",
@@ -22714,7 +22716,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "Greenland recorded warmest January on record: average Nuuk temperature +0.2\u00b0C vs 1991-2020 average -7.7\u00b0C. Greenland warming ~4x faster than global average. Arctic amplification accelerating.",
+        "abstract": "Greenland recorded warmest January on record: average Nuuk temperature +0.2°C vs 1991-2020 average -7.7°C. Greenland warming ~4x faster than global average. Arctic amplification accelerating.",
         "keywords": [
           "Arctic warming",
           "Greenland",
@@ -22890,7 +22892,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "Iceberg Quantum's Pinnacle Architecture broke RSA-2048 with under 100,000 physical qubits via QLDPC codes \u2014 10x reduction. QuTech demonstrated first Majorana qubit readout; 1,058 spin qubits at 2M/mm\u00b2. Nature confirms quantum computers usable within a decade.",
+        "abstract": "Iceberg Quantum's Pinnacle Architecture broke RSA-2048 with under 100,000 physical qubits via QLDPC codes — 10x reduction. QuTech demonstrated first Majorana qubit readout; 1,058 spin qubits at 2M/mm². Nature confirms quantum computers usable within a decade.",
         "keywords": [
           "quantum computing",
           "RSA-2048",
@@ -22967,7 +22969,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "Youth-led organization Aurora launched legal challenge against Swedish government, alleging climate targets are inadequate and Sweden not doing 'fair share' to limit warming to 1.5\u00b0C.",
+        "abstract": "Youth-led organization Aurora launched legal challenge against Swedish government, alleging climate targets are inadequate and Sweden not doing 'fair share' to limit warming to 1.5°C.",
         "keywords": [
           "climate litigation",
           "youth activism",
@@ -23011,7 +23013,7 @@
     },
     {
       "id": "wf1-20260218-025",
-      "title": "UNCTAD: World Output Slowing to 2.7% \u2014 Below Pre-Pandemic Average",
+      "title": "UNCTAD: World Output Slowing to 2.7% — Below Pre-Pandemic Average",
       "source": {
         "name": "World Bank Blogs",
         "type": "policy",
@@ -23084,7 +23086,7 @@
     },
     {
       "id": "wf1-20260218-028",
-      "title": "CRISPR Tool for Antibiotic Resistance Crisis \u2014 UC San Diego",
+      "title": "CRISPR Tool for Antibiotic Resistance Crisis — UC San Diego",
       "source": {
         "name": "Science Magazine",
         "type": "academic",
@@ -23108,7 +23110,7 @@
     },
     {
       "id": "wf1-20260218-029",
-      "title": "International Ocean Treaty Enters Force \u2014 Marine Life Protection",
+      "title": "International Ocean Treaty Enters Force — Marine Life Protection",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -23236,7 +23238,7 @@
     },
     {
       "id": "wf1-20260218-034",
-      "title": "Toxic Metals Moving from Contaminated Soil into Edible Crops \u2014 Brazil",
+      "title": "Toxic Metals Moving from Contaminated Soil into Edible Crops — Brazil",
       "source": {
         "name": "Nature News",
         "type": "academic",
@@ -23244,7 +23246,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "Research from 2015 Brazil mining disaster: toxic metals (lead, cadmium) moving from contaminated earth into edible plants \u2014 bananas, cassava, cocoa found to absorb dangerous elements.",
+        "abstract": "Research from 2015 Brazil mining disaster: toxic metals (lead, cadmium) moving from contaminated earth into edible plants — bananas, cassava, cocoa found to absorb dangerous elements.",
         "keywords": [
           "food contamination",
           "toxic metals",
@@ -23284,7 +23286,7 @@
     },
     {
       "id": "wf1-20260218-036",
-      "title": "Global Health Systems 'At Risk' as Funding Cuts Bite \u2014 WHO",
+      "title": "Global Health Systems 'At Risk' as Funding Cuts Bite — WHO",
       "source": {
         "name": "WHO Press Releases",
         "type": "policy",
@@ -23356,7 +23358,7 @@
     },
     {
       "id": "wf1-20260218-039",
-      "title": "Pew: What Makes People Proud of Their Country \u2014 Global Study",
+      "title": "Pew: What Makes People Proud of Their Country — Global Study",
       "source": {
         "name": "Pew Research Center",
         "type": "blog",
@@ -23364,7 +23366,7 @@
         "published_date": "2026-02-17"
       },
       "content": {
-        "abstract": "Pew Research (Feb 17) examines global national pride patterns \u2014 culture/lifestyle, politics/economy, people/diversity. Americans' complicated relationship with news; age divide in news consumption.",
+        "abstract": "Pew Research (Feb 17) examines global national pride patterns — culture/lifestyle, politics/economy, people/diversity. Americans' complicated relationship with news; age divide in news consumption.",
         "keywords": [
           "national pride",
           "public opinion",
@@ -23380,7 +23382,7 @@
     },
     {
       "id": "wf1-20260218-040",
-      "title": "Two-Thirds of Maternal Deaths in Conflict/Fragile States \u2014 WHO",
+      "title": "Two-Thirds of Maternal Deaths in Conflict/Fragile States — WHO",
       "source": {
         "name": "WHO Press Releases",
         "type": "policy",
@@ -23428,7 +23430,7 @@
     },
     {
       "id": "wf1-20260218-042",
-      "title": "Global Trade Realignment Without US \u2014 New Trade Deals",
+      "title": "Global Trade Realignment Without US — New Trade Deals",
       "source": {
         "name": "Brookings Institution",
         "type": "blog",
@@ -23821,7 +23823,7 @@
     },
     {
       "id": "wf1-20260219-019",
-      "title": "17 US AI Companies Raise $100M+ \u2014 Capital Concentration Accelerates",
+      "title": "17 US AI Companies Raise $100M+ — Capital Concentration Accelerates",
       "primary_steeps": "E",
       "secondary_steeps": [
         "T"
@@ -23876,7 +23878,7 @@
     },
     {
       "id": "websearch-20260224-005",
-      "title": "Planet Conclusively Expected to Breach 1.5\u00b0C Barrier Within 3-5 Years",
+      "title": "Planet Conclusively Expected to Breach 1.5°C Barrier Within 3-5 Years",
       "url": "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026/",
       "category": "E_Environmental",
       "collected_at": "2026-02-24T20:46:00+00:00"
@@ -23911,7 +23913,7 @@
     },
     {
       "id": "websearch-20260224-010",
-      "title": "Global Political Risk Reaches Historic Tipping Point at 41.1% \u2014 Coface Index",
+      "title": "Global Political Risk Reaches Historic Tipping Point at 41.1% — Coface Index",
       "url": "https://www.coface.com/news-economy-and-insights/3-political-and-social-risks-to-watch-out-for-in-2026",
       "category": "P",
       "collected_at": "2026-02-24T20:48:00+00:00"
@@ -23953,7 +23955,7 @@
     },
     {
       "id": "websearch-20260224-016",
-      "title": "US Nonfarm Payrolls Rose Only 130K in January \u2014 Health Care Drives Hiring",
+      "title": "US Nonfarm Payrolls Rose Only 130K in January — Health Care Drives Hiring",
       "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "category": "S",
       "collected_at": "2026-02-24T20:50:00+00:00"
@@ -24009,7 +24011,7 @@
     },
     {
       "id": "websearch-20260224-024",
-      "title": "Underpriced Climate Risks Threaten Global Economy \u2014 WEF Warning",
+      "title": "Underpriced Climate Risks Threaten Global Economy — WEF Warning",
       "url": "https://www.weforum.org/stories/2026/02/underpriced-climate-risks-threaten-global-economy-climate-nature-news/",
       "category": "E",
       "collected_at": "2026-02-24T20:53:00+00:00"
@@ -24193,7 +24195,7 @@
     },
     {
       "id": "imf-20260226-011",
-      "title": "IMF: Global Growth 3.3% \u2014 Tech Investment Offsets Trade",
+      "title": "IMF: Global Growth 3.3% — Tech Investment Offsets Trade",
       "category": "E",
       "psst": 75,
       "impact": "8.0/10",
@@ -24344,7 +24346,7 @@
         "published_date": "2026-02-27"
       },
       "content": {
-        "abstract": "Ahead of Mobile World Congress 2026, device makers are preparing ambitious phone concepts\u2014rotating camera systems, modular add-ons, and mechanical experiments\u2014as global smartphone growth stagnates and AI features alone no longer drive purchases.",
+        "abstract": "Ahead of Mobile World Congress 2026, device makers are preparing ambitious phone concepts—rotating camera systems, modular add-ons, and mechanical experiments—as global smartphone growth stagnates and AI features alone no longer drive purchases.",
         "keywords": [
           "MWC",
           "smartphones",
@@ -24359,7 +24361,7 @@
     },
     {
       "id": "nature-20260227-001",
-      "title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months \u2014 Record Collapse",
+      "title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months — Record Collapse",
       "source": {
         "name": "Nature News",
         "type": "academic",
@@ -24499,7 +24501,7 @@
     },
     {
       "id": "un-20260227-002",
-      "title": "South Sudan Driven Toward Full-Scale War and Mass Atrocity Crimes \u2014 UN Inquiry",
+      "title": "South Sudan Driven Toward Full-Scale War and Mass Atrocity Crimes — UN Inquiry",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -24577,7 +24579,7 @@
         "published_date": "2026-02-26"
       },
       "content": {
-        "abstract": "China's CO2 emissions have been flat or falling for almost two years\u2014the first time annual emissions may have fallen when energy demand was rising. Wind and solar capacity has outranked coal for the first time in history. Solar alone may outpace coal in 2026.",
+        "abstract": "China's CO2 emissions have been flat or falling for almost two years—the first time annual emissions may have fallen when energy demand was rising. Wind and solar capacity has outranked coal for the first time in history. Solar alone may outpace coal in 2026.",
         "keywords": [
           "China",
           "CO2",
@@ -24594,7 +24596,7 @@
     },
     {
       "id": "carbon-20260227-002",
-      "title": "Targeted Climate Policies Cut 3 Billion Tonnes CO2 in 2022 \u2014 Landmark Study",
+      "title": "Targeted Climate Policies Cut 3 Billion Tonnes CO2 in 2022 — Landmark Study",
       "source": {
         "name": "Carbon Brief",
         "type": "blog",
@@ -24602,7 +24604,7 @@
         "published_date": "2026-02-26"
       },
       "content": {
-        "abstract": "Countries with stricter and better-targeted climate policies cut carbon emissions faster, according to a major study using 3,900+ policies from 43 economies since 2000. More than 3 billion tonnes of CO2 were avoided in 2022 alone\u2014equal to the EU's annual emissions.",
+        "abstract": "Countries with stricter and better-targeted climate policies cut carbon emissions faster, according to a major study using 3,900+ policies from 43 economies since 2000. More than 3 billion tonnes of CO2 were avoided in 2022 alone—equal to the EU's annual emissions.",
         "keywords": [
           "climate policy",
           "emissions reduction",
@@ -24639,7 +24641,7 @@
     },
     {
       "id": "imf-20260227-001",
-      "title": "IMF Raises Global Growth Forecast to 3.3% for 2026 \u2014 Tech-Driven Boom Offsets Tariffs",
+      "title": "IMF Raises Global Growth Forecast to 3.3% for 2026 — Tech-Driven Boom Offsets Tariffs",
       "source": {
         "name": "IMF Blog",
         "type": "blog",
@@ -24734,7 +24736,7 @@
     },
     {
       "id": "pew-20260227-001",
-      "title": "Pew Research: Family Caregiving Burden in America \u2014 New Survey of 8,750 Adults",
+      "title": "Pew Research: Family Caregiving Burden in America — New Survey of 8,750 Adults",
       "source": {
         "name": "Pew Research Center",
         "type": "blog",
@@ -24765,7 +24767,7 @@
         "published_date": "2026-02-26"
       },
       "content": {
-        "abstract": "Automotive startup Tensor plans to release its SAE Level 4 autonomous vehicle to consumers in H2 2026\u2014meaning the car can safely travel without a person in the driver's seat. This represents a major milestone in consumer autonomous driving.",
+        "abstract": "Automotive startup Tensor plans to release its SAE Level 4 autonomous vehicle to consumers in H2 2026—meaning the car can safely travel without a person in the driver's seat. This represents a major milestone in consumer autonomous driving.",
         "keywords": [
           "autonomous vehicles",
           "Level 4",
@@ -24826,7 +24828,7 @@
     },
     {
       "id": "pubmed-20260227-001",
-      "title": "In Vivo CAR-T Therapy Eliminates Ex Vivo Steps \u2014 Scalable Cancer Treatment",
+      "title": "In Vivo CAR-T Therapy Eliminates Ex Vivo Steps — Scalable Cancer Treatment",
       "source": {
         "name": "PubMed Central",
         "type": "academic",
@@ -24850,7 +24852,7 @@
     },
     {
       "id": "pubmed-20260227-002",
-      "title": "Suzetrigine: First Selective NaV1.8 Pain Drug \u2014 31,000x Pathway Selectivity",
+      "title": "Suzetrigine: First Selective NaV1.8 Pain Drug — 31,000x Pathway Selectivity",
       "source": {
         "name": "PubMed Central",
         "type": "academic",
@@ -24873,7 +24875,7 @@
     },
     {
       "id": "bis-20260227-001",
-      "title": "Bundesbank: Future-Proofing Europe's Financial System \u2014 Stablecoin and wCBDC Risks",
+      "title": "Bundesbank: Future-Proofing Europe's Financial System — Stablecoin and wCBDC Risks",
       "source": {
         "name": "BIS Speeches",
         "type": "policy",
@@ -24967,7 +24969,7 @@
     },
     {
       "id": "nasa-20260227-001",
-      "title": "Global Warming Rate Accelerates to 0.25C Per Decade \u2014 NASA Data Analysis",
+      "title": "Global Warming Rate Accelerates to 0.25C Per Decade — NASA Data Analysis",
       "source": {
         "name": "NASA Climate Change",
         "type": "policy",
@@ -25045,7 +25047,7 @@
     },
     {
       "id": "unnews-20260228-001",
-      "title": "US-Israel launch major attack on Iran \u2014 Supreme Leader reportedly killed",
+      "title": "US-Israel launch major attack on Iran — Supreme Leader reportedly killed",
       "category": "P_Political",
       "psst_score": 95,
       "impact_level": "CRITICAL",
@@ -25065,7 +25067,7 @@
     },
     {
       "id": "techcrunch-20260228-003",
-      "title": "Pentagon designates Anthropic as supply-chain risk \u2014 first-ever for US company",
+      "title": "Pentagon designates Anthropic as supply-chain risk — first-ever for US company",
       "category": "P_Political",
       "psst_score": 88,
       "impact_level": "CRITICAL",
@@ -25105,7 +25107,7 @@
     },
     {
       "id": "websearch-20260228-001",
-      "title": "Global markets brace for extreme volatility from Iran crisis \u2014 oil up 5-10%",
+      "title": "Global markets brace for extreme volatility from Iran crisis — oil up 5-10%",
       "category": "E_Economic",
       "psst_score": 85,
       "impact_level": "HIGH",
@@ -25155,7 +25157,7 @@
     },
     {
       "id": "techcrunch-20260228-008",
-      "title": "India blocks developer platform Supabase \u2014 tech sovereignty expansion",
+      "title": "India blocks developer platform Supabase — tech sovereignty expansion",
       "category": "P_Political",
       "psst_score": 68,
       "impact_level": "MEDIUM",
@@ -25175,7 +25177,7 @@
     },
     {
       "id": "mittr-20260228-001",
-      "title": "AI rewires how professional Go players think \u2014 human-AI cognitive augmentation",
+      "title": "AI rewires how professional Go players think — human-AI cognitive augmentation",
       "category": "T_Technological",
       "psst_score": 72,
       "impact_level": "MEDIUM",
@@ -25245,7 +25247,7 @@
     },
     {
       "id": "aeon-20260228-001",
-      "title": "Psychopathy concept debunked \u2014 'zombie idea' in psychology",
+      "title": "Psychopathy concept debunked — 'zombie idea' in psychology",
       "category": "s_spiritual",
       "psst_score": 58,
       "impact_level": "LOW",
@@ -25255,7 +25257,7 @@
     },
     {
       "id": "nature-20260228-002",
-      "title": "Selfish gene investigation \u2014 unusual sex ratio in Utah family",
+      "title": "Selfish gene investigation — unusual sex ratio in Utah family",
       "category": "T_Technological",
       "psst_score": 60,
       "impact_level": "LOW",
@@ -25318,7 +25320,7 @@
     },
     {
       "id": "tc-20260306-002",
-      "title": "US considering sweeping new chip export controls \u2014 universal oversight",
+      "title": "US considering sweeping new chip export controls — universal oversight",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -25418,7 +25420,7 @@
     },
     {
       "id": "tc-20260306-005",
-      "title": "OpenAI launches GPT-5.4 \u2014 most capable frontier model",
+      "title": "OpenAI launches GPT-5.4 — most capable frontier model",
       "source": {
         "name": "TechCrunch",
         "type": "blog",
@@ -25548,7 +25550,7 @@
     },
     {
       "id": "mitr-20260306-001",
-      "title": "Online harassment enters AI era \u2014 autonomous targeting without instruction",
+      "title": "Online harassment enters AI era — autonomous targeting without instruction",
       "source": {
         "name": "MIT Technology Review",
         "type": "blog",
@@ -25745,7 +25747,7 @@
     },
     {
       "id": "fr-20260306-003",
-      "title": "Iran national emergency continuation \u2014 Presidential declaration",
+      "title": "Iran national emergency continuation — Presidential declaration",
       "source": {
         "name": "US Federal Register",
         "type": "policy",
@@ -25785,7 +25787,7 @@
         "published_date": "2026-03-05"
       },
       "content": {
-        "abstract": "International Trade Commission received complaint concerning certain display devices, streaming players, and components \u2014 potential trade protection action in consumer electronics sector.",
+        "abstract": "International Trade Commission received complaint concerning certain display devices, streaming players, and components — potential trade protection action in consumer electronics sector.",
         "keywords": [
           "ITC",
           "trade",
@@ -25939,7 +25941,7 @@
     },
     {
       "id": "nat-20260306-004",
-      "title": "Tropical insects face critical thermal tolerance limits \u2014 biodiversity at risk",
+      "title": "Tropical insects face critical thermal tolerance limits — biodiversity at risk",
       "source": {
         "name": "Nature News",
         "type": "academic",
@@ -25972,7 +25974,7 @@
     },
     {
       "id": "nat-20260306-005",
-      "title": "AI in warfare \u2014 Iran conflict highlights military AI applications",
+      "title": "AI in warfare — Iran conflict highlights military AI applications",
       "source": {
         "name": "Nature News",
         "type": "academic",
@@ -26146,7 +26148,7 @@
         "published_date": "2026-03-02"
       },
       "content": {
-        "abstract": "Math Inc.'s Gauss AI formalized Viazovska's sphere-packing proofs in record time \u2014 8D case in 5 days, 24D case in 2 weeks. Demonstrates AI capacity to automate mathematical verification at unprecedented scale.",
+        "abstract": "Math Inc.'s Gauss AI formalized Viazovska's sphere-packing proofs in record time — 8D case in 5 days, 24D case in 2 weeks. Demonstrates AI capacity to automate mathematical verification at unprecedented scale.",
         "keywords": [
           "AI math",
           "proof verification",
@@ -26204,7 +26206,7 @@
     },
     {
       "id": "un-20260306-002",
-      "title": "Women's rights regressing worldwide \u2014 UN Women report",
+      "title": "Women's rights regressing worldwide — UN Women report",
       "source": {
         "name": "UN News",
         "type": "policy",
@@ -26369,7 +26371,7 @@
     },
     {
       "id": "brk-20260306-002",
-      "title": "Danger of broader Iran war \u2014 expert analysis",
+      "title": "Danger of broader Iran war — expert analysis",
       "source": {
         "name": "Brookings Institution",
         "type": "blog",
@@ -26436,7 +26438,7 @@
     },
     {
       "id": "pew-20260306-001",
-      "title": "Americans most negative about compatriots' morality \u2014 25-country survey",
+      "title": "Americans most negative about compatriots' morality — 25-country survey",
       "source": {
         "name": "Pew Research Center",
         "type": "blog",
@@ -26667,7 +26669,7 @@
     },
     {
       "id": "cb-20260306-001",
-      "title": "UK emissions fall 2.4% \u2014 coal at 400-year low since 1600",
+      "title": "UK emissions fall 2.4% — coal at 400-year low since 1600",
       "source": {
         "name": "Carbon Brief",
         "type": "blog",
@@ -26767,7 +26769,7 @@
     },
     {
       "id": "aeon-20260306-001",
-      "title": "Climate change renders regions uninsurable \u2014 insurance catastrophe",
+      "title": "Climate change renders regions uninsurable — insurance catastrophe",
       "source": {
         "name": "Aeon Magazine",
         "type": "blog",
@@ -26831,6 +26833,1228 @@
         "scan_date": "2026-03-06",
         "classification_method": "LLM-assisted STEEPs classification"
       }
+    },
+    {
+      "id": "wf1-20260307-001",
+      "title": "Pace of global warming has nearly doubled since 2015 — acceleration confirmed",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "science_journalism",
+        "url": "https://www.carbonbrief.org/"
+      },
+      "published": "2026-03-06T14:22:49+00:00",
+      "steeps_category": "E_Environmental",
+      "signal_type": "Discontinuity",
+      "status": "developing",
+      "innovative_capacity": 4.2,
+      "psst_dimensions": {
+        "ES": 88,
+        "CC": 85
+      },
+      "summary": "New study confirms global warming pace has almost doubled since 2015, driven by compound heat-drought extremes. Heatwaves surging compound drought events. Acceleration exceeds prior IPCC models.",
+      "keywords": [
+        "global warming",
+        "climate acceleration",
+        "heatwave",
+        "drought"
+      ],
+      "significance": "critical"
+    },
+    {
+      "id": "wf1-20260307-002",
+      "title": "Middle East War Day 7 — UN warns world economy at grave risk; situation could spiral",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/"
+      },
+      "published": "2026-03-06T12:00:00+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Wild Card",
+      "status": "developing",
+      "innovative_capacity": 3.0,
+      "psst_dimensions": {
+        "ES": 92,
+        "CC": 80
+      },
+      "summary": "Day 7 of Middle East war. UN Secretary-General warns of grave risk to world economy. Satellite imagery of Iran attacks paused. Oil and chip supply chains under severe stress.",
+      "keywords": [
+        "Middle East war",
+        "Iran",
+        "UN",
+        "global economy",
+        "geopolitical risk"
+      ],
+      "significance": "critical"
+    },
+    {
+      "id": "wf1-20260307-003",
+      "title": "Iran war threatens global chip supplies and AI expansion",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T09:00:00+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.5,
+      "psst_dimensions": {
+        "ES": 87,
+        "CC": 82
+      },
+      "summary": "Middle East conflict putting global chip supplies at risk. Energy infrastructure critical to semiconductor fabs threatened. AI expansion plans globally contingent on stable chip supply.",
+      "keywords": [
+        "Iran war",
+        "chip supply",
+        "semiconductor",
+        "AI expansion"
+      ],
+      "significance": "critical"
+    },
+    {
+      "id": "wf1-20260307-004",
+      "title": "Anthropic Pentagon deal collapse — AI safety vs defense procurement crossroads",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T18:09:11+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Discontinuity",
+      "status": "emerging",
+      "innovative_capacity": 4.0,
+      "psst_dimensions": {
+        "ES": 82,
+        "CC": 78
+      },
+      "summary": "Anthropic Pentagon deal labeled as defense supply chain contractor, triggering backlash and legal challenge. Microsoft, Google, Amazon clarify Claude remains available to non-defense customers.",
+      "keywords": [
+        "Anthropic",
+        "Pentagon",
+        "AI safety",
+        "defense procurement",
+        "DOD"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-005",
+      "title": "China 15th Five-Year Plan — major climate change implications detailed",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "science_journalism",
+        "url": "https://www.carbonbrief.org/"
+      },
+      "published": "2026-03-06T15:56:05+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Driver",
+      "status": "emerging",
+      "innovative_capacity": 4.3,
+      "psst_dimensions": {
+        "ES": 85,
+        "CC": 80
+      },
+      "summary": "Analysis of China 15th Five-Year Plan for climate. Sets targets for renewable energy transition, carbon intensity reduction, and coal phase-out.",
+      "keywords": [
+        "China five-year plan",
+        "climate policy",
+        "renewables",
+        "carbon"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-006",
+      "title": "Global child social media ban wave — India, Indonesia, multiple countries restrict under-16s",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T16:00:56+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Emerging Issue",
+      "status": "developing",
+      "innovative_capacity": 3.8,
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 72
+      },
+      "summary": "Multiple countries simultaneously moving to ban social media for children under 16. India Karnataka, Indonesia outlining legislation. Follows Australia ban.",
+      "keywords": [
+        "social media ban",
+        "children",
+        "regulation",
+        "India",
+        "Indonesia"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-007",
+      "title": "Quantum computing commercialization — Pasqal plans $2B SPAC listing",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T13:44:18+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 4.5,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 74
+      },
+      "summary": "French quantum startup Pasqal plans $2B SPAC listing, promising national sovereignty. Signals quantum commercialization acceleration and European tech sovereignty push.",
+      "keywords": [
+        "Pasqal",
+        "quantum computing",
+        "SPAC",
+        "commercialization",
+        "Europe"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-008",
+      "title": "TerraPower nuclear reactor approved — advanced nuclear gets regulatory green light",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T19:47:40+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Precursor Event",
+      "status": "developing",
+      "innovative_capacity": 4.4,
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 76
+      },
+      "summary": "Bill Gates TerraPower receives regulatory approval to build new advanced nuclear reactor. Marks major milestone for 4th-generation nuclear power commercialization in US.",
+      "keywords": [
+        "TerraPower",
+        "nuclear reactor",
+        "Bill Gates",
+        "advanced nuclear",
+        "energy security"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-009",
+      "title": "Anthropic Claude finds 22 Firefox vulnerabilities — AI-powered security research enters production",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T19:00:22+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Precursor Event",
+      "status": "emerging",
+      "innovative_capacity": 4.6,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 70
+      },
+      "summary": "Anthropic Claude found 22 security vulnerabilities in Firefox over two weeks. First major real-world demonstration of LLM-driven autonomous security research at scale.",
+      "keywords": [
+        "Anthropic Claude",
+        "Firefox",
+        "AI security",
+        "autonomous research",
+        "cybersecurity"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-010",
+      "title": "Pentagon AI surveillance — can DoD legally surveil Americans with AI?",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/"
+      },
+      "published": "2026-03-06T19:21:22+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 3.6,
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 76
+      },
+      "summary": "MIT Technology Review investigates legality of Pentagon deploying AI to surveil American citizens. Raises constitutional questions about DoD domestic surveillance authorities as AI capabilities scale.",
+      "keywords": [
+        "Pentagon",
+        "AI surveillance",
+        "DoD",
+        "Fourth Amendment"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-011",
+      "title": "Iran internet freedom deteriorates — authoritarian digital control escalates during war",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T20:06:06+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.2,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 68
+      },
+      "summary": "Iran war creates new uncertainty for Iranian internet. Government likely to increase surveillance, filtering, and shutdowns. Deepening split between authoritarian and open internet globally.",
+      "keywords": [
+        "Iran",
+        "internet freedom",
+        "digital authoritarianism",
+        "surveillance"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-012",
+      "title": "AI companies race to war erodes safety commitments — structural governance failure",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T18:19:57+00:00",
+      "steeps_category": "s_spiritual",
+      "signal_type": "Emerging Issue",
+      "status": "developing",
+      "innovative_capacity": 4.0,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 72
+      },
+      "summary": "When AI companies compete for government contracts, safety principles get abandoned. Race dynamics force companies to deprioritize safety commitments. Structural problem for AI governance.",
+      "keywords": [
+        "AI safety",
+        "AI competition",
+        "race dynamics",
+        "governance",
+        "ethics"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-013",
+      "title": "Hacking security cameras normalized in warfare — Ukraine/Iran cyber-physical playbook",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T11:30:00+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Precursor Event",
+      "status": "developing",
+      "innovative_capacity": 3.5,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 70
+      },
+      "summary": "Ukraine and Iran conflicts establishing hacking security cameras as standard warfare playbook. Cyber-physical attack integration normalizing. Critical infrastructure vulnerability escalating globally.",
+      "keywords": [
+        "cyber warfare",
+        "security cameras",
+        "Ukraine",
+        "Iran",
+        "hybrid warfare"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-014",
+      "title": "NASA Exploration Upper Stage cancelled — US deep space program restructuring",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T23:40:35+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Discontinuity",
+      "status": "developing",
+      "innovative_capacity": 3.8,
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 65
+      },
+      "summary": "NASA Exploration Upper Stage (EUS) cancelled. Deep space program restructuring. Gateway lunar station likely gone. SpaceX launch prices rising.",
+      "keywords": [
+        "NASA",
+        "space exploration",
+        "Artemis",
+        "EUS",
+        "lunar program"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-015",
+      "title": "Tech employment worse than 2008 or 2020 recessions — AI structural displacement confirmed",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/"
+      },
+      "published": "2026-03-06T17:46:45+00:00",
+      "steeps_category": "S_Social",
+      "signal_type": "Emerging Issue",
+      "status": "developing",
+      "innovative_capacity": 3.6,
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 74
+      },
+      "summary": "Tech employment data shows current downturn significantly worse than 2008 financial crisis or 2020 COVID recession. Structural displacement from AI and automation. Affects 2M+ tech workers.",
+      "keywords": [
+        "tech unemployment",
+        "AI displacement",
+        "labor market",
+        "structural unemployment"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-016",
+      "title": "Musk fails to block California AI transparency law — AI accountability legal precedent set",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T18:21:42+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Precursor Event",
+      "status": "emerging",
+      "innovative_capacity": 3.8,
+      "psst_dimensions": {
+        "ES": 72,
+        "CC": 68
+      },
+      "summary": "Musk fails in legal challenge to block California AI transparency law. xAI must comply with data disclosure requirements. Sets precedent for state-level AI accountability regulation.",
+      "keywords": [
+        "AI transparency",
+        "xAI",
+        "California regulation",
+        "Musk",
+        "AI governance"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-017",
+      "title": "India PC shipments surpass pandemic peak — emerging market digital inclusion accelerating",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T17:51:49+00:00",
+      "steeps_category": "S_Social",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.4,
+      "psst_dimensions": {
+        "ES": 70,
+        "CC": 65
+      },
+      "summary": "India PC shipments surpass pandemic peak, driven by first-time users upgrading from mobile-only. Signals accelerating digital inclusion wave across emerging markets.",
+      "keywords": [
+        "India PC",
+        "digital inclusion",
+        "emerging markets",
+        "first-time users"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-018",
+      "title": "Apple blocks ByteDance Chinese apps — US-China tech decoupling hardens",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T16:22:08+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.3,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 70
+      },
+      "summary": "Apple blocks ByteDance Chinese apps in US App Store. US-China tech decoupling continues to harden. Cultural and software market fragmentation accelerating.",
+      "keywords": [
+        "Apple",
+        "ByteDance",
+        "China",
+        "tech decoupling",
+        "US-China"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-019",
+      "title": "Tech industry in tariff hell — Nintendo sues US government for tariff refund",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T12:20:40+00:00",
+      "steeps_category": "E_Economic",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.2,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 72
+      },
+      "summary": "Nintendo sues US government for tariff refund. Tech industry broadly in tariff crisis with costs being passed to consumers. Trade war impacts hardware supply chains.",
+      "keywords": [
+        "tariffs",
+        "tech industry",
+        "Nintendo",
+        "trade war",
+        "economic disruption"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-020",
+      "title": "Kenya Roam AI-enabled EV fleet monitoring — Africa electric mobility leapfrog",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "tech_news",
+        "url": "https://disruptafrica.com/"
+      },
+      "published": "2026-03-06T08:00:05+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 3.7,
+      "psst_dimensions": {
+        "ES": 66,
+        "CC": 62
+      },
+      "summary": "Kenya Roam launches first AI-enabled real-time monitoring tool for electric fleets across Africa. Signals leapfrog EV adoption in Africa.",
+      "keywords": [
+        "Kenya",
+        "electric vehicles",
+        "Africa",
+        "AI monitoring",
+        "EV fleet"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-021",
+      "title": "US LGBTQI+ child welfare protections rescinded — federal social policy reversal",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/"
+      },
+      "published": null,
+      "steeps_category": "S_Social",
+      "signal_type": "Discontinuity",
+      "status": "developing",
+      "innovative_capacity": 3.0,
+      "psst_dimensions": {
+        "ES": 72,
+        "CC": 68
+      },
+      "summary": "US rescission of LGBTQI+ placement protections under Titles IV-E and IV-B. Significant rollback of child welfare protections for LGBTQI+ youth in foster care.",
+      "keywords": [
+        "LGBTQI+",
+        "foster care",
+        "federal policy",
+        "child welfare"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-022",
+      "title": "ITC investigation on laptops/routers — hardware protectionism escalating",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/"
+      },
+      "published": null,
+      "steeps_category": "E_Economic",
+      "signal_type": "Precursor Event",
+      "status": "emerging",
+      "innovative_capacity": 3.0,
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 65
+      },
+      "summary": "ITC investigation launched for certain laptops, routers and gateways. Hardware protectionism escalating as US-China tech decoupling continues.",
+      "keywords": [
+        "ITC investigation",
+        "laptops",
+        "routers",
+        "hardware",
+        "trade protection"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-023",
+      "title": "Savage care — ethics of extreme caregiving in aging societies (Aeon)",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/"
+      },
+      "published": "2026-03-06T11:00:00+00:00",
+      "steeps_category": "s_spiritual",
+      "signal_type": "Weak Signal",
+      "status": "emerging",
+      "innovative_capacity": 3.5,
+      "psst_dimensions": {
+        "ES": 62,
+        "CC": 60
+      },
+      "summary": "Aeon essay explores ethical dimensions of extreme caregiving as populations age. Signals emerging moral philosophy crisis in aging societies.",
+      "keywords": [
+        "caregiving",
+        "aging society",
+        "ethics",
+        "human dignity",
+        "eldercare"
+      ],
+      "significance": "low"
+    },
+    {
+      "id": "wf1-20260307-024",
+      "title": "TriZetto healthcare breach — 3.4M patient records stolen",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T14:28:31+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Precursor Event",
+      "status": "developing",
+      "innovative_capacity": 3.2,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 70
+      },
+      "summary": "TriZetto confirms 3.4 million patient health and personal records stolen. Healthcare sector cybersecurity crisis deepening.",
+      "keywords": [
+        "TriZetto",
+        "healthcare breach",
+        "patient data",
+        "cybersecurity"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-025",
+      "title": "Robot hand with artificial muscles — bioinspired robotics milestone",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/"
+      },
+      "published": "2026-03-06T16:00:05+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 4.3,
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 65
+      },
+      "summary": "Robot hand with artificial muscles and tendons achieving human-like dexterity. Bioinspired robotics milestone with implications for prosthetics and physical AI agents.",
+      "keywords": [
+        "robot hand",
+        "artificial muscles",
+        "robotics",
+        "dexterity",
+        "embodied AI"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "techcrunch-11df117628d7",
+      "title": "Palmer Luckey’s retro gaming startup ModRetro reportedly seeks funding at $1B valuation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/palmer-luckeys-retro-gaming-startup-modretro-reportedly-seeks-funding-at-1b-valuation/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 3,
+      "urgency_score": 2,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:17.149193+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Tech entrepreneur pivot — retro gaming hardware at unicorn valuation",
+      "impact_analysis": "Moderate: Palmer Luckey's trajectory from VR to defense to gaming reflects tech investment patterns"
+    },
+    {
+      "id": "techcrunch-b1af8d78d32c",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "s",
+      "impact_score": 4,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:17.149233+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "AI ethics tension between commercial AI and military use — values and meaning conflict",
+      "impact_analysis": "High: signals growing tensions between AI safety culture and defense applications"
+    },
+    {
+      "id": "techcrunch-24aef19b03ac",
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/owner-of-ice-detention-facility-sees-big-opportunity-in-ai-man-camps/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "S",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 4,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:17.149259+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Convergence of immigration infrastructure and AI workforce housing — social displacement signal",
+      "impact_analysis": "Emerging signal of AI labor concentration creating new physical infrastructure demands"
+    },
+    {
+      "id": "techcrunch-c56857300baf",
+      "title": "TechCrunch Mobility: Rivian’s R2 gambit",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/08/techcrunch-mobility-rivians-r2-gambit/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:17.149283+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "EV market strategy — mass market electric vehicle pivot",
+      "impact_analysis": "Moderate: Rivian's affordable EV push signals EV market maturation"
+    },
+    {
+      "id": "techcrunch-c6a734ac2cd5",
+      "title": "A roadmap for AI, if anyone will listen",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 4,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:17.149306+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "AI policy and development roadmap — governance and direction of AI industry",
+      "impact_analysis": "Significant: reflects attempts to chart coherent AI development path amid regulatory uncertainty"
+    },
+    {
+      "id": "techcrunch-6fb6992fc191",
+      "title": "Push for $40 smartphones builds momentum, but still faces cost hurdles",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/push-for-40-smartphones-builds-momentum-but-still-faces-cost-hurdles/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 3,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:17.149328+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Ultra-low-cost smartphone access — digital divide and connectivity",
+      "impact_analysis": "High for emerging markets: could connect billions of unconnected people"
+    },
+    {
+      "id": "techcrunch-993358c9ffc0",
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "E",
+      "impact_score": 3,
+      "probability_score": 5,
+      "urgency_score": 2,
+      "novelty_score": 2,
+      "collected_at": "2026-03-08T22:38:17.149348+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Big tech executive compensation — corporate governance and inequality signal",
+      "impact_analysis": "Moderate: reflects growing tech executive wealth concentration"
+    },
+    {
+      "id": "techcrunch-f4bed433cfed",
+      "title": "Grammarly’s ‘expert review’ is just missing the actual experts",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
+        "published_date": "2026-03-07"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:17.149370+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "AI writing tool quality concerns — automation replacing expertise without domain knowledge",
+      "impact_analysis": "Moderate: signals growing skepticism of AI-generated content quality"
+    },
+    {
+      "id": "ieee-spectrum-1603d0b55a62",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/military-ai-governance",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "P",
+      "impact_score": 5,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:21.170114+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Military AI governance and democratic accountability — critical policy frontier",
+      "impact_analysis": "High impact: defines the future of AI weapons governance and civil-military relations"
+    },
+    {
+      "id": "hacker-news-ad92ada1b585",
+      "title": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blog.ebbypeter.com/2026/03/detection-is-not-protection-what-azure-waf-detection-mode-actually-does-and-doesnt/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 2,
+      "collected_at": "2026-03-08T22:38:36.323416+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Cybersecurity — limitations of detection-only security approaches",
+      "impact_analysis": "Moderate: highlights ongoing gaps in cybersecurity infrastructure"
+    },
+    {
+      "id": "hacker-news-254860d309f4",
+      "title": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/Rabrg/artificial-life",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 2,
+      "novelty_score": 5,
+      "collected_at": "2026-03-08T22:38:36.323499+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Artificial life simulation — fundamental research at computation-biology frontier",
+      "impact_analysis": "High novelty: reproducing computational life in 300 lines signals accessibility of complex research"
+    },
+    {
+      "id": "hacker-news-ad5905973fb1",
+      "title": "Agent Safehouse – macOS-native sandboxing for local agents",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://agent-safehouse.dev/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:36.323527+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "AI agent sandboxing — security infrastructure for autonomous AI agents",
+      "impact_analysis": "Significant: addresses emerging need for AI agent containment and safety"
+    },
+    {
+      "id": "hacker-news-a6d3a89ebf15",
+      "title": "We should revisit literate programming in the agent era",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 3,
+      "urgency_score": 3,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:36.323553+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Programming paradigm evolution — human-AI collaborative coding methodology",
+      "impact_analysis": "Moderate: revisiting programming paradigms for AI-augmented development"
+    },
+    {
+      "id": "hacker-news-356c38d07c93",
+      "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/BigBodyCobain/Shadowbroker",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:36.323598+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Open source intelligence tooling — democratization of intelligence analysis",
+      "impact_analysis": "Moderate: real-time global monitoring becoming accessible to individuals"
+    },
+    {
+      "id": "hacker-news-c62f12ac015e",
+      "title": "The changing goalposts of AGI and timelines",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://mlumiste.com/general/openai-charter/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 5,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:36.323680+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "AGI timeline discourse — shifting definitions and expectations for artificial general intelligence",
+      "impact_analysis": "Critical: AGI goalpost movement signals fundamental uncertainty in AI trajectory"
+    },
+    {
+      "id": "hacker-news-cd8fc2fd2dc2",
+      "title": "Living human brain cells play DOOM on a CL1 [video]",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.youtube.com/watch?v=yRV8fSw6HaE",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 2,
+      "novelty_score": 5,
+      "collected_at": "2026-03-08T22:38:36.323755+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Biological computing — living neural tissue interfacing with digital systems",
+      "impact_analysis": "Very high novelty: biological-digital computing convergence with profound implications"
+    },
+    {
+      "id": "hacker-news-be02f86fcc6b",
+      "title": "Ask HN: How to be alone?",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/item?id=47296547",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "s",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:36.323791+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Social isolation and loneliness epidemic — collective psychological wellbeing",
+      "impact_analysis": "Moderate: reflects growing loneliness crisis in tech communities"
+    },
+    {
+      "id": "wired-4c7dfd55799a",
+      "title": "Left-Handed People Are More Competitive, Says Science",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/left-handed-people-are-more-competitive-says-science/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "S",
+      "impact_score": 2,
+      "probability_score": 4,
+      "urgency_score": 1,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:36.380844+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Behavioral science — cognitive diversity and competitiveness research",
+      "impact_analysis": "Low impact: interesting behavioral finding but limited systemic implications"
+    },
+    {
+      "id": "ars-technica-dfe7fcaa37cc",
+      "title": "Tiny, long-armed dinosaur leads to rethink of dinosaur miniaturization",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/03/tiny-long-armed-dinosaur-leads-to-rethink-of-dinosaur-miniaturization/",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "T",
+      "impact_score": 2,
+      "probability_score": 4,
+      "urgency_score": 1,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T22:38:37.483888+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Paleontological science — evolutionary biology paradigm revision",
+      "impact_analysis": "Low: academic finding with limited near-term societal impact"
+    },
+    {
+      "id": "cepr-voxeu-4e3095eda4de",
+      "title": "The remote work premium reconsidered",
+      "source": {
+        "name": "CEPR VoxEU",
+        "type": "academic",
+        "url": "https://cepr.org/voxeu/columns/remote-work-premium-reconsidered",
+        "published_date": "2026-03-08"
+      },
+      "steeps_category": "S",
+      "impact_score": 4,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T22:38:49.172952+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Labor market transformation — remote work economics and workforce restructuring",
+      "impact_analysis": "High: remote work premium shifts have broad labor market and urban planning implications"
+    },
+    {
+      "id": "us-federal-register-20260309-001",
+      "title": "National Drinking Water Advisory Council: Request for Nominations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04590/national-drinking-water-advisory-council-request-for-nominations",
+        "published_date": "2026-03-09"
+      },
+      "steeps_category": "E",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 2,
+      "collected_at": "2026-03-08T22:39:33.008923+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Environmental regulation — water safety governance and advisory structure",
+      "impact_analysis": "Moderate: ongoing water safety governance but routine advisory process"
+    },
+    {
+      "id": "us-federal-register-20260309-002",
+      "title": "Emerging Frontiers in Research and Innovation Program: Grantee Reporting Requirements",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04588/agency-information-collection-activities-comment-request-grantee-reporting-requirements-for-the",
+        "published_date": "2026-03-09"
+      },
+      "steeps_category": "T",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 2,
+      "novelty_score": 2,
+      "collected_at": "2026-03-08T22:39:33.009400+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Research funding policy — NSF emerging technology research program governance",
+      "impact_analysis": "Moderate: administrative but signals ongoing investment in frontier research"
+    },
+    {
+      "id": "us-federal-register-20260309-003",
+      "title": "Dairy Tariff-Rate Quota Import Licensing Program: Proposed Amendments",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04599/dairy-tariff-rate-quota-import-licensing-program",
+        "published_date": "2026-03-09"
+      },
+      "steeps_category": "E",
+      "impact_score": 2,
+      "probability_score": 5,
+      "urgency_score": 2,
+      "novelty_score": 1,
+      "collected_at": "2026-03-08T22:39:33.009402+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Trade policy — agricultural import regulation modernization",
+      "impact_analysis": "Low: routine trade regulation adjustment"
+    },
+    {
+      "id": "us-federal-register-20260309-004",
+      "title": "FDA Draft Guidance: Responding to Form 483 CGMP Inspection Observations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04578/responding-to-fda-form-483-observations-at-the-conclusion-of-a-drug-cgmp-inspection-draft-guidance",
+        "published_date": "2026-03-09"
+      },
+      "steeps_category": "P",
+      "impact_score": 3,
+      "probability_score": 4,
+      "urgency_score": 3,
+      "novelty_score": 2,
+      "collected_at": "2026-03-08T22:39:33.009403+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Pharmaceutical regulation — manufacturing compliance guidance evolution",
+      "impact_analysis": "Moderate: affects pharmaceutical manufacturing standards and supply chain integrity"
+    },
+    {
+      "id": "explore-2026-03-09-ilo-001",
+      "title": "ILO Employment and Social Trends 2026: Global Jobs Gap Reaches 408 Million",
+      "source": {
+        "name": "International Labour Organization",
+        "type": "policy",
+        "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+        "published_date": "2026-01-14"
+      },
+      "steeps_category": "S",
+      "tier": "exploration",
+      "impact_score": 5,
+      "probability_score": 5,
+      "urgency_score": 4,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T23:00:49.194444+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Foundational labor market data revealing structural inequality persistence — 408M jobs gap signals systemic workforce crisis",
+      "impact_analysis": "Very high: defines the global social landscape with concrete inequality metrics affecting billions"
+    },
+    {
+      "id": "explore-2026-03-09-mongabay-001",
+      "title": "Climate vs. Biodiversity: Global Study Maps Forestation Dilemma — 13% Overlap Between CDR Projects and Biodiversity Hotspots",
+      "source": {
+        "name": "Mongabay",
+        "type": "news",
+        "url": "https://news.mongabay.com/2026/03/climate-or-biodiversity-global-study-maps-out-forestations-dilemma/",
+        "published_date": "2026-03-06"
+      },
+      "steeps_category": "E",
+      "tier": "exploration",
+      "impact_score": 4,
+      "probability_score": 4,
+      "urgency_score": 4,
+      "novelty_score": 4,
+      "collected_at": "2026-03-08T23:00:49.194444+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Environmental — critical tension between two planetary boundaries (climate and biodiversity), with equity dimensions",
+      "impact_analysis": "High: quantifies the trade-off between climate mitigation and biodiversity protection, affecting global environmental policy"
+    },
+    {
+      "id": "explore-2026-03-09-fpf-001",
+      "title": "2026: Year at the Crossroads for Global Data Protection and Privacy — EU E-Evidence Regulation Takes Effect",
+      "source": {
+        "name": "Future of Privacy Forum",
+        "type": "policy",
+        "url": "https://fpf.org/blog/2026-a-year-at-the-crossroads-for-global-data-protection-and-privacy/",
+        "published_date": "2026-03-01"
+      },
+      "steeps_category": "P",
+      "tier": "exploration",
+      "impact_score": 4,
+      "probability_score": 5,
+      "urgency_score": 4,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T23:00:49.194444+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Political — regulatory convergence on data governance with cross-border enforcement mechanisms",
+      "impact_analysis": "High: cross-border data governance framework reshaping digital economy rules globally"
+    },
+    {
+      "id": "explore-2026-03-09-springer-001",
+      "title": "Two Types of AI Existential Risk: Decisive and Accumulative — New Philosophical Framework",
+      "source": {
+        "name": "Philosophical Studies (Springer)",
+        "type": "academic",
+        "url": "https://link.springer.com/article/10.1007/s11098-025-02301-3",
+        "published_date": "2026-02-15"
+      },
+      "steeps_category": "s",
+      "tier": "exploration",
+      "impact_score": 4,
+      "probability_score": 3,
+      "urgency_score": 3,
+      "novelty_score": 5,
+      "collected_at": "2026-03-08T23:00:49.194444+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Spiritual/Ethics — paradigm-shifting framework on meaning erosion as existential risk, beyond physical extinction",
+      "impact_analysis": "High novelty: reframes AI existential risk debate to include gradual loss of human meaning and autonomy"
+    },
+    {
+      "id": "explore-2026-03-09-hancockwhitney-001",
+      "title": "March 2026 Economic Update: US-Iran Conflict Ripples, Trade Fragmentation, and EM Institutional Divergence",
+      "source": {
+        "name": "Hancock Whitney",
+        "type": "economic",
+        "url": "https://www.hancockwhitney.com/insights/markets-and-economic-updates-for-march-2026-geopolitics-inflation-and-market-shifts",
+        "published_date": "2026-03-07"
+      },
+      "steeps_category": "E",
+      "tier": "exploration",
+      "impact_score": 4,
+      "probability_score": 4,
+      "urgency_score": 5,
+      "novelty_score": 3,
+      "collected_at": "2026-03-08T23:00:49.194444+00:00",
+      "scan_date": "2026-03-09",
+      "classification_rationale": "Economic — geopolitical fragmentation creating new financial architecture with immediate market impacts",
+      "impact_analysis": "High urgency: active conflict affecting energy markets, plus structural shift in how emerging markets navigate global finance"
     }
   ]
 }

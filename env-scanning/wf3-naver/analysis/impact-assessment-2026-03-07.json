@@ -1,0 +1,140 @@
+{
+  "impact_metadata": {
+    "date": "2026-03-07",
+    "workflow": "wf3-naver",
+    "analyst": "phase2-analyst-unified-v1.0",
+    "total_signals_analyzed": 30,
+    "cross_impact_matrix_generated": true
+  },
+  "dominant_themes": [
+    {
+      "theme": "미-이란 전쟁 및 중동 위기",
+      "signal_ids": ["naver-20260307-104-195", "naver-20260307-101-075", "naver-20260307-104-212", "naver-20260307-104-192", "naver-20260307-100-003"],
+      "impact_score": 9.5,
+      "scope": "global",
+      "urgency": "immediate",
+      "description": "미국의 이란 군사작전 '장대한 분노' 1주일째 — 3,000개 목표 타격, 43척 선박 파괴. 호르무즈 봉쇄 위협으로 유가 배럴당 90달러 돌파, 43년 만에 주간 최대 상승. 러시아의 이란 군사 정보 지원 정황 확인으로 신냉전 구조 가시화. 주한미군 자산 실제 반출 확인으로 한반도 안보 공백 현실화."
+    },
+    {
+      "theme": "글로벌 스태그플레이션 위험",
+      "signal_ids": ["naver-20260307-101-059", "naver-20260307-104-212", "naver-20260307-101-075"],
+      "impact_score": 9.0,
+      "scope": "global",
+      "urgency": "immediate",
+      "description": "유가 급등 + 미국 고용 9만2천명 감소 + 실업률 4.4% 동시 발생. 월가가 '1970년대식 스태그플레이션'을 공식 주류 시나리오로 채택. 연준의 금리 대응 딜레마 심화."
+    },
+    {
+      "theme": "AI 군사화·정치화 임계점",
+      "signal_ids": ["naver-20260307-105-265", "naver-20260307-104-185", "naver-20260307-104-189"],
+      "impact_score": 8.5,
+      "scope": "global",
+      "urgency": "medium_term",
+      "description": "이란·우크라이나 전쟁에서 AI 무기 실전 배치 확인. 스마트워치 위치정보가 미사일 표적화에 활용. 북한의 AI 기반 서방 기업 취업사기 고도화. 앤트로픽의 트럼프 정치 리스크 노출로 AI 안전 연구의 정치화 위기."
+    },
+    {
+      "theme": "로봇·자율화 실용화 가속",
+      "signal_ids": ["naver-20260307-105-247", "naver-20260307-105-245", "naver-20260307-101-084"],
+      "impact_score": 8.0,
+      "scope": "domestic_and_global",
+      "urgency": "medium_term",
+      "description": "MWC 2026에서 백덤블링·식당운영 로봇 등장, 1/1000초 동기화 달성. 서울 강남 자율주행 택시 4월 유료화. 로봇 일자리 파괴 속도가 로봇세 입법을 앞지르는 거버넌스 공백."
+    },
+    {
+      "theme": "한국 안보 구조 재편",
+      "signal_ids": ["naver-20260307-100-003", "naver-20260307-104-208", "naver-20260307-104-213"],
+      "impact_score": 9.2,
+      "scope": "domestic",
+      "urgency": "immediate",
+      "description": "주한미군 유도폭탄 키트 1,000개 실제 반출 확인. 패트리엇 중동 이동 가능성. 미 싱크탱크 '북한 핵 소형화 성공 가능성, 한미 분리 전략 구사 가능'. 인도-태평양 전략 집중 분산."
+    }
+  ],
+  "cross_impact_matrix": {
+    "미이란전쟁 → 한국안보": "HIGH_POSITIVE (주한미군 차출로 안보 공백)",
+    "미이란전쟁 → 유가급등": "HIGH_POSITIVE (호르무즈 봉쇄 → 공급 차질)",
+    "유가급등 → 한국경제": "HIGH_NEGATIVE (에너지 수입국 한국 직격)",
+    "스태그플레이션 → 한국수출": "HIGH_NEGATIVE (글로벌 수요 감소)",
+    "AI무기화 → 자율무기규제": "CRITICAL (국제법 체계 전면 재검토)",
+    "로봇자율화 → 노동시장": "HIGH_NEGATIVE (서비스업 일자리 위협)",
+    "북한핵소형화 → 한국독자핵": "MEDIUM_TRIGGER (독자 핵무장 논의 압박)",
+    "AI가격하락 → AI민주화": "HIGH_POSITIVE (전 산업 AI 채택 가속)",
+    "중국에너지전환 → 장기유가": "MEDIUM_NEGATIVE (장기 석유 수요 구조 변화)"
+  },
+  "tipping_point_summary": {
+    "RED_alerts": [
+      {
+        "signal_id": "naver-20260307-104-195",
+        "alert": "미-이란 전쟁 — 직접 군사 충돌로 지정학 임계점 돌파"
+      },
+      {
+        "signal_id": "naver-20260307-101-075",
+        "alert": "유가 43년 만의 주간 최대 상승 — 1970년대식 오일쇼크 재현 가능성"
+      },
+      {
+        "signal_id": "naver-20260307-104-192",
+        "alert": "러시아 이란 군사 정보 제공 — 신냉전 블록 공식화 시작"
+      },
+      {
+        "signal_id": "naver-20260307-100-003",
+        "alert": "주한미군 실제 자산 반출 확인 — 한반도 방위 공백 현실화"
+      }
+    ],
+    "ORANGE_alerts": [
+      {
+        "signal_id": "naver-20260307-104-212",
+        "alert": "고용충격+유가급등 = 스태그플레이션 구조 진입"
+      },
+      {
+        "signal_id": "naver-20260307-105-265",
+        "alert": "AI 무기 실전 배치 — 군사기술 임계점 통과"
+      },
+      {
+        "signal_id": "naver-20260307-101-059",
+        "alert": "월가 스태그플레이션 공식 경고 — 경제 체제 전환점"
+      },
+      {
+        "signal_id": "naver-20260307-104-213",
+        "alert": "미중 전략경쟁 변곡점 — 인도-태평양 안보 구조 재편 가속"
+      }
+    ],
+    "anomaly_detection": {
+      "cross_domain_anomaly": "전쟁+경제+AI+안보의 동시 다발 임계점 집중 — 단일 스캔 내 4개 RED+4개 ORANGE 경보는 시스템 수준 불안정 신호",
+      "single_day_concentration": "2026-03-07은 복수의 독립적 위기가 동시 임계점에 진입하는 비정상적 날",
+      "korea_specific_vulnerability": "한국은 에너지 수입국 + 미국 동맹국 + 반도체 수출 주도국으로 모든 위기에 교차 노출"
+    }
+  },
+  "signal_impact_scores": {
+    "naver-20260307-104-195": {"impact_score": 9.5, "impact_direction": "negative", "time_horizon": "immediate"},
+    "naver-20260307-101-075": {"impact_score": 9.3, "impact_direction": "negative", "time_horizon": "immediate"},
+    "naver-20260307-104-212": {"impact_score": 9.0, "impact_direction": "negative", "time_horizon": "immediate"},
+    "naver-20260307-100-003": {"impact_score": 9.2, "impact_direction": "negative", "time_horizon": "immediate"},
+    "naver-20260307-104-192": {"impact_score": 9.0, "impact_direction": "negative", "time_horizon": "immediate"},
+    "naver-20260307-101-059": {"impact_score": 8.8, "impact_direction": "negative", "time_horizon": "near_term"},
+    "naver-20260307-104-213": {"impact_score": 8.5, "impact_direction": "negative", "time_horizon": "near_term"},
+    "naver-20260307-104-208": {"impact_score": 8.5, "impact_direction": "negative", "time_horizon": "near_term"},
+    "naver-20260307-105-265": {"impact_score": 8.5, "impact_direction": "mixed", "time_horizon": "near_term"},
+    "naver-20260307-105-247": {"impact_score": 8.0, "impact_direction": "disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-105-245": {"impact_score": 7.8, "impact_direction": "disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-104-185": {"impact_score": 7.8, "impact_direction": "negative", "time_horizon": "medium_term"},
+    "naver-20260307-105-257": {"impact_score": 7.5, "impact_direction": "positive_disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-101-082": {"impact_score": 7.5, "impact_direction": "disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-101-084": {"impact_score": 7.5, "impact_direction": "disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-101-085": {"impact_score": 7.8, "impact_direction": "positive", "time_horizon": "medium_term"},
+    "naver-20260307-100-001": {"impact_score": 7.0, "impact_direction": "mixed", "time_horizon": "near_term"},
+    "naver-20260307-101-006": {"impact_score": 7.0, "impact_direction": "mixed", "time_horizon": "near_term"},
+    "naver-20260307-105-227": {"impact_score": 7.0, "impact_direction": "positive", "time_horizon": "near_term"},
+    "naver-20260307-103-150": {"impact_score": 7.2, "impact_direction": "positive", "time_horizon": "medium_term"},
+    "naver-20260307-102-126": {"impact_score": 6.8, "impact_direction": "negative", "time_horizon": "medium_term"},
+    "naver-20260307-104-189": {"impact_score": 7.2, "impact_direction": "negative", "time_horizon": "medium_term"},
+    "naver-20260307-102-105": {"impact_score": 7.0, "impact_direction": "mixed", "time_horizon": "medium_term"},
+    "naver-20260307-105-240": {"impact_score": 7.0, "impact_direction": "disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-103-166": {"impact_score": 7.0, "impact_direction": "negative", "time_horizon": "immediate"},
+    "naver-20260307-105-264": {"impact_score": 7.0, "impact_direction": "disruptive", "time_horizon": "medium_term"},
+    "naver-20260307-102-101": {"impact_score": 6.5, "impact_direction": "mixed", "time_horizon": "medium_term"},
+    "naver-20260307-102-093": {"impact_score": 6.0, "impact_direction": "mixed", "time_horizon": "near_term"},
+    "naver-20260307-103-163": {"impact_score": 5.5, "impact_direction": "positive", "time_horizon": "medium_term"},
+    "naver-20260307-105-231": {"impact_score": 6.5, "impact_direction": "positive", "time_horizon": "long_term"},
+    "naver-20260307-103-156": {"impact_score": 5.5, "impact_direction": "positive", "time_horizon": "long_term"},
+    "naver-20260307-105-228": {"impact_score": 6.8, "impact_direction": "negative", "time_horizon": "medium_term"},
+    "naver-20260307-103-159": {"impact_score": 6.0, "impact_direction": "mixed", "time_horizon": "medium_term"}
+  }
+}

@@ -8,7 +8,7 @@
 
 ### Execution Notes
 
-- **SOT validation**: Before running any workflow, execute `python3 env-scanning/scripts/validate_registry.py` and confirm exit code 0 (59 checks).
+- **SOT validation**: Before running any workflow, execute `python3 env-scanning/scripts/validate_registry.py` and confirm exit code 0 (61 checks).
 - **Report validation**: After generating any report, execute `python3 env-scanning/scripts/validate_report.py <report_path> --profile <profile>` and confirm exit code 0.
 - Validation profiles: `standard` (WF1/WF2), `naver` (WF3), `multiglobal-news` / `multiglobal-news_en` (WF4), `integrated`, `weekly`, `timeline` (Timeline Map).
 - **Timeline Map validation**: Timeline Map has dedicated quality defense — `validate_timeline_map.py` (L2a, 18 checks), `validate_timeline_map_quality.py` (L2b, 11 TQ checks), `narrative_gate.py` (B4, 5 NG checks). These verify Python 원천봉쇄 compliance (PB-1~6 verbatim match).

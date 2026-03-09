@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-03-09T00:36:38.669472+00:00",
+  "generator": "manual-fallback",
+  "note": "Cross-correlation timed out due to large thread count (2300+). Minimal map generated.",
+  "cross_workflow_correlations": [],
+  "statistics": {
+    "total_threads_analyzed": 0,
+    "wf_thread_counts": {
+      "wf1": 0,
+      "wf2": 686,
+      "wf3": 251,
+      "wf4": 1372
+    },
+    "cross_matches_found": 0,
+    "timeout_reason": "O(n^2) comparison across 2300+ threads exceeded time limit"
+  }
+}

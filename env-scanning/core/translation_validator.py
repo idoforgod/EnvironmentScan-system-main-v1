@@ -17,9 +17,15 @@ Structural Invariants Checked:
     STRUCT-007: Markdown horizontal rule count match (---)
     STRUCT-008: Word count ratio within bounds (KO typically 0.5x-0.9x of EN)
 
+Term Fidelity Checks (v1.1.0 — requires translation-terms.yaml):
+    TERM-001: Immutable terms preserved in KO (STEEPs codes etc.)          — FAIL
+    TERM-002: Preserve-list terms kept in KO (arXiv, GPT, AI etc.)         — WARN
+    TERM-003: Standardized mapping compliance rate (≥60% threshold)         — WARN
+
 Design Principle: "계산은 Python이, 판단은 LLM이."
     Structural integrity = deterministic = Python validates.
     Translation quality = semantic = LLM validates.
+    Term fidelity = rule-based = Python validates against YAML config.
 
 Usage (CLI):
     python3 env-scanning/core/translation_validator.py \\
@@ -37,7 +43,7 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 # ============================================================================
 # Check IDs
@@ -51,6 +57,9 @@ STRUCT_005 = "STRUCT-005"  # Signal field count per block
 STRUCT_006 = "STRUCT-006"  # Table row count
 STRUCT_007 = "STRUCT-007"  # Horizontal rule count
 STRUCT_008 = "STRUCT-008"  # Word count ratio
+TERM_001 = "TERM-001"      # Immutable terms preserved
+TERM_002 = "TERM-002"      # Preserve-list compliance
+TERM_003 = "TERM-003"      # Standardized mapping usage
 
 # Word count ratio bounds (KO / EN)
 WORD_RATIO_MIN = 0.3
@@ -123,12 +132,158 @@ def _word_count(content: str) -> int:
 
 
 # ============================================================================
+# Term Fidelity Helpers (v1.1.0)
+# ============================================================================
+
+# Default path to translation-terms.yaml (relative to env-scanning/)
+_DEFAULT_TERMS_PATH = Path(__file__).parent.parent / "config" / "translation-terms.yaml"
+
+# Minimum term length for reliable detection in report text.
+# Single-character codes (S, T, E, P, s) produce too many false positives.
+_MIN_TERM_LENGTH = 3
+
+
+def _load_terms_config(terms_path: Optional[Path] = None) -> Optional[Dict]:
+    """Load translation-terms.yaml. Returns None if unavailable."""
+    try:
+        import yaml
+    except ImportError:
+        return None
+    p = terms_path or _DEFAULT_TERMS_PATH
+    if not p.exists():
+        return None
+    try:
+        with open(p, encoding="utf-8") as f:
+            return yaml.safe_load(f) or {}
+    except Exception:
+        return None
+
+
+def _term_in_text(term: str, text: str) -> bool:
+    """Check if term appears in text (case-sensitive, word-boundary aware).
+
+    Uses ASCII-only word boundaries ([a-zA-Z0-9_]) instead of \\w so that
+    Korean particles (와, 의, 를, etc.) attached to English terms don't
+    prevent matching in mixed EN/KO text.
+    """
+    # For short terms, require word boundaries to avoid false positives
+    if len(term) <= 5:
+        pattern = r"(?<![a-zA-Z0-9_])" + re.escape(term) + r"(?![a-zA-Z0-9_])"
+        return bool(re.search(pattern, text))
+    return term in text
+
+
+def _check_immutable_terms(
+    en_content: str,
+    ko_content: str,
+    immutable_terms: List[str],
+) -> Dict:
+    """
+    TERM-001: Immutable terms that appear in EN must also appear in KO.
+    These are terms that should NEVER be translated (STEEPs codes, etc.).
+    """
+    violated = []
+    checked = 0
+    for term in immutable_terms:
+        if len(term) < _MIN_TERM_LENGTH:
+            continue  # Skip single-character codes to avoid false positives
+        if _term_in_text(term, en_content):
+            checked += 1
+            if not _term_in_text(term, ko_content):
+                violated.append(term)
+
+    return {
+        "id": TERM_001,
+        "name": "Immutable terms preserved in KO",
+        "checked": checked,
+        "violated": violated,
+        "violation_count": len(violated),
+        "status": "PASS" if len(violated) == 0 else "FAIL",
+        "detail": f"{len(violated)} missing: {', '.join(violated[:5])}"
+                  if violated else f"All {checked} immutable terms preserved",
+    }
+
+
+def _check_preserve_terms(
+    en_content: str,
+    ko_content: str,
+    preserve_terms: List[str],
+) -> Dict:
+    """
+    TERM-002: Preserve-list terms that appear in EN should appear in KO.
+    These are English terms that should be kept as-is (arXiv, GPT, AI, etc.).
+    """
+    violated = []
+    checked = 0
+    for term in preserve_terms:
+        if len(term) < _MIN_TERM_LENGTH:
+            continue
+        if _term_in_text(term, en_content):
+            checked += 1
+            if not _term_in_text(term, ko_content):
+                violated.append(term)
+
+    return {
+        "id": TERM_002,
+        "name": "Preserve-list terms kept in KO",
+        "checked": checked,
+        "violated": violated,
+        "violation_count": len(violated),
+        "status": "PASS" if len(violated) == 0 else "WARN",
+        "detail": f"{len(violated)} over-translated: {', '.join(violated[:5])}"
+                  if violated else f"All {checked} preserve terms maintained",
+    }
+
+
+def _check_mapping_compliance(
+    en_content: str,
+    ko_content: str,
+    mappings: Dict[str, str],
+) -> Dict:
+    """
+    TERM-003: Standardized mapping usage rate.
+    For each EN term in the report, check if the corresponding KO term appears.
+    """
+    matched = 0
+    checked = 0
+    violations = []
+
+    for en_term, ko_term in mappings.items():
+        if len(en_term) < _MIN_TERM_LENGTH:
+            continue
+        if _term_in_text(en_term, en_content):
+            checked += 1
+            if _term_in_text(ko_term, ko_content):
+                matched += 1
+            else:
+                violations.append(f"'{en_term}'→'{ko_term}'")
+
+    rate = matched / checked if checked > 0 else 1.0
+    # Compliance rate ≥ 60% is acceptable (context-dependent terms may vary)
+    threshold = 0.6
+
+    return {
+        "id": TERM_003,
+        "name": "Standardized mapping compliance",
+        "checked": checked,
+        "matched": matched,
+        "compliance_rate": round(rate, 3),
+        "threshold": threshold,
+        "violations": violations[:5],
+        "status": "PASS" if rate >= threshold else "WARN",
+        "detail": f"{matched}/{checked} mappings compliant ({rate:.0%})"
+                  + (f" — below {threshold:.0%}" if rate < threshold else ""),
+    }
+
+
+# ============================================================================
 # Core Validation
 # ============================================================================
 
 def validate_translation_pair(
     en_content: str,
     ko_content: str,
+    terms_path: Optional[Path] = None,
 ) -> Dict:
     """
     Validate structural integrity between EN and KO report pair.
@@ -247,6 +402,25 @@ def validate_translation_pair(
         "status": "PASS" if ratio_ok else "WARN",
     })
 
+    # ── Term Fidelity Checks (TERM-001/002/003) ──
+    # Load translation-terms.yaml for term fidelity verification.
+    # Graceful degradation: if the file is unavailable, TERM checks are skipped.
+    terms_config = _load_terms_config(terms_path)
+    if terms_config:
+        immutable = terms_config.get("immutable_terms", [])
+        preserve = terms_config.get("preserve", [])
+        mappings = terms_config.get("mappings", {})
+
+        # TERM-001: Immutable terms preserved
+        checks.append(_check_immutable_terms(en_content, ko_content, immutable))
+
+        # TERM-002: Preserve-list compliance
+        checks.append(_check_preserve_terms(en_content, ko_content, preserve))
+
+        # TERM-003: Standardized mapping usage
+        if isinstance(mappings, dict):
+            checks.append(_check_mapping_compliance(en_content, ko_content, mappings))
+
     # Aggregate results
     critical_failures = sum(1 for c in checks if c["status"] == "FAIL")
     warnings = sum(1 for c in checks if c["status"] == "WARN")
@@ -272,6 +446,7 @@ def validate_translation_pair(
 def validate_translation_files(
     en_path: str,
     ko_path: str,
+    terms_path: Optional[str] = None,
 ) -> Dict:
     """File I/O wrapper for validate_translation_pair."""
     en_p = Path(en_path)
@@ -283,7 +458,8 @@ def validate_translation_files(
 
     en_content = en_p.read_text(encoding="utf-8")
     ko_content = ko_p.read_text(encoding="utf-8")
-    result = validate_translation_pair(en_content, ko_content)
+    tp = Path(terms_path) if terms_path else None
+    result = validate_translation_pair(en_content, ko_content, terms_path=tp)
     result["en_file"] = str(en_path)
     result["ko_file"] = str(ko_path)
     return result
@@ -300,11 +476,13 @@ def main():
     )
     parser.add_argument("--en", required=True, help="English report file path")
     parser.add_argument("--ko", required=True, help="Korean report file path")
+    parser.add_argument("--terms", default=None,
+                        help="Path to translation-terms.yaml (default: auto-detect)")
     parser.add_argument("--json", action="store_true", dest="json_output")
     args = parser.parse_args()
 
     try:
-        result = validate_translation_files(args.en, args.ko)
+        result = validate_translation_files(args.en, args.ko, terms_path=args.terms)
         if args.json_output:
             print(json.dumps(result, indent=2, ensure_ascii=False))
         else:
@@ -315,7 +493,10 @@ def main():
             print("-" * 50)
             for c in result["checks"]:
                 ci = icon.get(c["status"], "?")
-                print(f"   {ci} {c['id']} {c['name']}: EN={c['en_value']} KO={c['ko_value']} [{c['status']}]")
+                if "en_value" in c:
+                    print(f"   {ci} {c['id']} {c['name']}: EN={c['en_value']} KO={c['ko_value']} [{c['status']}]")
+                elif "detail" in c:
+                    print(f"   {ci} {c['id']} {c['name']}: {c['detail']} [{c['status']}]")
             print("-" * 50)
             print(f"   Total: {result['total_checks']} checks | "
                   f"{result['critical_failures']} failures | "

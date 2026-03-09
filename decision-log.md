@@ -2,8 +2,8 @@
 
 > Architectural decisions made during the evolution of the Quadruple Environmental Scanning System.
 >
-> System: Quadruple Environmental Scanning System v3.1.0
-> Period: 2026-02-24 ~ 2026-03-06
+> System: Quadruple Environmental Scanning System v3.2.0
+> Period: 2026-02-24 ~ 2026-03-09
 
 ---
 
@@ -237,7 +237,7 @@ Examples:
 **Context**: The quality defense system had L1 (Skeleton-Fill) and L2 (validate_report.py structural checks). However, the structural validator cannot detect semantic issues: wrong priority order, signals that don't match their claimed STEEPs category, strategic implications not derived from signal evidence, etc.
 
 **Decision**: Add two new quality layers:
-- **L2b** (`validate_report_quality.py`): 13 cross-reference QC checks (QC-001~013) — verifiable by Python
+- **L2b** (`validate_report_quality.py`): 14 cross-reference QC checks (QC-001~014) — verifiable by Python
 - **L3** (`quality-reviewer.md`): LLM semantic depth review — 3-pass review (signal content, section synthesis, strategic coherence)
 
 **Rationale**: Python (L2b) can check verifiable properties: priority order, signal counts, FSSF distribution, citation completeness. LLM (L3) can check semantic properties: whether implications follow from evidence, whether H3 signals have sufficiently long time horizons, whether the executive summary accurately reflects the body. The two layers are complementary and non-redundant.
@@ -322,6 +322,65 @@ Examples:
 
 ---
 
+## DEC-018: Pipeline Gate 2 Python Enforcement (`validate_phase2_output.py`)
+
+**Date**: 2026-03-09
+**Context**: The Phase 2 → Phase 3 transition (Pipeline Gate 2) had no Python enforcement. Each orchestrator contained inline LLM-instructed checks that could be hallucinated or inconsistently applied. Some orchestrators had conflicting field range definitions (e.g., impact_score `[-5, +5]` vs `[-10.0, +10.0]`).
+
+**Decision**: Create `validate_phase2_output.py` with 8 deterministic checks (PG2-001~008) and require all orchestrators to invoke it as "Step A (Python MANDATORY)" before any additional LLM checks at PG2.
+
+**Rationale**: Pipeline gates are the most critical quality enforcement points — they determine whether a phase's output is valid enough to proceed. An LLM cannot reliably check whether required JSON fields exist, whether score ranges are valid, or whether signal counts are consistent across files. These are all deterministic checks. The critical reflection found that 3 of 4 orchestrators had inline PG2 definitions that would never call the Python script.
+
+**Alternatives Considered**:
+- Keep inline LLM checks only — Found during reflection to be inconsistent across orchestrators
+- Add Python as optional fallback — Defeats purpose; Python must be mandatory
+- Integrate into validate_registry.py — Wrong lifecycle stage; registry is pre-execution, PG2 is mid-execution
+
+**Impact**: `validate_phase2_output.py` (8 checks: PG2-001~008). SOT-060/061 ensure existence and binding. All 4 orchestrators updated with explicit `python3` invocation. 53 unit tests.
+
+---
+
+## DEC-019: Translation TERM Fidelity Checks (TERM-001~003)
+
+**Date**: 2026-03-09
+**Context**: `translation_validator.py` validated structural integrity (section headers, signal counts) but did not verify that critical terminology was preserved during EN→KO translation. Terms like "STEEPs", "FSSF", "pSST" could be mistranslated, mangled, or dropped by the translation LLM.
+
+**Decision**: Add 3 TERM checks to `translation_validator.py`:
+- TERM-001: Immutable terms (STEEPs, FSSF, pSST, etc.) must appear verbatim
+- TERM-002: Preserve-list terms from `translation-terms.yaml` preserved (≥90%)
+- TERM-003: Standardized mapping terms used (≥60% coverage)
+
+**Rationale**: Term fidelity is the intersection of Python 원천봉쇄 and bilingual protocol. Whether a term appears in text is deterministic (string matching). Whether it's correctly translated can be verified against `translation-terms.yaml`. TERM-001 is strictest (binary: present or not). TERM-002 allows 10% miss for edge cases. TERM-003 is softest (checks standardization, not preservation).
+
+**Alternatives Considered**:
+- LLM self-check during translation — LLM is the translator; self-checking has blind spots
+- Manual spot-check — Humans miss subtle term variations in dense Korean text
+- Separate TERM validator script — Adds file proliferation; translation_validator.py is the natural home
+
+**Impact**: `translation_validator.py` v1.1.0. Bug fix: ASCII-only word boundaries for Korean particle handling. 17 new tests (34 total).
+
+---
+
+## DEC-020: QC-014 Executive Summary Statistics Cross-Reference
+
+**Date**: 2026-03-09
+**Context**: L2b (`validate_report_quality.py`) had 13 QC checks but none verified that the Executive Summary's statistics (total signal count, STEEPs distribution) matched the actual source data. An LLM could hallucinate statistics (e.g., "25 signals detected" when only 18 exist).
+
+**Decision**: Add QC-014: cross-reference executive summary statistics against priority-ranked source data.
+- Sub-check A: Total signal count (exact match)
+- Sub-check B: STEEPs distribution (±10% tolerance)
+
+**Rationale**: The Executive Summary is the most-read section of every report. Decision-makers rely on its statistics to understand the scan scope. A hallucinated count could lead to under/over-estimation of signal volume. Python can extract the claimed count via regex and compare against source JSON — this is pure computation. The ±10% tolerance for STEEPs distribution accounts for rounding in percentage displays.
+
+**Alternatives Considered**:
+- Exact match for STEEPs distribution — Too rigid; 33.3% displays as "33%" or "34%"
+- Skip STEEPs distribution, check total only — Distribution is equally important for coverage assessment
+- Check in L3 (LLM review) — LLM cannot reliably count signals in source JSON
+
+**Impact**: `validate_report_quality.py` 13→14 checks. FSSF types filtered via `_STEEPS_PREFIXES` to prevent false matches in WF3/WF4 reports. 22 unit tests.
+
+---
+
 ## Summary
 
 | ID | Decision | Key Rationale |
@@ -343,9 +402,12 @@ Examples:
 | DEC-015 | Challenge-Response for Timeline Map narratives | Unified context + adversarial review = highest quality |
 | DEC-016 | Python narrative gate (`narrative_gate.py`) for B4 | Structural verification must be Python, not LLM |
 | DEC-017 | Timeline Map L2b parity (TQ-009~011) | PB-1/2/3 verbatim verification is non-negotiable |
+| DEC-018 | Pipeline Gate 2 Python enforcement | Phase 2→3 transition must be Python-verified, not LLM-instructed |
+| DEC-019 | Translation TERM fidelity (TERM-001~003) | Critical terminology preservation is deterministic string matching |
+| DEC-020 | QC-014 exec summary stats cross-reference | Executive Summary statistics must match source data exactly |
 
 ---
 
-**Document Version**: 3.0
-**Last Updated**: 2026-03-06
-**System Version**: Quadruple Workflow System v3.1.0
+**Document Version**: 4.0
+**Last Updated**: 2026-03-09
+**System Version**: Quadruple Workflow System v3.2.0

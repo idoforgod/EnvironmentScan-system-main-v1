@@ -207,14 +207,21 @@ On error: verify classified-signals and impact-assessment exist and are valid JS
 - **Display**: FSSF classification, Three Horizons, Tipping Point alerts, priority ranking
 
 ### Pipeline Gate 2
+
+**Step A — Python 원천봉쇄 (MANDATORY)**:
+```bash
+python3 env-scanning/scripts/validate_phase2_output.py \
+  --sot env-scanning/config/workflow-registry.yaml \
+  --workflow wf3-naver --date {SCAN_DATE} --json
+```
+- Exit 0 = PASS (PG2-001~008: STEEPs, score ranges, FSSF, Three Horizons, Tipping Point, counts, fields)
+- Exit 1 = HALT (CRITICAL)
+- Exit 2 = WARN (proceed with caution)
+
+**Step B — Additional LLM Checks**:
 ```yaml
 Checks:
-  - signal_count_match: "classified == impact == priority counts"
-  - score_range_valid: "priority_score ∈ [0,10], impact_score ∈ [-5,+5]"
   - human_approval_recorded: "Step 2.5 decision logged"
-  - fssf_classification_present: "all signals have FSSF type"
-  - three_horizons_present: "all signals have H1/H2/H3 tag"
-  - tipping_point_status: "alert level computed for applicable signals"
   - psst_dimensions_complete: "ES, CC, IC exist for all signals"
 On_fail: trace_back and re_execute_failing_step (max 1 retry)
 ```

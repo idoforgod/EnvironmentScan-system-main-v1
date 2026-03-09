@@ -1,0 +1,845 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf3-naver",
+    "date": "2026-03-07",
+    "computed_at": "2026-03-07T03:01:58Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 33,
+    "warn_count": 66
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260307-101-075",
+      "title": "美 유가 하루에만 12% 급등해 90달러 돌파…WTI 43년 만에 주간 최대 상승률, 호르무즈 봉쇄에 원유 공급 차질",
+      "steeps": "E_economic",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "priority_score": 3.292,
+      "psst_score": 74.6,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.73,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 90,
+        "CC": 85,
+        "IC": 90
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260307-104-212",
+      "title": "유가 급등에 고용충격까지…美 2월 고용 9만2천명 감소, 실업률 4.4% — 70년대식 스태그플레이션 공포 부상",
+      "steeps": "E_economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 3.266,
+      "psst_score": 73.3,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.665,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260307-101-059",
+      "title": "고유가·고용충격 겹쳐…월가 '1970년대식 스태그플레이션' 공식 경고, 트럼프의 아킬레스건",
+      "steeps": "E_economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 3.266,
+      "psst_score": 73.3,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.665,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260307-104-195",
+      "title": "미군 '장대한 분노' 작전 일주일…이란 선박 43척 훼손·파괴, 목표물 3000개 타격",
+      "steeps": "P",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "priority_score": 3.242,
+      "psst_score": 72.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.605,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260307-100-003",
+      "title": "[단독] 주한미군 '중동戰' 차출 촉각…유도폭탄 키트 1000개 작년 12월 美 반출, 패트리엇 이동 가능성",
+      "steeps": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "priority_score": 3.236,
+      "psst_score": 71.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.59,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 85,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260307-105-265",
+      "title": "AI 지원 전쟁은 속도전…이란-우크라이나에서 이미 실전 배치된 AI 무기 시스템 분석",
+      "steeps": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 3.236,
+      "psst_score": 71.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.59,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 85,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260307-102-126",
+      "title": "지난해 친밀한 남성에 살해된 여성 137명…친밀한 파트너 폭력(IPV) 구조적 위기 지속",
+      "steeps": "S",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.226,
+      "psst_score": 71.3,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.565,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 85,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260307-105-245",
+      "title": "카카오T로 호출하는 서울 강남 자율주행 택시 4월부터 유료화…국내 자율주행 상용화 원년",
+      "steeps": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.222,
+      "psst_score": 71.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.555,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 85,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260307-104-192",
+      "title": "중동전쟁에 러시아 간접 등판…러시아, 이란에 미국 군함·항공기 위치정보 넘겼다",
+      "steeps": "P",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "priority_score": 3.222,
+      "psst_score": 71.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.555,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260307-105-257",
+      "title": "딥시크 V4, 챗GPT의 50분의 1 비용…AI 가격 전쟁 새 국면, '초저비용 AI 민주화' 가속",
+      "steeps": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.202,
+      "psst_score": 70.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.505,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 85,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260307-105-247",
+      "title": "'노동의 종말' 앞당길 로봇 기술…1000분의 1초까지 동기화, MWC26 백덤블링 로봇·식당 운영 로봇 등장",
+      "steeps": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.202,
+      "psst_score": 70.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.505,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 85,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260307-101-085",
+      "title": "젠슨 황 'AI 에이전트 확산에 연산 1000배 필요'…삼성·SK, AI 반도체 수요 폭발적 증가 기대",
+      "steeps": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.202,
+      "psst_score": 70.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.505,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 85,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260307-105-227",
+      "title": "갤럭시S26 사전 판매 135만대 신기록…전작 대비 20% 증가, '하드웨어+AI' 통합 전략 성과",
+      "steeps": "E_economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.198,
+      "psst_score": 69.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.495,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 85,
+        "IC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260307-103-166",
+      "title": "중동 전쟁에 항공권 3배 급등…두바이 여행객 발묶이고 경유 노선 대체 200만원 추가",
+      "steeps": "s",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.186,
+      "psst_score": 69.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.465,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 85,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260307-105-240",
+      "title": "'굿바이 텔코, 헬로 AI' — MWC26 통신업의 신분 세탁, AI 인프라 기업으로의 전환 가속",
+      "steeps": "T",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.178,
+      "psst_score": 68.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.445,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 85,
+        "IC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "naver-20260307-104-185",
+      "title": "MS '북한, AI 활용해 서방기업 취업사기 고도화'…AI 기반 신원위조·사이버 침투 급증",
+      "steeps": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.172,
+      "psst_score": 68.6,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.43,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 80,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 17,
+      "id": "naver-20260307-105-228",
+      "title": "한국형 초미세먼지, 치매 부른다…미세먼지-뇌 건강 인과관계 연구 결과, 환경 보건 시그널",
+      "steeps": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.172,
+      "psst_score": 68.6,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.43,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 85,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 18,
+      "id": "naver-20260307-104-213",
+      "title": "중동의 포성, 베이징의 계산 — 이란 전쟁과 미중 전략경쟁의 구조적 변곡점",
+      "steeps": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.166,
+      "psst_score": 68.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.415,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 19,
+      "id": "naver-20260307-104-208",
+      "title": "美 싱크탱크 '北, 핵으로 한·미 갈라놓을 수도…핵탄두 소형화 이미 성공 가능성'",
+      "steeps": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "priority_score": 3.166,
+      "psst_score": 68.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.415,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 20,
+      "id": "naver-20260307-101-084",
+      "title": "로봇의 일자리 파괴, 로봇세보다 빨리 온다…한국 제조업 자동화 가속, 정책 논의 현실화",
+      "steeps": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.152,
+      "psst_score": 67.6,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.38,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 21,
+      "id": "naver-20260307-101-082",
+      "title": "전쟁이 클라우드 흔든다…'지오패트리에이션' 부상, 데이터 주권 기반 클라우드 분리 가속",
+      "steeps": "E_economic",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.152,
+      "psst_score": 67.6,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.38,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 22,
+      "id": "naver-20260307-100-001",
+      "title": "이재명 대통령 '7대 비정상 정상화' 선언 — 부동산·마약·주가조작·중대재해 등 국정 개혁 속도",
+      "steeps": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.144,
+      "psst_score": 67.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.36,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "naver-20260307-103-150",
+      "title": "머스크도 주목한 中 탄소배출 감소…중국 EV·재생에너지 확산으로 석유 수요 감소 가시화",
+      "steeps": "E_environmental",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.144,
+      "psst_score": 67.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.36,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "naver-20260307-104-189",
+      "title": "트럼프에 찍힌 앤트로픽, 기업 고객 잃을까…IPO 앞두고 위기, AI 안전 연구 vs 국방 분야 제외 딜레마",
+      "steeps": "s",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.144,
+      "psst_score": 67.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.36,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "naver-20260307-102-101",
+      "title": "'촉법소년 연령하향' 공론화…100인 시민참여단 구성, 형사미성년자 기준 재논의",
+      "steeps": "S",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.13,
+      "psst_score": 66.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.325,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 68
+      }
+    },
+    {
+      "rank": 26,
+      "id": "naver-20260307-105-264",
+      "title": "'로켓·원자로 AI만으론 안돼'…초고속 유니콘 기업 레벨(Revel), 물리 세계 AI 통합 스타트업 급성장",
+      "steeps": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.13,
+      "psst_score": 66.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.325,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 68,
+        "CC": 80,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 27,
+      "id": "naver-20260307-103-159",
+      "title": "한국사회 적응 못한 이들에게 대만 이민이 대안…한국 청년 이민 다변화 트렌드",
+      "steeps": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.11,
+      "psst_score": 65.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.275,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 80,
+        "IC": 68
+      }
+    },
+    {
+      "rank": 28,
+      "id": "naver-20260307-105-231",
+      "title": "위성사진만으로 슬럼 찾아낸 한국 AI…데이터 빈곤 극복, 개발도상국 불평등 측정 혁신",
+      "steeps": "T",
+      "fssf_type": "Weak_Signal",
+      "three_horizons": "H3",
+      "priority_score": 3.102,
+      "psst_score": 65.1,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.255,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 80,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 29,
+      "id": "naver-20260307-103-163",
+      "title": "2만원 하던 게 50만원…'없어서 못 산다' 2030 여성 오픈런 — 헌티드 마켓 문화 확산",
+      "steeps": "s",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.102,
+      "psst_score": 65.1,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.255,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 80,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 30,
+      "id": "naver-20260307-102-105",
+      "title": "대한민국 주류의 교체라는 거대한 변화 — 이재명 정권의 정치경제 구조 재편",
+      "steeps": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.102,
+      "psst_score": 65.1,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.255,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 75,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 31,
+      "id": "naver-20260307-102-093",
+      "title": "북한에 무인기 보낸 대학원생 구속 송치…민간 북한 대북 활동 법적 경계 불명확",
+      "steeps": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "priority_score": 3.102,
+      "psst_score": 65.1,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.255,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 80,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 32,
+      "id": "naver-20260307-103-156",
+      "title": "된장찌개에 곤충가루 '톡톡'…곤충식 산업화 시도, 단백질 대체식품 시장 확산",
+      "steeps": "s",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H3",
+      "priority_score": 3.068,
+      "psst_score": 63.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.17,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 80,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 33,
+      "id": "naver-20260307-101-006",
+      "title": "이재명 대통령 유가 담합 경고…정유사에 '대가 알게 될 것' 경고, 100조+ 시장안정 프로그램 가동",
+      "steeps": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.978,
+      "psst_score": 58.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.945,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72,
+        "ES": 70,
+        "CC": 80,
+        "IC": 72
+      }
+    }
+  ]
+}

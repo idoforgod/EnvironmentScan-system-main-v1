@@ -1,0 +1,66 @@
+{
+  "workflow_id": "wf4-multiglobal-news-2026-03-09",
+  "workflow_name": "Multi&Global-News Environmental Scanning",
+  "data_root": "env-scanning/wf4-multiglobal-news",
+  "status": "completed",
+  "current_phase": 3,
+  "current_step": "3.5",
+  "started_at": "2026-03-09T00:17:00+00:00",
+  "completed_at": "2026-03-09T00:30:51.323466+00:00",
+  "parameters": {
+    "scan_window": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-03-07T15:00:00+00:00",
+      "window_end": "2026-03-09T15:00:00+00:00"
+    }
+  },
+  "execution_mode": "integrated",
+  "bilingual": {
+    "language": "en",
+    "report_skeleton": ".claude/skills/env-scanner/references/multiglobal-news-report-skeleton-en.md",
+    "validate_profile": "multiglobal-news_en"
+  },
+  "human_decisions": {
+    "step_2_5": {
+      "decision": "auto-approved",
+      "timestamp": "2026-03-09T00:30:51.324305+00:00",
+      "reason": "AUTOPILOT: STEEPs + FSSF classification reasonable"
+    },
+    "step_3_4": {
+      "decision": "auto-approved",
+      "timestamp": "2026-03-09T00:30:51.324307+00:00",
+      "reason": "L2a ALL PASS (0 CRITICAL, 0 ERROR)"
+    }
+  },
+  "phase_results": {
+    "phase1": {
+      "status": "completed",
+      "raw_signals": 1434,
+      "after_dedup": 1372,
+      "sites_succeeded": 31,
+      "sites_failed": 13
+    },
+    "phase2": {
+      "status": "completed",
+      "classified": 1372,
+      "steeps_distribution": {
+        "S": 667,
+        "P": 354,
+        "T": 180,
+        "E": 130,
+        "s": 27,
+        "E_env": 14
+      }
+    },
+    "phase3": {
+      "status": "completed",
+      "db_updated": true,
+      "db_total": 1597,
+      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-09.md",
+      "validation_l2a": "ALL PASS",
+      "archived": true
+    }
+  }
+}

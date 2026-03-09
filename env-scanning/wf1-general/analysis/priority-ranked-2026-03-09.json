@@ -1,0 +1,548 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-09",
+    "computed_at": "2026-03-08T22:41:44Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 24,
+    "warn_count": 24
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "ieee-spectrum-1603d0b55a62",
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "hacker-news-c62f12ac015e",
+      "title": "The changing goalposts of AGI and timelines",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.1,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "techcrunch-b1af8d78d32c",
+      "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.8,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "cepr-voxeu-4e3095eda4de",
+      "title": "The remote work premium reconsidered",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.7,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "hacker-news-254860d309f4",
+      "title": "Artificial-life: A simple (300 lines of code) reproduction of Computational Life",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "hacker-news-cd8fc2fd2dc2",
+      "title": "Living human brain cells play DOOM on a CL1 [video]",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.6,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "techcrunch-24aef19b03ac",
+      "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "techcrunch-6fb6992fc191",
+      "title": "Push for $40 smartphones builds momentum, but still faces cost hurdles",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "techcrunch-993358c9ffc0",
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.5,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "techcrunch-c6a734ac2cd5",
+      "title": "A roadmap for AI, if anyone will listen",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "hacker-news-ad5905973fb1",
+      "title": "Agent Safehouse – macOS-native sandboxing for local agents",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.4,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "techcrunch-c56857300baf",
+      "title": "TechCrunch Mobility: Rivian’s R2 gambit",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "techcrunch-f4bed433cfed",
+      "title": "Grammarly’s ‘expert review’ is just missing the actual experts",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "hacker-news-356c38d07c93",
+      "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "hacker-news-be02f86fcc6b",
+      "title": "Ask HN: How to be alone?",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.3,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "hacker-news-ad92ada1b585",
+      "title": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "us-federal-register-20260309-001",
+      "title": "National Drinking Water Advisory Council: Request for Nominations",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "us-federal-register-20260309-002",
+      "title": "Emerging Frontiers in Research and Innovation Program: Grantee Reporting Requirements",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "us-federal-register-20260309-004",
+      "title": "FDA Draft Guidance: Responding to Form 483 CGMP Inspection Observations",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.2,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "hacker-news-a6d3a89ebf15",
+      "title": "We should revisit literate programming in the agent era",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.1,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "techcrunch-11df117628d7",
+      "title": "Palmer Luckey’s retro gaming startup ModRetro reportedly seeks funding at $1B valuation",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "ars-technica-dfe7fcaa37cc",
+      "title": "Tiny, long-armed dinosaur leads to rethink of dinosaur miniaturization",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "us-federal-register-20260309-003",
+      "title": "Dairy Tariff-Rate Quota Import Licensing Program: Proposed Amendments",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 3.0,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 5.0,
+        "urgency": 3.0,
+        "novelty": 1.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "wired-4c7dfd55799a",
+      "title": "Left-Handed People Are More Competitive, Says Science",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.9,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    }
+  ]
+}

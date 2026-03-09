@@ -1,0 +1,301 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-07T22:53:51.103866+00:00",
+  "workflow": "wf1-general",
+  "signals_file": "env-scanning/wf1-general/raw/scan-2026-03-08.json",
+  "previous_file": "env-scanning/wf1-general/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "15 definite duplicate(s) removed. 18 uncertain signal(s) flagged for LLM review. 9 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 42,
+    "definite_new": 9,
+    "definite_duplicates": 15,
+    "uncertain": 18,
+    "pass_through": 27
+  },
+  "stage_breakdown": {
+    "A_url": 5,
+    "B_topic": 10,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "tc-20260308-004",
+      "signal_title": "Quantum Computing Firm Pasqal Plans $2B SPAC Listing on Nasdaq",
+      "matched_signal_id": "wf1-20260307-007",
+      "matched_title": "Quantum computing commercialization — Pasqal plans $2B SPAC listing",
+      "stage": "B_topic",
+      "score": 0.8571
+    },
+    {
+      "signal_id": "tc-20260308-007",
+      "signal_title": "TriZetto Data Breach: 3.4M Health Records Compromised",
+      "matched_signal_id": "wf1-20260307-024",
+      "matched_title": "TriZetto healthcare breach — 3.4M patient records stolen",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "tc-20260308-008",
+      "signal_title": "India PC Shipments Surpass Pandemic Peak as First-Time Users Upgrade",
+      "matched_signal_id": "wf1-20260307-017",
+      "matched_title": "India PC shipments surpass pandemic peak — emerging market digital inclusion accelerating",
+      "stage": "B_topic",
+      "score": 0.8
+    },
+    {
+      "signal_id": "mtr-20260308-001",
+      "signal_title": "Is the Pentagon Allowed to Surveil Americans with AI?",
+      "matched_signal_id": "wf1-20260307-010",
+      "matched_title": "Pentagon AI surveillance — can DoD legally surveil Americans with AI?",
+      "stage": "B_topic",
+      "score": 0.8
+    },
+    {
+      "signal_id": "nat-20260308-001",
+      "signal_title": "Climate Change is Speeding Up — Pace Nearly Doubled in Ten Years",
+      "matched_signal_id": "wf1-20260307-001",
+      "matched_title": "Pace of global warming has nearly doubled since 2015 — acceleration confirmed",
+      "stage": "B_topic",
+      "score": 0.625
+    },
+    {
+      "signal_id": "nat-20260308-007",
+      "signal_title": "Genome Modelling and Design Across All Domains of Life with Evo 2",
+      "matched_signal_id": "nat-20260306-001",
+      "matched_title": "Evo 2: AI trained on 9 trillion DNA base pairs for genome modeling",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "ieee-20260308-003",
+      "signal_title": "Robot Hand With Artificial Muscles and Tendons",
+      "matched_signal_id": "wf1-20260307-025",
+      "matched_title": "Robot hand with artificial muscles — bioinspired robotics milestone",
+      "stage": "B_topic",
+      "score": 0.7143
+    },
+    {
+      "signal_id": "un-20260308-002",
+      "signal_title": "Middle East War Day 7: World Economy at Grave Risk, Warns UN Chief",
+      "matched_signal_id": "wf1-20260307-002",
+      "matched_title": "Middle East War Day 7 — UN warns world economy at grave risk; situation could spiral",
+      "stage": "B_topic",
+      "score": 0.75
+    },
+    {
+      "signal_id": "un-20260308-005",
+      "signal_title": "How AI is Already Reshaping Working Conditions",
+      "matched_signal_id": "un-20260306-003",
+      "matched_title": "AI reshaping working conditions: algorithmic management concerns",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "un-20260308-006",
+      "signal_title": "UN Chief Tells AI Experts: 'The World Is Looking to You for Clarity'",
+      "matched_signal_id": "un-20260306-004",
+      "matched_title": "UN forms independent AI advisory group for responsible AI governance",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "cb-20260308-001",
+      "signal_title": "Pace of Global Warming Has Nearly Doubled Since 2015",
+      "matched_signal_id": "wf1-20260307-001",
+      "matched_title": "Pace of global warming has nearly doubled since 2015 — acceleration confirmed",
+      "stage": "B_topic",
+      "score": 0.875
+    },
+    {
+      "signal_id": "cb-20260308-002",
+      "signal_title": "China's 15th Five-Year Plan: What It Means for Climate Change",
+      "matched_signal_id": "wf1-20260307-005",
+      "matched_title": "China 15th Five-Year Plan — major climate change implications detailed",
+      "stage": "B_topic",
+      "score": 0.75
+    },
+    {
+      "signal_id": "brk-20260308-001",
+      "signal_title": "After the Strike: The Danger of War in Iran",
+      "matched_signal_id": "brk-20260306-002",
+      "matched_title": "Danger of broader Iran war — expert analysis",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "brk-20260308-002",
+      "signal_title": "The Limits of Tariff-Driven Economic Statecraft After IEEPA",
+      "matched_signal_id": "brk-20260306-001",
+      "matched_title": "Post-IEEPA: Limits of tariff-driven economic statecraft",
+      "stage": "A_url",
+      "score": 1.0
+    },
+    {
+      "signal_id": "da-20260308-001",
+      "signal_title": "Kenya's Roam Launches First AI-Enabled Real-Time Monitoring for Electric Fleets in Africa",
+      "matched_signal_id": "wf1-20260307-020",
+      "matched_title": "Kenya Roam AI-enabled EV fleet monitoring — Africa electric mobility leapfrog",
+      "stage": "B_topic",
+      "score": 0.7778
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "tc-20260308-001",
+      "signal_title": "OpenAI Robotics Lead Exits Over Pentagon Deal",
+      "matched_signal_id": "mitr-20260306-004",
+      "matched_title": "OpenAI secures classified Pentagon military contract",
+      "stage": "C_title",
+      "score": 0.8392
+    },
+    {
+      "signal_id": "tc-20260308-002",
+      "signal_title": "Anthropic's Claude Found 22 Vulnerabilities in Firefox Over Two Weeks",
+      "matched_signal_id": "wf1-20260307-009",
+      "matched_title": "Anthropic Claude finds 22 Firefox vulnerabilities — AI-powered security research enters production",
+      "stage": "C_title",
+      "score": 0.8426
+    },
+    {
+      "signal_id": "tc-20260308-003",
+      "signal_title": "Claude Consumer Growth Surge Continues After Pentagon Deal Debacle",
+      "matched_signal_id": "mitr-20260306-002",
+      "matched_title": "Claude used for military target identification in Iran strikes",
+      "stage": "C_title",
+      "score": 0.8139
+    },
+    {
+      "signal_id": "tc-20260308-005",
+      "signal_title": "TerraPower Gets NRC Approval to Build New Nuclear Reactor",
+      "matched_signal_id": "wf1-20260307-008",
+      "matched_title": "TerraPower nuclear reactor approved — advanced nuclear gets regulatory green light",
+      "stage": "C_title",
+      "score": 0.8381
+    },
+    {
+      "signal_id": "nat-20260308-004",
+      "signal_title": "Genetically Modified Pig Liver Keeps Man Alive Until Human Organ Transplant",
+      "matched_signal_id": "nature-news-e2b3fc2f14fc",
+      "matched_title": "Genetically engineered ‘stinkweed’ comes up roses for making seed oil",
+      "stage": "C_title",
+      "score": 0.8233
+    },
+    {
+      "signal_id": "nat-20260308-005",
+      "signal_title": "The First 'AI Societies' Are Taking Shape: How Human-Like Are They?",
+      "matched_signal_id": "mit-technology-review-445c0ac5251c",
+      "matched_title": "The first human test of a rejuvenation method will begin “shortly”",
+      "stage": "C_title",
+      "score": 0.8233
+    },
+    {
+      "signal_id": "nat-20260308-006",
+      "signal_title": "Brain Cells Clear Proteins That Contribute to Alzheimer's Disease",
+      "matched_signal_id": "patent-20260215-034",
+      "matched_title": "Brain-computer interface patents surge: Neuralink, Synchron, Blackrock Neurotech lead",
+      "stage": "C_title",
+      "score": 0.8132
+    },
+    {
+      "signal_id": "ieee-20260308-002",
+      "signal_title": "The Millisecond That Could Change Cancer Treatment — FLASH Radiotherapy",
+      "matched_signal_id": "mit-technology-review-445c0ac5251c",
+      "matched_title": "The first human test of a rejuvenation method will begin “shortly”",
+      "stage": "C_title",
+      "score": 0.8307
+    },
+    {
+      "signal_id": "un-20260308-001",
+      "signal_title": "Lebanon Dragged Back Into Turmoil, UN Envoy Warns",
+      "matched_signal_id": "brk-20260306-002",
+      "matched_title": "Danger of broader Iran war — expert analysis",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "un-20260308-003",
+      "signal_title": "Women's Representation in Parliament Sees Sluggish Gains — 27.5% Globally",
+      "matched_signal_id": "un-20260306-002",
+      "matched_title": "Women's rights regressing worldwide — UN Women report",
+      "stage": "C_title",
+      "score": 0.815
+    },
+    {
+      "signal_id": "un-20260308-004",
+      "signal_title": "UN Calls for Fair Play in Global Race for Critical Minerals",
+      "matched_signal_id": "wf1-20260219-014",
+      "matched_title": "China Critical Minerals Weaponization Reshapes Geopolitics",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "un-20260308-007",
+      "signal_title": "Iran Crisis: Nuclear Watchdog Urges Restraint Amid Ongoing Strikes",
+      "matched_signal_id": "un-20260306-005",
+      "matched_title": "Iran crisis: Civilian casualties including schoolgirls, mass displacement",
+      "stage": "C_title",
+      "score": 0.8341
+    },
+    {
+      "signal_id": "cb-20260308-004",
+      "signal_title": "Iran Energy Crisis Drives Global Price Spikes Amid Middle East Conflict",
+      "matched_signal_id": "un-20260306-005",
+      "matched_title": "Iran crisis: Civilian casualties including schoolgirls, mass displacement",
+      "stage": "C_title",
+      "score": 0.8202
+    },
+    {
+      "signal_id": "fr-20260308-001",
+      "signal_title": "US Ratepayer Protection Pledge — Presidential Executive Action",
+      "matched_signal_id": "wf1-20260212-025",
+      "matched_title": "US Patent Applications Drop 9%; Cell Tech Surges",
+      "stage": "C_title",
+      "score": 0.813
+    },
+    {
+      "signal_id": "fr-20260308-002",
+      "signal_title": "FDA Drug Manufacturing Inspection Response Draft Guidance",
+      "matched_signal_id": "federal-register-f37652895209",
+      "matched_title": "FDA Rare Disease Innovation Hub Future Programming; Request for Comments",
+      "stage": "C_title",
+      "score": 0.8264
+    },
+    {
+      "signal_id": "hn-20260308-003",
+      "signal_title": "US Senators Launch Effort to Ban Federal Officials from Prediction Markets",
+      "matched_signal_id": "tech-20260227-002",
+      "matched_title": "US Senators Reintroduce Bipartisan AI Standards Proposal",
+      "stage": "C_title",
+      "score": 0.8477
+    },
+    {
+      "signal_id": "pew-20260308-001",
+      "signal_title": "How Teens Use and View AI: 50%+ Use Chatbots for Schoolwork",
+      "matched_signal_id": "wired-a5e2aaa371d7",
+      "matched_title": "How to Use Physics to Escape an Ice Bowl",
+      "stage": "C_title",
+      "score": 0.8222
+    },
+    {
+      "signal_id": "pew-20260308-002",
+      "signal_title": "Family Caregiving in an Aging America: Gender Differences in Care Burden",
+      "matched_signal_id": "pew-20260227-001",
+      "matched_title": "Pew Research: Family Caregiving Burden in America — New Survey of 8,750 Adults",
+      "stage": "B_topic",
+      "score": 0.5455
+    }
+  ]
+}

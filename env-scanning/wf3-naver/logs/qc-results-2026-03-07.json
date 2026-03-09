@@ -1,0 +1,113 @@
+{
+  "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-07-ko.md",
+  "ranked_path": "env-scanning/wf3-naver/analysis/priority-ranked-2026-03-07.json",
+  "language": "ko",
+  "overall_status": "WARN",
+  "summary": {
+    "total_checks": 13,
+    "passed": 11,
+    "critical_failures": 0,
+    "error_failures": 0,
+    "warn_failures": 2
+  },
+  "checks": [
+    {
+      "check_id": "QC-001",
+      "level": "CRITICAL",
+      "description": "Priority order consistency (report vs ranked JSON)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-002",
+      "level": "ERROR",
+      "description": "Executive Summary top-3 match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-003",
+      "level": "CRITICAL",
+      "description": "pSST badge accuracy (score/grade consistency)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-004",
+      "level": "ERROR",
+      "description": "Source dates within scan window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-005",
+      "level": "ERROR",
+      "description": "Cross-impact reference validity (Section 4 ↔ Section 2)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-006",
+      "level": "ERROR",
+      "description": "Field depth minimum (per-field content analysis)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-007",
+      "level": "WARN",
+      "description": "STEEPs classification vs content consistency (flags for LLM review)",
+      "passed": false,
+      "detail": "Priority 1: classified as E_Economic but only 1 content keywords found (min 2)\nPriority 2: classified as E_Environmental but only 1 content keywords found (min 2)\nPriority 8: classified as T_Technological but only 1 content keywords found (min 2)",
+      "remedy": "Review flagged signals: classification may not match actual content. LLM quality-reviewer should assess these cases.",
+      "failed_signal_ids": [
+        "priority-1",
+        "priority-2",
+        "priority-8"
+      ]
+    },
+    {
+      "check_id": "QC-008",
+      "level": "CRITICAL",
+      "description": "Intra-report duplicate detection (Jaro-Winkler >= 0.85)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-009",
+      "level": "ERROR",
+      "description": "Quantitative grounding (numeric values in Quantitative Metrics)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-010",
+      "level": "WARN",
+      "description": "Vague language blocklist (Impact/Inference specificity)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-011",
+      "level": "ERROR",
+      "description": "Cross-signal synthesis in Section 5 (≥2 signal refs per implication)",
+      "passed": true,
+      "detail": "No implications found in Section 5.1/5.2 — deferred to structural check."
+    },
+    {
+      "check_id": "QC-012",
+      "level": "WARN",
+      "description": "Time horizon keywords in Section 5",
+      "passed": false,
+      "detail": "Found 2 time keyword(s): '주', '단기'",
+      "remedy": "Section 5 must contain temporal framing: use specific timeframes (e.g., '0-6 months', 'by 2028', 'within the next year')."
+    },
+    {
+      "check_id": "QC-013",
+      "level": "WARN",
+      "description": "Action verb presence in Section 5",
+      "passed": true,
+      "detail": "Found 12 action verbs across Section 5."
+    }
+  ]
+}

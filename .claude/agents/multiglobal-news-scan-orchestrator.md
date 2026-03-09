@@ -316,7 +316,7 @@ On_fail: trace_back and re_execute_failing_step (max 1 retry)
 #### VEV Protocol (Full)
 1. **PRE-VERIFY**: Classified signals file exists, all items have FSSF + STEEPs fields
 2. **EXECUTE**: Run news-pattern-detector (Tipping Point + Anomaly), merge with impact-assessment produced by @phase2-analyst
-3. **POST-VERIFY**: (L1) Output file exists, (L2) every signal has impact_score in [-5, +5], (L3) tipping point alert levels computed
+3. **POST-VERIFY**: (L1) Output file exists, (L2) every signal has impact_score in [-10.0, +10.0], (L3) tipping point alert levels computed
 4. **RETRY**: On analysis failure, retry with simplified analysis. On persistent failure, use default impact scores.
 5. **RECORD**: Log impact_distribution, tipping_point_summary, anomaly_count
 
@@ -381,14 +381,20 @@ python3 env-scanning/core/priority_score_calculator.py \
 
 ### Pipeline Gate 2
 
+**Step A — Python 원천봉쇄 (MANDATORY)**:
+```bash
+python3 env-scanning/scripts/validate_phase2_output.py \
+  --sot env-scanning/config/workflow-registry.yaml \
+  --workflow wf4-multiglobal-news --date {SCAN_DATE} --json
+```
+- Exit 0 = PASS (PG2-001~008: STEEPs, score ranges, FSSF, Three Horizons, Tipping Point, counts, fields)
+- Exit 1 = HALT (CRITICAL)
+- Exit 2 = WARN (proceed with caution)
+
+**Step B — Additional LLM Checks**:
 ```yaml
 Checks:
-  - signal_count_match: "classified == impact == priority counts"
-  - score_range_valid: "priority_score in [0,10], impact_score in [-5,+5]"
   - human_approval_recorded: "Step 2.5 decision logged"
-  - fssf_classification_present: "all signals have FSSF type"
-  - three_horizons_present: "all signals have H1/H2/H3 tag"
-  - tipping_point_status: "alert level computed for applicable signals"
   - psst_dimensions_complete: "ES, CC, IC exist for all signals"
   - file_pair_check: |
       English/Korean pairs exist for:

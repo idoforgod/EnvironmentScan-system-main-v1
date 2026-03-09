@@ -24,7 +24,7 @@ internal consistency checking, and false positive determination.
 ```
 L1: Skeleton-Fill Method       ← report-generator.md
 L2a: Structural Validation     ← validate_report.py (15-20 checks)
-L2b: Cross-Reference Quality   ← validate_report_quality.py (13 QC checks)
+L2b: Cross-Reference Quality   ← validate_report_quality.py (14 QC checks)
 L3: Semantic Depth Review      ← THIS AGENT (quality-reviewer.md)
 L4: Golden Reference           ← report-generator.md (9-field signal example)
 ```

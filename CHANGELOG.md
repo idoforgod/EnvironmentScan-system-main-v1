@@ -3,6 +3,56 @@
 > SOT system version: **2.5.0** (as of `workflow-registry.yaml`)
 > Entries organized by git commit date. SOT internal module versions noted in parentheses where applicable.
 
+## 2026-03-09
+
+### Hallucination Prevention — Python 원천봉쇄 Extension (3rd Critical Reflection)
+
+**Core Philosophy: Pipeline gates, translation fidelity, and report statistics must all be Python-enforced**
+
+#### Pipeline Gate 2 (PG2) — Python Enforcement
+- Add `validate_phase2_output.py` — Phase 2→3 transition gate (8 checks: PG2-001~008)
+  - PG2-001: classified-signals file exists with valid items
+  - PG2-002: impact-assessment file exists with valid items
+  - PG2-003: priority-ranked file exists with valid items
+  - PG2-004: required fields in classified-signals (id, title, steeps_category)
+  - PG2-005: required fields in impact-assessment (id, impact_score with [-10.0, +10.0] range)
+  - PG2-006: required fields in priority-ranked (id, priority_score with [1, 5] range)
+  - PG2-007: STEEPs category distribution present (≥2 categories)
+  - PG2-008: signal count consistency across all 3 files
+  - Exit codes: 0=PASS, 1=FAIL(CRITICAL), 2=WARN(ERROR-only)
+- All 4 WF orchestrators updated: PG2 replaced with "Step A (Python MANDATORY) + Step B (LLM additional)"
+- SOT-060/061 added: validate_phase2_output.py existence and orchestrator binding
+- Add `tests/unit/test_validate_phase2_output.py` — 53 tests
+
+#### Translation Validator TERM Fidelity (v1.1.0)
+- Add TERM-001: immutable STEEPs terms (STEEPs, FSSF, pSST, etc.) must be preserved in translation
+- Add TERM-002: preserve-list terms from `translation-terms.yaml` preserved (≥90% match)
+- Add TERM-003: standardized mapping terms used (≥60% coverage)
+- Bug fix: `_term_in_text()` changed from Unicode `\w` to ASCII-only `[a-zA-Z0-9_]` word boundaries for Korean particle handling
+- Add `tests/unit/test_translation_validator.py` — 17 new TERM tests (34 total)
+
+#### QC-014: Executive Summary Statistics Cross-Reference
+- Add QC-014 to `validate_report_quality.py` (13→14 QC checks)
+  - Sub-check A: total signal count match (exact)
+  - Sub-check B: STEEPs distribution match (±10% tolerance)
+  - FSSF types filtered via `_STEEPS_PREFIXES` to prevent false matches
+- Add `tests/unit/test_validate_report_quality_qc014.py` — 22 tests
+
+#### Orchestrator PG2 Fix (Critical Reflection Finding)
+- WF1/WF3/WF4 orchestrators had inline PG2 definitions NOT calling Python script → replaced with explicit `python3 validate_phase2_output.py` invocation
+- WF4 impact_score range fixed: `[-5, +5]` → `[-10.0, +10.0]`
+
+#### Documentation Update
+- All child workflow docs (ARCHITECTURE-AND-PHILOSOPHY, USER-MANUAL) updated
+- SOT check count: 59 → 61 (SOT-001~061)
+- Python module count: 33 → 36 core + 9 validation scripts
+- System version: v3.1.0 → v3.2.0
+
+#### Test Results
+- 1069/1069 tests pass (92 new + 977 existing)
+
+---
+
 ## 2026-03-02
 
 ### Python 원천봉쇄 + Quality-First Architecture (2nd Critical Reflection)
@@ -45,7 +95,7 @@
 ## 2026-03-01
 
 ### 4-Layer Quality Defense (L2b + L3)
-- Add `validate_report_quality.py` — L2b cross-reference QC (13 checks: QC-001~013)
+- Add `validate_report_quality.py` — L2b cross-reference QC (14 checks: QC-001~014)
 - Add `quality-reviewer.md` — L3 semantic depth review (3-pass LLM sub-agent)
 - Fix skeleton contamination in report generator
 

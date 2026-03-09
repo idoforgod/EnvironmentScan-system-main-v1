@@ -7859,18 +7859,5381 @@
       "status": "new",
       "source": "NaverNews/IT과학",
       "source_url": "https://n.news.naver.com/mnews/article/366/0001146267"
+    },
+    {
+      "id": "naver-20260307-101-075",
+      "title": "美 유가 하루에만 12% 급등해 90달러 돌파…WTI 43년 만에 주간 최대 상승률, 호르무즈 봉쇄에 원유 공급 차질",
+      "category": "E_economic",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "psst_score": 74.6,
+      "priority_score": 3.292,
+      "impact_score": 5.0,
+      "priority": "CRITICAL",
+      "tipping_point_status": "RED",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/경제",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-212",
+      "title": "유가 급등에 고용충격까지…美 2월 고용 9만2천명 감소, 실업률 4.4% — 70년대식 스태그플레이션 공포 부상",
+      "category": "E_economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 73.3,
+      "priority_score": 3.266,
+      "impact_score": 5.0,
+      "priority": "CRITICAL",
+      "tipping_point_status": "ORANGE",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-101-059",
+      "title": "고유가·고용충격 겹쳐…월가 '1970년대식 스태그플레이션' 공식 경고, 트럼프의 아킬레스건",
+      "category": "E_economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 73.3,
+      "priority_score": 3.266,
+      "impact_score": 5.0,
+      "priority": "CRITICAL",
+      "tipping_point_status": "ORANGE",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/경제",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-195",
+      "title": "미군 '장대한 분노' 작전 일주일…이란 선박 43척 훼손·파괴, 목표물 3000개 타격",
+      "category": "P",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "psst_score": 72.1,
+      "priority_score": 3.242,
+      "impact_score": 5.0,
+      "priority": "CRITICAL",
+      "tipping_point_status": "RED",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-100-003",
+      "title": "[단독] 주한미군 '중동戰' 차출 촉각…유도폭탄 키트 1000개 작년 12월 美 반출, 패트리엇 이동 가능성",
+      "category": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "psst_score": 71.8,
+      "priority_score": 3.236,
+      "impact_score": 5.0,
+      "priority": "CRITICAL",
+      "tipping_point_status": "RED",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/정치",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-265",
+      "title": "AI 지원 전쟁은 속도전…이란-우크라이나에서 이미 실전 배치된 AI 무기 시스템 분석",
+      "category": "T",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "psst_score": 71.8,
+      "priority_score": 3.236,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "ORANGE",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-102-126",
+      "title": "지난해 친밀한 남성에 살해된 여성 137명…친밀한 파트너 폭력(IPV) 구조적 위기 지속",
+      "category": "S",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 71.3,
+      "priority_score": 3.226,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/사회",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-245",
+      "title": "카카오T로 호출하는 서울 강남 자율주행 택시 4월부터 유료화…국내 자율주행 상용화 원년",
+      "category": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 71.1,
+      "priority_score": 3.222,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-192",
+      "title": "중동전쟁에 러시아 간접 등판…러시아, 이란에 미국 군함·항공기 위치정보 넘겼다",
+      "category": "P",
+      "fssf_type": "Wild_Card",
+      "three_horizons": "H1",
+      "psst_score": 71.1,
+      "priority_score": 3.222,
+      "impact_score": 5.0,
+      "priority": "CRITICAL",
+      "tipping_point_status": "RED",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-257",
+      "title": "딥시크 V4, 챗GPT의 50분의 1 비용…AI 가격 전쟁 새 국면, '초저비용 AI 민주화' 가속",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 70.1,
+      "priority_score": 3.202,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-247",
+      "title": "'노동의 종말' 앞당길 로봇 기술…1000분의 1초까지 동기화, MWC26 백덤블링 로봇·식당 운영 로봇 등장",
+      "category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 70.1,
+      "priority_score": 3.202,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-101-085",
+      "title": "젠슨 황 'AI 에이전트 확산에 연산 1000배 필요'…삼성·SK, AI 반도체 수요 폭발적 증가 기대",
+      "category": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 70.1,
+      "priority_score": 3.202,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/경제",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-227",
+      "title": "갤럭시S26 사전 판매 135만대 신기록…전작 대비 20% 증가, '하드웨어+AI' 통합 전략 성과",
+      "category": "E_economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "psst_score": 69.9,
+      "priority_score": 3.198,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-103-166",
+      "title": "중동 전쟁에 항공권 3배 급등…두바이 여행객 발묶이고 경유 노선 대체 200만원 추가",
+      "category": "s",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 69.3,
+      "priority_score": 3.186,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "ORANGE",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/생활문화",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-240",
+      "title": "'굿바이 텔코, 헬로 AI' — MWC26 통신업의 신분 세탁, AI 인프라 기업으로의 전환 가속",
+      "category": "T",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "psst_score": 68.9,
+      "priority_score": 3.178,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-185",
+      "title": "MS '북한, AI 활용해 서방기업 취업사기 고도화'…AI 기반 신원위조·사이버 침투 급증",
+      "category": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 68.6,
+      "priority_score": 3.172,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-228",
+      "title": "한국형 초미세먼지, 치매 부른다…미세먼지-뇌 건강 인과관계 연구 결과, 환경 보건 시그널",
+      "category": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "psst_score": 68.6,
+      "priority_score": 3.172,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-213",
+      "title": "중동의 포성, 베이징의 계산 — 이란 전쟁과 미중 전략경쟁의 구조적 변곡점",
+      "category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 68.3,
+      "priority_score": 3.166,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "ORANGE",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-208",
+      "title": "美 싱크탱크 '北, 핵으로 한·미 갈라놓을 수도…핵탄두 소형화 이미 성공 가능성'",
+      "category": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "psst_score": 68.3,
+      "priority_score": 3.166,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "ORANGE",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-101-084",
+      "title": "로봇의 일자리 파괴, 로봇세보다 빨리 온다…한국 제조업 자동화 가속, 정책 논의 현실화",
+      "category": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "psst_score": 67.6,
+      "priority_score": 3.152,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/경제",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-101-082",
+      "title": "전쟁이 클라우드 흔든다…'지오패트리에이션' 부상, 데이터 주권 기반 클라우드 분리 가속",
+      "category": "E_economic",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 67.6,
+      "priority_score": 3.152,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/경제",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-100-001",
+      "title": "이재명 대통령 '7대 비정상 정상화' 선언 — 부동산·마약·주가조작·중대재해 등 국정 개혁 속도",
+      "category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 67.2,
+      "priority_score": 3.144,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/정치",
+      "source_url": "https://n.news.naver.com/mnews/article/469/0000917891"
+    },
+    {
+      "id": "naver-20260307-103-150",
+      "title": "머스크도 주목한 中 탄소배출 감소…중국 EV·재생에너지 확산으로 석유 수요 감소 가시화",
+      "category": "E_environmental",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 67.2,
+      "priority_score": 3.144,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/생활문화",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-104-189",
+      "title": "트럼프에 찍힌 앤트로픽, 기업 고객 잃을까…IPO 앞두고 위기, AI 안전 연구 vs 국방 분야 제외 딜레마",
+      "category": "s",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 67.2,
+      "priority_score": 3.144,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/세계",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-102-101",
+      "title": "'촉법소년 연령하향' 공론화…100인 시민참여단 구성, 형사미성년자 기준 재논의",
+      "category": "S",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 66.5,
+      "priority_score": 3.13,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/사회",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-264",
+      "title": "'로켓·원자로 AI만으론 안돼'…초고속 유니콘 기업 레벨(Revel), 물리 세계 AI 통합 스타트업 급성장",
+      "category": "T",
+      "fssf_type": "Emerging_Issue",
+      "three_horizons": "H2",
+      "psst_score": 66.5,
+      "priority_score": 3.13,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-103-159",
+      "title": "한국사회 적응 못한 이들에게 대만 이민이 대안…한국 청년 이민 다변화 트렌드",
+      "category": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "psst_score": 65.5,
+      "priority_score": 3.11,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/생활문화",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-105-231",
+      "title": "위성사진만으로 슬럼 찾아낸 한국 AI…데이터 빈곤 극복, 개발도상국 불평등 측정 혁신",
+      "category": "T",
+      "fssf_type": "Weak_Signal",
+      "three_horizons": "H3",
+      "psst_score": 65.1,
+      "priority_score": 3.102,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/IT과학",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-103-163",
+      "title": "2만원 하던 게 50만원…'없어서 못 산다' 2030 여성 오픈런 — 헌티드 마켓 문화 확산",
+      "category": "s",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "psst_score": 65.1,
+      "priority_score": 3.102,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/생활문화",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-102-105",
+      "title": "대한민국 주류의 교체라는 거대한 변화 — 이재명 정권의 정치경제 구조 재편",
+      "category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 65.1,
+      "priority_score": 3.102,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "YELLOW",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/사회",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-102-093",
+      "title": "북한에 무인기 보낸 대학원생 구속 송치…민간 북한 대북 활동 법적 경계 불명확",
+      "category": "P",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H1",
+      "psst_score": 65.1,
+      "priority_score": 3.102,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/사회",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-103-156",
+      "title": "된장찌개에 곤충가루 '톡톡'…곤충식 산업화 시도, 단백질 대체식품 시장 확산",
+      "category": "s",
+      "fssf_type": "Precursor_Event",
+      "three_horizons": "H3",
+      "psst_score": 63.4,
+      "priority_score": 3.068,
+      "impact_score": 5.0,
+      "priority": "MEDIUM",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/생활문화",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260307-101-006",
+      "title": "이재명 대통령 유가 담합 경고…정유사에 '대가 알게 될 것' 경고, 100조+ 시장안정 프로그램 가동",
+      "category": "E_economic",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "psst_score": 58.9,
+      "priority_score": 2.978,
+      "impact_score": 5.0,
+      "priority": "HIGH",
+      "tipping_point_status": "GREEN",
+      "first_seen": "2026-03-07",
+      "last_seen": "2026-03-07",
+      "occurrence_count": 1,
+      "status": "emerging",
+      "source": "NaverNews/경제",
+      "source_url": "https://n.news.naver.com/mnews/article/"
+    },
+    {
+      "id": "naver-20260309-100-001",
+      "title": "李대통령, 10일 대·中企 상생간담회…삼성·SK·현대車 등 참석",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945219",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-002",
+      "title": "[속보] 이 대통령 지지율 58.2%…민주 48.1%·국힘 32.4% [리얼미터]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647025",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "매일경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-003",
+      "title": "與강경파 ‘檢개혁’ 반발에, 李 “나만 진리라는 태도 안돼” 직접 제동",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702328",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "동아일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-004",
+      "title": "이 대통령 “개혁도 옥석 가려야…초가삼간 태우는 일 경계” [전문]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/028/0002794932",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "한겨레"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-005",
+      "title": "오세훈의 정치 인생 ‘세 번째 결단’…향후 행보는?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610163",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-006",
+      "title": "민주, 제주·전북지사 후보 경선 확정…현역 포함 '3파전' 치른다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507546",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "중앙일보"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-007",
+      "title": "패럴림픽서 김윤지 금메달 따자...이대통령 “환한 미소로 즐거운 도전 이어가길”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646978",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "매일경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-008",
+      "title": "정청래 \"지선 전략공천 안할 것\"… 보선 10여곳 이를수도 [막오른 6·3 지방선거]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487844",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-009",
+      "title": "중동 일대 국민 탈출 지속…관저에 대피소 차리기도",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945695",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-010",
+      "title": "국힘 수도권·충청 후보 구인난…오세훈·김태흠 공천 미신청(종합)",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945698",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-011",
+      "title": "조은희 \"오세훈·김태흠 미신청, 당의 현주소…일부 시도 장동혁 오지 말라\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813613",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "뉴스1"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-012",
+      "title": "“집권세력 마음대로 못 한다”…李 메시지의 행간[송종호의 국정쏙쏙]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597041",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "서울경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-013",
+      "title": "[6.3 지방선거 직격 인터뷰] 1. 김진태 강원도지사",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/654/0000169702",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "강원도민일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-014",
+      "title": "윤상현 \"오세훈 미등록은 경고…'TK 자민련' 과장 아닐지도\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230592",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-015",
+      "title": "李 또 '개혁 신중론' 꺼냈다...\"초가삼간 태워선 안돼\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/215/0001244343",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "한국경제TV"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-016",
+      "title": "이 대통령 \"개혁하려다 '빈대 잡자고 초가삼간 태우기' 안돼\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/057/0001938838",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "MBN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-017",
+      "title": "오세훈, 후보등록 안 했다…나경원·신동욱도 불출마 가닥",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/437/0000481970",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "JTBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-018",
+      "title": "윤상현, 오세훈 공천 미신청에 “국힘, TK 자민련으로 쪼그라들 수도”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003431974",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "경향신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-019",
+      "title": "\"미꾸라지 몇 마리가 우물 흐리지…\" 李대통령, 조희대 겨냥?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/088/0001000021",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "매일신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-020",
+      "title": "李대통령 \"사법개혁, 썩은 일부의 외과시술적 교정…상처·갈등 최소화\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813515",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "뉴스1"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-021",
+      "title": "'불출마 러시' 국힘…나경원 불출마·오세훈 공천 신청 안 해",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/057/0001938825",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "MBN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-022",
+      "title": "\"수속 중에도 공습경보\" 철렁…국민 203명 '무사 귀국'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/437/0000481959",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "JTBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-023",
+      "title": "[정치뷰] 현역 시장도 '공천 미등록' 국힘…李, 與강경파 또 저격?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/448/0000595212",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "TV조선"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-024",
+      "title": "李대통령 “빈대 잡자고 초가삼간 태우는 개혁 조심해야…옥석 가려 해결”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/029/0003014515",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "디지털타임스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-025",
+      "title": "[단독]이규연 '주택→상가' 전환 이후 딸 청년주택 당첨",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122343",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "노컷뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-026",
+      "title": "TK에만 몰린 국힘 시도지사 공천 신청…PK는 현역 대 도전자 ‘1대 1’",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/082/0001369869",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "부산일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-027",
+      "title": "민주당 ‘공취모’ 논란, 8월 전당대회 향한 당권 경쟁 신호탄?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/308/0000037983",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "시사IN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-028",
+      "title": "李대통령 “사법개혁, ‘외과시술적 교정’ 필요…옥석 가려야”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/666/0000098495",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "경기일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-029",
+      "title": "\"윤 정부도 코스피 6천\" 발언에 \"그땐 뭐했나\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/214/0001484762",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "MBC"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-030",
+      "title": "[지선PICK] 최윤석 \"나는 행정·정무·민간 경력 갖춘 사람…'베스트 송파' 만들 것\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/119/0003066578",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "데일리안"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-031",
+      "title": "정원오 뜨고 나경원 불출마…당별 경선 대진표 윤곽",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122340",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "노컷뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-032",
+      "title": "\"마음대로 다 해선 안돼\"‥이 대통령의 경고",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/214/0001484756",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "MBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-033",
+      "title": "정청래 \"지선 승리가 지상과제\"‥오세훈 미신청",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/214/0001484754",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "MBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-034",
+      "title": "與 대구시장 후보 누구…'김부겸 차출론', 당사자도 고심?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/119/0003066574",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "데일리안"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-035",
+      "title": "與, 제주·전북지사 후보 경선… 현역 포함 3파전",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/022/0004111179",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "세계일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-036",
+      "title": "오세훈도 후보 미등록…지선 석 달 앞 국민의힘 공관위 고심 등 [3/9(월) 데일리안 출근길 뉴스]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/119/0003066573",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "데일리안"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-037",
+      "title": "뉴이재명 논란, 팬덤 분화일까 갈라치기일까",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/033/0000050390",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "주간경향"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-038",
+      "title": "李 대통령 “사법개혁, ‘외과시술적 교정’유용…미꾸라지가 물 흐려”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004596999",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "서울경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-039",
+      "title": "오산 착륙한 美 전략수송기 ‘C-5’·‘C-17’ 정체는[이현호의 밀리터리!톡]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004596995",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "서울경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-040",
+      "title": "[인터뷰] 한동훈 “조국 행보 비겁…전재수 통일교 의혹도 해소해야” (영상)",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/082/0001369866",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "부산일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-041",
+      "title": "'명픽' 정원오 서울시장 출사표…주진우 부산시장 도전장",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813400",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "뉴스1"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-042",
+      "title": "[단독]이규연 수석의 수상한 '강남 상가'…다주택 회피 정황",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122334",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "노컷뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-043",
+      "title": "인천 여야 거대 정당, 기초의원 중대선거구까지 ‘독식’ [6·3 스포트라이트]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/666/0000098490",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "경기일보"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-044",
+      "title": "오세훈 ‘당 노선 정상화’ 배수진… 서울시장 공천 신청 안 했다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/081/0003623925",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "서울신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-100-045",
+      "title": "조국에 공격당한 與 강득구 “사면 외쳤더니… 내 지역구서 직접 붙자”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/081/0003623923",
+        "published_date": "2026-03-09",
+        "section": "정치",
+        "section_id": 100,
+        "press": "서울신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-048",
+      "title": "경영계 \"노동계, 노란봉투법 무리한 요구 안 돼…불법행위 자제\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015944422",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-049",
+      "title": "비트코인 반등할까…“7만4000달러, 강세 신호”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230193",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-050",
+      "title": "기름값 고공행진에 정부 “불법 행위 엄단 조치”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/028/0002794928",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한겨레"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-051",
+      "title": "‘파업 불참자 해고 1순위’… 삼성전자 노조, 직원들까지 압박",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/005/0001835907",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "국민일보"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-052",
+      "title": "아파트 대출 막히자 오피스텔로…1월 거래량 전년 대비 65% 급증",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/023/0003963299",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "조선일보"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-053",
+      "title": "삼성SDI, AI 기반 ESS 화재 예방 소프트웨어 'SBI' 공개",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122220",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "노컷뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-054",
+      "title": "‘두쫀쿠’ 먹고 두드러기·혈관부종? 소비자원 “알레르기 유발 물질 등 확인하세요”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003431803",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "경향신문"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-055",
+      "title": "\"수소기업 투자로 매달 수백만원\"…‘투자 후기’ 믿었다가 낭패",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/215/0001244330",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한국경제TV"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-056",
+      "title": "K변압기 765kV 수주 랠리 더 가팔라진다..증설도 잇따라",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/008/0005326736",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "머니투데이"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-057",
+      "title": "급등락 반복하는 K-증시…“공격적 베팅보다 분할 매수 대응해야” [이런국장 저런주식]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597052",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "서울경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-058",
+      "title": "‘안전제일’ 버린 실버개미의 대반전… 70대 퇴직연금 수익률 58% 비결",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/023/0003963302",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "조선일보"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-059",
+      "title": "DS투자 \"이란 보복능력 훼손…불확실성 프리미엄 오래 안 간다\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945975",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-060",
+      "title": "유가 급등 지속…전쟁 장기화 우려↑[굿모닝 글로벌 이슈]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/215/0001244351",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한국경제TV"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-061",
+      "title": "\"폭락장이 기회\"…사흘 만에 1.3조 불어난 '마통'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/057/0001938844",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "MBN"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-062",
+      "title": "[마켓PRO] Today's Pick : \"'유가 100달러' 소식에 이차전지주 오를 이유\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/015/0005259667",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한국경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-063",
+      "title": "iM증권 \"전쟁으로 주춤해도 반도체 이익상향 사이클 안 끝나\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945963",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-064",
+      "title": "중동 긴장감에 방산주 고공행진…한화그룹 시총 '180.6조', 4위 등극",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/417/0001133169",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "동행미디어 시대"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-065",
+      "title": "RISE 삼성전자SK하이닉스채권혼합50 ETF, 순자산 3000억 돌파",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230618",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-066",
+      "title": "[속보]다시 온 국제유가 100달러 시대",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/050/0000103307",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한경비즈니스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-067",
+      "title": "“유가 급등 수혜, 이차전지에도 퍼진다”…에코프로비엠 목표가↑ [줍줍 리포트]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597044",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "서울경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-068",
+      "title": "DKME \"경영권 분쟁 종식 거래재개 청신호\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731114",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "아시아경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-069",
+      "title": "금값, 5120달러대 '뚝'…이란전으로 유가급등·인플레 우려↑",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230609",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-070",
+      "title": "비트코인, 9800만원선 턱걸이…유가 급등에 투심 '와르르'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013808976",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "뉴시스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-071",
+      "title": "'자산 2조' 빗장 풀린 제약바이오 이사회… '몰빵 투표' 공포에 거물급 방패 세우...",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230602",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-072",
+      "title": "\"제2의 렉라자 목표\"…'30인 드림팀' 카나프테라퓨틱스의 글로벌 도전장",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230601",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-073",
+      "title": "[유가 100달러]호르무즈 봉쇄에 해운 ‘운임 쇼크’ 현실화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005488004",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-074",
+      "title": "[투자자 순매수 TOP5] 개인 반도체 매수, 외인은 조선·금융 이동",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496550",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "SBS Biz"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-075",
+      "title": "증시 변동성 커지는데…'빚투' 금액 연일 사상 최대치",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/002/0002430814",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "프레시안"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-076",
+      "title": "삼성SDI, ‘피지컬 AI용’ 전고체 배터리 첫 공개…“AI 시대 정조준”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610257",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-077",
+      "title": "이란사태, 제2의 러·우전쟁인가…경기 침체 가능성↑",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731093",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "아시아경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-078",
+      "title": "“이번 주 1,500원 분수령”…'고유가·강달러'에 원화 흔들",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/215/0001244344",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "한국경제TV"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-079",
+      "title": "[어제장 오늘장] 엔비디아 베라 루빈, 삼성·SK HBM4 들어간다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496548",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "SBS Biz"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-080",
+      "title": "코스피, 급락 뒤 반등 나왔지만…”V자보다 W자 재시험 열어둬야”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230593",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-081",
+      "title": "\"덕산네오룩스, 프라이버시 디스플레이 수혜…비중 확대 추천\"[클릭 e종목]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731087",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "아시아경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-082",
+      "title": "리가켐바이오, 1년새 항체 도입 6개…항체 강화 하는 이유",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230585",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-083",
+      "title": "루닛·뷰노·코어라인 상장 후 지속된 시장조달…자생력 갖추려면",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230583",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-084",
+      "title": "[기업이슈] 에스팀, 코스닥 상장 첫날 공모가 대비 4배 '따따블'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496547",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "SBS Biz"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-085",
+      "title": "유가 100달러 돌파에 얼어붙은 프리마켓…삼전·하닉 7%대 약세 [코주부]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597033",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "서울경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-086",
+      "title": "중동 사태 확전 양상에 유가 100달러 돌파…시장 경계감 고조[채권브리핑]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230578",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-087",
+      "title": "“이란 사태 우려 지속에 호르무즈 해협 봉쇄 장기화…우회 육상 수송 가능성 주목”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/366/0001146778",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "조선비즈"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-088",
+      "title": "이란 차기 최고지도자, 하메네이 차남 '모즈타바' 선출[뉴스새벽배송]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230575",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-089",
+      "title": "삼성SDI, 인터배터리2026서 피지컬 AI용 전고체 배터리 첫 공개",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945925",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-090",
+      "title": "기름값 2천 원 눈앞, 값싼 곳 찾아 '주유런'…\"화물차, 반만 주유\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/448/0000595220",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "TV조선"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-091",
+      "title": "[굿모닝 마켓] 10월 후 최악의 한 주 보낸 뉴욕증시…다우 3% 급락",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496545",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "SBS Biz"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-101-092",
+      "title": "삼성 파운드리, 인재 확보 총력전…5년 만의 '흑자 전환' 노린다[칩톡]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731066",
+        "published_date": "2026-03-09",
+        "section": "경제",
+        "section_id": 101,
+        "press": "아시아경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-093",
+      "title": "강원 흐리고 눈 또는 비…\"일교차 커 건강관리 주의\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945829",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-094",
+      "title": "법원 \"개인적 선호로 여권 영문 표기 변경 불가\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/052/0002324478",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "YTN"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-095",
+      "title": "\"지인 집에서 붙잡혀\"...이재룡, 음주운전 사고 전후 어디에",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230524",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "이데일리"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-096",
+      "title": "'4개월 아기 학대 사망' 공분 확산…엄벌 탄원 900여건",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/654/0000169525",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "강원도민일보"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-097",
+      "title": "출석일시 잘못 기재된 소환장 송달…대법 \"절차 위반, 다시 재판\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008812401",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴스1"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-098",
+      "title": "대법 \"스파오 넘기며 대금 회수 지연·이자 면제…이랜드 부당지원\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813403",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴스1"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-099",
+      "title": "\"그 옷, 병사의 성적호기심 자극한다\" 성희롱 군무원…법원 \"해임은 과도한 징계\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/082/0001369809",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "부산일보"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-100",
+      "title": "서울시, 배달·소상공인 전기이륜차 구매 부담 낮춘다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230281",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "이데일리"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-101",
+      "title": "동급생 놀리고 동급생 엄마까지 폭행한 중학생…법원, 가해학생 부모에게 “손해배상하라”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646730",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "매일경제"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-102",
+      "title": "‘BTS 특수 노린 바가지 영업?’…서울시, 법규 위반 숙박업소 무더기 적발",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004596798",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "서울경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-103",
+      "title": "풀려버린 눈, 비틀대는 걸음…작년 하반기에만 마약사범 6648명 검거 [세상&]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610268",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-104",
+      "title": "'모텔 연쇄살인' 여성, 범행 뒤 '치킨 13만원어치' 가져간 이유는",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230616",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "이데일리"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-105",
+      "title": "중부지방 곳곳 비·눈…북서풍에 낮에도 '쌀쌀', 미세먼지 유입",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945956",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-106",
+      "title": "사우나서 男 6명 '집단 음란행위'…도망치다 잡힌 50대 경찰",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/088/0001000022",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "매일신문"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-107",
+      "title": "이재룡 \"음주 상태 아니었다\"… 면허취소 상태였는데 혐의 부인",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/015/0005259660",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "한국경제"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-109",
+      "title": "“사고 당시 음주 상태 아니었다”… 이재룡, 경찰 진술",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/005/0001835985",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "국민일보"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-110",
+      "title": "중부지방 비나 눈…수도권·강원영서 미세먼지 '나쁨'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013808970",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴시스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-111",
+      "title": "\"사이즈가 어떻게 되시죠?\"…면접 탈락자에게 온 연락 \"펑펑 울었다\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731086",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "아시아경제"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-112",
+      "title": "70만원 받고 '보복 대행' 테러한 동탄 20대女 구속",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487999",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-113",
+      "title": "“내 여권 이름 LEE에서 YI로 바꿔달라”...법원 “불편 있어야 변경 가능”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597031",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "서울경제"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-114",
+      "title": "몰래 대출받아 '코인 빚투' 한 남편, 적반하장 태도에 아내 분통 [어떻게 생각하세요]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487994",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-115",
+      "title": "\"월급 120만 원 깎인 셈\"…화물차 기사들 '비명'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/055/0001338666",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "SBS"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-116",
+      "title": "사라지는 유교 가치관…‘부모 부양 자식 책임’ 20%에 그쳐",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/666/0000098498",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "경기일보"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-117",
+      "title": "여권 영문명 성 ‘LEE 아닌 YI’?…법원 “개인 선호 이유 변경 불가”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003431972",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "경향신문"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-118",
+      "title": "오늘 구름 많고 일교차 커‥ 일부 비 또는 눈",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/657/0000049024",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "대구MBC"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-119",
+      "title": "이랜드 공정위 과징금 ‘41억 중 26억 취소’ 대법 확정",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597029",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "서울경제"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-120",
+      "title": "\"더 단단한 걸음으로\"…면접 탈락자에 구두 보내준 회사, 취준생은 울었다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813521",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴스1"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-121",
+      "title": "[박상욱의 기후 1.5] 돈으로 살펴보는 에너지전환의 흐름",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/437/0000481962",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "JTBC"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-122",
+      "title": "트럼프의  ‘장대한 분노’, ‘환경 재앙’  버튼이었나",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003431971",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "경향신문"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-123",
+      "title": "청주 사직2구역 또 백지화…업무대행사 대표 5년째 도주",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013808939",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴시스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-124",
+      "title": "\"믿었는데\" 1억 원 챙겨 도주…드러난 충격 실체",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/055/0001338663",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "SBS"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-125",
+      "title": "\"당연히 해야 할 일을 했을 뿐\"…쉬는 날 상가 화재 진압한 소방관 부부 [고마워요, 공복]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487987",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-126",
+      "title": "윗층서 화분이 '뚝'…\"웃으면서 도망\" 범인 정체",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/055/0001338662",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "SBS"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-127",
+      "title": "\"아내 몸에서 피 철철 꿈\"….복권 1등 당첨",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013808935",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴시스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-128",
+      "title": "'포르쉐 추락' 사흘 만에 또… 용산서 '비틀비틀 벤틀리' 약물 운전 체포",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487986",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-129",
+      "title": "‘쾅쾅쾅’ 중앙분리대 들이받고 달아났다…이재룡 음주사고 CCTV 공개",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487985",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-130",
+      "title": "웰다잉을 묻다…원혜영 \"장례는 빈소 대신 추모식으로\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122344",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "노컷뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-131",
+      "title": "\"문자 받고 펑펑 울었다\"…면접 탈락자에 구두 선물한 '이 회사'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487984",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-132",
+      "title": "[지방 순삭]  비만치료제 끊으면 다시 찐다? … 요요의 본질은 '지방 기억하는 몸'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230541",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "이데일리"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-134",
+      "title": "결혼 1년차, 아내 몰래 빚투 해 '반토막'...\"이혼녀 될래?\" 뻔뻔한 남편",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/008/0005326964",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "머니투데이"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-135",
+      "title": "“돈보다 두려운 고립” 80세 이상 남성 자살률 가장 높아…평균 3.7배",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/029/0003014512",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "디지털타임스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-102-138",
+      "title": "[뉴스1 PICK] UAE 체류 한국인, 전세기 타고 무사 귀국 '따뜻한 가족 품으로'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813498",
+        "published_date": "2026-03-09",
+        "section": "사회",
+        "section_id": 102,
+        "press": "뉴스1"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-139",
+      "title": "'왕과 사는 남자' 흥행 계속…1,100만 관객 돌파",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/055/0001338671",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "SBS"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-140",
+      "title": "2026년 3월 8일 띠별 운세[오늘의 운세]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/030/0003405214",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "전자신문"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-141",
+      "title": "리가켐바이오, 차세대 항암제 ADC, 빅파마에 잇단 수출",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646816",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "매일경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-142",
+      "title": "천만이 다시 깨운 ‘단종의 시간’…허민 청장 “문화유산 현장으로 여운 잇겠다”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610111",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-143",
+      "title": "두꺼운 전공책 대신 태블릿…대학교재 e북 매출 비중 4년새 4배",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015944405",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-144",
+      "title": "넥센타이어, 기아 '셀토스' 신차용 타이어 공급…SUV 라인업 강화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731040",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "아시아경제"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-145",
+      "title": "내일 중부지방 눈·비…초미세먼지 ‘나쁨’[뉴스9 날씨]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/056/0012137553",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "KBS"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-147",
+      "title": "제주 백성 굶어 죽어갈 때 왕의 비상금 받아낸 양헌수 장군",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/047/0002507238",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "오마이뉴스"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-148",
+      "title": "‘가슴 통증’ 매운 음식 탓인 줄 알았는데…생존률 12% 심장마비였다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/081/0003623999",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "서울신문"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-149",
+      "title": "영월의 단종, 영주의 금성대군…50㎞ 거리 둘은 결국 못 만났다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/353/0000054796",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "중앙SUNDAY"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-150",
+      "title": "[날씨] 예년보다 쌀쌀, 중부 비·눈…공기질 탁해",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/422/0000841811",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "연합뉴스TV"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-151",
+      "title": "뇌종양 환자가 가르쳐준, 입원을 책임지는 자리",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/296/0000098317",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "코메디닷컴"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-152",
+      "title": "‘버터런’ 아시나요…“생크림 들고 뛰면 버터가 생겨요”[트렌디깅]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702353",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "동아일보"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-153",
+      "title": "[음식기행] '절밥', 웰빙 K푸드의 본보기가 되다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945914",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-154",
+      "title": "[날씨] 전국 초미세먼지 나빠져‥중부 곳곳 약한 비·눈",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/214/0001484797",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "MBC"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-155",
+      "title": "[출근길 YTN 날씨 3/9] 오늘 중부 중심 비·눈...오전부터 중서부 초미세↑",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/052/0002324465",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "YTN"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-156",
+      "title": "링컨이 감탄한 '천혜의 요새' 한국인 최초로 오르다 [미국 동부 메릴랜드 하이츠]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/094/0000013354",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "월간 산"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-157",
+      "title": "[날씨] 중부 곳곳 비나 눈…중서부 초미세먼지 '나쁨'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/422/0000841806",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "연합뉴스TV"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-158",
+      "title": "\"부모 부양은 자식 몫\"…한국인 절반이 '반대' 눌렀다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/660/0000104868",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "kbc광주방송"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-159",
+      "title": "“그돈에 왜? 쏘렌토·팰리 사는데” 깔봐서 미안…‘멋진 남편·아빠’ 소리 듣겠네 [카슐랭]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647014",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "매일경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-160",
+      "title": "[그 영화 어때] 일파만파 티모시 샬라메 망언과 영화 ‘극장의 시간들’",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/023/0003963289",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "조선일보"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-161",
+      "title": "“근육 증진에 도움” 황재균, 매일 10개 먹는다는 ‘이것’… 뭘까?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/346/0000105859",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "헬스조선"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-162",
+      "title": "‘아시나요’ 1919년 최고 잘 나갔지만 역사적으로 묻힌 기업가 이야기",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/243/0000094131",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "이코노미스트"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-163",
+      "title": "“봄이라 졸린 줄”…3주 넘는 피로, 질병 신호일 수도",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702350",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "동아일보"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-164",
+      "title": "개정 상법에 '경영권' 고민 빠진 제약·바이오…코스닥 동전주는 이중고",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813443",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "뉴스1"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-165",
+      "title": "사표 던지고 1000만 쐈다…'왕과 사는 남자' 임은정 대표[문화人터뷰]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731026",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "아시아경제"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-166",
+      "title": "[날씨] 오늘도 큰 추위 없어...오전∼낮 중부 곳곳 비·눈",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/052/0002324457",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "YTN"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-167",
+      "title": "“바지 종아리 헐거워졌다면 위험”…잠들기 전 ‘단백질’ 1스푼의 반전",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/022/0004111202",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "세계일보"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-168",
+      "title": "[날씨클릭] 중부지방 비나 눈…예년 이맘때보다 쌀쌀",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/422/0000841790",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "연합뉴스TV"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-169",
+      "title": "영양제 많이 먹어도 살찌려나? ‘이 영양제’는 주의",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/346/0000105858",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "헬스조선"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-170",
+      "title": "아프면 병원 대신 AI부터…‘정말 괜찮을까?’",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/056/0012137636",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "KBS"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-171",
+      "title": "'아침 최저 -4도' 기온 뚝·중부지방 비나 눈…환절기 감기 예방하는 법 [오늘 날씨]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/119/0003066576",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "데일리안"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-172",
+      "title": "인도 점성술 ‘베딕’으로 보는 [주간 별자리 운세]…3월 둘째 주",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/145/0000023328",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "레이디경향"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-173",
+      "title": "‘공복에 들기름 한 스푼’, 몸에 정말 좋은지 의사에게 물어보니",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/346/0000105857",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "헬스조선"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-174",
+      "title": "'바이오 소부장' 큐리오시스, 독보적 기술력으로 글로벌 공략 [문대현의 메디뷰]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813395",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "뉴스1"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-175",
+      "title": "[날씨] 오늘 중부 중심 눈,비…당분간 아침 영하권 추위",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/422/0000841760",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "연합뉴스TV"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-176",
+      "title": "“피부·관절 지키는 콜라겐”… ‘이 음료’ 마시면 보충할 수 있다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/346/0000105856",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "헬스조선"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-177",
+      "title": "살 빼려고 고강도 운동·고단백 식단…젊은 콩팥이 위험하다 [Health&]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507673",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "중앙일보"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-178",
+      "title": "\"무슨 얘기 했더라\" 무심코 넘긴 건망증…수년 뒤 '간병 파산' [Health&]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507668",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "중앙일보"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-179",
+      "title": "\"잠 충분히 잤는데도 피곤하네\"…심장이 보내는 'SOS 신호' [Health&]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507672",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "중앙일보"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-180",
+      "title": "고혈압 관리 첫걸음은 아침·저녁 2회 혈압 측정 [Health&]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507666",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "중앙일보"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-181",
+      "title": "\"지금 바퀴벌레 잡아줘\"…황당 민원에 아이돌도 '깜짝'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005487956",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-103-182",
+      "title": "중동 사태가 주는 경고…기름값 등 높아지는 물가 상승 압력",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/079/0004122337",
+        "published_date": "2026-03-09",
+        "section": "생활문화",
+        "section_id": 103,
+        "press": "노컷뉴스"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-184",
+      "title": "이란 혁명수비대 “모즈타바 지지… 명령에 완전 복종”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/005/0001835984",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "국민일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-185",
+      "title": "트럼프, 중남미 17곳과 ‘미주의 방패’ 띄워… “마약 카르텔 공동대응”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/020/0003702304",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "동아일보"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-186",
+      "title": "'이란 고농축 우라늄 확보'…미·이스라엘 특수부대 투입 고려",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/057/0001938782",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "MBN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-187",
+      "title": "우주가 빚은 사케 100㎖에 9억원",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646945",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "매일경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-188",
+      "title": "국제 유가, 배럴당 100달러 돌파",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/366/0001146775",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "조선비즈"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-189",
+      "title": "트럼프, 이란 특수부대 투입에 “모든 것 테이블 위에 있어”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646994",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "매일경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-190",
+      "title": "'Z세대 시위' 이끌던 래퍼 출신 35살 前시장, 네팔 총리 된다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813140",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "뉴스1"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-191",
+      "title": "“‘기름비’ 내리고 독성가스 퍼져”…암흑으로 변한 테헤란",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230642",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "이데일리"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-192",
+      "title": "“트럼프, 비상사태로 11월 중간선거 미룰 수도”…美 역사학자 '독재 우려' 경고",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/030/0003405364",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "전자신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-193",
+      "title": "WTI·브렌트유 배럴당 100달러 돌파…트럼프 \"이란 핵 위협 제거 시 급락\"(종합)",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/629/0000479119",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "더팩트"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-194",
+      "title": "이란 외무장관 “미국과 끝까지 싸운다”…영구 종전 前까지 전면전 선언",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/030/0003405363",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "전자신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-195",
+      "title": "“美·이스라엘, 특수부대 투입해 이란 고농축우라늄 회수 검토”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610266",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-196",
+      "title": "이란은 왜 '세습 오명' 하메네이 차남을 선택했나?...\"순교자의 아들\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/052/0002324489",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "YTN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-197",
+      "title": "왕정 몰아낸 혁명 정신, 이란 '부자 세습' 먹칠... 모즈타바 등극",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/014/0005488010",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "파이낸셜뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-198",
+      "title": "국제유가 배럴당 100달러 돌파…“긴장완화 없으면 150달러 갈 수도”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/029/0003014532",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "디지털타임스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-199",
+      "title": "\"1억명 목숨 달렸다\"…걸프 담수화 시설 파괴되면 벌어질 일",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731103",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "아시아경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-200",
+      "title": "이란 외무장관 “새 지도자 선택은 이란 국민의 일”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003431976",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "경향신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-201",
+      "title": "'美반대' 하메네이 내세운 이란…'항전' 강경노선 이어갈듯",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/015/0005259656",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "한국경제"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-202",
+      "title": "트럼프, 쿠바와 경제 협상 추진…군사 대신 '딜'로 압박",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230580",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-203",
+      "title": "UAE 등 산유국 잇달아 감산…WTI 20% 폭등, 108달러 돌파",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/421/0008813543",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "뉴스1"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-205",
+      "title": "모즈타바, '순교자의 아들' 프레임으로 대미항전… 세습 핸디캡 극복 전망",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/658/0000137306",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "국제신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-206",
+      "title": "국제유가 결국 배럴당 100달러 돌파…2022년 7월 후 처음(종합)",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945921",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-207",
+      "title": "그림자 실세서 이란 새 최고지도자로, 모즈타바는 누구?",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230565",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "이데일리"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-210",
+      "title": "이란, '하메네이 시대' 연장...세습 지도자 체제 공식화",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/437/0000481963",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "JTBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-211",
+      "title": "미군, 이란 핵시설 공습...트럼프 \"특수부대 투입 검토 중\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/052/0002324473",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "YTN"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-212",
+      "title": "'대통령 사과' 끝나기 무섭게 '쾅'…심상찮은 이란 내부",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/437/0000481961",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "JTBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-213",
+      "title": "이란 혁명수비대, 모즈타바에 \"충성\" 맹세…지도부 결사옹위",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945895",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-214",
+      "title": "모즈타바 하메네이는 누구…강경 신정 체제 계승-美에 저항 신호",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013808936",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "뉴시스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-215",
+      "title": "\"하메네이 후계자로 차남 선출\"…트럼프 \"미 승인 없인 못 버텨\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/437/0000481960",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "JTBC"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-216",
+      "title": "트럼프 “유권자 신분증 법안 통과전 다른 법안 서명 안 하겠다” [1일1트]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610236",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-217",
+      "title": "국제유가 배럴당 100달러 돌파했다…기름값 어쩌나",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/022/0004111208",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "세계일보"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-219",
+      "title": "이란 혁명수비대 \"모즈타바 선출 지지…명령에 완전 복종\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/003/0013808929",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "뉴시스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-220",
+      "title": "미 학자 \"트럼프, 비상사태 선언하며 중간선거 중단할까 우려돼\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/057/0001938826",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "MBN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-221",
+      "title": "막후 실세에서 최고지도자로···모즈타바 하메네이는 누구",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/032/0003431967",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "경향신문"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-222",
+      "title": "트럼프 \"용납 못한다\" 했는데...최악으로 치닫는 이란 결정 [지금이뉴스]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/052/0002324469",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "YTN"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-223",
+      "title": "‘강경파 장악’ 이란, 하메네이 아들 선택…트럼프 ‘출구전략’ 차질 예상",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647017",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "매일경제"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-225",
+      "title": "트럼프가 \"용납못한다\"던 모즈타바 승계…美-이란전쟁 장기화하나",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945879",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-104-226",
+      "title": "특수부대 투입 검토…이란 새 지도자 하메네이 차남",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/422/0000841808",
+        "published_date": "2026-03-09",
+        "section": "세계",
+        "section_id": 104,
+        "press": "연합뉴스TV"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-227",
+      "title": "LG유플러스, 퓨리오사AI와 기업용 소버린 AI 인프라 개발",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/366/0001146673",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "조선비즈"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-229",
+      "title": "구글 CEO, 3년간 최대 1조원대 보상받는다…웨이모·윙 첫 포함 [1일1트]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/016/0002610204",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "헤럴드경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-230",
+      "title": "'인간 유일 1승' 이세돌, '알파고 대국장'서 AI와  재승부",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/661/0000072524",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "JIBS"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-231",
+      "title": "“큰 돈 주고 샀는데 고장나면 큰 일”…스마트폰·노트북 비싸진 만큼 보험료도 ‘껑충’",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005646747",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "매일경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-232",
+      "title": "파로스아이바이오, 글로벌 빅파마 몰리는 ‘바이오 차이나 2026’ 무대 선다… IR 피칭 기업 선정",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/015/0005259669",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "한국경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-233",
+      "title": "MWC 주인공도 ‘AI’… 통신업계 “AI 기업으로 간다” 한목소리",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/005/0001835905",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "국민일보"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-234",
+      "title": "SKB, 현대차 블루핸즈 매장에 '디지털 사이니지' 구축",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/008/0005326995",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "머니투데이"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-235",
+      "title": "OLED·터치 탑재 맥북 나온다…\"명칭은 맥북 울트라\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/092/0002413366",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "지디넷코리아"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-236",
+      "title": "삼성SDI, 로봇 특화 '파우치 전고체' 배터리 공개한다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/092/0002413362",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "지디넷코리아"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-237",
+      "title": "임박한 정기 주총 시즌…연임하는 게임업계 대표들",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/031/0001011352",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "아이뉴스24"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-238",
+      "title": "[단독]\"최대규모 데이터팩토리\"…로보티즈, 中 1위 보다 크게 만든다",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/277/0005731128",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "아시아경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-239",
+      "title": "중국 상무부 “넥스페리아 분쟁, 글로벌 반도체 대란 재발 가능성 경고”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/138/0002219898",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "디지털데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-240",
+      "title": "“맥 미니 M5, 더 기다려야” 애플, 하반기 데스크톱 라인업 재편",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/138/0002219897",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "디지털데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-241",
+      "title": "알파벳, 구글 CEO 피차이에 3년간 최대 1조원대 보상 패키지",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/031/0001011348",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "아이뉴스24"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-242",
+      "title": "밤에 더 아픈 어깨 통증 ‘오십견’, 억지로 움직여도 괜찮을까",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/029/0003014527",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "디지털타임스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-243",
+      "title": "애플, 2026년 제품 로드맵 윤곽…\"맥·아이패드·스마트홈 대거 출시\"[모닝폰]",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230594",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-244",
+      "title": "“보급형은 미끼, 본체는 울트라” 애플, 폴더블·OLED 맥북으로 고가 시장 공습",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/138/0002219895",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "디지털데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-245",
+      "title": "‘맥북 네오’ 후속 모델부터 터치스크린 적용",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/092/0002413355",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "지디넷코리아"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-246",
+      "title": "폐암 KRAS 변이 항암제 내성 원인 찾았다…\"미토콘드리아 반응 차이\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/422/0000841816",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "연합뉴스TV"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-247",
+      "title": "스카이랩스, 높아진 거래소 문턱 넘을까...주목할 포인트는",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230573",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-248",
+      "title": "전기차 ‘주행거리 약점’ 넘는다…활물질 99% LFP 배터리 전극 개발",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230557",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "이데일리"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-249",
+      "title": "美 스타클라우드, 역사상 첫 저궤도위성서 비트코인 채굴 시도",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/018/0006230540",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "이데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-250",
+      "title": "[게임 탐구생활]'구경만 하는' 방치형 게임 뜨는 이유",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/648/0000045056",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "비즈워치"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-251",
+      "title": "中 반도체 업계 \"노광 장비 5년 안에 독자 개발해야\" 촉구",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/031/0001011339",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "아이뉴스24"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-252",
+      "title": "인간 유일 '알파고 1승' 이세돌, 10년 만에 AI와 한 무대",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/015/0005259642",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "한국경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-253",
+      "title": "직장인 절반 “월급만으로 생계·노후 대비 어렵다”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597024",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "서울경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-254",
+      "title": "WGBI 편입에 최대 104조 유입 전망…“다음 투자처는 한국 국채”",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597022",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "서울경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-255",
+      "title": "리뷰·매출로 대출 심사…소상공인 ‘새 신용평가’ 도입",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597021",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "서울경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-258",
+      "title": "폐암 KRAS 변이 항암제 내성 원인은…\"미토콘드리아 반응 차이\"",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945867",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-259",
+      "title": "삼성 TV ‘20년 천하’ 신기원…턱밑 추격 중국에 ‘초격차’ 승부수",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/243/0000094133",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "이코노미스트"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-260",
+      "title": "하이닉스 광풍에 ‘돈 길’ 찾은 티맵까지… 포트폴리오 잭팟 터진 SK스퀘어",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/243/0000094130",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "이코노미스트"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-261",
+      "title": "10년 전 바둑판서 잘 싸우는 기사였는데…지금은 전쟁판도 바꾸는 전사로",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/009/0005647009",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "매일경제"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-262",
+      "title": "[AI돋보기] \"AI가 좌표 찍으면 인간이 쏜다\"…현실화한 '알고리즘 전쟁'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/001/0015945824",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "연합뉴스"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-264",
+      "title": "알파고 대국 벌써 10년…이세돌, 오늘 같은 장소서 AI와 재대결",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/008/0005326951",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "머니투데이"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-266",
+      "title": "알파벳, 순다르 피차이에 약 1조원 보상 패키지…웨이모·윙 성과 연동",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/138/0002219890",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "디지털데일리"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-267",
+      "title": "[단독] 삼성전자 임금협상 결렬 후 책임 공방… 협상 과정 공개 ‘이례적’",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/366/0001146757",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "조선비즈"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-268",
+      "title": "좀비에 열광한다던데…서구권 방점 찍은 넥슨, 차세대 무기는 '낙원'",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/119/0003066565",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "데일리안"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
+    },
+    {
+      "id": "naver-20260309-105-269",
+      "title": "세계 최대 e스포츠 대회, 중동 불똥 우려",
+      "source": {
+        "name": "NaverNews",
+        "type": "news",
+        "url": "https://n.news.naver.com/mnews/article/008/0005326941",
+        "published_date": "2026-03-09",
+        "section": "IT과학",
+        "section_id": 105,
+        "press": "머니투데이"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "scan_count": 1
     }
   ],
   "metadata": {
-    "last_updated": "2026-02-28",
-    "total_signals": 197,
+    "last_updated": "2026-03-09T00:22:11.917135+00:00",
+    "total_signals": 753,
     "scan_count": 7,
     "workflow": "wf3-naver",
     "version": "3.0.0",
     "scan_theme": "설 명절의 모순 -- 제네바 핵 협상 진전과 군사 증강의 이중 트랙, 반도체 수출 사상 최대와 GDP 마이너스의 역설",
     "last_scan_date": "2026-02-27"
   },
-  "last_updated": "2026-03-05T14:35:00+00:00",
+  "last_updated": "2026-03-07T03:05:00Z",
   "total_signals": 212,
   "scan_history": [
     {
@@ -7890,5 +13253,6 @@
       "new_signals": 15,
       "total_after": 212
     }
-  ]
+  ],
+  "total_count": 502
 }

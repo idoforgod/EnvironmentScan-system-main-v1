@@ -240,5 +240,123 @@
     "alternate_feeds": [],
     "error": null,
     "cached_at": "2026-03-06T06:54:44.528326+00:00"
+  },
+  "https://yaleclimateconnections.org/feed/": {
+    "resolved_url": "https://yaleclimateconnections.org/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-07T01:07:13.036359+00:00"
+  },
+  "https://cepr.org/rss/vox-content": {
+    "resolved_url": "https://cepr.org/rss/vox-content",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-07T01:07:14.779247+00:00"
+  },
+  "https://geneticliteracyproject.org/feed/": {
+    "resolved_url": "https://geneticliteracyproject.org/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-07T01:07:18.325494+00:00"
+  },
+  "https://positivepsychologynews.com/feed/": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-07T01:07:21.860184+00:00"
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=emerging+technology+OR+public+health+trend&format=xml": {
+    "resolved_url": null,
+    "status": "html_no_feed",
+    "redirect_chain": [],
+    "content_type": "text/html; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:17.760694+00:00"
+  },
+  "https://www.nature.com/nature.rss": {
+    "resolved_url": "https://www.nature.com/nature.rss",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:18.246097+00:00"
+  },
+  "https://www.science.org/rss/news_current.xml": {
+    "resolved_url": "https://www.science.org/rss/news_current.xml",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/xml;charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:18.603765+00:00"
+  },
+  "https://www.quantamagazine.org/biology/feed": {
+    "resolved_url": "https://www.quantamagazine.org/biology/feed/",
+    "status": "rss_found",
+    "redirect_chain": [
+      "https://www.quantamagazine.org/biology/feed",
+      "https://www.quantamagazine.org/biology/feed/"
+    ],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:20.588833+00:00"
+  },
+  "https://spectrum.ieee.org/feeds/feed.rss": {
+    "resolved_url": "https://spectrum.ieee.org/feeds/feed.rss",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=utf-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:20.911970+00:00"
+  },
+  "https://disruptafrica.com/feed/": {
+    "resolved_url": "https://disruptafrica.com/feed/",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/rss+xml; charset=UTF-8",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:39.021298+00:00"
+  },
+  "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml": {
+    "resolved_url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+    "status": "rss_found",
+    "redirect_chain": [],
+    "content_type": "application/xml",
+    "alternate_feeds": [],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:41.558066+00:00"
+  },
+  "https://theconversation.com/us/topics/ethics-6/articles.atom": {
+    "resolved_url": "https://theconversation.com/topics/leukemia-6/articles.atom",
+    "status": "html_with_alternate",
+    "redirect_chain": [
+      "https://theconversation.com/us/topics/ethics-6/articles.atom",
+      "http://theconversation.com/topics/ethics-6/articles.atom",
+      "https://theconversation.com/topics/ethics-6/articles.atom",
+      "https://theconversation.com/topics/leukemia-6"
+    ],
+    "content_type": "text/html; charset=utf-8",
+    "alternate_feeds": [
+      "https://theconversation.com/topics/leukemia-6/articles.atom"
+    ],
+    "error": null,
+    "cached_at": "2026-03-08T22:38:44.714075+00:00"
   }
 }

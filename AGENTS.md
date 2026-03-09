@@ -124,11 +124,15 @@ Every report must pass through all defense layers:
 |-------|------|-----------|
 | L1 | Skeleton-Fill | Fill template, not free-form |
 | L2a | Structural Validation | `env-scanning/scripts/validate_report.py` (15–20 checks, profile-dependent) |
-| L2b | Cross-Reference Quality | `env-scanning/scripts/validate_report_quality.py` (13 QC checks) |
+| L2b | Cross-Reference Quality | `env-scanning/scripts/validate_report_quality.py` (14 QC checks) |
 | L3 | Semantic Depth Review | `quality-reviewer.md` LLM sub-agent (3-pass review) |
 | L4 | Golden Reference | 9-field signal example anchors completeness |
 
 Progressive Retry applies when any layer fails: targeted fix → full regen → human escalation (max 2 retries).
+
+**Completion Gate (v3.2.0)**: Master Gate M4 — final deliverables completeness verification. Runs AFTER all reports are generated, BEFORE finalization. Cannot be skipped even in autopilot mode.
+- M4: `validate_completion.py` (9 checks, CG-001~009: EN/KO reports exist, no PLACEHOLDERs, timeline map, KO ratio ≥30%, archives, no skeleton headers)
+- On FAIL: HALT_AND_REMEDIATE (invoke translation-agent, re-fill skeletons, re-run timeline map)
 
 **Timeline Map Quality Defense (v3.1.0)**: The Timeline Map receives full L2a+L2b+L3 quality parity:
 - L2a: `validate_timeline_map.py` (18 structural checks, TL-001~018)
@@ -273,7 +277,7 @@ Phase 3: Implementation
 
 - Every generated report MUST pass all quality defense layers (L2a → L2b → L3) BEFORE human review
 - L2a: `validate_report.py` structural validation (15–20 checks)
-- L2b: `validate_report_quality.py` cross-reference quality (13 QC checks)
+- L2b: `validate_report_quality.py` cross-reference quality (14 QC checks)
 - L3: `quality-reviewer.md` semantic depth review (LLM sub-agent)
 - On CRITICAL validation failure: retry up to 2 times with progressive escalation
 - Reports with unfilled `{{PLACEHOLDER}}` tokens are ALWAYS rejected
@@ -288,7 +292,7 @@ Phase 3: Implementation
 ```
 env-scanning/
 ├── config/          ← All configuration files (SOT, sources, thresholds)
-├── core/            ← Python modules (33 modules)
+├── core/            ← Python modules (36 modules)
 ├── scripts/         ← Validation scripts
 ├── wf1-general/     ← WF1 data (raw/structured/filtered/analysis/signals/reports)
 │   ├── exploration/        ← Source exploration data (v2.5.0)

@@ -319,7 +319,11 @@ Errors:
 
 ---
 
-## Memory Optimization (Optional)
+## Memory Optimization (REQUIRED — RLM Pattern)
+
+> **MUST use SharedContextManager** when reading/writing shared context fields.
+> Loading all 9 fields when only 1-2 are needed wastes context window and introduces noise
+> that degrades LLM classification accuracy. Selective field loading is mandatory.
 
 ### Using SharedContextManager for Efficient Field Loading
 

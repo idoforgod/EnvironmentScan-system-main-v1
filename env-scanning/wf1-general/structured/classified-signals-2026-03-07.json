@@ -1,0 +1,673 @@
+{
+  "scan_date": "2026-03-07",
+  "workflow": "wf1-general",
+  "generated_at": "2026-03-07T00:46:38+00:00",
+  "signals": [
+    {
+      "id": "wf1-20260307-001",
+      "title": "Pace of global warming has nearly doubled since 2015 — acceleration confirmed",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "science_journalism",
+        "url": "https://www.carbonbrief.org/"
+      },
+      "published": "2026-03-06T14:22:49+00:00",
+      "steeps_category": "E_Environmental",
+      "signal_type": "Discontinuity",
+      "status": "developing",
+      "innovative_capacity": 4.2,
+      "psst_dimensions": {
+        "ES": 88,
+        "CC": 85
+      },
+      "summary": "New study confirms global warming pace has almost doubled since 2015, driven by compound heat-drought extremes. Heatwaves surging compound drought events. Acceleration exceeds prior IPCC models.",
+      "keywords": [
+        "global warming",
+        "climate acceleration",
+        "heatwave",
+        "drought"
+      ],
+      "significance": "critical"
+    },
+    {
+      "id": "wf1-20260307-002",
+      "title": "Middle East War Day 7 — UN warns world economy at grave risk; situation could spiral",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/"
+      },
+      "published": "2026-03-06T12:00:00+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Wild Card",
+      "status": "developing",
+      "innovative_capacity": 3.0,
+      "psst_dimensions": {
+        "ES": 92,
+        "CC": 80
+      },
+      "summary": "Day 7 of Middle East war. UN Secretary-General warns of grave risk to world economy. Satellite imagery of Iran attacks paused. Oil and chip supply chains under severe stress.",
+      "keywords": [
+        "Middle East war",
+        "Iran",
+        "UN",
+        "global economy",
+        "geopolitical risk"
+      ],
+      "significance": "critical"
+    },
+    {
+      "id": "wf1-20260307-003",
+      "title": "Iran war threatens global chip supplies and AI expansion",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T09:00:00+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.5,
+      "psst_dimensions": {
+        "ES": 87,
+        "CC": 82
+      },
+      "summary": "Middle East conflict putting global chip supplies at risk. Energy infrastructure critical to semiconductor fabs threatened. AI expansion plans globally contingent on stable chip supply.",
+      "keywords": [
+        "Iran war",
+        "chip supply",
+        "semiconductor",
+        "AI expansion"
+      ],
+      "significance": "critical"
+    },
+    {
+      "id": "wf1-20260307-004",
+      "title": "Anthropic Pentagon deal collapse — AI safety vs defense procurement crossroads",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T18:09:11+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Discontinuity",
+      "status": "emerging",
+      "innovative_capacity": 4.0,
+      "psst_dimensions": {
+        "ES": 82,
+        "CC": 78
+      },
+      "summary": "Anthropic Pentagon deal labeled as defense supply chain contractor, triggering backlash and legal challenge. Microsoft, Google, Amazon clarify Claude remains available to non-defense customers.",
+      "keywords": [
+        "Anthropic",
+        "Pentagon",
+        "AI safety",
+        "defense procurement",
+        "DOD"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-005",
+      "title": "China 15th Five-Year Plan — major climate change implications detailed",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "science_journalism",
+        "url": "https://www.carbonbrief.org/"
+      },
+      "published": "2026-03-06T15:56:05+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Driver",
+      "status": "emerging",
+      "innovative_capacity": 4.3,
+      "psst_dimensions": {
+        "ES": 85,
+        "CC": 80
+      },
+      "summary": "Analysis of China 15th Five-Year Plan for climate. Sets targets for renewable energy transition, carbon intensity reduction, and coal phase-out.",
+      "keywords": [
+        "China five-year plan",
+        "climate policy",
+        "renewables",
+        "carbon"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-006",
+      "title": "Global child social media ban wave — India, Indonesia, multiple countries restrict under-16s",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T16:00:56+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Emerging Issue",
+      "status": "developing",
+      "innovative_capacity": 3.8,
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 72
+      },
+      "summary": "Multiple countries simultaneously moving to ban social media for children under 16. India Karnataka, Indonesia outlining legislation. Follows Australia ban.",
+      "keywords": [
+        "social media ban",
+        "children",
+        "regulation",
+        "India",
+        "Indonesia"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-007",
+      "title": "Quantum computing commercialization — Pasqal plans $2B SPAC listing",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T13:44:18+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 4.5,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 74
+      },
+      "summary": "French quantum startup Pasqal plans $2B SPAC listing, promising national sovereignty. Signals quantum commercialization acceleration and European tech sovereignty push.",
+      "keywords": [
+        "Pasqal",
+        "quantum computing",
+        "SPAC",
+        "commercialization",
+        "Europe"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-008",
+      "title": "TerraPower nuclear reactor approved — advanced nuclear gets regulatory green light",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T19:47:40+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Precursor Event",
+      "status": "developing",
+      "innovative_capacity": 4.4,
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 76
+      },
+      "summary": "Bill Gates TerraPower receives regulatory approval to build new advanced nuclear reactor. Marks major milestone for 4th-generation nuclear power commercialization in US.",
+      "keywords": [
+        "TerraPower",
+        "nuclear reactor",
+        "Bill Gates",
+        "advanced nuclear",
+        "energy security"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-009",
+      "title": "Anthropic Claude finds 22 Firefox vulnerabilities — AI-powered security research enters production",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T19:00:22+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Precursor Event",
+      "status": "emerging",
+      "innovative_capacity": 4.6,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 70
+      },
+      "summary": "Anthropic Claude found 22 security vulnerabilities in Firefox over two weeks. First major real-world demonstration of LLM-driven autonomous security research at scale.",
+      "keywords": [
+        "Anthropic Claude",
+        "Firefox",
+        "AI security",
+        "autonomous research",
+        "cybersecurity"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-010",
+      "title": "Pentagon AI surveillance — can DoD legally surveil Americans with AI?",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/"
+      },
+      "published": "2026-03-06T19:21:22+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 3.6,
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 76
+      },
+      "summary": "MIT Technology Review investigates legality of Pentagon deploying AI to surveil American citizens. Raises constitutional questions about DoD domestic surveillance authorities as AI capabilities scale.",
+      "keywords": [
+        "Pentagon",
+        "AI surveillance",
+        "DoD",
+        "Fourth Amendment"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-011",
+      "title": "Iran internet freedom deteriorates — authoritarian digital control escalates during war",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T20:06:06+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.2,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 68
+      },
+      "summary": "Iran war creates new uncertainty for Iranian internet. Government likely to increase surveillance, filtering, and shutdowns. Deepening split between authoritarian and open internet globally.",
+      "keywords": [
+        "Iran",
+        "internet freedom",
+        "digital authoritarianism",
+        "surveillance"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-012",
+      "title": "AI companies race to war erodes safety commitments — structural governance failure",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T18:19:57+00:00",
+      "steeps_category": "s_spiritual",
+      "signal_type": "Emerging Issue",
+      "status": "developing",
+      "innovative_capacity": 4.0,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 72
+      },
+      "summary": "When AI companies compete for government contracts, safety principles get abandoned. Race dynamics force companies to deprioritize safety commitments. Structural problem for AI governance.",
+      "keywords": [
+        "AI safety",
+        "AI competition",
+        "race dynamics",
+        "governance",
+        "ethics"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-013",
+      "title": "Hacking security cameras normalized in warfare — Ukraine/Iran cyber-physical playbook",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/"
+      },
+      "published": "2026-03-06T11:30:00+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Precursor Event",
+      "status": "developing",
+      "innovative_capacity": 3.5,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 70
+      },
+      "summary": "Ukraine and Iran conflicts establishing hacking security cameras as standard warfare playbook. Cyber-physical attack integration normalizing. Critical infrastructure vulnerability escalating globally.",
+      "keywords": [
+        "cyber warfare",
+        "security cameras",
+        "Ukraine",
+        "Iran",
+        "hybrid warfare"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-014",
+      "title": "NASA Exploration Upper Stage cancelled — US deep space program restructuring",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T23:40:35+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Discontinuity",
+      "status": "developing",
+      "innovative_capacity": 3.8,
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 65
+      },
+      "summary": "NASA Exploration Upper Stage (EUS) cancelled. Deep space program restructuring. Gateway lunar station likely gone. SpaceX launch prices rising.",
+      "keywords": [
+        "NASA",
+        "space exploration",
+        "Artemis",
+        "EUS",
+        "lunar program"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-015",
+      "title": "Tech employment worse than 2008 or 2020 recessions — AI structural displacement confirmed",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/"
+      },
+      "published": "2026-03-06T17:46:45+00:00",
+      "steeps_category": "S_Social",
+      "signal_type": "Emerging Issue",
+      "status": "developing",
+      "innovative_capacity": 3.6,
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 74
+      },
+      "summary": "Tech employment data shows current downturn significantly worse than 2008 financial crisis or 2020 COVID recession. Structural displacement from AI and automation. Affects 2M+ tech workers.",
+      "keywords": [
+        "tech unemployment",
+        "AI displacement",
+        "labor market",
+        "structural unemployment"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-016",
+      "title": "Musk fails to block California AI transparency law — AI accountability legal precedent set",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T18:21:42+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Precursor Event",
+      "status": "emerging",
+      "innovative_capacity": 3.8,
+      "psst_dimensions": {
+        "ES": 72,
+        "CC": 68
+      },
+      "summary": "Musk fails in legal challenge to block California AI transparency law. xAI must comply with data disclosure requirements. Sets precedent for state-level AI accountability regulation.",
+      "keywords": [
+        "AI transparency",
+        "xAI",
+        "California regulation",
+        "Musk",
+        "AI governance"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-017",
+      "title": "India PC shipments surpass pandemic peak — emerging market digital inclusion accelerating",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T17:51:49+00:00",
+      "steeps_category": "S_Social",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.4,
+      "psst_dimensions": {
+        "ES": 70,
+        "CC": 65
+      },
+      "summary": "India PC shipments surpass pandemic peak, driven by first-time users upgrading from mobile-only. Signals accelerating digital inclusion wave across emerging markets.",
+      "keywords": [
+        "India PC",
+        "digital inclusion",
+        "emerging markets",
+        "first-time users"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-018",
+      "title": "Apple blocks ByteDance Chinese apps — US-China tech decoupling hardens",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T16:22:08+00:00",
+      "steeps_category": "P_Political",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.3,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 70
+      },
+      "summary": "Apple blocks ByteDance Chinese apps in US App Store. US-China tech decoupling continues to harden. Cultural and software market fragmentation accelerating.",
+      "keywords": [
+        "Apple",
+        "ByteDance",
+        "China",
+        "tech decoupling",
+        "US-China"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-019",
+      "title": "Tech industry in tariff hell — Nintendo sues US government for tariff refund",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/"
+      },
+      "published": "2026-03-06T12:20:40+00:00",
+      "steeps_category": "E_Economic",
+      "signal_type": "Driver",
+      "status": "developing",
+      "innovative_capacity": 3.2,
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 72
+      },
+      "summary": "Nintendo sues US government for tariff refund. Tech industry broadly in tariff crisis with costs being passed to consumers. Trade war impacts hardware supply chains.",
+      "keywords": [
+        "tariffs",
+        "tech industry",
+        "Nintendo",
+        "trade war",
+        "economic disruption"
+      ],
+      "significance": "high"
+    },
+    {
+      "id": "wf1-20260307-020",
+      "title": "Kenya Roam AI-enabled EV fleet monitoring — Africa electric mobility leapfrog",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "tech_news",
+        "url": "https://disruptafrica.com/"
+      },
+      "published": "2026-03-06T08:00:05+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 3.7,
+      "psst_dimensions": {
+        "ES": 66,
+        "CC": 62
+      },
+      "summary": "Kenya Roam launches first AI-enabled real-time monitoring tool for electric fleets across Africa. Signals leapfrog EV adoption in Africa.",
+      "keywords": [
+        "Kenya",
+        "electric vehicles",
+        "Africa",
+        "AI monitoring",
+        "EV fleet"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-021",
+      "title": "US LGBTQI+ child welfare protections rescinded — federal social policy reversal",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/"
+      },
+      "published": null,
+      "steeps_category": "S_Social",
+      "signal_type": "Discontinuity",
+      "status": "developing",
+      "innovative_capacity": 3.0,
+      "psst_dimensions": {
+        "ES": 72,
+        "CC": 68
+      },
+      "summary": "US rescission of LGBTQI+ placement protections under Titles IV-E and IV-B. Significant rollback of child welfare protections for LGBTQI+ youth in foster care.",
+      "keywords": [
+        "LGBTQI+",
+        "foster care",
+        "federal policy",
+        "child welfare"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-022",
+      "title": "ITC investigation on laptops/routers — hardware protectionism escalating",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/"
+      },
+      "published": null,
+      "steeps_category": "E_Economic",
+      "signal_type": "Precursor Event",
+      "status": "emerging",
+      "innovative_capacity": 3.0,
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 65
+      },
+      "summary": "ITC investigation launched for certain laptops, routers and gateways. Hardware protectionism escalating as US-China tech decoupling continues.",
+      "keywords": [
+        "ITC investigation",
+        "laptops",
+        "routers",
+        "hardware",
+        "trade protection"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-023",
+      "title": "Savage care — ethics of extreme caregiving in aging societies (Aeon)",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/"
+      },
+      "published": "2026-03-06T11:00:00+00:00",
+      "steeps_category": "s_spiritual",
+      "signal_type": "Weak Signal",
+      "status": "emerging",
+      "innovative_capacity": 3.5,
+      "psst_dimensions": {
+        "ES": 62,
+        "CC": 60
+      },
+      "summary": "Aeon essay explores ethical dimensions of extreme caregiving as populations age. Signals emerging moral philosophy crisis in aging societies.",
+      "keywords": [
+        "caregiving",
+        "aging society",
+        "ethics",
+        "human dignity",
+        "eldercare"
+      ],
+      "significance": "low"
+    },
+    {
+      "id": "wf1-20260307-024",
+      "title": "TriZetto healthcare breach — 3.4M patient records stolen",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/"
+      },
+      "published": "2026-03-06T14:28:31+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Precursor Event",
+      "status": "developing",
+      "innovative_capacity": 3.2,
+      "psst_dimensions": {
+        "ES": 74,
+        "CC": 70
+      },
+      "summary": "TriZetto confirms 3.4 million patient health and personal records stolen. Healthcare sector cybersecurity crisis deepening.",
+      "keywords": [
+        "TriZetto",
+        "healthcare breach",
+        "patient data",
+        "cybersecurity"
+      ],
+      "significance": "medium"
+    },
+    {
+      "id": "wf1-20260307-025",
+      "title": "Robot hand with artificial muscles — bioinspired robotics milestone",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/"
+      },
+      "published": "2026-03-06T16:00:05+00:00",
+      "steeps_category": "T_Technological",
+      "signal_type": "Emerging Issue",
+      "status": "emerging",
+      "innovative_capacity": 4.3,
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 65
+      },
+      "summary": "Robot hand with artificial muscles and tendons achieving human-like dexterity. Bioinspired robotics milestone with implications for prosthetics and physical AI agents.",
+      "keywords": [
+        "robot hand",
+        "artificial muscles",
+        "robotics",
+        "dexterity",
+        "embodied AI"
+      ],
+      "significance": "medium"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "review_date": "2026-03-07",
+  "workflow": "wf3-naver",
+  "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-07-ko.md",
+  "ranked_path": "env-scanning/wf3-naver/analysis/priority-ranked-2026-03-07.json",
+  "qc_results_path": "env-scanning/wf3-naver/logs/qc-results-2026-03-07.json",
+  "l3_reviewer": "quality-reviewer (inline)",
+  "overall_grade": "B+",
+  "must_fix_count": 0,
+  "summary": {
+    "pass1_signal_completeness": "PASS — all 9 required fields present in top-10 signals with substantive content",
+    "pass2_analytical_depth": "PASS — 6 cross-impact pairs with explicit citations, 4 themes, 8 tipping point alerts, 4 plausible scenarios",
+    "pass3_korea_specificity": "PASS — every signal contains explicit Korean impact analysis"
+  },
+  "dimension_scores": {
+    "signal_completeness": "A",
+    "cross_impact_synthesis": "B+",
+    "tipping_point_coverage": "A",
+    "scenario_quality": "A",
+    "strategic_implications": "B",
+    "korea_specificity": "A"
+  },
+  "warn_items": [
+    {
+      "check_id": "QC-007",
+      "level": "WARN",
+      "description": "STEEPs keyword mismatch for priorities 1, 2, 8 — content keyword count below threshold. Not a must-fix: classification rationale is substantively correct (WTI surge is economic, military AI is technological).",
+      "action": "deferred"
+    },
+    {
+      "check_id": "QC-012",
+      "level": "WARN",
+      "description": "Section 5 body text lacks explicit date-anchored timeframe phrases beyond header labels. Minor quality gap.",
+      "action": "deferred"
+    }
+  ],
+  "decision": "PROCEED — must_fix_count is 0. Report meets quality threshold for human approval (Step 3.4).",
+  "generated_at": "2026-03-07T03:45:00Z"
+}

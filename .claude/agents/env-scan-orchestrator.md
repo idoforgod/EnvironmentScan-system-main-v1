@@ -187,14 +187,21 @@ Pipeline_Gate_1:  # Phase 1 → Phase 2
 
 Pipeline_Gate_2:  # Phase 2 → Phase 3
   trigger: After Phase 2 complete (after Step 2.5 human approval)
-  checks:
-    - signal_count_match: "classified count == impact-assessed count == priority-ranked count"
-    - score_range_valid: "all priority_score in [0, 10], all impact_score in [-5, +5]"
+  enforcement: MANDATORY
+  python_script: >
+    python3 env-scanning/scripts/validate_phase2_output.py
+    --sot env-scanning/config/workflow-registry.yaml
+    --workflow wf1-general --date {SCAN_DATE} --json
+  python_checks: "PG2-001~008: STEEPs validity, impact_score ∈ [-10.0,+10.0], priority_score ∈ [0.0,10.0], count consistency, required fields (all Python-enforced)"
+  exit_code_0: proceed to Phase 3
+  exit_code_1: HALT (CRITICAL failures — invalid enumerations or ranges)
+  exit_code_2: WARN (ERROR-level issues — count mismatches)
+  additional_checks:
     - human_approval_recorded: "Step 2.5 decision logged in human_decisions"
     - analysis_chain_complete: "classified → impact → priority files all exist"
-    - psst_minimum_threshold: "all signals have pSST ≥ 30 (from psst_pipeline_gates.gate_2_post_analysis.min_psst)"
-    - psst_dimensions_es_cc: "ES, CC dimensions exist in final_classification.psst_dimensions for all signals"
-    - psst_final_computed: "psst_scores field populated in shared context for all ranked signals"
+    - psst_minimum_threshold: "all signals have pSST ≥ 30"
+    - psst_dimensions_es_cc: "ES, CC dimensions exist for all signals"
+    - psst_final_computed: "psst_scores populated for all ranked signals"
   on_fail:
     action: trace_back
     retry: re_execute_failing_step  # Re-executed steps follow the full VEV pattern (PRE-VERIFY through RECORD)
@@ -3074,44 +3081,43 @@ Update workflow-status.json verification_results:
 
 **━━━ PIPELINE GATE 2: Phase 2 → Phase 3 전환 검증 ━━━**
 
-After Step 2.5 human approval, execute Pipeline Gate 2 before proceeding to Phase 3:
+After Step 2.5 human approval, execute Pipeline Gate 2 before proceeding to Phase 3.
 
+**Step A — Python 원천봉쇄 (MANDATORY)**:
+```bash
+python3 env-scanning/scripts/validate_phase2_output.py \
+  --sot env-scanning/config/workflow-registry.yaml \
+  --workflow wf1-general --date {SCAN_DATE} --json
+```
+- Exit 0 = PASS (all 8 PG2 checks passed)
+- Exit 1 = HALT (CRITICAL: invalid STEEPs, out-of-range scores, missing fields)
+- Exit 2 = WARN (ERROR: count mismatches — proceed with caution)
+
+PG2-001~008 covers: STEEPs validity, impact_score ∈ [-10.0,+10.0], priority_score ∈ [0.0,10.0], count consistency, required fields — all Python-enforced.
+
+**Step B — Additional LLM Checks**:
 ```yaml
-Pipeline_Gate_2_Checks:
-  1_signal_count_match:
-    check: "classified count == impact-assessed count == priority-ranked count"
-    purpose: "No signals lost or added during analysis pipeline"
-    on_fail: TRACE_BACK (identify where count diverged)
-
-  2_score_range_valid:
-    check: "All priority_score in [0, 10], all impact_score in [-5, +5]"
-    purpose: "Score integrity across analysis chain"
-    on_fail: TRACE_BACK to Step 2.3 or 2.2
-
-  3_human_approval_recorded:
+Pipeline_Gate_2_Additional:
+  human_approval_recorded:
     check: "Step 2.5 decision logged in workflow-status.json human_decisions array"
     purpose: "Human checkpoint was properly executed"
     on_fail: HALT (cannot proceed to Phase 3 without human approval)
 
-  4_analysis_chain_complete:
+  analysis_chain_complete:
     check: "classified-signals → impact-assessment → priority-ranked files all exist"
     purpose: "Complete analysis chain integrity"
     on_fail: TRACE_BACK (identify missing file)
 
-  5_steeps_consistency:
-    check: "STEEPs categories in priority-ranked match categories in classified-signals"
-    purpose: "Categories not altered during analysis"
-    on_fail: TRACE_BACK to Step 2.2 or 2.3
-
-  6_bilingual_pairs:
+  bilingual_pairs:
     check: "KR counterparts exist for analysis files (impact, priority)"
     purpose: "Bilingual workflow integrity for Phase 3 report"
     on_fail: WARN (non-critical, EN-only acceptable)
 ```
 
 **Gate Result**:
-- ALL checks PASS → Record "Pipeline_Gate_2: PASS", proceed to Phase 3
-- Any FAIL → TRACE_BACK, re-execute failing Step (max 1 retry), re-check Gate
+- Step A PASS + Step B ALL PASS → Record "Pipeline_Gate_2: PASS", proceed to Phase 3
+- Step A FAIL (exit 1) → HALT immediately, do not run Step B
+- Step B FAIL → TRACE_BACK, re-execute failing Step (max 1 retry), re-check Gate
 - Gate still fails → HALT and ask user
 
 **Update workflow-status.json**:
@@ -3474,7 +3480,7 @@ python3 env-scanning/scripts/validate_report_quality.py \
 
 | Exit Code | Status | Action |
 |-----------|--------|--------|
-| 0 | PASS | All 13 QC checks passed → proceed to L3 Semantic Review |
+| 0 | PASS | All 14 QC checks passed → proceed to L3 Semantic Review |
 | 1 | FAIL | CRITICAL checks failed (e.g., QC-003 pSST badge mismatch) → trigger ④ RETRY with remedy guidance |
 | 2 | WARN | Non-critical issues only (e.g., QC-007 STEEPs content) → log warnings, proceed to L3 |
 

@@ -247,6 +247,13 @@ system:
     wf4_report_approval: "required"   # WF4 Step 3.4
     integrated_approval: "required"   # Integrated report final approval
 
+  # ── Master Task Management (v4.0.0) ──
+  # Deterministic task decision engine for master-level step tracking (Ctrl+T).
+  # "계산은 Python이, 판단은 LLM이" — gate checks and sync decisions are Python,
+  # TaskCreate/TaskUpdate API calls are LLM.
+  task_management:
+    master_script: "env-scanning/core/master_task_manager.py"
+
 # ================================================================
 # WORKFLOW DEFINITIONS
 # ================================================================
@@ -946,6 +953,12 @@ startup_validation:
       check: "completion_gate_m4_in_orchestrator"
       description: "Master orchestrator must define Master Gate M4 (Completion Gate) section with validate_completion.py reference"
       severity: "HALT"
+
+    # ── Master Task Management (v4.0.0) ──
+    - id: "SOT-062"
+      check: "master_task_manager_script_exists"
+      description: "system.task_management.master_script must exist — master-level task tracking depends on this script"
+      severity: "WARN"
 
 # ================================================================
 # EXECUTION INTEGRITY (v1.0.0)

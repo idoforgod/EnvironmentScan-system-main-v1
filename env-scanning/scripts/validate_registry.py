@@ -1671,6 +1671,30 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         "; ".join(pg2_orch_errors) if pg2_orch_errors else ""
     ))
 
+    # ── SOT-062: master_task_manager_script_exists (v4.0.0) ──
+    # "Unvalidated SOT Is Not SOT" — master_task_manager.py provides
+    # deterministic task completion decisions (원천봉쇄).
+    # WARN (not HALT) when section absent: task management is non-critical.
+    # HALT when section present but script file missing: broken reference.
+    task_mgmt = system.get("task_management", {})
+    task_script = task_mgmt.get("master_script", "")
+    if task_script:
+        task_script_path = project_root / task_script
+        task_script_exists = task_script_path.exists()
+        vr.results.append(CheckResult(
+            "SOT-062", "HALT" if not task_script_exists else "WARN",
+            "Master task manager script must exist",
+            task_script_exists,
+            f"Missing: {task_script}" if not task_script_exists else ""
+        ))
+    else:
+        vr.results.append(CheckResult(
+            "SOT-062", "WARN",
+            "system.task_management.master_script is defined",
+            False,
+            "system.task_management section not defined — master task tracking unavailable"
+        ))
+
     return vr
 
 

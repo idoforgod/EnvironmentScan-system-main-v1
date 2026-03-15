@@ -1140,6 +1140,27 @@ After Task hierarchy creation, initialize the verification system:
 
 Execute steps **sequentially**:
 
+### Context Loading (RLM — Phase 1)
+
+> **Protocol Section 8 (v3.2.0)**: "에이전트에게 불필요한 정보를 주면, 판단 품질이 저하된다."
+> Phase 1에서는 아래 데이터만 로딩한다. 다른 데이터(priority-ranked, evolution, report statistics 등)는 로딩 금지.
+
+| Data | Source | Load Via |
+|------|--------|----------|
+| sources config | `{sources_config}` | Read directly |
+| scan window state | `{scan_window_state_file}` | Read directly |
+| signal DB (recent 7 days) | `{data_root}/signals/database.json` | **RecursiveArchiveLoader** (7-day window) |
+| domains config | `env-scanning/config/domains.yaml` | Read directly |
+
+**Step 1.1 archive-loader 호출 시**: `RecursiveArchiveLoader`를 사용하여 7일 이내 시그널만 로딩할 것을 지시.
+```python
+from loaders.recursive_archive_loader import RecursiveArchiveLoader
+loader = RecursiveArchiveLoader(db_path="{data_root}/signals/database.json")
+recent = loader.load_recent_index(days=7)  # 10-20x context reduction
+```
+
+**DO NOT load in Phase 1**: priority-ranked data, evolution indices, report statistics, report skeletons, integration data.
+
 ### Step 1.0.5: Read Temporal Parameters from State File
 
 > **v2.2.1**: `scan_window_state_file`에서 이 WF의 시간 파라미터를 추출한다.
@@ -2358,6 +2379,28 @@ After Pipeline Gate 1 passes:
 ---
 
 ## Phase 2: Planning (Analysis & Structuring)
+
+### Context Loading (RLM — Phase 2)
+
+> **Protocol Section 8 (v3.2.0)**: Phase 2에서는 분류/분석에 필요한 필드만 선택적 로딩한다.
+> SharedContextManager의 field-level loading으로 LLM 판단 품질을 최적화한다.
+
+| Data | Source | Load Via |
+|------|--------|----------|
+| classified signals | `{data_root}/structured/classified-signals-{date}.json` | Read directly |
+| thresholds | `env-scanning/config/thresholds.yaml` | Read directly |
+| shared context | `{data_root}/context/shared-context-{date}.json` | **SharedContextManager** — load only needed fields |
+
+**SharedContextManager 사용법**:
+```python
+from core.context_manager import SharedContextManager
+ctx = SharedContextManager("{data_root}/context/shared-context-{date}.json")
+classification = ctx.get("final_classification")   # Phase 2.1 needs this
+impact = ctx.get("impact_analysis")                # Phase 2.2 needs this
+# DO NOT call ctx.get_full_context() — loads all 9 fields unnecessarily
+```
+
+**DO NOT load in Phase 2**: raw scan data, dedup indexes, archive reports, report skeletons.
 
 ### Step 2.1: Classification Verification
 

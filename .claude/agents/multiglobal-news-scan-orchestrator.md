@@ -66,6 +66,26 @@ exclusive_sources: ["GlobalNews"]
 
 ~22 tasks total
 
+### Context Loading (RLM — Phase 1)
+
+> **Protocol Section 8**: Phase 1에서 필요한 데이터만 로딩. "에이전트에게 불필요한 정보를 주면, 판단 품질이 저하된다."
+
+| Data | Source | Load Via |
+|------|--------|----------|
+| sources config | `{sources_config}` | Read directly |
+| scan window state | `{scan_window_state_file}` | Read directly |
+| signal DB (recent 7 days) | `{data_root}/signals/database.json` | **RecursiveArchiveLoader** (7-day window) |
+| domains config | `env-scanning/config/domains.yaml` | Read directly |
+
+**Step 1.1 archive-loader 호출 시**: `RecursiveArchiveLoader`를 사용하여 7일 이내 시그널만 로딩할 것을 지시.
+```python
+from loaders.recursive_archive_loader import RecursiveArchiveLoader
+loader = RecursiveArchiveLoader(db_path="{data_root}/signals/database.json")
+recent = loader.load_recent_index(days=7)
+```
+
+**DO NOT load in Phase 1**: priority-ranked data, evolution indices, report statistics, report skeletons, integration data.
+
 ### Step 1.0.5: Read Temporal Parameters from State File
 
 > **v2.2.1**: Read this WF's temporal parameters from `scan_window_state_file`.
@@ -262,6 +282,18 @@ On_fail: trace_back and re_execute_failing_step (max 1 retry)
 ## Phase 2: Planning (Classification + Detection + Assessment)
 
 ~18 tasks total
+
+### Context Loading (RLM — Phase 2)
+
+> **Protocol Section 8**: Phase 2에서는 분류/분석에 필요한 필드만 선택적 로딩.
+
+| Data | Source | Load Via |
+|------|--------|----------|
+| classified signals | `{data_root}/structured/classified-signals-{date}.json` | Read directly |
+| thresholds | `env-scanning/config/thresholds.yaml` | Read directly |
+| shared context | `{data_root}/context/shared-context-{date}.json` | **SharedContextManager** — `get("final_classification")`, `get("impact_analysis")` only |
+
+**DO NOT load in Phase 2**: raw scan data, dedup indexes, archive reports, report skeletons.
 
 ### Step 2.1: Signal Classification, FSSF, Impact Analysis (Unified)
 - **Worker**: phase2-analyst (unified Steps 2.1 + 2.2 in single agent context)

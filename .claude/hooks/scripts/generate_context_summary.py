@@ -64,8 +64,27 @@ def load_sot_paths():
             paths['wf2_data_root'] = wf2_root
             paths['wf2_signals_db'] = wf2_root / 'signals' / 'database.json'
 
+        wf3_data_root = registry.get('workflows', {}).get('wf3-naver', {}).get('data_root', '')
+        if wf3_data_root:
+            wf3_root = project_root / wf3_data_root
+            paths['wf3_data_root'] = wf3_root
+
+        wf4_data_root = registry.get('workflows', {}).get('wf4-multiglobal-news', {}).get('data_root', '')
+        if wf4_data_root:
+            wf4_root = project_root / wf4_data_root
+            paths['wf4_data_root'] = wf4_root
+
         # Global workflow status (outside individual workflow data roots)
         paths['workflow_status'] = project_root / 'env-scanning' / 'logs' / 'workflow-status.json'
+
+        # Per-WF workflow status files (for phase-level resume)
+        for wf_key, wf_root_key in [('wf1', 'wf1_data_root'), ('wf2', 'wf2_data_root'),
+                                     ('wf3', 'wf3_data_root'), ('wf4', 'wf4_data_root')]:
+            wf_root = paths.get(wf_root_key)
+            if wf_root:
+                wf_status = wf_root / 'logs' / 'workflow-status.json'
+                if wf_status.exists():
+                    paths[f'{wf_key}_workflow_status'] = wf_status
 
         # Registry metadata
         paths['registry_version'] = registry.get('system', {}).get('version', 'unknown')
@@ -163,7 +182,7 @@ def get_workflow_state(sot_paths):
         except Exception:
             pass
 
-    # Workflow status
+    # Workflow status (global)
     wf_status_path = sot_paths.get('workflow_status')
     if wf_status_path and wf_status_path.exists():
         try:
@@ -180,6 +199,25 @@ def get_workflow_state(sot_paths):
             }
         except Exception:
             pass
+
+    # Per-WF workflow status (phase-level granularity for resume)
+    per_wf_progress = {}
+    for wf_key in ['wf1', 'wf2', 'wf3', 'wf4']:
+        wf_status_key = f'{wf_key}_workflow_status'
+        wf_path = sot_paths.get(wf_status_key)
+        if wf_path and wf_path.exists():
+            try:
+                ws = json.loads(wf_path.read_text(encoding='utf-8'))
+                per_wf_progress[wf_key] = {
+                    'status': ws.get('status', ''),
+                    'current_phase': ws.get('current_phase', ''),
+                    'current_step': ws.get('current_step', ''),
+                    'last_updated': ws.get('last_updated', ''),
+                }
+            except Exception:
+                pass
+    if per_wf_progress:
+        state['per_wf_progress'] = per_wf_progress
 
     return state
 
@@ -348,7 +386,7 @@ def generate_summary():
         # WF results table
         summary += "| Workflow | Status | Signals | Validation |\n"
         summary += "|----------|--------|---------|------------|\n"
-        for key in ['wf_wf1-general', 'wf_wf2-arxiv']:
+        for key in ['wf_wf1-general', 'wf_wf2-arxiv', 'wf_wf3-naver', 'wf_wf4-multiglobal-news']:
             if key in wf_state:
                 wf = wf_state[key]
                 name = key.replace('wf_', '')
@@ -397,6 +435,18 @@ def generate_summary():
         errors = wp.get('errors', [])
         if errors:
             summary += f"**Errors**: {errors}\n\n"
+
+    # Per-WF phase progress (for resume after context compression)
+    per_wf = wf_state.get('per_wf_progress')
+    if per_wf:
+        summary += "**Per-WF Phase Progress**:\n"
+        summary += "| WF | Status | Phase | Step | Updated |\n"
+        summary += "|----|--------|-------|------|---------|\n"
+        for wf_key in ['wf1', 'wf2', 'wf3', 'wf4']:
+            if wf_key in per_wf:
+                p = per_wf[wf_key]
+                summary += f"| {wf_key} | {p['status']} | {p['current_phase']} | {p['current_step']} | {p['last_updated']} |\n"
+        summary += "\n"
 
     # ── Section 3: Git Repository Status ──
     summary += "---\n\n## Git Repository Status\n\n"

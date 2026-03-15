@@ -139,6 +139,8 @@ All invocation blocks in Steps 1-6 reference these variables by name.
 | `BI_RESOLVER_SCRIPT` | `system.bilingual.resolver_script` | `env-scanning/core/bilingual_resolver.py` |
 | `BI_CONFIG_FILE` | (derived) | `{INT_OUTPUT_ROOT}/logs/bilingual-config-{date}.json` |
 | `BI_LANGUAGE` | (from bilingual config: `internal_language`) | `en` |
+| `TASK_MANAGER_SCRIPT` | `system.task_management.master_script` | `env-scanning/core/master_task_manager.py` |
+| `MASTER_STATUS_FILE` | (derived) | `{INT_OUTPUT_ROOT}/logs/master-status-{date}.json` |
 
 ### Step 0.2: Run Startup Validation
 
@@ -251,7 +253,43 @@ Create `{INT_OUTPUT_ROOT}/logs/master-status.json`:
     "M2": { "status": "pending" },
     "M2a": { "status": "pending" },
     "M2b": { "status": "pending" },
-    "M3": { "status": "pending" }
+    "M3": { "status": "pending" },
+    "M4": { "status": "pending" }
+  }
+}
+```
+
+### Step 0.4: Create Master Task Hierarchy (Python — Deterministic)
+
+> **할루시네이션 원천봉쇄**: 태스크 생성 여부, 중복 방지, 게이트 체크는
+> 모두 Python이 수행합니다. LLM은 Python 결정에 따라 TaskCreate/TaskUpdate만 호출합니다.
+> 태스크 관리는 **non-critical** — 실패 시 경고 로그 후 워크플로우를 계속 진행합니다.
+
+```bash
+python3 {TASK_MANAGER_SCRIPT} \
+  --action init \
+  --status-file {MASTER_STATUS_FILE}
+```
+
+**Interpretation**:
+- `action: CREATE` → Execute TaskCreate for each task in the `tasks` array, in order.
+  Set `addBlockedBy` from the `blocked_by` field. Store returned task IDs in
+  `master-status.json` → `master_task_mapping` field.
+  Mark Step 0 task as `completed` immediately (already done).
+- `action: SKIP` → Tasks already exist (session resume). Use `existing_mapping` for task IDs.
+- On error → Log warning, continue without master task tracking.
+
+**After task creation**, update `master-status.json`:
+```json
+{
+  "master_task_mapping": {
+    "master_step0": "{task_id_0}",
+    "master_step1": "{task_id_1}",
+    "master_step2": "{task_id_2}",
+    "master_step3": "{task_id_3}",
+    "master_step4": "{task_id_4}",
+    "master_step5": "{task_id_5}",
+    "master_step6": "{task_id_6}"
   }
 }
 ```
@@ -266,6 +304,7 @@ Create `{INT_OUTPUT_ROOT}/logs/master-status.json`:
 │    0.1 Read SOT (workflow-registry.yaml)                     │
 │    0.2 Run validate_registry.py → HALT on failure            │
 │    0.3 Initialize master state                               │
+│    0.4 Create master tasks (Python 원천봉쇄 — 7 tasks)       │
 ├─────────────────────────────────────────────────────────────┤
 │  Step 1: WF1 — General Environmental Scanning                │
 │    Invoke env-scan-orchestrator with:                        │
@@ -328,6 +367,10 @@ Create `{INT_OUTPUT_ROOT}/logs/master-status.json`:
 │  ── Master Gate M3 ──                                        │
 │    Verify integrated report exists and is valid              │
 │    Verify archive copy created                               │
+│                                                              │
+│  ── Master Gate M4 (Completion Gate) ──                      │
+│    validate_completion.py — 9 CG checks (EN/KO/Timeline)    │
+│    On FAIL: HALT_AND_REMEDIATE (max 2 retries)              │
 ├─────────────────────────────────────────────────────────────┤
 │  Step 6: Finalization                                        │
 │    Archive integrated report                                 │
@@ -339,6 +382,8 @@ Create `{INT_OUTPUT_ROOT}/logs/master-status.json`:
 ---
 
 ## Step 1: Execute WF1
+
+**Task Status**: `TaskUpdate(master_task_mapping["master_step1"], status="in_progress")` (non-critical)
 
 ### 1.1 Pre-Check
 
@@ -435,9 +480,17 @@ Master_Gate_M1:
 **IMPORTANT**: If WF1 fails and user chooses to skip, the integrated report
 will be generated from WF2+WF3+WF4 only (degraded mode). See Degraded Mode table.
 
+**Task Completion (Python 원천봉쇄)**: After M1 PASS:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 1 --status-file {MASTER_STATUS_FILE}
+```
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step1"], status="completed")` (non-critical)
+
 ---
 
 ## Step 2: Execute WF2
+
+**Task Status**: `TaskUpdate(master_task_mapping["master_step2"], status="in_progress")` (non-critical)
 
 ### 2.1 Pre-Check
 
@@ -530,9 +583,17 @@ Master_Gate_M2:
 
 > **Python 강제**: M2 gate에서 `validate_completion.py --workflow-only wf2-arxiv`를 실행한다.
 
+**Task Completion (Python 원천봉쇄)**: After M2 PASS:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 2 --status-file {MASTER_STATUS_FILE}
+```
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step2"], status="completed")` (non-critical)
+
 ---
 
 ## Step 3: Execute WF3
+
+**Task Status**: `TaskUpdate(master_task_mapping["master_step3"], status="in_progress")` (non-critical)
 
 ### 3.1 Pre-Check
 
@@ -631,9 +692,17 @@ Master_Gate_M2a:
 **IMPORTANT**: If WF3 fails and user chooses to skip, the integrated report
 will be generated from WF1+WF2+WF4 only (degraded mode).
 
+**Task Completion (Python 원천봉쇄)**: After M2a PASS:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 3 --status-file {MASTER_STATUS_FILE}
+```
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step3"], status="completed")` (non-critical)
+
 ---
 
 ## Step 4: Execute WF4
+
+**Task Status**: `TaskUpdate(master_task_mapping["master_step4"], status="in_progress")` (non-critical)
 
 ### 4.1 Pre-Check
 
@@ -724,9 +793,17 @@ Master_Gate_M2b:
 **IMPORTANT**: If WF4 fails and user chooses to skip, the integrated report
 will be generated from WF1+WF2+WF3 only (degraded mode).
 
+**Task Completion (Python 원천봉쇄)**: After M2b PASS:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 4 --status-file {MASTER_STATUS_FILE}
+```
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step4"], status="completed")` (non-critical)
+
 ---
 
 ## Step 5: Integration (Report Merge)
+
+**Task Status**: `TaskUpdate(master_task_mapping["master_step5"], status="in_progress")` (non-critical)
 
 ### 5.1 Pre-Check
 
@@ -1294,9 +1371,20 @@ Master_Gate_M4:
 The gate runs programmatically (`validate_completion.py`) — it cannot be "approved away" by LLM judgment.
 This is the Python 원천봉쇄 principle applied to deliverable completeness.
 
+**Task Completion (Python 원천봉쇄)**: After M4 PASS:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 5 --status-file {MASTER_STATUS_FILE}
+```
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step5"], status="completed")` (non-critical)
+
+**CRITICAL**: Step 5 completion is gated on **M4** (deliverable completeness), NOT M3 (approval only).
+M4 verifies all EN/KO reports, timeline map, and archives actually exist on disk.
+
 ---
 
 ## Step 6: Finalization
+
+**Task Status**: `TaskUpdate(master_task_mapping["master_step6"], status="in_progress")` (non-critical)
 
 ### 6.1 Update Master Status
 
@@ -1333,7 +1421,8 @@ This is the Python 원천봉쇄 principle applied to deliverable completeness.
     "M2": { "status": "PASS", "timestamp": "..." },
     "M2a": { "status": "PASS", "timestamp": "..." },
     "M2b": { "status": "PASS", "timestamp": "..." },
-    "M3": { "status": "PASS", "timestamp": "..." }
+    "M3": { "status": "PASS", "timestamp": "..." },
+    "M4": { "status": "PASS", "timestamp": "..." }
   }
 }
 ```
@@ -1361,6 +1450,18 @@ This is the Python 원천봉쇄 principle applied to deliverable completeness.
 ══════════════════════════════════════════════════════
 ```
 
+**Task Completion (Python 원천봉쇄)**: After Step 6 finalization:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 6 --status-file {MASTER_STATUS_FILE}
+```
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step6"], status="completed")` (non-critical)
+
+**Final Sync**: After all steps complete, run full sync to catch any missed updates:
+```bash
+python3 {TASK_MANAGER_SCRIPT} --action sync --status-file {MASTER_STATUS_FILE}
+```
+For each update with `expected_status: completed` → execute the TaskUpdate instruction (non-critical).
+
 ---
 
 ## Error Handling
@@ -1380,6 +1481,9 @@ wf1_failure:
     proceed_to: "WF2 (Step 2) → WF3 (Step 3) → WF4 (Step 4) → Integration"
     integration: "partial (WF2 + WF3 + WF4 only)"
     final_output: "WF2 + WF3 + WF4 통합 보고서 (WF1 제외)"
+    task_management: |
+      python3 {TASK_MANAGER_SCRIPT} --action wf-skip --step 1 --status-file {MASTER_STATUS_FILE}
+      → TaskUpdate with metadata: {skipped: true, reason: "user_choice", wf: "wf1-general"}
 ```
 
 ### WF2 Failure
@@ -1397,6 +1501,9 @@ wf2_failure:
     proceed_to: "WF3 (Step 3) → WF4 (Step 4)"
     integration: "partial (WF1 + WF3 + WF4 only)"
     final_output: "WF1 + WF3 + WF4 통합 보고서 (WF2 제외)"
+    task_management: |
+      python3 {TASK_MANAGER_SCRIPT} --action wf-skip --step 2 --status-file {MASTER_STATUS_FILE}
+      → TaskUpdate with metadata: {skipped: true, reason: "user_choice", wf: "wf2-arxiv"}
 ```
 
 ### WF3 Failure
@@ -1414,6 +1521,9 @@ wf3_failure:
     proceed_to: "WF4 (Step 4)"
     integration: "partial (WF1 + WF2 + WF4 only)"
     final_output: "WF1 + WF2 + WF4 통합 보고서 (WF3 제외)"
+    task_management: |
+      python3 {TASK_MANAGER_SCRIPT} --action wf-skip --step 3 --status-file {MASTER_STATUS_FILE}
+      → TaskUpdate with metadata: {skipped: true, reason: "user_choice", wf: "wf3-naver"}
 
 ### WF4 Failure
 
@@ -1429,6 +1539,9 @@ wf4_failure:
   on_skip:
     integration: "partial (WF1 + WF2 + WF3 only)"
     final_output: "WF1 + WF2 + WF3 통합 보고서 (WF4 제외)"
+    task_management: |
+      python3 {TASK_MANAGER_SCRIPT} --action wf-skip --step 4 --status-file {MASTER_STATUS_FILE}
+      → TaskUpdate with metadata: {skipped: true, reason: "user_choice", wf: "wf4-multiglobal-news"}
 ```
 
 ### Integration Failure
@@ -1451,6 +1564,9 @@ integration_failure:
       - "전체 중단"
   on_skip:
     final_output: "WF1 + WF2 + WF3 + WF4 독립 보고서 각각 제공"
+    task_management: |
+      python3 {TASK_MANAGER_SCRIPT} --action wf-skip --step 5 --status-file {MASTER_STATUS_FILE}
+      → TaskUpdate with metadata: {skipped: true, reason: "user_choice", wf: "integration"}
 ```
 
 ### SOT Validation Failure
@@ -1699,12 +1815,13 @@ Finalization:
 ---
 
 ## Version
-- **Orchestrator Version**: 3.0.0
+- **Orchestrator Version**: 3.1.0
 - **SOT Version**: 3.0.0
-- **Protocol Version**: 3.0.0
+- **Protocol Version**: 3.1.0
 - **Compatible with**: Quadruple Workflow System v3.0.0 (WF4 Multi&Global-News added)
-- **Last Updated**: 2026-02-24
+- **Last Updated**: 2026-03-15
 - **Changelog**:
+  - v3.1.0 — Task Management Python 원천봉쇄: Added deterministic task lifecycle management via `master_task_manager.py`. Step 0.4 creates 7 master tasks using Python-computed instructions (duplicate prevention via `master_task_mapping`). Each step boundary (M1/M2/M2a/M2b/M4 gates) calls `--action step-complete` for gate-verified completion. Step 6 runs `--action sync` for final catch-all. Error handling `on_skip` blocks call `--action wf-skip`. Step 5 completion gated on M4 (not M3). All task decisions are Python-computed; LLM only executes TaskCreate/TaskUpdate with exact parameters. SOT-062 validates script existence.
   - v3.0.0 — WF4 (Multi&Global-News) added: Quadruple workflow system. New WF4 variables (WF4_DATA_ROOT, WF4_SOURCES, WF4_PROFILE, WF4_ORCHESTRATOR, WF4_ENABLED, WF4_SKELETON), bilingual override for WF4, Master Gate M2b (WF4→Integration), wf4-analyst in Agent Teams (5 teammates), Step numbering updated (WF3=Step 3, WF4=Step 4, Integration=Step 5, Finalization=Step 6, Weekly=Step 7). 9 human checkpoints. Degraded mode table expanded for 4 workflows.
   - v2.3.1 — SOT Direct Reading (할루시네이션 원천봉쇄): signal_evolution_tracker.py now reads ALL thresholds directly from SOT via `--registry`. LLM orchestrators pass only the registry path, never numeric values. Cross-correlation thresholds added to SOT `cross_workflow_correlation.matching`. Dead SOT fields (max_thread_age_days, min_appearances_for_velocity, high_confidence_threshold) now connected to code. SOT-034 expanded to validate all lifecycle/state_detection/cross-correlation fields.
   - v2.3.0 — Signal Evolution Timeline Map: Step 3.1.2 (cross-WF evolution correlation), Step 3.1.3 (integrated evolution statistics), Step 3.1.5 updated with --statistics. Step 5.2.3 (weekly evolution statistics), Step 5.2.5 updated with --statistics. EVOLUTION_ENABLED/EVOLUTION_TRACKER variables added to Step 0.1. Agent Teams prompts include evolution-map inputs.

@@ -818,13 +818,92 @@ Before deploying Task Management integration:
 4. **Recovery**: Task IDs in workflow-status.json enable resumption
 5. **Non-Critical**: Task failures never halt workflow
 
+## Master Orchestrator Task Management (v4.0.0)
+
+### Purpose
+
+The master orchestrator (`master-orchestrator.md`) manages 7 top-level tasks representing Steps 0-6 of the quadruple scan pipeline. These are SEPARATE from the WF-internal tasks (49 per WF) described above — they track the macro-level pipeline progress visible to the user via `Ctrl+T`.
+
+### Python 원천봉쇄
+
+All task state decisions are made by `master_task_manager.py` (path from SOT: `system.task_management.master_script`). The LLM executes TaskCreate/TaskUpdate calls based on Python's output — it does NOT decide what to create or update.
+
+```
+"계산은 Python이, 판단은 LLM이"
+Python: WHAT to update (step, status, metadata) — deterministic
+LLM:    Execute TaskCreate/TaskUpdate tool calls — no judgment
+```
+
+### Task Hierarchy (7 static tasks)
+
+| Step | Subject | Gate | Blocked By |
+|------|---------|------|------------|
+| 0 | SOT Validation & Setup | (none) | — |
+| 1 | WF1 General Scanning | M1 | Step 0 |
+| 2 | WF2 arXiv Scanning | M2 | Step 1 |
+| 3 | WF3 Naver Scanning | M2a | Step 2 |
+| 4 | WF4 Global News Scanning | M2b | Step 3 |
+| 5 | Integration & Report Merge | **M4** | Step 4 |
+| 6 | Finalization | (none) | Step 5 |
+
+### ⚠️ Step 5 Special Rule: M4, Not M3
+
+Step 5's completion gate is **M4** (validate_completion.py, CG-001~009), NOT M3 (approval). M4 verifies deliverable completeness: EN/KO reports exist, no PLACEHOLDERs, timeline map, archives. If M4 FAIL → HALT_AND_REMEDIATE → Step 5 task remains `in_progress` during remediation.
+
+This rule is enforced by `master_task_manager.py` — the Python module checks `master_gates.M4.status == "PASS"` before outputting a COMPLETE instruction.
+
+### Lifecycle
+
+| Timing | Action | Python Command |
+|--------|--------|----------------|
+| Step 0.4 | Create 7 tasks | `--action init` |
+| Step N entry | Mark in_progress | `TaskUpdate(stepN, in_progress)` |
+| Step N gate PASS | Mark completed | `--action step-complete --step N` |
+| WF skipped | Mark completed+metadata | `--action wf-skip --step N` |
+| Workflow end | Full sync | `--action sync` |
+
+### Duplicate Prevention
+
+On session resume, `--action init` checks `master_task_mapping` in `master-status.json`. If it exists, Python returns `SKIP` — no new tasks are created.
+
+### 3-Layer Defense (L1 + L2 + L3)
+
+| Layer | Mechanism | Timing |
+|-------|-----------|--------|
+| L1 | master-orchestrator.md calls `master_task_manager.py` at each step boundary | During sub-agent execution |
+| L2 | `check_task_completion.py` hook calls `--action sync` after Agent returns | PostToolUse event |
+| L3 | Caller (main conversation) checks TaskList after agent returns and fixes mismatches | After sub-agent completion |
+
+### Error Handling
+
+Task management is **non-critical** — failures never halt the workflow.
+`master-status.json` / `workflow-status.json` remain the authoritative state.
+If any TaskCreate/TaskUpdate fails: log warning, continue workflow.
+
+### Storage
+
+Master task IDs are stored in `master-status.json`:
+```json
+{
+  "master_task_mapping": {
+    "master_step0": "{task_id}",
+    "master_step1": "{task_id}",
+    "master_step2": "{task_id}",
+    "master_step3": "{task_id}",
+    "master_step4": "{task_id}",
+    "master_step5": "{task_id}",
+    "master_step6": "{task_id}"
+  }
+}
+```
+
 ## Version
 
-- **Guide Version**: 2.0.0 (3x Task Hierarchy)
-- **Compatible Orchestrator**: v2.2.0+ (Bilingual EN-KR with VEV)
+- **Guide Version**: 3.0.0 (Master Task Management + 3x WF Task Hierarchy)
+- **Compatible Orchestrator**: v4.0.0+ (Master Task 원천봉쇄)
 - **Claude Code**: 2.1.16+
-- **Task Count**: 49 static + 3 conditional = up to 52
-- **Last Updated**: 2026-01-31
+- **Task Count**: 7 master + (49 static + 3 conditional) per WF
+- **Last Updated**: 2026-03-15
 
 ---
 

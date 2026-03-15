@@ -1,0 +1,134 @@
+{
+  "master_id": "quadruple-scan-2026-03-15",
+  "system_name": "Quadruple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "3.0.0",
+  "started_at": "2026-03-15T06:00:00",
+  "completed_at": "2026-03-15T09:15:59",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-15.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-03-15T06:00:05",
+    "warnings": []
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-15.md",
+      "report_path_ko": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-15-ko.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-15T06:51:00",
+      "ko_ratio": "52.5%"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-15.md",
+      "report_path_ko": "env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-15-ko.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-15T07:01:00",
+      "ko_ratio": "68.2%"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-15.md",
+      "report_path_ko": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-15-ko.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-15T07:10:00",
+      "ko_ratio": "62.9%"
+    },
+    "wf4-multiglobal-news": {
+      "status": "completed",
+      "report_path_en": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-15.md",
+      "report_path_ko": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-15-ko.md",
+      "signal_count": 12,
+      "completed_at": "2026-03-15T07:22:00",
+      "ko_ratio": "62.9%"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "report_path_en": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-15.md",
+    "report_path_ko": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-15-ko.md",
+    "timeline_map": "env-scanning/integrated/reports/daily/timeline-map-2026-03-15.md",
+    "total_signals": 48,
+    "top_signals": 20,
+    "ko_ratio": "58.9%"
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T06:35:00"
+    },
+    "wf1_step_3_4": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T06:51:00"
+    },
+    "wf2_step_2_5": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T06:55:00"
+    },
+    "wf2_step_3_4": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T07:01:00"
+    },
+    "wf3_step_2_5": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T07:05:00"
+    },
+    "wf3_step_3_4": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T07:10:00"
+    },
+    "wf4_step_2_5": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T07:16:00"
+    },
+    "wf4_step_3_4": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T07:22:00"
+    },
+    "integrated_final": {
+      "decision": "auto-approved (autopilot)",
+      "timestamp": "2026-03-15T07:38:00"
+    }
+  },
+  "master_gates": {
+    "M1": {
+      "status": "PASS",
+      "timestamp": "2026-03-15T06:51:00"
+    },
+    "M2": {
+      "status": "PASS",
+      "timestamp": "2026-03-15T07:01:00"
+    },
+    "M2a": {
+      "status": "PASS",
+      "timestamp": "2026-03-15T07:10:00"
+    },
+    "M2b": {
+      "status": "PASS",
+      "timestamp": "2026-03-15T07:22:00"
+    },
+    "M3": {
+      "status": "PASS",
+      "timestamp": "2026-03-15T07:38:00"
+    },
+    "M4": {
+      "status": "PASS",
+      "timestamp": "2026-03-15T09:15:59",
+      "checks_passed": "46/46"
+    }
+  },
+  "bilingual": {
+    "protocol": "en-first",
+    "ko_ratios": {
+      "wf1": "52.5%",
+      "wf2": "68.2%",
+      "wf3": "62.9%",
+      "wf4": "62.9%",
+      "integrated": "58.9%"
+    },
+    "cg007_threshold": "30%",
+    "cg007_status": "ALL PASS"
+  }
+}

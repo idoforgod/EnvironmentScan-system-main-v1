@@ -1,0 +1,129 @@
+{
+  "scan_date": "2026-03-15",
+  "workflow": "wf2-arxiv",
+  "scan_window": {
+    "start": "2026-03-12T21:36:58Z",
+    "end": "2026-03-14T21:36:58Z",
+    "lookback_hours": 48
+  },
+  "classification_method": "STEEPs_6_category",
+  "total_signals": 12,
+  "signals": [
+    {
+      "id": "arxiv-20260315-001",
+      "title": "Scaling Laws of Scientific Discovery with AI and Robot Scientists",
+      "steeps_category": "T_Technological",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2503.22444", "published_date": "2026-03-14"},
+      "content": {"abstract": "Proposes Autonomous Generalist Scientists (AGS) concept fusing agentic AI and embodied robotics to fully automate research lifecycles. Demonstrates scaling laws for AI-driven scientific discovery.", "keywords": ["AGS", "robot scientists", "scaling laws", "scientific discovery", "embodied AI"], "language": "en"},
+      "signal_impact_scores": {"economic": 7.0, "technological": 9.5, "social": 6.0},
+      "confidence": 0.92
+    },
+    {
+      "id": "arxiv-20260315-002",
+      "title": "Safety in Large Reasoning Models: Unique Challenges Beyond Standard LLM Safety",
+      "steeps_category": "s_spiritual",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2504.17704", "published_date": "2026-03-13"},
+      "content": {"abstract": "Argues Large Reasoning Models (LRMs) pose unique safety challenges requiring dedicated analysis beyond general LLM safety. Chain-of-thought reasoning creates novel attack surfaces not present in standard LLMs.", "keywords": ["LRM safety", "reasoning models", "AI safety", "alignment", "chain-of-thought"], "language": "en"},
+      "signal_impact_scores": {"technological": 8.5, "social": 7.0, "spiritual": 9.0},
+      "confidence": 0.94
+    },
+    {
+      "id": "arxiv-20260315-003",
+      "title": "Efficiency vs Demand in AI Electricity: Post-AGI Scaling Implications",
+      "steeps_category": "E_Environmental",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2603.10498", "published_date": "2026-03-13"},
+      "content": {"abstract": "Analyzes the tension between AI efficiency gains and total electricity demand growth. Models show data center electricity could double by 2026. Post-AGI scenarios project 5-10x current consumption by 2030.", "keywords": ["AI energy", "electricity demand", "data centers", "efficiency", "post-AGI"], "language": "en"},
+      "signal_impact_scores": {"economic": 8.0, "environmental": 9.5, "technological": 8.0},
+      "confidence": 0.91
+    },
+    {
+      "id": "arxiv-20260315-004",
+      "title": "Vision-Language-Action Models on Soft Robots: Bridging Embodiment Gaps",
+      "steeps_category": "T_Technological",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2510.17369", "published_date": "2026-03-12"},
+      "content": {"abstract": "Demonstrates deployment of VLA models on soft robots, bridging the gap between simulated and physical embodied AI. Achieves 78% task success rate on previously unseen manipulation tasks.", "keywords": ["VLA models", "soft robots", "embodied AI", "manipulation", "physical AI"], "language": "en"},
+      "signal_impact_scores": {"technological": 9.0, "economic": 6.0, "social": 5.0},
+      "confidence": 0.89
+    },
+    {
+      "id": "arxiv-20260315-005",
+      "title": "Quantum Computing Strategic Recommendations for Industry 2026",
+      "steeps_category": "T_Technological",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2601.08578", "published_date": "2026-03-12"},
+      "content": {"abstract": "Industry whitepaper surveying short-to-mid-term prospects for quantum-enabled optimization and ML in industrial settings. Assesses hardware maturity across architectures.", "keywords": ["quantum computing", "industry applications", "optimization", "quantum ML", "hardware maturity"], "language": "en"},
+      "signal_impact_scores": {"technological": 8.5, "economic": 7.0},
+      "confidence": 0.88
+    },
+    {
+      "id": "arxiv-20260315-006",
+      "title": "Deliberative Alignment via Legal Precedent Reasoning for LLM Safety",
+      "steeps_category": "s_spiritual",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2601.08000", "published_date": "2026-03-13"},
+      "content": {"abstract": "Proposes case-augmented deliberative alignment using legal precedent reasoning to improve LLM safety without over-refusal. Demonstrates that precedent-based approaches reduce false refusal rates by 34% while maintaining safety.", "keywords": ["deliberative alignment", "legal reasoning", "LLM safety", "over-refusal", "precedent"], "language": "en"},
+      "signal_impact_scores": {"technological": 8.0, "social": 7.0, "spiritual": 8.5},
+      "confidence": 0.90
+    },
+    {
+      "id": "arxiv-20260315-007",
+      "title": "AI and Net-Zero: Energy Demand, Emissions, and Transition Potential",
+      "steeps_category": "E_Environmental",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2507.10750", "published_date": "2026-03-14"},
+      "content": {"abstract": "Comprehensive analysis of AI's dual role in climate: AI as energy consumer vs. AI as climate solution. Finds AI-driven optimization could reduce industrial emissions by 25% but AI energy demand growth could offset 40% of those gains.", "keywords": ["AI energy", "net-zero", "emissions", "climate AI", "transition"], "language": "en"},
+      "signal_impact_scores": {"environmental": 9.0, "technological": 7.5, "economic": 7.0},
+      "confidence": 0.91
+    },
+    {
+      "id": "arxiv-20260315-008",
+      "title": "DIG to Heal: Scaling General-Purpose Agent Collaboration via Explainable Decision Paths",
+      "steeps_category": "T_Technological",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2603.09850", "published_date": "2026-03-12"},
+      "content": {"abstract": "Proposes explainable dynamic decision paths for scaling multi-agent AI collaboration. Demonstrates 3.2x improvement in task completion rate for complex multi-step workflows.", "keywords": ["multi-agent", "agent collaboration", "explainability", "decision paths", "scaling"], "language": "en"},
+      "signal_impact_scores": {"technological": 8.5, "economic": 6.0},
+      "confidence": 0.88
+    },
+    {
+      "id": "arxiv-20260315-009",
+      "title": "Ethical Reasoning vs Safety Alignment Tension in LLMs",
+      "steeps_category": "s_spiritual",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2509.05367", "published_date": "2026-03-13"},
+      "content": {"abstract": "Examines how safety alignment's binary safe/unsafe framework proves insufficient for ethical dilemmas. LLMs trained with standard RLHF fail to navigate nuanced ethical scenarios where safety and ethics conflict.", "keywords": ["AI ethics", "safety alignment", "ethical dilemmas", "RLHF", "moral reasoning"], "language": "en"},
+      "signal_impact_scores": {"spiritual": 9.5, "social": 7.0, "technological": 7.0},
+      "confidence": 0.93
+    },
+    {
+      "id": "arxiv-20260315-010",
+      "title": "NeuralGCM Climate Modeling: Matching 10-15 Day Forecasts with 1000x Computational Savings",
+      "steeps_category": "E_Environmental",
+      "source": {"name": "arXiv/Nature", "url": "https://arxiv.org/abs/2603.08190", "published_date": "2026-03-12"},
+      "content": {"abstract": "NeuralGCM matches traditional climate models for 10-15 day forecasts with enormous computational savings. NVIDIA's StormCast super-resolves atmospheric data 1000x faster using 3000x less energy.", "keywords": ["NeuralGCM", "climate modeling", "weather forecasting", "computational efficiency", "StormCast"], "language": "en"},
+      "signal_impact_scores": {"environmental": 9.0, "technological": 8.5, "economic": 5.0},
+      "confidence": 0.92
+    },
+    {
+      "id": "arxiv-20260315-011",
+      "title": "Addressing Logical Fallacies in Scientific Reasoning from LLMs: Dual-Inference Framework",
+      "steeps_category": "T_Technological",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2512.04228", "published_date": "2026-03-14"},
+      "content": {"abstract": "Introduces dual-reasoning training framework extending beyond affirmation-based inference. Models trained to affirm valid consequents while rejecting invalid inferences, improving alignment with human scientific reasoning by 41%.", "keywords": ["logical fallacies", "scientific reasoning", "LLM", "dual-inference", "reasoning quality"], "language": "en"},
+      "signal_impact_scores": {"technological": 8.0, "social": 5.0},
+      "confidence": 0.89
+    },
+    {
+      "id": "arxiv-20260315-012",
+      "title": "Embodied AI: Emerging Risks and Opportunities for Policy Action",
+      "steeps_category": "P_Political",
+      "source": {"name": "arXiv", "url": "https://arxiv.org/abs/2509.00117", "published_date": "2026-03-13"},
+      "content": {"abstract": "Policy framework for embodied AI regulation at the intersection of agentic AI and classical robotics. Identifies 12 risk categories and proposes graduated regulatory approach based on autonomy level.", "keywords": ["embodied AI", "regulation", "policy", "robotics safety", "autonomous systems"], "language": "en"},
+      "signal_impact_scores": {"political": 8.0, "technological": 7.0, "social": 7.0},
+      "confidence": 0.90
+    }
+  ],
+  "steeps_distribution": {
+    "S_Social": 0,
+    "T_Technological": 6,
+    "E_Economic": 0,
+    "E_Environmental": 3,
+    "P_Political": 1,
+    "s_spiritual": 3
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf3-naver",
+    "date": "2026-03-15",
+    "computed_at": "2026-03-14T22:04:02Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 12,
+    "warn_count": 24
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260315-102-001",
+      "title": "Korea Officially Enters Super-Aged Society: 21.2% of Population Over 65",
+      "steeps": "",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H2",
+      "priority_score": 2.704,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.925,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260315-101-002",
+      "title": "Korea Semiconductor Exports Shatter Records: $7.58B in First 10 Days of March (+175.9% YoY)",
+      "steeps": "",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "priority_score": 2.696,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.9,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260315-100-001",
+      "title": "North Korea Fires 10+ Ballistic Missiles During US-South Korea Freedom Shield Drills",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 2.689,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260315-101-001",
+      "title": "Hormuz Strait Blockade Threatens Korean Economy: Oil Import Dependency at 95%, Gasoline Prices Surging",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.681,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.85,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260315-105-002",
+      "title": "Samsung Semiconductor Technology Leak to China: 29 Billion Won Espionage Case Exposed",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 2.673,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.825,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260315-105-001",
+      "title": "Government Announces 2.08 Trillion Won AI Computing Infrastructure Project",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.666,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260315-100-002",
+      "title": "Korea-Japan Energy Security Cooperation: First Indo-Pacific Energy Minister Meeting in Tokyo",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 2.659,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.775,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260315-101-003",
+      "title": "Lee Jae-myung Government's 728 Trillion Won Expansionary Budget Signals Fiscal Policy Shift",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.659,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.775,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260315-104-001",
+      "title": "G7 Welcomes US Ceasefire Proposal for Russia-Ukraine War; Putin Signals Cautious Optimism",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 2.651,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260315-105-003",
+      "title": "Glass Substrate Commercialization Race Intensifies: Korean Absolics/SKC vs Intel vs TSMC",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 2.651,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260315-103-001",
+      "title": "National Integrated Care System Launches Nationwide in March 2026",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.644,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.725,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260315-103-002",
+      "title": "Korean ARPA-H Launches 9 Medical Innovation R&D Projects in 2026",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 2.636,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    }
+  ]
+}

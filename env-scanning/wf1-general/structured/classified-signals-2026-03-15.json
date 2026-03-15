@@ -1,0 +1,428 @@
+{
+  "scan_date": "2026-03-15",
+  "workflow": "wf1-general",
+  "scan_window": {
+    "start": "2026-03-13T21:36:58Z",
+    "end": "2026-03-14T21:36:58Z",
+    "lookback_hours": 24
+  },
+  "classification_method": "STEEPs_6_category",
+  "total_signals": 15,
+  "signals": [
+    {
+      "id": "wf1-20260315-001",
+      "title": "US-Iran War: Strait of Hormuz De Facto Closure Triggers Global Energy Crisis",
+      "steeps_category": "P_Political",
+      "sub_category": "Geopolitics/Energy Security",
+      "source": {
+        "name": "Multiple (Al Jazeera, CNBC, Wikipedia, Kpler)",
+        "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "Following joint US-Israel strikes on Iran beginning February 28, 2026, including killing Supreme Leader Khamenei, Iran declared the Strait of Hormuz closed on March 4. Tanker traffic dropped ~70% immediately and to near-zero subsequently. Brent crude jumped from $71.32 to over $100/barrel. 20% of global oil supply at risk, along with critical LNG and jet fuel volumes.",
+        "keywords": ["Iran war", "Strait of Hormuz", "oil crisis", "energy security", "geopolitics", "Middle East"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 9.5,
+        "political": 9.0,
+        "environmental": 7.0,
+        "social": 8.0,
+        "technological": 3.0,
+        "spiritual": 4.0
+      },
+      "confidence": 0.98,
+      "collected_at": "2026-03-14T21:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-002",
+      "title": "Meta Plans 20% Workforce Cuts (~16,000 Jobs) Amid $600B AI Infrastructure Push",
+      "steeps_category": "T_Technological",
+      "sub_category": "AI Industry/Corporate Strategy",
+      "source": {
+        "name": "CNBC/TechCrunch/Reuters",
+        "url": "https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "Meta is considering laying off up to 20% of its 79,000-person workforce (approximately 16,000 employees) to offset AI infrastructure costs. The company plans to invest up to $600B in data centers by 2028 and is offering hundreds-of-millions-dollar packages to recruit leading AI researchers for its superintelligence team. This represents the largest restructuring since the 2022-23 'year of efficiency.'",
+        "keywords": ["Meta", "layoffs", "AI infrastructure", "data centers", "superintelligence", "workforce reduction"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 8.5,
+        "political": 4.0,
+        "environmental": 5.0,
+        "social": 7.5,
+        "technological": 9.0,
+        "spiritual": 3.0
+      },
+      "confidence": 0.95,
+      "collected_at": "2026-03-14T20:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-003",
+      "title": "US Army Awards Anduril $20B AI Battlefield Network Contract",
+      "steeps_category": "T_Technological",
+      "sub_category": "Defense Technology/AI Military",
+      "source": {
+        "name": "Bloomberg/TechCrunch/DefenseScoop",
+        "url": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "The US Army awarded defense startup Anduril Industries a contract worth up to $20B over 10 years for its AI-fueled Lattice software platform, hardware, and services. The contract consolidates 120+ separate procurement actions into a unified enterprise deal. Lattice provides AI-enabled C2 (command and control) capabilities across multiple domains including counter-drone systems.",
+        "keywords": ["Anduril", "US Army", "defense AI", "Lattice", "military technology", "autonomous systems"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 7.0,
+        "political": 8.5,
+        "environmental": 2.0,
+        "social": 5.0,
+        "technological": 9.5,
+        "spiritual": 4.0
+      },
+      "confidence": 0.97,
+      "collected_at": "2026-03-14T19:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-004",
+      "title": "CFTC Launches First Comprehensive Prediction Markets Regulatory Framework",
+      "steeps_category": "P_Political",
+      "sub_category": "Financial Regulation/Fintech",
+      "source": {
+        "name": "Bloomberg/CoinDesk/CFTC Official",
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/9193-26",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "The CFTC issued new advisory guidance for prediction markets (DCMs including Kalshi, Coinbase, Polymarket) addressing manipulation, insider trading, and product approval. Simultaneously launched an Advanced Notice of Proposed Rulemaking with 45-day comment period. Marks a reversal from prior prohibition stance on political/sports event contracts, signaling rapid formalization of prediction markets as legitimate financial instruments.",
+        "keywords": ["CFTC", "prediction markets", "regulation", "Kalshi", "Polymarket", "event contracts"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 7.5,
+        "political": 8.0,
+        "environmental": 1.0,
+        "social": 6.0,
+        "technological": 6.5,
+        "spiritual": 3.0
+      },
+      "confidence": 0.96,
+      "collected_at": "2026-03-14T18:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-005",
+      "title": "China Reaffirms AI/Tech World Leadership in 15th Five-Year Plan: Xi Calls AI 'Epoch-Making'",
+      "steeps_category": "T_Technological",
+      "sub_category": "AI Geopolitics/National Strategy",
+      "source": {
+        "name": "Tom's Hardware/SCMP/Bloomberg",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/xi-jinping-calls-ai-epoch-making",
+        "published_date": "2026-03-09"
+      },
+      "content": {
+        "abstract": "Xi Jinping called AI 'the next epoch-making technological transformation, comparable to the Industrial Revolution.' China's 15th Five-Year Plan prioritizes multi-modal AI, AI agents, embodied AI, swarm intelligence, and AGI. China has 6,200+ AI enterprises with core AI industry valued at 1.2T yuan ($173.9B). 36% of global AI publications and ~50% of AI researchers originate from China. Chinese open-source LLMs hold 6 of top 10 trending spots on Hugging Face.",
+        "keywords": ["China AI", "Xi Jinping", "Five-Year Plan", "AI race", "tech sovereignty", "AGI"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 8.0,
+        "political": 9.0,
+        "environmental": 3.0,
+        "social": 6.0,
+        "technological": 9.5,
+        "spiritual": 2.0
+      },
+      "confidence": 0.94,
+      "collected_at": "2026-03-14T17:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-006",
+      "title": "RAMmageddon: AI Memory Shortage Creates Permanent Structural Reallocation of Global Wafer Capacity",
+      "steeps_category": "T_Technological",
+      "sub_category": "Semiconductors/Supply Chain",
+      "source": {
+        "name": "Fortune/Bloomberg/SDxCentral/IDC",
+        "url": "https://fortune.com/2026/02/15/ai-demand-memory-chip-shortage-crisis-dram-hbm-micron-skhynix-samsung/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "The global memory shortage ('RAMmageddon') is a potentially permanent strategic reallocation of silicon wafer capacity. HBM for AI consumes 3x the wafer capacity of DDR5. Samsung, SK Hynix, and Micron are pivoting cleanroom space to HBM for hyperscalers (Microsoft, Google, Meta, Amazon). DRAM prices rose 172% in 2025, with 75% surge in Dec-Jan alone. OEMs (Lenovo, Dell, HP) warn of 15-20% price hikes. Zero-sum: every HBM wafer is denied to consumer devices.",
+        "keywords": ["RAMmageddon", "HBM", "memory shortage", "DRAM", "semiconductor", "AI infrastructure"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 8.5,
+        "political": 5.0,
+        "environmental": 3.0,
+        "social": 6.0,
+        "technological": 9.0,
+        "spiritual": 1.0
+      },
+      "confidence": 0.93,
+      "collected_at": "2026-03-14T16:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-007",
+      "title": "Glass Substrates for AI Chips: Korea's Absolics/SKC Leads Commercialization Race",
+      "steeps_category": "T_Technological",
+      "sub_category": "Semiconductor Materials/Korea Tech",
+      "source": {
+        "name": "MIT Technology Review/Korea Herald",
+        "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Glass substrates could enable next-generation AI chips by guiding light for high-speed signal pathways and eliminating metal-layering defects. Absolics (SKC subsidiary) received $175M in US CHIPS Act grants, plans to start small-quantity manufacturing in 2026 with Vietnam expansion in 2027. SKC raising 1T won, investing 590B won in Absolics. First commercial glass-core products expected in NVIDIA Rubin and AMD MI400 series (late 2026/early 2027).",
+        "keywords": ["glass substrates", "Absolics", "SKC", "CHIPS Act", "NVIDIA Rubin", "semiconductor materials"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 7.5,
+        "political": 5.0,
+        "environmental": 3.0,
+        "social": 3.0,
+        "technological": 9.0,
+        "spiritual": 1.0
+      },
+      "confidence": 0.91,
+      "collected_at": "2026-03-14T15:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-008",
+      "title": "US Withdraws from 66 International Organizations Including Cancer Research (IARC) Funding",
+      "steeps_category": "P_Political",
+      "sub_category": "Multilateralism/Global Health",
+      "source": {
+        "name": "NPR/Bloomberg/State Department",
+        "url": "https://www.npr.org/2026/01/07/g-s1-104999/united-states-exits-international-organizations-united-nations",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "The Trump administration directed withdrawal from 66 international organizations, citing them as 'wasteful, ineffective, or harmful.' This includes 31 UN bodies. Separately, federal funding cuts have severely impacted NIH cancer research. The combined effect reduces US participation in global health governance and scientific cooperation, with IARC among organizations facing reduced US engagement. The pattern accelerates US retreat from multilateral institutions.",
+        "keywords": ["international organizations", "US withdrawal", "IARC", "multilateralism", "global health", "cancer research"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 5.0,
+        "political": 9.0,
+        "environmental": 4.0,
+        "social": 8.0,
+        "technological": 3.0,
+        "spiritual": 6.0
+      },
+      "confidence": 0.90,
+      "collected_at": "2026-03-14T14:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-009",
+      "title": "Federal Workforce Reduced by 270K-350K: DOGE-Driven Government Restructuring Enters Year Two",
+      "steeps_category": "P_Political",
+      "sub_category": "Government Reform/Public Administration",
+      "source": {
+        "name": "Federal News Network/Government Executive/CNBC",
+        "url": "https://federalnewsnetwork.com/workforce/2026/01/trump-lauds-tremendous-federal-workforce-cuts-good-government-group-calls-them-disturbing/",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "The federal civilian workforce has been reduced by 212,000-350,000 employees (~9-15% of 2.3M) through DOGE-driven layoffs, deferred-resignation deals (75,000 accepted), RIFs, and agency closures. Employment protections were removed by executive order. The Partnership for Public Service survey results expected March 2026 will quantify the full impact. States report cascading effects from federal funding disruptions.",
+        "keywords": ["DOGE", "federal workforce", "government layoffs", "civil service", "Trump administration", "RIF"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 7.0,
+        "political": 9.0,
+        "environmental": 3.0,
+        "social": 8.5,
+        "technological": 4.0,
+        "spiritual": 5.0
+      },
+      "confidence": 0.94,
+      "collected_at": "2026-03-14T13:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-010",
+      "title": "IEA Coordinates Largest-Ever Emergency Oil Release: 32 Nations Deploy 400M Barrels",
+      "steeps_category": "E_Economic",
+      "sub_category": "Energy Markets/International Cooperation",
+      "source": {
+        "name": "IEA/Al Jazeera/CNBC/NPR",
+        "url": "https://www.iea.org/news/iea-member-countries-to-carry-out-largest-ever-oil-stock-release-amid-market-disruptions-from-middle-east-conflict",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "32 IEA member nations unanimously agreed to release 400 million barrels from emergency reserves — the largest coordinated release in IEA's 52-year history (6th ever). The US contributes 172M barrels from the SPR (already at 30-year low), to be delivered over 120 days. Triggered by Strait of Hormuz de facto closure reducing oil flows to <10% of pre-conflict levels. Goldman Sachs projects $100+ oil and $3.50/gallon US gasoline if the conflict persists.",
+        "keywords": ["IEA", "strategic petroleum reserve", "oil release", "energy crisis", "Iran war", "emergency response"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 9.0,
+        "political": 8.0,
+        "environmental": 5.0,
+        "social": 7.0,
+        "technological": 2.0,
+        "spiritual": 1.0
+      },
+      "confidence": 0.97,
+      "collected_at": "2026-03-14T12:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-011",
+      "title": "Pentagon vs Anthropic: AI Military Ethics Crisis — Claude Banned from Federal Use",
+      "steeps_category": "s_spiritual",
+      "sub_category": "AI Ethics/Military-Tech Relations",
+      "source": {
+        "name": "MIT Technology Review/Washington Post/The Intercept",
+        "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Pentagon Chief Tech Officer clashed with Anthropic over autonomous warfare use of Claude AI. Anthropic refused to allow fully autonomous lethal targeting and mass domestic surveillance. Secretary of War Hegseth designated Anthropic a 'supply chain risk' on March 4-5. Trump ordered federal agencies to stop using Claude (6-month phase-out). Claude was reportedly used in the capture of Venezuela's Maduro and planning for Iran strike. OpenAI stepped in with its own military contract.",
+        "keywords": ["Anthropic", "Pentagon", "AI ethics", "autonomous weapons", "Claude", "military AI"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 6.0,
+        "political": 9.0,
+        "environmental": 1.0,
+        "social": 7.0,
+        "technological": 8.5,
+        "spiritual": 9.5
+      },
+      "confidence": 0.96,
+      "collected_at": "2026-03-14T11:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-012",
+      "title": "Honda Cancels US EV Lineup: $15.8B Loss Marks First Annual Deficit in 70 Years",
+      "steeps_category": "E_Economic",
+      "sub_category": "Automotive/Energy Transition",
+      "source": {
+        "name": "TechCrunch/The Autopian/Electrek/Honda Global",
+        "url": "https://techcrunch.com/2026/03/12/honda-scraps-3-evs-planned-for-the-us-blaming-tariffs-and-chinese-competition/",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Honda cancelled three planned US EVs (Honda 0 SUV, 0 Saloon, Acura RSX) due to EV market slowdown, expiry of $7,500 tax credit (Sept 2025), relaxed emissions standards, and Chinese competition. Restructuring costs could reach 2.5T yen ($15.8B), marking Honda's first annual loss in ~70 years. Strategic pivot to hybrids. Ironically occurs as gas prices soar due to Iran war.",
+        "keywords": ["Honda", "EV cancellation", "electric vehicles", "automotive industry", "energy transition", "hybrid"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 7.5,
+        "political": 5.0,
+        "environmental": 7.0,
+        "social": 4.0,
+        "technological": 6.0,
+        "spiritual": 2.0
+      },
+      "confidence": 0.95,
+      "collected_at": "2026-03-14T10:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-013",
+      "title": "Physical AI in Manufacturing: Microsoft-NVIDIA Partnership Signals Industrial AI Inflection Point",
+      "steeps_category": "T_Technological",
+      "sub_category": "Robotics/Industrial AI",
+      "source": {
+        "name": "MIT Technology Review/VentureBeat/NVIDIA",
+        "url": "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "NVIDIA GTC 2026 (March 16-19, San Jose) positions physical AI as an inflection point for manufacturing. NVIDIA's Vera CPU + Rubin GPU integration aims to become the 'operating system for robotics and autonomous manufacturing.' Partners including Boston Dynamics, Caterpillar, LG, NEURA Robotics debut next-gen robots. Microsoft provides cloud/data platform for physical AI at scale. New Omniverse simulation tools for digital twins.",
+        "keywords": ["physical AI", "NVIDIA GTC", "robotics", "manufacturing", "Microsoft", "digital twins"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 7.0,
+        "political": 3.0,
+        "environmental": 4.0,
+        "social": 5.0,
+        "technological": 9.5,
+        "spiritual": 2.0
+      },
+      "confidence": 0.93,
+      "collected_at": "2026-03-14T09:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-014",
+      "title": "Persistent Launches $70M Africa Climate-Tech Venture Fund with AfDB/JICA/Soros Backing",
+      "steeps_category": "E_Environmental",
+      "sub_category": "Climate Finance/Development",
+      "source": {
+        "name": "TechMoran/Disrupt Africa/Innovation Village",
+        "url": "https://disruptafrica.com/2026/03/13/persistent-launches-us70m-climate-venture-builder-fund-for-african-climate-tech-startups/",
+        "published_date": "2026-03-13"
+      },
+      "content": {
+        "abstract": "Climate venture builder Persistent launched a $70M fund for African climate-tech startups (pre-seed to Series A), with $52M first close. Combines equity investment with venture building platform. Backed by FSD Africa ($10M), Nordic Development Fund, AfDB/SEFA, JICA, Soros Economic Development Fund, Schmidt Family Foundation. Targets energy, agriculture, resource transitions. Aims to mitigate 17M+ tons GHG, create 60,000+ jobs, improve electricity for 420,000+ households.",
+        "keywords": ["Africa", "climate tech", "venture fund", "clean energy", "development finance", "impact investing"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 6.0,
+        "political": 4.0,
+        "environmental": 9.0,
+        "social": 7.0,
+        "technological": 5.0,
+        "spiritual": 3.0
+      },
+      "confidence": 0.92,
+      "collected_at": "2026-03-14T08:00:00Z"
+    },
+    {
+      "id": "wf1-20260315-015",
+      "title": "Iran Water Crisis: Climate Drought + War Compound to Push Tehran Toward Day Zero",
+      "steeps_category": "E_Environmental",
+      "sub_category": "Water Security/Climate-Conflict Nexus",
+      "source": {
+        "name": "Bloomberg/Carbon Brief/Euronews",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/war-is-pushing-iran-s-water-supply-to-the-brink-of-collapse",
+        "published_date": "2026-03-12"
+      },
+      "content": {
+        "abstract": "Iran faces compound water crisis from 5-year record drought + war impacts. Tehran reservoirs below 10% capacity, approaching 'Day Zero.' President Pezeshkian warned of capital relocation from arid Tehran to coastal regions. Climate change makes extreme dry years 10x more likely (World Weather Attribution). War disrupts desalination infrastructure and regional water systems. Acid rain from military strikes compounds environmental damage.",
+        "keywords": ["Iran", "water crisis", "Day Zero", "climate change", "drought", "war environment"],
+        "language": "en"
+      },
+      "signal_impact_scores": {
+        "economic": 6.0,
+        "political": 7.0,
+        "environmental": 9.5,
+        "social": 8.5,
+        "technological": 2.0,
+        "spiritual": 5.0
+      },
+      "confidence": 0.94,
+      "collected_at": "2026-03-14T07:00:00Z"
+    }
+  ],
+  "steeps_distribution": {
+    "S_Social": 0,
+    "T_Technological": 6,
+    "E_Economic": 2,
+    "E_Environmental": 2,
+    "P_Political": 4,
+    "s_spiritual": 1
+  },
+  "scan_metadata": {
+    "execution_proof": {
+      "execution_id": "wf1-scan-2026-03-15-06-36-58-a4b2",
+      "started_at": "2026-03-14T21:36:58Z",
+      "completed_at": "2026-03-14T22:10:00Z",
+      "actual_api_calls": {
+        "web_search": 12,
+        "arxiv_api": 0
+      },
+      "actual_sources_scanned": [
+        "CNBC", "TechCrunch", "Bloomberg", "Al Jazeera", "MIT Technology Review",
+        "Fortune", "NPR", "CFTC Official", "IEA", "Washington Post",
+        "Korea Herald", "Tom's Hardware", "Federal News Network"
+      ],
+      "file_created_at": "2026-03-14T22:10:00Z"
+    }
+  }
+}

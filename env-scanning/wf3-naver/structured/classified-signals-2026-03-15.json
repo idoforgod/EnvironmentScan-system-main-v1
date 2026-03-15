@@ -1,0 +1,171 @@
+{
+  "scan_date": "2026-03-15",
+  "workflow": "wf3-naver",
+  "scan_window": {
+    "start": "2026-03-13T21:36:58Z",
+    "end": "2026-03-14T21:36:58Z",
+    "lookback_hours": 24
+  },
+  "classification_method": "STEEPs_6_category_with_FSSF",
+  "total_signals": 12,
+  "signals": [
+    {
+      "id": "naver-20260315-100-001",
+      "title": "North Korea Fires 10+ Ballistic Missiles During US-South Korea Freedom Shield Drills",
+      "steeps_category": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "정치", "section_id": 100, "url": "https://news.naver.com/section/100", "published_date": "2026-03-14"},
+      "content": {"abstract": "North Korea launched 10+ ballistic missiles (assessed as 600mm MLRS) from Sunan area toward East Sea during Freedom Shield drills. Missiles flew ~350km. Third ballistic missile test of 2026. Coincides with 18,000 US-ROK troop joint exercises running March 9-19.", "keywords": ["North Korea", "ballistic missile", "Freedom Shield", "MLRS", "East Asian security"], "language": "ko"},
+      "signal_impact_scores": {"political": 9.0, "social": 7.0},
+      "confidence": 0.95,
+      "tipping_point": {"alert_level": "ORANGE", "pattern": "Flickering", "description": "Third missile test in 2026 amid global Middle East conflict -- provocation frequency increasing"}
+    },
+    {
+      "id": "naver-20260315-101-001",
+      "title": "Hormuz Strait Blockade Threatens Korean Economy: Oil Import Dependency at 95%, Gasoline Prices Surging",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "경제", "section_id": 101, "url": "https://news.naver.com/section/101", "published_date": "2026-03-14"},
+      "content": {"abstract": "Korea imports 95%+ of crude oil via Hormuz Strait. With blockade, oil prices surpassed $130/bbl. Government reviewing SPR release and energy conservation measures. HMM and major shipping companies suspended Middle East route operations. CPI expected to re-enter 3% range, undermining Bank of Korea's 2% inflation target.", "keywords": ["Hormuz Strait", "oil prices", "Korea economy", "SPR", "inflation"], "language": "ko"},
+      "signal_impact_scores": {"economic": 9.5, "political": 7.0, "social": 6.0},
+      "confidence": 0.94
+    },
+    {
+      "id": "naver-20260315-101-002",
+      "title": "Korea Semiconductor Exports Shatter Records: $7.58B in First 10 Days of March (+175.9% YoY)",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "경제", "section_id": 101, "url": "https://news.naver.com/section/101", "published_date": "2026-03-14"},
+      "content": {"abstract": "Korea's March 1-10 exports reached $21.5B (+55.6% YoY), breaking previous record. Semiconductor exports at $7.588B (+175.9% YoY). AI-driven HBM demand is primary driver. SK Hynix preparing HBM4 final samples for NVIDIA. Samsung and SK Hynix committing largest-ever capex in 2026.", "keywords": ["semiconductor exports", "HBM4", "SK Hynix", "Samsung", "AI chips"], "language": "ko"},
+      "signal_impact_scores": {"economic": 9.0, "technological": 9.0},
+      "confidence": 0.96
+    },
+    {
+      "id": "naver-20260315-105-001",
+      "title": "Government Announces 2.08 Trillion Won AI Computing Infrastructure Project",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "IT과학", "section_id": 105, "url": "https://news.naver.com/section/105", "published_date": "2026-03-14"},
+      "content": {"abstract": "Ministry of Science and ICT and NIPA announced 2.0805 trillion won AI computing resource reinforcement project. Large-scale GPU infrastructure construction and operation being promoted. Part of sovereign AI strategy to reduce dependency on foreign cloud providers.", "keywords": ["AI computing", "GPU infrastructure", "sovereign AI", "government investment", "MSIT"], "language": "ko"},
+      "signal_impact_scores": {"technological": 8.5, "economic": 7.0, "political": 6.0},
+      "confidence": 0.92
+    },
+    {
+      "id": "naver-20260315-102-001",
+      "title": "Korea Officially Enters Super-Aged Society: 21.2% of Population Over 65",
+      "steeps_category": "S_Social",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H2",
+      "source": {"name": "NaverNews", "section": "사회", "section_id": 102, "url": "https://news.naver.com/section/102", "published_date": "2026-03-14"},
+      "content": {"abstract": "Korea now has 10.84 million people aged 65+, comprising 21.21% of population of 51.11 million. Working-age population projected to fall from 36.57M (2023) to 16.58M (2072). Fertility rate at 0.72 (world's lowest). Over $200B spent on fertility programs with minimal effect. By 2050, elderly will exceed 40% of population.", "keywords": ["super-aged society", "demographic crisis", "fertility rate", "population decline", "workforce"], "language": "ko"},
+      "signal_impact_scores": {"social": 9.5, "economic": 8.5},
+      "confidence": 0.97,
+      "tipping_point": {"alert_level": "RED", "pattern": "Critical Slowing Down", "description": "Structural demographic decline now irreversible within current policy framework -- system passed tipping point"}
+    },
+    {
+      "id": "naver-20260315-100-002",
+      "title": "Korea-Japan Energy Security Cooperation: First Indo-Pacific Energy Minister Meeting in Tokyo",
+      "steeps_category": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "정치", "section_id": 100, "url": "https://news.naver.com/section/100", "published_date": "2026-03-14"},
+      "content": {"abstract": "Trade Minister Kim Jung-kwan attended first Indo-Pacific Energy Security Minister Meeting in Tokyo (March 14-15). Korea and Japan agreed to establish new bilateral industrial/trade policy dialogue. Cooperation driven by shared vulnerability to Hormuz Strait blockade -- both nations heavily dependent on Middle East oil imports.", "keywords": ["Korea-Japan", "energy security", "Indo-Pacific", "trade dialogue", "bilateral cooperation"], "language": "ko"},
+      "signal_impact_scores": {"political": 8.0, "economic": 7.0},
+      "confidence": 0.91
+    },
+    {
+      "id": "naver-20260315-105-002",
+      "title": "Samsung Semiconductor Technology Leak to China: 29 Billion Won Espionage Case Exposed",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "IT과학", "section_id": 105, "url": "https://news.naver.com/section/105", "published_date": "2026-03-13"},
+      "content": {"abstract": "Samsung Electronics supplier employees arrested for leaking core semiconductor technology to Chinese companies for approximately 2.9 billion won. Case exposes vulnerability of Korean semiconductor supply chain to espionage. Comes amid intensifying US-China tech competition and Korean companies' strategic importance in global chip supply.", "keywords": ["Samsung", "technology leak", "China", "semiconductor espionage", "supply chain security"], "language": "ko"},
+      "signal_impact_scores": {"technological": 8.0, "political": 7.5, "economic": 7.0},
+      "confidence": 0.93
+    },
+    {
+      "id": "naver-20260315-104-001",
+      "title": "G7 Welcomes US Ceasefire Proposal for Russia-Ukraine War; Putin Signals Cautious Optimism",
+      "steeps_category": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "세계", "section_id": 104, "url": "https://news.naver.com/section/104", "published_date": "2026-03-14"},
+      "content": {"abstract": "G7 foreign ministers on March 14 welcomed US-proposed Russia-Ukraine ceasefire plan, urging Russia to accept. Kremlin spokesperson stated 'cautious optimism' after Putin met with US Middle East envoy in Moscow. Parallel Middle East and Ukraine diplomacy creating complex geopolitical linkages.", "keywords": ["G7", "Russia-Ukraine", "ceasefire", "Putin", "diplomacy"], "language": "ko"},
+      "signal_impact_scores": {"political": 8.5, "economic": 6.0},
+      "confidence": 0.90
+    },
+    {
+      "id": "naver-20260315-103-001",
+      "title": "National Integrated Care System Launches Nationwide in March 2026",
+      "steeps_category": "S_Social",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "생활문화", "section_id": 103, "url": "https://news.naver.com/section/103", "published_date": "2026-03-14"},
+      "content": {"abstract": "Korea's integrated care support system (통합돌봄) expanded to nationwide implementation in March 2026 after 2025 pilot. Designed to address aging population needs through coordinated healthcare, welfare, and housing services. Elderly job positions expanded from 1.096M to 1.15M. Basic pension increased to 349,700 won/month.", "keywords": ["integrated care", "elderly welfare", "aging population", "basic pension", "social services"], "language": "ko"},
+      "signal_impact_scores": {"social": 7.5, "economic": 5.0},
+      "confidence": 0.89
+    },
+    {
+      "id": "naver-20260315-101-003",
+      "title": "Lee Jae-myung Government's 728 Trillion Won Expansionary Budget Signals Fiscal Policy Shift",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "source": {"name": "NaverNews", "section": "경제", "section_id": 101, "url": "https://news.naver.com/section/101", "published_date": "2026-03-14"},
+      "content": {"abstract": "Lee Jae-myung government set 2026 total budget at 728 trillion won (+8.1% from 2025's 673.3T won), formalizing expansionary fiscal stance. 123 national policy tasks under 5 goals. National vision: 'A nation where the people are owners, a Korea where all are happy together.' Focus on innovative economy, balanced growth, and strong social safety net.", "keywords": ["government budget", "expansionary fiscal", "Lee Jae-myung", "national policy", "economic growth"], "language": "ko"},
+      "signal_impact_scores": {"economic": 8.0, "political": 7.5},
+      "confidence": 0.91
+    },
+    {
+      "id": "naver-20260315-105-003",
+      "title": "Glass Substrate Commercialization Race Intensifies: Korean Absolics/SKC vs Intel vs TSMC",
+      "steeps_category": "T_Technological",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "source": {"name": "NaverNews", "section": "IT과학", "section_id": 105, "url": "https://news.naver.com/section/105", "published_date": "2026-03-13"},
+      "content": {"abstract": "Competition for glass substrate commercialization intensifying as companies seek to reduce NVIDIA dependency. Korean Absolics (SKC subsidiary) leading mass production race against Intel and TSMC. Glass substrates enable higher I/O density critical for next-gen AI chips. Part of broader movement toward advanced packaging technologies.", "keywords": ["glass substrates", "Absolics", "SKC", "advanced packaging", "AI chips"], "language": "ko"},
+      "signal_impact_scores": {"technological": 8.5, "economic": 7.0},
+      "confidence": 0.90
+    },
+    {
+      "id": "naver-20260315-103-002",
+      "title": "Korean ARPA-H Launches 9 Medical Innovation R&D Projects in 2026",
+      "steeps_category": "S_Social",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {"name": "NaverNews", "section": "생활문화", "section_id": 103, "url": "https://news.naver.com/section/103", "published_date": "2026-03-14"},
+      "content": {"abstract": "Korea's ARPA-H equivalent program launches 9 new R&D projects to tackle healthcare grand challenges. Government-led innovation program designed to solve intractable medical problems through high-risk, high-reward research. Part of broader health system reform including health insurance premium increase to 7.19% and integrated care expansion.", "keywords": ["ARPA-H", "medical innovation", "healthcare R&D", "health insurance", "government program"], "language": "ko"},
+      "signal_impact_scores": {"social": 7.0, "technological": 7.0},
+      "confidence": 0.88
+    }
+  ],
+  "steeps_distribution": {
+    "S_Social": 3,
+    "T_Technological": 4,
+    "E_Economic": 2,
+    "E_Environmental": 0,
+    "P_Political": 3,
+    "s_spiritual": 0
+  },
+  "fssf_distribution": {
+    "Weak Signal": 0,
+    "Wild Card": 2,
+    "Discontinuity": 0,
+    "Driver": 2,
+    "Emerging Issue": 3,
+    "Precursor Event": 0,
+    "Trend": 3,
+    "Megatrend": 2
+  },
+  "tipping_point_alerts": {
+    "RED": 1,
+    "ORANGE": 1,
+    "YELLOW": 0,
+    "GREEN": 10
+  }
+}

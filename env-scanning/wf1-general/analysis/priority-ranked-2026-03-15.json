@@ -1,0 +1,350 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-15",
+    "computed_at": "2026-03-14T21:41:14Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 15,
+    "warn_count": 30
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "wf1-20260315-001",
+      "title": "US-Iran War: Strait of Hormuz De Facto Closure Triggers Global Energy Crisis",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.711,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.95,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "wf1-20260315-003",
+      "title": "US Army Awards Anduril $20B AI Battlefield Network Contract",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.704,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.925,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "wf1-20260315-010",
+      "title": "IEA Coordinates Largest-Ever Emergency Oil Release: 32 Nations Deploy 400M Barrels",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.704,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.925,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "wf1-20260315-004",
+      "title": "CFTC Launches First Comprehensive Prediction Markets Regulatory Framework",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.696,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.9,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "wf1-20260315-011",
+      "title": "Pentagon vs Anthropic: AI Military Ethics Crisis — Claude Banned from Federal Use",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.696,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.9,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "wf1-20260315-002",
+      "title": "Meta Plans 20% Workforce Cuts (~16,000 Jobs) Amid $600B AI Infrastructure Push",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.689,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "wf1-20260315-012",
+      "title": "Honda Cancels US EV Lineup: $15.8B Loss Marks First Annual Deficit in 70 Years",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.689,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "wf1-20260315-005",
+      "title": "China Reaffirms AI/Tech World Leadership in 15th Five-Year Plan: Xi Calls AI 'Epoch-Making'",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.681,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.85,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "wf1-20260315-009",
+      "title": "Federal Workforce Reduced by 270K-350K: DOGE-Driven Government Restructuring Enters Year Two",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.681,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.85,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "wf1-20260315-015",
+      "title": "Iran Water Crisis: Climate Drought + War Compound to Push Tehran Toward Day Zero",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.681,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.85,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "wf1-20260315-006",
+      "title": "RAMmageddon: AI Memory Shortage Creates Permanent Structural Reallocation of Global Wafer Capacity",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.673,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.825,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "wf1-20260315-013",
+      "title": "Physical AI in Manufacturing: Microsoft-NVIDIA Partnership Signals Industrial AI Inflection Point",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.673,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.825,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "wf1-20260315-014",
+      "title": "Persistent Launches $70M Africa Climate-Tech Venture Fund with AfDB/JICA/Soros Backing",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.666,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "wf1-20260315-007",
+      "title": "Glass Substrates for AI Chips: Korea's Absolics/SKC Leads Commercialization Race",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.659,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.775,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "wf1-20260315-008",
+      "title": "US Withdraws from 66 International Organizations Including Cancer Research (IARC) Funding",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.651,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    }
+  ]
+}

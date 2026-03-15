@@ -1,0 +1,137 @@
+{
+  "engine_version": "1.4.0",
+  "computed_at": "2026-03-14T22:12:23Z",
+  "source_file": "wf4-multiglobal-news/structured/classified-signals-2026-03-15.json",
+  "workflow_type": "multiglobal-news",
+  "total_signals": 12,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 0,
+      "s": 0
+    },
+    "fssf": {
+      "Weak Signal": 1,
+      "Wild Card": 2,
+      "Discontinuity": 2,
+      "Driver": 1,
+      "Emerging Issue": 2,
+      "Precursor Event": 2,
+      "Trend": 1,
+      "Megatrend": 1
+    },
+    "horizons": {
+      "H1": 0,
+      "H2": 0,
+      "H3": 0
+    },
+    "tipping_point_alerts": {
+      "RED": {
+        "count": 0,
+        "signals": []
+      },
+      "ORANGE": {
+        "count": 0,
+        "signals": []
+      },
+      "YELLOW": {
+        "count": 0,
+        "signals": []
+      },
+      "GREEN": {
+        "count": 12,
+        "signals": [
+          "US Withdraws Global AI Chip Export Permit Rule — Deregulation Reversal",
+          "US Strikes Obliterate Iran's Kharg Island Oil Terminal — 90% of Iran's Exports at Risk",
+          "Record March Heat Wave in Western US: Arizona/California 90F+ as Heat Dome Expands",
+          "WindEurope: Hormuz Crisis Proves Europe Must Shift to Renewable Electricity Now",
+          "China's 15th Five-Year Plan Approved at NPC: Clean Energy Investment as Oil Hedge",
+          "EU Digital Omnibus 'Stop-the-Clock': High-Risk AI Compliance Delayed to 2027-2028",
+          "US Withdraws from WHO: Global Pandemic Preparedness Framework at Risk",
+          "Ethiopia Landslides Kill 102+: Climate Disasters Intensifying in East Africa",
+          "Lufthansa Pilot Strike: 48-Hour Walkout Grounds All German Airport Departures",
+          "Global Solar/Wind Installations Hit 800 GW Record in 2025; Growth Plateauing in 2026",
+          "UNCTAD: Trump Tariffs End 25-Year AGOA Trade Preferences for Africa",
+          "Nature Editorial: 2026 Must Be Year World Comes Together for AI Safety"
+        ]
+      }
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "12",
+    "DOMAIN_DISTRIBUTION": "",
+    "TOP_PRIORITY_COUNT": "0",
+    "FSSF_WEAK_SIGNAL_COUNT": "1",
+    "FSSF_WEAK_SIGNAL_PCT": "8%",
+    "FSSF_WILD_CARD_COUNT": "2",
+    "FSSF_WILD_CARD_PCT": "17%",
+    "FSSF_DISCONTINUITY_COUNT": "2",
+    "FSSF_DISCONTINUITY_PCT": "17%",
+    "FSSF_DRIVER_COUNT": "1",
+    "FSSF_DRIVER_PCT": "8%",
+    "FSSF_EMERGING_ISSUE_COUNT": "2",
+    "FSSF_EMERGING_ISSUE_PCT": "17%",
+    "FSSF_PRECURSOR_COUNT": "2",
+    "FSSF_PRECURSOR_PCT": "17%",
+    "FSSF_TREND_COUNT": "1",
+    "FSSF_TREND_PCT": "8%",
+    "FSSF_MEGATREND_COUNT": "1",
+    "FSSF_MEGATREND_PCT": "8%",
+    "FSSF_DIST_WS_COUNT": "1",
+    "FSSF_DIST_WC_COUNT": "2",
+    "FSSF_DIST_DC_COUNT": "2",
+    "FSSF_DIST_DR_COUNT": "1",
+    "FSSF_DIST_EI_COUNT": "2",
+    "FSSF_DIST_PE_COUNT": "2",
+    "FSSF_DIST_TR_COUNT": "1",
+    "FSSF_DIST_MT_COUNT": "1",
+    "H1_COUNT": "0",
+    "H1_PCT": "0%",
+    "H2_COUNT": "0",
+    "H2_PCT": "0%",
+    "H3_COUNT": "0",
+    "H3_PCT": "0%",
+    "TIPPING_POINT_ALERT_SUMMARY": "| GREEN | 12 | US Withdraws Global AI Chip Export Permit Rule — Deregulation Reversal, US Strikes Obliterate Iran's Kharg Island Oil Terminal — 90% of Iran's Exports at Risk, Record March Heat Wave in Western US: Arizona/California 90F+ as Heat Dome Expands and 9 |",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "N/A",
+    "EVOLUTION_TABLE_WEAKENING": "N/A",
+    "TOTAL_SITES_CRAWLED": "0",
+    "TOTAL_SITES_SUCCEEDED": "0",
+    "TOTAL_SITES_FAILED": "0",
+    "TOTAL_ARTICLES": "0",
+    "CRAWL_DATETIME": "N/A",
+    "SN_RATIO": "N/A",
+    "DEFENSE_LOG_TABLE": "N/A",
+    "BY_LANGUAGE_KO": "0",
+    "BY_LANGUAGE_EN": "0",
+    "BY_LANGUAGE_ZH": "0",
+    "BY_LANGUAGE_JA": "0",
+    "BY_LANGUAGE_DE": "0",
+    "BY_LANGUAGE_FR": "0",
+    "BY_LANGUAGE_RU": "0",
+    "BY_LANGUAGE_OTHER": "0",
+    "CRAWL_SITE_TABLE": "N/A",
+    "TRANSLATION_TOTAL": "0",
+    "TRANSLATION_FAILED": "0",
+    "TRANSLATION_STATS_TABLE": "N/A"
+  }
+}

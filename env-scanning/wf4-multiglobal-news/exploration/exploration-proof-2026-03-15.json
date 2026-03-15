@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-15",
+  "gate_id": "EG-2026-03-15-wf4",
+  "gate_decision": "SKIP",
+  "execution_status": "skipped",
+  "exploration_date": "2026-03-15",
+  "workflow": "wf4-multiglobal-news",
+  "stage_c_executed": false,
+  "reason": "WF4 Multi&Global-News workflow uses fixed source list (43 direct news sites). Source exploration is not applicable -- source list is maintained in sources-multiglobal-news.yaml.",
+  "coverage_analysis": {
+    "steeps_gaps": ["T_Technological"],
+    "gap_threshold": 0.15,
+    "gap_categories_found": 1,
+    "note": "Technology gap reflects classification choices (AI policy classified under Political rather than Technology). Underlying content includes substantial technology dimensions."
+  },
+  "candidates": [],
+  "summary": "Source exploration skipped for WF4 (fixed source list workflow). 43 direct news sites configured in sources-multiglobal-news.yaml."
+}

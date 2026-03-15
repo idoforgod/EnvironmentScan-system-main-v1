@@ -1,0 +1,284 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf2-arxiv",
+    "date": "2026-03-15",
+    "computed_at": "2026-03-14T21:53:20Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 12,
+    "warn_count": 24
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-20260315-002",
+      "title": "Safety in Large Reasoning Models: Unique Challenges Beyond Standard LLM Safety",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.681,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.85,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-20260315-009",
+      "title": "Ethical Reasoning vs Safety Alignment Tension in LLMs",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.673,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.825,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-20260315-001",
+      "title": "Scaling Laws of Scientific Discovery with AI and Robot Scientists",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.666,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-20260315-010",
+      "title": "NeuralGCM Climate Modeling: Matching 10-15 Day Forecasts with 1000x Computational Savings",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.666,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260315-003",
+      "title": "Efficiency vs Demand in AI Electricity: Post-AGI Scaling Implications",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.659,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.775,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-20260315-007",
+      "title": "AI and Net-Zero: Energy Demand, Emissions, and Transition Potential",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.659,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.775,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-20260315-006",
+      "title": "Deliberative Alignment via Legal Precedent Reasoning for LLM Safety",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.651,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260315-012",
+      "title": "Embodied AI: Emerging Risks and Opportunities for Policy Action",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.651,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-20260315-004",
+      "title": "Vision-Language-Action Models on Soft Robots: Bridging Embodiment Gaps",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.644,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.725,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-20260315-011",
+      "title": "Addressing Logical Fallacies in Scientific Reasoning from LLMs: Dual-Inference Framework",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.644,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.725,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-20260315-005",
+      "title": "Quantum Computing Strategic Recommendations for Industry 2026",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.636,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-20260315-008",
+      "title": "DIG to Heal: Scaling General-Purpose Agent Collaboration via Explainable Decision Paths",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 2.636,
+      "psst_score": 31.3,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 1.565,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 30,
+        "DC": 72
+      }
+    }
+  ]
+}

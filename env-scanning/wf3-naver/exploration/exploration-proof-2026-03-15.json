@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-15",
+  "gate_id": "EG-2026-03-15-wf3",
+  "gate_decision": "SKIP",
+  "execution_status": "skipped",
+  "exploration_date": "2026-03-15",
+  "workflow": "wf3-naver",
+  "stage_c_executed": false,
+  "reason": "WF3 Naver News workflow uses fixed source (Naver News 6 sections). Source exploration is not applicable -- Naver News is the sole, dedicated source.",
+  "coverage_analysis": {
+    "steeps_gaps": ["E_Environmental", "s_spiritual"],
+    "gap_threshold": 0.15,
+    "gap_categories_found": 2,
+    "note": "Environmental and Spiritual gaps are reflective of Korean news cycle focus on immediate events."
+  },
+  "candidates": [],
+  "summary": "Source exploration skipped for WF3 (Naver-only workflow). Naver News is the sole dedicated source with 6 fixed sections."
+}

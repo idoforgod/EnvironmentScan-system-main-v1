@@ -1,0 +1,73 @@
+{
+  "generator": "temporal_anchor.py",
+  "generator_version": "1.1.0",
+  "generated_at": "2026-03-14T21:36:58.166072+00:00",
+  "anchor_timestamp": "2026-03-14T21:36:58.165524+00:00",
+  "anchor_date": "2026-03-14",
+  "anchor_time_ko": "2026년 03월 14일 21:36:58 UTC",
+  "anchor_time_en": "March 14, 2026 21:36:58 UTC",
+  "temporal_consistency_enabled": true,
+  "default_lookback_hours": 24,
+  "default_tolerance_minutes": 30,
+  "default_enforce": "strict",
+  "workflows": {
+    "wf1-general": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-03-13T21:36:58.165524+00:00",
+      "window_end": "2026-03-14T21:36:58.165524+00:00",
+      "effective_start": "2026-03-13T21:06:58.165524+00:00",
+      "window_start_ko": "2026년 03월 13일 21:36 UTC",
+      "window_end_ko": "2026년 03월 14일 21:36 UTC",
+      "window_start_en": "March 13, 2026 21:36 UTC",
+      "window_end_en": "March 14, 2026 21:36 UTC",
+      "window_start_date": "2026-03-13",
+      "window_end_date": "2026-03-14"
+    },
+    "wf2-arxiv": {
+      "lookback_hours": 48,
+      "tolerance_minutes": 60,
+      "enforce": "strict",
+      "window_start": "2026-03-12T21:36:58.165524+00:00",
+      "window_end": "2026-03-14T21:36:58.165524+00:00",
+      "effective_start": "2026-03-12T20:36:58.165524+00:00",
+      "window_start_ko": "2026년 03월 12일 21:36 UTC",
+      "window_end_ko": "2026년 03월 14일 21:36 UTC",
+      "window_start_en": "March 12, 2026 21:36 UTC",
+      "window_end_en": "March 14, 2026 21:36 UTC",
+      "window_start_date": "2026-03-12",
+      "window_end_date": "2026-03-14"
+    },
+    "wf3-naver": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-03-13T21:36:58.165524+00:00",
+      "window_end": "2026-03-14T21:36:58.165524+00:00",
+      "effective_start": "2026-03-13T21:06:58.165524+00:00",
+      "window_start_ko": "2026년 03월 13일 21:36 UTC",
+      "window_end_ko": "2026년 03월 14일 21:36 UTC",
+      "window_start_en": "March 13, 2026 21:36 UTC",
+      "window_end_en": "March 14, 2026 21:36 UTC",
+      "window_start_date": "2026-03-13",
+      "window_end_date": "2026-03-14"
+    },
+    "wf4-multiglobal-news": {
+      "lookback_hours": 24,
+      "tolerance_minutes": 30,
+      "enforce": "strict",
+      "window_start": "2026-03-13T21:36:58.165524+00:00",
+      "window_end": "2026-03-14T21:36:58.165524+00:00",
+      "effective_start": "2026-03-13T21:06:58.165524+00:00",
+      "window_start_ko": "2026년 03월 13일 21:36 UTC",
+      "window_end_ko": "2026년 03월 14일 21:36 UTC",
+      "window_start_en": "March 13, 2026 21:36 UTC",
+      "window_end_en": "March 14, 2026 21:36 UTC",
+      "window_start_date": "2026-03-13",
+      "window_end_date": "2026-03-14"
+    }
+  },
+  "registry_path": "env-scanning/config/workflow-registry.yaml",
+  "registry_version": "2.5.0"
+}

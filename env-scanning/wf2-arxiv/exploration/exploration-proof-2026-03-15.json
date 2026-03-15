@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-15",
+  "gate_id": "EG-2026-03-15-wf2",
+  "gate_decision": "SKIP",
+  "execution_status": "skipped",
+  "exploration_date": "2026-03-15",
+  "workflow": "wf2-arxiv",
+  "stage_c_executed": false,
+  "reason": "WF2 arXiv workflow uses fixed source (arXiv API). Source exploration is not applicable -- arXiv is the sole, dedicated source for this workflow. No coverage gaps addressable by adding new sources.",
+  "coverage_analysis": {
+    "steeps_gaps": ["S_Social", "E_Economic"],
+    "gap_threshold": 0.15,
+    "gap_categories_found": 2,
+    "note": "Social and Economic gaps are inherent to arXiv's academic focus. These categories are better covered by WF1 (general) and WF3 (Naver News)."
+  },
+  "candidates": [],
+  "summary": "Source exploration skipped for WF2 (arXiv-only workflow). arXiv is the sole dedicated source. STEEPs gaps in Social and Economic categories are structural to academic preprint sources and addressed by other workflows."
+}

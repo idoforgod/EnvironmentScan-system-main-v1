@@ -1,0 +1,130 @@
+{
+  "engine_version": "1.4.0",
+  "computed_at": "2026-03-14T22:04:13Z",
+  "source_file": "wf3-naver/structured/classified-signals-2026-03-15.json",
+  "workflow_type": "naver",
+  "total_signals": 12,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 0,
+      "s": 0
+    },
+    "fssf": {
+      "Weak Signal": 0,
+      "Wild Card": 2,
+      "Discontinuity": 0,
+      "Driver": 2,
+      "Emerging Issue": 3,
+      "Precursor Event": 0,
+      "Trend": 3,
+      "Megatrend": 2
+    },
+    "horizons": {
+      "H1": 0,
+      "H2": 0,
+      "H3": 0
+    },
+    "tipping_point_alerts": {
+      "RED": {
+        "count": 1,
+        "signals": [
+          "Korea Officially Enters Super-Aged Society: 21.2% of Population Over 65"
+        ]
+      },
+      "ORANGE": {
+        "count": 1,
+        "signals": [
+          "North Korea Fires 10+ Ballistic Missiles During US-South Korea Freedom Shield Drills"
+        ]
+      },
+      "YELLOW": {
+        "count": 0,
+        "signals": []
+      },
+      "GREEN": {
+        "count": 10,
+        "signals": [
+          "Hormuz Strait Blockade Threatens Korean Economy: Oil Import Dependency at 95%, Gasoline Prices Surging",
+          "Korea Semiconductor Exports Shatter Records: $7.58B in First 10 Days of March (+175.9% YoY)",
+          "Government Announces 2.08 Trillion Won AI Computing Infrastructure Project",
+          "Korea-Japan Energy Security Cooperation: First Indo-Pacific Energy Minister Meeting in Tokyo",
+          "Samsung Semiconductor Technology Leak to China: 29 Billion Won Espionage Case Exposed",
+          "G7 Welcomes US Ceasefire Proposal for Russia-Ukraine War; Putin Signals Cautious Optimism",
+          "National Integrated Care System Launches Nationwide in March 2026",
+          "Lee Jae-myung Government's 728 Trillion Won Expansionary Budget Signals Fiscal Policy Shift",
+          "Glass Substrate Commercialization Race Intensifies: Korean Absolics/SKC vs Intel vs TSMC",
+          "Korean ARPA-H Launches 9 Medical Innovation R&D Projects in 2026"
+        ]
+      }
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "12",
+    "DOMAIN_DISTRIBUTION": "",
+    "TOP_PRIORITY_COUNT": "0",
+    "FSSF_WEAK_SIGNAL_COUNT": "0",
+    "FSSF_WEAK_SIGNAL_PCT": "0%",
+    "FSSF_WILD_CARD_COUNT": "2",
+    "FSSF_WILD_CARD_PCT": "17%",
+    "FSSF_DISCONTINUITY_COUNT": "0",
+    "FSSF_DISCONTINUITY_PCT": "0%",
+    "FSSF_DRIVER_COUNT": "2",
+    "FSSF_DRIVER_PCT": "17%",
+    "FSSF_EMERGING_ISSUE_COUNT": "3",
+    "FSSF_EMERGING_ISSUE_PCT": "25%",
+    "FSSF_PRECURSOR_COUNT": "0",
+    "FSSF_PRECURSOR_PCT": "0%",
+    "FSSF_TREND_COUNT": "3",
+    "FSSF_TREND_PCT": "25%",
+    "FSSF_MEGATREND_COUNT": "2",
+    "FSSF_MEGATREND_PCT": "17%",
+    "FSSF_DIST_WS_COUNT": "0",
+    "FSSF_DIST_WC_COUNT": "2",
+    "FSSF_DIST_DC_COUNT": "0",
+    "FSSF_DIST_DR_COUNT": "2",
+    "FSSF_DIST_EI_COUNT": "3",
+    "FSSF_DIST_PE_COUNT": "0",
+    "FSSF_DIST_TR_COUNT": "3",
+    "FSSF_DIST_MT_COUNT": "2",
+    "H1_COUNT": "0",
+    "H1_PCT": "0%",
+    "H2_COUNT": "0",
+    "H2_PCT": "0%",
+    "H3_COUNT": "0",
+    "H3_PCT": "0%",
+    "TIPPING_POINT_ALERT_SUMMARY": "| RED | 1 | Korea Officially Enters Super-Aged Society: 21.2% of Population Over 65 |\n| ORANGE | 1 | North Korea Fires 10+ Ballistic Missiles During US-South Korea Freedom Shield Drills |\n| GREEN | 10 | Hormuz Strait Blockade Threatens Korean Economy: Oil Import Dependency at 95%, Gasoline Prices Surging, Korea Semiconductor Exports Shatter Records: $7.58B in First 10 Days of March (+175.9% YoY), Government Announces 2.08 Trillion Won AI Computing Infrastructure Project and 7 |",
+    "SECTION_100_COUNT": "0",
+    "SECTION_101_COUNT": "0",
+    "SECTION_102_COUNT": "0",
+    "SECTION_103_COUNT": "0",
+    "SECTION_104_COUNT": "0",
+    "SECTION_105_COUNT": "0",
+    "CRAWL_DATETIME": "N/A",
+    "TOTAL_ARTICLES": "0",
+    "SN_RATIO": "N/A",
+    "CRAWL_STRATEGY_USED": "N/A",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "—",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "—",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "—",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "—",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "N/A",
+    "EVOLUTION_TABLE_WEAKENING": "N/A"
+  }
+}

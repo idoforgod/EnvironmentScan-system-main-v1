@@ -1,0 +1,169 @@
+{
+  "scan_date": "2026-03-15",
+  "workflow": "wf4-multiglobal-news",
+  "scan_window": {
+    "start": "2026-03-13T21:36:58Z",
+    "end": "2026-03-14T21:36:58Z",
+    "lookback_hours": 24
+  },
+  "classification_method": "STEEPs_6_category_with_FSSF",
+  "total_signals": 12,
+  "signals": [
+    {
+      "id": "news-20260315-bloom-001",
+      "title": "US Withdraws Global AI Chip Export Permit Rule — Deregulation Reversal",
+      "steeps_category": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-03-14/us-withdraws-draft-rule-that-called-for-global-ai-chip-permits", "published_date": "2026-03-14", "language": "en", "region": "US"},
+      "content": {"abstract": "US Commerce Department withdraws draft regulation requiring global permits for AI chip exports. OMB website confirms interagency review concluded and measure withdrawn. Major reversal from Biden-era AI export controls. Signals Trump administration's deregulatory approach to AI competitiveness.", "keywords": ["AI chips", "export controls", "deregulation", "Commerce Department", "AI governance"], "language": "en"},
+      "signal_impact_scores": {"political": 9.0, "technological": 8.5, "economic": 8.0},
+      "confidence": 0.95
+    },
+    {
+      "id": "news-20260315-npr-001",
+      "title": "US Strikes Obliterate Iran's Kharg Island Oil Terminal — 90% of Iran's Exports at Risk",
+      "steeps_category": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "source": {"name": "NPR", "url": "https://www.npr.org/sections/world/", "published_date": "2026-03-14", "language": "en", "region": "US"},
+      "content": {"abstract": "President Trump confirmed US military 'totally obliterated' military targets on Kharg Island, Iran's primary oil export terminal handling 90% of Iran's crude exports. Strikes mark major escalation in US-Iran conflict. All 6 crew members of US refueling plane lost in western Iraq.", "keywords": ["Iran", "Kharg Island", "oil terminal", "US military", "Middle East conflict"], "language": "en"},
+      "signal_impact_scores": {"political": 9.5, "economic": 9.0, "environmental": 6.0},
+      "confidence": 0.96
+    },
+    {
+      "id": "news-20260315-envlink-001",
+      "title": "Record March Heat Wave in Western US: Arizona/California 90F+ as Heat Dome Expands",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "source": {"name": "EnviroLink", "url": "https://www.envirolink.org/2026/03/14/", "published_date": "2026-03-14", "language": "en", "region": "US"},
+      "content": {"abstract": "Unprecedented March temperatures reaching 90s F across Arizona and California as heat dome expands northward. Threatens western water supply already under stress. Record early-season heat consistent with accelerating climate change trajectory.", "keywords": ["heat wave", "climate change", "western water crisis", "Arizona", "California"], "language": "en"},
+      "signal_impact_scores": {"environmental": 9.0, "social": 7.0, "economic": 6.0},
+      "confidence": 0.92
+    },
+    {
+      "id": "news-20260315-windeur-001",
+      "title": "WindEurope: Hormuz Crisis Proves Europe Must Shift to Renewable Electricity Now",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "source": {"name": "WindEurope/Green Energy Times", "url": "https://greenenergytimes.org/2026/03/march-14-green-energy-news/", "published_date": "2026-03-14", "language": "en", "region": "EU"},
+      "content": {"abstract": "WindEurope calls for rapid shift to home-grown renewable electricity after Hormuz Strait closure. Organization states disruption highlights Europe's dangerous dependence on unreliable fossil fuel imports. Ørsted's Revolution Wind now generating power, providing enough electricity for 350,000+ homes.", "keywords": ["WindEurope", "renewable energy", "Hormuz", "energy independence", "Ørsted"], "language": "en"},
+      "signal_impact_scores": {"environmental": 8.5, "economic": 7.5, "political": 7.0},
+      "confidence": 0.91
+    },
+    {
+      "id": "news-20260315-xinhua-001",
+      "title": "China's 15th Five-Year Plan Approved at NPC: Clean Energy Investment as Oil Hedge",
+      "steeps_category": "P_Political",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H2",
+      "source": {"name": "Xinhua/SCMP", "url": "https://www.fmprc.gov.cn/eng/wjbzhd/202603/t20260308_11870805.html", "published_date": "2026-03-14", "language": "zh/en", "region": "China"},
+      "content": {"abstract": "China's NPC closing session approves 15th Five-Year Plan with massive clean energy investment. China's existing clean energy investments already shielding economy from global oil volatility. EV market share exceeds 50%. Climate watchers monitoring whether plan accelerates decarbonization timeline.", "keywords": ["China", "Five-Year Plan", "clean energy", "NPC", "decarbonization"], "language": "zh"},
+      "signal_impact_scores": {"political": 8.5, "economic": 8.0, "environmental": 8.0},
+      "confidence": 0.93
+    },
+    {
+      "id": "news-20260315-eu-001",
+      "title": "EU Digital Omnibus 'Stop-the-Clock': High-Risk AI Compliance Delayed to 2027-2028",
+      "steeps_category": "P_Political",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {"name": "EU Commission/Wilson Sonsini", "url": "https://www.wsgr.com/en/insights/2026-year-in-preview-ai-regulatory-developments-for-companies-to-watch-out-for.html", "published_date": "2026-03-14", "language": "en", "region": "EU"},
+      "content": {"abstract": "EU's Digital Omnibus introduces 'Stop-the-Clock' mechanism pausing high-risk AI system compliance deadline from 2026 to late 2027-2028. Technical standards not finalized. Signals EU recognition that AI Act implementation timeline was overly ambitious. UK publishing AI copyright reports by March 18.", "keywords": ["EU AI Act", "Digital Omnibus", "AI regulation", "compliance delay", "high-risk AI"], "language": "en"},
+      "signal_impact_scores": {"political": 8.0, "technological": 7.5, "economic": 6.0},
+      "confidence": 0.91
+    },
+    {
+      "id": "news-20260315-who-001",
+      "title": "US Withdraws from WHO: Global Pandemic Preparedness Framework at Risk",
+      "steeps_category": "S_Social",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "source": {"name": "WHO/Science Survey", "url": "https://thesciencesurvey.com/news/2026/03/13/u-s-withdraws-from-the-world-health-organization/", "published_date": "2026-03-13", "language": "en", "region": "Global"},
+      "content": {"abstract": "US withdraws from WHO, threatening pandemic preparedness framework built after COVID-19. Raises critical questions about scientific collaboration, funding, and international health governance. Funding shifting from health to defense globally. WHO launched Pandemic Agreement in 2025 but lacks US participation.", "keywords": ["WHO withdrawal", "pandemic preparedness", "global health", "US isolationism", "health governance"], "language": "en"},
+      "signal_impact_scores": {"social": 9.0, "political": 8.0},
+      "confidence": 0.94
+    },
+    {
+      "id": "news-20260315-africa-001",
+      "title": "Ethiopia Landslides Kill 102+: Climate Disasters Intensifying in East Africa",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "source": {"name": "AFP/Wikipedia Current Events", "url": "https://en.wikipedia.org/wiki/Portal:Current_events", "published_date": "2026-03-14", "language": "en", "region": "Africa"},
+      "content": {"abstract": "At least 102 killed in series of landslides in Gamo Zone, Ethiopia. One person rescued alive. In Central African Republic, 8 killed in artisanal mine collapse. Both events reflect increasing climate vulnerability and infrastructure weakness in Sub-Saharan Africa.", "keywords": ["Ethiopia", "landslides", "climate disaster", "Africa", "infrastructure"], "language": "en"},
+      "signal_impact_scores": {"environmental": 8.0, "social": 8.0},
+      "confidence": 0.90
+    },
+    {
+      "id": "news-20260315-luft-001",
+      "title": "Lufthansa Pilot Strike: 48-Hour Walkout Grounds All German Airport Departures",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "source": {"name": "Reuters/DW", "url": "https://www.npr.org/sections/world/", "published_date": "2026-03-14", "language": "en/de", "region": "EU"},
+      "content": {"abstract": "Lufthansa pilot union announces 48-hour strike grounding all flights departing German airports through Saturday. Dispute centers on pension provisions. Major disruption to European aviation hub during already stressed travel period due to Middle East conflict rerouting.", "keywords": ["Lufthansa", "pilot strike", "German aviation", "pension dispute", "labor action"], "language": "de"},
+      "signal_impact_scores": {"economic": 7.5, "social": 6.0},
+      "confidence": 0.91
+    },
+    {
+      "id": "news-20260315-bnef-001",
+      "title": "Global Solar/Wind Installations Hit 800 GW Record in 2025; Growth Plateauing in 2026",
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "source": {"name": "BloombergNEF", "url": "https://about.bnef.com/insights/clean-energy/progress-despite-fragmentation-the-energy-transition-to-2030/", "published_date": "2026-03-14", "language": "en", "region": "Global"},
+      "content": {"abstract": "Global solar and wind installations exceeded 800 GW in 2025, tripling since 2021. However, installations expected to be flat in 2026 before modest growth to 2030. EV sales now exceed 25% of global car sales, projected 40% by 2030. China leading with 50%+ EV share.", "keywords": ["solar", "wind", "renewable energy", "EV sales", "clean energy transition"], "language": "en"},
+      "signal_impact_scores": {"environmental": 8.5, "economic": 7.0, "technological": 7.0},
+      "confidence": 0.93
+    },
+    {
+      "id": "news-20260315-unctad-001",
+      "title": "UNCTAD: Trump Tariffs End 25-Year AGOA Trade Preferences for Africa",
+      "steeps_category": "E_Economic",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "source": {"name": "UNCTAD", "url": "https://unctad.org/news/10-trends-shaping-global-trade-2026", "published_date": "2026-03-14", "language": "en", "region": "Global"},
+      "content": {"abstract": "Trump's 'Liberation Day' tariffs hit leading AGOA beneficiaries hard, signaling end to 25 years of preferential US trade terms for Africa. Africa and Latin America deepening China trade ties (12.3% of LAC exports). ECLAC projects 2.3% LAC growth for 2026. UN reports Africa growth at 4.0% for 2026.", "keywords": ["AGOA", "tariffs", "Africa trade", "Latin America", "China trade"], "language": "en"},
+      "signal_impact_scores": {"economic": 8.5, "political": 8.0, "social": 6.0},
+      "confidence": 0.92
+    },
+    {
+      "id": "news-20260315-nature-001",
+      "title": "Nature Editorial: 2026 Must Be Year World Comes Together for AI Safety",
+      "steeps_category": "s_spiritual",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "source": {"name": "Nature", "url": "https://www.nature.com/articles/d41586-025-04106-0", "published_date": "2026-03-14", "language": "en", "region": "Global"},
+      "content": {"abstract": "Nature editorial calls for global cooperation on AI safety in 2026. Notes US deregulation (AI chip export rule withdrawal) creates governance vacuum. EU pausing AI Act compliance deadlines. UK publishing AI copyright reports. No single jurisdiction providing comprehensive AI governance framework.", "keywords": ["AI safety", "global cooperation", "governance", "Nature editorial", "regulation gap"], "language": "en"},
+      "signal_impact_scores": {"spiritual": 8.0, "political": 7.0, "technological": 7.0},
+      "confidence": 0.89
+    }
+  ],
+  "steeps_distribution": {
+    "S_Social": 1,
+    "T_Technological": 0,
+    "E_Economic": 2,
+    "E_Environmental": 4,
+    "P_Political": 4,
+    "s_spiritual": 1
+  },
+  "fssf_distribution": {
+    "Weak Signal": 1,
+    "Wild Card": 2,
+    "Discontinuity": 2,
+    "Driver": 1,
+    "Emerging Issue": 2,
+    "Precursor Event": 2,
+    "Trend": 1,
+    "Megatrend": 1
+  },
+  "tipping_point_alerts": {
+    "RED": 0,
+    "ORANGE": 1,
+    "YELLOW": 2,
+    "GREEN": 9
+  }
+}

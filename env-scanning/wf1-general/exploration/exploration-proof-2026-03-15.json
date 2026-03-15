@@ -1,0 +1,51 @@
+{
+  "date": "2026-03-15",
+  "gate_id": "EG-2026-03-15-wf1",
+  "gate_decision": "PASS",
+  "execution_status": "completed",
+  "exploration_date": "2026-03-15",
+  "workflow": "wf1-general",
+  "stage_c_executed": true,
+  "execution_proof": {
+    "started_at": "2026-03-14T21:40:00Z",
+    "completed_at": "2026-03-14T21:55:00Z",
+    "method": "agent-team",
+    "frontiers_evaluated": 2,
+    "candidates_tested": 3,
+    "candidates_viable": 1,
+    "time_budget_minutes": 40,
+    "actual_minutes": 15
+  },
+  "coverage_analysis": {
+    "steeps_gaps": ["S_Social"],
+    "gap_threshold": 0.15,
+    "gap_categories_found": 1
+  },
+  "candidates": [
+    {
+      "source_name": "Foreign Policy Magazine",
+      "url": "https://foreignpolicy.com",
+      "status": "tested",
+      "signals_found": 2,
+      "viable": true,
+      "steeps_focus": ["P_Political", "E_Economic"]
+    },
+    {
+      "source_name": "WHO Global Health Observatory",
+      "url": "https://www.who.int/data/gho",
+      "status": "tested",
+      "signals_found": 0,
+      "viable": false,
+      "steeps_focus": ["S_Social"]
+    },
+    {
+      "source_name": "ILO World Employment",
+      "url": "https://www.ilo.org",
+      "status": "tested",
+      "signals_found": 1,
+      "viable": false,
+      "steeps_focus": ["S_Social"]
+    }
+  ],
+  "summary": "Stage C exploration tested 3 candidate sources. Foreign Policy Magazine identified as viable (2 signals). WHO and ILO tested for Social category gap coverage but insufficient signal yield. Social category remains a gap for future exploration."
+}
